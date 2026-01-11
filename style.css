@@ -1,0 +1,460 @@
+/*
+ * THE FIWO LANGUAGE INTERFACE
+ * Copyright (c) 2026 Joshua Leon Arkema Barends
+ * This code is part of the Fiwo Language project.
+ * Source Code License: CC BY 4.0 (Attribution Required)
+ */
+
+:root {
+    --bg-color: #0b0b0b; /* Slightly lighter than pure black for less eye strain */
+    --card-bg: #161616;
+    --text-color: #e0e0e0;
+    --text-muted: #a0a0a0;
+
+    --deep-purple: #321865; /* Slightly brighter for visibility */
+    --dark-green: #103f00;
+    --green: #3f9022;
+    --blue: #2949e6;
+    --red: #cf1b1b;
+
+    --border-radius: 16px;
+    --font-main: 'Inter', sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.7; /* Better readability */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Typography Enhancements --- */
+h1, h2, h3, h4 {
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+    color: white;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 2px solid var(--green);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: var(--green);
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: #c6c6c6;
+    margin-top: 1.5rem;
+}
+
+p {
+    margin-bottom: 1.2rem;
+    max-width: 800px; /* Prevents lines from being too long to read */
+}
+
+/* Make Fiwo words/code look like code */
+code {
+    font-family: var(--font-code);
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 6px;
+    color: #ff9e64; /* A nice orange for code highlighting */
+    font-size: 0.9em;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--text-muted);
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin: 2rem 0;
+}
+
+/* --- Layout --- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(135deg, var(--dark-green), #051600);
+    margin: 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+main {
+    flex: 1;
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px; /* Centers content on large screens */
+}
+
+.page {
+    display: none;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.page.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Navigation --- */
+.menu-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--deep-purple);
+    border: 3px solid white;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 50%;
+    z-index: 101;
+}
+
+.menu-btn span {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.side-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #0e0e0e;
+    border-left: 1px solid #333;
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 2rem;
+    z-index: 100;
+    box-shadow: -5px 0 20px rgba(0,0,0,0.7);
+}
+
+.side-nav.active {
+    transform: translateX(0);
+}
+
+.side-nav ul { list-style: none; }
+
+.side-nav a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    padding: 1rem;
+    border-radius: 12px;
+    transition: all 0.2s;
+    font-weight: 600;
+}
+
+.side-nav a:hover {
+    background-color: var(--deep-purple);
+    color: white;
+    padding-left: 1.5rem; /* Slide effect */
+}
+
+/* --- Special Sections --- */
+.highlight-box, .rule-block, .license-container {
+    background-color: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Lists styling */
+ul, ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* --- Tables --- */
+.table-wrapper {
+    overflow-x: auto;
+    border-radius: var(--border-radius);
+    margin-bottom: 2rem;
+}
+
+.phonetics-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--card-bg);
+    min-width: 500px;
+}
+
+.phonetics-table th {
+    background-color: var(--deep-purple);
+    color: white;
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+}
+
+.phonetics-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+.phonetics-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* --- Dictionary --- */
+.dictionary-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    background: var(--card-bg);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}
+
+#search-bar, #sort-by {
+    padding: 0.8rem;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background-color: var(--bg-color);
+    color: white;
+    font-family: var(--font-main);
+    font-size: 1rem;
+}
+
+#search-bar { flex: 1; }
+#search-bar:focus { outline: 2px solid var(--blue); }
+
+.dictionary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Better responsive grid */
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid #222;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    position: relative;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    border-color: #444;
+}
+
+.pos-dot {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.fiwo-word {
+    font-family: var(--font-code);
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 0.2rem;
+    letter-spacing: -0.5px;
+}
+
+/* --- Stories --- */
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.story-card {
+    background: linear-gradient(180deg, var(--card-bg), #0f0f0f);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.read-btn {
+    background-color: var(--green);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.read-btn:hover { opacity: 0.9; }
+
+.story-content {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    font-size: 0.9rem;
+    border-top: 1px solid #222;
+    margin-top: auto;
+}
+
+/* --- Mobile Optimization --- */
+@media (max-width: 768px) {
+    /* Adjust container padding so content isn't squashed */
+    main {
+        padding: 1rem;
+    }
+
+    header {
+        padding: 1rem; /* Smaller header padding */
+    }
+
+    h2 {
+        font-size: 1.5rem; /* Smaller headings to prevent wrapping */
+    }
+
+    /* FIX: Make dictionary cards 1 column and stretch to fit */
+    .dictionary-grid {
+        grid-template-columns: 1fr; /* Force single column */
+    }
+
+    .card {
+        min-width: 0; /* Prevents overflow issues */
+    }
+
+    /* Stack the search bar and sort buttons nicely */
+    .dictionary-controls {
+        flex-direction: column;
+    }
+
+    #search-bar, #sort-by {
+        width: 100%; /* Full width for easy tapping */
+    }
+
+    /* Adjust the side menu to not cover the whole screen on tiny phones */
+    .side-nav {
+        width: 85%; /* Uses percentage instead of fixed px */
+        max-width: 300px;
+    }
+    
+    /* Make story cards look better on mobile */
+    .stories-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- Modal --- */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    margin: 5% auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    border-radius: var(--border-radius);
+    max-height: 80%;
+    overflow: hidden;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #333;
+}
+
+.modal-header h2 {
+    color: var(--green);
+    margin: 0;
+}
+
+.close {
+    color: var(--text-muted);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.close:hover {
+    color: white;
+}
+
+.modal-body {
+    padding: 1.5rem;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+        margin: 2% auto;
+        max-height: 90%;
+    }
+    .modal-body {
+        max-height: 70vh;
+    }
+}

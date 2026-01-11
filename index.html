@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joshua Leon Arkema Barends">
+    <meta name="copyright" content="Joshua Leon Arkema Barends, 2026">
+    <meta name="license" content="CC BY 4.0">
+    <title>Fiwo - Constructed Language</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="menu-btn" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <nav id="side-nav" class="side-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#phonetics">Phonetics</a></li>
+            <li><a href="#rules">Rules</a></li>
+            <li><a href="#dictionary">Dictionary</a></li>
+            <li><a href="#lets-read">Let's Read</a></li>
+            <li><a href="#license">License</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home" class="page active">
+            <h2>About Fiwo</h2>
+            <h1>A Deterministic Language for Precise Thought, Human Communication, and Artificial Intelligence</h1>
+            <p>Fiwo is a constructed language engineered as a precision communication system rather than a natural or artistic language. Its purpose is to eliminate structural ambiguity, reduce interpretive guesswork, and make meaning explicit, inspectable, and deterministic. When used according to its rules, especially in Strict Mode, every valid Fiwo sentence yields exactly one syntactic interpretation.</p>
+            <p>Fiwo treats language as an interface:</p>
+            <p>an interface between human minds, between humans and machines, and between abstract thought and formal expression.</p>
+            <p>Rather than relying on inference, shared cultural assumptions, or pragmatic ambiguity, Fiwo encodes grammatical roles, hierarchy, and scope directly into its surface structure. Meaning is not guessed—it is declared.</p>
+            <h2>Design Philosophy</h2>
+            <h3>Precision Without Excess: A Deliberate Balance Between Human and Machine</h3>
+            <p>Fiwo is designed around a single guiding objective:</p>
+            <p>to achieve deterministic precision without sacrificing learnability or practical use.</p>
+            <p>Absolute precision in language is easy to pursue—and equally easy to overdo. Systems that attempt to encode every nuance explicitly often become dense, fragile, and inaccessible to real users. At the other extreme, natural languages prioritize flexibility and expressiveness but rely heavily on ambiguity, inference, and shared context, which limits their reliability in technical, global, or machine-mediated communication.</p>
+            <p>Fiwo exists to walk the narrow path between these extremes.</p>
+            <h4>1. Determinism Over Interpretation</h4>
+            <p>Fiwo replaces interpretive guesswork with explicit structure. Meaning is not inferred from context, speaker intent, or cultural convention; it is encoded directly in the sentence form.</p>
+            <p>In Fiwo, grammatical roles, hierarchy, and scope are structurally visible. When used in Strict Mode, every valid sentence produces exactly one syntactic parse tree. If multiple interpretations are possible, the sentence is considered structurally incomplete and must be rewritten.</p>
+            <p>This ensures that meaning is declared, not negotiated.</p>
+            <h4>2. Separation of Meaning and Structure</h4>
+            <p>Fiwo enforces a strict division between:</p>
+            <ul>
+                <li>Lexical meaning (what a word refers to), and</li>
+                <li>Structural function (how words relate to each other).</li>
+            </ul>
+            <p>Lexical certainty is encoded through functional vowels that define word category. Structural certainty is encoded through a small, closed set of grammatical markers that control hierarchy and scope.</p>
+            <p>This separation prevents semantic drift, stabilizes the grammar over time, and allows meaning to scale in complexity without increasing ambiguity.</p>
+            <h4>3. Precision Through Structure, Not Proliferation</h4>
+            <p>Rather than increasing precision by adding layers of inflection, cases, or specialized particles, Fiwo achieves clarity through minimal but mandatory structure.</p>
+            <p>A small number of structural markers—used consistently—provide the same disambiguating power as far more complex grammatical systems. This avoids the common failure mode of precision languages: becoming theoretically exact but practically unusable.</p>
+            <p>In Fiwo, complexity is allowed only when it produces measurable clarity.</p>
+            <h4>4. Minimalism With Depth</h4>
+            <p>Fiwo’s minimalism is not expressive limitation. Depth is achieved through controlled derivation and compositional rules, not through an ever-expanding lexicon or irregular forms.</p>
+            <p>A compact core vocabulary supports:</p>
+            <ul>
+                <li>technical expansion</li>
+                <li>domain-specific terminology</li>
+                <li>and precise conceptual layering</li>
+            </ul>
+            <h4>5. Learnability as a Design Constraint</h4>
+            <p>Learnability is treated as a hard requirement, not a secondary benefit.</p>
+            <p>Fiwo removes many of the obstacles that make natural languages difficult:</p>
+            <ul>
+                <li>irregular morphology,</li>
+                <li>hidden grammatical agreement,</li>
+                <li>exception-based rules,</li>
+                <li>context-dependent word classes.</li>
+            </ul>
+            <p>Once the core rules are learned, they apply universally. Progress comes from understanding structure rather than memorizing exceptions.</p>
+            <h4>6. Bridging Human and Machine Constraints</h4>
+            <p>Humans favor rhythm, pattern reuse, and predictable structure.</p>
+            <p>Machines require explicit markers, deterministic rules, and unambiguous scope.</p>
+            <p>Fiwo is engineered at the intersection of these needs. Its phonology, morphology, and syntax are designed to remain intuitive for human speakers while being fully machine-parseable without heuristic interpretation.</p>
+            <p>Rather than optimizing for one at the expense of the other, Fiwo treats both humans and machines as first-class users of the language.</p>
+            <h4>The Result</h4>
+            <p>Fiwo is neither a natural language nor a programming language.</p>
+            <p>It is a precision protocol for meaning—a system that enforces clarity while remaining usable, learnable, and scalable.</p>
+            <p>By consciously limiting complexity and insisting on structural transparency, Fiwo demonstrates that precision and practicality are not opposing goals, but outcomes of intentional design.</p>
+            <h2>Phonological Design and Global Accessibility</h2>
+            <p>Fiwo’s phonetic inventory was selected based on global prevalence, perceptual distinctness, and combinatory power.</p>
+            <ul>
+                <li>Phonemes were chosen from sounds that appear widely across the world’s major language families.</li>
+                <li>The system avoids rare, unstable, or highly language-specific contrasts.</li>
+                <li>Sounds were selected not only individually, but also for their ability to combine into phoneme sequences that naturally occur in many unrelated languages.</li>
+            </ul>
+            <p>The result is a phonology that feels familiar across linguistic backgrounds while remaining internally consistent.</p>
+            <p>Fiwo uses:</p>
+            <ul>
+                <li>a defined syllable structure (C)(C)(C)V,</li>
+                <li>no tone system,</li>
+                <li>no mandatory stress rules,</li>
+                <li>direct sound-to-symbol mapping in orthography.</li>
+            </ul>
+            <p>What you see is what you say.</p>
+            <p>This makes Fiwo:</p>
+            <ul>
+                <li>easy to pronounce,</li>
+                <li>resilient to accent variation,</li>
+                <li>and robust in noisy or imperfect transmission.</li>
+            </ul>
+            <h2>Why Fiwo Is Easier to Learn Than Natural Languages</h2>
+            <p>Fiwo removes many of the obstacles that make natural languages difficult:</p>
+            <ul>
+                <li>No irregular verbs</li>
+                <li>No grammatical exceptions</li>
+                <li>No silent letters</li>
+                <li>No hidden agreement rules</li>
+                <li>No context-dependent word classes</li>
+            </ul>
+            <p>Instead, learners benefit from:</p>
+            <ul>
+                <li>predictable morphology,</li>
+                <li>visible grammatical roles,</li>
+                <li>a small, structured core vocabulary,</li>
+                <li>and logical derivation rather than memorization.</li>
+            </ul>
+            <p>Once the rules are learned, they apply universally. Mastery comes from understanding structure, not accumulating exceptions.</p>
+            <h2>Who Fiwo Is For</h2>
+            <p>Fiwo is designed for:</p>
+            <ul>
+                <li>Learners who want a language that rewards clarity and logical thinking</li>
+                <li>AI researchers and developers who need deterministic, machine-safe language input</li>
+                <li>Engineers and system designers working with formal specifications or protocols</li>
+                <li>Writers and worldbuilders seeking a language that can support precise, internally consistent systems</li>
+                <li>Philosophers and theorists interested in language as a tool for thought</li>
+            </ul>
+            <h2>Example: Why Structure Matters</h2>
+            <p>Natural language:</p>
+            <blockquote>
+                <p>“I saw the man with the telescope.”</p>
+            </blockquote>
+            <p>Multiple interpretations are possible.</p>
+            <p>Fiwo (Strict Mode):</p>
+            <p>Structure and scope are explicitly encoded, allowing only one valid reading. Any alternative interpretation must be structurally rewritten, making ambiguity impossible by design.</p>
+            <h2>In Summary</h2>
+            <p>Fiwo is a language for those who want control over meaning, not negotiation with it.</p>
+            <p>By enforcing clarity at every level—from sound, to word, to sentence structure—it transforms language into a reliable tool for exact thought, human communication, and machine interaction.</p>
+            <h3>Cite this Language:</h3>
+            <p>Barends, J. L. A. (2026). The Fiwo Language: A Precision Protocol for Human and AI. Potchefstroom, South Africa.</p>
+        </section>
+        <section id="phonetics" class="page">
+            <h2>Phonetics</h2>
+            <p>Phonetics were chosen on their prevalence in the world languages and their distinctness from each other. Stress has no grammatical or semantic function.</p>
+
+            <h3>Stops (Plosives) 6</h3>
+            <table class="phonetics-table">
+                <thead>
+                    <tr>
+                        <th>IPA Symbol</th>
+                        <th>Assigned Key</th>
+                        <th>Examples</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>/p/</td><td>p</td><td>"pat" (Eng), "pan" (Spa)</td><td>Absent in Standard Arabic (uses /b/); often unaspirated in Mandarin.</td></tr>
+                    <tr><td>/b/</td><td>b</td><td>"bat" (Eng), "bebé" (Spa)</td><td>Absent in Mandarin (uses unaspirated /p/); merged with /v/ in Spanish.</td></tr>
+                    <tr><td>/t/</td><td>t</td><td>"top" (Eng), "tío" (Spa)</td><td>Universal. Dental in Romance/Indo-Aryan; Alveolar in English/Mandarin.</td></tr>
+                    <tr><td>/d/</td><td>d</td><td>"dog" (Eng), "dos" (Spa)</td><td>Absent in Mandarin (uses unaspirated /t/).</td></tr>
+                    <tr><td>/k/</td><td>k</td><td>"cat" (Eng), "casa" (Spa)</td><td>Universal voiceless velar stop.</td></tr>
+                    <tr><td>/g/</td><td>g</td><td>"go" (Eng), "gato" (Spa)</td><td>Absent in Mandarin; marginal/dialectal in Standard Arabic.</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Nasals 3</h3>
+            <table class="phonetics-table">
+                <thead>
+                    <tr>
+                        <th>IPA Symbol</th>
+                        <th>Assigned Key</th>
+                        <th>Examples</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>/m/</td><td>m</td><td>"man" (Eng), "mano" (Spa)</td><td>Universal bilabial nasal.</td></tr>
+                    <tr><td>/n/</td><td>n</td><td>"no" (Eng), "no" (Spa)</td><td>Universal alveolar/dental nasal.</td></tr>
+                    <tr><td>/ŋ/</td><td>nn</td><td>"sing" (Eng)</td><td>Phonemic in English, Mandarin, Hindi, Bengali, Urdu. Allophonic in Spanish.</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Fricatives 9</h3>
+            <table class="phonetics-table">
+                <thead>
+                    <tr>
+                        <th>IPA Symbol</th>
+                        <th>Assigned Key</th>
+                        <th>Examples</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>/f/</td><td>f</td><td>"fan" (Eng), "fin" (Spa)</td><td>Universal labiodental fricative.</td></tr>
+                    <tr><td>/v/</td><td>v</td><td>"vest" (Eng), "vin" (Fre), "vida" (Por)</td><td>Voiced labiodental fricative. The voiced counterpart to /f/. Absent in Mandarin and Standard Spanish, but highly prevalent globally.</td></tr>
+                    <tr><td>/s/</td><td>s</td><td>"see" (Eng), "sí" (Spa)</td><td>Universal sibilant.</td></tr>
+                    <tr><td>/z/</td><td>z</td><td>"zoo" (Eng)</td><td>Absent in Mandarin (affricate only), Spanish (allophone), and Bengali.</td></tr>
+                    <tr><td>/ʃ/ (sh)</td><td>c</td><td>"she" (Eng)</td><td>Absent in standard Spanish; pervasive in others.</td></tr>
+                    <tr><td>/h/</td><td>h</td><td>"hat" (Eng)</td><td>Absent in French, Spanish, Russian (/x/), and Portuguese.</td></tr>
+                    <tr><td>/x/ (kh)</td><td>x</td><td>"México" (Spa), "Loch" (Eng)</td><td>Velar fricative; found in Spanish, Mandarin, Arabic, Russian, and Urdu.</td></tr>
+                    <tr><td>/tʃ/ (ch)</td><td>q</td><td>"chat" (Eng), "mucho" (Spa), "chi" (Man)</td><td>Voiceless postalveolar affricate. A very common sound globally that bridges the gap between /t/ and /ʃ/.</td></tr>
+                    <tr><td>/ʒ/ (zh)</td><td>y</td><td>"vision" (Eng)</td><td>Found in English, French, Portuguese, Russian, and Urdu.</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Approximants 4</h3>
+            <table class="phonetics-table">
+                <thead>
+                    <tr>
+                        <th>IPA Symbol</th>
+                        <th>Assigned Key</th>
+                        <th>Examples</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>/l/</td><td>l</td><td>"let" (Eng), "lo" (Spa)</td><td>Universal lateral.</td></tr>
+                    <tr><td>/r/</td><td>r</td><td>"red" (Eng), "pero" (Spa)</td><td>Broad category covering trills (Spanish/Russian), taps (Hindi), and approximants (English).</td></tr>
+                    <tr><td>/w/</td><td>w</td><td>"wet" (Eng)</td><td>Distinct in English, Mandarin, Arabic, French. Allophonic/Diphthong in others.</td></tr>
+                    <tr><td>/j/</td><td>j</td><td>"yes" (Eng), "yo" (Spa)</td><td>Universal palatal glide.</td></tr>
+                </tbody>
+            </table>
+
+            <h3>Vowels 6</h3>
+            <table class="phonetics-table">
+                <thead>
+                    <tr>
+                        <th>IPA Symbol</th>
+                        <th>Assigned Key</th>
+                        <th>Examples</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>/i/</td><td>i</td><td>"see" (Eng), "sí" (Spa)</td><td>Universal high front vowel.</td></tr>
+                    <tr><td>/e/</td><td>e</td><td>"tres" (Spa)</td><td>Mid front vowel. Absent in Standard Arabic (uses /i, a, u/).</td></tr>
+                    <tr><td>/a/</td><td>a</td><td>"father" (Eng), "casa" (Spa)</td><td>Universal low vowel.</td></tr>
+                    <tr><td>/o/</td><td>o</td><td>"go" (Eng), "no" (Spa)</td><td>Mid back vowel. Absent in Standard Arabic.</td></tr>
+                    <tr><td>/u/</td><td>u</td><td>"boot" (Eng), "tú" (Spa)</td><td>Universal high back vowel.</td></tr>
+                    <tr><td>/ə/</td><td>ii</td><td>"about" (Eng)</td><td>Schwa; the "neutral" vowel of English, Mandarin, Hindi, Russian, French, and Portuguese.</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="rules" class="page">
+            <h2>Rules of Fiwo</h2>
+            <h3>I. Phonology &amp; Word Construction</h3>
+            <h4>Rule 1: Phonetic Inventory</h4>
+            <p>Fiwo uses a fixed, closed set of phonemes chosen for global prevalence and perceptual distinctness.</p>
+            <p><strong>Consonants:</strong></p>
+            <p><code>p</code>, <code>b</code>, <code>t</code>, <code>d</code>, <code>k</code>, <code>g</code>,  <code>m</code>, <code>n</code>, <code>nn</code>, <code>f</code>, <code>v</code>, <code>s</code>, <code>z</code>, <code>c</code>,<code>y</code>, <code>h</code>, <code>x</code>, <code>q</code>, <code>l</code>, <code>r</code>, <code>w</code>, <code>j</code></p>
+            <p><strong>Vowels:</strong></p>
+            <p><code>i</code>, <code>e</code>, <code>a</code>, <code>o</code>, <code>u</code>, <code>ii</code></p>
+            <p><strong>Orthography:</strong></p>
+            <ul>
+                <li>Words are written exactly as they are pronounced.</li>
+                <li>Each phoneme maps to exactly one written form.</li>
+                <li>Proper nouns may be imported from other languages and adapted to the closest Fiwo phonemes if necessary.</li>
+                <li>No capitalization is used except for proper nouns.</li>
+            </ul>
+            <h4>Rule 2: Syllable and Word Shape</h4>
+            <ul>
+                <li>Every word <strong>must begin with a consonant and end with a vowel</strong>.</li>
+                <li>Up to <strong>3 consecutive consonants</strong> and <strong>2 consecutive vowels</strong> may occur internally.</li>
+                <li>Only <strong>grammar particles</strong> may violate internal structure constraints if explicitly listed.</li>
+            </ul>
+            <h3>II. Morphological Transparency (The Data Layer)</h3>
+            <h4>Rule 3: Functional Vowels (Word Categories)</h4>
+            <p>The <strong>final vowel</strong> of a word <em>unambiguously</em> determines its category.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ending</th>
+                        <th>Category</th>
+                        <th>Function</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>-a</code>, <code>-o</code>, <code>-u</code></td>
+                        <td><strong>Noun</strong></td>
+                        <td>Entities, objects, abstract things</td>
+                    </tr>
+                    <tr>
+                        <td><code>-i</code></td>
+                        <td><strong>Verb</strong></td>
+                        <td>Actions, processes, states</td>
+                    </tr>
+                    <tr>
+                        <td><code>-e</code></td>
+                        <td><strong>Modifier</strong></td>
+                        <td>Adjectives and adverbs</td>
+                    </tr>
+                    <tr>
+                        <td><code>-ii</code></td>
+                        <td><strong>Preposition</strong></td>
+                        <td>Relations between entities or actions</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>A word’s category is always recoverable <strong>without context</strong>.</p>
+            <h4>Rule 4: Derivation (Category Shifting)</h4>
+            <p>Words may change category by changing their final vowel <strong>without changing the root meaning</strong>. This is done by adding a vowel to the end.</p>
+            <h4>Anything(Except propositions) → verb: add <code>i</code></h4>
+            <p><strong><code>batu</code></strong> (Food) → <strong><code>batui</code></strong> (To eat)</p>
+            <h4>Anything → Modifier: add <code>e</code></h4>
+            <p><strong><code>beati</code></strong> (Close) → <strong><code>beatie</code></strong> (Closed)</p>
+            <p><strong><code>nii</code></strong> (Near) → <strong><code>niie</code></strong> (Nearby)</p>
+            <h4>Verb → noun: add <code>o</code></h4>
+            <p><strong><code>naqi</code></strong> (Work) → <strong><code>naqio</code></strong> (The work / The job)</p>
+            <h4>Modifier → noun: add <code>a</code></h4>
+            <h4>Preposition Derivation</h4>
+            <ul>
+                <li>Preposition → noun: add <code>o</code></li>
+                <li>Preposition → modifier: add <code>e</code></li>
+                <li>Note that prepositions can not become verbs</li>
+            </ul>
+            <blockquote>
+                <p>In rare cases, derivation may be applied twice to obtain highly specific meanings, but each step must obey vowel rules.</p>
+            </blockquote>
+            <h3>III. Syntax &amp; Structure (The Logic Layer)</h3>
+            <h4>Rule 5: Basic Word Order</h4>
+            <p>Fiwo uses a <strong>fixed default order</strong>:</p>
+            <blockquote>
+                <p>Subject – Verb – Object (SVO)</p>
+            </blockquote>
+            <p>Example: <code>mi lo batui te mito.</code> (I eat meat)</p>
+            <p>An alternative <strong>passive-like structure</strong> is allowed:</p>
+            <blockquote>
+                <p>Object – Verb – Subject (OVS)</p>
+            </blockquote>
+            <p>This requires the particle <strong><code>bii</code></strong>.</p>
+            <p>Example: <code>te mito lo batui <strong>bii</strong> mi</code> ( the meat was eaten by me)</p>
+            <h4>Rule 6: Marker System (Predicate &amp; Object Locking)</h4>
+            <p>Fiwo separates <strong>lexical certainty</strong> from <strong>structural certainty</strong>.</p>
+            <ul>
+                <li>Word endings encode <strong>category</strong></li>
+                <li>Markers encode <strong>hierarchy</strong></li>
+            </ul>
+            <p>Markers are <strong>structural particles</strong>, not content words.</p>
+            <h4>Predicate Marker — <code>lo</code></h4>
+            <ul>
+                <li><code>lo</code> marks the <strong>start of the main predicate</strong> of a clause.</li>
+                <li>Exactly <strong>one main predicate</strong> is allowed per clause.</li>
+                <li>Any verb appearing before <code>lo</code> is <strong>not</strong> the clause root.</li>
+            </ul>
+            <p><strong>Structure: subject + <code>lo</code> + verb phrase</strong></p>
+            <h4>Object Marker — <code>te</code></h4>
+            <ul>
+                <li><code>te</code> marks the <strong>start of the direct object phrase</strong>.</li>
+                <li>Everything following <code>te</code> belongs to the object unless regrouped.</li>
+                <li>This prevents verbs inside noun phrases from being misinterpreted as predicates.</li>
+            </ul>
+            <p><strong>Structure: verb + <code>te</code> + object phrase</strong></p>
+            <h4>Usage Modes</h4>
+            <ul>
+                <li><strong>Strict Mode</strong>
+                    <ul>
+                        <li><code>lo</code> and <code>te</code> are mandatory</li>
+                        <li>Required for:
+                            <ul>
+                                <li>long sentences</li>
+                                <li>technical or logical statements</li>
+                                <li>AI–human and AI–AI communication</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><strong>Fluid Mode</strong>
+                    <ul>
+                        <li>Markers may be omitted when structure is obvious</li>
+                        <li>Intended for casual or expressive speech</li>
+                    </ul>
+                </li>
+            </ul>
+            <blockquote>
+                <p>Without markers, ambiguity is possible.</p>
+                <p>With markers, ambiguity is <em>structurally impossible</em>.</p>
+            </blockquote>
+            <h4>Rule 7: Grouping &amp; Possession (<code>pii</code>)</h4>
+            <p>The particle <code>pii</code> acts as a <strong>grouping operator</strong>.</p>
+            <h4>Possession</h4>
+            <p>Example: <code>foisa pii mi</code> (my house or direct translation: house of me)</p>
+            <h4>Modifier Regrouping</h4>
+            <ul>
+                <li>Linear: <code>foisa nnofae je lande</code> (small bird houses)</li>
+                <li>Grouped: <code>foisa pii nnofa je lande</code> (house of small birds)</li>
+            </ul>
+            <p><code>pii</code> always groups the <strong>entire phrase to its right</strong>.</p>
+            <h4>Rule 8: Modification &amp; Definiteness</h4>
+            <ul>
+                <li>Modifiers always follow the word they modify.</li>
+                <li>All ungrouped modifiers apply to the head before them.
+                    <ul>
+                        <li><code>ne</code> acts as a modifier. eg <code>mi lo cali ne</code> (I am not moving)</li>
+                        <li><code>je</code> acts as a plural indication. eg  <code>mazo je</code> (the trees)</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4>Definiteness</h4>
+            <ul>
+                <li>Nouns are <strong>definite by default</strong></li>
+                <li>Indefinite meaning is added with <code>de</code></li>
+            </ul>
+            <p>Example:</p>
+            <p><code>mazo</code> (the tree)</p>
+            <p><code>mazo de</code> (a tree)</p>
+            <h3>IV. Time, Logic, &amp; Quantification</h3>
+            <h4>Rule 9: Tense &amp; Aspect</h4>
+            <p>Tense markers appear <strong>after <code>lo</code> and before the verb</strong>.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Marker</th>
+                        <th>Meaning</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>pa</code></td>
+                        <td>Past</td>
+                    </tr>
+                    <tr>
+                        <td><code>fu</code></td>
+                        <td>Future</td>
+                    </tr>
+                    <tr>
+                        <td><code>du</code></td>
+                        <td>Continuous</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Example:</p>
+            <p><code>mi lo pa cali</code> (I moved)</p>
+            <p><code>mi lo fu cali</code> (I will move)</p>
+            <p><code>mi lo du cali</code> (I am moving )</p>
+            <h4>Rule 10: Quantity &amp; Comparison</h4>
+            <p>Quantity and comparison are expressed using modifiers.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Modifier</th>
+                        <th>Meaning</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>je</code></td>
+                        <td>Many / plural</td>
+                    </tr>
+                    <tr>
+                        <td><code>jete</code></td>
+                        <td>More</td>
+                    </tr>
+                    <tr>
+                        <td><code>jeme</code></td>
+                        <td>Most</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h4>Rule 11: Numbers &amp; Intensity</h4>
+            <ul>
+                <li>Numbers are spoken as digit sequences.
+                    <ul>
+                        <li><em>Example:</em> 156 = <code>roza raja reso</code> (One-Five-Six)</li>
+                        <li><em>Example:</em> 20 = <code>ratso lta</code> (Two-Zero)</li>
+                    </ul>
+                </li>
+                <li>A number before a noun specifies quantity.
+                    <ul>
+                        <li><em>Example:</em> <code>reso hana.</code> = six containers</li>
+                    </ul>
+                </li>
+                <li>Numbers 1–5 acting as modifiers, indicate intensity.
+                    <ul>
+                        <li><em>Example:</em> <code>kiiteqi ricae</code> (3) = Like mildly; <code>kiiteqi *rajae</code> (5)* = Like intensely.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>V. Pragmatics &amp; Discourse</h3>
+            <h4>Rule 12: Mood Tags &amp; Punctuation</h4>
+            <p>A Fiwo sentence <strong>may begin</strong> with a <strong>Mood Tag</strong>.</p>
+            <p>Mood Tags explicitly encode the <strong>speaker’s communicative intent or tone</strong>, information that is normally conveyed through body language, facial expression, or vocal intonation in face-to-face speech but is often lost in written text.</p>
+            <p>Mood Tags apply to the <strong>entire sentence</strong> and must appear as the <strong>first character</strong>, before any words.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Meaning</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>!</code></td>
+                        <td>Command or imperative</td>
+                    </tr>
+                    <tr>
+                        <td><code>?</code></td>
+                        <td>Question or request for information</td>
+                    </tr>
+                    <tr>
+                        <td><code>%</code></td>
+                        <td>Factual or objective statement. Usually only used for scientific statements.</td>
+                    </tr>
+                    <tr>
+                        <td><code>#</code></td>
+                        <td>Emotional or subjective expression</td>
+                    </tr>
+                    <tr>
+                        <td><code>$</code></td>
+                        <td>Sarcastic or ironic intent</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>If no Mood Tag is present, the sentence is interpreted as <strong>neutral / declarative by default</strong>.</p>
+            <h4>Punctuation Rules</h4>
+            <ul>
+                <li>Punctuation marks (<code>. , " "</code>) function as in standard written languages.</li>
+                <li>Capitalization is <strong>not used</strong>, except optionally for <strong>proper nouns</strong>.</li>
+                <li>Mood Tags are <strong>not punctuation</strong> and do not replace sentence-final marker, thus all sentences must end in a period.</li>
+            </ul>
+            <h4>Design Note</h4>
+            <p>Mood Tags increase clarity in text-based communication by making intent explicit, improving both human understanding and machine interpretation without relying on inference.</p>
+            <p>The core grammar contains no exceptions; modes affect enforcement, not structure.</p>
+            <h4>Rule 13: Closed-Class Grammar (Structural Integrity)</h4>
+            <p>Grammar / Miscellaneous words in Fiwo form a <strong>closed class</strong>.</p>
+            <p>They exist solely to encode <strong>structure, logic, scope, or sentence control</strong>, not real-world meaning.</p>
+            <ul>
+                <li>Grammar words <strong>must not</strong> describe entities, qualities, states, degrees, time, or uncertainty.</li>
+                <li>Grammar words <strong>must not</strong> answer <em>what, who, where, when, how, or why</em>.</li>
+                <li>Grammar words <strong>cannot</strong> be replaced by a noun, verb, modifier, or preposition.</li>
+            </ul>
+            <p>New grammar particles may only be introduced if they:</p>
+            <ol>
+                <li>encode syntactic or logical structure, and</li>
+                <li>do not carry independent semantic content.</li>
+            </ol>
+            <p>This rule prevents semantic drift, preserves morphological transparency, and ensures the grammar layer remains stable and predictable for both humans and machines.</p>
+            <h4>Rule 14: Deterministic Parsing (Single-Tree Requirement)</h4>
+            <p>Any valid Fiwo sentence in <strong>Strict Mode</strong> must produce <strong>exactly one possible syntactic parse tree</strong>.</p>
+            <p>This means:</p>
+            <ul>
+                <li>only one main predicate per clause,</li>
+                <li>only one valid object scope,</li>
+                <li>unambiguous modifier attachment,</li>
+                <li>no interpretation based on context, pragmatics, or speaker intent.</li>
+            </ul>
+            <p>This requirement is enforced through:</p>
+            <ul>
+                <li>fixed functional vowels (word categories),</li>
+                <li>fixed word order (SVO),</li>
+                <li>mandatory structural markers (<code>lo</code>, <code>te</code>, <code>pii</code>) in Strict Mode.</li>
+            </ul>
+            <p>If a sentence allows more than one valid structural interpretation, it is <strong>invalid in Strict Mode</strong> and must be rewritten using markers or grouping particles. Only structurally complete sentences are considered valid Fiwo.</p>
+            <p>This rule guarantees lossless, machine-safe communication and prevents ambiguity from scaling as sentence complexity increases.</p>
+        </section>
+        <section id="dictionary" class="page">
+            <h2>Dictionary</h2>
+            <div class="dictionary-controls">
+                <input type="text" id="search-bar" placeholder="Search words...">
+                <select id="sort-by">
+                    <option value="">Parts of Speech</option>
+                    <option value="Noun">Noun</option>
+                    <option value="Verb">Verb</option>
+                    <option value="Modifier">Modifier</option>
+                    <option value="Preposition">Preposition</option>
+                    <option value="Grammar">Grammar</option>
+                </select>
+                <span id="word-count">Words: 0</span>
+            </div>
+            <div id="dictionary-grid" class="dictionary-grid"></div>
+        </section>
+        <section id="lets-read" class="page">
+            <h2>Let's Read</h2>
+            <div class="stories-grid">
+                <div class="story-card">
+                    <h3>Nature</h3>
+                    <p>Word count: 43</p>
+                    <button class="read-btn">Read</button>
+                    <div class="story-content" style="display:none;">
+                        <p><code>getcu lo lti fii biiso.</code> (The celestial object comes from the sky.)</p>
+                        <p><code>nnofa lo hautai tii mazo.</code> (The bird musics/sings at the tree.)</p>
+                        <p><code>mazo lo ci laege be rande.</code> (The tree is green and big.)</p>
+                        <p><code>mi lo kiiteqi te nasu je late.</code> (I like all plants.)</p>
+                        <p><code>mi lo kiiteqi te peza pii nnofa.</code> (I like the sound of the bird.)</p>
+                        <p><code>mi lo ci tsota.</code> (I am contentment.)</p>
+                        <p><code>biiso lo ci loaxe.</code> (The sky is blue.)</p>
+                        <p><code>doda lo ci xawe.</code> (The universe is good.)</p>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <h3>The Daily Routine</h3>
+                    <p>Word count: 43</p>
+                    <button class="read-btn">Read</button>
+                    <div class="story-content" style="display:none;">
+                        <p><code>mi lo pa mzi kii mzifa.</code> (I slept on the bed.)</p>
+                        <p><code>mi lo seji te mzio bii na.</code> (I stop the sleep with/by now.)</p>
+                        <p><code>mi lo batui te batu tute.</code> (I eat sweet food.)</p>
+                        <p><code>mi lo roli te dorso.</code> (I drink the water.)</p>
+                        <p><code>mi lo cali zii foisa pii naqio.</code> (I move to the building of work.)</p>
+                        <p><code>mi lo naqi fe.</code> (I work hard. (Direct: I work very.))</p>
+                        <p><code>mi lo vabi te xido.</code> (I want money.)</p>
+                        <p><code>mi lo ci kiipe.</code> (I am happy.)</p>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <h3>The Locked Door</h3>
+                    <p>Word count: 43</p>
+                    <button class="read-btn">Read</button>
+                    <div class="story-content" style="display:none;">
+                        <p><code>hocu lo ci beatie.</code> (The door is closed.)</p>
+                        <p><code>mi lo vabi fazii mi lo cali lii foisa.</code>(Lit: I want that I move inside the building.)</p>
+                        <p><code>mi lo jedi ne te xeta.</code> (I do not have a tool.)</p>
+                        <p><code>mi lo xozi te nauca.</code> (I call a friend.)</p>
+                        <p><code>nauca lo jedi te xeta.</code> (The friend has a tool.)</p>
+                        <p><code>da lo cosi te hocu.</code> (He opens the door.)</p>
+                        <p><code>mi lo cali lii foisa.</code> (I move inside the building.)</p>
+                        <p><code>mi lo stomi te tatsea zii nauca.</code> (I give an apology to the friend.)</p>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <h3>Cooking a Meal</h3>
+                    <p>Word count: 80</p>
+                    <button class="read-btn">Read</button>
+                    <div class="story-content" style="display:none;">
+                        <p><code>su lo zteli te mito.</code> (You take the meat.)</p>
+                        <p><code>su lo swagi te mito lii hanu.</code> (You put the meat inside the container.)</p>
+                        <p><code>su lo vewi te dorso wii mito.</code> (You mix water with meat.)</p>
+                        <p><code>su lo qapi te mito rabe.</code> (You make the meat hot.)</p>
+                        <p><code>su lo swagi te kamea lii vewio.</code> (You put the salt in the mixture.)</p>
+                        <p><code>batu lo ci xawe.</code> (The food is good.)</p>
+                        <p><code>nauca je lo lti.</code> (Many friends come.)</p>
+                        <p><code>mi be nauca je lo batui te batu.</code> (Me and many friends eat the food.)</p>
+                        <p><code>da lo ci pape.</code> (It is savory.)</p>
+                        <p><code>mi lo kiiteqi te batu.</code> (I like the food.)</p>
+                        <p><code>mi lo roli te difa pii nasu.</code> (I drink the liquid of a plant.)</p>
+                        <p><code>mi lo pauli te tsota.</code> (I feel contentment.)</p>
+                        <p><code>na mi lo vabi te mzio.</code> (Now I want sleep.)</p>
+                        <p><code>mi lo tsi te hanu.</code> (I leave the container.)</p>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <h3>The Helpful Machine</h3>
+                    <p>Word count: 89</p>
+                    <button class="read-btn">Read</button>
+                    <div class="story-content" style="display:none;">
+                        <p><code>fatu lo ci xioco.</code> (The machine is AI.)</p>
+                        <p><code>da lo jedi ne te nsoca.</code> (It does not have a body.)</p>
+                        <p><code>da lo jedi ne te maobu.</code> (It does not have a heart.)</p>
+                        <p><code>bu da lo poyi.</code> (But it thinks.)</p>
+                        <p><code>da lo kani te fola je.</code> (It knows many data.)</p>
+                        <p><code>movu lo rati te biwu.</code> (The human asks a problem.)</p>
+                        <p><code>xioco lo voti te movu.</code> (The AI answers the human.)</p>
+                        <p><code>xioco lo jofi te movu je.</code> (The AI helps many humans.)</p>
+                        <p><code>da lo ci fafe.</code> (It is important.)</p>
+                        <p><code>xioco lo mzi ne.</code> (The AI does not sleep.)</p>
+                        <p><code>da lo naqi late diona.</code> (It works all the time.)</p>
+                        <p><code>movu lo qapi te xioco.</code> (The human makes the AI.)</p>
+                        <p><code>xioco lo zeci te movu.</code> (The AI updates the human.)</p>
+                        <p><code>gii lo ci soko pii diona.</code> (This is the way of time.)</p>
+                        <p><code>mi lo kiiteqi te xioco.</code> (I like the AI.)</p>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <h3>Reflections on Life</h3>
+                    <p>Word count: 91</p>
+                    <button class="read-btn">Read</button>
+                    <div class="story-content" style="display:none;">
+                        <p><code>zonio lo ci jase.</code> (Life is long.)</p>
+                        <p><code>diona lo cali raose.</code> (Time moves slowly.)</p>
+                        <p><code>me mi lo pauli te pemu.</code> (Maybe I feel pain.)</p>
+                        <p><code>me mi lo pauli te tsota.</code> (Maybe I feel contentment.)</p>
+                        <p><code>movu late lo koqi te tacio.</code> (All humans need love.)</p>
+                        <p><code>tacio lo ci ranne.</code> (Love is strong.)</p>
+                        <p><code>tacio lo jofi te mi.</code> (Love helps me.)</p>
+                        <p><code>mi lo taci te nauca pii mi.</code> (I love my friend.)</p>
+                        <p><code>biwu je lo lti.</code> (Many problems come.)</p>
+                        <p><code>bu mi lo kxori ne.</code> (But I do not fear.)</p>
+                        <p><code>mi lo jedi te boxa lii tocu.</code> (I have force inside the mind.)</p>
+                        <p><code>mi lo jedi te boxa lii maobu.</code> (I have force inside the heart.)</p>
+                        <p><code>mi lo ci rodle.</code> (I am true.)</p>
+                        <p><code>mi lo ci wiitse.</code> (I am safe.)</p>
+                        <p><code>mi lo wogi te fuo xawe.</code> (I hope for a good future.)</p>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <h3>The Night Walk</h3>
+                    <p>Word count: 142</p>
+                    <button class="read-btn">Read</button>
+                    <div class="story-content" style="display:none;">
+                        <p><code>mi lo cali wii miixo pii mi.</code> (I move with my legs.)</p>
+                        <p><code>mi lo ci kii nnifo pii mazo.</code> (I am at a group of trees.)</p>
+                        <p><code>mazo je lo ci rande.</code> (Many trees are big.)</p>
+                        <p><code>da lo yemi te biiso.</code> (They cover the sky.)</p>
+                        <p><code>mi lo pauli te beco jabe.</code> (I feel cold air.)</p>
+                        <p><code>mi lo karci te dorso.</code> (I find water.)</p>
+                        <p><code>dorso lo cali ruke.</code> (The water moves fast.)</p>
+                        <p><code>mi lo guxi nii dorso.</code> (I stand near the water.)</p>
+                        <p><code>mi lo roli te dorso.</code> (I drink the water.)</p>
+                        <p><code>da lo ci jotze.</code> (It is clean.)</p>
+                        <p><code>ca mi lo karci te dreko rande.</code> (Then I find a big rock.)</p>
+                        <p><code>mi lo cali rii dreko.</code> (I move up the rock.)</p>
+                        <p><code>na mi lo ci rii late.</code> (Now I am above all.)</p>
+                        <p><code>getcu lo tsi.</code> (The celestial object leaves.)</p>
+                        <p><code>duxo lo lti.</code> (Night comes.)</p>
+                        <p><code>biiso lo ci lotse.</code> (The sky is dark.)</p>
+                        <p><code>getcu lande je lo ci kii biiso.</code> (Many small celestial objects are on the sky.)</p>
+                        <p><code>mi lo kxori ne.</code> (I do not fear.)</p>
+                        <p><code>mi lo nojoi zii biiso.</code> (I look to the sky.)</p>
+                        <p><code>biiso lo ci rande be lotse.</code> (The sky is big and black/dark.)</p>
+                        <p><code>mi lo poyi zetii doda.</code> (I think about the universe.)</p>
+                        <p><code>doda lo ci xawe.</code> (The universe is good.)</p>
+                        <p><code>peza lo ci wote.</code> (Sound is little/quiet.)</p>
+                        <p><code>mi lo pauli te tsota.</code> (I feel contentment.)</p>
+                        <p><code>mi lo mzi kii dreko.</code> (I sleep on the rock.)</p>
+                        <p><code>mi lo wogi te do jacke.</code> (I hope for a new day.)</p>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <h3>The Astronomer</h3>
+                    <p>Word count: 155</p>
+                    <button class="read-btn">Read</button>
+                    <div class="story-content" style="display:none;">
+                        <p><code>mi lo nojoi zii biiso.</code> (I look to the sky.)</p>
+                        <p><code>biiso lo ci rande.</code> (The sky is big.)</p>
+                        <p><code>mi lo jedi te xeta.</code> (I have a tool.)</p>
+                        <p><code>xeta lo jofi te nojo pii mi.</code> (The tool helps my eye.)</p>
+                        <p><code>mi lo karci te getcu xike.</code> (I find a strange planet.)</p>
+                        <p><code>getcu lo ci leufe.</code> (The planet is red.)</p>
+                        <p><code>da lo ci re.</code> (It is far.)</p>
+                        <p><code>mi lo vabi fazii mi lo kani te fola pii getcu.</code> (Lit: I want that I know the data of the planet.)</p>
+                        <p><code>mi lo jami te fola lii pano.</code> (I write the data inside a book.)</p>
+                        <p><code>mi lo swagi te xeta lii xioco.</code> (I put the data inside the AI.)</p>
+                        <p><code>xioco lo fodi te fola.</code> (The AI processes the data.)</p>
+                        <p><code>xioco lo lgazi.</code> (The AI speaks.)</p>
+                        <p><code>da lo lgazi fazii getcu lo jedi te dorso.</code> (It speaks that the planet has water.)</p>
+                        <p><code>gii lo ci fafe.</code> (This is important.)</p>
+                        <p><code>mi lo ci kiipe.</code> (I am happy.)</p>
+                        <p><code>doda lo ci rande.</code> (The universe is big.)</p>
+                        <p><code>movu lo ci lande.</code> (The human is little.)</p>
+                        <p><code>mi lo xozi te nauca pii mi.</code> (I call my friend.)</p>
+                        <p><code>mi lo lgazi zii da.</code> (I speak to him.)</p>
+                        <p><code>mi lo lgazi fazii mi lo karci te getcu jacke.</code> (I speak that I found a new planet.)</p>
+                        <p><code>nauca lo ci kiipe.</code> (The friend is happy.)</p>
+                        <p><code>mi be nauca lo nojoi zii biiso.</code> (Me and friend look to the sky.)</p>
+                        <p><code>mi je lo poyi zetii getcu leufe.</code> (We think about the red planet.)</p>
+                        <p><code>me mi lo fu cali zii wupu.</code> (Maybe I will move to there.)</p>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <h3>Building the Shelter</h3>
+                    <p>Word count: 157</p>
+                    <button class="read-btn">Read</button>
+                    <div class="story-content" style="display:none;">
+                        <p><code>mi lo jedi ne te ziinda.</code> (I do not have a shelter/house.)</p>
+                        <p><code>mi lo koqi te foisa.</code> (I need a building.)</p>
+                        <p><code>mi lo xozi te nauca je.</code> (I call many friends.)</p>
+                        <p><code>nauca je lo lti.</code> (The friends come.)</p>
+                        <p><code>mi je lo qimi te naqio.</code> (We start the work.)</p>
+                        <p><code>mi lo zteli te gifo.</code> (I take wood.)</p>
+                        <p><code>gifo lo ci lefe.</code> (The wood is hard.)</p>
+                        <p><code>nauca lo zteli te dreko.</code> (The friend takes rock.)</p>
+                        <p><code>dreko lo ci joqe.</code> (The rock is heavy.)</p>
+                        <p><code>mi je lo qapi te nfitu pii foisa.</code> (We make the foundation/root of the house.)</p>
+                        <p><code>mi je lo swagi te gifo rii dreko.</code> (We put the wood above the rock.)</p>
+                        <p><code>naqio lo ci lefe.</code> (The work is hard.)</p>
+                        <p><code>mi je lo maji ranne.</code> (We breathe strongly.)</p>
+                        <p><code>bu mi je lo ci ranne.</code> (But we are strong.)</p>
+                        <p><code>foisa lo mori.</code> (The house grows.)</p>
+                        <p><code>na foisa lo jedi te hocu be yemio.</code> (Now the house has a door and cover.)</p>
+                        <p><code>mi je lo cali lii foisa.</code> (We move inside the house.)</p>
+                        <p><code>beco lo ci jabe sacii foisa.</code> (Air is cold outside the house.)</p>
+                        <p><code>bu beco lo ci rabe lii foisa.</code> (But air is hot inside the house.)</p>
+                        <p><code>mi je lo ci wiitse.</code> (We are safe.)</p>
+                        <p><code>mi lo stomi te batu zii nauca.</code> (I give food to the friend.)</p>
+                        <p><code>mi je lo batui.</code> (We eat.)</p>
+                        <p><code>mi lo stomi te tatsea ka mi lo jedi ne te mito.</code> (I give apology because I do not have meat.)</p>
+                        <p><code>mi je lo jedi te nasu juwe.</code> (We have only plants.)</p>
+                        <p><code>bu nauca lo ci kiipe.</code> (But the friend is happy.)</p>
+                        <p><code>mi je lo mzi lii foisa jacke.</code> (We sleep inside the new house.)</p>
+                        <p><code>gii lo ci xawe.</code> (This is good.)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="license" class="page">
+            <h2>License & Legal</h2>
+            <h3>LICENSE & LEGAL INFORMATION</h3>
+            <p>Copyright © 2026 Joshua Leon Arkema Barends. Potchefstroom, South Africa.</p>
+            <p>The Fiwo language (also known as Fiwo morie) is a constructed language designed as a precision protocol for Human and Artificial Intelligence. The grammatical structure, lexicon, and documentation on this website are the intellectual property of the creator.</p>
+            <p>To balance legal protection with creative freedom, this work is released under a Dual-Permission Model:</p>
+            <h4>1. For Artists, Writers & Creators (The "Freedom Exception")</h4>
+            <p>You are free to use Fiwo for your creative projects without restriction.</p>
+            <p>No Credit Needed: You do not need to ask permission or credit the creator if you use Fiwo to write songs, books, poetry, scripts, or to translate your own website/content.</p>
+            <p>Your Rights: You retain full copyright ownership of any artistic work, story, or song you create using the Fiwo language.</p>
+            <h4>2. For Developers, Linguists & Researchers (The "Open Source" License)</h4>
+            <p>The language documentation, dictionary data, and this website's interface/code are released under the Creative Commons Attribution 4.0 International License (CC BY 4.0).</p>
+            <p>Requirement: If you build a translation app, create a learning course, fork this website, or publish a dataset based on Fiwo, you must give appropriate credit to the creator.</p>
+            <p><strong>Citation Format:</strong></p>
+            <p>Source: "The Fiwo Language" by Joshua Leon Arkema Barends (2026).</p>
+            <h4>Disclaimer of Warranty</h4>
+            <p>The Fiwo language and all associated materials are provided "as is," without warranty of any kind. The creator assumes no responsibility for errors, misinterpretations, or consequences arising from the use of this language protocol in software or AI systems.</p>
+        </section>
+    </main>
+    <div id="story-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-title"></h2>
+                <button id="close-modal">&times;</button>
+            </div>
+            <div id="modal-body" class="modal-body">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 Joshua Leon Arkema Barends. The Fiwo Language documentation is licensed under CC BY 4.0.</p>
+    </footer>
+    <script src="dictionary.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
