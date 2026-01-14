@@ -1,0 +1,308 @@
+be ;; (and) Used to connect words, phrases, or clauses additively.
+bu ;; (But) Used to indicate contrast or exception.
+ca ;; (Then) Used to refer to a subsequent or specified time.
+da ;; (He/She/It) Third person singular.
+du ;; (Continuous) Tense marker indicating an action that is ongoing, progressing, or currently happening.
+fu ;; (Future) Tense marker for future events.
+ja ;; (Yes) Used for affirmation or agreement.
+ka ;; (Because) Used to indicate cause or reason.
+lo ;; (Predicate Marker) Signals the start of the verb phrase after the subject.
+mi ;; (I/Me) First person singular. The body and mind.
+ne ;; (No/not) Structural particle serving as the logical operator of negation. Inverts the truth value of the predicate.
+pa ;; (Past) Tense marker for past events.
+ro ;; (Or) Used to indicate alternatives or choices.
+sii ;; (Conditional Clause Marker) Introduces a conditional subordinate clause (if, when, whenever).
+su ;; (You) Second person singular.
+te ;; (Object marker) Signals the start of the direct object after the verb.
+wa ;; (What) Used to inquire about a thing or matter.
+wai ;; (Why) Used to inquire about reason or cause.
+we ;; (Where) Used to inquire about location.
+wo ;; (When) Used to inquire about time.
+wu ;; (Who) Used to inquire about a person or agent.
+ki ;; (Subordinate Predicate Marker) Introduces a subordinate predicate (non-main clause) that modifies a noun or higher clause.
+si ;; (Proximal Clause Deictic) Refers to the current or immediately preceding clause.
+ta ;; (Distal Clause Deictic) Refers to a non-current, prior, or conceptually distant clause.
+he ;; (How) Used to inquire about the manner, method, or degree of an action or state.
+boke ;; (Bad) Describes something regarded as negative or unfavorable based on individual opinion.
+de ;; (A/some) An indefinite or non-specific instance of something.
+fafe ;; (Important) Describes something of great significance, value, or consequence.
+fe ;; (Very) Intensifier used to emphasize degree.
+hobe ;; (Young) Describes something that has existed for a short time; early stage of life.
+jabe ;; (Cold) Describes something of or at a low or relatively low temperature.
+jacke ;; (New) Describes something produced, introduced, or discovered recently.
+jase ;; (Long) Describes something measuring a great distance from end to end.
+je ;; (Many) Large quantity; more than one of a thing.
+jeme ;; (Most) The greatest quantity/quality compared to something else.
+jete ;; (More) An increase compared to something else.
+jiixe ;; (Thin) Describes something with a small distance between opposite surfaces.
+joqe ;; (Heavy) Describes something of great weight or difficult to lift.
+jotze ;; (Clean) Describes something free from dirt, marks, or stains.
+juwe ;; (Only/Just) Limits something to a single person, thing, or amount, explicitly excluding anything else.
+kame ;; (Salty) Describes the taste sensation characteristic of sodium chloride.
+kiipe ;; (Happy) Describes a state of feeling or showing pleasure.
+koce ;; (Bitter) Describes a sharp, pungent taste sensation (e.g., dark chocolate, coffee).
+labne ;; (Same) Describes something identical or not different.
+laege ;; (Green) The color between blue and yellow in the spectrum.
+lande ;; (Small/Little) Describes something of limited size or extent.
+late ;; (All) Refers to the whole quantity or extent of a particular group or thing.
+lefe ;; (Hard) Describes something solid, firm, and resistant to pressure.
+letze ;; (Dirty) Describes something covered or marked with an unclean substance.
+leufe ;; (Red) The color at the end of the spectrum next to orange and opposite violet.
+lice ;; (Wet) Describes something covered or saturated with water or another liquid.
+liize ;; (Right) Direction or side towards the east when facing north; opposite to left.
+loaxe ;; (Blue) The color between violet and green on the spectrum.
+locwe ;; (White/Light) The color of fresh snow or milk; reflecting all visible rays of light.
+loge ;; (Able) Having the power, skill, means, or opportunity to do something.
+lome ;; (Narrow) Describes something of small width in relation to length.
+lope ;; (Blunt/Dull) Describes something lacking a sharp edge or point.
+lotse ;; (Black/Dark) The very darkest color; absence or complete absorption of light.
+lozke ;; (Yellow) The color between green and orange in the spectrum.
+luze ;; (Empty) Describes something containing nothing or having no occupants.
+mace ;; (Female) Entity capable of producing the larger gamete (eggs or ova).
+manne ;; (Male) Entity capable of producing the mobile gamete (sperm).
+me ;; (Maybe/Perhaps) Used to express possibility or uncertainty.
+pape ;; (Umami/Savory) Describes the savory or meaty taste sensation.
+pise ;; (Sour) Describes the taste sensation characteristic of acids (lemon, vinegar).
+rabe ;; (Hot) Describes something having a high degree of heat or temperature.
+rande ;; (Big/Large) Describes something of considerable size, extent, or capacity.
+ranne ;; (Strong) Describes something having the power to move heavy weights or perform physically demanding tasks.
+raose ;; (Slow) Describes something moving or operating at a low speed.
+redne ;; (Different) Describes something not the same as another.
+repe ;; (Sharp) Describes something having an edge or point able to cut or pierce.
+retse ;; (Dangerous) Describes something able or likely to cause harm or injury.
+rfone ;; (Almost/Nearly) Very close to a specific state, quantity, or degree, but not completely there yet.
+rize ;; (Full) Describes something containing or holding as much as possible.
+rodle ;; (True) Describes something that is in accordance with fact or reality.
+rome ;; (Wide/Broad) Describes something having a great extent from side to side.
+rudse ;; (Rough) Describes a surface that is uneven or irregular.
+ruke ;; (Fast/Quick) Describes something moving or capable of moving at high speed.
+tatse ;; (Sorry/Apology) A state of feeling regret; polite expression to excuse oneself.
+tute ;; (Sweet) Describes the taste sensation characteristic of sugars.
+wage ;; (Soft) Describes something easy to mold, cut, compress, or fold.
+wannge ;; (Left) Direction or side towards the west when facing north.
+wapse ;; (Flat) Describes a surface that is level and smooth.
+wase ;; (Short) Describes something measuring a small distance from end to end.
+wazke ;; (Old) Describes something that has existed for a long time.
+weoke ;; (Round) Describes a shape that is circular, spherical, or cylindrical.
+weqe ;; (Well) Satisfactory, proper, or correct.
+wiiqe ;; (Light weight) Describes something of little weight or easy to lift.
+wiitse ;; (Safe) Describes something protected from or not exposed to danger.
+wipe ;; (Greater Good) Strictly moral sense for "greater good" or major events; distinct from subjective "like".
+wonne ;; (Weak) Describes something lacking power to perform physically demanding tasks.
+wote ;; (Few/Little) Describes a small number or amount of something.
+wuske ;; (Dry) Describes something free from moisture or liquid.
+wuxe ;; (Thick) Describes something with a large distance between opposite surfaces.
+xawe ;; (Good) Describes something regarded as positive or favorable based on individual opinion.
+xike ;; (Weird/Foreign) Unusual, surprising, or not belonging to the current environment.
+biika ;; (Material) The substance things are made of.
+boxa ;; (Force) Strength or energy as an attribute of physical action or movement.
+daha ;; (Value) Relative worth, merit, or importance; numerical quantity.
+difa ;; (Liquid) State of matter that flows freely but is of constant volume.
+diona ;; (Time) The indefinite continued progress of existence and events.
+diza ;; (Gas) State of matter that expands freely to fill any available space.
+doda ;; (Universe) The entire universe or the broad context in which things exist.
+fija ;; (Ear) Organ of hearing and balance.
+fika ;; (Path/Road) A route, course, or track along which something moves.
+foisa ;; (Building) A structure with a roof and walls.
+fola ;; (Data) Facts, statistics, or distinct pieces of information collected for reference.
+grifa ;; (Fire) Prototype word for energy and heat; combustion.
+hauta ;; (Music) The art of combining sounds to produce beauty of form and harmony.
+jepa ;; (Offspring) Immediate descendant produced by reproduction; the young of a person/animal.
+jura ;; (City) Large human settlement with high population density.
+lita ;; (Light) Photon energy; agent that stimulates sight.
+lta ;; (Zero) Arithmetical symbol denoting the absence of quantity.
+mfuka ;; (Hand) End part of the arm beyond the wrist.
+moda ;; (God) Divine being; all that is.
+mzifa ;; (Bed) Furniture or prepared spot used for sleep or rest.
+mzoja ;; (Blood) Red liquid circulating in arteries and veins.
+na ;; (Now) The present moment.
+nauca ;; (Friend) A person with whom one has a bond of mutual affection.
+ndiisa ;; (Tongue) Fleshy muscular organ in the mouth.
+nida ;; (Tooth) Hard, white structures in the mouth used for biting.
+nnila ;; (Finger) Each of the long, slender members attached to the hand.
+nnofa ;; (Bird) Flying animal characterized by feathers and wings.
+nnsoza ;; (Skin) Thin layer of tissue forming the outer covering of the body.
+nopha ;; (Parent) Father or mother; organism that produces offspring.
+nsoca ;; (Body) Physical structure comprising material substance, distinct from mind/soul.
+raja ;; (Five) Cardinal number (4 + 1).
+rewa ;; (Seven) Cardinal number (6 + 1).
+rica ;; (Three) Cardinal number (1 + 2).
+roza ;; (One) Lowest cardinal number; single unit.
+runa ;; (Nine) Cardinal number (3 x 3).
+tapa ;; (Here) Specific physical location of the speaker.
+tsota ;; (Contentment) State of happiness and satisfaction.
+xa ;; (Word) Single distinct meaningful element of speech or writing.
+xeta ;; (Tool) Device or implement used to carry out a particular function.
+ziinda ;; (House/Shelter) Structure serving as a dwelling.
+bafo ;; (Second) Base unit of time; 1/60th of a minute.
+beco ;; (Air) Prototype word for gas; mixture of gases surrounding earth.
+biiso ;; (Sky) Region of the atmosphere and outer space seen from earth.
+busko ;; (Clothes) Items worn to cover the body.
+do ;; (Day) Period from sunrise to sunrise; current day.
+dorso ;; (Water) Prototype word for liquid matter; substance essential for life.
+dreko ;; (Rock) Hard, solid mineral material of the earth's surface.
+duxo ;; (Night) Period of darkness; time from sunset to sunrise.
+fiwo ;; (Language) Method of human communication consisting of words.
+geqo ;; (Space) Specific area, room, or physical extent.
+gifo ;; (Wood) Hard, fibrous plant material.
+hedqo ;; (Part) Piece, segment, or component of a whole.
+hiso ;; (Name) Word by which a person, animal, place, or thing is known.
+hupo ;; (Center/Middle) Point equally distant from every part of the circumference/ends.
+juko ;; (Shape/Form) External form, contours, or outline.
+matco ;; (Mouth) Opening in the face through which food is taken and speech emitted.
+mazo ;; (Tree) Large plant with a single stem or trunk.
+mfilo ;; (Leaf) Flattened, usually green structure of a plant.
+miixo ;; (Leg) Limb on which a person or animal walks and stands.
+mito ;; (Meat) Flesh of an animal used as food.
+mo ;; (Soul) Immaterial essence or spiritual core distinct from body and mind.
+mulo ;; (Flower) Seed-bearing part of a plant.
+nbelo ;; (Foot) Lower extremity of the leg below the ankle.
+nepo ;; (Fish) Water-dwelling animal that swims and breathes using gills.
+nnalo ;; (Bug/Insect) Small invertebrate animal.
+nnfiso ;; (Face) Front part of the head from forehead to chin.
+nnifo ;; (Group) Number of people or things gathered or classed together.
+nojo ;; (Eye) Organ of sight.
+numo ;; (Country) Nation with its own government occupying a territory.
+pso ;; (Type/Kind) Category of entities having common characteristics.
+rado ;; (Eight) Cardinal number (2 x 4).
+ratso ;; (Two) Cardinal number (1 + 1).
+rerpo ;; (Place/Location) Particular position or point in space.
+reso ;; (Six) Cardinal number (2 x 3).
+rugo ;; (Four) Cardinal number (2 x 2).
+soko ;; (Way/Manner) Method, style, or custom of doing something.
+xido ;; (Money) Medium of exchange (coins, banknotes).
+xiipo ;; (Internet) Global system of interconnected computer networks.
+xioco ;; (AI) Artificial Intelligence; systems performing tasks requiring human intelligence.
+xo ;; (Number) Arithmetical value representing a quantity.
+batu ;; (Food) Nutritious substance eaten to maintain life.
+biwu ;; (Problem) Matter regarded as unwelcome or harmful.
+diku ;; (Solid) State of matter characterized by structural rigidity.
+dumu ;; (Minute) Period of time equal to 60 seconds.
+faqu ;; (Side) Position, area, or surface on the left or right of a central line.
+fatu ;; (Machine) Device or engine; base concept for complex items like computers.
+fevu ;; (End) Final part of something or its termination point.
+gagu ;; (Texture) Feel, appearance, or consistency of a surface.
+gercu ;; (Celestial Object) Planet, moon, or star.
+gisu ;; (Ground) Soil or physical land surface.
+gomu ;; (Hour) Period of time equal to 60 minutes.
+grecu ;; (Thing) Universal substantive for any object or entity.
+gudu ;; (Metal) Solid material that is typically hard, shiny, and conductive.
+hanu ;; (Container/Box) Enclosure used for holding something.
+hocu ;; (Door/Gate) Access point or movable barrier.
+jaru ;; (Year) Time it takes for a planet to complete one revolution around its star.
+jormu ;; (Case/Situation) Set of circumstances or conditions.
+maobu ;; (Heart) Biological pump that circulates blood.
+meku ;; (Bone) Pieces of hard tissue making up the skeleton.
+melvu ;; (Price) Amount of money expected or required for something.
+meotu ;; (Head) Upper part of the body containing the brain and sensory organs.
+mifu ;; (Animal) Living organism; specifically a land-dwelling beast.
+movu ;; (Person/Human) Human being.
+mviku ;; (Arm) Upper limb from shoulder to hand.
+nasu ;; (Plant) Living organism such as trees, shrubs, and herbs.
+nfitu ;; (Root) Part of a plant that attaches it to the ground.
+nicu ;; (Seed) Unit of reproduction of a flowering plant.
+nnaqu ;; (Sickness/Disease) Disorder of structure or function; illness.
+nnxotu ;; (Nose) Part of the face used for smelling.
+nokru ;; (Hair) Fine thread-like strands growing from skin.
+pano ;; (Book) Written/printed work or digital equivalent used to store information.
+pemu ;; (Pain) Physical suffering or discomfort.
+peza ;; (Sound) Vibrations that travel through a medium and can be heard.
+roku ;; (Dark) Absence of light.
+tocu ;; (Mind) Element enabling reasoning, perception, and memory; distinct from body/soul.
+waxu ;; (Angle) Space between two intersecting lines.
+wigu ;; (Color) Property of producing different sensations on the eye via light reflection.
+wupu ;; (There) Specific physical location distant from the speaker.
+zodu ;; (Power/Influence) Capacity to direct behavior or course of events.
+pii ;; (Of - grouper) Structural particle used to group modifiers; acts as open parenthesis.
+pefii ;; (So/Therefore) Connects two ideas where the second is a consequence of the first.
+sacii ;; (Outside) Position external to the boundaries of an enclosure.
+zetii ;; (About) On the subject of or concerning a topic.
+fulii ;; (Subsequent to/After) References a past event; main action initiates after the referenced clause.
+parii ;; (Prior to/Before) References a future event; main action concludes before the referenced clause.
+jicii ;; (Also) Indicates an addition to what has been mentioned.
+pinii ;; (As/Similar to) Indicates resemblance without being identical.
+wii ;; (With) Used for accompaniment or instrumentality.
+zii ;; (To) Used for direction toward a destination or outcome.
+fii ;; (From) Used for origin or starting point.
+bii ;; (By) Used to indicate agent, means, or source.
+nokii ;; (Down/Below) Direction or position lower than a reference.
+dii ;; (Made of) Indicates physical substance or material composition.
+todii ;; (Up/Above) Direction or position higher than a reference.
+hemii ;; (Near) Used for close proximity.
+nii ;; (Part of) Indicates the subject is an integral component of the object.
+rii ;; (Owned by) Indicates strict ownership or legal possession.
+qii ;; (Containing) Indicates the subject is holding the object inside it.
+qazii ;; (For) Indicates purpose, destination, or intended recipient.
+lii ;; (Shaped like) Indicates subject shares physical geometry of the object.
+fazii ;; (Nature of) Indicates abstract characteristics or intrinsic nature.
+kii ;; (On) Used for location at a specific point.
+yekii ;; (In/Inside) Used for location within an enclosure.
+tii ;; (At) Used for location at a specific point.
+rewii ;; (far) Definition: Situated at a great distance from; far away relative to a reference point.
+baki ;; (Try/Attempt) To execute an action with the intent of achieving a result; experimental.
+beati ;; (Close) To block an opening.
+cali ;; (Move/Go) To change position or displace something.
+ceri ;; (Throw) To propel something with force through the air.
+ci ;; (Be/Exist) Copula indicating existence or identity.
+cosi ;; (Open) To allow access, passage, or view.
+cuni ;; (Burn) To consume or damage something by fire.
+dazi ;; (Control) To determine behavior or supervise; to exercise authority.
+doxi ;; (Let) To not prevent an action from occurring.
+fodi ;; (Process) Series of actions taken to achieve an end.
+gari ;; (Play) To engage in activity for enjoyment/recreation.
+goji ;; (Pull) To exert force to move something toward oneself.
+guxi ;; (Stand) To maintain an upright position supported by a base.
+hiqi ;; (Walk) To move at a regular pace lifting each foot in turn.
+jami ;; (Write) To mark symbols on a surface to record information.
+jedi ;; (Have) To possess, own, or hold.
+jofi ;; (Help/Assist) To make it easier for someone to do something.
+kani ;; (Know) To possess knowledge, facts, or skills.
+karci ;; (Find/Discover) To become aware of something new or by chance.
+kili ;; (Touch/Feel) To perceive through physical contact.
+koqi ;; (Need) To require something because it is essential.
+kiiteqi ;; (Like) To express positive feelings towards something (subjective).
+kxori ;; (Fear) To be afraid of someone or something.
+lgazi ;; (Say/Speak) To utter words to convey information.
+lini ;; (Cause) To make something happen or exist.
+loki ;; (Read) To look at and comprehend written matter.
+lti ;; (Come) To move toward a specific location or the speaker.
+maji ;; (Breathe) To take air into the lungs and expel it.
+mesi ;; (Birth) To give life to a child or offspring.
+mori ;; (Grow) To increase in physical size or maturity.
+mzi ;; (Sleep) To rest with eyes closed in natural unconsciousness.
+naqi ;; (Work) To perform labor or exert effort to produce a result.
+neki ;; (Sit) To rest with body supported by buttocks/thighs.
+nxeni ;; (Excrete) To separate and expel waste matter from the body.
+pauli ;; (Feel) To experience an emotion or sensation.
+poyi ;; (Think) To direct one's mind toward something; form ideas.
+qapi ;; (Make) To create, construct, or form something.
+qimi ;; (Start) To begin an action or event.
+quki ;; (Fight) To take part in a violent struggle.
+rati ;; (Ask) To say something in order to obtain an answer.
+riiti ;; (Search/Look for) To try to find something by seeking carefully.
+roli ;; (Drink) To take a liquid into the mouth and swallow it.
+sadi ;; (Push) To exert force to move something away.
+seji ;; (Stop) To cease an action or event.
+skaixi ;; (Break) To separate into pieces via force or failure.
+sowi ;; (Fall) To drop down under the force of gravity.
+stomi ;; (Give) To freely transfer possession.
+swagi ;; (Put) To move something into a specific place.
+taci ;; (Love) Deep affection and unconditional actions towards something.
+taoji ;; (Believe) To accept something as true without direct experience.
+tsi ;; (Leave) To go away from a place; depart.
+vabi ;; (Want) To have a desire to possess or do something.
+vewi ;; (Mix) To combine or blend different substances.
+voti ;; (Answer) To react to a question in speech or writing.
+vumi ;; (Change/Alter) To make or become different; transform state.
+wogi ;; (Hope) Feeling of expectation and desire for a certain thing to happen.
+xozi ;; (Call) To cry out to summon someone; contact via device.
+yemi ;; (Cover) To put something on top of something else to protect/conceal.
+yiili ;; (Use) To employ something for a particular purpose.
+yoeti ;; (Cut) To separate or divide using a sharp edge.
+zatzi ;; (Hit/Strike) To deliver a blow to someone or something.
+zeci ;; (Update) To make something more modern or current.
+ziidi ;; (Do) Generic verb used to describe performing an action.
+zixi ;; (Hold) To grasp and support something.
+zoni ;; (Live) To remain alive.
+zteli ;; (Take) To lay hold of something with hands/reach.
+zufi ;; (Turn) To rotate or change the direction of movement.
