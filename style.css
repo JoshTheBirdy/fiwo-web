@@ -26,6 +26,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* Smooth scrolling for the whole page */
+    scroll-behavior: smooth; 
 }
 
 body {
@@ -111,6 +113,11 @@ main {
     margin: 0 auto;
     width: 100%;
     max-width: 1200px; /* Centers content on large screens */
+    
+    /* Mobile Opt: Handle "Notch" safe areas on modern phones */
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
 }
 
 .page {
@@ -137,9 +144,15 @@ main {
     background: var(--deep-purple);
     border: 3px solid white;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.4rem;
     border-radius: 50%;
     z-index: 101;
+    transition: transform 0.2s ease;
+}
+
+/* Mobile Opt: Add feedback when pressing the menu button */
+.menu-btn:active {
+    transform: scale(0.9);
 }
 
 .menu-btn span {
@@ -147,7 +160,7 @@ main {
     height: 3px;
     background-color: white;
     margin: 4px 0;
-    border-radius: 3px;
+    border-radius: 1px;
     transition: 0.3s;
 }
 
@@ -170,7 +183,12 @@ main {
     transform: translateX(0);
 }
 
-.side-nav ul { list-style: none; }
+.side-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
 .side-nav a {
     color: var(--text-muted);
@@ -187,6 +205,10 @@ main {
     background-color: var(--deep-purple);
     color: white;
     padding-left: 1.5rem; /* Slide effect */
+}
+
+.side-nav li:last-child {
+    margin-top: auto;
 }
 
 /* --- Special Sections --- */
@@ -213,6 +235,8 @@ li {
     overflow-x: auto;
     border-radius: var(--border-radius);
     margin-bottom: 2rem;
+    /* Mobile Opt: Smooth scrolling for tables */
+    -webkit-overflow-scrolling: touch; 
 }
 
 .phonetics-table {
@@ -284,6 +308,12 @@ li {
     border-color: #444;
 }
 
+/* Mobile Opt: Active state for better touch feedback */
+.card:active {
+    transform: scale(0.98);
+    opacity: 0.9;
+}
+
 .pos-dot {
     position: absolute;
     top: 1rem;
@@ -325,15 +355,32 @@ li {
     font-weight: 600;
     margin-top: 1rem;
     cursor: pointer;
-    transition: opacity 0.2s;
+    transition: opacity 0.2s, transform 0.1s;
 }
 
 .read-btn:hover { opacity: 0.9; }
+.read-btn:active { transform: scale(0.95); }
 
 .story-content {
     margin-top: 1rem;
     text-align: left;
 }
+
+.download-btn {
+    background-color: var(--green);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: opacity 0.2s, transform 0.1s;
+}
+
+.download-btn:hover { opacity: 0.9; }
+.download-btn:active { transform: scale(0.95); }
 
 /* --- Footer --- */
 footer {
@@ -343,51 +390,9 @@ footer {
     font-size: 0.9rem;
     border-top: 1px solid #222;
     margin-top: auto;
-}
-
-/* --- Mobile Optimization --- */
-@media (max-width: 768px) {
-    /* Adjust container padding so content isn't squashed */
-    main {
-        padding: 1rem;
-    }
-
-    header {
-        padding: 1rem; /* Smaller header padding */
-    }
-
-    h2 {
-        font-size: 1.5rem; /* Smaller headings to prevent wrapping */
-    }
-
-    /* FIX: Make dictionary cards 1 column and stretch to fit */
-    .dictionary-grid {
-        grid-template-columns: 1fr; /* Force single column */
-    }
-
-    .card {
-        min-width: 0; /* Prevents overflow issues */
-    }
-
-    /* Stack the search bar and sort buttons nicely */
-    .dictionary-controls {
-        flex-direction: column;
-    }
-
-    #search-bar, #sort-by {
-        width: 100%; /* Full width for easy tapping */
-    }
-
-    /* Adjust the side menu to not cover the whole screen on tiny phones */
-    .side-nav {
-        width: 85%; /* Uses percentage instead of fixed px */
-        max-width: 300px;
-    }
     
-    /* Make story cards look better on mobile */
-    .stories-grid {
-        grid-template-columns: 1fr;
-    }
+    /* Mobile Opt: Extra padding at bottom so floating menu button doesn't cover text */
+    padding-bottom: 4rem; 
 }
 
 /* --- Modal --- */
@@ -448,13 +453,97 @@ footer {
     overflow-y: auto;
 }
 
+/* --- Mobile Optimization Overrides --- */
 @media (max-width: 768px) {
+    /* 1. Layout Adjustments */
+    main {
+        padding: 1rem;
+        /* Re-apply safe area logic for smaller padding base */
+        padding-left: max(1rem, env(safe-area-inset-left));
+        padding-right: max(1rem, env(safe-area-inset-right));
+    }
+
+    header {
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    /* 2. Thumb Zone Navigation */
+    .menu-btn {
+        top: auto;      /* Remove top positioning */
+        bottom: 1.5rem; /* Place at bottom for thumb reach */
+        right: 1.5rem;
+        padding: 0.8rem; /* Larger hit area */
+        box-shadow: 0 4px 15px rgba(0,0,0,0.6); /* Add drop shadow for contrast */
+    }
+
+    /* 3. Typography Scaling */
+    h2 {
+        font-size: 1.6rem; /* Smaller headings to prevent wrapping */
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    h1 { font-size: 1.8rem; }
+    h3 { margin-top: 1.5rem; }
+
+    /* 4. Input Zoom Fix for iOS */
+    /* Prevents iPhone from zooming in when you tap a text box */
+    input, select, textarea, #search-bar, #sort-by {
+        font-size: 16px !important; 
+    }
+
+    /* 5. Component Adjustments */
+    .dictionary-grid {
+        grid-template-columns: 1fr; /* Force single column */
+    }
+
+    .card {
+        min-width: 0; /* Prevents overflow issues */
+        padding: 1rem; /* More compact cards */
+    }
+
+    .fiwo-word {
+        font-size: 1.5rem; /* Slightly smaller title text */
+    }
+
+    /* Stack the search bar and sort buttons nicely */
+    .dictionary-controls {
+        flex-direction: column;
+    }
+
+    #search-bar, #sort-by {
+        width: 100%; /* Full width for easy tapping */
+    }
+
+    /* Adjust side menu width */
+    .side-nav {
+        width: 85%;
+        max-width: 300px;
+    }
+    
+    .stories-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Modal Mobile Fixes */
     .modal-content {
         width: 95%;
-        margin: 2% auto;
-        max-height: 90%;
+        margin: 5vh auto; /* Center vertically better on mobile */
+        max-height: 90vh;
     }
     .modal-body {
         max-height: 70vh;
+    }
+}
+
+/* Disable sticky hover effects on touch devices */
+@media (hover: none) {
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+        border-color: #222;
     }
 }
