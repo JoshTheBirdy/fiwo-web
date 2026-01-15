@@ -258,6 +258,7 @@ const dictionaryData = [
     { word: "doxi", english_equiv: "Let", part_of_speech: "Verb", definition: "This verb means to not prevent an action from occurring" },
     { word: "fodi", english_equiv: "Process", part_of_speech: "Verb", definition: "This refers to a series of actions or steps taken in order to achieve a particular end." },
     { word: "gari", english_equiv: "Play", part_of_speech: "Verb", definition: "This verb means to engage in activity for enjoyment and recreation rather than a serious or practical purpose." },
+    { word: "grawi", english_equiv: "Grateful / Thank", part_of_speech: "Verb", definition: "This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks." },
     { word: "goji", english_equiv: "Pull", part_of_speech: "Verb", definition: "This verb means to exert force on something to move it toward oneself." },
     { word: "guxi", english_equiv: "Stand", part_of_speech: "Verb", definition: "This verb means to maintain an upright position, supported by the feet (or base) in a vertical orientation." },
     { word: "hiqi", english_equiv: "walk", part_of_speech: "Verb", definition: "This verb means to move at a regular pace by lifting and setting down each foot in turn, never having both feet off the ground at once." },

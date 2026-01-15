@@ -73,8 +73,16 @@ function renderDictionary() {
                 <div class="fiwo-word">${item.word}</div>
                 <div class="english-equiv">${item.english_equiv}</div>
                 <div class="part-speech">${item.part_of_speech}</div>
-                <div class="definition">${item.definition}</div>
             `;
+            card.addEventListener('click', () => {
+                document.getElementById('definition-modal-title').textContent = item.word;
+                document.getElementById('definition-modal-body').innerHTML = `
+                    <p><strong>English Equivalent:</strong> ${item.english_equiv}</p>
+                    <p><strong>Part of Speech:</strong> ${item.part_of_speech}</p>
+                    <p><strong>Definition:</strong> ${item.definition}</p>
+                `;
+                document.getElementById('definition-modal').style.display = 'block';
+            });
             grid.appendChild(card);
         });
     }
@@ -107,5 +115,17 @@ document.getElementById('close-modal').addEventListener('click', () => {
 window.addEventListener('click', (e) => {
     if (e.target === document.getElementById('story-modal')) {
         document.getElementById('story-modal').style.display = 'none';
+    }
+});
+
+// Close definition modal
+document.getElementById('close-definition-modal').addEventListener('click', () => {
+    document.getElementById('definition-modal').style.display = 'none';
+});
+
+// Close definition modal on outside click
+window.addEventListener('click', (e) => {
+    if (e.target === document.getElementById('definition-modal')) {
+        document.getElementById('definition-modal').style.display = 'none';
     }
 });

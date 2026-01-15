@@ -288,7 +288,7 @@ li {
 
 .dictionary-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Better responsive grid */
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Smaller cards */
     gap: 1.5rem;
 }
 
@@ -296,10 +296,11 @@ li {
     background-color: var(--card-bg);
     border: 1px solid #222;
     border-radius: var(--border-radius);
-    padding: 1.5rem;
+    padding: 1rem;
     position: relative;
     text-align: center;
     transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -325,7 +326,7 @@ li {
 
 .fiwo-word {
     font-family: var(--font-code);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: white;
     margin-bottom: 0.2rem;
     letter-spacing: -0.5px;
@@ -410,7 +411,10 @@ footer {
 .modal-content {
     background-color: var(--card-bg);
     color: var(--text-color);
-    margin: 5% auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 0;
     border: 1px solid #888;
     width: 80%;
@@ -506,7 +510,7 @@ footer {
     }
 
     .fiwo-word {
-        font-size: 1.5rem; /* Slightly smaller title text */
+        font-size: 1.3rem; /* Smaller title text for mobile */
     }
 
     /* Stack the search bar and sort buttons nicely */

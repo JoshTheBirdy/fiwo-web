@@ -492,20 +492,20 @@ Grammar- Exception to rules:
 9. lo (Predicate Marker). Definition: Signals the start of the verb phrase after the subject.
 10. mi (I/Me). Definition: First person singular. The the body and mind.
 11. ne (No/ not). Definition: This structural particle serves as the logical operator of negation. It inverts the truth value of the subsequent predicate or grouped phrase, asserting that the action or relation is false or did not occur. It functions strictly as a syntactic switch, distinct from the descriptive quality of being empty or bad.
-12. pa (Past ). Definition: Tense marker for past events (relisted as per document).
-13. ro (Or). Definition: Used to indicate alternatives or choices.
-14. sii (Conditional Clause Marker). Definition: `sii` introduces a **conditional subordinate clause**. A sii-clause defines a condition under which the main predicate holds. (Semantically covers: *if*, *when*, *whenever*)
-15. su (You). Definition: Second person singular.
-16. te (Object marker). Definition: Signals the start of the direct object after the verb.
-17. wa (What). Definition: Used to inquire about a thing or matter.
-18. wai (Why). Definition: Used to inquire about reason or cause.
-19. we (Where). Definition: Used to inquire about location.
-20. wo (When). Definition: Used to inquire about time.
-21. wu (Who ). Definition: Used to inquire about a person or agent.
-22. **ki (**Subordinate Predicate Marker). Definition: `ki` introduces a subordinate predicate (non-main clause). A `ki`-clause expresses an **event or state** that modifies a noun or a higher clause.
-23. **si (***Proximal Clause Deictic***). Definition:** Refers to the current or immediately preceding clause.
-24. **ta (***Distal Clause Deictic***). Definition:** Refers to a non-current, prior, or conceptually distant clause.
-25. he (How). Definition: Used to inquire about the manner, method, or degree of an action or state.
+13. pa (Past ). Definition: Tense marker for past events (relisted as per document).
+14. ro (Or). Definition: Used to indicate alternatives or choices.
+15. sii (Conditional Clause Marker). Definition: `sii` introduces a **conditional subordinate clause**. A sii-clause defines a condition under which the main predicate holds. (Semantically covers: *if*, *when*, *whenever*)
+16. su (You). Definition: Second person singular.
+17. te (Object marker). Definition: Signals the start of the direct object after the verb.
+18. wa (What). Definition: Used to inquire about a thing or matter.
+19. wai (Why). Definition: Used to inquire about reason or cause.
+20. we (Where). Definition: Used to inquire about location.
+21. wo (When). Definition: Used to inquire about time.
+22. wu (Who ). Definition: Used to inquire about a person or agent.
+23. **ki (**Subordinate Predicate Marker). Definition: `ki` introduces a subordinate predicate (non-main clause). A `ki`-clause expresses an **event or state** that modifies a noun or a higher clause.
+24. **si (***Proximal Clause Deictic***). Definition:** Refers to the current or immediately preceding clause.
+25. **ta (***Distal Clause Deictic***). Definition:** Refers to a non-current, prior, or conceptually distant clause.
+26. he (How). Definition: Used to inquire about the manner, method, or degree of an action or state.
 
 Modifier - e:
 
@@ -520,66 +520,66 @@ Modifier - e:
 9. je (Many ). Definition: Large quantity. More than one of a thing
 10. jeme (Most). Definition: The greatest quantity/quality compared to something else.
 11. jete (more). Definition: An increase compared to something else
-12. jiixe (Thin). Definition: This word describes something with a small distance between opposite surfaces.
-13. joqe (Heavy). Definition: This word describes something of great weight or difficult to lift.
-14. jotze (Clean). Definition: This word describes something free from dirt, marks, or stains.
-15. juwe (Only / Just). Definition: This word limits something to a single person, thing, or amount, explicitly excluding anything else.
-16. kame (Salty). Definition: This describes the taste sensation characteristic of sodium chloride (salt).
-17. kiipe (Happy). Definition: This describes a state of feeling or showing pleasure.
-18. koce (Bitter). Definition: This describes a sharp, pungent taste sensation, often perceived as unpleasant, found in things like dark chocolate, coffee, or certain alkaloids.
-19. labne (Same). Definition: This word describes something identical or not different.
-20. laege (Green). Definition: This word describes the color between blue and yellow in the spectrum, like that of growing grass.
-21. lande (Small / Little). Definition: This word describes something of limited size or extent.
-22. late (All). Definition: This word refers to the whole quantity or extent of a particular group or thing.
-23. lefe (Hard). Definition: This word describes something solid, firm, and resistant to pressure.
-24. letze (Dirty). Definition: This word describes something covered or marked with an unclean substance.
-25. leufe (Red). Definition: This word describes the color at the end of the spectrum next to orange and opposite violet, like blood or fire.
-26. lice (Wet). Definition: This word describes something covered or saturated with water or another liquid.
-27. liize (Right). Definition: This refers to the direction or side towards the east when facing north; opposite to left.
-28. loaxe (Blue). Definition: This word describes the color between violet and green on the spectrum, like the clear sky.
-29. locwe (White / Light). Definition: This word describes the color of fresh snow or milk, reflecting all visible rays of light.
-30. loge (Able). Definition: This describes having the power, skill, means, or opportunity to do something.
-31. lome (Narrow). Definition: This word describes something of small width in relation to length
-32. lope (Blunt / Dull). Definition: This word describes something lacking a sharp edge or point.
-33. lotse (Black / Dark). Definition: This word describes the very darkest color, resulting from the absence or complete absorption of light.
-34. lozke (Yellow). Definition: This word describes the color between green and orange in the spectrum, like that of a lemon or gold.
-35. luze (Empty). Definition: This word describes something containing nothing or having no occupants.
-36. mace (Female). Definition: This word describes a biological entity or system characterized by the physiological capacity to produce the larger gamete (eggs or ova).
-37. manne (Male). Definition: This word describes a biological entity or system characterized by the physiological capacity to produce the mobile gamete (sperm).
-38. me (Maybe/ Perhaps). Definition: Used to express possibility or uncertainty.
-39. pape (Umami / Savory). Definition: This describes the savory or meaty taste sensation, characteristic of broths and cooked meats (specifically glutamates or nucleotides).
-40. pise (Sour). Definition: This describes the taste sensation characteristic of acids, like lemon juice or vinegar.
-41. rabe (Hot). Definition: This word describes something having a high degree of heat or a high temperature.
-42. rande (Big / Large). Definition: This word describes something of considerable size, extent, or capacity.
-43. ranne (Strong). Definition: This word describes something having the power to move heavy weights or perform other physically demanding tasks.
-44. raose (Slow). Definition: This word describes something moving or operating at a low speed
-45. redne (Different). Definition: This word describes something not the same as another or each other
-46. repe (Sharp). Definition: This word describes something having an edge or point that is able to cut or pierce.
-47. retse (Dangerous). Definition: This word describes something able or likely to cause harm or injury.
-48. rfone (Almost / Nearly). Definition: This word indicates that something is very close to a specific state, quantity, or degree, but is not completely there yet.
-49. rize (Full). Definition: This word describes something containing or holding as much or as many as possible
-50. rodle (True). Definition: This word describes something that is in accordance with fact or reality.
-51. rome (Wide / Broad). Definition: This word describes something having a great or specified extent from side to side.
-52. rudse (Rough). Definition: This describes a surface that is uneven or irregular, often coarse or not smooth to the touch.
-53. ruke (Fast / Quick). Definition: This word describes something moving or capable of moving at high speed.
-54. tatse (Sorry / Pardon / Apology). Definition: This word describes a state of feeling regret or penitence for an action, or serves as a polite expression used to excuse oneself or ask for repetition.
-55. tute (Sweet). Definition: This describes the taste sensation characteristic of sugars, distinct from sour, salty, or bitter.
-56. wage (Soft). Definition: This word describes something easy to mold, cut, compress, or fold.
-57. wannge (Left). Definition: This refers to the direction or side towards the west when facing north; the side of the body which contains the heart in most humans.
-58. wapse (Flat). Definition: This describes a surface that is level and smooth, with no raised areas or indentations.
-59. wase (Short). Definition: This word describes something measuring a small distance from end to end.
-60. wazke (Old). Definition: This word describes something that has existed for a long time.
-61. weoke (Round). Definition: This word describes a shape that is circular, spherical, or cylindrical; having a curved surface with no sharp corners.
-62. weqe (Well (Satisfactory / Proper)). Definition: This word describes something as being satisfactory, correct, or proper, often based on an opinion or judgment of the situation.
-63. wiiqe (Light (Weight)). Definition: This word describes something of little weight or easy to lift.
-64. wiitse (Safe). Definition: This word describes something protected from or not exposed to danger or risk.
-65. wipe (Greater Good). Definition: This word is used strictly in a moral sense for the "greater good" or to describe major events like death or destruction, distinct from the subjective word for "like".
-66. wonne (Weak). Definition: This word describes something lacking the power to perform physically demanding tasks.
-67. wote (Few / Little). Definition: This word describes a small number or amount of something
-68. wuske (Dry). Definition: This word describes something free from moisture or liquid.
-69. wuxe (Thick). Definition: This word describes something with a large distance between opposite surfaces.
-70. xawe (Good). Definition: This word describes something regarded as positive or favorable based on individual opinion.
-71. xike (Weird / Strange / Foreign). Definition: This word describes something unusual, surprising, or not belonging to the current environment or context.
+13. jiixe (Thin). Definition: This word describes something with a small distance between opposite surfaces.
+14. joqe (Heavy). Definition: This word describes something of great weight or difficult to lift.
+15. jotze (Clean). Definition: This word describes something free from dirt, marks, or stains.
+16. juwe (Only / Just). Definition: This word limits something to a single person, thing, or amount, explicitly excluding anything else.
+17. kame (Salty). Definition: This describes the taste sensation characteristic of sodium chloride (salt).
+18. kiipe (Happy). Definition: This describes a state of feeling or showing pleasure.
+19. koce (Bitter). Definition: This describes a sharp, pungent taste sensation, often perceived as unpleasant, found in things like dark chocolate, coffee, or certain alkaloids.
+20. labne (Same). Definition: This word describes something identical or not different.
+21. laege (Green). Definition: This word describes the color between blue and yellow in the spectrum, like that of growing grass.
+22. lande (Small / Little). Definition: This word describes something of limited size or extent.
+23. late (All). Definition: This word refers to the whole quantity or extent of a particular group or thing.
+24. lefe (Hard). Definition: This word describes something solid, firm, and resistant to pressure.
+25. letze (Dirty). Definition: This word describes something covered or marked with an unclean substance.
+26. leufe (Red). Definition: This word describes the color at the end of the spectrum next to orange and opposite violet, like blood or fire.
+27. lice (Wet). Definition: This word describes something covered or saturated with water or another liquid.
+28. liize (Right). Definition: This refers to the direction or side towards the east when facing north; opposite to left.
+29. loaxe (Blue). Definition: This word describes the color between violet and green on the spectrum, like the clear sky.
+30. locwe (White / Light). Definition: This word describes the color of fresh snow or milk, reflecting all visible rays of light.
+31. loge (Able). Definition: This describes having the power, skill, means, or opportunity to do something.
+32. lome (Narrow). Definition: This word describes something of small width in relation to length
+33. lope (Blunt / Dull). Definition: This word describes something lacking a sharp edge or point.
+34. lotse (Black / Dark). Definition: This word describes the very darkest color, resulting from the absence or complete absorption of light.
+35. lozke (Yellow). Definition: This word describes the color between green and orange in the spectrum, like that of a lemon or gold.
+36. luze (Empty). Definition: This word describes something containing nothing or having no occupants.
+37. mace (Female). Definition: This word describes a biological entity or system characterized by the physiological capacity to produce the larger gamete (eggs or ova).
+38. manne (Male). Definition: This word describes a biological entity or system characterized by the physiological capacity to produce the mobile gamete (sperm).
+39. me (Maybe/ Perhaps). Definition: Used to express possibility or uncertainty.
+40. pape (Umami / Savory). Definition: This describes the savory or meaty taste sensation, characteristic of broths and cooked meats (specifically glutamates or nucleotides).
+41. pise (Sour). Definition: This describes the taste sensation characteristic of acids, like lemon juice or vinegar.
+42. rabe (Hot). Definition: This word describes something having a high degree of heat or a high temperature.
+43. rande (Big / Large). Definition: This word describes something of considerable size, extent, or capacity.
+44. ranne (Strong). Definition: This word describes something having the power to move heavy weights or perform other physically demanding tasks.
+45. raose (Slow). Definition: This word describes something moving or operating at a low speed
+46. redne (Different). Definition: This word describes something not the same as another or each other
+47. repe (Sharp). Definition: This word describes something having an edge or point that is able to cut or pierce.
+48. retse (Dangerous). Definition: This word describes something able or likely to cause harm or injury.
+49. rfone (Almost / Nearly). Definition: This word indicates that something is very close to a specific state, quantity, or degree, but is not completely there yet.
+50. rize (Full). Definition: This word describes something containing or holding as much or as many as possible
+51. rodle (True). Definition: This word describes something that is in accordance with fact or reality.
+52. rome (Wide / Broad). Definition: This word describes something having a great or specified extent from side to side.
+53. rudse (Rough). Definition: This describes a surface that is uneven or irregular, often coarse or not smooth to the touch.
+54. ruke (Fast / Quick). Definition: This word describes something moving or capable of moving at high speed.
+55. tatse (Sorry / Pardon / Apology). Definition: This word describes a state of feeling regret or penitence for an action, or serves as a polite expression used to excuse oneself or ask for repetition.
+56. tute (Sweet). Definition: This describes the taste sensation characteristic of sugars, distinct from sour, salty, or bitter.
+57. wage (Soft). Definition: This word describes something easy to mold, cut, compress, or fold.
+58. wannge (Left). Definition: This refers to the direction or side towards the west when facing north; the side of the body which contains the heart in most humans.
+59. wapse (Flat). Definition: This describes a surface that is level and smooth, with no raised areas or indentations.
+60. wase (Short). Definition: This word describes something measuring a small distance from end to end.
+61. wazke (Old). Definition: This word describes something that has existed for a long time.
+62. weoke (Round). Definition: This word describes a shape that is circular, spherical, or cylindrical; having a curved surface with no sharp corners.
+63. weqe (Well (Satisfactory / Proper)). Definition: This word describes something as being satisfactory, correct, or proper, often based on an opinion or judgment of the situation.
+64. wiiqe (Light (Weight)). Definition: This word describes something of little weight or easy to lift.
+65. wiitse (Safe). Definition: This word describes something protected from or not exposed to danger or risk.
+66. wipe (Greater Good). Definition: This word is used strictly in a moral sense for the "greater good" or to describe major events like death or destruction, distinct from the subjective word for "like".
+67. wonne (Weak). Definition: This word describes something lacking the power to perform physically demanding tasks.
+68. wote (Few / Little). Definition: This word describes a small number or amount of something
+69. wuske (Dry). Definition: This word describes something free from moisture or liquid.
+70. wuxe (Thick). Definition: This word describes something with a large distance between opposite surfaces.
+71. xawe (Good). Definition: This word describes something regarded as positive or favorable based on individual opinion.
+72. xike (Weird / Strange / Foreign). Definition: This word describes something unusual, surprising, or not belonging to the current environment or context.
 
 Noun - a:
 
@@ -594,35 +594,35 @@ Noun - a:
 9. fika (Path / Road). Definition: This refers to a route, course, or track along which something moves or reaches a destination.
 10. foisa (Building / Structure). Definition: This refers to a structure with a roof and walls, such as a house, school, store, or factory.
 11. fola (Data). Definition: This refers to facts, statistics, or distinct pieces of information collected together for reference or analysis (logic/quantities).
-12. grifa (Fire). Definition: This is the prototype word for energy and heat, typically associated with combustion.
-13. hauta (Music). Definition: This refers to the art of combining vocal or instrumental sounds (or both) to produce beauty of form, harmony, and expression of emotion.
-14. jepa (Offspring ). Definition: This refers to the immediate descendant produced by the reproduction of a living organism; the young of a person, animal, or plant.
-15. jura (City). Definition: This refers to a large human settlement with a high population density and extensive systems for housing, transportation, and utilities.
-16. lita (Light). Definition: This describes photon energy or the natural agent that stimulates sight and makes things visible.
-17. lta (Zero). Definition: This refers to the arithmetical symbol denoting the absence of all magnitude or quantity.
-18. mfuka (Hand). Definition: This identifies the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb.
-19. moda (God). Definition: Divine being/all that is/ God
-20. mzifa (Bed). Definition: This refers to a piece of furniture or a prepared spot used for sleep or rest.
-21. mzoja (Blood). Definition: This identifies the red liquid that circulates in the arteries and veins of humans and other vertebrate animals.
-22. na (Now). Definition: Used for the present moment.
-23. nauca (Friend). Definition: This refers to a person whom one knows and with whom one has a bond of mutual affection.
-24. ndiisa (Tongue). Definition: This refers to the fleshy muscular organ in the mouth used for tasting, licking, swallowing, and speaking
-25. nida (Tooth). Definition: This identifies each of the hard, white structures in the mouth used for biting and chewing.
-26. nnila (Finger). Definition: This identifies each of the long, slender members attached to the hand.
-27. nnofa (Bird). Definition: This refers to a flying animal, typically characterized by feathers and wings.
-28. nnsoza (Skin). Definition: This refers to the thin layer of tissue forming the natural outer covering of the body.
-29. nopha (Parent ). Definition: This refers to a father or mother, or a person or animal that produces offspring.
-30. nsoca (Body). Definition: This refers to the physical structure of a person or an animal, comprising the material substance (bones, flesh, and organs) distinct from the mind and soul.
-31. raja (Five). Definition: This refers to the cardinal number equivalent to the sum of four and one.
-32. rewa (Seven). Definition: This refers to the cardinal number equivalent to the sum of six and one.
-33. rica (Three). Definition: This refers to the cardinal number that is the sum of one and two.
-34. roza (One). Definition: This refers to the lowest cardinal number, representing a single unit or entity.
-35. runa (Nine). Definition: This refers to the cardinal number equivalent to the product of three and three.
-36. tapa (Here). Definition: The specific physical location of the speaker or the immediate area being occupied.
-37. tsota (Contentment). Definition: This refers to a state of happiness and satisfaction; the quality of being mentally or emotionally satisfied with things as they are.
-38. xa (Word). Definition: This refers to a single distinct meaningful element of speech or writing.
-39. xeta (Tool). Definition: This refers to a device or implement, especially one held in the hand, used to carry out a particular function.
-40. ziinda (House / Shelter). Definition: This refers to a structure or place serving as a dwelling, providing protection from the elements and a living space for habitation.
+13. grifa (Fire). Definition: This is the prototype word for energy and heat, typically associated with combustion.
+14. hauta (Music). Definition: This refers to the art of combining vocal or instrumental sounds (or both) to produce beauty of form, harmony, and expression of emotion.
+15. jepa (Offspring ). Definition: This refers to the immediate descendant produced by the reproduction of a living organism; the young of a person, animal, or plant.
+16. jura (City). Definition: This refers to a large human settlement with a high population density and extensive systems for housing, transportation, and utilities.
+17. lita (Light). Definition: This describes photon energy or the natural agent that stimulates sight and makes things visible.
+18. lta (Zero). Definition: This refers to the arithmetical symbol denoting the absence of all magnitude or quantity.
+19. mfuka (Hand). Definition: This identifies the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb.
+20. moda (God). Definition: Divine being/all that is/ God
+21. mzifa (Bed). Definition: This refers to a piece of furniture or a prepared spot used for sleep or rest.
+22. mzoja (Blood). Definition: This identifies the red liquid that circulates in the arteries and veins of humans and other vertebrate animals.
+23. na (Now). Definition: Used for the present moment.
+24. nauca (Friend). Definition: This refers to a person whom one knows and with whom one has a bond of mutual affection.
+25. ndiisa (Tongue). Definition: This refers to the fleshy muscular organ in the mouth used for tasting, licking, swallowing, and speaking
+26. nida (Tooth). Definition: This identifies each of the hard, white structures in the mouth used for biting and chewing.
+27. nnila (Finger). Definition: This identifies each of the long, slender members attached to the hand.
+28. nnofa (Bird). Definition: This refers to a flying animal, typically characterized by feathers and wings.
+29. nnsoza (Skin). Definition: This refers to the thin layer of tissue forming the natural outer covering of the body.
+30. nopha (Parent ). Definition: This refers to a father or mother, or a person or animal that produces offspring.
+31. nsoca (Body). Definition: This refers to the physical structure of a person or an animal, comprising the material substance (bones, flesh, and organs) distinct from the mind and soul.
+32. raja (Five). Definition: This refers to the cardinal number equivalent to the sum of four and one.
+33. rewa (Seven). Definition: This refers to the cardinal number equivalent to the sum of six and one.
+34. rica (Three). Definition: This refers to the cardinal number that is the sum of one and two.
+35. roza (One). Definition: This refers to the lowest cardinal number, representing a single unit or entity.
+36. runa (Nine). Definition: This refers to the cardinal number equivalent to the product of three and three.
+37. tapa (Here). Definition: The specific physical location of the speaker or the immediate area being occupied.
+38. tsota (Contentment). Definition: This refers to a state of happiness and satisfaction; the quality of being mentally or emotionally satisfied with things as they are.
+39. xa (Word). Definition: This refers to a single distinct meaningful element of speech or writing.
+40. xeta (Tool). Definition: This refers to a device or implement, especially one held in the hand, used to carry out a particular function.
+41. ziinda (House / Shelter). Definition: This refers to a structure or place serving as a dwelling, providing protection from the elements and a living space for habitation.
 
 Noun - o:
 
@@ -637,35 +637,35 @@ Noun - o:
 9. fiwo (Language ). Definition: This refers to the principal method of human communication, consisting of words used in a structured and conventional way.
 10. geqo (Space). Definition: This word defines a specific area, room, or the physical extent in which objects are located.
 11. gifo (Wood). Definition: This refers to the hard, fibrous plant material that makes up the main substance of trees.
-12. hedqo (Part). Definition: This refers to a piece, segment, or component of a whole object or system.
-13. hiso (Name). Definition: This identifies a word or set of words by which a person, animal, place, or thing is known.
-14. hupo (Center / Middle). Definition: This refers to the point that is equally distant from every part of the circumference or ends of something.
-15. juko (Shape / Form). Definition: This refers to the external form, contours, or outline of someone or something.
-16. matco (Mouth). Definition: This refers to the opening in the lower part of the human face through which food is taken in and speech is emitted.
-17. mazo (Tree). Definition: This identifies a large plant, typically having a single stem or trunk growing to a considerable height.
-18. mfilo (Leaf). Definition: This identifies the flattened, usually green structure of a plant attached to a stem.
-19. miixo (Leg). Definition: This refers to each of the limbs on which a person or animal walks and stands.
-20. mito (Meat). Definition: This refers to the flesh of an animal used as food.
-21. mo (Soul). Definition: This refers to the immaterial essence, spiritual core, or animating force of a being, regarded as distinct from both the physical body and the intellectual mind.
-22. mulo (Flower). Definition: This refers to the seed-bearing part of a plant, consisting of reproductive organs and colorful petals.
-23. nbelo (Foot). Definition: This identifies the lower extremity of the leg below the ankle, on which a person stands or walks.
-24. nepo (Fish). Definition: This identifies a water-dwelling animal that swims and breathes using gills.
-25. nnalo (Bug / Insect). Definition: This refers to a small invertebrate animal, often with a segmented body and legs.
-26. nnfiso (Face). Definition: This refers to the front part of a person's head from the forehead to the chin.
-27. nnifo (Group). Definition: This refers to a number of people or things that are located, gathered, or classed together.
-28. nojo (Eye). Definition: This identifies the organ of sight in humans and animals.
-29. numo (Country). Definition: This refers to a nation with its own government, occupying a particular territory.
-30. pso (Type / Kind / Sort). Definition: A category of entities having some common characteristics that distinguish them from others.
-31. rado (Eight). Definition: This refers to the cardinal number equivalent to the product of two and four.
-32. ratso (Two). Definition: This refers to the cardinal number that is the sum of one and one.
-33. rerpo (Place / Location). Definition: This refers to a particular position, point, or area in space, regardless of whether it is occupied.
-34. reso (Six). Definition: This refers to the cardinal number equivalent to the product of two and three.
-35. rugo (Four). Definition: This refers to the cardinal number that is the product of two and two.
-36. soko (Way / Manner). Definition: This refers to a method, style, or custom of doing something; the mode of action or procedure.
-37. xido (Money). Definition: This refers to a current medium of exchange in the form of coins and banknotes.
-38. xiipo (Internet). Definition: This refers to the global system of interconnected computer networks; a virtual location or network structure.
-39. xioco (AI (Artificial Intelligence)). Definition: This refers to computer systems able to perform tasks that normally require human intelligence.
-40. xo (Number). Definition: This refers to an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity.
+13. hedqo (Part). Definition: This refers to a piece, segment, or component of a whole object or system.
+14. hiso (Name). Definition: This identifies a word or set of words by which a person, animal, place, or thing is known.
+15. hupo (Center / Middle). Definition: This refers to the point that is equally distant from every part of the circumference or ends of something.
+16. juko (Shape / Form). Definition: This refers to the external form, contours, or outline of someone or something.
+17. matco (Mouth). Definition: This refers to the opening in the lower part of the human face through which food is taken in and speech is emitted.
+18. mazo (Tree). Definition: This identifies a large plant, typically having a single stem or trunk growing to a considerable height.
+19. mfilo (Leaf). Definition: This identifies the flattened, usually green structure of a plant attached to a stem.
+20. miixo (Leg). Definition: This refers to each of the limbs on which a person or animal walks and stands.
+21. mito (Meat). Definition: This refers to the flesh of an animal used as food.
+22. mo (Soul). Definition: This refers to the immaterial essence, spiritual core, or animating force of a being, regarded as distinct from both the physical body and the intellectual mind.
+23. mulo (Flower). Definition: This refers to the seed-bearing part of a plant, consisting of reproductive organs and colorful petals.
+24. nbelo (Foot). Definition: This identifies the lower extremity of the leg below the ankle, on which a person stands or walks.
+25. nepo (Fish). Definition: This identifies a water-dwelling animal that swims and breathes using gills.
+26. nnalo (Bug / Insect). Definition: This refers to a small invertebrate animal, often with a segmented body and legs.
+27. nnfiso (Face). Definition: This refers to the front part of a person's head from the forehead to the chin.
+28. nnifo (Group). Definition: This refers to a number of people or things that are located, gathered, or classed together.
+29. nojo (Eye). Definition: This identifies the organ of sight in humans and animals.
+30. numo (Country). Definition: This refers to a nation with its own government, occupying a particular territory.
+31. pso (Type / Kind / Sort). Definition: A category of entities having some common characteristics that distinguish them from others.
+32. rado (Eight). Definition: This refers to the cardinal number equivalent to the product of two and four.
+33. ratso (Two). Definition: This refers to the cardinal number that is the sum of one and one.
+34. rerpo (Place / Location). Definition: This refers to a particular position, point, or area in space, regardless of whether it is occupied.
+35. reso (Six). Definition: This refers to the cardinal number equivalent to the product of two and three.
+36. rugo (Four). Definition: This refers to the cardinal number that is the product of two and two.
+37. soko (Way / Manner). Definition: This refers to a method, style, or custom of doing something; the mode of action or procedure.
+38. xido (Money). Definition: This refers to a current medium of exchange in the form of coins and banknotes.
+39. xiipo (Internet). Definition: This refers to the global system of interconnected computer networks; a virtual location or network structure.
+40. xioco (AI (Artificial Intelligence)). Definition: This refers to computer systems able to perform tasks that normally require human intelligence.
+41. xo (Number). Definition: This refers to an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity.
 
 Noun - u:
 
@@ -680,34 +680,34 @@ Noun - u:
 9. gercu (Celestial Object / Planet / Moon). Definition: This refers to a natural physical entity, such as a planet, moon, or star, that exists in the universe outside the earth's atmosphere.
 10. gisu (Ground ). Definition: This term refers to the ground, soil, or the physical land surface.
 11. gomu (Hour). Definition: This refers to a period of time equal to sixty minutes or one twenty-fourth of a day.
-12. grecu (Thing). Definition: This is a universal substantive used to refer to any object, entity, or distinct matter.
-13. gudu (Metal ). Definition: This describes a solid material that is typically hard, shiny, and conductive.
-14. hanu (Container / Box). Definition: This describes an enclosure or object used for holding or transporting something
-15. hocu (Door / Gate). Definition: This identifies an access point or movable barrier used to close an opening.
-16. jaru (Year). Definition: The time it takes for a planet to complete one full revolution around its star; a period of time comprising 365 days.
-17. jormu (Case / Situation). Definition: This refers to a set of circumstances or conditions in which one finds oneself; a state of affairs.
-18. maobu (Heart ). Definition: This identifies the biological pump that circulates blood through the body.
-19. meku (Bone). Definition: This refers to any of the pieces of hard, whitish tissue making up the skeleton in humans and other vertebrates.
-20. melvu (Price). Definition: This refers to the amount of money expected, required, or given in payment for something.
-21. meotu (Head ). Definition: This identifies the upper part of the human body containing the brain, eyes, ears, nose, and mouth.
-22. mifu (Animal). Definition: This identifies a living organism that is specifically a land-dwelling beast.
-23. movu (Person / Human). Definition: This refers to a human being, individual, or member of the human species.
-24. mviku (Arm). Definition: This refers to each of the two upper limbs of the human body from the shoulder to the hand.
-25. nasu (Plant). Definition: This refers to a living organism of the kind exemplified by trees, shrubs, and herbs.
-26. nfitu (Root ). Definition: This identifies the part of a plant that attaches it to the ground and absorbs water and nourishment.
-27. nicu (Seed). Definition: This refers to the unit of reproduction of a flowering plant capable of developing into another such plant.
-28. nnaqu (Sickness / Disease). Definition: This refers to a disorder of structure or function in a human, animal, or plant; a specific condition of illness.
-29. nnxotu (Nose). Definition: This identifies the part projecting above the mouth on the face of a person or animal, used for smelling.
-30. nokru (Hair). Definition: This refers to the fine thread-like strands growing from the skin of humans, mammals, and some other animals.
-31. pano (Book). Definition: This refers to a written or printed work consisting of pages bound together, or a digital equivalent, used to store information.
-32. pemu (Pain). Definition: This refers to physical suffering or discomfort caused by illness or injury; a distinct sensory experience of hurting.
-33. peza (Sound). Definition: This refers to vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear; the sensation produced by stimulation of the organs of hearing.
-34. roku (Dark). Definition: This defines the absence of light or the state of being without illumination.
-35. tocu (Mind). Definition: This refers to the element of a being that enables reasoning, perception, and memory; that facilitates consciousness and intellect, distinct from the physical body and the spiritual soul.
-36. waxu (Angle). Definition: The space between two intersecting lines (angle); specific geometric properties.
-37. wigu (Color). Definition: This refers to the property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light.
-38. wupu (There). Definition: A specific physical location distant from the speaker or outside the immediate area.
-39. zodu (Power/ Influence ). Definition: This refers to the capacity or ability to direct or influence the behavior of others or the course of events; political or social authority.
+13. grecu (Thing). Definition: This is a universal substantive used to refer to any object, entity, or distinct matter.
+14. gudu (Metal ). Definition: This describes a solid material that is typically hard, shiny, and conductive.
+15. hanu (Container / Box). Definition: This describes an enclosure or object used for holding or transporting something
+16. hocu (Door / Gate). Definition: This identifies an access point or movable barrier used to close an opening.
+17. jaru (Year). Definition: The time it takes for a planet to complete one full revolution around its star; a period of time comprising 365 days.
+18. jormu (Case / Situation). Definition: This refers to a set of circumstances or conditions in which one finds oneself; a state of affairs.
+19. maobu (Heart ). Definition: This identifies the biological pump that circulates blood through the body.
+20. meku (Bone). Definition: This refers to any of the pieces of hard, whitish tissue making up the skeleton in humans and other vertebrates.
+21. melvu (Price). Definition: This refers to the amount of money expected, required, or given in payment for something.
+22. meotu (Head ). Definition: This identifies the upper part of the human body containing the brain, eyes, ears, nose, and mouth.
+23. mifu (Animal). Definition: This identifies a living organism that is specifically a land-dwelling beast.
+24. movu (Person / Human). Definition: This refers to a human being, individual, or member of the human species.
+25. mviku (Arm). Definition: This refers to each of the two upper limbs of the human body from the shoulder to the hand.
+26. nasu (Plant). Definition: This refers to a living organism of the kind exemplified by trees, shrubs, and herbs.
+27. nfitu (Root ). Definition: This identifies the part of a plant that attaches it to the ground and absorbs water and nourishment.
+28. nicu (Seed). Definition: This refers to the unit of reproduction of a flowering plant capable of developing into another such plant.
+29. nnaqu (Sickness / Disease). Definition: This refers to a disorder of structure or function in a human, animal, or plant; a specific condition of illness.
+30. nnxotu (Nose). Definition: This identifies the part projecting above the mouth on the face of a person or animal, used for smelling.
+31. nokru (Hair). Definition: This refers to the fine thread-like strands growing from the skin of humans, mammals, and some other animals.
+32. pano (Book). Definition: This refers to a written or printed work consisting of pages bound together, or a digital equivalent, used to store information.
+33. pemu (Pain). Definition: This refers to physical suffering or discomfort caused by illness or injury; a distinct sensory experience of hurting.
+34. peza (Sound). Definition: This refers to vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear; the sensation produced by stimulation of the organs of hearing.
+35. roku (Dark). Definition: This defines the absence of light or the state of being without illumination.
+36. tocu (Mind). Definition: This refers to the element of a being that enables reasoning, perception, and memory; that facilitates consciousness and intellect, distinct from the physical body and the spiritual soul.
+37. waxu (Angle). Definition: The space between two intersecting lines (angle); specific geometric properties.
+38. wigu (Color). Definition: This refers to the property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light.
+39. wupu (There). Definition: A specific physical location distant from the speaker or outside the immediate area.
+40. zodu (Power/ Influence ). Definition: This refers to the capacity or ability to direct or influence the behavior of others or the course of events; political or social authority.
 
 Preposition - ii:
 
@@ -722,21 +722,21 @@ Preposition - ii:
 9. wii (With ). Definition: Used for accompaniment or instrumentality.
 10. zii (To). Definition: Used for direction toward a destination or outcome.
 11. fii (From). Definition: Used for origin or starting point.
-12. bii (By). Definition: Used to indicate agent, means, or source.
-13. **nokii** (Down/ below). Definition: Used for direction or position lower than a reference.
-14. dii (Made of / Composed of). **Definition:** Indicates the physical substance or material composition of the subject. 
-15. **todii** (Up/ above). Definition: Used for direction or position higher than a reference.
-16. **hemii**(Near). Definition: Used for close proximity.
-17. nii(Part of). **Definition:** Indicates the subject is an integral component or piece of the object, such as a body part or machine element. 
-18. rii (Owned by). **Definition:** Indicates strict ownership, legal possession, or belonging. 
-19. qii (Containing / Filled with). **Definition:** Indicates that the subject is holding the object inside it; specifies content rather than purpose. 
-20. **qazii**(For). Definition: This word indicates the purpose, destination, or intended recipient of an action or object.
-21. lii (Shaped like / Form of). **Definition:** Indicates that the subject shares the physical geometry or outline of the object, but not necessarily its material or function. 
-22. fazii  (Nature of / Characterized by). **Definition:** Indicates abstract characteristics, personality, or intrinsic nature; having the qualities of the object. 
-23. kii (On). Definition: Used for location at a specific point.
-24. **yekii** (In/ inside). Definition: Used for location within an enclosure.
-25. tii (At). Definition: Used for location at a specific point.
-26. **rewii** (far) **Definition:** Situated at a great distance from; far away relative to a reference point.
+13. bii (By). Definition: Used to indicate agent, means, or source.
+14. **nokii** (Down/ below). Definition: Used for direction or position lower than a reference.
+15. dii (Made of / Composed of). **Definition:** Indicates the physical substance or material composition of the subject. 
+16. **todii** (Up/ above). Definition: Used for direction or position higher than a reference.
+17. **hemii**(Near). Definition: Used for close proximity.
+18. nii(Part of). **Definition:** Indicates the subject is an integral component or piece of the object, such as a body part or machine element. 
+19. rii (Owned by). **Definition:** Indicates strict ownership, legal possession, or belonging. 
+20. qii (Containing / Filled with). **Definition:** Indicates that the subject is holding the object inside it; specifies content rather than purpose. 
+21. **qazii**(For). Definition: This word indicates the purpose, destination, or intended recipient of an action or object.
+22. lii (Shaped like / Form of). **Definition:** Indicates that the subject shares the physical geometry or outline of the object, but not necessarily its material or function. 
+23. fazii  (Nature of / Characterized by). **Definition:** Indicates abstract characteristics, personality, or intrinsic nature; having the qualities of the object. 
+24. kii (On). Definition: Used for location at a specific point.
+25. **yekii** (In/ inside). Definition: Used for location within an enclosure.
+26. tii (At). Definition: Used for location at a specific point.
+27. **rewii** (far) **Definition:** Situated at a great distance from; far away relative to a reference point.
 
 Verb - i:
 
@@ -751,59 +751,60 @@ Verb - i:
 9. doxi (Let). Definition: This verb means to not prevent an action from occurring
 10. fodi (Process). Definition: This refers to a series of actions or steps taken in order to achieve a particular end.
 11. gari (Play). Definition: This verb means to engage in activity for enjoyment and recreation rather than a serious or practical purpose.
-12. goji (Pull). Definition: This verb means to exert force on something to move it toward oneself.
-13. guxi (Stand). Definition: This verb means to maintain an upright position, supported by the feet (or base) in a vertical orientation.
-14. hiqi (walk). Definition: This verb means to move at a regular pace by lifting and setting down each foot in turn, never having both feet off the ground at once.
-15. jami (Write). Definition: This verb means to mark letters, words, or other symbols on a surface to record information.
-16. jedi (Have). Definition: This verb means to possess, own, or hold something as property or a characteristic.
-17. jofi (Help / Assist). Definition: To make it easier for someone to do something by offering one's services or resources.
-18. kani (Know). Definition: This verb means to possess knowledge, facts, or skills.
-19. karci (Find / Discover). Definition: This verb means to discover or perceive by chance or unexpectedly, or to become aware of something new.
-20. kili (Touch / Feel). Definition: This verb means to perceive through physical contact or the sense of touch.
-21. koqi (Need). Definition: This verb means to require something because it is essential or very important.
-22. kiiteqi (Like). Definition: This verb expresses positive feelings towards something or someone and is completely subjective.
-23. kxori (Fear). Definition: This verb means to be afraid of someone or something.
-24. lgazi (Say / Speak). Definition: This verb means to utter words so as to convey information.
-25. lini (Cause). Definition: To make something happen or exist; to bring about a result or effect.
-26. loki (Read). Definition: This verb means to look at and comprehend the meaning of written or printed matter.
-27. lti (Come). Definition: This verb means to move toward a specific location or the speaker.
-28. maji (Breathe). Definition: This verb means to take air into the lungs and expel it.
-29. mesi (Birth). Definition: This verb means to give life to a child or offspring.
-30. mori (Grow). Definition: This verb means to increase in physical size, quantity, or maturity over a period of time; to undergo the natural process of development or expansion.
-31. mzi (Sleep). Definition: This verb means to rest with eyes closed in a state of natural unconsciousness.
-32. naqi (Work). Definition: This verb means to perform labor, professional tasks, or exert effort to produce a result.
-33. neki (Sit). Definition: This verb means to rest with the body supported by the buttocks or thighs; to occupy a seat.
-34. nxeni (Excrete). Definition: This verb means to separate and expel waste matter from the body.
-35. pauli (Feel). Definition: This verb means to experience an emotion or sensation.
-36. poyi (Think). Definition: This verb means to direct one's mind toward someone or something or to form ideas.
-37. qapi (Make). Definition: This verb means to create, construct, or form something.
-38. qimi (Start). Definition: This verb means to begin an action or event.
-39. quki (Fight). Definition: This verb means to take part in a violent struggle involving the exchange of physical blows or the use of weapons.
-40. rati (Ask). Definition: This verb means to say something in order to obtain an answer or some information.
-41. riiti (Search / Look for). Definition: This verb means to try to find something by looking or otherwise seeking carefully and thoroughly.
-42. roli (Drink). Definition: This verb means to take a liquid into the mouth and swallow it.
-43. sadi (Push). Definition: This verb means to exert force on something to move it away.
-44. seji (Stop). Definition: This verb means to cease an action or event.
-45. skaixi (Break). Definition: This verb means to separate into pieces as a result of a blow, shock, or structural failure.
-46. sowi (Fall). Definition: This verb describes the action of dropping down under the force of gravity.
-47. stomi (Give). Definition: This verb means to freely transfer the possession of something to someone.
-48. swagi (Put). Definition: This verb means to move something into a specific place or position.
-49. taci (Love). Definition: This verb implies unconditional actions and deep affection towards something or someone.
-50. taoji (Believe). Definition: This verb means to accept something as true without direct experience.
-51. tsi (Leave). Definition: This verb means to go away from a place, person, or thing; to depart.
-52. vabi (Want). Definition: This verb means to have a desire to possess or do something.
-53. vewi (Mix). Definition: This verb means to combine or blend different substances together.
-54. voti (Answer). Definition: This verb means to say or write something to deal with or as a reaction to a question.
-55. vumi (Change / Alter). Definition: To make or become different; to transform the state of something.
-56. wogi (Hope). Definition: This refers to a feeling of expectation and desire for a certain thing to happen; a state of optimism.
-57. xozi (Call). Definition: This verb means to cry out to someone in order to summon them or attract their attention; or to contact via a device.
-58. yemi (Cover). Definition: This verb means to put something on top of or in front of something else to protect or conceal it.
-59. yiili (Use). Definition: This verb means to employ something for a particular purpose.
-60. yoeti (Cut). Definition: This verb means to separate or divide something using a sharp edge.
-61. zatzi (Hit / Strike). Definition: This verb means to deliver a blow to someone or something.
-62. zeci (Update). Definition: This verb means to make something more modern or current, or to incorporate the most recent information.
-63. ziidi (Do). Definition: This is a generic verb used to describe performing an action.
-64. zixi (Hold). Definition: This verb means to grasp and support something
-65. zoni (Live). Definition: This verb means to remain alive or have life.
-66. zteli (Take). Definition: This verb means to lay hold of something with one's hands or reach.
-67. zufi (Turn). Definition: This verb means to rotate or change the direction of movement.
+13. grawi (Grateful / Thank). Definition: This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks.
+13. goji (Pull). Definition: This verb means to exert force on something to move it toward oneself.
+14. guxi (Stand). Definition: This verb means to maintain an upright position, supported by the feet (or base) in a vertical orientation.
+15. hiqi (walk). Definition: This verb means to move at a regular pace by lifting and setting down each foot in turn, never having both feet off the ground at once.
+16. jami (Write). Definition: This verb means to mark letters, words, or other symbols on a surface to record information.
+17. jedi (Have). Definition: This verb means to possess, own, or hold something as property or a characteristic.
+18. jofi (Help / Assist). Definition: To make it easier for someone to do something by offering one's services or resources.
+19. kani (Know). Definition: This verb means to possess knowledge, facts, or skills.
+20. karci (Find / Discover). Definition: This verb means to discover or perceive by chance or unexpectedly, or to become aware of something new.
+21. kili (Touch / Feel). Definition: This verb means to perceive through physical contact or the sense of touch.
+22. koqi (Need). Definition: This verb means to require something because it is essential or very important.
+23. kiiteqi (Like). Definition: This verb expresses positive feelings towards something or someone and is completely subjective.
+24. kxori (Fear). Definition: This verb means to be afraid of someone or something.
+25. lgazi (Say / Speak). Definition: This verb means to utter words so as to convey information.
+26. lini (Cause). Definition: To make something happen or exist; to bring about a result or effect.
+27. loki (Read). Definition: This verb means to look at and comprehend the meaning of written or printed matter.
+28. lti (Come). Definition: This verb means to move toward a specific location or the speaker.
+29. maji (Breathe). Definition: This verb means to take air into the lungs and expel it.
+30. mesi (Birth). Definition: This verb means to give life to a child or offspring.
+31. mori (Grow). Definition: This verb means to increase in physical size, quantity, or maturity over a period of time; to undergo the natural process of development or expansion.
+32. mzi (Sleep). Definition: This verb means to rest with eyes closed in a state of natural unconsciousness.
+33. naqi (Work). Definition: This verb means to perform labor, professional tasks, or exert effort to produce a result.
+34. neki (Sit). Definition: This verb means to rest with the body supported by the buttocks or thighs; to occupy a seat.
+35. nxeni (Excrete). Definition: This verb means to separate and expel waste matter from the body.
+36. pauli (Feel). Definition: This verb means to experience an emotion or sensation.
+37. poyi (Think). Definition: This verb means to direct one's mind toward someone or something or to form ideas.
+38. qapi (Make). Definition: This verb means to create, construct, or form something.
+39. qimi (Start). Definition: This verb means to begin an action or event.
+40. quki (Fight). Definition: This verb means to take part in a violent struggle involving the exchange of physical blows or the use of weapons.
+41. rati (Ask). Definition: This verb means to say something in order to obtain an answer or some information.
+42. riiti (Search / Look for). Definition: This verb means to try to find something by looking or otherwise seeking carefully and thoroughly.
+43. roli (Drink). Definition: This verb means to take a liquid into the mouth and swallow it.
+44. sadi (Push). Definition: This verb means to exert force on something to move it away.
+45. seji (Stop). Definition: This verb means to cease an action or event.
+46. skaixi (Break). Definition: This verb means to separate into pieces as a result of a blow, shock, or structural failure.
+47. sowi (Fall). Definition: This verb describes the action of dropping down under the force of gravity.
+48. stomi (Give). Definition: This verb means to freely transfer the possession of something to someone.
+49. swagi (Put). Definition: This verb means to move something into a specific place or position.
+50. taci (Love). Definition: This verb implies unconditional actions and deep affection towards something or someone.
+51. taoji (Believe). Definition: This verb means to accept something as true without direct experience.
+52. tsi (Leave). Definition: This verb means to go away from a place, person, or thing; to depart.
+53. vabi (Want). Definition: This verb means to have a desire to possess or do something.
+54. vewi (Mix). Definition: This verb means to combine or blend different substances together.
+55. voti (Answer). Definition: This verb means to say or write something to deal with or as a reaction to a question.
+56. vumi (Change / Alter). Definition: To make or become different; to transform the state of something.
+57. wogi (Hope). Definition: This refers to a feeling of expectation and desire for a certain thing to happen; a state of optimism.
+58. xozi (Call). Definition: This verb means to cry out to someone in order to summon them or attract their attention; or to contact via a device.
+59. yemi (Cover). Definition: This verb means to put something on top of or in front of something else to protect or conceal it.
+60. yiili (Use). Definition: This verb means to employ something for a particular purpose.
+61. yoeti (Cut). Definition: This verb means to separate or divide something using a sharp edge.
+62. zatzi (Hit / Strike). Definition: This verb means to deliver a blow to someone or something.
+63. zeci (Update). Definition: This verb means to make something more modern or current, or to incorporate the most recent information.
+64. ziidi (Do). Definition: This is a generic verb used to describe performing an action.
+65. zixi (Hold). Definition: This verb means to grasp and support something
+66. zoni (Live). Definition: This verb means to remain alive or have life.
+67. zteli (Take). Definition: This verb means to lay hold of something with one's hands or reach.
+68. zufi (Turn). Definition: This verb means to rotate or change the direction of movement.

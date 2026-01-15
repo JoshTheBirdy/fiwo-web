@@ -250,6 +250,7 @@ dazi ;; (Control) To determine behavior or supervise; to exercise authority.
 doxi ;; (Let) To not prevent an action from occurring.
 fodi ;; (Process) Series of actions taken to achieve an end.
 gari ;; (Play) To engage in activity for enjoyment/recreation.
+grawi ;; (Grateful/Thank) This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks.
 goji ;; (Pull) To exert force to move something toward oneself.
 guxi ;; (Stand) To maintain an upright position supported by a base.
 hiqi ;; (Walk) To move at a regular pace lifting each foot in turn.
