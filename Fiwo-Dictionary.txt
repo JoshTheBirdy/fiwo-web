@@ -1,7 +1,8 @@
 be ;; (and) Used to connect words, phrases, or clauses additively.
 bu ;; (But) Used to indicate contrast or exception.
 ca ;; (Then) Used to refer to a subsequent or specified time.
-da ;; (He/She/It) Third person singular.
+da ;; (He / She / [Animate]) Third person singular animate. Refers strictly to a person, higher animal, or personified entity (like a named pet or AI). Restricted to beings with agency.
+za ;; (It / [Inanimate]) Third person singular inanimate. Refers to an object, concept, plant, machine, or simple life form.
 du ;; (Continuous) Tense marker indicating an action that is ongoing, progressing, or currently happening.
 fu ;; (Future) Tense marker for future events.
 ja ;; (Yes) Used for affirmation or agreement.
