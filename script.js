@@ -59,7 +59,11 @@ function renderDictionary() {
 
         filteredData.sort((a, b) => a.word.localeCompare(b.word));
         if (sortBy.value) {
-            filteredData = filteredData.filter(item => item.part_of_speech === sortBy.value);
+            if (sortBy.value === "Noun") {
+                filteredData = filteredData.filter(item => item.part_of_speech.includes("Noun"));
+            } else {
+                filteredData = filteredData.filter(item => item.part_of_speech === sortBy.value);
+            }
         }
 
         wordCount.textContent = `Words: ${filteredData.length}`;
