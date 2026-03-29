@@ -133,3 +133,146 @@ window.addEventListener('click', (e) => {
         document.getElementById('definition-modal').style.display = 'none';
     }
 });
+
+// ============================================
+// TRANSLATOR FEATURE
+// ============================================
+
+// Grammatical suffixes in Fiwo (including compound tenses)
+const suffixTranslations = {
+    'dyq': 'past continuous',
+    'syq': 'future continuous',
+    'yq': 'continuous',
+    'p': 'specific',
+    'd': 'past',
+    's': 'future',
+    'm': 'nested',
+    'q': 'continuous'
+};
+
+// 1. MORPHOLOGICAL PARSER: Finds root and suffixes using greedy matching
+function parseWord(rawWord) {
+    const wordLower = rawWord.toLowerCase();
+    let matchedRoot = "";
+    let suffixes = "";
+    let dictEntry = null;
+
+    // Sort dictionary by longest words first to prevent partial root matches
+    const sortedDict = [...dictionaryData].sort((a, b) => b.word.length - a.word.length);
+
+    for (const entry of sortedDict) {
+        if (wordLower.startsWith(entry.word.toLowerCase())) {
+            matchedRoot = entry.word;
+            suffixes = wordLower.slice(entry.word.length);
+            dictEntry = entry;
+            break;
+        }
+    }
+
+    // Fallback for words not in the dictionary (Splits after the last vowel)
+    if (!matchedRoot) {
+        const match = wordLower.match(/^(.*[aeiouy])([^aeiouy]*)$/i);
+        if (match) {
+            matchedRoot = match[1];
+            suffixes = match[2];
+        } else {
+            matchedRoot = wordLower;
+            suffixes = "";
+        }
+    }
+
+    // Format output strings
+    let codeStr = matchedRoot;
+    let rootStr = dictEntry ? dictEntry.english_equiv : "???";
+    
+    if (suffixes) {
+        let remaining = suffixes;
+        let parsedSuffixes = [];
+        let translatedSuffixesList = [];
+
+        // Sort suffix dictionary by length descending to catch 'dyq' before 'd'
+        const knownSuffixKeys = Object.keys(suffixTranslations).sort((a, b) => b.length - a.length);
+
+        while (remaining.length > 0) {
+            let matched = false;
+            for (const key of knownSuffixKeys) {
+                if (remaining.startsWith(key)) {
+                    parsedSuffixes.push(key);
+                    translatedSuffixesList.push(suffixTranslations[key]);
+                    remaining = remaining.slice(key.length);
+                    matched = true;
+                    break;
+                }
+            }
+            // Fallback: if no known suffix matches, split off one character
+            if (!matched) {
+                parsedSuffixes.push(remaining[0]);
+                translatedSuffixesList.push(remaining[0]);
+                remaining = remaining.slice(1);
+            }
+        }
+
+        codeStr += " + " + parsedSuffixes.join(' + ');
+        rootStr += " + " + translatedSuffixesList.join(' + ');
+    }
+
+    return {
+        word: rawWord,
+        code: codeStr,
+        root: rootStr
+    };
+}
+
+// 2. UI TRANSLATION LOGIC
+document.addEventListener('DOMContentLoaded', () => {
+    const translateTextBtn = document.getElementById('translate-text-btn');
+    const translatorInput = document.getElementById('translator-input');
+    const translatorOutput = document.getElementById('translator-output');
+
+    if (translateTextBtn && translatorInput && translatorOutput) {
+        translateTextBtn.addEventListener('click', () => {
+            const text = translatorInput.value.trim();
+            if (!text) return;
+            
+            translatorOutput.innerHTML = '';
+            
+            // Split into sentences based on punctuation
+            const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
+            
+            sentences.forEach(sentenceText => {
+                const words = sentenceText.trim().split(/\s+/);
+                
+                let combinedOriginal = [];
+                let combinedCode = [];
+                let combinedRoot = [];
+
+                words.forEach(word => {
+                    const cleanWord = word.replace(/[.,!?]/g, '');
+                    if (!cleanWord) return;
+                    
+                    const parsed = parseWord(cleanWord);
+                    
+                    // Maintain original casing for display
+                    const displayWord = parsed.word; 
+                    
+                    combinedOriginal.push(displayWord);
+                    combinedCode.push(parsed.code);
+                    combinedRoot.push(parsed.root);
+                });
+                
+                const sentenceWrapper = document.createElement('div');
+                sentenceWrapper.className = 'trans-sentence-wrapper';
+                
+                sentenceWrapper.innerHTML = `
+                    <div class="trans-header">
+                        <div class="trans-header-original">${combinedOriginal.join(' ')}</div>
+                        <div class="trans-header-code">(${combinedCode.join(' | ')})</div>
+                        <div class="trans-header-root">[${combinedRoot.join(' | ')}]</div>
+                    </div>
+                `;
+                
+                translatorOutput.appendChild(sentenceWrapper);
+            });
+        });
+    }
+});
