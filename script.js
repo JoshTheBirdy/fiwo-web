@@ -134,20 +134,26 @@ window.addEventListener('click', (e) => {
     }
 });
 
+
+
 // ============================================
 // TRANSLATOR FEATURE
 // ============================================
 
-// Grammatical suffixes in Fiwo (including compound tenses)
+// Grammatical suffixes in Fiwo (including compound tenses and structural markers)
 const suffixTranslations = {
     'dyq': 'past continuous',
     'syq': 'future continuous',
-    'yq': 'continuous',
+    'dyk': 'past perfect',
+    'syk': 'future perfect',
     'p': 'specific',
+    'r': 'non-specific',
     'd': 'past',
     's': 'future',
+    'q': 'continuous',
+    'k': 'perfect',
     'm': 'nested',
-    'q': 'continuous'
+    't': 'stacker'
 };
 
 // 1. MORPHOLOGICAL PARSER: Finds root and suffixes using greedy matching
@@ -157,8 +163,12 @@ function parseWord(rawWord) {
     let suffixes = "";
     let dictEntry = null;
 
-    // Sort dictionary by longest words first to prevent partial root matches
-    const sortedDict = [...dictionaryData].sort((a, b) => b.word.length - a.word.length);
+    // Safety check just in case dictionaryData hasn't loaded
+    let sortedDict = [];
+    if (typeof dictionaryData !== 'undefined') {
+        // Sort dictionary by longest words first to prevent partial root matches
+        sortedDict = [...dictionaryData].sort((a, b) => b.word.length - a.word.length);
+    }
 
     for (const entry of sortedDict) {
         if (wordLower.startsWith(entry.word.toLowerCase())) {
@@ -223,56 +233,60 @@ function parseWord(rawWord) {
     };
 }
 
-// 2. UI TRANSLATION LOGIC
-document.addEventListener('DOMContentLoaded', () => {
-    const translateTextBtn = document.getElementById('translate-text-btn');
-    const translatorInput = document.getElementById('translator-input');
-    const translatorOutput = document.getElementById('translator-output');
+// 2. UI TRANSLATION LOGIC (Removed DOMContentLoaded wrapper to prevent race conditions)
+const translateTextBtn = document.getElementById('translate-text-btn');
+const translatorInput = document.getElementById('translator-input');
+const translatorOutput = document.getElementById('translator-output');
 
-    if (translateTextBtn && translatorInput && translatorOutput) {
-        translateTextBtn.addEventListener('click', () => {
-            const text = translatorInput.value.trim();
-            if (!text) return;
+if (translateTextBtn && translatorInput && translatorOutput) {
+    translateTextBtn.addEventListener('click', () => {
+        const text = translatorInput.value.trim();
+        if (!text) return;
+        
+        // Explicitly warn the user on the screen if the dictionary file is missing
+        if (typeof dictionaryData === 'undefined') {
+            translatorOutput.innerHTML = '<div style="color: #ff6b6b; font-weight: bold;">Error: dictionaryData is missing. Ensure dictionary.js is uploaded to your live website!</div>';
+            return;
+        }
+        
+        translatorOutput.innerHTML = '';
+        
+        // Split into sentences based on punctuation
+        const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
+        
+        sentences.forEach(sentenceText => {
+            const words = sentenceText.trim().split(/\s+/);
             
-            translatorOutput.innerHTML = '';
-            
-            // Split into sentences based on punctuation
-            const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
-            
-            sentences.forEach(sentenceText => {
-                const words = sentenceText.trim().split(/\s+/);
-                
-                let combinedOriginal = [];
-                let combinedCode = [];
-                let combinedRoot = [];
+            let combinedOriginal = [];
+            let combinedCode = [];
+            let combinedRoot = [];
 
-                words.forEach(word => {
-                    const cleanWord = word.replace(/[.,!?]/g, '');
-                    if (!cleanWord) return;
-                    
-                    const parsed = parseWord(cleanWord);
-                    
-                    // Maintain original casing for display
-                    const displayWord = parsed.word; 
-                    
-                    combinedOriginal.push(displayWord);
-                    combinedCode.push(parsed.code);
-                    combinedRoot.push(parsed.root);
-                });
+            words.forEach(word => {
+                const cleanWord = word.replace(/[.,!?]/g, '');
+                if (!cleanWord) return;
                 
-                const sentenceWrapper = document.createElement('div');
-                sentenceWrapper.className = 'trans-sentence-wrapper';
+                const parsed = parseWord(cleanWord);
                 
-                sentenceWrapper.innerHTML = `
-                    <div class="trans-header">
-                        <div class="trans-header-original">${combinedOriginal.join(' ')}</div>
-                        <div class="trans-header-code">(${combinedCode.join(' | ')})</div>
-                        <div class="trans-header-root">[${combinedRoot.join(' | ')}]</div>
-                    </div>
-                `;
+                // Maintain original casing for display
+                const displayWord = parsed.word; 
                 
-                translatorOutput.appendChild(sentenceWrapper);
+                combinedOriginal.push(displayWord);
+                combinedCode.push(parsed.code);
+                combinedRoot.push(parsed.root);
             });
+            
+            const sentenceWrapper = document.createElement('div');
+            sentenceWrapper.className = 'trans-sentence-wrapper';
+            
+            sentenceWrapper.innerHTML = `
+                <div class="trans-header">
+                    <div class="trans-header-original">${combinedOriginal.join(' ')}</div>
+                    <div class="trans-header-code">(${combinedCode.join(' | ')})</div>
+                    <div class="trans-header-root">[${combinedRoot.join(' | ')}]</div>
+                </div>
+            `;
+            
+            translatorOutput.appendChild(sentenceWrapper);
         });
-    }
-});
+    });
+}
