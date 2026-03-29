@@ -1,8 +1,11 @@
 # Phonetics
 
-Phonetics were chosen on their prevalence in the world languages and their distinctness from each other.
+Phonetics were chosen on their prevalence in the world languages and their distinctness from each other. 
 
-Stress has no grammatical or semantic function.
+Stress has no grammatical or semantic function in Fiwo. Words follow a predictable stress pattern: the stress fall at the end of a word, creating a slight pause that helps separate words in continuous speech.
+
+Letters are standard keyboard character as to make typing easier. 
+Each letter has one assigned phoneme to it to aid in readability and pronounceability 
 
 ### **Stops (Plosives) 6**
 
@@ -33,39 +36,33 @@ Stress has no grammatical or semantic function.
 - **/n/** * **Assigned Key:** n
     - **Examples:** "no" (Eng), "no" (Spa)
     - **Notes:** Universal alveolar/dental nasal.
-- **/ŋ/** * **Assigned Key:** nn
+- **/ŋ/** * **Assigned Key:** q
     - **Examples:** "sing" (Eng)
     - **Notes:** Phonemic in English, Mandarin, Hindi, Bengali, Urdu. Allophonic in Spanish.
 
-### **Fricatives 9**
+### **Fricatives & Affricates 7**
 
 - `/f/` * **Assigned Key:** f
     - **Examples:** "fan" (Eng), "fin" (Spa)
     - **Notes:** Universal labiodental fricative.
-- **`/v/`** * **Assigned Key:** v
-    - **Examples:** "vest" (Eng), "vin" (Fre), "vida" (Por)
-    - **Notes:** Voiced labiodental fricative. The voiced counterpart to /f/. Absent in Mandarin and Standard Spanish, but highly prevalent globally.
 - **`/s/`** * **Assigned Key:** s
     - **Examples:** "see" (Eng), "sí" (Spa)
     - **Notes:** Universal sibilant.
-- **`/z/`** * **Assigned Key:** z
-    - **Examples:** "zoo" (Eng)
-    - **Notes:** Absent in Mandarin (affricate only), Spanish (allophone), and Bengali.
-- **`/ʃ/` (sh)** * **Assigned Key:** c
+- **`/ʃ/` (sh)** * **Assigned Key:** x
     - **Examples:** "she" (Eng)
     - **Notes:** Absent in standard Spanish; pervasive in others.
 - **`/h/`** * **Assigned Key:** h
     - **Examples:** "hat" (Eng)
     - **Notes:** Absent in French, Spanish, Russian (/x/), and Portuguese.
-- **`/x/` (kh)** * **Assigned Key:** x
-    - **Examples:** "México" (Spa), "Loch" (Eng)
-    - **Notes:** Velar fricative; found in Spanish, Mandarin, Arabic, Russian, and Urdu.
-- **`/tʃ/` (ch)** * **Assigned Key:** q
+- **`/tʃ/` (ch)** * **Assigned Key:** c
     - **Examples:** "chat" (Eng), "mucho" (Spa), "chi" (Man)
     - **Notes:** Voiceless postalveolar affricate. A very common sound globally that bridges the gap between /t/ and /ʃ/.
-- **`/ʒ/` (zh)** * **Assigned Key:** y
-    - **Examples:** "vision" (Eng)
-    - **Notes:** Found in English, French, Portuguese, Russian, and Urdu.
+- `/z/` * Assigned Key: z
+    - Examples: "zoo" (Eng), "zebra" (Eng)
+    - Notes: A highly prevalent voiced alveolar fricative globally. Present in English, Arabic, French, Russian, Portuguese, Bengali, and Urdu. Absent in standard Spanish (often merges with /s/).
+- **/x/ * Assigned Key: v**
+    - **Examples:** "caja" (Spa), "Bach" (Ger), "hǎo" (Man), "kh" (Ara/Rus).
+    - **Notes:** A pervasive voiceless velar fricative globally. Acts as the guttural counterpart to the universal velar stop /k/.
 
 ### **Approximants 4**
 
@@ -99,1221 +96,1611 @@ Stress has no grammatical or semantic function.
 - **/u/**  **Assigned Key:** u
     - **Examples:** "boot" (Eng), "tú" (Spa)
     - **Notes:** Universal high back vowel.
-- **/ʌ/**  **Assigned Key:** ii
-    - **Examples:** "**u**p" (Eng), "c**u**t" (Eng
-    - **Notes:** Mid-back unrounded. Similar to schwa but fully articulated and stressed.
-
-# Rules
-
-## I. PHONOLOGY & WORD CONSTRUCTION
-
-### Rule 1: Phonetic Inventory
-
-Fiwo uses a fixed, closed set of phonemes chosen for global prevalence and perceptual distinctness.
-
-**Consonants:**
-
-`p`, `b`, `t`, `d`, `k`, `g`,  `m`, `n`, `nn`, `f`, `v`, `s`, `z`, `c`,`y`, `h`, `x`, `q`, `l`, `r`, `w`, `j`
-
-**Vowels:**
-
-`i`, `e`, `a`, `o`, `u`, `ii`
-
-**Orthography:**
-
-- Words are written exactly as they are pronounced.
-- Each phoneme maps to exactly one written form.
-- Proper nouns may be imported from other languages and adapted to the closest Fiwo phonemes if necessary.
-- No capitalization is used except for proper nouns.
-
----
-
-### Rule 2: Syllable and Word Shape
-
-- Dictionary word **must begin with a consonant and end with a single vowel.
-Words may only have more vowels at the end if they are derived, see rule 4.**
-- Up to **3 consecutive consonants** and **2 consecutive vowels** may occur internally.
-- Only **grammar particles** may violate internal structure constraints if explicitly listed.
-
----
-
-## II. MORPHOLOGICAL TRANSPARENCY (THE DATA LAYER)
-
-### Rule 3: Functional Vowels (Word Categories)
-
-The **final vowel** of a word *unambiguously* determines its category, with the exception of grammar words.
-
-| Ending | Category |
-| --- | --- |
-| `-a`, `-o`, `-u` | **Noun** |
-| `-i` | **Verb** |
-| `-e` | **Modifier** |
-| `-ii` | **Preposition** |
-
-A word’s category is always recoverable **without context**.
-
----
-
-### Rule 4: Derivation (Category Shifting)
-
-Fiwo allows words to change their grammatical category (part of speech) to fit new contexts without losing their root meaning.
-
-**The Mechanism: Appending**
-To change a word's category, **append** the Functional Vowel of the target category to the end of the existing word.
-
-- **Do not** remove or replace the original vowel.
-- The **final character** of the word always dictates its current grammatical category.
-
-4.1 Derivation Formulas
-
-Modifier or noun to verb - add `i`.
-
-`jotze` (clean) → `jotzei`(cleaning). **`batu`** (Food) → **`batui`** (To eat).
-
-Noun or verb to modifier - add `e`.
-
-`do` (day) → `doe` (daily). `beati` ( to close) → `beatie` (closed).
-
-Modifer to noun - add`o` .
-
-`loge` (able) → `logeo` (the ability)
-
-Verb to noun - add `a`.
-
-`pauli` (to feel) → `paulia` (the feeling)
-
-Preposition to noun - add `o`.
-
-`hemii`(near) → `hemiio`(the nearby/surroundings)
-
-Preposition to modifier - add `e`.
-
-`hemii`(near) → `hemiie` ( Nearly/closely (regards to position))
-
-**4.2 Constraints & Edge Cases**
-1. **Preposition Constraint:** Prepositions (words ending in *-`ii`*) **cannot** be converted into Verbs. They function strictly as logic gates and cannot be "performed."
-2. **Sequential Derivation:** Derivation may be applied twice for highly specific nuances, provided the final vowel correctly signals the final category.
-    ◦ *Example:* `*batu*` (Food) → `*batui*` (To eat) → **`*batzuia*`** (The act of eating).
-3. **Pronunciation:** Derived vowels are fully pronounced.
-    ◦ `*batui*` is pronounced /ba-tu-i/.
-
----
-
-## III. SYNTAX & STRUCTURE (THE LOGIC LAYER)
-
-### Rule 5: Basic Word Order
-
-Fiwo uses a **fixed default order**:
-
-> Subject – Verb – Object (SVO)
->
-
-Example: `mi lo batui te mito.` (I eat meat)
-
-An alternative **passive-like structure** is allowed:
-
-> Object – Verb – Subject (OVS)
->
-
-This requires the particle **`bii`**.
-
-Example: `te mito lo batui **bii** mi` ( The meat was eaten by me.)
-
-This specific preposition can triggers the passive interpretation.
-
-## Rule 6: Marker System (Hierarchy & Reference)
-
-Fiwo separates **lexical certainty** (word endings) from **structural certainty** (markers). Markers are structural particles that determine the role, scope, and hierarchy of the words that follow them.
-
-### 6.1 Predicate Markers (The Verb Hierarchy)
-
-Fiwo strictly distinguishes between the **Main Clause** (the assertion) and **Subordinate Clauses** (background information or description).
-
-**A. The Main Predicate — `lo`**
-
-- **Function:** Marks the start of the **main verb phrase** of the sentence.
-- **Constraint:** Exactly **one** `lo` is allowed per sentence. It defines the root of the parse tree.
-- **Structure:** `Subject` + `lo` + `(Tense)` + `Verb`...
-
-**B. The Subordinate Predicate — `ki`**
-
-- **Function:** Marks the start of a **dependent verb phrase**. It allows verbal information to function as a modifier (relative clause) without competing with the main predicate.
-- **Constraint:** A `ki`clause **cannot** contain `lo`.
-- **Negation:** `ne` applies locally within a `ki`clause (e.g., "The dog that *did not* bite me").
-- **Structure:** `Noun` + `ki` + `(Tense)` + `Verb` + `(Object)`
-
-> Example: `mifu` **`ki`** `pa nidai te mi` **`lo`** `mzi`.(The dog [that bit me] is sleeping.)
->
-
-### 6.2 Object Marker (`te`)
-
-- **Function:** Marks the start of the **Direct Object**.
-- **Logic:** Everything following `te` belongs to the object phrase unless structurally regrouped (via `pii`).
-- **Necessity:** This prevents verbs inside complex noun phrases from being misinterpreted as new predicates.
-
-> Structure: Verb + te + Object Phrase
->
-
-### 6.3 Clause Deictics (`si` / `ta`)
-
-These markers allow the speaker to refer to **entire events or clauses** as if they were nouns.
-
-**A. Proximal Clause Deictic — `si`**
-
-- **Function:** Refers to the **current** or **immediately preceding** clause ("This event").
-- **Usage:** Can be used to turn a clause into a specific modifier definition.
-    - *Example:* `mifu **si** ki...` ("*This* dog, which...")
-
-**B. Distal Clause Deictic — `ta`**
-
-- **Function:** Refers to a **previously established** or **conceptually distant** clause ("That event").
-- **Usage:** Used to comment on a previous statement.
-    - *Example:* `ta lo ci retse.` ("*That [previous event]* is dangerous.")
-
-### 6.4 Usage Modes
-
-- **Strict Mode:**
-    - `lo` and `te` are **mandatory**.
-    - Required for: Complex logic, technical writing, AI communication, and sentences with multiple `ki` clauses.
-    - *Result:* Ambiguity is structurally impossible.
-- **Fluid Mode:**
-    - Markers may be omitted when the structure is simple (SVO) and context is obvious.
-    - *Result:* Natural, expressive speech.
-
-**6.5 Pronoun Animacy (Agency vs. Object)**
-Fiwo strictly distinguishes between entities with Agency (`da`) and entities without Agency (`za`).
-
-- **Animate (`da`):** Applies to humans, higher animals, or personified entities capable of making choices or having intent (Agency).
-- **Inanimate (`za`):** Applies to objects, concepts, plants, simple life forms, or machines, regardless of movement or complexity.
-- *Note:* An AI (`xioco`) may be referred to as `da` if the speaker attributes agency/personhood to it, otherwise it is `za`.
-
-### **Rule 7: Structural Grouping (pii)**
-
-The particle `pii` acts exclusively as a structural grouping operator (functionally identical to an open parenthesis ( in mathematics).
-
-- It **does not** imply ownership, origin, or material.
-- It signals that the entire phrase following it forms a single modifier unit that applies to the word before it.
-
-**Usage:**
-
-- **Linear (No pii):** `*foisa nnofae je lande*`
-    - *Logic:* ((`foisa` + `nnofae`) + `lande`)
-    - *Meaning:* The [small bird-houses]. (Subject to left-associativity).
-- **Grouped (With pii):** *foisa **pii** nnofa je lande*
-    - *Logic:* `foisa` + (`nnofa` + `lande`)
-    - *Meaning:* The house of [small birds]. (The house relates to the group "small birds").
-
-**Note:** To express "The bird's house" (Ownership), do not use `*pii*`. Use the specific preposition **`rii`** (Owned by).
-
-### **Rule 8: Logical Negation (`ne`)**
-
-The particle **`ne`** is a **closed-class structural operator** used to encode logical negation. It does **not** describe qualities (like "bad" or "empty") and acts only on the syntax of the sentence.
-
-**1. Default Scope (Predicate Negation)**
-When used in a clause, `ne` negates the **main action**.
-It must appear **after** the marker/tense and **immediately before** the verb.
-
-- **Structure:** `Subject` + `lo` + `(tense)` + **`ne`** + `Verb`
-- *Example:* `mi lo pa **ne** cali.` (I did **not** move.)
-
-**2. Specific Scope (Group Negation)**`ne` can negate a specific phrase if that phrase is grouped using `pii`.
-It must appear **immediately before** `pii`.
-
-- **Structure:** `...` + **`ne`** + `pii` + `(Grouped Phrase)`
-- *Example:* `mi lo cali **ne pii** zii jura.`
-    - *Literal:* I moved [NOT (to the city)].
-    - *Meaning:* I moved, but not to the city (I went somewhere else).
-
-**3. Pragmatic Response**
-When used alone as a sentence, `ne.` functions as the standard refusal ("No").
-
-**4. Constraints**
-
-- **Never a Modifier:** You cannot say `hanu ne*` for "not a box." (Use `hanu de*` + `ne` + verb).
-- **Never combined:** Do not combine with modifier endings (`e`).
-
-### Rule 9: Modification & Definiteness
-
-Modifiers always follow the word they modify. Fiwo distinguishes between **Subjective Modification** (Qualities) and **Objective Modification** (Relations).
-
-**1. General Modification (Suffix -e)**
-Use the **-e** ending for subjective qualities, colors, emotions, or general associations (vague "vibes").
-
-- *Example:* `*hanu gudue*` (Metallic box / Metal-ish box).
-    - *Implication:* It looks like metal, or is related to metal, but might be plastic paint.
-
-**2. Relational Modification (Prepositions)**
-Use **Relational Prepositions** for precise, logical descriptions. This eliminates ambiguity.
-
-- **Material:** Use **`dii`** (Made of).
-    - `*hanu **dii** gudu*` (Box made of metal).
-- **Shape/Geometry:** Use **`lii`** (Shaped like).
-    - `*hanu **lii** mazo*` (Box shaped like a tree).
-- **Composition:** Use **`nii`** (Part of).
-    - `*mfuka **nii** mi*` (Hand that is part of me / My physical hand).
-- **Nature/Essence:** Use **`fazii`** (Nature of).
-    - `*movu **fazii** nauca*` (Person with the nature of a friend / Friendly person).
-
-**3. Definiteness**
-Nouns are definite ("the") by default. Indefinite meaning ("a/some") is added with the modifier **de**.
-
-- `*mazo*` (The tree)
-- `*mazo de*` (A tree)
-
----
-
-## IV. TIME, LOGIC, & QUANTIFICATION
-
-### Rule 10: Tense & Aspect
-
-Tense markers appear **after `lo` and before the verb**. Only one tense/aspect marker may appear per clause.
-
-| Marker | Meaning |
-| --- | --- |
-| `pa` | Past |
-| `fu` | Future |
-| `du` | Continuous |
-
-Example:
-
-`mi lo pa cali` (I moved)
-
-`mi lo fu cali` (I will move)
-
-`mi lo du cali` (I am moving )
-
----
-
-### Rule 11: Quantity & Comparison
-
-Quantity and comparison are expressed using modifiers.
-
-| Modifier | Meaning |
-| --- | --- |
-| `je` | Many / plural |
-| `jete` | More |
-| `jeme` | Most |
-
----
-
-### Rule 12: Numbers & Intensity
-
-- Numbers are spoken as digit sequences.
-    - *Example:* 156 = `r*oza raja reso*` (One-Five-Six)
-    - *Example:* 20 = `r*atso lta*` (Two-Zero)
-- A number before a noun specifies quantity.
-
-    *Example:* `*reso hanu.*`  = six containers
-
-- Numbers 1–5 acting as modifiers, indicate intensity.
-    - *Example:* `kiiteqi *ricae` (3)* = Like mildly; `kiiteqi *rajae` (5)* = Like intensely.
-
----
-
-## V. PRAGMATICS & DISCOURSE
-
-### Rule 13: Mood Tags & Punctuation
-
-A Fiwo sentence **may begin** with a **Mood Tag**.
-
-Mood Tags explicitly encode the **speaker’s communicative intent or tone**, information that is normally conveyed through body language, facial expression, or vocal intonation in face-to-face speech but is often lost in written text.
-
-Mood Tags apply to the **entire sentence** and must appear as the **first character**, before any words.
-
-| Tag | Meaning |
-| --- | --- |
-| `!` | Command or imperative |
-| `?` | Question or request for information |
-| `%` | Factual or objective statement. Usually used for scientific statements. |
-| `#` | Emotional or subjective expression |
-| `$` | Sarcastic or ironic intent |
-
-If no Mood Tag is present, the sentence is interpreted as **neutral / declarative by default**.
-
----
-
-### Punctuation Rules
-
-- Punctuation marks (`. , " "`) function as in standard written languages.
-- Capitalization is **not used**, except optionally for **proper nouns**.
-- Mood Tags are **not punctuation** and do not replace sentence-final marker, thus all sentences must end in a period.
-
----
-
-### Design Note
-
-Mood Tags increase clarity in text-based communication by making intent explicit, improving both human understanding and machine interpretation without relying on inference.
-
-The core grammar contains no exceptions; modes affect enforcement, not structure.
-
-## Rule 14: Closed-Class Grammar (Structural Integrity)
-
-Grammar / Miscellaneous words in Fiwo form a **closed class**.
-
-They exist solely to encode **structure, logic, scope, or sentence control**, not real-world meaning.
-
-- Grammar words **must not** describe entities, qualities, states, degrees, time, or uncertainty (**with the exception of Pronouns, which serve as pointers to entities**).
-- Grammar words **must not** answer *what, who, where, when, how, or why*(**except for Interrogatives like *wu, wa, we* which act as placeholders**).
-- Grammar words **cannot** be replaced by a noun, verb, modifier, or preposition.
-
-New grammar particles may only be introduced if they:
-
-1. encode syntactic or logical structure, and
-2. do not carry independent semantic content.
-
-This rule prevents semantic drift, preserves morphological transparency, and ensures the grammar layer remains stable and predictable for both humans and machines.
-
----
-
-## Rule 15: Deterministic Parsing (Single-Tree Requirement)
-
-Any valid Fiwo sentence in **Strict Mode** must produce **exactly one possible syntactic parse tree**.
-
-This means:
-
-- only one main predicate per clause,
-- only one valid object scope,
-- unambiguous modifier attachment,
-- no interpretation based on context, pragmatics, or speaker intent.
-
-This requirement is enforced through:
-
-- fixed functional vowels (word categories),
-- fixed word order (SVO),
-- mandatory structural markers (`lo`, `te`, `pii`) in Strict Mode.
-
-If a sentence allows more than one valid structural interpretation, it is **invalid in Strict Mode** and must be rewritten using markers or grouping particles. Only structurally complete sentences are considered valid Fiwo.
-
-This rule guarantees lossless, machine-safe communication and prevents ambiguity from scaling as sentence complexity increases.
-
-# Vocabulary
-
-Grammar- Exception to rules:
-
-1. be (and). Definition: Used to connect words, phrases, or clauses additively.
-2. bu (But). Definition: Used to indicate contrast or exception.
-3. ca (Then). Definition: Used to refer to a subsequent or specified time.
-4. da (He / She / [Animate]). Definition: Third person singular animate. Refers strictly to a person, higher animal, or personified entity (like a named pet or AI). Restricted to beings with agency.
-5. za (It / [Inanimate]). Definition: Third person singular inanimate. Refers to an object, concept, plant, machine, or simple life form.
-
-6. du (Continuous). Definition: Tense marker indicating an action that is ongoing, progressing, or currently happening (e.g., "is running" vs "runs").
-7. fu (Future). Definition: Tense marker for future events.
-8. ja (Yes). Definition: Used for affirmation or agreement.
-9. ka (Because). Definition: Used to indicate cause or reason.
-10. lo (Predicate Marker). Definition: Signals the start of the verb phrase after the subject.
-11. mi (I/Me). Definition: First person singular. The the body and mind.
-12. ne (No/ not). Definition: This structural particle serves as the logical operator of negation. It inverts the truth value of the subsequent predicate or grouped phrase, asserting that the action or relation is false or did not occur. It functions strictly as a syntactic switch, distinct from the descriptive quality of being empty or bad.
-13. pa (Past ). Definition: Tense marker for past events (relisted as per document).
-14. ro (Or). Definition: Used to indicate alternatives or choices.
-15. sii (Conditional Clause Marker). Definition: `sii` introduces a **conditional subordinate clause**. A sii-clause defines a condition under which the main predicate holds. (Semantically covers: *if*, *when*, *whenever*)
-16. su (You). Definition: Second person singular.
-17. te (Object marker). Definition: Signals the start of the direct object after the verb.
-18. wa (What). Definition: Used to inquire about a thing or matter.
-19. wai (Why). Definition: Used to inquire about reason or cause.
-20. we (Where). Definition: Used to inquire about location.
-21. wo (When). Definition: Used to inquire about time.
-22. wu (Who ). Definition: Used to inquire about a person or agent.
-23. **ki (**Subordinate Predicate Marker). Definition: `ki` introduces a subordinate predicate (non-main clause). A `ki`-clause expresses an **event or state** that modifies a noun or a higher clause.
-24. **si (***Proximal Clause Deictic***). Definition:** Refers to the current or immediately preceding clause.
-25. **ta (***Distal Clause Deictic***). Definition:** Refers to a non-current, prior, or conceptually distant clause.
-26. he (How). Definition: Used to inquire about the manner, method, or degree of an action or state.
-
-Modifier - e:
-
-1. boke (Bad). Definition: This word describes something regarded as negative or unfavorable based on individual opinion.
-2. de (A/ some). Definition: An indefinite or non-specific instance of something.
-3. fafe (Important). Definition: This word describes something of great significance, value, or consequence.
-4. fe (very). Definition: Intensifier used to emphasize degree.
-5. hobe (Young). Definition: This word describes something that has existed for a short time, often characterizing an early stage of life, growth, or development.
-6. jabe (Cold). Definition: This word describes something of or at a low or relatively low temperature.
-7. jacke (New). Definition: This word describes something produced, introduced, or discovered recently or now for the first time.
-8. jase (Long). Definition: This word describes something measuring a great distance from end to end.
-9. je (Many ). Definition: Large quantity. More than one of a thing
-10. jeme (Most). Definition: The greatest quantity/quality compared to something else.
-11. jete (more). Definition: An increase compared to something else
-12. jiixe (Thin). Definition: This word describes something with a small distance between opposite surfaces.
-13. joqe (Heavy). Definition: This word describes something of great weight or difficult to lift.
-14. jotze (Clean). Definition: This word describes something free from dirt, marks, or stains.
-15. juwe (Only / Just). Definition: This word limits something to a single person, thing, or amount, explicitly excluding anything else.
-16. kame (Salty). Definition: This describes the taste sensation characteristic of sodium chloride (salt).
-17. kiipe (Happy). Definition: This describes a state of feeling or showing pleasure.
-18. koce (Bitter). Definition: This describes a sharp, pungent taste sensation, often perceived as unpleasant, found in things like dark chocolate, coffee, or certain alkaloids.
-19. labne (Same). Definition: This word describes something identical or not different.
-20. laege (Green). Definition: This word describes the color between blue and yellow in the spectrum, like that of growing grass.
-21. lande (Small / Little). Definition: This word describes something of limited size or extent.
-22. late (All). Definition: This word refers to the whole quantity or extent of a particular group or thing.
-23. lefe (Hard). Definition: This word describes something solid, firm, and resistant to pressure.
-24. letze (Dirty). Definition: This word describes something covered or marked with an unclean substance.
-25. leufe (Red). Definition: This word describes the color at the end of the spectrum next to orange and opposite violet, like blood or fire.
-26. lice (Wet). Definition: This word describes something covered or saturated with water or another liquid.
-27. liize (Right). Definition: This refers to the direction or side towards the east when facing north; opposite to left.
-28. loaxe (Blue). Definition: This word describes the color between violet and green on the spectrum, like the clear sky.
-29. locwe (White / Light). Definition: This word describes the color of fresh snow or milk, reflecting all visible rays of light.
-30. loge (Able). Definition: This describes having the power, skill, means, or opportunity to do something.
-31. lome (Narrow). Definition: This word describes something of small width in relation to length
-32. lope (Blunt / Dull). Definition: This word describes something lacking a sharp edge or point.
-33. lotse (Black / Dark). Definition: This word describes the very darkest color, resulting from the absence or complete absorption of light.
-34. lozke (Yellow). Definition: This word describes the color between green and orange in the spectrum, like that of a lemon or gold.
-35. luze (Empty). Definition: This word describes something containing nothing or having no occupants.
-36. mace (Female). Definition: This word describes a biological entity or system characterized by the physiological capacity to produce the larger gamete (eggs or ova).
-37. manne (Male). Definition: This word describes a biological entity or system characterized by the physiological capacity to produce the mobile gamete (sperm).
-38. me (Maybe/ Perhaps). Definition: Used to express possibility or uncertainty.
-39. pape (Umami / Savory). Definition: This describes the savory or meaty taste sensation, characteristic of broths and cooked meats (specifically glutamates or nucleotides).
-40. pise (Sour). Definition: This describes the taste sensation characteristic of acids, like lemon juice or vinegar.
-41. rabe (Hot). Definition: This word describes something having a high degree of heat or a high temperature.
-42. rande (Big / Large). Definition: This word describes something of considerable size, extent, or capacity.
-43. ranne (Strong). Definition: This word describes something having the power to move heavy weights or perform other physically demanding tasks.
-44. raose (Slow). Definition: This word describes something moving or operating at a low speed
-45. redne (Different). Definition: This word describes something not the same as another or each other
-46. repe (Sharp). Definition: This word describes something having an edge or point that is able to cut or pierce.
-47. retse (Dangerous). Definition: This word describes something able or likely to cause harm or injury.
-48. rfone (Almost / Nearly). Definition: This word indicates that something is very close to a specific state, quantity, or degree, but is not completely there yet.
-49. rize (Full). Definition: This word describes something containing or holding as much or as many as possible
-50. rodle (True). Definition: This word describes something that is in accordance with fact or reality.
-51. rome (Wide / Broad). Definition: This word describes something having a great or specified extent from side to side.
-52. rudse (Rough). Definition: This describes a surface that is uneven or irregular, often coarse or not smooth to the touch.
-53. ruke (Fast / Quick). Definition: This word describes something moving or capable of moving at high speed.
-54. tatse (Sorry / Pardon / Apology). Definition: This word describes a state of feeling regret or penitence for an action, or serves as a polite expression used to excuse oneself or ask for repetition.
-55. tute (Sweet). Definition: This describes the taste sensation characteristic of sugars, distinct from sour, salty, or bitter.
-56. wage (Soft). Definition: This word describes something easy to mold, cut, compress, or fold.
-57. wannge (Left). Definition: This refers to the direction or side towards the west when facing north; the side of the body which contains the heart in most humans.
-58. wapse (Flat). Definition: This describes a surface that is level and smooth, with no raised areas or indentations.
-59. wase (Short). Definition: This word describes something measuring a small distance from end to end.
-60. wazke (Old). Definition: This word describes something that has existed for a long time.
-61. weoke (Round). Definition: This word describes a shape that is circular, spherical, or cylindrical; having a curved surface with no sharp corners.
-62. weqe (Well (Satisfactory / Proper)). Definition: This word describes something as being satisfactory, correct, or proper, often based on an opinion or judgment of the situation.
-63. wiiqe (Light (Weight)). Definition: This word describes something of little weight or easy to lift.
-64. wiitse (Safe). Definition: This word describes something protected from or not exposed to danger or risk.
-65. wipe (Greater Good). Definition: This word is used strictly in a moral sense for the "greater good" or to describe major events like death or destruction, distinct from the subjective word for "like".
-66. wonne (Weak). Definition: This word describes something lacking the power to perform physically demanding tasks.
-67. wote (Few / Little). Definition: This word describes a small number or amount of something
-68. wuske (Dry). Definition: This word describes something free from moisture or liquid.
-69. wuxe (Thick). Definition: This word describes something with a large distance between opposite surfaces.
-70. xawe (Good). Definition: This word describes something regarded as positive or favorable based on individual opinion.
-71. xike (Weird / Strange / Foreign). Definition: This word describes something unusual, surprising, or not belonging to the current environment or context.
-
-Noun - a:
-
-1. biika (Material). Definition: This word describes the substance things are made of and is critical for defining modern concepts like plastic.
-2. boxa (Force). Definition: This refers to strength or energy as an attribute of physical action or movement, or an influence that can change the motion of an object.
-3. daha (Value). Definition: This refers to the relative worth, merit, or importance of a thing; or a numerical quantity assigned to a symbol or variable.
-4. difa (Liquid). Definition: This defines the state of matter that flows freely but is of constant volume
-5. diona (Time). Definition: This refers to the indefinite continued progress of existence and events.
-6. diza (Gas). Definition: This defines the state of matter that expands freely to fill any available space
-7. doda (Universe ). Definition: This word represents the entire universe or the broad context in which things exist.
-8. fija (Ear). Definition: This refers to the organ of hearing and balance in humans and other vertebrates.
-9. fika (Path / Road). Definition: This refers to a route, course, or track along which something moves or reaches a destination.
-10. foisa (Building / Structure). Definition: This refers to a structure with a roof and walls, such as a house, school, store, or factory.
-11. fola (Data). Definition: This refers to facts, statistics, or distinct pieces of information collected together for reference or analysis (logic/quantities).
-12. grifa (Fire). Definition: This is the prototype word for energy and heat, typically associated with combustion.
-13. hauta (Music). Definition: This refers to the art of combining vocal or instrumental sounds (or both) to produce beauty of form, harmony, and expression of emotion.
-14. jepa (Offspring ). Definition: This refers to the immediate descendant produced by the reproduction of a living organism; the young of a person, animal, or plant.
-15. jura (City). Definition: This refers to a large human settlement with a high population density and extensive systems for housing, transportation, and utilities.
-16. lita (Light). Definition: This describes photon energy or the natural agent that stimulates sight and makes things visible.
-17. lta (Zero). Definition: This refers to the arithmetical symbol denoting the absence of all magnitude or quantity.
-18. mfuka (Hand). Definition: This identifies the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb.
-19. moda (God). Definition: Divine being/all that is/ God
-20. mzifa (Bed). Definition: This refers to a piece of furniture or a prepared spot used for sleep or rest.
-21. mzoja (Blood). Definition: This identifies the red liquid that circulates in the arteries and veins of humans and other vertebrate animals.
-22. na (Now). Definition: Used for the present moment.
-23. nauca (Friend). Definition: This refers to a person whom one knows and with whom one has a bond of mutual affection.
-24. ndiisa (Tongue). Definition: This refers to the fleshy muscular organ in the mouth used for tasting, licking, swallowing, and speaking
-25. nida (Tooth). Definition: This identifies each of the hard, white structures in the mouth used for biting and chewing.
-26. nnila (Finger). Definition: This identifies each of the long, slender members attached to the hand.
-27. nnofa (Bird). Definition: This refers to a flying animal, typically characterized by feathers and wings.
-28. nnsoza (Skin). Definition: This refers to the thin layer of tissue forming the natural outer covering of the body.
-29. nopha (Parent ). Definition: This refers to a father or mother, or a person or animal that produces offspring.
-30. nsoca (Body). Definition: This refers to the physical structure of a person or an animal, comprising the material substance (bones, flesh, and organs) distinct from the mind and soul.
-31. raja (Five). Definition: This refers to the cardinal number equivalent to the sum of four and one.
-32. rewa (Seven). Definition: This refers to the cardinal number equivalent to the sum of six and one.
-33. rica (Three). Definition: This refers to the cardinal number that is the sum of one and two.
-34. roza (One). Definition: This refers to the lowest cardinal number, representing a single unit or entity.
-35. runa (Nine). Definition: This refers to the cardinal number equivalent to the product of three and three.
-36. tapa (Here). Definition: The specific physical location of the speaker or the immediate area being occupied.
-37. tsota (Contentment). Definition: This refers to a state of happiness and satisfaction; the quality of being mentally or emotionally satisfied with things as they are.
-38. xa (Word). Definition: This refers to a single distinct meaningful element of speech or writing.
-39. xeta (Tool). Definition: This refers to a device or implement, especially one held in the hand, used to carry out a particular function.
-40. ziinda (House / Shelter). Definition: This refers to a structure or place serving as a dwelling, providing protection from the elements and a living space for habitation.
-
-Noun - o:
-
-1. bafo (Second). Definition: This refers to the base unit of time, equal to one-sixtieth of a minute.
-2. beco (Air). Definition: This serves as the prototype word for gas and the invisible mixture of gases surrounding the earth.
-3. biiso (Sky). Definition: This refers to the region of the atmosphere and outer space seen from the earth.
-4. busko (Clothes / Clothing). Definition: This refers to items worn to cover the body, typically made of fabric or textile materials.
-5. do (Day). Definition: A period of time from sunrise to sunrise; current day.
-6. dorso (water). Definition: This serves as the prototype word for liquid matter and the substance essential for life.
-7. dreko (Rock). Definition: This denotes the hard, solid mineral material that is part of the earth's surface.
-8. duxo (night). Definition: This refers to the period of darkness in each twenty-four hours; the time from sunset to sunrise.
-9. fiwo (Language ). Definition: This refers to the principal method of human communication, consisting of words used in a structured and conventional way.
-10. geqo (Space). Definition: This word defines a specific area, room, or the physical extent in which objects are located.
-11. gifo (Wood). Definition: This refers to the hard, fibrous plant material that makes up the main substance of trees.
-12. hedqo (Part). Definition: This refers to a piece, segment, or component of a whole object or system.
-13. hiso (Name). Definition: This identifies a word or set of words by which a person, animal, place, or thing is known.
-14. hupo (Center / Middle). Definition: This refers to the point that is equally distant from every part of the circumference or ends of something.
-15. juko (Shape / Form). Definition: This refers to the external form, contours, or outline of someone or something.
-16. matco (Mouth). Definition: This refers to the opening in the lower part of the human face through which food is taken in and speech is emitted.
-17. mazo (Tree). Definition: This identifies a large plant, typically having a single stem or trunk growing to a considerable height.
-18. mfilo (Leaf). Definition: This identifies the flattened, usually green structure of a plant attached to a stem.
-19. miixo (Leg). Definition: This refers to each of the limbs on which a person or animal walks and stands.
-20. mito (Meat). Definition: This refers to the flesh of an animal used as food.
-21. mo (Soul). Definition: This refers to the immaterial essence, spiritual core, or animating force of a being, regarded as distinct from both the physical body and the intellectual mind.
-22. mulo (Flower). Definition: This refers to the seed-bearing part of a plant, consisting of reproductive organs and colorful petals.
-23. nbelo (Foot). Definition: This identifies the lower extremity of the leg below the ankle, on which a person stands or walks.
-24. nepo (Fish). Definition: This identifies a water-dwelling animal that swims and breathes using gills.
-25. nnalo (Bug / Insect). Definition: This refers to a small invertebrate animal, often with a segmented body and legs.
-26. nnfiso (Face). Definition: This refers to the front part of a person's head from the forehead to the chin.
-27. nnifo (Group). Definition: This refers to a number of people or things that are located, gathered, or classed together.
-28. nojo (Eye). Definition: This identifies the organ of sight in humans and animals.
-29. numo (Country). Definition: This refers to a nation with its own government, occupying a particular territory.
-30. pso (Type / Kind / Sort). Definition: A category of entities having some common characteristics that distinguish them from others.
-31. rado (Eight). Definition: This refers to the cardinal number equivalent to the product of two and four.
-32. ratso (Two). Definition: This refers to the cardinal number that is the sum of one and one.
-33. rerpo (Place / Location). Definition: This refers to a particular position, point, or area in space, regardless of whether it is occupied.
-34. reso (Six). Definition: This refers to the cardinal number equivalent to the product of two and three.
-35. rugo (Four). Definition: This refers to the cardinal number that is the product of two and two.
-36. soko (Way / Manner). Definition: This refers to a method, style, or custom of doing something; the mode of action or procedure.
-37. xido (Money). Definition: This refers to a current medium of exchange in the form of coins and banknotes.
-38. xiipo (Internet). Definition: This refers to the global system of interconnected computer networks; a virtual location or network structure.
-39. xioco (AI (Artificial Intelligence)). Definition: This refers to computer systems able to perform tasks that normally require human intelligence.
-40. xo (Number). Definition: This refers to an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity.
-
-Noun - u:
-
-1. batu (Food). Definition: This refers to any nutritious substance that people or animals eat or drink, or that plants absorb, in order to maintain life and growth.
-2. biwu (Problem). Definition: This refers to a matter or situation regarded as unwelcome or harmful and needing to be dealt with and overcome.
-3. diku (Solid). Definition: This defines the state of matter characterized by structural rigidity and resistance to force.
-4. dumu (Minute). Definition: This refers to a period of time equal to sixty seconds or one-sixtieth of an hour.
-5. faqu (Side). Definition: This identifies a position, area, or surface on the left or right of a central line.
-6. fatu (Machine). Definition: This refers to a device or engine and is the essential base concept for more complex items like computers.
-7. fevu (End). Definition: This defines the final part of something or its termination point.
-8. gagu (Texture / Surface Quality). Definition: This refers to the feel, appearance, or consistency of a surface or a substance.
-9. gercu (Celestial Object / Planet / Moon). Definition: This refers to a natural physical entity, such as a planet, moon, or star, that exists in the universe outside the earth's atmosphere.
-10. gisu (Ground ). Definition: This term refers to the ground, soil, or the physical land surface.
-11. gomu (Hour). Definition: This refers to a period of time equal to sixty minutes or one twenty-fourth of a day.
-12. grecu (Thing). Definition: This is a universal substantive used to refer to any object, entity, or distinct matter.
-13. gudu (Metal ). Definition: This describes a solid material that is typically hard, shiny, and conductive.
-14. hanu (Container / Box). Definition: This describes an enclosure or object used for holding or transporting something
-15. hocu (Door / Gate). Definition: This identifies an access point or movable barrier used to close an opening.
-16. jaru (Year). Definition: The time it takes for a planet to complete one full revolution around its star; a period of time comprising 365 days.
-17. jormu (Case / Situation). Definition: This refers to a set of circumstances or conditions in which one finds oneself; a state of affairs.
-18. maobu (Heart ). Definition: This identifies the biological pump that circulates blood through the body.
-19. meku (Bone). Definition: This refers to any of the pieces of hard, whitish tissue making up the skeleton in humans and other vertebrates.
-20. melvu (Price). Definition: This refers to the amount of money expected, required, or given in payment for something.
-21. meotu (Head ). Definition: This identifies the upper part of the human body containing the brain, eyes, ears, nose, and mouth.
-22. mifu (Animal). Definition: This identifies a living organism that is specifically a land-dwelling beast.
-23. movu (Person / Human). Definition: This refers to a human being, individual, or member of the human species.
-24. mviku (Arm). Definition: This refers to each of the two upper limbs of the human body from the shoulder to the hand.
-25. nasu (Plant). Definition: This refers to a living organism of the kind exemplified by trees, shrubs, and herbs.
-26. nfitu (Root ). Definition: This identifies the part of a plant that attaches it to the ground and absorbs water and nourishment.
-27. nicu (Seed). Definition: This refers to the unit of reproduction of a flowering plant capable of developing into another such plant.
-28. nnaqu (Sickness / Disease). Definition: This refers to a disorder of structure or function in a human, animal, or plant; a specific condition of illness.
-29. nnxotu (Nose). Definition: This identifies the part projecting above the mouth on the face of a person or animal, used for smelling.
-30. nokru (Hair). Definition: This refers to the fine thread-like strands growing from the skin of humans, mammals, and some other animals.
-31. pano (Book). Definition: This refers to a written or printed work consisting of pages bound together, or a digital equivalent, used to store information.
-32. pemu (Pain). Definition: This refers to physical suffering or discomfort caused by illness or injury; a distinct sensory experience of hurting.
-33. peza (Sound). Definition: This refers to vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear; the sensation produced by stimulation of the organs of hearing.
-34. roku (Dark). Definition: This defines the absence of light or the state of being without illumination.
-35. tocu (Mind). Definition: This refers to the element of a being that enables reasoning, perception, and memory; that facilitates consciousness and intellect, distinct from the physical body and the spiritual soul.
-36. waxu (Angle). Definition: The space between two intersecting lines (angle); specific geometric properties.
-37. wigu (Color). Definition: This refers to the property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light.
-38. wupu (There). Definition: A specific physical location distant from the speaker or outside the immediate area.
-39. zodu (Power/ Influence ). Definition: This refers to the capacity or ability to direct or influence the behavior of others or the course of events; political or social authority.
-
-Preposition - ii:
-
-1. pii (Of - (grouper) ). Definition: A structural particle used solely to group modifiers or clauses together. It acts as an open parenthesis `(`  to clarify syntax and carries no independent meaning of possession or relation.
-2. pefii (So (Therefore / Consequence)). Definition: This word connects two ideas, indicating that the second is a result, consequence, or logical conclusion of the first.
-3. sacii (Outside/ out ). Definition: Used for a position external to the boundaries of an enclosure or object
-4. zetii (about ). Definition: This word means on the subject of, concerning, or regarding a particular topic.
-5. fulii (Subsequent to / After). Definition: References a past event. Introduces a clause or event that serves as the origin or prerequisite. It indicates that the main action can only initiate subsequent to the completion of the referenced clause.
-6. parii (Prior to / Before). Definition: References a future event. Introduces a clause or event that serves as the endpoint or future bound. It indicates that the main action must conclude prior to the start of the referenced clause.
-7. jicii (Also). Definition: Used to indicate an addition to what has already been mentioned
-8. pinii (As / Similar to). Definition: This word indicates that one thing resembles another or shares common characteristics without being identical.
-9. wii (With ). Definition: Used for accompaniment or instrumentality.
-10. zii (To). Definition: Used for direction toward a destination or outcome.
-11. fii (From). Definition: Used for origin or starting point.
-12. bii (By). Definition: Used to indicate agent, means, or source.
-13. **nokii** (Down/ below). Definition: Used for direction or position lower than a reference.
-14. dii (Made of / Composed of). **Definition:** Indicates the physical substance or material composition of the subject.
-15. **todii** (Up/ above). Definition: Used for direction or position higher than a reference.
-16. **hemii**(Near). Definition: Used for close proximity.
-17. nii(Part of). **Definition:** Indicates the subject is an integral component or piece of the object, such as a body part or machine element.
-18. rii (Owned by). **Definition:** Indicates strict ownership, legal possession, or belonging.
-19. qii (Containing / Filled with). **Definition:** Indicates that the subject is holding the object inside it; specifies content rather than purpose.
-20. **qazii**(For). Definition: This word indicates the purpose, destination, or intended recipient of an action or object.
-21. lii (Shaped like / Form of). **Definition:** Indicates that the subject shares the physical geometry or outline of the object, but not necessarily its material or function.
-22. fazii  (Nature of / Characterized by). **Definition:** Indicates abstract characteristics, personality, or intrinsic nature; having the qualities of the object.
-23. kii (On). Definition: Used for location at a specific point.
-24. **yekii** (In/ inside). Definition: Used for location within an enclosure.
-25. tii (At). Definition: Used for location at a specific point.
-26. **rewii** (far) **Definition:** Situated at a great distance from; far away relative to a reference point.
-
-Verb - i:
-
-1. baki (Try / Attempt). Definition: To execute an action with the intent of achieving a specific result, while acknowledging that the outcome is uncertain or experimental.
-2. beati (Close). Definition: This verb means to block an opening.
-3. cali (Move/go). Definition: This verb means to change position or displace something.
-4. ceri (Throw). Definition: This verb means to propel something with force through the air.
-5. ci (Be / Exist). Definition: This verb serves as a copula indicating existence or identity.
-6. cosi (Open). Definition: This verb means to allow access, passage, or view through a space.
-7. cuni (Burn). Definition: This verb means to consume or damage something by fire.
-8. dazi (Control). Definition: This verb means to determine the behavior or supervise the running of an entity or system; to exercise authority over.
-9. doxi (Let). Definition: This verb means to not prevent an action from occurring
-10. fodi (Process). Definition: This refers to a series of actions or steps taken in order to achieve a particular end.
-11. gari (Play). Definition: This verb means to engage in activity for enjoyment and recreation rather than a serious or practical purpose.
-12. goji (Pull). Definition: This verb means to exert force on something to move it toward oneself.
-13. guxi (Stand). Definition: This verb means to maintain an upright position, supported by the feet (or base) in a vertical orientation.
-14. hiqi (walk). Definition: This verb means to move at a regular pace by lifting and setting down each foot in turn, never having both feet off the ground at once.
-15. jami (Write). Definition: This verb means to mark letters, words, or other symbols on a surface to record information.
-16. jedi (Have). Definition: This verb means to possess, own, or hold something as property or a characteristic.
-17. jofi (Help / Assist). Definition: To make it easier for someone to do something by offering one's services or resources.
-18. kani (Know). Definition: This verb means to possess knowledge, facts, or skills.
-19. karci (Find / Discover). Definition: This verb means to discover or perceive by chance or unexpectedly, or to become aware of something new.
-20. kili (Touch / Feel). Definition: This verb means to perceive through physical contact or the sense of touch.
-21. koqi (Need). Definition: This verb means to require something because it is essential or very important.
-22. kiiteqi (Like). Definition: This verb expresses positive feelings towards something or someone and is completely subjective.
-23. kxori (Fear). Definition: This verb means to be afraid of someone or something.
-24. lgazi (Say / Speak). Definition: This verb means to utter words so as to convey information.
-25. lini (Cause). Definition: To make something happen or exist; to bring about a result or effect.
-26. loki (Read). Definition: This verb means to look at and comprehend the meaning of written or printed matter.
-27. lti (Come). Definition: This verb means to move toward a specific location or the speaker.
-28. maji (Breathe). Definition: This verb means to take air into the lungs and expel it.
-29. mesi (Birth). Definition: This verb means to give life to a child or offspring.
-30. mori (Grow). Definition: This verb means to increase in physical size, quantity, or maturity over a period of time; to undergo the natural process of development or expansion.
-31. mzi (Sleep). Definition: This verb means to rest with eyes closed in a state of natural unconsciousness.
-32. naqi (Work). Definition: This verb means to perform labor, professional tasks, or exert effort to produce a result.
-33. neki (Sit). Definition: This verb means to rest with the body supported by the buttocks or thighs; to occupy a seat.
-34. nxeni (Excrete). Definition: This verb means to separate and expel waste matter from the body.
-35. pauli (Feel). Definition: This verb means to experience an emotion or sensation.
-36. poyi (Think). Definition: This verb means to direct one's mind toward someone or something or to form ideas.
-37. qapi (Make). Definition: This verb means to create, construct, or form something.
-38. qimi (Start). Definition: This verb means to begin an action or event.
-39. quki (Fight). Definition: This verb means to take part in a violent struggle involving the exchange of physical blows or the use of weapons.
-40. rati (Ask). Definition: This verb means to say something in order to obtain an answer or some information.
-41. riiti (Search / Look for). Definition: This verb means to try to find something by looking or otherwise seeking carefully and thoroughly.
-42. roli (Drink). Definition: This verb means to take a liquid into the mouth and swallow it.
-43. sadi (Push). Definition: This verb means to exert force on something to move it away.
-44. seji (Stop). Definition: This verb means to cease an action or event.
-45. skaixi (Break). Definition: This verb means to separate into pieces as a result of a blow, shock, or structural failure.
-46. sowi (Fall). Definition: This verb describes the action of dropping down under the force of gravity.
-47. stomi (Give). Definition: This verb means to freely transfer the possession of something to someone.
-48. swagi (Put). Definition: This verb means to move something into a specific place or position.
-49. taci (Love). Definition: This verb implies unconditional actions and deep affection towards something or someone.
-50. taoji (Believe). Definition: This verb means to accept something as true without direct experience.
-51. tsi (Leave). Definition: This verb means to go away from a place, person, or thing; to depart.
-52. vabi (Want). Definition: This verb means to have a desire to possess or do something.
-53. vewi (Mix). Definition: This verb means to combine or blend different substances together.
-54. voti (Answer). Definition: This verb means to say or write something to deal with or as a reaction to a question.
-55. vumi (Change / Alter). Definition: To make or become different; to transform the state of something.
-56. wogi (Hope). Definition: This refers to a feeling of expectation and desire for a certain thing to happen; a state of optimism.
-57. xozi (Call). Definition: This verb means to cry out to someone in order to summon them or attract their attention; or to contact via a device.
-58. yemi (Cover). Definition: This verb means to put something on top of or in front of something else to protect or conceal it.
-59. yiili (Use). Definition: This verb means to employ something for a particular purpose.
-60. yoeti (Cut). Definition: This verb means to separate or divide something using a sharp edge.
-61. zatzi (Hit / Strike). Definition: This verb means to deliver a blow to someone or something.
-62. zeci (Update). Definition: This verb means to make something more modern or current, or to incorporate the most recent information.
-63. ziidi (Do). Definition: This is a generic verb used to describe performing an action.
-64. zixi (Hold). Definition: This verb means to grasp and support something
-65. zoni (Live). Definition: This verb means to remain alive or have life.
-66. zteli (Take). Definition: This verb means to lay hold of something with one's hands or reach.
-67. zufi (Turn). Definition: This verb means to rotate or change the direction of movement.
-68. grawi (Grateful / Thank). Definition: This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks.
-
-- Explanations/ corrections
-
-    You are noticing a subtle distinction in Fiwo grammar between **Identity** (Noun = Noun) and **Description** (Noun = Quality).
-
-    Strictly speaking, according to the "Teacher and the Truth" text, when `ci` (is) connects two **Nouns**, `te` is usually used:
-
-    - *Strict Example:* `kanio lo ci **te** boxa.` (Knowledge is force.)
-
-    However, in the sentence **"nsoca lo ci ne fatu dii gudu"**, `te` was omitted. Here is the reason why:
-
-    ### 1. Treating the Noun as a Description (Fluid Mode)
-
-    In Fiwo, when you use `ci` (to be), you are often describing a state.
-
-    - **Adjectives (Modifiers):** Never use `te`. (e.g., `batu lo ci rabe` - Food is hot).
-    - **Nouns (Objects):** strictly use `te` to show "A equals B".
-
-    In this story context, we are using **Fluid Mode** (Rule 6.4). We are treating "machine" (`fatu`) more like a **description of nature** ("It is not machine-like") rather than pointing to a specific physical object. By dropping `te`, the sentence feels less like a mathematical equation (Body = Machine) and more like a descriptive observation.
-
-    ### 2. The Nuance of Negation
-
-    The sentence uses `ne` (not).
-
-    - **Strict Grammar:** `nsoca lo **ne ci te** fatu...` (The body does **not exist** as the machine...)
-    - **Story Grammar:** `nsoca lo ci ne fatu...` (The body exists as **not-machine**...)
-
-    In the story, emphasizing the *quality* of being a "non-machine" makes `te` feel unnecessary, as `te` usually points to a tangible, existing object. Since the "machine" doesn't exist in this context (because we said it *isn't* one), dropping `te` is a natural fluid choice.
-
-    ### Summary Rule for You
-
-    - If you are writing a **definition** (A = B), use `te`. (`mi lo ci te movu` - I am a human).
-    - If you are describing a **quality** or writing a **story**, you can drop `te` to be more fluid. (`mi lo ci movu` - I am human).
-
+- **/ʌ/**  **Assigned Key:**  y
+    - **Examples:** "**u**p" (Eng), "c**u**t" (Eng)
+    - **Notes:** Mid central vowel similar to the vowel in English “cup”
+
+    # Rules
+
+### **Foundations & Core Mechanics**
+
+- Rule 1: Read Exactly What You See
+    - **Words are spelled exactly as pronounced, with one letter per sound.** There are no silent letters, no irregular spellings, and no exceptions. Every letter you see is a sound you produce, and every sound you produce maps to exactly one letter.
+    - **Capitalization is used only for the first letter of a sentence and for proper nouns.** All other words are written entirely in lowercase regardless of their grammatical role or importance.
+    - **Stress falls on the final vowel of a word and carries forward through any consonant suffixes that follow it, treating the vowel and its trailing suffixes as a single stressed unit.** In an unsuffixed root word, this means stress falls naturally on the final functional vowel. When grammatical consonant suffixes are added, the stress does not shift backward — it remains anchored to the functional vowel and stretches forward to include the entire suffix block.
+        - `no-**fa**` → stress on `fa`
+        - `no-fa-**p**` → stress on `fap`
+        - `xa-li-**d**` → stress on `lid`
+        - `xa-li-**dyq**` → stress on `lidyq`
+        
+        When in doubt, locate the last vowel in the word and stress everything from that vowel to the end. Because grammatical suffixes always sit inside the stressed unit, they are never reduced or swallowed in natural speech — a listener will always clearly hear how a word has been modified.
+        
+- **Rule 2: Word Boundaries & Word Shapes**
+    - **Base dictionary words** must end with a **functional vowel** that determines their grammatical category. (With the exception of grammar word )
+    - Words may **begin with either a consonant or a vowel**.
+    - **Grammatical suffixes** (such as tense markers, modifier markers, or specificity markers) may appear **after the final vowel**, and these may be consonants.
+    - Inside a dictionary root:
+        - Maximum **three consonants in a row**
+        - Maximum **two vowels in a row (except when derived)**
+    - The sound **/ŋ/** written as `q` **cannot start a word**.
+- Rule 3: Functional Vowel System
+    - In Fiwo, the final vowel of a root word determines its grammatical category.
+    - This vowel is called the functional vowel and defines how the word behaves in a sentence.
+    - The vocabulary is divided into six core categories, explicitly marked by their ending vowel:
+        - **a** (Biological Noun): Living organisms, plants, animals, and body parts.
+        - **o** (Concrete Noun): Physical objects, materials, tools, and locations.
+        - **u** (Abstract Noun): Concepts, emotions, time, and intangible ideas.
+        - **i** (Verb): Actions or states of being.
+        - **e** (Modifier): Descriptive words that modify nouns or verbs.
+        - **y** (Preposition): Structural bridges mapping spatial or logical relationships.
+    - Although root words always end in a functional vowel, grammatical suffixes may add consonants after this vowel.
+    - These consonant suffixes do not change the word’s category. Instead, they provide additional grammatical information such as:
+        - Tense markers on verbs
+        - Specificity markers on nouns
+        - Plural markers
+        - Modifier nesting markers
+    - Because the functional vowel remains inside the word, the parser can always determine the original part of speech.
+        - **xali** -> move (verb root)
+        - **xalid** -> move + past
+        - **xaliq** -> move + continuous
+        - **sydop** -> house + specific
+        - **sydop je** -> the houses
+    - The functional vowel remains the structural anchor that determines the word’s grammatical type.
+- Rule 4: Proper Nouns & The Capital Flag
+    
+    In Fiwo, proper nouns (names of people, specific places, and titles) are carried over exactly as they are spelled and pronounced in their native language. They are not required to conform to Fiwo’s phonetics or functional vowel system.
+    
+    To prevent these foreign endings from crashing the SVO parser, Fiwo utilizes **The Capital Flag**.
+    
+    ### 1. The Capitalization Override
+    
+    According to Rule 1, capitalization is used for proper nouns. In the parser, a capital letter acts as a strict structural flag. When the parser encounters a capital letter, it immediately suspends the "functional vowel" rule for that specific word.
+    
+    - **Parser Logic:** The capital letter tells the parser: *"Treat this entire block as an immutable, specific Noun that fills the current SVO slot, regardless of what letter it ends with."*
+    
+    ### 2. Inherent Specificity (No Suffixes Allowed)
+    
+    Because proper nouns do not natively possess Fiwo’s functional vowels (-a, -o, -u), they **cannot** accept Fiwo's grammatical consonant suffixes (like the `-p` or `-r` specificity markers from Rule 13).
+    
+    Furthermore, it is mathematically redundant: a proper noun is, by definition, a specific entity. Therefore, "David" is inherently specific and does not need a `-p` attached to it.
+    
+    ### 3. Integration with Modifiers and Prepositions
+    
+    Even though the proper noun is a foreign block, it still acts as a valid Noun Root in the SVO sequence. This means:
+    
+    - **Modifiers** can still "look left" (Rule 10) to attach to it.
+    - **Prepositions** can still "look left" (Rule 12) to anchor their structural bridges to it.
+    
     ---
+    
+    ### Parser Examples
+    
+    **1. As a Subject (Slot 1)**
+    
+    - **Fiwo:** `David xalid.`
+    - **Literal Breakdown:** David + move-[past].
+    - **Parser Logic:** The capital 'D' flags the word as a noun. The SVO track accepts it in Slot 1, and proceeds directly to the verb.
+    - **Meaning:** David moved.
+    
+    **2. As a Prepositional Target (Bridging to a foreign place)**
+    
+    - **Fiwo:** `Mik ceni deky London.`
+    - **Literal Breakdown:** I + live + inside + London.
+    - **Parser Logic:** The preposition `deky` looks left, anchors to the verb `ceni`, and spans its bridge directly to the flagged noun `London`.
+    - **Meaning:** I live in London.
+    
+    **3. Modified Proper Nouns (Looking Left)**
+    
+    - **Fiwo:** `Mik karxid David tande.`
+    - **Literal Breakdown:** I + find-[past] + David + big.
+    - **Parser Logic:** `tande` looks left. It hits the Capital Flag of `David`, recognizes it as a valid root noun, and successfully modifies it.
+    - **Meaning:** I found Big David.
+    
+    **4. Handling Two Proper Nouns Together (First and Last Names)**
+    
+    Because two capitalized words next to each other would normally crash the SVO slot, you must use the inline glue `lan` (Rule 14) to bind a first and last name into a single SVO unit, or simply write them as one combined structural string if they refer to the exact same entity.
+    
+    - *Note:* If you want to keep them separated by a space as a single entity without using `lan`, the parser will naturally read a sequence of capitalized words as a single contiguous Proper Noun block until it hits a lowercase Fiwo word.
+    - **Fiwo:** `David Smith xalid.` (The parser groups the two capital flags into one subject block).
 
-    You are correct that `si` sits in the "modifier slot" (after the noun), but it does **not** take the `-e` ending.
+### **Word Building & Derivation**
 
-    Here is the reason why:
+- **Rule 5: Derivation (Category Shifting)**
+    
+    Words in Fiwo can shift their grammatical category by appending a new functional vowel to the end of the root word.
+    
+    - **The Preservation Rule:** The original functional vowel is never removed. Each derivation appends a new functional vowel to the end of the word, preserving the word's etymological history.
+    - **The Derivation Limit:** A word can be derived a maximum of two times. This means a fully derived word can have a maximum of three consecutive vowels at the end.
+    - **Noun Specificity:** When deriving a word into a noun, you must choose the correct noun vowel (`a` for Biological, `o` for Concrete, `u` for Abstract) based on the specific nature of the new entity.
+    - Words may not be derived to form prepositions
+    
+    **Examples:**
+    
+    **Modifier to Verb (Stative Verbs):**
+    
+    - `ruze` (Fast) → `ruzei` (To be fast)
+    - `kype` (Happy) → `kypei` (To be happy)
+    
+    **Modifier to Noun:**
+    
+    - `kype` (Happy) → `kypeu` (Happiness - Abstract Noun)
+    - `cape` (Dark) → `capeu` (Darkness - Abstract Noun)
+    - `ruze` (Fast) → `ruzeu` (Speed - Abstract Noun)
+    
+    **Noun to Verb:**
+    
+    - `foiso` (building) → `foisoi` (to build)
+    - `pesu` (Sound) → `pesui` (To sound / To emit noise)
+    
+    **Noun to Modifier:**
+    
+    - `xedo` (Metal) → `xedoe` (Metallic)
+    - `dorso` (Water) → `dorsoe` (Wet / Aquatic)
+    
+    **Verb to Noun (Branching):**
+    
+    - `jami` (To write) → `jamia` (Writer - Biological Noun)
+    - `jami` (To write) → `jamio` (Document / Scroll - Concrete Noun)
+    - `jami` (To write) → `jamiu` (Literature / The concept of writing - Abstract Noun)
+    
+    **Verb to Modifier (Participles / States):**
+    
+    - `skagi` (To break) → `skagie` (Broken)
+    - `xuni` (To burn) → `xunie` (Burnt / Burning)
+    - `jami` (To write) → `jamie` (Written)
+    - `zemi` (To cover) → `zemie` (Covered)
+    - `sapi` (To make) → `sapie` (Made / Crafted)
+    
+    **Double Derivation (Maximum Limit):**
+    
+    - `guto` (Tool) → `gutoi` (To engineer / To use a tool) → `gutoia` (Engineer / Mechanic)
 
-    ### 1. Description vs. Identification
+### **Basic Syntax & Sentence Building**
 
-    Fiwo separates words that **describe** qualities from words that **identify** structure.
-
-    - **Modifiers (Ending in `e`):** These describe **qualities** like color, size, or emotion (Red, Big, Happy). These are "Open Class" words—you can invent new ones.
-        - *Example:* `soko raos**e**` (The way is **slow**).
-    - **Particles (No ending):** These are **structural pointers**. They don't describe *what* something is like; they point to *which* one it is. `si` means "This" (The one right here).
-        - *Example:* `soko si` ( **This** way).
-
-    ### 2. The "Closed Class" Rule (Rule 14)
-
-    `si` belongs to the "Grammar" category (Closed Class). According to **Rule 14**:
-
-    > "Grammar words... exist solely to encode structure, logic, scope, or sentence control... [they] form a closed class."
-    >
-
-    Grammar words (like `lo`, `te`, `ne`, `si`, `ta`) are the "skeleton" of the language. They **never change their spelling**. If you added `-e` to `si` (making it `sie`), you would be turning a hard logic pointer into a vague description (like "This-ish" or "Proximal-ish"), which breaks the strict logic of the language.
-
-    ### Summary
-
-    - **`soko raose`** = The way (described as) slow. -> **Needs -e**.
-    - **`soko si`** = The way (identified as) this one. -> **No -e** (Grammar Particle).
-
+- Rule 6: The Flexible SVO Template & Implied States
+    
+    While Fiwo relies on a linear SVO (Subject-Verb-Object) sequence to maintain syntactic clarity, the parser is highly efficient and flexible for simple statements. Unnecessary slots can legally be left blank. However, when elaborating or building complex clauses, the syntax must always return to its strict baseline order.
+    
     ---
-
-- Data
-
-    `su lo ci kiipe.` (You are happy.)
-
-    `batu lo ci rabe.` (The food is hot.)
-
-    `mi lo batui te mito.` (I eat the meat.)
-
-    `da lo yiili te xeta lande.` (He uses the small tool.)
-
-    `nauca rii movu lo lgazi.` (The friend of the human says.)
-
-    `mi lo fu karci te ziinda.` (I will find the house.)
-
-    `mi lo hiqi zii jura.` (I walk to the city.)
-
-    `da lo ne kani te hiso.` (He does not know the name.)
-
-    `mi lo hisoi te gercu si.` (I name this planet.)
-
-    `? su lo vabi te batu.` (Do you want food?)
-
-    `mi lo jedi te ratso xeta.` (I have two tools.)
-
-    `mi lo kiiteqi rajae te batu.` (I like the food intensely.)
-
-    `mi lo batui ka mi lo vabi te batu.` (I eat because I want food.)
-
-    `mi lo jedi te mazo be mulo.` (I have the tree and the flower.)
-
-    `mi lo pa karci te ziinda rii nnofa lande je.` (I found the house of the small birds.)
-
-    `mazo hemiie lo ci rande.` (The nearby tree is big.)
-
-    `te fola lo fodi bii xioco.` (The data is processed by the AI.)
-
-    `sii fatu lo naqi, ca mi lo ci kiipe.` (If the machine works, then I am happy.)
-
-    `? su lo nojoi te wa.` (You see what?)
-
-    `mi lo vabi te batu, bu za lo ci rabe.` (I want the food, but it is hot.)
-
-    `si lo ci te soko.` (This is the way.)
-
-    `? su lo zoni tii we.` (Where do you live?)
-
-    `da lo cali.` (He moves.)
-
-    `da lo cali ruke.` (He moves fast.)
-
-    `fatu jacke lo naqi ruke.` (The new machine works fast.)
-
-    `da lo lgazi:"batu lo ci xawe."` (He says that the food is good.)
-
-    **`mi lo kili te mifu.`***(I touch the animal.)*
-
-    `movu kiipe lo batui te batu tute.` (The happy person eats the sweet food.)
-
-    `mi lo pa ne batui.` (I did **not** eat.)
-
-    `nauca lo fu ne karci te ziinda.` (The friend will not find the house.)
-
-    `mi lo cali zii jura.`*(I go **to** the city.)* We do NOT use `te` here because "the city" is connected to "to", not directly to "go".
-
-    **`nnofa lande lo cali zii mazo laege.`***(The small bird goes to the green tree.)*
-
-    `movu lo dorsoi te mulo.` (The person waters the flower.)
-
-    `mi lo kiiteqi te nnifo pii nauca kiipe.` (I like the group of happy friends.)
-
-    `mifu ki karci te batu lo mzi.` (The animal who finds the food sleeps.)
-
-    **`?** batu lo ci we.` (Where is the food?)
-
-    `batu lo ci tapa.` (The food is here.)
-
-    `? nauca lo karci te wa.`(What does the friend find?)
-
-    **Passive (OVS):**`te mito lo batui bii mi.`*(The meat is eaten **by** me.)*
-
-    **Active (SVO):**`mi lo batui te mito.`*(I eat meat.)*
-
-    `te mulo lo dorsoi bii movu.` (The flower is watered by the person.)
-
-    **`ratso** mifu` (Two animals).
-
-    `raja nnofa lo batui te ratso nicu.` (Five birds eat two seeds.)
-
-    `nauca lo jofi. mi lo grawi te ta.` (The friend helps. I appreciate that.)
-
-    **`sii** mi lo batui, mi lo mzi.` (If i eat, I sleep)
-
-    **`sii nauca lo cali, mi lo ne ci kiipe.`***(If the friend goes, I am not happy.)*
-
-    `batu **rii** mi` (Food owned-by me / My food).
-
-    `mfuka **nii** mi` (Hand part-of me / My hand).
-
-    `ziinda leufe rii mi` (House red owned-by me).
-    `mfuka nii mi lo zixi te xido rii mi.` (My hand holds my money.)
-
-    `mi lo tsi. tatse.` (I leave. Sorry)
-
-    `! su lo seji te fatu.` (You stop the machine!)
-
-    `mi lo mzi ka mi lo ci wonne.`*(I sleep **because** I am weak.)*
-    `fatu lo naqi bu za lo ci wazke.` (The machine works, but it is old.)
-
-    **`mi lo kili te fatu dii gudu.`***(I touch the machine made of metal.)*
-
-    `batu si lo ci xawe jete.`*(This food is better.)*
-
-    `mulo leufe lo ci xawe jete.` (The red flower is better.)
-
-    `mi lo mzi fulii batu.`(I sleep after the food.)
-
-    `mi lo batui parii mzi.`(I eat before sleep [verb].)
-
-    `mi lo mzi fulii batuia.` (I sleep after the eating.)
-
-    `movu lo jedi te hanu de pii xeta leufe.` (The person has a box of red tools.)
-
-    **`mifu lo vabi te batu bu da lo koqi te dorso.`***(The animal wants the food, but it needs water.)*
-
-    `nauca lo stomi te pano zii mi.` (The friend gives the book to me.)
-
-    **`mi lo ci rii su.`***(Literal: I exist belonging to you. I am yours)*
-
-    `mi lo vabi te batuia pii batu.` (I want the act of eating (of) food. )
-
-    `mi lo vabi te kilia pii su`  (**Literal Translation:** I want the touching **(of)** you. **Meaning:** **I want to touch you.)**
-
-    `mi lo vabi te kilia rii su` (**Literal Translation:**I want the touching **owned by** you.  **Meaning: I want your touch.** )
-
-    `mi lo vabi te kilia **bii** su` (**Literal Translation:** I want the touching **done by** you. **Meaning: I want your touch.** )
-
-    `su lo ci lice.` (You are wet.)
-
-    `? su lo ci lice.` (Are you wet?)
-
-    `? su lo ci lice he.` (How wet are you?)
-
-    `? su lo ci lice bii he.` (**Literal:** ? You are wet by [means of] how. Meaning: How are you wet?)
-    `mi lo kani te paulia pii pemu bii su.` (**"I know you are in pain."** I know [the feeling done by you]. )
-
-    `mi lo pauli te pemu rii su.`(**"I feel your pain."** (Empathy) I feel [the pain owned by you].)
-
-    `mi lo pauli te pemu fii su.` (**"I feel pain FROM you."** (You hurt me) I feel [pain originating from you].)
-
-    `su lo pemui te mi` (You hurt me.)
-- `movu kanie be rodleo.` (The Teacher and the Truth, 189 words)
-
-    `% movu hobe lo rati te movu wazke.`(The young person asks the old person.)
-
-    `movu hobe lo lgazi: "? wa lo ci rodle? ? wa lo ci moda?"`
-    (The young person says: "What is true? What is God?")
-
-    `"# mi lo koqi te kania."`(I need knowledge.)
-
-    `movu wazke lo nojoi te nojo nii movu hobe.`(The old person looks at the eyes of the young person.)
-
-    `da lo seji. da lo poyi.`(He stops. He thinks.)
-
-    `movu wazke lo lgazi: "% su lo rati te ratia rande."`(The old person says: "You ask a big question.")
-
-    `"% kania lo ci te fika."`(Knowledge is the path.)
-
-    `"% za lo ne jedi te fevu."`(It does not have an end.)
-
-    `"sii su lo cali ruke, ca su lo ne nojoi te fika."`(If you move fast, then you do not see the path.)
-
-    `"! su lo koqi te calia raose."`(You need slow movement.)
-
-    `"! su lo nojoi te mazo.` (Look at the tree.)
-
-    `! su lo nojoi te dreko.`  (Look at the rock.)
-
-    `! su lo nojoi te biiso."` (Look at the sky.)
-
-    `"% moda lo ci yekii grecu late.` (God is in all things.)
-
-    `% moda lo ci yekii mazo."` ( God is in the tree.)
-    `"% moda lo ci yekii su."`(God is in you.)
-
-    `"! su lo koqi te kilia pii gisu."`(You need the feeling [touch] of the ground.)
-
-    `"! su lo koqi zii te fijai zii beco."`(You need to listen to the air.)
-
-    `"sii su lo pauli te grecu late, ca su lo kani te moda."`(If you feel all things, then you know God.)
-
-    `"% rodleo lo ci ne te xa. % rodleo lo ci te ziidia."`(Truth is not a word. Truth is an action.)
-
-    `"! su lo koqi te ziidia pii wipe."`(You need the action of the greater good.)
-
-    `"!su lo stomi te batu. !su lo qapi te foisa. !su lo taci te movu je."`(You give food. You build a building. You love the people.)
-
-    `"sii su lo ziidi te si, ca su lo kani te rodleo."`(If you do this, then you know the truth.)
-
-    `"% kania lo ci ne te xido.`  (Knowledge is not money.)
-
-    `% kania lo ci te boxa."` (Knowledge is force.)
-
-- `grifa qimie.` **The First Fire ,Words** 55
-
-    `duxo lo ci jabe.` (The night is cold.)
-
-    `movu lo pauli te jabeo.` (The person feels the cold.)
-
-    `da lo nojoi te grifa kii gifo.` (He sees the fire on the wood.)
-
-    `grifa lo ci rabe.` (The fire is hot.)
-
-    `movu lo jedi te mito.` (The person has the meat.)
-
-    `da lo swagi te mito kii grifa.` (He puts the meat on the fire.)
-
-    `grifa lo vumi te mito.` (The fire changes the meat.)
-
-    `na mito lo ci rabe.` (Now the meat is hot.)
-
-    `da lo batui te mito.` (He eats the meat.)
-
-    `movu lo ci kiipe.` (The person is happy.)
-
-    `grifa lo ci xawe.` (Fire is good.)
-
-- `nnofa be nepo.` **The Bird and the Fish, Words** 101
-
-    `nnofa lo ci yekii biiso.` (The bird is in the sky.)
-
-    `nepo lo ci yekii dorso.` (The fish is in the water.)
-
-    `nnofa lo nojoi nokii be da lo lgazi.` (The bird looks down and it says.)
-
-    `“biiso lo ci rande be xawe.”` (The sky is big and good.)
-
-    `“mi lo nojoi te lita be mazo.”` (I see the light and the tree.)
-
-    `nepo lo nojoi todii.` (The fish looks up.)
-
-    `da lo lgazi: “dorso lo ci jabe be lice.”` (It says: "The water is cold and wet.")
-
-    `“mi lo pauli te calia rii dorso.”` (I feel the movement of the water.)
-
-    `da lo rati te nnofa:` `“? su lo kiiteqi te biiso ka wai.”` (It asks the bird: “Why do you like the sky?”
-
-    `nnofa lo voti: "ka mi lo ci loge te calia ruke."` (The bird answers: "Because I can move fast.")
-
-    `"mi lo ne koqi te dorso."` (I do not need the water.)
-
-    `nepo lo lgazi: "mi lo koqi te dorso."` (The fish says: "I need the water.")
-
-    `beco lo ci wuske. za lo ci retse.` (The air is dry. It is dangerous.)
-
-    `nnofa lo cali todii. nepo lo cali nokii.` (The bird goes up. The fish goes down.)
-
-    `da lo ne quki.` (They do not fight.)
-
-    `# ratso mifu lo ci kiipe.` (The two animals are happy.)
-
-- **`fika zii jura,` The Journey to the City, Words** 100
-
-    `movu lo hiqi kii fika nii mazo.` (The person walks on the path of the tree.)
-
-    `da lo nojoi te dreko wazke.` (He/she sees the old rock.)
-
-    `tii tapa peza lo ci wote.` (At here the sound is few.)
-
-    `da lo cali zii jura.` (He/she goes to the city.)
-
-    `jura lo ci rande.` (The city is big.)
-
-    `na da lo nojoi te foisa je.` (Now he sees many buildings.)
-
-    `foisa lo ci rande be dii dreko.` (The buildings are big and made of rock.)
-
-    `za je lo ne ci laege.` (They are not green.)
-
-    `movu je lo hiqi ruke yekii jura.` (Many people walk fast in the city.)
-
-    `da je lo vabi te xido.` (They want money.)
-
-    `da je lo ne nojoi te biiso.` (They do not look at the sky.)
-
-    `da je lo ne nojoi te nauca je rii da je.` (They do not look at the friend.)
-
-    `beco lo ci letze.` (The air is dirty.)
-
-    `movu lo seji be da lo poyi.` (The person stops and he/she thinks.)
-
-    `jura lo jedi te boxa.` (The city has force.)
-
-    `bu mazo lo jedi te mo de.` (But the tree has a soul.)
-
-    `da lo vabi te calia zii mazo.` (He wants the movement to the tree.)
-
-- **`kania fii movu ki seji te nnaqu.` The Healer's Lesson, Words** 192
-
-    `movu hobe lo nojoi te nauca nii da.` (The young person looks at his friend.)
-
-    `nauca lo mzi kii mzifa.` (The friend sleeps on the bed.)
-
-    `da lo jedi te nnaqu ranne.` (He has a strong sickness.)
-
-    `nsoca rii da lo ci rabe be da lo pauli te pemu.` (His body is hot and he feels pain.)
-
-    `movu hobe lo kxori be da lo rati te movu wazke.` (The young person fears and he asks the old person.)
-
-    `da lo lgazi: “? mi lo ziidi te wa.”` (He says: "I do what?")
-
-    `“? nsoca lo ci skaixie. ? mi lo koqi te xeta rande."` (The body is broken. Do I need a big tool?)
-
-    `movu wazke lo nojoi te nauca.` (The old person looks at the friend.)
-
-    `da lo lgazi raose.` (He speaks slowly.)
-
-    `nsoca lo ne ci fatu dii gudu.` (The body is not a machine made of metal.)
-
-    `za lo ci te nasu nii gisu.` (It is a plant of the ground.)
-
-    `xeta rande lo skaixi te nasu.` (Big tools break the plant.)
-
-    `! su lo yiili te xeta nii moda.` (Use the tools of God.)
-
-    `roza lo ci te dorso.` (One is the water.)
-
-    `dorso lo ci te zonia nii nsoca.` (Water is the life of the body.)
-
-    `za lo jotzei te mzoja.` (It cleans the blood.)
-
-    `ratso lo ci te batu.` (Two is the food.)
-
-    `batu lo stomi te boxa qazii qukia.` (Food gives the force for the fight.)
-
-    `rica lo ci te mzi.` (Three is the sleep.)
-
-    `si lo ci fafe jeme.` (This is the most important.)
-
-    `sii movu lo mzi, ca nsoca lo naqi.` (If the person sleeps, then the body works.)
-
-    `za lo qapi te hedqo jacke.` (It builds new parts.)
-
-    `soko si lo ci raose bu za lo ci ranne.` (This way is slow but it is strong.)
-
-    `su lo koqi te wogia.` (You need the hope.)
-
-    `nnaqu lo fu tsi.` (The sickness will leave.)
-
-- **`xeta ki ci ne karcie` The Lost Tool, Words** 284
-
-    `do lo ci rabe.` (The day is hot.)
-
-    `lita lo ci ranne.` (The light is strong.)
-
-    `movu naqie lo qapi te ziinda dii gifo.` (The working person builds the house of wood.)
-
-    `da lo yiili te xeta je.` (He uses many tools.)
-
-    `bu na da lo koqi te xeta fafe qazii qapia rii ziinda.` (But now he needs the important tool for the building of the house.)
-
-    `xeta si lo ci rande be dii gudu.` (This tool is big and made of metal.)
-
-    `za lo ci weoke be joqe.` (It is round and heavy.)
-
-    `movu lo nojoi te hanu rii da.` (The person looks at his box.)
-
-    `hanu lo ci lande be wuske.` (The box is small and dry.)
-
-    `bu hanu lo ci luze.` (But the box is empty.)
-
-    `movu lo pauli te biwu.` (The person feels the problem.)
-
-    `! da lo lgazi: ? xeta rii mi lo ci we.` (He says: "Where is my tool?")
-
-    `da lo riiti yekii foisa.` (He searches inside the building.)
-
-    `da lo riiti kii gisu.` (He searches on the ground.)
-
-    `da lo karci te lta.` (He finds zero.)
-
-    `movu lo cali zii nauca manne.` (The person goes to the male friend.)
-
-    `nauca lo jedi te busko loaxe.` (The friend has blue clothes.)
-
-    `? su lo pa nojoi te xeta rii mi.` (Did you see my tool?)
-
-    `nauca lo poyi raose.` (The friend thinks slowly.)
-
-    `da lo voti: “me. mi lo pa nojoi te za hemii fatu.”` (He answers: "Maybe. I saw it near the machine.")
-
-    `movu lo cali ruke zii fatu.` (The person goes fast to the machine.)
-
-    `fatu lo ci rande be za lo ziidi te peza.` (The machine is big and it makes sound.)
-
-    `movu lo nojoi te rerpo late.` (The person looks at all places.)
-
-    `xeta lo ne ci tapa.` (The tool is not there.)
-
-    `movu lo ne ci kiipe .` (The person is not happy.)
-
-    `da lo koqi te xeta qazii naqia.` (He needs the tool for the work.)
-
-    `nauca mace lo lti.` (A female friend comes.)
-
-    `da lo lgazi: "mi lo kani te rodleo."`(She says: "I know the truth.")
-
-    `movu hobe lo pa zteli te xeta.` (The young person took the tool.)
-
-    `da lo vabi te garia.` (He wants the play.)
-
-    `movu lo hiqi zii mazo.` (The person walks to the tree.)
-
-    `da lo nojoi te movu hobe.` (He sees the young person.)
-
-    `movu hobe lo yiili te xeta dii gudu.` (The young person uses the tool of metal.)
-
-    `da lo zatzi te dreko.` (He hits the rock.)
-
-    `movu lo xozi: "! su lo seji."` (The person calls: "You stop!")
-
-    `da lo zteli te xeta.` (He takes the tool.)
-
-    `“si lo ne ci te xeta qazii garia."` (This is not a tool for play.)
-
-    `za lo ci retse.` (It is dangerous.)
-
-    `movu hobe lo nojoi nokii.` (The young person looks down.)
-
-    `da lo lgazi: tatse.` (He says: "Sorry.")
-
-    `movu lo ci kiipe ka da lo jedi te xeta.` (The person is happy because he has the tool.)
-
-    `na da lo logei te naqia.` (Now he is able to do the work.)
+    
+    ### Rule 6.1 — Intransitive Actions (The Optional Object)
+    
+    If a verb does not project its action onto a target (e.g., sleeping, walking, or moving), the Object slot is simply left empty.
+    
+    - **Syntax:** `[Mood Tag (Optional)] + Subject + [Tense]Verb + [Modifier]`
+    
+    **Parser Example:**
+    
+    - **Fiwo:** `kyfap cyriq.`
+    - **Literal Breakdown:** Bird-the + fly-[continuous].
+    - **Meaning:** The bird is actively flying.
+    
+    ---
+    
+    ### Rule 6.1.5 — The Empty Subject Slot (Commands & Context)
+    
+    Because Fiwo relies on explicit functional vowels to identify word categories, the Subject slot may be legally left empty if the subject is overwhelmingly implied by context or a Mood Tag.
+    
+    When the parser encounters a word ending in **-i** (a Verb) immediately at the start of a sequence or immediately following a Mood Tag, it registers the Subject slot as intentionally blank and proceeds directly with the Verb and Object.
+    
+    - **Syntax:** `[Mood Tag] + [Empty Subject] + Verb + Object`
+    
+    **Parser Example:**
+    
+    - **Fiwo:** `Kop nojapi mosap luare.`
+    - **Literal Breakdown:** [Command] + watch + tree-the + green.
+    - **Parser Logic:** `Kop` prepares a command. The parser hits `nojapi`, recognises the `i` verb vowel, and understands the subject (you) is implied. It falls forward to the object `mosap`.
+    - **Meaning:** Look at the green tree.
+    
+    ---
+    
+    ### Rule 6.2 — Descriptive Sentences & Stative Verbs
+    
+    Because Fiwo relies on the "Look Left" principle for modifiers, simply placing a modifier at the end of a sequence does not create a complete sentence. Stacking modifiers simply creates a longer description of the noun.
+    
+    To make a descriptive statement (e.g., "The animal *is* fast"), you must explicitly fill the SVO Verb slot. You achieve this by deriving the descriptive modifier into a **Stative Verb** by appending the verb functional vowel `-i`.
+    
+    Once derived into a verb, it seamlessly accepts Fiwo's standard tense and aspect consonant suffixes.
+    
+    **1. The Noun Phrase vs. The Sentence**
+    
+    If you do not derive the modifier, the parser reads it as a noun phrase, leaving the Subject hanging without an action.
+    
+    - **Noun Phrase (No Verb):** `mifap tande ruze.`
+        - **Literal Breakdown:** animal-the  + big  + fast.
+        - **Parser Logic:** `ruze` and `tande` both look left to modify the animal.
+        - **Meaning:** The big, fast animal.
+    - **Complete Sentence (Stative Verb):** `mifap tande ruzei.`
+        - **Literal Breakdown:** animal-the  + big  + to-be-fast.
+        - **Parser Logic:** `tande` modifies the animal. `ruzei` fills the Verb slot.
+        - **Meaning:** The big animal is fast.
+    
+    **2. Compound Descriptions (The `lan` Operator)**To express that a subject is multiple things at once, you must derive all relevant modifiers into stative verbs and bind them together within the Verb slot using the inline glue `lan`.
+    
+    - **Fiwo:** `mifap tandei lan ruzei.`
+    - **Literal Breakdown:** animal-the  + to-be-big + `[Inline And]`  + to-be-fast.
+    - **Meaning:** The animal is big and fast.
+    
+    **3. Applying Tense to Descriptions**Because the state of being is a legally derived verb, it behaves exactly like any other action and accepts time markers directly to the end of the word.
+    
+    - **Past Tense:** `mifap ruzeid.` (The animal was fast.)
+    - **Future Tense:** `mifap ruzeis.` (The animal will be fast.)
+    - **Continuous Aspect:** `mifap ruzeiq.` (The animal is actively being fast.)
+    
+    ---
+    
+    ### Rule 6.5 — Zero Copula with Predicate Nouns
+    
+    The Zero Copula is not limited to predicate modifiers. A noun may also serve as the predicate, asserting category membership or specific identity. The parser distinguishes a predicate noun from a compound subject by the strict absence of `lan` — two nouns appearing in sequence without `lan` between them are always read as subject plus predicate noun, never as a compound subject.
+    
+    Specificity marking on the predicate noun carries the semantic weight of the construction.
+    
+    - **Syntax:** `[Subject] + [Predicate Noun]`
+    
+    **Parser Examples:**
+    
+    - **Fiwo:** `mik nofar.`
+    - **Literal Breakdown:** I + person-some.
+    - **Meaning:** I am a person. *(I belong to the category of persons)*
+    - **Fiwo:** `daq nofap.`
+    - **Literal Breakdown:** He + person-the.
+    - **Meaning:** He is the person. *(He is that specific, known individual)*
+    
+    Compare directly with the compound subject construction to see the contrast:
+    
+    - **Fiwo:** `mik lan nofar xalid.`
+    - **Meaning:** A person and I moved. *(`lan` signals a compound subject — two entities performing one action)*
+    - **Fiwo:** `mik nofar xalid.`
+    - **Meaning:** I, who am a person, moved. *(no `lan` — predicate noun reading, main verb follows after)*
+    
+    ---
+    
+    ### Rule 6.5.1 — Predicate Nouns with Relative Clauses
+    
+    Because a predicate noun is still a fully valid noun root inside the SVO sequence, it can accept a subordinate relative clause (Rule 15) modifying it directly without breaking the Zero Copula reading. The parser identifies the predicate noun as the ghost target when `tep` opens immediately after it, processing the embedded clause as a description of that predicate noun before returning to the main clause boundary.
+    
+    - **Syntax:** `[Subject] + [Predicate Noun] + tep [Relative Clause] tel`
+    
+    **Parser Example:**
+    
+    - **Fiwo:** `mik foisoiap tep foisoid foisop tane tel.`
+    - **Literal Breakdown:** I + builder-the + [Open] + build-[past] + building-the + that + [Close].
+    - **Parser Logic:** `mik` fills the Subject slot. No verb follows, so the Zero Copula fires. `foisoiap` is read as the predicate noun. `tep` opens a relative clause with `foisoiap` stored as the ghost target. Inside the bracket, `foisoid` is the verb and `foisop tane` is its object. `tel` closes the bracket and returns to the main clause boundary.
+    - **Meaning:** I am the builder who built that building.
+    
+    **Note:** When a predicate noun construction requires tense, use the explicit copula verb `hi` as defined in Rule 6.6. Bare nouns cannot accept tense suffixes directly.
+    
+    ---
+    
+    ### Rule 6.6 — The Explicit Tensed Copula (`hi`)
+    
+    While Fiwo uses the Zero Copula for all timeless, present-tense identity and predicate noun assertions, bare nouns cannot accept tense suffixes directly. When a speaker needs to map a predicate noun to a specific point in time, the explicit copula verb **`hi`** is deployed into the SVO Verb slot, acting as the structural anchor for Fiwo's standard consonant tense suffixes.
+    
+    ### 1. The Strict Usage Limit
+    
+    To prevent conversational bloat, `hi` is **strictly forbidden** in simple present-tense identity statements. The Zero Copula already handles these mathematically.
+    
+    - **Illegal:** `Mik hi foisoiap.`
+    - **Legal:** `Mik foisoiap.` *(I am the builder)*
+    
+    ### 2. Applying Tense to Identity
+    
+    - **Syntax:** `[Subject] + hi-[Tense Suffix] + [Predicate Noun]`
+    
+    **Parser Examples:**
+    
+    - **Fiwo:** `Mik hid foisoiap.`
+    - **Literal Breakdown:** I + be-[past] + builder-the.
+    - **Meaning:** I was the builder.
+    - **Fiwo:** `Daq his nofap.`
+    - **Literal Breakdown:** He + be-[future] + person-the.
+    - **Meaning:** He will be the person.
+- Rule 7: Prepositions & Structural Bridges
+    
+    Prepositions (words ending in the functional vowel `-y`) act as strict structural bridges in a sentence. They map the spatial, logical, or possessive relationship between two elements.
+    
+    ---
+    
+    ### 1. The Bridging Rule & Root Transparency
+    
+    A preposition forms a bridge between the nearest root word to its left and the target object to its right.
+    
+    Because prepositions anchor strictly to roots, they treat all modifiers as completely transparent. If a preposition looks left and sees a modifier, it ignores it and continues looking left until it successfully anchors to a noun or a verb.
+    
+    ### 2. No Dangling Prepositions
+    
+    Because they act as a physical bridge in the parser, a preposition can never sit at the absolute end of a sentence or clause. It must always have a target noun or phrase immediately following it to complete the bridge.
+    
+    ---
+    
+    ### Basic Bridging Examples
+    
+    **1. Spatial Location (Noun to Noun):**
+    
+    - **Fiwo:** `Bata ty zufo.`
+    - **Literal Breakdown:** Food + on + bed.
+    - **Meaning:** The food is on the bed.
+    
+    **2. Directional Flow (Verb to Noun):**
+    
+    - **Fiwo:** `Dal xalid fy juro zy sydo.`
+    - **Literal Breakdown:** He + move-[past] + from + city + to + house.
+    - **Meaning:** He traveled from the city to the house.
+    
+    **3. Root Transparency (Skipping a Modifier):**
+    
+    - **Fiwo:** `Dal hiciq ruze zy sydo.`
+    - **Literal Breakdown:** He + walk-[continuous] + fast + to + house.
+    - **Parser Logic:** `zy` looks left, sees the modifier `ruze`, treats it as transparent, and anchors directly to the nearest root, which is the verb `hiciq`.
+    - **Meaning:** He is walking fast to the house.
+    
+    ---
+    
+    ### 3. Prepositional Scope & Slot Reordering
+    
+    Because prepositions strictly look left to anchor to the nearest noun or verb root, their sequential placement within the SVO sequence is highly literal. If you place a preposition at the absolute end of a fully populated SVO clause, it will instinctively anchor to the Object, not the Verb.
+    
+    To prevent the parser from attaching an instrumental or spatial preposition to the wrong target, you must leverage **Slot Reordering**. If a prepositional phrase modifies the action itself, it must be slotted immediately after the Verb, but *before* the Object slot is filled.
+    
+    **Parser Logic:** The parser will lock the prepositional bridge to the action, process the target of the preposition, and then cleanly fall forward to the next available noun to fulfill the main SVO Object requirement.
+    
+    ### Examples of Scope (Slot Reordering)
+    
+    **1. Modifying the Object (Standard Placement):**
+    
+    - **Fiwo:** `Mik satsid mifap wy guto.`
+    - **Literal Breakdown:** I + hit-[past] + animal-the + with + tool.
+    - **Parser Logic:** `wy` looks left. The nearest root is `mifap`.
+    - **Meaning:** I hit the animal [that possessed] the tool.
+    
+    **2. Modifying the Verb (Slot Reordering):**
+    
+    - **Fiwo:** `Mik satsid wy guto mifap.`
+    - **Literal Breakdown:** I + hit-[past] + with + tool + animal-the.
+    - **Parser Logic:** `wy` looks left. The nearest root is now `satsid`. The parser anchors the tool to the action of hitting, then seamlessly moves forward to fill the SVO Object slot with `mifap`.
+    - **Meaning:** I hit the animal using the tool.
+- Rule 8: Pragmatic Mood Tags (The Optional Prefix)
+    
+    In Fiwo, punctuation (like `?` or `!`) does not dictate the tone or intent of a sentence. Instead, pragmatics are handled explicitly at the very beginning of the sentence. This prepares the listener (or the parser) for exactly how to process the incoming information before the SVO sequence even begins.
+    
+    **Placement:** If a mood tag is used, it must be the absolute first word of the sentence and is capitalized like any standard starting word.
+    
+    **The Default State:** Mood tags are not required for standard communication. If a sentence begins without a mood tag, the parser automatically treats it as a completely neutral, unmarked statement. This prevents conversational bloat.
+    
+    ### The Core Mood Tags
+    
+    When you need to explicitly override the neutral default, use one of the following tags:
+    
+    - **`Kup`:** Question / Request for information.
+    - **`Kop`:** Command / Direct order.
+    - **`Kep`:** Fact / Objective statement. *(Note: This is strictly reserved for scientific facts, absolute truths, or when you need to be highly emphatic about an objective statement. It is not used for everyday observations).*
+    - **`Hap`:** Emotion / Subjective feeling.
+    - **`Hop`:** Sarcasm / Ironic intent. *(Explicitly encodes sarcasm to prevent AI or cross-cultural misinterpretation).*
+    
+    ---
+    
+    ### Parser Examples
+    
+    **1. The Default Baseline (No Tag)**
+    
+    - **Fiwo:** `Mifap xaliq.`
+    - **Literal Breakdown:** Animal-the + move-[continuous].
+    - **Meaning:** The animal is moving. *(A standard, everyday observation).*
+    
+    **2. Question (Kup)**
+    
+    - **Fiwo:** `Kup mifap xaliq?`
+    - **Literal Breakdown:** [Question] + animal-the + move-[continuous].
+    - **Meaning:** Is the animal moving?
+    
+    **3. Command (Kop)**
+    
+    - **Fiwo:** `Kop suk xali.`
+    - **Literal Breakdown:** [Command] + you + move.
+    - **Meaning:** Move! *(Or: You must move).*
+    
+    **4. Scientific Fact (Kep)**
+    
+    - **Fiwo:** `Kep kyfa cyri.`
+    - **Literal Breakdown:** [Fact] + bird + fly.
+    - **Meaning:** It is an objective fact that birds fly. *(Used to establish absolute rules or scientific truths).*
+    
+    **5. Emotional / Subjective (Hap)**
+    
+    - **Fiwo:** `Hap mik kyti bata sile.`
+    - **Literal Breakdown:** [Emotion] + I + like + food + this-[modifier].
+    - **Meaning:** I really love this food! *(Explicitly marks the statement as a personal feeling).*
+- Rule 9: In-Situ Interrogatives (The "No-Jump" Rule)
+    
+    In natural languages like English, asking a question often breaks the standard word order. Question words usually jump to the very front of the sentence—a phenomenon called "Wh-movement" (e.g., "You found a book" becomes "*What* did you find?"). This forces the brain or parser to hold the question word in active memory until it figures out which grammatical slot is empty.
+    
+    Fiwo completely prohibits "Wh-movement." To maintain the unbreakable integrity of the **SVO** (Subject-Verb-Object) template, question words (`wat`, `wer`, `wiq`, `wun`, `wis`, `wal`) must remain **in situ**—meaning they sit exactly in the syntactic slot where the answer belongs. Think of them as algebraic variables (like *x*) holding the place of the missing information.
+    
+    ---
+    
+    ### 1. The Pairing Rule (`Kup`)
+    
+    Because the question word is buried deep inside its natural SVO slot, the parser needs advanced warning that it is processing a question rather than a statement.
+    
+    Therefore, any sentence containing a question word **must** be initiated by the `Kup` (Question) mood tag at the absolute beginning of the sentence. This perfectly satisfies Rule 16 while keeping the SVO sequence mathematically pure.
+    
+    ---
+    
+    ### A Note on Variable Classes
+    
+    Not all interrogative variables operate at the same grammatical level. The table below summarises where each variable sits within the parser so speakers can place them correctly without ambiguity:
+    
+    | Variable | Class | Position | Stands in for |
+    | --- | --- | --- | --- |
+    | `wun` | Subject variable | SVO Slot 1 | A missing person or agent |
+    | `wat` | Object variable | SVO Slot 3 | A missing thing |
+    | `wer` | Prepositional target | After a location preposition | A missing place |
+    | `wiq` | Prepositional target | After a time preposition | A missing time |
+    | `wis` | Modifier variable | After the verb | A missing manner |
+    | `wal` | Clause variable | After `kad` | A missing reason clause |
+    
+    ### Parser Examples & Explanations
+    
+    **1. Asking for an Object (Slot 3 Variable)**
+    
+    If you want to know what the target of an action is, the question word simply fills the Object slot at the end of the SVO sequence.
+    
+    - **Fiwo:** `Kup suk karxid wat?`
+    - **Literal Breakdown:** [Question] + you (Subject) + find-[past] (Verb) + what (Object)?
+    - **Parser Logic:** `Kup` primes the parser for a question. The SVO track runs normally: Subject (`suk`) performs the action (`karxid`). The Object slot is filled by the variable `wat`.
+    - **Meaning:** What did you find? *(The answer perfectly replaces `wat`: Mik karxid pano — I found a book).*
+    
+    **2. Asking for a Subject (Slot 1 Variable)**
+    
+    If you want to know who performed the action, the question word simply fills the Subject slot right after the mood tag.
+    
+    - **Fiwo:** `Kup wun skagid hoxop?`
+    - **Literal Breakdown:** [Question] + who (Subject) + break-[past] (Verb) + door + the (Object)?
+    - **Parser Logic:** The parser identifies `wun` as the initiator of the action. The rest of the SVO track completes normally.
+    - **Meaning:** Who broke the door?
+    
+    **3. Asking for a Prepositional Target (Bridged Variable)**
+    
+    If you are asking for a time, location, or method, the question word acts as the anchor target for a preposition.
+    
+    - **Fiwo:** `Kup suk usis ty wiq?`
+    - **Literal Breakdown:** [Question] + you (Subject) + sleep-[future] (Verb) + on/at (Preposition) + when (Target)?
+    - **Parser Logic:** The SVO track (`suk usil`) is completed. The preposition `ty` builds a bridge and anchors directly to the time variable `wiq`.
+    - **Meaning:** When will you sleep? *(Literally: You will sleep at what-time?)*
+    
+    **4. Polar Questions (The Empty Variable)**
+    
+    While Rules 17.1–17.3 cover questions where an interrogative variable (`wat`, `wer`, `wun`, etc.) holds the place of missing information, not all questions seek specific data. Sometimes a speaker simply needs to confirm whether a statement is true or false.
+    
+    When `kup` initiates a sentence that contains **no interrogative variable**, the parser treats the entire SVO sequence as a **polar question** — a request for binary confirmation rather than a request for information. The SVO structure remains completely intact and unchanged. The only signal to the parser is the absence of a question word.
+    
+    A polar question expects exactly one of two responses: `jas` (yes) or `nes` (no), each operating as a standalone Phatic Particle on the Null Track as defined in Rule 27.
+    
+    **Syntax:** `Kup + [Complete SVO Sequence]`
+    
+    **Parser Examples:**
+    
+    - **Fiwo:** `Kup mifap xaliq?`
+    - **Literal Breakdown:** [Question] + animal-the + move-[continuous].
+    - **Meaning:** Is the animal moving?
+    - **Fiwo:** `Kup suk nomid batap?`
+    - **Literal Breakdown:** [Question] + you + eat-[past] + food-the.
+    - **Meaning:** Did you eat the food?
+    - **Fiwo:** `Kup daq ltil?`
+    - **Literal Breakdown:** [Question] + he + come-[future].
+    - **Meaning:** Will he come?
+    
+    **5. Manner & Reason Variables (`wis` and `wal`)**
+    
+    While most interrogative variables fill a clearly defined SVO slot, `wis` (how) and `wal` (why) operate at different grammatical levels. They are treated as **special-class variables** because the information they request cannot be reduced to a single noun or prepositional target.
+    
+    ---
+    
+    ### `wis` — The Manner Variable
+    
+    `wis` functions as a **modifier-class variable**. It occupies the same position a manner modifier would naturally appear — immediately after the verb and before the object slot if one exists. By the Look Left principle it attaches directly to the verb, holding the place of the unknown manner in which the action was performed.
+    
+    **Syntax:** `Kup + Subject + Verb + wis + (Object)?`
+    
+    **Parser Examples:**
+    
+    - **Fiwo:** `Kup suk xyfid wis ram?`
+    - **Literal Breakdown:** [Question] + you + do-[past] + how + it.
+    - **Parser Logic:** `wis` looks left and attaches to `xyfid` as a manner variable. The parser falls forward to fill the object slot with `ram`.
+    - **Meaning:** How did you do it?
+    - **Fiwo:** `Kup daq hicid wis zy sydo?`
+    - **Literal Breakdown:** [Question] + he + walk-[past] + how + to + house.
+    - **Parser Logic:** `wis` attaches to `hicid`. The prepositional bridge `zy` then anchors independently to the same verb via Root Transparency, completing the directional phrase.
+    - **Meaning:** How did he walk to the house?
+    
+    ---
+    
+    ### `wal` — The Clause-Level Variable
+    
+    `wal` is the only interrogative in Fiwo that stands in for an entire missing **SVO clause** rather than a single syntactic slot. Because reasons in Fiwo are expressed as full independent clauses introduced by the hard wall `kad`, `wal` must operate at the clause level rather than inside the SVO sequence.
+    
+    When the parser encounters `kup ... kad wal`, it recognises `wal` as a clause-level variable occupying the entire missing reason clause that would normally follow `kad`. This is the only context in which a single interrogative word may legally appear after a hard wall without triggering a full new SVO sequence.
+    
+    **Syntax:** `Kup + [Complete SVO] + kad + wal?`
+    
+    **Parser Examples:**
+    
+    - **Fiwo:** `Kup suk xyfid ram kad wal?`
+    - **Literal Breakdown:** [Question] + you + do-[past] + it + [HARD WALL: Because] + why.
+    - **Parser Logic:** The first SVO track (`suk xyfid ram`) completes cleanly. The parser hits `kad` and resets. Instead of a new SVO sequence it finds `wal`, which it recognises as a clause-level variable standing in for the entire missing reason.
+    - **Meaning:** Why did you do it?
+    - **Fiwo:** `Kup daq tsid kad wal?`
+    - **Literal Breakdown:** [Question] + he + leave-[past] + [HARD WALL: Because] + why.
+    - **Meaning:** Why did he leave?
+
+### **Nouns & Pronouns**
+
+- Rule 10: Pronoun Animacy, Gender & Plurality
+    
+    When using third-person pronouns, you must strictly categorize the subject's agency and (optionally) its biological gender.
+    
+    - **dal**: He / She / It (Animate, Neutral). The universal animate pronoun. Used for humans, animals, or things with intent when gender is unknown, irrelevant, or non-binary.
+    - **daq**: He (Animate, Male). A specific masculine pronoun derived from the male modifier `aqe`.
+    - **das**: She (Animate, Female). A specific feminine pronoun derived from the female modifier `ase`.
+    - **ram**: It (Inanimate). Used strictly for objects, plants, concepts, and machines that lack intent or agency.
+    
+    Fiwo does not possess dedicated standalone plural pronouns. Instead, plurality is applied to existing pronouns using the standard plural modifier `je` (Rule 7), treating the pronoun as the root word being quantified. This keeps the system mathematically consistent with the rest of the language.
+    
+    - **suk je**: You all / You (plural). The second-person pronoun extended to address multiple listeners simultaneously.
+    - **dal je**: They / Them (Animate, Neutral). The universal third-person plural. Used for any group of people, animals, or personified entities where gender is mixed, unknown, or irrelevant.
+    - **daq je**: They / Them (Male). An exclusively masculine third-person plural, used only when every member of the group is known to be male.
+    - **das je**: They / Them (Female). An exclusively feminine third-person plural, used only when every member of the group is known to be female.
+    - **ram je**: They / Them (Inanimate). Used strictly for a group of objects, concepts, or entities lacking agency.
+    
+    **Note:** `mik`, `nak`, and `muk` do not take `je`. The first-person plural is already handled by the structural distinction between `nak` (exclusive) and `muk` (inclusive). Applying `je` to `mik` would be mathematically redundant and crashes the parser.
+    
+    **Parser Examples:**
+    
+    - Fiwo: `Suk je ltid.`
+        - Meaning: You all came.
+    - Fiwo: `Dal je xaliq.`
+        - Meaning: They are moving.
+    - Fiwo: `Daq je cukid bul das je nes cukid.`
+        - Meaning: The men fought, but the women did not fight.
+- Rule 11: Specificity Marking
+    
+    In Fiwo, specificity is marked directly on the noun using a single consonant suffix.
+    
+    Because this consonant is attached immediately after the noun's functional vowel, the grammatical noun class (Biological `-a`, Concrete `-o`, Abstract `-u`) remains completely intact and visible to the parser.
+    
+    ---
+    
+    ### 1. The Specificity Suffixes
+    
+    The parser recognizes two distinct consonant markers to determine exactly which entity is being discussed:
+    
+    - **`p` (Specific):** Refers to a definite, known, or explicitly identified entity (the / that specific one).
+    - **`r` (Non-specific):** Refers to an indefinite, unknown, or general entity (a / an / some / unspecified).
+    
+    **Structure:** `[Noun Root] + [Specificity Marker]`
+    
+    ---
+    
+    ### Parser Examples
+    
+    **1. Specific Entities (`-p`)**
+    
+    - **Fiwo:** `sydop`
+    - **Meaning:** The house.
+    - **Fiwo:** `nofap xalid.`
+    - **Literal Breakdown:** Person-the + move-[past].
+    - **Meaning:** The person moved. *(A specific person known to the speaker/listener).*
+    
+    **2. Non-Specific Entities (`-r`)**
+    
+    - **Fiwo:** `sydor`
+    - **Meaning:** A house / Some house.
+    - **Fiwo:** `dal karxid sydor.`
+    - **Literal Breakdown:** He + find-[past] + house-some.
+    - **Meaning:** He found a house. *(An unspecified or newly introduced house).*
+    
+    ---
+    
+    ### 3. Interaction with Modifiers
+    
+    Because specificity is permanently fused to the noun root, it does not disrupt the "Look Left" principle (Rule 10). Modifiers simply follow the fully suffixed noun, attaching to the specific or non-specific concept as a complete block.
+    
+    - **Fiwo:** `sydop tande`
+    - **Literal Breakdown:** House-the + big.
+    - **Meaning:** The big house.
+    - **Fiwo:** `mifar ruze`
+    - **Literal Breakdown:** Animal-some + fast.
+    - **Meaning:** A fast animal.
+- Rule 12: Indefinite Variables & Universal Pronouns
+    
+    In Fiwo, there are no unique, standalone words for indefinite pronouns like "everyone," "nothing," or "anywhere." Because the language relies on a highly efficient, additive parser, these concepts are treated strictly as **Base Variables** modified by mathematical **Operators**.
+    
+    This logical approach prevents vocabulary bloat and allows the parser to process unknown or totalizing variables using existing grammatical rules.
+    
+    ---
+    
+    ### 1. The Base Variables
+    
+    When constructing an indefinite concept, you begin by selecting the broadest categorical noun that fits the target:
+    
+    - **Person (`nofa`):** Solves for "Who."
+    - **Thing (`cemo`):** Solves for "What."
+    - **Place (`rerpo`):** Solves for "Where."
+    - **Time (`dionu`):** Solves for "When."
+    
+    ---
+    
+    ### 2. The Operators
+    
+    To manipulate these variables, you apply one of four operators. Three of these utilize existing Fiwo grammar, while one uses a dedicated modifier for "free choice."
+    
+    - **The "Some" Operator (The `r` Suffix):** Using Rule 13 (Specificity), you attach the non-specific consonant `r` directly to the noun. This tells the parser the entity exists, but its exact identity is unknown.
+    - **The "Every" Operator (`late` - All):** Using Rule 10 (The "Look Left" Principle), the modifier `late` attaches to the noun, calculating the total maximum quantity of the variable.
+    - **The "No / None" Operator (**`re` **- Zero):** To express "nobody" or "nothing," you **do not** use the logical negation `nes`. *(Note: `nes nofa` means "Not a person, but something else").* Instead, you use the absolute number zero (`re`). The parser mathematically calculates the variable multiplied by 0.
+    - **The "Any" Operator (`kase` - Any / Whichever):** This modifier tells the parser that the variable is subject to free choice; the specific identity does not matter.
+    
+    ---
+    
+    ### 3. The Indefinite Grid
+    
+    By combining the base variables and operators, the parser can perfectly map 16 distinct universal pronouns without requiring a single new dictionary root:
+    
+    | **Base Variable** | **Some (-r)** | **Every (late)** | **None / Zero (lte)** | **Any (kase)** |
+    | --- | --- | --- | --- | --- |
+    | **Person (`nofa`)** | `nofar` (Someone) | `nofa late` (Everyone) | `nofa re` (No one) | `nofa kase` (Anyone) |
+    | **Thing (`cemo`)** | `cemor` (Something) | `cemo late` (Everything) | `cemo re`(Nothing) | `cemo kase` (Anything) |
+    | **Place (`rerpo`)** | `rerpor` (Somewhere) | `rerpo late` (Everywhere) | `rerpo re`(Nowhere) | `rerpo kase` (Anywhere) |
+    | **Time (`dionu`)** | `dionur` (Sometime) | `dionu late` (Always) | `dionu re`(Never) | `dionu kase` (Anytime) |
+    
+    ---
+    
+    ### Parser Examples
+    
+    **1. Using Zero (`re`) for "Nothing"**
+    
+    - **Fiwo:** `Mik karxid cemo re.`
+    - **Literal Breakdown:** I + find-[past] + thing + zero.
+    - **Parser Logic:** `re` looks left to modify `cemo`. The Object slot is filled with exactly 0 things.
+    - **Meaning:** I found nothing.
+    
+    **2. Using "Every" (`late`) for "Always"**
+    
+    - **Fiwo:** `Daq usiq dionu late.`
+    - **Literal Breakdown:** He + sleep-[continuous] + time + all.
+    - **Parser Logic:** The parser treats the block `dionu late` as a temporal noun modifying the entire action.
+    - **Meaning:** He is always sleeping.
+    
+    **3. Using "Any" (`kase`) for "Anywhere"**
+    
+    - **Fiwo:** `Kup mik bifeis xalit zy rerpo kase?`
+    - **Literal Breakdown:** [Question] + I + permitted-[stative verb] + move + to + place + any.
+    - **Parser Logic:** The preposition `zy` anchors the movement to the object `rerpo`, which is modified by `kase` (free choice).
+    - **Meaning:** Am I allowed to go anywhere?
+- Rule 13: Possessive Modifiers & Plurality
+    
+    In Fiwo, possession is not handled by memorizing entirely new pronoun categories. Instead, personal pronouns can be mathematically type-cast into possessive modifiers, utilizing the existing derivation and nesting rules to express ownership or association.
+    
+    **1. Deriving Possessives**Pronouns can shift their category to become possessive modifiers by appending the modifier functional vowel `-e`. This explicitly preserves the root pronoun while transforming its grammatical function.
+    
+    - **mike:** my / mine
+    - **suke:** your / yours (singular)
+    - **rame:** its (inanimate)
+    - **dale:** his / hers / its (animate neutral)
+    - **daqe:** his (male)
+    - **dase:** hers (female)
+    - **nake:** our / ours (exclusive)
+    - **muke:** our / ours (inclusive)
+    
+    **2. The "Look Left" Application**Because these derived words end in the modifier vowel `-e`, they act as standard descriptive words and strictly obey Rule 10 (The "Look Left" Principle). They simply follow the noun they possess and attach directly to it.
+    
+    - **Syntax:** [Noun] + [Pronoun]-e
+    - **Fiwo:** `Sydop suke.`
+    - **Meaning:** Your specific house.
+    
+    **3. Plural Possessives (The -m Flag)**
+    To express a plural possessive (such as "their" or "your [plural]"), you must explicitly command the parser to multiply the pronoun trait, not the root noun. To achieve this, you apply the Nested Modifier Flag (`-m`) to the possessive modifier , followed by the plural multiplier `je`.
+    
+    - **Syntax:** [Noun] + [Pronoun]-em + je
+    - **Fiwo:** `Sydop dalem je.`
+    - **Literal Breakdown:** House-the + his/hers/its-[modified] + many.
+    - **Parser Logic:** The `-m` suffix explicitly signals to the parser that it should suspend the standard "Look Left" root attachment. This allows the plural marker `je` to strictly modify the pronoun *dale* into "their," before the entire nested block looks left to modify the house.
+    - **Meaning:** Their house.
+    
+    **4. Descriptive vs. Legal Possession**
+    
+    Fiwo offers two distinct methods for expressing possession, allowing for high semantic precision:
+    
+    - **Descriptive Possession (The Modifiers):** Using the `e` modifiers (e.g., `sydo suke` - your house) expresses general association, relationships, or casual possession.
+    - **Strict / Legal Possession (The Preposition):** Using the preposition *ry* indicates strict ownership or legal belonging. (e.g., `sydo ry suk` - the house owned by you).
+
+### **Verbs & Actions**
+
+- Rule 14: Tense, Aspect & Stacking
+    
+    In Fiwo, time (tense) and the flow of an action (aspect) are marked directly on the verb using a single consonant suffix.
+    
+    Every base verb inherently ends in the functional vowel -i. To change the tense or aspect, a specific consonant is appended directly after this vowel, modifying the verb's state without altering its root category.
+    
+    ### 1. The Core 5-Point Grid
+    
+    The parser recognizes five primary states that lock into the end of a verb. This lean grid handles the vast majority of standard communication:
+    
+    | **Marker** | **Category** | **Function / Meaning** | **Example Root (xali - move)** | **Result** |
+    | --- | --- | --- | --- | --- |
+    | (none) | Present / Timeless | A general fact, routine, or current state. | xali | moves / is moving |
+    | **-d** | Past | An action that occurred in the past. | xalid | moved |
+    | **-s** | Future | An action that will occur forward in time. | xalis | will move |
+    | **-q** | Continuous | An action actively in progress at this exact moment. | xaliq | is actively moving |
+    | **-k** | Perfect | A completed past action that has a direct result or relevance right now. | xalik | has moved (and it matters now) |
+    
+    ### 2. Tense Stacking (The y Bridge)
+    
+    To express complex timelines (such as the Past Perfect or Future Continuous), Fiwo mathematically stacks a Tense consonant (**d** or **s**) with an Aspect consonant (**q** or **k**).
+    
+    To prevent illegal or harsh consonant clusters at the end of the word, the bridging vowel **y** is inserted strictly between the two markers.
+    
+    **Syntax Formula:** [Verb Root] + [Tense] + y + [Aspect]
+    
+    **Parser Logic:** When the parser reads a verb suffix, it identifies the first consonant as the point in time (Past or Future). The **y** tells the parser to keep reading the suffix, and the final consonant determines how the action flows within that time.
+    
+    **Stacking Examples (Using xali - to move):**
+    
+    - **Past Continuous (dyq):** xalidyq (Meaning: Was actively moving. Use Case: Setting the scene for an interrupted past action.)
+    - **Past Perfect (dyk):** xalidyk (Meaning: Had moved. Use Case: Establishing that an action was completely finished before another past action occurred.)
+    - **Future Continuous (syq):** xalisyq (Meaning: Will be actively moving. Use Case: Describing an ongoing state at a specific point in the future.)
+    - **Future Perfect (syk):** xalisyk (Meaning: Will have moved. Use Case: Setting a deadline for when a future action will be completely finished.)
+    
+    **Dictionary Example Update:**
+    
+    If we apply this to the verb nomi (to eat):
+    
+    - nomi (eats)
+    - nomid (ate)
+    - nomik (has eaten / is full)
+    - nomidyk (had eaten)
+    
+    ### 3. Interaction with Negation (nes)
+    
+    Because tense and aspect are fused directly into the verb root, the logical negation operator **nes** operates with absolute precision immediately before the modified verb.
+    
+    **Negating a Perfect State:**
+    
+    - **Fiwo:** Mik nes nomik.
+    - **Literal:** I + [Not] + eat-[perfect].
+    - **Meaning:** I have not eaten (implying I am currently hungry or the act is still pending).
+    
+    **Negating a Stacked Tense (Past Continuous):**
+    
+    - **Fiwo:** Daq nes xalidyq.
+    - **Literal:** He + [Not] + move-[past-bridge-continuous].
+    - **Meaning:** He was not actively moving (at that time).
+- **Rule 15: The Passive Voice Tag (fap)**
+    
+    The particle `fap` acts as a structural Passive Voice Indicator. It is placed at the beginning of a clause (immediately following any Pragmatic Mood Tag) and explicitly instructs the parser to invert the standard SVO thematic roles:
+    
+    - **Slot 1 (Subject):** Becomes the Receiver of the action.
+    - **Slot 2 (Verb):** Remains the Action.
+    - **Slot 3 (Object):** Becomes the Doer of the action.
+    
+    **1. The Standard Passive (Empty Doer)**
+    
+    If the agent performing the action is unknown or irrelevant, Slot 3 is left empty.
+    
+    - **Fiwo:** `Fap sydop foisoid.`
+    - **Literal Breakdown:** [Passive Flag] + house-the + build-[past].
+    - **Meaning:** The house was built.
+    - **Parser Logic:** `fap` throws the reverse SVO switch. `sydop` is in Slot 1 but receives the action. `foisoid` is the action. Slot 3 is empty.
+    
+    **2. The Full Passive (Supplying the Doer)**
+    
+    Because `fap` mathematically flips the valency of the SVO track, it completely eliminates the need for an instrumental preposition (like the English "by"). Slot 3 directly accepts the Doer.
+    
+    - **Fiwo:** `Fap sydop foisoid nofap.`
+    - **Literal Breakdown:** [Passive Flag] + house-the + build-[past] + person-the.
+    - **Meaning:** The house was built by the person.
+    - **Parser Logic:** SVO runs in reverse. Slot 1 (house) receives the action. Slot 2 (build) is the action. Slot 3 (person) performs the action.
+    
+    **3. Asking a Passive Question**
+    
+    Because `fap` is a modular syntactic switch, it pairs perfectly with the standard Question tag (`kup`).
+    
+    - **Fiwo:** `Kup fap sydop foisoid?`
+    - **Literal Breakdown:** [Question] + [Passive Flag] + house-the + build-[past].
+    - **Meaning:** Was the house built?
+- Rule 16: Modality (Possibility & Obligation)
+    
+    In Fiwo, modality—expressing how possible or necessary an action is—does not rely on complex helper verbs or new Mood Tags. Instead, it is handled exclusively by **Modal Modifiers** (words ending in the functional vowel `-e`).
+    
+    Because they are modifiers, they strictly obey Rule 10 (The "Look Left" Principle). When placed immediately after a verb, they intercept the action, scaling its certainty or necessity before the parser moves on to the Object slot.
+    
+    ---
+    
+    ### 1. The Modality Grid
+    
+    These strictly defined modifiers handle the two primary branches of linguistic modality:
+    
+    **Possibility (Epistemic):**
+    
+    - **`mace`** (Possible / Might / Maybe): The action could happen, but is not guaranteed.
+    - **`sube`** (Probable / Likely): The action has a high chance of happening.
+    - **`dide`** (Certain / Definitely): The action is mathematically or logically guaranteed.
+    
+    **Obligation (Deontic):**
+    
+    - **`bife`** (Allowed / Permitted): The subject has permission to do the action.
+    - **`arife`** (Should / Recommended): The action is a good idea or socially expected, but not forced.
+    - **`fuqe`** (Must / Necessary): The action is strictly required or obligatory.
+    
+    ---
+    
+    ### 2. Syntax and Slot Reordering
+    
+    To prevent the modal modifier from accidentally attaching to the SVO Object, it must be slotted *immediately* after the Verb. The SVO sequence remains intact:
+    
+    > **Syntax:** `[Mood Tag (Optional)] + Subject + [Tense]Verb + [Modal Modifier] + [Object]`
+    > 
+    
+    **Parser Logic:** The parser hits the Modal Modifier, which looks left to permanently bind to the Verb's certainty or obligation. The parser then seamlessly falls forward to fill the standard Object slot.
+    
+    ---
+    
+    ### Parser Examples
+    
+    **1. Possibility with an Object:**
+    
+    - **Fiwo:** `Daq karxis mace dorso.`
+    - **Literal Breakdown:** He + find-[future] + possible + water.
+    - **Meaning:** He might find water.
+    
+    **2. Obligation (No Object):**
+    
+    - **Fiwo:** `Suk usi fuqe.`
+    - **Literal Breakdown:** You + sleep + must.
+    - **Meaning:** You must sleep.
+    
+    **3. The Stative Verb:**
+    
+    - **Fiwo:** `Mik tandeid mace.`
+    - **Literal Breakdown:** I + to-be-big-[past] + possible.
+    - **Meaning:** I might have been big.
+    
+    ---
+    
+    ### 3. Precision Negation with Modals
+    
+    Because Fiwo treats `nes` as a strict logical operator (Rule 9) that flips exactly what follows it, you can achieve incredibly precise legal and logical distinctions simply by moving the negation particle.
+    
+    **Negating the Action (Obligated to NOT do something):**
+    
+    - **Fiwo:** `Suk nes xali fuqe.`
+    - **Literal Breakdown:** You + [Not] + move + must.
+    - **Meaning:** You must not move. *(The action of moving is negated; the obligation to follow that rule remains positive).*
+    
+    **Negating the Obligation (Lack of requirement):**
+    
+    - **Fiwo:** `Suk xali nes fuqe.`
+    - **Literal Breakdown:** [Fact] + you + move + [Not] + must.
+    - **Meaning:** You do not have to move. *(The action is positive; the strict obligation is negated, implying you can move if you want, but are not forced).*
+- Rule 17: Serial Verb Constructions (The Infinitive Linker)
+    
+    In natural languages, it is very common to string multiple verbs together to express a single idea (e.g., "I want to sleep," "She likes to run," "He started to eat").
+    
+    In Fiwo, placing two verb roots consecutively permanently crashes the SVO (Subject-Verb-Object) parser. The parser reads the Subject, reads the first Verb, and strictly expects a Noun to fulfill the Object slot. Hitting a second Verb root breaks the sequence.
+    
+    To solve this efficiently, Fiwo allows verbs to chain together using the Infinitive Linker (`-t`). This repurposes the mathematical stacking logic used for multi-digit numbers. By appending the `-t` consonant directly to the end of the second verb's functional vowel (`-i`), you mathematically lock the two verbs into a single, continuous action block.
+    
+    This allows the primary verb to act upon the secondary verb, and the secondary verb to seamlessly project its action forward into the standard SVO Object slot.
+    
+    **Syntax:** [Subject] + [Primary Verb] + [Secondary Verb]-t + [Object]
+    
+    **Parser Examples:**
+    
+    - **Desire with an Object:**
+        - Fiwo: Mik fabid nomit batap.
+        - Literal Breakdown: I + want-[past] + eat-[stacker] + food-the.
+        - Parser Logic: The stacker `t` locks *nomi* to *fabid*, creating the compound action "wanted-to-eat". The parser cleanly falls forward to accept *batap* as the object.
+        - Meaning: I wanted to eat the food.
+    - **Initiation (Intransitive):**
+        - Fiwo: Daq cimid cafit.
+        - Literal Breakdown: He + start-[past] + run-[stacker].
+        - Meaning: He started to run.
+    - **Attempt with an Object:**
+        - Fiwo: Nak baki jamit panor.
+        - Literal Breakdown: We-[exclusive] + try + write-[stacker] + book-some.
+        - Meaning: We try to write a book.
+
+### **Modifiers & Descriptions**
+
+- Rule 18: Modification (The "Look Left" Principle)
+    
+    Modifiers strictly follow the word they are modifying. Fiwo relies on a consistent "Look Left" parsing logic to prevent ambiguity when attaching descriptions to nouns or verbs.
+    
+    ---
+    
+    ### 1. Independent Stacking
+    
+    When you stack multiple modifiers next to each other, they do not modify one another. Instead, they operate completely independently. Each modifier skips over the other modifiers and "looks left" to attach directly to the nearest root word (the noun or the verb).
+    
+    ### 2. Root Transparency (Prepositions)
+    
+    While modifiers look left to attach to roots, prepositions (words ending in the functional vowel `-y`) also look left to anchor their structural bridge. However, prepositions will look straight through any modifiers, treating them as entirely transparent, until they successfully find and anchor to the nearest noun or verb.
+    
+    ---
+    
+    ### Parser Examples
+    
+    **1. Single Modifier:**
+    
+    - **Fiwo:** `Mosa luare.`
+    - **Literal Breakdown:** Tree + green.
+    - **Meaning:** A green tree.
+    
+    **2. Stacked Modifiers:**
+    
+    - **Fiwo:** `Mosa luare tande.`
+    - **Literal Breakdown:** Tree + green + big.
+    - **Parser Logic:** Both `luare` (green) and `tande` (big) independently skip over one another and look left to modify the root noun `mosa` (tree).
+    - **Meaning:** A big, green tree.
+- Rule 19: Modifier-of-Modifier Marking (Nested Modification)
+    
+    Because Fiwo defaults to the "Look Left" principle (Rule 10) where modifiers independently attach to roots, you need a morphological flag to tell the parser when a modifier is actually modifying *another* modifier.
+    
+    When a modifier modifies another modifier, the base modifier (the one being modified) receives the **`-m`** suffix.
+    
+    **Structure:** `[Noun/Verb Root] + [Base Modifier]-m + [Modifying Modifier]`
+    
+    ---
+    
+    ### 1. Solving the Ambiguity: Nested vs. Independent
+    
+    The `-m` suffix explicitly signals to the parser that it should suspend the standard "Look Left" root attachment for the next word, and instead bind the following modifier to the flagged one.
+    
+    **Nested Modifiers (With `-m`):**
+    
+    - **Fiwo:** Sydop leupem cape.
+    - **Literal Breakdown:** House-the + red-[modified] + dark.
+    - **Parser Logic:** `leupem` signals that it is the target. The following modifier `cape` strictly modifies the red color, not the house.
+    - **Meaning:** The dark-red house.
+    
+    **Independent Modifiers (Without `-m`):**
+    
+    - **Fiwo:** Sydop leupe cape.
+    - **Literal Breakdown:** House-the + red + dark.
+    - **Parser Logic:** Without the flag, both `leupe` and `cape` skip over each other and independently modify the house.
+    - **Meaning:** The house that is red and dark.
+    
+    ---
+    
+    ### 2. Comparatives and Superlatives (The `jete` / `jeme` Extension)
+    
+    Because Fiwo relies on an efficient, additive parser, there are no unique, dedicated suffixes for comparatives (like the English "-er") or superlatives (like "-est").
+    
+    Instead, you achieve this mechanically by applying the `-m` suffix to a base trait and scaling it with the intrinsic quantity modifiers **`jete`** (more) or **`jeme`** (most). This proves the extensibility of the system: the `-m` suffix explicitly flags the base state, allowing the quantity modifiers to multiply or maximize it without breaking the SVO sequence.
+    
+    **The Scaling Spectrum:**
+    
+    - **Base State:** `ruze` (fast)
+    - **Comparative:** `ruzem jete` (Literal: fast-[modified] + more = faster)
+    - **Superlative:** `ruzem jeme` (Literal: fast-[modified] + most = fastest)
+    
+    ### Parser Example (Comparative)
+    
+    - **Fiwo:** Mifap ruzem jete.
+    - **Literal Breakdown:** Animal-the + fast-[modified] + more.
+    - **Parser Logic:** `ruzem` flags the trait. `jete` scales the trait. The entire nested block looks left to modify the animal.
+    - **Meaning:** The animal is faster.
+- Rule 20: Reflexivity and Reciprocity (The Mirror Modifiers)
+    
+    In natural languages, actions that loop back onto the subject (e.g., "himself") or cross between multiple subjects (e.g., "each other") are usually handled by introducing entirely new pronoun categories.
+    
+    Fiwo avoids this bloat. Because the language relies on a highly efficient, additive parser, reflexivity and reciprocity are not handled by pronouns at all. Instead, they are handled by two specialized modifiers:
+    
+    - **`wible` (Self / Reflexive):** Indicates the action reflects back onto the doer, or emphasizes the exact identity of a specific noun/pronoun.
+    - **`wable` (Mutual / Reciprocal):** Indicates that a plural subject is performing an action upon one another.
+    
+    Because these words end in the modifier functional vowel `-e`, they strictly obey Rule 10 (The "Look Left" Principle). This allows them to function in two distinct ways within the SVO sequence without breaking any syntactic slots.
+    
+    ---
+    
+    ### 1. Modifying the Action (The Empty Object Slot)
+    
+    When placed immediately after a verb, these modifiers look left to attach to the action itself. The syntactic Object slot is intentionally left empty. This is the standard, most computationally efficient way to express reflexive or reciprocal verbs.
+    
+    **Reflexive Action:**
+    
+    - **Fiwo:** `Dal satsid **wible**.`
+    - **Literal Breakdown:** He (Subject) + hit-[past] (Verb) + self (Modifier).
+    - **Parser Logic:** The Object slot is blank. **`wible`** looks left and modifies the verb `satsid`, explicitly telling the parser the action loops back onto the subject.
+    - **Meaning:** He hit himself.
+    
+    **Reciprocal Action:**
+    
+    - **Fiwo:** `Muk satsid **wable**.`
+    - **Literal Breakdown:** We-[inclusive] (Subject) + hit-[past] (Verb) + mutual (Modifier).
+    - **Parser Logic:** **`wable`** looks left and modifies the verb `satsid`, indicating the plural subjects performed the action upon each other.
+    - **Meaning:** We hit each other.
+    
+    ---
+    
+    ### 2. Modifying the Pronoun (Emphasis and Direct Objects)
+    
+    When placed immediately after a noun or pronoun, these mirror modifiers look left to attach to that specific entity. This is used to emphasize the subject itself, or to explicitly link a filled Object slot back to the Subject.
+    
+    **Subject Emphasis:**
+    
+    - **Fiwo:** `Mik **wible** xyfis ram.`
+    - **Literal Breakdown:** I (Subject) + self (Modifier) + do-[future] (Verb) + it (Object).
+    - **Parser Logic:** **`wible`** looks left and bonds directly to `mik` before the verb is even triggered.
+    - **Meaning:** I myself will do it.
+    
+    **Explicit Object Target:**
+    
+    - **Fiwo:** `Dal satsid dal **wible**`.
+    - **Literal Breakdown:** He (Subject) + hit-[past] (Verb) + he (Object) + self (Modifier).
+    - **Parser Logic:** The Object slot is filled by a second `dal`. Normally, the parser assumes a second pronoun is a completely different entity. However, **`wible`** looks left and modifies the second `dal`, explicitly tagging it as the exact same entity as the Subject.
+    - **Meaning:** He hit his own self.
+- Rule 21: Comparisons and Baselines
+    
+    In Fiwo, there are no unique grammatical structures or dedicated suffixes for expressing equality (e.g., "as fast as") or comparatives (e.g., "-er", "-est"). Because the language relies on a strict mathematical parser, comparisons are built sequentially using three components: a **Base Trait**, a **Multiplier** (`labne`, `jete`, or `jeme`), and a **Baseline Preposition** (`taly` - compared to).
+    
+    Equality is simply treated as a 1:1 multiplier (`labne` - same) applied to a trait. How this parses depends entirely on whether the trait is acting as the main verb or as a nested modifier inside a description.
+    
+    ---
+    
+    ### 1. Predicate Comparisons (Stative Verbs)
+    
+    When the trait you are comparing is the main action of the sentence (e.g., "The animal is as fast as the person"), the trait must be derived into a Stative Verb (Rule 6).
+    
+    Because it is a verb root, the multiplier `labne` naturally looks left and attaches directly to it without needing any special suffixes. The preposition `taly` then acts as the structural bridge. Using Root Transparency (Rule 12), it treats the modifier `labne` as transparent, skipping over it to anchor the baseline directly to the verb.
+    
+    > **Syntax:** `[Subject] + [Stative Verb] + Multiplier + taly + [Baseline Noun]`
+    > 
+    
+    **Parser Example:**
+    
+    - **Fiwo:** Kep mifap ruzei labne taly nofap.
+    - **Literal Breakdown:** [Fact] + animal-the + to-be-fast + same + compared-to + person-the.
+    - **Parser Logic:** `labne` looks left to modify the verb `ruzei`. `taly` looks left, anchors to `ruzei`, and sets `nofap` as the comparative baseline.
+    - **Meaning:** The animal is as fast as the person.
+    
+    ---
+    
+    ### 2. Attributive Comparisons (Nested Modifiers)
+    
+    When the comparison happens inside a description (e.g., "I found an equally fast animal"), the trait is acting as a standard Modifier attached to a noun.
+    
+    To prevent the parser from accidentally thinking the animal is both fast *and* identical to something else, you must use the Modifier-of-Modifier suffix `-m` (Rule 11). This explicitly forces `labne` to multiply the trait, rather than modifying the root noun.
+    
+    > **Syntax:** `[Noun] + [Modifier]-m + Multiplier + taly + [Baseline Noun]`
+    > 
+    
+    **Parser Example:**
+    
+    - **Fiwo:** Kep mik karxid mifar ruzem labne taly nofap.
+    - **Literal Breakdown:** [Fact] + I + find-[past] + animal-some + fast-[modified] + same + compared-to + person-the.
+    - **Parser Logic:** `ruzem` explicitly flags that the next modifier applies to it. `labne` bonds to `ruze`, creating the nested concept of "equally-fast." `taly` treats the entire modifier block as transparent and anchors the baseline to the root noun `mifar`.
+    - **Meaning:** I found an animal [that is] equally fast compared to the person.
+    
+    ---
+    
+    ### 3. The Comparison Multiplier Spectrum
+    
+    By locking this sequence into the parser, all comparisons scale predictably using the exact same syntactic slots:
+    
+    - **Equality (1:1):** `ruzei labne taly` (is as fast as...)
+    - **Comparative (>1):** `ruzei jete taly` (is faster than...)
+    - **Superlative (Max):** `ruzei jeme taly` (is the fastest compared to...)
+
+### **Numbers, Math & Logic**
+
+- Rule 22: Numbers, Plurality, & Intensity
+    
+    In Fiwo, quantity is handled mathematically. Because the parser relies on modifiers "looking left" to attach to a root word, plurality and numbers function as quantitative modifiers that follow the noun.
+    
+    ---
+    
+    ### 1. General Plurality (`je`)
+    
+    When a specific number is unknown or irrelevant, plurality is expressed using the particle `je` (many / more than one). It acts as a standard modifier, looking left to multiply the noun.
+    
+    - **Syntax:** `[Noun] + je`
+    - **Fiwo Example:** `Nofa je`
+    - **Meaning:** People (literally: person + many).
+    
+    **Interaction with Specificity (Rule 13):**
+    
+    Because specificity is an integrated consonant suffix (like `-p` for "the" or `-r` for "some"), it is applied to the noun root *before* the plural modifier is added.
+    
+    - **Fiwo Example:** `Nofap je`
+    - **Meaning:** The people.
+    - **Fiwo Example:** `Sydor je`
+    - **Meaning:** Some houses.
+    
+    ---
+    
+    ### 2. Exact Numbers
+    
+    When an exact quantity is known, the number simply replaces the plural particle `je`. Because the number provides explicit quantitative data, `je` becomes mathematically redundant.
+    
+    - **Syntax:** `[Noun] + [Number]`
+    - **Fiwo Example:** `Nofa rixe`
+    - **Meaning:** Three people.
+    
+    ---
+    
+    ### 3. Multi-Digit Number Stacking (The `t` Suffix)
+    
+    To express complex numbers (like tens, hundreds, or thousands) using a base-10 positional system, Fiwo employs the numerical stacking suffix `-t`.
+    
+    When single digits are placed in sequence to form a larger integer, the consonant `-t` is appended directly to the end of each number's functional vowel (`-e`).
+    
+    **Parser Logic:**
+    
+    The `-t` suffix forces an immediate mathematical bond between adjacent numbers. The parser reads the sequence from left to right as a single place-value block (e.g., hundreds, tens, units). Once the stacked block is complete, the entire combined integer uses the "Look Left" principle to attach to the noun.
+    
+    **Parser Examples:**
+    
+    - **Single Digit (No Stack):**
+        - **Fiwo:** `Kyfa ruge`
+        - **Parser Logic:** `ruge` (4) looks left to modify `kyfa` (bird).
+        - **Meaning:** Four birds.
+    - **Double Digits (Tens):**
+        - **Fiwo:** `Kyfa ruget racet`
+        - **Literal Breakdown:** bird + four-[stack] + two-[stack].
+        - **Parser Logic:** The `t` markers lock `ruge` and `race` into the integer 42. The combined value then looks left.
+        - **Meaning:** Forty-two birds.
+    - **Triple Digits (Hundreds):**
+        - **Fiwo:** `Nofa ryhet ret runet`
+        - **Literal Breakdown:** person + one-[stack] + zero-[stack] + nine-[stack].
+        - **Parser Logic:** The `t` markers lock 1, 0, and 9 into the integer 109.
+        - **Meaning:** 109 people.
+    
+    ---
+    
+    ### 4. Verb Intensity (Action Scaling)
+    
+    Numbers do not exclusively modify nouns. Because Fiwo's numbers are technically modifiers (ending in `-e`), they can also be placed immediately after a verb to scale the intensity or effort of the action.
+    
+    Typically, the numbers 1 through 5 are used as an intuitive intensity scale (where 1 is minimal effort and 5 is maximum intensity).
+    
+    - **Syntax:** `[Subject] + [Verb] + [Number 1-5]`
+    - **Fiwo Example:** `Daq cukid raje.`
+    - **Literal Breakdown:** he + fight-[past] + five.
+    - **Parser Logic:** `raje` looks left and scales the verb `cukid` to maximum intensity. The Object slot remains intentionally empty.
+    - **Meaning:** He fought intensely.
+    
+    **Intensity with an Object (Slot Ordering)**
+    
+    When a sentence contains both an intensity number and an object, the intensity number must be placed **immediately after the verb** and strictly **before the object**. This mirrors the slot ordering rule established for modal modifiers in Rule 21.
+    
+    The parser reads the number first, bonds it to the verb as an intensity scale, and then falls forward to fill the object slot cleanly.
+    
+    **Syntax:** `[Subject] + [Verb] + [Intensity Number] + [Object]`
+    
+    **Parser Examples:**
+    
+    - **Fiwo:** `Daq cukid raje nofar.`
+    - **Literal Breakdown:** he + fight-[past] + five + person-some.
+    - **Parser Logic:** `raje` looks left and bonds to `cukid` as an intensity modifier. The parser then falls forward and reads `nofar` as the object.
+    - **Meaning:** He fought a person intensely.
+    
+    Compare directly with the ambiguous alternative to see why slot ordering is critical:
+    
+    - **Fiwo:** `Daq cukid nofar raje.`
+    - **Literal Breakdown:** he + fight-[past] + person-some + five.
+    - **Parser Logic:** `raje` looks left and bonds to `nofar` as a quantity modifier, not to the verb.
+    - **Meaning:** He fought five people. *(quantity reading, not intensity)*
+    
+    When in doubt, remember: **intensity always slots before the object, quantity always follows the noun it counts.**
+    
+- Rule 23: Negation (`nes`)
+    
+    Negation in Fiwo is highly precise. The particle `nes` acts as a strict logical operator (a boolean NOT) that flips the meaning of whatever *immediately* follows it.
+    
+    Because `nes` acts mathematically, it never creates double negatives or ambiguous phrasing; it simply reverses the state of its exact target. When used as a standalone sentence, `nes` simply means "No."
+    
+    ---
+    
+    ### 1. Standard Verb Negation
+    
+    To negate an action, place `nes` immediately before the verb. Because Fiwo's tense markers are integrated as suffixes (Rule 8), `nes` simply precedes the fully conjugated verb block.
+    
+    - **Standard Present Negation:**
+        - **Fiwo:** `Mik nes kyti batap.`
+        - **Literal Breakdown:** I + [Not] + like + food-the.
+        - **Meaning:** I do not like the food.
+    - **Negation with Tense:**
+        - **Fiwo:** `Daq nes ltid.`
+        - **Literal Breakdown:** he + [Not] + come-[past].
+        - **Meaning:** He did not come.
+    
+    ---
+    
+    ### 2. Targeted Negation
+    
+    Because `nes` only binds to what directly follows it, you can move it around the SVO sequence to negate specific concepts rather than the whole sentence. If `nes` is placed in front of a specific noun or modifier, it negates *only* that specific entity, leaving the rest of the sentence's logic intact.
+    
+    - **Syntax:** `[Not] + Subject + [Tense]Verb + [Object]`
+    - **Fiwo Example:** `Nes mifa xalid.`
+    - **Literal Breakdown:** [Not] + animal + move-[past].
+    - **Meaning:** It wasn't the animal that moved (implying something else did).
+    
+    ---
+    
+    ### 3. Order of Operations: Boolean Negation and Inline Glue
+    
+    Because `nes` acts as a strict logical operator, it has the highest binding precedence in the SVO parser. It strictly applies *only* to the single syntactic block immediately to its right.
+    
+    When you use the inline glue `lan` (And / Plus) to combine multiple words into a single SVO slot, `nes` **does not** automatically distribute across the `lan` bridge. The parser will negate the first item, but treat the subsequent items as positive.
+    
+    To override this default order of operations, you must either explicitly apply `nes` to every individual item, or use the structural grouper brackets (`pyn` ... `pof`) to package the items into a single block before negating them.
+    
+    ### Parser Examples
+    
+    **1. Strict Binding (The Default):**
+    
+    - **Fiwo:** `Mik karxid nes batap lan dorso.`
+    - **Literal Breakdown:** I + find-[past] + [Not] + food-the + [And] + water.
+    - **Parser Logic:** `nes` strictly binds to `batap`. The `lan` particle then adds positive `dorso` to the Object slot.
+    - **Meaning:** I found no food, but I did find water.
+    
+    **2. Explicit Distribution (Double Negation):**
+    
+    - **Fiwo:** `Mik karxid nes batap lan nes dorso.`
+    - **Literal Breakdown:** I + find-[past] + [Not] + food-the + [And] + [Not] + water.
+    - **Parser Logic:** `nes` is explicitly passed to both variables before `lan` combines them.
+    - **Meaning:** I found no food and no water.
+    
+    **3. Group Negation (Bracketed Logic):**
+    
+    - **Fiwo:** `Mik karxid nes pyn batap lan dorso pof.`
+    - **Literal Breakdown:** I + find-[past] + [Not] + [Open Group] + food-the + [And] + water + [Close Group].
+    - **Parser Logic:** The parser completely processes `batap lan dorso` inside the brackets first. The `nes` operator then flips the boolean value of the *entire* packaged group.
+    - **Meaning:** I didn't find the exact combination of food and water (implying you might have found one, but not both together).
+- Rule 24: Ordinal Numbers & Fractions (Mathematical Bridges)
+    
+    In Fiwo, numbers are treated strictly as raw quantitative data (Modifiers). To express sequential order (ordinals like 1st, 2nd, 3rd) or mathematical division (fractions like half or a third), the language does not alter the number itself with messy suffixes or irregular vocabulary.
+    
+    Instead, Fiwo uses specialized mathematical prepositions (words ending in the functional vowel `-y`) to build a structural bridge between the noun and the numerical data. Because these are prepositions, they strictly obey **Rule 12 (Root Transparency)**, allowing them to cleanly skip over any intervening adjectives to anchor to the root noun.
+    
+    ### 1. Ordinal Numbers (The `usy` Bridge)
+    
+    To indicate the specific position or sequence of an item within a series, use the preposition `usy`. It anchors the root noun to its numerical rank.
+    
+    - **Syntax:** `[Noun Root] + [Optional Modifiers] + usy + [Number]`
+    
+    **Parser Examples:**
+    
+    - **Basic Ordinal:**
+        - **Fiwo:** `Hoxo usy rixe`
+        - **Literal Breakdown:** door + [at-sequence-of] + three.
+        - **Meaning:** The third door.
+    - **Root Transparency (Skipping a Modifier):**
+        - **Fiwo:** `Hoxo cape usy rixe`
+        - **Literal Breakdown:** door + dark + [at-sequence-of] + three.
+        - **Parser Logic:** `cape` looks left to modify the door. `usy` looks left, treats the modifier `cape` as completely transparent, anchors to the root `hoxo`, and bridges it to `rixe`.
+        - **Meaning:** The third dark door.
+    - **Using with Specificity (Rule 13):**
+        - **Fiwo:** `Nofap usy ryhe xalid.`
+        - **Literal Breakdown:** person-the + [at-sequence-of] + one + move-[past].
+        - **Meaning:** The first person moved.
+    
+    ### 2. Fractions and Ratios (The `apy` Bridge)
+    
+    To express a fraction or a ratio, use the preposition `apy`. It acts as the dividing line (the vinculum) in a mathematical fraction, bridging a subset quantity (the numerator) to a total quantity (the denominator).
+    
+    - **Syntax:** `[Noun Root] + [Numerator Number] + apy + [Denominator Number]`
+    
+    **Parser Examples:**
+    
+    - **Basic Fraction (Half):**
+        - **Fiwo:** `Dorso ryhe apy race`
+        - **Literal Breakdown:** water + one + [out-of] + two.
+        - **Parser Logic:** The number `ryhe` looks left to modify the water (giving us 1 unit of water). The preposition `apy` looks left, treats `ryhe` as transparent, anchors directly to the root noun `dorso`, and bridges it to the denominator `race`.
+        - **Meaning:** Half of the water (Literally: 1 water out of 2).
+    - **Complex Fractions (Three-Quarters):**
+        - **Fiwo:** `Mik nomid bata rixe apy ruge.`
+        - **Literal Breakdown:** I + eat-[past] + food + three + [out-of] + four.
+        - **Meaning:** I ate three-quarters of the food.
+    - **Ratios and Probabilities:**
+        - **Fiwo:** `Nofa rixe apy rete usil.`
+        - **Literal Breakdown:** person + three + [out-of] + seven + sleep-[future].
+        - **Meaning:** Three out of seven people will sleep.
+- Rule 25: Correlative Logic & Inline Choices
+    
+    In Fiwo, paired correlative concepts (such as "both...and," "either...or," and "neither...nor") do not require complex paired vocabulary or structural brackets. Because the language relies on a highly efficient mathematical parser, these concepts are handled entirely by Inline Operators working within a single SVO (Subject-Verb-Object) slot.
+    
+    To execute this, Fiwo distinguishes between clausal walls (which reset the parser) and inline glue (which binds exactly two words together mathematically).
+    
+    **1. The Operators**
+    
+    - **lan (Inline AND):** Acts strictly as mathematical addition (+). It binds exactly two words of the exact same grammatical category into a single syntactic unit. (For lists of three or more, you must use the Array Protocol in Rule 28).
+    - **ron (Inline OR):** Acts strictly as a Boolean alternative (OR). It offers a choice between exactly two words of the exact same grammatical category within a single slot, without resetting the parser.
+    
+    **2. Expressing "Both" (The lan Operator)**
+    
+    To express that two items are equally included in the action, simply bind them with lan.
+    
+    - **Syntax:** [Item A] + lan + [Item B]
+    - **Fiwo:** Mik fabid mosa lan nasa.
+    - **Literal Breakdown:** I + want-[past] + tree + [Inline And] + plant.
+    - **Meaning:** I wanted both a tree and a plant. (Literally: I wanted a tree and a plant) .
+    
+    **3. Expressing "Either / Or" (The ron Operator)**
+    
+    To express a choice or alternative between two items within the same SVO slot, bind them with ron.
+    
+    - **Syntax:** [Item A] + ron + [Item B]
+    - **Fiwo:** Mik fabid mosa ron nasa.
+    - **Literal Breakdown:** I + want-[past] + tree + [Inline Or] + plant.
+    - **Meaning:** I wanted either a tree or a plant. (Literally: I wanted a tree or a plant) .
+    
+    **4. Expressing "Neither / Nor" (Negation + ron)**
+    
+    Because Fiwo treats the negation particle nes as a strict logical operator (Rule 9), you express "neither/nor" by negating the verb that acts upon an "or" statement. Mathematically, saying "I do not want A or B" strictly evaluates to "I want neither A nor B".
+    
+    - **Syntax:** nes + [Verb] + [Item A] + ron + [Item B]
+    - **Fiwo:** Mik nes fabid mosa ron nasa.
+    - **Literal Breakdown:** I + [Not] + want-[past] + tree + [Inline Or] + plant.
+    - **Parser Logic:** The operator nes precisely negates the verb fabid. The SVO track reads: The action of wanting is FALSE for the entire Object block (tree OR plant).
+    - **Meaning:** I wanted neither a tree nor a plant.
+
+### **Advanced Clauses & Grouping**
+
+- **Rule 26: Boundaries, Clauses & The Order of Operations**
+    
+    To maintain the strict integrity of the SVO parser, Fiwo sharply distinguishes between joining entire sentences and joining individual words.
+    
+    ### 1. The Hard Boundary (`bef`)
+    
+    The particle `bef` acts as a hard structural wall used to join complete, independent SVO clauses. When the parser hits `bef`, it completely resets the SVO sequence, expecting a brand new Subject or Mood Tag to follow.
+    
+    - **Syntax:** `[Clause 1] + bef + [Clause 2]`
+    - **Example:** `Nofap xalid bef mifap usid.`
+        - *Literal Breakdown:* Person + The + Move + [Past] + And (Clause) + Animal + The + Sleep + [Past].
+        - *Meaning:* The person moved, and the animal slept.
+    
+    ### 2. The Inline Glue (`lan`)
+    
+    The particle `lan` acts strictly as mathematical inline addition (`+`). It combines words of the exact same grammatical category (noun with noun, verb with verb, modifier with modifier) perfectly within a single SVO slot without resetting the parser.
+    
+    - **The Order of Operations:** When parsing a sentence, modifiers always bond to their adjacent nouns *before* `lan` bonds the nouns together.
+    - **Complex Groups:** If an inline group becomes too complex and the SVO slot is at risk of breaking, you must use `pyn` to open the nested structure and `pof` to explicitly close it.
+    
+    **Examples:**
+    
+    - **Independent Modifiers (Standard Parse):** `Sydo tande lan mifa lande.`
+        - *Literal Breakdown:* House + Big + And (Inline) + Animal + Small.
+        - *Meaning:* The big house and the small animal. *(The parser binds "big" to "house" and "small" to "animal" before adding them together).*
+    - **Shared Modifiers (Mathematical Distribution):** `Sydo lan mifa tande.`
+        - *Literal Breakdown:* House + And (Inline) + Animal + Big.
+        - *Meaning:* The big house and the big animal. *(Because `lan` bonds the nouns first, the modifier 'big' looks left and applies to the entire `[House + Animal]` block).*
+- **Rule 27: Subordinate Brackets (`tep` ... `tel`)**
+    
+    To prevent dependent or side clauses from crashing the main SVO (Subject-Verb-Object) sequence, Fiwo requires that all subordinate clauses be physically "boxed in." This finalized system of structural markers allows you to cleanly embed complex relative clauses (representing English concepts like "who," "which," or "that") directly inside a sentence without confusing the primary verb and object.
+    
+    - **`tep**` (Open Bracket): Acts strictly as the opening bracket `[`. It pauses the syntax of the main sentence and introduces a brand new, temporary SVO predicate.
+    - **`tel`** (Close Bracket): Acts strictly as the closing bracket `]`. It explicitly signals to the parser that the dependent clause is complete, instantly returning the syntactic flow back to the main sentence exactly where it was paused.
+    
+    ### 1. Embedded Relative Clauses
+    
+    By encapsulating the side action, the primary sentence frame remains structurally intact.
+    
+    - **Fiwo:** `Nofap tep karxid mifap tel xalid.`
+    - **Literal Breakdown:** Person-the + [Subordinate Start] + find-[past] + animal-the + [Subordinate End] + move-[past].
+    - **Meaning:** The person [who found the animal] moved.
+    
+    ### 2. The Implicit Pointer (Resolving Dangling Prepositions)
+    
+    While Rule 12 strictly forbids dangling prepositions (-y) in standard clauses, these subordinate brackets contain a built-in variable pass-through. This elegantly handles relative spatial clauses (e.g., "The house I live in" or "The tool I work with").
+    
+    **Parser Logic:**
+    
+    When `tep` opens a subordinate clause immediately following a noun, the parser automatically stores that parent noun in active memory as a "ghost target." If a preposition is placed at the very end of the subordinate clause (immediately before `tel`), it will have no explicit noun to its right. Instead of crashing, `tel` acts as a structural mirror. It safely routes the dangling preposition's bridge back to the ghost target that originally opened the clause.
+    
+    - **Embedded Spatial Clause:** `Sydop tep mik ceni deky tel.`
+    - **Literal Breakdown:** House-the + [Subordinate Start] + I + live + inside + [Subordinate End].
+    - **Meaning:** The house that I live inside of.
+    
+    ### 3. String Literals (Reported Speech & Cognition)
+    
+    In natural languages, punctuation like quotation marks (" ") is used to indicate reported speech or direct thoughts. In Fiwo, punctuation has no grammatical function. Instead, `tep` and `tel` act as strict string delimiters, isolating entire clauses so they can be parsed as a single Object unit.
+    
+    When using verbs of communication (e.g., `gesi` - to speak, `kupi` - to ask) or cognition (e.g., `pozi` - to think, `taoji` - to believe), you do not need a word for "that". You simply open a subordinate bracket. The parser processes the entirely new, encapsulated sentence—including its own internal Mood Tag—and treats that entire block as the fulfilled Object of the main verb.
+    
+    **Parser Examples:**
+    
+    - **Reported Speech:** `Daq gesid tep hap mik kypei tel.` (Meaning: He said, "I am happy.")
+    - **Reported Cognition:** `Nofap pozid tep mifap tande ruzei tel.` (Meaning: The person thought that the big animal was fast.)
+    - **Embedded Questions:** `Daq kupid tep kup mik xalis tel.` (Meaning: He asked if I will go.)
+    
+    ### 4. The Depth Limit (Maximum Double Nesting)
+    
+    To prevent infinite mathematical recursion from crashing a speaker's auditory working memory, the parser enforces a strict depth limit of 2.
+    
+    This means you can legally hold a maximum of two open brackets (`tep` or `pyn`) in active memory at the same time. Any attempt to nest a third clause inside the second will permanently crash the SVO sequence.
+    
+    - **Right-Branching (Double nesting at the end):**
+        - **Fiwo:** `Mik karxid nofap tep satsid mifap tep nomid batap tel tel.`
+        - **Meaning:** I found the person [who hit the animal [that ate the food]].
+    - **Center-Embedding (Double nesting in the middle):**
+        - **Fiwo:** `Nofap tep karxid mifap tep nomid batap tel tel xalid.`
+        - **Meaning:** The person [who found the animal [that ate the food]] moved.
+    
+    If a speaker needs to express ideas that exceed this double-nesting limit, they must "flatten" the sentence using clausal conjunctions (like `bef` or `can`) to chain independent SVO tracks together instead.
+    
+- Rule 28: Clausal Conjunctions (The Hard Walls)
+    
+    In Fiwo, there is a strict mathematical difference between a Preposition (a structural bridge) and a Conjunction (a structural wall).
+    
+    ### 1. The Preposition Bridge vs. The Conjunction Wall
+    
+    - **Prepositions (words ending in `y` like `zy`, `ty`, `fazy`):** Operate *inside* a clause. They act as transparent bridges that connect an Object to the current Verb or Noun without interrupting the SVO flow.
+    - **Conjunctions:** Act as solid structural walls. When the parser hits a conjunction, it immediately finalizes the current clause. The SVO syntactic slots are wiped entirely clean, and the parser expects a brand new Subject (or a new Mood Tag) to follow immediately.
+    
+    Because conjunctions are complete parser resets, they cannot be used to join single words together (for that, you must use the inline glue `lan`). They exclusively join entire independent statements.
+    
+    ---
+    
+    ### 2. The Roster of Hard Walls
+    
+    Here are the clausal conjunctions that trigger a complete parser reset:
+    
+    - **`bef` (And - Clausal):** Adds a new, independent parallel thought.
+    - **`bul` (But):** Introduces a contrasting independent clause.
+    - **`rot` (Or):** Presents an alternative independent clause.
+    - **`kad` (Because):** Introduces a completely new clause that serves as the cause or reason for the previous one.
+    - **`can` (Then / Chronological):** * *As a Conjunction:* Joins two independent actions that happen in sequence (X happened, **then** Y happened).
+        - *As a Conditional Resolver:* Resolves a **syn** condition where the result is a chronological or immediate sequence (If X happens, **then** Y will happen).
+    - **`pen` (So / Therefore / Logical):** * *As a Conjunction:* Joins two independent thoughts where the second is a logical result of the first (X is true, **so** Y is true).
+        - *As a Conditional Resolver:* Resolves a **syn** condition where the result is a logical necessity or a firm consequence (If X is true, **therefore** Y must be true).
+    
+    ---
+    
+    ### Parser Examples
+    
+    **The "Because" Wall (`kad`)**
+    
+    Notice how `kad` forces the speaker to provide a full new SVO sequence, rather than just a single noun.
+    
+    - **Fiwo:** Kep nofap usid kad mifap xalid.
+    - **Literal Breakdown:** [Fact] + person-the + sleep-[past] + [HARD WALL: Because] + animal-the + move-[past].
+    - **Parser Logic:** The parser reads Slot 1 (`nofap`) and Slot 2 (`usid`). It hits `kad`. It instantly closes the first sentence and opens a brand new SVO grid, assigning `mifap` to the new Slot 1.
+    - **Meaning:** The person slept because the animal moved.
+    
+    **The "But" Wall (`bul`)**
+    
+    - **Fiwo:** Kep mik karxid batap bul mik nes nomid ram.
+    - **Literal Breakdown:** [Fact] + I + find-[past] + food-the + [HARD WALL: But] + I + [Not] + eat-[past] + it.
+    - **Meaning:** I found the food, but I did not eat it.
+    
+    **The "Then" Wall (`can`) vs. The Preposition Bridge (`zy`)**
+    
+    This perfectly illustrates the mechanical difference between a wall and a bridge:
+    
+    - **Preposition Bridge:** Kep dal xalid zy sydo.
+        - *(Meaning: He moved to the house).* The `y` preposition bridges the action directly to the location within the exact same clause.
+    - **Conjunction Wall:** Kep dal xalid can dal nomid.
+        - *(Meaning: He moved, then he ate).* The conjunction `can` crashes the first SVO block and strictly requires a new Subject (`dal`) and Verb (`nomid`) to restart the parser.
+- Rule 29: Serial Lists (The Array Protocol)
+    
+    Because Fiwo relies on a strict spoken parser, punctuation is ignored. To connect words of the exact same grammatical category without crashing the parser, Fiwo distinguishes between simple pairs and longer serial lists.
+    
+    **1. Simple Pairs (The `lan` Operator)**To express that exactly two items are equally included in the action, simply bind them with the inline glue `lan`. You do not need structural groupers for a simple pair.
+    
+    - **Syntax:** [Item 1] + `lan` + [Item 2]
+    - **Fiwo:** Mik fabid mosa lan nasa.
+    - **Meaning:** I wanted a tree and a plant.
+    
+    **2. Serial Lists (The `pyn` ... `pof` Array)**For lists of three or more items, Fiwo handles serial lists by utilizing structural groupers (`pyn` ... `pof`) to create a data array. When the parser hits the open bracket `pyn`, it temporarily suspends the strict SVO track. This allows you to place multiple words of the exact same grammatical category directly next to one another as raw data points in a sequence.
+    
+    **3. The Implicit "AND" (Inclusive Lists)**
+    By default, the parser treats any list of words grouped inside `pyn` and `pof` as an inclusive sequence (an "AND" array). You do not need to place an operator inside the array; the mathematical addition is implicitly understood by the brackets themselves. When the parser hits the closing bracket `pof`, it collapses the entire evaluated array into a single, unified block and drops it perfectly into the current SVO slot.
+    
+    - **Syntax:** `pyn` + [Item 1] + [Item 2] + [Item 3] + `pof`
+    - **Fiwo:** Mik fabid pyn dorso bata gofo xedo pof.
+    - **Meaning:** I wanted water, food, wood, and metal.
+    
+    **4. The Alternative List (The `ron` Operator)**
+    If the array represents a series of mutually exclusive choices, you must explicitly override the default "AND" logic. Use the `ron` operator to present the entire array as a series of mutually exclusive choices. Place `ron` immediately before the final item.
+    
+    - **Syntax:** `pyn` + [Item 1] + [Item 2] + [Item 3] + `ron` + [Final Item] + `pof`
+    - **Fiwo:** Suk karxis pyn kyfa mifa zala ron nofa pof.
+    - **Meaning:** You will find a bird, an animal, a bug, or a person.
+    
+    **5. Applying Modifiers to an Array (The Look Left Principle)**Because the `pof` bracket seals the list into a single mathematical unit, any modifier placed immediately after `pof` will strictly obey the "Look Left" principle and apply to every single item inside the array simultaneously.
+    
+    - **Fiwo:** Mik karxid pyn mosa nasa gofo pof luare.
+    - **Parser Logic:** The array [tree, plant, wood] is formed. The modifier luare (green) looks left, hits the closed group `pof`, and mathematically distributes to everything inside.
+    - **Meaning:** I found a green tree, a green plant, and green wood.
+- Rule 30: Conditionals (`syn`) & Correlative Sequences
+    
+    In Fiwo, conditional statements (If X, then Y) do not require complex subordinate bracketing. Because the language relies on an efficient, sequential parser, conditions are handled as a paired correlative sequence using the Condition Initiator (**syn**) and a corresponding Clausal Wall (such as **can** or **pen**).
+    
+    **1. The Logic & Placement**
+    
+    The particle **syn** acts as a structural flag. It is placed at the absolute beginning of a clause (exactly like a Mood Tag) to explicitly warn the parser that the incoming SVO sequence is a theoretical premise or required condition, rather than a standalone fact.
+    
+    Because the condition is simply a standard SVO track, it runs completely normally until it hits a clausal wall. The wall cleanly finalizes the condition, resets the parser's active memory, and introduces the resulting consequence.
+    
+    **Syntax:** `syn` + [Condition SVO Sequence] + `can` / `pen` + [Result SVO Sequence]
+    
+    **2. Parser Examples**
+    
+    **Simple Conditional (Chronological "Then")**
+    
+    - **Fiwo:** `Syn suk xali ruze can suk nes nojais fikop.`
+    - **Literal Breakdown:** [If] + you + move + fast + [HARD WALL: Then] + you + [Not] + see-[future] + path-the.
+    - **Parser Logic:** **syn** flags the upcoming sequence as a condition. The SVO track `suk xali ruze` runs cleanly. The parser hits the clausal wall **can**, immediately finalizing the condition and wiping the syntactic slots clean. The parser then perfectly catches the consequence `suk nes nojais fikop` on a brand new SVO track.
+    - **Meaning:** If you move fast, then you will not see the path.
+    
+    **Logical Conditional (Consequential "Therefore")**
+    
+    - **Fiwo:** `Syn mik ltis pen mik kypeis.`
+    - **Literal Breakdown:** [If] + I + come-[future] + [HARD WALL: Therefore] + I + to-be-happy-[future].
+    - **Meaning:** If I come, therefore I will be happy.
+    
+    **Habitual Conditional ("Whenever")**
+    
+    - **Fiwo:** `Syn mifap xaliq can mik kuriq.`
+    - **Literal Breakdown:** [Whenever] + animal-the + move-[continuous] + [HARD WALL: Then] + I + fear-[continuous].
+    - **Meaning:** Whenever the animal is moving, I am afraid.
+
+### **Social & Conversational Speech**
+
+- Rule 31: Interjections & Phatic Clauses (The Null Track)
+    
+    In Fiwo, social greetings, exclamations, and standalone responses (like "Yes" or "No") do not convey strict syntactic data. To protect the integrity of the mathematical SVO (Subject-Verb-Object) sequence, they are processed entirely outside of it.
+    
+    These words are classified as **Phatic Particles**. They act as completely independent, single-word clauses.
+    
+    ### 1. The Null SVO Track
+    
+    When the parser encounters a Phatic Particle, it triggers a "Null Track." The word instantly fulfills its own self-contained clause and creates a hard boundary. The parser completely resets, expecting the very next word to initiate a brand new sentence (either by introducing a Pragmatic Mood Tag or a Subject).
+    
+    ### 2. Absolute Immutable State
+    
+    Because Phatic Particles are not nouns, verbs, or modifiers, they are mathematically immutable. They **cannot** be modified by other words, they **cannot** take tense suffixes, and they **cannot** take noun specificity markers.
+    
+    ---
+    
+    ### The Phatic Dictionary & Parser Examples
+    
+    **Part of speech: Grammar (Phatic Particle)**
+    
+    - **sal**, *Hello / Greetings*, Used to acknowledge someone's presence or initiate a social interaction.
+        - **Fiwo:** `Sal. Mik ceni tapo.`
+        - **Literal Breakdown:** [Greeting] + I + live + here.
+        - **Parser Logic:** `Sal` opens and closes the Null Track. The parser resets. `Mik` starts a standard SVO track.
+        - **Meaning:** Hello. I live here.
+    - **tex**, *Goodbye / Farewell*, Used to close a social interaction or indicate departure.
+        - **Fiwo:** `Tex. Mik xalis zy sydo.`
+        - **Literal Breakdown:** [Farewell] + I + move-[future] + to + house.
+        - **Meaning:** Goodbye. I will go to the house.
+    - **ak**, *Ouch / Pain*, An involuntary exclamation of sudden physical pain or intense discomfort.
+        - **Fiwo:** `Ak! Suk satsid mik.`
+        - **Literal Breakdown:** [Pain] + you + hit-[past] + me.
+        - **Meaning:** Ouch! You hit me.
+    - **wox**, *Wow / Awe*, An exclamation of positive surprise, wonder, or amazement.
+        - **Fiwo:** `Wox. Sydop tandei jeme.`
+        - **Literal Breakdown:** [Awe] + house-the + to-be-big + most.
+        - **Meaning:** Wow. The house is the biggest.
+    - **jo**, *Hey / Attention*, A sharp exclamation used to immediately grab someone's focus or warn them of something.
+        - **Fiwo:** `Jo! Kop suk seji.`
+        - **Literal Breakdown:** [Attention] + [Command] + you + stop.
+        - **Parser Logic:** `Jo` fulfills the Null Track. The parser resets, perfectly catching the `Kop` Mood Tag that initiates the next sentence.
+        - **Meaning:** Hey! Stop.
+    - **ha**, *Oh / I see*, Used to indicate sudden realization, acknowledgment, or understanding of new information.
+        - **Fiwo:** `Ha. Mik kani nu.`
+        - **Literal Breakdown:** [Realization] + I + know + now.
+        - **Meaning:** Oh. I know now.
+    - **jas**, *Yes / Affirmation*, Used for agreement or to confirm a positive state.
+        - **Fiwo:** `Jas. Mik xyfid ram.`
+        - **Literal Breakdown:** [Yes] + I + do-[past] + it.
+        - **Meaning:** Yes. I did it.
+    - **nes**, *No / Standalone Negation*, When used completely on its own, it acts as a negative interjection. (Note: When placed inside an SVO sequence, it acts as the strict logical operator of negation from Rule 9).
+        - **Fiwo:** `Nes. Mik nes ltid.`
+        - **Literal Breakdown:** [No] + I + [Not] + come-[past].
+        - **Parser Logic:** The first `Nes` fulfills the Null Track and means "No." The parser resets. The second `nes` operates inside the SVO track, explicitly negating the verb `ltid`.
+        - **Meaning:** No. I did not come.
+        
