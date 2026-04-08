@@ -33,7 +33,7 @@
             <h1>Welcome to Fiwo. A Precision Protocol for Meaning.</h1>
             <p>Fiwo is an engineered language designed as a precision communication system. It is not an artistic project, but a functional tool built to eliminate structural ambiguity, reduce interpretive guesswork, and mathematically map human thought.</p>
             <p>Natural languages are messy. They rely heavily on inference, shared cultural assumptions, and context, which often leads to misunderstanding. Fiwo treats language as an interface: a perfectly predictable bridge between human minds, between humans and machines, and between abstract thought and formal expression.</p>
-            <p>Hi, my name is Josh. A while ago I was wondering <em>what if how we communicate could simply be better?</em> That question sent me down a months-long rabbit hole. But to understand what "better" meant, I first had to understand what already existed. I analyzed the most widely spoken languages in the world, took them apart, and reassembled their best, most efficient parts into a cohesive, engineered system.</p>
+            <p>Hi, my name is Josh. I had a thought: <em>What if how we communicate could simply be better?</em> That question sent me down a months-long rabbit hole. But to understand what "better" meant, I first had to understand what already existed. I analyzed the most widely spoken languages in the world, took them apart, and reassembled their best, most efficient parts into a cohesive, engineered system.</p>
             <p>In Fiwo, meaning is not guessed—it is declared. The language is designed to be highly logical, mathematically consistent, and perfectly predictable. Here are the core questions and decisions that shaped it:</p>
             <h2>1. How do I make it easier to learn?</h2>
             <p>To make Fiwo incredibly easy to pick up, I eliminated rote memorization and unpredictable rules, replacing them with visible logic.</p>
@@ -355,94 +355,155 @@
             </ul>
 
             <h3>Rule 5: Derivation (Category Shifting)</h3>
-            <p>Words in Fiwo can shift their grammatical category by appending a new functional vowel to the end of the root word.</p>
+            <p>Words in Fiwo can smoothly shift their grammatical category by appending a new functional vowel to the end of the root word. This mathematical approach allows the parser to understand complex concepts without requiring entirely new dictionary roots.</p>
 
-            <h4>Core Principles</h4>
+            <h4>Core Constraints</h4>
             <ul>
-                <li><strong>The Preservation Rule:</strong> The original functional vowel is never removed. Each derivation appends a new functional vowel to the end of the word, preserving the word's etymological history.</li>
+                <li><strong>The Preservation Rule:</strong> The original functional vowel is never removed. Each derivation simply appends the new functional vowel to the end of the word, permanently preserving the word's etymological history.</li>
                 <li><strong>The Derivation Limit:</strong> A word can be derived a maximum of two times. This means a fully derived word can have a maximum of three consecutive vowels at the end.</li>
-                <li><strong>Noun Specificity:</strong> When deriving a word into a noun, you must choose the correct noun vowel (<code>a</code> for Biological, <code>o</code> for Concrete, <code>u</code> for Abstract) based on the specific nature of the new entity.</li>
-                <li><strong>Preposition Restriction:</strong> Words may not be derived to form prepositions.</li>
+                <li><strong>The Preposition Ban:</strong> Words may not be derived to form prepositions (<code>-y</code>).</li>
             </ul>
 
-            <h4>Derivation Examples</h4>
+            <h4>Semantic Mapping: What Derivation Means</h4>
+            <p>When you shift a word's category, the parser mathematically calculates its new meaning based on the exact path it took.</p>
 
-            <p><strong>Modifier to Verb (Stative Verbs):</strong></p>
+            <h4>1. Deriving to Nouns (The <code>-a</code>, <code>-o</code>, <code>-u</code> Suffixes)</h4>
+            <p>When deriving a word into a noun, you must choose the correct noun vowel based on the specific nature of the new entity.</p>
             <ul>
-                <li><code>ruze</code> (Fast) → <code>ruzei</code> (To be fast)</li>
-                <li><code>kype</code> (Happy) → <code>kypei</code> (To be happy)</li>
+                <li><strong>Verb to Biological Noun (<code>i</code> → <code>ia</code>):</strong> Represents the living entity, agent, or doer that performs the action.
+                    <ul>
+                        <li><code>jami</code> (To write) → <code>jamia</code> (Writer)</li>
+                    </ul>
+                </li>
+                <li><strong>Verb to Concrete Noun (<code>-i</code> → <code>-io</code>):</strong> Represents the physical thing used for the action, or the tangible physical result of the action.
+                    <ul>
+                        <li><code>jami</code> (To write) → <code>jamio</code> (Document / Scroll)</li>
+                    </ul>
+                </li>
+                <li><strong>Verb to Abstract Noun (<code>i</code> → <code>iu</code>):</strong> Represents the intangible concept, discipline, or conceptual instance of the action.
+                    <ul>
+                        <li><code>jami</code> (To write) → <code>jamiu</code> (Literature / The concept of writing)</li>
+                    </ul>
+                </li>
+                <li><strong>Modifier to Abstract Noun (<code>-e</code> → <code>-eu</code>):</strong> Represents the tangible concept, measurement, or pure embodiment of that descriptive trait.
+                    <ul>
+                        <li><code>kype</code> (Happy) → <code>kypeu</code> (Happiness)</li>
+                        <li><code>ruze</code> (Fast) → <code>ruzeu</code> (Speed)</li>
+                        <li><code>cape</code> (Dark) → <code>capeu</code> (Darkness)</li>
+                    </ul>
+                </li>
             </ul>
 
-            <p><strong>Modifier to Noun:</strong></p>
+            <h4>2. Deriving to Verbs (The <code>-i</code> Suffix)</h4>
             <ul>
-                <li><code>kype</code> (Happy) → <code>kypeu</code> (Happiness - Abstract Noun)</li>
-                <li><code>cape</code> (Dark) → <code>capeu</code> (Darkness - Abstract Noun)</li>
-                <li><code>ruze</code> (Fast) → <code>ruzeu</code> (Speed - Abstract Noun)</li>
+                <li><strong>Modifier to Verb (Stative Verbs: <code>e</code> → <code>ei</code>):</strong> Expresses the continuous state of <em>being</em> or <em>exhibiting</em> that exact description.
+                    <ul>
+                        <li><code>ruze</code> (Fast) → <code>ruzei</code> (To be fast)</li>
+                        <li><code>kype</code> (Happy) → <code>kypei</code> (To be happy)</li>
+                    </ul>
+                </li>
+                <li><strong>Noun to Verb (<code>-o</code> / <code>-u</code> → <code>-oi</code> / <code>-ui</code>):</strong> Expresses utilizing the noun, producing the noun, or performing the primary action intrinsically associated with that noun.
+                    <ul>
+                        <li><code>boja</code> (Blood) → <code>bojai</code> (to bleed)</li>
+                        <li><code>foiso</code> (Building) → <code>foisoi</code> (To build)</li>
+                        <li><code>pesu</code> (Sound) → <code>pesui</code> (To sound / To emit noise)</li>
+                    </ul>
+                </li>
             </ul>
 
-            <p><strong>Noun to Verb:</strong></p>
+            <h4>3. Deriving to Modifiers (The <code>-e</code> Suffix)</h4>
             <ul>
-                <li><code>foiso</code> (building) → <code>foisoi</code> (to build)</li>
-                <li><code>pesu</code> (Sound) → <code>pesui</code> (To sound / To emit noise)</li>
+                <li><strong>Verb to Modifier (Participles/States: <code>-i</code> → <code>-ie</code>):</strong> Describes something that has undergone, is currently undergoing, or is the direct result of the action.
+                    <ul>
+                        <li><code>skagi</code> (To break) → <code>skagie</code> (Broken)</li>
+                        <li><code>xuni</code> (To burn) → <code>xunie</code> (Burnt / Burning)</li>
+                        <li><code>jami</code> (To write) → <code>jamie</code> (Written)</li>
+                        <li><code>zemi</code> (To cover) → <code>zemie</code> (Covered)</li>
+                        <li><code>sapi</code> (To make) → <code>sapie</code> (Made / Crafted)</li>
+                    </ul>
+                </li>
+                <li><strong>Noun to Modifier (<code>-o</code> → <code>-oe</code>):</strong> Describes something having the qualities of, made of, or fundamentally relating to the root noun.
+                    <ul>
+                        <li><code>xedo</code> (Metal) → <code>xedoe</code> (Metallic)</li>
+                        <li><code>dorso</code> (Water) → <code>dorsoe</code> (Wet / Aquatic)</li>
+                    </ul>
+                </li>
             </ul>
 
-            <p><strong>Noun to Modifier:</strong></p>
+            <h4>4. Deriving from Prepositions (The <code>y</code> Base)</h4>
+            <p>While you cannot append <code>-y</code> to a word to create a new preposition, base prepositions are fully capable of shifting into nouns, modifiers, or verbs to describe the physical or abstract nature of their structural bridge.</p>
             <ul>
-                <li><code>xedo</code> (Metal) → <code>xedoe</code> (Metallic)</li>
-                <li><code>dorso</code> (Water) → <code>dorsoe</code> (Wet / Aquatic)</li>
+                <li><strong>Preposition to Concrete Noun (<code>y</code> → <code>yo</code>):</strong> Represents the literal, tangible physical space or boundary defined by the preposition.
+                    <ul>
+                        <li><code>deky</code> (Inside) → <code>dekyo</code> (Interior / The physical inside space)</li>
+                        <li><code>sacy</code> (Outside) → <code>sacyo</code> (Exterior / The physical outside area)</li>
+                    </ul>
+                </li>
+                <li><strong>Preposition to Abstract Noun (<code>y</code> → <code>yu</code>):</strong> Represents the conceptual state, relationship, or intangible area defined by the preposition.
+                    <ul>
+                        <li><code>hemy</code> (Near) → <code>hemyu</code> (The surroundings / Proximity)</li>
+                        <li><code>tody</code> (Up / Above) → <code>todyu</code> (Height / The concept of being above)</li>
+                    </ul>
+                </li>
+                <li><strong>Preposition to Modifier (<code>y</code> → <code>ye</code>):</strong> Turns the directional bridge into a descriptive trait, indicating how an action is performed or the orientation of an object.
+                    <ul>
+                        <li><code>deky</code> (Inside) → <code>dekye</code> (Inward / Inwardly)</li>
+                        <li><code>zy</code> (To) → <code>zye</code> (Forward / Toward)</li>
+                    </ul>
+                </li>
+                <li><strong>Preposition to Verb (<code>y</code> → <code>yi</code>):</strong> Represents the active motion or process of enacting that spatial or logical relationship.
+                    <ul>
+                        <li><code>hemy</code> (Near) → <code>hemyi</code> (To approach / To near)</li>
+                        <li><code>ny</code> (Part of) → <code>nyi</code> (To integrate / To become a part of)</li>
+                    </ul>
+                </li>
             </ul>
 
-            <p><strong>Verb to Noun (Branching):</strong></p>
+            <h4>Double Derivation (Maximum Limit)</h4>
+            <p>You can push a word to its absolute mathematical limit by stacking two derivations. The parser reads this history sequentially from left to right.</p>
             <ul>
-                <li><code>jami</code> (To write) → <code>jamia</code> (Writer - Biological Noun)</li>
-                <li><code>jami</code> (To write) → <code>jamio</code> (Document / Scroll - Concrete Noun)</li>
-                <li><code>jami</code> (To write) → <code>jamiu</code> (Literature / The concept of writing - Abstract Noun)</li>
+                <li><code>guto</code> (Tool - Concrete Noun) → <code>gutoi</code> (To engineer / To use a tool - Verb) → <code>gutoia</code> (Engineer / Mechanic - Biological Agent)</li>
             </ul>
 
-            <p><strong>Verb to Modifier (Participles / States):</strong></p>
+            <h3>Rule 6: The Flexible SVO-T Template & Implied States</h3>
+            <p>While Fiwo relies on a linear <strong>SVO-T (Subject-Verb-Object-Time)</strong> sequence to maintain syntactic clarity, the parser is highly efficient and flexible for simple statements. Unnecessary slots can legally be left blank. However, when elaborating or building complex clauses, the syntax must always return to its strict baseline order:</p>
             <ul>
-                <li><code>skagi</code> (To break) → <code>skagie</code> (Broken)</li>
-                <li><code>xuni</code> (To burn) → <code>xunie</code> (Burnt / Burning)</li>
-                <li><code>jami</code> (To write) → <code>jamie</code> (Written)</li>
-                <li><code>zemi</code> (To cover) → <code>zemie</code> (Covered)</li>
-                <li><code>sapi</code> (To make) → <code>sapie</code> (Made / Crafted)</li>
+                <li><strong>Slot 1:</strong> Subject (The Doer)</li>
+                <li><strong>Slot 2:</strong> Verb (The Action)</li>
+                <li><strong>Slot 3:</strong> Object (The Target)</li>
+                <li><strong>Slot 4:</strong> Time (The Temporal Frame)</li>
             </ul>
-
-            <p><strong>Double Derivation (Maximum Limit):</strong></p>
-            <ul>
-                <li><code>guto</code> (Tool) → <code>gutoi</code> (To engineer / To use a tool) → <code>gutoia</code> (Engineer / Mechanic)</li>
-            </ul>
-
-            <h3>Rule 6: The Flexible SVO Template & Implied States</h3>
-            <p>While Fiwo relies on a linear SVO (Subject-Verb-Object) sequence to maintain syntactic clarity, the parser is highly efficient and flexible for simple statements. Unnecessary slots can legally be left blank. However, when elaborating or building complex clauses, the syntax must always return to its strict baseline order.</p>
+            <p>The parser officially recognizes this 4th syntactic slot at the absolute end of the sequence, strictly reserved for temporal adjuncts. To fill Slot 4 without crashing the sequence, the word <em>must</em> be an Abstract Noun (ending in the functional vowel <code>-u</code>) that explicitly relates to time. Because the parser reads strictly left-to-right, it "falls forward"—meaning it will fill the Object slot first, and if it encounters a temporal noun immediately after, it drops it safely into Slot 4.</p>
 
             <h4>Rule 6.1 — Intransitive Actions (The Optional Object)</h4>
-            <p>If a verb does not project its action onto a target (e.g., sleeping, walking, or moving), the Object slot is simply left empty.</p>
-            <p><strong>Syntax:</strong> <code>[Mood Tag (Optional)] + Subject + [Tense]Verb + [Modifier]</code></p>
+            <p>If a verb does not project its action onto a target (e.g., sleeping, walking, or moving), the Object slot is simply left empty. The parser will automatically skip Slot 3 and drop any following temporal noun directly into Slot 4.</p>
+            <p><strong>Syntax:</strong> <code>[Mood Tag (Optional)] + Subject + [Tense]Verb + [Modifier] + [Time (Optional)]</code></p>
             
             <p><strong>Parser Example:</strong></p>
             <ul>
-                <li><strong>Fiwo:</strong> <code>kyfap cyriq.</code></li>
-                <li><strong>Literal Breakdown:</strong> Bird-the + fly-[continuous].</li>
-                <li><strong>Meaning:</strong> The bird is actively flying.</li>
+                <li><strong>Fiwo:</strong> <code>kyfap cyriq nudu.</code></li>
+                <li><strong>Literal Breakdown:</strong> Bird-the + fly-[continuous] + today.</li>
+                <li><strong>Parser Logic:</strong> The parser fills Slot 1 (<code>kyfap</code>) and Slot 2 (<code>cyriq</code>). Recognizing the action is intransitive, it skips Slot 3 and seamlessly drops the temporal noun <code>nudu</code> into Slot 4.</li>
+                <li><strong>Meaning:</strong> The bird is actively flying today.</li>
             </ul>
 
             <h4>Rule 6.1.5 — The Empty Subject Slot (Commands & Context)</h4>
             <p>Because Fiwo relies on explicit functional vowels to identify word categories, the Subject slot may be legally left empty if the subject is overwhelmingly implied by context or a Mood Tag.</p>
-            <p>When the parser encounters a word ending in <strong>-i</strong> (a Verb) immediately at the start of a sequence or immediately following a Mood Tag, it registers the Subject slot as intentionally blank and proceeds directly with the Verb and Object.</p>
-            <p><strong>Syntax:</strong> <code>[Mood Tag] + [Empty Subject] + Verb + Object</code></p>
+            <p>When the parser encounters a word ending in <code>-i</code> (a Verb) immediately at the start of a sequence or immediately following a Mood Tag, it registers the Subject slot as intentionally blank and proceeds directly with the Verb, Object, and Time slots.</p>
+            <p><strong>Syntax:</strong> <code>[Mood Tag] + [Empty Subject] + Verb + Object + [Time (Optional)]</code></p>
+            
             
             <p><strong>Parser Example:</strong></p>
             <ul>
                 <li><strong>Fiwo:</strong> <code>Kop nojapi mosap luare.</code></li>
                 <li><strong>Literal Breakdown:</strong> [Command] + watch + tree-the + green.</li>
-                <li><strong>Parser Logic:</strong> <code>Kop</code> prepares a command. The parser hits <code>nojapi</code>, recognises the <code>i</code> verb vowel, and understands the subject (you) is implied. It falls forward to the object <code>mosap</code>.</li>
+                <li><strong>Parser Logic:</strong> <code>Kop</code> prepares a command. The parser hits <code>nojapi</code>, recognises the <code>i</code> verb vowel, and understands the subject (you) is implied. It falls forward to fill Slot 3 with the object <code>mosap</code>.</li>
                 <li><strong>Meaning:</strong> Look at the green tree.</li>
             </ul>
 
             <h4>Rule 6.2 — Descriptive Sentences & Stative Verbs</h4>
             <p>Because Fiwo relies on the "Look Left" principle for modifiers, simply placing a modifier at the end of a sequence does not create a complete sentence. Stacking modifiers simply creates a longer description of the noun.</p>
-            <p>To make a descriptive statement (e.g., "The animal <em>is</em> fast"), you must explicitly fill the SVO Verb slot. You achieve this by deriving the descriptive modifier into a <strong>Stative Verb</strong> by appending the verb functional vowel <code>-i</code>.</p>
+            <p>To make a descriptive statement (e.g., "The animal <em>is</em> fast"), you must explicitly fill the SVO-T Verb slot. You achieve this by deriving the descriptive modifier into a Stative Verb by appending the verb functional vowel <code>-i</code>.</p>
             <p>Once derived into a verb, it seamlessly accepts Fiwo's standard tense and aspect consonant suffixes.</p>
 
             <p><strong>1. The Noun Phrase vs. The Sentence</strong></p>
@@ -483,20 +544,20 @@
             <h4>Rule 6.5 — Zero Copula with Predicate Nouns</h4>
             <p>The Zero Copula is not limited to predicate modifiers. A noun may also serve as the predicate, asserting category membership or specific identity. The parser distinguishes a predicate noun from a compound subject by the strict absence of <code>lan</code> — two nouns appearing in sequence without <code>lan</code> between them are always read as subject plus predicate noun, never as a compound subject.</p>
             <p>Specificity marking on the predicate noun carries the semantic weight of the construction.</p>
-            <p><strong>Syntax:</strong> <code>[Subject] + [Predicate Noun]</code></p>
+            <p><strong>Syntax:</strong> <code>[Subject] + [Predicate Noun] + [Time (Optional)]</code></p>
 
             <p><strong>Parser Examples:</strong></p>
             <ul>
                 <li><strong>Fiwo:</strong> <code>mik nofar.</code>
                     <ul>
                         <li><strong>Literal Breakdown:</strong> I + person-some.</li>
-                        <li><strong>Meaning:</strong> I am a person. <em>(I belong to the category of persons)</em></li>
+                        <li><strong>Meaning:</strong> I am a person. (I belong to the category of persons)</li>
                     </ul>
                 </li>
                 <li><strong>Fiwo:</strong> <code>daq nofap.</code>
                     <ul>
                         <li><strong>Literal Breakdown:</strong> He + person-the.</li>
-                        <li><strong>Meaning:</strong> He is the person. <em>(He is that specific, known individual)</em></li>
+                        <li><strong>Meaning:</strong> He is the person. (He is that specific, known individual)</li>
                     </ul>
                 </li>
             </ul>
@@ -505,12 +566,12 @@
             <ul>
                 <li><strong>Fiwo:</strong> <code>mik lan nofar xalid.</code>
                     <ul>
-                        <li><strong>Meaning:</strong> A person and I moved. <em>(<code>lan</code> signals a compound subject — two entities performing one action)</em></li>
+                        <li><strong>Meaning:</strong> A person and I moved. (<code>lan</code> signals a compound subject — two entities performing one action)</li>
                     </ul>
                 </li>
                 <li><strong>Fiwo:</strong> <code>mik nofar xalid.</code>
                     <ul>
-                        <li><strong>Meaning:</strong> I, who am a person, moved. <em>(no <code>lan</code> — predicate noun reading, main verb follows after)</em></li>
+                        <li><strong>Meaning:</strong> I, who am a person, moved. (no <code>lan</code> — predicate noun reading, main verb follows after)</li>
                     </ul>
                 </li>
             </ul>
@@ -527,33 +588,37 @@
                 <li><strong>Meaning:</strong> I am the builder who built that building.</li>
             </ul>
 
-            <p><strong>Note:</strong> When a predicate noun construction requires tense, use the explicit copula verb <code>hi</code> as defined in Rule 6.6. Bare nouns cannot accept tense suffixes directly.</p>
+            <p><em>Note: When a predicate noun construction requires tense, use the explicit copula verb <code>hi</code> as defined in Rule 6.6. Bare nouns cannot accept tense suffixes directly.</em></p>
 
-            <h4>Rule 6.6 — The Explicit Tensed Copula (<code>hi</code>)</h4>
-            <p>While Fiwo uses the Zero Copula for all timeless, present-tense identity and predicate noun assertions, bare nouns cannot accept tense suffixes directly. When a speaker needs to map a predicate noun to a specific point in time, the explicit copula verb <strong><code>hi</code></strong> is deployed into the SVO Verb slot, acting as the structural anchor for Fiwo's standard consonant tense suffixes.</p>
-
-            <p><strong>1. The Strict Usage Limit</strong></p>
-            <p>To prevent conversational bloat, <code>hi</code> is <strong>strictly forbidden</strong> in simple present-tense identity statements. The Zero Copula already handles these mathematically.</p>
+            <h4>Rule 6.6: The Explicit Copula & The "Naked Root" Ban</h4>
+            <p>While Fiwo uses the Zero Copula for all timeless, present-tense identity and predicate assertions, there are times when a speaker must apply time, aspect, or serial chaining to a state of being. To achieve this, the explicit copula verb <code>hi</code> is deployed into the SVO-T Verb slot to act as a structural anchor.</p>
+            <p>However, to prevent conversational bloat in simple statements, the parser enforces a strict morphological limit on this word:</p>
+            
+            <p><strong>The Modification Requirement:</strong> The root verb <code>hi</code> is strictly forbidden from appearing in its unmodified, "naked" form. It may only be used when it is actively carrying a grammatical consonant suffix.</p>
             <ul>
-                <li><strong>Illegal:</strong> <code>Mik hi foisoiap.</code></li>
-                <li><strong>Legal:</strong> <code>Mik foisoiap.</code> <em>(I am the builder)</em></li>
+                <li><strong>Valid Suffixes:</strong> <code>hi</code> must be modified by a tense marker (e.g., past <code>d</code>, future <code>s</code>), an aspect marker (e.g., continuous <code>q</code>, perfect <code>k</code>), or the infinitive stacker (<code>t</code>).</li>
             </ul>
 
-            <p><strong>2. Applying Tense to Identity</strong></p>
-            <p><strong>Syntax:</strong> <code>[Subject] + hi-[Tense Suffix] + [Predicate Noun]</code></p>
+            <p><strong>Parser Logic:</strong> If the parser encounters the bare word <code>hi</code>, it instantly crashes. If it encounters a modified form, it accepts the verb and cleanly applies the designated time, flow, or serial chain to the state of being.</p>
 
             <p><strong>Parser Examples:</strong></p>
             <ul>
-                <li><strong>Fiwo:</strong> <code>Mik hid foisoiap.</code>
+                <li><strong>Illegal (Naked Root):</strong> <code>Mik hi nofap.</code>
                     <ul>
-                        <li><strong>Literal Breakdown:</strong> I + be-[past] + builder-the.</li>
-                        <li><strong>Meaning:</strong> I was the builder.</li>
+                        <li><strong>Why it crashes:</strong> <code>hi</code> lacks a suffix. The Zero Copula already handles this mathematically.</li>
                     </ul>
                 </li>
-                <li><strong>Fiwo:</strong> <code>Daq his nofap.</code>
+                <li><strong>Correct:</strong> <code>Mik nofap.</code></li>
+                <li><strong>Legal (Tense Modified):</strong> <code>Mik hid nofap.</code>
                     <ul>
-                        <li><strong>Literal Breakdown:</strong> He + be-[future] + person-the.</li>
-                        <li><strong>Meaning:</strong> He will be the person.</li>
+                        <li><strong>Meaning:</strong> I was the person. (The <code>d</code> suffix satisfies the modification requirement).</li>
+                    </ul>
+                </li>
+                <li><strong>Legal (Infinitive Stacker):</strong> <code>Mik fabi hit jany suk.</code>
+                    <ul>
+                        <li><strong>Literal Breakdown:</strong> I + want + to-be-[stacker] + against + you.</li>
+                        <li><strong>Parser Logic:</strong> The <code>t</code> stacker modifies the root <code>hi</code>, satisfying the requirement and legally locking it to the primary verb <code>fabi</code>. The preposition <code>jany</code> then bridges that established state of being directly to the object <code>suk</code>.</li>
+                        <li><strong>Meaning:</strong> I want to be against you.</li>
                     </ul>
                 </li>
             </ul>
@@ -570,50 +635,59 @@
 
             <h4>Basic Bridging Examples</h4>
 
-            <p><strong>1. Spatial Location (Noun to Noun):</strong></p>
             <ul>
-                <li><strong>Fiwo:</strong> <code>Bata ty zufo.</code></li>
-                <li><strong>Literal Breakdown:</strong> Food + on + bed.</li>
-                <li><strong>Meaning:</strong> The food is on the bed.</li>
-            </ul>
-
-            <p><strong>2. Directional Flow (Verb to Noun):</strong></p>
-            <ul>
-                <li><strong>Fiwo:</strong> <code>Dal xalid fy juro zy sydo.</code></li>
-                <li><strong>Literal Breakdown:</strong> He + move-[past] + from + city + to + house.</li>
-                <li><strong>Meaning:</strong> He traveled from the city to the house.</li>
-            </ul>
-
-            <p><strong>3. Root Transparency (Skipping a Modifier):</strong></p>
-            <ul>
-                <li><strong>Fiwo:</strong> <code>Dal hiciq ruze zy sydo.</code></li>
-                <li><strong>Literal Breakdown:</strong> He + walk-[continuous] + fast + to + house.</li>
-                <li><strong>Parser Logic:</strong> <code>zy</code> looks left, sees the modifier <code>ruze</code>, treats it as transparent, and anchors directly to the nearest root, which is the verb <code>hiciq</code>.</li>
-                <li><strong>Meaning:</strong> He is walking fast to the house.</li>
+                <li><strong>Spatial Location (Noun to Noun):</strong>
+                    <ul>
+                        <li><strong>Fiwo:</strong> <code>Bata ty zufo.</code></li>
+                        <li><strong>Literal Breakdown:</strong> Food + on + bed.</li>
+                        <li><strong>Meaning:</strong> The food is on the bed.</li>
+                    </ul>
+                </li>
+                <li><strong>Directional Flow (Verb to Noun):</strong>
+                    <ul>
+                        <li><strong>Fiwo:</strong> <code>Dal xalid fy juro zy sydo.</code></li>
+                        <li><strong>Literal Breakdown:</strong> He + move-[past] + from + city + to + house.</li>
+                        <li><strong>Meaning:</strong> He traveled from the city to the house.</li>
+                    </ul>
+                </li>
+                <li><strong>Root Transparency (Skipping a Modifier):</strong>
+                    <ul>
+                        <li><strong>Fiwo:</strong> <code>Dal hiciq ruze zy sydo.</code></li>
+                        <li><strong>Literal Breakdown:</strong> He + walk-[continuous] + fast + to + house.</li>
+                        <li><strong>Parser Logic:</strong> <code>zy</code> looks left, sees the modifier <code>ruze</code>, treats it as transparent, and anchors directly to the nearest root, which is the verb <code>hiciq</code>.</li>
+                        <li><strong>Meaning:</strong> He is walking fast to the house.</li>
+                    </ul>
+                </li>
             </ul>
 
             <h4>3. Prepositional Scope & Slot Reordering</h4>
             <p>Because prepositions strictly look left to anchor to the nearest noun or verb root, their sequential placement within the SVO sequence is highly literal. If you place a preposition at the absolute end of a fully populated SVO clause, it will instinctively anchor to the Object, not the Verb.</p>
-            <p>To prevent the parser from attaching an instrumental or spatial preposition to the wrong target, you must leverage <strong>Slot Reordering</strong>. If a prepositional phrase modifies the action itself, it must be slotted immediately after the Verb, but <em>before</em> the Object slot is filled.</p>
+            <p>To prevent the parser from attaching an instrumental or spatial preposition to the wrong target, you must leverage Slot Reordering. If a prepositional phrase modifies the action itself, it must be slotted immediately after the Verb, but before the Object slot is filled.</p>
             <p><strong>Parser Logic:</strong> The parser will lock the prepositional bridge to the action, process the target of the preposition, and then cleanly fall forward to the next available noun to fulfill the main SVO Object requirement.</p>
 
             <p><strong>Examples of Scope (Slot Reordering)</strong></p>
 
-            <p><strong>1. Modifying the Object (Standard Placement):</strong></p>
             <ul>
-                <li><strong>Fiwo:</strong> <code>Mik satsid mifap wy guto.</code></li>
-                <li><strong>Literal Breakdown:</strong> I + hit-[past] + animal-the + with + tool.</li>
-                <li><strong>Parser Logic:</strong> <code>wy</code> looks left. The nearest root is <code>mifap</code>.</li>
-                <li><strong>Meaning:</strong> I hit the animal [that possessed] the tool.</li>
+                <li><strong>Modifying the Object (Standard Placement):</strong>
+                    <ul>
+                        <li><strong>Fiwo:</strong> <code>Mik satsid mifap wy guto.</code></li>
+                        <li><strong>Literal Breakdown:</strong> I + hit-[past] + animal-the + with + tool.</li>
+                        <li><strong>Parser Logic:</strong> <code>wy</code> looks left. The nearest root is <code>mifap</code>.</li>
+                        <li><strong>Meaning:</strong> I hit the animal [that possessed] the tool.</li>
+                    </ul>
+                </li>
+                <li><strong>Modifying the Verb (Slot Reordering):</strong>
+                    <ul>
+                        <li><strong>Fiwo:</strong> <code>Mik satsid wy guto mifap.</code></li>
+                        <li><strong>Literal Breakdown:</strong> I + hit-[past] + with + tool + animal-the.</li>
+                        <li><strong>Parser Logic:</strong> <code>wy</code> looks left. The nearest root is now <code>satsid</code>. The parser anchors the tool to the action of hitting, then seamlessly moves forward to fill the SVO Object slot with <code>mifap</code>.</li>
+                        <li><strong>Meaning:</strong> I hit the animal using the tool.</li>
+                    </ul>
+                </li>
             </ul>
 
-            <p><strong>2. Modifying the Verb (Slot Reordering):</strong></p>
-            <ul>
-                <li><strong>Fiwo:</strong> <code>Mik satsid wy guto mifap.</code></li>
-                <li><strong>Literal Breakdown:</strong> I + hit-[past] + with + tool + animal-the.</li>
-                <li><strong>Parser Logic:</strong> <code>wy</code> looks left. The nearest root is now <code>satsid</code>. The parser anchors the tool to the action of hitting, then seamlessly moves forward to fill the SVO Object slot with <code>mifap</code>.</li>
-                <li><strong>Meaning:</strong> I hit the animal using the tool.</li>
-            </ul>
+            <h4>4. Note: Bridged Time vs. Slot 4 Time</h4>
+            <p>Prepositions are used when time is highly specific or logically bridged to the action (e.g., <code>dury dugu</code> - during the night, or <code>fecy fitydu</code> - until tomorrow). If you are simply stating a broad timeframe as an adverb (e.g., "today", "now", "always"), you do not need a preposition bridge; simply drop the bare temporal noun into Slot 4 at the end of the SVO-T sequence.</p>
 
             <h3>Rule 8: Pragmatic Mood Tags (The Optional Prefix)</h3>
             <p>In Fiwo, punctuation (like <code>?</code> or <code>!</code>) does not dictate the tone or intent of a sentence. Instead, pragmatics are handled explicitly at the very beginning of the sentence. This prepares the listener (or the parser) for exactly how to process the incoming information before the SVO sequence even begins.</p>
@@ -959,27 +1033,27 @@
 
             <h4>Parser Examples</h4>
 
-            <p><strong>1. Using Zero (<code>re</code>) for "Nothing"</strong></p>
+            <p><strong>1. Using Zero (<code>re</code>) for "Nothing" (Slot 3 Object)</strong></p>
             <ul>
                 <li><strong>Fiwo:</strong> <code>Mik karxid cemo re.</code></li>
-                <li><strong>Literal Breakdown:</strong> I + find-[past] + thing + zero.</li>
-                <li><strong>Parser Logic:</strong> <code>re</code> looks left to modify <code>cemo</code>. The Object slot is filled with exactly 0 things.</li>
+                <li><strong>Literal Breakdown:</strong> I (Slot 1) + find-[past] (Slot 2) + thing + zero (Slot 3).</li>
+                <li><strong>Parser Logic:</strong> <code>re</code> looks left to modify <code>cemo</code>. The SVO track safely completes with Slot 3 being filled by exactly 0 things.</li>
                 <li><strong>Meaning:</strong> I found nothing.</li>
             </ul>
 
-            <p><strong>2. Using "Every" (<code>late</code>) for "Always"</strong></p>
+            <p><strong>2. Using "Every" (<code>late</code>) for "Always" (Slot 4 Time)</strong></p>
             <ul>
-                <li><strong>Fiwo:</strong> <code>Daq usiq dionu late.</code></li>
-                <li><strong>Literal Breakdown:</strong> He + sleep-[continuous] + time + all.</li>
-                <li><strong>Parser Logic:</strong> The parser treats the block <code>dionu late</code> as a temporal noun modifying the entire action.</li>
-                <li><strong>Meaning:</strong> He is always sleeping.</li>
+                <li><strong>Fiwo:</strong> <code>Daq nomi batap dionu late.</code></li>
+                <li><strong>Literal Breakdown:</strong> He (Slot 1) + eats (Slot 2) + food-the (Slot 3) + time-all (Slot 4).</li>
+                <li><strong>Parser Logic:</strong> The parser fulfills the core SVO track (<code>Daq nomi batap</code>). It then falls forward into Slot 4 (Time). It reads the abstract noun <code>dionu</code> and allows the modifier <code>late</code> to look left and multiply it. The entire block acts as a temporal frame for the completed action.</li>
+                <li><strong>Meaning:</strong> He is always eating the food.</li>
             </ul>
 
-            <p><strong>3. Using "Any" (<code>kase</code>) for "Anywhere"</strong></p>
+            <p><strong>3. Using "Any" (<code>kase</code>) for "Anywhere" (Prepositional Bridge)</strong></p>
             <ul>
                 <li><strong>Fiwo:</strong> <code>Kup mik bifeis xalit zy rerpo kase?</code></li>
-                <li><strong>Literal Breakdown:</strong> [Question] + I + permitted-[stative verb] + move + to + place + any.</li>
-                <li><strong>Parser Logic:</strong> The preposition <code>zy</code> anchors the movement to the object <code>rerpo</code>, which is modified by <code>kase</code> (free choice).</li>
+                <li><strong>Literal Breakdown:</strong> [Question] + I (Slot 1) + permitted-[stative verb] (Slot 2) + move-[linker] + to + place + any.</li>
+                <li><strong>Parser Logic:</strong> The preposition <code>zy</code> anchors the movement directly to the object <code>rerpo</code>, which is independently modified by <code>kase</code> (free choice).</li>
                 <li><strong>Meaning:</strong> Am I allowed to go anywhere?</li>
             </ul>
 
@@ -1267,32 +1341,37 @@
 
             <h3>Rule 19: Modifier-of-Modifier Marking (Nested Modification)</h3>
             <p>Because Fiwo defaults to the "Look Left" principle (Rule 10) where modifiers independently attach to roots, you need a morphological flag to tell the parser when a modifier is actually modifying <em>another</em> modifier.</p>
-            <p>When a modifier modifies another modifier, the base modifier (the one being modified) receives the <strong><code>-m</code></strong> suffix.</p>
+            <p>When a modifier modifies another modifier, the base modifier (the one being modified) receives the <code>-m</code> suffix.</p>
 
-            <p><strong>Structure:</strong> <code>[Noun/Verb Root] + [Base Modifier]-m + [Modifying Modifier]</code></p>
+            <ul>
+                <li><strong>Structure:</strong> <code>[Noun/Verb Root] + [Base Modifier]-m + [Modifying Modifier]</code></li>
+            </ul>
 
             <h4>1. Solving the Ambiguity: Nested vs. Independent</h4>
             <p>The <code>-m</code> suffix explicitly signals to the parser that it should suspend the standard "Look Left" root attachment for the next word, and instead bind the following modifier to the flagged one.</p>
 
-            <p><strong>Nested Modifiers (With <code>-m</code>):</strong></p>
             <ul>
-                <li><strong>Fiwo:</strong> Sydop leupem cape.</li>
-                <li><strong>Literal Breakdown:</strong> House-the + red-[modified] + dark.</li>
-                <li><strong>Parser Logic:</strong> <code>leupem</code> signals that it is the target. The following modifier <code>cape</code> strictly modifies the red color, not the house.</li>
-                <li><strong>Meaning:</strong> The dark-red house.</li>
-            </ul>
-
-            <p><strong>Independent Modifiers (Without <code>-m</code>):</strong></p>
-            <ul>
-                <li><strong>Fiwo:</strong> Sydop leupe cape.</li>
-                <li><strong>Literal Breakdown:</strong> House-the + red + dark.</li>
-                <li><strong>Parser Logic:</strong> Without the flag, both <code>leupe</code> and <code>cape</code> skip over each other and independently modify the house.</li>
-                <li><strong>Meaning:</strong> The house that is red and dark.</li>
+                <li><strong>Nested Modifiers (With <code>m</code>):</strong>
+                    <ul>
+                        <li><strong>Fiwo:</strong> <code>Sydop leupem cape.</code></li>
+                        <li><strong>Literal Breakdown:</strong> House-the + red-[modified] + dark.</li>
+                        <li><strong>Parser Logic:</strong> <code>leupem</code> signals that it is the target. The following modifier <code>cape</code> strictly modifies the red color, not the house.</li>
+                        <li><strong>Meaning:</strong> The dark-red house.</li>
+                    </ul>
+                </li>
+                <li><strong>Independent Modifiers (Without <code>m</code>):</strong>
+                    <ul>
+                        <li><strong>Fiwo:</strong> <code>Sydop leupe cape.</code></li>
+                        <li><strong>Literal Breakdown:</strong> House-the + red + dark.</li>
+                        <li><strong>Parser Logic:</strong> Without the flag, both <code>leupe</code> and <code>cape</code> skip over each other and independently modify the house.</li>
+                        <li><strong>Meaning:</strong> The house that is red and dark.</li>
+                    </ul>
+                </li>
             </ul>
 
             <h4>2. Comparatives and Superlatives (The <code>jete</code> / <code>jeme</code> Extension)</h4>
             <p>Because Fiwo relies on an efficient, additive parser, there are no unique, dedicated suffixes for comparatives (like the English "-er") or superlatives (like "-est").</p>
-            <p>Instead, you achieve this mechanically by applying the <code>-m</code> suffix to a base trait and scaling it with the intrinsic quantity modifiers <strong><code>jete</code></strong> (more) or <strong><code>jeme</code></strong> (most). This proves the extensibility of the system: the <code>-m</code> suffix explicitly flags the base state, allowing the quantity modifiers to multiply or maximize it without breaking the SVO sequence.</p>
+            <p>Instead, you achieve this mechanically by applying the <code>-m</code> suffix to a base trait and scaling it with the intrinsic quantity modifiers <code>jete</code> (more) or <code>jeme</code> (most). This proves the extensibility of the system: the <code>-m</code> suffix explicitly flags the base state, allowing the quantity modifiers to multiply or maximize it without breaking the SVO sequence.</p>
 
             <p><strong>The Scaling Spectrum:</strong></p>
             <ul>
@@ -1301,12 +1380,27 @@
                 <li><strong>Superlative:</strong> <code>ruzem jeme</code> (Literal: fast-[modified] + most = fastest)</li>
             </ul>
 
-            <p><strong>Parser Example (Comparative)</strong></p>
+            <p><strong>Parser Example (Comparative):</strong></p>
             <ul>
-                <li><strong>Fiwo:</strong> Mifap ruzem jete.</li>
+                <li><strong>Fiwo:</strong> <code>Mifap ruzem jete.</code></li>
                 <li><strong>Literal Breakdown:</strong> Animal-the + fast-[modified] + more.</li>
                 <li><strong>Parser Logic:</strong> <code>ruzem</code> flags the trait. <code>jete</code> scales the trait. The entire nested block looks left to modify the animal.</li>
                 <li><strong>Meaning:</strong> The animal is faster.</li>
+            </ul>
+
+            <h4>3. Absolute Intensity (The 1-5 Scale)</h4>
+            <p>Just as verbs can be scaled using the numbers 1 through 5 as an intensity rating (Rule 22), descriptive modifiers can be subjected to this exact same mathematical scaling. By applying the <code>-m</code> suffix to a base trait and following it with a number, you explicitly rank the intensity of that description.</p>
+
+            <ul>
+                <li><strong>Parser Logic:</strong> Without the <code>m</code> flag, a number will skip the modifier and count the noun (e.g., <code>dreko tande raje</code> means "Five big rocks"). With the <code>m</code> flag, the number mathematically scales the trait itself.</li>
+            </ul>
+
+            <p><strong>Parser Example (Maximum Intensity):</strong></p>
+            <ul>
+                <li><strong>Fiwo:</strong> <code>Dreko tandem raje.</code></li>
+                <li><strong>Literal Breakdown:</strong> Rock + big-[modified] + five.</li>
+                <li><strong>Parser Logic:</strong> <code>tandem</code> explicitly flags the trait. The modifier <code>raje</code> (five) bonds to it, multiplying the scale of the size to its maximum absolute value.</li>
+                <li><strong>Meaning:</strong> An incredibly big rock. (Level 5 size).</li>
             </ul>
 
             <h3>Rule 20: Reflexivity and Reciprocity (The Mirror Modifiers)</h3>
@@ -1472,9 +1566,15 @@
                 <li><strong>Meaning:</strong> 109 people.</li>
             </ul>
 
-            <h4>4. Verb Intensity (Action Scaling)</h4>
-            <p>Numbers do not exclusively modify nouns. Because Fiwo's numbers are technically modifiers (ending in <code>-e</code>), they can also be placed immediately after a verb to scale the intensity or effort of the action.</p>
-            <p>Typically, the numbers 1 through 5 are used as an intuitive intensity scale (where 1 is minimal effort and 5 is maximum intensity).</p>
+            <h4>4. Intensity Scaling (Verbs & Modifiers)</h4>
+            <p>Numbers do not exclusively modify nouns. Because Fiwo's numbers are technically modifiers (ending in <code>-e</code>), they can also be deployed as an intuitive intensity scale—typically ranging from 1 (minimal effort/degree) to 5 (maximum intensity/absolute degree)—to scale verbs and other descriptions.</p>
+
+            <h4>4.1. Verb Intensity (Action Scaling)</h4>
+            <p>When placed immediately after a verb, the number scales the physical effort or intensity of the action.</p>
+
+            <blockquote>
+            <p><strong>Note on Frequency vs. Intensity:</strong> Placing a naked number immediately after a verb exclusively scales the physical effort or intensity of the action. To count the literal frequency of the action (e.g., doing something five times instead of doing it with level-5 intensity), you must use the frequency preposition <strong>igy</strong> defined in Rule 24.</p>
+            </blockquote>
 
             <ul>
                 <li><strong>Syntax:</strong> <code>[Subject] + [Verb] + [Number 1-5]</code></li>
@@ -1488,30 +1588,46 @@
             </ul>
 
             <p><strong>Intensity with an Object (Slot Ordering)</strong></p>
-            <p>When a sentence contains both an intensity number and an object, the intensity number must be placed <strong>immediately after the verb</strong> and strictly <strong>before the object</strong>. This mirrors the slot ordering rule established for modal modifiers in Rule 21.</p>
+            <p>When a sentence contains both an intensity number and an object, the intensity number must be placed immediately after the verb and strictly before the object. This mirrors the slot ordering rule established for modal modifiers in Rule 16.</p>
             <p>The parser reads the number first, bonds it to the verb as an intensity scale, and then falls forward to fill the object slot cleanly.</p>
 
-            <p><strong>Syntax:</strong> <code>[Subject] + [Verb] + [Intensity Number] + [Object]</code></p>
-
-            <p><strong>Parser Examples:</strong></p>
-
-            <p><strong>Fiwo:</strong> <code>Daq cukid raje nofar.</code></p>
             <ul>
-                <li><strong>Literal Breakdown:</strong> he + fight-[past] + five + person-some.</li>
-                <li><strong>Parser Logic:</strong> <code>raje</code> looks left and bonds to <code>cukid</code> as an intensity modifier. The parser then falls forward and reads <code>nofar</code> as the object.</li>
-                <li><strong>Meaning:</strong> He fought a person intensely.</li>
+                <li><strong>Syntax:</strong> <code>[Subject] + [Verb] + [Intensity Number] + [Object]</code></li>
+                <li><strong>Fiwo Example:</strong> <code>Daq cukid raje nofar.</code>
+                    <ul>
+                        <li><strong>Literal Breakdown:</strong> he + fight-[past] + five + person-some.</li>
+                        <li><strong>Parser Logic:</strong> <code>raje</code> looks left and bonds to <code>cukid</code> as an intensity modifier. The parser then falls forward and reads <code>nofar</code> as the object.</li>
+                        <li><strong>Meaning:</strong> He fought a person intensely.</li>
+                    </ul>
+                </li>
             </ul>
 
-            <p>Compare directly with the ambiguous alternative to see why slot ordering is critical:</p>
+            <p><strong>Compare directly with the ambiguous alternative to see why slot ordering is critical:</strong></p>
 
-            <p><strong>Fiwo:</strong> <code>Daq cukid nofar raje.</code></p>
             <ul>
-                <li><strong>Literal Breakdown:</strong> he + fight-[past] + person-some + five.</li>
-                <li><strong>Parser Logic:</strong> <code>raje</code> looks left and bonds to <code>nofar</code> as a quantity modifier, not to the verb.</li>
-                <li><strong>Meaning:</strong> He fought five people. <em>(quantity reading, not intensity)</em></li>
+                <li><strong>Fiwo:</strong> <code>Daq cukid nofar raje.</code>
+                    <ul>
+                        <li><strong>Parser Logic:</strong> <code>raje</code> looks left and bonds to <code>nofar</code> as a quantity modifier, not to the verb.</li>
+                        <li><strong>Meaning:</strong> He fought five people. (Quantity reading, not intensity).</li>
+                    </ul>
+                </li>
             </ul>
 
-            <p>When in doubt, remember: <strong>intensity always slots before the object, quantity always follows the noun it counts.</strong></p>
+            <p><em>When in doubt, remember: Intensity always slots before the object, quantity always follows the noun it counts.</em></p>
+
+            <h4>4.2. Modifier Intensity (Trait Scaling)</h4>
+            <p>You can also use the 1-5 scale to quantify the absolute intensity of a descriptive trait (e.g., "slightly big" or "incredibly fast"). To prevent the parser from reading the number as a noun multiplier, you must explicitly flag the description using the Nested Modifier suffix (<code>-m</code>) established in Rule 19.</p>
+
+            <ul>
+                <li><strong>Syntax:</strong> <code>[Noun/Verb Root] + [Base Modifier]-m + [Number 1-5]</code></li>
+                <li><strong>Fiwo Example:</strong> <code>Dreko tandem raje.</code>
+                    <ul>
+                        <li><strong>Literal Breakdown:</strong> rock + big-[modified] + five.</li>
+                        <li><strong>Parser Logic:</strong> <code>tandem</code> explicitly flags the trait as the target. The modifier <code>raje</code> (five) bonds strictly to the flagged trait, multiplying the scale of the size to its maximum absolute value rather than counting the rocks.</li>
+                        <li><strong>Meaning:</strong> An incredibly big rock. (Level 5 size).</li>
+                    </ul>
+                </li>
+            </ul>
 
             <h3>Rule 23: Negation (<code>nes</code>)</h3>
             <p>Negation in Fiwo is highly precise. The particle <code>nes</code> acts as a strict logical operator (a boolean NOT) that flips the meaning of whatever <em>immediately</em> follows it.</p>
@@ -1578,9 +1694,9 @@
                 <li><strong>Meaning:</strong> I didn't find the exact combination of food and water (implying you might have found one, but not both together).</li>
             </ul>
 
-            <h3>Rule 24: Ordinal Numbers & Fractions (Mathematical Bridges)</h3>
-            <p>In Fiwo, numbers are treated strictly as raw quantitative data (Modifiers). To express sequential order (ordinals like 1st, 2nd, 3rd) or mathematical division (fractions like half or a third), the language does not alter the number itself with messy suffixes or irregular vocabulary.</p>
-            <p>Instead, Fiwo uses specialized mathematical prepositions (words ending in the functional vowel <code>-y</code>) to build a structural bridge between the noun and the numerical data. Because these are prepositions, they strictly obey <strong>Rule 12 (Root Transparency)</strong>, allowing them to cleanly skip over any intervening adjectives to anchor to the root noun.</p>
+            <h3>Rule 24: Ordinal Numbers, Fractions & Frequency (Mathematical Bridges)</h3>
+            <p>In Fiwo, numbers are treated strictly as raw quantitative data (Modifiers). To express sequential order (ordinals like 1st, 2nd, 3rd), mathematical division (fractions like half or a third), or the frequency of an action (how many times it occurred), the language does not alter the number itself with messy suffixes or irregular vocabulary.</p>
+            <p>Instead, Fiwo uses specialized mathematical prepositions (words ending in the functional vowel <code>-y</code>) to build a structural bridge between the root word and the numerical data. Because these are prepositions, they strictly obey Rule 12 (Root Transparency), allowing them to cleanly skip over any intervening modifiers to anchor directly to the root noun or verb.</p>
 
             <h4>1. Ordinal Numbers (The <code>usy</code> Bridge)</h4>
             <p>To indicate the specific position or sequence of an item within a series, use the preposition <code>usy</code>. It anchors the root noun to its numerical rank.</p>
@@ -1658,6 +1774,47 @@
                     <ul>
                         <li><strong>Literal Breakdown:</strong> person + three + [out-of] + seven + sleep-[future].</li>
                         <li><strong>Meaning:</strong> Three out of seven people will sleep.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>3. Frequency (The <code>igy</code> Bridge)</h4>
+            <p>To express the frequency of an action (how many times it occurred), use the preposition <code>igy</code>. It acts as a mathematical bridge linking the action directly to a numerical count, ensuring the parser does not confuse the number with the Verb Intensity Scale (Rule 22).</p>
+
+            <ul>
+                <li><strong>Syntax:</strong> <code>[Subject] + [Verb] + [Optional Modifiers] + igy + [Number]</code></li>
+            </ul>
+
+            <p><strong>Parser Examples:</strong></p>
+
+            <p><strong>Basic Frequency:</strong></p>
+            <ul>
+                <li><strong>Fiwo:</strong> <code>Mik zopid igy race.</code>
+                    <ul>
+                        <li><strong>Literal Breakdown:</strong> I + jump-[past] + [at-frequency-of] + two.</li>
+                        <li><strong>Meaning:</strong> I jumped twice.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <p><strong>Root Transparency (Skipping a Modifier):</strong></p>
+            <ul>
+                <li><strong>Fiwo:</strong> <code>Daq hicid ruze igy rixe.</code>
+                    <ul>
+                        <li><strong>Literal Breakdown:</strong> He + walk-[past] + fast + [at-frequency-of] + three.</li>
+                        <li><strong>Parser Logic:</strong> <code>ruze</code> looks left to modify the verb <code>hicid</code>. <code>igy</code> looks left, treats the modifier <code>ruze</code> as completely transparent, anchors directly to the root verb <code>hicid</code>, and bridges it to <code>rixe</code>.</li>
+                        <li><strong>Meaning:</strong> He walked fast three times.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <p><strong>Slot Ordering with an Object:</strong></p>
+            <ul>
+                <li><strong>Fiwo:</strong> <code>Das satsid igy raje hoxop.</code>
+                    <ul>
+                        <li><strong>Literal Breakdown:</strong> She + hit-[past] + [at-frequency-of] + five + door-the.</li>
+                        <li><strong>Parser Logic:</strong> <code>igy</code> anchors the frequency bridge to the verb <code>satsid</code> before the parser falls forward to cleanly fill the standard Object slot with <code>hoxop</code>.</li>
+                        <li><strong>Meaning:</strong> She hit the door five times.</li>
                     </ul>
                 </li>
             </ul>
@@ -2161,4 +2318,4 @@
     <script data-goatcounter="https://joshthebirdy.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>
-</html>http://127.0.0.1:5500/index.html
+</html>
