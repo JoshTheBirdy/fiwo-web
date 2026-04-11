@@ -145,7 +145,7 @@ kyfa ;; Bird. - This refers to a flying animal, typically characterized by feath
 cosa ;; Skin - This refers to the thin layer of tissue forming the natural outer covering of the body.
 cada ;; Child - This word refers strictly to a human being in the biological stage of life between birth and puberty. (Distinct from jepa (offspring), which maps the relational link to a parent).
 wiza ;; Wing - This word identifies a modified forelimb or specialized biological appendage that enables an organism to fly or glide through the air.
-ijra ;; Tail - This word refers to the distinct, flexible appendage extending from the rear end of an animal's body.
+ijyra ;; Tail - This word refers to the distinct, flexible appendage extending from the rear end of an animal's body.
 irta ;; Egg - This word identifies the round or oval biological reproductive body laid by the females of many animals, containing the developing embryo.
 otma ;; Disease / Sickness - This word identifies a physical, biological disorder, infection, or abnormal condition that actively disrupts the physiological function and tissue of a living organism.
 ponxa ;; Virus - This word identifies an infective biological agent—typically consisting of nucleic acid within a protein coat—that is only able to multiply within the living cells of a host.
