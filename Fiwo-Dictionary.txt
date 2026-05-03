@@ -174,7 +174,7 @@ kaba ;; Horse - This refers to a large, solid-hoofed herbivorous mammal, traditi
 buva ;; Cow / Bovine - This identifies a large domesticated ungulate kept primarily as livestock for the production of meat or milk.
 puxa ;; Pig / Swine - This refers to a stout-bodied, omnivorous domesticated mammal with sparse bristly hair, kept primarily as livestock.
 xopa ;; Sheep - This refers to a domesticated ruminant mammal characterized by a thick woolly coat, typically kept in flocks for its wool or meat.
-rteta ;; Fruit - This identifies the fleshy, edible product of a tree or plant that naturally contains seeds and is consumed as food.
+arteta ;; Fruit - This identifies the fleshy, edible product of a tree or plant that naturally contains seeds and is consumed as food.
 zoba ;; Vegetable - This refers to the edible, biological matter of a plant—such as the leaves, stems, or roots—cultivated specifically for nutritional consumption.
 topza ;; Chest / Torso - This identifies the primary front surface of a biological entity's body, located strictly between the neck and the stomach.
 dorala ;; Back (Anatomy) - This refers to the rear surface of a human body from the shoulders to the hips, or the equivalent upper structural surface of an animal.
@@ -601,7 +601,7 @@ vome ;; Less / Fewer - This describes a mathematically smaller quantity, extent,
 jedle ;; Many / A lot / Numerous - his describes a subjectively large quantity, high volume, or great number of a specific entity.
 peze ;; Later / Subsequently - This describes an event or action occurring at a subsequent time relative to the current baseline.
 romve ;; Again / Repeatedly - This describes an action or state being repeated or occurring another time.
-psafe ;; Too / Excessively - This describes a quantity, degree, or state that goes beyond what is mathematically necessary, normal, or desirable. (This acts as the strict quantitative counterpart to uzume [enough] and fe [very], explicitly indicating an excess).
+slafe ;; Too / Excessively - This describes a quantity, degree, or state that goes beyond what is mathematically necessary, normal, or desirable. (This acts as the strict quantitative counterpart to uzume [enough] and fe [very], explicitly indicating an excess).
 nenoje ;; Blind / Sightless - We actually just coined this one together in our previous turn! It describes a biological entity mathematically lacking the ability to perceive visual data.
 glece ;; Which (Interrogative) - An interrogative modifier used to ask for the exact specification or choice between known alternatives (e.g., "Which book?").
 haibe ;; Still / Yet - Indicates the continuation of a state or action, confirming that a prior condition has not yet changed, stopped, or resolved.
@@ -648,7 +648,7 @@ kuri ;; Fear. - This verb means to be afraid of someone or something.
 gesi ;; Say / Speak. - This verb means to utter words so as to convey information.
 lini ;; Cause. - To make something happen or exist; to bring about a result or effect.
 loki ;; Read - This verb means to look at and comprehend the meaning of written or printed matter.
-lti ;; Come. - This verb means to move toward a specific location or the speaker.
+pli ;; Come. - This verb means to move toward a specific location or the speaker.
 maji ;; Breathe. - This verb means to take air into the lungs and expel it.
 mexi ;; Birth. - This verb means to give life to a child or offspring.
 mori ;; Grow. - This verb means to increase in physical size, quantity, or maturity over a period of time.
@@ -782,7 +782,7 @@ onasi ;; To plant / To cultivate - To actively grow, tend to, or farm biological
 kopi ;; To order / To command - To give an authoritative instruction or direct order to another entity.
 fuzi ;; To support / To back - To actively provide conceptual, logistical, or moral backing to a person, idea, or system.
 volni ;; To be willing to / To consent to - To have a favorable disposition, readiness, or uncoerced agreement to perform an action.
-vleki ;; To choose / To select - To actively pick out one or more physical or conceptual options from a larger set of alternatives.
+laeki ;; To choose / To select - To actively pick out one or more physical or conceptual options from a larger set of alternatives.
 ozoxi ;; To occupy / To take up - To fill a physical space, consume a duration of time, or hold a specific position.
 vahimi ;; Handle / Deal with - To actively direct, manage, or take organizational/disciplinary action regarding a situation, problem, or entity.
 bikli ;; Publish / Issue - To officially prepare and issue a book, journal, piece of media, or statement for broad public distribution.
