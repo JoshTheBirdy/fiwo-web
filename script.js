@@ -51,8 +51,12 @@ function renderDictionary() {
     const wordCount = document.getElementById('word-count');
     const grid = document.getElementById('dictionary-grid');
 
+    const combinedData = typeof derivedDictionaryData !== 'undefined' 
+        ? [...dictionaryData, ...derivedDictionaryData] 
+        : [...dictionaryData];
+
     function updateDisplay() {
-        let filteredData = dictionaryData.filter(item =>
+        let filteredData = combinedData.filter(item =>
             item.word.toLowerCase().includes(searchBar.value.toLowerCase()) ||
             item.english_equiv.toLowerCase().includes(searchBar.value.toLowerCase())
         );
@@ -166,8 +170,11 @@ function parseWord(rawWord) {
     // Safety check just in case dictionaryData hasn't loaded
     let sortedDict = [];
     if (typeof dictionaryData !== 'undefined') {
+        const combinedData = typeof derivedDictionaryData !== 'undefined'
+            ? [...dictionaryData, ...derivedDictionaryData]
+            : [...dictionaryData];
         // Sort dictionary by longest words first to prevent partial root matches
-        sortedDict = [...dictionaryData].sort((a, b) => b.word.length - a.word.length);
+        sortedDict = combinedData.sort((a, b) => b.word.length - a.word.length);
     }
 
     for (const entry of sortedDict) {
