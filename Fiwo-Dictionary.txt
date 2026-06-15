@@ -350,7 +350,6 @@ sanpo ;; Sand / Dust - This refers to a loose, granular physical substance consi
 sokso ;; Sock - A soft, flexible physical piece of clothing worn directly on the foot and lower leg to provide warmth and reduce friction inside a shoe.
 stalo ;; Star - This identifies a distant celestial object, consisting of a massive, luminous sphere of plasma, appearing as a point of light in the night sky.
 stiro ;; Line / Row / Queue - A physical sequence of entities arranged sequentially in a continuous line.
-suvo ;; Sugar - This refers to a sweet, crystalline physical substance obtained from various plants, used to alter the flavor of food or liquid.
 sweso ;; Sweat / Perspiration - The clear physical liquid excreted through the pores of the skin, typically functioning to regulate biological heat.
 sydo ;; House / Shelter. - This refers to a structure or place serving as a dwelling, providing protection from the elements and a living space for habitation.
 tandorso ;; Ocean / Sea - This refers to a massive, continuous physical body of saltwater that covers a vast structural portion of a planet's surface.

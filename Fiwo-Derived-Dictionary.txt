@@ -1199,7 +1199,6 @@ stirou ;; Linearity / Queue order. - The abstract concept of linearity, sequence
 stomiu ;; The act / Concept of giving. - The abstract concept, discipline, or instance of performing the action of giving.
 sudiu ;; The act / Concept of pushing. - The abstract concept, discipline, or instance of performing the action of pushing.
 sufiu ;; The act / Concept of turning. - The abstract concept, discipline, or instance of performing the action of turning.
-suvou ;; Sweetness. - The abstract state or quality of sweetness.
 swamiu ;; The act / Concept of putting. - The abstract concept, discipline, or instance of performing the action of putting.
 swesou ;; Perspiration / Sweating state. - The abstract physiological state of perspiration or active sweating.
 sycau ;; Origin / Potential / Genetic Blueprint. - The abstract potential, initial design, or origin stored within a seed.
@@ -1822,7 +1821,6 @@ staloi ;; To shine like a star / To highlight. - To actively highlight, star-per
 stepui ;; To narrate / To tell a story. - To actively narrate events, recount history, or tell a story.
 stiroi ;; To line up / To queue / To align. - To actively queue up, align in sequence, or draw a straight line.
 stramui ;; To team up / To cooperate. - To actively team up, organize a squad, or cooperate on a task.
-suvoi ;; To sweeten / To sugar. - To actively sweeten food, or sprinkle sugar.
 swesoi ;; To sweat / To perspire. - To actively excrete sweat from skin pores, or perspire.
 sycai ;; To sow / To implant / To propagate. - To actively plant seeds, scatter ideas, or propagate a concept.
 sydoi ;; To house / To lodge / To shelter. - To actively provide lodging, house occupants, or shelter entities.
@@ -2487,7 +2485,6 @@ stomie ;; Given / Undergone giving. - Describing an entity that has undergone, i
 stramue ;; Cooperative / Team-based. - Relating to teamwork; cooperative or team-based.
 sudie ;; Pushed / Undergone pushing. - Describing an entity that has undergone, is currently undergoing, or is the direct result of the action of pushing.
 sufie ;; Turned / Undergone turning. - Describing an entity that has undergone, is currently undergoing, or is the direct result of the action of turning.
-suvoe ;; Sweet / Sugary. - Having a sweet, sugary taste; rich in sucrose.
 swamie ;; Placed / Undergone putting. - Describing an entity that has undergone, is currently undergoing, or is the direct result of the action of putting.
 swesoe ;; Sweaty / Perspiring. - Covered in sweat, perspiring, or smelling of sweat.
 sycae ;; Seminal / Primary / Germinal. - Serving as a primary source or origin, containing potential for future growth.

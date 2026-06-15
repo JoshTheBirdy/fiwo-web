@@ -659,10 +659,11 @@
   <li><strong>Syntax:</strong> <code>[Subject] + [Predicate Noun] + [Time (Optional)]</code></li>
   <li><strong>Fiwo:</strong> <strong>mik nofar.</strong> (I am a person.)</li>
   <li><strong>Fiwo:</strong> <strong>daq nofap.</strong> (He is the specific person.)</li>
-  <li><em>Contrast with Compound Subjects:</em></li>
+  <li><em>Contrast with Compound Subjects &amp; The Parser Crash Rule:</em></li>
 <ul>
-  <li><strong>mik lan nofar xalid.</strong> (A person and I moved.)</li>
-  <li><strong>mik nofar xalid.</strong> (I, who am a person, moved.)</li>
+  <li><strong>mik lan nofar xalid.</strong> (A person and I moved. <em>Valid because <code>lan</code> bridges the subjects.</em>)</li>
+  <li><strong>mik nofar xalid.</strong> (<em>Fatal Syntax Error.</em> The parser reads <code>mik nofar</code> and resolves the Zero Copula. The SVO sequence is now CLOSED. Hitting the verb <code>xalid</code> without a clausal wall causes a parser crash.)</li>
+  <li><strong>mik tep nofar tel xalid.</strong> (I, who am a person, moved. <em>Valid appositive using relative brackets.</em>)</li>
 </ul>
 </ul>
 <h4>6. Predicate Nouns with Relative Clauses</h4>
@@ -696,6 +697,9 @@
   <li><strong>Kep:</strong> Fact / Objective statement. <em>(Note: This is strictly reserved for scientific facts, absolute truths, or when you need to be highly emphatic. It is not used for everyday observations).</em></li>
   <li><strong>Hap:</strong> Emotion / Subjective feeling.</li>
   <li><strong>Hop:</strong> Sarcasm / Ironic intent. <em>(Explicitly encodes sarcasm to prevent AI or cross-cultural misinterpretation).</em></li>
+  <li><strong>Bip:</strong> Firstly / Primary point. <em>(Introduces the first item in a discourse sequence).</em></li>
+  <li><strong>Xap:</strong> For example / Illustrative statement. <em>(Marks the sentence as an example).</em></li>
+  <li><strong>Sep:</strong> In sum / In conclusion. <em>(Introduces a summary or concluding statement).</em></li>
 </ul>
   <li><strong>Parser Examples:</strong></li>
 <ul>
@@ -951,6 +955,23 @@
   <li><em>Negating a Stacked Tense:</em></li>
 <ul>
   <li><strong>Daq nes xalidyq.</strong> (He + [Not] + move-[past-bridge-continuous]. Meaning: <em>He was not actively moving.</em>)</li>
+</ul>
+</ul>
+  <li><strong>Habitual &amp; Gnomic Aspect (Lexical Aspect):</strong></li>
+  <p>Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects which are handled via morphological suffixes, the <strong>Habitual Aspect</strong> (stating something that happens regularly, habitually, or as a general truth) is handled lexically by placing the modifier <strong><code>hyme</code></strong> (habitually / regularly) immediately after the verb.</p>
+<ul>
+  <li><em>Parser Logic (The Look Left Rule):</em> Because modifiers attach to the first root to their left, <code>hyme</code> must sit immediately after the verb, pushing the Object further right.</li>
+  <li><em>Present Habit (Gnomic Truth):</em></li>
+<ul>
+  <li><strong>Mik dormi hyme.</strong> (Meaning: <em>I swim habitually / I am a swimmer.</em>)</li>
+</ul>
+  <li><em>Past Habit (&quot;Used to&quot;):</em></li>
+<ul>
+  <li><strong>Mik dormid hyme.</strong> (Meaning: <em>I swam habitually / I used to swim.</em>)</li>
+</ul>
+  <li><em>Transitive Habit:</em></li>
+<ul>
+  <li><strong>Daq nomi hyme batap.</strong> (Meaning: <em>He habitually eats the food.</em> Placing <code>hyme</code> after the object would incorrectly modify the food, meaning &quot;habitual food&quot;.)</li>
 </ul>
 </ul>
 </ol>
@@ -1426,6 +1447,8 @@
   <li><strong><code>bul</code> (But):</strong> Introduces a contrasting independent clause.</li>
   <li><strong><code>rot</code> (Or - Clausal):</strong> Presents an alternative independent clause.</li>
   <li><strong><code>kad</code> (Because):</strong> Introduces a new clause that serves as the cause or reason for the previous one.</li>
+  <li><strong><code>vel</code> (While / Whereas):</strong> Introduces a contrasting or simultaneous independent clause.</li>
+  <li><strong><code>zol</code> (Although / Even though):</strong> Introduces a concessive independent clause, functioning as a hard wall.</li>
   <li><strong><code>can</code> (Then / Chronological Conjunction):</strong></li>
 <ul>
   <li><em>As a Conjunction:</em> Joins two independent actions that happen in sequence (X happened, then Y happened).</li>
@@ -1478,6 +1501,17 @@
   <li><strong>Mik karxid mosa lan nasa lan gofo luaref.</strong></li>
   <li><strong>Parser Logic:</strong> The chain [tree, plant, wood] is formed. The modifier <code>luare</code> (green) with the <code>-f</code> flag distributes backwards across every noun connected by <code>lan</code>.</li>
   <li><em></em>Meaning:<em> </em>I found a green tree, a green plant, and green wood.*</li>
+</ul>
+</ol>
+  <li><strong>The List Separator (<code>sek</code>):</strong> When sequential items—especially multi-digit number blocks built with <code>-t</code>—must be enumerated without the parser bonding them into a single sequence, the structural particle <code>sek</code> is placed between them. It acts as a phonetic wall that shatters the <code>-t</code> stacker bond, telling the parser: &quot;Finalize this item. The next word begins a new item.&quot;</li>
+<ul>
+  <li><strong>The Number Counting Problem:</strong> Without <code>sek</code>, counting individual multi-digit numbers is impossible because the <code>-t</code> stacker aggressively bonds all adjacent digits into a single integer. <code>sek</code> breaks this bond.</li>
+  <li><strong>Syntax (Number Enumeration):</strong> <code>[Number Block 1] + sek + [Number Block 2] + sek + [Number Block 3]</code></li>
+  <li><strong>bimet nozet sek bimet bimet sek bimet dewet.</strong> (Meaning: <em>10, 11, 12.</em>)</li>
+  <li><strong>Parser Logic:</strong> Reads <code>bimet nozet</code> → locks as integer 10. Hits <code>sek</code> → finalizes. Reads <code>bimet bimet</code> → locks as integer 11. Hits <code>sek</code> → finalizes. Reads <code>bimet dewet</code> → locks as integer 12.</li>
+  <li><strong>General Item Enumeration:</strong> <code>sek</code> can also separate any list of items without using <code>lan</code>, functioning as a spoken comma.</li>
+  <li><strong>Mik gidsid artetap sek drekop sek kyfap.</strong> (Meaning: <em>I bought the apple, the rock, the bird.</em>)</li>
+  <li><strong>Key Distinction:</strong> <code>lan</code> explicitly adds items together (logical AND). <code>sek</code> merely separates items in a sequence without asserting a logical relationship—it is neutral enumeration.</li>
 </ul>
 </ol>
 <hr>
@@ -1607,6 +1641,13 @@
   <li><strong>Syn mik plis pen mik kypeis.</strong></li>
   <li><em>Literal Breakdown:</em> [If] + I + come-[future] + [Therefore] + I + to-be-happy-[future].</li>
   <li><em>Meaning:</em> <em>If I come, therefore I will be happy.</em></li>
+</ul>
+  <li><em>Counterfactual Conditional (&quot;Would Have&quot;):</em></li>
+<ul>
+  <li><strong>Syn daq nomidyk batap can Hyp daq cenidyk.</strong></li>
+  <li><em>Literal Breakdown:</em> [If] + he + eat-[past-perfect] + food-the + [Then] + [Hypothetical] + he + live-[past-perfect].</li>
+  <li><em>Parser Logic:</em> The consequence is framed by the Mood Tag <code>Hyp</code>. This informs the parser that the following action (<code>cenidyk</code>) is a simulation of a reality that did not occur. Because it is evaluating a simulation in the past perfect tense, the meaning translates directly to &quot;would have&quot;.</li>
+  <li><em>Meaning:</em> <em>If he had eaten the food, then hypothetically he had lived (he would have lived).</em></li>
 </ul>
   <li><em>Habitual Conditional (&quot;Whenever&quot;):</em></li>
 <ul>
@@ -1744,6 +1785,26 @@
 <ul>
   <li><strong>Mik karxid panop suve.</strong> (Meaning: <em>I found your [formal] book.</em>)</li>
 </ul>
+</ul>
+</ol>
+<hr>
+<h3>Rule 36: Analytic Noun Compounding</h3>
+<p>In Fiwo, direct concatenation of two distinct nouns (e.g., <code>zaso bata</code>) triggers the Zero Copula and parses as &quot;The ground is food.&quot; Therefore, Fiwo does not form single-word compound nouns. To compound two concepts into a single idea (like &quot;potato&quot; or &quot;firetruck&quot;), you must use an analytical phrase.</p>
+<ol>
+  <li><strong>The Modifier Shift (Category Shift Compounding):</strong></li>
+<ul>
+  <li>Using standard Category Shifting (Rule 5), the secondary root is shifted into a modifier (ending in <code>-e</code>) and placed after the head noun.</li>
+  <li><em>Example (&quot;Potato&quot; / Ground Food):</em> <strong>bata zase</strong> (Head: <code>bata</code> [food], Modifier: <code>zase</code> [ground-like]). Meaning: <em>Ground food.</em></li>
+  <li><em>Example (&quot;Firetruck&quot;):</em> <strong>moblo fuege</strong> (Head: <code>moblo</code> [vehicle], Modifier: <code>fuege</code> [fire-related]). Meaning: <em>Fire vehicle.</em></li>
+</ul>
+  <li><strong>The Prepositional Bridge:</strong></li>
+<ul>
+  <li>Using structural bridges (Rule 13), the two nouns are linked using <code>zy</code> (of/pertaining to).</li>
+  <li><em>Example (&quot;Potato&quot;):</em> <strong>bata zy zaso</strong> (Meaning: <em>Food of the ground</em>).</li>
+</ul>
+  <li><strong>The Exception (Calendar Math):</strong></li>
+<ul>
+  <li>The <em>only</em> exception to this strict analytic compounding rule is the calendar system (Rule 34), which concatenates abstract day names (e.g., <code>bimedu</code> = day one / Monday). Because calendar dates are strict mathematical constructs, they are permitted as highly lexicalized, pre-compiled exceptions to the rule.</li>
 </ul>
 </ol>
         </section>
