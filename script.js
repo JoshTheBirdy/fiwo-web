@@ -8,21 +8,35 @@
 // Toggle side navigation
 const menuBtn = document.getElementById('menu-btn');
 const sideNav = document.getElementById('side-nav');
+const navOverlay = document.getElementById('nav-overlay');
 const navLinks = document.querySelectorAll('.side-nav a');
 const pages = document.querySelectorAll('.page');
 
-menuBtn.addEventListener('click', () => {
-    sideNav.classList.toggle('active');
-});
-
-// Show side nav on hover over menu button
-menuBtn.addEventListener('mouseenter', () => {
+// Nav open/close helpers
+function openNav() {
     sideNav.classList.add('active');
+    navOverlay.classList.add('active');
+    menuBtn.classList.add('active');
+}
+
+function closeNav() {
+    sideNav.classList.remove('active');
+    navOverlay.classList.remove('active');
+    menuBtn.classList.remove('active');
+}
+
+// Toggle nav on menu button click
+menuBtn.addEventListener('click', () => {
+    if (sideNav.classList.contains('active')) {
+        closeNav();
+    } else {
+        openNav();
+    }
 });
 
-// Auto-hide side nav when mouse leaves
-sideNav.addEventListener('mouseleave', () => {
-    sideNav.classList.remove('active');
+// Close nav when overlay is clicked
+navOverlay.addEventListener('click', () => {
+    closeNav();
 });
 
 // Handle navigation links for SPA feel
@@ -30,14 +44,26 @@ navLinks.forEach(link => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
         const targetId = link.getAttribute('href').substring(1);
+
+        // Update active nav link highlighting
+        navLinks.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+
+        // Switch active page
         pages.forEach(page => {
             page.classList.remove('active');
         });
         document.getElementById(targetId).classList.add('active');
+
         if (targetId === 'dictionary') {
             renderDictionary();
         }
-        sideNav.classList.remove('active'); // Close nav after selection
+
+        // Smooth scroll to top on section switch
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        // Close nav after selection
+        closeNav();
     });
 });
 
@@ -135,6 +161,20 @@ document.getElementById('close-definition-modal').addEventListener('click', () =
 window.addEventListener('click', (e) => {
     if (e.target === document.getElementById('definition-modal')) {
         document.getElementById('definition-modal').style.display = 'none';
+    }
+});
+
+// Close any open modal with Escape key
+window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        const storyModal = document.getElementById('story-modal');
+        const definitionModal = document.getElementById('definition-modal');
+        if (storyModal && storyModal.style.display === 'block') {
+            storyModal.style.display = 'none';
+        }
+        if (definitionModal && definitionModal.style.display === 'block') {
+            definitionModal.style.display = 'none';
+        }
     }
 });
 

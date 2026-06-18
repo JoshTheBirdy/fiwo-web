@@ -30,27 +30,34 @@ fap ;; Passive Voice Indicator - Structural tag placed at the clause start to ma
 ha ;; Oh / I see - Indicates sudden realization, acknowledgment, or understanding.
 hap ;; Emotional / Subjective - An expression of personal feeling or subjective experience.
 hop ;; Sarcastic / Ironic - Sarcastic or ironic intent, explicitly encoded to prevent logical misinterpretation.
+hyp ;; Hypothetical / Counterfactual - A pragmatic mood tag placed at the absolute start of a clause to indicate that the following statement is a simulation of a reality that does not exist. It translates the English concepts of
 jas ;; yes - Affirmation or agreement.
 jo ;; Hey / Attention - Sharp exclamation to command immediate attention or warn.
 kad ;; Because / For the reason that - A structural wall that introduces an entirely new independent clause (with its own subject and verb) that explains the reason for the previous clause.
 kep ;; Factual / Objective - An objective statement, scientific truth, or absolute fact, strictly excluding everyday observations.
+kof ;; Furthermore / Moreover / In addition - A structural particle used to introduce an additional point, fact, or argument.
 kop ;; Command / Imperative - A direct order or command.
 kup ;; Question / Request - An explicit inquiry or request for information.
 lan ;; Plus / And (Inline Additive) - Binds elements of the same grammatical category. Can be chained for lists of three or more.
-mik ;; I / me - First-person singular; the speaker's body and mind.
+mik ;; I / me - First-person singular; the speaker
 mis ;; Minus / Subtracted by - This is an immutable mathematical operator used to perform explicit subtraction within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used as the subject of a Zero Copula sentence to state a timeless mathematical equation (e.g., raje mis dewe tafe = 5 minus 2 is 3).
 muk ;; we / us (inclusive) - First-person plural inclusive; the speaker, the listener, and potentially others.
 mux ;; Times / Multiplied by - This is an immutable mathematical operator used to perform explicit multiplication within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used as the subject of a Zero Copula sentence to state a timeless mathematical equation (e.g., tafe mux dewe sluqe = 3 times 2 is 6).
 nak ;; we / us (exclusive) - First-person plural exclusive; the speaker and others, explicitly excluding the listener.
 nes ;; no / not - Strict logical operator of negation (boolean NOT); standalone negative interjection.
+nop ;; Inferred / Logical Evidence - A pragmatic mood tag indicating the speaker knows the statement is true through logical deduction or physical evidence.
 pen ;; so / therefore - Clausal wall introducing a direct result, consequence, or logical conclusion.
 pot ;; Decimal Point / Radix - This acts as a structural pivot within a numerical sequence. It explicitly signals to the parser that the whole integers have stopped, and any digits following it are to be read sequentially as fractional values. The parser reads the entire sequence, including the decimal pivot, as a single quantitative block until the final -t stacker is dropped.
+pov ;; Meanwhile / At the same time - A structural particle used to introduce an event or action happening concurrently with another.
 ram ;; it (inanimate) - Third-person singular inanimate; strictly an object, concept, plant, machine, or entity lacking agency.
 ron ;; Or (Inline Alternative) - Inline mathematical boolean OR; offers a choice between elements of the same grammatical category.
+rop ;; Reported / Hearsay Evidence - A pragmatic mood tag indicating the speaker knows the statement is true because they were told by someone else or read it somewhere.
 rot ;; or - Clausal wall presenting an alternative choice or independent clause.
 sal ;; Hello / Greetings - Acknowledges presence or initiates a social interaction.
+sek ;; List Separator / Spoken Comma - A structural particle that explicitly separates sequential items in a list or breaks the -t stacker bond between adjacent number blocks. It acts as a phonetic wall, telling the parser to finalize the current item and move to the next. Neutral enumeration (unlike lan, which asserts logical AND).
 sep ;; In sum / In conclusion - A pragmatic mood tag placed at the absolute start of a sentence to introduce a summary or conclusion.
 sil ;; this - Proximal deictic; the current or immediately preceding clause or concept.
+sop ;; Direct / Sensory Evidence - A pragmatic mood tag indicating the speaker knows the statement is true because they directly experienced it (e.g., saw, heard, or felt it happen).
 suk ;; you - Second-person singular; strictly the listener.
 suv ;; you (formal/respectful) - Second-person singular formal/respectful; used when directly addressing someone to show respect.
 syn ;; Condition Initiator - Marks a theoretical premise or conditional clause (if/when/whenever).
@@ -58,6 +65,7 @@ tan ;; that - Distal deictic; a conceptually distant, prior, or non-current clau
 tel ;; end of subordinate clause / close bracket - Closing bracket finalizing a subordinate or conditional clause. Optional at sentence boundaries (periods), but strictly mandatory mid-sentence or to resolve mirroring/nesting ambiguity.
 tep ;; subordinate predicate marker - Opening bracket introducing a subordinate or embedded relative clause. Open brackets are implicitly closed by a period (.) at the end of a sentence.
 tex ;; Goodbye / Farewell - Closes a social interaction or indicates departure.
+vax ;; However / On the other hand - A structural particle used to introduce a statement that contrasts with or seems to contradict something that has been said previously.
 vel ;; While / Whereas - Introduces a completely new, independent clause that occurs simultaneously alongside the previous clause, or presents a direct contextual contrast (whereas).
 wal ;; why - Interrogative clause variable for a reason or cause.
 wat ;; what - Interrogative variable for a thing or matter.
@@ -68,58 +76,214 @@ wox ;; Wow / Awe - An exclamation of positive surprise, wonder, or amazement.
 wug ;; How many / How much? (Interrogative) - An interrogative variable specifically holding the place of an unknown numerical quantity or mathematical amount. It sits directly in the SVO slot where the numerical answer is expected.
 wun ;; who - Interrogative variable for a person or agent.
 xap ;; For example - A pragmatic mood tag placed at the absolute start of a sentence to introduce an example or illustration.
+xom ;; In other words / That is to say - A structural particle used to introduce an explanation, clarification, or rephrasing of a previous statement.
 zol ;; Although / Even though - Introduces a concessive clause; it acts as a structural wall indicating that the fact in this clause makes the information in the next clause surprising, contrasting, or unexpected.
 
-Preposition
-acry ;; Across - Indicates a spatial bridge mapping movement or position from one side of a surface, boundary, or flat area to the opposite side.
-amby ;; Instead of / In place of - Indicating substitution of one entity or action for another.
-apawy ;; According to / In accordance with - A structural preposition indicating that an action or state strictly follows the rules, statements, or nature of the target noun.
-avly ;; Along - In a line parallel with, or next to the length of a surface or path.
-baxy ;; Behind - Indicates a spatial bridge where the subject is located at or directed toward the rear or back of a reference point.
-beqy ;; Beyond - Indicates a spatial or logical bridge mapping a position that is strictly past the physical limits, boundary, or scope of the reference point.
-by ;; by - Used to indicate agent, means, or source.
-cagy ;; for - This word indicates the purpose, destination, or intended recipient of an action or object.
-dawy ;; Due to / As a result of / Because of - A structural bridge linking an outcome strictly to the noun that caused it.
-deky ;; inside - Used for location within an enclosure.
-dury ;; During - Indicates a temporal bridge, mapping an action strictly to the timeframe of an ongoing event or period.
-dy ;; made of - Indicates the physical substance or material composition of the subject.
-eyjy ;; Except / Excluding - Indicating that the specified entity is not included in the statement.
-fazy ;; nature of - Indicates abstract characteristics, personality, or intrinsic nature; having the qualities of the object.
-fecy ;; Until / Up to - Indicates a temporal or spatial bridge extending continuously up to the absolute limit or termination point of an event or location.
-foly ;; After - Indicates that the main action occurs strictly subsequent to the referenced temporal baseline or event.
-fy ;; from - Used for origin or starting point
-hemy ;; near - Used for close proximity.
-hyby ;; Despite / In spite of - Indicating that an action or state occurs regardless of an obstacle or opposing force.
-igy ;; at the frequency of / times - Indicates a mathematical bridge linking an action to the exact numerical count of its occurrences.
-jany ;; Against - Indicates a bridge of physical contact involving pressure and support, or direct logical opposition/resistance to a concept.
-jicy ;; also - Indicates inclusion or mathematical addition, functioning as a bridge meaning in addition to or along with the target object.
-ky ;; at - Indicates general location, presence, or proximity at a specific point.
-ly ;; shaped like - Indicates that the subject shares the physical geometry or outline of the object, but not necessarily its material or function.
-mety ;; By means of / Through / Via - Indicates the method, process, tool, or pathway utilized to achieve a specific result or destination. (e.g., I learned it via reading).
-moxy ;; Among (them) / Within a group - Indicates a spatial or conceptual bridge where the subject is surrounded by, or included as a distinct part of, a larger defined group or set. (e.g., The apple among the grapes).
-my ;; containing - Indicates that the subject is holding the object inside it; specifies content rather than purpose.
-neswy ;; Without - Indicates a logical bridge of absence or the explicit lack of an accompanying object or trait.
-nizy ;; In front of / Ahead of - Indicates a spatial bridge where the subject is located at or directed toward the forward-facing exterior of a reference point.
-noky ;; down / below - Used for direction or position lower than a reference.
-ny ;; part of - Indicates the subject is an integral component or piece of the object, such as a body part or machine element.
-oxly ;; Since - Indicating the starting point of a period of time that continues to the present (temporal).
-pary ;; before - Indicates that the main action must conclude strictly prior to the referenced temporal baseline or event.
-piny ;; as / similar to - This word indicates that one thing resembles another or shares common characteristics without being identical.
-rewy ;; far - Situated at a great distance from; far away relative to a reference point.
-ry ;; owned by - Indicates strict ownership, legal possession, or belonging.
-sacy ;; outside - Used for a position external to the boundaries of an enclosure or object.
-taly ;; compared to / than - Used to establish a structural bridge between a modified subject or action and the baseline it is being measured against.
-tody ;; up / above - Used for direction or position higher than a reference.
-ty ;; on - Indicates physical contact with and support by a surface.
-usy ;; at the sequence of / ranking - This preposition indicates the ordinal position or sequence of a noun within a series.
-wy ;; with - Used for accompaniment or instrumentality.
-zety ;; about - Concerning, regarding, or strictly relating to the subject of a specific topic.
-zofy ;; Through - Indicates a spatial bridge where the subject enters one side of an environment, medium, or enclosure and exits the other.
-zory ;; Between - Indicates a spatial or logical bridge placing the subject directly in the interval that separates two distinct entities.
-zy ;; to - Used for direction toward a destination or outcome.
+Abstract Noun
+absu ;; Sense - An abstract faculty of perception, logic, or structural meaning (distinct from the physical organ itself).
+adihu ;; Consciousness / Awareness - The abstract state of being awake, perceiving reality, and having a subjective, self-aware experience.
+adrebu ;; Degree, Extent - Used when referring to the how much of an abstract concept (e.g., The extent of the problem).
+afymu ;; Economy - The abstract conceptual system governing the production, distribution, and consumption of societal resources.
+agcu ;; Mistake / Error - An action, decision, or judgment that is incorrect, misguided, or wrong.
+artu ;; Art - The conceptual expression or abstract application of human creative skill and imagination.
+asku ;; Reason - The abstract intellectual justification, motive, or logical premise behind an action or belief.
+astlu ;; Interest - The abstract conceptual feeling of wanting to know/learn about something, or an intangible advantage/benefit.
+atilu ;; Belief / Conviction - A firmly held abstract understanding, principle, or conceptual truth that a person accepts as real, even without absolute physical proof.
+atobu ;; Field - An abstract domain of study, specific area of conceptual interest, or theoretical sphere of activity.
+atxypu ;; Regret - A feeling of sadness, repentance, or disappointment over something that has happened or been done.
+axvu ;; Alliance - A union or association formed for mutual benefit, especially between groups, factions, or countries.
+aziku ;; Rule - This refers to an abstract constraint, principle, or guideline governing conduct or action, distinct from a strictly enforced formal law (iku).
+azmu ;; Sympathy / Compassion - Feelings of pity, sorrow, or shared concern for someone else
+bafu ;; Second. - This refers to the base unit of time, equal to one-sixtieth of a minute.
+bimedu ;; Monday - Monday; the first day of the week. Derived by compounding bime (one) and du (day).
+biwu ;; Problem. - This refers to a matter or situation regarded as unwelcome or harmful and needing to be dealt with and overcome.
+biznu ;; Company / Enterprise / Business - A conceptual human organization or structural enterprise legally engaged in commercial, industrial, or professional activities. (Distinct from the physical retail building xyro [Store] and the broader systemic concept of afymu [Economy]).
+bogu ;; Force. - This refers to strength or energy as an attribute of physical action or movement, or an influence that can change the motion of an object.
+cacodu ;; Diagnosis - The identification of the nature of an illness or other problem by examination of the symptoms.
+canpu ;; Community - The abstract social structure, shared identity, or conceptual bond uniting a group of individuals.
+caqu ;; Tactic / Strategic Move / Trick - An abstract conceptual step, planned maneuver, or clever method executed to gain an advantage or achieve a specific goal within a system or game.
+cihu ;; Morning - This refers to the early part of the day, typically from sunrise until the midpoint of the day.
+cufu ;; Goal - The abstract conceptual target or desired future outcome toward which systematic effort is directed.
+dahu ;; Value. - This refers to the relative worth, merit, or importance of a thing; or a numerical quantity assigned to a symbol or variable.
+decu ;; Attitude / Demeanor - An abstract psychological stance, settled way of thinking, or behavioral disposition toward a specific entity or situation.
+deqazu ;; Department / Faculty / Branch - An abstract conceptual division, academic faculty, or specialized branch within a larger institutional or corporate system.
+dewedu ;; Tuesday - Tuesday; the second day of the week. Derived by compounding dewe (two) and du (day).
+dionu ;; Time. - This refers to the indefinite continued progress of existence and events.
+dodu ;; Universe. - This word represents the entire universe or the broad context in which things exist.
+du ;; Day. - A period of time from sunrise to sunrise; current day.
+dugu ;; Night. - This refers to the period of darkness in each twenty-four hours; the time from sunset to sunrise.
+dumu ;; Minute. - This refers to a period of time equal to sixty seconds or one-sixtieth of an hour.
+ednu ;; Faith - Strong belief, trust, or conviction in a doctrine, system, or divine creator.
+efantu ;; Effort - The abstract conceptual measurement of physical or mental exertion required to achieve a goal.
+efzu ;; Harmony - The state of agreement, concord, peaceful cooperation, or pleasing musical notes sounded together.
+eguvu ;; Level / Standard / Rank - An abstract conceptual measurement of achievement, quality, or relative position on a vertical or hierarchical scale.
+epiwu ;; Action - The abstract conceptual state or fundamental process of doing something to achieve an aim.
+eru ;; War - A state of abstract or political conflict, competition, or severe hostility between different groups or nations.
+evmu ;; Accident - An event that happens unexpectedly and unintentionally, typically resulting in damage or injury.
+exopu ;; Rate - An abstract mathematical measure, quantity, or frequency typically measured against a separate baseline quantity.
+extanu ;; Lesson / Lecture - A period of learning or teaching; a structured block of educational instruction.
+facu ;; Side. - This identifies a position, area, or surface on the left or right of a central line.
+farlu ;; Health - The abstract conceptual state of being free from physical or psychological illness; overall systemic well-being.
+fawanu ;; Technology - The abstract concept, discipline, or application of scientific knowledge, techniques, and systems for practical purposes.
+fefu ;; End. - This defines the final part of something or its termination point.
+fipu ;; Software - The abstract programs, operational logic, and code information used by a computer system, distinct from the physical hardware.
+fituru ;; Future - The abstract temporal realm encompassing all time and theoretical events that are yet to come.
+fitydu ;; Tomorrow - This refers to the next day in the chronological sequence.
+fohu ;; Afternoon - This refers to the late part of the day, typically from the midpoint of the day until sunset.
+fulu ;; Data. - This refers to facts, statistics, or distinct pieces of information collected together for reference or analysis.
+gagu ;; Texture / Surface Quality. - Noun (Abstract). Definition: This refers to the feel, appearance, or consistency of a surface or a substance.
+getiku ;; Energy - The abstract mathematical or conceptual capacity for doing work or initiating physical activity.
+getsu ;; eriod of time / Phase - A specific, bounded segment or duration of time with a clear beginning and end. (This is how you isolate a period from the absolute, universal variable of Time [dionu]).
+gidu ;; Money. - This refers to a current medium of exchange in the form of coins and banknotes.
+gioxu ;; AI (Artificial Intelligence). - This refers to computer systems able to perform tasks that normally require human intelligence.
+glanu ;; Sex / Gender (Category) - The abstract demographic category or conceptual classification of a biological entity
+glokedu ;; Thursday - Thursday; the fourth day of the week. Derived by compounding gloke (four) and du (day).
+godu ;; Mind. - The abstract conceptual capacity for logical thought, critical understanding, processing complex information and memory.
+gomu ;; Hour. - This refers to a period of time equal to sixty minutes or one twenty-fourth of a day.
+govnu ;; Government - The abstract structural system, group of people, or institution that officially controls and makes decisions for a country, state, or organized community.
+gu ;; Number. - This refers to an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity.
+guipsu ;; Pride - A feeling of deep pleasure or satisfaction derived from one
+gypu ;; Internet. - This refers to the global system of interconnected computer networks; a virtual location or network structure.
+haku ;; Nostalgia / Homesickness - A sentimental longing or wistful affection for a period or place in the past.
+hautu ;; Music. - This refers to the art of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression of emotion.
+hedcu ;; Part. - This refers to a piece, segment, or component of a whole object or system.
+hisu ;; Name. - This identifies a word or set of words by which a person, animal, place, or thing is known.
+hupu ;; Center / Middle. - This refers to the point that is equally distant from every part of the circumference or ends of something.
+hykuxu ;; Exam / Test - A formal assessment of a person
+hyqu ;; Wisdom - The quality of having experience, knowledge, good judgment, and deep understanding of life.
+ibalu ;; Education - The abstract conceptual process of receiving or giving systematic instruction and acquiring knowledge.
+ibitu ;; Class - An abstract system of ordering society or categorizing items based on shared conceptual characteristics.
+idvu ;; Mystery / Secret - Something that is difficult or impossible to understand, explain, or uncover.
+iku ;; Law - A system of abstract rules created and enforced by an institution to regulate behavior and maintain order.
+imsu ;; Standard / Criterion - A level of quality or attainment, or a rule/principle by which something is judged.
+iqocu ;; Effect - The abstract conceptual change which is a direct mathematical result or consequence of a prior cause.
+isamu ;; Result - The abstract consequence, logical effect, or final mathematical outcome of a specific action or event.
+iubu ;; Failure - The state or condition of not meeting a desirable goal or standard; the lack of success.
+ivanu ;; North - This refers to the primary cardinal direction corresponding to the earth
+ivortu ;; South - This refers to the cardinal direction directly opposite to the north.
+ixuyju ;; Awe / Wonder - A feeling of reverential respect mixed with fear or wonder.
+jaru ;; Year. - The time it takes for a planet to complete one full revolution around its star; a period of time comprising 365 days.
+javuqu ;; Infection / Contagion - The process of infecting or the state of being infected by a disease-causing organism.
+jeflu ;; Development - The abstract process of conceptual growth, systemic progression, or evolution over time.
+jeju ;; Glory - High renown, honor, or praise won by notable achievements or majestic beauty.
+jobu ;; Job - An abstract conceptual role, task, or agreed-upon piece of work, especially one that is compensated.
+jokuwu ;; Vote / Election - A formal expression of choice or preference in an election or group decision.
+jormu ;; Case / Situation. - This refers to a set of circumstances or conditions in which one finds oneself; a state of affairs.
+juku ;; Shape / Form. - This refers to the external form, contours, or outline of someone or something.
+junu ;; Plan - A detailed conceptual proposal or abstract structural framework designed for achieving an objective.
+jyhu ;; Destiny / Fate - The events that will necessarily happen to a particular person or thing in the future, often pre-determined.
+keamu ;; Topic / Matter - This refers to the specific subject, theme, or abstract concept being actively discussed, processed, or considered.
+kewu ;; Luck / Fortune - Success or failure apparently brought by chance rather than one
+kimu ;; Death - The abstract conceptual state representing the permanent end of a biological life or system
+kompu ;; Match / Competition (Sporting Event) - An organized, time-bound contest or game between entities aiming to establish superiority or win based on a strict set of rules.
+kynu ;; Summer - The warmest season of the year, characterised by long days, high temperatures, and peak sunlight.
+ladu ;; Idea - A single, newly formed thought, inspiration, or concept in the mind.
+liru ;; Direction - This refers to the abstract spatial orientation, line, or course along which an entity moves, points, or faces.
+lisibu ;; Career / Cause / Major Undertaking - An abstract conceptual pursuit, a lifelong professional path, or a major dedicated undertaking (distinct from just a standard, day-to-day jobu).
+lozuxu ;; Song / Melody - A short metrical composition intended or adapted for singing; a distinct piece of music.
+luvwitu ;; University / Higher Education - A high-level conceptual institution of advanced academic learning, research, and degree qualification.
+mantu ;; Amount / Quantity - The conceptual measurement, total volume, or numerical value of an entity or resource. (This is the noun form you would use to say The amount of water is high, where as wug is the grammar word used to ask What amount? / How much?).
+maobu ;; Emotional Core - he abstract conceptual center of a person, often associated with deep intuition, morality, or emotional truth. (This is the conceptual understanding of the heart).
+melfu ;; Price. - This refers to the amount of money expected, required, or given in payment for something.
+merifu ;; Memory - The abstract conceptual faculty by which a mind or system stores, retains, and retrieves informational data.
+miju ;; Nature - The abstract inherent character, fundamental qualities, or conceptual essence of a thing.
+mu ;; Soul. - This refers to the immaterial essence, spiritual core, or animating force of a being, regarded as distinct from both the physical body and the intellectual mind.
+mydu ;; Model - A conceptual framework or abstract mathematical representation used to simulate, describe, or predict a system.
+naxu ;; Group. - This refers to a number of people or things that are located, gathered, or classed together.
+neuqu ;; Disgust - A feeling of revulsion or profound disapproval aroused by something unpleasant or offensive.
+noaju ;; Role - The abstract conceptual function assumed or part played by a person or thing in a particular situation.
+novu ;; Conspiracy - A secret plan by a group of people to do something unlawful, harmful, or deceitful.
+nu ;; Now. - Used for the present moment.
+nudu ;; Today - This refers to the current day.
+nuju ;; Policy - A conceptual course or abstract principle of action adopted or proposed by a governing body or business.
+nybu ;; Content / Substance - The abstract information, meaning, or subject matter contained within a document, speech, or medium.
+ocadu ;; Science - The abstract systematic enterprise that builds and organizes knowledge in the form of testable, logical explanations.
+ofxu ;; Shame - A painful feeling of humiliation, distress, or dishonor caused by consciousness of wrong behavior.
+ogiru ;; Experience - The abstract knowledge, familiarity, or practical wisdom gained from observing or undergoing events.
+okezu ;; Lie / Falsehood - An abstract statement deliberately intended to deceive or misrepresent reality.
+olifu ;; Research - The systematic, conceptual investigation into materials and sources to establish new facts.
+ongu ;; Betrayal - The act of breaking trust, being disloyal, or working secretly against one
+orku ;; Score / Mark / Points - An abstract numerical quantity or value assigned to represent achievement, performance, or a result in a test or game.
+osaju ;; West - This refers to the cardinal direction corresponding to the point where the sun sets, oriented to the left when facing north.
+ostu ;; East - This refers to the cardinal direction corresponding to the point where the sun rises, oriented to the right when facing north.
+ouzu ;; Mercy - Compassion, pity, or forgiveness shown toward someone whom it is within one
+oxahu ;; Project - An abstract conceptual plan of organized work, an enterprise, or a specific targeted undertaking.
+oycu ;; Debt - An obligation to pay or do something, typically financial, owed to another entity.
+pamu ;; Pain / suffering - This refers to physical suffering or discomfort; a distinct sensory experience of hurting or emotional suffering.
+parawu ;; Tradition / Custom - An abstract systemic belief, behavior, or cultural practice passed down continuously through generations.
+paswu ;; History - The abstract, continuous, and systematic record or study of past events.
+paxu ;; Pleasure / Enjoyment - The abstract sensory or conceptual experience of profound positive enjoyment, satisfaction, or physical gratification.
+pedu ;; Power / Influence. - This refers to the capacity or ability to direct or influence the behavior of others or the course of events.
+perinatu ;; Revolution - A massive, abstract conceptual paradigm shift, or the forcible systemic overthrow of a government (govnu) or social order.
+pesu ;; Sound. - This refers to vibrations that travel through the air or another medium and can be heard when they reach a person
+pizu ;; Guilt - The fact or state of having committed a specified or implied offense, crime, or moral wrong.
+pleycu ;; Congratulations / Praise - An expression of praise for an achievement or good wishes on a special occasion.
+pogafu ;; Peace - The abstract conceptual state of harmony, tranquility, and the complete mathematical absence of conflict.
+potu ;; Dot / Point - A conceptual point, a specific item/node on a list, or an abstract degree. (If you are referring to a physical, drawn dot on a piece of paper with ink, you would derive it into the concrete noun potuo).
+pozmu ;; Dream - This refers to the abstract sequence of images, ideas, emotions, and sensations that occur involuntarily in the mind during sleep.
+puru ;; Curiosity - A strong desire to know, learn, or investigate something.
+pyju ;; Chaos / Disorder - A state of complete confusion, lack of order, or randomness.
+rajedu ;; Friday - Friday; the fifth day of the week. Derived by compounding raje (five) and du (day).
+rawetu ;; Culture - The abstract social behavior, institutions, and conceptual norms transmitted across human societies.
+reaku ;; Theory - An abstract conceptual framework or system of ideas intended to explain a specific phenomenon or justify a practice.
+relxu ;; Relation / Relationship / Ties - The abstract conceptual connection, tie, or ongoing association between two or more entities, concepts, or people.
+retadu ;; Week - This refers to a continuous time period consisting of seven days.
+retedu ;; Sunday - Sunday; the seventh day of the week. Derived by compounding rete (seven) and du (day).
+rinu ;; Wealth - The abstract economic concept of an abundance of valuable possessions, resources, or financial value.
+roku ;; Dark. - This defines the absence of light or the state of being without illumination.
+rugoxu ;; Month - This refers to a period of time historically corresponding to a lunar cycle or a standard calendar division.
+semu ;; Meaning - This refers to the semantic intent, logical significance, or intended message behind a word, action, or concept.
+skoru ;; Market - The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange.
+sluqedu ;; Saturday - Saturday; the sixth day of the week. Derived by compounding sluqe (six) and du (day).
+socu ;; Society - The abstract structural system of human relationships, institutions, and shared culture existing together within a broad population. (Broader than canpu [Community], which implies a closer shared identity or local group).
+spelu ;; Game - A conceptual structured form of play or a competitive abstract system strictly governed by rules.
+stepu ;; Story - A structured conceptual narrative or abstract account of imaginary or real events.
+stramu ;; Team / Squad - An abstract social grouping of individuals assembled specifically for cooperative work, a sport, or a shared task.
+synaru ;; Condition / Prerequisite / requirement - An abstract requirement, prerequisite, or stipulation that must be met.
+sysu ;; Boredom - The state of feeling weary, restless, or uninterested due to lack of activity or stimulation.
+tafedu ;; Wednesday - Wednesday; the third day of the week. Derived by compounding tafe (three) and du (day).
+taicu ;; Party - A conceptual social gathering or a political faction organized for a specific shared purpose.
+taju ;; Envy / Jealousy - A feeling of discontented or resentful longing aroused by someone else
+tequ ;; Moment - A highly specific, brief abstract conceptual point or period in the flow of time.
+toxu ;; Psychology / Mentality - The abstract study, concept, or collective state of the mind and its cognitive processes.
+tsotu ;; Contentment. - This refers to a state of happiness and satisfaction.
+tusu ;; Winter - The coldest season of the year, characterised by short days, low temperatures, and dormant vegetation.
+udzidu ;; Appearance - The abstract conceptual state, outward visual presentation, or visible aspect of how an entity looks and is perceived by an observer.
+ufnu ;; Conflict - A serious disagreement, argument, or clash between opposing forces, ideas, or entities.
+ugvu ;; Ambition - A strong desire to do, achieve, or accomplish something great, typically requiring determination.
+uibu ;; Risk - A situation involving exposure to danger, harm, or loss.
+ukwolu ;; Embarrassment - A feeling of self-consciousness, shame, or awkwardness.
+ultu ;; Context - The circumstances, background, or setting that form the environment for an event, statement, or idea.
+uqu ;; Sign / Symbol - An abstract mark, gesture, or object that represents an idea, sound, word, or command.
+urfu ;; Signal - A gesture, action, or sound that is used to convey information, instructions, or commands.
+uxku ;; Success - The abstract accomplishment of an aim, purpose, or favorable outcome.
+uyzu ;; Justice - The abstract principle of moral rightness, equity, fairness, and the administration of law.
+valu ;; Opportunity / Chance - An abstract set of circumstances or a specific moment in time that makes it possible to do something favorable.
+vexu ;; Weather - The abstract conceptual state and overarching condition of the atmosphere at a specific place and time.
+vivu ;; Evening - The abstract period of time at the end of the day, strictly occurring between late afternoon (fohu) and full night (dugu).
+vofu ;; Spring - The season of renewal following winter, characterised by warming temperatures, lengthening days, and the growth of new vegetation.
+vywu ;; Rhythm / Beat - A strong, regular, repeated pattern of movement or sound.
+wecdu ;; Yesterday - This refers to the previous day that has elapsed.
+wedacu ;; Past - The abstract temporal realm encompassing all time and recorded events that have already elapsed.
+wegu ;; Angle. - The space between two intersecting lines; specific geometric properties.
+witu ;; Color. - This refers to the property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light.
+woru ;; Area / Region / District - A defined conceptual, political, or geographic division of space, land, or territory. (Distinct from the physical dirt/ground itself [zaso]).
+xeku ;; Country. - This refers to a nation with its own government, occupying a particular territory.
+xepytu ;; Right / Entitlement - A moral or legal entitlement to have or obtain something, or to act in a certain way without interference.
+xixu ;; Humor - The quality of being amusing, comic, or funny, especially as expressed in speech or action.
+xowu ;; Show / Performance - An organized cultural, artistic, or demonstrative event presented specifically for an audience to observe.
+xu ;; Type / Kind / Sort. - A category of entities having some common characteristics that distinguish them from others.
+xucu ;; Voice - The distinct sound produced by a person
+xufuku ;; Gratitude / Thankfulness - The abstract feeling of being thankful and showing appreciation.
+ywurdu ;; Crime / Offense - An action or omission that constitutes a severe offense punishable by law.
+zalmu ;; Politics / Governance - The abstract activities, affairs, and systemic processes associated with making decisions within groups, particularly regarding the distribution of power and resources in a government (govnu).
+zapu ;; System - An organized conceptual framework or set of interacting principles forming a complex whole.
+zenu ;; Care - The abstract conceptual provision of what is necessary for the health, welfare, or protection of an entity.
+zosu ;; Autumn / Fall - The season between summer and winter, characterised by cooling temperatures, shortening days, and the shedding of leaves.
+zuwu ;; Way / Manner. - This refers to a method, style, or custom of doing something.
 
 Biological Noun
-acina ;; Claw - This word identifies a sharp, curved, horny nail situated on the digit of an animal's foot, used for gripping or tearing.
+acina ;; Claw - This word identifies a sharp, curved, horny nail situated on the digit of an animal
 apla ;; Apple - The fleshy, round fruit of a specific widely cultivated tree, typically possessing a red or green skin and a crisp interior.
 arteta ;; Fruit - This identifies the fleshy, edible product of a tree or plant that naturally contains seeds and is consumed as food.
 ayja ;; Bark - The tough outer protective covering of the woody stems and roots of trees.
@@ -144,38 +308,37 @@ eava ;; Snake - A long, legless, carnivorous reptile of the suborder Serpentes.
 ebga ;; Twig - A very small, thin terminal branch of a tree or shrub.
 elsa ;; Bee - A stinging, winged insect known for its role in pollination and producing honey.
 eyza ;; Bear - A large, heavy mammal with thick fur and a very short tail.
-faga ;; Cousin (gender-neutral) - A gender-neutral biological relative who is the child of one's parent's sibling.
+faga ;; Cousin (gender-neutral) - A gender-neutral biological relative who is the child of one
 farlopa ;; Doctor / Medical Healer - This refers to a person who practices medicine and restores systemic well-being.
 fija ;; Ear - The biological organ responsible for the perception of sound.
 fota ;; Root. - This identifies the part of a plant that attaches it to the ground and absorbs water and nourishment.
 fuba ;; Fish - This identifies a cold-blooded vertebrate animal with gills and fins that lives strictly and entirely in water.
-fuka ;; Hand - This identifies the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb.
+fuka ;; Hand - This identifies the end part of a person
 furna ;; Fur - This word describes the dense coat of short, fine, soft hair on certain mammals, explicitly functioning as biological insulation. (Distinct from your broader word poka for hair).
 goda ;; Brain - This word identifies the central organ of the nervous system located inside the head, responsible for physically processing sensory and intellectual activity.
 grapa ;; Grape - A small, sweet biological berry that naturally grows in clusters on a vine.
 guza ;; Enemy - A person who is actively hostile toward, or bears deep ill will against, another; an adversary in a personal, social, or political conflict.
 hazba ;; Husband - This refers to a male spouse within a marital partnership.
-hobcada ;; Grandchild - A gender-neutral biological relative who is the child of one's child.
-hobcaqla ;; Grandson - A male biological relative who is the male child of one's child.
-hobcasla ;; Granddaughter - A female biological relative who is the female child of one's child.
+hobcada ;; Grandchild - A gender-neutral biological relative who is the child of one
+hobcaqla ;; Grandson - A male biological relative who is the male child of one
+hobcasla ;; Granddaughter - A female biological relative who is the female child of one
 horba ;; Horn - This word refers to a hard, permanent bony outgrowth—often curved and pointed—found on the heads of certain animals for defense or competition.
 huqa ;; Shoulder - The joint connecting the arm or forelimb with the torso.
 hyna ;; Monkey / Ape - A primate, typically having a tail and living in trees in tropical regions.
 ibalira ;; Teacher / Educator - This refers to a person who gives systematic instruction and provides knowledge.
 iega ;; Lion / Tiger - A large, carnivorous feline mammal.
-ijyra ;; Tail - This word refers to the distinct, flexible appendage extending from the rear end of an animal's body.
+ijyra ;; Tail - This word refers to the distinct, flexible appendage extending from the rear end of an animal
 ilada ;; Reptile - This identifies a cold-blooded, typically land-dwelling biological class characterized by scales and, often, a lack of limbs.
 ipka ;; Spider - An eight-legged predatory arachnid that spins webs to catch prey.
 irakso ;; Tear / Teardrop - The physical, saline liquid produced and shed by the eyes.
 irta ;; Egg - This word identifies the round or oval biological reproductive body laid by the females of many animals, containing the developing embryo.
 ixpa ;; Fungus / Mushroom - An organism (such as a mushroom or mold) that feeds on organic matter and lacks chlorophyll.
 jepa ;; Offspring - This refers to the immediate descendant produced by the reproduction of a living organism.
-jiqa ;; Sibling's child / Niece or Nephew (gender-neutral) - A gender-neutral biological relative who is the child of one's sibling.
 juma ;; Rival - A person who competes against another for the same objective, status, or superiority; a personal or ongoing competitor.
 kaba ;; Horse - This refers to a large, solid-hoofed herbivorous mammal, traditionally utilized by humans for riding or draft work.
 kika ;; Chicken / Fowl - A common domesticated biological bird, typically kept for its eggs or meat.
 kyfa ;; Bird. - This refers to a flying animal, typically characterized by feathers and wings.
-kyrana ;; Feather - This word refers to any of the flat, specialized epidermal structures that grow from a bird's skin to form its plumage.
+kyrana ;; Feather - This word refers to any of the flat, specialized epidermal structures that grow from a bird
 lica ;; Colleague - A person with whom one works in the same organisation, profession, or shared endeavour; a co-worker or professional peer.
 logega ;; Throat - This word identifies the internal muscular passage extending from the back of the mouth down toward the lungs and stomach.
 mana ;; Mother - This refers to the female parent of a biological offspring.
@@ -203,9 +366,8 @@ noja ;; Eye. - This identifies the organ of sight in humans and animals.
 noqsa ;; Man / Adult Male - This identifies a fully grown male human being.
 nosana ;; Woman / Adult Female - This identifies a fully grown female human being.
 nupa ;; Parent. - This refers to a father or mother, or a person or animal that produces offspring.
-nupasaqa ;; Parent's sibling / Aunt or Uncle (gender-neutral) - A gender-neutral biological relative who is the sibling of one's parent.
-nupasaza ;; Aunt - A female biological relative who is the sister of one's parent.
-nupataqa ;; Uncle - A male biological relative who is the brother of one's parent.
+nupasaza ;; Aunt - A female biological relative who is the sister of one
+nupataqa ;; Uncle - A male biological relative who is the brother of one
 nyta ;; Nose. - This identifies the part projecting above the mouth on the face of a person or animal, used for smelling.
 obta ;; Ant - A small, colonial social insect of the family Formicidae.
 otma ;; Disease / Sickness - This word identifies a physical, biological disorder, infection, or abnormal condition that actively disrupts the physiological function and tissue of a living organism.
@@ -223,7 +385,7 @@ sifa ;; Wife - This refers to a female spouse within a marital partnership.
 soxa ;; Body. - This refers to the physical structure of a person or an animal, comprising the material substance.
 syca ;; Seed. - This refers to the unit of reproduction of a flowering plant capable of developing into another such plant.
 taqa ;; Brother - This refers to a male sibling who shares one or both parents with another individual.
-topza ;; Chest / Torso - This identifies the primary front surface of a biological entity's body, located strictly between the neck and the stomach.
+topza ;; Chest / Torso - This identifies the primary front surface of a biological entity
 ucka ;; Seedling / Sprout - A young plant, especially one recently grown from a seed.
 upta ;; Eagle / Hawk - A large bird of prey with a curved beak and long, broad wings.
 uvga ;; Toe - Any of the five terminal digits of the foot.
@@ -233,21 +395,23 @@ vefa ;; Lung - The primary organ of respiration in humans and many other animals
 vira ;; Elephant - A very large herbivorous mammal characterized by a long trunk, tusks, and large ears.
 voha ;; Mouse / Rat - A small rodent characterized by a pointed snout, large ears, and a long, thin tail.
 vyma ;; Frog / Toad - A tailless amphibian with a short, squat body, long hind legs for leaping, and webbed feet.
-wasmana ;; Grandmother - A female biological relative who is the mother of one's parent.
-wasnupa ;; Grandparent - A gender-neutral biological relative who is a parent of one's parent.
-waspeba ;; Grandfather - A male biological relative who is the father of one's parent.
+wasmana ;; Grandmother - A female biological relative who is the mother of one
+wasnupa ;; Grandparent - A gender-neutral biological relative who is a parent of one
+waspeba ;; Grandfather - A male biological relative who is the father of one
 wiza ;; Wing - This word identifies a modified forelimb or specialized biological appendage that enables an organism to fly or glide through the air.
 woma ;; Worm - This refers to a burrowing, limbless, soft-bodied invertebrate biological organism.
 xopa ;; Sheep - This refers to a domesticated ruminant mammal characterized by a thick woolly coat, typically kept in flocks for its wool or meat.
 xufa ;; Arm. - This refers to each of the two upper limbs of the human body from the shoulder to the hand.
 zala ;; Bug / Insect. - This refers to a small invertebrate animal, often with a segmented body and legs.
-zipa ;; Face. - The front part of a biological entity's head, typically containing the eyes, nose, and mouth.
+zipa ;; Face. - The front part of a biological entity
 zoba ;; Vegetable - This refers to the edible, biological matter of a plant—such as the leaves, stems, or roots—cultivated specifically for nutritional consumption.
 zuta ;; To go out / Come out - To physically move from the interior of an enclosure or defined space to the exterior environment.
 
 Concrete Noun
 abeco ;; Plane - A powered, fixed-wing flying vehicle constructed from lightweight metals or composites.
 afxo ;; Ash - The solid, powdery physical residue left behind after combustible matter has been completely consumed by fire.
+agso ;; Drought - A prolonged period of abnormally low rainfall, leading to a severe shortage of water.
+arlo ;; Lightning - A natural electrical discharge of very short duration and high voltage, accompanied by a bright flash.
 atripo ;; Train - A connected series of physical railway carriages or wagons structurally linked and moved by a locomotive engine along tracks.
 avmo ;; Nail - A small, thin, pointed piece of metal with a flat head, driven into wood or other materials to hold them together.
 azo ;; Bowl - A deep, rounded physical container used for holding liquids or food.
@@ -263,21 +427,24 @@ cemo ;; thing - A universal substantive used to refer to any abstract entity, co
 ceto ;; Screen - A flat, physical display surface on an electronic device constructed to emit light and show visual information.
 cijo ;; Weapon - A physical tool, instrument, or device specifically engineered to inflict bodily harm or structural damage.
 clapo ;; Clock - A mechanical or electrical physical device constructed with a dial or display for mathematically measuring and showing time.
+cobo ;; Fog - A thick cloud of tiny water droplets suspended in the atmosphere at or near the earth
 cugo ;; Eraser - A piece of soft rubber or plastic used to rub out ink or pencil marks.
 dego ;; Table - A piece of furniture consisting of a flat physical top supported by one or more legs, used as a surface for working or eating.
 difo ;; Liquid. - This defines the state of matter that flows freely but is of constant volume.
 diko ;; Solid. - This defines the state of matter characterized by structural rigidity and resistance to force.
 diso ;; Gas. - This defines the state of matter that expands freely to fill any available space.
+dofemo ;; Court / Tribunal - A physical building, room, or tribunal where legal cases are heard and justice is administered.
 domlo ;; Rain - This identifies precipitating liquid water falling downward from clouds in the atmosphere to the ground.
 dorso ;; Water. - This serves as the prototype word for liquid matter and the substance essential for life.
 drafo ;; Wheel - A circular solid object designed to revolve on an axle, fixed below a vehicle or inside a machine to enable kinetic movement.
-dreko ;; Rock. - This denotes the hard, solid mineral material that is part of the earth's surface.
+dreko ;; Rock. - This denotes the hard, solid mineral material that is part of the earth
 duco ;; Mirror - A smooth, highly reflective surface (typically glass with a metallic backing) that forms a clear image of objects in front of it.
 ebo ;; Chain - A series of connected metal links or rings used for pulling, securing, or holding objects.
 egino ;; Engine - A complex mechanical machine with moving physical parts that converts fuel or power into kinetic motion.
 egpo ;; Tube - A long, hollow cylinder of metal, plastic, or glass, used for conveying or containing fluids or signals.
 epmo ;; Oven / Stove - An enclosed compartment or heated surface used for cooking, baking, or heating food.
 eqso ;; Saliva / Spit - The biological liquid naturally produced in the mouth to lubricate food and initiate physical digestion.
+erco ;; Thunder - A loud rumbling or crashing noise heard after a lightning flash due to the rapid expansion of heated air.
 eywo ;; Stairs / Steps - A series of steps leading from one level of a building to another, enabling ascent or descent.
 ezlo ;; Lid / Bottlecap - A removable cover or cap for a container, jar, or bottle.
 fato ;; Machine. - This refers to a device or engine and is the essential base concept for more complex items like computers.
@@ -290,12 +457,13 @@ fuego ;; Fire - The visible, tangible heat and light energy produced by active c
 fumo ;; Smoke - The visible, particulate gas or vapor naturally produced and emitted by an active fire (fueguo).
 geco ;; Space. - This word defines a specific area, room, or the physical extent in which objects are located.
 gejedo ;; Electricity / Power - The physical electrical power, current, or energy utilized to run machines, systems, or lighting.
-go ;; Word. - This refers to a single distinct meaningful element of speech or writing (adapted to distinguish from 'number').
+go ;; Word. - This refers to a single distinct meaningful element of speech or writing (adapted to distinguish from
 gofo ;; Wood. - This refers to the hard, fibrous plant material that makes up the main substance of trees.
 grexo ;; Celestial Object / Planet / Moon. - This refers to a natural physical entity, such as a planet, moon, or star, that exists in the universe.
 guto ;; Tool. - This refers to a device or implement, especially one held in the hand, used to carry out a particular function.
 hano ;; Container / Box. - This describes an enclosure or object used for holding or transporting something.
 hiro ;; Hole - An empty space, gap, or physical opening structurally present within a solid object or surface.
+hoqypo ;; Musical Instrument - A device created or adapted to make musical sounds.
 hoxo ;; Door / Gate. - This identifies an access point or movable barrier used to close an opening.
 hyho ;; Scissors - A hand-held cutting tool consisting of a pair of pivoted blades that slide past each other.
 ibazo ;; School - This identifies a physical building or structural institution explicitly designed for the teaching and education of students.
@@ -303,6 +471,7 @@ icifo ;; Plate - A flat, usually circular solid dish from which food is physical
 ifgo ;; Toothbrush - A small brush with a long handle, used specifically for cleaning the teeth.
 igro ;; Card - A small, flat, stiff piece of paper or plastic used as a physical token for identification, finance, or data storage.
 ikamo ;; Shirt - A physical piece of clothing designed specifically to cover the upper body and chest area (topza).
+imdo ;; Flood - An overflowing of a large amount of water beyond its normal confines, especially over what is normally dry land.
 ivxo ;; Hammer - A hand tool with a heavy metal head on a handle, used for driving nails, beating metal, or breaking objects.
 ixbo ;; Brick - A small rectangular block of fired clay or concrete, used in building.
 jadoro ;; Snow - This refers to atmospheric water vapor frozen into solid ice crystals and falling as light, white structural flakes.
@@ -326,8 +495,9 @@ meoko ;; Hat - A shaped physical covering for the head worn for environmental pr
 miho ;; Shelf - A flat, horizontal board or platform fixed to a wall or in a cupboard, used for holding objects.
 mitero ;; Meter - The standard physical unit of measurement for length or distance.
 moblo ;; Vehicle - A machine equipped with wheels, runners, or an engine, specifically built for transporting people or physical goods over a surface.
-monto ;; Mountain - This refers to a massive, natural solid elevation of the earth's surface, rising abruptly to a peak from the surrounding ground.
+monto ;; Mountain - This refers to a massive, natural solid elevation of the earth
 mudo ;; Mud - A wet, soft, and sticky physical mixture of earth (zaso) and water (dorso).
+mykoso ;; Fever - An abnormally high body temperature, often an immune response to an illness.
 nasbo ;; Medicine - This identifies a physical compound, preparation, or substance strictly used for the treatment, cure, or prevention of biological disease.
 odcano ;; Rope - A thick, heavy, and highly strong physical cord created by twisting or braiding smaller threads or fibers together.
 ogzo ;; Towel - A piece of absorbent cloth or paper used for drying things or oneself.
@@ -340,7 +510,7 @@ paelo ;; Paper - A thin, flat physical material manufactured from processed pulp
 pano ;; Book. - This refers to a written or printed work consisting of pages bound together, or a digital equivalent, used to store information.
 picalo ;; Hospital - This refers to a highly specialized physical building or institution providing medical and surgical treatment for sick or injured people.
 plaho ;; Lock - A mechanical or electronic fastening device constructed to physically secure a door or container until opened by a key or code.
-poco ;; There / That place. - This word refers to a specific physical location or spatial coordinate that is distant or removed from the speaker's current environment.
+poco ;; There / That place. - This word refers to a specific physical location or spatial coordinate that is distant or removed from the speaker
 pybo ;; Candle - A cylinder of wax or tallow with a central wick that is burned to provide light.
 rago ;; Roof / Ceiling - The structural top covering of a building (foiso) or the interior upper surface of an enclosed room.
 refo ;; Coffee - This identifies a brewed, dark physical liquid beverage prepared from the roasted and ground seeds (beans) of the coffee plant.
@@ -352,7 +522,7 @@ stalo ;; Star - This identifies a distant celestial object, consisting of a mass
 stiro ;; Line / Row / Queue - A physical sequence of entities arranged sequentially in a continuous line.
 sweso ;; Sweat / Perspiration - The clear physical liquid excreted through the pores of the skin, typically functioning to regulate biological heat.
 sydo ;; House / Shelter. - This refers to a structure or place serving as a dwelling, providing protection from the elements and a living space for habitation.
-tandorso ;; Ocean / Sea - This refers to a massive, continuous physical body of saltwater that covers a vast structural portion of a planet's surface.
+tandorso ;; Ocean / Sea - This refers to a massive, continuous physical body of saltwater that covers a vast structural portion of a planet
 tanko ;; Sugar - A sweet, crystalline physical substance naturally derived from plants, used strictly to sweeten food or drink.
 tapo ;; Here. - The specific physical location of the speaker or the immediate area being occupied.
 telfo ;; Telephone / Phone - A physical electronic device or machine used for two-way audio communication across a distance.
@@ -363,6 +533,7 @@ ucto ;; Spoon - A utensil consisting of a small, shallow oval bowl on a handle, 
 udbo ;; Button - A small disc or knob sewn onto a garment, used to fasten it or as decoration.
 ufaxo ;; Message - A physical or digitally recorded string of text, symbols, or audio meant to convey information from one entity to another.
 uho ;; Flag - A piece of cloth or fabric, usually rectangular, with a distinctive design used as a symbol or signal (specifically representing a nation or group).
+untexo ;; App / Application - A specific digital tool or concrete software program designed to perform a distinct function for the user on a device like a phone or computer.
 uovo ;; Pillow - A soft cushion used to support the head, especially when sleeping in bed.
 uymo ;; Umbrella - A folding canopy on a metal frame, used to protect against rain or sun.
 vixo ;; Bucket - A cylindrical open container with a handle, used for carrying liquids or loose materials.
@@ -377,6 +548,7 @@ wujo ;; Map - A physical or digital visual diagram representing an area of land 
 wyqo ;; Soap - A substance used with water for washing, bathing, and cleaning, typically made from natural oils or fats.
 xabeso ;; Wind - This describes the natural, perceptible kinetic movement of air  traveling across an environment.
 xadoro ;; River - This identifies a large, naturally flowing body of liquid water continuously moving along a path toward a sea, lake, or ocean.
+xako ;; Hail - Pellets of frozen rain or ice that fall in showers from cumulonimbus clouds.
 xaqbo ;; Gold - A highly valuable, naturally occurring yellow metal historically used for currency or decoration.
 xedo ;; Metal. - This describes a solid material that is typically hard, shiny, and conductive.
 xildo ;; Shield - A broad, solid piece of metal, wood, or synthetic material held to block or deflect physical blows and projectiles.
@@ -390,400 +562,6 @@ zaqo ;; Salt - A white crystalline physical mineral consisting of sodium chlorid
 zaso ;; Ground. - This term refers to the ground, soil, or the physical land surface.
 zikuzo ;; Bank - A concrete physical building or structural institution where money is legally kept, invested, or exchanged.
 zufo ;; Bed. - This refers to a piece of furniture or a prepared spot used for sleep or rest.
-
-Abstract Noun
-absu ;; Sense - An abstract faculty of perception, logic, or structural meaning (distinct from the physical organ itself).
-adihu ;; Consciousness / Awareness - The abstract state of being awake, perceiving reality, and having a subjective, self-aware experience.
-adrebu ;; Degree, Extent - Used when referring to the how much of an abstract concept (e.g., The extent of the problem).
-afymu ;; Economy - The abstract conceptual system governing the production, distribution, and consumption of societal resources.
-agcu ;; Mistake / Error - An action, decision, or judgment that is incorrect, misguided, or wrong.
-artu ;; Art - The conceptual expression or abstract application of human creative skill and imagination.
-asku ;; Reason - The abstract intellectual justification, motive, or logical premise behind an action or belief.
-astlu ;; Interest - The abstract conceptual feeling of wanting to know/learn about something, or an intangible advantage/benefit.
-atilu ;; Belief / Conviction - A firmly held abstract understanding, principle, or conceptual truth that a person accepts as real, even without absolute physical proof.
-atobu ;; Field - An abstract domain of study, specific area of conceptual interest, or theoretical sphere of activity.
-axvu ;; Alliance - A union or association formed for mutual benefit, especially between groups, factions, or countries.
-aziku ;; Rule - This refers to an abstract constraint, principle, or guideline governing conduct or action, distinct from a strictly enforced formal law (iku).
-azmu ;; Sympathy / Compassion - Feelings of pity, sorrow, or shared concern for someone else's misfortune or pain.
-bafu ;; Second. - This refers to the base unit of time, equal to one-sixtieth of a minute.
-bimedu ;; Monday - Monday; the first day of the week. Derived by compounding bime (one) and du (day).
-biwu ;; Problem. - This refers to a matter or situation regarded as unwelcome or harmful and needing to be dealt with and overcome.
-biznu ;; Company / Enterprise / Business - A conceptual human organization or structural enterprise legally engaged in commercial, industrial, or professional activities. (Distinct from the physical retail building xyro [Store] and the broader systemic concept of afymu [Economy]).
-bogu ;; Force. - This refers to strength or energy as an attribute of physical action or movement, or an influence that can change the motion of an object.
-canpu ;; Community - The abstract social structure, shared identity, or conceptual bond uniting a group of individuals.
-caqu ;; Tactic / Strategic Move / Trick - An abstract conceptual step, planned maneuver, or clever method executed to gain an advantage or achieve a specific goal within a system or game.
-cihu ;; Morning - This refers to the early part of the day, typically from sunrise until the midpoint of the day.
-cufu ;; Goal - The abstract conceptual target or desired future outcome toward which systematic effort is directed.
-dahu ;; Value. - This refers to the relative worth, merit, or importance of a thing; or a numerical quantity assigned to a symbol or variable.
-decu ;; Attitude / Demeanor - An abstract psychological stance, settled way of thinking, or behavioral disposition toward a specific entity or situation.
-deqazu ;; Department / Faculty / Branch - An abstract conceptual division, academic faculty, or specialized branch within a larger institutional or corporate system.
-dewedu ;; Tuesday - Tuesday; the second day of the week. Derived by compounding dewe (two) and du (day).
-dionu ;; Time. - This refers to the indefinite continued progress of existence and events.
-dodu ;; Universe. - This word represents the entire universe or the broad context in which things exist.
-du ;; Day. - A period of time from sunrise to sunrise; current day.
-dugu ;; Night. - This refers to the period of darkness in each twenty-four hours; the time from sunset to sunrise.
-dumu ;; Minute. - This refers to a period of time equal to sixty seconds or one-sixtieth of an hour.
-ednu ;; Faith - Strong belief, trust, or conviction in a doctrine, system, or divine creator.
-efantu ;; Effort - The abstract conceptual measurement of physical or mental exertion required to achieve a goal.
-efzu ;; Harmony - The state of agreement, concord, peaceful cooperation, or pleasing musical notes sounded together.
-eguvu ;; Level / Standard / Rank - An abstract conceptual measurement of achievement, quality, or relative position on a vertical or hierarchical scale.
-epiwu ;; Action - The abstract conceptual state or fundamental process of doing something to achieve an aim.
-eru ;; War - A state of abstract or political conflict, competition, or severe hostility between different groups or nations.
-evmu ;; Accident - An event that happens unexpectedly and unintentionally, typically resulting in damage or injury.
-exopu ;; Rate - An abstract mathematical measure, quantity, or frequency typically measured against a separate baseline quantity.
-facu ;; Side. - This identifies a position, area, or surface on the left or right of a central line.
-farlu ;; Health - The abstract conceptual state of being free from physical or psychological illness; overall systemic well-being.
-fawanu ;; Technology - The abstract concept, discipline, or application of scientific knowledge, techniques, and systems for practical purposes.
-fefu ;; End. - This defines the final part of something or its termination point.
-fituru ;; Future - The abstract temporal realm encompassing all time and theoretical events that are yet to come.
-fitydu ;; Tomorrow - This refers to the next day in the chronological sequence.
-fohu ;; Afternoon - This refers to the late part of the day, typically from the midpoint of the day until sunset.
-fulu ;; Data. - This refers to facts, statistics, or distinct pieces of information collected together for reference or analysis.
-gagu ;; Texture / Surface Quality. - Noun (Abstract). Definition: This refers to the feel, appearance, or consistency of a surface or a substance.
-getiku ;; Energy - The abstract mathematical or conceptual capacity for doing work or initiating physical activity.
-getsu ;; eriod of time / Phase - A specific, bounded segment or duration of time with a clear beginning and end. (This is how you isolate a period from the absolute, universal variable of Time [dionu]).
-gidu ;; Money. - This refers to a current medium of exchange in the form of coins and banknotes.
-gioxu ;; AI (Artificial Intelligence). - This refers to computer systems able to perform tasks that normally require human intelligence.
-glanu ;; Sex / Gender (Category) - The abstract demographic category or conceptual classification of a biological entity's sex or gender identity.
-glokedu ;; Thursday - Thursday; the fourth day of the week. Derived by compounding gloke (four) and du (day).
-godu ;; Mind. - The abstract conceptual capacity for logical thought, critical understanding, processing complex information and memory.
-gomu ;; Hour. - This refers to a period of time equal to sixty minutes or one twenty-fourth of a day.
-govnu ;; Government - The abstract structural system, group of people, or institution that officially controls and makes decisions for a country, state, or organized community.
-gu ;; Number. - This refers to an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity.
-gypu ;; Internet. - This refers to the global system of interconnected computer networks; a virtual location or network structure.
-haku ;; Nostalgia / Homesickness - A sentimental longing or wistful affection for a period or place in the past.
-hautu ;; Music. - This refers to the art of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression of emotion.
-hedcu ;; Part. - This refers to a piece, segment, or component of a whole object or system.
-hisu ;; Name. - This identifies a word or set of words by which a person, animal, place, or thing is known.
-hupu ;; Center / Middle. - This refers to the point that is equally distant from every part of the circumference or ends of something.
-hyqu ;; Wisdom - The quality of having experience, knowledge, good judgment, and deep understanding of life.
-ibalu ;; Education - The abstract conceptual process of receiving or giving systematic instruction and acquiring knowledge.
-ibitu ;; Class - An abstract system of ordering society or categorizing items based on shared conceptual characteristics.
-idvu ;; Mystery / Secret - Something that is difficult or impossible to understand, explain, or uncover.
-iku ;; Law - A system of abstract rules created and enforced by an institution to regulate behavior and maintain order.
-imsu ;; Standard / Criterion - A level of quality or attainment, or a rule/principle by which something is judged.
-iqocu ;; Effect - The abstract conceptual change which is a direct mathematical result or consequence of a prior cause.
-isamu ;; Result - The abstract consequence, logical effect, or final mathematical outcome of a specific action or event.
-iubu ;; Failure - The state or condition of not meeting a desirable goal or standard; the lack of success.
-ivanu ;; North - This refers to the primary cardinal direction corresponding to the earth's northern magnetic pole or the upward orientation on a standard map.
-ivortu ;; South - This refers to the cardinal direction directly opposite to the north.
-jaru ;; Year. - The time it takes for a planet to complete one full revolution around its star; a period of time comprising 365 days.
-jeflu ;; Development - The abstract process of conceptual growth, systemic progression, or evolution over time.
-jeju ;; Glory - High renown, honor, or praise won by notable achievements or majestic beauty.
-jobu ;; Job - An abstract conceptual role, task, or agreed-upon piece of work, especially one that is compensated.
-jormu ;; Case / Situation. - This refers to a set of circumstances or conditions in which one finds oneself; a state of affairs.
-juku ;; Shape / Form. - This refers to the external form, contours, or outline of someone or something.
-junu ;; Plan - A detailed conceptual proposal or abstract structural framework designed for achieving an objective.
-jyhu ;; Destiny / Fate - The events that will necessarily happen to a particular person or thing in the future, often pre-determined.
-keamu ;; Topic / Matter - This refers to the specific subject, theme, or abstract concept being actively discussed, processed, or considered.
-kewu ;; Luck / Fortune - Success or failure apparently brought by chance rather than one's own actions.
-kimu ;; Death - The abstract conceptual state representing the permanent end of a biological life or system's existence.
-kompu ;; Match / Competition (Sporting Event) - An organized, time-bound contest or game between entities aiming to establish superiority or win based on a strict set of rules.
-kynu ;; Summer - The warmest season of the year, characterised by long days, high temperatures, and peak sunlight.
-ladu ;; Idea - A single, newly formed thought, inspiration, or concept in the mind.
-liru ;; Direction - This refers to the abstract spatial orientation, line, or course along which an entity moves, points, or faces.
-lisibu ;; Career / Cause / Major Undertaking - An abstract conceptual pursuit, a lifelong professional path, or a major dedicated undertaking (distinct from just a standard, day-to-day jobu).
-luvwitu ;; University / Higher Education - A high-level conceptual institution of advanced academic learning, research, and degree qualification.
-mantu ;; Amount / Quantity - The conceptual measurement, total volume, or numerical value of an entity or resource. (This is the noun form you would use to say The amount of water is high, where as wug is the grammar word used to ask What amount? / How much?).
-maobu ;; Emotional Core - he abstract conceptual center of a person, often associated with deep intuition, morality, or emotional truth. (This is the conceptual understanding of the heart).
-melfu ;; Price. - This refers to the amount of money expected, required, or given in payment for something.
-merifu ;; Memory - The abstract conceptual faculty by which a mind or system stores, retains, and retrieves informational data.
-miju ;; Nature - The abstract inherent character, fundamental qualities, or conceptual essence of a thing.
-mu ;; Soul. - This refers to the immaterial essence, spiritual core, or animating force of a being, regarded as distinct from both the physical body and the intellectual mind.
-mydu ;; Model - A conceptual framework or abstract mathematical representation used to simulate, describe, or predict a system.
-naxu ;; Group. - This refers to a number of people or things that are located, gathered, or classed together.
-noaju ;; Role - The abstract conceptual function assumed or part played by a person or thing in a particular situation.
-novu ;; Conspiracy - A secret plan by a group of people to do something unlawful, harmful, or deceitful.
-nu ;; Now. - Used for the present moment.
-nudu ;; Today - This refers to the current day.
-nuju ;; Policy - A conceptual course or abstract principle of action adopted or proposed by a governing body or business.
-nybu ;; Content / Substance - The abstract information, meaning, or subject matter contained within a document, speech, or medium.
-ocadu ;; Science - The abstract systematic enterprise that builds and organizes knowledge in the form of testable, logical explanations.
-ofxu ;; Shame - A painful feeling of humiliation, distress, or dishonor caused by consciousness of wrong behavior.
-ogiru ;; Experience - The abstract knowledge, familiarity, or practical wisdom gained from observing or undergoing events.
-okezu ;; Lie / Falsehood - An abstract statement deliberately intended to deceive or misrepresent reality.
-olifu ;; Research - The systematic, conceptual investigation into materials and sources to establish new facts.
-ongu ;; Betrayal - The act of breaking trust, being disloyal, or working secretly against one's country, group, or a person.
-orku ;; Score / Mark / Points - An abstract numerical quantity or value assigned to represent achievement, performance, or a result in a test or game.
-osaju ;; West - This refers to the cardinal direction corresponding to the point where the sun sets, oriented to the left when facing north.
-ostu ;; East - This refers to the cardinal direction corresponding to the point where the sun rises, oriented to the right when facing north.
-ouzu ;; Mercy - Compassion, pity, or forgiveness shown toward someone whom it is within one's power to punish or harm.
-oxahu ;; Project - An abstract conceptual plan of organized work, an enterprise, or a specific targeted undertaking.
-oycu ;; Debt - An obligation to pay or do something, typically financial, owed to another entity.
-pamu ;; Pain / suffering - This refers to physical suffering or discomfort; a distinct sensory experience of hurting or emotional suffering.
-parawu ;; Tradition / Custom - An abstract systemic belief, behavior, or cultural practice passed down continuously through generations.
-paswu ;; History - The abstract, continuous, and systematic record or study of past events.
-paxu ;; Pleasure / Enjoyment - The abstract sensory or conceptual experience of profound positive enjoyment, satisfaction, or physical gratification.
-pedu ;; Power / Influence. - This refers to the capacity or ability to direct or influence the behavior of others or the course of events.
-perinatu ;; Revolution - A massive, abstract conceptual paradigm shift, or the forcible systemic overthrow of a government (govnu) or social order.
-pesu ;; Sound. - This refers to vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear.
-pizu ;; Guilt - The fact or state of having committed a specified or implied offense, crime, or moral wrong.
-pogafu ;; Peace - The abstract conceptual state of harmony, tranquility, and the complete mathematical absence of conflict.
-potu ;; Dot / Point - A conceptual point, a specific item/node on a list, or an abstract degree. (If you are referring to a physical, drawn dot on a piece of paper with ink, you would derive it into the concrete noun potuo).
-pozmu ;; Dream - This refers to the abstract sequence of images, ideas, emotions, and sensations that occur involuntarily in the mind during sleep.
-puru ;; Curiosity - A strong desire to know, learn, or investigate something.
-pyju ;; Chaos / Disorder - A state of complete confusion, lack of order, or randomness.
-rajedu ;; Friday - Friday; the fifth day of the week. Derived by compounding raje (five) and du (day).
-rawetu ;; Culture - The abstract social behavior, institutions, and conceptual norms transmitted across human societies.
-reaku ;; Theory - An abstract conceptual framework or system of ideas intended to explain a specific phenomenon or justify a practice.
-relxu ;; Relation / Relationship / Ties - The abstract conceptual connection, tie, or ongoing association between two or more entities, concepts, or people.
-retadu ;; Week - This refers to a continuous time period consisting of seven days.
-retedu ;; Sunday - Sunday; the seventh day of the week. Derived by compounding rete (seven) and du (day).
-rinu ;; Wealth - The abstract economic concept of an abundance of valuable possessions, resources, or financial value.
-roku ;; Dark. - This defines the absence of light or the state of being without illumination.
-rugoxu ;; Month - This refers to a period of time historically corresponding to a lunar cycle or a standard calendar division.
-semu ;; Meaning - This refers to the semantic intent, logical significance, or intended message behind a word, action, or concept.
-skoru ;; Market - The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange.
-sluqedu ;; Saturday - Saturday; the sixth day of the week. Derived by compounding sluqe (six) and du (day).
-socu ;; Society - The abstract structural system of human relationships, institutions, and shared culture existing together within a broad population. (Broader than canpu [Community], which implies a closer shared identity or local group).
-spelu ;; Game - A conceptual structured form of play or a competitive abstract system strictly governed by rules.
-stepu ;; Story - A structured conceptual narrative or abstract account of imaginary or real events.
-stramu ;; Team / Squad - An abstract social grouping of individuals assembled specifically for cooperative work, a sport, or a shared task.
-synaru ;; Condition / Prerequisite / requirement - An abstract requirement, prerequisite, or stipulation that must be met.
-sysu ;; Boredom - The state of feeling weary, restless, or uninterested due to lack of activity or stimulation.
-tafedu ;; Wednesday - Wednesday; the third day of the week. Derived by compounding tafe (three) and du (day).
-taicu ;; Party - A conceptual social gathering or a political faction organized for a specific shared purpose.
-taju ;; Envy / Jealousy - A feeling of discontented or resentful longing aroused by someone else's possessions, qualities, or luck.
-tequ ;; Moment - A highly specific, brief abstract conceptual point or period in the flow of time.
-toxu ;; Psychology / Mentality - The abstract study, concept, or collective state of the mind and its cognitive processes.
-tsotu ;; Contentment. - This refers to a state of happiness and satisfaction.
-tusu ;; Winter - The coldest season of the year, characterised by short days, low temperatures, and dormant vegetation.
-udzidu ;; Appearance - The abstract conceptual state, outward visual presentation, or visible aspect of how an entity looks and is perceived by an observer.
-ufnu ;; Conflict - A serious disagreement, argument, or clash between opposing forces, ideas, or entities.
-ugvu ;; Ambition - A strong desire to do, achieve, or accomplish something great, typically requiring determination.
-uibu ;; Risk - A situation involving exposure to danger, harm, or loss.
-ultu ;; Context - The circumstances, background, or setting that form the environment for an event, statement, or idea.
-uqu ;; Sign / Symbol - An abstract mark, gesture, or object that represents an idea, sound, word, or command.
-urfu ;; Signal - A gesture, action, or sound that is used to convey information, instructions, or commands.
-uxku ;; Success - The abstract accomplishment of an aim, purpose, or favorable outcome.
-uyzu ;; Justice - The abstract principle of moral rightness, equity, fairness, and the administration of law.
-valu ;; Opportunity / Chance - An abstract set of circumstances or a specific moment in time that makes it possible to do something favorable.
-vexu ;; Weather - The abstract conceptual state and overarching condition of the atmosphere at a specific place and time.
-vivu ;; Evening - The abstract period of time at the end of the day, strictly occurring between late afternoon (fohu) and full night (dugu).
-vofu ;; Spring - The season of renewal following winter, characterised by warming temperatures, lengthening days, and the growth of new vegetation.
-vywu ;; Rhythm / Beat - A strong, regular, repeated pattern of movement or sound.
-wecdu ;; Yesterday - This refers to the previous day that has elapsed.
-wedacu ;; Past - The abstract temporal realm encompassing all time and recorded events that have already elapsed.
-wegu ;; Angle. - The space between two intersecting lines; specific geometric properties.
-witu ;; Color. - This refers to the property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light.
-woru ;; Area / Region / District - A defined conceptual, political, or geographic division of space, land, or territory. (Distinct from the physical dirt/ground itself [zaso]).
-xeku ;; Country. - This refers to a nation with its own government, occupying a particular territory.
-xixu ;; Humor - The quality of being amusing, comic, or funny, especially as expressed in speech or action.
-xowu ;; Show / Performance - An organized cultural, artistic, or demonstrative event presented specifically for an audience to observe.
-xu ;; Type / Kind / Sort. - A category of entities having some common characteristics that distinguish them from others.
-xucu ;; Voice - The distinct sound produced by a person's vocal cords, used in speaking, singing, or communicating.
-zalmu ;; Politics / Governance - The abstract activities, affairs, and systemic processes associated with making decisions within groups, particularly regarding the distribution of power and resources in a government (govnu).
-zapu ;; System - An organized conceptual framework or set of interacting principles forming a complex whole.
-zenu ;; Care - The abstract conceptual provision of what is necessary for the health, welfare, or protection of an entity.
-zosu ;; Autumn / Fall - The season between summer and winter, characterised by cooling temperatures, shortening days, and the shedding of leaves.
-zuwu ;; Way / Manner. - This refers to a method, style, or custom of doing something.
-
-Verb
-aefi ;; Slip / Slide - To slide accidentally or lose one's footing on a slippery surface.
-afbi ;; Crawl - To move forward close to the ground, typically on hands and knees.
-agmi ;; Glue / Paste - To fasten, stick, or bind things together using an adhesive substance.
-akari ;; To roast / To bake - To cook food using dry, ambient heat in an enclosed space (like an oven) or over an open flame.
-akdi ;; Shout / Yell - To speak, cry out, or call in a very loud voice, typically expressing strong emotion.
-arcipi ;; To participate / To join - To actively enter into an event, group, or activity and take part in its ongoing processes.
-asmki ;; Tie / Bind - To fasten or secure something using a string or rope.
-auvi ;; Sink - To go down below the surface of a liquid, or fall slowly toward the bottom.
-avowi ;; To drop / To let fall - To intentionally or accidentally release a physical object from one's grasp, allowing gravity to pull it down. (Distinct from sowi, which is the intransitive act of falling).
-axli ;; Climb - To go up, ascend, or scale something, typically using both hands and feet.
-baili ;; Borrow - To temporarily take or receive physical possession of something with the strict intention of returning it to its owner.
-baki ;; Try / Attempt. - To execute an action with the intent of achieving a specific result, while acknowledging that the outcome is uncertain or experimental.
-baqi ;; Call - This verb means to cry out to someone in order to summon them or attract their attention.
-beati ;; Close. - To block an opening, seal a passage, or restrict physical access.
-bikli ;; Publish / Issue - To officially prepare and issue a book, journal, piece of media, or statement for broad public distribution.
-cafi ;; Run - To move swiftly on foot at a pace significantly faster than a walk.
-ceni ;; Live. - This verb means to remain alive or have life.
-cetofi ;; Show / Display - To intentionally make a physical object, concept, or data visually or intellectually apparent to another entity.
-cimi ;; Start. - This verb means to begin an action or event.
-coti ;; Cut. - This verb means to separate or divide something using a sharp edge.
-cuki ;; Fight. - To engage in a physical, verbal, or conceptual struggle against an opposing force or entity.
-cyri ;; Fly / Hover / Soar. - To move through the air or space under control, whether by aerodynamic wings, biological capability, or mechanical propulsion.
-dasi ;; Control. - This verb means to determine the behavior or supervise the running of an entity or system.
-denki ;; Set - To physically arrange, place, or establish something in a fixed, specific state.
-dogi ;; Let. - This verb means to not prevent an action from occurring.
-dormi ;; Swim - To actively propel oneself through liquid.
-dzefi ;; Agree - To mathematically or logically align with another entity's opinion, statement, or abstract state.
-ebmeri ;; Remember - To successfully retrieve historical data, past events, or abstract knowledge from storage back into active memory.
-ebnesi ;; Forget - To lose access to stored mental data; the systemic inability to retrieve a past event or learned concept.
-ebziki ;; Recognize - To successfully identify an entity or concept from previous experience, stored data, or memory.
-edorari ;; To deep fry - To cook a physical object by completely submerging it in boiling fat or oil.
-efmi ;; Steal - To take another person's property without permission or legal right.
-eipi ;; Tear / Rip - To pull apart or into pieces by force.
-eksapli ;; Explain - To structurally clarify data, logic, or meaning to make it perfectly comprehensible to another mind.
-emiti ;; Follow - To physically move or conceptually travel sequentially behind a target.
-enconi ;; Meet - To intentionally or accidentally come into the physical presence of someone.
-enri ;; To go inside / Come inside - To physically move from the exterior environment into the interior of an enclosure or defined space.
-epzi ;; Polish - To rub a surface to make it smooth, shiny, and reflective.
-erfi ;; Understand - To mentally comprehend the abstract meaning, logic, or underlying cause of a concept.
-etypi ;; To get / To obtain - To actively and successfully acquire, gain possession of, or secure a physical object or abstract concept. (Implies active effort or successful acquisition).
-eybi ;; Defend - To protect someone or something from harm, danger, or attack.
-fabi ;; Want. - This verb means to have a desire to possess or do something.
-falazi ;; To journal / To record - To actively write down, log, or systematically record events, thoughts, or experiences that have taken place, typically for personal reflection or historical preservation.
-falmi ;; To report / To recount - To officially retell, record, or communicate the factual details of events that have already taken place. (Distinct from nari [To tell], which is general communication; falmi implies an objective recounting of history or data).
-fanzi ;; To introduce / To present - To intentionally make a person, concept, or thing known to another entity for the first time.
-fasidi ;; Include - To contain an entity as a subordinate part or member of a larger whole or system.
-fatli ;; To depend on / To rely on - To require the support, action, or existence of another entity in order to function, survive, or succeed.
-fenuti ;; Tell - To communicate specific information, facts, or instructions directly to another entity.
-fewi ;; Mix. - This verb means to combine or blend different substances together.
-fodi ;; Process. - This refers to a series of actions or steps taken in order to achieve a particular end.
-fuali ;; Catch - To successfully intercept and hold a physical object moving through the air, or to capture an entity that is actively fleeing.
-fuqedi ;; To demand / To require - To actively ask for something with strict necessity or authoritative expectation.
-fuzi ;; To support / To back - To actively provide conceptual, logistical, or moral backing to a person, idea, or system.
-gari ;; Play. - This verb means to engage in activity for enjoyment and recreation rather than a serious or practical purpose.
-gesi ;; Say / Speak. - This verb means to utter words so as to convey information.
-gidafi ;; Sell - To permanently transfer the legal ownership of physical goods or abstract services in exchange for money.
-gidsi ;; Buy - To obtain physical or legal possession of an entity by paying money.
-givi ;; Dig / Excavate - To break up and move ground or earth.
-goji ;; Pull. - This verb means to exert force on something to move it toward oneself.
-golmi ;; Reform /  Improve - To actively make changes to an abstract system, institution, or practice in order to improve it.
-grawi ;; Grateful / Thank. - This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks.
-guami ;; To calculate / To count - To actively utilize numbers or perform a mathematical calculation. Derived mathematically by appending the verb suffix -i to the abstract noun gu (Number).
-gugi ;; Stand. - This verb means to maintain an upright position, supported by the feet in a vertical orientation.
-hadi ;; Answer. - This verb means to say or write something to deal with or as a reaction to a question.
-hatzi ;; Laugh / Smile - To express sudden amusement, joy, or positive emotion through facial alteration and rhythmic vocalization.
-haxani ;; To reach / To stretch out to - To successfully stretch out to, make physical contact with, or achieve a mathematical or conceptual limit.
-hevi ;; Forgive - To logically or emotionally pardon an offense, effectively terminating any anger, resentment, or desire for punishment toward another entity.
-hi ;; To Be / To Exist As - To Be / To Exist. An explicit copula and existential verb. It is strictly forbidden in its unmodified form and must always bear a consonant suffix (such as tense, aspect, or an infinitive stacker) to be legally processed by the SVO track.
-hici ;; Walk. - This verb means to move at a regular pace by lifting and setting down each foot in turn.
-huji ;; Hang - To attach, suspend, or be attached at the top so that the lower part is free.
-ibagi ;; Learn - To acquire new knowledge, skills, or data through abstract study or physical experience.
-ibvi ;; Pour - To flow or cause to flow in a stream from a container.
-idoji ;; Remain - To be mathematically or physically left over after other parts have been removed or consumed.
-ifezi ;; Decide - To mathematically collapse a set of choices into a single, final logical resolution.
-ikapi ;; To influence / To affect - To exert a non-physical force or abstract power upon an entity, thereby altering its development, behavior, or conceptual state.
-ilpi ;; Kneel - To support oneself on one or both knees.
-ipti ;; Spill - To cause or allow liquid or solid to run or fall from a container.
-iqi ;; Doubt - To feel uncertain about something, or to lack conviction in a truth.
-iraki ;; Cry - To shed biological tears as a physiological response to distress, pain, or overwhelming subjective feeling.
-ivati ;; Weigh - To actively measure the heavy weight or physical mass of an object or biological entity
-ixovi ;; To receive / To endure / Be subject to - To passively take in an action, object, or circumstance placed upon the subject by an outside force; to bear or endure an experience.
-iymi ;; Look - To direct one's gaze or visual attention in a specific direction (distinct from passive seeing).
-izli ;; Invite - To formally or friendly request the presence or participation of someone.
-jami ;; Write. - This verb means to mark letters, words, or other symbols on a surface to record information.
-jedi ;; Have. - This verb means to possess, own, or hold something as property or a characteristic.
-jisi ;; Drip - To fall in small, distinct drops of liquid.
-jobori ;; To arrive / To reach - To actively reach a destination, limit, or end point.
-jofi ;; Help / Assist. - To make it easier for someone to do something by offering one's services or resources.
-jopxi ;; Receive - To passively or actively accept delivery and take possession of something offered or sent.
-juhi ;; Worry - To feel anxious, uneasy, or troubled about potential problems.
-jyqi ;; Refuse / Reject - To show or state unwillingness to accept, do, or grant something.
-kani ;; Know. - This verb means to possess knowledge, facts, or skills.
-karxi ;; Find / Discover. - This verb means to discover or perceive by chance or unexpectedly, or to become aware of something new.
-kiacaki ;; Carry - To physically support the weight of a load and transport it from one location to another.
-kiagi ;; Keep - To retain continuous physical or legal possession of an object or state.
-kili ;; Touch / Feel. - This verb means to perceive through physical contact or the sense of touch.
-kimari ;; Kill - To intentionally force the death or systemic termination of a biological entity.
-kimugi ;; Die - To permanently cease biological functions; the absolute termination of a living system.
-koci ;; Need. - This verb means to require something because it is essential or very important.
-kopi ;; To order / To command - To give an authoritative instruction or direct order to another entity.
-kupi ;; Ask. - This verb means to say something in order to obtain an answer or some information.
-kupmi ;; Serve - To actively perform duties, provide help, or supply resources to another entity.
-kuri ;; Fear. - This verb means to be afraid of someone or something.
-kutgi ;; To become / To turn into / To succeed - To undergo a complete transformation into a new state or entity, or to successfully bring an intended result into reality. (Distinct from tumi [Change], which just means to alter; cegi implies a finalized transformation or success).
-kyti ;; Like. - This verb expresses positive feelings towards something or someone and is completely subjective.
-laeki ;; To choose / To select - To actively pick out one or more physical or conceptual options from a larger set of alternatives.
-lanti ;; Add - To mathematically or physically join an entity to an existing group to increase the total quantity.
-leoci ;; Turn on / Activate - To activate, power on, or initiate the active function of a machine, system, or electronic device. (Distinct from cimi [to start an event] and xosi [to physically open a door] ).
-lini ;; Cause. - To make something happen or exist; to bring about a result or effect.
-linuci ;; Happen / Occur - To take place or come into existence as an event, typically used for an action that has no specific, conscious agent.
-loki ;; Read - This verb means to look at and comprehend the meaning of written or printed matter.
-maji ;; Breathe. - This verb means to take air into the lungs and expel it.
-malxi ;; Dance - To move one's body rhythmically, often in sequence with music, to express emotion or engage in a social activity.
-mexi ;; Birth. - This verb means to give life to a child or offspring.
-mori ;; Grow. - This verb means to increase in physical size, quantity, or maturity over a period of time.
-naci ;; Work. - This verb means to perform labor, professional tasks, or exert effort to produce a result.
-neki ;; Sit. - This verb means to rest with the body supported by the buttocks or thighs; to occupy a seat.
-niwi ;; Scrape - To drag a hard, sharp, or rough implement across a surface, typically to clean, smooth, or remove material.
-nojapi ;; Watch - To observe an entity or event attentively over a continuous period of time.
-nomi ;; Eat / Consume. - This verb means to put food into the mouth, chew, and swallow it as a fundamental biological action.
-ombi ;; Send - To cause a physical object or abstract message to be conveyed to a separate destination.
-onasi ;; To plant / To cultivate - To actively grow, tend to, or farm biological crops or plants.
-onli ;; Rub - To apply friction or pressure to a surface by moving something back and forth over it.
-opdi ;; Whisper - To speak very softly using one's breath rather than vocal cords to prevent others from hearing.
-orari ;; To stir-fry / To sauté - To cook food quickly by moving it continuously in a small amount of hot oil over high heat.
-otani ;; Cook - To chemically or physically alter food matter for consumption by systematically applying thermal energy.
-ovami ;; To arrive - To complete a physical or conceptual journey and successfully transition into a final destination.
-owadi ;; Spend - To mathematically exhaust, exchange, or use up a measurable resource, such as time or money.
-oxopi ;; To organize / To coordinate - To actively arrange entities, systems, or events into a structured and logical order.
-oxti ;; Protect - To actively maintain a barrier that keeps an entity or system safe from physical harm or logical corruption.
-ozepi ;; To wish / To desire - To feel or express a strong hope or longing for a specific outcome or reality, often one that is not immediately or easily attainable.
-ozoxi ;; To occupy / To take up - To fill a physical space, consume a duration of time, or hold a specific position.
-pagari ;; Pay - To transfer money or abstract value in exchange for goods or services.
-pauli ;; Feel. - This verb means to experience an emotion or sensation.
-pegi ;; Fold - To bend something flexible over on itself so that one part of it covers another.
-petni ;; Excrete - This verb means to separate and expel waste matter from the body.
-piji ;; Warn - To inform someone in advance of an impending danger, threat, or problem.
-pli ;; Come. - This verb means to move toward a specific location or the speaker.
-pozi ;; Think. - This verb means to direct one's mind toward someone or something or to form ideas.
-pywi ;; Listen - To make a conscious effort to hear; to pay attention to sound (distinct from passive hearing).
-rerbi ;; Stay - To remain in the exact same physical location or conceptual state for an extended duration.
-retibi ;; Return - To reverse course and go back to a previous physical location or baseline abstract state.
-rizi ;; To get up / To rise/ to ascend - To actively move oneself from a lower physical position to a higher one (such as standing up from a bed or chair), or for a celestial body to ascend. (Distinct from todyri [Raise], which is the transitive action of lifting something else).
-roli ;; Drink - This verb means to take a liquid into the mouth and swallow it.
-rucemi ;; Lead - To guide, direct, or mathematically precede others in a physical sequence or organizational structure.
-ruwi ;; Twist - To turn or spin something around a central axis, or to distort its shape.
-sapi ;; Make. - This verb means to create, construct, or form something.
-sapiti ;; Invent - To physically create, design, or conceptually originate something that did not previously exist.
-sarmi ;; Taste - To perceive the flavor of food or liquid in the mouth.
-satsi ;; Hit / Strike. - This verb means to deliver a blow to someone or something.
-seji ;; Stop. - This verb means to cease an action or event.
-sexi ;; Update - This verb means to make something more modern or current, or to incorporate the most recent information.
-sigi ;; Hold. - This verb means to grasp and support something.
-sioxi ;; Hold / Host (an event) - To officially facilitate, provide the space for, or preside over an abstract event, meeting, or performance.
-skagi ;; Break. - This verb means to separate into pieces as a result of a blow, shock, or structural failure.
-skumki ;; Destroy - To break down, ruin, or dismantle a physical object or abstract system so completely that it no longer structurally exists or functions.
-solfi ;; To solve / To settle - To actively investigate and successfully find an answer, explanation, or peaceful resolution to a problem or dispute.
-sowi ;; Fall. - This verb describes the action of dropping down under the force of gravity.
-steli ;; Take. - This verb means to lay hold of something with one's hands or reach.
-stomi ;; Give. - This verb means to freely transfer the possession of something to someone.
-sudi ;; Push. - This verb means to exert force on something to move it away.
-sufi ;; Turn. - This verb means to rotate or change the direction of movement.
-swami ;; Put. - This verb means to move something into a specific place or position.
-tazi ;; Love. - To feel deep affection, unconditional care, or profound attachment toward an entity.
-todyri ;; Raise/ lift - To elevate an entity to a higher physical altitude or scale it to a higher mathematical level.
-toili ;; Lend - To temporarily give or provide something to someone with the explicit expectation that it will be returned.
-tovni ;; To establish / To set up - To officially create, start, or set up an abstract organization, business, or systemic institution.
-tsi ;; Leave. - This verb means to go away from a place, person, or thing; to depart.
-tsyti ;; Search / Look for. - This verb means to try to find something by looking or otherwise seeking carefully and thoroughly.
-tumi ;; Change / Alter. - To make or become different; to transform the state of something.
-ubli ;; Expect - To mentally anticipate or logically regard an event as highly likely to happen.
-ufdi ;; Shake - To move back and forth or up and down with short, quick, repetitive movements.
-ugni ;; Leak - To accidentally lose or admit contents (typically fluid) through a hole, crack, or defect.
-umeti ;; Suggest - To put forward a conceptual idea, abstract plan, or possibility for another mind's consideration.
-umzi ;; Welcome - To greet someone in a warm, friendly, and hospitable manner upon their arrival.
-upvi ;; Stretch - To make something longer or wider by pulling it, or to extend one's limbs.
-usi ;; Sleep. - This verb means to rest with eyes closed in a state of natural unconsciousness.
-utmi ;; Float - To rest or move slowly on or near the surface of a liquid without sinking, or drift in the air.
-uyji ;; Wash - To clean something (like the body, clothes, or dishes) using water and typically soap.
-uzki ;; Hunt - To pursue and capture or kill wild animals for food or sport.
-vahimi ;; Handle / Deal with - To actively direct, manage, or take organizational/disciplinary action regarding a situation, problem, or entity.
-vansi ;; Advance / Progress - To advance, move forward logically, or progress systematically toward a goal or higher state.
-vianci ;; To dare - To have the courage to execute an action despite fear or risk.
-vifi ;; Boil - To heat a liquid until it reaches its boiling point and turns into vapor.
-volni ;; To be willing to / To consent to - To have a favorable disposition, readiness, or uncoerced agreement to perform an action.
-vyzi ;; Escape - To break free from confinement, danger, or control.
-wasti ;; Wait - To remain in a state of paused action in strict anticipation of a specific future event or time.
-waxi ;; To exercise / To move actively - To actively move one's biological body to exert energy, maintain health, or engage in physical recreation.
-weli ;; Interrupt - To stop someone in the middle of an action, speech, or process.
-wiki ;; Squeeze - To firmly press or compress something, typically to extract liquid or change its shape.
-wogi ;; Hope. - This refers to a feeling of expectation and desire for a certain thing to happen; a state of optimism.
-wubi ;; Bend - To shape or force something straight into a curve or angle.
-xalati ;; Pass - To physically move past an object, or to successfully transfer completely through a structural barrier.
-xali ;; Move / Go. - This verb means to change position or displace something.
-xeri ;; Throw. - This verb means to propel something with force through the air.
-xeski ;; Win - To achieve victory, succeed, or finish first in a competitive system or conflict.
-xibi ;; Promise - To state or declare that one will definitely do or not do a specific action.
-xosi ;; Open. - This verb means to allow access, passage, or view through a space.
-xuni ;; Burn. - This verb means to consume or damage something by fire.
-xyfi ;; Do. - To perform, execute, or carry out a general action.
-xygaji ;; Continue - To persist in an ongoing activity or state without breaking the SVO track.
-zanki ;; Hide / Conceal - To place an entity out of sight or prevent it from being found.
-zemi ;; Cover. - This verb means to put something on top of or in front of something else to protect or conceal it.
-zopi ;; Jump - To temporarily propel a physical body upward into the air using a sudden application of kinetic force.
-zyli ;; Use. - This verb means to employ something for a particular purpose.
 
 Modifier
 abeze ;; So / To that extent / In that way - A comparative modifier used to indicate that something reaches a specifically referenced degree, extent, or manner (e.g., Why are you so angry?).
@@ -804,6 +582,7 @@ avge ;; Rotten / Decayed - No longer fresh or pleasant; spoiled, decomposed, or 
 aywe ;; Rare - Not occurring very often; uncommon, exceptional, or hard to find.
 babse ;; Hungry - This describes a biological state of discomfort or weakness caused by a lack of food, coupled with a strong desire to eat.
 baude ;; Beautiful - This word describes a state possessing physical or conceptual qualities that give immense, positive aesthetic pleasure to the senses.
+beje ;; Slightly / A little - A relative degree modifier indicating a small, minor, or low amount of a trait, state, or action.
 bife ;; (Allowed / Permitted) - Explicitly permitted or allowed.
 bime ;; One - This refers to the lowest cardinal number, representing a single unit or entity.
 boke ;; Bad. - Regarded as subjectively negative or unfavorable.
@@ -827,7 +606,7 @@ dote ;; Strong. - This word describes something having the power to move heavy w
 drabe ;; One hundred - This refers to the cardinal number equivalent to ten times ten.
 dupe ;; Deep - This describes an entity extending far down from the top surface or having a great internal vertical dimension.
 ebxe ;; Cruel - Willfully causing pain, distress, or suffering to others, or feeling no concern for it.
-ecme ;; Humble / Modest - Having or showing a modest estimate of one's own importance.
+ecme ;; Humble / Modest - Having or showing a modest estimate of one
 efade ;; Hardworking - This describes an entity consistently applying a high degree of energy, focus, and dedication to a task.
 egde ;; Sober - Not affected by alcohol or intoxicants; clear-headed.
 egmabe ;; One thousand - This refers to the cardinal number equivalent to ten times one hundred.
@@ -859,7 +638,9 @@ gure ;; Lazy - This describes a state of applying low effort, lacking motivation
 gyke ;; Weird / Strange - This word describes something unusual, surprising, or not belonging to the current environment or context.
 haibe ;; Still / Yet - Indicates the continuation of a state or action, confirming that a prior condition has not yet changed, stopped, or resolved.
 hiaruce ;; One million - This refers to the cardinal number equivalent to one thousand times one thousand.
+hiqe ;; Factually Correct / Right - Free from error; in accordance with fact or truth. (Distinct from subjective \
 hobe ;; Young. - This word describes something that has existed for a short time, often characterizing an early stage of life, growth, or development.
+huhe ;; Extremely / Utterly - A relative degree modifier indicating the highest subjective amount of a trait, state, or action; remarkably intense.
 hutse ;; Main / Primary / Central - Describes an entity or concept that acts as the focal point or most fundamental component of a group or system.
 hyme ;; habitually / regularly / customarily / used to - Describes an action, state, or behavior that occurs repeatedly and characteristically over a period of time, forming an established routine or habit rather than a singular event.
 iale ;; Special - This word describes something that is intentionally set apart or different from what is usual or standard.
@@ -886,7 +667,7 @@ kabce ;; Simple - This word describes something possessing an uncomplicated stru
 kame ;; Salty. - This describes the taste sensation characteristic of sodium chloride (salt).
 kase ;; (Any / Whichever) - This word describes something as being of free choice, where the specific identity does not matter.
 keane ;; Whole / Entire / Complete - This describes an entity that is fully intact, unbroken, and comprising its absolute full extent. (Distinct from late [All], which calculates the total quantity of a group. keane describes a single thing being 100% complete).
-keqe ;; Native - Associated with the place or circumstances of a person's birth or origin.
+keqe ;; Native - Associated with the place or circumstances of a person
 kluxe ;; Quiet / Silent - This describes an entity or environment producing little to no auditory energy; an absence of sound.
 koxe ;; Bitter. - This describes a sharp, pungent taste sensation, often perceived as unpleasant, found in things like dark chocolate, coffee, or certain alkaloids.
 krome ;; Brown - Exhibiting the dark, earthy color of soil, wood, or dead leaves.
@@ -965,7 +746,6 @@ slafe ;; Too / Excessively - This describes a quantity, degree, or state that go
 sluqe ;; Six. - This refers to the cardinal number equivalent to the product of two and three.
 sone ;; Spicy / Pungent - Having a sharp, burning, hot, or strong taste.
 sube ;; (Probable / Likely) - Highly probable or likely to happen.
-suke ;; your's - Strictly belonging to or associated with the listener.
 suve ;; Your / Yours (formal/respectful) - Strictly belonging to or associated with the listener, used in formal/respectful contexts.
 tafe ;; three - This refers to the cardinal number that is the sum of one and two.
 tande ;; Big / Large. - This word describes something of considerable size, extent, or capacity.
@@ -977,6 +757,7 @@ tute ;; Sweet. - This describes the taste sensation characteristic of sugars, di
 ubme ;; Public - Done, perceived, or existing in open view; open to the community.
 ucde ;; Proud - Feeling deep pleasure or satisfaction as a result of achievements, qualities, or possessions.
 udce ;; Tight - Fitting closely; held or closed firmly in place.
+ugte ;; Barely / Scarcely - A relative degree modifier indicating the lowest perceptible amount of a trait, state, or action; almost not at all.
 ulime ;; Half - This describes a quantity representing exactly one of two equal parts of a whole (50%). (Distinct from mide [Middle], which refers to a spatial or temporal center).
 upfe ;; Unequal - Not the same in quantity, size, degree, value, or status.
 usate ;; Straight - This describes an entity moving continuously in one direction without curving, bending, or deviating structurally.
@@ -1005,8 +786,272 @@ xive ;; Expensive - This describes something commanding a high monetary price or
 xyge ;; Thin. - This word describes something with a small distance between opposite surfaces.
 yfuke ;; Of course / Naturally - Describes a state, conclusion, or action that is mathematically, logically, or socially obvious, natural, and completely without doubt.
 ynafe ;; Tasty / Delicious - Describes a physical substance that produces a highly positive, pleasurable response when processed by the taste receptors.
+ynse ;; Somewhat / Moderately - A relative degree modifier indicating a medium, average, or partial amount of a trait, state, or action.
 zave ;; High / Tall - This describes something having a great vertical extent or measuring a long distance from bottom to top.
 zewe ;; Nine - This refers to the cardinal number equivalent to the product of three and three.
 zihe ;; Famous - Known about by many people; widely celebrated or recognized.
 zode ;; Loud / Noisy - This describes an entity or environment producing a high volume of auditory energy or intense sound.
 
+Preposition
+acry ;; Across - Indicates a spatial bridge mapping movement or position from one side of a surface, boundary, or flat area to the opposite side.
+amby ;; Instead of / In place of - Indicating substitution of one entity or action for another.
+apawy ;; According to / In accordance with - A structural preposition indicating that an action or state strictly follows the rules, statements, or nature of the target noun.
+avly ;; Along - In a line parallel with, or next to the length of a surface or path.
+baxy ;; Behind - Indicates a spatial bridge where the subject is located at or directed toward the rear or back of a reference point.
+beqy ;; Beyond - Indicates a spatial or logical bridge mapping a position that is strictly past the physical limits, boundary, or scope of the reference point.
+by ;; by - Used to indicate agent, means, or source.
+cagy ;; for - This word indicates the purpose, destination, or intended recipient of an action or object.
+dawy ;; Due to / As a result of / Because of - A structural bridge linking an outcome strictly to the noun that caused it.
+deky ;; inside - Used for location within an enclosure.
+dury ;; During - Indicates a temporal bridge, mapping an action strictly to the timeframe of an ongoing event or period.
+dy ;; made of - Indicates the physical substance or material composition of the subject.
+eyjy ;; Except / Excluding - Indicating that the specified entity is not included in the statement.
+fazy ;; nature of - Indicates abstract characteristics, personality, or intrinsic nature; having the qualities of the object.
+fecy ;; Until / Up to - Indicates a temporal or spatial bridge extending continuously up to the absolute limit or termination point of an event or location.
+foly ;; After - Indicates that the main action occurs strictly subsequent to the referenced temporal baseline or event.
+fy ;; from - Used for origin or starting point
+hemy ;; near - Used for close proximity.
+hyby ;; Despite / In spite of - Indicating that an action or state occurs regardless of an obstacle or opposing force.
+igy ;; at the frequency of / times - Indicates a mathematical bridge linking an action to the exact numerical count of its occurrences.
+jany ;; Against - Indicates a bridge of physical contact involving pressure and support, or direct logical opposition/resistance to a concept.
+jicy ;; also - Indicates inclusion or mathematical addition, functioning as a bridge meaning in addition to or along with the target object.
+ky ;; at - Indicates general location, presence, or proximity at a specific point.
+ly ;; shaped like - Indicates that the subject shares the physical geometry or outline of the object, but not necessarily its material or function.
+mety ;; By means of / Through / Via - Indicates the method, process, tool, or pathway utilized to achieve a specific result or destination. (e.g., I learned it via reading).
+moxy ;; Among (them) / Within a group - Indicates a spatial or conceptual bridge where the subject is surrounded by, or included as a distinct part of, a larger defined group or set. (e.g., The apple among the grapes).
+my ;; containing - Indicates that the subject is holding the object inside it; specifies content rather than purpose.
+neswy ;; Without - Indicates a logical bridge of absence or the explicit lack of an accompanying object or trait.
+nizy ;; In front of / Ahead of - Indicates a spatial bridge where the subject is located at or directed toward the forward-facing exterior of a reference point.
+noky ;; down / below - Used for direction or position lower than a reference.
+ny ;; part of - Indicates the subject is an integral component or piece of the object, such as a body part or machine element.
+oxly ;; Since - Indicating the starting point of a period of time that continues to the present (temporal).
+pary ;; before - Indicates that the main action must conclude strictly prior to the referenced temporal baseline or event.
+piny ;; as / similar to - This word indicates that one thing resembles another or shares common characteristics without being identical.
+rewy ;; far - Situated at a great distance from; far away relative to a reference point.
+ry ;; owned by - Indicates strict ownership, legal possession, or belonging.
+sacy ;; outside - Used for a position external to the boundaries of an enclosure or object.
+taly ;; compared to / than - Used to establish a structural bridge between a modified subject or action and the baseline it is being measured against.
+tody ;; up / above - Used for direction or position higher than a reference.
+ty ;; on - Indicates physical contact with and support by a surface.
+usy ;; at the sequence of / ranking - This preposition indicates the ordinal position or sequence of a noun within a series.
+wy ;; with - Used for accompaniment or instrumentality.
+zety ;; about - Concerning, regarding, or strictly relating to the subject of a specific topic.
+zofy ;; Through - Indicates a spatial bridge where the subject enters one side of an environment, medium, or enclosure and exits the other.
+zory ;; Between - Indicates a spatial or logical bridge placing the subject directly in the interval that separates two distinct entities.
+zy ;; to - Used for direction toward a destination or outcome.
+
+Verb
+aefi ;; Slip / Slide - To slide accidentally or lose one
+afbi ;; Crawl - To move forward close to the ground, typically on hands and knees.
+agmi ;; Glue / Paste - To fasten, stick, or bind things together using an adhesive substance.
+akari ;; To roast / To bake - To cook food using dry, ambient heat in an enclosed space (like an oven) or over an open flame.
+akdi ;; Shout / Yell - To speak, cry out, or call in a very loud voice, typically expressing strong emotion.
+arcipi ;; To participate / To join - To actively enter into an event, group, or activity and take part in its ongoing processes.
+asmki ;; Tie / Bind - To fasten or secure something using a string or rope.
+auvi ;; Sink - To go down below the surface of a liquid, or fall slowly toward the bottom.
+avowi ;; To drop / To let fall - To intentionally or accidentally release a physical object from one
+axli ;; Climb - To go up, ascend, or scale something, typically using both hands and feet.
+baili ;; Borrow - To temporarily take or receive physical possession of something with the strict intention of returning it to its owner.
+baki ;; Try / Attempt. - To execute an action with the intent of achieving a specific result, while acknowledging that the outcome is uncertain or experimental.
+baqi ;; Call - This verb means to cry out to someone in order to summon them or attract their attention.
+beati ;; Close. - To block an opening, seal a passage, or restrict physical access.
+bikli ;; Publish / Issue - To officially prepare and issue a book, journal, piece of media, or statement for broad public distribution.
+cafi ;; Run - To move swiftly on foot at a pace significantly faster than a walk.
+ceni ;; Live. - This verb means to remain alive or have life.
+cetofi ;; Show / Display - To intentionally make a physical object, concept, or data visually or intellectually apparent to another entity.
+cimi ;; Start. - This verb means to begin an action or event.
+coti ;; Cut. - This verb means to separate or divide something using a sharp edge.
+cuki ;; Fight. - To engage in a physical, verbal, or conceptual struggle against an opposing force or entity.
+curxi ;; Chop / Mince / Dice - To cut food or other materials into small pieces with repeated sharp blows using a knife or similar tool.
+cyri ;; Fly / Hover / Soar. - To move through the air or space under control, whether by aerodynamic wings, biological capability, or mechanical propulsion.
+dasi ;; Control. - This verb means to determine the behavior or supervise the running of an entity or system.
+denki ;; Set - To physically arrange, place, or establish something in a fixed, specific state.
+dogi ;; Let. - This verb means to not prevent an action from occurring.
+dormi ;; Swim - To actively propel oneself through liquid.
+dzefi ;; Agree - To mathematically or logically align with another entity
+ebmeri ;; Remember - To successfully retrieve historical data, past events, or abstract knowledge from storage back into active memory.
+ebnesi ;; Forget - To lose access to stored mental data; the systemic inability to retrieve a past event or learned concept.
+ebziki ;; Recognize - To successfully identify an entity or concept from previous experience, stored data, or memory.
+edorari ;; To deep fry - To cook a physical object by completely submerging it in boiling fat or oil.
+efmi ;; Steal - To take another person
+eipi ;; Tear / Rip - To pull apart or into pieces by force.
+eksapli ;; Explain - To structurally clarify data, logic, or meaning to make it perfectly comprehensible to another mind.
+emiti ;; Follow - To physically move or conceptually travel sequentially behind a target.
+enconi ;; Meet - To intentionally or accidentally come into the physical presence of someone.
+enri ;; To go inside / Come inside - To physically move from the exterior environment into the interior of an enclosure or defined space.
+epzi ;; Polish - To rub a surface to make it smooth, shiny, and reflective.
+erfi ;; Understand - To mentally comprehend the abstract meaning, logic, or underlying cause of a concept.
+etypi ;; To get / To obtain - To actively and successfully acquire, gain possession of, or secure a physical object or abstract concept. (Implies active effort or successful acquisition).
+eybi ;; Defend - To protect someone or something from harm, danger, or attack.
+fabi ;; Want. - This verb means to have a desire to possess or do something.
+falazi ;; To journal / To record - To actively write down, log, or systematically record events, thoughts, or experiences that have taken place, typically for personal reflection or historical preservation.
+falmi ;; To report / To recount - To officially retell, record, or communicate the factual details of events that have already taken place. (Distinct from nari [To tell], which is general communication; falmi implies an objective recounting of history or data).
+fanzi ;; To introduce / To present - To intentionally make a person, concept, or thing known to another entity for the first time.
+fasidi ;; Include - To contain an entity as a subordinate part or member of a larger whole or system.
+fatli ;; To depend on / To rely on - To require the support, action, or existence of another entity in order to function, survive, or succeed.
+fenuti ;; Tell - To communicate specific information, facts, or instructions directly to another entity.
+fewi ;; Mix. - This verb means to combine or blend different substances together.
+fodi ;; Process. - This refers to a series of actions or steps taken in order to achieve a particular end.
+fuali ;; Catch - To successfully intercept and hold a physical object moving through the air, or to capture an entity that is actively fleeing.
+fuqedi ;; To demand / To require - To actively ask for something with strict necessity or authoritative expectation.
+fuzi ;; To support / To back - To actively provide conceptual, logistical, or moral backing to a person, idea, or system.
+gari ;; Play. - This verb means to engage in activity for enjoyment and recreation rather than a serious or practical purpose.
+gesi ;; Say / Speak. - This verb means to utter words so as to convey information.
+gidafi ;; Sell - To permanently transfer the legal ownership of physical goods or abstract services in exchange for money.
+gidsi ;; Buy - To obtain physical or legal possession of an entity by paying money.
+givi ;; Dig / Excavate - To break up and move ground or earth.
+goji ;; Pull. - This verb means to exert force on something to move it toward oneself.
+golmi ;; Reform /  Improve - To actively make changes to an abstract system, institution, or practice in order to improve it.
+grawi ;; Grateful / Thank. - This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks.
+guami ;; To calculate / To count - To actively utilize numbers or perform a mathematical calculation. Derived mathematically by appending the verb suffix -i to the abstract noun gu (Number).
+gugi ;; Stand. - This verb means to maintain an upright position, supported by the feet in a vertical orientation.
+gulipi ;; Download - To actively copy, transfer, or retrieve data from the internet or another system into a local device or file.
+hadi ;; Answer. - This verb means to say or write something to deal with or as a reaction to a question.
+hatzi ;; Laugh / Smile - To express sudden amusement, joy, or positive emotion through facial alteration and rhythmic vocalization.
+haxani ;; To reach / To stretch out to - To successfully stretch out to, make physical contact with, or achieve a mathematical or conceptual limit.
+hevi ;; Forgive - To logically or emotionally pardon an offense, effectively terminating any anger, resentment, or desire for punishment toward another entity.
+hi ;; To Be / To Exist As - To Be / To Exist. An explicit copula and existential verb. It is strictly forbidden in its unmodified form and must always bear a consonant suffix (such as tense, aspect, or an infinitive stacker) to be legally processed by the SVO track.
+hici ;; Walk. - This verb means to move at a regular pace by lifting and setting down each foot in turn.
+hudywi ;; To Cough - To expel air from the lungs with a sudden sharp sound, typically to clear the throat or respiratory airways.
+huji ;; Hang - To attach, suspend, or be attached at the top so that the lower part is free.
+ibagi ;; Learn - To acquire new knowledge, skills, or data through abstract study or physical experience.
+ibvi ;; Pour - To flow or cause to flow in a stream from a container.
+idoji ;; Remain - To be mathematically or physically left over after other parts have been removed or consumed.
+ifezi ;; Decide - To mathematically collapse a set of choices into a single, final logical resolution.
+ikapi ;; To influence / To affect - To exert a non-physical force or abstract power upon an entity, thereby altering its development, behavior, or conceptual state.
+ilpi ;; Kneel - To support oneself on one or both knees.
+ipti ;; Spill - To cause or allow liquid or solid to run or fall from a container.
+iqi ;; Doubt - To feel uncertain about something, or to lack conviction in a truth.
+iraki ;; Cry - To shed biological tears as a physiological response to distress, pain, or overwhelming subjective feeling.
+ivati ;; Weigh - To actively measure the heavy weight or physical mass of an object or biological entity
+ixovi ;; To receive / To endure / Be subject to - To passively take in an action, object, or circumstance placed upon the subject by an outside force; to bear or endure an experience.
+iymi ;; Look - To direct one
+izli ;; Invite - To formally or friendly request the presence or participation of someone.
+jami ;; Write. - This verb means to mark letters, words, or other symbols on a surface to record information.
+jedi ;; Have. - This verb means to possess, own, or hold something as property or a characteristic.
+jisi ;; Drip - To fall in small, distinct drops of liquid.
+jobori ;; To arrive / To reach - To actively reach a destination, limit, or end point.
+jofi ;; Help / Assist. - To make it easier for someone to do something by offering one
+jopxi ;; Receive - To passively or actively accept delivery and take possession of something offered or sent.
+juhi ;; Worry - To feel anxious, uneasy, or troubled about potential problems.
+jyqi ;; Refuse / Reject - To show or state unwillingness to accept, do, or grant something.
+kani ;; Know. - This verb means to possess knowledge, facts, or skills.
+karxi ;; Find / Discover. - This verb means to discover or perceive by chance or unexpectedly, or to become aware of something new.
+kiacaki ;; Carry - To physically support the weight of a load and transport it from one location to another.
+kiagi ;; Keep - To retain continuous physical or legal possession of an object or state.
+kili ;; Touch / Feel. - This verb means to perceive through physical contact or the sense of touch.
+kimari ;; Kill - To intentionally force the death or systemic termination of a biological entity.
+kimugi ;; Die - To permanently cease biological functions; the absolute termination of a living system.
+koci ;; Need. - This verb means to require something because it is essential or very important.
+kopi ;; To order / To command - To give an authoritative instruction or direct order to another entity.
+kupi ;; Ask. - This verb means to say something in order to obtain an answer or some information.
+kupmi ;; Serve - To actively perform duties, provide help, or supply resources to another entity.
+kuri ;; Fear. - This verb means to be afraid of someone or something.
+kutgi ;; To become / To turn into / To succeed - To undergo a complete transformation into a new state or entity, or to successfully bring an intended result into reality. (Distinct from tumi [Change], which just means to alter; cegi implies a finalized transformation or success).
+kyti ;; Like. - This verb expresses positive feelings towards something or someone and is completely subjective.
+laeki ;; To choose / To select - To actively pick out one or more physical or conceptual options from a larger set of alternatives.
+lanti ;; Add - To mathematically or physically join an entity to an existing group to increase the total quantity.
+leoci ;; Turn on / Activate - To activate, power on, or initiate the active function of a machine, system, or electronic device. (Distinct from cimi [to start an event] and xosi [to physically open a door] ).
+lini ;; Cause. - To make something happen or exist; to bring about a result or effect.
+linuci ;; Happen / Occur - To take place or come into existence as an event, typically used for an action that has no specific, conscious agent.
+loki ;; Read - This verb means to look at and comprehend the meaning of written or printed matter.
+luhaci ;; To Treat / To Heal - To give medical care or attention to a person, illness, or injury.
+maji ;; Breathe. - This verb means to take air into the lungs and expel it.
+malxi ;; Dance - To move one
+mexi ;; Birth. - This verb means to give life to a child or offspring.
+mori ;; Grow. - This verb means to increase in physical size, quantity, or maturity over a period of time.
+naci ;; Work. - This verb means to perform labor, professional tasks, or exert effort to produce a result.
+neki ;; Sit. - This verb means to rest with the body supported by the buttocks or thighs; to occupy a seat.
+niwi ;; Scrape - To drag a hard, sharp, or rough implement across a surface, typically to clean, smooth, or remove material.
+nojapi ;; Watch - To observe an entity or event attentively over a continuous period of time.
+nomi ;; Eat / Consume. - This verb means to put food into the mouth, chew, and swallow it as a fundamental biological action.
+ombi ;; Send - To cause a physical object or abstract message to be conveyed to a separate destination.
+onasi ;; To plant / To cultivate - To actively grow, tend to, or farm biological crops or plants.
+onli ;; Rub - To apply friction or pressure to a surface by moving something back and forth over it.
+opcori ;; Stir / Mix (mechanically) - To move a spoon or other implement around in a liquid or other substance in order to mix it thoroughly.
+opdi ;; Whisper - To speak very softly using one
+orari ;; To stir-fry / To sauté - To cook food quickly by moving it continuously in a small amount of hot oil over high heat.
+otani ;; Cook - To chemically or physically alter food matter for consumption by systematically applying thermal energy.
+ovami ;; To arrive - To complete a physical or conceptual journey and successfully transition into a final destination.
+owadi ;; Spend - To mathematically exhaust, exchange, or use up a measurable resource, such as time or money.
+oxopi ;; To organize / To coordinate - To actively arrange entities, systems, or events into a structured and logical order.
+oxti ;; Protect - To actively maintain a barrier that keeps an entity or system safe from physical harm or logical corruption.
+ozepi ;; To wish / To desire - To feel or express a strong hope or longing for a specific outcome or reality, often one that is not immediately or easily attainable.
+ozoxi ;; To occupy / To take up - To fill a physical space, consume a duration of time, or hold a specific position.
+pagari ;; Pay - To transfer money or abstract value in exchange for goods or services.
+pauli ;; Feel. - This verb means to experience an emotion or sensation.
+pegi ;; Fold - To bend something flexible over on itself so that one part of it covers another.
+petni ;; Excrete - This verb means to separate and expel waste matter from the body.
+piji ;; Warn - To inform someone in advance of an impending danger, threat, or problem.
+pli ;; Come. - This verb means to move toward a specific location or the speaker.
+pozi ;; Think. - This verb means to direct one
+pywi ;; Listen - To make a conscious effort to hear; to pay attention to sound (distinct from passive hearing).
+rerbi ;; Stay - To remain in the exact same physical location or conceptual state for an extended duration.
+retibi ;; Return - To reverse course and go back to a previous physical location or baseline abstract state.
+rizi ;; To get up / To rise/ to ascend - To actively move oneself from a lower physical position to a higher one (such as standing up from a bed or chair), or for a celestial body to ascend. (Distinct from todyri [Raise], which is the transitive action of lifting something else).
+roli ;; Drink - This verb means to take a liquid into the mouth and swallow it.
+rucemi ;; Lead - To guide, direct, or mathematically precede others in a physical sequence or organizational structure.
+ruwi ;; Twist - To turn or spin something around a central axis, or to distort its shape.
+sapi ;; Make. - This verb means to create, construct, or form something.
+sapiti ;; Invent - To physically create, design, or conceptually originate something that did not previously exist.
+sarmi ;; Taste - To perceive the flavor of food or liquid in the mouth.
+satsi ;; Hit / Strike. - This verb means to deliver a blow to someone or something.
+seji ;; Stop. - This verb means to cease an action or event.
+sexi ;; Update - This verb means to make something more modern or current, or to incorporate the most recent information.
+sigi ;; Hold. - This verb means to grasp and support something.
+sioxi ;; Hold / Host (an event) - To officially facilitate, provide the space for, or preside over an abstract event, meeting, or performance.
+skagi ;; Break. - This verb means to separate into pieces as a result of a blow, shock, or structural failure.
+skumki ;; Destroy - To break down, ruin, or dismantle a physical object or abstract system so completely that it no longer structurally exists or functions.
+solfi ;; To solve / To settle - To actively investigate and successfully find an answer, explanation, or peaceful resolution to a problem or dispute.
+sowi ;; Fall. - This verb describes the action of dropping down under the force of gravity.
+steli ;; Take. - This verb means to lay hold of something with one
+stomi ;; Give. - This verb means to freely transfer the possession of something to someone.
+sudi ;; Push. - This verb means to exert force on something to move it away.
+sufi ;; Turn. - This verb means to rotate or change the direction of movement.
+swami ;; Put. - This verb means to move something into a specific place or position.
+tazi ;; Love. - To feel deep affection, unconditional care, or profound attachment toward an entity.
+tehidi ;; To Study / To Review - To devote time and attention to acquiring knowledge on an academic subject.
+todyri ;; Raise/ lift - To elevate an entity to a higher physical altitude or scale it to a higher mathematical level.
+toili ;; Lend - To temporarily give or provide something to someone with the explicit expectation that it will be returned.
+tovni ;; To establish / To set up - To officially create, start, or set up an abstract organization, business, or systemic institution.
+tsi ;; Leave. - This verb means to go away from a place, person, or thing; to depart.
+tsyti ;; Search / Look for. - This verb means to try to find something by looking or otherwise seeking carefully and thoroughly.
+tumi ;; Change / Alter. - To make or become different; to transform the state of something.
+ubli ;; Expect - To mentally anticipate or logically regard an event as highly likely to happen.
+ufdi ;; Shake - To move back and forth or up and down with short, quick, repetitive movements.
+ugni ;; Leak - To accidentally lose or admit contents (typically fluid) through a hole, crack, or defect.
+ukwi ;; To Judge / To Adjudicate - To form an opinion or conclusion about something, or to formally decide a case in a court of law.
+umeti ;; Suggest - To put forward a conceptual idea, abstract plan, or possibility for another mind
+umzi ;; Welcome - To greet someone in a warm, friendly, and hospitable manner upon their arrival.
+upvi ;; Stretch - To make something longer or wider by pulling it, or to extend one
+uropi ;; To Sing - To make musical sounds with the voice, especially words with a set tune.
+usi ;; Sleep. - This verb means to rest with eyes closed in a state of natural unconsciousness.
+utmi ;; Float - To rest or move slowly on or near the surface of a liquid without sinking, or drift in the air.
+uyji ;; Wash - To clean something (like the body, clothes, or dishes) using water and typically soap.
+uzki ;; Hunt - To pursue and capture or kill wild animals for food or sport.
+vahimi ;; Handle / Deal with - To actively direct, manage, or take organizational/disciplinary action regarding a situation, problem, or entity.
+vansi ;; Advance / Progress - To advance, move forward logically, or progress systematically toward a goal or higher state.
+vianci ;; To dare - To have the courage to execute an action despite fear or risk.
+vifi ;; Boil - To heat a liquid until it reaches its boiling point and turns into vapor.
+volni ;; To be willing to / To consent to - To have a favorable disposition, readiness, or uncoerced agreement to perform an action.
+vyzi ;; Escape - To break free from confinement, danger, or control.
+wasti ;; Wait - To remain in a state of paused action in strict anticipation of a specific future event or time.
+waxi ;; To exercise / To move actively - To actively move one
+weli ;; Interrupt - To stop someone in the middle of an action, speech, or process.
+wiki ;; Squeeze - To firmly press or compress something, typically to extract liquid or change its shape.
+wogi ;; Hope. - This refers to a feeling of expectation and desire for a certain thing to happen; a state of optimism.
+wubi ;; Bend - To shape or force something straight into a curve or angle.
+xalati ;; Pass - To physically move past an object, or to successfully transfer completely through a structural barrier.
+xali ;; Move / Go. - This verb means to change position or displace something.
+xeri ;; Throw. - This verb means to propel something with force through the air.
+xeski ;; Win - To achieve victory, succeed, or finish first in a competitive system or conflict.
+xibi ;; Promise - To state or declare that one will definitely do or not do a specific action.
+xosi ;; Open. - This verb means to allow access, passage, or view through a space.
+xuni ;; Burn. - This verb means to consume or damage something by fire.
+xwewi ;; Excuse / Pardon - To excuse, forgive, or pardon someone for a minor social transgression or interruption.
+xyfi ;; Do. - To perform, execute, or carry out a general action.
+xygaji ;; Continue - To persist in an ongoing activity or state without breaking the SVO track.
+zanki ;; Hide / Conceal - To place an entity out of sight or prevent it from being found.
+zemi ;; Cover. - This verb means to put something on top of or in front of something else to protect or conceal it.
+zopi ;; Jump - To temporarily propel a physical body upward into the air using a sudden application of kinetic force.
+zyli ;; Use. - This verb means to employ something for a particular purpose.

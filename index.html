@@ -3,22 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fiwo is an engineered constructed language designed as a precision communication protocol. Explore its phonetics, grammar rules, dictionary, translator, and learning resources.">
     <meta name="author" content="Joshua Leon Arkema Barends">
     <meta name="copyright" content="Joshua Leon Arkema Barends, 2026">
     <meta name="license" content="CC BY 4.0">
     <title>Fiwo - Constructed Language</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <button id="menu-btn" class="menu-btn">
+    <button id="menu-btn" class="menu-btn" aria-label="Toggle navigation menu">
         <span></span>
         <span></span>
         <span></span>
     </button>
+    <div id="nav-overlay" class="nav-overlay"></div>
     <nav id="side-nav" class="side-nav">
+        <div class="nav-brand">Fiwo</div>
         <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#home" class="active">Home</a></li>
             <li><a href="#phonetics">Phonetics</a></li>
             <li><a href="#rules">Rules</a></li>
             <li><a href="#dictionary">Dictionary</a></li>
@@ -107,7 +113,7 @@
             <p>Letters are standard keyboard characters to make typing easier. Each letter has one assigned phoneme to aid in readability and pronounceability.</p>
 
             <h3>Stops (Plosives) — 6</h3>
-            <table class="phonetics-table">
+            <div class="table-wrapper"><table class="phonetics-table">
                 <thead>
                     <tr>
                         <th>IPA Symbol</th>
@@ -124,7 +130,83 @@
                     <tr><td>/k/</td><td>k</td><td>"cat" (Eng), "casa" (Spa)</td><td>Universal voiceless velar stop.</td></tr>
                     <tr><td>/g/</td><td>g</td><td>"go" (Eng), "gato" (Spa)</td><td>Absent in Mandarin; marginal/dialectal in Standard Arabic.</td></tr>
                 </tbody>
-            </table>
+            </table></div>
+
+            <h3>Nasals — 3</h3>
+            <div class="table-wrapper"><table class="phonetics-table">
+                <thead>
+                    <tr>
+                        <th>IPA Symbol</th>
+                        <th>Assigned Key</th>
+                        <th>Examples</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>/m/</td><td>m</td><td>"man" (Eng), "mano" (Spa)</td><td>Universal bilabial nasal.</td></tr>
+                    <tr><td>/n/</td><td>n</td><td>"no" (Eng), "no" (Spa)</td><td>Universal alveolar/dental nasal.</td></tr>
+                    <tr><td>/ŋ/</td><td>q</td><td>"sing" (Eng)</td><td>Phonemic in English, Mandarin, Hindi, Bengali, Urdu. Allophonic in Spanish.</td></tr>
+                </tbody>
+            </table></div>
+
+            <h3>Fricatives &amp; Affricates — 7</h3>
+            <div class="table-wrapper"><table class="phonetics-table">
+                <thead>
+                    <tr>
+                        <th>IPA Symbol</th>
+                        <th>Assigned Key</th>
+                        <th>Examples</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>/f/</td><td>f</td><td>"fan" (Eng), "fin" (Spa)</td><td>Universal labiodental fricative.</td></tr>
+                    <tr><td>/s/</td><td>s</td><td>"see" (Eng), "sí" (Spa)</td><td>Universal sibilant.</td></tr>
+                    <tr><td>/ʃ/ (sh)</td><td>x</td><td>"she" (Eng)</td><td>Absent in standard Spanish; pervasive in others.</td></tr>
+                    <tr><td>/h/</td><td>h</td><td>"hat" (Eng)</td><td>Absent in French, Spanish, Russian (/x/), and Portuguese.</td></tr>
+                    <tr><td>/tʃ/ (ch)</td><td>c</td><td>"chat" (Eng), "mucho" (Spa), "chi" (Man)</td><td>Voiceless postalveolar affricate. A very common sound globally that bridges the gap between /t/ and /ʃ/.</td></tr>
+                    <tr><td>/z/</td><td>z</td><td>"zoo" (Eng), "zebra" (Eng)</td><td>A highly prevalent voiced alveolar fricative globally. Present in English, Arabic, French, Russian, Portuguese, Bengali, and Urdu. Absent in standard Spanish (often merges with /s/).</td></tr>
+                    <tr><td>/x/</td><td>v</td><td>"caja" (Spa), "Bach" (Ger), "hǎo" (Man), "kh" (Ara/Rus)</td><td>A pervasive voiceless velar fricative globally. Acts as the guttural counterpart to the universal velar stop /k/.</td></tr>
+                </tbody>
+            </table></div>
+
+            <h3>Approximants — 4</h3>
+            <div class="table-wrapper"><table class="phonetics-table">
+                <thead>
+                    <tr>
+                        <th>IPA Symbol</th>
+                        <th>Assigned Key</th>
+                        <th>Examples</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>/l/</td><td>l</td><td>"let" (Eng), "lo" (Spa)</td><td>Universal lateral.</td></tr>
+                    <tr><td>/r/</td><td>r</td><td>"red" (Eng), "pero" (Spa)</td><td>Broad category covering trills (Spanish/Russian), taps (Hindi), and approximants (English).</td></tr>
+                    <tr><td>/w/</td><td>w</td><td>"wet" (Eng)</td><td>Distinct in English, Mandarin, Arabic, French. Allophonic/Diphthong in others.</td></tr>
+                    <tr><td>/j/</td><td>j</td><td>"yes" (Eng), "yo" (Spa)</td><td>Universal palatal glide.</td></tr>
+                </tbody>
+            </table></div>
+
+            <h3>Vowels — 6</h3>
+            <div class="table-wrapper"><table class="phonetics-table">
+                <thead>
+                    <tr>
+                        <th>IPA Symbol</th>
+                        <th>Assigned Key</th>
+                        <th>Examples</th>
+                        <th>Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>/i/</td><td>i</td><td>"see" (Eng), "sí" (Spa)</td><td>Universal high front vowel.</td></tr>
+                    <tr><td>/e/</td><td>e</td><td>"tres" (Spa)</td><td>Mid front vowel. Absent in Standard Arabic (uses /i, a, u/).</td></tr>
+                    <tr><td>/a/</td><td>a</td><td>"father" (Eng), "casa" (Spa)</td><td>Universal low vowel.</td></tr>
+                    <tr><td>/o/</td><td>o</td><td>"go" (Eng), "no" (Spa)</td><td>Mid back vowel. Absent in Standard Arabic.</td></tr>
+                    <tr><td>/u/</td><td>u</td><td>"boot" (Eng), "tú" (Spa)</td><td>Universal high back vowel.</td></tr>
+                    <tr><td>/ʌ/</td><td>y</td><td>"up" (Eng), "cut" (Eng)</td><td>Mid central vowel similar to the vowel in English “cup”.</td></tr>
+                </tbody>
+            </table></div>
 
 <h3>Word Shapes &amp; Pronounceability (Phonotactics)</h3>
 <p>Fiwo is engineered for global pronounceability. To ensure no word ever becomes a harsh, unpronounceable string of letters, consonants cannot be combined randomly. They must follow the natural flow of sound resonance, known as the <strong>Sonority Sequencing Principle</strong>.</p>
@@ -547,7 +629,7 @@
 </ul>
   <li><strong>The Indefinite Grid:</strong> By combining the base variables and operators, the parser maps 16 distinct universal pronouns:</li>
 </ol>
-<table class="phonetics-table">
+<div class="table-wrapper"><table class="phonetics-table">
   <thead>
     <tr>
       <th><strong>Base Variable</strong></th>
@@ -587,7 +669,7 @@
       <td><em>dionu kase</em> (Anytime)</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 <ol>
   <li><strong>Parser Examples:</strong></li>
 <ul>
@@ -724,6 +806,19 @@
   <li><strong>Hap mik kyti bata sile.</strong> ([Emotion] + I + like + food + this-[modifier]. Meaning: <em>I really love this food!</em>)</li>
 </ul>
 </ul>
+  <li><strong>Evidentiality Tags:</strong></li>
+  <p>While the core mood tags above encode <em>intent</em> and <em>tone</em>, Fiwo also uses specific mood tags to encode <strong>Evidentiality</strong> — explicitly informing the parser <em>how</em> the speaker acquired the information they are presenting.</p>
+<ul>
+  <li><strong>Sop:</strong> Direct / Sensory Evidence. (The speaker directly saw, heard, or felt it happen).</li>
+  <li><strong>Nop:</strong> Inferred / Logical Evidence. (The speaker deduces it from physical evidence or logic).</li>
+  <li><strong>Rop:</strong> Reported / Hearsay Evidence. (The speaker was told by someone else, or read it).</li>
+  <li><em>Parser Examples:</em></li>
+<ul>
+  <li><strong>Sop daq tsid.</strong> (Meaning: <em>He left — and I saw him leave.</em>)</li>
+  <li><strong>Nop daq tsid.</strong> (Meaning: <em>He left — I infer this because his coat is gone.</em>)</li>
+  <li><strong>Rop daq tsid.</strong> (Meaning: <em>He left — someone told me he did.</em>)</li>
+</ul>
+</ul>
 </ol>
 <hr>
 <h3>Rule 12: Interrogatives &amp; In-Situ Variables</h3>
@@ -732,7 +827,7 @@
   <li><strong>The Pairing Rule (<code>Kup</code>):</strong> Because the question word is buried deep inside its natural SVO slot, the parser needs advanced warning that it is processing a question rather than a statement. Therefore, any sentence containing a question word <strong>must</strong> be initiated by the <code>Kup</code> (Question) mood tag at the absolute beginning of the sentence.</li>
   <li><strong>Variable Classes:</strong> Not all interrogative variables operate at the same grammatical level. The table below summarizes where each variable sits within the parser so speakers can place them correctly:</li>
 </ol>
-<table class="phonetics-table">
+<div class="table-wrapper"><table class="phonetics-table">
   <thead>
     <tr>
       <th>Variable</th>
@@ -785,7 +880,7 @@
       <td>A missing reason clause</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 <ol>
   <li><strong>Parser Examples &amp; Explanations:</strong></li>
 <ul>
@@ -878,7 +973,7 @@
 <ol>
   <li><strong>The Core 5-Point Grid:</strong> The parser recognizes five primary states that lock into the end of a verb:</li>
 </ol>
-<table class="phonetics-table">
+<div class="table-wrapper"><table class="phonetics-table">
   <thead>
     <tr>
       <th><strong>Marker</strong></th>
@@ -925,7 +1020,7 @@
       <td>has moved (and it matters now)</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 <ol>
   <li><strong>Tense Stacking (The <code>y</code> Bridge):</strong> To express complex timelines (such as the Past Perfect or Future Continuous), Fiwo stacks a Tense consonant (<code>d</code> or <code>s</code>) with an Aspect consonant (<code>q</code> or <code>k</code>). To prevent illegal consonant clusters at the end of the word, the bridging vowel <code>y</code> is inserted strictly between the two markers.</li>
 <ul>
@@ -999,6 +1094,7 @@
   <li><strong>Nak baki jamit panor.</strong> (We-[exclusive] + try + write-[stacker] + book-some. Meaning: <em>We try to write a book.</em>)</li>
 </ul>
 </ul>
+  <li><strong>Passive Voice Interaction:</strong> Because serial verbs form an unbreakable block, the passive flag <code>fap</code> applies to the entire chain globally. You cannot mix voices (e.g., Active V1 + Passive V2) in a serial chain. See Rule 16 for details.</li>
 </ol>
 <hr>
 <h3>Rule 16: Voice &amp; Valence: The Passive Flag</h3>
@@ -1029,6 +1125,16 @@
   <li><em>Literal Breakdown:</em> [Question] + [Passive Flag] + house-the + build-[past].</li>
   <li><em>Meaning:</em> <em>Was the house built?</em></li>
 </ul>
+  <li><strong>Passive Voice + Serial Verbs (The Macro-Verb Rule):</strong> A serial verb chain created with the <code>-t</code> stacker (Rule 15) functions as a single, mathematically unbreakable &quot;Macro-Verb.&quot;</li>
+<ul>
+  <li>If the clause begins with the <code>fap</code> passive flag, it flips the thematic roles of the <strong>entire chain globally</strong>. Slot 1 swaps with Slot 3 for the entire macro-action.</li>
+  <li><strong>Fiwo:</strong> <strong>Fap batap fabid nomit nofap.</strong></li>
+  <li><em>Literal Breakdown:</em> [Passive Flag] + food-the + want-[past] + to-eat + person-the.</li>
+  <li><em>Parser Logic:</em> <code>fap</code> applies to the whole chain (<code>fabid nomit</code>). Slot 1 (<code>batap</code>) is the ultimate receiver of the action. Slot 3 (<code>nofap</code>) is the ultimate doer.</li>
+  <li><em>Meaning:</em> <em>The food was wanted to be eaten by the person.</em> (In active voice: <em>The person wanted to eat the food.</em>)</li>
+  <li><strong>Forbidden Mixed Voices:</strong> Because <code>-t</code> forms an unbreakable bond, you cannot mix voices within a serial chain (e.g., Active V1 + Passive V2). To express mixed voices like &quot;The person wanted to be eaten by the food,&quot; you <strong>must</strong> use a Complement Clause (Rule 30).</li>
+  <li><em>Correct Mixed Voice:</em> <strong>Nofap fabid tep fap daq wible nomid batap tel.</strong> (Person-the + want-[past] + [Bracket] + [Passive Flag] + he + self + eat-[past] + food-the. Meaning: <em>The person wanted that he himself was eaten by the food.</em>)</li>
+</ul>
 </ol>
 <hr>
 <h3>Rule 17: Modality (Epistemic &amp; Deontic)</h3>
@@ -1036,7 +1142,7 @@
 <ol>
   <li><strong>The Modality Grid:</strong> These modifiers handle the two primary branches of linguistic modality:</li>
 </ol>
-<table class="phonetics-table">
+<div class="table-wrapper"><table class="phonetics-table">
   <thead>
     <tr>
       <th>Modality Type</th>
@@ -1076,7 +1182,7 @@
       <td>Must / Necessary (obligatory / required)</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 <ol>
   <li><strong>Syntax and Slot Reordering:</strong> To prevent the modal modifier from attaching to the SVO Object, it must be slotted <em>immediately</em> after the Verb. The SVO sequence remains intact:</li>
 <ul>
@@ -1158,13 +1264,18 @@
   <li><strong>Mifap ruzem jete.</strong> (Animal-the + fast-[modified] + more. <code>ruzem</code> flags the trait. <code>jete</code> scales the trait. The entire nested block looks left to modify the animal. Meaning: <em>The animal is faster.</em>)</li>
 </ul>
 </ul>
-  <li><strong>Absolute Intensity (The 1-5 Scale):</strong> Just as verbs can be scaled using the numbers 1 through 5 as an intensity rating (Rule 23), descriptive modifiers can be subjected to this exact same mathematical scaling. By applying the <code>-m</code> suffix to a base trait and following it with a number, you rank the intensity of that description.</li>
+  <li><strong>The Dual-System Intensity Scale:</strong> Fiwo features two parallel systems for scaling the intensity of a trait (or verb), allowing it to bridge strict AI-level precision with natural human subjectivity. To scale a modifier, apply the <code>-m</code> suffix to the base trait and follow it with either a Number or a Relative Degree Adverb.</li>
 <ul>
-  <li><strong>Parser Logic:</strong> Without the <code>m</code> flag, a number will skip the modifier and count the noun (e.g., <em>dreko tande raje</em> means &quot;Five big rocks&quot;). With the <code>m</code> flag, the number mathematically scales the trait itself.</li>
-  <li><em>Parser Example (Maximum Intensity):</em></li>
+  <li><strong>System A: The Mathematical Scale (Numbers 1-5).</strong> Used for absolute, objective precision (e.g., scientific measurements, medical pain scales, AI parsing). A number attached to the <code>-m</code> flag scales the trait rigidly from Level 1 (minimum) to Level 5 (maximum).</li>
 <ul>
-  <li><strong>Dreko tandem raje.</strong> (Rock + big-[modified] + five. <code>tandem</code> explicitly flags the trait. The modifier <code>raje</code> [five] bonds to it, multiplying the scale of the size to its maximum value. Meaning: <em>An incredibly big rock.</em> Level 5 size).</li>
+  <li><em>Parser Example:</em> <strong>Dreko tandem raje.</strong> (Rock + big-[modified] + five. <code>raje</code> bonds to <code>tandem</code>, multiplying the scale of the size to its maximum objective value. Meaning: <em>A Level-5 big rock.</em>)</li>
 </ul>
+  <li><strong>System B: The Relative Scale (Degree Adverbs).</strong> Used for subjective human conversation. Fiwo provides a spectrum of relative degree adverbs that attach to the <code>-m</code> flag exactly like numbers do, but provide conversational nuance without asserting a strict mathematical percentile.</li>
+<ul>
+  <li>The spectrum: <code>ugte</code> (Barely), <code>beje</code> (Slightly), <code>ynse</code> (Somewhat), <code>fe</code> (Very), <code>huhe</code> (Extremely), <code>slafe</code> (Too/Excessively).</li>
+  <li><em>Parser Example:</em> <strong>Dreko tandem fe.</strong> (Rock + big-[modified] + very. Meaning: <em>A very big rock.</em>)</li>
+</ul>
+  <li><strong>Parser Logic (Why <code>-m</code> is required):</strong> Without the <code>-m</code> flag, a scaling word will skip the modifier and apply to the noun instead (e.g., <em>dreko tande raje</em> means &quot;Five big rocks&quot;).</li>
 </ul>
 </ol>
 <hr>
@@ -1534,6 +1645,12 @@
   <li><strong>Parser Logic:</strong> When <code>tep</code> opens a subordinate clause immediately following a noun, the parser stores that parent noun in active memory as a &quot;ghost target.&quot; If a preposition is placed at the very end of the subordinate clause (immediately before <code>tel</code>), it will have no explicit noun to its right. Instead of crashing, <code>tel</code> acts as a structural mirror. It routes the dangling preposition&#x27;s bridge back to the ghost target that opened the clause.</li>
   <li><em>Embedded Spatial Clause:</em> <strong>Sydop tep mik ceni deky tel.</strong> (House-the + [Subordinate Start] + I + live + inside + [Subordinate End]. Meaning: <em>The house that I live inside of.</em>)</li>
 </ul>
+  <li><strong>Complement Clauses (Noun Clauses):</strong> Verbs of desire (<code>fabi</code> - want), cognition (<code>pozi</code> - think, <code>kani</code> - know), and communication (<code>gesi</code> - say) use the <code>tep</code> bracket to encapsulate an entire SVO sequence as their direct object. This functions identically to the English word "that" in "I know <em>that</em> he went," completely shielding the SVO sequence from parser crashes.</li>
+<ul>
+  <li><strong>Parser Logic:</strong> The parser hits <code>tep</code> right where it expects an object. It suspends the main clause, evaluates the internal SVO sequence, and then treats the entire bracketed sequence as the object of the main verb once <code>tel</code> is reached (or the sentence ends).</li>
+  <li><em>Desire Complement:</em> <strong>Mik fabid tep suk nomi batap.</strong> (I + want-[past] + [Subordinate Start] + you + eat + food-the. Meaning: <em>I wanted you to eat the food.</em> / <em>I wanted that you eat the food.</em> Note: Explicit <code>tel</code> is omitted because the sentence ends.)</li>
+  <li><em>Cognition Complement:</em> <strong>Daq kani tep das xalid tel dury dugu.</strong> (He + know + [Subordinate Start] + she + go-[past] + [Subordinate End] + during + night. Meaning: <em>He knows that she left during the night.</em> Note: <code>tel</code> is included here because the sentence continues, routing <code>dury dugu</code> back to modify the main verb "knows" rather than the subordinate verb "left.")</li>
+</ul>
   <li><strong>String Literals (Reported Speech &amp; Direct Thoughts):</strong> In Fiwo, punctuation has no grammatical function. Instead, <code>tep</code> and <code>tel</code> act as strict string delimiters, isolating entire clauses so they can be parsed as a single Object unit.</li>
 <ul>
   <li>When using verbs of communication (e.g., <em>gesi</em> - to speak, <em>kupi</em> - to ask) or cognition (e.g., <em>pozi</em> - to think, <em>atilui</em> - to believe), you do not need a word for &quot;that&quot;. Open a subordinate bracket. The parser processes the encapsulated sentence—including its own internal Mood Tag—and treats that block as the Object of the main verb.</li>
@@ -1699,12 +1816,21 @@
   <li><strong>Nes. Mik nes plid.</strong> (The first <code>Nes</code> fulfills the Null Track and means &quot;No.&quot; The parser resets. The second <code>nes</code> operates inside the SVO track, negating <code>plid</code>. Meaning: <em>No. I did not come.</em>)</li>
 </ul>
 </ul>
+  <li><strong>The Vocative Case (Direct Address):</strong> Because Fiwo's parser ignores punctuation (like commas), calling someone by name at the start of a sentence would normally crash the parser (as the name would be read as the Subject, and the actual Subject would trigger a Zero Copula). To solve this, the Vocative Case relies entirely on the Null Track.</li>
+<ul>
+  <li>If a proper noun immediately follows the phatic particle <code>jo</code> (informal: &quot;Hey&quot;) or the formal pronoun <code>suv</code> (used phatically as &quot;Sir/Madam&quot;), the proper noun is dragged onto the Null Track alongside it.</li>
+  <li>The SVO parser completely ignores the <code>[jo/suv] + [Name]</code> sequence and begins processing the sentence with the very next word.</li>
+  <li><em>Informal Command:</em> <strong>Jo David, Kop plis.</strong> (Meaning: <em>Hey David, come.</em>)</li>
+  <li><em>Formal Command:</em> <strong>Suv David, Kop plis.</strong> (Meaning: <em>Sir David, come.</em>)</li>
+  <li><em>Informal Statement:</em> <strong>Jo David, mik tsid.</strong> (Meaning: <em>Hey David, I left.</em>) Note that an explicit Pragmatic Mood Tag (like <code>Kep</code>) is not required; the parser simply resets after the name and reads <code>mik</code> as Slot 1.</li>
+  <li><em>Formal Statement:</em> <strong>Suv David, mik tsid.</strong> (Meaning: <em>Sir David, I left.</em>)</li>
+</ul>
 </ol>
 <hr>
 <h3>Rule 34: Calendar, Date, &amp; Time Systems</h3>
 <p>To represent dates, days of the week, and months of the year, Fiwo employs a mix of compound abstract nouns and analytical ordinal phrases.</p>
 <ol>
-  <li><strong>Days of the Week (Compound Nouns):</strong> The seven days of the week are expressed as single-word compound abstract nouns (ending in <code>-u</code>). They are built by compounding the number modifier root representing the day&#x27;s order (1 through 7) with the day root noun <code>du</code> (Day):</li>
+  <li><strong>Days of the Week (Frozen Lexicon):</strong> The seven days of the week are expressed as single-word abstract nouns (ending in <code>-u</code>). While etymologically derived from compounding a number root (1 through 7) with the day root noun <code>du</code> (Day), they are now permanently <strong>frozen base roots</strong> in the dictionary. The parser treats them as indivisible atomic nouns, not as active compounds:</li>
 <ul>
   <li><em>Monday (&quot;day one&quot;):</em> <strong>bimedu</strong></li>
   <li><em>Tuesday (&quot;day two&quot;):</em> <strong>dewedu</strong></li>
@@ -1802,9 +1928,9 @@
   <li>Using structural bridges (Rule 13), the two nouns are linked using <code>zy</code> (of/pertaining to).</li>
   <li><em>Example (&quot;Potato&quot;):</em> <strong>bata zy zaso</strong> (Meaning: <em>Food of the ground</em>).</li>
 </ul>
-  <li><strong>The Exception (Calendar Math):</strong></li>
+  <li><strong>The &quot;Frozen Lexicon&quot; Exception:</strong></li>
 <ul>
-  <li>The <em>only</em> exception to this strict analytic compounding rule is the calendar system (Rule 34), which concatenates abstract day names (e.g., <code>bimedu</code> = day one / Monday). Because calendar dates are strict mathematical constructs, they are permitted as highly lexicalized, pre-compiled exceptions to the rule.</li>
+  <li>The apparent exception to this rule is the calendar system (Rule 34, e.g., <code>bimedu</code> = Monday). However, these are <strong>not active grammatical compounds</strong>. They are permanently frozen, pre-compiled base roots residing in the dictionary. The parser does not see <code>bime</code> + <code>du</code>; it only sees the indivisible atomic root <code>bimedu</code>. Active root-root compounding remains strictly forbidden.</li>
 </ul>
 </ol>
         </section>
@@ -1825,21 +1951,20 @@
             <div id="dictionary-grid" class="dictionary-grid"></div>
         </section>
         <section id="translator" class="page">
-            <header class="page-header">
-                <h2>Fiwo Translator</h2>
-            </header>
+            <h2>Fiwo Translator</h2>
             
-            <div class="control-group" style="margin-bottom: 20px; display: flex; flex-direction: column;">
-                <textarea id="translator-input" placeholder="Enter Fiwo text to translate (e.g., Nofap hobe hicidyq)..." style="min-height: 100px; padding: 10px; border-radius: 4px; border: 1px solid #555; background-color: #3c3c3c; color: #d4d4d4; font-family: inherit; resize: vertical;"></textarea>
-                <button id="translate-text-btn" style="margin-top: 10px; width: 150px; padding: 10px; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; font-weight: bold;">Translate</button>
+            <div class="translator-controls">
+                <textarea id="translator-input" placeholder="Enter Fiwo text to translate (e.g., Nofap hobe hicidyq)..."></textarea>
+                <button id="translate-text-btn" class="translate-btn">Translate</button>
             </div>
 
-            <div id="translator-output" style="background-color: #1e1e1e; padding: 30px; display: flex; flex-direction: column; gap: 30px; border-radius: 8px;">
+            <div id="translator-output" class="translator-output">
             </div>
         </section>
         <section id="how-to-learn" class="page">
             <h2>How to Learn Fiwo</h2>
-            <div class="download-container" style="display: flex; gap: 15px; margin-bottom: 25px; flex-wrap: wrap;">
+            <div class="download-container">
+
                 <a href="Fiwo-Dictionary.txt" download="Fiwo-Dictionary.txt" class="download-btn">Download Root Dictionary</a>
                 <a href="Fiwo-Derived-Dictionary.txt" download="Fiwo-Derived-Dictionary.txt" class="download-btn">Download Derived Dictionary</a>
                 <a href="Fiwo-AI-instructions.txt" download="Fiwo-AI-instructions.txt" class="download-btn">Download AI Instructions</a>
@@ -2333,7 +2458,7 @@
   <li><strong>Any / Free Choice (<code>kase</code> modifier):</strong> Indicates that any choice of the variable is valid.</li>
 </ul>
 <h3><strong>The Universal Matrix</strong></h3>
-<table class="phonetics-table">
+<div class="table-wrapper"><table class="phonetics-table">
   <thead>
     <tr>
       <th>Base Variable</th>
@@ -2373,7 +2498,7 @@
       <td><code>dionu kase</code> (Anytime)</td>
     </tr>
   </tbody>
-</table>
+</table></div>
 <hr>
 <h3><strong>Chapter 8 Exercises</strong></h3>
 <p><strong>Part A: Translate the Concepts</strong></p>
@@ -3437,7 +3562,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h2 id="modal-title"></h2>
-                <button id="close-modal">&times;</button>
+                <button id="close-modal" aria-label="Close modal">&times;</button>
             </div>
             <div id="modal-body" class="modal-body">
             </div>
@@ -3447,7 +3572,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h2 id="definition-modal-title"></h2>
-                <button id="close-definition-modal">&times;</button>
+                <button id="close-definition-modal" aria-label="Close modal">&times;</button>
             </div>
             <div id="definition-modal-body" class="modal-body">
             </div>
