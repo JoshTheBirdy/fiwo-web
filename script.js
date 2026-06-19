@@ -12,6 +12,16 @@ const navOverlay = document.getElementById('nav-overlay');
 const navLinks = document.querySelectorAll('.side-nav a');
 const pages = document.querySelectorAll('.page');
 
+const posColors = {
+    "Noun": "#001dab",
+    "Biological Noun": "#001dab",
+    "Concrete Noun": "#001dab",
+    "Abstract Noun": "#001dab",
+    "Verb": "#bc0000",
+    "Modifier": "#3f9022",
+    "Preposition": "#ff6600",
+    "Grammar": "#666666"
+};
 // Nav open/close helpers
 function openNav() {
     sideNav.classList.add('active');
@@ -73,6 +83,7 @@ document.getElementById('home').classList.add('active');
 // Dictionary functionality
 function renderDictionary() {
     const searchBar = document.getElementById('search-bar');
+    const dictionaryFilter = document.getElementById('dictionary-filter');
     const sortBy = document.getElementById('sort-by');
     const wordCount = document.getElementById('word-count');
     const grid = document.getElementById('dictionary-grid');
@@ -82,7 +93,14 @@ function renderDictionary() {
         : [...dictionaryData];
 
     function updateDisplay() {
-        let filteredData = combinedData.filter(item =>
+        let activeData = combinedData;
+        if (dictionaryFilter && dictionaryFilter.value === 'core') {
+            activeData = dictionaryData;
+        } else if (dictionaryFilter && dictionaryFilter.value === 'derived' && typeof derivedDictionaryData !== 'undefined') {
+            activeData = derivedDictionaryData;
+        }
+
+        let filteredData = activeData.filter(item => 
             item.word.toLowerCase().includes(searchBar.value.toLowerCase()) ||
             item.english_equiv.toLowerCase().includes(searchBar.value.toLowerCase())
         );
@@ -123,6 +141,7 @@ function renderDictionary() {
 
     updateDisplay();
     searchBar.addEventListener('input', updateDisplay);
+    if (dictionaryFilter) dictionaryFilter.addEventListener('change', updateDisplay);
     sortBy.addEventListener('change', updateDisplay);
 }
 

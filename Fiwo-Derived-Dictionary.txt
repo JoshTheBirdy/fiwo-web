@@ -1175,7 +1175,7 @@ lyo ;; Mold / Template / Cast. - A physical mold, template, or cast used to shap
 majio ;; Breath. - A concrete physical volume of air taken into or expelled from the lungs during biological respiration.
 malxio ;; Dance tool / Result of dancing. - A concrete physical tool, instrument, or tangible result of the action of dancing.
 mapao ;; Pointer / Thimble / Finger Ring. - A physical sleeve or ring worn on the finger, or a pointing device.
-matxao ;; Opening / Aperture / Nozzle / Mouthpiece. - A physical opening or mouthpiece that resembles or functions like a mouth.
+ylxao ;; Opening / Aperture / Nozzle / Mouthpiece. - A physical opening or mouthpiece that resembles or functions like a mouth.
 mekao ;; Skeleton / Frame / Structural Support. - The physical framework of bones, or an artificial structural support skeleton for a building or machine.
 meotao ;; Helmet / Cap / Headpiece / Top Cover. - A physical protective cover designed to be worn on the head, or the top physical cover of an object.
 metyo ;; Tool / Instrument / Medium. - A physical tool, instrument, or medium.
@@ -1375,7 +1375,7 @@ astlue ;; Interesting / Attracted. - Arousing interest, interesting, or being at
 atilue ;; Believed / Trusted / Credible. - Firmly believed, trusted, or credible as a conviction.
 atobue ;; Field-related / Domain-specific. - Relating to a conceptual field, domain-specific, or academic sphere.
 atripoe ;; Rail-bound / Rail-related. - Relating to trains, railway lines, or being bound to rails.
-atxypue ;; Regretful. - Feeling or expressing sadness or disappointment over something.
+brikue ;; Regretful. - Feeling or expressing sadness or disappointment over something.
 auvie ;; Sunk / Undergone sinking - Describing an entity that has undergone, is currently undergoing, or is the direct result of the action of sinking.
 avlye ;; Along / Oriented along - Relating to, oriented, or acting along.
 avmoe ;; Nail-like / Relating to a nail - Relating to, made of, or having the characteristics of a nail.
@@ -1724,7 +1724,7 @@ malxie ;; Danced / Undergone dancing. - Describing an entity that has undergone,
 manae ;; Maternal / Motherly / Nurturing. - Relating to or characteristic of a mother.
 mantue ;; Quantitative / Measured. - Relating to quantities; measured or quantitative.
 maobae ;; Cardiac / Central / Core. - Relating to the cardiac system, central, or forming the emotional core.
-matxae ;; Oral / Spoken. - Relating to the mouth, or expressed through spoken words rather than writing.
+ylxae ;; Oral / Spoken. - Relating to the mouth, or expressed through spoken words rather than writing.
 mekae ;; Skeletal / Bony / Rigid / Structural. - Relating to bones, or having a hard, rigid, and supportive structure.
 melfue ;; Costly / Priced / Expensive. - Having a high price; costly or expensive.
 meokoe ;; Hat-wearing / Covered-head. - Wearing a hat, or having a covered head.
@@ -2089,7 +2089,7 @@ astlui ;; To interest / To attract. - To actively interest someone, attract atte
 atilui ;; To believe / To trust. - To actively believe in, trust, or accept a conviction as true.
 atobui ;; To field / To deploy. - To actively deploy into a field of action, or field queries.
 atripoi ;; To travel by train / To rail. - To actively travel by train, or commute on railway networks.
-atxypui ;; To regret. - To actively feel sad or repentant over an action.
+brikui ;; To regret. - To actively feel sad or repentant over an action.
 avgei ;; To be rotten / decayed - To actively be or exhibit the state of being rotten / decayed.
 avlyi ;; To act along / To relate along - To actively enact or transition into the relationship of being along.
 avmoi ;; To use a nail / To operate a nail - To actively utilize, operate, or apply a nail in performing an action.
@@ -2405,7 +2405,7 @@ manai ;; To mother / To nurture / To care for. - To actively nurture, protect, a
 mantui ;; To measure amount / To quantify. - To actively quantify a resource, or measure a total volume.
 maobai ;; To beat / To throb / To pulsate. - To actively beat, throb, or pulsate (like a physical heart or emotional rhythm).
 mapai ;; To point / To gesture / To tap. - To actively point, tap, or gesture using a finger.
-matxai ;; To utter / To speak aloud / To oralize. - To actively produce spoken sounds, words, or vocal expressions using the mouth.
+ylxai ;; To utter / To speak aloud / To oralize. - To actively produce spoken sounds, words, or vocal expressions using the mouth.
 mekai ;; To calcify / To ossify / To stiffen. - To actively turn into bone, calcify, or become rigid and stiff.
 melfui ;; To price / To value / To charge. - To actively assign a price tag, charge a cost, or value commercial goods.
 meokoi ;; To put on a hat. - To actively place a hat or head covering on oneself.

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 
@@ -1938,8 +1938,13 @@
             <h2>Dictionary</h2>
             <div class="dictionary-controls">
                 <input type="text" id="search-bar" placeholder="Search words...">
+                <select id="dictionary-filter">
+                    <option value="all">Full Dictionary</option>
+                    <option value="derived">Derived Dictionary</option>
+                    <option value="core">Core Words</option>
+                </select>
                 <select id="sort-by">
-                    <option value="">Parts of Speech</option>
+                    <option value="">All Parts of Speech</option>
                     <option value="Noun">Noun</option>
                     <option value="Verb">Verb</option>
                     <option value="Modifier">Modifier</option>
@@ -3562,7 +3567,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h2 id="modal-title"></h2>
-                <button id="close-modal" aria-label="Close modal">&times;</button>
+                <button id="close-modal" class="close" aria-label="Close modal">&times;</button>
             </div>
             <div id="modal-body" class="modal-body">
             </div>
@@ -3572,7 +3577,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h2 id="definition-modal-title"></h2>
-                <button id="close-definition-modal" aria-label="Close modal">&times;</button>
+                <button id="close-definition-modal" class="close" aria-label="Close modal">&times;</button>
             </div>
             <div id="definition-modal-body" class="modal-body">
             </div>
