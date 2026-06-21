@@ -65,6 +65,14 @@ navLinks.forEach(link => {
         });
         document.getElementById(targetId).classList.add('active');
 
+        // Show/hide TOC globally based on rules tab
+        document.body.classList.remove('rules-active', 'learn-active');
+        if (targetId === 'rules') {
+            document.body.classList.add('rules-active');
+        } else if (targetId === 'how-to-learn') {
+            document.body.classList.add('learn-active');
+        }
+
         if (targetId === 'dictionary') {
             renderDictionary();
         }
@@ -119,7 +127,7 @@ function renderDictionary() {
         grid.innerHTML = '';
         filteredData.forEach(item => {
             const card = document.createElement('div');
-            card.className = 'card';
+            card.className = 'card reveal-on-scroll';
             card.innerHTML = `
                 <div class="pos-dot" style="background-color: ${posColors[item.part_of_speech] || '#c6c6c6'}"></div>
                 <div class="fiwo-word">${item.word}</div>
@@ -136,6 +144,7 @@ function renderDictionary() {
                 document.getElementById('definition-modal').style.display = 'block';
             });
             grid.appendChild(card);
+            if (typeof revealObserver !== 'undefined') revealObserver.observe(card);
         });
     }
 
@@ -200,11 +209,143 @@ window.addEventListener('keydown', (e) => {
 
 
 // ============================================
+// RULEBOOK SCROLLSPY TOC
+// ============================================
+function initScrollspy() {
+    const rulesSection = document.getElementById('rules');
+    if (!rulesSection) return;
+
+    const tocNav = document.createElement('nav');
+    tocNav.className = 'toc-nav toc-rules';
+    const tocUl = document.createElement('ul');
+    tocNav.appendChild(tocUl);
+
+    const ruleHeaders = Array.from(rulesSection.querySelectorAll('h3')).filter(h3 => h3.textContent.startsWith('Rule'));
+    if (ruleHeaders.length === 0) return;
+
+    ruleHeaders.forEach((header, index) => {
+        const ruleId = `rule-spy-${index + 1}`;
+        header.id = ruleId;
+        
+        const match = header.textContent.match(/Rule \d+/);
+        const labelText = match ? match[0] : `Rule ${index + 1}`;
+        
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = `#${ruleId}`;
+        a.textContent = labelText;
+        a.title = header.textContent;
+        
+        a.addEventListener('click', (e) => {
+            e.preventDefault();
+            header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        
+        li.appendChild(a);
+        tocUl.appendChild(li);
+    });
+
+    document.body.appendChild(tocNav);
+
+    let activeTocLink = null;
+    
+    const tocObserverOptions = {
+        root: null,
+        rootMargin: '-10% 0px -70% 0px',
+        threshold: 0
+    };
+
+    const tocObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                if (activeTocLink) activeTocLink.classList.remove('active');
+                const link = tocNav.querySelector(`a[href="#${entry.target.id}"]`);
+                if (link) {
+                    link.classList.add('active');
+                    activeTocLink = link;
+                    link.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            }
+        });
+    }, tocObserverOptions);
+
+    ruleHeaders.forEach(header => tocObserver.observe(header));
+}
+
+function initLearnScrollspy() {
+    const learnSection = document.getElementById('how-to-learn');
+    if (!learnSection) return;
+
+    const tocNav = document.createElement('nav');
+    tocNav.className = 'toc-nav toc-learn';
+    const tocUl = document.createElement('ul');
+    tocNav.appendChild(tocUl);
+
+    const chapterHeaders = Array.from(learnSection.querySelectorAll('h2')).filter(h2 => h2.textContent.includes('Chapter'));
+    if (chapterHeaders.length === 0) return;
+
+    chapterHeaders.forEach((header, index) => {
+        const chapterId = `chapter-spy-${index + 1}`;
+        header.id = chapterId;
+        
+        const match = header.textContent.match(/Chapter \d+/);
+        const labelText = match ? match[0] : `Chapter ${index + 1}`;
+        
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = `#${chapterId}`;
+        a.textContent = labelText;
+        a.title = header.textContent;
+        
+        a.addEventListener('click', (e) => {
+            e.preventDefault();
+            header.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+        
+        li.appendChild(a);
+        tocUl.appendChild(li);
+    });
+
+    document.body.appendChild(tocNav);
+
+    let activeTocLink = null;
+    
+    const tocObserverOptions = {
+        root: null,
+        rootMargin: '-10% 0px -70% 0px',
+        threshold: 0
+    };
+
+    const tocObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                if (activeTocLink) activeTocLink.classList.remove('active');
+                const link = tocNav.querySelector(`a[href="#${entry.target.id}"]`);
+                if (link) {
+                    link.classList.add('active');
+                    activeTocLink = link;
+                    link.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            }
+        });
+    }, tocObserverOptions);
+
+    chapterHeaders.forEach(header => tocObserver.observe(header));
+}
+
+// Initialize on load
+initScrollspy();
+initLearnScrollspy();
+
+
+
+// ============================================
 // TRANSLATOR FEATURE
 // ============================================
 
 // Grammatical suffixes in Fiwo (including compound tenses and structural markers)
 const suffixTranslations = {
+    'f': 'distributive flag',
     'dyq': 'past continuous',
     'syq': 'future continuous',
     'dyk': 'past perfect',
@@ -356,3 +497,30 @@ if (translateTextBtn && translatorInput && translatorOutput) {
         });
     });
 }
+
+// ============================================
+// SCROLL REVEAL ANIMATIONS
+// ============================================
+const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+        }
+    });
+}, {
+    rootMargin: '0px 0px -40px 0px'
+});
+
+function initScrollReveals() {
+    // Select static elements that should reveal
+    const revealElements = document.querySelectorAll('.content-block, .directory-card, h2, .rule-block, .story-card');
+    revealElements.forEach(el => {
+        el.classList.add('reveal-on-scroll');
+        revealObserver.observe(el);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', initScrollReveals);
+// Since DOM is likely already loaded in SPA mode
+initScrollReveals();

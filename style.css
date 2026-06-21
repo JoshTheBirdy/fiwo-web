@@ -86,20 +86,46 @@ html {
     scroll-behavior: smooth;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
+    font-size: 120%;
 }
 
 body {
-    font-family: var(--font-main);
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.7;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     background-color: var(--bg-primary);
-    color: var(--text-body);
+    background-image: 
+        radial-gradient(circle at 15% 15%, rgba(16, 185, 129, 0.07) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(59, 130, 246, 0.05) 0%, transparent 40%);
+    background-attachment: fixed;
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+/* ═══════════════════════════════════════════
+   § SCROLL REVEALS
+   ═══════════════════════════════════════════ */
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal-on-scroll {
+        transition: none;
+        opacity: 1;
+        transform: none;
+    }
 }
 
 /* ═══════════════════════════════════════════
@@ -377,7 +403,7 @@ section.page.active {
 }
 
 .side-nav li:last-child {
-    margin-top: auto;
+    margin-top: 1rem;
 }
 
 .side-nav a {
@@ -1117,4 +1143,134 @@ footer p {
     .phonetics-table tbody tr:hover {
         background: transparent;
     }
+}
+
+/* ═══════════════════════════════════════════
+   § RULEBOOK TOC SCROLLSPY
+   ═══════════════════════════════════════════ */
+.toc-nav {
+    display: none;
+}
+
+@media (min-width: 1100px) { 
+    .toc-nav {
+        display: block;
+        position: fixed;
+        left: 1rem;
+        right: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        max-height: 75vh;
+        overflow-y: auto;
+        width: 130px;
+        background: rgba(10, 10, 15, 0.85);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-md);
+        padding: 0.75rem 0;
+        z-index: 100;
+        scrollbar-width: thin;
+        scrollbar-color: var(--accent) transparent;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+    
+    /* TOC Visibility Control */
+    .toc-nav {
+        display: none !important;
+    }
+    body.rules-active .toc-rules {
+        display: block !important;
+    }
+    body.learn-active .toc-learn {
+        display: block !important;
+    }
+
+    /* Make room for the TOC so it never overlaps text */
+    body.rules-active main,
+    body.learn-active main {
+        padding-left: 160px !important; 
+    }
+    
+    .toc-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .toc-nav li {
+        margin: 0;
+    }
+    
+    .toc-nav a {
+        display: block;
+        padding: 0.2rem 0.6rem;
+        font-size: 0.75rem;
+        color: var(--text-muted);
+        text-decoration: none;
+        transition: all 0.2s ease;
+        border-left: 2px solid transparent;
+        line-height: 1.1;
+    }
+    
+    .toc-nav a:hover,
+    .toc-nav a.active {
+        color: var(--accent);
+        border-left-color: var(--accent);
+        background: rgba(16, 185, 129, 0.05);
+    }
+    
+    /* Scrollbar styling for webkit */
+    .toc-nav::-webkit-scrollbar {
+        width: 4px;
+    }
+    .toc-nav::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .toc-nav::-webkit-scrollbar-thumb {
+        background: var(--accent);
+        border-radius: 4px;
+    }
+}
+
+/* ═══════════════════════════════════════════
+   § HOMEPAGE DIRECTORY CARDS
+   ═══════════════════════════════════════════ */
+.site-directory {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.directory-card {
+    padding: 1.5rem;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-subtle);
+    transition: all 0.3s var(--ease-out);
+}
+
+.directory-card:hover {
+    border-color: var(--accent);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(16, 185, 129, 0.1);
+}
+
+.directory-card h3 {
+    margin-top: 0;
+}
+
+.directory-card h3 a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.directory-card h3 a:hover {
+    text-decoration: underline;
+}
+
+.directory-card p {
+    margin-bottom: 0;
+    color: var(--text-muted);
 }
