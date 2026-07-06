@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=4">
+    <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
 
@@ -140,6 +140,15 @@
             
             <h3>Letter Assignment</h3>
             <p>Letters are standard keyboard characters to make typing easier. Each letter has one assigned phoneme to aid in readability and pronounceability.</p>
+
+            <div class="pron-widget">
+                <h3>Hear Any Word</h3>
+                <p>Because Fiwo spelling is strictly phonemic, pronunciation is computed directly from the letters — type any Fiwo word:</p>
+                <div class="pron-widget-controls">
+                    <input type="text" id="pron-input" placeholder="e.g. xalidyq" autocomplete="off" spellcheck="false">
+                </div>
+                <div id="pron-output" class="pron-widget-output"></div>
+            </div>
 
             <h3>Stops (Plosives) — 6</h3>
             <div class="table-wrapper"><table class="phonetics-table">
@@ -2003,13 +2012,13 @@
                 <a href="Fiwo-Derived-Dictionary.txt" download="Fiwo-Derived-Dictionary.txt" class="download-btn">Download Derived Dictionary</a>
                 <a href="Fiwo-AI-instructions.txt" download="Fiwo-AI-instructions.txt" class="download-btn">Download AI Instructions</a>
             </div>
-<h1>Fiwo Language Learning Workbook</h1>
+<h1>Fiwo Language Learning Workbook (Version 3)</h1>
 <p>Welcome to the official learning workbook for <strong>Fiwo</strong>, a constructed language designed for absolute mathematical consistency, zero structural ambiguity, and high parsing efficiency. </p>
-<p>Whether you are a human student or an artificial agent, this workbook will guide you step-by-step from producing your first phonemes to translating complex compound clauses. Every chapter contains clear explanations, syntax templates, interactive exercises, and complete answer keys.</p>
+<p>This version (V3) is designed for deep, focused practice. Every single chapter focuses on <strong>exactly one grammatical rule</strong>. Take your time, master the concept, and complete the exercises before moving forward.</p>
 <hr>
 <h1>Phase I: The Mechanics &amp; The Engine</h1>
-<p>Before you can build complex thoughts, you must understand the core machinery of Fiwo. This phase covers the sounds of the language, how words permanently identify their grammatical category, and the strict mathematical sequence used to build a sentence.</p>
-<h2>Chapter 1: Sounds &amp; Vowels</h2>
+<p>Before you can build complex thoughts, you must understand the core machinery of Fiwo. This phase covers the sounds of the language, how words identify their grammatical category, and the strict mathematical sequence used to build a sentence.</p>
+<h2>Chapter 1: Sounds, Stress, &amp; Orthography</h2>
 <p>Fiwo is built to be spoken by anyone and easily parsed by machines. It achieves this through a perfectly predictable phonetic system.</p>
 <h3>1. The 1:1 Ratio (Strict Orthography)</h3>
 <p>The most important rule of reading Fiwo is <strong>strict phonemic orthography</strong>: each letter has exactly one assigned sound. </p>
@@ -2025,74 +2034,87 @@ Stress <strong>always falls on the final vowel</strong> of a word and carries fo
 <li><code>nofa</code> → stress on <strong>fa</strong></li>
 <li><code>xalidyq</code> → stress on <strong>lidyq</strong></li>
 </ul>
-<h3>3. The Functional Vowel System</h3>
+<hr>
+<h3>Chapter 1 Exercises</h3>
+<p><strong>Part A: True or False</strong></p>
+<p>Questions:</p>
+<ol>
+<li><p>You should try to drop letters when speaking fast to sound more natural.</p>
+</li>
+<li><p>Stress always falls on the first syllable.</p>
+</li>
+<li><p>Suffixes that come after the final vowel are heavily stressed.</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 1 Answer Key</summary>
+<ol>
+<li><p>False. Fiwo has strict 1:1 phonemic orthography. No silent letters.</p>
+</li>
+<li><p>False. Stress always falls on the final vowel.</p>
+</li>
+<li><p>True. Stress carries forward from the final vowel through all trailing consonant suffixes.</p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 2: The Functional Vowel System</h2>
 <p>In natural languages, you must memorize whether a word is a noun, a verb, or an adjective. In Fiwo, a word&#39;s grammatical category is physically visible. </p>
 <p>Every base dictionary root <strong>must</strong> end in one of six functional vowels. This final vowel permanently dictates the word&#39;s category:</p>
 <ol>
-<li><strong><code>-a</code> (Biological Noun):</strong> Living organisms, plants, animals, and body parts.<ul>
-<li><code>nofa</code> (Person), <code>mifa</code> (Animal), <code>mosa</code> (Tree), <code>bata</code> (Food - organic)</li>
-</ul>
-</li>
-<li><strong><code>-o</code> (Concrete Noun):</strong> Physical objects, materials, tools, and locations.<ul>
-<li><code>sydo</code> (House), <code>dorso</code> (Water), <code>guto</code> (Tool), <code>pano</code> (Book)</li>
-</ul>
-</li>
-<li><strong><code>-u</code> (Abstract Noun):</strong> Concepts, emotions, time, and intangible ideas.<ul>
-<li><code>dionu</code> (Time), <code>biwu</code> (Problem), <code>artu</code> (Art)</li>
-</ul>
-</li>
-<li><strong><code>-i</code> (Verb):</strong> Actions or states of being.<ul>
-<li><code>xali</code> (Move/Go), <code>nomi</code> (Eat), <code>sapi</code> (Make)</li>
-</ul>
-</li>
-<li><strong><code>-e</code> (Modifier):</strong> Descriptive words (adjectives and adverbs).<ul>
-<li><code>tande</code> (Big), <code>lande</code> (Small), <code>ruze</code> (Fast), <code>gawe</code> (Good)</li>
-</ul>
-</li>
-<li><strong><code>-y</code> (Preposition):</strong> Structural bridges mapping spatial or logical relationships.<ul>
-<li><code>zy</code> (To), <code>fy</code> (From), <code>deky</code> (Inside)</li>
-</ul>
-</li>
+<li><strong><code>-a</code> (Biological Noun):</strong> Living organisms, plants, animals, and body parts. (<code>nofa</code> = person, <code>mifa</code> = animal)</li>
+<li><strong><code>-o</code> (Concrete Noun):</strong> Physical objects, materials, tools, and locations. (<code>sydo</code> = house, <code>guto</code> = tool)</li>
+<li><strong><code>-u</code> (Abstract Noun):</strong> Concepts, emotions, time, and intangible ideas. (<code>dionu</code> = time, <code>artu</code> = art)</li>
+<li><strong><code>-i</code> (Verb):</strong> Actions or states of being. (<code>xali</code> = move, <code>nomi</code> = eat)</li>
+<li><strong><code>-e</code> (Modifier):</strong> Descriptive words (adjectives and adverbs). (<code>tande</code> = big, <code>ruze</code> = fast)</li>
+<li><strong><code>-y</code> (Preposition):</strong> Structural bridges mapping relationships. (<code>zy</code> = to, <code>fy</code> = from)</li>
 </ol>
 <hr>
-<h3>Chapter 1 Exercises</h3>
+<h3>Chapter 2 Exercises</h3>
 <p><strong>Part A: Categorize the Concept</strong>
 Deduce the grammatical category (<code>-a</code>, <code>-o</code>, <code>-u</code>, <code>-i</code>, <code>-e</code>, or <code>-y</code>) for the following English concepts:</p>
+<p>Questions:</p>
 <ol>
-<li>To sleep (Action)</li>
-<li>Green (Description)</li>
-<li>Dog (Living animal)</li>
-<li>Time (Intangible concept)</li>
-<li>Table (Physical object)</li>
-<li>Through (Spatial bridge)</li>
+<li><p>To sleep (Action)</p>
+</li>
+<li><p>Green (Description)</p>
+</li>
+<li><p>Dog (Living animal)</p>
+</li>
 </ol>
 <p><strong>Part B: Complete the Word</strong>
-Using the functional vowel categories, fill in the missing vowel for these Fiwo roots:
-7. <code>nof_</code> (Person - Biological Noun)
-8. <code>syd_</code> (House - Concrete Noun)
-9. <code>xal_</code> (Move - Verb)
-10. <code>tand_</code> (Big - Modifier)</p>
-<hr>
-<h3>Chapter 1 Answer Key</h3>
-<ol>
-<li>Verb (<code>-i</code>)</li>
-<li>Modifier (<code>-e</code>)</li>
-<li>Biological Noun (<code>-a</code>)</li>
-<li>Abstract Noun (<code>-u</code>)</li>
-<li>Concrete Noun (<code>-o</code>)</li>
-<li>Preposition (<code>-y</code>)</li>
-<li><code>nofa</code></li>
-<li><code>sydo</code></li>
-<li><code>xali</code></li>
-<li><code>tande</code></li>
+Using the functional vowel categories, fill in the missing vowel for these Fiwo roots:</p>
+<p>Questions:</p>
+<ol start="4">
+<li><p><code>syd_</code> (House - Concrete Noun)</p>
+</li>
+<li><p><code>xal_</code> (Move - Verb)</p>
+</li>
+<li><p><code>dek_</code> (Inside - Preposition)</p>
+</li>
 </ol>
 <hr>
-<h2>Chapter 2: The SVO-T Sequence</h2>
+<details class="answer-key"><summary>Chapter 2 Answer Key</summary>
+<ol>
+<li><p>Verb (<code>-i</code>)</p>
+</li>
+<li><p>Modifier (<code>-e</code>)</p>
+</li>
+<li><p>Biological Noun (<code>-a</code>)</p>
+</li>
+<li><p><code>sydo</code></p>
+</li>
+<li><p><code>xali</code></p>
+</li>
+<li><p><code>deky</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 3: The SVO-T Sequence</h2>
 <p>Fiwo relies on a strict, left-to-right mathematical sequence to maintain absolute syntactic clarity.</p>
-<h3>1. The Four Core Slots (SVO-T)</h3>
+<h3>The Four Core Slots (SVO-T)</h3>
 <p>The parser processes information in four rigid slots. The doer, the action, and the target always arrive in the same order.</p>
 <ol>
-<li><strong>Slot 1 (Subject):</strong> The doer. Typically a noun.</li>
+<li><strong>Slot 1 (Subject):</strong> The doer. </li>
 <li><strong>Slot 2 (Verb):</strong> The action. Always a word ending in <code>-i</code>.</li>
 <li><strong>Slot 3 (Object):</strong> The receiver of the action.</li>
 <li><strong>Slot 4 (Time):</strong> The temporal frame. Reserved exclusively for temporal Abstract Nouns (<code>-u</code>) at the very end of the sentence.</li>
@@ -2100,199 +2122,384 @@ Using the functional vowel categories, fill in the missing vowel for these Fiwo 
 <ul>
 <li><strong>Fiwo:</strong> <code>Nofa nomi bata nudu.</code></li>
 <li><strong>Literal Breakdown:</strong> Person (Subject) + eat (Verb) + food (Object) + today (Time).</li>
-<li><strong>Meaning:</strong> A person eats food today.</li>
 </ul>
-<h3>2. Blank Slots</h3>
-<p>Because Fiwo words wear their category on their sleeve (ending in <code>-i</code> vs <code>-a</code>), the parser is flexible. Unnecessary slots can be left blank without crashing the sequence.</p>
+<h3>Blank Slots</h3>
+<p>Unnecessary slots can be left blank without crashing the sequence.</p>
 <ul>
-<li><strong>Intransitive Verbs (No Object):</strong> If an action has no target, the parser skips Slot 3 and drops the temporal noun into Slot 4.<ul>
-<li><code>Mifa cafi fitydu.</code> (Animal + run + tomorrow).</li>
+<li><strong>No Object:</strong> <code>Mifa cafi fitydu.</code> (Animal + run + tomorrow).</li>
+<li><strong>Implied Subjects (Commands):</strong> <code>Nomi bata.</code> (Eat food!)</li>
 </ul>
+<hr>
+<h3>Chapter 3 Exercises</h3>
+<p><strong>Part A: Identify the SVO-T Slots</strong>
+Break down the following sentence into Subject, Verb, Object, and Time slots.</p>
+<p>Questions:</p>
+<ol>
+<li><code>Nofa sapi sydo nudu.</code></li>
+</ol>
+<p><strong>Part B: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>nofa</code> = person, <code>sapi</code> = make, <code>sydo</code> = house, <code>mifa</code> = animal, <code>cafi</code> = run, <code>fitydu</code> = tomorrow.</p>
+<p>Questions:</p>
+<ol start="2">
+<li><p>An animal runs tomorrow.</p>
 </li>
-<li><strong>Implied Subjects (Commands):</strong> If a sentence starts directly with a Verb (<code>-i</code>), the parser registers the Subject slot as blank (usually implying &quot;you&quot;).<ul>
-<li><code>Nomi bata.</code> (Eat food!)</li>
-</ul>
+<li><p>Make a house tomorrow! (Implied Subject)</p>
 </li>
-</ul>
-<h3>3. Pragmatic Mood Tags</h3>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 3 Answer Key</summary>
+<ol>
+<li><p>Subject: <code>nofa</code>, Verb: <code>sapi</code>, Object: <code>sydo</code>, Time: <code>nudu</code>.</p>
+</li>
+<li><p><code>Mifa cafi fitydu.</code></p>
+</li>
+<li><p><code>Sapi sydo fitydu.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 4: Pragmatic Mood Tags</h2>
 <p>Punctuation (<code>?</code>, <code>!</code>) is a terrible way to convey tone because it arrives at the end of a sentence. Fiwo handles pragmatics explicitly at the <strong>absolute beginning</strong> of a sentence.</p>
 <p>Capitalized tags prepare the listener for exactly how to process the information before the sequence begins.</p>
 <ul>
-<li><strong>Kup:</strong> Question / Request for information.</li>
-<li><strong>Kop:</strong> Command / Direct order.</li>
-<li><strong>Kep:</strong> Fact / Objective scientific statement.</li>
-<li><strong>Hap:</strong> Emotion / Subjective feeling.</li>
-<li><strong>Hop:</strong> Sarcasm / Ironic intent.</li>
-</ul>
-<p><em>Examples:</em></p>
-<ul>
-<li><code>Kup mifap xali?</code> (Is the animal moving?)</li>
-<li><code>Kop suk xali.</code> (Move!)</li>
+<li><strong><code>Kup</code>:</strong> Question / Request for information.</li>
+<li><strong><code>Kop</code>:</strong> Command / Direct order.</li>
+<li><strong><code>Kep</code>:</strong> Fact / Objective scientific statement.</li>
+<li><strong><code>Hap</code>:</strong> Emotion / Subjective feeling.</li>
+<li><strong><code>Hop</code>:</strong> Sarcasm / Ironic intent.</li>
 </ul>
 <p><em>Note: Mood tags are optional. If a sentence begins without a tag, it is treated as a neutral, unmarked statement.</em></p>
-<h3>4. The Null Track (Phatic Particles)</h3>
-<p>Social greetings and standalone interjections (like &quot;Hello&quot; or &quot;Yes&quot;) are processed entirely outside of the SVO-T sequence to protect the parser. This is called the <strong>Null Track</strong>.
-When you say a word like <code>sal</code> (Hello), the parser registers a complete clause, resets, and expects the very next word to start a brand new sentence.</p>
+<hr>
+<h3>Chapter 4 Exercises</h3>
+<p><strong>Part A: Select the Mood Tag</strong>
+Identify the appropriate mood tag for each sentence:</p>
+<p>Questions:</p>
+<ol>
+<li><p>&quot;Is the dog sleeping?&quot;</p>
+</li>
+<li><p>&quot;Give me the book!&quot;</p>
+</li>
+<li><p>&quot;Water boils at 100 degrees.&quot;</p>
+</li>
+</ol>
+<p><strong>Part B: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>suk</code> = you, <code>nomi</code> = eat, <code>nojapi</code> = watch, <code>mosap</code> = the tree.</p>
+<p>Questions:</p>
+<ol start="4">
+<li><p>Are you eating?</p>
+</li>
+<li><p>Watch the tree!</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 4 Answer Key</summary>
+<ol>
+<li><p><code>Kup</code></p>
+</li>
+<li><p><code>Kop</code></p>
+</li>
+<li><p><code>Kep</code></p>
+</li>
+<li><p><code>Kup suk nomi?</code></p>
+</li>
+<li><p><code>Kop nojapi mosap.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 5: The Null Track</h2>
+<p>Social greetings and standalone interjections (like &quot;Hello&quot; or &quot;Yes&quot;) are processed entirely outside of the SVO-T sequence to protect the parser. This is called the <strong>Null Track</strong>.</p>
+<p>When you say a word like <code>sal</code> (Hello), the parser registers a complete clause, resets, and expects the very next word to start a brand new sentence.</p>
 <ul>
 <li><code>sal</code> (Hello)</li>
 <li><code>tex</code> (Goodbye)</li>
 <li><code>jas</code> (Yes)</li>
 <li><code>nes</code> (No - when standalone)</li>
-</ul>
-<p><em>Example:</em> <code>Sal. Nofa nomi bata.</code> (Hello. A person eats food.)</p>
-<hr>
-<h3>Chapter 2 Exercises</h3>
-<p><strong>Part A: Identify the SVO-T Slots</strong>
-Break down the following sentences into Subject, Verb, Object, and Time slots.</p>
-<ol>
-<li><code>Nofa sapi sydo nudu.</code></li>
-<li><code>Mifa cafi fitydu.</code></li>
-</ol>
-<p><strong>Part B: Translate to Fiwo</strong>
-Translate using the vocabulary: <code>nofa</code> (person), <code>sapi</code> (make), <code>sydo</code> (house), <code>nomi</code> (eat), <code>bata</code> (food), <code>nudu</code> (today), <code>fitydu</code> (tomorrow).
-3. An animal eats food today.
-4. Eat food tomorrow! (Implied Subject)
-5. Is a person making a house? (Question)</p>
-<hr>
-<h3>Chapter 2 Answer Key</h3>
-<ol>
-<li>Subject: <code>nofa</code>, Verb: <code>sapi</code>, Object: <code>sydo</code>, Time: <code>nudu</code>.</li>
-<li>Subject: <code>mifa</code>, Verb: <code>cafi</code>, Object: Empty, Time: <code>fitydu</code>.</li>
-<li><code>Mifa nomi bata nudu.</code></li>
-<li><code>Nomi bata fitydu.</code></li>
-<li><code>Kup nofa sapi sydo?</code></li>
-</ol>
-<hr>
-<h2>Chapter 3: Proper Nouns &amp; Capital Flags</h2>
-<p>When you want to refer to a person by name (e.g., &quot;David&quot;), a specific city (&quot;Tokyo&quot;), or a brand name, you use a <strong>Proper Noun</strong>.</p>
-<h3>1. Foreign Spells &amp; Sounds</h3>
-<p>Proper nouns are carried over exactly as they are spelled and pronounced in their native language. They do not have to conform to Fiwo’s phonetic rules.</p>
-<h3>2. The Capitalization Override</h3>
-<p>Capitalization is strictly reserved for proper nouns (and the mood tags / start of a sentence). 
-In the parser, a capital letter acts as a strict structural flag. It tells the parser: <em>“Suspend the functional vowel rule. Treat this entire block as an immutable, specific Noun that fills the current slot, regardless of what letter it ends with.”</em></p>
-<h3>3. Contiguous Blocks</h3>
-<p>Because two capitalized words next to each other would normally crash a single SVO slot, the parser naturally groups a sequence of capitalized words into a single, contiguous Proper Noun block (e.g., a first and last name) until it hits a lowercase Fiwo word.</p>
-<ul>
-<li><code>David Smith xalid.</code> (The parser groups &quot;David Smith&quot; into Slot 1).</li>
-</ul>
-<h3>4. Integration</h3>
-<p>Even though the proper noun is a foreign block, it still acts as a perfectly valid Noun Root.</p>
-<ul>
-<li><strong>Modifiers</strong> look left to attach to it: <code>David tande</code> (Big David).</li>
-<li><strong>Prepositions</strong> anchor to it: <code>deky Tokyo</code> (Inside Tokyo).</li>
+<li><code>wox</code> (Wow)</li>
+<li><code>ak</code> (Ouch)</li>
 </ul>
 <hr>
-<h3>Chapter 3 Exercises</h3>
-<p><strong>Part A: Identify the Errors</strong>
-Explain why the parser rejects the following sentence:</p>
+<h3>Chapter 5 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>xali</code> = move/go.</p>
+<p>Questions:</p>
 <ol>
-<li><code>mik enconi Sarah.</code></li>
-</ol>
-<p><strong>Part B: Translate to Fiwo</strong>
-Translate the following sentences. Capitalize only Proper Nouns and sentence starters.
-2. Sarah eats food. (<code>Sarah</code>, <code>nomi</code>, <code>bata</code>)
-3. John Smith sleeps. (<code>John Smith</code>, <code>usi</code> = sleep)
-4. Is London big? (<code>London</code>, <code>tandei</code> = is big)</p>
-<hr>
-<h3>Chapter 3 Answer Key</h3>
-<ol>
-<li>The first-person pronoun <code>mik</code> at the start of the sentence must be capitalized as a sentence starter (<code>Mik</code>). (Correct: <code>Mik enconi Sarah.</code>)</li>
-<li><code>Sarah nomi bata.</code></li>
-<li><code>John Smith usi.</code></li>
-<li><code>Kup London tandei?</code></li>
+<li><p>Hello. I move.</p>
+</li>
+<li><p>Goodbye.</p>
+</li>
+<li><p>Yes.</p>
+</li>
 </ol>
 <hr>
+<details class="answer-key"><summary>Chapter 5 Answer Key</summary>
+<ol>
+<li><p><code>Sal. Mik xali.</code></p>
+</li>
+<li><p><code>Tex.</code></p>
+</li>
+<li><p><code>Jas.</code></p>
+</li>
+</ol>
+</details><hr>
 <h1>Phase II: The Actors &amp; Specificity</h1>
 <p>Now that you know how a sentence is built, it&#39;s time to talk about <em>who</em> and <em>what</em> is performing the action. This phase covers pronouns, pluralization, and identifying specific things.</p>
-<h2>Chapter 4: Pronouns &amp; Plurality</h2>
-<p>Pronouns are used to replace nouns so you don&#39;t have to keep repeating them. In Fiwo, pronouns are categorized by person, inclusion, and animacy.</p>
-<h3>1. The Core Pronouns</h3>
+<h2>Chapter 6: Base Pronouns &amp; Animacy</h2>
+<p>Pronouns are used to replace nouns so you don&#39;t have to keep repeating them. In Fiwo, third-person pronouns categorize animacy and gender.</p>
 <ul>
-<li><strong>First Person:</strong><ul>
-<li><code>mik</code>: I / Me</li>
-<li><code>nak</code>: We / Us (Exclusive: The speaker and others, but <em>not</em> the listener).</li>
-<li><code>muk</code>: We / Us (Inclusive: The speaker, others, and <em>also</em> the listener).</li>
+<li><strong><code>mik</code>:</strong> I / Me</li>
+<li><strong><code>nak</code>:</strong> We / Us (Exclusive: The speaker and others, but <em>not</em> the listener).</li>
+<li><strong><code>muk</code>:</strong> We / Us (Inclusive: The speaker, others, and <em>also</em> the listener).</li>
+<li><strong><code>dal</code>:</strong> He / She / It (Animate Neutral: Universal pronoun for humans/animals).</li>
+<li><strong><code>daq</code>:</strong> He (Animate Male).</li>
+<li><strong><code>das</code>:</strong> She (Animate Female).</li>
+<li><strong><code>ram</code>:</strong> It (Inanimate: Strictly for objects, plants, and machines without agency).</li>
 </ul>
+<hr>
+<h3>Chapter 6 Exercises</h3>
+<p><strong>Part A: Translate the Pronouns</strong></p>
+<p>Questions:</p>
+<ol>
+<li><p>We (Inclusive: you and me)</p>
 </li>
-<li><strong>Second Person (Register):</strong><ul>
-<li><code>suk</code>: You (Casual: Friends, peers).</li>
-<li><code>suv</code>: You (Formal: Authorities, respect, strangers).</li>
-</ul>
+<li><p>We (Exclusive: me and them, not you)</p>
 </li>
-<li><strong>Third Person (Animacy):</strong><ul>
-<li><code>dal</code>: He / She / It (Animate Neutral: Universal pronoun for humans/animals).</li>
-<li><code>daq</code>: He (Animate Male).</li>
-<li><code>das</code>: She (Animate Female).</li>
-<li><code>ram</code>: It (Inanimate: Strictly for objects, plants, and machines without agency).</li>
-</ul>
+<li><p>He (Animate male)</p>
 </li>
-</ul>
-<h3>2. Plurality (<code>je</code>)</h3>
+<li><p>It (Inanimate object)</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 6 Answer Key</summary>
+<ol>
+<li><p><code>muk</code></p>
+</li>
+<li><p><code>nak</code></p>
+</li>
+<li><p><code>daq</code></p>
+</li>
+<li><p><code>ram</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 7: Plurality</h2>
 <p>Fiwo does not have separate words for &quot;they&quot; or &quot;you all&quot;. When you want to make a noun or pronoun plural, you use the plural modifier <strong><code>je</code></strong> (many / plural marker) immediately after the word.</p>
 <ul>
 <li><code>nofa je</code>: People (person + many)</li>
-<li><code>sydo je</code>: Houses (house + many)</li>
-<li><code>suk je</code>: You all (casual)</li>
 <li><code>dal je</code>: They / Them (animate neutral plural)</li>
 <li><code>ram je</code>: They / Them (inanimate plural)</li>
 </ul>
 <blockquote>
-<p>[!WARNING]
-<strong>The Redundancy Ban:</strong>
+<p><strong>The Redundancy Ban:</strong>
 Because <code>mik</code> means &quot;I&quot;, adding &quot;many&quot; to it makes no mathematical sense. <code>nak</code> and <code>muk</code> already handle first-person plurals. You cannot put <code>je</code> after <code>mik</code>, <code>nak</code>, or <code>muk</code>—doing so crashes the parser.</p>
 </blockquote>
 <hr>
-<h3>Chapter 4 Exercises</h3>
-<p><strong>Part A: Translate the Pronouns</strong>
-Translate these English terms into Fiwo:</p>
+<h3>Chapter 7 Exercises</h3>
+<p><strong>Part A: Translate the Phrases</strong></p>
+<p>Vocabulary Key: <code>mifa</code> = animal, <code>sydo</code> = house.</p>
+<p>Questions:</p>
 <ol>
-<li>We (Inclusive: you and me)</li>
-<li>We (Exclusive: me and them, not you)</li>
-<li>You all (Formal)</li>
-<li>They (Inanimate objects)</li>
-<li>They (Animate neutral)</li>
-</ol>
-<p><strong>Part B: Translate the Sentences</strong>
-Translate into Fiwo (<code>nomi</code> = eat, <code>bata</code> = food, <code>xali</code> = move/go):
-6. They (animate) eat food.
-7. You (casual) go.
-8. We (inclusive) eat food.</p>
-<hr>
-<h3>Chapter 4 Answer Key</h3>
-<ol>
-<li><code>muk</code></li>
-<li><code>nak</code></li>
-<li><code>suv je</code></li>
-<li><code>ram je</code></li>
-<li><code>dal je</code></li>
-<li><code>Dal je nomi bata.</code></li>
-<li><code>Suk xali.</code></li>
-<li><code>Muk nomi bata.</code></li>
+<li><p>Animals</p>
+</li>
+<li><p>Houses</p>
+</li>
+<li><p>They (Animate females)</p>
+</li>
+<li><p>They (Inanimate objects)</p>
+</li>
 </ol>
 <hr>
-<h2>Chapter 5: Specificity &amp; Indefinite Variables</h2>
+<details class="answer-key"><summary>Chapter 7 Answer Key</summary>
+<ol>
+<li><p><code>mifa je</code></p>
+</li>
+<li><p><code>sydo je</code></p>
+</li>
+<li><p><code>das je</code></p>
+</li>
+<li><p><code>ram je</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 8: The Politeness Register</h2>
+<p>Fiwo utilizes two different pronouns for &quot;you&quot; depending on the social context and required respect.</p>
+<ul>
+<li><strong><code>suk</code>:</strong> You (Casual: Friends, family, peers, children).</li>
+<li><strong><code>suv</code>:</strong> You (Formal: Authorities, respect, strangers, elders).</li>
+</ul>
+<p>These can also be pluralized using <code>je</code>.</p>
+<ul>
+<li><code>suk je</code>: You all (casual).</li>
+<li><code>suv je</code>: You all (formal).</li>
+</ul>
+<hr>
+<h3>Chapter 8 Exercises</h3>
+<p><strong>Part A: Select the Pronoun</strong></p>
+<p>Questions:</p>
+<ol>
+<li><p>You are speaking to your best friend. Which pronoun do you use for &quot;you&quot;?</p>
+</li>
+<li><p>You are addressing a police officer. Which pronoun do you use for &quot;you&quot;?</p>
+</li>
+<li><p>You are addressing a crowd of strangers. How do you say &quot;you all&quot;?</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 8 Answer Key</summary>
+<ol>
+<li><p><code>suk</code></p>
+</li>
+<li><p><code>suv</code></p>
+</li>
+<li><p><code>suv je</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 9: Proper Nouns &amp; Capital Flags</h2>
+<p>When you want to refer to a person by name (e.g., &quot;David&quot;), a specific city (&quot;Tokyo&quot;), or a brand name, you use a <strong>Proper Noun</strong>.</p>
+<p>Proper nouns are carried over exactly as they are spelled and pronounced in their native language. </p>
+<p>Capitalization is strictly reserved for proper nouns (and sentence starters). A capital letter acts as a strict structural flag. It tells the parser: <em>“Suspend the functional vowel rule. Treat this entire block as an immutable, specific Noun that fills the current slot, regardless of what letter it ends with.”</em></p>
+<ul>
+<li><code>David xali.</code> (David moves).</li>
+<li><code>Mik enconi Sarah.</code> (I meet Sarah).</li>
+</ul>
+<hr>
+<h3>Chapter 9 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>nomi</code> = eat, <code>bata</code> = food, <code>usi</code> = sleep.</p>
+<p>Questions:</p>
+<ol>
+<li><p>Sarah eats food.</p>
+</li>
+<li><p>John Smith sleeps.</p>
+</li>
+<li><p>Does London move? (Use the <code>Kup</code> tag)</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 9 Answer Key</summary>
+<ol>
+<li><p><code>Sarah nomi bata.</code></p>
+</li>
+<li><p><code>John Smith usi.</code></p>
+</li>
+<li><p><code>Kup London xali?</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 10: Specificity Markers</h2>
 <p>In English, we use words like &quot;the&quot; (specific) and &quot;a/an&quot; (non-specific). Fiwo handles this efficiently using a single consonant attached directly to the noun&#39;s functional vowel.</p>
-<h3>1. Specificity Suffixes</h3>
 <ul>
-<li><strong><code>-p</code> (Specific):</strong> Points to a definite, known, or specific entity (e.g., &quot;the&quot; or &quot;that&quot;).</li>
-<li><strong><code>-r</code> (Non-specific):</strong> Points to an indefinite, general, or unknown entity (e.g., &quot;a&quot; or &quot;some&quot;).</li>
+<li><p><strong><code>-p</code> (Specific):</strong> Points to a definite, known, or specific entity (e.g., &quot;the&quot; or &quot;that&quot;).</p>
+</li>
+<li><p><strong><code>-r</code> (Non-specific):</strong> Points to an indefinite, general, or unknown entity (e.g., &quot;a&quot; or &quot;some&quot;).</p>
+</li>
+<li><p><code>sydop</code>: The house / That specific house.</p>
+</li>
+<li><p><code>sydor</code>: A house / Some house.</p>
+</li>
 </ul>
-<p><em>Examples:</em></p>
+<hr>
+<h3>Chapter 10 Exercises</h3>
+<p><strong>Part A: Translate the Nouns</strong></p>
+<p>Vocabulary Key: <code>pano</code> = book, <code>mifa</code> = animal.</p>
+<p>Questions:</p>
+<ol>
+<li><p>The book</p>
+</li>
+<li><p>A book</p>
+</li>
+<li><p>Some animals (Remember to put <code>je</code> after the specificity marker)</p>
+</li>
+<li><p>The animals</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 10 Answer Key</summary>
+<ol>
+<li><p><code>panop</code></p>
+</li>
+<li><p><code>panor</code></p>
+</li>
+<li><p><code>mifar je</code></p>
+</li>
+<li><p><code>mifap je</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 11: Possessive Modifiers</h2>
+<p>Possession is not handled by memorizing new pronouns (like &quot;mine&quot; or &quot;yours&quot;). Instead, you simply derive the personal pronoun into a modifier by adding <code>-e</code>. Because it&#39;s a modifier, it follows the noun it describes.</p>
 <ul>
-<li><code>sydop</code>: The house / That specific house.</li>
-<li><code>sydor</code>: A house / Some house.</li>
+<li><code>mik</code> ➔ <code>mike</code>: My / Mine</li>
+<li><code>suk</code> ➔ <code>suke</code>: Your / Yours (casual)</li>
+<li><code>suv</code> ➔ <code>suve</code>: Your / Yours (formal)</li>
+<li><code>dal</code> ➔ <code>dale</code>: His / Hers / Its</li>
+<li><code>nak</code> ➔ <code>nake</code>: Our / Ours (exclusive)</li>
 </ul>
-<p><em>Note: The plural modifier <code>je</code> comes AFTER the specificity suffix.</em></p>
+<p><em>Example:</em> <code>Sydop suke.</code> (The house your ➔ Your house).</p>
+<hr>
+<h3>Chapter 11 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>deta</code> = dog, <code>pano</code> = book.</p>
+<p>Questions:</p>
+<ol>
+<li><p>My dog</p>
+</li>
+<li><p>Your (formal) book</p>
+</li>
+<li><p>Our (exclusive) house</p>
+</li>
+<li><p>Her dog (<code>das</code> = she)</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 11 Answer Key</summary>
+<ol>
+<li><p><code>Detap mike.</code></p>
+</li>
+<li><p><code>Panop suve.</code></p>
+</li>
+<li><p><code>Sydop nake.</code></p>
+</li>
+<li><p><code>Detap dase.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 12: Plural Possessives</h2>
+<p>To say &quot;Their house&quot; or &quot;Your [plural] house&quot;, you must use the Nested Modifier Flag (<code>-m</code>).</p>
+<p>This flag tells the parser: <em>&quot;Don&#39;t look at the noun yet! Bind the plural marker &#39;je&#39; directly to me first.&quot;</em></p>
 <ul>
-<li><code>sydop je</code>: The houses.</li>
-<li><code>sydor je</code>: Some houses.</li>
+<li><code>Sydop dalem je.</code> (House-the + his/hers/its-[nested] + many ➔ Their house).</li>
+<li><code>Panop sukem je.</code> (Book-the + your-[nested] + many ➔ Your [plural] book).</li>
 </ul>
-<h3>2. Indefinite Variables</h3>
+<hr>
+<h3>Chapter 12 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>sydo</code> = house, <code>pano</code> = book.</p>
+<p>Questions:</p>
+<ol>
+<li><p>Their house</p>
+</li>
+<li><p>Your (casual plural) house</p>
+</li>
+<li><p>Our (inclusive) books</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 12 Answer Key</summary>
+<ol>
+<li><p><code>Sydop dalem je.</code></p>
+</li>
+<li><p><code>Sydop sukem je.</code></p>
+</li>
+<li><p><code>Panop mukem je.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 13: Universal Variables</h2>
 <p>Fiwo doesn&#39;t bloat its dictionary with words like &quot;everyone,&quot; &quot;something,&quot; &quot;anywhere,&quot; or &quot;always.&quot; Instead, it uses <strong>Base Variables</strong> modified by logical <strong>Operators</strong>.</p>
 <p><strong>Base Variables:</strong></p>
 <ul>
 <li><code>nofa</code> (Person)</li>
-<li><code>cemo</code> (Thing)</li>
+<li><code>cemu</code> (Thing)</li>
 <li><code>rerpo</code> (Place)</li>
 <li><code>dionu</code> (Time)</li>
 </ul>
@@ -2303,218 +2510,227 @@ Translate into Fiwo (<code>nomi</code> = eat, <code>bata</code> = food, <code>xa
 <li><code>noze</code> (None / Zero)</li>
 <li><code>kase</code> (Any / Free choice)</li>
 </ul>
-<p><strong>The Universal Grid:</strong></p>
+<p><em>Examples:</em></p>
 <ul>
-<li><strong>Someone:</strong> <code>nofar</code></li>
-<li><strong>Everyone:</strong> <code>nofa late</code></li>
-<li><strong>Nobody:</strong> <code>nofa noze</code></li>
-<li><strong>Anyone:</strong> <code>nofa kase</code></li>
-<li><strong>Something:</strong> <code>cemor</code></li>
-<li><strong>Everything:</strong> <code>cemo late</code></li>
-<li><strong>Nothing:</strong> <code>cemo noze</code></li>
-<li><strong>Everywhere:</strong> <code>rerpo late</code></li>
-<li><strong>Never:</strong> <code>dionu noze</code></li>
-<li><strong>Always:</strong> <code>dionu late</code></li>
+<li><code>nofar</code> (Someone)</li>
+<li><code>cemu late</code> (Everything)</li>
+<li><code>rerpo noze</code> (Nowhere)</li>
+<li><code>dionu kase</code> (Anytime)</li>
 </ul>
 <hr>
-<h3>Chapter 5 Exercises</h3>
-<p><strong>Part A: Specificity</strong>
-Translate to Fiwo:</p>
+<h3>Chapter 13 Exercises</h3>
+<p><strong>Part A: Translate the Variables</strong></p>
+<p>Questions:</p>
 <ol>
-<li>The animal (<code>mifa</code>)</li>
-<li>Some people (<code>nofa</code>, plural)</li>
-<li>The books (<code>pano</code>, plural)</li>
-</ol>
-<p><strong>Part B: Indefinite Variables</strong>
-Translate to Fiwo:
-4. Nothing
-5. Anywhere
-6. Everyone
-7. Sometime</p>
-<p><strong>Part C: Sentences</strong>
-Translate to Fiwo (<code>karxi</code> = find, <code>nudu</code> = today, <code>mik</code> = I):
-8. I find nothing today. (Literally: I find thing-zero today).
-9. Everyone moves. (<code>xali</code>)</p>
-<hr>
-<h3>Chapter 5 Answer Key</h3>
-<ol>
-<li><code>mifap</code></li>
-<li><code>nofar je</code></li>
-<li><code>panop je</code></li>
-<li><code>cemo noze</code></li>
-<li><code>rerpo kase</code></li>
-<li><code>nofa late</code></li>
-<li><code>dionur</code></li>
-<li><code>Mik karxi cemo noze nudu.</code></li>
-<li><code>Nofa late xali.</code></li>
+<li><p>Nothing</p>
+</li>
+<li><p>Anywhere</p>
+</li>
+<li><p>Everyone</p>
+</li>
+<li><p>Sometime</p>
+</li>
 </ol>
 <hr>
-<h2>Chapter 6: Possession &amp; Derivation</h2>
-<p>Fiwo words can mathematically shift their meaning by changing their final functional vowel.</p>
-<h3>1. General Derivation (Category Shifting)</h3>
-<p>You never remove the original vowel; you simply append the new functional vowel to the end of the root.</p>
-<ul>
-<li><strong>Noun to Verb (<code>-i</code>):</strong> <code>foiso</code> (Building) ➔ <code>foisoi</code> (To build).</li>
-<li><strong>Verb to Noun (<code>-a</code>, <code>-o</code>):</strong> <code>jami</code> (To write) ➔ <code>jamia</code> (Writer) or <code>jamio</code> (Document).</li>
-<li><strong>Noun to Modifier (<code>-e</code>):</strong> <code>xedo</code> (Metal) ➔ <code>xedoe</code> (Metallic).</li>
-</ul>
-<h3>2. Possessive Modifiers</h3>
-<p>Possession is not handled by memorizing new pronouns (like &quot;mine&quot; or &quot;yours&quot;). Instead, you simply derive the personal pronoun into a modifier by adding <code>-e</code>. 
-Because it&#39;s a modifier, it follows the noun it describes.</p>
-<ul>
-<li><code>mike</code>: My / Mine</li>
-<li><code>suke</code>: Your / Yours</li>
-<li><code>dale</code>: His / Hers / Its</li>
-<li><code>nake</code>: Our / Ours (Exclusive)</li>
-</ul>
-<p><em>Example:</em> <code>Sydop suke.</code> (The house your ➔ Your house).</p>
-<h3>3. Plural Possessives (The <code>-m</code> Flag)</h3>
-<p>To say &quot;Their house&quot; or &quot;Your [plural] house&quot;, you must use the Nested Modifier Flag (<code>-m</code>).
-This flag tells the parser: <em>&quot;Don&#39;t look at the noun yet! Bind the plural marker &#39;je&#39; directly to me first.&quot;</em></p>
-<ul>
-<li><code>Sydop dalem je.</code> (House-the + his/hers/its-[nested] + many ➔ Their house).</li>
-<li><code>Panop sukem je.</code> (Book-the + your-[nested] + many ➔ Your [plural] book).</li>
-</ul>
-<hr>
-<h3>Chapter 6 Exercises</h3>
-<p><strong>Part A: Category Shifts</strong>
-Derive the following words by adding the correct functional vowel:</p>
+<details class="answer-key"><summary>Chapter 13 Answer Key</summary>
 <ol>
-<li>To bleed (from <code>boja</code> = blood)</li>
-<li>Aquatic/Wet (from <code>dorso</code> = water)</li>
-<li>Writer (Biological noun from <code>jami</code> = to write)</li>
+<li><p><code>cemu noze</code></p>
+</li>
+<li><p><code>rerpo kase</code></p>
+</li>
+<li><p><code>nofa late</code></p>
+</li>
+<li><p><code>dionur</code></p>
+</li>
 </ol>
-<p><strong>Part B: Possession</strong>
-Translate into Fiwo:
-4. My dog (<code>deta</code>)
-5. Our (inclusive) house (<code>sydo</code>)
-6. Their food (<code>bata</code>)</p>
-<hr>
-<h3>Chapter 6 Answer Key</h3>
-<ol>
-<li><code>bojai</code> (boja + i)</li>
-<li><code>dorsoe</code> (dorso + e)</li>
-<li><code>jamia</code> (jami + a)</li>
-<li><code>Detap mike.</code></li>
-<li><code>Sydop muke.</code></li>
-<li><code>Batap dalem je.</code></li>
-</ol>
-<hr>
+</details><hr>
 <h1>Phase III: The Actions</h1>
-<p>This phase explores exactly what verbs can do. You will learn how to shift time, describe continuous actions, chain verbs together, and change the perspective of an action using the passive voice.</p>
-<h2>Chapter 7: Tense, Aspect, &amp; Stative Verbs</h2>
-<p>Time (Tense) and the flow of an action (Aspect) are marked directly on the verb root using a single consonant suffix.</p>
-<h3>1. The Core Time Grid</h3>
-<p>Every verb ends in <code>-i</code>. If there is no consonant after the <code>-i</code>, it implies a present or timeless fact (<code>xali</code> = moves). To change the time, append one of these markers:</p>
+<p>This phase explores exactly what verbs can do. You will learn how to shift time, describe continuous actions, link verbs together, and change the perspective of an action.</p>
+<h2>Chapter 14: Action Time (Tense)</h2>
+<p>Time (Tense) is marked directly on the verb root using a single consonant suffix.</p>
+<p>Every verb ends in <code>-i</code>. If there is no consonant after the <code>-i</code>, it implies a present or timeless fact. To change the time, append one of these markers:</p>
 <ul>
 <li><strong><code>-d</code> (Past):</strong> The action occurred in the past. (<code>xalid</code> = moved)</li>
 <li><strong><code>-s</code> (Future):</strong> The action will occur. (<code>xalis</code> = will move)</li>
+</ul>
+<hr>
+<h3>Chapter 14 Exercises</h3>
+<p><strong>Part A: Translate the Verbs</strong></p>
+<p>Vocabulary Key: <code>xali</code> = to move, <code>nomi</code> = to eat.</p>
+<p>Questions:</p>
+<ol>
+<li><p><code>xalis</code></p>
+</li>
+<li><p><code>nomid</code></p>
+</li>
+<li><p>Will eat</p>
+</li>
+<li><p>Moved</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 14 Answer Key</summary>
+<ol>
+<li><p>Will move</p>
+</li>
+<li><p>Ate</p>
+</li>
+<li><p><code>nomis</code></p>
+</li>
+<li><p><code>xalid</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 15: Action Flow (Aspect)</h2>
+<p>Aspect describes how an action flows through time. Like tense, it is a single consonant suffix.</p>
+<ul>
 <li><strong><code>-q</code> (Continuous):</strong> The action is actively in progress right now. (<code>xaliq</code> = is actively moving)</li>
 <li><strong><code>-k</code> (Perfect):</strong> The action is completed but relevant now. (<code>xalik</code> = has moved)</li>
 </ul>
-<h3>2. Tense Stacking (The <code>y</code> Bridge)</h3>
+<hr>
+<h3>Chapter 15 Exercises</h3>
+<p><strong>Part A: Translate the Verbs</strong></p>
+<p>Vocabulary Key: <code>sapi</code> = to make.</p>
+<p>Questions:</p>
+<ol>
+<li><p>Is actively making</p>
+</li>
+<li><p>Has made</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 15 Answer Key</summary>
+<ol>
+<li><p><code>sapiq</code></p>
+</li>
+<li><p><code>sapik</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 16: Tense Stacking</h2>
 <p>To say something like &quot;was actively moving&quot; (Past Continuous), you stack a Tense consonant and an Aspect consonant. To make it pronounceable, insert the bridging vowel <strong><code>y</code></strong> between them.</p>
 <ul>
 <li><code>xalidyq</code>: Was moving (Past + <code>y</code> + Continuous)</li>
 <li><code>xalisyk</code>: Will have moved (Future + <code>y</code> + Perfect)</li>
 <li><code>nomidyk</code>: Had eaten (from <code>nomi</code> = to eat)</li>
 </ul>
-<h3>3. Habitual Aspect (<code>hyme</code>)</h3>
-<p>To say something happens habitually (e.g., &quot;I am a swimmer&quot; or &quot;I used to swim&quot;), you do not use a suffix. Instead, you place the modifier <strong><code>hyme</code></strong> (habitually) directly after the verb.</p>
-<ul>
-<li><code>Mik dormi hyme.</code> (I swim habitually).</li>
-</ul>
-<h3>4. Stative Verbs</h3>
+<hr>
+<h3>Chapter 16 Exercises</h3>
+<p><strong>Part A: Translate the Verbs</strong></p>
+<p>Vocabulary Key: <code>usi</code> = to sleep.</p>
+<p>Questions:</p>
+<ol>
+<li><p>Was sleeping</p>
+</li>
+<li><p>Will have slept</p>
+</li>
+<li><p>Had slept</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 16 Answer Key</summary>
+<ol>
+<li><p><code>usidyq</code></p>
+</li>
+<li><p><code>usisyk</code></p>
+</li>
+<li><p><code>usidyk</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 17: Stative Verbs &amp; The Zero Copula</h2>
 <p>How do you say &quot;The tree is green&quot;? 
-Fiwo does not use a standalone word for &quot;is&quot;. Instead, you derive the descriptive modifier into a <strong>Stative Verb</strong> by appending the verb vowel <code>-i</code>. This verb then accepts standard tense markers!</p>
+Fiwo does not use a standalone word for &quot;is&quot; for simple descriptions. Instead, you derive the descriptive modifier into a <strong>Stative Verb</strong> by appending the verb vowel <code>-i</code>. This verb then accepts standard tense markers!</p>
 <ul>
 <li><code>luare</code> (green) ➔ <code>luarei</code> (to be green).</li>
 <li><code>Mosa luarei.</code> (The tree is green).</li>
 <li><code>Mosa luareid.</code> (The tree was green).</li>
 </ul>
-<blockquote>
-<p>[!CAUTION]
-<strong>The Explicit Copula (<code>hi</code>)</strong>
-The word <code>hi</code> means &quot;to be&quot;. However, a bare <code>hi</code> will crash the parser. It may <strong>only</strong> be used when actively carrying a grammatical suffix, such as a tense marker (<code>hid</code> = was, <code>his</code> = will be) or the infinitive link (<code>-t</code>). For simple present-tense facts (&quot;I am a person&quot;), you just place the two nouns together without a verb (<code>Mik nofap.</code>).</p>
-<p><em>Examples of <code>hi</code> in action:</em></p>
+<p>For simple identity statements (&quot;I am a person&quot;), you don&#39;t even need a verb. Just place the two nouns side-by-side (The Zero Copula).</p>
 <ul>
-<li><code>Mik hid jamia.</code> (I was a writer. Tense applied to a state of being).</li>
-<li><code>Mik fabi hit jany suk.</code> (I want to be against you. <code>hi</code> chained to <code>fabi</code> via infinitive linker <code>-t</code>).</li>
+<li><code>Mik nofap.</code> (I am a person).</li>
 </ul>
-</blockquote>
 <hr>
-<h3>Chapter 7 Exercises</h3>
-<p><strong>Part A: Translate the Verbs</strong>
-Translate the verb forms:</p>
+<h3>Chapter 17 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>tande</code> = big, <code>sydop</code> = the house, <code>mik</code> = I, <code>jamia</code> = writer.</p>
+<p>Questions:</p>
 <ol>
-<li><code>sapis</code> (Root: <code>sapi</code> = make)</li>
-<li><code>sapidyq</code></li>
-<li><code>nomik</code> (Root: <code>nomi</code> = eat)</li>
-<li><code>nomisyk</code></li>
-</ol>
-<p><strong>Part B: Translate the Sentences</strong>
-5. I was sleeping. (<code>mik</code>, <code>usi</code> = sleep)
-6. They will have eaten the food. (<code>dal je</code>, <code>nomi</code>, <code>batap</code>)
-7. The house was big. (<code>sydop</code>, <code>tandei</code> = to be big)</p>
-<hr>
-<h3>Chapter 7 Answer Key</h3>
-<ol>
-<li>Will make</li>
-<li>Was actively making</li>
-<li>Has eaten</li>
-<li>Will have eaten</li>
-<li><code>Mik usidyq.</code></li>
-<li><code>Dal je nomisyk batap.</code></li>
-<li><code>Sydop tandeid.</code></li>
+<li><p>The house is big.</p>
+</li>
+<li><p>The house was big.</p>
+</li>
+<li><p>I am a writer. (Zero copula)</p>
+</li>
 </ol>
 <hr>
-<h2>Chapter 8: Serial Verbs &amp; The Infinitive Linker</h2>
+<details class="answer-key"><summary>Chapter 17 Answer Key</summary>
+<ol>
+<li><p><code>Sydop tandei.</code></p>
+</li>
+<li><p><code>Sydop tandeid.</code></p>
+</li>
+<li><p><code>Mik jamia.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 18: The Explicit Copula (<code>hi</code>)</h2>
+<p>The word <code>hi</code> means &quot;to be&quot;. However, a bare <code>hi</code> will crash the parser. It may <strong>only</strong> be used when actively carrying a grammatical suffix, such as a tense marker.</p>
+<p>Use <code>hi</code> when you need to apply tense to an identity statement.</p>
+<ul>
+<li><code>Mik hid jamia.</code> (I was a writer).</li>
+<li><code>Sydop his nake.</code> (The house will be ours).</li>
+</ul>
+<hr>
+<h3>Chapter 18 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>jamia</code> = writer, <code>hid</code> = was, <code>his</code> = will be.</p>
+<p>Questions:</p>
+<ol>
+<li><p>I will be a writer.</p>
+</li>
+<li><p>I was a writer.</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 18 Answer Key</summary>
+<ol>
+<li><p><code>Mik his jamia.</code></p>
+</li>
+<li><p><code>Mik hid jamia.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 19: Serial Verbs</h2>
 <p>In English, we string verbs together using words like &quot;to&quot; (e.g., &quot;I want <em>to</em> eat&quot;). In Fiwo, placing two unmodified verbs side-by-side crashes the parser.</p>
-<h3>1. The Infinitive Linker (<code>-t</code>)</h3>
-<p>To chain verbs into a single action sequence, you must append <strong>The Infinitive Linker (<code>-t</code>)</strong> directly to the functional vowel of the secondary verbs.
-This fuses the verbs into one continuous action block, allowing them to share the Subject and Object.</p>
-<p><strong>Syntax:</strong> <code>[Primary Verb] + [Secondary Verb]-t</code></p>
-<h3>2. Examples</h3>
+<p>To chain verbs into a single action sequence, append <strong>The Infinitive Linker (<code>-t</code>)</strong> directly to the functional vowel of the secondary verb.</p>
 <ul>
-<li><strong>Desire:</strong> <code>Mik fabi nomi-t batap.</code> <ul>
-<li>I + want + eat-[linker] + food-the.</li>
-<li><em>Meaning:</em> I want to eat the food.</li>
-</ul>
-</li>
-<li><strong>Attempt:</strong> <code>Daq baki usi-t.</code><ul>
-<li>He + try + sleep-[linker].</li>
-<li><em>Meaning:</em> He tries to sleep.</li>
-</ul>
-</li>
-<li><strong>Initiation:</strong> <code>Nak cimid cafi-t.</code><ul>
-<li>We + started + run-[linker].</li>
-<li><em>Meaning:</em> We started to run.</li>
-</ul>
-</li>
+<li><strong><code>Mik fabi nomi-t batap.</code></strong> (I want to eat the food).</li>
+<li><strong><code>Daq baki usi-t.</code></strong> (He tries to sleep).</li>
 </ul>
 <hr>
-<h3>Chapter 8 Exercises</h3>
-<p><strong>Part A: Find the Error</strong>
-Explain why the parser rejects this sentence:</p>
+<h3>Chapter 19 Exercises</h3>
+<p><strong>Part A: Find the Error</strong></p>
+<p>Questions:</p>
 <ol>
-<li><code>Das fabi usi.</code> (She wants to sleep).</li>
+<li>Why does the parser reject <code>Das fabi usi.</code> (She wants to sleep)?</li>
 </ol>
-<p><strong>Part B: Translate to Fiwo</strong>
-2. I want to make a house. (<code>mik</code>, <code>fabi</code> = want, <code>sapi</code> = make, <code>sydor</code> = a house)
-3. They try to run. (<code>dal je</code>, <code>baki</code> = try, <code>cafi</code> = run)
-4. He started to eat the food today. (<code>daq</code>, <code>cimid</code> = started, <code>nomi</code> = eat, <code>batap</code> = the food, <code>nudu</code> = today)</p>
-<hr>
-<h3>Chapter 8 Answer Key</h3>
-<ol>
-<li>The secondary verb <code>usi</code> requires the Infinitive Linker (<code>-t</code>) to chain to <code>fabi</code>. (Correct: <code>Das fabi usit.</code>)</li>
-<li><code>Mik fabi sapit sydor.</code></li>
-<li><code>Dal je baki cafit.</code></li>
-<li><code>Daq cimid nomit batap nudu.</code></li>
+<p><strong>Part B: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>fabi</code> = want, <code>sapi</code> = make, <code>sydor</code> = a house.</p>
+<p>Questions:</p>
+<ol start="2">
+<li>I want to make a house.</li>
 </ol>
 <hr>
-<h2>Chapter 9: Voice, Valence, &amp; Modality</h2>
-<p>This chapter teaches you how to invert the Subject and Object (Passive Voice) and how to express possibility or obligation (Modals).</p>
-<h3>1. The Passive Flag (<code>fap</code>)</h3>
+<details class="answer-key"><summary>Chapter 19 Answer Key</summary>
+<ol>
+<li><p>The secondary verb <code>usi</code> requires the Infinitive Linker (<code>-t</code>) to chain to <code>fabi</code>. (Correct: <code>Das fabi usit.</code>)</p>
+</li>
+<li><p><code>Mik fabi sapit sydor.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 20: Passive Voice</h2>
 <p>The particle <strong><code>fap</code></strong> acts as a structural Passive Voice Indicator. Placed at the very beginning of a clause, it instructs the parser to invert the SVO sequence. </p>
 <ul>
 <li>Slot 1 (Subject) receives the action.</li>
@@ -2523,340 +2739,690 @@ Explain why the parser rejects this sentence:</p>
 </ul>
 <p><em>Active:</em> <code>Nofap foisoid sydop.</code> (The person built the house).
 <em>Passive:</em> <strong><code>Fap sydop foisoid nofap.</code></strong> (The house was built by the person).</p>
-<blockquote>
-<p>[!NOTE]
-<strong>Macro-Verbs in Passive Voice</strong>
-A serial verb chain (like <code>fabid nomit</code>) acts as a single Macro-Verb. <code>fap</code> flips the roles for the entire chain.</p>
-<ul>
-<li><strong><code>Fap batap fabid nomit nofap.</code></strong> (The food was wanted to be eaten by the person).</li>
-</ul>
-</blockquote>
-<h3>2. Modality (Possibility &amp; Obligation)</h3>
+<hr>
+<h3>Chapter 20 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>fap</code> = passive marker, <code>sydop</code> = the house, <code>foisoid</code> = built.</p>
+<p>Questions:</p>
+<ol>
+<li><p>The house was built.</p>
+</li>
+<li><p>Was the house built? (Use <code>Kup</code>)</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 20 Answer Key</summary>
+<ol>
+<li><p><code>Fap sydop foisoid.</code></p>
+</li>
+<li><p><code>Kup fap sydop foisoid?</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 21: Modality</h2>
 <p>Modality determines how likely or necessary an action is. In Fiwo, this is handled by <strong>Modal Modifiers</strong> (<code>-e</code>).</p>
 <ul>
-<li><strong>Possibility:</strong> <code>mace</code> (Possible / Might), <code>sube</code> (Probable), <code>dide</code> (Certain).</li>
-<li><strong>Obligation:</strong> <code>bife</code> (Allowed), <code>arife</code> (Should), <code>fuqe</code> (Must).</li>
+<li><strong>Possibility:</strong> <code>mace</code> (Possible / Might), <code>dide</code> (Certain).</li>
+<li><strong>Obligation:</strong> <code>arife</code> (Should), <code>fuqe</code> (Must).</li>
 </ul>
-<p><strong>Placement:</strong> To modify the action, a Modal Modifier must be placed <strong>immediately after the Verb</strong>, before the Object slot.</p>
+<p>To modify the action, a Modal Modifier must be placed <strong>immediately after the Verb</strong>.</p>
 <ul>
-<li><strong><code>Daq xalis mace.</code></strong> (He might move).</li>
-<li><strong><code>Suk usi fuqe.</code></strong> (You must sleep).</li>
-</ul>
-<h3>3. Precision Negation (<code>nes</code>)</h3>
-<p>The word <code>nes</code> strictly negates whatever comes immediately after it. This allows extreme precision with modals:</p>
-<ul>
-<li><code>Suk nes xali fuqe.</code> (You + [Not] + move + must ➔ The action is negated. <strong>You must not move</strong>).</li>
-<li><code>Suk xali nes fuqe.</code> (You + move + [Not] + must ➔ The obligation is negated. <strong>You do not have to move</strong>).</li>
+<li><code>Daq xalis mace.</code> (He might move).</li>
+<li><code>Suk usi fuqe.</code> (You must sleep).</li>
 </ul>
 <hr>
-<h3>Chapter 9 Exercises</h3>
-<p><strong>Part A: Translate the Passives</strong></p>
+<h3>Chapter 21 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>nomi</code> = eat, <code>mace</code> = might, <code>batap</code> = the food, <code>suk</code> = you, <code>usi</code> = sleep, <code>arife</code> = should.</p>
+<p>Questions:</p>
 <ol>
-<li>The house was built. (<code>fap</code>, <code>sydop</code>, <code>foisoid</code> = built)</li>
-<li>Was the house built? (<code>kup</code>, <code>fap</code>...)</li>
-</ol>
-<p><strong>Part B: Translate the Modals</strong>
-3. I might eat the food. (<code>mik</code>, <code>nomi</code>, <code>mace</code>, <code>batap</code>)
-4. You should sleep. (<code>suk</code>, <code>usi</code>, <code>arife</code>)</p>
-<p><strong>Part C: Precision Negation</strong>
-5. He must not sleep. (<code>nes usi</code>)
-6. He does not have to sleep. (<code>nes fuqe</code>)</p>
-<hr>
-<h3>Chapter 9 Answer Key</h3>
-<ol>
-<li><code>Fap sydop foisoid.</code></li>
-<li><code>Kup fap sydop foisoid?</code></li>
-<li><code>Mik nomi mace batap.</code></li>
-<li><code>Suk usi arife.</code></li>
-<li><code>Daq nes usi fuqe.</code></li>
-<li><code>Daq usi nes fuqe.</code></li>
+<li><p>I might eat the food.</p>
+</li>
+<li><p>You should sleep.</p>
+</li>
 </ol>
 <hr>
+<details class="answer-key"><summary>Chapter 21 Answer Key</summary>
+<ol>
+<li><p><code>Mik nomi mace batap.</code></p>
+</li>
+<li><p><code>Suk usi arife.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 22: Reflexive &amp; Reciprocal Actions</h2>
+<p>When the subject and object are the same thing, or when subjects act upon each other, you use specific modifiers directly after the verb.</p>
+<ul>
+<li><p><strong><code>wible</code> (Reflexive):</strong> The subject acts on itself (e.g., &quot;I hit myself&quot;).</p>
+</li>
+<li><p><strong><code>wable</code> (Reciprocal):</strong> The plural subjects act on each other (e.g., &quot;They hit each other&quot;).</p>
+</li>
+<li><p><code>Mik satsid wible.</code> (I hit myself).</p>
+</li>
+<li><p><code>Dal je satsid wable.</code> (They hit each other).</p>
+</li>
+</ul>
+<hr>
+<h3>Chapter 22 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>daq</code> = he, <code>veki</code> = see, <code>muk</code> = we (inclusive).</p>
+<p>Questions:</p>
+<ol>
+<li><p>He sees himself.</p>
+</li>
+<li><p>We see each other.</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 22 Answer Key</summary>
+<ol>
+<li><p><code>Daq veki wible.</code></p>
+</li>
+<li><p><code>Muk veki wable.</code></p>
+</li>
+</ol>
+</details><hr>
 <h1>Phase IV: Descriptors, Logic, &amp; Math</h1>
-<p>This phase expands on how you modify things, connect concepts, handle mathematical quantities, and negate ideas.</p>
-<h2>Chapter 10: The &quot;Look Left&quot; Principle</h2>
+<p>This phase covers how to modify roots, handle quantities, and map spatial or logical relationships.</p>
+<h2>Chapter 23: The &quot;Look Left&quot; Principle</h2>
 <p>Fiwo avoids confusion about what a word is describing by using a strict rule: Modifiers always &quot;Look Left&quot;.</p>
-<h3>1. Independent Stacking</h3>
 <p>When you stack multiple modifiers, they do not modify each other. Each one skips the others and looks left to attach to the nearest root word (noun or verb).</p>
 <ul>
 <li><code>Mosa luare tande.</code> (Tree + green + big).</li>
 <li>Meaning: A big, green tree. (Both &quot;green&quot; and &quot;big&quot; describe the tree).</li>
 </ul>
-<h3>2. Nested Modifiers (<code>-m</code>)</h3>
+<hr>
+<h3>Chapter 23 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mifa</code> = animal, <code>ruze</code> = fast, <code>gawe</code> = good, <code>mifar</code> = an animal.</p>
+<p>Questions:</p>
+<ol>
+<li><p>A fast, good animal</p>
+</li>
+<li><p>A good, fast animal</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 23 Answer Key</summary>
+<ol>
+<li><p><code>mifar ruze gawe</code></p>
+</li>
+<li><p><code>mifar gawe ruze</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 24: Nested Modifiers</h2>
 <p>What if you want to say &quot;a dark-red house&quot;? You need the modifier &quot;dark&quot; to modify &quot;red&quot;, not the house. To do this, apply the Nested Modification Flag (<code>-m</code>) to the base trait.</p>
+<p>This flag tells the parser: <em>&quot;Don&#39;t attach to the noun! Attach to me!&quot;</em></p>
 <ul>
 <li><code>Sydop leupem cape.</code> (House-the + red-[modified] + dark). </li>
 <li>Meaning: The dark-red house.</li>
 </ul>
-<h3>3. The Distributive Flag (<code>-f</code>)</h3>
+<hr>
+<h3>Chapter 24 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mifar</code> = an animal, <code>gawe</code> = good, <code>fe</code> = very.</p>
+<p>Questions:</p>
+<ol>
+<li>A very good animal</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 24 Answer Key</summary>
+<ol>
+<li><code>mifar gawem fe</code></li>
+</ol>
+</details><hr>
+<h2>Chapter 25: The Distributive Flag</h2>
 <p>If you have a list of nouns connected by &quot;and&quot; (<code>lan</code>), a modifier at the end normally only describes the closest noun.</p>
 <ul>
-<li><code>mosa lan nasa tande</code> (A tree and a big plant).
-To apply the modifier to the whole group, add the Distributive Flag (<code>-f</code>).</li>
+<li><code>mosa lan nasa tande</code> (A tree and a big plant).</li>
+</ul>
+<p>To apply the modifier to the whole group, add the Distributive Flag (<code>-f</code>).</p>
+<ul>
 <li><code>mosa lan nasa tandef</code> (A big tree and a big plant).</li>
 </ul>
 <hr>
-<h3>Chapter 10 Exercises</h3>
-<p><strong>Part A: Translate the phrases</strong></p>
+<h3>Chapter 25 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>detap</code> = the dog, <code>mafap</code> = the cat, <code>lan</code> = and, <code>ruze</code> = fast.</p>
+<p>Questions:</p>
 <ol>
-<li>A fast, good animal (<code>mifa</code>, <code>ruze</code>, <code>gawe</code>)</li>
-<li>A very good animal (<code>mifar</code>, <code>gawe</code>, <code>fe</code> = very. Remember to flag the base trait!)</li>
-<li>The fast dog and the fast cat (<code>detap</code>, <code>lan</code>, <code>mafap</code>, <code>ruze</code>. Use the distributive flag).</li>
+<li><p>The fast dog and the fast cat</p>
+</li>
+<li><p>The dog and the fast cat (Only the cat is fast)</p>
+</li>
 </ol>
 <hr>
-<h3>Chapter 10 Answer Key</h3>
+<details class="answer-key"><summary>Chapter 25 Answer Key</summary>
 <ol>
-<li><code>mifar ruze gawe</code></li>
-<li><code>mifar gawem fe</code></li>
-<li><code>Detap lan mafap ruzef</code></li>
+<li><p><code>Detap lan mafap ruzef</code></p>
+</li>
+<li><p><code>Detap lan mafap ruze</code></p>
+</li>
 </ol>
-<hr>
-<h2>Chapter 11: Prepositions &amp; Bridges</h2>
-<p>Prepositions (<code>-y</code>) create structural bridges in a sentence, usually mapping space, direction, or possession.</p>
-<h3>1. Root Transparency</h3>
-<p>Prepositions must anchor to a Root (Noun or Verb). If a preposition &quot;looks left&quot; and sees a modifier, it ignores the modifier completely and anchors to the root word.</p>
+</details><hr>
+<h2>Chapter 26: Prepositions</h2>
+<p>Prepositions (<code>-y</code>) create structural bridges in a sentence, mapping space, direction, or possession.</p>
+<p>Prepositions must anchor to a Root (Noun or Verb). If a preposition &quot;looks left&quot; and sees a modifier, it ignores the modifier completely and anchors to the root word. (<strong>Root Transparency</strong>)</p>
 <ul>
 <li><code>Dal xalid ruze zy sydo.</code> (He + moved + fast + to + house).</li>
-<li>The preposition <code>zy</code> ignores <code>ruze</code> and bridges &quot;to the house&quot; directly to the verb <code>xalid</code>.</li>
+<li>The preposition <code>zy</code> ignores <code>ruze</code> and bridges directly to <code>xalid</code>.</li>
 </ul>
-<h3>2. Slot Reordering</h3>
-<p>Because prepositions physically link things together based on their sequence, placement matters!</p>
+<p>Because prepositions physically link things based on sequence, placement matters!</p>
 <ul>
-<li><code>Mik satsid mifap wy guto.</code> (I hit the animal with the tool. <code>wy</code> attaches to the animal. Meaning: The animal had the tool).</li>
-<li><code>Mik satsid wy guto mifap.</code> (I hit with the tool the animal. <code>wy</code> attaches to the hit. Meaning: I used the tool to hit).</li>
+<li><code>Mik satsid mifap wy guto.</code> (I hit the animal with the tool. <code>wy</code> attaches to the animal).</li>
+<li><code>Mik satsid wy guto mifap.</code> (I hit with the tool the animal. <code>wy</code> attaches to the hit).</li>
 </ul>
 <hr>
-<h3>Chapter 11 Exercises</h3>
-<p><strong>Part A: Fix the ambiguity</strong></p>
+<h3>Chapter 26 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>daq</code> = he, <code>hicid</code> = walked, <code>lawe</code> = slow, <code>zy</code> = to, <code>jurop</code> = the city.</p>
+<p>Questions:</p>
 <ol>
-<li>You want to say &quot;He walked to the city slowly&quot;, but you also want to make sure the preposition &quot;to&quot; anchors properly. How do you translate: &quot;He walked slowly to the city.&quot; (<code>Daq</code>, <code>hicid</code>, <code>lawe</code> = slow, <code>zy</code>, <code>juro</code>)</li>
+<li>He walked slowly to the city. (Make sure &#39;to&#39; bridges the walk, not the city)</li>
 </ol>
 <hr>
-<h3>Chapter 11 Answer Key</h3>
+<details class="answer-key"><summary>Chapter 26 Answer Key</summary>
 <ol>
-<li><code>Daq hicid lawe zy juro.</code> (Because of root transparency, <code>zy</code> ignores <code>lawe</code> and anchors to <code>hicid</code>!).</li>
+<li><code>Daq hicid lawe zy jurop.</code></li>
+</ol>
+</details><hr>
+<h2>Chapter 27: Comparisons &amp; Baselines</h2>
+<p>To compare two things, Fiwo establishes a trait and then introduces a baseline using the preposition <code>taly</code> (compared to / than).</p>
+<ul>
+<li><code>Sydop tandei taly mosap.</code> (The house is big compared to the tree ➔ The house is bigger than the tree).</li>
+</ul>
+<p>To say &quot;the most&quot; or &quot;the best&quot; (Superlative), compare it to everything (<code>cemu late</code>).</p>
+<ul>
+<li><code>Ram gawei taly cemu late.</code> (It is good compared to everything ➔ It is the best).</li>
+</ul>
+<hr>
+<h3>Chapter 27 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>ruzei</code> = to be fast, <code>taly</code> = compared to, <code>suk</code> = you, <code>nofa late</code> = everyone.</p>
+<p>Questions:</p>
+<ol>
+<li><p>I am faster than you.</p>
+</li>
+<li><p>I am the fastest. (Faster than everyone)</p>
+</li>
 </ol>
 <hr>
-<h2>Chapter 12: Math, Numbers, &amp; Intensity</h2>
-<h3>1. General vs Exact Plurality</h3>
-<p>If you don&#39;t know the number, use <code>je</code>. If you do, use the number modifier. Do not use both!</p>
+<details class="answer-key"><summary>Chapter 27 Answer Key</summary>
+<ol>
+<li><p><code>Mik ruzei taly suk.</code></p>
+</li>
+<li><p><code>Mik ruzei taly nofa late.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 28: Numbers &amp; Multi-Digit Stacking</h2>
+<p>If you know the exact number of objects, you do not use <code>je</code>. You use the number modifiers (0-9).</p>
 <ul>
-<li><code>nofa je</code> (People)</li>
-<li><code>nofa tafe</code> (Three people)</li>
+<li><code>0</code>: <code>noze</code></li>
+<li><code>1</code>: <code>bime</code></li>
+<li><code>2</code>: <code>dewe</code></li>
+<li><code>3</code>: <code>tafe</code></li>
+<li><code>4</code>: <code>gloke</code></li>
 </ul>
-<h3>2. Number Stacking</h3>
-<p>To build multi-digit numbers, append <code>-t</code> to every digit in the block.</p>
+<p>To build multi-digit numbers, append the stacker <code>-t</code> to every digit in the block.</p>
 <ul>
-<li><code>gloket dewet</code> (4 and 2 ➔ 42).</li>
+<li><code>bimet dewet</code> (1 and 2 ➔ 12).</li>
+<li><code>nofa tafet gloket</code> (34 people).</li>
 </ul>
-<h3>3. Intensity Scaling</h3>
-<p>You can use numbers 1-5 to objectively scale the intensity of a verb or a trait.</p>
-<ul>
-<li><code>Daq cukid raje.</code> (He fought at level-5 intensity).</li>
-<li><code>Dreko tandem raje.</code> (A level-5 big rock).</li>
-</ul>
-<h3>4. Ordinals &amp; Frequency</h3>
+<hr>
+<h3>Chapter 28 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>nofa</code> = people, <code>sydo</code> = houses.</p>
+<p>Questions:</p>
+<ol>
+<li><p>3 people</p>
+</li>
+<li><p>14 houses</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 28 Answer Key</summary>
+<ol>
+<li><p><code>nofa tafe</code></p>
+</li>
+<li><p><code>sydo bimet gloket</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 29: Ordinals &amp; Frequency</h2>
 <p>Use prepositions to bridge numbers to nouns or verbs for sequences.</p>
 <ul>
-<li><strong>Ordinals (<code>usy</code>):</strong> <code>hoxo usy tafe</code> (The 3rd door).</li>
-<li><strong>Frequency (<code>igy</code>):</strong> <code>Mik zopid igy dewe.</code> (I jumped twice).</li>
+<li><strong>Ordinals (<code>usy</code>):</strong> Bridges a number to a noun to show position.<ul>
+<li><code>hoxop usy tafe</code> (Door-the at-position 3 ➔ The 3rd door).</li>
 </ul>
-<h3>5. Math Operators</h3>
-<p>Math operators bind numbers together seamlessly.</p>
+</li>
+<li><strong>Frequency (<code>igy</code>):</strong> Bridges a number to a verb to show how many times it happened.<ul>
+<li><code>Mik zopid igy dewe.</code> (I jumped at-frequency 2 ➔ I jumped twice).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3>Chapter 29 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>zopid</code> = jumped, <code>sydop</code> = the house.</p>
+<p>Questions:</p>
+<ol>
+<li><p>I jumped 4 times. (<code>gloke</code> = 4)</p>
+</li>
+<li><p>The 2nd house. (<code>dewe</code> = 2)</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 29 Answer Key</summary>
+<ol>
+<li><p><code>Mik zopid igy gloke.</code></p>
+</li>
+<li><p><code>Sydop usy dewe.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 30: Math Operators &amp; Equations</h2>
+<p>Math operators act like prepositions, binding numbers together seamlessly.</p>
 <ul>
 <li><code>ap</code> (Division): <code>bime ap dewe</code> (1 / 2)</li>
 <li><code>mux</code> (Multiplication): <code>tafe mux dewe</code> (3 * 2)</li>
+<li><code>mis</code> (Minus): <code>gloke mis bime</code> (4 - 1)</li>
+<li><code>pot</code> (Plus): <code>dewe pot dewe</code> (2 + 2)</li>
+<li><code>labnei</code> (Equals / Is identical to): Verb form of <code>labne</code>.</li>
 </ul>
 <hr>
-<h3>Chapter 12 Exercises</h3>
-<p><strong>Part A: Translate the Math</strong></p>
+<h3>Chapter 30 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Questions:</p>
 <ol>
-<li>14 people (<code>nofa</code>, 1=<code>bime</code>, 4=<code>gloke</code>)</li>
-<li>I jumped 4 times (<code>mik</code>, <code>zopid</code>, frequency bridge, 4)</li>
-<li>The 2nd house (<code>sydop</code>, ordinal bridge, 2=<code>dewe</code>)</li>
+<li><p>2 plus 2 equals 4.</p>
+</li>
+<li><p>1 divided by 2.</p>
+</li>
 </ol>
 <hr>
-<h3>Chapter 12 Answer Key</h3>
+<details class="answer-key"><summary>Chapter 30 Answer Key</summary>
 <ol>
-<li><code>nofa bimet gloket</code></li>
-<li><code>Mik zopid igy gloke.</code></li>
-<li><code>Sydop usy dewe.</code></li>
+<li><p><code>dewe pot dewe labnei gloke.</code></p>
+</li>
+<li><p><code>bime ap dewe</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 31: Intensity Scaling</h2>
+<p>You can use numbers 1-5 to objectively scale the intensity of a verb or a trait, similar to a 5-star system.</p>
+<ul>
+<li><code>bime</code> (Level 1 / Barely)</li>
+<li><code>tafe</code> (Level 3 / Moderately)</li>
+<li><code>raje</code> (Level 5 / Extremely - Maximum)</li>
+</ul>
+<p><strong>Usage:</strong></p>
+<ul>
+<li><code>Daq cukid raje.</code> (He fought at level-5 intensity).</li>
+<li><code>Dreko tandem raje.</code> (A level-5 big rock ➔ A massive rock).</li>
+</ul>
+<hr>
+<h3>Chapter 31 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>kypei</code> = to be happy, <code>raje</code> = 5.</p>
+<p>Questions:</p>
+<ol>
+<li>I am extremely (level 5) happy.</li>
 </ol>
 <hr>
-<h2>Chapter 13: Negation &amp; Conjunctions</h2>
-<h3>1. Precision Negation (<code>nes</code>)</h3>
+<details class="answer-key"><summary>Chapter 31 Answer Key</summary>
+<ol>
+<li><code>Mik kypei raje.</code></li>
+</ol>
+</details><hr>
+<h2>Chapter 32: Calendar, Dates &amp; Time Systems</h2>
+<p>Fiwo standardizes time mathematically. Days of the week are simply the word for day (<code>xunu</code>) followed by its number.</p>
+<ul>
+<li><code>xunu bime</code> (Day 1 / Monday)</li>
+<li><code>xunu dewe</code> (Day 2 / Tuesday)</li>
+<li><code>xunu sive</code> (Day 7 / Sunday)</li>
+</ul>
+<p>To say &quot;At 3:00 PM&quot;, you use the time-bridge <code>rugoxu</code> (at the exact hour of). Fiwo uses a 24-hour clock.</p>
+<ul>
+<li><code>rugoxu bimet safet</code> (At 15:00 ➔ 3:00 PM).</li>
+</ul>
+<hr>
+<h3>Chapter 32 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>xalis</code> = will go, <code>dury</code> = during.</p>
+<p>Questions:</p>
+<ol>
+<li><p>I will go during Day 1 (Monday).</p>
+</li>
+<li><p>I will go at 14:00 (2:00 PM).</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 32 Answer Key</summary>
+<ol>
+<li><p><code>Mik xalis dury xunu bime.</code></p>
+</li>
+<li><p><code>Mik xalis rugoxu bimet gloket.</code></p>
+</li>
+</ol>
+</details><hr>
+<h1>Phase V: Advanced Syntax &amp; Grammar</h1>
+<p>This phase tackles negation, conjunctions, derivations, and word building.</p>
+<h2>Chapter 33: Precision Negation</h2>
 <p>The word <code>nes</code> is a strict logical &quot;NOT&quot;. It flips the meaning of whatever <em>immediately</em> follows it.</p>
 <ul>
 <li><code>Mik nes kyti batap.</code> (I do not like the food).</li>
 <li><code>Nes mifa xalid.</code> (It wasn&#39;t the animal that moved).</li>
+<li><code>Suk usi nes fuqe.</code> (You sleep NOT must ➔ You don&#39;t have to sleep).</li>
+<li><code>Suk nes usi fuqe.</code> (You NOT sleep must ➔ You must not sleep).</li>
 </ul>
-<h3>2. Inline AND (<code>lan</code>) and OR (<code>ron</code>)</h3>
+<hr>
+<h3>Chapter 33 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>daq</code> = he, <code>cafi</code> = run, <code>nofap</code> = the person.</p>
+<p>Questions:</p>
+<ol>
+<li><p>He does not run.</p>
+</li>
+<li><p>It wasn&#39;t the person that ran.</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 33 Answer Key</summary>
+<ol>
+<li><p><code>Daq nes cafi.</code></p>
+</li>
+<li><p><code>Nes nofap cafid.</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 34: Inline Conjunctions</h2>
 <p>You don&#39;t need paired words like &quot;both...and&quot; or &quot;either...or&quot;. Just use the inline operators to bind items within the same slot.</p>
 <ul>
-<li><strong>Both/And:</strong> <code>Mik fabid mosa lan nasa.</code> (I wanted a tree and a plant).</li>
-<li><strong>Either/Or:</strong> <code>Mik fabid mosa ron nasa.</code> (I wanted a tree or a plant).</li>
-<li><strong>Neither/Nor:</strong> <code>Mik nes fabid mosa ron nasa.</code> (I did not want a tree or a plant).</li>
+<li><strong><code>lan</code> (AND):</strong> Binds things together. <code>nofap lan mifap</code> (The person and the animal).</li>
+<li><strong><code>ron</code> (OR):</strong> Offers a choice. <code>mosa ron nasa</code> (A tree or a plant).</li>
 </ul>
 <hr>
-<h3>Chapter 13 Exercises</h3>
-<p><strong>Part A: Translate the Logic</strong></p>
+<h3>Chapter 34 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>veki</code> = see, <code>nofap</code> = the person, <code>mifap</code> = the animal.</p>
+<p>Questions:</p>
 <ol>
-<li>He does not run. (<code>daq</code>, <code>cafi</code>)</li>
-<li>The person and the animal. (<code>nofap</code>, <code>mifap</code>)</li>
-<li>I see neither the person nor the animal. (<code>mik</code>, <code>veki</code> = see, <code>nofap</code>, <code>mifap</code>)</li>
+<li><p>I see the person and the animal.</p>
+</li>
+<li><p>I see the person or the animal.</p>
+</li>
+<li><p>I see neither the person nor the animal. (Use <code>nes</code>)</p>
+</li>
 </ol>
 <hr>
-<h3>Chapter 13 Answer Key</h3>
+<details class="answer-key"><summary>Chapter 34 Answer Key</summary>
 <ol>
-<li><code>Daq nes cafi.</code></li>
-<li><code>Nofap lan mifap.</code></li>
-<li><code>Mik nes veki nofap ron mifap.</code></li>
+<li><p><code>Mik veki nofap lan mifap.</code></p>
+</li>
+<li><p><code>Mik veki nofap ron mifap.</code></p>
+</li>
+<li><p><code>Mik nes veki nofap ron mifap.</code></p>
+</li>
 </ol>
-<hr>
-<h1>Phase V: Complex Discourse</h1>
-<p>This final phase gives you the tools to express complex, multi-part thoughts: joining clauses, expressing cause and effect, conditional statements, and asking precise questions.</p>
-<h2>Chapter 14: Clausal Walls &amp; Brackets</h2>
-<p>In Fiwo, you cannot simply glue entire sentences together. You must use either a &quot;Clausal Wall&quot; to restart the parser, or &quot;Subordinate Brackets&quot; to embed a clause safely.</p>
-<h3>1. Clausal Walls (Conjunctions)</h3>
-<p>Words like <code>bef</code> (and), <code>bul</code> (but), <code>rot</code> (or), and <code>kad</code> (because) are structural walls. When the parser hits them, it instantly finalizes the current sentence and expects a brand new Subject to start the next one.</p>
+</details><hr>
+<h2>Chapter 35: Derivation &amp; Category Shifting</h2>
+<p>Fiwo words can mathematically shift their meaning by changing their final functional vowel.</p>
+<p>You never remove the original vowel; you simply append the new functional vowel to the end of the root.</p>
 <ul>
-<li><code>Mik karxid batap bul mik nes nomid ram.</code> (I found the food, but I did not eat it.)</li>
-<li><code>Nofap usid kad mifap xalid.</code> (The person slept because the animal moved.)</li>
-</ul>
-<h3>2. Subordinate Brackets (<code>tep</code> and <code>tel</code>)</h3>
-<p>To embed a clause <em>inside</em> another sentence (like &quot;The dog that I saw&quot;), use the brackets <code>tep</code> (Open) and <code>tel</code> (Close). </p>
-<ul>
-<li><code>tep</code> pauses the main sentence.</li>
-<li><code>tel</code> closes the embedded sentence and resumes the main one.</li>
-<li><code>Nofap tep karxid mifap tel xalid.</code> (The person [who found the animal] moved).</li>
-</ul>
-<h3>3. &quot;That&quot; Clauses (Complement Clauses)</h3>
-<p>Verbs of thinking or saying use <code>tep</code> to encapsulate an entire thought.</p>
-<ul>
-<li><code>Daq gesid tep hap dal kypei.</code> (He said [that] he was happy).</li>
+<li><strong>Noun to Verb (<code>-i</code>):</strong> <code>foiso</code> (Building) ➔ <code>foisoi</code> (To build).</li>
+<li><strong>Verb to Noun (<code>-a</code>, <code>-o</code>):</strong> <code>jami</code> (To write) ➔ <code>jamia</code> (Writer) or <code>jamio</code> (Document).</li>
+<li><strong>Noun to Modifier (<code>-e</code>):</strong> <code>xedo</code> (Metal) ➔ <code>xedoe</code> (Metallic).</li>
 </ul>
 <hr>
-<h3>Chapter 14 Exercises</h3>
-<p><strong>Part A: Translate the Sentences</strong></p>
+<h3>Chapter 35 Exercises</h3>
+<p><strong>Part A: Category Shifts</strong></p>
+<p>Derive the following words by adding the correct functional vowel:</p>
+<p>Vocabulary Key: <code>boja</code> = blood, <code>dorso</code> = water, <code>jami</code> = to write.</p>
+<p>Questions:</p>
 <ol>
-<li>I moved, but you slept. (<code>mik</code>, <code>xalid</code>, <code>bul</code>, <code>suk</code>, <code>usid</code>)</li>
-<li>The animal that ran is big. (<code>mifap</code>, <code>tep</code>, <code>cafid</code>, <code>tel</code>, <code>tandei</code>)</li>
+<li><p>To bleed (Noun to Verb)</p>
+</li>
+<li><p>Aquatic/Wet (Noun to Modifier)</p>
+</li>
+<li><p>Writer (Verb to Biological Noun)</p>
+</li>
 </ol>
 <hr>
-<h3>Chapter 14 Answer Key</h3>
+<details class="answer-key"><summary>Chapter 35 Answer Key</summary>
 <ol>
-<li><code>Mik xalid bul suk usid.</code></li>
-<li><code>Mifap tep cafid tel tandei.</code></li>
+<li><p><code>bojai</code> (boja + i)</p>
+</li>
+<li><p><code>dorsoe</code> (dorso + e)</p>
+</li>
+<li><p><code>jamia</code> (jami + a)</p>
+</li>
 </ol>
-<hr>
-<h2>Chapter 15: Causation &amp; Conditionals</h2>
-<h3>1. Causation (<code>lini</code>)</h3>
-<p>To say you &quot;made&quot; something happen or &quot;caused&quot; it, use the verb <code>lini</code> (to cause) and put the resulting action inside a <code>tep</code> bracket.</p>
+</details><hr>
+<h2>Chapter 36: Analytic Noun Compounding</h2>
+<p>Sometimes you need to combine two concepts, like &quot;firetruck&quot;. Fiwo does not mash words together into giant super-words. Instead, it uses <strong>Noun Compounding</strong> using modifiers or prepositions.</p>
+<ol>
+<li><p><strong>Modifier Shift:</strong> Turn the defining noun into a modifier (<code>-e</code>) and put it after the base noun.</p>
 <ul>
-<li><code>Mik linid tep detap cafi.</code> (I caused [that] the dog runs ➔ I made the dog run).</li>
+<li><code>xefo</code> (Fire), <code>cewo</code> (Vehicle).</li>
+<li><code>cewo xefoe</code> (Vehicle fire-related ➔ Firetruck).</li>
 </ul>
-<h3>2. Conditionals (If/Then)</h3>
-<p>Fiwo uses a &quot;correlative sequence&quot; for conditions. You flag the start of the condition with <code>syn</code> (If), and resolve it with a clausal wall like <code>can</code> (Then) or <code>pen</code> (Therefore).</p>
+</li>
+<li><p><strong>Preposition Bridge:</strong> Use a preposition like <code>vy</code> (of/associated with).</p>
 <ul>
-<li><code>Syn suk xali ruze can suk nes nojais fikop.</code> (If you move fast, then you will not see the path).</li>
+<li><code>cewo vy xefo</code> (Vehicle associated with fire ➔ Firetruck).</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3>Chapter 36 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>sydo</code> = house, <code>dorso</code> = water, <code>vy</code> = associated with.</p>
+<p>Questions:</p>
+<ol>
+<li><p>Waterhouse (Using the modifier shift)</p>
+</li>
+<li><p>Waterhouse (Using the preposition bridge)</p>
+</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 36 Answer Key</summary>
+<ol>
+<li><p><code>sydo dorsoe</code></p>
+</li>
+<li><p><code>sydo vy dorso</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 37: The Fiwonize Protocol</h2>
+<p>When adopting foreign names or brand-new technological terms from other languages, Fiwo uses a hyphen to safely integrate the word into the parser.</p>
+<p>You write the foreign word, add a hyphen, and attach the appropriate functional vowel. The capitalization rules do not apply if it is just a normal noun, but the vowel tells the parser what slot it fits.</p>
+<ul>
+<li><code>computer-o</code> (Concrete Noun: Computer)</li>
+<li><code>pizza-bata</code> (Biological Noun: Pizza Food)</li>
+<li><code>laser-i</code> (Verb: To laser)</li>
 </ul>
 <hr>
-<h3>Chapter 15 Exercises</h3>
-<p><strong>Part A: Translate the Sentences</strong></p>
+<h3>Chapter 37 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>sapi</code> = to make, <code>internet</code> = foreign word for internet (Abstract concept).</p>
+<p>Questions:</p>
 <ol>
-<li>I made the animal sleep. (<code>mik</code>, <code>linid</code>, <code>tep</code>, <code>mifap</code>, <code>usi</code>)</li>
-<li>If I sleep, then I will be happy. (<code>syn</code>, <code>mik</code>, <code>usi</code>, <code>can</code>, <code>mik</code>, <code>kypeis</code> = will be happy)</li>
+<li>I make the internet.</li>
 </ol>
 <hr>
-<h3>Chapter 15 Answer Key</h3>
+<details class="answer-key"><summary>Chapter 37 Answer Key</summary>
 <ol>
-<li><code>Mik linid tep mifap usi.</code></li>
-<li><code>Syn mik usi can mik kypeis.</code></li>
+<li><code>Mik sapi internet-up.</code></li>
 </ol>
-<hr>
-<h2>Chapter 16: Interrogative Variables</h2>
+</details><hr>
+<h1>Phase VI: Complex Discourse</h1>
+<p>This phase gives you the tools to express complex, multi-part thoughts: joining clauses, asking precise questions, and conditional statements.</p>
+<h2>Chapter 38: Interrogative Variables</h2>
 <p>Asking questions in Fiwo is like algebra. You do not rearrange the sentence structure; you simply put the Question Variable exactly where the missing information belongs.</p>
-<h3>1. The Mood Tag (<code>Kup</code>)</h3>
-<p>Every question must start with <code>Kup</code> to warn the parser.</p>
-<h3>2. The Variables</h3>
-<ul>
+<ol>
+<li><strong>Start with <code>Kup</code></strong> to warn the parser a question is coming.</li>
+<li><strong>Insert the Variable:</strong><ul>
 <li><strong>Subject:</strong> <code>wun</code> (Who)</li>
 <li><strong>Object:</strong> <code>wat</code> (What)</li>
 <li><strong>Prepositional Target:</strong> <code>wer</code> (Where), <code>wiq</code> (When)</li>
 <li><strong>Modifier:</strong> <code>wis</code> (How), <code>wug</code> (How many)</li>
-<li><strong>Clause:</strong> <code>wal</code> (Why - stands in for a <code>kad</code> clause)</li>
+<li><strong>Clause:</strong> <code>wal</code> (Why)</li>
 </ul>
-<h3>3. Examples</h3>
+</li>
+</ol>
 <ul>
 <li><em>Subject:</em> <code>Kup wun skagid hoxop?</code> (Who broke the door?)</li>
 <li><em>Object:</em> <code>Kup suk karxid wat?</code> (What did you find? Literally: You found what?)</li>
-<li><em>Why:</em> <code>Kup suk xyfid ram kad wal?</code> (Why did you do it? Literally: You did it because why?)</li>
 </ul>
 <hr>
-<h3>Chapter 16 Exercises</h3>
+<h3>Chapter 38 Exercises</h3>
 <p><strong>Part A: Translate the Questions</strong></p>
+<p>Vocabulary Key: <code>Kup</code> = question marker, <code>wun</code> = who, <code>usid</code> = slept, <code>suk</code> = you, <code>nomis</code> = will eat, <code>wat</code> = what.</p>
+<p>Questions:</p>
 <ol>
-<li>Who slept? (<code>Kup</code>, <code>wun</code>, <code>usid</code>)</li>
-<li>What will you eat? (<code>Kup</code>, <code>suk</code>, <code>nomis</code>, <code>wat</code>)</li>
-<li>When will he run? (<code>Kup</code>, <code>daq</code>, <code>cafis</code>, <code>dury</code> = during/at, <code>wiq</code>)</li>
+<li><p>Who slept?</p>
+</li>
+<li><p>What will you eat?</p>
+</li>
 </ol>
 <hr>
-<h3>Chapter 16 Answer Key</h3>
+<details class="answer-key"><summary>Chapter 38 Answer Key</summary>
 <ol>
-<li><code>Kup wun usid?</code></li>
-<li><code>Kup suk nomis wat?</code></li>
-<li><code>Kup daq cafis dury wiq?</code></li>
+<li><p><code>Kup wun usid?</code></p>
+</li>
+<li><p><code>Kup suk nomis wat?</code></p>
+</li>
+</ol>
+</details><hr>
+<h2>Chapter 39: Clausal Walls</h2>
+<p>In Fiwo, you cannot simply glue entire sentences together. You must use a &quot;Clausal Wall&quot; to restart the parser.</p>
+<p>Words like <code>bef</code> (and), <code>bul</code> (but), <code>rot</code> (or), and <code>kad</code> (because) are structural walls. When the parser hits them, it instantly finalizes the current sentence and expects a brand new Subject to start the next one.</p>
+<ul>
+<li><code>Mik karxid batap bul mik nes nomid ram.</code> (I found the food, but I did not eat it.)</li>
+</ul>
+<hr>
+<h3>Chapter 39 Exercises</h3>
+<p><strong>Part A: Translate the Sentences</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>xalid</code> = moved, <code>bul</code> = but, <code>suk</code> = you, <code>usid</code> = slept.</p>
+<p>Questions:</p>
+<ol>
+<li>I moved, but you slept.</li>
 </ol>
 <hr>
-<h1>Phase VI: Real-World Application</h1>
+<details class="answer-key"><summary>Chapter 39 Answer Key</summary>
+<ol>
+<li><code>Mik xalid bul suk usid.</code></li>
+</ol>
+</details><hr>
+<h2>Chapter 40: Subordinate Brackets</h2>
+<p>To embed a clause <em>inside</em> another sentence (like &quot;The dog that I saw&quot;), use the brackets <code>tep</code> (Open) and <code>tel</code> (Close). </p>
+<ul>
+<li><p><code>tep</code> pauses the main sentence.</p>
+</li>
+<li><p><code>tel</code> closes the embedded sentence and resumes the main one.</p>
+</li>
+<li><p><code>Nofap tep karxid mifap tel xalid.</code> (The person [who found the animal] moved).</p>
+</li>
+</ul>
+<hr>
+<h3>Chapter 40 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mifap</code> = the animal, <code>tep</code> = open bracket, <code>cafid</code> = ran, <code>tel</code> = close bracket, <code>tandei</code> = is big.</p>
+<p>Questions:</p>
+<ol>
+<li>The animal that ran is big.</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 40 Answer Key</summary>
+<ol>
+<li><code>Mifap tep cafid tel tandei.</code></li>
+</ol>
+</details><hr>
+<h2>Chapter 41: Causation</h2>
+<p>To say you &quot;made&quot; something happen or &quot;caused&quot; it, use the verb <code>lini</code> (to cause) and put the resulting action inside a <code>tep</code> bracket.</p>
+<ul>
+<li><code>Mik linid tep detap cafi.</code> (I caused [that] the dog runs ➔ I made the dog run).</li>
+</ul>
+<hr>
+<h3>Chapter 41 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>mik</code> = I, <code>linid</code> = caused, <code>tep</code> = open bracket, <code>mifap</code> = the animal, <code>usi</code> = to sleep.</p>
+<p>Questions:</p>
+<ol>
+<li>I made the animal sleep.</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 41 Answer Key</summary>
+<ol>
+<li><code>Mik linid tep mifap usi.</code></li>
+</ol>
+</details><hr>
+<h2>Chapter 42: Conditionals</h2>
+<p>Fiwo uses a &quot;correlative sequence&quot; for if/then conditions. You flag the start of the condition with <code>syn</code> (If), and resolve it with a clausal wall like <code>can</code> (Then) or <code>pen</code> (Therefore).</p>
+<ul>
+<li><code>Syn suk xali ruze can suk nes nojais fikop.</code> (If you move fast, then you will not see the path).</li>
+</ul>
+<hr>
+<h3>Chapter 42 Exercises</h3>
+<p><strong>Part A: Translate to Fiwo</strong></p>
+<p>Vocabulary Key: <code>syn</code> = if, <code>mik</code> = I, <code>usi</code> = sleep, <code>can</code> = then, <code>kypeis</code> = will be happy.</p>
+<p>Questions:</p>
+<ol>
+<li>If I sleep, then I will be happy.</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 42 Answer Key</summary>
+<ol>
+<li><code>Syn mik usi can mik kypeis.</code></li>
+</ol>
+</details><hr>
+<h1>Phase VII: Real-World Application</h1>
 <p>Now that you&#39;ve learned the mechanics, it&#39;s time to put Fiwo into practice. This phase tests your ability to parse and generate Fiwo in natural, conversational contexts.</p>
-<h2>Chapter 17: Everyday Discourse</h2>
-<p>Here are three short, realistic conversations. Translate them into English. They escalate in difficulty!</p>
-<p><strong>Conversation 1: Basic Introductions</strong>
-Speaker A: <code>Sal. Hisup mike David.</code>
-Speaker B: <code>Sal David. Kup suk cenid ky juro sil?</code>
-Speaker A: <code>Jas.</code></p>
-<p><strong>Conversation 2: Planning an Action</strong>
-Speaker A: <code>Kup suk fabi xalit zy mortsap nudu?</code>
-Speaker B: <code>Nes. Mik nes xali fuqe.</code>
-Speaker A: <code>Kup wal?</code>
-Speaker B: <code>Kad mik usis dury fohu.</code></p>
-<p><strong>Conversation 3: Complex Observations</strong>
-Speaker A: <code>Kup wun skagid hoxop?</code>
-Speaker B: <code>Mik kani tep detap tep mik vekid tel skagid ram.</code>
-Speaker A: <code>Fap detap satsis mace nofap!</code></p>
+<h2>Chapter 43: Casual Spoken Fiwo</h2>
+<p>Here are three short, realistic conversations. They combine many rules together. Translate them into English.</p>
 <hr>
-<h3>Chapter 17 Answer Key</h3>
-<p><strong>Conversation 1</strong>
-Speaker A: Hello. My name is David.
-Speaker B: Hello David. Did you live in this city?
-Speaker A: Yes.</p>
-<p><strong>Conversation 2</strong>
-Speaker A: Do you want to go to the forest today?
-Speaker B: No. I do not have to go.
-Speaker A: Why?
-Speaker B: Because I will sleep during the afternoon.</p>
-<p><strong>Conversation 3</strong>
-Speaker A: Who broke the door?
-Speaker B: I know that the dog that I saw broke it.
-Speaker A: The dog might be hit by the person!</p>
+<h3>Chapter 43 Exercises</h3>
+<p><strong>Part A: Translate to English</strong></p>
+<p><strong>Conversation 1: Basic Introductions</strong></p>
+<p>Speaker A: <code>Sal. Hisup mike David.</code></p>
+<p>Speaker B: <code>Sal David. Kup suk cenid ky juro sil?</code></p>
+<p>Speaker A: <code>Jas.</code></p>
+<p><strong>Conversation 2: Planning an Action</strong></p>
+<p>Speaker A: <code>Kup suk fabi xalit zy mortsap nudu?</code></p>
+<p>Speaker B: <code>Nes. Mik nes xali fuqe.</code></p>
+<p>Speaker A: <code>Kup wal?</code></p>
+<p>Speaker B: <code>Kad mik usis dury fohu.</code></p>
 <hr>
-<h2>Chapter 18: Story Translation</h2>
-<p>Test your reading and writing endurance by translating these short stories.</p>
-<h3>Part A: Translate FROM Fiwo into English</h3>
-<p><strong>Story:</strong>
-<code>Dugu tande. Nofap usidyq deky sydop dale. Pov, mifap lande xalid zy hoxop. Nofap vekid mifap can daq cimid curit. Daq kurid kad mifap ruzem fe. Syn mifap plis can daq cimis cukit. Bul, mifap nes plid. Ram fabid nomit batap. Nofap karxid batap lan xalid zy hoxop. Daq vekid mifap lan daq fukid batap zy ram. Mifap nomid batap. Pen nofap lan mifap kypeid. Mifap usid deky sydop dury dugup.</code></p>
-<h3>Part B: Translate TO Fiwo</h3>
-<p><strong>Story:</strong>
-Hello. My name is Sarah. I want to build a house today. I will go to the forest. I see a big tree and a small plant. The tree is green. I will use the wood. I use a big tool. I hit the tree. The tree moves to the ground. I move the wood to the city. I am happy. Tomorrow, I will build the house. The house will be big and strong.</p>
-<p><em>(Vocabulary helper: <code>mortsa</code> = forest, <code>gofo</code> = wood, <code>yku</code> = use, <code>sapi</code> = build/make, <code>luare</code> = green, <code>guto</code> = tool, <code>zaso</code> = ground, <code>boge</code> = strong)</em></p>
+<details class="answer-key"><summary>Chapter 43 Answer Key</summary>
+<p><strong>Conversation 1</strong></p>
+<p>Speaker A: Hello. My name is David.</p>
+<p>Speaker B: Hello David. Did you live in this city?</p>
+<p>Speaker A: Yes.</p>
+<p><strong>Conversation 2</strong></p>
+<p>Speaker A: Do you want to go to the forest today?</p>
+<p>Speaker B: No. I do not have to go.</p>
+<p>Speaker A: Why?</p>
+<p>Speaker B: Because I will sleep during the afternoon.</p>
+</details><hr>
+<h2>Chapter 44: Short Story Translation</h2>
+<p>Test your reading and writing endurance by translating this short story.</p>
 <hr>
-<h3>Chapter 18 Answer Key</h3>
-<p><strong>Part A Translation:</strong>
-A big night (Late at night). The person was sleeping inside his house. Meanwhile, the small animal moved to the door. The person saw the animal, then he started to shake. He feared because the animal was very fast. If the animal comes, then he will start to fight. But the animal did not come. It wanted to eat food. The person found food and moved to the door. He saw the animal and he gave the food to it. The animal ate the food. Therefore, the person and the animal were happy. The animal slept inside the house during the night.</p>
-<h2><strong>Part B Translation:</strong>
-<code>Sal. Hisup mike Sarah. Mik fabi sapit sydor nudu. Mik xalis zy mortsap. Mik veki mosar tande lan nasar lande. Mosap luarei. Mik ykus gofop. Mik yku gutor tande. Mik satsi mosap. Mosap xali ky zasop. Mik xali wy gofop zy jurop. Mik kypei. Fitydu, mik sapis sydop. Sydop his tande lan bogem.</code></h2>
-<h1>Phase VII: The Fiwo Cheat Sheet</h1>
+<h3>Chapter 44 Exercises</h3>
+<p><strong>Part A: Translate TO Fiwo</strong></p>
+<p>Vocabulary Key: <code>mortsa</code> = forest, <code>gofo</code> = wood, <code>yku</code> = use, <code>sapi</code> = build/make, <code>luare</code> = green, <code>guto</code> = tool, <code>zaso</code> = ground, <code>boge</code> = strong.</p>
+<p>Questions:</p>
+<ol>
+<li>Hello. My name is Sarah. I want to build a house today. I will go to the forest. I see a big tree and a small plant. The tree is green. I will use the wood. I use a big tool. I hit the tree. The tree moves to the ground. I move the wood to the city. I am happy. Tomorrow, I will build the house. The house will be big and strong.</li>
+</ol>
+<hr>
+<details class="answer-key"><summary>Chapter 44 Answer Key</summary>
+<ol>
+<li><code>Sal. Hisup mike Sarah. Mik fabi sapit sydor nudu. Mik xalis zy mortsap. Mik veki mosar tande lan nasar lande. Mosap luarei. Mik ykus gofop. Mik yku gutor tande. Mik satsi mosap. Mosap xali ky zasop. Mik xali wy gofop zy jurop. Mik kypei. Fitydu, mik sapis sydop. Sydop his tande lan bogem.</code></li>
+</ol>
+</details><hr>
+<h1>Phase VIII: The Fiwo Cheat Sheet</h1>
 <p>Keep this quick-reference guide handy! It contains all the most common suffixes, structural walls, and core rules you need to build sentences.</p>
 <h3>1. Functional Vowels (Categories)</h3>
 <ul>
@@ -2887,7 +3453,7 @@ A big night (Late at night). The person was sleeping inside his house. Meanwhile
 <ul>
 <li><strong><code>bef</code> / <code>bul</code> / <code>rot</code></strong>: And / But / Or. These are hard walls that reset the SVO parser to start a new independent sentence.</li>
 <li><strong><code>kad</code> / <code>can</code> / <code>pen</code></strong>: Because / Then / Therefore. Logical walls that reset the parser.</li>
-<li><strong><code>tep</code> &amp; <code>tel</code></strong>: Open &amp; Close Brackets. Use these to embed a sentence inside another sentence without crashing the parser (e.g., &quot;The dog [that I saw] ran&quot;).</li>
+<li><strong><code>tep</code> &amp; <code>tel</code></strong>: Open &amp; Close Brackets. Use these to embed a sentence inside another sentence without crashing the parser.</li>
 <li><strong><code>syn</code></strong>: Condition Flag (If). Put at the start of a clause to warn the parser a condition is coming.</li>
 </ul>
 <h3>5. Mood Tags (Sentence Starters)</h3>
@@ -3110,7 +3676,9 @@ Adjectives, adverbs, and prepositions always attach to the very first root noun 
     </footer>
     <script src="dictionary.js"></script>
     <script src="DerivedDictionary.js"></script>
-    <script src="script.js"></script>
+    <script src="fiwo-parser.js?v=2"></script>
+    <script src="fiwo-pronounce.js?v=5"></script>
+    <script src="script.js?v=2"></script>
     <script data-goatcounter="https://joshthebirdy.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>

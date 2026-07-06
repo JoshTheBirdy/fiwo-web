@@ -1274,3 +1274,287 @@ footer p {
     margin-bottom: 0;
     color: var(--text-muted);
 }
+
+/* ═══════════════════════════════════════════
+   § TRANSLATOR v2 — interlinear gloss output
+   ═══════════════════════════════════════════ */
+
+/* token category colors */
+.tok          { font-weight: 700; }
+.tok-noun     { color: #60a5fa; }
+.tok-proper   { color: #93c5fd; text-decoration: underline; text-decoration-color: rgba(147,197,253,.45); }
+.tok-verb     { color: #f87171; }
+.tok-mod      { color: #4ade80; }
+.tok-prep     { color: #fb923c; }
+.tok-mood     { color: #c084fc; }
+.tok-wall     { color: #e4e4e7; background: rgba(255,255,255,.08); padding: 0 .35em; border-radius: 4px; }
+.tok-bracket  { color: #2dd4bf; background: rgba(45,212,191,.1); padding: 0 .35em; border-radius: 4px; }
+.tok-glue     { color: #a1a1aa; font-style: italic; }
+.tok-var      { color: #facc15; }
+.tok-err      { color: #ef4444; }
+.tok-punct    { color: var(--text-dim); }
+.tok-has-error { text-decoration: underline wavy #ef4444; }
+
+.tok-suffix {
+    color: var(--code-color);
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 0 .12em;
+    margin-left: 1px;
+    font-family: var(--font-code);
+    font-weight: 600;
+}
+
+/* 1. the Fiwo sentence, clearly separated */
+.trans-fiwo-line {
+    font-size: 1.45rem;
+    line-height: 2.1;
+    padding-bottom: .9rem;
+    margin-bottom: .9rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+/* validity banners */
+.trans-valid {
+    color: var(--accent-light);
+    font-size: .85rem;
+    font-weight: 600;
+    margin-bottom: .9rem;
+}
+.trans-errors {
+    background: rgba(239,68,68,.08);
+    border: 1px solid rgba(239,68,68,.35);
+    border-radius: var(--radius-md);
+    color: #fca5a5;
+    font-size: .9rem;
+    padding: .7rem 1rem;
+    margin-bottom: .9rem;
+}
+.trans-errors ul { margin: .4rem 0 0 1.2rem; padding: 0; }
+.trans-errors li { margin-bottom: .2rem; }
+
+/* 2. SVO-T slot strip */
+.trans-slot-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .45rem;
+    margin-bottom: 1.1rem;
+}
+.slot-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: .45em;
+    font-size: .85rem;
+    font-weight: 600;
+    padding: .28em .75em;
+    border-radius: var(--radius-pill);
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-body);
+}
+.slot-chip .slot-name {
+    font-size: .68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--text-dim);
+}
+.slot-core   { border-color: var(--accent); box-shadow: 0 0 8px var(--accent-glow); }
+.slot-core .slot-name { color: var(--accent-light); }
+.slot-struct { border-color: var(--secondary); }
+.slot-struct .slot-name { color: var(--secondary-light); }
+
+/* 3. interlinear gloss cards */
+.trans-gloss-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    align-items: stretch;
+}
+.gloss-card {
+    background: var(--bg-primary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    padding: .65rem .8rem;
+    min-width: 108px;
+    max-width: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+.gloss-clickable { cursor: pointer; transition: border-color var(--duration) ease, transform var(--duration) ease; }
+.gloss-clickable:hover { border-color: var(--accent); transform: translateY(-2px); }
+.gloss-error { border-color: rgba(239,68,68,.5); background: rgba(239,68,68,.05); }
+.gloss-word { font-size: 1.1rem; }
+.gloss-meaning {
+    font-size: .82rem;
+    color: var(--text-body);
+    line-height: 1.35;
+    flex: 1;
+}
+.gloss-error .gloss-meaning { color: #fca5a5; }
+.gloss-suffix-row { font-size: .74rem; color: var(--text-muted); line-height: 1.4; }
+.gloss-suffix {
+    font-family: var(--font-code);
+    color: var(--code-color);
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 0 .25em;
+}
+.gloss-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem;
+    align-items: center;
+    margin-top: auto;
+}
+.gloss-cat {
+    font-size: .62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    padding: .1em .5em;
+    border-radius: var(--radius-pill);
+    background: rgba(255,255,255,.06);
+}
+.gloss-slot {
+    font-size: .66rem;
+    font-weight: 600;
+    color: var(--accent-light);
+}
+.gloss-note {
+    font-size: .68rem;
+    color: var(--text-dim);
+    font-style: italic;
+    line-height: 1.3;
+}
+
+/* 4. raw output toggle */
+.trans-raw { margin-top: 1rem; }
+.trans-raw summary {
+    cursor: pointer;
+    font-size: .8rem;
+    color: var(--text-dim);
+    user-select: none;
+}
+.trans-raw summary:hover { color: var(--text-muted); }
+.trans-raw pre {
+    margin-top: .6rem;
+    padding: .9rem;
+    background: var(--bg-primary);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    font-family: var(--font-code);
+    font-size: .74rem;
+    line-height: 1.5;
+    color: var(--text-muted);
+    overflow-x: auto;
+    max-height: 340px;
+}
+
+@media (max-width: 600px) {
+    .trans-fiwo-line { font-size: 1.15rem; }
+    .gloss-card { min-width: 45%; max-width: 100%; }
+}
+
+/* ═══════════════════════════════════════════
+   § WORKBOOK — collapsible answer keys
+   ═══════════════════════════════════════════ */
+.answer-key {
+    margin: 1rem 0 1.5rem;
+    border: 1px solid var(--border-subtle);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius-md);
+    background: var(--bg-elevated);
+    padding: .35rem .9rem;
+}
+.answer-key summary {
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--accent-light);
+    padding: .4rem 0;
+    user-select: none;
+}
+.answer-key summary:hover { color: var(--accent); }
+.answer-key[open] summary {
+    border-bottom: 1px solid var(--border-subtle);
+    margin-bottom: .6rem;
+}
+
+/* ═══════════════════════════════════════════
+   § PRONUNCIATION
+   ═══════════════════════════════════════════ */
+.pron { display: inline-flex; align-items: center; gap: .5em; flex-wrap: wrap; }
+.pron-ipa {
+    font-family: var(--font-code);
+    color: var(--secondary-light);
+    font-size: .95em;
+}
+.pron-syl { color: var(--text-muted); letter-spacing: .04em; }
+.pron-syl strong { color: var(--accent-light); }
+.pron-speak {
+    background: none;
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-pill);
+    font-size: .8em;
+    line-height: 1;
+    padding: .25em .5em;
+    cursor: pointer;
+    transition: border-color var(--duration) ease, transform var(--duration) ease;
+}
+.pron-speak:hover { border-color: var(--accent); transform: scale(1.1); }
+.gloss-pron .pron-ipa { font-size: .72rem; }
+.gloss-pron .pron-speak { font-size: .65rem; }
+
+/* phonetics-page widget */
+.pron-widget {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0 2rem;
+}
+.pron-widget-controls input {
+    width: 100%;
+    max-width: 340px;
+    padding: .7rem 1rem;
+    background: var(--bg-input);
+    color: var(--text-primary);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    font-family: var(--font-code);
+    font-size: 1.05rem;
+}
+.pron-widget-controls input:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-glow);
+}
+.pron-widget-output { margin-top: 1rem; }
+.pron-widget-word {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent-light);
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin-bottom: .5rem;
+}
+.pron-widget-row {
+    display: flex;
+    gap: .8rem;
+    align-items: baseline;
+    margin-bottom: .3rem;
+    font-size: .95rem;
+}
+.pron-widget-row .pron-ipa { font-size: 1.05rem; }
+.pron-widget-label {
+    min-width: 72px;
+    font-size: .68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--text-dim);
+}
+.pron-widget-meaning { color: var(--text-muted); font-style: italic; margin-top: .4rem; }
+.pron-widget-note { color: var(--text-muted); font-size: .9rem; }

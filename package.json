@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "marked": "^18.0.5",
+    "mespeak": "^2.0.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}

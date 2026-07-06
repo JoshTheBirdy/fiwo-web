@@ -136,7 +136,9 @@ function renderDictionary() {
             `;
             card.addEventListener('click', () => {
                 document.getElementById('definition-modal-title').textContent = item.word;
+                const pron = typeof FiwoPronounce !== 'undefined' ? FiwoPronounce.pronounceHtml(item.word) : '';
                 document.getElementById('definition-modal-body').innerHTML = `
+                    ${pron ? `<p><strong>Pronunciation:</strong> ${pron}</p>` : ''}
                     <p><strong>English Equivalent:</strong> ${item.english_equiv}</p>
                     <p><strong>Part of Speech:</strong> ${item.part_of_speech}</p>
                     <p><strong>Definition:</strong> ${item.definition}</p>
@@ -341,160 +343,159 @@ initLearnScrollspy();
 
 // ============================================
 // TRANSLATOR FEATURE
+// Rendering for the rulebook-accurate parser in fiwo-parser.js
 // ============================================
 
-// Grammatical suffixes in Fiwo (including compound tenses and structural markers)
-const suffixTranslations = {
-    'f': 'distributive flag',
-    'dyq': 'past continuous',
-    'syq': 'future continuous',
-    'dyk': 'past perfect',
-    'syk': 'future perfect',
-    'p': 'specific',
-    'r': 'non-specific',
-    'd': 'past',
-    's': 'future',
-    'q': 'continuous',
-    'k': 'perfect',
-    'm': 'nested',
-    't': 'stacker'
+// category -> css class + human label
+const catInfo = {
+    noun:          { cls: 'tok-noun',    label: 'Noun' },
+    proper_noun:   { cls: 'tok-proper',  label: 'Proper Noun' },
+    verb:          { cls: 'tok-verb',    label: 'Verb' },
+    modifier:      { cls: 'tok-mod',     label: 'Modifier' },
+    preposition:   { cls: 'tok-prep',    label: 'Preposition' },
+    mood_tag:      { cls: 'tok-mood',    label: 'Mood Tag' },
+    clausal_wall:  { cls: 'tok-wall',    label: 'Clausal Wall' },
+    condition:     { cls: 'tok-wall',    label: 'Condition (syn)' },
+    bracket_open:  { cls: 'tok-bracket', label: 'Open Bracket' },
+    bracket_close: { cls: 'tok-bracket', label: 'Close Bracket' },
+    passive:       { cls: 'tok-mood',    label: 'Passive Flag' },
+    negation:      { cls: 'tok-wall',    label: 'Negation' },
+    inline_glue:   { cls: 'tok-glue',    label: 'Inline Glue' },
+    list_sep:      { cls: 'tok-glue',    label: 'Separator' },
+    math_op:       { cls: 'tok-glue',    label: 'Math Operator' },
+    phatic:        { cls: 'tok-mood',    label: 'Phatic (Null Track)' },
+    variable:      { cls: 'tok-var',     label: 'Question Variable' },
+    particle:      { cls: 'tok-glue',    label: 'Particle' },
+    error:         { cls: 'tok-err',     label: 'Error' }
 };
 
-// 1. MORPHOLOGICAL PARSER: Finds root and suffixes using greedy matching
-function parseWord(rawWord) {
-    const wordLower = rawWord.toLowerCase();
-    let matchedRoot = "";
-    let suffixes = "";
-    let dictEntry = null;
+const esc = s => String(s).replace(/[&<>"]/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
 
-    // Safety check just in case dictionaryData hasn't loaded
-    let sortedDict = [];
-    if (typeof dictionaryData !== 'undefined') {
-        const combinedData = typeof derivedDictionaryData !== 'undefined'
-            ? [...dictionaryData, ...derivedDictionaryData]
-            : [...dictionaryData];
-        // Sort dictionary by longest words first to prevent partial root matches
-        sortedDict = combinedData.sort((a, b) => b.word.length - a.word.length);
-    }
-
-    for (const entry of sortedDict) {
-        if (wordLower.startsWith(entry.word.toLowerCase())) {
-            matchedRoot = entry.word;
-            suffixes = wordLower.slice(entry.word.length);
-            dictEntry = entry;
-            break;
-        }
-    }
-
-    // Fallback for words not in the dictionary (Splits after the last vowel)
-    if (!matchedRoot) {
-        const match = wordLower.match(/^(.*[aeiouy])([^aeiouy]*)$/i);
-        if (match) {
-            matchedRoot = match[1];
-            suffixes = match[2];
-        } else {
-            matchedRoot = wordLower;
-            suffixes = "";
-        }
-    }
-
-    // Format output strings
-    let codeStr = matchedRoot;
-    let rootStr = dictEntry ? dictEntry.english_equiv : "???";
-    
-    if (suffixes) {
-        let remaining = suffixes;
-        let parsedSuffixes = [];
-        let translatedSuffixesList = [];
-
-        // Sort suffix dictionary by length descending to catch 'dyq' before 'd'
-        const knownSuffixKeys = Object.keys(suffixTranslations).sort((a, b) => b.length - a.length);
-
-        while (remaining.length > 0) {
-            let matched = false;
-            for (const key of knownSuffixKeys) {
-                if (remaining.startsWith(key)) {
-                    parsedSuffixes.push(key);
-                    translatedSuffixesList.push(suffixTranslations[key]);
-                    remaining = remaining.slice(key.length);
-                    matched = true;
-                    break;
-                }
-            }
-            // Fallback: if no known suffix matches, split off one character
-            if (!matched) {
-                parsedSuffixes.push(remaining[0]);
-                translatedSuffixesList.push(remaining[0]);
-                remaining = remaining.slice(1);
-            }
-        }
-
-        codeStr += " + " + parsedSuffixes.join(' + ');
-        rootStr += " + " + translatedSuffixesList.join(' + ');
-    }
-
-    return {
-        word: rawWord,
-        code: codeStr,
-        root: rootStr
-    };
+// A word rendered as root + highlighted suffix, keeping original casing
+function wordHtml(tok) {
+    const info = catInfo[tok.cat] || catInfo.particle;
+    const suffixLen = (tok.suffix || '').length;
+    const rawRoot = suffixLen ? tok.raw.slice(0, tok.raw.length - suffixLen) : tok.raw;
+    const rawSuffix = suffixLen ? tok.raw.slice(tok.raw.length - suffixLen) : '';
+    return `<span class="tok ${info.cls}${tok.error ? ' tok-has-error' : ''}">${esc(rawRoot)}${rawSuffix ? `<span class="tok-suffix">${esc(rawSuffix)}</span>` : ''}</span>`;
 }
 
-// 2. UI TRANSLATION LOGIC (Removed DOMContentLoaded wrapper to prevent race conditions)
+function slotChipHtml(tok) {
+    if (!tok.slot) return '';
+    const structural = ['Mood', 'Wall', 'Then', 'If', 'Passive', 'NullTrack', 'Neg'].includes(tok.slot)
+        || tok.slot.startsWith('[') || tok.slot === ']';
+    const core = ['Subject', 'Object', 'Time', 'Predicate (Zero Copula)'].includes(tok.slot) || tok.slot.startsWith('Verb');
+    const cls = core ? 'slot-core' : (structural ? 'slot-struct' : 'slot-minor');
+    return `<span class="slot-chip ${cls}"><span class="slot-name">${esc(tok.slot)}</span>${esc(tok.raw)}</span>`;
+}
+
+function glossCardHtml(tok, idx) {
+    const info = catInfo[tok.cat] || catInfo.particle;
+    const suffixes = [];
+    if (tok.suffix) suffixes.push(`<span class="gloss-suffix">-${esc(tok.suffix)}</span> ${esc(FiwoParser.suffixMeaning(tok.suffix, tok.cat))}`);
+    // slot label is only interesting for words that fill SVO-T slots — for
+    // structural particles the category label already says everything
+    const structuralCats = ['mood_tag', 'clausal_wall', 'condition', 'passive', 'phatic',
+        'negation', 'bracket_open', 'bracket_close', 'inline_glue', 'list_sep', 'math_op', 'particle'];
+    const showSlot = tok.slot && !structuralCats.includes(tok.cat)
+        && tok.slot.toLowerCase() !== info.label.toLowerCase();
+    const pron = (typeof FiwoPronounce !== 'undefined' && !tok.error)
+        ? FiwoPronounce.pronounceHtml(tok.raw, { syllables: false }) : '';
+    return `
+        <div class="gloss-card ${tok.error ? 'gloss-error' : ''}" data-tok="${idx}">
+            <div class="gloss-word">${wordHtml(tok)}</div>
+            ${pron ? `<div class="gloss-pron">${pron}</div>` : ''}
+            <div class="gloss-meaning">${esc(tok.error ? '✗ ' + tok.error : (tok.gloss || '—'))}</div>
+            ${suffixes.length ? `<div class="gloss-suffix-row">${suffixes.join('<br>')}</div>` : ''}
+            <div class="gloss-footer">
+                <span class="gloss-cat ${info.cls}">${info.label}</span>
+                ${showSlot ? `<span class="gloss-slot">${esc(tok.slot)}</span>` : ''}
+            </div>
+            ${tok.note ? `<div class="gloss-note">${esc(tok.note)}</div>` : ''}
+        </div>`;
+}
+
 const translateTextBtn = document.getElementById('translate-text-btn');
 const translatorInput = document.getElementById('translator-input');
 const translatorOutput = document.getElementById('translator-output');
 
-if (translateTextBtn && translatorInput && translatorOutput) {
-    translateTextBtn.addEventListener('click', () => {
-        const text = translatorInput.value.trim();
-        if (!text) return;
-        
-        // Explicitly warn the user on the screen if the dictionary file is missing
-        if (typeof dictionaryData === 'undefined') {
-            translatorOutput.innerHTML = '<div style="color: #ff6b6b; font-weight: bold;">Error: dictionaryData is missing. Ensure dictionary.js is uploaded to your live website!</div>';
-            return;
-        }
-        
-        translatorOutput.innerHTML = '';
-        
-        // Split into sentences based on punctuation
-        const sentences = text.match(/[^.!?]+[.!?]+/g) || [text];
-        
-        sentences.forEach(sentenceText => {
-            const words = sentenceText.trim().split(/\s+/);
-            
-            let combinedOriginal = [];
-            let combinedCode = [];
-            let combinedRoot = [];
+function runTranslator() {
+    const text = translatorInput.value.trim();
+    if (!text) return;
 
-            words.forEach(word => {
-                const cleanWord = word.replace(/[.,!?]/g, '');
-                if (!cleanWord) return;
-                
-                const parsed = parseWord(cleanWord);
-                
-                // Maintain original casing for display
-                const displayWord = parsed.word; 
-                
-                combinedOriginal.push(displayWord);
-                combinedCode.push(parsed.code);
-                combinedRoot.push(parsed.root);
+    if (typeof dictionaryData === 'undefined' || typeof FiwoParser === 'undefined') {
+        translatorOutput.innerHTML = '<div style="color: #ff6b6b; font-weight: bold;">Error: dictionary.js / fiwo-parser.js missing. Ensure both are uploaded to your live website!</div>';
+        return;
+    }
+
+    translatorOutput.innerHTML = '';
+    const sentences = text.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [text];
+
+    sentences.forEach(sentenceText => {
+        const s = sentenceText.trim();
+        if (!s) return;
+        const result = FiwoParser.parseSentence(s);
+        const words = result.tokens.filter(t => t.kind === 'word');
+
+        const fiwoLine = result.tokens
+            .map(t => t.kind === 'punct' ? `<span class="tok-punct">${esc(t.raw)}</span>` : wordHtml(t))
+            .join(' ');
+
+        const slotStrip = words.map(slotChipHtml).filter(Boolean).join('');
+        const glossCards = words.map((t, i) => glossCardHtml(t, i)).join('');
+
+        const errBanner = result.errors.length
+            ? `<div class="trans-errors"><strong>✗ Not a valid Fiwo sentence</strong><ul>${result.errors.map(e => `<li>${esc(e)}</li>`).join('')}</ul></div>`
+            : `<div class="trans-valid">✓ Mathematically valid — single deterministic parse</div>`;
+
+        const rawJson = JSON.stringify({
+            sentence: s,
+            valid: result.valid,
+            errors: result.errors,
+            tokens: words.map(t => ({ raw: t.raw, root: t.root, suffix: t.suffix, category: t.cat, slot: t.slot, note: t.note }))
+        }, null, 2);
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'trans-sentence-wrapper';
+        wrapper.innerHTML = `
+            <div class="trans-fiwo-line">${fiwoLine}</div>
+            ${errBanner}
+            <div class="trans-slot-strip">${slotStrip}</div>
+            <div class="trans-gloss-row">${glossCards}</div>
+            <details class="trans-raw">
+                <summary>Raw parser output</summary>
+                <pre>${esc(rawJson)}</pre>
+            </details>`;
+
+        // click a gloss card -> open the dictionary definition modal
+        wrapper.querySelectorAll('.gloss-card').forEach(card => {
+            const tok = words[Number(card.dataset.tok)];
+            if (!tok || !tok.entry) return;
+            card.classList.add('gloss-clickable');
+            card.addEventListener('click', (e) => {
+                if (e.target.closest('.pron-speak')) return;
+                document.getElementById('definition-modal-title').textContent = tok.entry.word;
+                const pron = typeof FiwoPronounce !== 'undefined' ? FiwoPronounce.pronounceHtml(tok.entry.word) : '';
+                document.getElementById('definition-modal-body').innerHTML = `
+                    ${pron ? `<p><strong>Pronunciation:</strong> ${pron}</p>` : ''}
+                    <p><strong>English Equivalent:</strong> ${esc(tok.entry.english_equiv)}</p>
+                    <p><strong>Part of Speech:</strong> ${esc(tok.entry.part_of_speech)}</p>
+                    <p><strong>Definition:</strong> ${esc(tok.entry.definition)}</p>`;
+                document.getElementById('definition-modal').style.display = 'block';
             });
-            
-            const sentenceWrapper = document.createElement('div');
-            sentenceWrapper.className = 'trans-sentence-wrapper';
-            
-            sentenceWrapper.innerHTML = `
-                <div class="trans-header">
-                    <div class="trans-header-original">${combinedOriginal.join(' ')}</div>
-                    <div class="trans-header-code">(${combinedCode.join(' | ')})</div>
-                    <div class="trans-header-root">[${combinedRoot.join(' | ')}]</div>
-                </div>
-            `;
-            
-            translatorOutput.appendChild(sentenceWrapper);
         });
+
+        translatorOutput.appendChild(wrapper);
+    });
+}
+
+if (translateTextBtn && translatorInput && translatorOutput) {
+    translateTextBtn.addEventListener('click', runTranslator);
+    translatorInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+            e.preventDefault();
+            runTranslator();
+        }
     });
 }
 
@@ -524,3 +525,31 @@ function initScrollReveals() {
 document.addEventListener('DOMContentLoaded', initScrollReveals);
 // Since DOM is likely already loaded in SPA mode
 initScrollReveals();
+// ============================================
+// PRONUNCIATION WIDGET (Phonetics page)
+// ============================================
+const pronInput = document.getElementById('pron-input');
+const pronOutput = document.getElementById('pron-output');
+
+if (pronInput && pronOutput && typeof FiwoPronounce !== 'undefined') {
+    const renderPron = () => {
+        const word = pronInput.value.trim().split(/\s+/)[0] || '';
+        if (!word) { pronOutput.innerHTML = ''; return; }
+        const ipa = FiwoPronounce.ipa(word);
+        if (!ipa) {
+            pronOutput.innerHTML = '<div class="pron-widget-note">Proper nouns and hyphenated borrowings keep their native pronunciation — try a native Fiwo word.</div>';
+            return;
+        }
+        const analysis = (typeof FiwoParser !== 'undefined') ? FiwoParser.analyze(word) : null;
+        const known = analysis && analysis.entry ? `<div class="pron-widget-meaning">${analysis.entry.english_equiv}</div>` : '';
+        pronOutput.innerHTML = `
+            <div class="pron-widget-word">${word.toLowerCase()}
+                ${FiwoPronounce.canSpeak() ? `<button class="pron-speak" data-speak="${word.toLowerCase()}" title="Play approximate audio" aria-label="Pronounce ${word}">🔊</button>` : ''}
+            </div>
+            <div class="pron-widget-row"><span class="pron-widget-label">IPA</span><span class="pron-ipa">${ipa}</span></div>
+            <div class="pron-widget-row"><span class="pron-widget-label">Syllables</span><span class="pron-syl">${FiwoPronounce.syllables(word)}</span></div>
+            <div class="pron-widget-row"><span class="pron-widget-label">Stress</span><span>the bold unit — final functional vowel + all trailing suffixes (Rule 1)</span></div>
+            ${known}`;
+    };
+    pronInput.addEventListener('input', renderPron);
+}
