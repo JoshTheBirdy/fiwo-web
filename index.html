@@ -85,6 +85,7 @@
                         <li><strong>Kep</strong>: Fact / Objective scientific statement.</li>
                         <li><strong>Hap</strong>: Emotion / Subjective feeling.</li>
                         <li><strong>Hop</strong>: Sarcasm / Ironic intent.</li>
+                        <li><strong>Hyp</strong>: Hypothetical / Counterfactual ("would").</li>
                     </ul>
                 </li>
                 <li><strong>In-Situ Questions (The "No-Jump" Rule):</strong> In English, asking a question breaks standard word order (e.g., "You found a book" becomes "<em>What</em> did you find?"). Fiwo completely prohibits this to maintain the unbreakable integrity of the sequence. Question words act as algebraic variables that sit exactly in the slot where the answer belongs.
@@ -654,18 +655,19 @@
   <li><strong>The Base Variables:</strong> When constructing an indefinite concept, select the broadest categorical noun that fits the target:</li>
 <ul>
   <li><strong>Person (<code>nofa</code>):</strong> Solves for &quot;Who.&quot;</li>
-  <li><strong>Thing (<code>cemo</code>):</strong> Solves for &quot;What.&quot; (Note: from the abstract core <em>cemo</em> - thing).</li>
+  <li><strong>Thing (<code>cemu</code>):</strong> Solves for &quot;What.&quot; (Note: from the abstract core <em>cemu</em> - thing).</li>
   <li><strong>Place (<code>rerpo</code>):</strong> Solves for &quot;Where.&quot; (Note: <em>rerpo</em> - place/location).</li>
   <li><strong>Time (<code>dionu</code>):</strong> Solves for &quot;When.&quot; (Note: <em>dionu</em> - time).</li>
 </ul>
-  <li><strong>The Operators:</strong> To manipulate these variables, apply one of four operators. Three utilize existing Fiwo grammar, while one uses a dedicated modifier for &quot;free choice&quot;:</li>
+  <li><strong>The Operators:</strong> To manipulate these variables, apply one of five operators. Four utilize existing Fiwo grammar, while one uses a dedicated modifier for &quot;free choice&quot;:</li>
 <ul>
   <li><strong>The &quot;Some&quot; Operator (The <code>-r</code> Suffix):</strong> Using Rule 7 (Specificity), attach the non-specific consonant <code>-r</code> directly to the noun. This tells the parser the entity exists, but its exact identity is unknown.</li>
   <li><strong>The &quot;Every&quot; Operator (<code>late</code> - All):</strong> Using Rule 18 (The &quot;Look Left&quot; Principle), the modifier <code>late</code> attaches to the noun, calculating the total maximum quantity of the variable.</li>
   <li><strong>The &quot;No / None&quot; Operator (<code>noze</code> - Zero):</strong> To express &quot;nobody&quot; or &quot;nothing,&quot; do not use the logical negation <code>nes</code>. (Note: <em>nes nofa</em> means &quot;Not a person, but something else&quot;). Instead, use the absolute number zero (<code>noze</code>). The parser mathematically calculates the variable multiplied by 0.</li>
   <li><strong>The &quot;Any&quot; Operator (<code>kase</code> - Any / Whichever):</strong> This modifier tells the parser that the variable is subject to free choice; the specific identity does not matter.</li>
+  <li><strong>The &quot;Most&quot; Operator (<code>jeme</code> - Most):</strong> When the quantity modifier <code>jeme</code> looks left onto a plain noun root, it quantifies that noun as its proportional majority (more than half of it): <code>nofa jeme</code> (most people), <code>bata jeme</code> (most of the food). This reading is fully deterministic and does not collide with the superlative: <code>jeme</code> acts as the superlative scaler only when it attaches to a <code>-m</code>-flagged modifier (Rule 19) or to a verb (Rule 21).</li>
 </ul>
-  <li><strong>The Indefinite Grid:</strong> By combining the base variables and operators, the parser maps 16 distinct universal pronouns:</li>
+  <li><strong>The Indefinite Grid:</strong> By combining the base variables and operators, the parser maps 20 distinct universal pronouns:</li>
 </ol>
 <div class="table-wrapper"><table class="phonetics-table">
   <thead>
@@ -675,6 +677,7 @@
       <th><strong>Every (late)</strong></th>
       <th><strong>None / Zero (noze)</strong></th>
       <th><strong>Any (kase)</strong></th>
+      <th><strong>Most (jeme)</strong></th>
     </tr>
   </thead>
   <tbody>
@@ -684,13 +687,15 @@
       <td><em>nofa late</em> (Everyone)</td>
       <td><em>nofa noze</em> (No one)</td>
       <td><em>nofa kase</em> (Anyone)</td>
+      <td><em>nofa jeme</em> (Most people)</td>
     </tr>
     <tr>
-      <td><strong>Thing (<code>cemo</code>)</strong></td>
-      <td><em>cemor</em> (Something)</td>
-      <td><em>cemo late</em> (Everything)</td>
-      <td><em>cemo noze</em> (Nothing)</td>
-      <td><em>cemo kase</em> (Anything)</td>
+      <td><strong>Thing (<code>cemu</code>)</strong></td>
+      <td><em>cemur</em> (Something)</td>
+      <td><em>cemu late</em> (Everything)</td>
+      <td><em>cemu noze</em> (Nothing)</td>
+      <td><em>cemu kase</em> (Anything)</td>
+      <td><em>cemu jeme</em> (Most things)</td>
     </tr>
     <tr>
       <td><strong>Place (<code>rerpo</code>)</strong></td>
@@ -698,6 +703,7 @@
       <td><em>rerpo late</em> (Everywhere)</td>
       <td><em>rerpo noze</em> (Nowhere)</td>
       <td><em>rerpo kase</em> (Anywhere)</td>
+      <td><em>rerpo jeme</em> (Most places)</td>
     </tr>
     <tr>
       <td><strong>Time (<code>dionu</code>)</strong></td>
@@ -705,6 +711,7 @@
       <td><em>dionu late</em> (Always)</td>
       <td><em>dionu noze</em> (Never)</td>
       <td><em>dionu kase</em> (Anytime)</td>
+      <td><em>dionu jeme</em> (Most of the time / Usually)</td>
     </tr>
   </tbody>
 </table></div>
@@ -713,7 +720,7 @@
 <ul>
   <li><em>Using Zero (<code>noze</code>) for &quot;Nothing&quot; (Slot 3 Object):</em></li>
 <ul>
-  <li><strong>Mik karxid cemo noze.</strong> (I + find-[past] + thing + zero. <code>noze</code> modifies <code>cemo</code>. The SVO track completes with Slot 3 being filled by exactly 0 things. Meaning: <em>I found nothing.</em>)</li>
+  <li><strong>Mik karxid cemu noze.</strong> (I + find-[past] + thing + zero. <code>noze</code> modifies <code>cemu</code>. The SVO track completes with Slot 3 being filled by exactly 0 things. Meaning: <em>I found nothing.</em>)</li>
 </ul>
   <li><em>Using &quot;Every&quot; (<code>late</code>) for &quot;Always&quot; (Slot 4 Time):</em></li>
 <ul>
@@ -722,6 +729,14 @@
   <li><em>Using &quot;Any&quot; (<code>kase</code>) for &quot;Anywhere&quot; (Prepositional Bridge):</em></li>
 <ul>
   <li><strong>Kup mik bifeis xalit zy rerpo kase?</strong> (Question + I + permitted-[stative verb] + move-[linker] + to + place + any. The preposition <code>zy</code> anchors the movement directly to the object <code>rerpo</code>, modified by <code>kase</code>. Meaning: <em>Am I allowed to go anywhere?</em>)</li>
+</ul>
+  <li><em>Using &quot;Most&quot; (<code>jeme</code>) for a Majority (Slot 1 Subject):</em></li>
+<ul>
+  <li><strong>Nofa jeme kyti batap.</strong> (Person + most + like + food-the. <code>jeme</code> looks left and quantifies <code>nofa</code> as its majority. Meaning: <em>Most people like the food.</em>)</li>
+</ul>
+  <li><em>Using &quot;Most&quot; (<code>jeme</code>) for &quot;Usually&quot; (Slot 4 Time):</em></li>
+<ul>
+  <li><strong>Mik naci dionu jeme.</strong> (I + work + time + most. The parser fills SVO and drops the temporal noun <code>dionu</code> into Slot 4; <code>jeme</code> looks left to quantify it. Meaning: <em>I work most of the time / I usually work.</em>)</li>
 </ul>
 </ul>
 </ol>
@@ -817,6 +832,7 @@
   <li><strong>Kep:</strong> Fact / Objective statement. <em>(Note: This is strictly reserved for scientific facts, absolute truths, or when you need to be highly emphatic. It is not used for everyday observations).</em></li>
   <li><strong>Hap:</strong> Emotion / Subjective feeling.</li>
   <li><strong>Hop:</strong> Sarcasm / Ironic intent. <em>(Explicitly encodes sarcasm to prevent AI or cross-cultural misinterpretation).</em></li>
+  <li><strong>Hyp:</strong> Hypothetical / Counterfactual. <em>(Frames the entire sentence as a simulation of a reality that is not actual. Pairs with <code>syn</code> conditionals to produce &quot;would / would have&quot; readings — see Rule 32).</em></li>
   <li><strong>Bip:</strong> Firstly / Primary point. <em>(Introduces the first item in a discourse sequence).</em></li>
   <li><strong>Xap:</strong> For example / Illustrative statement. <em>(Marks the sentence as an example).</em></li>
   <li><strong>Sep:</strong> In sum / In conclusion. <em>(Introduces a summary or concluding statement).</em></li>
@@ -1799,9 +1815,9 @@
 </ul>
   <li><em>Counterfactual Conditional (&quot;Would Have&quot;):</em></li>
 <ul>
-  <li><strong>Syn daq nomidyk batap can Hyp daq cenidyk.</strong></li>
-  <li><em>Literal Breakdown:</em> [If] + he + eat-[past-perfect] + food-the + [Then] + [Hypothetical] + he + live-[past-perfect].</li>
-  <li><em>Parser Logic:</em> The consequence is framed by the Mood Tag <code>Hyp</code>. This informs the parser that the following action (<code>cenidyk</code>) is a simulation of a reality that did not occur. Because it is evaluating a simulation in the past perfect tense, the meaning translates directly to &quot;would have&quot;.</li>
+  <li><strong>Hyp syn daq nomidyk batap can daq cenidyk.</strong></li>
+  <li><em>Literal Breakdown:</em> [Hypothetical] + [If] + he + eat-[past-perfect] + food-the + [Then] + he + live-[past-perfect].</li>
+  <li><em>Parser Logic:</em> The sentence opens with the Mood Tag <code>Hyp</code> (mood tags are strictly sentence-initial, Rule 11). This frames the entire conditional sequence as a simulation of a reality that did not occur. Because the consequence is evaluated in the past perfect tense, the meaning translates directly to &quot;would have&quot;.</li>
   <li><em>Meaning:</em> <em>If he had eaten the food, then hypothetically he had lived (he would have lived).</em></li>
 </ul>
   <li><em>Habitual Conditional (&quot;Whenever&quot;):</em></li>
@@ -2166,6 +2182,7 @@ Break down the following sentence into Subject, Verb, Object, and Time slots.</p
 <li><strong><code>Kep</code>:</strong> Fact / Objective scientific statement.</li>
 <li><strong><code>Hap</code>:</strong> Emotion / Subjective feeling.</li>
 <li><strong><code>Hop</code>:</strong> Sarcasm / Ironic intent.</li>
+<li><strong><code>Hyp</code>:</strong> Hypothetical / Counterfactual (&quot;would&quot;). Frames the sentence as a simulation of a reality that is not actual.</li>
 </ul>
 <p><em>Note: Mood tags are optional. If a sentence begins without a tag, it is treated as a neutral, unmarked statement.</em></p>
 <hr>
@@ -2509,6 +2526,7 @@ Because <code>mik</code> means &quot;I&quot;, adding &quot;many&quot; to it make
 <li><code>late</code> (Every / All)</li>
 <li><code>noze</code> (None / Zero)</li>
 <li><code>kase</code> (Any / Free choice)</li>
+<li><code>jeme</code> (Most — the proportional majority, when it follows a plain noun)</li>
 </ul>
 <p><em>Examples:</em></p>
 <ul>
@@ -2516,6 +2534,7 @@ Because <code>mik</code> means &quot;I&quot;, adding &quot;many&quot; to it make
 <li><code>cemu late</code> (Everything)</li>
 <li><code>rerpo noze</code> (Nowhere)</li>
 <li><code>dionu kase</code> (Anytime)</li>
+<li><code>nofa jeme</code> (Most people)</li>
 </ul>
 <hr>
 <h3>Chapter 13 Exercises</h3>
@@ -3463,6 +3482,7 @@ Fiwo does not use a standalone word for &quot;is&quot; for simple descriptions. 
 <li><strong><code>Kep</code></strong>: Objective Fact.</li>
 <li><strong><code>Hap</code></strong>: Emotion / Subjective.</li>
 <li><strong><code>Hop</code></strong>: Sarcasm / Joke.</li>
+<li><strong><code>Hyp</code></strong>: Hypothetical / &quot;Would&quot;.</li>
 </ul>
 <h3>6. The Golden Rule of Fiwo</h3>
 <p><strong>Modifiers Always Look Left.</strong> 
@@ -3484,12 +3504,12 @@ Adjectives, adverbs, and prepositions always attach to the very first root noun 
                         <p><code>Kaniup fikor tep nes jedi fefup tel, pen syn suk xali ruze can suk nes nojapis fikop.</code> (Knowledge is a path that does not have an end, so if you move fast, you will not see the path.)</p>
                         <p><code>Dawy sil, suk hici fuqe roase.</code> (Due to this, you must walk slowly.)</p>
                         <p><code>Daq cetofid zy mik dodup bef daq kopid tep Kop suk nojapi mosap luare lan bysop tande lan drekop lefe tel.</code> (He showed me the world and commanded: &quot;Look at the green tree and the big sky and the hard rock.&quot;)</p>
-                        <p><code>Daq eksaplid tep Modap ceni deky cemo late bef dal ceni deky mosap je bef dal ceni deky suk tel.</code> (He explained: &quot;God lives inside everything; he lives inside the trees and he lives inside you.&quot;)</p>
-                        <p><code>Suk pauli fuqe zasop bef suk fijai fuqe bexop, kad syn suk pauli cemo late can suk kanis Modap.</code> (You must feel the ground and you must listen to the air, because if you feel everything then you will know God.)</p>
+                        <p><code>Daq eksaplid tep Modap ceni deky cemu late bef dal ceni deky mosap je bef dal ceni deky suk tel.</code> (He explained: &quot;God lives inside everything; he lives inside the trees and he lives inside you.&quot;)</p>
+                        <p><code>Suk pauli fuqe zasop bef suk fijai fuqe bexop, kad syn suk pauli cemu late can suk kanis Modap.</code> (You must feel the ground and you must listen to the air, because if you feel everything then you will know God.)</p>
                         <p><code>Daq kypeid vel nofap waske xygajid gesit tep Rodleup nes gor tel.</code> (He was happy while the old person continued to say: &quot;The truth is not a word.&quot;)</p>
                         <p><code>Rodleup epiwur, pen suk xyfi fuqe epiwup fazy gaweup jete.</code> (The truth is an action, therefore you must do the action of the greater good.)</p>
                         <p><code>Kop suk stomi batar zy nofar je dobre bef Kop suk foisoi foisor wyde bef Kop suk tazi nofa late.</code> (Give food to poor people, build a safe house, and love all people.)</p>
-                        <p><code>Syn suk xyfi cemop je sile can suk kanis rodleup.</code> (If you do these things, you will know the truth.)</p>
+                        <p><code>Syn suk xyfi cemup je sile can suk kanis rodleup.</code> (If you do these things, you will know the truth.)</p>
                         <p><code>Kaniup nes gidur, bul ram bogur.</code> (Knowledge is not money, but it is a force.)</p>
                     </div>
                 </div>
@@ -3521,7 +3541,7 @@ Adjectives, adverbs, and prepositions always attach to the very first root noun 
                         <p><code>Nofap waske nekidyq hemy mosap luare vel daq nojapidyq bysop cape lan kyfar je lande.</code> (The old person was sitting near the green tree while he was watching the dark sky and small birds.)</p>
                         <p><code>Daq ebmerid biwur muile tep daq kurid dury wedacup kad daq nes erfid ram tel, bef daq paulid pamur juce deky toxup daqe.</code> (He remembered a difficult problem that he feared during the past because he did not understand it, and he felt heavy pain inside his mind.)</p>
                         <p><code>Daq bakid cafit fy biwup, bul daq nes xeskid.</code> (He tried to run from the problem, but he didn&#x27;t win.)</p>
-                        <p><code>Foly sil, dionup xalidyq bef daq erfid biwup kad daq ibagid cemor je.</code> (After this, time was passing and he understood the problem because he learned things.)</p>
+                        <p><code>Foly sil, dionup xalidyq bef daq erfid biwup kad daq ibagid cemur je.</code> (After this, time was passing and he understood the problem because he learned things.)</p>
                         <p><code>Kep dionup tumid toxup daqe lan mup daqe, pen dury nup daq kypei lan pogafui.</code> (Fact: time changed his mind and his soul, therefore right now he is happy and peaceful.)</p>
                         <p><code>Hap daq cenis wece.</code> (Emotional: He will live well.)</p>
                     </div>
@@ -3599,7 +3619,7 @@ Adjectives, adverbs, and prepositions always attach to the very first root noun 
                         <p><code>Gutor tande je skagi nasap, pen Kop suk zyli gutor je ry modap.</code> (Big tools break the plant, therefore use the tools of God.)</p>
                         <p><code>Cemop usy bime dorsop bef ram ceniu ry soxap bef ram sapi bojap jotse.</code> (The first thing is the water, and it is the life of the body and makes the blood clean.)</p>
                         <p><code>Cemop usy dewe batap bef ram stomi bogur cagy cukiup.</code> (The second thing is the food, and it gives force for the fight.)</p>
-                        <p><code>Cemop usy tafe usiup, bef cemop sile fafei jeme.</code> (The third thing is the sleep, and this thing is the most important.)</p>
+                        <p><code>Cemop usy tafe usiup, bef cemup sile fafei jeme.</code> (The third thing is the sleep, and this thing is the most important.)</p>
                         <p><code>Syn nofap usi can soxap naci bef ram sapi hedcur je jaxke.</code> (If the person sleeps, then the body works and makes new parts.)</p>
                         <p><code>Zol zuwup sile roasei, ram dotei.</code> (Although this way is slow, it is strong.)</p>
                         <p><code>Dawy sil, suk koci wogiur kad otmap tsis.</code> (Due to this, you need hope because the sickness will leave.)</p>
@@ -3613,9 +3633,9 @@ Adjectives, adverbs, and prepositions always attach to the very first root noun 
                         <p><code>Dup ripeid bef litop doteid vel nofap nacie foisoidyq sydop dy gofor.</code> (The day was hot and the light was strong while the working person was building the house of wood.)</p>
                         <p><code>Zol daq zylid gutor je, dury nup daq kocid gutop fafe cagy foisoiup ry sydop.</code> (Although he used many tools, right now he needed the important tool for the building of the house.)</p>
                         <p><code>Gutop tande sile dy xedor weokeid lan juceid.</code> (This big tool of metal was round and heavy.)</p>
-                        <p><code>Nofap nojapid hanop daqe lande lan wuke, bul daq karxid cemo noze kad ram nufeid.</code> (The person looked at his small and dry box, but he found nothing because it was empty.)</p>
+                        <p><code>Nofap nojapid hanop daqe lande lan wuke, bul daq karxid cemu noze kad ram nufeid.</code> (The person looked at his small and dry box, but he found nothing because it was empty.)</p>
                         <p><code>Daq paulid biwup can daq kupid tep Kup gutop mike ceni ty wer? tel.</code> (He felt the problem then asked: &quot;Where is my tool?&quot;)</p>
-                        <p><code>Daq tsytid deky foisop lan ty zasop, bul daq karxid cemo noze.</code> (He searched inside the building and on the ground, but found nothing.)</p>
+                        <p><code>Daq tsytid deky foisop lan ty zasop, bul daq karxid cemu noze.</code> (He searched inside the building and on the ground, but found nothing.)</p>
                         <p><code>Pen daq xalid ruze zy nauxap aqe tep jedid buskor loage tel.</code> (So he went fast to the male friend who had blue clothes.)</p>
                         <p><code>Daq kupid tep Kup suk nojapid gutop mike? tel.</code> (He asked: &quot;Did you see my tool?&quot;)</p>
                         <p><code>Nauxap pozid roase can daq hadid tep Mace, mik nojapid ram hemy fatop tel.</code> (The friend thought slowly then answered: &quot;Maybe. I saw it near the machine.&quot;)</p>
