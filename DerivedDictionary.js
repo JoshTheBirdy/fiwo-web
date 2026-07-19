@@ -225,6 +225,42 @@ const derivedDictionaryData = [
     "path_gloss": "Preposition -> Abstract Noun (relation)"
   },
   {
+    "word": "acumulia",
+    "english_equiv": "Doer of trade",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'trade'.",
+    "root": "acumuli",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "acumulie",
+    "english_equiv": "Prone to trade",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'trade'.",
+    "root": "acumuli",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "acumulio",
+    "english_equiv": "Tool or result of trade",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'trade'.",
+    "root": "acumuli",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "acumuliu",
+    "english_equiv": "Act of trade",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'trade'.",
+    "root": "acumuli",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "adihua",
     "english_equiv": "Consciousness person",
     "part_of_speech": "Biological Noun",
@@ -295,6 +331,78 @@ const derivedDictionaryData = [
     "root": "adrebu",
     "derivation_path": "u→o",
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "adriswea",
+    "english_equiv": "The diagonal one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being diagonal.",
+    "root": "adriswe",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "adriswei",
+    "english_equiv": "To be diagonal",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become diagonal.",
+    "root": "adriswe",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "adrisweo",
+    "english_equiv": "Diagonal thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is diagonal.",
+    "root": "adriswe",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "adrisweu",
+    "english_equiv": "Diagonalness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being diagonal.",
+    "root": "adriswe",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "adyvoa",
+    "english_equiv": "Umbrella worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a umbrella.",
+    "root": "adyvo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "adyvoe",
+    "english_equiv": "Umbrella-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to umbrella.",
+    "root": "adyvo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "adyvoi",
+    "english_equiv": "To use a umbrella",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a umbrella.",
+    "root": "adyvo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "adyvou",
+    "english_equiv": "Umbrella domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the umbrella.",
+    "root": "adyvo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "aefia",
@@ -487,12 +595,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "agmie",
-    "english_equiv": "Prone to glue",
+    "english_equiv": "Sticky",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'glue'.",
     "root": "agmi",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "sticky",
+      "adhesive",
+      "gluey"
+    ]
   },
   {
     "word": "agmio",
@@ -629,6 +742,42 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "ajogoa",
+    "english_equiv": "Cart worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a cart.",
+    "root": "ajogo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "ajogoe",
+    "english_equiv": "Cart-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to cart.",
+    "root": "ajogo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "ajogoi",
+    "english_equiv": "To use a cart",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a cart.",
+    "root": "ajogo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "ajogou",
+    "english_equiv": "Cart domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the cart.",
+    "root": "ajogo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "akaria",
     "english_equiv": "Doer of to roast",
     "part_of_speech": "Biological Noun",
@@ -684,12 +833,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "akdio",
-    "english_equiv": "Tool or result of shout",
+    "english_equiv": "Shrieker",
     "part_of_speech": "Concrete Noun",
     "definition": "An instrument for, or physical result of, 'shout'.",
     "root": "akdi",
     "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)",
+    "senses": [
+      "shrieker",
+      "siren",
+      "alarm device"
+    ]
   },
   {
     "word": "akdiu",
@@ -895,6 +1049,42 @@ const derivedDictionaryData = [
     "root": "anote",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "anuwua",
+    "english_equiv": "Finishing touch person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies finishing touch.",
+    "root": "anuwu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "anuwue",
+    "english_equiv": "Marked by finishing touch",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by finishing touch.",
+    "root": "anuwu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "anuwui",
+    "english_equiv": "To feel or enact finishing touch",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about finishing touch.",
+    "root": "anuwu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "anuwuo",
+    "english_equiv": "Finishing touch object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving finishing touch.",
+    "root": "anuwu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "aofea",
@@ -1215,12 +1405,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "arloe",
-    "english_equiv": "Lightning-like",
+    "english_equiv": "Of lightning",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to lightning.",
     "root": "arlo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "of lightning",
+      "lightning-struck",
+      "electric-storm"
+    ]
   },
   {
     "word": "arloi",
@@ -1239,6 +1434,47 @@ const derivedDictionaryData = [
     "root": "arlo",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "arsumpia",
+    "english_equiv": "Doer of flow",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'flow'.",
+    "root": "arsumpi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "arsumpie",
+    "english_equiv": "Prone to flow",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'flow'.",
+    "root": "arsumpi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "arsumpio",
+    "english_equiv": "A flow",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'flow'.",
+    "root": "arsumpi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)",
+    "senses": [
+      "a flow",
+      "swirl",
+      "streaming movement"
+    ]
+  },
+  {
+    "word": "arsumpiu",
+    "english_equiv": "Act of flow",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'flow'.",
+    "root": "arsumpi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "artetae",
@@ -1762,42 +1998,6 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
-    "word": "axlia",
-    "english_equiv": "Doer of climb",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'climb'.",
-    "root": "axli",
-    "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
-  },
-  {
-    "word": "axlie",
-    "english_equiv": "Prone to climb",
-    "part_of_speech": "Modifier",
-    "definition": "Tending toward, or involving, the action 'climb'.",
-    "root": "axli",
-    "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
-  },
-  {
-    "word": "axlio",
-    "english_equiv": "Tool or result of climb",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An instrument for, or physical result of, 'climb'.",
-    "root": "axli",
-    "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
-  },
-  {
-    "word": "axliu",
-    "english_equiv": "Act of climb",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'climb'.",
-    "root": "axli",
-    "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
-  },
-  {
     "word": "axvua",
     "english_equiv": "Alliance person",
     "part_of_speech": "Biological Noun",
@@ -1832,82 +2032,6 @@ const derivedDictionaryData = [
     "root": "axvu",
     "derivation_path": "u→o",
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
-  },
-  {
-    "word": "ayjae",
-    "english_equiv": "Bark-like",
-    "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a bark.",
-    "root": "ayja",
-    "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
-  },
-  {
-    "word": "ayjai",
-    "english_equiv": "To act as a bark",
-    "part_of_speech": "Verb",
-    "definition": "To act as, or serve in the role of, a bark.",
-    "root": "ayja",
-    "derivation_path": "a→i",
-    "path_gloss": "Biological Noun -> Verb (act as)"
-  },
-  {
-    "word": "ayjao",
-    "english_equiv": "Bark artifact",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object associated with a bark.",
-    "root": "ayja",
-    "derivation_path": "a→o",
-    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
-  },
-  {
-    "word": "ayjau",
-    "english_equiv": "Barkhood",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The role, state, or quality of being a bark.",
-    "root": "ayja",
-    "derivation_path": "a→u",
-    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
-    "word": "aywea",
-    "english_equiv": "The rare one",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person characterized by being rare.",
-    "root": "aywe",
-    "derivation_path": "e→a",
-    "path_gloss": "Modifier -> Biological Noun (characterized person)"
-  },
-  {
-    "word": "aywei",
-    "english_equiv": "To be rare",
-    "part_of_speech": "Verb",
-    "definition": "Stative: to be or become rare.",
-    "root": "aywe",
-    "derivation_path": "e→i",
-    "senses": [
-      "to be rare",
-      "to become rare"
-    ],
-    "path_gloss": "Modifier -> Verb (stative)"
-  },
-  {
-    "word": "ayweo",
-    "english_equiv": "Rare thing",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object that is rare.",
-    "root": "aywe",
-    "derivation_path": "e→o",
-    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
-  },
-  {
-    "word": "ayweu",
-    "english_equiv": "Rareness",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being rare.",
-    "root": "aywe",
-    "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
     "word": "azikua",
@@ -2058,6 +2182,47 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "badujua",
+    "english_equiv": "Omen person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies omen.",
+    "root": "baduju",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "badujue",
+    "english_equiv": "Marked by omen",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by omen.",
+    "root": "baduju",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "ominous",
+      "foreboding",
+      "ill-omened"
+    ]
+  },
+  {
+    "word": "badujui",
+    "english_equiv": "To feel or enact omen",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about omen.",
+    "root": "baduju",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "badujuo",
+    "english_equiv": "Omen object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving omen.",
+    "root": "baduju",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "bafua",
     "english_equiv": "Second person",
     "part_of_speech": "Biological Noun",
@@ -2202,6 +2367,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "bambodoa",
+    "english_equiv": "Sponge worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a sponge.",
+    "root": "bambodo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "bambodoe",
+    "english_equiv": "Sponge-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to sponge.",
+    "root": "bambodo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "bambodoi",
+    "english_equiv": "To use a sponge",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a sponge.",
+    "root": "bambodo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "bambodou",
+    "english_equiv": "Sponge domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the sponge.",
+    "root": "bambodo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "baqia",
     "english_equiv": "Doer of call",
     "part_of_speech": "Biological Noun",
@@ -2236,6 +2437,42 @@ const derivedDictionaryData = [
     "root": "baqi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "barusua",
+    "english_equiv": "Carelessness person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies carelessness.",
+    "root": "barusu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "barusue",
+    "english_equiv": "Marked by carelessness",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by carelessness.",
+    "root": "barusu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "barusui",
+    "english_equiv": "To feel or enact carelessness",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about carelessness.",
+    "root": "barusu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "barusuo",
+    "english_equiv": "Carelessness object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving carelessness.",
+    "root": "barusu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "batae",
@@ -2388,6 +2625,47 @@ const derivedDictionaryData = [
     "root": "beati",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "beglonoa",
+    "english_equiv": "Honey worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a honey.",
+    "root": "beglono",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "beglonoe",
+    "english_equiv": "Of honey",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to honey.",
+    "root": "beglono",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "of honey",
+      "honeyed",
+      "sticky-sweet"
+    ]
+  },
+  {
+    "word": "beglonoi",
+    "english_equiv": "To use a honey",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a honey.",
+    "root": "beglono",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "beglonou",
+    "english_equiv": "Honey domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the honey.",
+    "root": "beglono",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "bejea",
@@ -2735,6 +3013,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "bilyhoa",
+    "english_equiv": "Potion worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a potion.",
+    "root": "bilyho",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "bilyhoe",
+    "english_equiv": "Potion-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to potion.",
+    "root": "bilyho",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "bilyhoi",
+    "english_equiv": "To use a potion",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a potion.",
+    "root": "bilyho",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "bilyhou",
+    "english_equiv": "Potion domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the potion.",
+    "root": "bilyho",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "bimea",
     "english_equiv": "The one one",
     "part_of_speech": "Biological Noun",
@@ -2958,6 +3272,47 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "blunua",
+    "english_equiv": "Meaning person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies meaning.",
+    "root": "blunu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "blunue",
+    "english_equiv": "Marked by meaning",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by meaning.",
+    "root": "blunu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "blunui",
+    "english_equiv": "To mean / To signify",
+    "part_of_speech": "Verb",
+    "definition": "To convey or carry meaning.",
+    "root": "blunu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (enact)",
+    "senses": [
+      "to mean",
+      "to signify",
+      "to denote"
+    ]
+  },
+  {
+    "word": "blunuo",
+    "english_equiv": "Meaning object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving meaning.",
+    "root": "blunu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "bofamae",
     "english_equiv": "Wrist-like",
     "part_of_speech": "Modifier",
@@ -3107,6 +3462,47 @@ const derivedDictionaryData = [
     "root": "boke",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "borpoa",
+    "english_equiv": "Pot worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a pot.",
+    "root": "borpo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "borpoe",
+    "english_equiv": "Potted",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to pot.",
+    "root": "borpo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "potted",
+      "in a pot",
+      "pot-held"
+    ]
+  },
+  {
+    "word": "borpoi",
+    "english_equiv": "To use a pot",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a pot.",
+    "root": "borpo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "borpou",
+    "english_equiv": "Pot domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the pot.",
+    "root": "borpo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "boslia",
@@ -3483,12 +3879,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "bufroe",
-    "english_equiv": "Copper-like",
+    "english_equiv": "Made of copper",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to copper.",
     "root": "bufro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of copper",
+      "coppery",
+      "copper-plated"
+    ]
   },
   {
     "word": "bufroi",
@@ -3661,6 +4062,42 @@ const derivedDictionaryData = [
     "root": "buxe",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "buzisia",
+    "english_equiv": "Doer of buzz",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'buzz'.",
+    "root": "buzisi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "buzisie",
+    "english_equiv": "Prone to buzz",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'buzz'.",
+    "root": "buzisi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "buzisio",
+    "english_equiv": "Tool or result of buzz",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'buzz'.",
+    "root": "buzisi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "buzisiu",
+    "english_equiv": "Act of buzz",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'buzz'.",
+    "root": "buzisi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "bye",
@@ -4180,6 +4617,42 @@ const derivedDictionaryData = [
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
   {
+    "word": "cavulkoa",
+    "english_equiv": "Cobweb worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a cobweb.",
+    "root": "cavulko",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "cavulkoe",
+    "english_equiv": "Cobweb-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to cobweb.",
+    "root": "cavulko",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "cavulkoi",
+    "english_equiv": "To use a cobweb",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a cobweb.",
+    "root": "cavulko",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "cavulkou",
+    "english_equiv": "Cobweb domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the cobweb.",
+    "root": "cavulko",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "celea",
     "english_equiv": "The private one",
     "part_of_speech": "Biological Noun",
@@ -4297,24 +4770,6 @@ const derivedDictionaryData = [
     ]
   },
   {
-    "word": "cetoa",
-    "english_equiv": "Screen worker",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who works with, operates, or handles a screen.",
-    "root": "ceto",
-    "derivation_path": "o→a",
-    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
-  },
-  {
-    "word": "cetoe",
-    "english_equiv": "Screen-like",
-    "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to screen.",
-    "root": "ceto",
-    "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
-  },
-  {
     "word": "cetofia",
     "english_equiv": "Doer of show",
     "part_of_speech": "Biological Noun",
@@ -4349,24 +4804,6 @@ const derivedDictionaryData = [
     "root": "cetofi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
-  },
-  {
-    "word": "cetoi",
-    "english_equiv": "To use a screen",
-    "part_of_speech": "Verb",
-    "definition": "To use, operate, or apply a screen.",
-    "root": "ceto",
-    "derivation_path": "o→i",
-    "path_gloss": "Concrete Noun -> Verb (use/apply)"
-  },
-  {
-    "word": "cetou",
-    "english_equiv": "Screen domain",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract concept or domain of the screen.",
-    "root": "ceto",
-    "derivation_path": "o→u",
-    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "cevoloa",
@@ -4629,6 +5066,78 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "cirpiwia",
+    "english_equiv": "Doer of chirp",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'chirp'.",
+    "root": "cirpiwi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "cirpiwie",
+    "english_equiv": "Prone to chirp",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'chirp'.",
+    "root": "cirpiwi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "cirpiwio",
+    "english_equiv": "Tool or result of chirp",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'chirp'.",
+    "root": "cirpiwi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "cirpiwiu",
+    "english_equiv": "Act of chirp",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'chirp'.",
+    "root": "cirpiwi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "ciswoa",
+    "english_equiv": "Barrel worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a barrel.",
+    "root": "ciswo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "ciswoe",
+    "english_equiv": "Barrel-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to barrel.",
+    "root": "ciswo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "ciswoi",
+    "english_equiv": "To use a barrel",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a barrel.",
+    "root": "ciswo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "ciswou",
+    "english_equiv": "Barrel domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the barrel.",
+    "root": "ciswo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "clapoa",
     "english_equiv": "Clock worker",
     "part_of_speech": "Biological Noun",
@@ -4741,6 +5250,42 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "colupria",
+    "english_equiv": "Doer of explode",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'explode'.",
+    "root": "colupri",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "coluprie",
+    "english_equiv": "Prone to explode",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'explode'.",
+    "root": "colupri",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "coluprio",
+    "english_equiv": "Tool or result of explode",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'explode'.",
+    "root": "colupri",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "colupriu",
+    "english_equiv": "Act of explode",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'explode'.",
+    "root": "colupri",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "compea",
     "english_equiv": "The common one",
     "part_of_speech": "Biological Noun",
@@ -4817,6 +5362,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "corfae",
+    "english_equiv": "Monkey-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a monkey.",
+    "root": "corfa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "corfai",
+    "english_equiv": "To act as a monkey",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a monkey.",
+    "root": "corfa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "corfao",
+    "english_equiv": "Monkey artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a monkey.",
+    "root": "corfa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "corfau",
+    "english_equiv": "Monkeyhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a monkey.",
+    "root": "corfa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "cosae",
     "english_equiv": "Skin-like",
     "part_of_speech": "Modifier",
@@ -4863,21 +5444,31 @@ const derivedDictionaryData = [
   },
   {
     "word": "cotie",
-    "english_equiv": "Prone to cut",
+    "english_equiv": "Carved",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'cut'.",
     "root": "coti",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "carved",
+      "trimmed",
+      "hewn"
+    ]
   },
   {
     "word": "cotio",
-    "english_equiv": "Tool or result of cut",
+    "english_equiv": "A cut",
     "part_of_speech": "Concrete Noun",
     "definition": "An instrument for, or physical result of, 'cut'.",
     "root": "coti",
     "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)",
+    "senses": [
+      "a cut",
+      "division",
+      "split"
+    ]
   },
   {
     "word": "cotiu",
@@ -4923,6 +5514,78 @@ const derivedDictionaryData = [
     "root": "cowaba",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "cuacae",
+    "english_equiv": "Bear-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a bear.",
+    "root": "cuaca",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "cuacai",
+    "english_equiv": "To act as a bear",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a bear.",
+    "root": "cuaca",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "cuacao",
+    "english_equiv": "Bear artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a bear.",
+    "root": "cuaca",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "cuacau",
+    "english_equiv": "Bearhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a bear.",
+    "root": "cuaca",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "cubastoa",
+    "english_equiv": "Sphere worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a sphere.",
+    "root": "cubasto",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "cubastoe",
+    "english_equiv": "Sphere-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to sphere.",
+    "root": "cubasto",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "cubastoi",
+    "english_equiv": "To use a sphere",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a sphere.",
+    "root": "cubasto",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "cubastou",
+    "english_equiv": "Sphere domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the sphere.",
+    "root": "cubasto",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "cudzae",
@@ -5154,6 +5817,42 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "cuspoa",
+    "english_equiv": "Beacon worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a beacon.",
+    "root": "cuspo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "cuspoe",
+    "english_equiv": "Beacon-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to beacon.",
+    "root": "cuspo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "cuspoi",
+    "english_equiv": "To use a beacon",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a beacon.",
+    "root": "cuspo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "cuspou",
+    "english_equiv": "Beacon domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the beacon.",
+    "root": "cuspo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "cutwea",
     "english_equiv": "The ready one",
     "part_of_speech": "Biological Noun",
@@ -5228,6 +5927,42 @@ const derivedDictionaryData = [
     "root": "cyri",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "cysmoa",
+    "english_equiv": "Village worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a village.",
+    "root": "cysmo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "cysmoe",
+    "english_equiv": "Village-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to village.",
+    "root": "cysmo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "cysmoi",
+    "english_equiv": "To use a village",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a village.",
+    "root": "cysmo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "cysmou",
+    "english_equiv": "Village domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the village.",
+    "root": "cysmo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "cytua",
@@ -5614,42 +6349,6 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
-    "word": "dasia",
-    "english_equiv": "Doer of control",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'control'.",
-    "root": "dasi",
-    "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
-  },
-  {
-    "word": "dasie",
-    "english_equiv": "Prone to control",
-    "part_of_speech": "Modifier",
-    "definition": "Tending toward, or involving, the action 'control'.",
-    "root": "dasi",
-    "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
-  },
-  {
-    "word": "dasio",
-    "english_equiv": "Tool or result of control",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An instrument for, or physical result of, 'control'.",
-    "root": "dasi",
-    "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
-  },
-  {
-    "word": "dasiu",
-    "english_equiv": "Act of control",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'control'.",
-    "root": "dasi",
-    "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
-  },
-  {
     "word": "dawye",
     "english_equiv": "Due to-positioned",
     "part_of_speech": "Modifier",
@@ -5684,6 +6383,47 @@ const derivedDictionaryData = [
     "root": "dawy",
     "derivation_path": "y→u",
     "path_gloss": "Preposition -> Abstract Noun (relation)"
+  },
+  {
+    "word": "daxokoa",
+    "english_equiv": "Frost worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a frost.",
+    "root": "daxoko",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "daxokoe",
+    "english_equiv": "Frost-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to frost.",
+    "root": "daxoko",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "frosted",
+      "frost-covered",
+      "icy-crusted"
+    ]
+  },
+  {
+    "word": "daxokoi",
+    "english_equiv": "To use a frost",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a frost.",
+    "root": "daxoko",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "daxokou",
+    "english_equiv": "Frost domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the frost.",
+    "root": "daxoko",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "decua",
@@ -6186,6 +6926,42 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "dilujua",
+    "english_equiv": "Account person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies account.",
+    "root": "diluju",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "dilujue",
+    "english_equiv": "Marked by account",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by account.",
+    "root": "diluju",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "dilujui",
+    "english_equiv": "To feel or enact account",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about account.",
+    "root": "diluju",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "dilujuo",
+    "english_equiv": "Account object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving account.",
+    "root": "diluju",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "dionua",
     "english_equiv": "Time person",
     "part_of_speech": "Biological Noun",
@@ -6218,6 +6994,42 @@ const derivedDictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A tangible object embodying or serving time.",
     "root": "dionu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "dipuwua",
+    "english_equiv": "Mutual responsibility person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies mutual responsibility.",
+    "root": "dipuwu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "dipuwue",
+    "english_equiv": "Marked by mutual responsibility",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by mutual responsibility.",
+    "root": "dipuwu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "dipuwui",
+    "english_equiv": "To feel or enact mutual responsibility",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about mutual responsibility.",
+    "root": "dipuwu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "dipuwuo",
+    "english_equiv": "Mutual responsibility object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving mutual responsibility.",
+    "root": "dipuwu",
     "derivation_path": "u→o",
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
@@ -6303,6 +7115,47 @@ const derivedDictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The role, state, or quality of being a shark.",
     "root": "dixa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "dizabae",
+    "english_equiv": "Of a skeleton",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a skeleton.",
+    "root": "dizaba",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "of a skeleton",
+      "skeletal",
+      "bone-frame"
+    ]
+  },
+  {
+    "word": "dizabai",
+    "english_equiv": "To act as a skeleton",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a skeleton.",
+    "root": "dizaba",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "dizabao",
+    "english_equiv": "Skeleton artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a skeleton.",
+    "root": "dizaba",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "dizabau",
+    "english_equiv": "Skeletonhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a skeleton.",
+    "root": "dizaba",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
@@ -6755,12 +7608,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "drekoe",
-    "english_equiv": "Rock-like",
+    "english_equiv": "Made of stone",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to rock.",
     "root": "dreko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of stone",
+      "rocky",
+      "stone-built"
+    ]
   },
   {
     "word": "drekoi",
@@ -6781,6 +7639,83 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "drijia",
+    "english_equiv": "Doer of climb",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'climb'.",
+    "root": "driji",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "drijie",
+    "english_equiv": "Prone to climb",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'climb'.",
+    "root": "driji",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "drijio",
+    "english_equiv": "Tool or result of climb",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'climb'.",
+    "root": "driji",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "drijiu",
+    "english_equiv": "Act of climb",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'climb'.",
+    "root": "driji",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "drulsia",
+    "english_equiv": "Doer of switch",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'switch'.",
+    "root": "drulsi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "drulsie",
+    "english_equiv": "Prone to switch",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'switch'.",
+    "root": "drulsi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "drulsio",
+    "english_equiv": "Lever",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'switch'.",
+    "root": "drulsi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)",
+    "senses": [
+      "lever",
+      "switch handle",
+      "control device"
+    ]
+  },
+  {
+    "word": "drulsiu",
+    "english_equiv": "Act of switch",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'switch'.",
+    "root": "drulsi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "dua",
     "english_equiv": "Day person",
     "part_of_speech": "Biological Noun",
@@ -6788,6 +7723,47 @@ const derivedDictionaryData = [
     "root": "du",
     "derivation_path": "u→a",
     "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "dubizia",
+    "english_equiv": "Doer of spawn",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'spawn'.",
+    "root": "dubizi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "dubizie",
+    "english_equiv": "Spawning",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'spawn'.",
+    "root": "dubizi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "spawning",
+      "birth-related",
+      "spawn-point"
+    ]
+  },
+  {
+    "word": "dubizio",
+    "english_equiv": "Tool or result of spawn",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'spawn'.",
+    "root": "dubizi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "dubiziu",
+    "english_equiv": "Act of spawn",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'spawn'.",
+    "root": "dubizi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "ducoa",
@@ -6800,12 +7776,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "ducoe",
-    "english_equiv": "Mirror-like",
+    "english_equiv": "Mirrored",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to mirror.",
     "root": "duco",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "mirrored",
+      "mirror-image",
+      "reflected"
+    ]
   },
   {
     "word": "ducoi",
@@ -7008,32 +7989,40 @@ const derivedDictionaryData = [
     "path_gloss": "Preposition -> Abstract Noun (relation)"
   },
   {
-    "word": "dye",
-    "english_equiv": "Made of-positioned",
+    "word": "dyrpoa",
+    "english_equiv": "Plank worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a plank.",
+    "root": "dyrpo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "dyrpoe",
+    "english_equiv": "Plank-like",
     "part_of_speech": "Modifier",
-    "definition": "Positioned or oriented according to the relation 'made of'.",
-    "root": "dy",
-    "derivation_path": "y→e",
-    "path_gloss": "Preposition -> Modifier (positioned)",
-    "reviewed": "baseline"
+    "definition": "Made of, resembling, or relating to plank.",
+    "root": "dyrpo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
   },
   {
-    "word": "dyi",
-    "english_equiv": "To move made of",
+    "word": "dyrpoi",
+    "english_equiv": "To use a plank",
     "part_of_speech": "Verb",
-    "definition": "To move or be positioned according to the relation 'made of'.",
-    "root": "dy",
-    "derivation_path": "y→i",
-    "path_gloss": "Preposition -> Verb (relational motion)"
+    "definition": "To use, operate, or apply a plank.",
+    "root": "dyrpo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
   },
   {
-    "word": "dyo",
-    "english_equiv": "Object of the made of relation",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An object associated with the relation 'made of'.",
-    "root": "dy",
-    "derivation_path": "y→o",
-    "path_gloss": "Preposition -> Concrete Noun (relation object)"
+    "word": "dyrpou",
+    "english_equiv": "Plank domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the plank.",
+    "root": "dyrpo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "dysae",
@@ -7070,15 +8059,6 @@ const derivedDictionaryData = [
     "root": "dysa",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
-    "word": "dyu",
-    "english_equiv": "The made of relation",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract relation 'made of'.",
-    "root": "dy",
-    "derivation_path": "y→u",
-    "path_gloss": "Preposition -> Abstract Noun (relation)"
   },
   {
     "word": "dzefia",
@@ -7415,12 +8395,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "eboe",
-    "english_equiv": "Chain-like",
+    "english_equiv": "Chained",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to chain.",
     "root": "ebo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "chained",
+      "linked",
+      "chain-like"
+    ]
   },
   {
     "word": "eboi",
@@ -7908,12 +8893,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "egpoe",
-    "english_equiv": "Tube-like",
+    "english_equiv": "Tube-shaped",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to tube.",
     "root": "egpo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "tube-shaped",
+      "tubular",
+      "piped"
+    ]
   },
   {
     "word": "egpoi",
@@ -8083,12 +9073,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "elsae",
-    "english_equiv": "Bee-like",
+    "english_equiv": "Of a bee",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a bee.",
     "root": "elsa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "of a bee",
+      "bee's",
+      "apian"
+    ]
   },
   {
     "word": "elsai",
@@ -8384,6 +9379,42 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "epufua",
+    "english_equiv": "Justice person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies justice.",
+    "root": "epufu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "epufue",
+    "english_equiv": "Marked by justice",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by justice.",
+    "root": "epufu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "epufui",
+    "english_equiv": "To feel or enact justice",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about justice.",
+    "root": "epufu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "epufuo",
+    "english_equiv": "Justice object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving justice.",
+    "root": "epufu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "epzia",
     "english_equiv": "Doer of polish",
     "part_of_speech": "Biological Noun",
@@ -8394,12 +9425,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "epzie",
-    "english_equiv": "Prone to polish",
+    "english_equiv": "Polished",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'polish'.",
     "root": "epzi",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "polished",
+      "smoothed",
+      "shined"
+    ]
   },
   {
     "word": "epzio",
@@ -8833,150 +9869,6 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
-    "word": "eybia",
-    "english_equiv": "Doer of defend",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'defend'.",
-    "root": "eybi",
-    "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
-  },
-  {
-    "word": "eybie",
-    "english_equiv": "Prone to defend",
-    "part_of_speech": "Modifier",
-    "definition": "Tending toward, or involving, the action 'defend'.",
-    "root": "eybi",
-    "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
-  },
-  {
-    "word": "eybio",
-    "english_equiv": "Tool or result of defend",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An instrument for, or physical result of, 'defend'.",
-    "root": "eybi",
-    "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
-  },
-  {
-    "word": "eybiu",
-    "english_equiv": "Act of defend",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'defend'.",
-    "root": "eybi",
-    "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
-  },
-  {
-    "word": "eyjye",
-    "english_equiv": "Except-positioned",
-    "part_of_speech": "Modifier",
-    "definition": "Positioned or oriented according to the relation 'except'.",
-    "root": "eyjy",
-    "derivation_path": "y→e",
-    "path_gloss": "Preposition -> Modifier (positioned)"
-  },
-  {
-    "word": "eyjyi",
-    "english_equiv": "To move except",
-    "part_of_speech": "Verb",
-    "definition": "To move or be positioned according to the relation 'except'.",
-    "root": "eyjy",
-    "derivation_path": "y→i",
-    "path_gloss": "Preposition -> Verb (relational motion)"
-  },
-  {
-    "word": "eyjyo",
-    "english_equiv": "Object of the except relation",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An object associated with the relation 'except'.",
-    "root": "eyjy",
-    "derivation_path": "y→o",
-    "path_gloss": "Preposition -> Concrete Noun (relation object)"
-  },
-  {
-    "word": "eyjyu",
-    "english_equiv": "The except relation",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract relation 'except'.",
-    "root": "eyjy",
-    "derivation_path": "y→u",
-    "path_gloss": "Preposition -> Abstract Noun (relation)"
-  },
-  {
-    "word": "eywoa",
-    "english_equiv": "Stairs worker",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who works with, operates, or handles a stairs.",
-    "root": "eywo",
-    "derivation_path": "o→a",
-    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
-  },
-  {
-    "word": "eywoe",
-    "english_equiv": "Stairs-like",
-    "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to stairs.",
-    "root": "eywo",
-    "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
-  },
-  {
-    "word": "eywoi",
-    "english_equiv": "To use a stairs",
-    "part_of_speech": "Verb",
-    "definition": "To use, operate, or apply a stairs.",
-    "root": "eywo",
-    "derivation_path": "o→i",
-    "path_gloss": "Concrete Noun -> Verb (use/apply)"
-  },
-  {
-    "word": "eywou",
-    "english_equiv": "Stairs domain",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract concept or domain of the stairs.",
-    "root": "eywo",
-    "derivation_path": "o→u",
-    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
-  },
-  {
-    "word": "eyzae",
-    "english_equiv": "Bear-like",
-    "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a bear.",
-    "root": "eyza",
-    "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
-  },
-  {
-    "word": "eyzai",
-    "english_equiv": "To act as a bear",
-    "part_of_speech": "Verb",
-    "definition": "To act as, or serve in the role of, a bear.",
-    "root": "eyza",
-    "derivation_path": "a→i",
-    "path_gloss": "Biological Noun -> Verb (act as)"
-  },
-  {
-    "word": "eyzao",
-    "english_equiv": "Bear artifact",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object associated with a bear.",
-    "root": "eyza",
-    "derivation_path": "a→o",
-    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
-  },
-  {
-    "word": "eyzau",
-    "english_equiv": "Bearhood",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The role, state, or quality of being a bear.",
-    "root": "eyza",
-    "derivation_path": "a→u",
-    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
     "word": "ezloa",
     "english_equiv": "Lid worker",
     "part_of_speech": "Biological Noun",
@@ -9237,6 +10129,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "falfosoa",
+    "english_equiv": "List worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a list.",
+    "root": "falfoso",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "falfosoe",
+    "english_equiv": "List-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to list.",
+    "root": "falfoso",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "falfosoi",
+    "english_equiv": "To use a list",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a list.",
+    "root": "falfoso",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "falfosou",
+    "english_equiv": "List domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the list.",
+    "root": "falfoso",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "falmia",
     "english_equiv": "Doer of to report",
     "part_of_speech": "Biological Noun",
@@ -9468,12 +10396,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "fatoe",
-    "english_equiv": "Machine-like",
+    "english_equiv": "Mechanical",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to machine.",
     "root": "fato",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "mechanical",
+      "machine-driven",
+      "of a machine"
+    ]
   },
   {
     "word": "fatoi",
@@ -9722,6 +10655,92 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Verb (stative)"
   },
   {
+    "word": "felpea",
+    "english_equiv": "The different one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being different.",
+    "root": "felpe",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "felpei",
+    "english_equiv": "To be different",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become different.",
+    "root": "felpe",
+    "derivation_path": "e→i",
+    "senses": [
+      "to be different",
+      "to become different"
+    ],
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "felpeo",
+    "english_equiv": "Different thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is different.",
+    "root": "felpe",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "felpeu",
+    "english_equiv": "Difference",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The state or degree of being different.",
+    "root": "felpe",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "difference",
+      "distinction",
+      "disparity"
+    ]
+  },
+  {
+    "word": "femporoa",
+    "english_equiv": "Quartz worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a quartz.",
+    "root": "femporo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "femporoe",
+    "english_equiv": "Made of quartz",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to quartz.",
+    "root": "femporo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of quartz",
+      "quartz-cut",
+      "crystalline"
+    ]
+  },
+  {
+    "word": "femporoi",
+    "english_equiv": "To use a quartz",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a quartz.",
+    "root": "femporo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "femporou",
+    "english_equiv": "Quartz domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the quartz.",
+    "root": "femporo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "fenutia",
     "english_equiv": "Doer of tell",
     "part_of_speech": "Biological Noun",
@@ -9844,6 +10863,83 @@ const derivedDictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The act, process, or concept of 'mix'.",
     "root": "fewi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "ficudua",
+    "english_equiv": "Midway quitting person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies midway quitting.",
+    "root": "ficudu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "ficudue",
+    "english_equiv": "Marked by midway quitting",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by midway quitting.",
+    "root": "ficudu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "ficudui",
+    "english_equiv": "To feel or enact midway quitting",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about midway quitting.",
+    "root": "ficudu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "ficuduo",
+    "english_equiv": "Midway quitting object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving midway quitting.",
+    "root": "ficudu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "fihia",
+    "english_equiv": "Doer of expose",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'expose'.",
+    "root": "fihi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "fihie",
+    "english_equiv": "Prone to expose",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'expose'.",
+    "root": "fihi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "exposed",
+      "uncovered",
+      "laid bare"
+    ]
+  },
+  {
+    "word": "fihio",
+    "english_equiv": "Tool or result of expose",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'expose'.",
+    "root": "fihi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "fihiu",
+    "english_equiv": "Act of expose",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'expose'.",
+    "root": "fihi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
@@ -10000,6 +11096,47 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
+    "word": "firfae",
+    "english_equiv": "Rose-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a rose.",
+    "root": "firfa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "of roses",
+      "rose-adorned",
+      "rose-like"
+    ]
+  },
+  {
+    "word": "firfai",
+    "english_equiv": "To act as a rose",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a rose.",
+    "root": "firfa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "firfao",
+    "english_equiv": "Rose artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a rose.",
+    "root": "firfa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "firfau",
+    "english_equiv": "Rosehood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a rose.",
+    "root": "firfa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "fiskea",
     "english_equiv": "The recently one",
     "part_of_speech": "Biological Noun",
@@ -10151,38 +11288,43 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
-    "word": "fixloa",
-    "english_equiv": "Plank worker",
+    "word": "flestoa",
+    "english_equiv": "Diamond worker",
     "part_of_speech": "Biological Noun",
-    "definition": "A person who works with, operates, or handles a plank.",
-    "root": "fixlo",
+    "definition": "A person who works with, operates, or handles a diamond.",
+    "root": "flesto",
     "derivation_path": "o→a",
     "path_gloss": "Concrete Noun -> Biological Noun (handler)"
   },
   {
-    "word": "fixloe",
-    "english_equiv": "Plank-like",
+    "word": "flestoe",
+    "english_equiv": "Made of diamond",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to plank.",
-    "root": "fixlo",
+    "definition": "Made of, resembling, or relating to diamond.",
+    "root": "flesto",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of diamond",
+      "diamond-hard",
+      "sparkling"
+    ]
   },
   {
-    "word": "fixloi",
-    "english_equiv": "To use a plank",
+    "word": "flestoi",
+    "english_equiv": "To use a diamond",
     "part_of_speech": "Verb",
-    "definition": "To use, operate, or apply a plank.",
-    "root": "fixlo",
+    "definition": "To use, operate, or apply a diamond.",
+    "root": "flesto",
     "derivation_path": "o→i",
     "path_gloss": "Concrete Noun -> Verb (use/apply)"
   },
   {
-    "word": "fixlou",
-    "english_equiv": "Plank domain",
+    "word": "flestou",
+    "english_equiv": "Diamond domain",
     "part_of_speech": "Abstract Noun",
-    "definition": "The abstract concept or domain of the plank.",
-    "root": "fixlo",
+    "definition": "The abstract concept or domain of the diamond.",
+    "root": "flesto",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
@@ -10460,13 +11602,58 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "fosea",
+    "english_equiv": "The that one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being that.",
+    "root": "fose",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "fosei",
+    "english_equiv": "To be that",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become that.",
+    "root": "fose",
+    "derivation_path": "e→i",
+    "senses": [
+      "to be that",
+      "to become that"
+    ],
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "foseo",
+    "english_equiv": "That thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is that.",
+    "root": "fose",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "foseu",
+    "english_equiv": "Thatness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being that.",
+    "root": "fose",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
     "word": "fotae",
-    "english_equiv": "Root-like",
+    "english_equiv": "Rooted",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a root.",
     "root": "fota",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "rooted",
+      "of roots",
+      "root-filled"
+    ]
   },
   {
     "word": "fotai",
@@ -10494,6 +11681,47 @@ const derivedDictionaryData = [
     "root": "fota",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "foxipria",
+    "english_equiv": "Doer of fade",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'fade'.",
+    "root": "foxipri",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "foxiprie",
+    "english_equiv": "Prone to fade",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'fade'.",
+    "root": "foxipri",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "foxiprio",
+    "english_equiv": "A fade",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'fade'.",
+    "root": "foxipri",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)",
+    "senses": [
+      "a fade",
+      "gradient",
+      "color transition"
+    ]
+  },
+  {
+    "word": "foxipriu",
+    "english_equiv": "Act of fade",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'fade'.",
+    "root": "foxipri",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "framea",
@@ -10578,12 +11806,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "frelkae",
-    "english_equiv": "Mangrove-like",
+    "english_equiv": "Of mangrove",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a mangrove.",
     "root": "frelka",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "of mangrove",
+      "mangrove-wood",
+      "swamp-grown"
+    ]
   },
   {
     "word": "frelkai",
@@ -10611,6 +11844,42 @@ const derivedDictionaryData = [
     "root": "frelka",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "frengia",
+    "english_equiv": "Doer of click",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'click'.",
+    "root": "frengi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "frengie",
+    "english_equiv": "Prone to click",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'click'.",
+    "root": "frengi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "frengio",
+    "english_equiv": "Tool or result of click",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'click'.",
+    "root": "frengi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "frengiu",
+    "english_equiv": "Act of click",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'click'.",
+    "root": "frengi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "fricea",
@@ -10879,12 +12148,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "fuegoe",
-    "english_equiv": "Fire-like",
+    "english_equiv": "Fiery",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to fire.",
     "root": "fuego",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "fiery",
+      "fire-colored",
+      "of fire"
+    ]
   },
   {
     "word": "fuegoi",
@@ -10991,12 +12265,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "fumoe",
-    "english_equiv": "Smoke-like",
+    "english_equiv": "Smoky",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to smoke.",
     "root": "fumo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "smoky",
+      "smoking",
+      "smoke-producing"
+    ]
   },
   {
     "word": "fumoi",
@@ -11313,6 +12592,42 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
+    "word": "gahae",
+    "english_equiv": "Cocoa-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a cocoa.",
+    "root": "gaha",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "gahai",
+    "english_equiv": "To act as a cocoa",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a cocoa.",
+    "root": "gaha",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "gahao",
+    "english_equiv": "Cocoa artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a cocoa.",
+    "root": "gaha",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "gahau",
+    "english_equiv": "Cocoahood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a cocoa.",
+    "root": "gaha",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "gakijia",
     "english_equiv": "Doer of guess",
     "part_of_speech": "Biological Noun",
@@ -11519,6 +12834,42 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "gefria",
+    "english_equiv": "Doer of to go out",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'to go out'.",
+    "root": "gefri",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "gefrie",
+    "english_equiv": "Prone to to go out",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'to go out'.",
+    "root": "gefri",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "gefrio",
+    "english_equiv": "Tool or result of to go out",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'to go out'.",
+    "root": "gefri",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "gefriu",
+    "english_equiv": "Act of to go out",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'to go out'.",
+    "root": "gefri",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "gejedoa",
     "english_equiv": "Electricity worker",
     "part_of_speech": "Biological Noun",
@@ -11529,12 +12880,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "gejedoe",
-    "english_equiv": "Electricity-like",
+    "english_equiv": "Electrified",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to electricity.",
     "root": "gejedo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "electrified",
+      "powered",
+      "charged"
+    ]
   },
   {
     "word": "gejedoi",
@@ -11553,6 +12909,78 @@ const derivedDictionaryData = [
     "root": "gejedo",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "gekafae",
+    "english_equiv": "Vine-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a vine.",
+    "root": "gekafa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "gekafai",
+    "english_equiv": "To act as a vine",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a vine.",
+    "root": "gekafa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "gekafao",
+    "english_equiv": "Vine artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a vine.",
+    "root": "gekafa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "gekafau",
+    "english_equiv": "Vinehood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a vine.",
+    "root": "gekafa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "gelukua",
+    "english_equiv": "Borrowed authority person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies borrowed authority.",
+    "root": "geluku",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "gelukue",
+    "english_equiv": "Marked by borrowed authority",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by borrowed authority.",
+    "root": "geluku",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "gelukui",
+    "english_equiv": "To feel or enact borrowed authority",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about borrowed authority.",
+    "root": "geluku",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "gelukuo",
+    "english_equiv": "Borrowed authority object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving borrowed authority.",
+    "root": "geluku",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "gendae",
@@ -12157,6 +13585,42 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "glimadae",
+    "english_equiv": "Salmon-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a salmon.",
+    "root": "glimada",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "glimadai",
+    "english_equiv": "To act as a salmon",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a salmon.",
+    "root": "glimada",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "glimadao",
+    "english_equiv": "Salmon artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a salmon.",
+    "root": "glimada",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "glimadau",
+    "english_equiv": "Salmonhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a salmon.",
+    "root": "glimada",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "glokea",
     "english_equiv": "The four one",
     "part_of_speech": "Biological Noun",
@@ -12269,6 +13733,42 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "glyvia",
+    "english_equiv": "Doer of defend",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'defend'.",
+    "root": "glyvi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "glyvie",
+    "english_equiv": "Prone to defend",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'defend'.",
+    "root": "glyvi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "glyvio",
+    "english_equiv": "Tool or result of defend",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'defend'.",
+    "root": "glyvi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "glyviu",
+    "english_equiv": "Act of defend",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'defend'.",
+    "root": "glyvi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "goa",
     "english_equiv": "Word worker",
     "part_of_speech": "Biological Noun",
@@ -12280,12 +13780,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "godae",
-    "english_equiv": "Brain-like",
+    "english_equiv": "Brain-shaped",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a brain.",
     "root": "goda",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "brain-shaped",
+      "cerebral",
+      "of the brain"
+    ]
   },
   {
     "word": "godai",
@@ -12495,12 +14000,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "golmie",
-    "english_equiv": "Prone to reform",
+    "english_equiv": "Calibrated",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'reform'.",
     "root": "golmi",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "calibrated",
+      "adjusted",
+      "tuned"
+    ]
   },
   {
     "word": "golmio",
@@ -12750,6 +14260,42 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "grorowia",
+    "english_equiv": "Doer of growl",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'growl'.",
+    "root": "grorowi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "grorowie",
+    "english_equiv": "Prone to growl",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'growl'.",
+    "root": "grorowi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "grorowio",
+    "english_equiv": "Tool or result of growl",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'growl'.",
+    "root": "grorowi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "grorowiu",
+    "english_equiv": "Act of growl",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'growl'.",
+    "root": "grorowi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "grunkia",
     "english_equiv": "Doer of to hug",
     "part_of_speech": "Biological Noun",
@@ -12840,6 +14386,47 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Modifier (characterized by)"
   },
   {
+    "word": "gufundoa",
+    "english_equiv": "Emerald worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a emerald.",
+    "root": "gufundo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "gufundoe",
+    "english_equiv": "Made of emerald",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to emerald.",
+    "root": "gufundo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of emerald",
+      "emerald-green",
+      "emeraldine"
+    ]
+  },
+  {
+    "word": "gufundoi",
+    "english_equiv": "To use a emerald",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a emerald.",
+    "root": "gufundo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "gufundou",
+    "english_equiv": "Emerald domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the emerald.",
+    "root": "gufundo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "gugia",
     "english_equiv": "Doer of stand",
     "part_of_speech": "Biological Noun",
@@ -12850,12 +14437,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "gugie",
-    "english_equiv": "Prone to stand",
+    "english_equiv": "Standing",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'stand'.",
     "root": "gugi",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "standing",
+      "upright",
+      "vertical"
+    ]
   },
   {
     "word": "gugio",
@@ -13362,12 +14954,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "hanoe",
-    "english_equiv": "Container-like",
+    "english_equiv": "Boxed",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to container.",
     "root": "hano",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "boxed",
+      "encased",
+      "container-like"
+    ]
   },
   {
     "word": "hanoi",
@@ -13384,6 +14981,47 @@ const derivedDictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract concept or domain of the container.",
     "root": "hano",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "harosoa",
+    "english_equiv": "Bubble worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a bubble.",
+    "root": "haroso",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "harosoe",
+    "english_equiv": "Bubbly",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to bubble.",
+    "root": "haroso",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bubbly",
+      "bubble-shaped",
+      "foaming"
+    ]
+  },
+  {
+    "word": "harosoi",
+    "english_equiv": "To use a bubble",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a bubble.",
+    "root": "haroso",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "harosou",
+    "english_equiv": "Bubble domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the bubble.",
+    "root": "haroso",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
@@ -13434,12 +15072,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "hautue",
-    "english_equiv": "Marked by music",
+    "english_equiv": "Musical",
     "part_of_speech": "Modifier",
     "definition": "Characterized by or marked by music.",
     "root": "hautu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "musical",
+      "of music",
+      "melodic"
+    ]
   },
   {
     "word": "hautui",
@@ -13708,6 +15351,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "hezeskae",
+    "english_equiv": "Parrot-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a parrot.",
+    "root": "hezeska",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "hezeskai",
+    "english_equiv": "To act as a parrot",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a parrot.",
+    "root": "hezeska",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "hezeskao",
+    "english_equiv": "Parrot artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a parrot.",
+    "root": "hezeska",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "hezeskau",
+    "english_equiv": "Parrothood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a parrot.",
+    "root": "hezeska",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "hia",
     "english_equiv": "Doer of to be",
     "part_of_speech": "Biological Noun",
@@ -13755,6 +15434,42 @@ const derivedDictionaryData = [
     "root": "hiaruce",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "hibomoa",
+    "english_equiv": "Anvil worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a anvil.",
+    "root": "hibomo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "hibomoe",
+    "english_equiv": "Anvil-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to anvil.",
+    "root": "hibomo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "hibomoi",
+    "english_equiv": "To use a anvil",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a anvil.",
+    "root": "hibomo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "hibomou",
+    "english_equiv": "Anvil domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the anvil.",
+    "root": "hibomo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "hicia",
@@ -14117,12 +15832,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "horbae",
-    "english_equiv": "Horn-like",
+    "english_equiv": "Horn-shaped",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a horn.",
     "root": "horba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "horn-shaped",
+      "horned",
+      "antler-like"
+    ]
   },
   {
     "word": "horbai",
@@ -14153,12 +15873,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "hoswae",
-    "english_equiv": "Bamboo-like",
+    "english_equiv": "Made of bamboo",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a bamboo.",
     "root": "hoswa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "made of bamboo",
+      "bamboo-like",
+      "cane"
+    ]
   },
   {
     "word": "hoswai",
@@ -14203,7 +15928,12 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to door.",
     "root": "hoxo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "door-like",
+      "of a door",
+      "gateway-shaped"
+    ]
   },
   {
     "word": "hoxoi",
@@ -14260,6 +15990,47 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "hufribia",
+    "english_equiv": "Doer of flip",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'flip'.",
+    "root": "hufribi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "hufribie",
+    "english_equiv": "Flipped",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'flip'.",
+    "root": "hufribi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "flipped",
+      "inverted",
+      "reversed"
+    ]
+  },
+  {
+    "word": "hufribio",
+    "english_equiv": "Tool or result of flip",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'flip'.",
+    "root": "hufribi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "hufribiu",
+    "english_equiv": "Act of flip",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'flip'.",
+    "root": "hufribi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "huhea",
     "english_equiv": "The extremely one",
     "part_of_speech": "Biological Noun",
@@ -14310,12 +16081,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "hujie",
-    "english_equiv": "Prone to hang",
+    "english_equiv": "Hanging",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'hang'.",
     "root": "huji",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "hanging",
+      "suspended",
+      "attached"
+    ]
   },
   {
     "word": "hujio",
@@ -14484,42 +16260,6 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
-    "word": "hybye",
-    "english_equiv": "Despite-positioned",
-    "part_of_speech": "Modifier",
-    "definition": "Positioned or oriented according to the relation 'despite'.",
-    "root": "hyby",
-    "derivation_path": "y→e",
-    "path_gloss": "Preposition -> Modifier (positioned)"
-  },
-  {
-    "word": "hybyi",
-    "english_equiv": "To move despite",
-    "part_of_speech": "Verb",
-    "definition": "To move or be positioned according to the relation 'despite'.",
-    "root": "hyby",
-    "derivation_path": "y→i",
-    "path_gloss": "Preposition -> Verb (relational motion)"
-  },
-  {
-    "word": "hybyo",
-    "english_equiv": "Object of the despite relation",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An object associated with the relation 'despite'.",
-    "root": "hyby",
-    "derivation_path": "y→o",
-    "path_gloss": "Preposition -> Concrete Noun (relation object)"
-  },
-  {
-    "word": "hybyu",
-    "english_equiv": "The despite relation",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract relation 'despite'.",
-    "root": "hyby",
-    "derivation_path": "y→u",
-    "path_gloss": "Preposition -> Abstract Noun (relation)"
-  },
-  {
     "word": "hyhoa",
     "english_equiv": "Scissors worker",
     "part_of_speech": "Biological Noun",
@@ -14673,42 +16413,6 @@ const derivedDictionaryData = [
     ]
   },
   {
-    "word": "hynae",
-    "english_equiv": "Monkey-like",
-    "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a monkey.",
-    "root": "hyna",
-    "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
-  },
-  {
-    "word": "hynai",
-    "english_equiv": "To act as a monkey",
-    "part_of_speech": "Verb",
-    "definition": "To act as, or serve in the role of, a monkey.",
-    "root": "hyna",
-    "derivation_path": "a→i",
-    "path_gloss": "Biological Noun -> Verb (act as)"
-  },
-  {
-    "word": "hynao",
-    "english_equiv": "Monkey artifact",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object associated with a monkey.",
-    "root": "hyna",
-    "derivation_path": "a→o",
-    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
-  },
-  {
-    "word": "hynau",
-    "english_equiv": "Monkeyhood",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The role, state, or quality of being a monkey.",
-    "root": "hyna",
-    "derivation_path": "a→u",
-    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
     "word": "hyqua",
     "english_equiv": "Wisdom person",
     "part_of_speech": "Biological Noun",
@@ -14748,6 +16452,46 @@ const derivedDictionaryData = [
     "root": "hyqu",
     "derivation_path": "u→o",
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "hytrea",
+    "english_equiv": "The sleepy one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being sleepy.",
+    "root": "hytre",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "hytrei",
+    "english_equiv": "To be sleepy",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become sleepy.",
+    "root": "hytre",
+    "derivation_path": "e→i",
+    "senses": [
+      "to be sleepy",
+      "to become sleepy"
+    ],
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "hytreo",
+    "english_equiv": "Sleepy thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is sleepy.",
+    "root": "hytre",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "hytreu",
+    "english_equiv": "Sleepyness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being sleepy.",
+    "root": "hytre",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
     "word": "ialea",
@@ -15307,6 +17051,78 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "iflocoa",
+    "english_equiv": "Saddle worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a saddle.",
+    "root": "ifloco",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "iflocoe",
+    "english_equiv": "Saddle-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to saddle.",
+    "root": "ifloco",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "iflocoi",
+    "english_equiv": "To use a saddle",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a saddle.",
+    "root": "ifloco",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "iflocou",
+    "english_equiv": "Saddle domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the saddle.",
+    "root": "ifloco",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "ifuxua",
+    "english_equiv": "Mid-risk trap person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies mid-risk trap.",
+    "root": "ifuxu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "ifuxue",
+    "english_equiv": "Marked by mid-risk trap",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by mid-risk trap.",
+    "root": "ifuxu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "ifuxui",
+    "english_equiv": "To feel or enact mid-risk trap",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about mid-risk trap.",
+    "root": "ifuxu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "ifuxuo",
+    "english_equiv": "Mid-risk trap object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving mid-risk trap.",
+    "root": "ifuxu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "igroa",
     "english_equiv": "Card worker",
     "part_of_speech": "Biological Noun",
@@ -15824,12 +17640,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "irakie",
-    "english_equiv": "Prone to cry",
+    "english_equiv": "Weeping",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'cry'.",
     "root": "iraki",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "weeping",
+      "crying",
+      "dripping"
+    ]
   },
   {
     "word": "irakio",
@@ -16308,12 +18129,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "ixboe",
-    "english_equiv": "Brick-like",
+    "english_equiv": "Made of brick",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to brick.",
     "root": "ixbo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of brick",
+      "brick-patterned",
+      "bricked"
+    ]
   },
   {
     "word": "ixboi",
@@ -16411,12 +18237,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "ixpae",
-    "english_equiv": "Fungus-like",
+    "english_equiv": "Fungal",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a fungus.",
     "root": "ixpa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "fungal",
+      "mushroom-shaped",
+      "of fungus"
+    ]
   },
   {
     "word": "ixpai",
@@ -16444,118 +18275,6 @@ const derivedDictionaryData = [
     "root": "ixpa",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
-    "word": "ixuyjua",
-    "english_equiv": "Awe person",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who practices or embodies awe.",
-    "root": "ixuyju",
-    "derivation_path": "u→a",
-    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
-  },
-  {
-    "word": "ixuyjue",
-    "english_equiv": "Marked by awe",
-    "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by awe.",
-    "root": "ixuyju",
-    "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
-  },
-  {
-    "word": "ixuyjui",
-    "english_equiv": "To feel or enact awe",
-    "part_of_speech": "Verb",
-    "definition": "To feel, express, or bring about awe.",
-    "root": "ixuyju",
-    "derivation_path": "u→i",
-    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
-  },
-  {
-    "word": "ixuyjuo",
-    "english_equiv": "Awe object",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A tangible object embodying or serving awe.",
-    "root": "ixuyju",
-    "derivation_path": "u→o",
-    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
-  },
-  {
-    "word": "iymia",
-    "english_equiv": "Doer of look",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'look'.",
-    "root": "iymi",
-    "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
-  },
-  {
-    "word": "iymie",
-    "english_equiv": "Prone to look",
-    "part_of_speech": "Modifier",
-    "definition": "Tending toward, or involving, the action 'look'.",
-    "root": "iymi",
-    "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
-  },
-  {
-    "word": "iymio",
-    "english_equiv": "Tool or result of look",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An instrument for, or physical result of, 'look'.",
-    "root": "iymi",
-    "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
-  },
-  {
-    "word": "iymiu",
-    "english_equiv": "Act of look",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'look'.",
-    "root": "iymi",
-    "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
-  },
-  {
-    "word": "iyxea",
-    "english_equiv": "The sleepy one",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person characterized by being sleepy.",
-    "root": "iyxe",
-    "derivation_path": "e→a",
-    "path_gloss": "Modifier -> Biological Noun (characterized person)"
-  },
-  {
-    "word": "iyxei",
-    "english_equiv": "To be sleepy",
-    "part_of_speech": "Verb",
-    "definition": "Stative: to be or become sleepy.",
-    "root": "iyxe",
-    "derivation_path": "e→i",
-    "senses": [
-      "to be sleepy",
-      "to become sleepy"
-    ],
-    "path_gloss": "Modifier -> Verb (stative)"
-  },
-  {
-    "word": "iyxeo",
-    "english_equiv": "Sleepy thing",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object that is sleepy.",
-    "root": "iyxe",
-    "derivation_path": "e→o",
-    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
-  },
-  {
-    "word": "iyxeu",
-    "english_equiv": "Sleepyness",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being sleepy.",
-    "root": "iyxe",
-    "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
     "word": "izlia",
@@ -16653,12 +18372,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "jadoroe",
-    "english_equiv": "Snow-like",
+    "english_equiv": "Snowy",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to snow.",
     "root": "jadoro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "snowy",
+      "of snow",
+      "snow-filled"
+    ]
   },
   {
     "word": "jadoroi",
@@ -17385,6 +19109,42 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "jipria",
+    "english_equiv": "Doer of wash",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'wash'.",
+    "root": "jipri",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "jiprie",
+    "english_equiv": "Prone to wash",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'wash'.",
+    "root": "jipri",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "jiprio",
+    "english_equiv": "Tool or result of wash",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'wash'.",
+    "root": "jipri",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "jipriu",
+    "english_equiv": "Act of wash",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'wash'.",
+    "root": "jipri",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "jiqae",
     "english_equiv": "Sibling's child-like",
     "part_of_speech": "Modifier",
@@ -18058,6 +19818,15 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "jye",
+    "english_equiv": "Part of-positioned",
+    "part_of_speech": "Modifier",
+    "definition": "Positioned or oriented according to the relation 'part of'.",
+    "root": "jy",
+    "derivation_path": "y→e",
+    "path_gloss": "Preposition -> Modifier (positioned)"
+  },
+  {
     "word": "jyfea",
     "english_equiv": "The patient one",
     "part_of_speech": "Biological Noun",
@@ -18137,6 +19906,15 @@ const derivedDictionaryData = [
     "root": "jyhu",
     "derivation_path": "u→o",
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "jyi",
+    "english_equiv": "To move part of",
+    "part_of_speech": "Verb",
+    "definition": "To move or be positioned according to the relation 'part of'.",
+    "root": "jy",
+    "derivation_path": "y→i",
+    "path_gloss": "Preposition -> Verb (relational motion)"
   },
   {
     "word": "jyjoa",
@@ -18226,7 +20004,12 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to fence.",
     "root": "jyndo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "fence-like",
+      "fenced",
+      "of a fence"
+    ]
   },
   {
     "word": "jyndoi",
@@ -18245,6 +20028,15 @@ const derivedDictionaryData = [
     "root": "jyndo",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "jyo",
+    "english_equiv": "Object of the part of relation",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An object associated with the relation 'part of'.",
+    "root": "jy",
+    "derivation_path": "y→o",
+    "path_gloss": "Preposition -> Concrete Noun (relation object)"
   },
   {
     "word": "jyqia",
@@ -18281,6 +20073,15 @@ const derivedDictionaryData = [
     "root": "jyqi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "jyu",
+    "english_equiv": "The part of relation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract relation 'part of'.",
+    "root": "jy",
+    "derivation_path": "y→u",
+    "path_gloss": "Preposition -> Abstract Noun (relation)"
   },
   {
     "word": "kabae",
@@ -18701,13 +20502,54 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "kefujua",
+    "english_equiv": "Taking for granted person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies taking for granted.",
+    "root": "kefuju",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "kefujue",
+    "english_equiv": "Marked by taking for granted",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by taking for granted.",
+    "root": "kefuju",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "kefujui",
+    "english_equiv": "To feel or enact taking for granted",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about taking for granted.",
+    "root": "kefuju",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "kefujuo",
+    "english_equiv": "Taking for granted object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving taking for granted.",
+    "root": "kefuju",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "keglae",
-    "english_equiv": "Grass-like",
+    "english_equiv": "Grassy",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a grass.",
     "root": "kegla",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "grassy",
+      "grass-covered",
+      "of grass"
+    ]
   },
   {
     "word": "keglai",
@@ -18822,6 +20664,42 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
+    "word": "kekusnia",
+    "english_equiv": "Doer of copy",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'copy'.",
+    "root": "kekusni",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "kekusnie",
+    "english_equiv": "Prone to copy",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'copy'.",
+    "root": "kekusni",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "kekusnio",
+    "english_equiv": "Tool or result of copy",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'copy'.",
+    "root": "kekusni",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "kekusniu",
+    "english_equiv": "Act of copy",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'copy'.",
+    "root": "kekusni",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "keqea",
     "english_equiv": "The native one",
     "part_of_speech": "Biological Noun",
@@ -18934,42 +20812,6 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
-    "word": "kiacakia",
-    "english_equiv": "Doer of carry",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'carry'.",
-    "root": "kiacaki",
-    "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
-  },
-  {
-    "word": "kiacakie",
-    "english_equiv": "Prone to carry",
-    "part_of_speech": "Modifier",
-    "definition": "Tending toward, or involving, the action 'carry'.",
-    "root": "kiacaki",
-    "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
-  },
-  {
-    "word": "kiacakio",
-    "english_equiv": "Tool or result of carry",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An instrument for, or physical result of, 'carry'.",
-    "root": "kiacaki",
-    "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
-  },
-  {
-    "word": "kiacakiu",
-    "english_equiv": "Act of carry",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'carry'.",
-    "root": "kiacaki",
-    "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
-  },
-  {
     "word": "kiagia",
     "english_equiv": "Doer of keep",
     "part_of_speech": "Biological Noun",
@@ -19006,13 +20848,59 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "kicojoa",
+    "english_equiv": "Gem worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a gem.",
+    "root": "kicojo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "kicojoe",
+    "english_equiv": "Jeweled",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to gem.",
+    "root": "kicojo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "jeweled",
+      "gem-cut",
+      "precious"
+    ]
+  },
+  {
+    "word": "kicojoi",
+    "english_equiv": "To use a gem",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a gem.",
+    "root": "kicojo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "kicojou",
+    "english_equiv": "Gem domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the gem.",
+    "root": "kicojo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "kifrae",
-    "english_equiv": "Cherry tree-like",
+    "english_equiv": "Cherry",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a cherry tree.",
     "root": "kifra",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "cherry",
+      "cherry-wood",
+      "of cherry"
+    ]
   },
   {
     "word": "kifrai",
@@ -19375,6 +21263,47 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "kokloa",
+    "english_equiv": "Tile worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a tile.",
+    "root": "koklo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "kokloe",
+    "english_equiv": "Tiled",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to tile.",
+    "root": "koklo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "tiled",
+      "made of tiles",
+      "tile-covered"
+    ]
+  },
+  {
+    "word": "kokloi",
+    "english_equiv": "To use a tile",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a tile.",
+    "root": "koklo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "koklou",
+    "english_equiv": "Tile domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the tile.",
+    "root": "koklo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "kompua",
     "english_equiv": "Match person",
     "part_of_speech": "Biological Noun",
@@ -19445,6 +21374,42 @@ const derivedDictionaryData = [
     "root": "kopi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "kowetea",
+    "english_equiv": "The cyan one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being cyan.",
+    "root": "kowete",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "kowetei",
+    "english_equiv": "To be cyan",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become cyan.",
+    "root": "kowete",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "koweteo",
+    "english_equiv": "Cyan thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is cyan.",
+    "root": "kowete",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "koweteu",
+    "english_equiv": "Cyanness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being cyan.",
+    "root": "kowete",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
     "word": "kowygoa",
@@ -19533,12 +21498,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "krapoe",
-    "english_equiv": "Wall-like",
+    "english_equiv": "Wall-mounted",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to wall.",
     "root": "krapo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "wall-mounted",
+      "on-wall",
+      "wall-like"
+    ]
   },
   {
     "word": "krapoi",
@@ -19557,6 +21527,47 @@ const derivedDictionaryData = [
     "root": "krapo",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "krekikia",
+    "english_equiv": "Doer of crack",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'crack'.",
+    "root": "krekiki",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "krekikie",
+    "english_equiv": "Cracked",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'crack'.",
+    "root": "krekiki",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "cracked",
+      "fractured",
+      "fissured"
+    ]
+  },
+  {
+    "word": "krekikio",
+    "english_equiv": "Tool or result of crack",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'crack'.",
+    "root": "krekiki",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "krekikiu",
+    "english_equiv": "Act of crack",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'crack'.",
+    "root": "krekiki",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "krembae",
@@ -19831,6 +21842,78 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "kujondia",
+    "english_equiv": "Doer of resist",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'resist'.",
+    "root": "kujondi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "kujondie",
+    "english_equiv": "Prone to resist",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'resist'.",
+    "root": "kujondi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "kujondio",
+    "english_equiv": "Tool or result of resist",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'resist'.",
+    "root": "kujondi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "kujondiu",
+    "english_equiv": "Act of resist",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'resist'.",
+    "root": "kujondi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "kunawae",
+    "english_equiv": "Orchid-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a orchid.",
+    "root": "kunawa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "kunawai",
+    "english_equiv": "To act as a orchid",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a orchid.",
+    "root": "kunawa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "kunawao",
+    "english_equiv": "Orchid artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a orchid.",
+    "root": "kunawa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "kunawau",
+    "english_equiv": "Orchidhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a orchid.",
+    "root": "kunawa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "kupia",
     "english_equiv": "Doer of ask",
     "part_of_speech": "Biological Noun",
@@ -19987,6 +22070,42 @@ const derivedDictionaryData = [
     "root": "kuri",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "kusulsoa",
+    "english_equiv": "Cake worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a cake.",
+    "root": "kusulso",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "kusulsoe",
+    "english_equiv": "Cake-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to cake.",
+    "root": "kusulso",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "kusulsoi",
+    "english_equiv": "To use a cake",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a cake.",
+    "root": "kusulso",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "kusulsou",
+    "english_equiv": "Cake domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the cake.",
+    "root": "kusulso",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "kutgia",
@@ -20288,6 +22407,42 @@ const derivedDictionaryData = [
     "root": "labne",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "labukua",
+    "english_equiv": "No-retreat commitment person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies no-retreat commitment.",
+    "root": "labuku",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "labukue",
+    "english_equiv": "Marked by no-retreat commitment",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by no-retreat commitment.",
+    "root": "labuku",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "labukui",
+    "english_equiv": "To feel or enact no-retreat commitment",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about no-retreat commitment.",
+    "root": "labuku",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "labukuo",
+    "english_equiv": "No-retreat commitment object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving no-retreat commitment.",
+    "root": "labuku",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "ladua",
@@ -20631,6 +22786,114 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "lehae",
+    "english_equiv": "Fern-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a fern.",
+    "root": "leha",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "lehai",
+    "english_equiv": "To act as a fern",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a fern.",
+    "root": "leha",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "lehao",
+    "english_equiv": "Fern artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a fern.",
+    "root": "leha",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "lehau",
+    "english_equiv": "Fernhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a fern.",
+    "root": "leha",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "lejoa",
+    "english_equiv": "Stairs worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a stairs.",
+    "root": "lejo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "lejoe",
+    "english_equiv": "Stairs-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to stairs.",
+    "root": "lejo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "lejoi",
+    "english_equiv": "To use a stairs",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a stairs.",
+    "root": "lejo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "lejou",
+    "english_equiv": "Stairs domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the stairs.",
+    "root": "lejo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "lenawae",
+    "english_equiv": "Cactus-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a cactus.",
+    "root": "lenawa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "lenawai",
+    "english_equiv": "To act as a cactus",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a cactus.",
+    "root": "lenawa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "lenawao",
+    "english_equiv": "Cactus artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a cactus.",
+    "root": "lenawa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "lenawau",
+    "english_equiv": "Cactushood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a cactus.",
+    "root": "lenawa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "leocia",
     "english_equiv": "Doer of turn on",
     "part_of_speech": "Biological Noun",
@@ -20641,12 +22904,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "leocie",
-    "english_equiv": "Prone to turn on",
+    "english_equiv": "Activating",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'turn on'.",
     "root": "leoci",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "activating",
+      "triggering",
+      "power-on"
+    ]
   },
   {
     "word": "leocio",
@@ -20787,6 +23055,83 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "levidzoa",
+    "english_equiv": "Cave worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a cave.",
+    "root": "levidzo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "levidzoe",
+    "english_equiv": "Cave-dwelling",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to cave.",
+    "root": "levidzo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "cave-dwelling",
+      "underground",
+      "cavern-like"
+    ]
+  },
+  {
+    "word": "levidzoi",
+    "english_equiv": "To use a cave",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a cave.",
+    "root": "levidzo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "levidzou",
+    "english_equiv": "Cave domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the cave.",
+    "root": "levidzo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "lexoglae",
+    "english_equiv": "Mule-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a mule.",
+    "root": "lexogla",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "lexoglai",
+    "english_equiv": "To act as a mule",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a mule.",
+    "root": "lexogla",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "lexoglao",
+    "english_equiv": "Mule artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a mule.",
+    "root": "lexogla",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "lexoglau",
+    "english_equiv": "Mulehood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a mule.",
+    "root": "lexogla",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "liamea",
     "english_equiv": "The pink one",
     "part_of_speech": "Biological Noun",
@@ -20825,6 +23170,47 @@ const derivedDictionaryData = [
     "root": "liame",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "libosoa",
+    "english_equiv": "Slime worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a slime.",
+    "root": "liboso",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "libosoe",
+    "english_equiv": "Slime-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to slime.",
+    "root": "liboso",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "slimy",
+      "made of slime",
+      "sticky-viscous"
+    ]
+  },
+  {
+    "word": "libosoi",
+    "english_equiv": "To use a slime",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a slime.",
+    "root": "liboso",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "libosou",
+    "english_equiv": "Slime domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the slime.",
+    "root": "liboso",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "licae",
@@ -21370,12 +23756,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "lokie",
-    "english_equiv": "Prone to read",
+    "english_equiv": "For reading",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'read'.",
     "root": "loki",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "for reading",
+      "book-study",
+      "lectern-style"
+    ]
   },
   {
     "word": "lokio",
@@ -21798,6 +24189,42 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "lutufroa",
+    "english_equiv": "Border worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a border.",
+    "root": "lutufro",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "lutufroe",
+    "english_equiv": "Border-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to border.",
+    "root": "lutufro",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "lutufroi",
+    "english_equiv": "To use a border",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a border.",
+    "root": "lutufro",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "lutufrou",
+    "english_equiv": "Border domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the border.",
+    "root": "lutufro",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "luvwitua",
     "english_equiv": "University person",
     "part_of_speech": "Biological Noun",
@@ -21834,31 +24261,153 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
-    "word": "lye",
-    "english_equiv": "Shaped like-positioned",
+    "word": "lyfroa",
+    "english_equiv": "Wire worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a wire.",
+    "root": "lyfro",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "lyfroe",
+    "english_equiv": "Wire-like",
     "part_of_speech": "Modifier",
-    "definition": "Positioned or oriented according to the relation 'shaped like'.",
-    "root": "ly",
-    "derivation_path": "y→e",
-    "path_gloss": "Preposition -> Modifier (positioned)"
+    "definition": "Made of, resembling, or relating to wire.",
+    "root": "lyfro",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
   },
   {
-    "word": "lyi",
-    "english_equiv": "To move shaped like",
+    "word": "lyfroi",
+    "english_equiv": "To use a wire",
     "part_of_speech": "Verb",
-    "definition": "To move or be positioned according to the relation 'shaped like'.",
-    "root": "ly",
-    "derivation_path": "y→i",
-    "path_gloss": "Preposition -> Verb (relational motion)"
+    "definition": "To use, operate, or apply a wire.",
+    "root": "lyfro",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
   },
   {
-    "word": "lyo",
-    "english_equiv": "Object of the shaped like relation",
+    "word": "lyfrou",
+    "english_equiv": "Wire domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the wire.",
+    "root": "lyfro",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "lyltae",
+    "english_equiv": "Lichen-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a lichen.",
+    "root": "lylta",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "lyltai",
+    "english_equiv": "To act as a lichen",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a lichen.",
+    "root": "lylta",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "lyltao",
+    "english_equiv": "Lichen artifact",
     "part_of_speech": "Concrete Noun",
-    "definition": "An object associated with the relation 'shaped like'.",
-    "root": "ly",
-    "derivation_path": "y→o",
-    "path_gloss": "Preposition -> Concrete Noun (relation object)"
+    "definition": "A physical object associated with a lichen.",
+    "root": "lylta",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "lyltau",
+    "english_equiv": "Lichenhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a lichen.",
+    "root": "lylta",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "lympia",
+    "english_equiv": "Doer of rust",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'rust'.",
+    "root": "lympi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "lympie",
+    "english_equiv": "Prone to rust",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'rust'.",
+    "root": "lympi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "rusted",
+      "oxidized",
+      "corroded"
+    ]
+  },
+  {
+    "word": "lympio",
+    "english_equiv": "Tool or result of rust",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'rust'.",
+    "root": "lympi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "lympiu",
+    "english_equiv": "Act of rust",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'rust'.",
+    "root": "lympi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "lynkua",
+    "english_equiv": "Overdoing-ruin person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies overdoing-ruin.",
+    "root": "lynku",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "lynkue",
+    "english_equiv": "Marked by overdoing-ruin",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by overdoing-ruin.",
+    "root": "lynku",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "lynkui",
+    "english_equiv": "To feel or enact overdoing-ruin",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about overdoing-ruin.",
+    "root": "lynku",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "lynkuo",
+    "english_equiv": "Overdoing-ruin object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving overdoing-ruin.",
+    "root": "lynku",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "lysea",
@@ -21901,15 +24450,6 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
-    "word": "lyu",
-    "english_equiv": "The shaped like relation",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract relation 'shaped like'.",
-    "root": "ly",
-    "derivation_path": "y→u",
-    "path_gloss": "Preposition -> Abstract Noun (relation)"
-  },
-  {
     "word": "macea",
     "english_equiv": "The possible one",
     "part_of_speech": "Biological Noun",
@@ -21948,6 +24488,47 @@ const derivedDictionaryData = [
     "root": "mace",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "magustua",
+    "english_equiv": "Magic person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies magic.",
+    "root": "magustu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "magustue",
+    "english_equiv": "Magical",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by magic.",
+    "root": "magustu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "magical",
+      "enchanted",
+      "arcane"
+    ]
+  },
+  {
+    "word": "magustui",
+    "english_equiv": "To feel or enact magic",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about magic.",
+    "root": "magustu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "magustuo",
+    "english_equiv": "Magic object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving magic.",
+    "root": "magustu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "majia",
@@ -22242,13 +24823,203 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "mavahae",
+    "english_equiv": "Wheat-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a wheat.",
+    "root": "mavaha",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "mavahai",
+    "english_equiv": "To act as a wheat",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a wheat.",
+    "root": "mavaha",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "mavahao",
+    "english_equiv": "Wheat artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a wheat.",
+    "root": "mavaha",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "mavahau",
+    "english_equiv": "Wheathood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a wheat.",
+    "root": "mavaha",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "mavurua",
+    "english_equiv": "Double gain person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies double gain.",
+    "root": "mavuru",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "mavurue",
+    "english_equiv": "Marked by double gain",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by double gain.",
+    "root": "mavuru",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "mavurui",
+    "english_equiv": "To feel or enact double gain",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about double gain.",
+    "root": "mavuru",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "mavuruo",
+    "english_equiv": "Double gain object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving double gain.",
+    "root": "mavuru",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "mazutsae",
+    "english_equiv": "Monster-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a monster.",
+    "root": "mazutsa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "mazutsai",
+    "english_equiv": "To act as a monster",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a monster.",
+    "root": "mazutsa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "mazutsao",
+    "english_equiv": "Monster artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a monster.",
+    "root": "mazutsa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "mazutsau",
+    "english_equiv": "Monsterhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a monster.",
+    "root": "mazutsa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "mecubua",
+    "english_equiv": "Narrow worldview person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies narrow worldview.",
+    "root": "mecubu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "mecubue",
+    "english_equiv": "Marked by narrow worldview",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by narrow worldview.",
+    "root": "mecubu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "mecubui",
+    "english_equiv": "To feel or enact narrow worldview",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about narrow worldview.",
+    "root": "mecubu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "mecubuo",
+    "english_equiv": "Narrow worldview object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving narrow worldview.",
+    "root": "mecubu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "mehefoa",
+    "english_equiv": "Compass worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a compass.",
+    "root": "mehefo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "mehefoe",
+    "english_equiv": "Compass-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to compass.",
+    "root": "mehefo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "compass-like",
+      "direction-finding",
+      "magnetic"
+    ]
+  },
+  {
+    "word": "mehefoi",
+    "english_equiv": "To use a compass",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a compass.",
+    "root": "mehefo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "mehefou",
+    "english_equiv": "Compass domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the compass.",
+    "root": "mehefo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "mekae",
-    "english_equiv": "Bone-like",
+    "english_equiv": "Made of bone",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a bone.",
     "root": "meka",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "made of bone",
+      "bony",
+      "bone-white"
+    ]
   },
   {
     "word": "mekai",
@@ -22531,12 +25302,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "midorae",
-    "english_equiv": "Watermelon-like",
+    "english_equiv": "Melon",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a watermelon.",
     "root": "midora",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "melon",
+      "of melon",
+      "watermelon-like"
+    ]
   },
   {
     "word": "midorai",
@@ -22567,12 +25343,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "mifae",
-    "english_equiv": "Animal-like",
+    "english_equiv": "Of animals",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a animal.",
     "root": "mifa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "of animals",
+      "animal-kind",
+      "beastly"
+    ]
   },
   {
     "word": "mifai",
@@ -23219,12 +26000,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "mudoe",
-    "english_equiv": "Mud-like",
+    "english_equiv": "Muddy",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to mud.",
     "root": "mudo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "muddy",
+      "made of mud",
+      "mud-caked"
+    ]
   },
   {
     "word": "mudoi",
@@ -23246,12 +26032,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "mue",
-    "english_equiv": "Marked by soul",
+    "english_equiv": "Of the soul",
     "part_of_speech": "Modifier",
     "definition": "Characterized by or marked by soul.",
     "root": "mu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "of the soul",
+      "spiritual",
+      "soul-infused"
+    ]
   },
   {
     "word": "mui",
@@ -23344,12 +26135,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "mulae",
-    "english_equiv": "Flower-like",
+    "english_equiv": "Floral",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a flower.",
     "root": "mula",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "floral",
+      "of a flower",
+      "flower-patterned"
+    ]
   },
   {
     "word": "mulai",
@@ -23384,6 +26180,42 @@ const derivedDictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A tangible object embodying or serving soul.",
     "root": "mu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "musmua",
+    "english_equiv": "Disguised blessing person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies disguised blessing.",
+    "root": "musmu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "musmue",
+    "english_equiv": "Marked by disguised blessing",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by disguised blessing.",
+    "root": "musmu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "musmui",
+    "english_equiv": "To feel or enact disguised blessing",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about disguised blessing.",
+    "root": "musmu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "musmuo",
+    "english_equiv": "Disguised blessing object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving disguised blessing.",
+    "root": "musmu",
     "derivation_path": "u→o",
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
@@ -23525,6 +26357,47 @@ const derivedDictionaryData = [
     "root": "my",
     "derivation_path": "y→o",
     "path_gloss": "Preposition -> Concrete Noun (relation object)"
+  },
+  {
+    "word": "myrafae",
+    "english_equiv": "Of a dragon",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a dragon.",
+    "root": "myrafa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "of a dragon",
+      "draconic",
+      "dragon-shaped"
+    ]
+  },
+  {
+    "word": "myrafai",
+    "english_equiv": "To act as a dragon",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a dragon.",
+    "root": "myrafa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "myrafao",
+    "english_equiv": "Dragon artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a dragon.",
+    "root": "myrafa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "myrafau",
+    "english_equiv": "Dragonhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a dragon.",
+    "root": "myrafa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
   {
     "word": "myu",
@@ -23926,6 +26799,78 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
+    "word": "negoxrea",
+    "english_equiv": "The random one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being random.",
+    "root": "negoxre",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "negoxrei",
+    "english_equiv": "To be random",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become random.",
+    "root": "negoxre",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "negoxreo",
+    "english_equiv": "Random thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is random.",
+    "root": "negoxre",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "negoxreu",
+    "english_equiv": "Randomness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being random.",
+    "root": "negoxre",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "nejowoa",
+    "english_equiv": "Ink worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a ink.",
+    "root": "nejowo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "nejowoe",
+    "english_equiv": "Ink-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to ink.",
+    "root": "nejowo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "nejowoi",
+    "english_equiv": "To use a ink",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a ink.",
+    "root": "nejowo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "nejowou",
+    "english_equiv": "Ink domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the ink.",
+    "root": "nejowo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "nekia",
     "english_equiv": "Doer of sit",
     "part_of_speech": "Biological Noun",
@@ -23960,6 +26905,42 @@ const derivedDictionaryData = [
     "root": "neki",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "nembua",
+    "english_equiv": "Congratulations person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies congratulations.",
+    "root": "nembu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "nembue",
+    "english_equiv": "Marked by congratulations",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by congratulations.",
+    "root": "nembu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "nembui",
+    "english_equiv": "To feel or enact congratulations",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about congratulations.",
+    "root": "nembu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "nembuo",
+    "english_equiv": "Congratulations object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving congratulations.",
+    "root": "nembu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "nenojea",
@@ -24074,6 +27055,42 @@ const derivedDictionaryData = [
     "path_gloss": "Preposition -> Abstract Noun (relation)"
   },
   {
+    "word": "netawae",
+    "english_equiv": "Cornflower-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a cornflower.",
+    "root": "netawa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "netawai",
+    "english_equiv": "To act as a cornflower",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a cornflower.",
+    "root": "netawa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "netawao",
+    "english_equiv": "Cornflower artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a cornflower.",
+    "root": "netawa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "netawau",
+    "english_equiv": "Cornflowerhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a cornflower.",
+    "root": "netawa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "neuqua",
     "english_equiv": "Disgust person",
     "part_of_speech": "Biological Noun",
@@ -24146,45 +27163,44 @@ const derivedDictionaryData = [
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
   {
-    "word": "nidae",
-    "english_equiv": "Tooth-like",
-    "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a tooth.",
-    "root": "nida",
-    "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "word": "nicua",
+    "english_equiv": "Debt person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies debt.",
+    "root": "nicu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
   },
   {
-    "word": "nidai",
-    "english_equiv": "To bite",
+    "word": "nicue",
+    "english_equiv": "Marked by debt",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by debt.",
+    "root": "nicu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "nicui",
+    "english_equiv": "To owe",
     "part_of_speech": "Verb",
-    "definition": "To cut or grip with the teeth.",
-    "root": "nida",
-    "derivation_path": "a→i",
-    "path_gloss": "Biological Noun (organ) -> Verb (use the organ)",
+    "definition": "To be under a debt or obligation.",
+    "root": "nicu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (enact)",
     "senses": [
-      "to bite",
-      "to gnaw",
-      "to chomp"
+      "to owe",
+      "to be indebted"
     ]
   },
   {
-    "word": "nidao",
-    "english_equiv": "Tooth artifact",
+    "word": "nicuo",
+    "english_equiv": "Debt object",
     "part_of_speech": "Concrete Noun",
-    "definition": "A physical object associated with a tooth.",
-    "root": "nida",
-    "derivation_path": "a→o",
-    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
-  },
-  {
-    "word": "nidau",
-    "english_equiv": "Toothhood",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The role, state, or quality of being a tooth.",
-    "root": "nida",
-    "derivation_path": "a→u",
-    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+    "definition": "A tangible object embodying or serving debt.",
+    "root": "nicu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "nikria",
@@ -24221,6 +27237,42 @@ const derivedDictionaryData = [
     "root": "nikri",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "nimpoa",
+    "english_equiv": "Carrot worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a carrot.",
+    "root": "nimpo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "nimpoe",
+    "english_equiv": "Carrot-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to carrot.",
+    "root": "nimpo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "nimpoi",
+    "english_equiv": "To use a carrot",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a carrot.",
+    "root": "nimpo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "nimpou",
+    "english_equiv": "Carrot domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the carrot.",
+    "root": "nimpo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "niwia",
@@ -24421,12 +27473,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "nojapio",
-    "english_equiv": "Tool or result of watch",
+    "english_equiv": "Observer",
     "part_of_speech": "Concrete Noun",
     "definition": "An instrument for, or physical result of, 'watch'.",
     "root": "nojapi",
     "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)",
+    "senses": [
+      "observer",
+      "watching device",
+      "sensor eye"
+    ]
   },
   {
     "word": "nojapiu",
@@ -24448,12 +27505,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "nokye",
-    "english_equiv": "Down-positioned",
+    "english_equiv": "Downward",
     "part_of_speech": "Modifier",
     "definition": "Positioned or oriented according to the relation 'down'.",
     "root": "noky",
     "derivation_path": "y→e",
-    "path_gloss": "Preposition -> Modifier (positioned)"
+    "path_gloss": "Preposition -> Modifier (positioned)",
+    "senses": [
+      "downward",
+      "lower",
+      "down-facing"
+    ]
   },
   {
     "word": "nokyi",
@@ -24855,114 +27917,6 @@ const derivedDictionaryData = [
     "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
   },
   {
-    "word": "nupasaqae",
-    "english_equiv": "Parent's sibling-like",
-    "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a parent's sibling.",
-    "root": "nupasaqa",
-    "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
-  },
-  {
-    "word": "nupasaqai",
-    "english_equiv": "To act as a parent's sibling",
-    "part_of_speech": "Verb",
-    "definition": "To act as, or serve in the role of, a parent's sibling.",
-    "root": "nupasaqa",
-    "derivation_path": "a→i",
-    "path_gloss": "Biological Noun -> Verb (act as)"
-  },
-  {
-    "word": "nupasaqao",
-    "english_equiv": "Parent's sibling artifact",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object associated with a parent's sibling.",
-    "root": "nupasaqa",
-    "derivation_path": "a→o",
-    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
-  },
-  {
-    "word": "nupasaqau",
-    "english_equiv": "Parent's siblinghood",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The role, state, or quality of being a parent's sibling.",
-    "root": "nupasaqa",
-    "derivation_path": "a→u",
-    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
-    "word": "nupasazae",
-    "english_equiv": "Aunt-like",
-    "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a aunt.",
-    "root": "nupasaza",
-    "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
-  },
-  {
-    "word": "nupasazai",
-    "english_equiv": "To act as a aunt",
-    "part_of_speech": "Verb",
-    "definition": "To act as, or serve in the role of, a aunt.",
-    "root": "nupasaza",
-    "derivation_path": "a→i",
-    "path_gloss": "Biological Noun -> Verb (act as)"
-  },
-  {
-    "word": "nupasazao",
-    "english_equiv": "Aunt artifact",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object associated with a aunt.",
-    "root": "nupasaza",
-    "derivation_path": "a→o",
-    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
-  },
-  {
-    "word": "nupasazau",
-    "english_equiv": "Aunthood",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The role, state, or quality of being a aunt.",
-    "root": "nupasaza",
-    "derivation_path": "a→u",
-    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
-    "word": "nupataqae",
-    "english_equiv": "Uncle-like",
-    "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a uncle.",
-    "root": "nupataqa",
-    "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
-  },
-  {
-    "word": "nupataqai",
-    "english_equiv": "To act as a uncle",
-    "part_of_speech": "Verb",
-    "definition": "To act as, or serve in the role of, a uncle.",
-    "root": "nupataqa",
-    "derivation_path": "a→i",
-    "path_gloss": "Biological Noun -> Verb (act as)"
-  },
-  {
-    "word": "nupataqao",
-    "english_equiv": "Uncle artifact",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object associated with a uncle.",
-    "root": "nupataqa",
-    "derivation_path": "a→o",
-    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
-  },
-  {
-    "word": "nupataqau",
-    "english_equiv": "Unclehood",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The role, state, or quality of being a uncle.",
-    "root": "nupataqa",
-    "derivation_path": "a→u",
-    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
     "word": "nupau",
     "english_equiv": "Parenthood",
     "part_of_speech": "Abstract Noun",
@@ -25018,12 +27972,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "nuwykoe",
-    "english_equiv": "Amethyst-like",
+    "english_equiv": "Made of amethyst",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to amethyst.",
     "root": "nuwyko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of amethyst",
+      "amethyst-purple",
+      "amethyst-like"
+    ]
   },
   {
     "word": "nuwykoi",
@@ -25080,15 +28039,6 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
-    "word": "nye",
-    "english_equiv": "Part of-positioned",
-    "part_of_speech": "Modifier",
-    "definition": "Positioned or oriented according to the relation 'part of'.",
-    "root": "ny",
-    "derivation_path": "y→e",
-    "path_gloss": "Preposition -> Modifier (positioned)"
-  },
-  {
     "word": "nyhogoa",
     "english_equiv": "Sentence worker",
     "part_of_speech": "Biological Noun",
@@ -25125,22 +28075,40 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
-    "word": "nyi",
-    "english_equiv": "To move part of",
-    "part_of_speech": "Verb",
-    "definition": "To move or be positioned according to the relation 'part of'.",
-    "root": "ny",
-    "derivation_path": "y→i",
-    "path_gloss": "Preposition -> Verb (relational motion)"
+    "word": "nyrsia",
+    "english_equiv": "Doer of carry",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'carry'.",
+    "root": "nyrsi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
   },
   {
-    "word": "nyo",
-    "english_equiv": "Object of the part of relation",
+    "word": "nyrsie",
+    "english_equiv": "Prone to carry",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'carry'.",
+    "root": "nyrsi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "nyrsio",
+    "english_equiv": "Tool or result of carry",
     "part_of_speech": "Concrete Noun",
-    "definition": "An object associated with the relation 'part of'.",
-    "root": "ny",
-    "derivation_path": "y→o",
-    "path_gloss": "Preposition -> Concrete Noun (relation object)"
+    "definition": "An instrument for, or physical result of, 'carry'.",
+    "root": "nyrsi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "nyrsiu",
+    "english_equiv": "Act of carry",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'carry'.",
+    "root": "nyrsi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "nytae",
@@ -25182,15 +28150,6 @@ const derivedDictionaryData = [
     "root": "nyta",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
-    "word": "nyu",
-    "english_equiv": "The part of relation",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract relation 'part of'.",
-    "root": "ny",
-    "derivation_path": "y→u",
-    "path_gloss": "Preposition -> Abstract Noun (relation)"
   },
   {
     "word": "obtae",
@@ -25533,6 +28492,46 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "ojesea",
+    "english_equiv": "The rare one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being rare.",
+    "root": "ojese",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "ojesei",
+    "english_equiv": "To be rare",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become rare.",
+    "root": "ojese",
+    "derivation_path": "e→i",
+    "senses": [
+      "to be rare",
+      "to become rare"
+    ],
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "ojeseo",
+    "english_equiv": "Rare thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is rare.",
+    "root": "ojese",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "ojeseu",
+    "english_equiv": "Rareness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being rare.",
+    "root": "ojese",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
     "word": "okezua",
     "english_equiv": "Lie person",
     "part_of_speech": "Biological Noun",
@@ -25645,6 +28644,42 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
+    "word": "olkenkoa",
+    "english_equiv": "Emblem worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a emblem.",
+    "root": "olkenko",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "olkenkoe",
+    "english_equiv": "Emblem-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to emblem.",
+    "root": "olkenko",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "olkenkoi",
+    "english_equiv": "To use a emblem",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a emblem.",
+    "root": "olkenko",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "olkenkou",
+    "english_equiv": "Emblem domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the emblem.",
+    "root": "olkenko",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "ombia",
     "english_equiv": "Doer of send",
     "part_of_speech": "Biological Noun",
@@ -25696,12 +28731,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "onasie",
-    "english_equiv": "Prone to to plant",
+    "english_equiv": "Cultivated",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'to plant'.",
     "root": "onasi",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "cultivated",
+      "farmed",
+      "tilled"
+    ]
   },
   {
     "word": "onasio",
@@ -25834,6 +28874,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "onyfua",
+    "english_equiv": "Bafflement person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies bafflement.",
+    "root": "onyfu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "onyfue",
+    "english_equiv": "Marked by bafflement",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by bafflement.",
+    "root": "onyfu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "onyfui",
+    "english_equiv": "To feel or enact bafflement",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about bafflement.",
+    "root": "onyfu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "onyfuo",
+    "english_equiv": "Bafflement object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving bafflement.",
+    "root": "onyfu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "opcoria",
     "english_equiv": "Doer of stir",
     "part_of_speech": "Biological Noun",
@@ -25904,6 +28980,119 @@ const derivedDictionaryData = [
     "root": "opdi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "opowoa",
+    "english_equiv": "Bulb worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a bulb.",
+    "root": "opowo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "opowoe",
+    "english_equiv": "Bulb-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to bulb.",
+    "root": "opowo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "opowoi",
+    "english_equiv": "To use a bulb",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a bulb.",
+    "root": "opowo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "opowou",
+    "english_equiv": "Bulb domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the bulb.",
+    "root": "opowo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "opubua",
+    "english_equiv": "Cruelty to the fallen person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies cruelty to the fallen.",
+    "root": "opubu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "opubue",
+    "english_equiv": "Marked by cruelty to the fallen",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by cruelty to the fallen.",
+    "root": "opubu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "opubui",
+    "english_equiv": "To feel or enact cruelty to the fallen",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about cruelty to the fallen.",
+    "root": "opubu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "opubuo",
+    "english_equiv": "Cruelty to the fallen object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving cruelty to the fallen.",
+    "root": "opubu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "oqawae",
+    "english_equiv": "Spore-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a spore.",
+    "root": "oqawa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "spore-bearing",
+      "of spores",
+      "spore-like"
+    ]
+  },
+  {
+    "word": "oqawai",
+    "english_equiv": "To act as a spore",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a spore.",
+    "root": "oqawa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "oqawao",
+    "english_equiv": "Spore artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a spore.",
+    "root": "oqawa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "oqawau",
+    "english_equiv": "Sporehood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a spore.",
+    "root": "oqawa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
   {
     "word": "oqoa",
@@ -26131,6 +29320,42 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
+    "word": "osybua",
+    "english_equiv": "Resignation person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies resignation.",
+    "root": "osybu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "osybue",
+    "english_equiv": "Marked by resignation",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by resignation.",
+    "root": "osybu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "osybui",
+    "english_equiv": "To feel or enact resignation",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about resignation.",
+    "root": "osybu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "osybuo",
+    "english_equiv": "Resignation object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving resignation.",
+    "root": "osybu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "otania",
     "english_equiv": "Doer of cook",
     "part_of_speech": "Biological Noun",
@@ -26257,12 +29482,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "otsinoe",
-    "english_equiv": "Thread-like",
+    "english_equiv": "Of thread",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to thread.",
     "root": "otsino",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "of thread",
+      "for weaving",
+      "threaded"
+    ]
   },
   {
     "word": "otsinoi",
@@ -26539,42 +29769,6 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
-    "word": "oxlye",
-    "english_equiv": "Since-positioned",
-    "part_of_speech": "Modifier",
-    "definition": "Positioned or oriented according to the relation 'since'.",
-    "root": "oxly",
-    "derivation_path": "y→e",
-    "path_gloss": "Preposition -> Modifier (positioned)"
-  },
-  {
-    "word": "oxlyi",
-    "english_equiv": "To move since",
-    "part_of_speech": "Verb",
-    "definition": "To move or be positioned according to the relation 'since'.",
-    "root": "oxly",
-    "derivation_path": "y→i",
-    "path_gloss": "Preposition -> Verb (relational motion)"
-  },
-  {
-    "word": "oxlyo",
-    "english_equiv": "Object of the since relation",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An object associated with the relation 'since'.",
-    "root": "oxly",
-    "derivation_path": "y→o",
-    "path_gloss": "Preposition -> Concrete Noun (relation object)"
-  },
-  {
-    "word": "oxlyu",
-    "english_equiv": "The since relation",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract relation 'since'.",
-    "root": "oxly",
-    "derivation_path": "y→u",
-    "path_gloss": "Preposition -> Abstract Noun (relation)"
-  },
-  {
     "word": "oxnoa",
     "english_equiv": "Wallet worker",
     "part_of_speech": "Biological Noun",
@@ -26662,12 +29856,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "oxtie",
-    "english_equiv": "Prone to protect",
+    "english_equiv": "Protected",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'protect'.",
     "root": "oxti",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "protected",
+      "reinforced",
+      "guarded"
+    ]
   },
   {
     "word": "oxtio",
@@ -26686,158 +29885,6 @@ const derivedDictionaryData = [
     "root": "oxti",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
-  },
-  {
-    "word": "oycua",
-    "english_equiv": "Debt person",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who practices or embodies debt.",
-    "root": "oycu",
-    "derivation_path": "u→a",
-    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
-  },
-  {
-    "word": "oycue",
-    "english_equiv": "Marked by debt",
-    "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by debt.",
-    "root": "oycu",
-    "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
-  },
-  {
-    "word": "oycui",
-    "english_equiv": "To owe",
-    "part_of_speech": "Verb",
-    "definition": "To be under a debt or obligation.",
-    "root": "oycu",
-    "derivation_path": "u→i",
-    "path_gloss": "Abstract Noun -> Verb (enact)",
-    "senses": [
-      "to owe",
-      "to be indebted"
-    ]
-  },
-  {
-    "word": "oycuo",
-    "english_equiv": "Debt object",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A tangible object embodying or serving debt.",
-    "root": "oycu",
-    "derivation_path": "u→o",
-    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
-  },
-  {
-    "word": "oykae",
-    "english_equiv": "Kidney-like",
-    "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a kidney.",
-    "root": "oyka",
-    "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
-  },
-  {
-    "word": "oykai",
-    "english_equiv": "To act as a kidney",
-    "part_of_speech": "Verb",
-    "definition": "To act as, or serve in the role of, a kidney.",
-    "root": "oyka",
-    "derivation_path": "a→i",
-    "path_gloss": "Biological Noun -> Verb (act as)"
-  },
-  {
-    "word": "oykao",
-    "english_equiv": "Kidney artifact",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object associated with a kidney.",
-    "root": "oyka",
-    "derivation_path": "a→o",
-    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
-  },
-  {
-    "word": "oykau",
-    "english_equiv": "Kidneyhood",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The role, state, or quality of being a kidney.",
-    "root": "oyka",
-    "derivation_path": "a→u",
-    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
-    "word": "oyvoa",
-    "english_equiv": "Ladder worker",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who works with, operates, or handles a ladder.",
-    "root": "oyvo",
-    "derivation_path": "o→a",
-    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
-  },
-  {
-    "word": "oyvoe",
-    "english_equiv": "Ladder-like",
-    "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to ladder.",
-    "root": "oyvo",
-    "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
-  },
-  {
-    "word": "oyvoi",
-    "english_equiv": "To use a ladder",
-    "part_of_speech": "Verb",
-    "definition": "To use, operate, or apply a ladder.",
-    "root": "oyvo",
-    "derivation_path": "o→i",
-    "path_gloss": "Concrete Noun -> Verb (use/apply)"
-  },
-  {
-    "word": "oyvou",
-    "english_equiv": "Ladder domain",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract concept or domain of the ladder.",
-    "root": "oyvo",
-    "derivation_path": "o→u",
-    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
-  },
-  {
-    "word": "oyzea",
-    "english_equiv": "The greedy one",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person characterized by being greedy.",
-    "root": "oyze",
-    "derivation_path": "e→a",
-    "path_gloss": "Modifier -> Biological Noun (characterized person)"
-  },
-  {
-    "word": "oyzei",
-    "english_equiv": "To be greedy",
-    "part_of_speech": "Verb",
-    "definition": "Stative: to be or become greedy.",
-    "root": "oyze",
-    "derivation_path": "e→i",
-    "senses": [
-      "to be greedy",
-      "to become greedy"
-    ],
-    "path_gloss": "Modifier -> Verb (stative)"
-  },
-  {
-    "word": "oyzeo",
-    "english_equiv": "Greedy thing",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object that is greedy.",
-    "root": "oyze",
-    "derivation_path": "e→o",
-    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
-  },
-  {
-    "word": "oyzeu",
-    "english_equiv": "Greedyness",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being greedy.",
-    "root": "oyze",
-    "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
     "word": "ozepia",
@@ -26912,6 +29959,47 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "paduproa",
+    "english_equiv": "Lava worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a lava.",
+    "root": "padupro",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "paduproe",
+    "english_equiv": "Of lava",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to lava.",
+    "root": "padupro",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "of lava",
+      "molten",
+      "lava-filled"
+    ]
+  },
+  {
+    "word": "paduproi",
+    "english_equiv": "To use a lava",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a lava.",
+    "root": "padupro",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "paduprou",
+    "english_equiv": "Lava domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the lava.",
+    "root": "padupro",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "paeloa",
     "english_equiv": "Paper worker",
     "part_of_speech": "Biological Noun",
@@ -26984,6 +30072,114 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "pagukua",
+    "english_equiv": "Non-interference person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies non-interference.",
+    "root": "paguku",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "pagukue",
+    "english_equiv": "Marked by non-interference",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by non-interference.",
+    "root": "paguku",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "pagukui",
+    "english_equiv": "To feel or enact non-interference",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about non-interference.",
+    "root": "paguku",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "pagukuo",
+    "english_equiv": "Non-interference object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving non-interference.",
+    "root": "paguku",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "pajae",
+    "english_equiv": "Uncle-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a uncle.",
+    "root": "paja",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "pajai",
+    "english_equiv": "To act as a uncle",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a uncle.",
+    "root": "paja",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "pajao",
+    "english_equiv": "Uncle artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a uncle.",
+    "root": "paja",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "pajau",
+    "english_equiv": "Unclehood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a uncle.",
+    "root": "paja",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "pampigia",
+    "english_equiv": "Doer of intend",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'intend'.",
+    "root": "pampigi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "pampigie",
+    "english_equiv": "Prone to intend",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'intend'.",
+    "root": "pampigi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "pampigio",
+    "english_equiv": "Tool or result of intend",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'intend'.",
+    "root": "pampigi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "pampigiu",
+    "english_equiv": "Act of intend",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'intend'.",
+    "root": "pampigi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "pamua",
     "english_equiv": "Pain person",
     "part_of_speech": "Biological Noun",
@@ -27034,12 +30230,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "panoe",
-    "english_equiv": "Book-like",
+    "english_equiv": "Of books",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to book.",
     "root": "pano",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "of books",
+      "book-related",
+      "for books"
+    ]
   },
   {
     "word": "panoi",
@@ -27612,6 +30813,46 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "pilkea",
+    "english_equiv": "The alive one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being alive.",
+    "root": "pilke",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "pilkei",
+    "english_equiv": "To be alive",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become alive.",
+    "root": "pilke",
+    "derivation_path": "e→i",
+    "senses": [
+      "to be alive",
+      "to become alive"
+    ],
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "pilkeo",
+    "english_equiv": "Alive thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is alive.",
+    "root": "pilke",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "pilkeu",
+    "english_equiv": "Aliveness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being alive.",
+    "root": "pilke",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
     "word": "pinye",
     "english_equiv": "As-positioned",
     "part_of_speech": "Modifier",
@@ -27688,6 +30929,47 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "pixrae",
+    "english_equiv": "Tooth-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a tooth.",
+    "root": "pixra",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "pixrai",
+    "english_equiv": "To bite",
+    "part_of_speech": "Verb",
+    "definition": "To cut or grip with the teeth.",
+    "root": "pixra",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun (organ) -> Verb (use the organ)",
+    "senses": [
+      "to bite",
+      "to gnaw",
+      "to chomp"
+    ]
+  },
+  {
+    "word": "pixrao",
+    "english_equiv": "Tooth artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a tooth.",
+    "root": "pixra",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "pixrau",
+    "english_equiv": "Toothhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a tooth.",
+    "root": "pixra",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "pizua",
     "english_equiv": "Guilt person",
     "part_of_speech": "Biological Noun",
@@ -27762,42 +31044,6 @@ const derivedDictionaryData = [
     "root": "plaho",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
-  },
-  {
-    "word": "pleycua",
-    "english_equiv": "Congratulations person",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who practices or embodies congratulations.",
-    "root": "pleycu",
-    "derivation_path": "u→a",
-    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
-  },
-  {
-    "word": "pleycue",
-    "english_equiv": "Marked by congratulations",
-    "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by congratulations.",
-    "root": "pleycu",
-    "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
-  },
-  {
-    "word": "pleycui",
-    "english_equiv": "To feel or enact congratulations",
-    "part_of_speech": "Verb",
-    "definition": "To feel, express, or bring about congratulations.",
-    "root": "pleycu",
-    "derivation_path": "u→i",
-    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
-  },
-  {
-    "word": "pleycuo",
-    "english_equiv": "Congratulations object",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A tangible object embodying or serving congratulations.",
-    "root": "pleycu",
-    "derivation_path": "u→o",
-    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "plia",
@@ -27886,6 +31132,42 @@ const derivedDictionaryData = [
     "senses": [
       "the abstract concept of monetary value"
     ]
+  },
+  {
+    "word": "pluratae",
+    "english_equiv": "Berry-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a berry.",
+    "root": "plurata",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "pluratai",
+    "english_equiv": "To act as a berry",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a berry.",
+    "root": "plurata",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "pluratao",
+    "english_equiv": "Berry artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a berry.",
+    "root": "plurata",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "pluratau",
+    "english_equiv": "Berryhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a berry.",
+    "root": "plurata",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
   {
     "word": "pobrea",
@@ -28319,6 +31601,47 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
+    "word": "prazae",
+    "english_equiv": "Kelp-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a kelp.",
+    "root": "praza",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "made of kelp",
+      "kelp-covered",
+      "kelp-like"
+    ]
+  },
+  {
+    "word": "prazai",
+    "english_equiv": "To act as a kelp",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a kelp.",
+    "root": "praza",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "prazao",
+    "english_equiv": "Kelp artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a kelp.",
+    "root": "praza",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "prazau",
+    "english_equiv": "Kelphood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a kelp.",
+    "root": "praza",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "prigloa",
     "english_equiv": "Beetroot worker",
     "part_of_speech": "Biological Noun",
@@ -28353,6 +31676,42 @@ const derivedDictionaryData = [
     "root": "priglo",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "pudye",
+    "english_equiv": "Since-positioned",
+    "part_of_speech": "Modifier",
+    "definition": "Positioned or oriented according to the relation 'since'.",
+    "root": "pudy",
+    "derivation_path": "y→e",
+    "path_gloss": "Preposition -> Modifier (positioned)"
+  },
+  {
+    "word": "pudyi",
+    "english_equiv": "To move since",
+    "part_of_speech": "Verb",
+    "definition": "To move or be positioned according to the relation 'since'.",
+    "root": "pudy",
+    "derivation_path": "y→i",
+    "path_gloss": "Preposition -> Verb (relational motion)"
+  },
+  {
+    "word": "pudyo",
+    "english_equiv": "Object of the since relation",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An object associated with the relation 'since'.",
+    "root": "pudy",
+    "derivation_path": "y→o",
+    "path_gloss": "Preposition -> Concrete Noun (relation object)"
+  },
+  {
+    "word": "pudyu",
+    "english_equiv": "The since relation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract relation 'since'.",
+    "root": "pudy",
+    "derivation_path": "y→u",
+    "path_gloss": "Preposition -> Abstract Noun (relation)"
   },
   {
     "word": "pujypae",
@@ -28544,12 +31903,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "pydrae",
-    "english_equiv": "Jungle tree-like",
+    "english_equiv": "Jungle",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a jungle tree.",
     "root": "pydra",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "jungle",
+      "of the jungle",
+      "jungle-wood"
+    ]
   },
   {
     "word": "pydrai",
@@ -28873,51 +32237,6 @@ const derivedDictionaryData = [
     "root": "raje",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)"
-  },
-  {
-    "word": "ramdea",
-    "english_equiv": "The different one",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person characterized by being different.",
-    "root": "ramde",
-    "derivation_path": "e→a",
-    "path_gloss": "Modifier -> Biological Noun (characterized person)"
-  },
-  {
-    "word": "ramdei",
-    "english_equiv": "To be different",
-    "part_of_speech": "Verb",
-    "definition": "Stative: to be or become different.",
-    "root": "ramde",
-    "derivation_path": "e→i",
-    "senses": [
-      "to be different",
-      "to become different"
-    ],
-    "path_gloss": "Modifier -> Verb (stative)"
-  },
-  {
-    "word": "ramdeo",
-    "english_equiv": "Different thing",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object that is different.",
-    "root": "ramde",
-    "derivation_path": "e→o",
-    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
-  },
-  {
-    "word": "ramdeu",
-    "english_equiv": "Difference",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The state or degree of being different.",
-    "root": "ramde",
-    "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)",
-    "senses": [
-      "difference",
-      "distinction",
-      "disparity"
-    ]
   },
   {
     "word": "ramea",
@@ -29308,12 +32627,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "resnoe",
-    "english_equiv": "Arrow-like",
+    "english_equiv": "Of arrows",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to arrow.",
     "root": "resno",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "of arrows",
+      "arrow-related",
+      "fletched"
+    ]
   },
   {
     "word": "resnoi",
@@ -29488,7 +32812,8 @@ const derivedDictionaryData = [
     "definition": "Positioned or oriented according to the relation 'far'.",
     "root": "rewy",
     "derivation_path": "y→e",
-    "path_gloss": "Preposition -> Modifier (positioned)"
+    "path_gloss": "Preposition -> Modifier (positioned)",
+    "reviewed": "baseline"
   },
   {
     "word": "rewyei",
@@ -29606,6 +32931,47 @@ const derivedDictionaryData = [
     "root": "ricodo",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "rinkawae",
+    "english_equiv": "Skull-shaped",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a skull.",
+    "root": "rinkawa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "skull-shaped",
+      "skull-patterned",
+      "of a skull"
+    ]
+  },
+  {
+    "word": "rinkawai",
+    "english_equiv": "To act as a skull",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a skull.",
+    "root": "rinkawa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "rinkawao",
+    "english_equiv": "Skull artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a skull.",
+    "root": "rinkawa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "rinkawau",
+    "english_equiv": "Skullhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a skull.",
+    "root": "rinkawa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
   {
     "word": "rintea",
@@ -30158,6 +33524,42 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "ruavae",
+    "english_equiv": "Dandelion-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a dandelion.",
+    "root": "ruava",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "ruavai",
+    "english_equiv": "To act as a dandelion",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a dandelion.",
+    "root": "ruava",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "ruavao",
+    "english_equiv": "Dandelion artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a dandelion.",
+    "root": "ruava",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "ruavau",
+    "english_equiv": "Dandelionhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a dandelion.",
+    "root": "ruava",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "rucemia",
     "english_equiv": "Doer of lead",
     "part_of_speech": "Biological Noun",
@@ -30234,6 +33636,42 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "rufocoa",
+    "english_equiv": "Anchor worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a anchor.",
+    "root": "rufoco",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "rufocoe",
+    "english_equiv": "Anchor-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to anchor.",
+    "root": "rufoco",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "rufocoi",
+    "english_equiv": "To use a anchor",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a anchor.",
+    "root": "rufoco",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "rufocou",
+    "english_equiv": "Anchor domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the anchor.",
+    "root": "rufoco",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "rugoxua",
     "english_equiv": "Month person",
     "part_of_speech": "Biological Noun",
@@ -30268,6 +33706,42 @@ const derivedDictionaryData = [
     "root": "rugoxu",
     "derivation_path": "u→o",
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "rukojoa",
+    "english_equiv": "Vein worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a vein.",
+    "root": "rukojo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "rukojoe",
+    "english_equiv": "Vein-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to vein.",
+    "root": "rukojo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "rukojoi",
+    "english_equiv": "To use a vein",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a vein.",
+    "root": "rukojo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "rukojou",
+    "english_equiv": "Vein domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the vein.",
+    "root": "rukojo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "rutea",
@@ -30510,12 +33984,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "sanpoe",
-    "english_equiv": "Sand-like",
+    "english_equiv": "Sandy",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to sand.",
     "root": "sanpo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "sandy",
+      "sand-textured",
+      "powdery"
+    ]
   },
   {
     "word": "sanpoi",
@@ -30720,6 +34199,47 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "savodoa",
+    "english_equiv": "Coal worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a coal.",
+    "root": "savodo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "savodoe",
+    "english_equiv": "Made of coal",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to coal.",
+    "root": "savodo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of coal",
+      "coal-black",
+      "coal-fired"
+    ]
+  },
+  {
+    "word": "savodoi",
+    "english_equiv": "To use a coal",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a coal.",
+    "root": "savodo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "savodou",
+    "english_equiv": "Coal domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the coal.",
+    "root": "savodo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "sazae",
     "english_equiv": "Sister-like",
     "part_of_speech": "Modifier",
@@ -30828,45 +34348,40 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
-    "word": "semua",
-    "english_equiv": "Meaning person",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who practices or embodies meaning.",
-    "root": "semu",
-    "derivation_path": "u→a",
-    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
-  },
-  {
-    "word": "semue",
-    "english_equiv": "Marked by meaning",
+    "word": "sesnye",
+    "english_equiv": "Despite-positioned",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by meaning.",
-    "root": "semu",
-    "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "definition": "Positioned or oriented according to the relation 'despite'.",
+    "root": "sesny",
+    "derivation_path": "y→e",
+    "path_gloss": "Preposition -> Modifier (positioned)"
   },
   {
-    "word": "semui",
-    "english_equiv": "To mean / To signify",
+    "word": "sesnyi",
+    "english_equiv": "To move despite",
     "part_of_speech": "Verb",
-    "definition": "To convey or carry meaning.",
-    "root": "semu",
-    "derivation_path": "u→i",
-    "path_gloss": "Abstract Noun -> Verb (enact)",
-    "senses": [
-      "to mean",
-      "to signify",
-      "to denote"
-    ]
+    "definition": "To move or be positioned according to the relation 'despite'.",
+    "root": "sesny",
+    "derivation_path": "y→i",
+    "path_gloss": "Preposition -> Verb (relational motion)"
   },
   {
-    "word": "semuo",
-    "english_equiv": "Meaning object",
+    "word": "sesnyo",
+    "english_equiv": "Object of the despite relation",
     "part_of_speech": "Concrete Noun",
-    "definition": "A tangible object embodying or serving meaning.",
-    "root": "semu",
-    "derivation_path": "u→o",
-    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+    "definition": "An object associated with the relation 'despite'.",
+    "root": "sesny",
+    "derivation_path": "y→o",
+    "path_gloss": "Preposition -> Concrete Noun (relation object)"
+  },
+  {
+    "word": "sesnyu",
+    "english_equiv": "The despite relation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract relation 'despite'.",
+    "root": "sesny",
+    "derivation_path": "y→u",
+    "path_gloss": "Preposition -> Abstract Noun (relation)"
   },
   {
     "word": "sexia",
@@ -30903,6 +34418,42 @@ const derivedDictionaryData = [
     "root": "sexi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "sidohoa",
+    "english_equiv": "Pillar worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a pillar.",
+    "root": "sidoho",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "sidohoe",
+    "english_equiv": "Pillar-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to pillar.",
+    "root": "sidoho",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "sidohoi",
+    "english_equiv": "To use a pillar",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a pillar.",
+    "root": "sidoho",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "sidohou",
+    "english_equiv": "Pillar domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the pillar.",
+    "root": "sidoho",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "sifae",
@@ -31053,6 +34604,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "siswasoa",
+    "english_equiv": "Stripe worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a stripe.",
+    "root": "siswaso",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "siswasoe",
+    "english_equiv": "Stripe-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to stripe.",
+    "root": "siswaso",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "siswasoi",
+    "english_equiv": "To use a stripe",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a stripe.",
+    "root": "siswaso",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "siswasou",
+    "english_equiv": "Stripe domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the stripe.",
+    "root": "siswaso",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "skagia",
     "english_equiv": "Doer of break",
     "part_of_speech": "Biological Noun",
@@ -31121,6 +34708,78 @@ const derivedDictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The act, process, or concept of 'suspect'.",
     "root": "skaxebi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "skezafae",
+    "english_equiv": "Pufferfish-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a pufferfish.",
+    "root": "skezafa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "skezafai",
+    "english_equiv": "To act as a pufferfish",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a pufferfish.",
+    "root": "skezafa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "skezafao",
+    "english_equiv": "Pufferfish artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a pufferfish.",
+    "root": "skezafa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "skezafau",
+    "english_equiv": "Pufferfishhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a pufferfish.",
+    "root": "skezafa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "skiwia",
+    "english_equiv": "Doer of control",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'control'.",
+    "root": "skiwi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "skiwie",
+    "english_equiv": "Prone to control",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'control'.",
+    "root": "skiwi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "skiwio",
+    "english_equiv": "Tool or result of control",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'control'.",
+    "root": "skiwi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "skiwiu",
+    "english_equiv": "Act of control",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'control'.",
+    "root": "skiwi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
@@ -31307,6 +34966,88 @@ const derivedDictionaryData = [
     "root": "slafe",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "slewofoa",
+    "english_equiv": "Wax worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a wax.",
+    "root": "slewofo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "slewofoe",
+    "english_equiv": "Waxen",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to wax.",
+    "root": "slewofo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "waxen",
+      "made of wax",
+      "wax-coated"
+    ]
+  },
+  {
+    "word": "slewofoi",
+    "english_equiv": "To use a wax",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a wax.",
+    "root": "slewofo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "slewofou",
+    "english_equiv": "Wax domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the wax.",
+    "root": "slewofo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "slojoa",
+    "english_equiv": "Fan worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a fan.",
+    "root": "slojo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "slojoe",
+    "english_equiv": "Fan-shaped",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to fan.",
+    "root": "slojo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "fan-shaped",
+      "spread like a fan",
+      "fanned"
+    ]
+  },
+  {
+    "word": "slojoi",
+    "english_equiv": "To use a fan",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a fan.",
+    "root": "slojo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "slojou",
+    "english_equiv": "Fan domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the fan.",
+    "root": "slojo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
     "word": "sluqea",
@@ -31497,6 +35238,78 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "smotifia",
+    "english_equiv": "Doer of restore",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'restore'.",
+    "root": "smotifi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "smotifie",
+    "english_equiv": "Prone to restore",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'restore'.",
+    "root": "smotifi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "smotifio",
+    "english_equiv": "Tool or result of restore",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'restore'.",
+    "root": "smotifi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "smotifiu",
+    "english_equiv": "Act of restore",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'restore'.",
+    "root": "smotifi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "smusua",
+    "english_equiv": "Futility person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies futility.",
+    "root": "smusu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "smusue",
+    "english_equiv": "Marked by futility",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by futility.",
+    "root": "smusu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "smusui",
+    "english_equiv": "To feel or enact futility",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about futility.",
+    "root": "smusu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "smusuo",
+    "english_equiv": "Futility object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving futility.",
+    "root": "smusu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "snahae",
     "english_equiv": "Deer-like",
     "part_of_speech": "Modifier",
@@ -31639,6 +35452,42 @@ const derivedDictionaryData = [
     "root": "solfi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "somadae",
+    "english_equiv": "Dolphin-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a dolphin.",
+    "root": "somada",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "somadai",
+    "english_equiv": "To act as a dolphin",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a dolphin.",
+    "root": "somada",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "somadao",
+    "english_equiv": "Dolphin artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a dolphin.",
+    "root": "somada",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "somadau",
+    "english_equiv": "Dolphinhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a dolphin.",
+    "root": "somada",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
   {
     "word": "sonea",
@@ -31895,6 +35744,114 @@ const derivedDictionaryData = [
     "root": "splyxi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "spujubae",
+    "english_equiv": "Squid-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a squid.",
+    "root": "spujuba",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "spujubai",
+    "english_equiv": "To act as a squid",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a squid.",
+    "root": "spujuba",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "spujubao",
+    "english_equiv": "Squid artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a squid.",
+    "root": "spujuba",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "spujubau",
+    "english_equiv": "Squidhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a squid.",
+    "root": "spujuba",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "spuxizia",
+    "english_equiv": "Doer of splash",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'splash'.",
+    "root": "spuxizi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "spuxizie",
+    "english_equiv": "Prone to splash",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'splash'.",
+    "root": "spuxizi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "spuxizio",
+    "english_equiv": "Tool or result of splash",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'splash'.",
+    "root": "spuxizi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "spuxiziu",
+    "english_equiv": "Act of splash",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'splash'.",
+    "root": "spuxizi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "spyfua",
+    "english_equiv": "Luck-waiting person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies luck-waiting.",
+    "root": "spyfu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "spyfue",
+    "english_equiv": "Marked by luck-waiting",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by luck-waiting.",
+    "root": "spyfu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "spyfui",
+    "english_equiv": "To feel or enact luck-waiting",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about luck-waiting.",
+    "root": "spyfu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "spyfuo",
+    "english_equiv": "Luck-waiting object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving luck-waiting.",
+    "root": "spyfu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "staloa",
@@ -32280,12 +36237,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "sudie",
-    "english_equiv": "Prone to push",
+    "english_equiv": "Pressing",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'push'.",
     "root": "sudi",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "pressing",
+      "push-activated",
+      "pressure-sensitive"
+    ]
   },
   {
     "word": "sudio",
@@ -32340,6 +36302,42 @@ const derivedDictionaryData = [
     "root": "sufi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "suglasae",
+    "english_equiv": "Zombie-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a zombie.",
+    "root": "suglasa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "suglasai",
+    "english_equiv": "To act as a zombie",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a zombie.",
+    "root": "suglasa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "suglasao",
+    "english_equiv": "Zombie artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a zombie.",
+    "root": "suglasa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "suglasau",
+    "english_equiv": "Zombiehood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a zombie.",
+    "root": "suglasa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
   {
     "word": "sukea",
@@ -32418,6 +36416,42 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "susnoa",
+    "english_equiv": "Screen worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a screen.",
+    "root": "susno",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "susnoe",
+    "english_equiv": "Screen-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to screen.",
+    "root": "susno",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "susnoi",
+    "english_equiv": "To use a screen",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a screen.",
+    "root": "susno",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "susnou",
+    "english_equiv": "Screen domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the screen.",
+    "root": "susno",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "swamia",
     "english_equiv": "Doer of put",
     "part_of_speech": "Biological Noun",
@@ -32488,6 +36522,42 @@ const derivedDictionaryData = [
     "root": "sweso",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "swozye",
+    "english_equiv": "Except-positioned",
+    "part_of_speech": "Modifier",
+    "definition": "Positioned or oriented according to the relation 'except'.",
+    "root": "swozy",
+    "derivation_path": "y→e",
+    "path_gloss": "Preposition -> Modifier (positioned)"
+  },
+  {
+    "word": "swozyi",
+    "english_equiv": "To move except",
+    "part_of_speech": "Verb",
+    "definition": "To move or be positioned according to the relation 'except'.",
+    "root": "swozy",
+    "derivation_path": "y→i",
+    "path_gloss": "Preposition -> Verb (relational motion)"
+  },
+  {
+    "word": "swozyo",
+    "english_equiv": "Object of the except relation",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An object associated with the relation 'except'.",
+    "root": "swozy",
+    "derivation_path": "y→o",
+    "path_gloss": "Preposition -> Concrete Noun (relation object)"
+  },
+  {
+    "word": "swozyu",
+    "english_equiv": "The except relation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract relation 'except'.",
+    "root": "swozy",
+    "derivation_path": "y→u",
+    "path_gloss": "Preposition -> Abstract Noun (relation)"
   },
   {
     "word": "swucua",
@@ -32577,12 +36647,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "sydoe",
-    "english_equiv": "House-like",
+    "english_equiv": "Of the home",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to house.",
     "root": "sydo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "of the home",
+      "house-related",
+      "domestic"
+    ]
   },
   {
     "word": "sydoi",
@@ -32755,6 +36830,42 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "tagudua",
+    "english_equiv": "Bad bargain person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies bad bargain.",
+    "root": "tagudu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "tagudue",
+    "english_equiv": "Marked by bad bargain",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by bad bargain.",
+    "root": "tagudu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "tagudui",
+    "english_equiv": "To feel or enact bad bargain",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about bad bargain.",
+    "root": "tagudu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "taguduo",
+    "english_equiv": "Bad bargain object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving bad bargain.",
+    "root": "tagudu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "taicua",
     "english_equiv": "Party person",
     "part_of_speech": "Biological Noun",
@@ -32923,12 +37034,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "tandorsoe",
-    "english_equiv": "Ocean-like",
+    "english_equiv": "Of the sea",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to ocean.",
     "root": "tandorso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "of the sea",
+      "marine",
+      "oceanic"
+    ]
   },
   {
     "word": "tandorsoi",
@@ -32947,46 +37063,6 @@ const derivedDictionaryData = [
     "root": "tandorso",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
-  },
-  {
-    "word": "tanea",
-    "english_equiv": "The that one",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person characterized by being that.",
-    "root": "tane",
-    "derivation_path": "e→a",
-    "path_gloss": "Modifier -> Biological Noun (characterized person)"
-  },
-  {
-    "word": "tanei",
-    "english_equiv": "To be that",
-    "part_of_speech": "Verb",
-    "definition": "Stative: to be or become that.",
-    "root": "tane",
-    "derivation_path": "e→i",
-    "senses": [
-      "to be that",
-      "to become that"
-    ],
-    "path_gloss": "Modifier -> Verb (stative)"
-  },
-  {
-    "word": "taneo",
-    "english_equiv": "That thing",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object that is that.",
-    "root": "tane",
-    "derivation_path": "e→o",
-    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
-  },
-  {
-    "word": "taneu",
-    "english_equiv": "Thatness",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being that.",
-    "root": "tane",
-    "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
     "word": "tankoa",
@@ -33353,6 +37429,83 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "tifavae",
+    "english_equiv": "Bush-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a bush.",
+    "root": "tifava",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "tifavai",
+    "english_equiv": "To act as a bush",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a bush.",
+    "root": "tifava",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "tifavao",
+    "english_equiv": "Bush artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a bush.",
+    "root": "tifava",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "tifavau",
+    "english_equiv": "Bushhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a bush.",
+    "root": "tifava",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "timyboa",
+    "english_equiv": "Pumpkin worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a pumpkin.",
+    "root": "timybo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "timyboe",
+    "english_equiv": "Made of pumpkin",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to pumpkin.",
+    "root": "timybo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of pumpkin",
+      "pumpkin-like",
+      "pumpkin-flavored"
+    ]
+  },
+  {
+    "word": "timyboi",
+    "english_equiv": "To use a pumpkin",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a pumpkin.",
+    "root": "timybo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "timybou",
+    "english_equiv": "Pumpkin domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the pumpkin.",
+    "root": "timybo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "tocea",
     "english_equiv": "The sorry one",
     "part_of_speech": "Biological Noun",
@@ -33470,6 +37623,78 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "tofakroa",
+    "english_equiv": "Field worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a field.",
+    "root": "tofakro",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "tofakroe",
+    "english_equiv": "Field-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to field.",
+    "root": "tofakro",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "tofakroi",
+    "english_equiv": "To use a field",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a field.",
+    "root": "tofakro",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "tofakrou",
+    "english_equiv": "Field domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the field.",
+    "root": "tofakro",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "tofrae",
+    "english_equiv": "Aunt-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a aunt.",
+    "root": "tofra",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "tofrai",
+    "english_equiv": "To act as a aunt",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a aunt.",
+    "root": "tofra",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "tofrao",
+    "english_equiv": "Aunt artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a aunt.",
+    "root": "tofra",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "tofrau",
+    "english_equiv": "Aunthood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a aunt.",
+    "root": "tofra",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "toilia",
     "english_equiv": "Doer of lend",
     "part_of_speech": "Biological Noun",
@@ -33510,6 +37735,42 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "tolkywoa",
+    "english_equiv": "Cross worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a cross.",
+    "root": "tolkywo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "tolkywoe",
+    "english_equiv": "Cross-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to cross.",
+    "root": "tolkywo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "tolkywoi",
+    "english_equiv": "To use a cross",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a cross.",
+    "root": "tolkywo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "tolkywou",
+    "english_equiv": "Cross domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the cross.",
+    "root": "tolkywo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "topzae",
     "english_equiv": "Chest-like",
     "part_of_speech": "Modifier",
@@ -33544,6 +37805,42 @@ const derivedDictionaryData = [
     "root": "topza",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "tosurua",
+    "english_equiv": "Hardship endurance person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies hardship endurance.",
+    "root": "tosuru",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "tosurue",
+    "english_equiv": "Marked by hardship endurance",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by hardship endurance.",
+    "root": "tosuru",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "tosurui",
+    "english_equiv": "To feel or enact hardship endurance",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about hardship endurance.",
+    "root": "tosuru",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "tosuruo",
+    "english_equiv": "Hardship endurance object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving hardship endurance.",
+    "root": "tosuru",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "tovnia",
@@ -33618,6 +37915,42 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
+    "word": "traxae",
+    "english_equiv": "Kidney-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a kidney.",
+    "root": "traxa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "traxai",
+    "english_equiv": "To act as a kidney",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a kidney.",
+    "root": "traxa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "traxao",
+    "english_equiv": "Kidney artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a kidney.",
+    "root": "traxa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "traxau",
+    "english_equiv": "Kidneyhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a kidney.",
+    "root": "traxa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "triruzua",
     "english_equiv": "Frustration person",
     "part_of_speech": "Biological Noun",
@@ -33650,6 +37983,42 @@ const derivedDictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A tangible object embodying or serving frustration.",
     "root": "triruzu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "truhua",
+    "english_equiv": "Awe person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies awe.",
+    "root": "truhu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "truhue",
+    "english_equiv": "Marked by awe",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by awe.",
+    "root": "truhu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "truhui",
+    "english_equiv": "To feel or enact awe",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about awe.",
+    "root": "truhu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "truhuo",
+    "english_equiv": "Awe object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving awe.",
+    "root": "truhu",
     "derivation_path": "u→o",
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
@@ -33914,6 +38283,42 @@ const derivedDictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The act, process, or concept of 'search'.",
     "root": "tsyti",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "tudihia",
+    "english_equiv": "Doer of bang",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'bang'.",
+    "root": "tudihi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "tudihie",
+    "english_equiv": "Prone to bang",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'bang'.",
+    "root": "tudihi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "tudihio",
+    "english_equiv": "Tool or result of bang",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'bang'.",
+    "root": "tudihi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "tudihiu",
+    "english_equiv": "Act of bang",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'bang'.",
+    "root": "tudihi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
@@ -34996,6 +39401,47 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "unyhae",
+    "english_equiv": "Moss-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a moss.",
+    "root": "unyha",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "mossy",
+      "moss-covered",
+      "made of moss"
+    ]
+  },
+  {
+    "word": "unyhai",
+    "english_equiv": "To act as a moss",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a moss.",
+    "root": "unyha",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "unyhao",
+    "english_equiv": "Moss artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a moss.",
+    "root": "unyha",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "unyhau",
+    "english_equiv": "Mosshood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a moss.",
+    "root": "unyha",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "uovoa",
     "english_equiv": "Pillow worker",
     "part_of_speech": "Biological Noun",
@@ -35144,6 +39590,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "upycia",
+    "english_equiv": "Doer of look",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'look'.",
+    "root": "upyci",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "upycie",
+    "english_equiv": "Prone to look",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'look'.",
+    "root": "upyci",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "upycio",
+    "english_equiv": "Tool or result of look",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'look'.",
+    "root": "upyci",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "upyciu",
+    "english_equiv": "Act of look",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'look'.",
+    "root": "upyci",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "uqua",
     "english_equiv": "Sign person",
     "part_of_speech": "Biological Noun",
@@ -35172,12 +39654,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "uquo",
-    "english_equiv": "Sign object",
+    "english_equiv": "Signboard",
     "part_of_speech": "Concrete Noun",
     "definition": "A tangible object embodying or serving sign.",
     "root": "uqu",
     "derivation_path": "u→o",
-    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)",
+    "senses": [
+      "signboard",
+      "signpost",
+      "notice board"
+    ]
   },
   {
     "word": "urfua",
@@ -35555,190 +40042,6 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
-    "word": "uyjia",
-    "english_equiv": "Doer of wash",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'wash'.",
-    "root": "uyji",
-    "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
-  },
-  {
-    "word": "uyjie",
-    "english_equiv": "Prone to wash",
-    "part_of_speech": "Modifier",
-    "definition": "Tending toward, or involving, the action 'wash'.",
-    "root": "uyji",
-    "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
-  },
-  {
-    "word": "uyjio",
-    "english_equiv": "Tool or result of wash",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An instrument for, or physical result of, 'wash'.",
-    "root": "uyji",
-    "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
-  },
-  {
-    "word": "uyjiu",
-    "english_equiv": "Act of wash",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'wash'.",
-    "root": "uyji",
-    "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
-  },
-  {
-    "word": "uymoa",
-    "english_equiv": "Umbrella worker",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who works with, operates, or handles a umbrella.",
-    "root": "uymo",
-    "derivation_path": "o→a",
-    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
-  },
-  {
-    "word": "uymoe",
-    "english_equiv": "Umbrella-like",
-    "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to umbrella.",
-    "root": "uymo",
-    "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
-  },
-  {
-    "word": "uymoi",
-    "english_equiv": "To use a umbrella",
-    "part_of_speech": "Verb",
-    "definition": "To use, operate, or apply a umbrella.",
-    "root": "uymo",
-    "derivation_path": "o→i",
-    "path_gloss": "Concrete Noun -> Verb (use/apply)"
-  },
-  {
-    "word": "uymou",
-    "english_equiv": "Umbrella domain",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract concept or domain of the umbrella.",
-    "root": "uymo",
-    "derivation_path": "o→u",
-    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
-  },
-  {
-    "word": "uyrea",
-    "english_equiv": "The alive one",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person characterized by being alive.",
-    "root": "uyre",
-    "derivation_path": "e→a",
-    "path_gloss": "Modifier -> Biological Noun (characterized person)"
-  },
-  {
-    "word": "uyrei",
-    "english_equiv": "To be alive",
-    "part_of_speech": "Verb",
-    "definition": "Stative: to be or become alive.",
-    "root": "uyre",
-    "derivation_path": "e→i",
-    "senses": [
-      "to be alive",
-      "to become alive"
-    ],
-    "path_gloss": "Modifier -> Verb (stative)"
-  },
-  {
-    "word": "uyreo",
-    "english_equiv": "Alive thing",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object that is alive.",
-    "root": "uyre",
-    "derivation_path": "e→o",
-    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
-  },
-  {
-    "word": "uyreu",
-    "english_equiv": "Aliveness",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being alive.",
-    "root": "uyre",
-    "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
-  },
-  {
-    "word": "uyxae",
-    "english_equiv": "Mosquito-like",
-    "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a mosquito.",
-    "root": "uyxa",
-    "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
-  },
-  {
-    "word": "uyxai",
-    "english_equiv": "To act as a mosquito",
-    "part_of_speech": "Verb",
-    "definition": "To act as, or serve in the role of, a mosquito.",
-    "root": "uyxa",
-    "derivation_path": "a→i",
-    "path_gloss": "Biological Noun -> Verb (act as)"
-  },
-  {
-    "word": "uyxao",
-    "english_equiv": "Mosquito artifact",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical object associated with a mosquito.",
-    "root": "uyxa",
-    "derivation_path": "a→o",
-    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
-  },
-  {
-    "word": "uyxau",
-    "english_equiv": "Mosquitohood",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The role, state, or quality of being a mosquito.",
-    "root": "uyxa",
-    "derivation_path": "a→u",
-    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
-  },
-  {
-    "word": "uyzua",
-    "english_equiv": "Justice person",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who practices or embodies justice.",
-    "root": "uyzu",
-    "derivation_path": "u→a",
-    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
-  },
-  {
-    "word": "uyzue",
-    "english_equiv": "Marked by justice",
-    "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by justice.",
-    "root": "uyzu",
-    "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
-  },
-  {
-    "word": "uyzui",
-    "english_equiv": "To feel or enact justice",
-    "part_of_speech": "Verb",
-    "definition": "To feel, express, or bring about justice.",
-    "root": "uyzu",
-    "derivation_path": "u→i",
-    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
-  },
-  {
-    "word": "uyzuo",
-    "english_equiv": "Justice object",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A tangible object embodying or serving justice.",
-    "root": "uyzu",
-    "derivation_path": "u→o",
-    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
-  },
-  {
     "word": "uzkia",
     "english_equiv": "Doer of hunt",
     "part_of_speech": "Biological Noun",
@@ -35815,42 +40118,6 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
-    "word": "vadzia",
-    "english_equiv": "Doer of to visit",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to visit'.",
-    "root": "vadzi",
-    "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
-  },
-  {
-    "word": "vadzie",
-    "english_equiv": "Prone to to visit",
-    "part_of_speech": "Modifier",
-    "definition": "Tending toward, or involving, the action 'to visit'.",
-    "root": "vadzi",
-    "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
-  },
-  {
-    "word": "vadzio",
-    "english_equiv": "Tool or result of to visit",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An instrument for, or physical result of, 'to visit'.",
-    "root": "vadzi",
-    "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
-  },
-  {
-    "word": "vadziu",
-    "english_equiv": "Act of to visit",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'to visit'.",
-    "root": "vadzi",
-    "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
-  },
-  {
     "word": "vahimia",
     "english_equiv": "Doer of handle",
     "part_of_speech": "Biological Noun",
@@ -35885,6 +40152,42 @@ const derivedDictionaryData = [
     "root": "vahimi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "vajuzua",
+    "english_equiv": "Counterproductive haste person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies counterproductive haste.",
+    "root": "vajuzu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "vajuzue",
+    "english_equiv": "Marked by counterproductive haste",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by counterproductive haste.",
+    "root": "vajuzu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "vajuzui",
+    "english_equiv": "To feel or enact counterproductive haste",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about counterproductive haste.",
+    "root": "vajuzu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "vajuzuo",
+    "english_equiv": "Counterproductive haste object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving counterproductive haste.",
+    "root": "vajuzu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
   },
   {
     "word": "valua",
@@ -36309,6 +40612,47 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "viketsoa",
+    "english_equiv": "Torch worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a torch.",
+    "root": "viketso",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "viketsoe",
+    "english_equiv": "Torch-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to torch.",
+    "root": "viketso",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "torch-like",
+      "lamp-shaped",
+      "glowing like a torch"
+    ]
+  },
+  {
+    "word": "viketsoi",
+    "english_equiv": "To use a torch",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a torch.",
+    "root": "viketso",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "viketsou",
+    "english_equiv": "Torch domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the torch.",
+    "root": "viketso",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "vildea",
     "english_equiv": "The direct one",
     "part_of_speech": "Biological Noun",
@@ -36565,6 +40909,87 @@ const derivedDictionaryData = [
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
   {
+    "word": "vojoa",
+    "english_equiv": "Powder worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a powder.",
+    "root": "vojo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "vojoe",
+    "english_equiv": "Powdered",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to powder.",
+    "root": "vojo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "powdered",
+      "dust-fine",
+      "loose-grained"
+    ]
+  },
+  {
+    "word": "vojoi",
+    "english_equiv": "To use a powder",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a powder.",
+    "root": "vojo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "vojou",
+    "english_equiv": "Powder domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the powder.",
+    "root": "vojo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "vokrea",
+    "english_equiv": "The greedy one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being greedy.",
+    "root": "vokre",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "vokrei",
+    "english_equiv": "To be greedy",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become greedy.",
+    "root": "vokre",
+    "derivation_path": "e→i",
+    "senses": [
+      "to be greedy",
+      "to become greedy"
+    ],
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "vokreo",
+    "english_equiv": "Greedy thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is greedy.",
+    "root": "vokre",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "vokreu",
+    "english_equiv": "Greedyness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being greedy.",
+    "root": "vokre",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
     "word": "volnia",
     "english_equiv": "Doer of to be willing to",
     "part_of_speech": "Biological Noun",
@@ -36677,6 +41102,47 @@ const derivedDictionaryData = [
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
   {
+    "word": "vudipia",
+    "english_equiv": "Doer of glaze",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'glaze'.",
+    "root": "vudipi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "vudipie",
+    "english_equiv": "Glazed",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'glaze'.",
+    "root": "vudipi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "glazed",
+      "glossy-coated",
+      "enameled"
+    ]
+  },
+  {
+    "word": "vudipio",
+    "english_equiv": "Tool or result of glaze",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'glaze'.",
+    "root": "vudipi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "vudipiu",
+    "english_equiv": "Act of glaze",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'glaze'.",
+    "root": "vudipi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
     "word": "vugloa",
     "english_equiv": "Template worker",
     "part_of_speech": "Biological Noun",
@@ -36747,6 +41213,16 @@ const derivedDictionaryData = [
     "root": "vuwo",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "vye",
+    "english_equiv": "Made of-positioned",
+    "part_of_speech": "Modifier",
+    "definition": "Positioned or oriented according to the relation 'made of'.",
+    "root": "vy",
+    "derivation_path": "y→e",
+    "path_gloss": "Preposition -> Modifier (positioned)",
+    "reviewed": "baseline"
   },
   {
     "word": "vyflae",
@@ -36825,13 +41301,27 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "vyi",
+    "english_equiv": "To move made of",
+    "part_of_speech": "Verb",
+    "definition": "To move or be positioned according to the relation 'made of'.",
+    "root": "vy",
+    "derivation_path": "y→i",
+    "path_gloss": "Preposition -> Verb (relational motion)"
+  },
+  {
     "word": "vymae",
-    "english_equiv": "Frog-like",
+    "english_equiv": "Of a frog",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a frog.",
     "root": "vyma",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "of a frog",
+      "froggy",
+      "frog-laid"
+    ]
   },
   {
     "word": "vymai",
@@ -36895,6 +41385,24 @@ const derivedDictionaryData = [
     "root": "vyno",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "vyo",
+    "english_equiv": "Object of the made of relation",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An object associated with the relation 'made of'.",
+    "root": "vy",
+    "derivation_path": "y→o",
+    "path_gloss": "Preposition -> Concrete Noun (relation object)"
+  },
+  {
+    "word": "vyu",
+    "english_equiv": "The made of relation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract relation 'made of'.",
+    "root": "vy",
+    "derivation_path": "y→u",
+    "path_gloss": "Preposition -> Abstract Noun (relation)"
   },
   {
     "word": "vywua",
@@ -37646,6 +42154,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "wentoa",
+    "english_equiv": "Ladder worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a ladder.",
+    "root": "wento",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "wentoe",
+    "english_equiv": "Ladder-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to ladder.",
+    "root": "wento",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "wentoi",
+    "english_equiv": "To use a ladder",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a ladder.",
+    "root": "wento",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "wentou",
+    "english_equiv": "Ladder domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the ladder.",
+    "root": "wento",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "weokea",
     "english_equiv": "The round one",
     "part_of_speech": "Biological Noun",
@@ -37669,12 +42213,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "weokeo",
-    "english_equiv": "Round thing",
+    "english_equiv": "Circle",
     "part_of_speech": "Concrete Noun",
     "definition": "A physical object that is round.",
     "root": "weoke",
     "derivation_path": "e→o",
-    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)",
+    "senses": [
+      "circle",
+      "disc",
+      "round object"
+    ]
   },
   {
     "word": "weokeu",
@@ -38090,6 +42639,42 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "wokutua",
+    "english_equiv": "Relational fate person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies relational fate.",
+    "root": "wokutu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "wokutue",
+    "english_equiv": "Marked by relational fate",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by relational fate.",
+    "root": "wokutu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "wokutui",
+    "english_equiv": "To feel or enact relational fate",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about relational fate.",
+    "root": "wokutu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "wokutuo",
+    "english_equiv": "Relational fate object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving relational fate.",
+    "root": "wokutu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "womae",
     "english_equiv": "Worm-like",
     "part_of_speech": "Modifier",
@@ -38202,6 +42787,78 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "wotipia",
+    "english_equiv": "Doer of delete",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'delete'.",
+    "root": "wotipi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "wotipie",
+    "english_equiv": "Prone to delete",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'delete'.",
+    "root": "wotipi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "wotipio",
+    "english_equiv": "Tool or result of delete",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'delete'.",
+    "root": "wotipi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "wotipiu",
+    "english_equiv": "Act of delete",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'delete'.",
+    "root": "wotipi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "wozuproa",
+    "english_equiv": "Spear worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a spear.",
+    "root": "wozupro",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "wozuproe",
+    "english_equiv": "Spear-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to spear.",
+    "root": "wozupro",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "wozuproi",
+    "english_equiv": "To use a spear",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a spear.",
+    "root": "wozupro",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "wozuprou",
+    "english_equiv": "Spear domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the spear.",
+    "root": "wozupro",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
     "word": "wubia",
     "english_equiv": "Doer of bend",
     "part_of_speech": "Biological Noun",
@@ -38238,6 +42895,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "wuflua",
+    "english_equiv": "Self-deception person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies self-deception.",
+    "root": "wuflu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "wuflue",
+    "english_equiv": "Marked by self-deception",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by self-deception.",
+    "root": "wuflu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "wuflui",
+    "english_equiv": "To feel or enact self-deception",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about self-deception.",
+    "root": "wuflu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "wufluo",
+    "english_equiv": "Self-deception object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving self-deception.",
+    "root": "wuflu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "wujoa",
     "english_equiv": "Map worker",
     "part_of_speech": "Biological Noun",
@@ -38248,12 +42941,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "wujoe",
-    "english_equiv": "Map-like",
+    "english_equiv": "Cartographic",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to map.",
     "root": "wujo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "cartographic",
+      "chart-like",
+      "map-related"
+    ]
   },
   {
     "word": "wujoi",
@@ -38312,6 +43010,119 @@ const derivedDictionaryData = [
     "root": "wuke",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
+    "word": "wuswoa",
+    "english_equiv": "Nest worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a nest.",
+    "root": "wuswo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "wuswoe",
+    "english_equiv": "Nest-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to nest.",
+    "root": "wuswo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "wuswoi",
+    "english_equiv": "To use a nest",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a nest.",
+    "root": "wuswo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "wuswou",
+    "english_equiv": "Nest domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the nest.",
+    "root": "wuswo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "wutroa",
+    "english_equiv": "Concrete worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a concrete.",
+    "root": "wutro",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "wutroe",
+    "english_equiv": "Made of concrete",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to concrete.",
+    "root": "wutro",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of concrete",
+      "concrete-built",
+      "cast"
+    ]
+  },
+  {
+    "word": "wutroi",
+    "english_equiv": "To use a concrete",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a concrete.",
+    "root": "wutro",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "wutrou",
+    "english_equiv": "Concrete domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the concrete.",
+    "root": "wutro",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "wuxiwia",
+    "english_equiv": "Doer of whoosh",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'whoosh'.",
+    "root": "wuxiwi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "wuxiwie",
+    "english_equiv": "Prone to whoosh",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'whoosh'.",
+    "root": "wuxiwi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "wuxiwio",
+    "english_equiv": "Tool or result of whoosh",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'whoosh'.",
+    "root": "wuxiwi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "wuxiwiu",
+    "english_equiv": "Act of whoosh",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'whoosh'.",
+    "root": "wuxiwi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "wydea",
@@ -38585,12 +43396,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "xalie",
-    "english_equiv": "Prone to move",
+    "english_equiv": "Moving",
     "part_of_speech": "Modifier",
     "definition": "Tending toward, or involving, the action 'move'.",
     "root": "xali",
     "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "moving",
+      "in motion",
+      "mobile"
+    ]
   },
   {
     "word": "xalio",
@@ -38621,12 +43437,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "xaqboe",
-    "english_equiv": "Gold-like",
+    "english_equiv": "Made of gold",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to gold.",
     "root": "xaqbo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of gold",
+      "golden",
+      "gilded"
+    ]
   },
   {
     "word": "xaqboi",
@@ -38961,6 +43782,42 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
+    "word": "xiglehea",
+    "english_equiv": "The magenta one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being magenta.",
+    "root": "xiglehe",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "xiglehei",
+    "english_equiv": "To be magenta",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become magenta.",
+    "root": "xiglehe",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "xigleheo",
+    "english_equiv": "Magenta thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is magenta.",
+    "root": "xiglehe",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "xigleheu",
+    "english_equiv": "Magentaness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being magenta.",
+    "root": "xiglehe",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)"
+  },
+  {
     "word": "xildoa",
     "english_equiv": "Shield worker",
     "part_of_speech": "Biological Noun",
@@ -39031,6 +43888,114 @@ const derivedDictionaryData = [
     "root": "xiolo",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "xistua",
+    "english_equiv": "Contradiction person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies contradiction.",
+    "root": "xistu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "xistue",
+    "english_equiv": "Marked by contradiction",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by contradiction.",
+    "root": "xistu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "xistui",
+    "english_equiv": "To feel or enact contradiction",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about contradiction.",
+    "root": "xistu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "xistuo",
+    "english_equiv": "Contradiction object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving contradiction.",
+    "root": "xistu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
+    "word": "xisyzia",
+    "english_equiv": "Doer of hiss",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'hiss'.",
+    "root": "xisyzi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "xisyzie",
+    "english_equiv": "Prone to hiss",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'hiss'.",
+    "root": "xisyzi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "xisyzio",
+    "english_equiv": "Tool or result of hiss",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'hiss'.",
+    "root": "xisyzi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "xisyziu",
+    "english_equiv": "Act of hiss",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'hiss'.",
+    "root": "xisyzi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "xitrikia",
+    "english_equiv": "Doer of teleport",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'teleport'.",
+    "root": "xitriki",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "xitrikie",
+    "english_equiv": "Prone to teleport",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'teleport'.",
+    "root": "xitriki",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "xitrikio",
+    "english_equiv": "Tool or result of teleport",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'teleport'.",
+    "root": "xitriki",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "xitrikiu",
+    "english_equiv": "Act of teleport",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'teleport'.",
+    "root": "xitriki",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "xivea",
@@ -39152,6 +44117,42 @@ const derivedDictionaryData = [
     "root": "xocewo",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "xogria",
+    "english_equiv": "Doer of to visit",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'to visit'.",
+    "root": "xogri",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "xogrie",
+    "english_equiv": "Prone to to visit",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'to visit'.",
+    "root": "xogri",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)"
+  },
+  {
+    "word": "xogrio",
+    "english_equiv": "Tool or result of to visit",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'to visit'.",
+    "root": "xogri",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "xogriu",
+    "english_equiv": "Act of to visit",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'to visit'.",
+    "root": "xogri",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "xonkae",
@@ -39469,6 +44470,42 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Verb (feel/enact)"
   },
   {
+    "word": "xulazae",
+    "english_equiv": "Cod-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a cod.",
+    "root": "xulaza",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "xulazai",
+    "english_equiv": "To act as a cod",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a cod.",
+    "root": "xulaza",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "xulazao",
+    "english_equiv": "Cod artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a cod.",
+    "root": "xulaza",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "xulazau",
+    "english_equiv": "Codhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a cod.",
+    "root": "xulaza",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
     "word": "xunia",
     "english_equiv": "Doer of burn",
     "part_of_speech": "Biological Noun",
@@ -39548,6 +44585,15 @@ const derivedDictionaryData = [
     "root": "xwewi",
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)"
+  },
+  {
+    "word": "xye",
+    "english_equiv": "Shaped like-positioned",
+    "part_of_speech": "Modifier",
+    "definition": "Positioned or oriented according to the relation 'shaped like'.",
+    "root": "xy",
+    "derivation_path": "y→e",
+    "path_gloss": "Preposition -> Modifier (positioned)"
   },
   {
     "word": "xyfia",
@@ -39662,6 +44708,15 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "xyi",
+    "english_equiv": "To move shaped like",
+    "part_of_speech": "Verb",
+    "definition": "To move or be positioned according to the relation 'shaped like'.",
+    "root": "xy",
+    "derivation_path": "y→i",
+    "path_gloss": "Preposition -> Verb (relational motion)"
+  },
+  {
     "word": "xyntae",
     "english_equiv": "Turtle-like",
     "part_of_speech": "Modifier",
@@ -39698,6 +44753,15 @@ const derivedDictionaryData = [
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
   {
+    "word": "xyo",
+    "english_equiv": "Object of the shaped like relation",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An object associated with the relation 'shaped like'.",
+    "root": "xy",
+    "derivation_path": "y→o",
+    "path_gloss": "Preposition -> Concrete Noun (relation object)"
+  },
+  {
     "word": "xyploa",
     "english_equiv": "Iron worker",
     "part_of_speech": "Biological Noun",
@@ -39708,12 +44772,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "xyploe",
-    "english_equiv": "Iron-like",
+    "english_equiv": "Made of iron",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to iron.",
     "root": "xyplo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "made of iron",
+      "iron-gray",
+      "ferrous"
+    ]
   },
   {
     "word": "xyploi",
@@ -39802,6 +44871,87 @@ const derivedDictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The role, state, or quality of being a duck.",
     "root": "xyswa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "xyu",
+    "english_equiv": "The shaped like relation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract relation 'shaped like'.",
+    "root": "xy",
+    "derivation_path": "y→u",
+    "path_gloss": "Preposition -> Abstract Noun (relation)"
+  },
+  {
+    "word": "ybawae",
+    "english_equiv": "Bark-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a bark.",
+    "root": "ybawa",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "ybawai",
+    "english_equiv": "To act as a bark",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a bark.",
+    "root": "ybawa",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "ybawao",
+    "english_equiv": "Bark artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a bark.",
+    "root": "ybawa",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "ybawau",
+    "english_equiv": "Barkhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a bark.",
+    "root": "ybawa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "ycubae",
+    "english_equiv": "Mosquito-like",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a mosquito.",
+    "root": "ycuba",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)"
+  },
+  {
+    "word": "ycubai",
+    "english_equiv": "To act as a mosquito",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a mosquito.",
+    "root": "ycuba",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "ycubao",
+    "english_equiv": "Mosquito artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a mosquito.",
+    "root": "ycuba",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "ycubau",
+    "english_equiv": "Mosquitohood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a mosquito.",
+    "root": "ycuba",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
@@ -40071,12 +45221,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "zalae",
-    "english_equiv": "Bug-like",
+    "english_equiv": "Infested",
     "part_of_speech": "Modifier",
     "definition": "Of, like, or befitting a bug.",
     "root": "zala",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "infested",
+      "bug-ridden",
+      "verminous"
+    ]
   },
   {
     "word": "zalai",
@@ -40260,12 +45415,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "zasoe",
-    "english_equiv": "Ground-like",
+    "english_equiv": "Earthen",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to ground.",
     "root": "zaso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "earthen",
+      "of the ground",
+      "dirt-made"
+    ]
   },
   {
     "word": "zasoi",
@@ -40284,6 +45444,42 @@ const derivedDictionaryData = [
     "root": "zaso",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "zatertea",
+    "english_equiv": "The lime one",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person characterized by being lime.",
+    "root": "zaterte",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)"
+  },
+  {
+    "word": "zatertei",
+    "english_equiv": "To be lime",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be or become lime.",
+    "root": "zaterte",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "zaterteo",
+    "english_equiv": "Lime thing",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object that is lime.",
+    "root": "zaterte",
+    "derivation_path": "e→o",
+    "path_gloss": "Modifier -> Concrete Noun (exemplar)"
+  },
+  {
+    "word": "zaterteu",
+    "english_equiv": "Limeness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being lime.",
+    "root": "zaterte",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
     "word": "zavea",
@@ -40516,6 +45712,42 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)"
   },
   {
+    "word": "zezurua",
+    "english_equiv": "Version person",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who practices or embodies version.",
+    "root": "zezuru",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)"
+  },
+  {
+    "word": "zezurue",
+    "english_equiv": "Marked by version",
+    "part_of_speech": "Modifier",
+    "definition": "Characterized by or marked by version.",
+    "root": "zezuru",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+  },
+  {
+    "word": "zezurui",
+    "english_equiv": "To feel or enact version",
+    "part_of_speech": "Verb",
+    "definition": "To feel, express, or bring about version.",
+    "root": "zezuru",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+  },
+  {
+    "word": "zezuruo",
+    "english_equiv": "Version object",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tangible object embodying or serving version.",
+    "root": "zezuru",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)"
+  },
+  {
     "word": "zihea",
     "english_equiv": "The famous one",
     "part_of_speech": "Biological Noun",
@@ -40602,12 +45834,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "ziltoe",
-    "english_equiv": "Trim-like",
+    "english_equiv": "Decorated",
     "part_of_speech": "Modifier",
     "definition": "Made of, resembling, or relating to trim.",
     "root": "zilto",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "decorated",
+      "ornamented",
+      "embellished"
+    ]
   },
   {
     "word": "ziltoi",
@@ -40624,6 +45861,83 @@ const derivedDictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract concept or domain of the trim.",
     "root": "zilto",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "zimempoa",
+    "english_equiv": "Pearl worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a pearl.",
+    "root": "zimempo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "zimempoe",
+    "english_equiv": "Pearly",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to pearl.",
+    "root": "zimempo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "pearly",
+      "pearlescent",
+      "pearl-like"
+    ]
+  },
+  {
+    "word": "zimempoi",
+    "english_equiv": "To use a pearl",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a pearl.",
+    "root": "zimempo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "zimempou",
+    "english_equiv": "Pearl domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the pearl.",
+    "root": "zimempo",
+    "derivation_path": "o→u",
+    "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
+  },
+  {
+    "word": "zimowoa",
+    "english_equiv": "Framework worker",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who works with, operates, or handles a framework.",
+    "root": "zimowo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)"
+  },
+  {
+    "word": "zimowoe",
+    "english_equiv": "Framework-like",
+    "part_of_speech": "Modifier",
+    "definition": "Made of, resembling, or relating to framework.",
+    "root": "zimowo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+  },
+  {
+    "word": "zimowoi",
+    "english_equiv": "To use a framework",
+    "part_of_speech": "Verb",
+    "definition": "To use, operate, or apply a framework.",
+    "root": "zimowo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)"
+  },
+  {
+    "word": "zimowou",
+    "english_equiv": "Framework domain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept or domain of the framework.",
+    "root": "zimowo",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
   },
@@ -40660,6 +45974,47 @@ const derivedDictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The role, state, or quality of being a face.",
     "root": "zipa",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
+  },
+  {
+    "word": "zixefrae",
+    "english_equiv": "Made of coral",
+    "part_of_speech": "Modifier",
+    "definition": "Of, like, or befitting a coral.",
+    "root": "zixefra",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "made of coral",
+      "coral-built",
+      "coralline"
+    ]
+  },
+  {
+    "word": "zixefrai",
+    "english_equiv": "To act as a coral",
+    "part_of_speech": "Verb",
+    "definition": "To act as, or serve in the role of, a coral.",
+    "root": "zixefra",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)"
+  },
+  {
+    "word": "zixefrao",
+    "english_equiv": "Coral artifact",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical object associated with a coral.",
+    "root": "zixefra",
+    "derivation_path": "a→o",
+    "path_gloss": "Biological Noun -> Concrete Noun (artifact)"
+  },
+  {
+    "word": "zixefrau",
+    "english_equiv": "Coralhood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The role, state, or quality of being a coral.",
+    "root": "zixefra",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)"
   },
@@ -40774,6 +46129,47 @@ const derivedDictionaryData = [
     "root": "zofy",
     "derivation_path": "y→u",
     "path_gloss": "Preposition -> Abstract Noun (relation)"
+  },
+  {
+    "word": "zonitia",
+    "english_equiv": "Doer of strip",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person or agent who performs 'strip'.",
+    "root": "zoniti",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)"
+  },
+  {
+    "word": "zonitie",
+    "english_equiv": "Prone to strip",
+    "part_of_speech": "Modifier",
+    "definition": "Tending toward, or involving, the action 'strip'.",
+    "root": "zoniti",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "stripped",
+      "peeled",
+      "bark-removed"
+    ]
+  },
+  {
+    "word": "zonitio",
+    "english_equiv": "Tool or result of strip",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument for, or physical result of, 'strip'.",
+    "root": "zoniti",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
+  },
+  {
+    "word": "zonitiu",
+    "english_equiv": "Act of strip",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act, process, or concept of 'strip'.",
+    "root": "zoniti",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "zopia",
@@ -40990,42 +46386,6 @@ const derivedDictionaryData = [
     "root": "zurko",
     "derivation_path": "o→u",
     "path_gloss": "Concrete Noun -> Abstract Noun (domain)"
-  },
-  {
-    "word": "zutia",
-    "english_equiv": "Doer of to go out",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to go out'.",
-    "root": "zuti",
-    "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
-  },
-  {
-    "word": "zutie",
-    "english_equiv": "Prone to to go out",
-    "part_of_speech": "Modifier",
-    "definition": "Tending toward, or involving, the action 'to go out'.",
-    "root": "zuti",
-    "derivation_path": "i→e",
-    "path_gloss": "Verb -> Modifier (prone to)"
-  },
-  {
-    "word": "zutio",
-    "english_equiv": "Tool or result of to go out",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An instrument for, or physical result of, 'to go out'.",
-    "root": "zuti",
-    "derivation_path": "i→o",
-    "path_gloss": "Verb -> Concrete Noun (instrument/result)"
-  },
-  {
-    "word": "zutiu",
-    "english_equiv": "Act of to go out",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'to go out'.",
-    "root": "zuti",
-    "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
   },
   {
     "word": "zuwua",

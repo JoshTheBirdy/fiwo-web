@@ -10,13 +10,15 @@
     // --- Closed-class rosters (Rule book) ---
     const MOOD_TAGS = new Set(['kup', 'kop', 'kep', 'hap', 'hop', 'hyp', 'bip', 'xap', 'sep', 'sop', 'nop', 'rop']);
     const CLAUSAL_WALLS = new Set(['bef', 'bul', 'rot', 'kad', 'vel', 'zol', 'can', 'pen', 'vax', 'pov', 'kof', 'xom']);
-    const PHATIC = new Set(['sal', 'tex', 'ak', 'wox', 'jo', 'ha', 'jas', 'cef']);
+    const PHATIC = new Set(['sal', 'tex', 'ak', 'wox', 'jo', 'ha', 'jas', 'cef',
+        'nel', 'ov', 'tox', 'xex', 'dez', 'zib']);  // + social-formula batch (2026-07-07)
     const PRONOUNS = new Set(['mik', 'suk', 'suv', 'dal', 'das', 'daq', 'ram', 'nak', 'muk']);
     const NO_JE_PRONOUNS = new Set(['mik', 'nak', 'muk']);
-    const DEICTICS = new Set(['sil', 'tan']);
+    const DEICTICS = new Set(['sil', 'fos']);
     const INLINE_GLUE = new Set(['lan', 'ron']);
     const MATH_OPS = new Set(['ap', 'mux', 'mis', 'pot']);
-    const VARIABLES = new Set(['wun', 'wat', 'wer', 'wiq', 'wis', 'wug', 'wal']);
+    const SUBJECT_VARS = new Set(['wun', 'won']);  // wun animate/who, won inanimate/what (Rule 12)
+    const VARIABLES = new Set(['wun', 'won', 'wat', 'wer', 'wiq', 'wis', 'wug', 'wal']);
     const PREP_TARGET_VARS = new Set(['wer', 'wiq']);
     const NUMBER_WORDS = new Set(['noze', 'bime', 'dewe', 'tafe', 'gloke', 'raje', 'sluqe', 'rete', 'marte', 'zewe', 'lere']);
     const TEMPORAL_ROOTS = new Set(['nudu', 'fitydu', 'wecdu', 'nu', 'du', 'dugu', 'dionu', 'bafu', 'dumu', 'gomu',
@@ -78,6 +80,7 @@
         if (MOOD_TAGS.has(w)) return 'mood_tag';
         if (CLAUSAL_WALLS.has(w)) return 'clausal_wall';
         if (w === 'syn') return 'condition';
+        if (w === 'zet') return 'topic';
         if (w === 'tep') return 'bracket_open';
         if (w === 'tel') return 'bracket_close';
         if (w === 'fap') return 'passive';
@@ -125,6 +128,18 @@
 
     // Analyze one word -> token object
     function morph(token, isFirst) {
+        const tok = morphInner(token, isFirst);
+        // Rule 4 fallback: capitalized sentence-initial token with no word
+        // reading = proper noun ("John Smith usi."). Narrow: known content
+        // root + illegal suffix (e.g. 'Nofapx') stays a fatal learner error.
+        if (tok.cat === 'error' && isFirst && token[0] === token[0].toUpperCase() && /[A-Z]/.test(token[0])
+            && /not in lexicon|no functional vowel|grammar particle|closed-class/.test(tok.error || ''))
+            return Object.assign({ raw: token, kind: 'word', suffix: '', note: null, entry: null, slot: null },
+                { root: token, cat: 'proper_noun', gloss: 'proper noun' });
+        return tok;
+    }
+
+    function morphInner(token, isFirst) {
         const lex = getLexicon();
         const lower = token.toLowerCase();
         const capitalized = token[0] === token[0].toUpperCase() && /[A-Z]/.test(token[0]);
@@ -149,8 +164,8 @@
             const cat = classifyExact(lower, entry);
             if (capitalized && !isFirst && cat !== 'mood_tag')
                 return T({ root: token, cat: 'proper_noun', gloss: 'proper noun' });
-            if (cat === 'verb' && lower === 'hi')
-                return T({ root: lower, cat: 'error', error: "naked copula 'hi' is banned (Rule 10.7) — it must carry a suffix" });
+            // Naked copula 'hi' is a legal optional explicit present copula since
+            // 2026-07-07 (Rule 10.7 ban lifted); the Zero Copula stays the default.
             return T({ root: lower, cat, entry, gloss: entry.english_equiv });
         }
 
@@ -189,11 +204,11 @@
         }
         if (capitalized && !isFirst) return T({ root: token, cat: 'proper_noun', gloss: 'proper noun' });
 
+        if (!VOWELS.has(root[root.length - 1]))
+            return T({ root, suffix, cat: 'error', error: `'${root}' is a closed-class word — it cannot take suffixes` });
         const cat = vowelCat(root[root.length - 1]);
         if (lex.has(root) && lex.get(root).part_of_speech === 'Grammar' && !PRONOUNS.has(root) && !DEICTICS.has(root))
             return T({ root, suffix, cat: 'error', error: `grammar particle '${root}' cannot take suffixes` });
-        if (cat === 'verb' && root === 'hi' && !suffix)
-            return T({ root, cat: 'error', error: "naked copula 'hi' is banned (Rule 10.7)" });
         const err = checkSuffix(cat, suffix);
         if (err) return T({ root, suffix, cat: 'error', error: err });
         const gloss = baseEntry ? baseEntry.english_equiv + (derivNote ? ' (derived)' : '') : '???';
@@ -204,7 +219,8 @@
     function newCtx(opts) {
         return Object.assign({
             state: 'fresh', tagsOk: true, question: false, passive: false,
-            ghost: null, openedAs: null, lastWall: null, synPending: false, zcTimeUsed: false
+            ghost: null, openedAs: null, lastWall: null, synPending: false,
+            topicPending: false, zcTimeUsed: false
         }, opts || {});
     }
 
@@ -221,7 +237,9 @@
                 const tok = morph(t, isFirst);
                 if (tok.cat === 'error') errors.push(`[${t}] ${tok.error}`);
                 tokens.push(tok);
-                isFirst = false;
+                // Rule 30.9: the word after `tep` is quote-initial (capitalized
+                // like a sentence), so treat it as utterance-initial.
+                isFirst = (tok.root === 'tep');
             }
         });
         if (errors.length) return { tokens, errors, valid: false };
@@ -235,15 +253,33 @@
         function closeBracket(tok) {
             const child = stack.pop();
             if (child.synPending) fail(tok, "conditional 'syn' was never resolved by can/pen (Rule 32)");
+            if (child.topicPending) fail(tok, "topic marker 'zet' was never closed by can/pen (Rule 32.5)");
             const parent = ctx();
             if (child.openedAs === 'complement' && parent.state === 'await_object') parent.state = 'await_time';
+            if (child.openedAs === 'subject' && parent.state === 'fresh') parent.state = 'await_verb';  // Rule 30.8
+        }
+        function endInnerUtterance(tok) {
+            // Rule 30.9: internal . ! ? inside an OPEN bracket is an utterance
+            // boundary within the bracket (multi-sentence quote); it never
+            // closes the bracket or ends the outer sentence. Reset the inner
+            // clause; the next quoted utterance is utterance-initial.
+            if (pendingPrep) fail(pendingPrep, 'dangling preposition at a quoted-utterance boundary (Rule 30.9/13.2)');
+            if (pendingGlue) fail(pendingGlue[0], 'inline glue (lan/ron) at a quoted-utterance boundary has nothing to bind (Rule 27)');
+            if (pendingNeg) fail(pendingNeg, "'nes' at a quoted-utterance boundary negates nothing (Rule 26)");
+            const c = ctx();
+            if (c.synPending) fail(tok, "conditional 'syn' unresolved at a quoted-utterance boundary (Rule 32)");
+            if (c.topicPending) fail(tok, "topic marker 'zet' unresolved at a quoted-utterance boundary (Rule 32.5)");
+            c.state = 'fresh'; c.tagsOk = true; c.question = false;
+            c.passive = false; c.lastWall = null; c.zcTimeUsed = false;
+            pendingPrep = pendingGlue = pendingNeg = lastRoot = null;
         }
         function endSentence(tok) {
-            if (pendingPrep) fail(pendingPrep, 'dangling preposition at sentence end — a bridge needs a target (Rule 13.2 / 30.6)');
+            if (pendingPrep) fail(pendingPrep, 'dangling preposition at sentence end — a bridge needs a target (Rule 13.2 / 30.7)');
             if (pendingGlue) fail(pendingGlue[0], 'inline glue (lan/ron) at sentence end has nothing to bind (Rule 27)');
             if (pendingNeg) fail(pendingNeg, "'nes' at sentence end negates nothing (Rule 26)");
             while (stack.length > 1) closeBracket(tok);
             if (ctx().synPending) fail(tok, "conditional 'syn' was never resolved by can/pen (Rule 32)");
+            if (ctx().topicPending) fail(tok, "topic marker 'zet' was never closed by can/pen (Rule 32.5)");
             stack.length = 0; stack.push(newCtx());
             pendingPrep = pendingGlue = pendingNeg = lastRoot = null;
         }
@@ -252,7 +288,10 @@
         while (i < tokens.length) {
             const t = tokens[i];
             const c = ctx();
-            if (t.kind === 'punct') { if ('.!?'.includes(t.raw)) endSentence(t); i++; continue; }
+            if (t.kind === 'punct') {
+                if ('.!?'.includes(t.raw)) { stack.length > 1 ? endInnerUtterance(t) : endSentence(t); }
+                i++; continue;
+            }
             const cat = t.cat;
 
             // resolve pending preposition target
@@ -319,14 +358,21 @@
             }
             if (cat === 'condition') {
                 if (c.state !== 'fresh') fail(t, "'syn' must sit at the absolute beginning of its clause (Rule 32.1)");
-                else if (openBrackets() >= 2) fail(t, 'depth limit: max 2 open brackets (tep/syn) (Rule 30.5)');
+                else if (openBrackets() >= 2) fail(t, 'depth limit: max 2 open brackets (tep/syn) (Rule 30.6)');
                 else { c.synPending = true; c.tagsOk = false; t.slot = 'If'; }
+                i++; continue;
+            }
+            if (cat === 'topic') {
+                if (c.state !== 'fresh' || !c.tagsOk)
+                    fail(t, "'zet' must sit at the absolute beginning of its clause (Rule 32.5)");
+                else { c.topicPending = true; c.tagsOk = false; t.slot = 'Topic'; }
                 i++; continue;
             }
             if (cat === 'clausal_wall') {
                 let resolved = false;
                 for (const cx of stack) {
                     if (cx.synPending && (t.root === 'can' || t.root === 'pen')) { cx.synPending = false; resolved = true; break; }
+                    if (cx.topicPending && (t.root === 'can' || t.root === 'pen')) { cx.topicPending = false; resolved = true; break; }
                 }
                 t.slot = resolved ? 'Then' : 'Wall';
                 c.state = 'fresh'; c.tagsOk = false; c.passive = false; c.lastWall = t.root; lastRoot = null;
@@ -355,12 +401,13 @@
             if (pendingNeg) pendingNeg = null;
 
             if (cat === 'bracket_open') {
-                if (openBrackets() >= 2) { fail(t, 'depth limit: max 2 open brackets (tep/syn) in active memory (Rule 30.5)'); i++; continue; }
+                if (openBrackets() >= 2) { fail(t, 'depth limit: max 2 open brackets (tep/syn) in active memory (Rule 30.6)'); i++; continue; }
                 let ghost = null, openedAs;
                 if (lastRoot && (lastRoot.cat === 'noun' || lastRoot.cat === 'proper_noun')) { ghost = lastRoot; openedAs = 'relative'; }
                 else if (c.state === 'await_object') openedAs = 'complement';
-                else { openedAs = 'relative'; fail(t, "'tep' must follow a noun (relative clause) or a verb awaiting its object (Rule 30)"); }
-                t.slot = openedAs === 'complement' ? '[ object clause' : '[ relative clause';
+                else if (c.state === 'fresh' && !lastRoot) openedAs = 'subject';  // Rule 30.8 clause-as-subject
+                else { openedAs = 'relative'; fail(t, "'tep' must follow a noun (relative clause), a verb awaiting its object (complement clause), or open a clause (subject clause, Rule 30.8)"); }
+                t.slot = openedAs === 'complement' ? '[ object clause' : (openedAs === 'subject' ? '[ subject clause' : '[ relative clause');
                 stack.push(newCtx({ question: c.question, ghost, openedAs }));
                 lastRoot = null;
                 i++; continue;
@@ -377,6 +424,7 @@
                 }
                 if (!lastRoot && c.state === 'fresh') {
                     if (NUMBER_WORDS.has(t.root.replace(/t$/, ''))) { t.slot = 'Number'; lastRoot = t; }
+                    else if (!c.lastWall && (stack.length === 1 || c.openedAs === 'complement')) { t.slot = 'Answer Fragment'; lastRoot = t; }  // Rule 37 / 30.9 quote-initial
                     else fail(t, 'modifier at clause start has nothing to its left to modify (Rule 18)');
                     i++; continue;
                 }
@@ -385,6 +433,10 @@
             }
             if (cat === 'preposition') {
                 if (!lastRoot && c.state === 'fresh') {
+                    if (!c.lastWall && (stack.length === 1 || c.openedAs === 'complement')) {  // Rule 37 / 30.9 quote-initial
+                        pendingPrep = t; t.slot = 'Bridge (Answer Fragment)';
+                        i++; continue;
+                    }
                     fail(t, 'preposition at clause start has no root to its left to anchor to (Rule 13)');
                     i++; continue;
                 }
@@ -393,10 +445,15 @@
                 i++; continue;
             }
             if (cat === 'variable') {
+                // Rule 12.6: elliptical 'wal' ("Why?") stands alone at the start of an
+                // utterance (with or without Kup), binding to the previous utterance.
+                if (t.root === 'wal' && c.state === 'fresh' && !c.lastWall && stack.length === 1) {
+                    t.slot = 'Reason (elliptical "Why?")'; c.state = 'closed'; i++; continue;
+                }
                 if (!c.question) fail(t, `interrogative variable '${t.root}' requires the sentence/clause to open with Kup (Rule 12.1)`);
-                if (t.root === 'wun') {
+                if (SUBJECT_VARS.has(t.root)) {
                     if (c.state === 'fresh') { t.slot = 'Subject'; c.state = 'await_verb'; lastRoot = t; }
-                    else fail(t, "'wun' is the Subject variable — it must sit in Slot 1 (no wh-movement, Rule 12)");
+                    else fail(t, `'${t.root}' is a Subject variable — it must sit in Slot 1 (no wh-movement, Rule 12)`);
                 } else if (t.root === 'wat') {
                     if (c.state === 'await_object') { t.slot = 'Object'; c.state = 'await_time'; lastRoot = t; }
                     else fail(t, "'wat' is the Object variable — it must sit in Slot 3, in situ (no wh-movement, Rule 12)");

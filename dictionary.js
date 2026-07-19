@@ -1,310 +1,10 @@
 // GENERATED from Canon/lexicon.json — do not edit by hand
 const dictionaryData = [
   {
-    "word": "kup",
-    "english_equiv": "Question / Request",
-    "part_of_speech": "Grammar",
-    "definition": "An explicit inquiry or request for information."
-  },
-  {
-    "word": "kop",
-    "english_equiv": "Command / Imperative",
-    "part_of_speech": "Grammar",
-    "definition": "A direct order or command."
-  },
-  {
-    "word": "kep",
-    "english_equiv": "Factual / Objective",
-    "part_of_speech": "Grammar",
-    "definition": "An objective statement, scientific truth, or absolute fact, strictly excluding everyday observations."
-  },
-  {
-    "word": "hap",
-    "english_equiv": "Emotional / Subjective",
-    "part_of_speech": "Grammar",
-    "definition": "An expression of personal feeling or subjective experience."
-  },
-  {
-    "word": "hop",
-    "english_equiv": "Sarcastic / Ironic",
-    "part_of_speech": "Grammar",
-    "definition": "Sarcastic or ironic intent, explicitly encoded to prevent logical misinterpretation."
-  },
-  {
-    "word": "mik",
-    "english_equiv": "I / me",
-    "part_of_speech": "Grammar",
-    "definition": "First-person singular; the speaker's body and mind."
-  },
-  {
-    "word": "suk",
-    "english_equiv": "you",
-    "part_of_speech": "Grammar",
-    "definition": "Second-person singular; strictly the listener."
-  },
-  {
-    "word": "ram",
-    "english_equiv": "it (inanimate)",
-    "part_of_speech": "Grammar",
-    "definition": "Third-person singular inanimate; strictly an object, concept, plant, machine, or entity lacking agency."
-  },
-  {
-    "word": "dal",
-    "english_equiv": "he / she / it (animate)",
-    "part_of_speech": "Grammar",
-    "definition": "Third-person singular animate neutral; an entity with intent or agency where gender is unspecified or irrelevant."
-  },
-  {
-    "word": "wat",
-    "english_equiv": "what",
-    "part_of_speech": "Grammar",
-    "definition": "Interrogative variable for a thing or matter."
-  },
-  {
-    "word": "wer",
-    "english_equiv": "where",
-    "part_of_speech": "Grammar",
-    "definition": "Interrogative variable for a location."
-  },
-  {
-    "word": "wiq",
-    "english_equiv": "when",
-    "part_of_speech": "Grammar",
-    "definition": "Interrogative variable for time."
-  },
-  {
-    "word": "wun",
-    "english_equiv": "who",
-    "part_of_speech": "Grammar",
-    "definition": "Interrogative variable for a person or agent."
-  },
-  {
-    "word": "won",
-    "english_equiv": "what (subject) / what thing / what event",
-    "part_of_speech": "Grammar",
-    "definition": "Interrogative subject variable for a non-agent — a thing or event filling SVO Slot 1 (e.g. What happened? What fell?). The inanimate counterpart of wun (who)."
-  },
-  {
-    "word": "wis",
-    "english_equiv": "how",
-    "part_of_speech": "Grammar",
-    "definition": "Interrogative variable for the manner, method, or degree of an action or state."
-  },
-  {
-    "word": "wal",
-    "english_equiv": "why",
-    "part_of_speech": "Grammar",
-    "definition": "Interrogative clause variable for a reason or cause."
-  },
-  {
-    "word": "bef",
-    "english_equiv": "clause connector / and (clausal)",
-    "part_of_speech": "Grammar",
-    "definition": "Clausal wall introducing an independent parallel thought; completely resets the SVO parser."
-  },
-  {
-    "word": "bul",
-    "english_equiv": "but",
-    "part_of_speech": "Grammar",
-    "definition": "Clausal wall introducing a contrasting thought or exception."
-  },
-  {
-    "word": "rot",
-    "english_equiv": "or",
-    "part_of_speech": "Grammar",
-    "definition": "Clausal wall presenting an alternative choice or independent clause."
-  },
-  {
-    "word": "can",
-    "english_equiv": "then",
-    "part_of_speech": "Grammar",
-    "definition": "Clausal wall introducing a subsequent chronological action; resolves a conditional premise."
-  },
-  {
-    "word": "kad",
-    "english_equiv": "Because / For the reason that",
-    "part_of_speech": "Grammar",
-    "definition": "A structural wall that introduces an entirely new independent clause (with its own subject and verb) that explains the reason for the previous clause."
-  },
-  {
-    "word": "pen",
-    "english_equiv": "so / therefore",
-    "part_of_speech": "Grammar",
-    "definition": "Clausal wall introducing a direct result, consequence, or logical conclusion."
-  },
-  {
-    "word": "tep",
-    "english_equiv": "subordinate predicate marker",
-    "part_of_speech": "Grammar",
-    "definition": "Opening bracket introducing a subordinate or embedded relative clause. Open brackets are implicitly closed by a period (.) at the end of a sentence."
-  },
-  {
-    "word": "tel",
-    "english_equiv": "end of subordinate clause / close bracket",
-    "part_of_speech": "Grammar",
-    "definition": "Closing bracket finalizing a subordinate or conditional clause. Optional at sentence boundaries (periods), but strictly mandatory mid-sentence or to resolve mirroring/nesting ambiguity."
-  },
-  {
-    "word": "syn",
-    "english_equiv": "Condition Initiator",
-    "part_of_speech": "Grammar",
-    "definition": "Marks a theoretical premise or conditional clause (if/when/whenever)."
-  },
-  {
-    "word": "jas",
-    "english_equiv": "yes",
-    "part_of_speech": "Grammar",
-    "definition": "Affirmation or agreement."
-  },
-  {
-    "word": "nes",
-    "english_equiv": "no / not",
-    "part_of_speech": "Grammar",
-    "definition": "Strict logical operator of negation (boolean NOT); standalone negative interjection."
-  },
-  {
-    "word": "lan",
-    "english_equiv": "Plus / And (Inline Additive)",
-    "part_of_speech": "Grammar",
-    "definition": "Binds elements of the same grammatical category. Can be chained for lists of three or more."
-  },
-  {
-    "word": "nak",
-    "english_equiv": "we / us (exclusive)",
-    "part_of_speech": "Grammar",
-    "definition": "First-person plural exclusive; the speaker and others, explicitly excluding the listener."
-  },
-  {
-    "word": "muk",
-    "english_equiv": "we / us (inclusive)",
-    "part_of_speech": "Grammar",
-    "definition": "First-person plural inclusive; the speaker, the listener, and potentially others."
-  },
-  {
-    "word": "sil",
-    "english_equiv": "this",
-    "part_of_speech": "Grammar",
-    "definition": "Proximal deictic; the current or immediately preceding clause or concept."
-  },
-  {
-    "word": "tan",
-    "english_equiv": "that",
-    "part_of_speech": "Grammar",
-    "definition": "Distal deictic; a conceptually distant, prior, or non-current clause or concept."
-  },
-  {
-    "word": "fap",
-    "english_equiv": "Passive Voice Indicator",
-    "part_of_speech": "Grammar",
-    "definition": "Structural tag placed at the clause start to mathematically invert SVO thematic roles."
-  },
-  {
-    "word": "das",
-    "english_equiv": "she / her",
-    "part_of_speech": "Grammar",
-    "definition": "Third-person singular animate female; a female entity with intent or agency."
-  },
-  {
-    "word": "daq",
-    "english_equiv": "he / him",
-    "part_of_speech": "Grammar",
-    "definition": "Third-person singular animate male; a male entity with intent or agency."
-  },
-  {
-    "word": "ap",
-    "english_equiv": "Divided by / Fraction of / Out of",
-    "part_of_speech": "Grammar",
-    "definition": "This is an immutable mathematical operator used to perform explicit division or create fractions within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used in a Zero Copula sentence to state a mathematical equation (e.g., sluqe ap dewe tafe = 6 divided by 2 is 3)."
-  },
-  {
-    "word": "ron",
-    "english_equiv": "Or (Inline Alternative)",
-    "part_of_speech": "Grammar",
-    "definition": "Inline mathematical boolean OR; offers a choice between elements of the same grammatical category."
-  },
-  {
-    "word": "sal",
-    "english_equiv": "Hello / Greetings",
-    "part_of_speech": "Grammar",
-    "definition": "Acknowledges presence or initiates a social interaction."
-  },
-  {
-    "word": "tex",
-    "english_equiv": "Goodbye / Farewell",
-    "part_of_speech": "Grammar",
-    "definition": "Closes a social interaction or indicates departure."
-  },
-  {
-    "word": "ak",
-    "english_equiv": "Ouch / Pain",
-    "part_of_speech": "Grammar",
-    "definition": "Exclamation of sudden physical pain or intense discomfort."
-  },
-  {
-    "word": "wox",
-    "english_equiv": "Wow / Awe",
-    "part_of_speech": "Grammar",
-    "definition": "An exclamation of positive surprise, wonder, or amazement."
-  },
-  {
-    "word": "jo",
-    "english_equiv": "Hey / Attention",
-    "part_of_speech": "Grammar",
-    "definition": "Sharp exclamation to command immediate attention or warn."
-  },
-  {
-    "word": "ha",
-    "english_equiv": "Oh / I see",
-    "part_of_speech": "Grammar",
-    "definition": "Indicates sudden realization, acknowledgment, or understanding."
-  },
-  {
-    "word": "cef",
-    "english_equiv": "Please",
-    "part_of_speech": "Grammar",
-    "definition": "Expresses politeness, courteous intent, or softens a command."
-  },
-  {
     "word": "-a",
     "english_equiv": "Biological Noun Derivation",
     "part_of_speech": "Grammar",
     "definition": "Derives a biological noun, such as a living organism, plant, animal, or body part."
-  },
-  {
-    "word": "-o",
-    "english_equiv": "Concrete Noun Derivation",
-    "part_of_speech": "Grammar",
-    "definition": "Derives a concrete noun, such as a physical object, material, tool, or location."
-  },
-  {
-    "word": "-u",
-    "english_equiv": "Abstract Noun Derivation",
-    "part_of_speech": "Grammar",
-    "definition": "Derives an abstract noun, such as a concept, emotion, time, or intangible idea."
-  },
-  {
-    "word": "-i",
-    "english_equiv": "Verb / Stative Verb Derivation",
-    "part_of_speech": "Grammar",
-    "definition": "Derives an action or a stative verb."
-  },
-  {
-    "word": "-e",
-    "english_equiv": "Modifier Derivation",
-    "part_of_speech": "Grammar",
-    "definition": "Derives a descriptive modifier."
-  },
-  {
-    "word": "-p",
-    "english_equiv": "Specific Noun Marker",
-    "part_of_speech": "Grammar",
-    "definition": "Explicitly identifies a known, definite entity."
-  },
-  {
-    "word": "-r",
-    "english_equiv": "Non-specific Noun Marker",
-    "part_of_speech": "Grammar",
-    "definition": "Indicates an indefinite, unknown, or general entity."
   },
   {
     "word": "-d",
@@ -313,22 +13,10 @@ const dictionaryData = [
     "definition": "Indicates an action that occurred in the past."
   },
   {
-    "word": "-s",
-    "english_equiv": "Future Tense",
+    "word": "-dyk",
+    "english_equiv": "Past Perfect",
     "part_of_speech": "Grammar",
-    "definition": "Indicates an action that will occur forward in time."
-  },
-  {
-    "word": "-q",
-    "english_equiv": "Continuous Aspect",
-    "part_of_speech": "Grammar",
-    "definition": "Indicates an action actively in progress at this exact moment."
-  },
-  {
-    "word": "-k",
-    "english_equiv": "Perfect Aspect",
-    "part_of_speech": "Grammar",
-    "definition": "Indicates a completed past action that has a direct result or relevance right now."
+    "definition": "Establishes that an action was completely finished before another past action occurred."
   },
   {
     "word": "-dyq",
@@ -337,34 +25,10 @@ const dictionaryData = [
     "definition": "Indicates an action that was actively in progress during the past."
   },
   {
-    "word": "-dyk",
-    "english_equiv": "Past Perfect",
+    "word": "-e",
+    "english_equiv": "Modifier Derivation",
     "part_of_speech": "Grammar",
-    "definition": "Establishes that an action was completely finished before another past action occurred."
-  },
-  {
-    "word": "-syq",
-    "english_equiv": "Future Continuous",
-    "part_of_speech": "Grammar",
-    "definition": "Describes an ongoing state at a specific point in the future."
-  },
-  {
-    "word": "-syk",
-    "english_equiv": "Future Perfect",
-    "part_of_speech": "Grammar",
-    "definition": "Sets a deadline for when a future action will be completely finished."
-  },
-  {
-    "word": "-m",
-    "english_equiv": "Nested Modifier Flag",
-    "part_of_speech": "Grammar",
-    "definition": "Signals the parser to suspend the Look Left rule, allowing the next modifier to attach to this word instead of the root."
-  },
-  {
-    "word": "-t",
-    "english_equiv": "The Stacker",
-    "part_of_speech": "Grammar",
-    "definition": "Mathematical linker that locks adjacent words into a single syntactic block, combining single digits into multi-digit integers or permanently chaining serial verbs."
+    "definition": "Derives a descriptive modifier."
   },
   {
     "word": "-f",
@@ -373,305 +37,107 @@ const dictionaryData = [
     "definition": "The -f suffix tells the parser to act as mathematical parentheses, distributing the modifier backward across every noun connected by lan until the chain breaks."
   },
   {
-    "word": "vel",
-    "english_equiv": "While / Whereas",
+    "word": "-i",
+    "english_equiv": "Verb / Stative Verb Derivation",
     "part_of_speech": "Grammar",
-    "definition": "Introduces a completely new, independent clause that occurs simultaneously alongside the previous clause, or presents a direct contextual contrast (whereas)."
+    "definition": "Derives an action or a stative verb."
   },
   {
-    "word": "wug",
-    "english_equiv": "How many / How much? (Interrogative)",
+    "word": "-k",
+    "english_equiv": "Perfect Aspect",
     "part_of_speech": "Grammar",
-    "definition": "An interrogative variable specifically holding the place of an unknown numerical quantity or mathematical amount. It sits directly in the SVO slot where the numerical answer is expected."
+    "definition": "Indicates a completed past action that has a direct result or relevance right now."
   },
   {
-    "word": "zol",
-    "english_equiv": "Although / Even though",
+    "word": "-m",
+    "english_equiv": "Nested Modifier Flag",
     "part_of_speech": "Grammar",
-    "definition": "Introduces a concessive clause; it acts as a structural wall indicating that the fact in this clause makes the information in the next clause surprising, contrasting, or unexpected."
+    "definition": "Signals the parser to suspend the Look Left rule, allowing the next modifier to attach to this word instead of the root."
   },
   {
-    "word": "pot",
-    "english_equiv": "Decimal Point / Radix",
+    "word": "-o",
+    "english_equiv": "Concrete Noun Derivation",
     "part_of_speech": "Grammar",
-    "definition": "This acts as a structural pivot within a numerical sequence. It explicitly signals to the parser that the whole integers have stopped, and any digits following it are to be read sequentially as fractional values. The parser reads the entire sequence, including the decimal pivot, as a single quantitative block until the final -t stacker is dropped."
+    "definition": "Derives a concrete noun, such as a physical object, material, tool, or location."
   },
   {
-    "word": "mux",
-    "english_equiv": "Times / Multiplied by",
+    "word": "-p",
+    "english_equiv": "Specific Noun Marker",
     "part_of_speech": "Grammar",
-    "definition": "This is an immutable mathematical operator used to perform explicit multiplication within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used as the subject of a Zero Copula sentence to state a timeless mathematical equation (e.g., tafe mux dewe sluqe = 3 times 2 is 6)."
+    "definition": "Explicitly identifies a known, definite entity."
   },
   {
-    "word": "mis",
-    "english_equiv": "Minus / Subtracted by",
+    "word": "-q",
+    "english_equiv": "Continuous Aspect",
     "part_of_speech": "Grammar",
-    "definition": "This is an immutable mathematical operator used to perform explicit subtraction within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used as the subject of a Zero Copula sentence to state a timeless mathematical equation (e.g., raje mis dewe tafe = 5 minus 2 is 3)."
+    "definition": "Indicates an action actively in progress at this exact moment."
   },
   {
-    "word": "bip",
-    "english_equiv": "Firstly / First of all",
+    "word": "-r",
+    "english_equiv": "Non-specific Noun Marker",
     "part_of_speech": "Grammar",
-    "definition": "A pragmatic mood tag placed at the absolute start of a sentence to introduce the first point in a sequence."
+    "definition": "Indicates an indefinite, unknown, or general entity."
   },
   {
-    "word": "xap",
-    "english_equiv": "For example",
+    "word": "-s",
+    "english_equiv": "Future Tense",
     "part_of_speech": "Grammar",
-    "definition": "A pragmatic mood tag placed at the absolute start of a sentence to introduce an example or illustration."
+    "definition": "Indicates an action that will occur forward in time."
   },
   {
-    "word": "sep",
-    "english_equiv": "In sum / In conclusion",
+    "word": "-syk",
+    "english_equiv": "Future Perfect",
     "part_of_speech": "Grammar",
-    "definition": "A pragmatic mood tag placed at the absolute start of a sentence to introduce a summary or conclusion."
+    "definition": "Sets a deadline for when a future action will be completely finished."
   },
   {
-    "word": "sek",
-    "english_equiv": "List Separator / Spoken Comma",
+    "word": "-syq",
+    "english_equiv": "Future Continuous",
     "part_of_speech": "Grammar",
-    "definition": "A structural particle that explicitly separates sequential items in a list or breaks the -t stacker bond between adjacent number blocks. It acts as a phonetic wall, telling the parser to finalize the current item and move to the next. Used for enumerating individual multi-digit numbers (e.g., counting 10, 11, 12) and for listing items without using lan.",
-    "usage_note": "Neutral enumeration, unlike lan, which asserts logical AND."
+    "definition": "Describes an ongoing state at a specific point in the future."
   },
   {
-    "word": "vax",
-    "english_equiv": "However / On the other hand",
+    "word": "-t",
+    "english_equiv": "The Stacker",
     "part_of_speech": "Grammar",
-    "definition": "A structural particle used to introduce a statement that contrasts with or seems to contradict something that has been said previously."
+    "definition": "Mathematical linker that locks adjacent words into a single syntactic block, combining single digits into multi-digit integers or permanently chaining serial verbs."
   },
   {
-    "word": "pov",
-    "english_equiv": "Meanwhile / At the same time",
+    "word": "-u",
+    "english_equiv": "Abstract Noun Derivation",
     "part_of_speech": "Grammar",
-    "definition": "A structural particle used to introduce an event or action happening concurrently with another."
+    "definition": "Derives an abstract noun, such as a concept, emotion, time, or intangible idea."
   },
   {
-    "word": "kof",
-    "english_equiv": "Furthermore / Moreover / In addition",
-    "part_of_speech": "Grammar",
-    "definition": "A structural particle used to introduce an additional point, fact, or argument."
+    "word": "abeco",
+    "english_equiv": "Plane",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A powered, fixed-wing flying vehicle constructed from lightweight metals or composites."
   },
   {
-    "word": "xom",
-    "english_equiv": "In other words / That is to say",
-    "part_of_speech": "Grammar",
-    "definition": "A structural particle used to introduce an explanation, clarification, or rephrasing of a previous statement."
+    "word": "abeze",
+    "english_equiv": "So / To that extent / In that way",
+    "part_of_speech": "Modifier",
+    "definition": "A comparative modifier used to indicate that something reaches a specifically referenced degree, extent, or manner (e.g., Why are you so angry?)."
   },
   {
-    "word": "suv",
-    "english_equiv": "You (formal/respectful)",
-    "part_of_speech": "Grammar",
-    "definition": "The formal second-person singular pronoun used to show respect when addressing elders, authorities, strangers, or in professional contexts. Possessive form: `suve` (your/yours, formal singular). Pluralized with `je`: `suv je` (you all, formal), possessive `suvem je` (your/yours, formal plural)."
+    "word": "absu",
+    "english_equiv": "Sense",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract faculty of perception, logic, or structural meaning.",
+    "usage_note": "The faculty itself, distinct from the physical sense organ."
   },
   {
-    "word": "hyp",
-    "english_equiv": "Hypothetical / Counterfactual",
-    "part_of_speech": "Grammar",
-    "definition": "A pragmatic mood tag placed at the absolute start of a clause to indicate that the following statement is a simulation of a reality that does not exist. It translates the English concepts of \"would\" or \"would have\"."
+    "word": "acina",
+    "english_equiv": "Claw",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word identifies a sharp, curved, horny nail situated on the digit of an animal's foot, used for gripping or tearing."
   },
   {
-    "word": "sop",
-    "english_equiv": "Direct / Sensory Evidence",
-    "part_of_speech": "Grammar",
-    "definition": "A pragmatic mood tag indicating the speaker knows the statement is true because they directly experienced it (e.g., saw, heard, or felt it happen)."
-  },
-  {
-    "word": "nop",
-    "english_equiv": "Inferred / Logical Evidence",
-    "part_of_speech": "Grammar",
-    "definition": "A pragmatic mood tag indicating the speaker knows the statement is true through logical deduction or physical evidence."
-  },
-  {
-    "word": "rop",
-    "english_equiv": "Reported / Hearsay Evidence",
-    "part_of_speech": "Grammar",
-    "definition": "A pragmatic mood tag indicating the speaker knows the statement is true because they were told by someone else or read it somewhere."
-  },
-  {
-    "word": "dy",
-    "english_equiv": "made of",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates the physical substance or material composition of the subject."
-  },
-  {
-    "word": "fazy",
-    "english_equiv": "nature of",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates abstract characteristics, personality, or intrinsic nature; having the qualities of the object."
-  },
-  {
-    "word": "ny",
-    "english_equiv": "part of",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates the subject is an integral component or piece of the object, such as a body part or machine element."
-  },
-  {
-    "word": "ly",
-    "english_equiv": "shaped like",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates that the subject shares the physical geometry or outline of the object, but not necessarily its material or function."
-  },
-  {
-    "word": "by",
-    "english_equiv": "by",
-    "part_of_speech": "Prepositions",
-    "definition": "Used to indicate agent, means, or source."
-  },
-  {
-    "word": "foly",
-    "english_equiv": "After",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates that the main action occurs strictly subsequent to the referenced temporal baseline or event."
-  },
-  {
-    "word": "fy",
-    "english_equiv": "from",
-    "part_of_speech": "Prepositions",
-    "definition": "Used for origin or starting point"
-  },
-  {
-    "word": "hemy",
-    "english_equiv": "near",
-    "part_of_speech": "Prepositions",
-    "definition": "Used for close proximity."
-  },
-  {
-    "word": "jicy",
-    "english_equiv": "also",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates inclusion or mathematical addition, functioning as a bridge meaning in addition to or along with the target object."
-  },
-  {
-    "word": "ty",
-    "english_equiv": "on",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates physical contact with and support by a surface."
-  },
-  {
-    "word": "noky",
-    "english_equiv": "down / below",
-    "part_of_speech": "Prepositions",
-    "definition": "Used for direction or position lower than a reference."
-  },
-  {
-    "word": "pary",
-    "english_equiv": "before",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates that the main action must conclude strictly prior to the referenced temporal baseline or event."
-  },
-  {
-    "word": "piny",
-    "english_equiv": "as / similar to",
-    "part_of_speech": "Prepositions",
-    "definition": "This word indicates that one thing resembles another or shares common characteristics without being identical."
-  },
-  {
-    "word": "cagy",
-    "english_equiv": "for",
-    "part_of_speech": "Prepositions",
-    "definition": "This word indicates the purpose, destination, or intended recipient of an action or object."
-  },
-  {
-    "word": "my",
-    "english_equiv": "containing",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates that the subject is holding the object inside it; specifies content rather than purpose."
-  },
-  {
-    "word": "rewy",
-    "english_equiv": "far",
-    "part_of_speech": "Prepositions",
-    "definition": "Situated at a great distance from; far away relative to a reference point."
-  },
-  {
-    "word": "ry",
-    "english_equiv": "owned by",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates strict ownership, legal possession, or belonging."
-  },
-  {
-    "word": "sacy",
-    "english_equiv": "outside",
-    "part_of_speech": "Prepositions",
-    "definition": "Used for a position external to the boundaries of an enclosure or object."
-  },
-  {
-    "word": "tody",
-    "english_equiv": "up / above",
-    "part_of_speech": "Prepositions",
-    "definition": "Used for direction or position higher than a reference."
-  },
-  {
-    "word": "ky",
-    "english_equiv": "at",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates general location, presence, or proximity at a specific point."
-  },
-  {
-    "word": "wy",
-    "english_equiv": "with",
-    "part_of_speech": "Prepositions",
-    "definition": "Used for accompaniment or instrumentality."
-  },
-  {
-    "word": "deky",
-    "english_equiv": "inside",
-    "part_of_speech": "Prepositions",
-    "definition": "Used for location within an enclosure."
-  },
-  {
-    "word": "zety",
-    "english_equiv": "about",
-    "part_of_speech": "Prepositions",
-    "definition": "Concerning, regarding, or strictly relating to the subject of a specific topic."
-  },
-  {
-    "word": "zy",
-    "english_equiv": "to",
-    "part_of_speech": "Prepositions",
-    "definition": "Used for direction toward a destination or outcome."
-  },
-  {
-    "word": "taly",
-    "english_equiv": "compared to / than",
-    "part_of_speech": "Prepositions",
-    "definition": "Used to establish a structural bridge between a modified subject or action and the baseline it is being measured against."
-  },
-  {
-    "word": "usy",
-    "english_equiv": "at the sequence of / ranking",
-    "part_of_speech": "Prepositions",
-    "definition": "This preposition indicates the ordinal position or sequence of a noun within a series."
-  },
-  {
-    "word": "zofy",
-    "english_equiv": "Through",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a spatial bridge where the subject enters one side of an environment, medium, or enclosure and exits the other."
-  },
-  {
-    "word": "jany",
-    "english_equiv": "Against",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a bridge of physical contact involving pressure and support, or direct logical opposition/resistance to a concept."
-  },
-  {
-    "word": "zory",
-    "english_equiv": "Between",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a spatial or logical bridge placing the subject directly in the interval that separates two distinct entities."
-  },
-  {
-    "word": "dury",
-    "english_equiv": "During",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a temporal bridge, mapping an action strictly to the timeframe of an ongoing event or period."
-  },
-  {
-    "word": "neswy",
-    "english_equiv": "Without",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a logical bridge of absence or the explicit lack of an accompanying object or trait."
+    "word": "acle",
+    "english_equiv": "Generous",
+    "part_of_speech": "Modifier",
+    "definition": "Showing a readiness to give more of something (like time, care, or wealth) than is expected."
   },
   {
     "word": "acry",
@@ -680,58 +146,112 @@ const dictionaryData = [
     "definition": "Indicates a spatial bridge mapping movement or position from one side of a surface, boundary, or flat area to the opposite side."
   },
   {
-    "word": "beqy",
-    "english_equiv": "Beyond",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a spatial or logical bridge mapping a position that is strictly past the physical limits, boundary, or scope of the reference point."
+    "word": "acumuli",
+    "english_equiv": "Trade / Exchange",
+    "part_of_speech": "Verb",
+    "definition": "To give one thing and receive another in return; to exchange goods or services with another party."
   },
   {
-    "word": "nizy",
-    "english_equiv": "In front of / Ahead of",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a spatial bridge where the subject is located at or directed toward the forward-facing exterior of a reference point."
+    "word": "adihu",
+    "english_equiv": "Consciousness / Awareness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract state of being awake, perceiving reality, and having a subjective, self-aware experience."
   },
   {
-    "word": "fecy",
-    "english_equiv": "Until / Up to",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a temporal or spatial bridge extending continuously up to the absolute limit or termination point of an event or location."
+    "word": "adrebu",
+    "english_equiv": "Degree",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Extent, Used when referring to the how much of an abstract concept (e.g., The extent of the problem)."
   },
   {
-    "word": "baxy",
-    "english_equiv": "Behind",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a spatial bridge where the subject is located at or directed toward the rear or back of a reference point."
+    "word": "adriswe",
+    "english_equiv": "Diagonal",
+    "part_of_speech": "Modifier",
+    "definition": "Running at a slant, joining opposite corners rather than following the vertical or horizontal."
   },
   {
-    "word": "mety",
-    "english_equiv": "By means of / Through / Via",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates the method, process, tool, or pathway utilized to achieve a specific result or destination. (e.g., I learned it via reading)."
+    "word": "adyvo",
+    "english_equiv": "Umbrella",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A folding canopy on a metal frame, used to protect against rain or sun."
   },
   {
-    "word": "dawy",
-    "english_equiv": "Due to / As a result of / Because of",
-    "part_of_speech": "Prepositions",
-    "definition": "A structural bridge linking an outcome strictly to the noun that caused it."
+    "word": "aefi",
+    "english_equiv": "Slip / Slide",
+    "part_of_speech": "Verb",
+    "definition": "To slide accidentally or lose one's footing on a slippery surface."
   },
   {
-    "word": "moxy",
-    "english_equiv": "Among (them) / Within a group",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a spatial or conceptual bridge where the subject is surrounded by, or included as a distinct part of, a larger defined group or set. (e.g., The apple among the grapes)."
+    "word": "afbi",
+    "english_equiv": "Crawl",
+    "part_of_speech": "Verb",
+    "definition": "To move forward close to the ground, typically on hands and knees."
   },
   {
-    "word": "apawy",
-    "english_equiv": "According to / In accordance with",
-    "part_of_speech": "Prepositions",
-    "definition": "A structural preposition indicating that an action or state strictly follows the rules, statements, or nature of the target noun."
+    "word": "afxo",
+    "english_equiv": "Ash",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The solid, powdery physical residue left behind after combustible matter has been completely consumed by fire."
   },
   {
-    "word": "igy",
-    "english_equiv": "at the frequency of / times",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicates a mathematical bridge linking an action to the exact numerical count of its occurrences."
+    "word": "afymu",
+    "english_equiv": "Economy / Industry",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual system governing the production, distribution, and consumption of societal resources."
+  },
+  {
+    "word": "agcu",
+    "english_equiv": "Mistake / Error",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An action, decision, or judgment that is incorrect, misguided, or wrong."
+  },
+  {
+    "word": "agmi",
+    "english_equiv": "Glue / Paste",
+    "part_of_speech": "Verb",
+    "definition": "To fasten, stick, or bind things together using an adhesive substance."
+  },
+  {
+    "word": "agso",
+    "english_equiv": "Drought",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A prolonged period of abnormally low rainfall, leading to a severe shortage of water."
+  },
+  {
+    "word": "ahze",
+    "english_equiv": "Almost / Nearly.",
+    "part_of_speech": "Modifier",
+    "definition": "This word indicates that something is very close to a specific state, quantity, or degree, but is not completely there yet."
+  },
+  {
+    "word": "aite",
+    "english_equiv": "Smelly / Stinky",
+    "part_of_speech": "Modifier",
+    "definition": "Emitting a strong, unpleasant, or foul odor."
+  },
+  {
+    "word": "ajogo",
+    "english_equiv": "Cart / Wagon",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An open wheeled vehicle for carrying loads, pulled or pushed."
+  },
+  {
+    "word": "ak",
+    "english_equiv": "Ouch / Pain",
+    "part_of_speech": "Grammar",
+    "definition": "Exclamation of sudden physical pain or intense discomfort."
+  },
+  {
+    "word": "akari",
+    "english_equiv": "To roast / To bake",
+    "part_of_speech": "Verb",
+    "definition": "To cook food using dry, ambient heat in an enclosed space (like an oven) or over an open flame."
+  },
+  {
+    "word": "akdi",
+    "english_equiv": "Shout / Yell",
+    "part_of_speech": "Verb",
+    "definition": "To speak, cry out, or call in a very loud voice, typically expressing strong emotion."
   },
   {
     "word": "amby",
@@ -740,16 +260,167 @@ const dictionaryData = [
     "definition": "Indicating substitution of one entity or action for another."
   },
   {
-    "word": "eyjy",
-    "english_equiv": "Except / Excluding",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicating that the specified entity is not included in the statement."
+    "word": "amce",
+    "english_equiv": "Never",
+    "part_of_speech": "Modifier",
+    "definition": "At no time; not ever."
   },
   {
-    "word": "hyby",
-    "english_equiv": "Despite / In spite of",
+    "word": "amute",
+    "english_equiv": "Early",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes an event or state happening before the usual, expected, or planned time."
+  },
+  {
+    "word": "anaze",
+    "english_equiv": "Basic / Fundamental / Foundational",
+    "part_of_speech": "Modifier",
+    "definition": "Describes an abstract concept, rule, or structural element that serves as the deep, necessary foundation or core basis from which other things develop."
+  },
+  {
+    "word": "anote",
+    "english_equiv": "Late",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes an event or state happening after the usual, expected, or planned time."
+  },
+  {
+    "word": "anuwu",
+    "english_equiv": "Vital finishing touch",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The one small final addition that brings the whole to life; the opposite of lynku (ruin by overdoing). Logical equivalent: Lantiup lande fefue keanei cemup late. (The small final addition completes everything.)"
+  },
+  {
+    "word": "aofe",
+    "english_equiv": "Satiated / Full (of food)",
+    "part_of_speech": "Modifier",
+    "definition": "Fully satisfied after eating; no longer hungry."
+  },
+  {
+    "word": "ap",
+    "english_equiv": "Divided by / Fraction of / Out of",
+    "part_of_speech": "Grammar",
+    "definition": "This is an immutable mathematical operator used to perform explicit division or create fractions within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used in a Zero Copula sentence to state a mathematical equation (e.g., sluqe ap dewe tafe = 6 divided by 2 is 3)."
+  },
+  {
+    "word": "apawy",
+    "english_equiv": "According to / In accordance with",
     "part_of_speech": "Prepositions",
-    "definition": "Indicating that an action or state occurs regardless of an obstacle or opposing force."
+    "definition": "A structural preposition indicating that an action or state strictly follows the rules, statements, or nature of the target noun."
+  },
+  {
+    "word": "apla",
+    "english_equiv": "Apple",
+    "part_of_speech": "Biological Noun",
+    "definition": "The fleshy, round fruit of a specific widely cultivated tree, typically possessing a red or green skin and a crisp interior."
+  },
+  {
+    "word": "apre",
+    "english_equiv": "Normal / Typical",
+    "part_of_speech": "Modifier",
+    "definition": "Conforming to a standard; usual, typical, or expected."
+  },
+  {
+    "word": "aqe",
+    "english_equiv": "Male.",
+    "part_of_speech": "Modifier",
+    "definition": "Pertaining to the biological sex that typically produces the mobile gametes (sperm), or relating to masculine characteristics."
+  },
+  {
+    "word": "arcipi",
+    "english_equiv": "To participate / To join",
+    "part_of_speech": "Verb",
+    "definition": "To actively enter into an event, group, or activity and take part in its ongoing processes."
+  },
+  {
+    "word": "arife",
+    "english_equiv": "(Should / Recommended)",
+    "part_of_speech": "Modifier",
+    "definition": "Highly recommended, socially expected, or logically advisable, but not strictly obligatory."
+  },
+  {
+    "word": "arke",
+    "english_equiv": "Pregnant",
+    "part_of_speech": "Modifier",
+    "definition": "Having a child or young developing in the uterus."
+  },
+  {
+    "word": "arlo",
+    "english_equiv": "Lightning",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A natural electrical discharge of very short duration and high voltage, accompanied by a bright flash."
+  },
+  {
+    "word": "arsumpi",
+    "english_equiv": "Flow",
+    "part_of_speech": "Verb",
+    "definition": "To move steadily and continuously in a current or stream, as liquids, air, or crowds naturally do; ibvi (pour) is the deliberate act."
+  },
+  {
+    "word": "arteta",
+    "english_equiv": "Fruit",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies the fleshy, edible product of a tree or plant that naturally contains seeds and is consumed as food."
+  },
+  {
+    "word": "artu",
+    "english_equiv": "Art",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The conceptual expression or abstract application of human creative skill and imagination."
+  },
+  {
+    "word": "ase",
+    "english_equiv": "Female.",
+    "part_of_speech": "Modifier",
+    "definition": "Pertaining to the biological sex that typically produces the larger gametes (ova), or relating to feminine characteristics."
+  },
+  {
+    "word": "asku",
+    "english_equiv": "Reason",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract intellectual justification, motive, or logical premise behind an action or belief."
+  },
+  {
+    "word": "asmki",
+    "english_equiv": "Tie / Bind",
+    "part_of_speech": "Verb",
+    "definition": "To fasten or secure something using a string or rope."
+  },
+  {
+    "word": "astlu",
+    "english_equiv": "Interest",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual feeling of wanting to know/learn about something, or an intangible advantage/benefit."
+  },
+  {
+    "word": "atilu",
+    "english_equiv": "Belief / Conviction",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A firmly held abstract understanding, principle, or conceptual truth that a person accepts as real, even without absolute physical proof.",
+    "usage_note": "Its verb derivation atilui ('to believe') carries conviction. Contrast dagibi (assume — accept without evidence as a working basis) and skaxebi (suspect — partial evidence)."
+  },
+  {
+    "word": "atobu",
+    "english_equiv": "Field",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract domain of study, specific area of conceptual interest, or theoretical sphere of activity."
+  },
+  {
+    "word": "atripo",
+    "english_equiv": "Train",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A connected series of physical railway carriages or wagons structurally linked and moved by a locomotive engine along tracks."
+  },
+  {
+    "word": "auvi",
+    "english_equiv": "Sink",
+    "part_of_speech": "Verb",
+    "definition": "To go down below the surface of a liquid, or fall slowly toward the bottom."
+  },
+  {
+    "word": "avge",
+    "english_equiv": "Rotten / Decayed",
+    "part_of_speech": "Modifier",
+    "definition": "No longer fresh or pleasant; spoiled, decomposed, or organic matter that has broken down."
   },
   {
     "word": "avly",
@@ -758,10 +429,96 @@ const dictionaryData = [
     "definition": "In a line parallel with, or next to the length of a surface or path."
   },
   {
-    "word": "oxly",
-    "english_equiv": "Since",
-    "part_of_speech": "Prepositions",
-    "definition": "Indicating the starting point of a period of time that continues to the present (temporal)."
+    "word": "avmo",
+    "english_equiv": "Nail",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A small, thin, pointed piece of metal with a flat head, driven into wood or other materials to hold them together."
+  },
+  {
+    "word": "avowi",
+    "english_equiv": "To drop / To let fall",
+    "part_of_speech": "Verb",
+    "definition": "To intentionally or accidentally release a physical object from one's grasp, allowing gravity to pull it down.",
+    "usage_note": "Distinct from sowi, the intransitive act of falling."
+  },
+  {
+    "word": "axvu",
+    "english_equiv": "Alliance",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A union or association formed for mutual benefit, especially between groups, factions, or countries."
+  },
+  {
+    "word": "aziku",
+    "english_equiv": "Rule",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to an abstract constraint, principle, or guideline governing conduct or action.",
+    "usage_note": "Distinct from iku, a strictly enforced formal law."
+  },
+  {
+    "word": "azmu",
+    "english_equiv": "Sympathy / Compassion",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Feelings of pity, sorrow, or shared concern for someone else's misfortune or pain."
+  },
+  {
+    "word": "azo",
+    "english_equiv": "Bowl",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A deep, rounded physical container used for holding liquids or food."
+  },
+  {
+    "word": "babse",
+    "english_equiv": "Hungry",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a biological state of discomfort or weakness caused by a lack of food, coupled with a strong desire to eat."
+  },
+  {
+    "word": "baduju",
+    "english_equiv": "Omen / Portent",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A sign that something, especially something bad, is coming."
+  },
+  {
+    "word": "bafu",
+    "english_equiv": "Second.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the base unit of time, equal to one-sixtieth of a minute."
+  },
+  {
+    "word": "bahara",
+    "english_equiv": "Palm.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The inner, flat surface of the hand, between the wrist and the fingers."
+  },
+  {
+    "word": "baili",
+    "english_equiv": "Borrow",
+    "part_of_speech": "Verb",
+    "definition": "To temporarily take or receive physical possession of something with the strict intention of returning it to its owner."
+  },
+  {
+    "word": "baki",
+    "english_equiv": "Try / Attempt.",
+    "part_of_speech": "Verb",
+    "definition": "To execute an action with the intent of achieving a specific result, while acknowledging that the outcome is uncertain or experimental."
+  },
+  {
+    "word": "bambodo",
+    "english_equiv": "Sponge",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A soft, porous object that soaks up and holds liquid, used for washing and cleaning."
+  },
+  {
+    "word": "baqi",
+    "english_equiv": "Call",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to cry out to someone in order to summon them or attract their attention."
+  },
+  {
+    "word": "barusu",
+    "english_equiv": "Carelessness / Sloppiness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Doing things without care or precision. Logical equivalent: Daq naci neswy zenup. (He works without care.)"
   },
   {
     "word": "bata",
@@ -770,112 +527,40 @@ const dictionaryData = [
     "definition": "Any organic, nutritious matter consumed or absorbed by a living organism to sustain life and growth."
   },
   {
-    "word": "fija",
-    "english_equiv": "Ear",
-    "part_of_speech": "Biological Noun",
-    "definition": "The biological organ responsible for the perception of sound."
+    "word": "baude",
+    "english_equiv": "Beautiful",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes a state possessing physical or conceptual qualities that give immense, positive aesthetic pleasure to the senses."
   },
   {
-    "word": "jepa",
-    "english_equiv": "Offspring",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to the immediate descendant produced by the reproduction of a living organism."
+    "word": "baxy",
+    "english_equiv": "Behind",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a spatial bridge where the subject is located at or directed toward the rear or back of a reference point."
   },
   {
-    "word": "maoba",
-    "english_equiv": "Heart",
-    "part_of_speech": "Biological Noun",
-    "definition": "The physical, biological muscle organ that pumps blood through the circulatory system of an organism."
+    "word": "beati",
+    "english_equiv": "Close.",
+    "part_of_speech": "Verb",
+    "definition": "To block an opening, seal a passage, or restrict physical access."
   },
   {
-    "word": "ylxa",
-    "english_equiv": "Mouth",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to the opening in the lower part of the human face through which food is taken in and speech is emitted."
+    "word": "bef",
+    "english_equiv": "clause connector / and (clausal)",
+    "part_of_speech": "Grammar",
+    "definition": "Clausal wall introducing an independent parallel thought; completely resets the SVO parser."
   },
   {
-    "word": "mosa",
-    "english_equiv": "Tree",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies a large plant, typically having a single stem or trunk growing to a considerable height."
+    "word": "beglono",
+    "english_equiv": "Honey",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The sweet, golden, viscous food produced by bees (elsa) from flower nectar."
   },
   {
-    "word": "meka",
-    "english_equiv": "Bone",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to any of the pieces of hard, whitish tissue making up the skeleton in humans and other vertebrates."
-  },
-  {
-    "word": "meota",
-    "english_equiv": "Head.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies the upper part of the human body containing the brain, eyes, ears, nose, and mouth."
-  },
-  {
-    "word": "xufa",
-    "english_equiv": "Arm.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to each of the two upper limbs of the human body from the shoulder to the hand."
-  },
-  {
-    "word": "cila",
-    "english_equiv": "Leaf",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies the flattened, usually green structure of a plant attached to a stem."
-  },
-  {
-    "word": "fuka",
-    "english_equiv": "Hand",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb."
-  },
-  {
-    "word": "mifa",
-    "english_equiv": "Animal.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies a living organism that is specifically a land-dwelling beast."
-  },
-  {
-    "word": "mita",
-    "english_equiv": "Meat.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to the flesh of an animal used as food."
-  },
-  {
-    "word": "nofa",
-    "english_equiv": "Person / Human / People",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a human being, individual, or member of the human species."
-  },
-  {
-    "word": "boja",
-    "english_equiv": "Blood.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies the red liquid that circulates in the arteries and veins of humans and other vertebrate animals."
-  },
-  {
-    "word": "mula",
-    "english_equiv": "Flower.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to the seed-bearing part of a plant, consisting of reproductive organs and colorful petals."
-  },
-  {
-    "word": "myga",
-    "english_equiv": "Leg.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to each of the limbs on which a person or animal walks and stands."
-  },
-  {
-    "word": "nasa",
-    "english_equiv": "Plant.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a living organism of the kind exemplified by trees, shrubs, and herbs."
-  },
-  {
-    "word": "nauxa",
-    "english_equiv": "Friend.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a person whom one knows and with whom one has a bond of mutual affection."
+    "word": "beje",
+    "english_equiv": "Slightly / A little",
+    "part_of_speech": "Modifier",
+    "definition": "A relative degree modifier indicating a small, minor, or low amount of a trait, state, or action."
   },
   {
     "word": "bela",
@@ -884,88 +569,251 @@ const dictionaryData = [
     "definition": "This identifies the lower extremity of the leg below the ankle, on which a person stands or walks."
   },
   {
-    "word": "dysa",
-    "english_equiv": "Tongue",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to the fleshy muscular organ in the mouth used for tasting, licking, swallowing, and speaking."
+    "word": "belimo",
+    "english_equiv": "Shoe",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical covering for the foot, typically made of leather or synthetic materials, featuring a sturdy protective sole."
   },
   {
-    "word": "fota",
-    "english_equiv": "Root.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies the part of a plant that attaches it to the ground and absorbs water and nourishment."
+    "word": "beqy",
+    "english_equiv": "Beyond",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a spatial or logical bridge mapping a position that is strictly past the physical limits, boundary, or scope of the reference point."
   },
   {
-    "word": "nida",
-    "english_equiv": "Tooth.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies each of the hard, white structures in the mouth used for biting and chewing."
+    "word": "bexo",
+    "english_equiv": "Air.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The invisible mixture of gases surrounding a planet or filling an environment."
   },
   {
-    "word": "syca",
-    "english_equiv": "Seed.",
+    "word": "biba",
+    "english_equiv": "Baby / Infant",
     "part_of_speech": "Biological Noun",
-    "definition": "This refers to the unit of reproduction of a flowering plant capable of developing into another such plant."
+    "definition": "A very young human child, particularly one who has not yet learned to walk or talk."
   },
   {
-    "word": "noja",
-    "english_equiv": "Eye.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies the organ of sight in humans and animals."
+    "word": "biero",
+    "english_equiv": "Beer",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A fermented, carbonated physical liquid beverage typically brewed from malted barley and flavored with hops."
   },
   {
-    "word": "poka",
-    "english_equiv": "Hair.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to the fine thread-like strands growing from the skin of humans, mammals, and some other animals."
+    "word": "bife",
+    "english_equiv": "(Allowed / Permitted)",
+    "part_of_speech": "Modifier",
+    "definition": "Explicitly permitted or allowed."
   },
   {
-    "word": "nupa",
-    "english_equiv": "Parent.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a father or mother, or a person or animal that produces offspring."
+    "word": "bikli",
+    "english_equiv": "Publish / Issue",
+    "part_of_speech": "Verb",
+    "definition": "To officially prepare and issue a book, journal, piece of media, or statement for broad public distribution."
   },
   {
-    "word": "soxa",
-    "english_equiv": "Body.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to the physical structure of a person or an animal, comprising the material substance."
+    "word": "bilyho",
+    "english_equiv": "Potion",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A brewed magical liquid prepared in small quantities and drunk to produce a specific effect on the body or mind."
   },
   {
-    "word": "zala",
-    "english_equiv": "Bug / Insect.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a small invertebrate animal, often with a segmented body and legs."
+    "word": "bime",
+    "english_equiv": "One",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the lowest cardinal number, representing a single unit or entity."
   },
   {
-    "word": "zipa",
-    "english_equiv": "Face.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The front part of a biological entity's head, typically containing the eyes, nose, and mouth."
+    "word": "bimedu",
+    "english_equiv": "Monday",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Monday; the first day of the week. Derived by compounding bime (one) and du (day)."
   },
   {
-    "word": "nyta",
-    "english_equiv": "Nose.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies the part projecting above the mouth on the face of a person or animal, used for smelling."
+    "word": "bip",
+    "english_equiv": "Firstly / First of all",
+    "part_of_speech": "Grammar",
+    "definition": "A pragmatic mood tag placed at the absolute start of a sentence to introduce the first point in a sequence."
   },
   {
-    "word": "mapa",
-    "english_equiv": "Finger.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies each of the long, slender members attached to the hand."
+    "word": "biwu",
+    "english_equiv": "Problem / Trouble",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a matter or situation regarded as unwelcome or harmful and needing to be dealt with and overcome."
   },
   {
-    "word": "kyfa",
-    "english_equiv": "Bird.",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a flying animal, typically characterized by feathers and wings."
+    "word": "biznu",
+    "english_equiv": "Company / Enterprise / Business",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A conceptual human organization or structural enterprise legally engaged in commercial, industrial, or professional activities.",
+    "usage_note": "Distinct from the physical retail building xyro (store) and the broader systemic concept afymu (economy)."
   },
   {
-    "word": "cosa",
-    "english_equiv": "Skin",
+    "word": "bizomo",
+    "english_equiv": "Ingot.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A block of cast metal, typically shaped for storage or working."
+  },
+  {
+    "word": "blobo",
+    "english_equiv": "Axe.",
+    "definition": "A tool or weapon with a heavy bladed head on a handle, used for chopping.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "blunu",
+    "english_equiv": "Meaning",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the semantic intent, logical significance, or intended message behind a word, action, or concept."
+  },
+  {
+    "word": "bofama",
+    "english_equiv": "Wrist.",
     "part_of_speech": "Biological Noun",
-    "definition": "This refers to the thin layer of tissue forming the natural outer covering of the body."
+    "definition": "The joint connecting the hand to the forearm."
+  },
+  {
+    "word": "bogu",
+    "english_equiv": "Force.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to strength or energy as an attribute of physical action or movement, or an influence that can change the motion of an object."
+  },
+  {
+    "word": "boja",
+    "english_equiv": "Blood.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies the red liquid that circulates in the arteries and veins of humans and other vertebrate animals."
+  },
+  {
+    "word": "boke",
+    "english_equiv": "Bad.",
+    "part_of_speech": "Modifier",
+    "definition": "Regarded as subjectively negative or unfavorable."
+  },
+  {
+    "word": "borpo",
+    "english_equiv": "Pot / Pan (cookware)",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A deep metal cooking vessel used over heat; the basic kitchen container for boiling and stewing."
+  },
+  {
+    "word": "bosli",
+    "english_equiv": "To hurry.",
+    "part_of_speech": "Verb",
+    "definition": "To move or act with haste; to do something quickly or hastily, or to urge another to do so."
+  },
+  {
+    "word": "botaxe",
+    "english_equiv": "Stupid / Foolish",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an entity possessing a low mental capacity, or lacking logic, reasoning, and good judgment."
+  },
+  {
+    "word": "boto",
+    "english_equiv": "Boat / Raft",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physically constructed vessel designed to float and travel on the surface of water."
+  },
+  {
+    "word": "braci",
+    "english_equiv": "To chew.",
+    "part_of_speech": "Verb",
+    "definition": "To crush and grind food between the teeth before swallowing."
+  },
+  {
+    "word": "branda",
+    "english_equiv": "Panda.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A large black-and-white bear native to bamboo forests."
+  },
+  {
+    "word": "brekra",
+    "english_equiv": "Forehead.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The upper front part of the face, above the eyebrows and below the hairline."
+  },
+  {
+    "word": "brempa",
+    "english_equiv": "Elbow.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The joint connecting the upper arm to the forearm."
+  },
+  {
+    "word": "briku",
+    "english_equiv": "Regret",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A feeling of sadness, repentance, or disappointment over something that has happened or been done."
+  },
+  {
+    "word": "brirso",
+    "english_equiv": "Lake.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A large body of water surrounded by land. Follows xadoro (river) and tandorso (ocean) as a specific water-body type."
+  },
+  {
+    "word": "bryklo",
+    "english_equiv": "Bread.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A staple food made by baking a dough of ground grain, water, and typically a leavening agent."
+  },
+  {
+    "word": "bufro",
+    "english_equiv": "Copper.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A reddish-orange metal, used in wiring, tools, and alloys. Follows xedo (metal) and xaqbo (gold) as a specific metal type."
+  },
+  {
+    "word": "bul",
+    "english_equiv": "but",
+    "part_of_speech": "Grammar",
+    "definition": "Clausal wall introducing a contrasting thought or exception."
+  },
+  {
+    "word": "bumpi",
+    "english_equiv": "To complain.",
+    "part_of_speech": "Verb",
+    "definition": "To express dissatisfaction, annoyance, or grievance about something. A speech-act verb alongside akdi (shout) and opdi (whisper)."
+  },
+  {
+    "word": "busko",
+    "english_equiv": "Clothes / Clothing.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to items worn to cover the body, typically made of fabric or textile materials."
+  },
+  {
+    "word": "buva",
+    "english_equiv": "Cow / Bovine",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies a large domesticated ungulate kept primarily as livestock for the production of meat or milk."
+  },
+  {
+    "word": "buxe",
+    "english_equiv": "Impatient",
+    "part_of_speech": "Modifier",
+    "definition": "Showing a tendency to be quickly irritated or provoked by delays, obstacles, or opposition."
+  },
+  {
+    "word": "buzisi",
+    "english_equiv": "Buzz / Hum",
+    "part_of_speech": "Verb",
+    "definition": "To produce a continuous low vibrating sound, as an insect's wings or a running machine does."
+  },
+  {
+    "word": "by",
+    "english_equiv": "by",
+    "part_of_speech": "Prepositions",
+    "definition": "Used to indicate agent, means, or source."
+  },
+  {
+    "word": "byso",
+    "english_equiv": "Sky.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to the region of the atmosphere and outer space seen from the earth."
+  },
+  {
+    "word": "cacodu",
+    "english_equiv": "Diagnosis",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The identification of the nature of an illness or other problem by examination of the symptoms."
   },
   {
     "word": "cada",
@@ -975,46 +823,310 @@ const dictionaryData = [
     "usage_note": "Distinct from jepa (offspring), which maps the relational link to a parent."
   },
   {
-    "word": "wiza",
-    "english_equiv": "Wing",
-    "part_of_speech": "Biological Noun",
-    "definition": "This word identifies a modified forelimb or specialized biological appendage that enables an organism to fly or glide through the air."
+    "word": "caeno",
+    "english_equiv": "Street",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A paved public thoroughfare in a city or town, serving as a physical infrastructure route for vehicles and pedestrians."
   },
   {
-    "word": "ijyra",
-    "english_equiv": "Tail",
-    "part_of_speech": "Biological Noun",
-    "definition": "This word refers to the distinct, flexible appendage extending from the rear end of an animal's body."
+    "word": "cafi",
+    "english_equiv": "Run",
+    "part_of_speech": "Verb",
+    "definition": "To move swiftly on foot at a pace significantly faster than a walk."
   },
   {
-    "word": "irta",
-    "english_equiv": "Egg",
-    "part_of_speech": "Biological Noun",
-    "definition": "This word identifies the round or oval biological reproductive body laid by the females of many animals, containing the developing embryo."
+    "word": "caflo",
+    "english_equiv": "Shadow",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The dark physical area or shape structurally created on a surface when an opaque object blocks a light source (lito)."
   },
   {
-    "word": "otma",
-    "english_equiv": "Disease / Sickness",
-    "part_of_speech": "Biological Noun",
-    "definition": "This word identifies a physical, biological disorder, infection, or abnormal condition that actively disrupts the physiological function and tissue of a living organism."
+    "word": "cagy",
+    "english_equiv": "for",
+    "part_of_speech": "Prepositions",
+    "definition": "This word indicates the purpose, destination, or intended recipient of an action or object."
   },
   {
-    "word": "ponxa",
-    "english_equiv": "Virus",
-    "part_of_speech": "Biological Noun",
-    "definition": "This word identifies an infective biological agent—typically consisting of nucleic acid within a protein coat—that is only able to multiply within the living cells of a host."
+    "word": "can",
+    "english_equiv": "then",
+    "part_of_speech": "Grammar",
+    "definition": "Clausal wall introducing a subsequent chronological action; resolves a conditional premise."
   },
   {
-    "word": "mezuna",
-    "english_equiv": "Shell",
-    "part_of_speech": "Biological Noun",
-    "definition": "This word refers to the hard, protective outer organic layer or exoskeleton naturally secreted and worn by certain animals, such as turtles or mollusks."
+    "word": "canpu",
+    "english_equiv": "Community",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract social structure, shared identity, or conceptual bond uniting a group of individuals."
   },
   {
-    "word": "goda",
-    "english_equiv": "Brain",
+    "word": "cape",
+    "english_equiv": "Black / Dark.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes the very darkest color, resulting from the absence or complete absorption of light."
+  },
+  {
+    "word": "caqla",
+    "english_equiv": "Boy / Male Child",
     "part_of_speech": "Biological Noun",
-    "definition": "This word identifies the central organ of the nervous system located inside the head, responsible for physically processing sensory and intellectual activity."
+    "definition": "This refers strictly to a young male human who has not yet reached adulthood."
+  },
+  {
+    "word": "caqu",
+    "english_equiv": "Tactic / Strategic Move / Trick",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract conceptual step, planned maneuver, or clever method executed to gain an advantage or achieve a specific goal within a system or game."
+  },
+  {
+    "word": "casla",
+    "english_equiv": "Girl / Female Child",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers strictly to a young female human who has not yet reached adulthood."
+  },
+  {
+    "word": "catsa",
+    "english_equiv": "Cat",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a small, domesticated carnivorous mammal, widely kept as a companion animal."
+  },
+  {
+    "word": "cavulko",
+    "english_equiv": "Cobweb / Web",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The net of fine silk threads spun by a spider to catch prey."
+  },
+  {
+    "word": "cef",
+    "english_equiv": "Please",
+    "part_of_speech": "Grammar",
+    "definition": "Expresses politeness, courteous intent, or softens a command."
+  },
+  {
+    "word": "cele",
+    "english_equiv": "Private / Personal",
+    "part_of_speech": "Modifier",
+    "definition": "Belonging to or for the use of one particular person or group only; not public."
+  },
+  {
+    "word": "cemu",
+    "english_equiv": "Thing",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A universal substantive used to refer to any abstract entity, concept, idea, or matter of discussion."
+  },
+  {
+    "word": "ceni",
+    "english_equiv": "Live.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to remain alive or have life."
+  },
+  {
+    "word": "cetofi",
+    "english_equiv": "Show / Display",
+    "part_of_speech": "Verb",
+    "definition": "To intentionally make a physical object, concept, or data visually or intellectually apparent to another entity."
+  },
+  {
+    "word": "cevolo",
+    "english_equiv": "Log / Trunk.",
+    "definition": "A section of a felled tree trunk or thick branch.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "ciafe",
+    "english_equiv": "Already",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an action or state that has been fully completed or achieved prior to a specific point in time."
+  },
+  {
+    "word": "cige",
+    "english_equiv": "Foreign",
+    "part_of_speech": "Modifier",
+    "definition": "Belonging to, coming from, or characteristic of another country, language, or society."
+  },
+  {
+    "word": "cihu",
+    "english_equiv": "Morning",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the early part of the day, typically from sunrise until the midpoint of the day."
+  },
+  {
+    "word": "cijo",
+    "english_equiv": "Weapon",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical tool, instrument, or device specifically engineered to inflict bodily harm or structural damage."
+  },
+  {
+    "word": "cila",
+    "english_equiv": "Leaf",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies the flattened, usually green structure of a plant attached to a stem."
+  },
+  {
+    "word": "cimi",
+    "english_equiv": "Start / Begin",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to begin an action or event."
+  },
+  {
+    "word": "cirpiwi",
+    "english_equiv": "Chirp / Squeak",
+    "part_of_speech": "Verb",
+    "definition": "To produce short, high-pitched sounds, as small birds and small animals do."
+  },
+  {
+    "word": "ciswo",
+    "english_equiv": "Barrel",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A large cylindrical container with bulging sides and flat ends, traditionally of wooden staves bound by hoops."
+  },
+  {
+    "word": "clapo",
+    "english_equiv": "Clock",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A mechanical or electrical physical device constructed with a dial or display for mathematically measuring and showing time."
+  },
+  {
+    "word": "cobo",
+    "english_equiv": "Fog",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thick cloud of tiny water droplets suspended in the atmosphere at or near the earth's surface that obscures or restricts visibility."
+  },
+  {
+    "word": "cohe",
+    "english_equiv": "Few / Little.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes a small number or amount of something."
+  },
+  {
+    "word": "colupri",
+    "english_equiv": "Explode / Blow Up",
+    "part_of_speech": "Verb",
+    "definition": "To burst apart suddenly and violently with a release of energy, noise, and force."
+  },
+  {
+    "word": "compe",
+    "english_equiv": "Common / Popular",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something occurring, found, or done frequently; highly prevalent in the environment."
+  },
+  {
+    "word": "coqyni",
+    "english_equiv": "To turn off / To deactivate.",
+    "part_of_speech": "Verb",
+    "definition": "To cause a device, system, or function to stop operating. The antonym of leoci (to turn on / activate)."
+  },
+  {
+    "word": "corfa",
+    "english_equiv": "Monkey / Ape",
+    "part_of_speech": "Biological Noun",
+    "definition": "A primate, typically having a tail and living in trees in tropical regions."
+  },
+  {
+    "word": "cosa",
+    "english_equiv": "Skin",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the thin layer of tissue forming the natural outer covering of the body."
+  },
+  {
+    "word": "coti",
+    "english_equiv": "Cut.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to separate or divide something using a sharp edge."
+  },
+  {
+    "word": "cowaba",
+    "english_equiv": "Donkey.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A domesticated pack animal related to the horse, smaller and long-eared."
+  },
+  {
+    "word": "cuaca",
+    "english_equiv": "Bear",
+    "part_of_speech": "Biological Noun",
+    "definition": "A large, heavy mammal with thick fur and a very short tail."
+  },
+  {
+    "word": "cubasto",
+    "english_equiv": "Sphere / Globe",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A perfectly round three-dimensional body, every surface point equally distant from the center; the geometric shape, where weoro (ball) is the play object."
+  },
+  {
+    "word": "cudza",
+    "english_equiv": "Wolf.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A large wild canine that hunts in packs."
+  },
+  {
+    "word": "cufu",
+    "english_equiv": "Goal / Purpose / Target",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual target or desired future outcome toward which systematic effort is directed."
+  },
+  {
+    "word": "cugo",
+    "english_equiv": "Eraser",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A piece of soft rubber or plastic used to rub out ink or pencil marks."
+  },
+  {
+    "word": "cuje",
+    "english_equiv": "Some / An indefinite amount",
+    "part_of_speech": "Modifier",
+    "definition": "Describes an indefinite, non-zero quantity or subset of an entity. Mathematically, it asserts that a quantity exists (strictly greater than zero) but explicitly leaves the exact number undefined, stripping away any subjective judgment of whether it is few or many."
+  },
+  {
+    "word": "cuki",
+    "english_equiv": "Fight / Argue",
+    "part_of_speech": "Verb",
+    "definition": "To engage in a physical, verbal, or conceptual struggle against an opposing force or entity."
+  },
+  {
+    "word": "cunte",
+    "english_equiv": "Current",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes a state or object belonging strictly to the present timeframe; happening or being actively used right now."
+  },
+  {
+    "word": "cuspo",
+    "english_equiv": "Beacon",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A light or fire set in a high, visible place to signal, warn, or guide from a distance."
+  },
+  {
+    "word": "cutwe",
+    "english_equiv": "Ready",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes an entity in a fully prepared and suitable state to immediately begin an action or activity."
+  },
+  {
+    "word": "cyri",
+    "english_equiv": "Fly / Hover / Soar.",
+    "part_of_speech": "Verb",
+    "definition": "To move through the air or space under control, whether by aerodynamic wings, biological capability, or mechanical propulsion."
+  },
+  {
+    "word": "cysmo",
+    "english_equiv": "Village",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A small settlement of houses and inhabitants in the countryside; smaller than juro (city)."
+  },
+  {
+    "word": "cytu",
+    "english_equiv": "Preposition.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The grammatical word class marking a relation between a noun and the rest of the sentence, marked by the functional vowel -y. A category-classification concept, following aziku (rule)."
+  },
+  {
+    "word": "cyva",
+    "english_equiv": "Stranger",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who is unknown to the speaker; someone with whom one has no prior acquaintance or familiarity."
+  },
+  {
+    "word": "cyxo",
+    "english_equiv": "Beach / Shore.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The sandy or rocky boundary where land meets a large body of water."
   },
   {
     "word": "dafa",
@@ -1023,16 +1135,1021 @@ const dictionaryData = [
     "definition": "This word refers to the internal muscular organ in which the first major part of the physical digestion of food occurs."
   },
   {
-    "word": "niaza",
-    "english_equiv": "Muscle",
-    "part_of_speech": "Biological Noun",
-    "definition": "This word identifies a band or bundle of fibrous tissue in a biological body that has the mechanical ability to contract, producing movement or maintaining position."
+    "word": "dagibi",
+    "english_equiv": "Assume",
+    "part_of_speech": "Verb",
+    "definition": "To accept a proposition as true without evidence, as a working basis for reasoning or action; differs from atilui (believe), which carries conviction, and from ubli (expect), which is directed at a future event."
   },
   {
-    "word": "kyrana",
-    "english_equiv": "Feather",
+    "word": "dahu",
+    "english_equiv": "Value.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the relative worth, merit, or importance of a thing; or a numerical quantity assigned to a symbol or variable."
+  },
+  {
+    "word": "dal",
+    "english_equiv": "he / she / it (animate)",
+    "part_of_speech": "Grammar",
+    "definition": "Third-person singular animate neutral; an entity with intent or agency where gender is unspecified or irrelevant."
+  },
+  {
+    "word": "dale",
+    "english_equiv": "His / Hers / Its (Animate Neutral)",
+    "part_of_speech": "Modifier",
+    "definition": "Strictly belonging to or associated with a person or animal where gender is unspecified or irrelevant."
+  },
+  {
+    "word": "dangu",
+    "english_equiv": "vacation / holiday",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A period of rest and leisure away from work, study, or routine; a holiday or vacation."
+  },
+  {
+    "word": "daq",
+    "english_equiv": "he / him",
+    "part_of_speech": "Grammar",
+    "definition": "Third-person singular animate male; a male entity with intent or agency."
+  },
+  {
+    "word": "daqe",
+    "english_equiv": "His (Male)",
+    "part_of_speech": "Modifier",
+    "definition": "Strictly belonging to or associated with a specific male person or animal."
+  },
+  {
+    "word": "das",
+    "english_equiv": "she / her",
+    "part_of_speech": "Grammar",
+    "definition": "Third-person singular animate female; a female entity with intent or agency."
+  },
+  {
+    "word": "dase",
+    "english_equiv": "Hers (Female)",
+    "part_of_speech": "Modifier",
+    "definition": "Strictly belonging to or associated with a specific female person or animal."
+  },
+  {
+    "word": "dawy",
+    "english_equiv": "Due to / As a result of / Because of",
+    "part_of_speech": "Prepositions",
+    "definition": "A structural bridge linking an outcome strictly to the noun that caused it."
+  },
+  {
+    "word": "daxoko",
+    "english_equiv": "Frost",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thin layer of ice crystals that forms on cold surfaces."
+  },
+  {
+    "word": "decu",
+    "english_equiv": "Attitude / Demeanor / Opinion",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract psychological stance, settled way of thinking, or behavioral disposition toward a specific entity or situation."
+  },
+  {
+    "word": "dedapa",
+    "english_equiv": "Thumb.",
     "part_of_speech": "Biological Noun",
-    "definition": "This word refers to any of the flat, specialized epidermal structures that grow from a bird's skin to form its plumage."
+    "definition": "The short, thick first digit of the hand, opposable to the other four fingers."
+  },
+  {
+    "word": "dego",
+    "english_equiv": "Table",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A piece of furniture consisting of a flat physical top supported by one or more legs, used as a surface for working or eating."
+  },
+  {
+    "word": "deky",
+    "english_equiv": "inside",
+    "part_of_speech": "Prepositions",
+    "definition": "Used for location within an enclosure."
+  },
+  {
+    "word": "denki",
+    "english_equiv": "Set",
+    "part_of_speech": "Verb",
+    "definition": "To physically arrange, place, or establish something in a fixed, specific state."
+  },
+  {
+    "word": "deqazu",
+    "english_equiv": "Department / Faculty / Branch",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract conceptual division, academic faculty, or specialized branch within a larger institutional or corporate system."
+  },
+  {
+    "word": "deta",
+    "english_equiv": "Dog",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a domesticated, carnivorous land-dwelling animal, typically kept as a companion or for work."
+  },
+  {
+    "word": "dewe",
+    "english_equiv": "Two / Couple",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number that is the sum of one and one."
+  },
+  {
+    "word": "dewedu",
+    "english_equiv": "Tuesday",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Tuesday; the second day of the week. Derived by compounding dewe (two) and du (day)."
+  },
+  {
+    "word": "dez",
+    "english_equiv": "good morning",
+    "part_of_speech": "Grammar",
+    "definition": "Phatic greeting used in the morning; 'good morning.' Standalone on the Null Track (Rule 33)."
+  },
+  {
+    "word": "dibro",
+    "english_equiv": "Block.",
+    "definition": "A solid cube or rectangular unit of material; the basic building unit.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "dide",
+    "english_equiv": "(Certain / Definitely) / Sure",
+    "part_of_speech": "Modifier",
+    "definition": "Mathematically or logically guaranteed to happen."
+  },
+  {
+    "word": "difo",
+    "english_equiv": "Liquid.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This defines the state of matter that flows freely but is of constant volume."
+  },
+  {
+    "word": "diko",
+    "english_equiv": "Solid.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This defines the state of matter characterized by structural rigidity and resistance to force."
+  },
+  {
+    "word": "diluju",
+    "english_equiv": "Account",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A registered identity within a system, holding a user's access, data, and history."
+  },
+  {
+    "word": "dionu",
+    "english_equiv": "Time.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the indefinite continued progress of existence and events."
+  },
+  {
+    "word": "dipuwu",
+    "english_equiv": "Mutual responsibility",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An outcome that requires both parties. Logical equivalent: Epiwup sile koci nofa dewe. (This action needs two people.)"
+  },
+  {
+    "word": "diso",
+    "english_equiv": "Gas.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This defines the state of matter that expands freely to fill any available space."
+  },
+  {
+    "word": "dixa",
+    "english_equiv": "Shark",
+    "part_of_speech": "Biological Noun",
+    "definition": "A large, carnivorous fish with a cartilaginous skeleton and multiple rows of teeth."
+  },
+  {
+    "word": "dizaba",
+    "english_equiv": "Skeleton",
+    "part_of_speech": "Biological Noun",
+    "definition": "The complete connected frame of bones (meka) that supports a body; also the animated bone-creature of folklore."
+  },
+  {
+    "word": "dodu",
+    "english_equiv": "Universe / World",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This word represents the entire universe or the broad context in which things exist."
+  },
+  {
+    "word": "dofemo",
+    "english_equiv": "Court / Tribunal",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical building, room, or tribunal where legal cases are heard and justice is administered."
+  },
+  {
+    "word": "dogi",
+    "english_equiv": "Let / Allow",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to not prevent an action from occurring."
+  },
+  {
+    "word": "domlo",
+    "english_equiv": "Rain",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This identifies precipitating liquid water falling downward from clouds in the atmosphere to the ground."
+  },
+  {
+    "word": "dorala",
+    "english_equiv": "Back (Anatomy)",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the rear surface of a human body from the shoulders to the hips, or the equivalent upper structural surface of an animal."
+  },
+  {
+    "word": "dormi",
+    "english_equiv": "Swim",
+    "part_of_speech": "Verb",
+    "definition": "To actively propel oneself through liquid."
+  },
+  {
+    "word": "dorso",
+    "english_equiv": "Water.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This serves as the prototype word for liquid matter and the substance essential for life."
+  },
+  {
+    "word": "dote",
+    "english_equiv": "Strong.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something having the power to move heavy weights or perform other physically demanding tasks."
+  },
+  {
+    "word": "dowo",
+    "english_equiv": "Wool.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The soft curly fiber forming the coat of sheep and similar animals, used as a textile material."
+  },
+  {
+    "word": "drabe",
+    "english_equiv": "One hundred",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number equivalent to ten times ten."
+  },
+  {
+    "word": "drafo",
+    "english_equiv": "Wheel",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A circular solid object designed to revolve on an axle, fixed below a vehicle or inside a machine to enable kinetic movement."
+  },
+  {
+    "word": "dreko",
+    "english_equiv": "Rock / Stone",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This denotes the hard, solid mineral material that is part of the earth's surface."
+  },
+  {
+    "word": "driji",
+    "english_equiv": "Climb",
+    "part_of_speech": "Verb",
+    "definition": "To go up, ascend, or scale something, typically using both hands and feet."
+  },
+  {
+    "word": "drulsi",
+    "english_equiv": "Switch / Toggle",
+    "part_of_speech": "Verb",
+    "definition": "To change something between two alternative states, such as on and off."
+  },
+  {
+    "word": "du",
+    "english_equiv": "Day.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A period of time from sunrise to sunrise; current day."
+  },
+  {
+    "word": "dubizi",
+    "english_equiv": "Spawn / Be Born / Come Into Existence",
+    "part_of_speech": "Verb",
+    "definition": "To come into existence or enter the world at a specific place and moment, whether by birth, hatching, or sudden appearance."
+  },
+  {
+    "word": "duco",
+    "english_equiv": "Mirror",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A smooth, highly reflective surface (typically glass with a metallic backing) that forms a clear image of objects in front of it."
+  },
+  {
+    "word": "dugu",
+    "english_equiv": "Night.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the period of darkness in each twenty-four hours; the time from sunset to sunrise."
+  },
+  {
+    "word": "dumu",
+    "english_equiv": "Minute.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a period of time equal to sixty seconds or one-sixtieth of an hour."
+  },
+  {
+    "word": "dupe",
+    "english_equiv": "Deep",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an entity extending far down from the top surface or having a great internal vertical dimension."
+  },
+  {
+    "word": "dury",
+    "english_equiv": "During",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a temporal bridge, mapping an action strictly to the timeframe of an ongoing event or period."
+  },
+  {
+    "word": "dyrpo",
+    "english_equiv": "Plank / Board.",
+    "definition": "A long, flat, sawn piece of wood.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "dysa",
+    "english_equiv": "Tongue",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the fleshy muscular organ in the mouth used for tasting, licking, swallowing, and speaking."
+  },
+  {
+    "word": "dzefi",
+    "english_equiv": "Agree / Accept",
+    "part_of_speech": "Verb",
+    "definition": "To mathematically or logically align with another entity's opinion, statement, or abstract state."
+  },
+  {
+    "word": "dzoco",
+    "english_equiv": "Pottery.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "Vessels and objects shaped from clay and hardened by fire."
+  },
+  {
+    "word": "dzubu",
+    "english_equiv": "Verb.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The grammatical word class denoting action or state, marked by the functional vowel -i. A category-classification concept, following aziku (rule) as an abstract linguistic term."
+  },
+  {
+    "word": "dzuripi",
+    "english_equiv": "Seem / Appear",
+    "part_of_speech": "Verb",
+    "definition": "To present the outward appearance of a property or state while the speaker withholds commitment to its truth; takes a bare modifier or noun complement like the Zero Copula (Daq dzuripi goile = 'He seems sad'). The verb counterpart of udzidu (appearance); distinct from the nop evidential tag, which marks the speaker's inference rather than the subject's appearance."
+  },
+  {
+    "word": "dzypra",
+    "english_equiv": "Nut.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A hard-shelled edible seed or fruit kernel, eaten as food or used in cooking."
+  },
+  {
+    "word": "eava",
+    "english_equiv": "Snake",
+    "part_of_speech": "Biological Noun",
+    "definition": "A long, legless, carnivorous reptile of the suborder Serpentes."
+  },
+  {
+    "word": "ebga",
+    "english_equiv": "Twig",
+    "part_of_speech": "Biological Noun",
+    "definition": "A very small, thin terminal branch of a tree or shrub."
+  },
+  {
+    "word": "ebmeri",
+    "english_equiv": "Remember",
+    "part_of_speech": "Verb",
+    "definition": "To successfully retrieve historical data, past events, or abstract knowledge from storage back into active memory."
+  },
+  {
+    "word": "ebnesi",
+    "english_equiv": "Forget",
+    "part_of_speech": "Verb",
+    "definition": "To lose access to stored mental data; the systemic inability to retrieve a past event or learned concept."
+  },
+  {
+    "word": "ebo",
+    "english_equiv": "Chain",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A series of connected metal links or rings used for pulling, securing, or holding objects."
+  },
+  {
+    "word": "ebxe",
+    "english_equiv": "Cruel",
+    "part_of_speech": "Modifier",
+    "definition": "Willfully causing pain, distress, or suffering to others, or feeling no concern for it."
+  },
+  {
+    "word": "ebziki",
+    "english_equiv": "Recognize",
+    "part_of_speech": "Verb",
+    "definition": "To successfully identify an entity or concept from previous experience, stored data, or memory."
+  },
+  {
+    "word": "ecme",
+    "english_equiv": "Humble / Modest",
+    "part_of_speech": "Modifier",
+    "definition": "Having or showing a modest estimate of one's own importance."
+  },
+  {
+    "word": "ednu",
+    "english_equiv": "Faith / Religion",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Strong belief, trust, or conviction in a doctrine, system, or divine creator."
+  },
+  {
+    "word": "edorari",
+    "english_equiv": "To deep fry",
+    "part_of_speech": "Verb",
+    "definition": "To cook a physical object by completely submerging it in boiling fat or oil."
+  },
+  {
+    "word": "efade",
+    "english_equiv": "Hardworking",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an entity consistently applying a high degree of energy, focus, and dedication to a task."
+  },
+  {
+    "word": "efantu",
+    "english_equiv": "Effort",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual measurement of physical or mental exertion required to achieve a goal."
+  },
+  {
+    "word": "efmi",
+    "english_equiv": "Steal",
+    "part_of_speech": "Verb",
+    "definition": "To take another person's property without permission or legal right."
+  },
+  {
+    "word": "efzu",
+    "english_equiv": "Harmony",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The state of agreement, concord, peaceful cooperation, or pleasing musical notes sounded together."
+  },
+  {
+    "word": "egde",
+    "english_equiv": "Sober",
+    "part_of_speech": "Modifier",
+    "definition": "Not affected by alcohol or intoxicants; clear-headed."
+  },
+  {
+    "word": "egino",
+    "english_equiv": "Engine",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A complex mechanical machine with moving physical parts that converts fuel or power into kinetic motion."
+  },
+  {
+    "word": "egmabe",
+    "english_equiv": "One thousand",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number equivalent to ten times one hundred."
+  },
+  {
+    "word": "egpo",
+    "english_equiv": "Tube",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A long, hollow cylinder of metal, plastic, or glass, used for conveying or containing fluids or signals."
+  },
+  {
+    "word": "eguvu",
+    "english_equiv": "Level / Standard / Rank",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract conceptual measurement of achievement, quality, or relative position on a vertical or hierarchical scale."
+  },
+  {
+    "word": "eipi",
+    "english_equiv": "Tear / Rip",
+    "part_of_speech": "Verb",
+    "definition": "To pull apart or into pieces by force."
+  },
+  {
+    "word": "eksapli",
+    "english_equiv": "Explain / Describe",
+    "part_of_speech": "Verb",
+    "definition": "To structurally clarify data, logic, or meaning to make it perfectly comprehensible to another mind."
+  },
+  {
+    "word": "elge",
+    "english_equiv": "Honest",
+    "part_of_speech": "Modifier",
+    "definition": "Free of deceit; truthful and sincere."
+  },
+  {
+    "word": "elsa",
+    "english_equiv": "Bee",
+    "part_of_speech": "Biological Noun",
+    "definition": "A stinging, winged insect known for its role in pollination and producing honey."
+  },
+  {
+    "word": "emfe",
+    "english_equiv": "Fresh",
+    "part_of_speech": "Modifier",
+    "definition": "Newly made, harvested, or obtained; not stale, sour, or decayed."
+  },
+  {
+    "word": "emiti",
+    "english_equiv": "Follow",
+    "part_of_speech": "Verb",
+    "definition": "To physically move or conceptually travel sequentially behind a target."
+  },
+  {
+    "word": "enconi",
+    "english_equiv": "Meet",
+    "part_of_speech": "Verb",
+    "definition": "To intentionally or accidentally come into the physical presence of someone."
+  },
+  {
+    "word": "ene",
+    "english_equiv": "Light (Weight).",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something of little weight or easy to lift."
+  },
+  {
+    "word": "enri",
+    "english_equiv": "To go inside / Come inside / Enter",
+    "part_of_speech": "Verb",
+    "definition": "To physically move from the exterior environment into the interior of an enclosure or defined space."
+  },
+  {
+    "word": "epiwu",
+    "english_equiv": "Action / Activity",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual state or fundamental process of doing something to achieve an aim."
+  },
+  {
+    "word": "epmo",
+    "english_equiv": "Oven / Stove",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An enclosed compartment or heated surface used for cooking, baking, or heating food."
+  },
+  {
+    "word": "epufu",
+    "english_equiv": "Justice",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract principle of moral rightness, equity, fairness, and the administration of law."
+  },
+  {
+    "word": "epzi",
+    "english_equiv": "Polish",
+    "part_of_speech": "Verb",
+    "definition": "To rub a surface to make it smooth, shiny, and reflective."
+  },
+  {
+    "word": "eqso",
+    "english_equiv": "Saliva / Spit",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The biological liquid naturally produced in the mouth to lubricate food and initiate physical digestion."
+  },
+  {
+    "word": "erco",
+    "english_equiv": "Thunder",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A loud rumbling or crashing noise heard after a lightning flash due to the rapid expansion of heated air."
+  },
+  {
+    "word": "erfi",
+    "english_equiv": "Understand / Realize",
+    "part_of_speech": "Verb",
+    "definition": "To mentally comprehend the abstract meaning, logic, or underlying cause of a concept."
+  },
+  {
+    "word": "eru",
+    "english_equiv": "War",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A state of abstract or political conflict, competition, or severe hostility between different groups or nations."
+  },
+  {
+    "word": "espe",
+    "english_equiv": "Specific",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something clearly defined, explicitly identified, or restricted to a singular, particular individual or situation."
+  },
+  {
+    "word": "etypi",
+    "english_equiv": "To get / To obtain",
+    "part_of_speech": "Verb",
+    "definition": "To actively and successfully acquire, gain possession of, or secure a physical object or abstract concept. (Implies active effort or successful acquisition)."
+  },
+  {
+    "word": "evle",
+    "english_equiv": "Sometimes",
+    "part_of_speech": "Modifier",
+    "definition": "Occasionally; on some occasions but not all."
+  },
+  {
+    "word": "evmu",
+    "english_equiv": "Accident",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An event that happens unexpectedly and unintentionally, typically resulting in damage or injury."
+  },
+  {
+    "word": "exke",
+    "english_equiv": "Several / A Handful",
+    "part_of_speech": "Modifier",
+    "definition": "An unspecified, small quantitative amount—typically more than two, but not enough to be considered many (jedle)."
+  },
+  {
+    "word": "exopu",
+    "english_equiv": "Rate",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract mathematical measure, quantity, or frequency typically measured against a separate baseline quantity."
+  },
+  {
+    "word": "extanu",
+    "english_equiv": "Lesson / Lecture",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A period of learning or teaching; a structured block of educational instruction."
+  },
+  {
+    "word": "ezlo",
+    "english_equiv": "Lid / Bottlecap",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A removable cover or cap for a container, jar, or bottle."
+  },
+  {
+    "word": "ezte",
+    "english_equiv": "Polite",
+    "part_of_speech": "Modifier",
+    "definition": "Having or showing behavior that is respectful and considerate of others."
+  },
+  {
+    "word": "fabi",
+    "english_equiv": "Want.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to have a desire to possess or do something."
+  },
+  {
+    "word": "facu",
+    "english_equiv": "Side.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This identifies a position, area, or surface on the left or right of a central line."
+  },
+  {
+    "word": "fafe",
+    "english_equiv": "Important.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something of great significance, value, or consequence."
+  },
+  {
+    "word": "faga",
+    "english_equiv": "Cousin (gender-neutral)",
+    "part_of_speech": "Biological Noun",
+    "definition": "A gender-neutral biological relative who is the child of one's parent's sibling."
+  },
+  {
+    "word": "falazi",
+    "english_equiv": "To journal / To record",
+    "part_of_speech": "Verb",
+    "definition": "To actively write down, log, or systematically record events, thoughts, or experiences that have taken place, typically for personal reflection or historical preservation."
+  },
+  {
+    "word": "falfoso",
+    "english_equiv": "List",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A written or displayed series of items set out one after another. (The spoken-list separator is the particle sek.)"
+  },
+  {
+    "word": "falmi",
+    "english_equiv": "To report / To recount",
+    "part_of_speech": "Verb",
+    "definition": "To officially retell, record, or communicate the factual details of events that have already taken place.",
+    "usage_note": "Distinct from nari (to tell), which is general communication; falmi implies an objective recounting of history or data."
+  },
+  {
+    "word": "fanzi",
+    "english_equiv": "To introduce / To present",
+    "part_of_speech": "Verb",
+    "definition": "To intentionally make a person, concept, or thing known to another entity for the first time."
+  },
+  {
+    "word": "fap",
+    "english_equiv": "Passive Voice Indicator",
+    "part_of_speech": "Grammar",
+    "definition": "Structural tag placed at the clause start to mathematically invert SVO thematic roles."
+  },
+  {
+    "word": "farlopa",
+    "english_equiv": "Doctor / Medical Healer",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a person who practices medicine and restores systemic well-being."
+  },
+  {
+    "word": "farlu",
+    "english_equiv": "Health",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual state of being free from physical or psychological illness; overall systemic well-being."
+  },
+  {
+    "word": "fasidi",
+    "english_equiv": "Include / Involve",
+    "part_of_speech": "Verb",
+    "definition": "To contain an entity as a subordinate part or member of a larger whole or system."
+  },
+  {
+    "word": "fatli",
+    "english_equiv": "To depend on / To rely on",
+    "part_of_speech": "Verb",
+    "definition": "To require the support, action, or existence of another entity in order to function, survive, or succeed."
+  },
+  {
+    "word": "fato",
+    "english_equiv": "Machine.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a device or engine and is the essential base concept for more complex items like computers."
+  },
+  {
+    "word": "fawanu",
+    "english_equiv": "Technology",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract concept, discipline, or application of scientific knowledge, techniques, and systems for practical purposes."
+  },
+  {
+    "word": "fazy",
+    "english_equiv": "nature of",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates abstract characteristics, personality, or intrinsic nature; having the qualities of the object."
+  },
+  {
+    "word": "fe",
+    "english_equiv": "Very",
+    "part_of_speech": "Modifier",
+    "definition": "Definition: Intensifier used to emphasize degree."
+  },
+  {
+    "word": "fecy",
+    "english_equiv": "Until / Up to",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a temporal or spatial bridge extending continuously up to the absolute limit or termination point of an event or location."
+  },
+  {
+    "word": "fefu",
+    "english_equiv": "End.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This defines the final part of something or its termination point."
+  },
+  {
+    "word": "fehedi",
+    "english_equiv": "Divorce.",
+    "part_of_speech": "Verb",
+    "definition": "To formally dissolve a marital partnership, ending the spouse relation between two individuals; the reverse of jahizi (to marry)."
+  },
+  {
+    "word": "felpe",
+    "english_equiv": "Different.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something not the same as another or each other."
+  },
+  {
+    "word": "femporo",
+    "english_equiv": "Quartz",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hard, common crystalline mineral, typically white or translucent."
+  },
+  {
+    "word": "fenuti",
+    "english_equiv": "Tell",
+    "part_of_speech": "Verb",
+    "definition": "To communicate specific information, facts, or instructions directly to another entity."
+  },
+  {
+    "word": "fevo",
+    "english_equiv": "Sun",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to the primary daytime celestial body or central star that provides light and heat energy to a planetary system."
+  },
+  {
+    "word": "fewi",
+    "english_equiv": "Mix.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to combine or blend different substances together."
+  },
+  {
+    "word": "ficudu",
+    "english_equiv": "Quitting midway",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Abandoning a task halfway, wasting what was invested. Logical equivalent: Daq sejid jobup pary fefup. (He stopped the job before the end.)"
+  },
+  {
+    "word": "fihi",
+    "english_equiv": "To expose / To uncover",
+    "part_of_speech": "Verb",
+    "definition": "To uncover something, removing what covered or protected it."
+  },
+  {
+    "word": "fija",
+    "english_equiv": "Ear",
+    "part_of_speech": "Biological Noun",
+    "definition": "The biological organ responsible for the perception of sound."
+  },
+  {
+    "word": "fiko",
+    "english_equiv": "Path / Road.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a route, course, or track along which something moves or reaches a destination."
+  },
+  {
+    "word": "fine",
+    "english_equiv": "Fine/ delicate",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something of high precision, delicate physical quality, or consisting of very small particles.",
+    "usage_note": "Distinct from wece, which is merely satisfactory."
+  },
+  {
+    "word": "fipu",
+    "english_equiv": "Software",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract programs, operational logic, and code information used by a computer system.",
+    "usage_note": "Distinct from the physical hardware."
+  },
+  {
+    "word": "firfa",
+    "english_equiv": "Rose",
+    "part_of_speech": "Biological Noun",
+    "definition": "A thorned flowering shrub; the iconic garden flower."
+  },
+  {
+    "word": "fiske",
+    "english_equiv": "Recently / Just / Recent",
+    "part_of_speech": "Modifier",
+    "definition": "A temporal modifier describing an event or action that occurred in the absolute immediate past relative to the current timeframe."
+  },
+  {
+    "word": "fituru",
+    "english_equiv": "Future",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract temporal realm encompassing all time and theoretical events that are yet to come."
+  },
+  {
+    "word": "fitydu",
+    "english_equiv": "Tomorrow",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the next day in the chronological sequence."
+  },
+  {
+    "word": "fiwo",
+    "english_equiv": "Language.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to the principal method of human communication, consisting of words used in a structured and conventional way."
+  },
+  {
+    "word": "flesto",
+    "english_equiv": "Diamond",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The hardest known gemstone, a brilliant colorless crystal of pure carbon."
+  },
+  {
+    "word": "fodi",
+    "english_equiv": "Process.",
+    "part_of_speech": "Verb",
+    "definition": "This refers to a series of actions or steps taken in order to achieve a particular end."
+  },
+  {
+    "word": "foge",
+    "english_equiv": "Comfortable",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a physical or psychological state of ease, relaxation, and pleasant contentment, free from pain or hardship."
+  },
+  {
+    "word": "fohu",
+    "english_equiv": "Afternoon",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the late part of the day, typically from the midpoint of the day until sunset."
+  },
+  {
+    "word": "foiso",
+    "english_equiv": "Building / Structure.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a structure with a roof and walls, such as a house, school, store, or factory."
+  },
+  {
+    "word": "folkunu",
+    "english_equiv": "Dignity / Social face",
+    "part_of_speech": "Abstract Noun",
+    "definition": "One's durable public standing and worth in the eyes of others, which can be given, saved, or lost. Social and lasting, unlike ofxu (inward shame) or ukwolu (momentary embarrassment). Covers the concept of 面子 (miànzi)."
+  },
+  {
+    "word": "foly",
+    "english_equiv": "After",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates that the main action occurs strictly subsequent to the referenced temporal baseline or event."
+  },
+  {
+    "word": "fono",
+    "english_equiv": "Phone",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A portable, tangible electronic device used primarily for telecommunication and transmitting vocal data."
+  },
+  {
+    "word": "fos",
+    "english_equiv": "that",
+    "part_of_speech": "Grammar",
+    "definition": "Distal deictic; a conceptually distant, prior, or non-current clause or concept."
+  },
+  {
+    "word": "fose",
+    "english_equiv": "That / Those (Distal Modifier)",
+    "part_of_speech": "Modifier",
+    "definition": "This word identifies a specific physical or conceptual noun that is physically distant from the speaker, or removed from the immediate environment. It must follow the noun it modifies."
+  },
+  {
+    "word": "fota",
+    "english_equiv": "Root.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies the part of a plant that attaches it to the ground and absorbs water and nourishment."
+  },
+  {
+    "word": "foxipri",
+    "english_equiv": "Fade",
+    "part_of_speech": "Verb",
+    "definition": "To lose or shift color, brightness, or intensity gradually; to pass smoothly from one shade into another."
+  },
+  {
+    "word": "frame",
+    "english_equiv": "Free",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something that is not under the physical control of another, not restricted, or provided without mathematical/monetary cost."
+  },
+  {
+    "word": "franka",
+    "english_equiv": "Armadillo.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A burrowing mammal covered in bony armored plates, able to curl into a ball for defense."
+  },
+  {
+    "word": "frelka",
+    "english_equiv": "Mangrove.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A tree or shrub that grows in coastal saltwater swamps, supported by tangled above-ground roots."
+  },
+  {
+    "word": "frengi",
+    "english_equiv": "Click",
+    "part_of_speech": "Verb",
+    "definition": "To press briefly and release, as a button or a pointing device, producing a single sharp actuation."
+  },
+  {
+    "word": "frice",
+    "english_equiv": "Deaf.",
+    "part_of_speech": "Modifier",
+    "definition": "Unable to hear; lacking the sense of hearing. Parallels nenoje (blind) as the sensory-loss modifier for hearing."
+  },
+  {
+    "word": "frilta",
+    "english_equiv": "Rabbit.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A small, long-eared mammal known for speed and burrowing."
+  },
+  {
+    "word": "frisma",
+    "english_equiv": "Rib.",
+    "part_of_speech": "Biological Noun",
+    "definition": "One of the curved bones forming the cage that protects the chest cavity."
+  },
+  {
+    "word": "frorsu",
+    "english_equiv": "Modifier.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The grammatical word class that describes or modifies a noun or verb, marked by the functional vowel -e. A category-classification concept, following aziku (rule)."
+  },
+  {
+    "word": "fruvadu",
+    "english_equiv": "Disappointment",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Sadness caused by an outcome falling below one's expectation or hope. Unlike briku (regret) it carries no self-blame, and unlike motuwu (grief) it involves no loss of an entity."
+  },
+  {
+    "word": "fuali",
+    "english_equiv": "Catch",
+    "part_of_speech": "Verb",
+    "definition": "To successfully intercept and hold a physical object moving through the air, or to capture an entity that is actively fleeing."
+  },
+  {
+    "word": "fuba",
+    "english_equiv": "Fish",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies a cold-blooded vertebrate animal with gills and fins that lives strictly and entirely in water."
+  },
+  {
+    "word": "fuego",
+    "english_equiv": "Fire",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The visible, tangible heat and light energy produced by active combustion."
+  },
+  {
+    "word": "fuka",
+    "english_equiv": "Hand",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb."
+  },
+  {
+    "word": "fulu",
+    "english_equiv": "Data / Information",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to facts, statistics, or distinct pieces of information collected together for reference or analysis."
+  },
+  {
+    "word": "fumo",
+    "english_equiv": "Smoke",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The visible, particulate gas or vapor naturally produced and emitted by an active fire (fueguo)."
+  },
+  {
+    "word": "fuqe",
+    "english_equiv": "(Must / Necessary)",
+    "part_of_speech": "Modifier",
+    "definition": "Strictly required, necessary, or obligatory."
+  },
+  {
+    "word": "fuqedi",
+    "english_equiv": "To demand / To require",
+    "part_of_speech": "Verb",
+    "definition": "To actively ask for something with strict necessity or authoritative expectation."
   },
   {
     "word": "furna",
@@ -1042,202 +2159,281 @@ const dictionaryData = [
     "usage_note": "Distinct from poka, the broader word for hair."
   },
   {
-    "word": "acina",
-    "english_equiv": "Claw",
-    "part_of_speech": "Biological Noun",
-    "definition": "This word identifies a sharp, curved, horny nail situated on the digit of an animal's foot, used for gripping or tearing."
+    "word": "fuzi",
+    "english_equiv": "To support / To back",
+    "part_of_speech": "Verb",
+    "definition": "To actively provide conceptual, logistical, or moral backing to a person, idea, or system."
   },
   {
-    "word": "horba",
-    "english_equiv": "Horn",
-    "part_of_speech": "Biological Noun",
-    "definition": "This word refers to a hard, permanent bony outgrowth—often curved and pointed—found on the heads of certain animals for defense or competition."
+    "word": "fy",
+    "english_equiv": "from",
+    "part_of_speech": "Prepositions",
+    "definition": "Used for origin or starting point"
   },
   {
-    "word": "logega",
-    "english_equiv": "Throat",
-    "part_of_speech": "Biological Noun",
-    "definition": "This word identifies the internal muscular passage extending from the back of the mouth down toward the lungs and stomach."
+    "word": "fycisi",
+    "english_equiv": "Miss / Long for",
+    "part_of_speech": "Verb",
+    "definition": "To feel a painful desire for an absent but still-existing entity, person, or place. Present-directed, unlike haku (nostalgia, past-directed), and affectionate, unlike taju (resentful envy). Transitive: Mik fycisi suk = 'I miss you.'"
   },
   {
-    "word": "moda",
-    "english_equiv": "God",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a supreme being, divine creator, or principal object of faith and worship."
+    "word": "fyjebe",
+    "english_equiv": "Warm.",
+    "part_of_speech": "Modifier",
+    "definition": "Comfortably heated; a middle temperature between jabe (cold) and ripe (hot)."
   },
   {
-    "word": "mana",
-    "english_equiv": "Mother",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to the female parent of a biological offspring."
+    "word": "gagu",
+    "english_equiv": "Texture / Surface Quality.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Noun (Abstract). Definition: This refers to the feel, appearance, or consistency of a surface or a substance."
   },
   {
-    "word": "peba",
-    "english_equiv": "Father",
+    "word": "gaha",
+    "english_equiv": "Cocoa",
     "part_of_speech": "Biological Noun",
-    "definition": "This refers to the male parent of a biological offspring."
+    "definition": "The tropical tree seed from which chocolate is made; also the ground brown powder of that seed."
   },
   {
-    "word": "saza",
-    "english_equiv": "Sister",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a female sibling who shares one or both parents with another individual."
+    "word": "gakiji",
+    "english_equiv": "Guess",
+    "part_of_speech": "Verb",
+    "definition": "To select an answer or form a conclusion without sufficient evidence, aware that one lacks it; the weakest commitment on the belief scale and the acting counterpart of mace (possible). Contrast dagibi (assume), which treats its proposition as a working basis."
   },
   {
-    "word": "taqa",
-    "english_equiv": "Brother",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a male sibling who shares one or both parents with another individual."
+    "word": "gari",
+    "english_equiv": "Play.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to engage in activity for enjoyment and recreation rather than a serious or practical purpose."
   },
   {
-    "word": "sifa",
-    "english_equiv": "Wife",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a female spouse within a marital partnership."
+    "word": "gawe",
+    "english_equiv": "Good.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something regarded as positive or favorable based on individual opinion."
   },
   {
-    "word": "hazba",
-    "english_equiv": "Husband",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a male spouse within a marital partnership."
+    "word": "geale",
+    "english_equiv": "Actually / In reality / True / Real",
+    "part_of_speech": "Modifier",
+    "definition": "Describes a state or fact that is objectively real and true, often used to contrast with an expectation, assumption, or falsehood (okseu)."
   },
   {
-    "word": "farlopa",
-    "english_equiv": "Doctor / Medical Healer",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a person who practices medicine and restores systemic well-being."
+    "word": "geco",
+    "english_equiv": "Space.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This word defines a specific area, room, or the physical extent in which objects are located."
   },
   {
-    "word": "ibalira",
-    "english_equiv": "Teacher / Educator",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a person who gives systematic instruction and provides knowledge."
+    "word": "gefri",
+    "english_equiv": "To go out / Come out",
+    "part_of_speech": "Verb",
+    "definition": "To physically move from the interior of an enclosure or defined space to the exterior environment."
   },
   {
-    "word": "deta",
-    "english_equiv": "Dog",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a domesticated, carnivorous land-dwelling animal, typically kept as a companion or for work."
+    "word": "gejedo",
+    "english_equiv": "Electricity / Power",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The physical electrical power, current, or energy utilized to run machines, systems, or lighting."
   },
   {
-    "word": "catsa",
-    "english_equiv": "Cat",
+    "word": "gekafa",
+    "english_equiv": "Vine",
     "part_of_speech": "Biological Noun",
-    "definition": "This refers to a small, domesticated carnivorous mammal, widely kept as a companion animal."
+    "definition": "A plant with long, thin, climbing or trailing stems that attach to surfaces or other plants for support."
   },
   {
-    "word": "fuba",
-    "english_equiv": "Fish",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies a cold-blooded vertebrate animal with gills and fins that lives strictly and entirely in water."
+    "word": "geluku",
+    "english_equiv": "Borrowed authority",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Being feared or obeyed only through a patron's power. Logical equivalent: Nofa je kuri daq dawy rezap. (People fear him because of the leader.)"
   },
   {
-    "word": "kaba",
-    "english_equiv": "Horse",
+    "word": "genda",
+    "english_equiv": "Camel.",
     "part_of_speech": "Biological Noun",
-    "definition": "This refers to a large, solid-hoofed herbivorous mammal, traditionally utilized by humans for riding or draft work."
+    "definition": "A large desert mammal with one or two humps, adapted to carry loads across arid terrain."
   },
   {
-    "word": "buva",
-    "english_equiv": "Cow / Bovine",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies a large domesticated ungulate kept primarily as livestock for the production of meat or milk."
+    "word": "gepe",
+    "english_equiv": "General",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something that affects or concerns all or most things in a group; broad and not restricted to a specific target."
   },
   {
-    "word": "puxa",
-    "english_equiv": "Pig / Swine",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a stout-bodied, omnivorous domesticated mammal with sparse bristly hair, kept primarily as livestock."
+    "word": "gerote",
+    "english_equiv": "Shallow",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an entity having very little distance from the top surface to the bottom; lacking depth."
   },
   {
-    "word": "xopa",
-    "english_equiv": "Sheep",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a domesticated ruminant mammal characterized by a thick woolly coat, typically kept in flocks for its wool or meat."
+    "word": "gesi",
+    "english_equiv": "Say / Speak / Talk / Discuss",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to utter words so as to convey information."
   },
   {
-    "word": "arteta",
-    "english_equiv": "Fruit",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies the fleshy, edible product of a tree or plant that naturally contains seeds and is consumed as food."
+    "word": "getiku",
+    "english_equiv": "Energy",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract mathematical or conceptual capacity for doing work or initiating physical activity."
   },
   {
-    "word": "zoba",
-    "english_equiv": "Vegetable",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to the edible, biological matter of a plant—such as the leaves, stems, or roots—cultivated specifically for nutritional consumption."
+    "word": "getsu",
+    "english_equiv": "eriod of time / Phase",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A specific, bounded segment or duration of time with a clear beginning and end. (This is how you isolate a period from the absolute, universal variable of Time [dionu])."
   },
   {
-    "word": "topza",
-    "english_equiv": "Chest / Torso",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies the primary front surface of a biological entity's body, located strictly between the neck and the stomach."
+    "word": "gidafi",
+    "english_equiv": "Sell",
+    "part_of_speech": "Verb",
+    "definition": "To permanently transfer the legal ownership of physical goods or abstract services in exchange for money."
   },
   {
-    "word": "dorala",
-    "english_equiv": "Back (Anatomy)",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to the rear surface of a human body from the shoulders to the hips, or the equivalent upper structural surface of an animal."
+    "word": "gidsi",
+    "english_equiv": "Buy",
+    "part_of_speech": "Verb",
+    "definition": "To obtain physical or legal possession of an entity by paying money."
   },
   {
-    "word": "noqsa",
-    "english_equiv": "Man / Adult Male / Guy",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies a fully grown male human being."
+    "word": "gidu",
+    "english_equiv": "Money.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a current medium of exchange in the form of coins and banknotes."
   },
   {
-    "word": "nosana",
-    "english_equiv": "Woman / Adult Female",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies a fully grown female human being."
+    "word": "gioxu",
+    "english_equiv": "AI (Artificial Intelligence).",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to computer systems able to perform tasks that normally require human intelligence."
   },
   {
-    "word": "caqla",
-    "english_equiv": "Boy / Male Child",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers strictly to a young male human who has not yet reached adulthood."
+    "word": "givi",
+    "english_equiv": "Dig / Excavate",
+    "part_of_speech": "Verb",
+    "definition": "To break up and move ground or earth."
   },
   {
-    "word": "casla",
-    "english_equiv": "Girl / Female Child",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers strictly to a young female human who has not yet reached adulthood."
+    "word": "gize",
+    "english_equiv": "Full.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something containing or holding as much or as many as possible."
   },
   {
-    "word": "ilada",
-    "english_equiv": "Reptile",
-    "part_of_speech": "Biological Noun",
-    "definition": "This identifies a cold-blooded, typically land-dwelling biological class characterized by scales and, often, a lack of limbs."
+    "word": "glaklo",
+    "english_equiv": "Hoe.",
+    "definition": "A tool with a flat blade on a long handle, used for cultivating and weeding soil.",
+    "part_of_speech": "Concrete Noun"
   },
   {
-    "word": "woma",
-    "english_equiv": "Worm",
-    "part_of_speech": "Biological Noun",
-    "definition": "This refers to a burrowing, limbless, soft-bodied invertebrate biological organism."
+    "word": "glanu",
+    "english_equiv": "Sex / Gender (Category)",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract demographic category or conceptual classification of a biological entity's sex or gender identity."
   },
   {
-    "word": "iraksa",
-    "english_equiv": "Tear / Teardrop",
-    "part_of_speech": "Biological Noun",
-    "definition": "The physical, saline liquid produced and shed by the eyes."
+    "word": "glape",
+    "english_equiv": "Gray / Grey",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting an intermediate color between black and white, resembling the color of ash or an overcast sky."
   },
   {
-    "word": "reza",
-    "english_equiv": "President / Leader / Boss",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who holds the highest executive, administrative, or directing position within an organized group, government, or system."
+    "word": "glece",
+    "english_equiv": "Which (Interrogative)",
+    "part_of_speech": "Modifier",
+    "definition": "An interrogative modifier used to ask for the exact specification or choice between known alternatives (e.g., Which book?)."
   },
   {
-    "word": "apla",
-    "english_equiv": "Apple",
+    "word": "glimada",
+    "english_equiv": "Salmon",
     "part_of_speech": "Biological Noun",
-    "definition": "The fleshy, round fruit of a specific widely cultivated tree, typically possessing a red or green skin and a crisp interior."
+    "definition": "A large silvery fish that swims upriver from the sea to breed; prized as food."
   },
   {
-    "word": "midora",
-    "english_equiv": "Watermelon",
+    "word": "gloke",
+    "english_equiv": "four",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number that is the product of two and two."
+  },
+  {
+    "word": "glokedu",
+    "english_equiv": "Thursday",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Thursday; the fourth day of the week. Derived by compounding gloke (four) and du (day)."
+  },
+  {
+    "word": "glynto",
+    "english_equiv": "Bow.",
+    "definition": "A weapon consisting of a curved stave and string, used to shoot arrows.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "glyvi",
+    "english_equiv": "Defend",
+    "part_of_speech": "Verb",
+    "definition": "To protect someone or something from harm, danger, or attack."
+  },
+  {
+    "word": "go",
+    "english_equiv": "Word.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a single distinct meaningful element of speech or writing.",
+    "usage_note": "Adapted to distinguish it from 'number'."
+  },
+  {
+    "word": "goda",
+    "english_equiv": "Brain",
     "part_of_speech": "Biological Noun",
-    "definition": "A large, heavy biological fruit characterized by a hard green rind and sweet, watery red flesh."
+    "definition": "This word identifies the central organ of the nervous system located inside the head, responsible for physically processing sensory and intellectual activity."
+  },
+  {
+    "word": "godu",
+    "english_equiv": "Mind.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual capacity for logical thought, critical understanding, processing complex information and memory."
+  },
+  {
+    "word": "gofo",
+    "english_equiv": "Wood.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to the hard, fibrous plant material that makes up the main substance of trees."
+  },
+  {
+    "word": "goile",
+    "english_equiv": "Sad",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a subjective state of sorrow, unhappiness, or emotional pain."
+  },
+  {
+    "word": "goji",
+    "english_equiv": "Pull.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to exert force on something to move it toward oneself."
+  },
+  {
+    "word": "golmi",
+    "english_equiv": "Reform /  Improve",
+    "part_of_speech": "Verb",
+    "definition": "To actively make changes to an abstract system, institution, or practice in order to improve it."
+  },
+  {
+    "word": "gomu",
+    "english_equiv": "Hour.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a period of time equal to sixty minutes or one twenty-fourth of a day."
+  },
+  {
+    "word": "goqe",
+    "english_equiv": "Thick.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something with a large distance between opposite surfaces."
+  },
+  {
+    "word": "govnu",
+    "english_equiv": "Government",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract structural system, group of people, or institution that officially controls and makes decisions for a country, state, or organized community."
   },
   {
     "word": "grapa",
@@ -1246,58 +2442,246 @@ const dictionaryData = [
     "definition": "A small, sweet biological berry that naturally grows in clusters on a vine."
   },
   {
-    "word": "kika",
-    "english_equiv": "Chicken / Fowl",
-    "part_of_speech": "Biological Noun",
-    "definition": "A common domesticated biological bird, typically kept for its eggs or meat."
+    "word": "grawi",
+    "english_equiv": "Grateful / Thank.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks."
   },
   {
-    "word": "minza",
-    "english_equiv": "Nationality / Ethnic Group",
-    "part_of_speech": "Biological Noun",
-    "definition": "A biological and cultural grouping of people sharing common descent, history, or language."
+    "word": "grexo",
+    "english_equiv": "Celestial Object / Planet / Moon.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a natural physical entity, such as a planet, moon, or star, that exists in the universe."
   },
   {
-    "word": "mortsa",
-    "english_equiv": "Forest / Woods",
-    "part_of_speech": "Biological Noun",
-    "definition": "A dense biological collection or large group of trees growing together in a specific area."
+    "word": "grorowi",
+    "english_equiv": "Growl / Roar",
+    "part_of_speech": "Verb",
+    "definition": "To produce a deep, rough, threatening sound in the throat, as an angry animal does."
   },
   {
-    "word": "saqa",
-    "english_equiv": "Sibling",
-    "part_of_speech": "Biological Noun",
-    "definition": "A gender-neutral biological relative who shares one or both parents with another individual."
+    "word": "grunki",
+    "english_equiv": "To hug.",
+    "part_of_speech": "Verb",
+    "definition": "To hold someone closely in the arms as a sign of affection or comfort; to embrace."
   },
   {
-    "word": "jiqa",
-    "english_equiv": "Sibling's child / Niece or Nephew (gender-neutral)",
-    "part_of_speech": "Biological Noun",
-    "definition": "A gender-neutral biological relative who is the child of one's sibling."
+    "word": "gu",
+    "english_equiv": "Number.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity."
   },
   {
-    "word": "faga",
-    "english_equiv": "Cousin (gender-neutral)",
-    "part_of_speech": "Biological Noun",
-    "definition": "A gender-neutral biological relative who is the child of one's parent's sibling."
+    "word": "guami",
+    "english_equiv": "To calculate / To count / Measure",
+    "part_of_speech": "Verb",
+    "definition": "To actively utilize numbers or perform a mathematical calculation. Derived mathematically by appending the verb suffix -i to the abstract noun gu (Number)."
   },
   {
-    "word": "wasnupa",
-    "english_equiv": "Grandparent",
-    "part_of_speech": "Biological Noun",
-    "definition": "A gender-neutral biological relative who is a parent of one's parent."
+    "word": "gufundo",
+    "english_equiv": "Emerald",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A precious gemstone of deep green color."
   },
   {
-    "word": "waspeba",
-    "english_equiv": "Grandfather",
-    "part_of_speech": "Biological Noun",
-    "definition": "A male biological relative who is the father of one's parent."
+    "word": "gugi",
+    "english_equiv": "Stand.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to maintain an upright position, supported by the feet in a vertical orientation."
   },
   {
-    "word": "wasmana",
-    "english_equiv": "Grandmother",
+    "word": "guipsu",
+    "english_equiv": "Pride",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A feeling of deep pleasure or satisfaction derived from one's own achievements, qualities, or possessions."
+  },
+  {
+    "word": "gulipi",
+    "english_equiv": "Download",
+    "part_of_speech": "Verb",
+    "definition": "To actively copy, transfer, or retrieve data from the internet or another system into a local device or file."
+  },
+  {
+    "word": "gure",
+    "english_equiv": "Lazy",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a state of applying low effort, lacking motivation, or actively avoiding work and exertion."
+  },
+  {
+    "word": "guto",
+    "english_equiv": "Tool.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a device or implement, especially one held in the hand, used to carry out a particular function."
+  },
+  {
+    "word": "guza",
+    "english_equiv": "Enemy",
     "part_of_speech": "Biological Noun",
-    "definition": "A female biological relative who is the mother of one's parent."
+    "definition": "A person who is actively hostile toward, or bears deep ill will against, another; an adversary in a personal, social, or political conflict."
+  },
+  {
+    "word": "gydza",
+    "english_equiv": "Fox.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A small, cunning wild canine with a bushy tail."
+  },
+  {
+    "word": "gyke",
+    "english_equiv": "Weird / Strange / Crazy",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something unusual, surprising, or not belonging to the current environment or context."
+  },
+  {
+    "word": "gylfu",
+    "english_equiv": "Noun.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The grammatical word class denoting a person, place, thing, or concept, spanning the Biological (-a), Concrete (-o), and Abstract (-u) categories. A category-classification concept, following aziku (rule)."
+  },
+  {
+    "word": "gypu",
+    "english_equiv": "Internet.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the global system of interconnected computer networks; a virtual location or network structure."
+  },
+  {
+    "word": "ha",
+    "english_equiv": "Oh / I see",
+    "part_of_speech": "Grammar",
+    "definition": "Indicates sudden realization, acknowledgment, or understanding."
+  },
+  {
+    "word": "hadi",
+    "english_equiv": "Answer / Reply",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to say or write something to deal with or as a reaction to a question."
+  },
+  {
+    "word": "haibe",
+    "english_equiv": "Still / Yet",
+    "part_of_speech": "Modifier",
+    "definition": "Indicates the continuation of a state or action, confirming that a prior condition has not yet changed, stopped, or resolved."
+  },
+  {
+    "word": "haku",
+    "english_equiv": "Nostalgia / Homesickness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A sentimental longing or wistful affection for a period or place in the past.",
+    "usage_note": "Past- and place-directed. For longing toward a present but absent person or place, use fycisi (to miss)."
+  },
+  {
+    "word": "hano",
+    "english_equiv": "Container / Box.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This describes an enclosure or object used for holding or transporting something."
+  },
+  {
+    "word": "hap",
+    "english_equiv": "Emotional / Subjective",
+    "part_of_speech": "Grammar",
+    "definition": "An expression of personal feeling or subjective experience."
+  },
+  {
+    "word": "haroso",
+    "english_equiv": "Bubble",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thin sphere of liquid enclosing air or gas, or a pocket of air rising through a liquid."
+  },
+  {
+    "word": "hatzi",
+    "english_equiv": "Laugh / Smile",
+    "part_of_speech": "Verb",
+    "definition": "To express sudden amusement, joy, or positive emotion through facial alteration and rhythmic vocalization."
+  },
+  {
+    "word": "hautu",
+    "english_equiv": "Music.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the art of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression of emotion."
+  },
+  {
+    "word": "haxani",
+    "english_equiv": "To reach / To stretch out to",
+    "part_of_speech": "Verb",
+    "definition": "To successfully stretch out to, make physical contact with, or achieve a mathematical or conceptual limit."
+  },
+  {
+    "word": "hazba",
+    "english_equiv": "Husband",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a male spouse within a marital partnership."
+  },
+  {
+    "word": "hedcu",
+    "english_equiv": "Part / Member / Piece / Shard / Sherd",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a piece, segment, or component of a whole object or system."
+  },
+  {
+    "word": "hekri",
+    "english_equiv": "wear",
+    "part_of_speech": "Verb",
+    "definition": "To have clothing, footwear, or an accessory on the body; to be dressed in something."
+  },
+  {
+    "word": "hemy",
+    "english_equiv": "near",
+    "part_of_speech": "Prepositions",
+    "definition": "Used for close proximity."
+  },
+  {
+    "word": "hevi",
+    "english_equiv": "Forgive",
+    "part_of_speech": "Verb",
+    "definition": "To logically or emotionally pardon an offense, effectively terminating any anger, resentment, or desire for punishment toward another entity."
+  },
+  {
+    "word": "hezeska",
+    "english_equiv": "Parrot",
+    "part_of_speech": "Biological Noun",
+    "definition": "A brightly colored tropical bird with a curved beak, able to mimic speech."
+  },
+  {
+    "word": "hi",
+    "english_equiv": "To Be / To Exist As",
+    "part_of_speech": "Verb",
+    "definition": "To Be / To Exist. An explicit copula and existential verb. It is strictly forbidden in its unmodified form and must always bear a consonant suffix (such as tense, aspect, or an infinitive stacker) to be legally processed by the SVO track."
+  },
+  {
+    "word": "hiaruce",
+    "english_equiv": "One million",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number equivalent to one thousand times one thousand."
+  },
+  {
+    "word": "hibomo",
+    "english_equiv": "Anvil",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A heavy iron block with a flat top on which hot metal is hammered (ivxo) into shape."
+  },
+  {
+    "word": "hici",
+    "english_equiv": "Walk.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to move at a regular pace by lifting and setting down each foot in turn."
+  },
+  {
+    "word": "hiqe",
+    "english_equiv": "Factually Correct / Right",
+    "part_of_speech": "Modifier",
+    "definition": "Free from error; in accordance with fact or truth.",
+    "usage_note": "Distinct from the subjective senses 'well' or 'good'."
+  },
+  {
+    "word": "hiro",
+    "english_equiv": "Hole",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An empty space, gap, or physical opening structurally present within a solid object or surface."
+  },
+  {
+    "word": "hisu",
+    "english_equiv": "Name.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This identifies a word or set of words by which a person, animal, place, or thing is known."
   },
   {
     "word": "hobcada",
@@ -1318,1109 +2702,16 @@ const dictionaryData = [
     "definition": "A female biological relative who is the female child of one's child."
   },
   {
-    "word": "nupasaqa",
-    "english_equiv": "Parent's sibling / Aunt or Uncle (gender-neutral)",
-    "part_of_speech": "Biological Noun",
-    "definition": "A gender-neutral biological relative who is the sibling of one's parent."
-  },
-  {
-    "word": "nupataqa",
-    "english_equiv": "Uncle",
-    "part_of_speech": "Biological Noun",
-    "definition": "A male biological relative who is the brother of one's parent."
-  },
-  {
-    "word": "nupasaza",
-    "english_equiv": "Aunt",
-    "part_of_speech": "Biological Noun",
-    "definition": "A female biological relative who is the sister of one's parent."
-  },
-  {
-    "word": "guza",
-    "english_equiv": "Enemy",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who is actively hostile toward, or bears deep ill will against, another; an adversary in a personal, social, or political conflict."
-  },
-  {
-    "word": "lica",
-    "english_equiv": "Colleague",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person with whom one works in the same organisation, profession, or shared endeavour; a co-worker or professional peer."
-  },
-  {
-    "word": "cyva",
-    "english_equiv": "Stranger",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who is unknown to the speaker; someone with whom one has no prior acquaintance or familiarity."
-  },
-  {
-    "word": "juma",
-    "english_equiv": "Rival",
-    "part_of_speech": "Biological Noun",
-    "definition": "A person who competes against another for the same objective, status, or superiority; a personal or ongoing competitor."
-  },
-  {
-    "word": "biba",
-    "english_equiv": "Baby / Infant",
-    "part_of_speech": "Biological Noun",
-    "definition": "A very young human child, particularly one who has not yet learned to walk or talk."
-  },
-  {
-    "word": "eava",
-    "english_equiv": "Snake",
-    "part_of_speech": "Biological Noun",
-    "definition": "A long, legless, carnivorous reptile of the suborder Serpentes."
-  },
-  {
-    "word": "ipka",
-    "english_equiv": "Spider",
-    "part_of_speech": "Biological Noun",
-    "definition": "An eight-legged predatory arachnid that spins webs to catch prey."
-  },
-  {
-    "word": "elsa",
-    "english_equiv": "Bee",
-    "part_of_speech": "Biological Noun",
-    "definition": "A stinging, winged insect known for its role in pollination and producing honey."
-  },
-  {
-    "word": "voha",
-    "english_equiv": "Mouse / Rat",
-    "part_of_speech": "Biological Noun",
-    "definition": "A small rodent characterized by a pointed snout, large ears, and a long, thin tail."
-  },
-  {
-    "word": "ebga",
-    "english_equiv": "Twig",
-    "part_of_speech": "Biological Noun",
-    "definition": "A very small, thin terminal branch of a tree or shrub."
-  },
-  {
-    "word": "ayja",
-    "english_equiv": "Bark",
-    "part_of_speech": "Biological Noun",
-    "definition": "The tough outer protective covering of the woody stems and roots of trees."
-  },
-  {
-    "word": "ovpa",
-    "english_equiv": "Neck",
-    "part_of_speech": "Biological Noun",
-    "definition": "The part of the body that connects the head to the torso."
-  },
-  {
-    "word": "huqa",
-    "english_equiv": "Shoulder",
-    "part_of_speech": "Biological Noun",
-    "definition": "The joint connecting the arm or forelimb with the torso."
-  },
-  {
-    "word": "pyha",
-    "english_equiv": "Knee",
-    "part_of_speech": "Biological Noun",
-    "definition": "The joint between the thigh and the lower leg in humans and other vertebrates."
-  },
-  {
-    "word": "uvga",
-    "english_equiv": "Toe",
-    "part_of_speech": "Biological Noun",
-    "definition": "Any of the five terminal digits of the foot."
-  },
-  {
-    "word": "vefa",
-    "english_equiv": "Lung",
-    "part_of_speech": "Biological Noun",
-    "definition": "The primary organ of respiration in humans and many other animals, used for gas exchange."
-  },
-  {
-    "word": "oyka",
-    "english_equiv": "Kidney",
-    "part_of_speech": "Biological Noun",
-    "definition": "One of a pair of organs in the abdomen that filter waste products from the blood and produce urine."
-  },
-  {
-    "word": "uyxa",
-    "english_equiv": "Mosquito",
-    "part_of_speech": "Biological Noun",
-    "definition": "A small, slender fly that feeds on blood and can transmit diseases."
-  },
-  {
-    "word": "hyna",
-    "english_equiv": "Monkey / Ape",
-    "part_of_speech": "Biological Noun",
-    "definition": "A primate, typically having a tail and living in trees in tropical regions."
-  },
-  {
-    "word": "vira",
-    "english_equiv": "Elephant",
-    "part_of_speech": "Biological Noun",
-    "definition": "A very large herbivorous mammal characterized by a long trunk, tusks, and large ears."
-  },
-  {
-    "word": "ixpa",
-    "english_equiv": "Fungus / Mushroom",
-    "part_of_speech": "Biological Noun",
-    "definition": "An organism (such as a mushroom or mold) that feeds on organic matter and lacks chlorophyll."
-  },
-  {
-    "word": "ucka",
-    "english_equiv": "Seedling / Sprout / Sapling",
-    "part_of_speech": "Biological Noun",
-    "definition": "A young plant, especially one recently grown from a seed."
-  },
-  {
-    "word": "iega",
-    "english_equiv": "Lion / Tiger",
-    "part_of_speech": "Biological Noun",
-    "definition": "A large, carnivorous feline mammal."
-  },
-  {
-    "word": "eyza",
-    "english_equiv": "Bear",
-    "part_of_speech": "Biological Noun",
-    "definition": "A large, heavy mammal with thick fur and a very short tail."
-  },
-  {
-    "word": "dixa",
-    "english_equiv": "Shark",
-    "part_of_speech": "Biological Noun",
-    "definition": "A large, carnivorous fish with a cartilaginous skeleton and multiple rows of teeth."
-  },
-  {
-    "word": "upta",
-    "english_equiv": "Eagle / Hawk",
-    "part_of_speech": "Biological Noun",
-    "definition": "A large bird of prey with a curved beak and long, broad wings."
-  },
-  {
-    "word": "uwa",
-    "english_equiv": "Onion / Garlic",
-    "part_of_speech": "Biological Noun",
-    "definition": "A bulbous vegetable with a pungent smell and taste, used in cooking."
-  },
-  {
-    "word": "obta",
-    "english_equiv": "Ant",
-    "part_of_speech": "Biological Noun",
-    "definition": "A small, colonial social insect of the family Formicidae."
-  },
-  {
-    "word": "vyma",
-    "english_equiv": "Frog / Toad",
-    "part_of_speech": "Biological Noun",
-    "definition": "A tailless amphibian with a short, squat body, long hind legs for leaping, and webbed feet."
-  },
-  {
-    "word": "bexo",
-    "english_equiv": "Air.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The invisible mixture of gases surrounding a planet or filling an environment."
-  },
-  {
-    "word": "busko",
-    "english_equiv": "Clothes / Clothing.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to items worn to cover the body, typically made of fabric or textile materials."
-  },
-  {
-    "word": "tyko",
-    "english_equiv": "Material.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This describes the substance things are made of and is critical for defining modern concepts like plastic."
-  },
-  {
-    "word": "byso",
-    "english_equiv": "Sky.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to the region of the atmosphere and outer space seen from the earth."
-  },
-  {
-    "word": "difo",
-    "english_equiv": "Liquid.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This defines the state of matter that flows freely but is of constant volume."
-  },
-  {
-    "word": "diko",
-    "english_equiv": "Solid.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This defines the state of matter characterized by structural rigidity and resistance to force."
-  },
-  {
-    "word": "diso",
-    "english_equiv": "Gas.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This defines the state of matter that expands freely to fill any available space."
-  },
-  {
-    "word": "dorso",
-    "english_equiv": "Water.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This serves as the prototype word for liquid matter and the substance essential for life."
-  },
-  {
-    "word": "dreko",
-    "english_equiv": "Rock / Stone",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This denotes the hard, solid mineral material that is part of the earth's surface."
-  },
-  {
-    "word": "fato",
-    "english_equiv": "Machine.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a device or engine and is the essential base concept for more complex items like computers."
-  },
-  {
-    "word": "fiko",
-    "english_equiv": "Path / Road.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a route, course, or track along which something moves or reaches a destination."
-  },
-  {
-    "word": "foiso",
-    "english_equiv": "Building / Structure.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a structure with a roof and walls, such as a house, school, store, or factory."
-  },
-  {
-    "word": "geco",
-    "english_equiv": "Space.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This word defines a specific area, room, or the physical extent in which objects are located."
-  },
-  {
-    "word": "grexo",
-    "english_equiv": "Celestial Object / Planet / Moon.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a natural physical entity, such as a planet, moon, or star, that exists in the universe."
-  },
-  {
-    "word": "guto",
-    "english_equiv": "Tool.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a device or implement, especially one held in the hand, used to carry out a particular function."
-  },
-  {
-    "word": "gofo",
-    "english_equiv": "Wood.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to the hard, fibrous plant material that makes up the main substance of trees."
-  },
-  {
-    "word": "zaso",
-    "english_equiv": "Ground / Land",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This term refers to the ground, soil, or the physical land surface."
-  },
-  {
-    "word": "go",
-    "english_equiv": "Word.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a single distinct meaningful element of speech or writing.",
-    "usage_note": "Adapted to distinguish it from 'number'."
-  },
-  {
-    "word": "fuego",
-    "english_equiv": "Fire",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The visible, tangible heat and light energy produced by active combustion."
-  },
-  {
-    "word": "xedo",
-    "english_equiv": "Metal.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This describes a solid material that is typically hard, shiny, and conductive."
-  },
-  {
-    "word": "hano",
-    "english_equiv": "Container / Box.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This describes an enclosure or object used for holding or transporting something."
-  },
-  {
-    "word": "hoxo",
-    "english_equiv": "Door / Gate.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This identifies an access point or movable barrier used to close an opening."
-  },
-  {
-    "word": "juro",
-    "english_equiv": "City.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a large human settlement with a high population density and extensive systems for housing, transportation, and utilities."
-  },
-  {
-    "word": "lito",
-    "english_equiv": "Light.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This describes photon energy or the natural agent that stimulates sight and makes things visible."
-  },
-  {
-    "word": "zufo",
-    "english_equiv": "Bed.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a piece of furniture or a prepared spot used for sleep or rest."
-  },
-  {
-    "word": "pano",
-    "english_equiv": "Book.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a written or printed work consisting of pages bound together, or a digital equivalent, used to store information."
-  },
-  {
-    "word": "rerpo",
-    "english_equiv": "Place / Location / Position",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a particular position, point, or area in space, regardless of whether it is occupied."
-  },
-  {
-    "word": "sydo",
-    "english_equiv": "House / Shelter / Home",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a structure or place serving as a dwelling, providing protection from the elements and a living space for habitation."
-  },
-  {
-    "word": "tapo",
-    "english_equiv": "Here.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The specific physical location of the speaker or the immediate area being occupied."
-  },
-  {
-    "word": "fiwo",
-    "english_equiv": "Language.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to the principal method of human communication, consisting of words used in a structured and conventional way."
-  },
-  {
-    "word": "moblo",
-    "english_equiv": "Vehicle",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A machine equipped with wheels, runners, or an engine, specifically built for transporting people or physical goods over a surface."
-  },
-  {
-    "word": "paelo",
-    "english_equiv": "Paper",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A thin, flat physical material manufactured from processed pulp, used primarily for writing, printing, or structural packaging."
-  },
-  {
-    "word": "ufaxo",
-    "english_equiv": "Message / Letter",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical or digitally recorded string of text, symbols, or audio meant to convey information from one entity to another."
-  },
-  {
-    "word": "igro",
-    "english_equiv": "Card",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A small, flat, stiff piece of paper or plastic used as a physical token for identification, finance, or data storage."
-  },
-  {
-    "word": "kuqso",
-    "english_equiv": "Bridge",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical structure built to span and provide passage over a physical obstacle, such as a river, road, or valley."
-  },
-  {
-    "word": "fono",
-    "english_equiv": "Phone",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A portable, tangible electronic device used primarily for telecommunication and transmitting vocal data."
-  },
-  {
-    "word": "ceto",
-    "english_equiv": "Screen",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A flat, physical display surface on an electronic device constructed to emit light and show visual information."
-  },
-  {
-    "word": "krulo",
-    "english_equiv": "Room",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physically enclosed space situated within a building, structurally separated by walls and accessed via a door."
-  },
-  {
-    "word": "krapo",
-    "english_equiv": "Wall",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A continuous, vertical solid structure made of brick, stone, wood, or metal that encloses or divides a physical area."
-  },
-  {
-    "word": "wilo",
-    "english_equiv": "Window",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A designed opening in a wall or vehicle, typically fitted with transparent glass, built to let in light and air."
-  },
-  {
-    "word": "dego",
-    "english_equiv": "Table",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A piece of furniture consisting of a flat physical top supported by one or more legs, used as a surface for working or eating."
-  },
-  {
-    "word": "xiolo",
-    "english_equiv": "Chair",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A separate piece of furniture designed as a seat for one person, typically featuring a backrest and four legs."
-  },
-  {
-    "word": "caeno",
-    "english_equiv": "Street",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A paved public thoroughfare in a city or town, serving as a physical infrastructure route for vehicles and pedestrians."
-  },
-  {
-    "word": "boto",
-    "english_equiv": "Boat / Raft",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physically constructed vessel designed to float and travel on the surface of water."
-  },
-  {
-    "word": "atripo",
-    "english_equiv": "Train",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A connected series of physical railway carriages or wagons structurally linked and moved by a locomotive engine along tracks."
-  },
-  {
-    "word": "abeco",
-    "english_equiv": "Plane",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A powered, fixed-wing flying vehicle constructed from lightweight metals or composites."
-  },
-  {
-    "word": "egino",
-    "english_equiv": "Engine",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A complex mechanical machine with moving physical parts that converts fuel or power into kinetic motion."
-  },
-  {
-    "word": "kezo",
-    "english_equiv": "Oil",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A viscous, thick liquid substance derived from petroleum or plants, functioning physically as a combustible fuel or mechanical lubricant."
-  },
-  {
-    "word": "cijo",
-    "english_equiv": "Weapon",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical tool, instrument, or device specifically engineered to inflict bodily harm or structural damage."
-  },
-  {
-    "word": "xildo",
-    "english_equiv": "Shield",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A broad, solid piece of metal, wood, or synthetic material held to block or deflect physical blows and projectiles."
-  },
-  {
-    "word": "tulo",
-    "english_equiv": "Bottle",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A rigid container, typically constructed of glass or plastic, featuring a narrow neck and used for storing liquids."
-  },
-  {
-    "word": "kalo",
-    "english_equiv": "Cup",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A small, bowl-shaped physical container, often with a handle, designed for holding and drinking liquids."
-  },
-  {
-    "word": "icifo",
-    "english_equiv": "Plate",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A flat, usually circular solid dish from which food is physically served or eaten."
-  },
-  {
-    "word": "kino",
-    "english_equiv": "Knife",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical tool or weapon consisting of a sharp, solid cutting edge or blade, usually attached to a grip or handle."
-  },
-  {
-    "word": "luso",
-    "english_equiv": "Key",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A small piece of shaped metal with specific physical incisions cut to mechanically fit and operate a specific lock."
-  },
-  {
-    "word": "plaho",
-    "english_equiv": "Lock",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A mechanical or electronic fastening device constructed to physically secure a door or container until opened by a key or code."
-  },
-  {
-    "word": "zabato",
-    "english_equiv": "Bag / Luggage",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A flexible container made of fabric, leather, or plastic, used structurally for carrying or consolidating other physical items."
-  },
-  {
-    "word": "belimo",
-    "english_equiv": "Shoe",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical covering for the foot, typically made of leather or synthetic materials, featuring a sturdy protective sole."
-  },
-  {
-    "word": "meoko",
-    "english_equiv": "Hat",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A shaped physical covering for the head worn for environmental protection, warmth, or uniform."
-  },
-  {
-    "word": "weoro",
-    "english_equiv": "Ball",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A solid or hollow spherical physical object designed to roll, bounce, or be thrown in games and sports."
-  },
-  {
-    "word": "lakiro",
-    "english_equiv": "Picture / Image / Photo",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical visual representation or static image captured by photography, painting, or printing on a tangible surface."
-  },
-  {
-    "word": "wujo",
-    "english_equiv": "Map",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical or digital visual diagram representing an area of land or sea, detailing physical geographic features or routes."
-  },
-  {
-    "word": "clapo",
-    "english_equiv": "Clock",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A mechanical or electrical physical device constructed with a dial or display for mathematically measuring and showing time."
-  },
-  {
-    "word": "drafo",
-    "english_equiv": "Wheel",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A circular solid object designed to revolve on an axle, fixed below a vehicle or inside a machine to enable kinetic movement."
-  },
-  {
-    "word": "wirano",
-    "english_equiv": "Glass",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A hard, brittle, transparent solid substance engineered by fusing sand with soda and lime, used for windows or vessels."
-  },
-  {
-    "word": "fevo",
-    "english_equiv": "Sun",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to the primary daytime celestial body or central star that provides light and heat energy to a planetary system."
-  },
-  {
-    "word": "stalo",
-    "english_equiv": "Star",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This identifies a distant celestial object, consisting of a massive, luminous sphere of plasma, appearing as a point of light in the night sky."
-  },
-  {
-    "word": "jawo",
-    "english_equiv": "Ice",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This defines the solid state of water matter, formed structurally when liquid water freezes due to low temperatures."
-  },
-  {
-    "word": "klazo",
-    "english_equiv": "Cloud",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a visible, physical mass of condensed atmospheric water vapor floating high in the sky."
-  },
-  {
-    "word": "domlo",
-    "english_equiv": "Rain",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This identifies precipitating liquid water falling downward from clouds in the atmosphere to the ground."
-  },
-  {
-    "word": "jadoro",
-    "english_equiv": "Snow",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to atmospheric water vapor frozen into solid ice crystals and falling as light, white structural flakes."
-  },
-  {
-    "word": "xabeso",
-    "english_equiv": "Wind",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This describes the natural, perceptible kinetic movement of air  traveling across an environment."
-  },
-  {
-    "word": "monto",
-    "english_equiv": "Mountain",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a massive, natural solid elevation of the earth's surface, rising abruptly to a peak from the surrounding ground."
-  },
-  {
-    "word": "xadoro",
-    "english_equiv": "River",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This identifies a large, naturally flowing body of liquid water continuously moving along a path toward a sea, lake, or ocean."
-  },
-  {
-    "word": "tandorso",
-    "english_equiv": "Ocean / Sea",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a massive, continuous physical body of saltwater that covers a vast structural portion of a planet's surface."
-  },
-  {
-    "word": "sanpo",
-    "english_equiv": "Sand / Dust",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a loose, granular physical substance consisting of finely divided rock, mineral particles, or earth."
-  },
-  {
-    "word": "lamso",
-    "english_equiv": "Milk",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This identifies the opaque, nutrient-rich white liquid produced by the mammary glands of female mammals to feed their offspring."
-  },
-  {
-    "word": "teso",
-    "english_equiv": "Tea",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a physical aromatic liquid beverage prepared by pouring hot water over cured or fresh leaves of a plant."
-  },
-  {
-    "word": "refo",
-    "english_equiv": "Coffee",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This identifies a brewed, dark physical liquid beverage prepared from the roasted and ground seeds (beans) of the coffee plant."
-  },
-  {
-    "word": "nasbo",
-    "english_equiv": "Medicine / Drug",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This identifies a physical compound, preparation, or substance strictly used for the treatment, cure, or prevention of biological disease."
-  },
-  {
-    "word": "picalo",
-    "english_equiv": "Hospital",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a highly specialized physical building or institution providing medical and surgical treatment for sick or injured people."
-  },
-  {
-    "word": "ibazo",
-    "english_equiv": "School",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This identifies a physical building or structural institution explicitly designed for the teaching and education of students."
-  },
-  {
-    "word": "xyro",
-    "english_equiv": "Store / Shop",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a physical building or retail space structurally dedicated to the commercial selling of goods or services."
-  },
-  {
-    "word": "jatano",
-    "english_equiv": "Pen / Pencil",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This identifies a small, hand-held physical tool or instrument structurally designed for writing or drawing on paper."
-  },
-  {
-    "word": "sweso",
-    "english_equiv": "Sweat / Perspiration",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The clear physical liquid excreted through the pores of the skin, typically functioning to regulate biological heat."
-  },
-  {
-    "word": "eqso",
-    "english_equiv": "Saliva / Spit",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The biological liquid naturally produced in the mouth to lubricate food and initiate physical digestion."
-  },
-  {
-    "word": "fumo",
-    "english_equiv": "Smoke",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The visible, particulate gas or vapor naturally produced and emitted by an active fire (fueguo)."
-  },
-  {
-    "word": "afxo",
-    "english_equiv": "Ash",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The solid, powdery physical residue left behind after combustible matter has been completely consumed by fire."
-  },
-  {
-    "word": "mudo",
-    "english_equiv": "Mud",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A wet, soft, and sticky physical mixture of earth (zaso) and water (dorso)."
-  },
-  {
-    "word": "otsino",
-    "english_equiv": "Thread / String",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A long, very thin flexible strand of fiber structurally used for sewing, tying, or weaving."
-  },
-  {
-    "word": "odcano",
-    "english_equiv": "Rope",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A thick, heavy, and highly strong physical cord created by twisting or braiding smaller threads or fibers together."
-  },
-  {
-    "word": "caflo",
-    "english_equiv": "Shadow",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The dark physical area or shape structurally created on a surface when an opaque object blocks a light source (lito)."
-  },
-  {
-    "word": "hiro",
-    "english_equiv": "Hole",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An empty space, gap, or physical opening structurally present within a solid object or surface."
-  },
-  {
-    "word": "rago",
-    "english_equiv": "Roof / Ceiling",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The structural top covering of a building (foiso) or the interior upper surface of an enclosed room."
-  },
-  {
-    "word": "zafoiro",
-    "english_equiv": "Floor",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The structured indoor ground surface of a room or building on which people stand or walk."
-  },
-  {
-    "word": "azo",
-    "english_equiv": "Bowl",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A deep, rounded physical container used for holding liquids or food."
-  },
-  {
-    "word": "winro",
-    "english_equiv": "Wine / Liquor / Spirit",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An alcoholic physical liquid beverage produced by mathematically fermenting fruit, grains, or biological plant matter."
-  },
-  {
-    "word": "biero",
-    "english_equiv": "Beer",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A fermented, carbonated physical liquid beverage typically brewed from malted barley and flavored with hops."
-  },
-  {
-    "word": "xowero",
-    "english_equiv": "Market / Shopping Center",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical geographic location, building, or structured area where multiple distinct shops, stalls, or vendors are grouped together for commerce."
-  },
-  {
-    "word": "tanko",
-    "english_equiv": "Sugar",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A sweet, crystalline physical substance naturally derived from plants, used strictly to sweeten food or drink."
-  },
-  {
-    "word": "zaqo",
-    "english_equiv": "Salt",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A white crystalline physical mineral consisting of sodium chloride, used to season or preserve food."
-  },
-  {
-    "word": "telfo",
-    "english_equiv": "Telephone / Phone",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical electronic device or machine used for two-way audio communication across a distance."
-  },
-  {
-    "word": "wanso",
-    "english_equiv": "Environment / Surroundings",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The collective physical conditions, objects, or abstract circumstances surrounding and influencing an entity."
-  },
-  {
-    "word": "xaqbo",
-    "english_equiv": "Gold",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A highly valuable, naturally occurring yellow metal historically used for currency or decoration."
-  },
-  {
-    "word": "mitero",
-    "english_equiv": "Meter",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The standard physical unit of measurement for length or distance."
-  },
-  {
-    "word": "kazaro",
-    "english_equiv": "Trousers / Pants",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical piece of clothing designed to cover the lower body and legs, featuring separate structural sections for each leg."
-  },
-  {
-    "word": "sokso",
-    "english_equiv": "Sock",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A soft, flexible physical piece of clothing worn directly on the foot and lower leg to provide warmth and reduce friction inside a shoe."
-  },
-  {
-    "word": "ikamo",
-    "english_equiv": "Shirt",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical piece of clothing designed specifically to cover the upper body and chest area (topza)."
-  },
-  {
-    "word": "stiro",
-    "english_equiv": "Line / Row / Queue",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical sequence of entities arranged sequentially in a continuous line."
-  },
-  {
-    "word": "gejedo",
-    "english_equiv": "Electricity / Power",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The physical electrical power, current, or energy utilized to run machines, systems, or lighting."
-  },
-  {
-    "word": "xocewo",
-    "english_equiv": "Television / TV",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A concrete electronic device or machine used to receive and display broadcasted moving images and sound."
-  },
-  {
-    "word": "zikuzo",
-    "english_equiv": "Bank",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A concrete physical building or structural institution where money is legally kept, invested, or exchanged."
-  },
-  {
-    "word": "poco",
-    "english_equiv": "There / That place.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "This word refers to a specific physical location or spatial coordinate that is distant or removed from the speaker's current environment."
-  },
-  {
-    "word": "jyjo",
-    "english_equiv": "Computer",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An electronic device designed for storing, retrieving, and processing data."
-  },
-  {
-    "word": "duco",
-    "english_equiv": "Mirror",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A smooth, highly reflective surface (typically glass with a metallic backing) that forms a clear image of objects in front of it."
-  },
-  {
-    "word": "vyno",
-    "english_equiv": "Desk",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A piece of furniture with a flat top, typically with drawers, designed for writing, reading, or working."
-  },
-  {
-    "word": "ucto",
-    "english_equiv": "Spoon",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A utensil consisting of a small, shallow oval bowl on a handle, used for eating, stirring, or serving food."
-  },
-  {
-    "word": "ovro",
-    "english_equiv": "Fork",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A utensil with two or more prongs, used for lifting food to the mouth or holding it in place while cutting."
-  },
-  {
-    "word": "wyqo",
-    "english_equiv": "Soap",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A substance used with water for washing, bathing, and cleaning, typically made from natural oils or fats."
-  },
-  {
-    "word": "ifgo",
-    "english_equiv": "Toothbrush",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A small brush with a long handle, used specifically for cleaning the teeth."
-  },
-  {
-    "word": "uovo",
-    "english_equiv": "Pillow",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A soft cushion used to support the head, especially when sleeping in bed."
-  },
-  {
-    "word": "eywo",
-    "english_equiv": "Stairs / Steps",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A series of steps leading from one level of a building to another, enabling ascent or descent."
-  },
-  {
-    "word": "oyvo",
-    "english_equiv": "Ladder",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A structure consisting of two parallel sidepieces joined by steps or rungs, used for climbing up or down."
-  },
-  {
-    "word": "ebo",
-    "english_equiv": "Chain",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A series of connected metal links or rings used for pulling, securing, or holding objects."
-  },
-  {
-    "word": "ivxo",
-    "english_equiv": "Hammer",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A hand tool with a heavy metal head on a handle, used for driving nails, beating metal, or breaking objects."
-  },
-  {
-    "word": "avmo",
-    "english_equiv": "Nail",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A small, thin, pointed piece of metal with a flat head, driven into wood or other materials to hold them together."
-  },
-  {
-    "word": "vixo",
-    "english_equiv": "Bucket",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A cylindrical open container with a handle, used for carrying liquids or loose materials."
-  },
-  {
-    "word": "pybo",
-    "english_equiv": "Candle",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A cylinder of wax or tallow with a central wick that is burned to provide light."
-  },
-  {
-    "word": "vuwo",
-    "english_equiv": "Bell",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A hollow, cup-shaped metal object that makes a ringing sound when struck."
-  },
-  {
-    "word": "oqo",
-    "english_equiv": "Ticket",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A small piece of paper or card showing that the holder is entitled to travel, enter a place, or participate in an event."
-  },
-  {
-    "word": "uho",
-    "english_equiv": "Flag",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A piece of cloth or fabric, usually rectangular, with a distinctive design used as a symbol or signal (specifically representing a nation or group)."
-  },
-  {
-    "word": "riqo",
-    "english_equiv": "Keyboard",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A panel of keys used to input text and commands into a computer or other electronic device."
-  },
-  {
-    "word": "ogzo",
-    "english_equiv": "Towel",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A piece of absorbent cloth or paper used for drying things or oneself."
-  },
-  {
-    "word": "epmo",
-    "english_equiv": "Oven / Stove",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An enclosed compartment or heated surface used for cooking, baking, or heating food."
-  },
-  {
-    "word": "miho",
-    "english_equiv": "Shelf",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A flat, horizontal board or platform fixed to a wall or in a cupboard, used for holding objects."
-  },
-  {
-    "word": "cugo",
-    "english_equiv": "Eraser",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A piece of soft rubber or plastic used to rub out ink or pencil marks."
-  },
-  {
-    "word": "hyho",
-    "english_equiv": "Scissors",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A hand-held cutting tool consisting of a pair of pivoted blades that slide past each other."
-  },
-  {
-    "word": "uymo",
-    "english_equiv": "Umbrella",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A folding canopy on a metal frame, used to protect against rain or sun."
-  },
-  {
-    "word": "oxno",
-    "english_equiv": "Wallet / Purse",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A pocket-sized, flat folding case for holding money and cards."
-  },
-  {
-    "word": "ixbo",
-    "english_equiv": "Brick",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A small rectangular block of fired clay or concrete, used in building."
-  },
-  {
-    "word": "ezlo",
-    "english_equiv": "Lid / Bottlecap",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A removable cover or cap for a container, jar, or bottle."
-  },
-  {
-    "word": "udbo",
-    "english_equiv": "Button",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A small disc or knob sewn onto a garment, used to fasten it or as decoration."
-  },
-  {
-    "word": "egpo",
-    "english_equiv": "Tube",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A long, hollow cylinder of metal, plastic, or glass, used for conveying or containing fluids or signals."
-  },
-  {
-    "word": "cobo",
-    "english_equiv": "Fog",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A thick cloud of tiny water droplets suspended in the atmosphere at or near the earth's surface that obscures or restricts visibility."
-  },
-  {
-    "word": "xako",
-    "english_equiv": "Hail",
-    "part_of_speech": "Concrete Noun",
-    "definition": "Pellets of frozen rain or ice that fall in showers from cumulonimbus clouds."
-  },
-  {
-    "word": "erco",
-    "english_equiv": "Thunder",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A loud rumbling or crashing noise heard after a lightning flash due to the rapid expansion of heated air."
-  },
-  {
-    "word": "arlo",
-    "english_equiv": "Lightning",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A natural electrical discharge of very short duration and high voltage, accompanied by a bright flash."
-  },
-  {
-    "word": "agso",
-    "english_equiv": "Drought",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A prolonged period of abnormally low rainfall, leading to a severe shortage of water."
-  },
-  {
-    "word": "imdo",
-    "english_equiv": "Flood",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An overflowing of a large amount of water beyond its normal confines, especially over what is normally dry land."
-  },
-  {
-    "word": "untexo",
-    "english_equiv": "App / Application",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A specific digital tool or concrete software program designed to perform a distinct function for the user on a device like a phone or computer."
-  },
-  {
-    "word": "mykoso",
-    "english_equiv": "Fever",
-    "part_of_speech": "Concrete Noun",
-    "definition": "An abnormally high body temperature, often an immune response to an illness."
-  },
-  {
-    "word": "dofemo",
-    "english_equiv": "Court / Tribunal",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A physical building, room, or tribunal where legal cases are heard and justice is administered."
+    "word": "hobe",
+    "english_equiv": "Young.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something that has existed for a short time, often characterizing an early stage of life, growth, or development."
+  },
+  {
+    "word": "hop",
+    "english_equiv": "Sarcastic / Ironic",
+    "part_of_speech": "Grammar",
+    "definition": "Sarcastic or ironic intent, explicitly encoded to prevent logical misinterpretation."
   },
   {
     "word": "hoqypo",
@@ -2429,1260 +2720,34 @@ const dictionaryData = [
     "definition": "A device created or adapted to make musical sounds."
   },
   {
-    "word": "bafu",
-    "english_equiv": "Second.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the base unit of time, equal to one-sixtieth of a minute."
+    "word": "horba",
+    "english_equiv": "Horn",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word refers to a hard, permanent bony outgrowth—often curved and pointed—found on the heads of certain animals for defense or competition."
   },
   {
-    "word": "biwu",
-    "english_equiv": "Problem / Trouble",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a matter or situation regarded as unwelcome or harmful and needing to be dealt with and overcome."
+    "word": "hoswa",
+    "english_equiv": "Bamboo.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A fast-growing woody grass with hollow, segmented stems."
   },
   {
-    "word": "dahu",
-    "english_equiv": "Value.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the relative worth, merit, or importance of a thing; or a numerical quantity assigned to a symbol or variable."
+    "word": "hoxo",
+    "english_equiv": "Door / Gate.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This identifies an access point or movable barrier used to close an opening."
   },
   {
-    "word": "dionu",
-    "english_equiv": "Time.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the indefinite continued progress of existence and events."
+    "word": "hudywi",
+    "english_equiv": "To Cough",
+    "part_of_speech": "Verb",
+    "definition": "To expel air from the lungs with a sudden sharp sound, typically to clear the throat or respiratory airways."
   },
   {
-    "word": "bogu",
-    "english_equiv": "Force.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to strength or energy as an attribute of physical action or movement, or an influence that can change the motion of an object."
-  },
-  {
-    "word": "dodu",
-    "english_equiv": "Universe / World",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This word represents the entire universe or the broad context in which things exist."
-  },
-  {
-    "word": "du",
-    "english_equiv": "Day.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A period of time from sunrise to sunrise; current day."
-  },
-  {
-    "word": "dugu",
-    "english_equiv": "Night.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the period of darkness in each twenty-four hours; the time from sunset to sunrise."
-  },
-  {
-    "word": "dumu",
-    "english_equiv": "Minute.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a period of time equal to sixty seconds or one-sixtieth of an hour."
-  },
-  {
-    "word": "facu",
-    "english_equiv": "Side.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This identifies a position, area, or surface on the left or right of a central line."
-  },
-  {
-    "word": "fefu",
-    "english_equiv": "End.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This defines the final part of something or its termination point."
-  },
-  {
-    "word": "fulu",
-    "english_equiv": "Data / Information",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to facts, statistics, or distinct pieces of information collected together for reference or analysis."
-  },
-  {
-    "word": "gagu",
-    "english_equiv": "Texture / Surface Quality.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Noun (Abstract). Definition: This refers to the feel, appearance, or consistency of a surface or a substance."
-  },
-  {
-    "word": "gidu",
-    "english_equiv": "Money.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a current medium of exchange in the form of coins and banknotes."
-  },
-  {
-    "word": "gioxu",
-    "english_equiv": "AI (Artificial Intelligence).",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to computer systems able to perform tasks that normally require human intelligence."
-  },
-  {
-    "word": "gomu",
-    "english_equiv": "Hour.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a period of time equal to sixty minutes or one twenty-fourth of a day."
-  },
-  {
-    "word": "gu",
-    "english_equiv": "Number.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity."
-  },
-  {
-    "word": "gypu",
-    "english_equiv": "Internet.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the global system of interconnected computer networks; a virtual location or network structure."
-  },
-  {
-    "word": "hautu",
-    "english_equiv": "Music.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the art of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression of emotion."
-  },
-  {
-    "word": "hedcu",
-    "english_equiv": "Part / Member / Piece / Shard / Sherd",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a piece, segment, or component of a whole object or system."
-  },
-  {
-    "word": "hisu",
-    "english_equiv": "Name.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This identifies a word or set of words by which a person, animal, place, or thing is known."
-  },
-  {
-    "word": "hupu",
-    "english_equiv": "Center / Middle.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the point that is equally distant from every part of the circumference or ends of something."
-  },
-  {
-    "word": "jaru",
-    "english_equiv": "Year.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The time it takes for a planet to complete one full revolution around its star; a period of time comprising 365 days."
-  },
-  {
-    "word": "jormu",
-    "english_equiv": "Case / Situation.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a set of circumstances or conditions in which one finds oneself; a state of affairs."
-  },
-  {
-    "word": "juku",
-    "english_equiv": "Shape / Form.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the external form, contours, or outline of someone or something."
-  },
-  {
-    "word": "melfu",
-    "english_equiv": "Price / Cost",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the amount of money expected, required, or given in payment for something."
-  },
-  {
-    "word": "mu",
-    "english_equiv": "Soul.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the immaterial essence, spiritual core, or animating force of a being, regarded as distinct from both the physical body and the intellectual mind."
-  },
-  {
-    "word": "nu",
-    "english_equiv": "Now.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Used for the present moment."
-  },
-  {
-    "word": "xeku",
-    "english_equiv": "Country / Nation",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a nation with its own government, occupying a particular territory."
-  },
-  {
-    "word": "pamu",
-    "english_equiv": "Pain / suffering / Injury",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to physical suffering or discomfort; a distinct sensory experience of hurting or emotional suffering."
-  },
-  {
-    "word": "pesu",
-    "english_equiv": "Sound.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear."
-  },
-  {
-    "word": "xu",
-    "english_equiv": "Type / Kind / Sort.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A category of entities having some common characteristics that distinguish them from others."
-  },
-  {
-    "word": "naxu",
-    "english_equiv": "Group.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a number of people or things that are located, gathered, or classed together."
-  },
-  {
-    "word": "roku",
-    "english_equiv": "Dark.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This defines the absence of light or the state of being without illumination."
-  },
-  {
-    "word": "pedu",
-    "english_equiv": "Power / Influence.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the capacity or ability to direct or influence the behavior of others or the course of events."
-  },
-  {
-    "word": "zuwu",
-    "english_equiv": "Way / Manner.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a method, style, or custom of doing something."
-  },
-  {
-    "word": "godu",
-    "english_equiv": "Mind.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual capacity for logical thought, critical understanding, processing complex information and memory."
-  },
-  {
-    "word": "tsotu",
-    "english_equiv": "Contentment.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a state of happiness and satisfaction."
-  },
-  {
-    "word": "wegu",
-    "english_equiv": "Angle.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The space between two intersecting lines; specific geometric properties."
-  },
-  {
-    "word": "witu",
-    "english_equiv": "Color.",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light."
-  },
-  {
-    "word": "zapu",
-    "english_equiv": "System",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An organized conceptual framework or set of interacting principles forming a complex whole."
-  },
-  {
-    "word": "stepu",
-    "english_equiv": "Story",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A structured conceptual narrative or abstract account of imaginary or real events."
-  },
-  {
-    "word": "iku",
-    "english_equiv": "Law",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A system of abstract rules created and enforced by an institution to regulate behavior and maintain order."
-  },
-  {
-    "word": "canpu",
-    "english_equiv": "Community",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract social structure, shared identity, or conceptual bond uniting a group of individuals."
-  },
-  {
-    "word": "farlu",
-    "english_equiv": "Health",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual state of being free from physical or psychological illness; overall systemic well-being."
-  },
-  {
-    "word": "artu",
-    "english_equiv": "Art",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The conceptual expression or abstract application of human creative skill and imagination."
-  },
-  {
-    "word": "eru",
-    "english_equiv": "War",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A state of abstract or political conflict, competition, or severe hostility between different groups or nations."
-  },
-  {
-    "word": "paswu",
-    "english_equiv": "History",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract, continuous, and systematic record or study of past events."
-  },
-  {
-    "word": "taicu",
-    "english_equiv": "Party / Festival",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A conceptual social gathering or a political faction organized for a specific shared purpose."
-  },
-  {
-    "word": "isamu",
-    "english_equiv": "Result",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract consequence, logical effect, or final mathematical outcome of a specific action or event."
-  },
-  {
-    "word": "asku",
-    "english_equiv": "Reason",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract intellectual justification, motive, or logical premise behind an action or belief."
-  },
-  {
-    "word": "olifu",
-    "english_equiv": "Research",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The systematic, conceptual investigation into materials and sources to establish new facts."
-  },
-  {
-    "word": "tequ",
-    "english_equiv": "Moment",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A highly specific, brief abstract conceptual point or period in the flow of time."
-  },
-  {
-    "word": "ibalu",
-    "english_equiv": "Education",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual process of receiving or giving systematic instruction and acquiring knowledge."
-  },
-  {
-    "word": "nuju",
-    "english_equiv": "Policy",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A conceptual course or abstract principle of action adopted or proposed by a governing body or business."
-  },
-  {
-    "word": "skoru",
-    "english_equiv": "Market",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange."
-  },
-  {
-    "word": "absu",
-    "english_equiv": "Sense",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract faculty of perception, logic, or structural meaning.",
-    "usage_note": "The faculty itself, distinct from the physical sense organ."
-  },
-  {
-    "word": "junu",
-    "english_equiv": "Plan",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A detailed conceptual proposal or abstract structural framework designed for achieving an objective."
-  },
-  {
-    "word": "astlu",
-    "english_equiv": "Interest",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual feeling of wanting to know/learn about something, or an intangible advantage/benefit."
-  },
-  {
-    "word": "kimu",
-    "english_equiv": "Death",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual state representing the permanent end of a biological life or system's existence."
-  },
-  {
-    "word": "ogiru",
-    "english_equiv": "Experience",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract knowledge, familiarity, or practical wisdom gained from observing or undergoing events."
-  },
-  {
-    "word": "iqocu",
-    "english_equiv": "Effect",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual change which is a direct mathematical result or consequence of a prior cause."
-  },
-  {
-    "word": "ibitu",
-    "english_equiv": "Class",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract system of ordering society or categorizing items based on shared conceptual characteristics."
-  },
-  {
-    "word": "zenu",
-    "english_equiv": "Care",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual provision of what is necessary for the health, welfare, or protection of an entity."
-  },
-  {
-    "word": "atobu",
-    "english_equiv": "Field",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract domain of study, specific area of conceptual interest, or theoretical sphere of activity."
-  },
-  {
-    "word": "jeflu",
-    "english_equiv": "Development",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract process of conceptual growth, systemic progression, or evolution over time."
-  },
-  {
-    "word": "noaju",
-    "english_equiv": "Role",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual function assumed or part played by a person or thing in a particular situation."
-  },
-  {
-    "word": "efantu",
-    "english_equiv": "Effort",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual measurement of physical or mental exertion required to achieve a goal."
-  },
-  {
-    "word": "exopu",
-    "english_equiv": "Rate",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract mathematical measure, quantity, or frequency typically measured against a separate baseline quantity."
-  },
-  {
-    "word": "epiwu",
-    "english_equiv": "Action / Activity",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual state or fundamental process of doing something to achieve an aim."
-  },
-  {
-    "word": "mydu",
-    "english_equiv": "Model",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A conceptual framework or abstract mathematical representation used to simulate, describe, or predict a system."
-  },
-  {
-    "word": "miju",
-    "english_equiv": "Nature",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract inherent character, fundamental qualities, or conceptual essence of a thing."
-  },
-  {
-    "word": "rinu",
-    "english_equiv": "Wealth",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract economic concept of an abundance of valuable possessions, resources, or financial value."
-  },
-  {
-    "word": "cufu",
-    "english_equiv": "Goal / Purpose / Target",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual target or desired future outcome toward which systematic effort is directed."
-  },
-  {
-    "word": "pogafu",
-    "english_equiv": "Peace",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual state of harmony, tranquility, and the complete mathematical absence of conflict."
-  },
-  {
-    "word": "ocadu",
-    "english_equiv": "Science",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract systematic enterprise that builds and organizes knowledge in the form of testable, logical explanations."
-  },
-  {
-    "word": "fituru",
-    "english_equiv": "Future",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract temporal realm encompassing all time and theoretical events that are yet to come."
-  },
-  {
-    "word": "wedacu",
-    "english_equiv": "Past",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract temporal realm encompassing all time and recorded events that have already elapsed."
-  },
-  {
-    "word": "jobu",
-    "english_equiv": "Job",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract conceptual role, task, or agreed-upon piece of work, especially one that is compensated."
-  },
-  {
-    "word": "spelu",
-    "english_equiv": "Game",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A conceptual structured form of play or a competitive abstract system strictly governed by rules."
-  },
-  {
-    "word": "rawetu",
-    "english_equiv": "Culture",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract social behavior, institutions, and conceptual norms transmitted across human societies."
-  },
-  {
-    "word": "afymu",
-    "english_equiv": "Economy / Industry",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual system governing the production, distribution, and consumption of societal resources."
-  },
-  {
-    "word": "getiku",
-    "english_equiv": "Energy",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract mathematical or conceptual capacity for doing work or initiating physical activity."
-  },
-  {
-    "word": "merifu",
-    "english_equiv": "Memory",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual faculty by which a mind or system stores, retains, and retrieves informational data."
-  },
-  {
-    "word": "udzidu",
-    "english_equiv": "Appearance",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual state, outward visual presentation, or visible aspect of how an entity looks and is perceived by an observer."
-  },
-  {
-    "word": "nudu",
-    "english_equiv": "Today",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the current day."
-  },
-  {
-    "word": "fitydu",
-    "english_equiv": "Tomorrow",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the next day in the chronological sequence."
-  },
-  {
-    "word": "wecdu",
-    "english_equiv": "Yesterday",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the previous day that has elapsed."
-  },
-  {
-    "word": "retadu",
-    "english_equiv": "Week",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a continuous time period consisting of seven days."
-  },
-  {
-    "word": "rugoxu",
-    "english_equiv": "Month",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to a period of time historically corresponding to a lunar cycle or a standard calendar division."
-  },
-  {
-    "word": "cihu",
-    "english_equiv": "Morning",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the early part of the day, typically from sunrise until the midpoint of the day."
-  },
-  {
-    "word": "fohu",
-    "english_equiv": "Afternoon",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the late part of the day, typically from the midpoint of the day until sunset."
-  },
-  {
-    "word": "semu",
-    "english_equiv": "Meaning",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the semantic intent, logical significance, or intended message behind a word, action, or concept."
-  },
-  {
-    "word": "liru",
-    "english_equiv": "Direction",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the abstract spatial orientation, line, or course along which an entity moves, points, or faces."
-  },
-  {
-    "word": "pozmu",
-    "english_equiv": "Dream / Imagine",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the abstract sequence of images, ideas, emotions, and sensations that occur involuntarily in the mind during sleep."
-  },
-  {
-    "word": "aziku",
-    "english_equiv": "Rule",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to an abstract constraint, principle, or guideline governing conduct or action.",
-    "usage_note": "Distinct from iku, a strictly enforced formal law."
-  },
-  {
-    "word": "ivanu",
-    "english_equiv": "North",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the primary cardinal direction corresponding to the earth's northern magnetic pole or the upward orientation on a standard map."
-  },
-  {
-    "word": "ivortu",
-    "english_equiv": "South",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the cardinal direction directly opposite to the north."
-  },
-  {
-    "word": "ostu",
-    "english_equiv": "East",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the cardinal direction corresponding to the point where the sun rises, oriented to the right when facing north."
-  },
-  {
-    "word": "osaju",
-    "english_equiv": "West",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the cardinal direction corresponding to the point where the sun sets, oriented to the left when facing north."
-  },
-  {
-    "word": "okezu",
-    "english_equiv": "Lie / Falsehood",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract statement deliberately intended to deceive or misrepresent reality."
-  },
-  {
-    "word": "ladu",
-    "english_equiv": "Idea",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A single, newly formed thought, inspiration, or concept in the mind."
-  },
-  {
-    "word": "keamu",
-    "english_equiv": "Topic / Matter",
-    "part_of_speech": "Abstract Noun",
-    "definition": "This refers to the specific subject, theme, or abstract concept being actively discussed, processed, or considered."
-  },
-  {
-    "word": "socu",
-    "english_equiv": "Society",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract structural system of human relationships, institutions, and shared culture existing together within a broad population. (Broader than canpu [Community], which implies a closer shared identity or local group)."
-  },
-  {
-    "word": "biznu",
-    "english_equiv": "Company / Enterprise / Business",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A conceptual human organization or structural enterprise legally engaged in commercial, industrial, or professional activities.",
-    "usage_note": "Distinct from the physical retail building xyro (store) and the broader systemic concept afymu (economy)."
-  },
-  {
-    "word": "relxu",
-    "english_equiv": "Relation / Relationship / Ties",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual connection, tie, or ongoing association between two or more entities, concepts, or people."
-  },
-  {
-    "word": "potu",
-    "english_equiv": "Dot / Point",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A conceptual point, a specific item/node on a list, or an abstract degree. (If you are referring to a physical, drawn dot on a piece of paper with ink, you would derive it into the concrete noun potuo)."
-  },
-  {
-    "word": "govnu",
-    "english_equiv": "Government",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract structural system, group of people, or institution that officially controls and makes decisions for a country, state, or organized community."
-  },
-  {
-    "word": "luvwitu",
-    "english_equiv": "University / Higher Education / College",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A high-level conceptual institution of advanced academic learning, research, and degree qualification."
-  },
-  {
-    "word": "maobu",
-    "english_equiv": "Emotional Core",
-    "part_of_speech": "Abstract Noun",
-    "definition": "he abstract conceptual center of a person, often associated with deep intuition, morality, or emotional truth. (This is the conceptual understanding of the heart)."
-  },
-  {
-    "word": "adihu",
-    "english_equiv": "Consciousness / Awareness",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract state of being awake, perceiving reality, and having a subjective, self-aware experience."
-  },
-  {
-    "word": "atilu",
-    "english_equiv": "Belief / Conviction",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A firmly held abstract understanding, principle, or conceptual truth that a person accepts as real, even without absolute physical proof.",
-    "usage_note": "Its verb derivation atilui ('to believe') carries conviction. Contrast dagibi (assume — accept without evidence as a working basis) and skaxebi (suspect — partial evidence)."
-  },
-  {
-    "word": "zalmu",
-    "english_equiv": "Politics / Governance",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract activities, affairs, and systemic processes associated with making decisions within groups, particularly regarding the distribution of power and resources in a government (govnu)."
-  },
-  {
-    "word": "mantu",
-    "english_equiv": "Amount / Quantity",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The conceptual measurement, total volume, or numerical value of an entity or resource. (This is the noun form you would use to say The amount of water is high, where as wug is the grammar word used to ask What amount? / How much?)."
-  },
-  {
-    "word": "paxu",
-    "english_equiv": "Pleasure / Enjoyment / Fun",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract sensory or conceptual experience of profound positive enjoyment, satisfaction, or physical gratification."
-  },
-  {
-    "word": "woru",
-    "english_equiv": "Area / Region / District",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A defined conceptual, political, or geographic division of space, land, or territory.",
-    "usage_note": "Distinct from the physical dirt/ground itself, zaso."
-  },
-  {
-    "word": "getsu",
-    "english_equiv": "eriod of time / Phase",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A specific, bounded segment or duration of time with a clear beginning and end. (This is how you isolate a period from the absolute, universal variable of Time [dionu])."
-  },
-  {
-    "word": "xowu",
-    "english_equiv": "Show / Performance",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An organized cultural, artistic, or demonstrative event presented specifically for an audience to observe."
-  },
-  {
-    "word": "kompu",
-    "english_equiv": "Match / Competition (Sporting Event)",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An organized, time-bound contest or game between entities aiming to establish superiority or win based on a strict set of rules."
-  },
-  {
-    "word": "fawanu",
-    "english_equiv": "Technology",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract concept, discipline, or application of scientific knowledge, techniques, and systems for practical purposes."
-  },
-  {
-    "word": "caqu",
-    "english_equiv": "Tactic / Strategic Move / Trick",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract conceptual step, planned maneuver, or clever method executed to gain an advantage or achieve a specific goal within a system or game."
-  },
-  {
-    "word": "valu",
-    "english_equiv": "Opportunity / Chance",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract set of circumstances or a specific moment in time that makes it possible to do something favorable."
-  },
-  {
-    "word": "vexu",
-    "english_equiv": "Weather",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract conceptual state and overarching condition of the atmosphere at a specific place and time."
-  },
-  {
-    "word": "synaru",
-    "english_equiv": "Condition / Prerequisite / requirement",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract requirement, prerequisite, or stipulation that must be met."
-  },
-  {
-    "word": "nybu",
-    "english_equiv": "Content / Substance",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract information, meaning, or subject matter contained within a document, speech, or medium."
-  },
-  {
-    "word": "parawu",
-    "english_equiv": "Tradition / Custom",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract systemic belief, behavior, or cultural practice passed down continuously through generations."
-  },
-  {
-    "word": "stramu",
-    "english_equiv": "Team / Squad",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract social grouping of individuals assembled specifically for cooperative work, a sport, or a shared task."
-  },
-  {
-    "word": "eguvu",
-    "english_equiv": "Level / Standard / Rank",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract conceptual measurement of achievement, quality, or relative position on a vertical or hierarchical scale."
-  },
-  {
-    "word": "vivu",
-    "english_equiv": "Evening",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract period of time at the end of the day, strictly occurring between late afternoon (fohu) and full night (dugu)."
-  },
-  {
-    "word": "oxahu",
-    "english_equiv": "Project",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract conceptual plan of organized work, an enterprise, or a specific targeted undertaking."
-  },
-  {
-    "word": "lisibu",
-    "english_equiv": "Career / Cause / Major Undertaking",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract conceptual pursuit, a lifelong professional path, or a major dedicated undertaking.",
-    "usage_note": "Distinct from jobu, a standard day-to-day job."
-  },
-  {
-    "word": "decu",
-    "english_equiv": "Attitude / Demeanor / Opinion",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract psychological stance, settled way of thinking, or behavioral disposition toward a specific entity or situation."
-  },
-  {
-    "word": "orku",
-    "english_equiv": "Score / Mark / Points",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract numerical quantity or value assigned to represent achievement, performance, or a result in a test or game."
-  },
-  {
-    "word": "reaku",
-    "english_equiv": "Theory",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract conceptual framework or system of ideas intended to explain a specific phenomenon or justify a practice."
-  },
-  {
-    "word": "perinatu",
-    "english_equiv": "Revolution",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A massive, abstract conceptual paradigm shift, or the forcible systemic overthrow of a government (govnu) or social order."
-  },
-  {
-    "word": "glanu",
-    "english_equiv": "Sex / Gender (Category)",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract demographic category or conceptual classification of a biological entity's sex or gender identity."
-  },
-  {
-    "word": "deqazu",
-    "english_equiv": "Department / Faculty / Branch",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract conceptual division, academic faculty, or specialized branch within a larger institutional or corporate system."
-  },
-  {
-    "word": "toxu",
-    "english_equiv": "Psychology / Mentality",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract study, concept, or collective state of the mind and its cognitive processes."
-  },
-  {
-    "word": "adrebu",
-    "english_equiv": "Degree",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Extent, Used when referring to the how much of an abstract concept (e.g., The extent of the problem)."
-  },
-  {
-    "word": "vofu",
-    "english_equiv": "Spring",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The season of renewal following winter, characterised by warming temperatures, lengthening days, and the growth of new vegetation."
-  },
-  {
-    "word": "kynu",
-    "english_equiv": "Summer",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The warmest season of the year, characterised by long days, high temperatures, and peak sunlight."
-  },
-  {
-    "word": "zosu",
-    "english_equiv": "Autumn / Fall",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The season between summer and winter, characterised by cooling temperatures, shortening days, and the shedding of leaves."
-  },
-  {
-    "word": "tusu",
-    "english_equiv": "Winter",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The coldest season of the year, characterised by short days, low temperatures, and dormant vegetation."
-  },
-  {
-    "word": "bimedu",
-    "english_equiv": "Monday",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Monday; the first day of the week. Derived by compounding bime (one) and du (day)."
-  },
-  {
-    "word": "dewedu",
-    "english_equiv": "Tuesday",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Tuesday; the second day of the week. Derived by compounding dewe (two) and du (day)."
-  },
-  {
-    "word": "tafedu",
-    "english_equiv": "Wednesday",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Wednesday; the third day of the week. Derived by compounding tafe (three) and du (day)."
-  },
-  {
-    "word": "glokedu",
-    "english_equiv": "Thursday",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Thursday; the fourth day of the week. Derived by compounding gloke (four) and du (day)."
-  },
-  {
-    "word": "rajedu",
-    "english_equiv": "Friday",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Friday; the fifth day of the week. Derived by compounding raje (five) and du (day)."
-  },
-  {
-    "word": "sluqedu",
-    "english_equiv": "Saturday",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Saturday; the sixth day of the week. Derived by compounding sluqe (six) and du (day)."
-  },
-  {
-    "word": "retedu",
-    "english_equiv": "Sunday",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Sunday; the seventh day of the week. Derived by compounding rete (seven) and du (day)."
-  },
-  {
-    "word": "uyzu",
-    "english_equiv": "Justice",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract principle of moral rightness, equity, fairness, and the administration of law."
-  },
-  {
-    "word": "uxku",
-    "english_equiv": "Success",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract accomplishment of an aim, purpose, or favorable outcome."
-  },
-  {
-    "word": "iubu",
-    "english_equiv": "Failure",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The state or condition of not meeting a desirable goal or standard; the lack of success."
-  },
-  {
-    "word": "hyqu",
-    "english_equiv": "Wisdom",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The quality of having experience, knowledge, good judgment, and deep understanding of life."
-  },
-  {
-    "word": "pyju",
-    "english_equiv": "Chaos / Disorder",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A state of complete confusion, lack of order, or randomness."
-  },
-  {
-    "word": "agcu",
-    "english_equiv": "Mistake / Error",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An action, decision, or judgment that is incorrect, misguided, or wrong."
-  },
-  {
-    "word": "xucu",
-    "english_equiv": "Voice",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The distinct sound produced by a person's vocal cords, used in speaking, singing, or communicating."
-  },
-  {
-    "word": "kewu",
-    "english_equiv": "Luck / Fortune",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Success or failure apparently brought by chance rather than one's own actions."
-  },
-  {
-    "word": "taju",
-    "english_equiv": "Envy / Jealousy",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A feeling of discontented or resentful longing aroused by someone else's possessions, qualities, or luck."
-  },
-  {
-    "word": "jyhu",
-    "english_equiv": "Destiny / Fate",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The events that will necessarily happen to a particular person or thing in the future, often pre-determined."
-  },
-  {
-    "word": "uqu",
-    "english_equiv": "Sign / Symbol",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An abstract mark, gesture, or object that represents an idea, sound, word, or command."
-  },
-  {
-    "word": "ultu",
-    "english_equiv": "Context",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The circumstances, background, or setting that form the environment for an event, statement, or idea."
-  },
-  {
-    "word": "vywu",
-    "english_equiv": "Rhythm / Beat",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A strong, regular, repeated pattern of movement or sound."
-  },
-  {
-    "word": "idvu",
-    "english_equiv": "Mystery / Secret",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Something that is difficult or impossible to understand, explain, or uncover."
-  },
-  {
-    "word": "azmu",
-    "english_equiv": "Sympathy / Compassion",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Feelings of pity, sorrow, or shared concern for someone else's misfortune or pain."
-  },
-  {
-    "word": "imsu",
-    "english_equiv": "Standard / Criterion",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A level of quality or attainment, or a rule/principle by which something is judged."
-  },
-  {
-    "word": "oycu",
-    "english_equiv": "Debt",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An obligation to pay or do something, typically financial, owed to another entity."
-  },
-  {
-    "word": "uibu",
-    "english_equiv": "Risk",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A situation involving exposure to danger, harm, or loss."
-  },
-  {
-    "word": "evmu",
-    "english_equiv": "Accident",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An event that happens unexpectedly and unintentionally, typically resulting in damage or injury."
-  },
-  {
-    "word": "urfu",
-    "english_equiv": "Signal",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A gesture, action, or sound that is used to convey information, instructions, or commands."
-  },
-  {
-    "word": "ugvu",
-    "english_equiv": "Ambition",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A strong desire to do, achieve, or accomplish something great, typically requiring determination."
-  },
-  {
-    "word": "ongu",
-    "english_equiv": "Betrayal",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The act of breaking trust, being disloyal, or working secretly against one's country, group, or a person."
-  },
-  {
-    "word": "puru",
-    "english_equiv": "Curiosity",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A strong desire to know, learn, or investigate something."
-  },
-  {
-    "word": "sysu",
-    "english_equiv": "Boredom",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The state of feeling weary, restless, or uninterested due to lack of activity or stimulation."
-  },
-  {
-    "word": "pizu",
-    "english_equiv": "Guilt",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The fact or state of having committed a specified or implied offense, crime, or moral wrong."
-  },
-  {
-    "word": "ofxu",
-    "english_equiv": "Shame",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A painful feeling of humiliation, distress, or dishonor caused by consciousness of wrong behavior."
-  },
-  {
-    "word": "ouzu",
-    "english_equiv": "Mercy",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Compassion, pity, or forgiveness shown toward someone whom it is within one's power to punish or harm."
-  },
-  {
-    "word": "ednu",
-    "english_equiv": "Faith / Religion",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Strong belief, trust, or conviction in a doctrine, system, or divine creator."
-  },
-  {
-    "word": "jeju",
-    "english_equiv": "Glory",
-    "part_of_speech": "Abstract Noun",
-    "definition": "High renown, honor, or praise won by notable achievements or majestic beauty."
-  },
-  {
-    "word": "xixu",
-    "english_equiv": "Humor / Joke",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The quality of being amusing, comic, or funny, especially as expressed in speech or action."
-  },
-  {
-    "word": "efzu",
-    "english_equiv": "Harmony",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The state of agreement, concord, peaceful cooperation, or pleasing musical notes sounded together."
-  },
-  {
-    "word": "ufnu",
-    "english_equiv": "Conflict",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A serious disagreement, argument, or clash between opposing forces, ideas, or entities."
-  },
-  {
-    "word": "novu",
-    "english_equiv": "Conspiracy",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A secret plan by a group of people to do something unlawful, harmful, or deceitful."
-  },
-  {
-    "word": "axvu",
-    "english_equiv": "Alliance",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A union or association formed for mutual benefit, especially between groups, factions, or countries."
-  },
-  {
-    "word": "haku",
-    "english_equiv": "Nostalgia / Homesickness",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A sentimental longing or wistful affection for a period or place in the past.",
-    "usage_note": "Past- and place-directed. For longing toward a present but absent person or place, use fycisi (to miss)."
-  },
-  {
-    "word": "fipu",
-    "english_equiv": "Software",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract programs, operational logic, and code information used by a computer system.",
-    "usage_note": "Distinct from the physical hardware."
-  },
-  {
-    "word": "pleycu",
-    "english_equiv": "Congratulations / Praise",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An expression of praise for an achievement or good wishes on a special occasion."
-  },
-  {
-    "word": "briku",
-    "english_equiv": "Regret",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A feeling of sadness, repentance, or disappointment over something that has happened or been done."
-  },
-  {
-    "word": "ukwolu",
-    "english_equiv": "Embarrassment",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A feeling of self-consciousness, shame, or awkwardness."
-  },
-  {
-    "word": "guipsu",
-    "english_equiv": "Pride",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A feeling of deep pleasure or satisfaction derived from one's own achievements, qualities, or possessions."
-  },
-  {
-    "word": "ixuyju",
-    "english_equiv": "Awe / Wonder",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A feeling of reverential respect mixed with fear or wonder."
-  },
-  {
-    "word": "xufuku",
-    "english_equiv": "Gratitude / Thankfulness",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The abstract feeling of being thankful and showing appreciation."
-  },
-  {
-    "word": "neuqu",
-    "english_equiv": "Disgust",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A feeling of revulsion or profound disapproval aroused by something unpleasant or offensive."
-  },
-  {
-    "word": "cacodu",
-    "english_equiv": "Diagnosis",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The identification of the nature of an illness or other problem by examination of the symptoms."
-  },
-  {
-    "word": "javuqu",
-    "english_equiv": "Infection / Contagion",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The process of infecting or the state of being infected by a disease-causing organism."
-  },
-  {
-    "word": "jokuwu",
-    "english_equiv": "Vote / Election",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A formal expression of choice or preference in an election or group decision."
-  },
-  {
-    "word": "xepytu",
-    "english_equiv": "Right / Entitlement",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A moral or legal entitlement to have or obtain something, or to act in a certain way without interference."
-  },
-  {
-    "word": "ywurdu",
-    "english_equiv": "Crime / Offense",
-    "part_of_speech": "Abstract Noun",
-    "definition": "An action or omission that constitutes a severe offense punishable by law."
-  },
-  {
-    "word": "extanu",
-    "english_equiv": "Lesson / Lecture",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A period of learning or teaching; a structured block of educational instruction."
-  },
-  {
-    "word": "hykuxu",
-    "english_equiv": "Exam / Test",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A formal assessment of a person's knowledge, proficiency, or skills in a particular subject."
-  },
-  {
-    "word": "lozuxu",
-    "english_equiv": "Song / Melody",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A short metrical composition intended or adapted for singing; a distinct piece of music."
-  },
-  {
-    "word": "cemu",
-    "english_equiv": "Thing",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A universal substantive used to refer to any abstract entity, concept, idea, or matter of discussion."
-  },
-  {
-    "word": "boke",
-    "english_equiv": "Bad.",
-    "part_of_speech": "Modifier",
-    "definition": "Regarded as subjectively negative or unfavorable."
-  },
-  {
-    "word": "fafe",
-    "english_equiv": "Important.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something of great significance, value, or consequence."
-  },
-  {
-    "word": "fe",
-    "english_equiv": "Very",
-    "part_of_speech": "Modifier",
-    "definition": "Definition: Intensifier used to emphasize degree."
-  },
-  {
-    "word": "ugte",
-    "english_equiv": "Barely / Scarcely",
-    "part_of_speech": "Modifier",
-    "definition": "A relative degree modifier indicating the lowest perceptible amount of a trait, state, or action; almost not at all."
-  },
-  {
-    "word": "beje",
-    "english_equiv": "Slightly / A little",
-    "part_of_speech": "Modifier",
-    "definition": "A relative degree modifier indicating a small, minor, or low amount of a trait, state, or action."
-  },
-  {
-    "word": "ynse",
-    "english_equiv": "Somewhat / Moderately",
-    "part_of_speech": "Modifier",
-    "definition": "A relative degree modifier indicating a medium, average, or partial amount of a trait, state, or action."
+    "word": "hufribi",
+    "english_equiv": "Flip / Invert",
+    "part_of_speech": "Verb",
+    "definition": "To turn something over or reverse its orientation, order, or arrangement."
   },
   {
     "word": "huhe",
@@ -3691,939 +2756,28 @@ const dictionaryData = [
     "definition": "A relative degree modifier indicating the highest subjective amount of a trait, state, or action; remarkably intense."
   },
   {
-    "word": "hobe",
-    "english_equiv": "Young.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something that has existed for a short time, often characterizing an early stage of life, growth, or development."
+    "word": "huji",
+    "english_equiv": "Hang",
+    "part_of_speech": "Verb",
+    "definition": "To attach, suspend, or be attached at the top so that the lower part is free."
   },
   {
-    "word": "jabe",
-    "english_equiv": "Cold.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something of or at a low or relatively low temperature."
+    "word": "hulka",
+    "english_equiv": "Llama.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A domesticated pack animal related to the camel, with a long neck and woolly coat."
   },
   {
-    "word": "jaxke",
-    "english_equiv": "New.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something produced, introduced, or discovered recently or now for the first time."
+    "word": "hupu",
+    "english_equiv": "Center / Middle.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the point that is equally distant from every part of the circumference or ends of something."
   },
   {
-    "word": "joze",
-    "english_equiv": "Long.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something measuring a great distance from end to end."
-  },
-  {
-    "word": "je",
-    "english_equiv": "Plural Marker / -s",
-    "part_of_speech": "Modifier",
-    "definition": "A strict grammatical marker indicating plurality (strictly more than one of an entity). It acts purely as a mathematical multiplier (>1) to pluralize a noun, carrying no subjective weight regarding how large the group actually is."
-  },
-  {
-    "word": "jeme",
-    "english_equiv": "Most.",
-    "part_of_speech": "Modifier",
-    "definition": "The greatest quantity/quality compared to something else."
-  },
-  {
-    "word": "jete",
-    "english_equiv": "More.",
-    "part_of_speech": "Modifier",
-    "definition": "An increase compared to something else."
-  },
-  {
-    "word": "xyge",
-    "english_equiv": "Thin.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something with a small distance between opposite surfaces."
-  },
-  {
-    "word": "juce",
-    "english_equiv": "Heavy.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something of great weight or difficult to lift."
-  },
-  {
-    "word": "jotse",
-    "english_equiv": "Clean.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something free from dirt, marks, or stains."
-  },
-  {
-    "word": "juwe",
-    "english_equiv": "Only / Just.",
-    "part_of_speech": "Modifier",
-    "definition": "This word limits something to a single person, thing, or amount, explicitly excluding anything else."
-  },
-  {
-    "word": "kame",
-    "english_equiv": "Salty.",
-    "part_of_speech": "Modifier",
-    "definition": "This describes the taste sensation characteristic of sodium chloride (salt)."
-  },
-  {
-    "word": "kype",
-    "english_equiv": "Happy.",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a state of feeling or showing pleasure."
-  },
-  {
-    "word": "koxe",
-    "english_equiv": "Bitter.",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a sharp, pungent taste sensation, often perceived as unpleasant, found in things like dark chocolate, coffee, or certain alkaloids."
-  },
-  {
-    "word": "labne",
-    "english_equiv": "Same.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something identical or not different."
-  },
-  {
-    "word": "lande",
-    "english_equiv": "Small / Little",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something of limited size or extent."
-  },
-  {
-    "word": "late",
-    "english_equiv": "All",
-    "part_of_speech": "Modifier",
-    "definition": "This word refers to the whole quantity or extent of a particular group or thing."
-  },
-  {
-    "word": "lefe",
-    "english_equiv": "Hard.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something solid, firm, and resistant to pressure."
-  },
-  {
-    "word": "letse",
-    "english_equiv": "Dirty.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something covered or marked with an unclean substance."
-  },
-  {
-    "word": "leupe",
-    "english_equiv": "Red.",
-    "part_of_speech": "Modifier",
-    "definition": "Exhibiting the color of blood or fire."
-  },
-  {
-    "word": "lixe",
-    "english_equiv": "Wet.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something covered or saturated with water or another liquid."
-  },
-  {
-    "word": "lyse",
-    "english_equiv": "Right.",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the direction or side towards the east when facing north; opposite to left."
-  },
-  {
-    "word": "loage",
-    "english_equiv": "Blue.",
-    "part_of_speech": "Modifier",
-    "definition": "Exhibiting the color of the clear sky."
-  },
-  {
-    "word": "luare",
-    "english_equiv": "Green.",
-    "part_of_speech": "Modifier",
-    "definition": "Exhibiting the color of growing grass."
-  },
-  {
-    "word": "locwe",
-    "english_equiv": "White / Light.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes the color of fresh snow or milk, reflecting all visible rays of light."
-  },
-  {
-    "word": "luge",
-    "english_equiv": "Able.",
-    "part_of_speech": "Modifier",
-    "definition": "This describes having the power, skill, means, or opportunity to do something."
-  },
-  {
-    "word": "lome",
-    "english_equiv": "Narrow.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something of small width in relation to length."
-  },
-  {
-    "word": "lope",
-    "english_equiv": "Blunt / Dull.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something lacking a sharp edge or point."
-  },
-  {
-    "word": "cape",
-    "english_equiv": "Black / Dark.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes the very darkest color, resulting from the absence or complete absorption of light."
-  },
-  {
-    "word": "loske",
-    "english_equiv": "Yellow.",
-    "part_of_speech": "Modifier",
-    "definition": "Exhibiting the color of a lemon or gold."
-  },
-  {
-    "word": "nufe",
-    "english_equiv": "Empty.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something containing nothing or having no occupants."
-  },
-  {
-    "word": "ase",
-    "english_equiv": "Female.",
-    "part_of_speech": "Modifier",
-    "definition": "Pertaining to the biological sex that typically produces the larger gametes (ova), or relating to feminine characteristics."
-  },
-  {
-    "word": "aqe",
-    "english_equiv": "Male.",
-    "part_of_speech": "Modifier",
-    "definition": "Pertaining to the biological sex that typically produces the mobile gametes (sperm), or relating to masculine characteristics."
-  },
-  {
-    "word": "pate",
-    "english_equiv": "Umami / Savory.",
-    "part_of_speech": "Modifier",
-    "definition": "This describes the savory or meaty taste sensation, characteristic of broths and cooked meats."
-  },
-  {
-    "word": "pise",
-    "english_equiv": "Sour.",
-    "part_of_speech": "Modifier",
-    "definition": "This describes the taste sensation characteristic of acids, like lemon juice or vinegar."
-  },
-  {
-    "word": "ripe",
-    "english_equiv": "Hot.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something having a high degree of heat or a high temperature."
-  },
-  {
-    "word": "tande",
-    "english_equiv": "Big / Large / Great",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something of considerable size, extent, or capacity."
-  },
-  {
-    "word": "dote",
-    "english_equiv": "Strong.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something having the power to move heavy weights or perform other physically demanding tasks."
-  },
-  {
-    "word": "roase",
-    "english_equiv": "Slow.",
-    "part_of_speech": "Modifier",
-    "definition": "Moving, operating, or occurring at a low speed."
-  },
-  {
-    "word": "ramde",
-    "english_equiv": "Different.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something not the same as another or each other."
-  },
-  {
-    "word": "rute",
-    "english_equiv": "Sharp.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something having an edge or point that is able to cut or pierce."
-  },
-  {
-    "word": "ratse",
-    "english_equiv": "Dangerous.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something able or likely to cause harm or injury."
-  },
-  {
-    "word": "ahze",
-    "english_equiv": "Almost / Nearly.",
-    "part_of_speech": "Modifier",
-    "definition": "This word indicates that something is very close to a specific state, quantity, or degree, but is not completely there yet."
-  },
-  {
-    "word": "gize",
-    "english_equiv": "Full.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something containing or holding as much or as many as possible."
-  },
-  {
-    "word": "rodle",
-    "english_equiv": "True.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something that is in accordance with fact or reality."
-  },
-  {
-    "word": "rowe",
-    "english_equiv": "Wide / Broad.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something having a great or specified extent from side to side."
-  },
-  {
-    "word": "rudse",
-    "english_equiv": "Rough.",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a surface that is uneven or irregular, often coarse or not smooth to the touch."
-  },
-  {
-    "word": "ruze",
-    "english_equiv": "Fast / Quick.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something moving or capable of moving at high speed."
-  },
-  {
-    "word": "toce",
-    "english_equiv": "Sorry / Pardon / Apology.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes a state of feeling regret or penitence for an action.",
-    "usage_note": "Apology only — the sense of 'sorry' for one's own wrong action. For the sympathy sense of English 'sorry' (regret at another's misfortune, having caused nothing), use azmu or the phatic ov. See How to say that."
-  },
-  {
-    "word": "tute",
-    "english_equiv": "Sweet.",
-    "part_of_speech": "Modifier",
-    "definition": "This describes the taste sensation characteristic of sugars.",
-    "usage_note": "Distinct from the other basic tastes: sour, salty, or bitter."
-  },
-  {
-    "word": "wage",
-    "english_equiv": "Soft.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something easy to mold, cut, compress, or fold."
-  },
-  {
-    "word": "wane",
-    "english_equiv": "Left.",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the direction or side towards the west when facing north; the side of the body which contains the heart in most humans."
-  },
-  {
-    "word": "wapse",
-    "english_equiv": "Flat.",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a surface that is level and smooth, with no raised areas or indentations."
-  },
-  {
-    "word": "wose",
-    "english_equiv": "Short.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something measuring a small distance from end to end."
-  },
-  {
-    "word": "waske",
-    "english_equiv": "Old.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something that has existed for a long time."
-  },
-  {
-    "word": "weoke",
-    "english_equiv": "Round.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes a shape that is circular, spherical, or cylindrical; having a curved surface with no sharp corners."
-  },
-  {
-    "word": "wece",
-    "english_equiv": "Well (Satisfactory).",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something as subjectively being satisfactory, correct, or proper."
-  },
-  {
-    "word": "ene",
-    "english_equiv": "Light (Weight).",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something of little weight or easy to lift."
-  },
-  {
-    "word": "wyde",
-    "english_equiv": "Safe.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something protected from or not exposed to danger or risk."
-  },
-  {
-    "word": "waze",
-    "english_equiv": "Weak.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something lacking the power to perform physically demanding tasks."
-  },
-  {
-    "word": "cohe",
-    "english_equiv": "Few / Little.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes a small number or amount of something."
-  },
-  {
-    "word": "wuke",
-    "english_equiv": "Dry.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something free from moisture or liquid."
-  },
-  {
-    "word": "goqe",
-    "english_equiv": "Thick.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something with a large distance between opposite surfaces."
-  },
-  {
-    "word": "gawe",
-    "english_equiv": "Good.",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something regarded as positive or favorable based on individual opinion."
-  },
-  {
-    "word": "gyke",
-    "english_equiv": "Weird / Strange / Crazy",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something unusual, surprising, or not belonging to the current environment or context."
-  },
-  {
-    "word": "raje",
-    "english_equiv": "Five",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number equivalent to the sum of four and one."
-  },
-  {
-    "word": "sluqe",
-    "english_equiv": "Six.",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number equivalent to the product of two and three."
-  },
-  {
-    "word": "rete",
-    "english_equiv": "Seven.",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number equivalent to the sum of six and one."
-  },
-  {
-    "word": "sile",
-    "english_equiv": "This / These (Proximal Modifier)",
-    "part_of_speech": "Modifier",
-    "definition": "This word identifies a specific physical or conceptual noun that is physically close to the speaker, or currently present in the immediate environment. It must follow the noun it modifies."
-  },
-  {
-    "word": "tane",
-    "english_equiv": "That / Those (Distal Modifier)",
-    "part_of_speech": "Modifier",
-    "definition": "This word identifies a specific physical or conceptual noun that is physically distant from the speaker, or removed from the immediate environment. It must follow the noun it modifies."
-  },
-  {
-    "word": "kase",
-    "english_equiv": "(Any / Whichever)",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something as being of free choice, where the specific identity does not matter."
-  },
-  {
-    "word": "mace",
-    "english_equiv": "(Possible / Might / Maybe)",
-    "part_of_speech": "Modifier",
-    "definition": "Possible, but not logically or physically guaranteed."
-  },
-  {
-    "word": "sube",
-    "english_equiv": "(Probable / Likely)",
-    "part_of_speech": "Modifier",
-    "definition": "Highly probable or likely to happen."
-  },
-  {
-    "word": "dide",
-    "english_equiv": "(Certain / Definitely) / Sure",
-    "part_of_speech": "Modifier",
-    "definition": "Mathematically or logically guaranteed to happen."
-  },
-  {
-    "word": "bife",
-    "english_equiv": "(Allowed / Permitted)",
-    "part_of_speech": "Modifier",
-    "definition": "Explicitly permitted or allowed."
-  },
-  {
-    "word": "arife",
-    "english_equiv": "(Should / Recommended)",
-    "part_of_speech": "Modifier",
-    "definition": "Highly recommended, socially expected, or logically advisable, but not strictly obligatory."
-  },
-  {
-    "word": "fuqe",
-    "english_equiv": "(Must / Necessary)",
-    "part_of_speech": "Modifier",
-    "definition": "Strictly required, necessary, or obligatory."
-  },
-  {
-    "word": "xare",
-    "english_equiv": "Clear",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something that is easy to perceive, understand, or see through without physical obstruction or logical ambiguity."
-  },
-  {
-    "word": "amute",
-    "english_equiv": "Early",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes an event or state happening before the usual, expected, or planned time."
-  },
-  {
-    "word": "anote",
-    "english_equiv": "Late",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes an event or state happening after the usual, expected, or planned time."
-  },
-  {
-    "word": "locale",
-    "english_equiv": "Local",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something strictly belonging or relating to a particular, confined area or neighborhood, rather than a broad region."
-  },
-  {
-    "word": "frame",
-    "english_equiv": "Free",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something that is not under the physical control of another, not restricted, or provided without mathematical/monetary cost."
-  },
-  {
-    "word": "gepe",
-    "english_equiv": "General",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something that affects or concerns all or most things in a group; broad and not restricted to a specific target."
-  },
-  {
-    "word": "espe",
-    "english_equiv": "Specific",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something clearly defined, explicitly identified, or restricted to a singular, particular individual or situation."
-  },
-  {
-    "word": "uzume",
-    "english_equiv": "Enough",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes a quantity or degree that is mathematically sufficient or adequate to satisfy a baseline need or demand."
-  },
-  {
-    "word": "iale",
-    "english_equiv": "Special",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something that is intentionally set apart or different from what is usual or standard."
-  },
-  {
-    "word": "muile",
-    "english_equiv": "Difficult",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes an action or concept requiring significant effort, skill, or time to accomplish or understand."
-  },
-  {
-    "word": "naile",
-    "english_equiv": "Easy",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes an action or concept achieved without great effort; presenting zero or very few obstacles."
-  },
-  {
-    "word": "itse",
-    "english_equiv": "Single / Alone",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes an individual entity strictly separated from others, consisting of exactly one part."
-  },
-  {
-    "word": "cunte",
-    "english_equiv": "Current",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes a state or object belonging strictly to the present timeframe; happening or being actively used right now."
-  },
-  {
-    "word": "okse",
-    "english_equiv": "Wrong",
-    "part_of_speech": "Modifier",
-    "definition": "Logically incorrect or factually inaccurate."
-  },
-  {
-    "word": "fine",
-    "english_equiv": "Fine/ delicate",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something of high precision, delicate physical quality, or consisting of very small particles.",
-    "usage_note": "Distinct from wece, which is merely satisfactory."
-  },
-  {
-    "word": "compe",
-    "english_equiv": "Common / Popular",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something occurring, found, or done frequently; highly prevalent in the environment."
-  },
-  {
-    "word": "pobre",
-    "english_equiv": "Poor",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes an entity lacking sufficient resources, wealth, or structural quality to maintain a comfortable baseline."
-  },
-  {
-    "word": "rinte",
-    "english_equiv": "Rich",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes an entity possessing a great deal of money, assets, or an abundant supply of resources."
-  },
-  {
-    "word": "narale",
-    "english_equiv": "Natural",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something existing in or caused by biology or the physical universe; not manufactured by human or artificial intervention."
-  },
-  {
-    "word": "ibane",
-    "english_equiv": "Significant",
-    "part_of_speech": "Modifier",
-    "definition": "Having a major, measurable effect or noticeable physical/logical impact."
-  },
-  {
-    "word": "roqte",
-    "english_equiv": "Serious",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes a state demanding careful consideration or strict application; not joking or trifling."
-  },
-  {
-    "word": "cutwe",
-    "english_equiv": "Ready",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes an entity in a fully prepared and suitable state to immediately begin an action or activity."
-  },
-  {
-    "word": "kabce",
-    "english_equiv": "Simple",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes something possessing an uncomplicated structure; fundamentally basic with few moving parts."
-  },
-  {
-    "word": "baude",
-    "english_equiv": "Beautiful",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes a state possessing physical or conceptual qualities that give immense, positive aesthetic pleasure to the senses."
-  },
-  {
-    "word": "raure",
-    "english_equiv": "Ugly",
-    "part_of_speech": "Modifier",
-    "definition": "This word describes a state possessing physical or conceptual qualities that are highly unpleasant, dissonant, or aesthetically repulsive."
-  },
-  {
-    "word": "wible",
-    "english_equiv": "(Self / Reflexive)",
-    "part_of_speech": "Modifier",
-    "definition": "Indicates the action reflects back onto the doer, or emphasizes the exact identity of a specific noun/pronoun."
-  },
-  {
-    "word": "wable",
-    "english_equiv": "Mutual / Reciprocal",
-    "part_of_speech": "Modifier",
-    "definition": "Indicates that a plural subject is performing an action upon one another."
-  },
-  {
-    "word": "mike",
-    "english_equiv": "My / Mine",
-    "part_of_speech": "Modifier",
-    "definition": "Strictly belonging to or associated with the speaker."
-  },
-  {
-    "word": "suke",
-    "english_equiv": "your's",
-    "part_of_speech": "Modifier",
-    "definition": "Strictly belonging to or associated with the listener."
-  },
-  {
-    "word": "suve",
-    "english_equiv": "Your / Yours (formal)",
-    "part_of_speech": "Modifier",
-    "definition": "Strictly belonging to or associated with the formal/respected listener (possessive of suv, Rule 35)."
-  },
-  {
-    "word": "rame",
-    "english_equiv": "Its (Inanimate)",
-    "part_of_speech": "Modifier",
-    "definition": "Strictly belonging to or associated with an inanimate object, concept, or machine."
-  },
-  {
-    "word": "dale",
-    "english_equiv": "His / Hers / Its (Animate Neutral)",
-    "part_of_speech": "Modifier",
-    "definition": "Strictly belonging to or associated with a person or animal where gender is unspecified or irrelevant."
-  },
-  {
-    "word": "daqe",
-    "english_equiv": "His (Male)",
-    "part_of_speech": "Modifier",
-    "definition": "Strictly belonging to or associated with a specific male person or animal."
-  },
-  {
-    "word": "dase",
-    "english_equiv": "Hers (Female)",
-    "part_of_speech": "Modifier",
-    "definition": "Strictly belonging to or associated with a specific female person or animal."
-  },
-  {
-    "word": "nake",
-    "english_equiv": "Our / Ours (Exclusive)",
-    "part_of_speech": "Modifier",
-    "definition": "Strictly belonging to or associated with the speaker and others, explicitly excluding the listener."
-  },
-  {
-    "word": "muke",
-    "english_equiv": "Our / Ours (Inclusive)",
-    "part_of_speech": "Modifier",
-    "definition": "Strictly belonging to or associated with the speaker, the listener, and potentially others."
-  },
-  {
-    "word": "tsake",
-    "english_equiv": "Angry",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a strong subjective state of annoyance, displeasure, or furious hostility."
-  },
-  {
-    "word": "goile",
-    "english_equiv": "Sad",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a subjective state of sorrow, unhappiness, or emotional pain."
-  },
-  {
-    "word": "iwe",
-    "english_equiv": "Tired",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a physical or mental state of exhaustion, depleted energy, or a strong need for sleep and rest."
-  },
-  {
-    "word": "babse",
-    "english_equiv": "Hungry",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a biological state of discomfort or weakness caused by a lack of food, coupled with a strong desire to eat."
-  },
-  {
-    "word": "rodipe",
-    "english_equiv": "Thirsty",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a biological state of discomfort caused by a lack of fluids, coupled with a strong desire to drink a liquid."
-  },
-  {
-    "word": "xive",
-    "english_equiv": "Expensive",
-    "part_of_speech": "Modifier",
-    "definition": "This describes something commanding a high monetary price or requiring a large exchange of financial value."
-  },
-  {
-    "word": "puve",
-    "english_equiv": "Cheap",
-    "part_of_speech": "Modifier",
-    "definition": "This describes something commanding a low monetary price or requiring very little exchange of financial value."
-  },
-  {
-    "word": "zave",
-    "english_equiv": "High / Tall",
-    "part_of_speech": "Modifier",
-    "definition": "This describes something having a great vertical extent or measuring a long distance from bottom to top."
-  },
-  {
-    "word": "veke",
-    "english_equiv": "Low / Short (Vertical)",
-    "part_of_speech": "Modifier",
-    "definition": "This describes something having a small vertical extent or measuring a short distance from bottom to top."
-  },
-  {
-    "word": "itole",
-    "english_equiv": "Smart / Intelligent",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity possessing a high mental capacity, sharp intellect, or the ability to process data efficiently."
-  },
-  {
-    "word": "botaxe",
-    "english_equiv": "Stupid / Foolish",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity possessing a low mental capacity, or lacking logic, reasoning, and good judgment."
-  },
-  {
-    "word": "vice",
-    "english_equiv": "Brave / Courageous",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a psychological state of facing danger, pain, or difficult situations despite the presence of fear."
-  },
-  {
-    "word": "foge",
-    "english_equiv": "Comfortable",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a physical or psychological state of ease, relaxation, and pleasant contentment, free from pain or hardship."
-  },
-  {
-    "word": "efade",
-    "english_equiv": "Hardworking",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity consistently applying a high degree of energy, focus, and dedication to a task."
-  },
-  {
-    "word": "gure",
-    "english_equiv": "Lazy",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a state of applying low effort, lacking motivation, or actively avoiding work and exertion."
-  },
-  {
-    "word": "nafike",
-    "english_equiv": "Together / Grouped",
-    "part_of_speech": "Modifier",
-    "definition": "This describes entities existing or acting in conjunction, unity, or close physical/logical association."
-  },
-  {
-    "word": "ciafe",
-    "english_equiv": "Already",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an action or state that has been fully completed or achieved prior to a specific point in time."
-  },
-  {
-    "word": "dupe",
-    "english_equiv": "Deep",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity extending far down from the top surface or having a great internal vertical dimension."
-  },
-  {
-    "word": "gerote",
-    "english_equiv": "Shallow",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity having very little distance from the top surface to the bottom; lacking depth."
-  },
-  {
-    "word": "usate",
-    "english_equiv": "Straight",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity moving continuously in one direction without curving, bending, or deviating structurally."
-  },
-  {
-    "word": "kuate",
-    "english_equiv": "Crooked / Bent",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity that is not straight; structurally forced out of its original linear shape or naturally winding."
-  },
-  {
-    "word": "zode",
-    "english_equiv": "Loud / Noisy",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity or environment producing a high volume of auditory energy or intense sound."
-  },
-  {
-    "word": "kluxe",
-    "english_equiv": "Quiet / Silent",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity or environment producing little to no auditory energy; an absence of sound."
-  },
-  {
-    "word": "vome",
-    "english_equiv": "Less / Fewer",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a mathematically smaller quantity, extent, or degree of something."
-  },
-  {
-    "word": "jedle",
-    "english_equiv": "Many / A lot / Numerous",
-    "part_of_speech": "Modifier",
-    "definition": "his describes a subjectively large quantity, high volume, or great number of a specific entity."
-  },
-  {
-    "word": "peze",
-    "english_equiv": "Later / Subsequently",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an event or action occurring at a subsequent time relative to the current baseline."
-  },
-  {
-    "word": "romve",
-    "english_equiv": "Again / Repeatedly",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an action or state being repeated or occurring another time."
-  },
-  {
-    "word": "slafe",
-    "english_equiv": "Too / Excessively",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a quantity, degree, or state that goes beyond what is mathematically necessary, normal, or desirable. (This acts as the strict quantitative counterpart to uzume [enough] and fe [very], explicitly indicating an excess)."
-  },
-  {
-    "word": "nenoje",
-    "english_equiv": "Blind / Sightless",
-    "part_of_speech": "Modifier",
-    "definition": "Describes a biological entity mathematically lacking the ability to perceive visual data."
-  },
-  {
-    "word": "glece",
-    "english_equiv": "Which (Interrogative)",
-    "part_of_speech": "Modifier",
-    "definition": "An interrogative modifier used to ask for the exact specification or choice between known alternatives (e.g., Which book?)."
-  },
-  {
-    "word": "haibe",
-    "english_equiv": "Still / Yet",
-    "part_of_speech": "Modifier",
-    "definition": "Indicates the continuation of a state or action, confirming that a prior condition has not yet changed, stopped, or resolved."
-  },
-  {
-    "word": "exke",
-    "english_equiv": "Several / A Handful",
-    "part_of_speech": "Modifier",
-    "definition": "An unspecified, small quantitative amount—typically more than two, but not enough to be considered many (jedle)."
-  },
-  {
-    "word": "keane",
-    "english_equiv": "Whole / Entire / Complete",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity that is fully intact, unbroken, and comprising its absolute full extent.",
-    "usage_note": "Distinct from late (all), which calculates the total quantity of a group; keane describes a single thing being 100% complete."
-  },
-  {
-    "word": "abeze",
-    "english_equiv": "So / To that extent / In that way",
-    "part_of_speech": "Modifier",
-    "definition": "A comparative modifier used to indicate that something reaches a specifically referenced degree, extent, or manner (e.g., Why are you so angry?)."
-  },
-  {
-    "word": "ulime",
-    "english_equiv": "Half",
-    "part_of_speech": "Modifier",
-    "definition": "This describes a quantity representing exactly one of two equal parts of a whole (50%).",
-    "usage_note": "Distinct from mide (middle), which refers to a spatial or temporal center."
-  },
-  {
-    "word": "tebe",
-    "english_equiv": "Especially / Particularly",
-    "part_of_speech": "Modifier",
-    "definition": "This describes an entity or state that stands out above all others in a specific context; to a distinctly higher degree than is usual."
-  },
-  {
-    "word": "yfuke",
-    "english_equiv": "Of course / Naturally",
-    "part_of_speech": "Modifier",
-    "definition": "Describes a state, conclusion, or action that is mathematically, logically, or socially obvious, natural, and completely without doubt."
-  },
-  {
-    "word": "cuje",
-    "english_equiv": "Some / An indefinite amount",
-    "part_of_speech": "Modifier",
-    "definition": "Describes an indefinite, non-zero quantity or subset of an entity. Mathematically, it asserts that a quantity exists (strictly greater than zero) but explicitly leaves the exact number undefined, stripping away any subjective judgment of whether it is few or many."
-  },
-  {
-    "word": "otre",
-    "english_equiv": "Other / Alternative",
-    "part_of_speech": "Modifier",
-    "definition": "Describes an entity that is distinct from, different than, or remaining outside the specific entity currently being referenced."
-  },
-  {
-    "word": "ynafe",
-    "english_equiv": "Tasty / Delicious",
-    "part_of_speech": "Modifier",
-    "definition": "Describes a physical substance that produces a highly positive, pleasurable response when processed by the taste receptors."
-  },
-  {
-    "word": "geale",
-    "english_equiv": "Actually / In reality / True / Real",
-    "part_of_speech": "Modifier",
-    "definition": "Describes a state or fact that is objectively real and true, often used to contrast with an expectation, assumption, or falsehood (okseu)."
-  },
-  {
-    "word": "liene",
-    "english_equiv": "Even / Including (as an extreme)",
-    "part_of_speech": "Modifier",
-    "definition": "A modifier used to emphasize that something is surprising, extreme, or an unexpected inclusion, acting structurally to scale the noun or verb it modifies to an unexpected limit."
+    "word": "huqa",
+    "english_equiv": "Shoulder",
+    "part_of_speech": "Biological Noun",
+    "definition": "The joint connecting the arm or forelimb with the torso."
   },
   {
     "word": "hutse",
@@ -4632,130 +2786,22 @@ const dictionaryData = [
     "definition": "Describes an entity or concept that acts as the focal point or most fundamental component of a group or system."
   },
   {
-    "word": "fiske",
-    "english_equiv": "Recently / Just / Recent",
-    "part_of_speech": "Modifier",
-    "definition": "A temporal modifier describing an event or action that occurred in the absolute immediate past relative to the current timeframe."
+    "word": "hyho",
+    "english_equiv": "Scissors",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hand-held cutting tool consisting of a pair of pivoted blades that slide past each other."
   },
   {
-    "word": "anaze",
-    "english_equiv": "Basic / Fundamental / Foundational",
-    "part_of_speech": "Modifier",
-    "definition": "Describes an abstract concept, rule, or structural element that serves as the deep, necessary foundation or core basis from which other things develop."
+    "word": "hykuxu",
+    "english_equiv": "Exam / Test",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A formal assessment of a person's knowledge, proficiency, or skills in a particular subject."
   },
   {
-    "word": "vilde",
-    "english_equiv": "Direct / Unmediated",
-    "part_of_speech": "Modifier",
-    "definition": "Describes an action or entity that proceeds in a straight logical sequence without any interruption, intermediaries, or secondary steps."
-  },
-  {
-    "word": "odaze",
-    "english_equiv": "Sudden / Unexpected",
-    "part_of_speech": "Modifier",
-    "definition": "Describing an event or state that happens incredibly quickly and entirely without warning or expectation."
-  },
-  {
-    "word": "porce",
-    "english_equiv": "Orange",
-    "part_of_speech": "Modifier",
-    "definition": "Exhibiting the color of a ripe orange or the setting sun; a blend of red and yellow."
-  },
-  {
-    "word": "luoke",
-    "english_equiv": "Purple / Violet",
-    "part_of_speech": "Modifier",
-    "definition": "Exhibiting a dark hue blending red and blue, often associated with twilight skies or certain flowers."
-  },
-  {
-    "word": "liame",
-    "english_equiv": "pink",
-    "part_of_speech": "Modifier",
-    "definition": "Exhibiting a pale red color, often resembling the color of a rose or flushed skin."
-  },
-  {
-    "word": "glape",
-    "english_equiv": "Gray / Grey",
-    "part_of_speech": "Modifier",
-    "definition": "Exhibiting an intermediate color between black and white, resembling the color of ash or an overcast sky."
-  },
-  {
-    "word": "krome",
-    "english_equiv": "Brown",
-    "part_of_speech": "Modifier",
-    "definition": "Exhibiting the dark, earthy color of soil, wood, or dead leaves."
-  },
-  {
-    "word": "noze",
-    "english_equiv": "Zero",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the arithmetical symbol denoting the absence of all magnitude or quantity."
-  },
-  {
-    "word": "bime",
-    "english_equiv": "One",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the lowest cardinal number, representing a single unit or entity."
-  },
-  {
-    "word": "dewe",
-    "english_equiv": "Two / Couple",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number that is the sum of one and one."
-  },
-  {
-    "word": "tafe",
-    "english_equiv": "three",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number that is the sum of one and two."
-  },
-  {
-    "word": "gloke",
-    "english_equiv": "four",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number that is the product of two and two."
-  },
-  {
-    "word": "marte",
-    "english_equiv": "Eight",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number equivalent to the product of two and four."
-  },
-  {
-    "word": "zewe",
-    "english_equiv": "Nine",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number equivalent to the product of three and three."
-  },
-  {
-    "word": "lere",
-    "english_equiv": "Ten",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number equivalent to the product of five and two, or one more than nine."
-  },
-  {
-    "word": "drabe",
-    "english_equiv": "One hundred",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number equivalent to ten times ten."
-  },
-  {
-    "word": "egmabe",
-    "english_equiv": "One thousand",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number equivalent to ten times one hundred."
-  },
-  {
-    "word": "hiaruce",
-    "english_equiv": "One million",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number equivalent to one thousand times one thousand."
-  },
-  {
-    "word": "potsuce",
-    "english_equiv": "One billion",
-    "part_of_speech": "Modifier",
-    "definition": "This refers to the cardinal number equivalent to one thousand times one million."
+    "word": "hylsa",
+    "english_equiv": "Lip.",
+    "part_of_speech": "Biological Noun",
+    "definition": "One of the two soft fleshy edges forming the opening of the mouth (ylxa); used in speech and eating."
   },
   {
     "word": "hyme",
@@ -4764,10 +2810,82 @@ const dictionaryData = [
     "definition": "Describes an action, state, or behavior that occurs repeatedly and characteristically over a period of time, forming an established routine or habit rather than a singular event."
   },
   {
-    "word": "onexe",
-    "english_equiv": "Approximately / Around / About (Quantity)",
+    "word": "hyp",
+    "english_equiv": "Hypothetical / Counterfactual",
+    "part_of_speech": "Grammar",
+    "definition": "A pragmatic mood tag placed at the absolute start of a clause to indicate that the following statement is a simulation of a reality that does not exist. It translates the English concepts of \"would\" or \"would have\"."
+  },
+  {
+    "word": "hyqu",
+    "english_equiv": "Wisdom",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality of having experience, knowledge, good judgment, and deep understanding of life."
+  },
+  {
+    "word": "hytre",
+    "english_equiv": "Sleepy",
     "part_of_speech": "Modifier",
-    "definition": "Describes a numerical value, state, or quantity that is close to the referenced benchmark but not exact."
+    "definition": "Feeling tired, fatigued, and ready to fall asleep."
+  },
+  {
+    "word": "iale",
+    "english_equiv": "Special",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something that is intentionally set apart or different from what is usual or standard."
+  },
+  {
+    "word": "ibagi",
+    "english_equiv": "Learn",
+    "part_of_speech": "Verb",
+    "definition": "To acquire new knowledge, skills, or data through abstract study or physical experience."
+  },
+  {
+    "word": "ibalira",
+    "english_equiv": "Teacher / Educator",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a person who gives systematic instruction and provides knowledge."
+  },
+  {
+    "word": "ibalu",
+    "english_equiv": "Education",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual process of receiving or giving systematic instruction and acquiring knowledge."
+  },
+  {
+    "word": "ibane",
+    "english_equiv": "Significant",
+    "part_of_speech": "Modifier",
+    "definition": "Having a major, measurable effect or noticeable physical/logical impact."
+  },
+  {
+    "word": "ibazo",
+    "english_equiv": "School",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This identifies a physical building or structural institution explicitly designed for the teaching and education of students."
+  },
+  {
+    "word": "ibitu",
+    "english_equiv": "Class",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract system of ordering society or categorizing items based on shared conceptual characteristics."
+  },
+  {
+    "word": "ibvi",
+    "english_equiv": "Pour",
+    "part_of_speech": "Verb",
+    "definition": "To flow or cause to flow in a stream from a container."
+  },
+  {
+    "word": "icifo",
+    "english_equiv": "Plate",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A flat, usually circular solid dish from which food is physically served or eaten."
+  },
+  {
+    "word": "idoji",
+    "english_equiv": "Remain",
+    "part_of_speech": "Verb",
+    "definition": "To be mathematically or physically left over after other parts have been removed or consumed."
   },
   {
     "word": "idre",
@@ -4776,221 +2894,149 @@ const dictionaryData = [
     "definition": "Describes a quantity representing exactly one of four equal parts of a whole (25%)."
   },
   {
-    "word": "hiqe",
-    "english_equiv": "Factually Correct / Right",
-    "part_of_speech": "Modifier",
-    "definition": "Free from error; in accordance with fact or truth.",
-    "usage_note": "Distinct from the subjective senses 'well' or 'good'."
+    "word": "idvu",
+    "english_equiv": "Mystery / Secret",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Something that is difficult or impossible to understand, explain, or uncover."
   },
   {
-    "word": "ucde",
-    "english_equiv": "Proud",
-    "part_of_speech": "Modifier",
-    "definition": "Feeling deep pleasure or satisfaction as a result of achievements, qualities, or possessions."
+    "word": "iega",
+    "english_equiv": "Lion / Tiger",
+    "part_of_speech": "Biological Noun",
+    "definition": "A large, carnivorous feline mammal."
   },
   {
-    "word": "ecme",
-    "english_equiv": "Humble / Modest",
-    "part_of_speech": "Modifier",
-    "definition": "Having or showing a modest estimate of one's own importance."
+    "word": "ifezi",
+    "english_equiv": "Decide",
+    "part_of_speech": "Verb",
+    "definition": "To mathematically collapse a set of choices into a single, final logical resolution."
   },
   {
-    "word": "elge",
-    "english_equiv": "Honest",
-    "part_of_speech": "Modifier",
-    "definition": "Free of deceit; truthful and sincere."
+    "word": "ifgo",
+    "english_equiv": "Toothbrush",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A small brush with a long handle, used specifically for cleaning the teeth."
   },
   {
-    "word": "ezte",
-    "english_equiv": "Polite",
-    "part_of_speech": "Modifier",
-    "definition": "Having or showing behavior that is respectful and considerate of others."
+    "word": "ifloco",
+    "english_equiv": "Saddle",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A shaped leather seat fastened on an animal's back for a rider."
   },
   {
-    "word": "pyqe",
-    "english_equiv": "Rude",
-    "part_of_speech": "Modifier",
-    "definition": "Lacking in manners; impolite, offensive, or disrespectful."
+    "word": "ifuxu",
+    "english_equiv": "Trapped mid-risk",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A risk easier to start than to stop; being astride it. Logical equivalent: Cimiu nailei. Sejiu muilei. (Starting is easy. Stopping is difficult.)"
   },
   {
-    "word": "ebxe",
-    "english_equiv": "Cruel",
-    "part_of_speech": "Modifier",
-    "definition": "Willfully causing pain, distress, or suffering to others, or feeling no concern for it."
+    "word": "igro",
+    "english_equiv": "Card",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A small, flat, stiff piece of paper or plastic used as a physical token for identification, finance, or data storage."
   },
   {
-    "word": "zihe",
-    "english_equiv": "Famous",
-    "part_of_speech": "Modifier",
-    "definition": "Known about by many people; widely celebrated or recognized."
+    "word": "igy",
+    "english_equiv": "at the frequency of / times",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a mathematical bridge linking an action to the exact numerical count of its occurrences."
   },
   {
-    "word": "sone",
-    "english_equiv": "Spicy / Pungent",
-    "part_of_speech": "Modifier",
-    "definition": "Having a sharp, burning, hot, or strong taste."
+    "word": "ijyra",
+    "english_equiv": "Tail",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word refers to the distinct, flexible appendage extending from the rear end of an animal's body."
   },
   {
-    "word": "vyhe",
-    "english_equiv": "Mild / Bland",
-    "part_of_speech": "Modifier",
-    "definition": "Lacking strong flavor, spice, or intensity."
+    "word": "ikamo",
+    "english_equiv": "Shirt",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical piece of clothing designed specifically to cover the upper body and chest area (topza)."
   },
   {
-    "word": "uyre",
-    "english_equiv": "Alive",
-    "part_of_speech": "Modifier",
-    "definition": "Living; possessing biological life."
+    "word": "ikapi",
+    "english_equiv": "To influence / To affect",
+    "part_of_speech": "Verb",
+    "definition": "To exert a non-physical force or abstract power upon an entity, thereby altering its development, behavior, or conceptual state."
   },
   {
-    "word": "iyxe",
-    "english_equiv": "Sleepy",
-    "part_of_speech": "Modifier",
-    "definition": "Feeling tired, fatigued, and ready to fall asleep."
+    "word": "iku",
+    "english_equiv": "Law",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A system of abstract rules created and enforced by an institution to regulate behavior and maintain order."
   },
   {
-    "word": "aofe",
-    "english_equiv": "Satiated / Full (of food)",
-    "part_of_speech": "Modifier",
-    "definition": "Fully satisfied after eating; no longer hungry."
+    "word": "ilada",
+    "english_equiv": "Reptile",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies a cold-blooded, typically land-dwelling biological class characterized by scales and, often, a lack of limbs."
   },
   {
-    "word": "aite",
-    "english_equiv": "Smelly / Stinky",
-    "part_of_speech": "Modifier",
-    "definition": "Emitting a strong, unpleasant, or foul odor."
+    "word": "ilpi",
+    "english_equiv": "Kneel",
+    "part_of_speech": "Verb",
+    "definition": "To support oneself on one or both knees."
   },
   {
-    "word": "ixge",
-    "english_equiv": "Slippery",
-    "part_of_speech": "Modifier",
-    "definition": "Having a surface so smooth, wet, or oily that objects slide easily or traction is lost."
+    "word": "imdo",
+    "english_equiv": "Flood",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An overflowing of a large amount of water beyond its normal confines, especially over what is normally dry land."
   },
   {
-    "word": "uxbe",
-    "english_equiv": "Loose",
-    "part_of_speech": "Modifier",
-    "definition": "Not firmly or tightly fixed in place; relaxed or detached."
+    "word": "imsu",
+    "english_equiv": "Standard / Criterion",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A level of quality or attainment, or a rule/principle by which something is judged."
   },
   {
-    "word": "udce",
-    "english_equiv": "Tight",
-    "part_of_speech": "Modifier",
-    "definition": "Fitting closely; held or closed firmly in place."
+    "word": "ipka",
+    "english_equiv": "Spider",
+    "part_of_speech": "Biological Noun",
+    "definition": "An eight-legged predatory arachnid that spins webs to catch prey."
   },
   {
-    "word": "aywe",
-    "english_equiv": "Rare",
-    "part_of_speech": "Modifier",
-    "definition": "Not occurring very often; uncommon, exceptional, or hard to find."
+    "word": "ipti",
+    "english_equiv": "Spill",
+    "part_of_speech": "Verb",
+    "definition": "To cause or allow liquid or solid to run or fall from a container."
   },
   {
-    "word": "ovce",
-    "english_equiv": "Always",
-    "part_of_speech": "Modifier",
-    "definition": "At all times; uninterruptedly or on every occasion."
+    "word": "iqi",
+    "english_equiv": "Doubt",
+    "part_of_speech": "Verb",
+    "definition": "To feel uncertain about something, or to lack conviction in a truth.",
+    "usage_note": "Leans away from a claim's truth. For a weak positive lean on partial evidence (classically something bad or hidden), use skaxebi (to suspect)."
   },
   {
-    "word": "amce",
-    "english_equiv": "Never",
-    "part_of_speech": "Modifier",
-    "definition": "At no time; not ever."
+    "word": "iqocu",
+    "english_equiv": "Effect",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual change which is a direct mathematical result or consequence of a prior cause."
   },
   {
-    "word": "evle",
-    "english_equiv": "Sometimes",
-    "part_of_speech": "Modifier",
-    "definition": "Occasionally; on some occasions but not all."
+    "word": "iraki",
+    "english_equiv": "Cry",
+    "part_of_speech": "Verb",
+    "definition": "To shed biological tears as a physiological response to distress, pain, or overwhelming subjective feeling."
   },
   {
-    "word": "orve",
-    "english_equiv": "Poisonous / Toxic",
-    "part_of_speech": "Modifier",
-    "definition": "Capable of causing illness, injury, or death when introduced into or absorbed by a living organism."
+    "word": "iraksa",
+    "english_equiv": "Tear / Teardrop",
+    "part_of_speech": "Biological Noun",
+    "definition": "The physical, saline liquid produced and shed by the eyes."
   },
   {
-    "word": "emfe",
-    "english_equiv": "Fresh",
-    "part_of_speech": "Modifier",
-    "definition": "Newly made, harvested, or obtained; not stale, sour, or decayed."
+    "word": "irta",
+    "english_equiv": "Egg",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word identifies the round or oval biological reproductive body laid by the females of many animals, containing the developing embryo."
   },
   {
-    "word": "avge",
-    "english_equiv": "Rotten / Decayed",
-    "part_of_speech": "Modifier",
-    "definition": "No longer fresh or pleasant; spoiled, decomposed, or organic matter that has broken down."
-  },
-  {
-    "word": "upfe",
-    "english_equiv": "Unequal",
-    "part_of_speech": "Modifier",
-    "definition": "Not the same in quantity, size, degree, value, or status."
-  },
-  {
-    "word": "acle",
-    "english_equiv": "Generous",
-    "part_of_speech": "Modifier",
-    "definition": "Showing a readiness to give more of something (like time, care, or wealth) than is expected."
-  },
-  {
-    "word": "oyze",
-    "english_equiv": "Greedy",
-    "part_of_speech": "Modifier",
-    "definition": "Having or showing an intense, selfish desire for wealth, power, or food."
-  },
-  {
-    "word": "jyfe",
-    "english_equiv": "Patient",
-    "part_of_speech": "Modifier",
-    "definition": "Able to accept or tolerate delays, problems, or suffering without becoming annoyed or anxious."
-  },
-  {
-    "word": "buxe",
-    "english_equiv": "Impatient",
-    "part_of_speech": "Modifier",
-    "definition": "Showing a tendency to be quickly irritated or provoked by delays, obstacles, or opposition."
-  },
-  {
-    "word": "cige",
-    "english_equiv": "Foreign",
-    "part_of_speech": "Modifier",
-    "definition": "Belonging to, coming from, or characteristic of another country, language, or society."
-  },
-  {
-    "word": "keqe",
-    "english_equiv": "Native",
-    "part_of_speech": "Modifier",
-    "definition": "Associated with the place or circumstances of a person's birth or origin."
-  },
-  {
-    "word": "egde",
-    "english_equiv": "Sober",
-    "part_of_speech": "Modifier",
-    "definition": "Not affected by alcohol or intoxicants; clear-headed."
-  },
-  {
-    "word": "arke",
-    "english_equiv": "Pregnant",
-    "part_of_speech": "Modifier",
-    "definition": "Having a child or young developing in the uterus."
-  },
-  {
-    "word": "ubme",
-    "english_equiv": "Public",
-    "part_of_speech": "Modifier",
-    "definition": "Done, perceived, or existing in open view; open to the community."
-  },
-  {
-    "word": "cele",
-    "english_equiv": "Private / Personal",
-    "part_of_speech": "Modifier",
-    "definition": "Belonging to or for the use of one particular person or group only; not public."
-  },
-  {
-    "word": "oege",
-    "english_equiv": "Secret",
-    "part_of_speech": "Modifier",
-    "definition": "Kept hidden from others; confidential or clandestine."
+    "word": "isamu",
+    "english_equiv": "Result",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract consequence, logical effect, or final mathematical outcome of a specific action or event."
   },
   {
     "word": "isne",
@@ -4999,100 +3045,101 @@ const dictionaryData = [
     "definition": "Without clothing, foliage, or natural covering."
   },
   {
-    "word": "move",
-    "english_equiv": "Vague / Fuzzy",
+    "word": "itole",
+    "english_equiv": "Smart / Intelligent",
     "part_of_speech": "Modifier",
-    "definition": "Not clearly expressed, described, or understood; indefinite."
+    "definition": "This describes an entity possessing a high mental capacity, sharp intellect, or the ability to process data efficiently."
   },
   {
-    "word": "apre",
-    "english_equiv": "Normal / Typical",
+    "word": "itse",
+    "english_equiv": "Single / Alone",
     "part_of_speech": "Modifier",
-    "definition": "Conforming to a standard; usual, typical, or expected."
+    "definition": "This word describes an individual entity strictly separated from others, consisting of exactly one part."
   },
   {
-    "word": "ocfe",
-    "english_equiv": "Fake / Counterfeit / False",
+    "word": "iubu",
+    "english_equiv": "Failure",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The state or condition of not meeting a desirable goal or standard; the lack of success."
+  },
+  {
+    "word": "ivanu",
+    "english_equiv": "North",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the primary cardinal direction corresponding to the earth's northern magnetic pole or the upward orientation on a standard map."
+  },
+  {
+    "word": "ivati",
+    "english_equiv": "Weigh",
+    "part_of_speech": "Verb",
+    "definition": "To actively measure the heavy weight or physical mass of an object or biological entity"
+  },
+  {
+    "word": "ivortu",
+    "english_equiv": "South",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the cardinal direction directly opposite to the north."
+  },
+  {
+    "word": "ivxo",
+    "english_equiv": "Hammer",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hand tool with a heavy metal head on a handle, used for driving nails, beating metal, or breaking objects."
+  },
+  {
+    "word": "iwe",
+    "english_equiv": "Tired",
     "part_of_speech": "Modifier",
-    "definition": "Not genuine; imitation or counterfeit (specifically physical or abstract imitation)."
+    "definition": "This describes a physical or mental state of exhaustion, depleted energy, or a strong need for sleep and rest."
   },
   {
-    "word": "baki",
-    "english_equiv": "Try / Attempt.",
-    "part_of_speech": "Verb",
-    "definition": "To execute an action with the intent of achieving a specific result, while acknowledging that the outcome is uncertain or experimental."
+    "word": "ixbo",
+    "english_equiv": "Brick",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A small rectangular block of fired clay or concrete, used in building."
   },
   {
-    "word": "beati",
-    "english_equiv": "Close.",
-    "part_of_speech": "Verb",
-    "definition": "To block an opening, seal a passage, or restrict physical access."
+    "word": "ixge",
+    "english_equiv": "Slippery",
+    "part_of_speech": "Modifier",
+    "definition": "Having a surface so smooth, wet, or oily that objects slide easily or traction is lost."
   },
   {
-    "word": "xali",
-    "english_equiv": "Move / Go.",
+    "word": "ixovi",
+    "english_equiv": "To receive / To endure / Be subject to",
     "part_of_speech": "Verb",
-    "definition": "This verb means to change position or displace something."
+    "definition": "To passively take in an action, object, or circumstance placed upon the subject by an outside force; to bear or endure an experience.",
+    "usage_note": "The 'undergo/endure' sense: passively taking in something imposed. Distinct from jopxi (to accept delivery of something offered)."
   },
   {
-    "word": "xeri",
-    "english_equiv": "Throw.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to propel something with force through the air."
+    "word": "ixpa",
+    "english_equiv": "Fungus / Mushroom",
+    "part_of_speech": "Biological Noun",
+    "definition": "An organism (such as a mushroom or mold) that feeds on organic matter and lacks chlorophyll."
   },
   {
-    "word": "xosi",
-    "english_equiv": "Open.",
+    "word": "izli",
+    "english_equiv": "Invite",
     "part_of_speech": "Verb",
-    "definition": "This verb means to allow access, passage, or view through a space."
+    "definition": "To formally or friendly request the presence or participation of someone."
   },
   {
-    "word": "xuni",
-    "english_equiv": "Burn.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to consume or damage something by fire."
+    "word": "jabe",
+    "english_equiv": "Cold.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something of or at a low or relatively low temperature."
   },
   {
-    "word": "dasi",
-    "english_equiv": "Control.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to determine the behavior or supervise the running of an entity or system."
+    "word": "jadoro",
+    "english_equiv": "Snow",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to atmospheric water vapor frozen into solid ice crystals and falling as light, white structural flakes."
   },
   {
-    "word": "dogi",
-    "english_equiv": "Let / Allow",
+    "word": "jahizi",
+    "english_equiv": "Marry.",
     "part_of_speech": "Verb",
-    "definition": "This verb means to not prevent an action from occurring."
-  },
-  {
-    "word": "fodi",
-    "english_equiv": "Process.",
-    "part_of_speech": "Verb",
-    "definition": "This refers to a series of actions or steps taken in order to achieve a particular end."
-  },
-  {
-    "word": "gari",
-    "english_equiv": "Play.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to engage in activity for enjoyment and recreation rather than a serious or practical purpose."
-  },
-  {
-    "word": "goji",
-    "english_equiv": "Pull.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to exert force on something to move it toward oneself."
-  },
-  {
-    "word": "gugi",
-    "english_equiv": "Stand.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to maintain an upright position, supported by the feet in a vertical orientation."
-  },
-  {
-    "word": "hici",
-    "english_equiv": "Walk.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to move at a regular pace by lifting and setting down each foot in turn."
+    "definition": "To enter into a marital partnership with another individual, forming the spouse relation (hazba / sifa); the act that establishes a marriage."
   },
   {
     "word": "jami",
@@ -5101,16 +3148,307 @@ const dictionaryData = [
     "definition": "This verb means to mark letters, words, or other symbols on a surface to record information."
   },
   {
+    "word": "jany",
+    "english_equiv": "Against",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a bridge of physical contact involving pressure and support, or direct logical opposition/resistance to a concept."
+  },
+  {
+    "word": "jaru",
+    "english_equiv": "Year.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The time it takes for a planet to complete one full revolution around its star; a period of time comprising 365 days."
+  },
+  {
+    "word": "jas",
+    "english_equiv": "yes",
+    "part_of_speech": "Grammar",
+    "definition": "Affirmation or agreement."
+  },
+  {
+    "word": "jatano",
+    "english_equiv": "Pen / Pencil",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This identifies a small, hand-held physical tool or instrument structurally designed for writing or drawing on paper."
+  },
+  {
+    "word": "javuqu",
+    "english_equiv": "Infection / Contagion",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The process of infecting or the state of being infected by a disease-causing organism."
+  },
+  {
+    "word": "jawo",
+    "english_equiv": "Ice",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This defines the solid state of water matter, formed structurally when liquid water freezes due to low temperatures."
+  },
+  {
+    "word": "jaxke",
+    "english_equiv": "New.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something produced, introduced, or discovered recently or now for the first time."
+  },
+  {
+    "word": "je",
+    "english_equiv": "Plural Marker / -s",
+    "part_of_speech": "Modifier",
+    "definition": "A strict grammatical marker indicating plurality (strictly more than one of an entity). It acts purely as a mathematical multiplier (>1) to pluralize a noun, carrying no subjective weight regarding how large the group actually is."
+  },
+  {
     "word": "jedi",
     "english_equiv": "Have.",
     "part_of_speech": "Verb",
     "definition": "This verb means to possess, own, or hold something as property or a characteristic."
   },
   {
+    "word": "jedle",
+    "english_equiv": "Many / A lot / Numerous",
+    "part_of_speech": "Modifier",
+    "definition": "his describes a subjectively large quantity, high volume, or great number of a specific entity."
+  },
+  {
+    "word": "jeflu",
+    "english_equiv": "Development",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract process of conceptual growth, systemic progression, or evolution over time."
+  },
+  {
+    "word": "jeju",
+    "english_equiv": "Glory",
+    "part_of_speech": "Abstract Noun",
+    "definition": "High renown, honor, or praise won by notable achievements or majestic beauty."
+  },
+  {
+    "word": "jeme",
+    "english_equiv": "Most.",
+    "part_of_speech": "Modifier",
+    "definition": "The greatest quantity/quality compared to something else."
+  },
+  {
+    "word": "jepa",
+    "english_equiv": "Offspring",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the immediate descendant produced by the reproduction of a living organism."
+  },
+  {
+    "word": "jete",
+    "english_equiv": "More.",
+    "part_of_speech": "Modifier",
+    "definition": "An increase compared to something else."
+  },
+  {
+    "word": "jicy",
+    "english_equiv": "also",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates inclusion or mathematical addition, functioning as a bridge meaning in addition to or along with the target object."
+  },
+  {
+    "word": "jilfe",
+    "english_equiv": "Smooth.",
+    "part_of_speech": "Modifier",
+    "definition": "Having an even, regular surface, free of bumps or friction. The antonym of rudse (rough).",
+    "usage_note": "Distinct from ixge (slippery) and wapse (flat)."
+  },
+  {
+    "word": "jipri",
+    "english_equiv": "Wash",
+    "part_of_speech": "Verb",
+    "definition": "To clean something (like the body, clothes, or dishes) using water and typically soap."
+  },
+  {
+    "word": "jiqa",
+    "english_equiv": "Sibling's child / Niece or Nephew (gender-neutral)",
+    "part_of_speech": "Biological Noun",
+    "definition": "A gender-neutral biological relative who is the child of one's sibling."
+  },
+  {
+    "word": "jisi",
+    "english_equiv": "Drip",
+    "part_of_speech": "Verb",
+    "definition": "To fall in small, distinct drops of liquid."
+  },
+  {
+    "word": "jo",
+    "english_equiv": "Hey / Attention",
+    "part_of_speech": "Grammar",
+    "definition": "Sharp exclamation to command immediate attention or warn."
+  },
+  {
+    "word": "jobori",
+    "english_equiv": "To arrive / To reach",
+    "part_of_speech": "Verb",
+    "definition": "To actively reach a destination, limit, or end point.",
+    "usage_note": "Emphasizes actively reaching a destination, limit, or endpoint. Compare ovami (completing a journey into a destination)."
+  },
+  {
+    "word": "jobu",
+    "english_equiv": "Job",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract conceptual role, task, or agreed-upon piece of work, especially one that is compensated."
+  },
+  {
     "word": "jofi",
     "english_equiv": "Help / Assist.",
     "part_of_speech": "Verb",
     "definition": "To make it easier for someone to do something by offering one's services or resources."
+  },
+  {
+    "word": "jokuwu",
+    "english_equiv": "Vote / Election",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A formal expression of choice or preference in an election or group decision."
+  },
+  {
+    "word": "jopxi",
+    "english_equiv": "Receive",
+    "part_of_speech": "Verb",
+    "definition": "To passively or actively accept delivery and take possession of something offered or sent.",
+    "usage_note": "The 'take delivery' sense: accepting something offered or sent. Distinct from ixovi (to receive/endure something imposed by an outside force)."
+  },
+  {
+    "word": "jormu",
+    "english_equiv": "Case / Situation.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a set of circumstances or conditions in which one finds oneself; a state of affairs."
+  },
+  {
+    "word": "jotse",
+    "english_equiv": "Clean.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something free from dirt, marks, or stains."
+  },
+  {
+    "word": "joze",
+    "english_equiv": "Long.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something measuring a great distance from end to end."
+  },
+  {
+    "word": "juce",
+    "english_equiv": "Heavy.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something of great weight or difficult to lift."
+  },
+  {
+    "word": "jufyso",
+    "english_equiv": "Pickaxe.",
+    "definition": "A tool with a pointed head on a handle, used for breaking rock and mining.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "juhi",
+    "english_equiv": "Worry",
+    "part_of_speech": "Verb",
+    "definition": "To feel anxious, uneasy, or troubled about potential problems."
+  },
+  {
+    "word": "juku",
+    "english_equiv": "Shape / Form.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the external form, contours, or outline of someone or something."
+  },
+  {
+    "word": "juma",
+    "english_equiv": "Rival",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who competes against another for the same objective, status, or superiority; a personal or ongoing competitor."
+  },
+  {
+    "word": "junu",
+    "english_equiv": "Plan",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A detailed conceptual proposal or abstract structural framework designed for achieving an objective."
+  },
+  {
+    "word": "juro",
+    "english_equiv": "City.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a large human settlement with a high population density and extensive systems for housing, transportation, and utilities."
+  },
+  {
+    "word": "juwe",
+    "english_equiv": "Only / Just.",
+    "part_of_speech": "Modifier",
+    "definition": "This word limits something to a single person, thing, or amount, explicitly excluding anything else."
+  },
+  {
+    "word": "jy",
+    "english_equiv": "part of",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates the subject is an integral component or piece of the object, such as a body part or machine element."
+  },
+  {
+    "word": "jyfe",
+    "english_equiv": "Patient",
+    "part_of_speech": "Modifier",
+    "definition": "Able to accept or tolerate delays, problems, or suffering without becoming annoyed or anxious."
+  },
+  {
+    "word": "jyhu",
+    "english_equiv": "Destiny / Fate",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The events that will necessarily happen to a particular person or thing in the future, often pre-determined."
+  },
+  {
+    "word": "jyjo",
+    "english_equiv": "Computer",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An electronic device designed for storing, retrieving, and processing data."
+  },
+  {
+    "word": "jymbo",
+    "english_equiv": "Island.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A piece of land completely surrounded by water."
+  },
+  {
+    "word": "jyndo",
+    "english_equiv": "Fence.",
+    "definition": "A barrier of posts and rails that encloses or bounds an area.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "jyqi",
+    "english_equiv": "Refuse / Reject",
+    "part_of_speech": "Verb",
+    "definition": "To show or state unwillingness to accept, do, or grant something."
+  },
+  {
+    "word": "kaba",
+    "english_equiv": "Horse",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a large, solid-hoofed herbivorous mammal, traditionally utilized by humans for riding or draft work."
+  },
+  {
+    "word": "kabce",
+    "english_equiv": "Simple",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something possessing an uncomplicated structure; fundamentally basic with few moving parts."
+  },
+  {
+    "word": "kad",
+    "english_equiv": "Because / For the reason that",
+    "part_of_speech": "Grammar",
+    "definition": "A structural wall that introduces an entirely new independent clause (with its own subject and verb) that explains the reason for the previous clause."
+  },
+  {
+    "word": "kagaxa",
+    "english_equiv": "Axolotl.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A salamander that retains its aquatic larval features throughout its life, native to freshwater lakes."
+  },
+  {
+    "word": "kalo",
+    "english_equiv": "Cup",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A small, bowl-shaped physical container, often with a handle, designed for holding and drinking liquids."
+  },
+  {
+    "word": "kame",
+    "english_equiv": "Salty.",
+    "part_of_speech": "Modifier",
+    "definition": "This describes the taste sensation characteristic of sodium chloride (salt)."
   },
   {
     "word": "kani",
@@ -5125,1272 +3463,41 @@ const dictionaryData = [
     "definition": "This verb means to discover or perceive by chance or unexpectedly, or to become aware of something new."
   },
   {
-    "word": "kili",
-    "english_equiv": "Touch / Feel.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to perceive through physical contact or the sense of touch."
-  },
-  {
-    "word": "koci",
-    "english_equiv": "Need.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to require something because it is essential or very important."
-  },
-  {
-    "word": "kyti",
-    "english_equiv": "Like.",
-    "part_of_speech": "Verb",
-    "definition": "This verb expresses positive feelings towards something or someone and is completely subjective."
-  },
-  {
-    "word": "kuri",
-    "english_equiv": "Fear / Afraid",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to be afraid of someone or something."
-  },
-  {
-    "word": "gesi",
-    "english_equiv": "Say / Speak / Talk / Discuss",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to utter words so as to convey information."
-  },
-  {
-    "word": "lini",
-    "english_equiv": "Cause.",
-    "part_of_speech": "Verb",
-    "definition": "To make something happen or exist; to bring about a result or effect."
-  },
-  {
-    "word": "loki",
-    "english_equiv": "Read",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to look at and comprehend the meaning of written or printed matter."
-  },
-  {
-    "word": "pli",
-    "english_equiv": "Come.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to move toward a specific location or the speaker."
-  },
-  {
-    "word": "maji",
-    "english_equiv": "Breathe.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to take air into the lungs and expel it."
-  },
-  {
-    "word": "mexi",
-    "english_equiv": "Birth.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to give life to a child or offspring."
-  },
-  {
-    "word": "mori",
-    "english_equiv": "Grow.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to increase in physical size, quantity, or maturity over a period of time."
-  },
-  {
-    "word": "usi",
-    "english_equiv": "Sleep.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to rest with eyes closed in a state of natural unconsciousness."
-  },
-  {
-    "word": "naci",
-    "english_equiv": "Work.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to perform labor, professional tasks, or exert effort to produce a result."
-  },
-  {
-    "word": "neki",
-    "english_equiv": "Sit.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to rest with the body supported by the buttocks or thighs; to occupy a seat."
-  },
-  {
-    "word": "petni",
-    "english_equiv": "Excrete",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to separate and expel waste matter from the body."
-  },
-  {
-    "word": "pauli",
-    "english_equiv": "Feel.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to experience an emotion or sensation."
-  },
-  {
-    "word": "pozi",
-    "english_equiv": "Think / Consider",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to direct one's mind toward someone or something or to form ideas."
-  },
-  {
-    "word": "sapi",
-    "english_equiv": "Make / Create",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to create, construct, or form something."
-  },
-  {
-    "word": "cimi",
-    "english_equiv": "Start / Begin",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to begin an action or event."
-  },
-  {
-    "word": "cuki",
-    "english_equiv": "Fight / Argue",
-    "part_of_speech": "Verb",
-    "definition": "To engage in a physical, verbal, or conceptual struggle against an opposing force or entity."
-  },
-  {
-    "word": "kupi",
-    "english_equiv": "Ask.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to say something in order to obtain an answer or some information."
-  },
-  {
-    "word": "tsyti",
-    "english_equiv": "Search / Look for.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to try to find something by looking or otherwise seeking carefully and thoroughly."
-  },
-  {
-    "word": "roli",
-    "english_equiv": "Drink",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to take a liquid into the mouth and swallow it."
-  },
-  {
-    "word": "sudi",
-    "english_equiv": "Push / Press",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to exert force on something to move it away."
-  },
-  {
-    "word": "seji",
-    "english_equiv": "Stop.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to cease an action or event."
-  },
-  {
-    "word": "skagi",
-    "english_equiv": "Break.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to separate into pieces as a result of a blow, shock, or structural failure."
-  },
-  {
-    "word": "sowi",
-    "english_equiv": "Fall.",
-    "part_of_speech": "Verb",
-    "definition": "This verb describes the action of dropping down under the force of gravity."
-  },
-  {
-    "word": "stomi",
-    "english_equiv": "Give / Provide",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to freely transfer the possession of something to someone."
-  },
-  {
-    "word": "swami",
-    "english_equiv": "Put.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to move something into a specific place or position."
-  },
-  {
-    "word": "tazi",
-    "english_equiv": "Love.",
-    "part_of_speech": "Verb",
-    "definition": "To feel deep affection, unconditional care, or profound attachment toward an entity."
-  },
-  {
-    "word": "tsi",
-    "english_equiv": "Leave.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to go away from a place, person, or thing; to depart."
-  },
-  {
-    "word": "fabi",
-    "english_equiv": "Want.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to have a desire to possess or do something."
-  },
-  {
-    "word": "fewi",
-    "english_equiv": "Mix.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to combine or blend different substances together."
-  },
-  {
-    "word": "hadi",
-    "english_equiv": "Answer / Reply",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to say or write something to deal with or as a reaction to a question."
-  },
-  {
-    "word": "tumi",
-    "english_equiv": "Change / Alter.",
-    "part_of_speech": "Verb",
-    "definition": "To make or become different; to transform the state of something."
-  },
-  {
-    "word": "wogi",
-    "english_equiv": "Hope.",
-    "part_of_speech": "Verb",
-    "definition": "This refers to a feeling of expectation and desire for a certain thing to happen; a state of optimism."
-  },
-  {
-    "word": "baqi",
-    "english_equiv": "Call",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to cry out to someone in order to summon them or attract their attention."
-  },
-  {
-    "word": "zemi",
-    "english_equiv": "Cover.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to put something on top of or in front of something else to protect or conceal it."
-  },
-  {
-    "word": "zyli",
-    "english_equiv": "Use.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to employ something for a particular purpose."
-  },
-  {
-    "word": "coti",
-    "english_equiv": "Cut.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to separate or divide something using a sharp edge."
-  },
-  {
-    "word": "satsi",
-    "english_equiv": "Hit / Strike.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to deliver a blow to someone or something."
-  },
-  {
-    "word": "sexi",
-    "english_equiv": "Update",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to make something more modern or current, or to incorporate the most recent information."
-  },
-  {
-    "word": "xyfi",
-    "english_equiv": "Do.",
-    "part_of_speech": "Verb",
-    "definition": "To perform, execute, or carry out a general action."
-  },
-  {
-    "word": "sigi",
-    "english_equiv": "Hold.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to grasp and support something."
-  },
-  {
-    "word": "ceni",
-    "english_equiv": "Live.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to remain alive or have life."
-  },
-  {
-    "word": "steli",
-    "english_equiv": "Take.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to lay hold of something with one's hands or reach."
-  },
-  {
-    "word": "sufi",
-    "english_equiv": "Turn.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to rotate or change the direction of movement."
-  },
-  {
-    "word": "grawi",
-    "english_equiv": "Grateful / Thank.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks."
-  },
-  {
-    "word": "nomi",
-    "english_equiv": "Eat / Consume.",
-    "part_of_speech": "Verb",
-    "definition": "This verb means to put food into the mouth, chew, and swallow it as a fundamental biological action."
-  },
-  {
-    "word": "cyri",
-    "english_equiv": "Fly / Hover / Soar.",
-    "part_of_speech": "Verb",
-    "definition": "To move through the air or space under control, whether by aerodynamic wings, biological capability, or mechanical propulsion."
-  },
-  {
-    "word": "cafi",
-    "english_equiv": "Run",
-    "part_of_speech": "Verb",
-    "definition": "To move swiftly on foot at a pace significantly faster than a walk."
-  },
-  {
-    "word": "kiagi",
-    "english_equiv": "Keep / Save",
-    "part_of_speech": "Verb",
-    "definition": "To retain continuous physical or legal possession of an object or state."
-  },
-  {
-    "word": "pagari",
-    "english_equiv": "Pay",
-    "part_of_speech": "Verb",
-    "definition": "To transfer money or abstract value in exchange for goods or services."
-  },
-  {
-    "word": "enconi",
-    "english_equiv": "Meet",
-    "part_of_speech": "Verb",
-    "definition": "To intentionally or accidentally come into the physical presence of someone."
-  },
-  {
-    "word": "fasidi",
-    "english_equiv": "Include / Involve",
-    "part_of_speech": "Verb",
-    "definition": "To contain an entity as a subordinate part or member of a larger whole or system."
-  },
-  {
-    "word": "xygaji",
-    "english_equiv": "Continue",
-    "part_of_speech": "Verb",
-    "definition": "To persist in an ongoing activity or state without breaking the SVO track."
-  },
-  {
-    "word": "denki",
-    "english_equiv": "Set",
-    "part_of_speech": "Verb",
-    "definition": "To physically arrange, place, or establish something in a fixed, specific state."
-  },
-  {
-    "word": "ibagi",
-    "english_equiv": "Learn",
-    "part_of_speech": "Verb",
-    "definition": "To acquire new knowledge, skills, or data through abstract study or physical experience."
-  },
-  {
-    "word": "rucemi",
-    "english_equiv": "Lead",
-    "part_of_speech": "Verb",
-    "definition": "To guide, direct, or mathematically precede others in a physical sequence or organizational structure."
-  },
-  {
-    "word": "erfi",
-    "english_equiv": "Understand / Realize",
-    "part_of_speech": "Verb",
-    "definition": "To mentally comprehend the abstract meaning, logic, or underlying cause of a concept."
-  },
-  {
-    "word": "nojapi",
-    "english_equiv": "Watch / Check / Stare",
-    "part_of_speech": "Verb",
-    "definition": "To observe an entity or event attentively over a continuous period of time."
-  },
-  {
-    "word": "emiti",
-    "english_equiv": "Follow",
-    "part_of_speech": "Verb",
-    "definition": "To physically move or conceptually travel sequentially behind a target."
-  },
-  {
-    "word": "sapiti",
-    "english_equiv": "Invent",
-    "part_of_speech": "Verb",
-    "definition": "To physically create, design, or conceptually originate something that did not previously exist."
-  },
-  {
-    "word": "lanti",
-    "english_equiv": "Add",
-    "part_of_speech": "Verb",
-    "definition": "To mathematically or physically join an entity to an existing group to increase the total quantity."
-  },
-  {
-    "word": "owadi",
-    "english_equiv": "Spend",
-    "part_of_speech": "Verb",
-    "definition": "To mathematically exhaust, exchange, or use up a measurable resource, such as time or money."
-  },
-  {
-    "word": "xeski",
-    "english_equiv": "Win",
-    "part_of_speech": "Verb",
-    "definition": "To achieve victory, succeed, or finish first in a competitive system or conflict."
-  },
-  {
-    "word": "gidsi",
-    "english_equiv": "Buy",
-    "part_of_speech": "Verb",
-    "definition": "To obtain physical or legal possession of an entity by paying money."
-  },
-  {
-    "word": "wasti",
-    "english_equiv": "Wait",
-    "part_of_speech": "Verb",
-    "definition": "To remain in a state of paused action in strict anticipation of a specific future event or time."
-  },
-  {
-    "word": "kupmi",
-    "english_equiv": "Serve",
-    "part_of_speech": "Verb",
-    "definition": "To actively perform duties, provide help, or supply resources to another entity."
-  },
-  {
-    "word": "ombi",
-    "english_equiv": "Send / Deliver",
-    "part_of_speech": "Verb",
-    "definition": "To cause a physical object or abstract message to be conveyed to a separate destination."
-  },
-  {
-    "word": "ubli",
-    "english_equiv": "Expect",
-    "part_of_speech": "Verb",
-    "definition": "To mentally anticipate or logically regard an event as highly likely to happen.",
-    "usage_note": "Directed at a future event as likely. For accepting a proposition as a working basis without evidence, use dagibi (to assume)."
-  },
-  {
-    "word": "rerbi",
-    "english_equiv": "Stay",
-    "part_of_speech": "Verb",
-    "definition": "To remain in the exact same physical location or conceptual state for an extended duration."
-  },
-  {
-    "word": "haxani",
-    "english_equiv": "To reach / To stretch out to",
-    "part_of_speech": "Verb",
-    "definition": "To successfully stretch out to, make physical contact with, or achieve a mathematical or conceptual limit."
-  },
-  {
-    "word": "kimugi",
-    "english_equiv": "Die",
-    "part_of_speech": "Verb",
-    "definition": "To permanently cease biological functions; the absolute termination of a living system."
-  },
-  {
-    "word": "kimari",
-    "english_equiv": "Kill",
-    "part_of_speech": "Verb",
-    "definition": "To intentionally force the death or systemic termination of a biological entity."
-  },
-  {
-    "word": "idoji",
-    "english_equiv": "Remain",
-    "part_of_speech": "Verb",
-    "definition": "To be mathematically or physically left over after other parts have been removed or consumed."
-  },
-  {
-    "word": "umeti",
-    "english_equiv": "Suggest / Offer",
-    "part_of_speech": "Verb",
-    "definition": "To put forward a conceptual idea, abstract plan, or possibility for another mind's consideration."
-  },
-  {
-    "word": "todyri",
-    "english_equiv": "Raise/ lift",
-    "part_of_speech": "Verb",
-    "definition": "To elevate an entity to a higher physical altitude or scale it to a higher mathematical level."
-  },
-  {
-    "word": "xalati",
-    "english_equiv": "Pass",
-    "part_of_speech": "Verb",
-    "definition": "To physically move past an object, or to successfully transfer completely through a structural barrier."
-  },
-  {
-    "word": "gidafi",
-    "english_equiv": "Sell",
-    "part_of_speech": "Verb",
-    "definition": "To permanently transfer the legal ownership of physical goods or abstract services in exchange for money."
-  },
-  {
-    "word": "ifezi",
-    "english_equiv": "Decide",
-    "part_of_speech": "Verb",
-    "definition": "To mathematically collapse a set of choices into a single, final logical resolution."
-  },
-  {
-    "word": "retibi",
-    "english_equiv": "Return",
-    "part_of_speech": "Verb",
-    "definition": "To reverse course and go back to a previous physical location or baseline abstract state."
-  },
-  {
-    "word": "eksapli",
-    "english_equiv": "Explain / Describe",
-    "part_of_speech": "Verb",
-    "definition": "To structurally clarify data, logic, or meaning to make it perfectly comprehensible to another mind."
-  },
-  {
-    "word": "kiacaki",
-    "english_equiv": "Carry / Bring",
-    "part_of_speech": "Verb",
-    "definition": "To physically support the weight of a load and transport it from one location to another."
-  },
-  {
-    "word": "jopxi",
-    "english_equiv": "Receive",
-    "part_of_speech": "Verb",
-    "definition": "To passively or actively accept delivery and take possession of something offered or sent.",
-    "usage_note": "The 'take delivery' sense: accepting something offered or sent. Distinct from ixovi (to receive/endure something imposed by an outside force)."
-  },
-  {
-    "word": "dzefi",
-    "english_equiv": "Agree / Accept",
-    "part_of_speech": "Verb",
-    "definition": "To mathematically or logically align with another entity's opinion, statement, or abstract state."
-  },
-  {
-    "word": "oxti",
-    "english_equiv": "Protect",
-    "part_of_speech": "Verb",
-    "definition": "To actively maintain a barrier that keeps an entity or system safe from physical harm or logical corruption."
-  },
-  {
-    "word": "ebmeri",
-    "english_equiv": "Remember",
-    "part_of_speech": "Verb",
-    "definition": "To successfully retrieve historical data, past events, or abstract knowledge from storage back into active memory."
-  },
-  {
-    "word": "cetofi",
-    "english_equiv": "Show / Display",
-    "part_of_speech": "Verb",
-    "definition": "To intentionally make a physical object, concept, or data visually or intellectually apparent to another entity."
-  },
-  {
-    "word": "linuci",
-    "english_equiv": "Happen / Occur",
-    "part_of_speech": "Verb",
-    "definition": "To take place or come into existence as an event, typically used for an action that has no specific, conscious agent."
-  },
-  {
-    "word": "hi",
-    "english_equiv": "To Be / To Exist As",
-    "part_of_speech": "Verb",
-    "definition": "To Be / To Exist. An explicit copula and existential verb. It is strictly forbidden in its unmodified form and must always bear a consonant suffix (such as tense, aspect, or an infinitive stacker) to be legally processed by the SVO track."
-  },
-  {
-    "word": "iraki",
-    "english_equiv": "Cry",
-    "part_of_speech": "Verb",
-    "definition": "To shed biological tears as a physiological response to distress, pain, or overwhelming subjective feeling."
-  },
-  {
-    "word": "hatzi",
-    "english_equiv": "Laugh / Smile",
-    "part_of_speech": "Verb",
-    "definition": "To express sudden amusement, joy, or positive emotion through facial alteration and rhythmic vocalization."
-  },
-  {
-    "word": "otani",
-    "english_equiv": "Cook",
-    "part_of_speech": "Verb",
-    "definition": "To chemically or physically alter food matter for consumption by systematically applying thermal energy."
-  },
-  {
-    "word": "zopi",
-    "english_equiv": "Jump",
-    "part_of_speech": "Verb",
-    "definition": "To temporarily propel a physical body upward into the air using a sudden application of kinetic force."
-  },
-  {
-    "word": "ebnesi",
-    "english_equiv": "Forget",
-    "part_of_speech": "Verb",
-    "definition": "To lose access to stored mental data; the systemic inability to retrieve a past event or learned concept."
-  },
-  {
-    "word": "baili",
-    "english_equiv": "Borrow",
-    "part_of_speech": "Verb",
-    "definition": "To temporarily take or receive physical possession of something with the strict intention of returning it to its owner."
-  },
-  {
-    "word": "toili",
-    "english_equiv": "Lend",
-    "part_of_speech": "Verb",
-    "definition": "To temporarily give or provide something to someone with the explicit expectation that it will be returned."
-  },
-  {
-    "word": "fenuti",
-    "english_equiv": "Tell",
-    "part_of_speech": "Verb",
-    "definition": "To communicate specific information, facts, or instructions directly to another entity."
-  },
-  {
-    "word": "ebziki",
-    "english_equiv": "Recognize",
-    "part_of_speech": "Verb",
-    "definition": "To successfully identify an entity or concept from previous experience, stored data, or memory."
-  },
-  {
-    "word": "malxi",
-    "english_equiv": "Dance",
-    "part_of_speech": "Verb",
-    "definition": "To move one's body rhythmically, often in sequence with music, to express emotion or engage in a social activity."
-  },
-  {
-    "word": "skumki",
-    "english_equiv": "Destroy",
-    "part_of_speech": "Verb",
-    "definition": "To break down, ruin, or dismantle a physical object or abstract system so completely that it no longer structurally exists or functions."
-  },
-  {
-    "word": "fuali",
-    "english_equiv": "Catch",
-    "part_of_speech": "Verb",
-    "definition": "To successfully intercept and hold a physical object moving through the air, or to capture an entity that is actively fleeing."
-  },
-  {
-    "word": "hevi",
-    "english_equiv": "Forgive",
-    "part_of_speech": "Verb",
-    "definition": "To logically or emotionally pardon an offense, effectively terminating any anger, resentment, or desire for punishment toward another entity."
-  },
-  {
-    "word": "sarmi",
-    "english_equiv": "Taste",
-    "part_of_speech": "Verb",
-    "definition": "To perceive the flavor of food or liquid in the mouth."
-  },
-  {
-    "word": "dormi",
-    "english_equiv": "Swim",
-    "part_of_speech": "Verb",
-    "definition": "To actively propel oneself through liquid."
-  },
-  {
-    "word": "asmki",
-    "english_equiv": "Tie / Bind",
-    "part_of_speech": "Verb",
-    "definition": "To fasten or secure something using a string or rope."
-  },
-  {
-    "word": "givi",
-    "english_equiv": "Dig / Excavate",
-    "part_of_speech": "Verb",
-    "definition": "To break up and move ground or earth."
-  },
-  {
-    "word": "zanki",
-    "english_equiv": "Hide / Conceal",
-    "part_of_speech": "Verb",
-    "definition": "To place an entity out of sight or prevent it from being found."
-  },
-  {
-    "word": "ovami",
-    "english_equiv": "To arrive",
-    "part_of_speech": "Verb",
-    "definition": "To complete a physical or conceptual journey and successfully transition into a final destination.",
-    "usage_note": "Emphasizes completing a journey and transitioning into the destination. Compare jobori (to actively reach a point, limit, or endpoint)."
-  },
-  {
-    "word": "enri",
-    "english_equiv": "To go inside / Come inside / Enter",
-    "part_of_speech": "Verb",
-    "definition": "To physically move from the exterior environment into the interior of an enclosure or defined space."
-  },
-  {
-    "word": "kutgi",
-    "english_equiv": "To become / To turn into / To succeed",
-    "part_of_speech": "Verb",
-    "definition": "To undergo a complete transformation into a new state or entity, or to successfully bring an intended result into reality.",
-    "usage_note": "Distinct from tumi (change), which just means to alter; kutgi implies a finalized transformation or success."
-  },
-  {
-    "word": "rizi",
-    "english_equiv": "To get up / To rise/ to ascend / Wake",
-    "part_of_speech": "Verb",
-    "definition": "To actively move oneself from a lower physical position to a higher one (such as standing up from a bed or chair), or for a celestial body to ascend.",
-    "usage_note": "Distinct from todyri (raise), which is the transitive action of lifting something else."
-  },
-  {
-    "word": "leoci",
-    "english_equiv": "Turn on / Activate",
-    "part_of_speech": "Verb",
-    "definition": "To activate, power on, or initiate the active function of a machine, system, or electronic device.",
-    "usage_note": "Distinct from cimi (to start an event) and xosi (to physically open a door)."
-  },
-  {
-    "word": "vansi",
-    "english_equiv": "Advance / Progress",
-    "part_of_speech": "Verb",
-    "definition": "To advance, move forward logically, or progress systematically toward a goal or higher state."
-  },
-  {
-    "word": "falmi",
-    "english_equiv": "To report / To recount",
-    "part_of_speech": "Verb",
-    "definition": "To officially retell, record, or communicate the factual details of events that have already taken place.",
-    "usage_note": "Distinct from nari (to tell), which is general communication; falmi implies an objective recounting of history or data."
-  },
-  {
-    "word": "ozepi",
-    "english_equiv": "To wish / To desire",
-    "part_of_speech": "Verb",
-    "definition": "To feel or express a strong hope or longing for a specific outcome or reality, often one that is not immediately or easily attainable."
-  },
-  {
-    "word": "falazi",
-    "english_equiv": "To journal / To record",
-    "part_of_speech": "Verb",
-    "definition": "To actively write down, log, or systematically record events, thoughts, or experiences that have taken place, typically for personal reflection or historical preservation."
-  },
-  {
-    "word": "waxi",
-    "english_equiv": "To exercise / To move actively",
-    "part_of_speech": "Verb",
-    "definition": "To actively move one's biological body to exert energy, maintain health, or engage in physical recreation."
-  },
-  {
-    "word": "etypi",
-    "english_equiv": "To get / To obtain",
-    "part_of_speech": "Verb",
-    "definition": "To actively and successfully acquire, gain possession of, or secure a physical object or abstract concept. (Implies active effort or successful acquisition)."
-  },
-  {
-    "word": "ixovi",
-    "english_equiv": "To receive / To endure / Be subject to",
-    "part_of_speech": "Verb",
-    "definition": "To passively take in an action, object, or circumstance placed upon the subject by an outside force; to bear or endure an experience.",
-    "usage_note": "The 'undergo/endure' sense: passively taking in something imposed. Distinct from jopxi (to accept delivery of something offered)."
-  },
-  {
-    "word": "arcipi",
-    "english_equiv": "To participate / To join",
-    "part_of_speech": "Verb",
-    "definition": "To actively enter into an event, group, or activity and take part in its ongoing processes."
-  },
-  {
-    "word": "ikapi",
-    "english_equiv": "To influence / To affect",
-    "part_of_speech": "Verb",
-    "definition": "To exert a non-physical force or abstract power upon an entity, thereby altering its development, behavior, or conceptual state."
-  },
-  {
-    "word": "orari",
-    "english_equiv": "To stir-fry / To sauté",
-    "part_of_speech": "Verb",
-    "definition": "To cook food quickly by moving it continuously in a small amount of hot oil over high heat."
-  },
-  {
-    "word": "edorari",
-    "english_equiv": "To deep fry",
-    "part_of_speech": "Verb",
-    "definition": "To cook a physical object by completely submerging it in boiling fat or oil."
-  },
-  {
-    "word": "akari",
-    "english_equiv": "To roast / To bake",
-    "part_of_speech": "Verb",
-    "definition": "To cook food using dry, ambient heat in an enclosed space (like an oven) or over an open flame."
-  },
-  {
-    "word": "solfi",
-    "english_equiv": "To solve / To settle",
-    "part_of_speech": "Verb",
-    "definition": "To actively investigate and successfully find an answer, explanation, or peaceful resolution to a problem or dispute."
-  },
-  {
-    "word": "jobori",
-    "english_equiv": "To arrive / To reach",
-    "part_of_speech": "Verb",
-    "definition": "To actively reach a destination, limit, or end point.",
-    "usage_note": "Emphasizes actively reaching a destination, limit, or endpoint. Compare ovami (completing a journey into a destination)."
-  },
-  {
-    "word": "guami",
-    "english_equiv": "To calculate / To count / Measure",
-    "part_of_speech": "Verb",
-    "definition": "To actively utilize numbers or perform a mathematical calculation. Derived mathematically by appending the verb suffix -i to the abstract noun gu (Number)."
-  },
-  {
-    "word": "golmi",
-    "english_equiv": "Reform /  Improve",
-    "part_of_speech": "Verb",
-    "definition": "To actively make changes to an abstract system, institution, or practice in order to improve it."
-  },
-  {
-    "word": "fuqedi",
-    "english_equiv": "To demand / To require",
-    "part_of_speech": "Verb",
-    "definition": "To actively ask for something with strict necessity or authoritative expectation."
-  },
-  {
-    "word": "vianci",
-    "english_equiv": "To dare",
-    "part_of_speech": "Verb",
-    "definition": "To have the courage to execute an action despite fear or risk."
-  },
-  {
-    "word": "avowi",
-    "english_equiv": "To drop / To let fall",
-    "part_of_speech": "Verb",
-    "definition": "To intentionally or accidentally release a physical object from one's grasp, allowing gravity to pull it down.",
-    "usage_note": "Distinct from sowi, the intransitive act of falling."
-  },
-  {
-    "word": "tovni",
-    "english_equiv": "To establish / To set up",
-    "part_of_speech": "Verb",
-    "definition": "To officially create, start, or set up an abstract organization, business, or systemic institution."
-  },
-  {
-    "word": "fatli",
-    "english_equiv": "To depend on / To rely on",
-    "part_of_speech": "Verb",
-    "definition": "To require the support, action, or existence of another entity in order to function, survive, or succeed."
-  },
-  {
-    "word": "oxopi",
-    "english_equiv": "To organize / To coordinate",
-    "part_of_speech": "Verb",
-    "definition": "To actively arrange entities, systems, or events into a structured and logical order."
-  },
-  {
-    "word": "fanzi",
-    "english_equiv": "To introduce / To present",
-    "part_of_speech": "Verb",
-    "definition": "To intentionally make a person, concept, or thing known to another entity for the first time."
-  },
-  {
-    "word": "onasi",
-    "english_equiv": "To plant / To cultivate",
-    "part_of_speech": "Verb",
-    "definition": "To actively grow, tend to, or farm biological crops or plants."
-  },
-  {
-    "word": "kopi",
-    "english_equiv": "To order / To command",
-    "part_of_speech": "Verb",
-    "definition": "To give an authoritative instruction or direct order to another entity."
-  },
-  {
-    "word": "fuzi",
-    "english_equiv": "To support / To back",
-    "part_of_speech": "Verb",
-    "definition": "To actively provide conceptual, logistical, or moral backing to a person, idea, or system."
-  },
-  {
-    "word": "volni",
-    "english_equiv": "To be willing to / To consent to",
-    "part_of_speech": "Verb",
-    "definition": "To have a favorable disposition, readiness, or uncoerced agreement to perform an action."
-  },
-  {
-    "word": "laeki",
-    "english_equiv": "To choose / To select",
-    "part_of_speech": "Verb",
-    "definition": "To actively pick out one or more physical or conceptual options from a larger set of alternatives."
-  },
-  {
-    "word": "ozoxi",
-    "english_equiv": "To occupy / To take up",
-    "part_of_speech": "Verb",
-    "definition": "To fill a physical space, consume a duration of time, or hold a specific position."
-  },
-  {
-    "word": "vahimi",
-    "english_equiv": "Handle / Deal with",
-    "part_of_speech": "Verb",
-    "definition": "To actively direct, manage, or take organizational/disciplinary action regarding a situation, problem, or entity."
-  },
-  {
-    "word": "bikli",
-    "english_equiv": "Publish / Issue",
-    "part_of_speech": "Verb",
-    "definition": "To officially prepare and issue a book, journal, piece of media, or statement for broad public distribution."
-  },
-  {
-    "word": "sioxi",
-    "english_equiv": "Hold / Host (an event)",
-    "part_of_speech": "Verb",
-    "definition": "To officially facilitate, provide the space for, or preside over an abstract event, meeting, or performance."
-  },
-  {
-    "word": "ivati",
-    "english_equiv": "Weigh",
-    "part_of_speech": "Verb",
-    "definition": "To actively measure the heavy weight or physical mass of an object or biological entity"
-  },
-  {
-    "word": "pywi",
-    "english_equiv": "Listen",
-    "part_of_speech": "Verb",
-    "definition": "To make a conscious effort to hear; to pay attention to sound.",
-    "usage_note": "The active effort, distinct from passive hearing."
-  },
-  {
-    "word": "iymi",
-    "english_equiv": "Look",
-    "part_of_speech": "Verb",
-    "definition": "To direct one's gaze or visual attention in a specific direction.",
-    "usage_note": "The active effort, distinct from passive seeing."
-  },
-  {
-    "word": "uyji",
-    "english_equiv": "Wash",
-    "part_of_speech": "Verb",
-    "definition": "To clean something (like the body, clothes, or dishes) using water and typically soap."
-  },
-  {
-    "word": "wiki",
-    "english_equiv": "Squeeze",
-    "part_of_speech": "Verb",
-    "definition": "To firmly press or compress something, typically to extract liquid or change its shape."
-  },
-  {
-    "word": "onli",
-    "english_equiv": "Rub",
-    "part_of_speech": "Verb",
-    "definition": "To apply friction or pressure to a surface by moving something back and forth over it."
-  },
-  {
-    "word": "vifi",
-    "english_equiv": "Boil",
-    "part_of_speech": "Verb",
-    "definition": "To heat a liquid until it reaches its boiling point and turns into vapor."
-  },
-  {
-    "word": "iqi",
-    "english_equiv": "Doubt",
-    "part_of_speech": "Verb",
-    "definition": "To feel uncertain about something, or to lack conviction in a truth.",
-    "usage_note": "Leans away from a claim's truth. For a weak positive lean on partial evidence (classically something bad or hidden), use skaxebi (to suspect)."
-  },
-  {
-    "word": "xibi",
-    "english_equiv": "Promise",
-    "part_of_speech": "Verb",
-    "definition": "To state or declare that one will definitely do or not do a specific action."
-  },
-  {
-    "word": "efmi",
-    "english_equiv": "Steal",
-    "part_of_speech": "Verb",
-    "definition": "To take another person's property without permission or legal right."
-  },
-  {
-    "word": "eybi",
-    "english_equiv": "Defend",
-    "part_of_speech": "Verb",
-    "definition": "To protect someone or something from harm, danger, or attack."
-  },
-  {
-    "word": "vyzi",
-    "english_equiv": "Escape",
-    "part_of_speech": "Verb",
-    "definition": "To break free from confinement, danger, or control."
-  },
-  {
-    "word": "juhi",
-    "english_equiv": "Worry",
-    "part_of_speech": "Verb",
-    "definition": "To feel anxious, uneasy, or troubled about potential problems."
-  },
-  {
-    "word": "jyqi",
-    "english_equiv": "Refuse / Reject",
-    "part_of_speech": "Verb",
-    "definition": "To show or state unwillingness to accept, do, or grant something."
-  },
-  {
-    "word": "piji",
-    "english_equiv": "Warn",
-    "part_of_speech": "Verb",
-    "definition": "To inform someone in advance of an impending danger, threat, or problem."
-  },
-  {
-    "word": "izli",
-    "english_equiv": "Invite",
-    "part_of_speech": "Verb",
-    "definition": "To formally or friendly request the presence or participation of someone."
-  },
-  {
-    "word": "umzi",
-    "english_equiv": "Welcome / Greet",
-    "part_of_speech": "Verb",
-    "definition": "To greet someone in a warm, friendly, and hospitable manner upon their arrival."
-  },
-  {
-    "word": "pegi",
-    "english_equiv": "Fold",
-    "part_of_speech": "Verb",
-    "definition": "To bend something flexible over on itself so that one part of it covers another."
-  },
-  {
-    "word": "ibvi",
-    "english_equiv": "Pour",
-    "part_of_speech": "Verb",
-    "definition": "To flow or cause to flow in a stream from a container."
-  },
-  {
-    "word": "ipti",
-    "english_equiv": "Spill",
-    "part_of_speech": "Verb",
-    "definition": "To cause or allow liquid or solid to run or fall from a container."
-  },
-  {
-    "word": "ugni",
-    "english_equiv": "Leak",
-    "part_of_speech": "Verb",
-    "definition": "To accidentally lose or admit contents (typically fluid) through a hole, crack, or defect."
-  },
-  {
-    "word": "uzki",
-    "english_equiv": "Hunt",
-    "part_of_speech": "Verb",
-    "definition": "To pursue and capture or kill wild animals for food or sport."
-  },
-  {
-    "word": "aefi",
-    "english_equiv": "Slip / Slide",
-    "part_of_speech": "Verb",
-    "definition": "To slide accidentally or lose one's footing on a slippery surface."
-  },
-  {
-    "word": "upvi",
-    "english_equiv": "Stretch",
-    "part_of_speech": "Verb",
-    "definition": "To make something longer or wider by pulling it, or to extend one's limbs."
-  },
-  {
-    "word": "wubi",
-    "english_equiv": "Bend",
-    "part_of_speech": "Verb",
-    "definition": "To shape or force something straight into a curve or angle."
-  },
-  {
-    "word": "ruwi",
-    "english_equiv": "Twist",
-    "part_of_speech": "Verb",
-    "definition": "To turn or spin something around a central axis, or to distort its shape."
-  },
-  {
-    "word": "ufdi",
-    "english_equiv": "Shake",
-    "part_of_speech": "Verb",
-    "definition": "To move back and forth or up and down with short, quick, repetitive movements."
-  },
-  {
-    "word": "niwi",
-    "english_equiv": "Scrape",
-    "part_of_speech": "Verb",
-    "definition": "To drag a hard, sharp, or rough implement across a surface, typically to clean, smooth, or remove material."
-  },
-  {
-    "word": "epzi",
-    "english_equiv": "Polish",
-    "part_of_speech": "Verb",
-    "definition": "To rub a surface to make it smooth, shiny, and reflective."
-  },
-  {
-    "word": "eipi",
-    "english_equiv": "Tear / Rip",
-    "part_of_speech": "Verb",
-    "definition": "To pull apart or into pieces by force."
-  },
-  {
-    "word": "agmi",
-    "english_equiv": "Glue / Paste",
-    "part_of_speech": "Verb",
-    "definition": "To fasten, stick, or bind things together using an adhesive substance."
-  },
-  {
-    "word": "axli",
-    "english_equiv": "Climb",
-    "part_of_speech": "Verb",
-    "definition": "To go up, ascend, or scale something, typically using both hands and feet."
-  },
-  {
-    "word": "afbi",
-    "english_equiv": "Crawl",
-    "part_of_speech": "Verb",
-    "definition": "To move forward close to the ground, typically on hands and knees."
-  },
-  {
-    "word": "utmi",
-    "english_equiv": "Float",
-    "part_of_speech": "Verb",
-    "definition": "To rest or move slowly on or near the surface of a liquid without sinking, or drift in the air."
-  },
-  {
-    "word": "auvi",
-    "english_equiv": "Sink",
-    "part_of_speech": "Verb",
-    "definition": "To go down below the surface of a liquid, or fall slowly toward the bottom."
-  },
-  {
-    "word": "huji",
-    "english_equiv": "Hang",
-    "part_of_speech": "Verb",
-    "definition": "To attach, suspend, or be attached at the top so that the lower part is free."
-  },
-  {
-    "word": "jisi",
-    "english_equiv": "Drip",
-    "part_of_speech": "Verb",
-    "definition": "To fall in small, distinct drops of liquid."
-  },
-  {
-    "word": "ilpi",
-    "english_equiv": "Kneel",
-    "part_of_speech": "Verb",
-    "definition": "To support oneself on one or both knees."
-  },
-  {
-    "word": "akdi",
-    "english_equiv": "Shout / Yell",
-    "part_of_speech": "Verb",
-    "definition": "To speak, cry out, or call in a very loud voice, typically expressing strong emotion."
-  },
-  {
-    "word": "opdi",
-    "english_equiv": "Whisper",
-    "part_of_speech": "Verb",
-    "definition": "To speak very softly using one's breath rather than vocal cords to prevent others from hearing."
-  },
-  {
-    "word": "weli",
-    "english_equiv": "Interrupt",
-    "part_of_speech": "Verb",
-    "definition": "To stop someone in the middle of an action, speech, or process."
-  },
-  {
-    "word": "gulipi",
-    "english_equiv": "Download",
-    "part_of_speech": "Verb",
-    "definition": "To actively copy, transfer, or retrieve data from the internet or another system into a local device or file."
-  },
-  {
-    "word": "xwewi",
-    "english_equiv": "Excuse / Pardon",
-    "part_of_speech": "Verb",
-    "definition": "To excuse, forgive, or pardon someone for a minor social transgression or interruption."
-  },
-  {
-    "word": "opcori",
-    "english_equiv": "Stir / Mix (mechanically)",
-    "part_of_speech": "Verb",
-    "definition": "To move a spoon or other implement around in a liquid or other substance in order to mix it thoroughly."
-  },
-  {
-    "word": "luhaci",
-    "english_equiv": "To Treat / To Heal / Cure",
-    "part_of_speech": "Verb",
-    "definition": "To give medical care or attention to a person, illness, or injury."
-  },
-  {
-    "word": "hudywi",
-    "english_equiv": "To Cough",
-    "part_of_speech": "Verb",
-    "definition": "To expel air from the lungs with a sudden sharp sound, typically to clear the throat or respiratory airways."
-  },
-  {
-    "word": "ukwi",
-    "english_equiv": "To Judge / To Adjudicate",
-    "part_of_speech": "Verb",
-    "definition": "To form an opinion or conclusion about something, or to formally decide a case in a court of law."
-  },
-  {
-    "word": "tehidi",
-    "english_equiv": "To Study / To Review",
-    "part_of_speech": "Verb",
-    "definition": "To devote time and attention to acquiring knowledge on an academic subject."
-  },
-  {
-    "word": "uropi",
-    "english_equiv": "To Sing",
-    "part_of_speech": "Verb",
-    "definition": "To make musical sounds with the voice, especially words with a set tune."
-  },
-  {
-    "word": "zuti",
-    "english_equiv": "To go out / Come out",
-    "part_of_speech": "Verb",
-    "definition": "To physically move from the interior of an enclosure or defined space to the exterior environment."
-  },
-  {
-    "word": "mise",
-    "english_equiv": "Negative (mathematical)",
+    "word": "kase",
+    "english_equiv": "(Any / Whichever)",
     "part_of_speech": "Modifier",
-    "definition": "Marks a number as negative. Derived from the subtraction operator mis; attaches to a nested-flagged number (e.g. rajem mise = negative five, Rule 25)."
+    "definition": "This word describes something as being of free choice, where the specific identity does not matter."
   },
   {
-    "word": "zindi",
-    "english_equiv": "To ring / To chime",
-    "part_of_speech": "Verb",
-    "definition": "To actively produce a ringing or chiming sound, as a phone or bell."
-  },
-  {
-    "word": "hekri",
-    "english_equiv": "wear",
-    "part_of_speech": "Verb",
-    "definition": "To have clothing, footwear, or an accessory on the body; to be dressed in something."
-  },
-  {
-    "word": "dangu",
-    "english_equiv": "vacation / holiday",
-    "part_of_speech": "Abstract Noun",
-    "definition": "A period of rest and leisure away from work, study, or routine; a holiday or vacation."
-  },
-  {
-    "word": "kremba",
-    "english_equiv": "pet",
-    "part_of_speech": "Biological Noun",
-    "definition": "A tame animal kept for companionship or pleasure rather than for work or food."
-  },
-  {
-    "word": "plolso",
-    "english_equiv": "currency / monetary unit",
+    "word": "kazaro",
+    "english_equiv": "Trousers / Pants",
     "part_of_speech": "Concrete Noun",
-    "definition": "A generic unit of money or currency; a monetary denomination that can be counted. Specific named currencies use Tier-2 borrowings (e.g. euro-o)."
+    "definition": "A physical piece of clothing designed to cover the lower body and legs, featuring separate structural sections for each leg."
   },
   {
-    "word": "nel",
-    "english_equiv": "you're welcome",
-    "part_of_speech": "Grammar",
-    "definition": "Phatic reply acknowledging thanks; conveys 'you're welcome / no need.' Standalone on the Null Track (Rule 33)."
+    "word": "keamu",
+    "english_equiv": "Topic / Matter",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the specific subject, theme, or abstract concept being actively discussed, processed, or considered."
   },
   {
-    "word": "ov",
-    "english_equiv": "oh no",
-    "part_of_speech": "Grammar",
-    "definition": "Phatic expressing sympathy, dismay, or concern at bad news; 'oh no / that's awful.' Standalone on the Null Track (Rule 33)."
+    "word": "keane",
+    "english_equiv": "Whole / Entire / Complete",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an entity that is fully intact, unbroken, and comprising its absolute full extent.",
+    "usage_note": "Distinct from late (all), which calculates the total quantity of a group; keane describes a single thing being 100% complete."
   },
   {
-    "word": "tox",
-    "english_equiv": "cheers",
-    "part_of_speech": "Grammar",
-    "definition": "Phatic toast exchanged when drinking together; 'cheers.' Standalone on the Null Track (Rule 33)."
+    "word": "kefuju",
+    "english_equiv": "Taking for granted",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Treating a good as automatic or deserved, without gratitude or examination. Logical equivalent: Daq stelid cemup gawe. Daq nes xufukui. (He took the good thing. He is not grateful.)"
   },
   {
-    "word": "xex",
-    "english_equiv": "haha / laughter",
-    "part_of_speech": "Grammar",
-    "definition": "Phatic laughter token conveying amusement; 'haha.' Standalone on the Null Track (Rule 33)."
-  },
-  {
-    "word": "dez",
-    "english_equiv": "good morning",
-    "part_of_speech": "Grammar",
-    "definition": "Phatic greeting used in the morning; 'good morning.' Standalone on the Null Track (Rule 33)."
-  },
-  {
-    "word": "zib",
-    "english_equiv": "good evening",
-    "part_of_speech": "Grammar",
-    "definition": "Phatic greeting used in the evening; 'good evening.' Standalone on the Null Track (Rule 33)."
-  },
-  {
-    "word": "zet",
-    "english_equiv": "as for / regarding (topic marker)",
-    "part_of_speech": "Grammar",
-    "definition": "Topic marker. Placed at the absolute start of a sentence, it opens a topic phrase ('as for X / regarding X'); the wall 'can' (or 'pen') then closes the topic and hands off to the main clause (Rule 32.5).",
-    "usage_note": "Distinct from the preposition zety ('about'), which bridges mid-sentence."
+    "word": "kegla",
+    "english_equiv": "Grass.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A low, dense-growing plant with narrow leaves, typically covering lawns and fields. Follows nasa (plant) as a specific plant type."
   },
   {
     "word": "kehulu",
@@ -6400,130 +3507,184 @@ const dictionaryData = [
     "usage_note": "Distinct from canpu (a broader community) and from named individual relatives such as nupa (parent), saqa (sibling), and jepa (offspring)."
   },
   {
-    "word": "jahizi",
-    "english_equiv": "Marry.",
+    "word": "kejaklu",
+    "english_equiv": "Loneliness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The painful state of unwanted solitude or isolation; a felt condition of being alone, distinct from fycisi (to miss), which is directed at a specific absent entity."
+  },
+  {
+    "word": "kekusni",
+    "english_equiv": "Copy / Duplicate",
     "part_of_speech": "Verb",
-    "definition": "To enter into a marital partnership with another individual, forming the spouse relation (hazba / sifa); the act that establishes a marriage."
+    "definition": "To produce an exact duplicate of something, leaving the original unchanged."
   },
   {
-    "word": "fehedi",
-    "english_equiv": "Divorce.",
-    "part_of_speech": "Verb",
-    "definition": "To formally dissolve a marital partnership, ending the spouse relation between two individuals; the reverse of jahizi (to marry)."
+    "word": "kep",
+    "english_equiv": "Factual / Objective",
+    "part_of_speech": "Grammar",
+    "definition": "An objective statement, scientific truth, or absolute fact, strictly excluding everyday observations."
   },
   {
-    "word": "zovi",
-    "english_equiv": "to exist",
-    "part_of_speech": "Verb",
-    "definition": "To exist; to be present in reality. A bare existential verb for stating that something is, used where the copula hi cannot apply (it requires a suffix) and the Zero Copula cannot (it requires a complement)."
-  },
-  {
-    "word": "hylsa",
-    "english_equiv": "Lip.",
-    "part_of_speech": "Biological Noun",
-    "definition": "One of the two soft fleshy edges forming the opening of the mouth (ylxa); used in speech and eating."
-  },
-  {
-    "word": "xonka",
-    "english_equiv": "Chin.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The forward-projecting bony part of the lower jaw, below the mouth."
-  },
-  {
-    "word": "splaka",
-    "english_equiv": "Cheek.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The soft fleshy side of the face, between the eye and the jaw."
-  },
-  {
-    "word": "brekra",
-    "english_equiv": "Forehead.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The upper front part of the face, above the eyebrows and below the hairline."
-  },
-  {
-    "word": "kryska",
-    "english_equiv": "Waist.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The narrow middle part of the torso, between the ribs and the hips."
-  },
-  {
-    "word": "tefama",
-    "english_equiv": "Hip.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The joint and surrounding area where the leg meets the torso, at the side of the pelvis."
-  },
-  {
-    "word": "trynda",
-    "english_equiv": "Ankle.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The joint connecting the foot to the leg."
-  },
-  {
-    "word": "pujypa",
-    "english_equiv": "Heel.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The rounded back part of the foot, below the ankle."
-  },
-  {
-    "word": "brempa",
-    "english_equiv": "Elbow.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The joint connecting the upper arm to the forearm."
-  },
-  {
-    "word": "bofama",
-    "english_equiv": "Wrist.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The joint connecting the hand to the forearm."
-  },
-  {
-    "word": "bahara",
-    "english_equiv": "Palm.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The inner, flat surface of the hand, between the wrist and the fingers."
-  },
-  {
-    "word": "dedapa",
-    "english_equiv": "Thumb.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The short, thick first digit of the hand, opposable to the other four fingers."
-  },
-  {
-    "word": "frisma",
-    "english_equiv": "Rib.",
-    "part_of_speech": "Biological Noun",
-    "definition": "One of the curved bones forming the cage that protects the chest cavity."
-  },
-  {
-    "word": "vesma",
-    "english_equiv": "Liver.",
-    "part_of_speech": "Biological Noun",
-    "definition": "The internal organ that filters the blood and processes nutrients and toxins."
-  },
-  {
-    "word": "skrybi",
-    "english_equiv": "To sneeze.",
-    "part_of_speech": "Verb",
-    "definition": "To expel air suddenly and involuntarily through the nose and mouth, typically from irritation."
-  },
-  {
-    "word": "nikri",
-    "english_equiv": "To swallow.",
-    "part_of_speech": "Verb",
-    "definition": "To move food, drink, or saliva from the mouth down the throat into the stomach."
-  },
-  {
-    "word": "braci",
-    "english_equiv": "To chew.",
-    "part_of_speech": "Verb",
-    "definition": "To crush and grind food between the teeth before swallowing."
-  },
-  {
-    "word": "frice",
-    "english_equiv": "Deaf.",
+    "word": "keqe",
+    "english_equiv": "Native",
     "part_of_speech": "Modifier",
-    "definition": "Unable to hear; lacking the sense of hearing. Parallels nenoje (blind) as the sensory-loss modifier for hearing."
+    "definition": "Associated with the place or circumstances of a person's birth or origin."
+  },
+  {
+    "word": "kewu",
+    "english_equiv": "Luck / Fortune",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Success or failure apparently brought by chance rather than one's own actions."
+  },
+  {
+    "word": "kezo",
+    "english_equiv": "Oil",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A viscous, thick liquid substance derived from petroleum or plants, functioning physically as a combustible fuel or mechanical lubricant."
+  },
+  {
+    "word": "kiagi",
+    "english_equiv": "Keep / Save",
+    "part_of_speech": "Verb",
+    "definition": "To retain continuous physical or legal possession of an object or state."
+  },
+  {
+    "word": "kicojo",
+    "english_equiv": "Gem / Jewel",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A precious stone cut or polished and valued for its beauty and rarity; the general category above specific minerals like nuwyko (amethyst)."
+  },
+  {
+    "word": "kifra",
+    "english_equiv": "Cherry tree.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A tree bearing small round stone-fruit, known for its blossoms."
+  },
+  {
+    "word": "kika",
+    "english_equiv": "Chicken / Fowl",
+    "part_of_speech": "Biological Noun",
+    "definition": "A common domesticated biological bird, typically kept for its eggs or meat."
+  },
+  {
+    "word": "kili",
+    "english_equiv": "Touch / Feel.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to perceive through physical contact or the sense of touch."
+  },
+  {
+    "word": "kimari",
+    "english_equiv": "Kill",
+    "part_of_speech": "Verb",
+    "definition": "To intentionally force the death or systemic termination of a biological entity."
+  },
+  {
+    "word": "kimu",
+    "english_equiv": "Death",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual state representing the permanent end of a biological life or system's existence."
+  },
+  {
+    "word": "kimugi",
+    "english_equiv": "Die",
+    "part_of_speech": "Verb",
+    "definition": "To permanently cease biological functions; the absolute termination of a living system."
+  },
+  {
+    "word": "kino",
+    "english_equiv": "Knife",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical tool or weapon consisting of a sharp, solid cutting edge or blade, usually attached to a grip or handle."
+  },
+  {
+    "word": "klazo",
+    "english_equiv": "Cloud",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a visible, physical mass of condensed atmospheric water vapor floating high in the sky."
+  },
+  {
+    "word": "kluxe",
+    "english_equiv": "Quiet / Silent",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an entity or environment producing little to no auditory energy; an absence of sound."
+  },
+  {
+    "word": "koci",
+    "english_equiv": "Need.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to require something because it is essential or very important."
+  },
+  {
+    "word": "kof",
+    "english_equiv": "Furthermore / Moreover / In addition",
+    "part_of_speech": "Grammar",
+    "definition": "A structural particle used to introduce an additional point, fact, or argument."
+  },
+  {
+    "word": "koklo",
+    "english_equiv": "Tile",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thin, flat, regular piece of fired clay, stone, or similar material, laid in rows to cover floors, walls, or roofs."
+  },
+  {
+    "word": "kompu",
+    "english_equiv": "Match / Competition (Sporting Event)",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An organized, time-bound contest or game between entities aiming to establish superiority or win based on a strict set of rules."
+  },
+  {
+    "word": "kop",
+    "english_equiv": "Command / Imperative",
+    "part_of_speech": "Grammar",
+    "definition": "A direct order or command."
+  },
+  {
+    "word": "kopi",
+    "english_equiv": "To order / To command",
+    "part_of_speech": "Verb",
+    "definition": "To give an authoritative instruction or direct order to another entity."
+  },
+  {
+    "word": "kowete",
+    "english_equiv": "Cyan",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting the blue-green color of shallow tropical water. Sits between loage (blue) and luare (green)."
+  },
+  {
+    "word": "kowygo",
+    "english_equiv": "Clay.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A fine-grained, pliable earth material that hardens when fired, used to make pottery and bricks."
+  },
+  {
+    "word": "koxe",
+    "english_equiv": "Bitter.",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a sharp, pungent taste sensation, often perceived as unpleasant, found in things like dark chocolate, coffee, or certain alkaloids."
+  },
+  {
+    "word": "krapo",
+    "english_equiv": "Wall",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A continuous, vertical solid structure made of brick, stone, wood, or metal that encloses or divides a physical area."
+  },
+  {
+    "word": "krekiki",
+    "english_equiv": "Crack / Creak",
+    "part_of_speech": "Verb",
+    "definition": "To produce a sharp snapping or slow grinding sound, as of wood straining or ice splitting."
+  },
+  {
+    "word": "kremba",
+    "english_equiv": "pet",
+    "part_of_speech": "Biological Noun",
+    "definition": "A tame animal kept for companionship or pleasure rather than for work or food."
+  },
+  {
+    "word": "krendi",
+    "english_equiv": "To share.",
+    "part_of_speech": "Verb",
+    "definition": "To give a portion of something to others, or to use or possess something jointly with others."
   },
   {
     "word": "kritri",
@@ -6533,24 +3694,2285 @@ const dictionaryData = [
     "usage_note": "Distinct from ibalirai (to act teacherly) and tehidi (to study)."
   },
   {
-    "word": "wafri",
-    "english_equiv": "To lose.",
-    "part_of_speech": "Verb",
-    "definition": "To cease to have or possess something (an object, a contest, or an opportunity); to be deprived of, or to be defeated.",
-    "usage_note": "Distinct from ebnesi (to forget)."
+    "word": "krome",
+    "english_equiv": "Brown",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting the dark, earthy color of soil, wood, or dead leaves."
   },
   {
-    "word": "krendi",
-    "english_equiv": "To share.",
-    "part_of_speech": "Verb",
-    "definition": "To give a portion of something to others, or to use or possess something jointly with others."
+    "word": "krulo",
+    "english_equiv": "Room",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physically enclosed space situated within a building, structurally separated by walls and accessed via a door."
   },
   {
-    "word": "vadzi",
-    "english_equiv": "To visit.",
+    "word": "kryska",
+    "english_equiv": "Waist.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The narrow middle part of the torso, between the ribs and the hips."
+  },
+  {
+    "word": "kuate",
+    "english_equiv": "Crooked / Bent",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an entity that is not straight; structurally forced out of its original linear shape or naturally winding."
+  },
+  {
+    "word": "kujondi",
+    "english_equiv": "Resist / Withstand / Endure",
     "part_of_speech": "Verb",
-    "definition": "To go to see and spend time with a person or place as a social or purposeful call.",
-    "usage_note": "Distinct from pli (come) and xali (go), which carry only motion."
+    "definition": "To hold firm against a force, effect, or pressure without yielding or being changed by it."
+  },
+  {
+    "word": "kunawa",
+    "english_equiv": "Orchid",
+    "part_of_speech": "Biological Noun",
+    "definition": "A flowering plant with showy, intricately shaped blooms, prized for its beauty."
+  },
+  {
+    "word": "kup",
+    "english_equiv": "Question / Request",
+    "part_of_speech": "Grammar",
+    "definition": "An explicit inquiry or request for information."
+  },
+  {
+    "word": "kupi",
+    "english_equiv": "Ask.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to say something in order to obtain an answer or some information."
+  },
+  {
+    "word": "kupmi",
+    "english_equiv": "Serve",
+    "part_of_speech": "Verb",
+    "definition": "To actively perform duties, provide help, or supply resources to another entity."
+  },
+  {
+    "word": "kuqso",
+    "english_equiv": "Bridge",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical structure built to span and provide passage over a physical obstacle, such as a river, road, or valley."
+  },
+  {
+    "word": "kuri",
+    "english_equiv": "Fear / Afraid",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to be afraid of someone or something."
+  },
+  {
+    "word": "kusulso",
+    "english_equiv": "Cake",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A sweet baked food made from flour, sugar, and fat, typically eaten for celebration or dessert."
+  },
+  {
+    "word": "kutgi",
+    "english_equiv": "To become / To turn into / To succeed",
+    "part_of_speech": "Verb",
+    "definition": "To undergo a complete transformation into a new state or entity, or to successfully bring an intended result into reality.",
+    "usage_note": "Distinct from tumi (change), which just means to alter; kutgi implies a finalized transformation or success."
+  },
+  {
+    "word": "ky",
+    "english_equiv": "at",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates general location, presence, or proximity at a specific point."
+  },
+  {
+    "word": "kyfa",
+    "english_equiv": "Bird.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a flying animal, typically characterized by feathers and wings."
+  },
+  {
+    "word": "kynu",
+    "english_equiv": "Summer",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The warmest season of the year, characterised by long days, high temperatures, and peak sunlight."
+  },
+  {
+    "word": "kype",
+    "english_equiv": "Happy.",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a state of feeling or showing pleasure."
+  },
+  {
+    "word": "kyrana",
+    "english_equiv": "Feather",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word refers to any of the flat, specialized epidermal structures that grow from a bird's skin to form its plumage."
+  },
+  {
+    "word": "kyti",
+    "english_equiv": "Like.",
+    "part_of_speech": "Verb",
+    "definition": "This verb expresses positive feelings towards something or someone and is completely subjective."
+  },
+  {
+    "word": "labne",
+    "english_equiv": "Same.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something identical or not different."
+  },
+  {
+    "word": "labuku",
+    "english_equiv": "No-retreat commitment",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Deliberately destroying one's own way back so one must succeed. Logical equivalent: Daq skumkid vyziup. Daq xeski fuqe nu. (He destroyed the escape. He must win now.)"
+  },
+  {
+    "word": "ladu",
+    "english_equiv": "Idea",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A single, newly formed thought, inspiration, or concept in the mind."
+  },
+  {
+    "word": "laeki",
+    "english_equiv": "To choose / To select",
+    "part_of_speech": "Verb",
+    "definition": "To actively pick out one or more physical or conceptual options from a larger set of alternatives."
+  },
+  {
+    "word": "lakiro",
+    "english_equiv": "Picture / Image / Photo",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical visual representation or static image captured by photography, painting, or printing on a tangible surface."
+  },
+  {
+    "word": "lamso",
+    "english_equiv": "Milk",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This identifies the opaque, nutrient-rich white liquid produced by the mammary glands of female mammals to feed their offspring."
+  },
+  {
+    "word": "lan",
+    "english_equiv": "Plus / And (Inline Additive)",
+    "part_of_speech": "Grammar",
+    "definition": "Binds elements of the same grammatical category. Can be chained for lists of three or more."
+  },
+  {
+    "word": "lande",
+    "english_equiv": "Small / Little",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something of limited size or extent."
+  },
+  {
+    "word": "lanti",
+    "english_equiv": "Add",
+    "part_of_speech": "Verb",
+    "definition": "To mathematically or physically join an entity to an existing group to increase the total quantity."
+  },
+  {
+    "word": "late",
+    "english_equiv": "All",
+    "part_of_speech": "Modifier",
+    "definition": "This word refers to the whole quantity or extent of a particular group or thing."
+  },
+  {
+    "word": "lebla",
+    "english_equiv": "Goat.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A horned farm mammal, raised for milk, meat, and hide."
+  },
+  {
+    "word": "lefe",
+    "english_equiv": "Hard.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something solid, firm, and resistant to pressure."
+  },
+  {
+    "word": "leha",
+    "english_equiv": "Fern",
+    "part_of_speech": "Biological Noun",
+    "definition": "A feathery-leaved, shade-loving plant that reproduces by spores."
+  },
+  {
+    "word": "lejo",
+    "english_equiv": "Stairs / Steps",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A series of steps leading from one level of a building to another, enabling ascent or descent."
+  },
+  {
+    "word": "lenawa",
+    "english_equiv": "Cactus",
+    "part_of_speech": "Biological Noun",
+    "definition": "A thick-stemmed desert plant covered in spines, storing water in its flesh."
+  },
+  {
+    "word": "leoci",
+    "english_equiv": "Turn on / Activate",
+    "part_of_speech": "Verb",
+    "definition": "To activate, power on, or initiate the active function of a machine, system, or electronic device.",
+    "usage_note": "Distinct from cimi (to start an event) and xosi (to physically open a door)."
+  },
+  {
+    "word": "lere",
+    "english_equiv": "Ten",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number equivalent to the product of five and two, or one more than nine."
+  },
+  {
+    "word": "letse",
+    "english_equiv": "Dirty.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something covered or marked with an unclean substance."
+  },
+  {
+    "word": "leupe",
+    "english_equiv": "Red.",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting the color of blood or fire."
+  },
+  {
+    "word": "levidzo",
+    "english_equiv": "Cave",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A natural hollow space or passage under the ground or inside a mountain, large enough to enter."
+  },
+  {
+    "word": "lexogla",
+    "english_equiv": "Mule",
+    "part_of_speech": "Biological Noun",
+    "definition": "The sturdy offspring of a donkey (cowaba) and a horse (kaba), bred to carry loads."
+  },
+  {
+    "word": "liame",
+    "english_equiv": "pink",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting a pale red color, often resembling the color of a rose or flushed skin."
+  },
+  {
+    "word": "liboso",
+    "english_equiv": "Slime / Goo",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A viscous, sticky, semi-liquid substance."
+  },
+  {
+    "word": "lica",
+    "english_equiv": "Colleague",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person with whom one works in the same organisation, profession, or shared endeavour; a co-worker or professional peer."
+  },
+  {
+    "word": "liene",
+    "english_equiv": "Even / Including (as an extreme)",
+    "part_of_speech": "Modifier",
+    "definition": "A modifier used to emphasize that something is surprising, extreme, or an unexpected inclusion, acting structurally to scale the noun or verb it modifies to an unexpected limit."
+  },
+  {
+    "word": "lini",
+    "english_equiv": "Cause.",
+    "part_of_speech": "Verb",
+    "definition": "To make something happen or exist; to bring about a result or effect."
+  },
+  {
+    "word": "linuci",
+    "english_equiv": "Happen / Occur",
+    "part_of_speech": "Verb",
+    "definition": "To take place or come into existence as an event, typically used for an action that has no specific, conscious agent."
+  },
+  {
+    "word": "liru",
+    "english_equiv": "Direction",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the abstract spatial orientation, line, or course along which an entity moves, points, or faces."
+  },
+  {
+    "word": "lisibu",
+    "english_equiv": "Career / Cause / Major Undertaking",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract conceptual pursuit, a lifelong professional path, or a major dedicated undertaking.",
+    "usage_note": "Distinct from jobu, a standard day-to-day job."
+  },
+  {
+    "word": "lito",
+    "english_equiv": "Light.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This describes photon energy or the natural agent that stimulates sight and makes things visible."
+  },
+  {
+    "word": "lixe",
+    "english_equiv": "Wet.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something covered or saturated with water or another liquid."
+  },
+  {
+    "word": "loage",
+    "english_equiv": "Blue.",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting the color of the clear sky."
+  },
+  {
+    "word": "locale",
+    "english_equiv": "Local",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something strictly belonging or relating to a particular, confined area or neighborhood, rather than a broad region."
+  },
+  {
+    "word": "locwe",
+    "english_equiv": "White / Light.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes the color of fresh snow or milk, reflecting all visible rays of light."
+  },
+  {
+    "word": "lodro",
+    "english_equiv": "Banner / Flag.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A piece of cloth bearing a design or symbol, displayed as an emblem or signal."
+  },
+  {
+    "word": "logega",
+    "english_equiv": "Throat",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word identifies the internal muscular passage extending from the back of the mouth down toward the lungs and stomach."
+  },
+  {
+    "word": "loho",
+    "english_equiv": "Armor.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "Protective covering worn over the body to prevent injury, typically made of metal, leather, or hide."
+  },
+  {
+    "word": "loki",
+    "english_equiv": "Read",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to look at and comprehend the meaning of written or printed matter."
+  },
+  {
+    "word": "lome",
+    "english_equiv": "Narrow.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something of small width in relation to length."
+  },
+  {
+    "word": "lope",
+    "english_equiv": "Blunt / Dull.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something lacking a sharp edge or point."
+  },
+  {
+    "word": "loske",
+    "english_equiv": "Yellow.",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting the color of a lemon or gold."
+  },
+  {
+    "word": "lozuxu",
+    "english_equiv": "Song / Melody",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A short metrical composition intended or adapted for singing; a distinct piece of music."
+  },
+  {
+    "word": "luare",
+    "english_equiv": "Green.",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting the color of growing grass."
+  },
+  {
+    "word": "luge",
+    "english_equiv": "Able.",
+    "part_of_speech": "Modifier",
+    "definition": "This describes having the power, skill, means, or opportunity to do something."
+  },
+  {
+    "word": "luhaci",
+    "english_equiv": "To Treat / To Heal / Cure",
+    "part_of_speech": "Verb",
+    "definition": "To give medical care or attention to a person, illness, or injury."
+  },
+  {
+    "word": "lumbe",
+    "english_equiv": "Rarely.",
+    "part_of_speech": "Modifier",
+    "definition": "With low frequency; more than amce (never) but less than evle (sometimes). The antonym of tsenge (often)."
+  },
+  {
+    "word": "luoke",
+    "english_equiv": "Purple / Violet",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting a dark hue blending red and blue, often associated with twilight skies or certain flowers."
+  },
+  {
+    "word": "luso",
+    "english_equiv": "Key",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A small piece of shaped metal with specific physical incisions cut to mechanically fit and operate a specific lock."
+  },
+  {
+    "word": "lutufro",
+    "english_equiv": "Border / Boundary",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The line or strip marking the outer edge of an area, where one region ends and another begins."
+  },
+  {
+    "word": "luvwitu",
+    "english_equiv": "University / Higher Education / College",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A high-level conceptual institution of advanced academic learning, research, and degree qualification."
+  },
+  {
+    "word": "lyfro",
+    "english_equiv": "Wire",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thin flexible strand of metal, especially one carrying electricity."
+  },
+  {
+    "word": "lylta",
+    "english_equiv": "Lichen",
+    "part_of_speech": "Biological Noun",
+    "definition": "A slow-growing composite organism (fungus plus alga) that crusts rocks and trees."
+  },
+  {
+    "word": "lympi",
+    "english_equiv": "To rust / To oxidize / To corrode",
+    "part_of_speech": "Verb",
+    "definition": "To corrode through air or moisture; to rust or oxidize."
+  },
+  {
+    "word": "lynku",
+    "english_equiv": "Ruin by overdoing",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Destroying a complete thing by adding more to it. Logical equivalent: Cemup keaneid. Lantiup skumkid ram. (The thing was complete. The addition destroyed it.)"
+  },
+  {
+    "word": "lyse",
+    "english_equiv": "Right.",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the direction or side towards the east when facing north; opposite to left."
+  },
+  {
+    "word": "mace",
+    "english_equiv": "(Possible / Might / Maybe)",
+    "part_of_speech": "Modifier",
+    "definition": "Possible, but not logically or physically guaranteed."
+  },
+  {
+    "word": "magustu",
+    "english_equiv": "Magic",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract supernatural force or art by which impossible effects are willed into reality, outside the laws of nature."
+  },
+  {
+    "word": "maji",
+    "english_equiv": "Breathe.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to take air into the lungs and expel it."
+  },
+  {
+    "word": "malxi",
+    "english_equiv": "Dance",
+    "part_of_speech": "Verb",
+    "definition": "To move one's body rhythmically, often in sequence with music, to express emotion or engage in a social activity."
+  },
+  {
+    "word": "mana",
+    "english_equiv": "Mother",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the female parent of a biological offspring."
+  },
+  {
+    "word": "mantu",
+    "english_equiv": "Amount / Quantity",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The conceptual measurement, total volume, or numerical value of an entity or resource. (This is the noun form you would use to say The amount of water is high, where as wug is the grammar word used to ask What amount? / How much?)."
+  },
+  {
+    "word": "maoba",
+    "english_equiv": "Heart",
+    "part_of_speech": "Biological Noun",
+    "definition": "The physical, biological muscle organ that pumps blood through the circulatory system of an organism."
+  },
+  {
+    "word": "maobu",
+    "english_equiv": "Emotional Core",
+    "part_of_speech": "Abstract Noun",
+    "definition": "he abstract conceptual center of a person, often associated with deep intuition, morality, or emotional truth. (This is the conceptual understanding of the heart)."
+  },
+  {
+    "word": "mapa",
+    "english_equiv": "Finger.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies each of the long, slender members attached to the hand."
+  },
+  {
+    "word": "marte",
+    "english_equiv": "Eight",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number equivalent to the product of two and four."
+  },
+  {
+    "word": "mavaha",
+    "english_equiv": "Wheat",
+    "part_of_speech": "Biological Noun",
+    "definition": "A cereal grass whose grain is ground into flour for bread; a global staple crop. Follows vyfla (rice) as a specific staple."
+  },
+  {
+    "word": "mavuru",
+    "english_equiv": "Double gain",
+    "part_of_speech": "Abstract Noun",
+    "definition": "One action solving two problems. Logical equivalent: Epiwu bime solfi biwu dewe. (One action solves two problems.)"
+  },
+  {
+    "word": "mazutsa",
+    "english_equiv": "Monster",
+    "part_of_speech": "Biological Noun",
+    "definition": "A large, frightening creature of imagination or legend, typically hostile to humans."
+  },
+  {
+    "word": "mecubu",
+    "english_equiv": "Narrow worldview",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Believing one's small experience is the whole world. Logical equivalent: Daq nojaid cohe zol daq atilui tep daq kani late. (He saw little although he believes he knows all.)"
+  },
+  {
+    "word": "mehefo",
+    "english_equiv": "Compass",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instrument with a magnetized needle that always points north, used to find direction."
+  },
+  {
+    "word": "meka",
+    "english_equiv": "Bone",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to any of the pieces of hard, whitish tissue making up the skeleton in humans and other vertebrates."
+  },
+  {
+    "word": "melfu",
+    "english_equiv": "Price / Cost",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the amount of money expected, required, or given in payment for something."
+  },
+  {
+    "word": "meoko",
+    "english_equiv": "Hat",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A shaped physical covering for the head worn for environmental protection, warmth, or uniform."
+  },
+  {
+    "word": "meota",
+    "english_equiv": "Head.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies the upper part of the human body containing the brain, eyes, ears, nose, and mouth."
+  },
+  {
+    "word": "merifu",
+    "english_equiv": "Memory",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual faculty by which a mind or system stores, retains, and retrieves informational data."
+  },
+  {
+    "word": "mety",
+    "english_equiv": "By means of / Through / Via",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates the method, process, tool, or pathway utilized to achieve a specific result or destination. (e.g., I learned it via reading)."
+  },
+  {
+    "word": "mexi",
+    "english_equiv": "Birth.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to give life to a child or offspring."
+  },
+  {
+    "word": "mezuna",
+    "english_equiv": "Shell",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word refers to the hard, protective outer organic layer or exoskeleton naturally secreted and worn by certain animals, such as turtles or mollusks."
+  },
+  {
+    "word": "midora",
+    "english_equiv": "Watermelon",
+    "part_of_speech": "Biological Noun",
+    "definition": "A large, heavy biological fruit characterized by a hard green rind and sweet, watery red flesh."
+  },
+  {
+    "word": "mifa",
+    "english_equiv": "Animal.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies a living organism that is specifically a land-dwelling beast."
+  },
+  {
+    "word": "miho",
+    "english_equiv": "Shelf",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A flat, horizontal board or platform fixed to a wall or in a cupboard, used for holding objects."
+  },
+  {
+    "word": "miju",
+    "english_equiv": "Nature",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract inherent character, fundamental qualities, or conceptual essence of a thing."
+  },
+  {
+    "word": "mik",
+    "english_equiv": "I / me",
+    "part_of_speech": "Grammar",
+    "definition": "First-person singular; the speaker's body and mind."
+  },
+  {
+    "word": "mike",
+    "english_equiv": "My / Mine",
+    "part_of_speech": "Modifier",
+    "definition": "Strictly belonging to or associated with the speaker."
+  },
+  {
+    "word": "minza",
+    "english_equiv": "Nationality / Ethnic Group",
+    "part_of_speech": "Biological Noun",
+    "definition": "A biological and cultural grouping of people sharing common descent, history, or language."
+  },
+  {
+    "word": "mis",
+    "english_equiv": "Minus / Subtracted by",
+    "part_of_speech": "Grammar",
+    "definition": "This is an immutable mathematical operator used to perform explicit subtraction within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used as the subject of a Zero Copula sentence to state a timeless mathematical equation (e.g., raje mis dewe tafe = 5 minus 2 is 3)."
+  },
+  {
+    "word": "mise",
+    "english_equiv": "Negative (mathematical)",
+    "part_of_speech": "Modifier",
+    "definition": "Marks a number as negative. Derived from the subtraction operator mis; attaches to a nested-flagged number (e.g. rajem mise = negative five, Rule 25)."
+  },
+  {
+    "word": "mita",
+    "english_equiv": "Meat.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the flesh of an animal used as food."
+  },
+  {
+    "word": "mitero",
+    "english_equiv": "Meter",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The standard physical unit of measurement for length or distance."
+  },
+  {
+    "word": "moblo",
+    "english_equiv": "Vehicle",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A machine equipped with wheels, runners, or an engine, specifically built for transporting people or physical goods over a surface."
+  },
+  {
+    "word": "moda",
+    "english_equiv": "God",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a supreme being, divine creator, or principal object of faith and worship."
+  },
+  {
+    "word": "monto",
+    "english_equiv": "Mountain",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a massive, natural solid elevation of the earth's surface, rising abruptly to a peak from the surrounding ground."
+  },
+  {
+    "word": "mori",
+    "english_equiv": "Grow.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to increase in physical size, quantity, or maturity over a period of time."
+  },
+  {
+    "word": "mortsa",
+    "english_equiv": "Forest / Woods",
+    "part_of_speech": "Biological Noun",
+    "definition": "A dense biological collection or large group of trees growing together in a specific area."
+  },
+  {
+    "word": "mosa",
+    "english_equiv": "Tree",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies a large plant, typically having a single stem or trunk growing to a considerable height."
+  },
+  {
+    "word": "moskufu",
+    "english_equiv": "Respect",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Earned positive regard for a person's qualities or standing; a felt attitude, distinct from ezte (polite outward behavior), from suv (grammatical respectful address), and from truhu (awe, reverence mixed with fear)."
+  },
+  {
+    "word": "motuwu",
+    "english_equiv": "Grief",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Deep, object-directed sorrow caused by the loss of a person or cherished entity, as through death or permanent departure. Stronger and more focused than goile (general sadness), and never self-caused like briku (regret)."
+  },
+  {
+    "word": "move",
+    "english_equiv": "Vague / Fuzzy",
+    "part_of_speech": "Modifier",
+    "definition": "Not clearly expressed, described, or understood; indefinite."
+  },
+  {
+    "word": "moxy",
+    "english_equiv": "Among (them) / Within a group",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a spatial or conceptual bridge where the subject is surrounded by, or included as a distinct part of, a larger defined group or set. (e.g., The apple among the grapes)."
+  },
+  {
+    "word": "mu",
+    "english_equiv": "Soul.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the immaterial essence, spiritual core, or animating force of a being, regarded as distinct from both the physical body and the intellectual mind."
+  },
+  {
+    "word": "mudo",
+    "english_equiv": "Mud",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A wet, soft, and sticky physical mixture of earth (zaso) and water (dorso)."
+  },
+  {
+    "word": "muile",
+    "english_equiv": "Difficult",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes an action or concept requiring significant effort, skill, or time to accomplish or understand."
+  },
+  {
+    "word": "muk",
+    "english_equiv": "we / us (inclusive)",
+    "part_of_speech": "Grammar",
+    "definition": "First-person plural inclusive; the speaker, the listener, and potentially others."
+  },
+  {
+    "word": "muke",
+    "english_equiv": "Our / Ours (Inclusive)",
+    "part_of_speech": "Modifier",
+    "definition": "Strictly belonging to or associated with the speaker, the listener, and potentially others."
+  },
+  {
+    "word": "mula",
+    "english_equiv": "Flower.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the seed-bearing part of a plant, consisting of reproductive organs and colorful petals."
+  },
+  {
+    "word": "musmu",
+    "english_equiv": "Disguised blessing",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A bad event that causes a good result. Logical equivalent: Cemup boke linid isamur gawe. (The bad thing caused a good result.)"
+  },
+  {
+    "word": "mux",
+    "english_equiv": "Times / Multiplied by",
+    "part_of_speech": "Grammar",
+    "definition": "This is an immutable mathematical operator used to perform explicit multiplication within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used as the subject of a Zero Copula sentence to state a timeless mathematical equation (e.g., tafe mux dewe sluqe = 3 times 2 is 6)."
+  },
+  {
+    "word": "my",
+    "english_equiv": "containing",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates that the subject is holding the object inside it; specifies content rather than purpose."
+  },
+  {
+    "word": "mydu",
+    "english_equiv": "Model",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A conceptual framework or abstract mathematical representation used to simulate, describe, or predict a system."
+  },
+  {
+    "word": "myga",
+    "english_equiv": "Leg.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to each of the limbs on which a person or animal walks and stands."
+  },
+  {
+    "word": "mykoso",
+    "english_equiv": "Fever",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An abnormally high body temperature, often an immune response to an illness."
+  },
+  {
+    "word": "myrafa",
+    "english_equiv": "Dragon",
+    "part_of_speech": "Biological Noun",
+    "definition": "A legendary giant reptile with wings and claws, often depicted breathing fire."
+  },
+  {
+    "word": "naci",
+    "english_equiv": "Work.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to perform labor, professional tasks, or exert effort to produce a result."
+  },
+  {
+    "word": "nafike",
+    "english_equiv": "Together / Grouped",
+    "part_of_speech": "Modifier",
+    "definition": "This describes entities existing or acting in conjunction, unity, or close physical/logical association."
+  },
+  {
+    "word": "naile",
+    "english_equiv": "Easy",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes an action or concept achieved without great effort; presenting zero or very few obstacles."
+  },
+  {
+    "word": "nak",
+    "english_equiv": "we / us (exclusive)",
+    "part_of_speech": "Grammar",
+    "definition": "First-person plural exclusive; the speaker and others, explicitly excluding the listener."
+  },
+  {
+    "word": "nake",
+    "english_equiv": "Our / Ours (Exclusive)",
+    "part_of_speech": "Modifier",
+    "definition": "Strictly belonging to or associated with the speaker and others, explicitly excluding the listener."
+  },
+  {
+    "word": "narale",
+    "english_equiv": "Natural",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something existing in or caused by biology or the physical universe; not manufactured by human or artificial intervention."
+  },
+  {
+    "word": "nasa",
+    "english_equiv": "Plant.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a living organism of the kind exemplified by trees, shrubs, and herbs."
+  },
+  {
+    "word": "nasbo",
+    "english_equiv": "Medicine / Drug",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This identifies a physical compound, preparation, or substance strictly used for the treatment, cure, or prevention of biological disease."
+  },
+  {
+    "word": "nauxa",
+    "english_equiv": "Friend.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a person whom one knows and with whom one has a bond of mutual affection."
+  },
+  {
+    "word": "navere",
+    "english_equiv": "Next.",
+    "part_of_speech": "Modifier",
+    "definition": "Coming immediately after the current one in a sequence or in time (e.g. next week, next person). Generalizes beyond fitydu (tomorrow), which covers only day-distance."
+  },
+  {
+    "word": "naxu",
+    "english_equiv": "Group / Cluster / Bunch",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a number of people or things that are located, gathered, or classed together."
+  },
+  {
+    "word": "negoxre",
+    "english_equiv": "Random",
+    "part_of_speech": "Modifier",
+    "definition": "Determined by chance alone, without pattern, plan, or predictability."
+  },
+  {
+    "word": "nejowo",
+    "english_equiv": "Ink",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A colored liquid used for writing, drawing, and printing."
+  },
+  {
+    "word": "neki",
+    "english_equiv": "Sit.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to rest with the body supported by the buttocks or thighs; to occupy a seat."
+  },
+  {
+    "word": "nel",
+    "english_equiv": "you're welcome",
+    "part_of_speech": "Grammar",
+    "definition": "Phatic reply acknowledging thanks; conveys 'you're welcome / no need.' Standalone on the Null Track (Rule 33)."
+  },
+  {
+    "word": "nembu",
+    "english_equiv": "Congratulations / Praise",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An expression of praise for an achievement or good wishes on a special occasion."
+  },
+  {
+    "word": "nenoje",
+    "english_equiv": "Blind / Sightless",
+    "part_of_speech": "Modifier",
+    "definition": "Describes a biological entity mathematically lacking the ability to perceive visual data."
+  },
+  {
+    "word": "nerto",
+    "english_equiv": "Carpet / Rug.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thick woven fabric covering used on a floor."
+  },
+  {
+    "word": "nes",
+    "english_equiv": "no / not",
+    "part_of_speech": "Grammar",
+    "definition": "Strict logical operator of negation (boolean NOT); standalone negative interjection."
+  },
+  {
+    "word": "neswy",
+    "english_equiv": "Without",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a logical bridge of absence or the explicit lack of an accompanying object or trait."
+  },
+  {
+    "word": "netawa",
+    "english_equiv": "Cornflower",
+    "part_of_speech": "Biological Noun",
+    "definition": "A slender wildflower with an intensely blue head, once common in grain fields."
+  },
+  {
+    "word": "neuqu",
+    "english_equiv": "Disgust",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A feeling of revulsion or profound disapproval aroused by something unpleasant or offensive."
+  },
+  {
+    "word": "niaza",
+    "english_equiv": "Muscle",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word identifies a band or bundle of fibrous tissue in a biological body that has the mechanical ability to contract, producing movement or maintaining position."
+  },
+  {
+    "word": "nicu",
+    "english_equiv": "Debt",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An obligation to pay or do something, typically financial, owed to another entity."
+  },
+  {
+    "word": "nikri",
+    "english_equiv": "To swallow.",
+    "part_of_speech": "Verb",
+    "definition": "To move food, drink, or saliva from the mouth down the throat into the stomach."
+  },
+  {
+    "word": "nimpo",
+    "english_equiv": "Carrot",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tapering orange root vegetable eaten raw or cooked."
+  },
+  {
+    "word": "niwi",
+    "english_equiv": "Scrape",
+    "part_of_speech": "Verb",
+    "definition": "To drag a hard, sharp, or rough implement across a surface, typically to clean, smooth, or remove material."
+  },
+  {
+    "word": "nizy",
+    "english_equiv": "In front of / Ahead of",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a spatial bridge where the subject is located at or directed toward the forward-facing exterior of a reference point."
+  },
+  {
+    "word": "noaju",
+    "english_equiv": "Role",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual function assumed or part played by a person or thing in a particular situation."
+  },
+  {
+    "word": "nofa",
+    "english_equiv": "Person / Human / People",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a human being, individual, or member of the human species."
+  },
+  {
+    "word": "noja",
+    "english_equiv": "Eye.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies the organ of sight in humans and animals."
+  },
+  {
+    "word": "nojapi",
+    "english_equiv": "Watch / Check / Stare",
+    "part_of_speech": "Verb",
+    "definition": "To observe an entity or event attentively over a continuous period of time."
+  },
+  {
+    "word": "noky",
+    "english_equiv": "down / below",
+    "part_of_speech": "Prepositions",
+    "definition": "Used for direction or position lower than a reference."
+  },
+  {
+    "word": "nomi",
+    "english_equiv": "Eat / Consume.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to put food into the mouth, chew, and swallow it as a fundamental biological action."
+  },
+  {
+    "word": "nop",
+    "english_equiv": "Inferred / Logical Evidence",
+    "part_of_speech": "Grammar",
+    "definition": "A pragmatic mood tag indicating the speaker knows the statement is true through logical deduction or physical evidence."
+  },
+  {
+    "word": "noqsa",
+    "english_equiv": "Man / Adult Male / Guy",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies a fully grown male human being."
+  },
+  {
+    "word": "nosana",
+    "english_equiv": "Woman / Adult Female",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies a fully grown female human being."
+  },
+  {
+    "word": "novu",
+    "english_equiv": "Conspiracy",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A secret plan by a group of people to do something unlawful, harmful, or deceitful."
+  },
+  {
+    "word": "noze",
+    "english_equiv": "Zero",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the arithmetical symbol denoting the absence of all magnitude or quantity."
+  },
+  {
+    "word": "nu",
+    "english_equiv": "Now.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Used for the present moment."
+  },
+  {
+    "word": "nudu",
+    "english_equiv": "Today",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the current day."
+  },
+  {
+    "word": "nufe",
+    "english_equiv": "Empty.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something containing nothing or having no occupants."
+  },
+  {
+    "word": "nuju",
+    "english_equiv": "Policy",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A conceptual course or abstract principle of action adopted or proposed by a governing body or business."
+  },
+  {
+    "word": "nupa",
+    "english_equiv": "Parent.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a father or mother, or a person or animal that produces offspring."
+  },
+  {
+    "word": "nusogo",
+    "english_equiv": "Sword.",
+    "definition": "A weapon with a long metal blade and a hilt, used for cutting or thrusting.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "nuwyko",
+    "english_equiv": "Amethyst.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A purple variety of quartz, valued as a gemstone. Follows xaqbo (gold) as a specific mineral/gem type."
+  },
+  {
+    "word": "nybu",
+    "english_equiv": "Content / Substance",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract information, meaning, or subject matter contained within a document, speech, or medium."
+  },
+  {
+    "word": "nyhogo",
+    "english_equiv": "Sentence.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A complete grammatical sequence of words expressing a full statement, question, or command. Follows go (word) as the next unit up in Fiwo's own linguistic vocabulary."
+  },
+  {
+    "word": "nyrsi",
+    "english_equiv": "Carry / Bring",
+    "part_of_speech": "Verb",
+    "definition": "To physically support the weight of a load and transport it from one location to another."
+  },
+  {
+    "word": "nyta",
+    "english_equiv": "Nose.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies the part projecting above the mouth on the face of a person or animal, used for smelling."
+  },
+  {
+    "word": "obta",
+    "english_equiv": "Ant",
+    "part_of_speech": "Biological Noun",
+    "definition": "A small, colonial social insect of the family Formicidae."
+  },
+  {
+    "word": "ocadu",
+    "english_equiv": "Science",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract systematic enterprise that builds and organizes knowledge in the form of testable, logical explanations."
+  },
+  {
+    "word": "ocfe",
+    "english_equiv": "Fake / Counterfeit / False",
+    "part_of_speech": "Modifier",
+    "definition": "Not genuine; imitation or counterfeit (specifically physical or abstract imitation)."
+  },
+  {
+    "word": "odaze",
+    "english_equiv": "Sudden / Unexpected",
+    "part_of_speech": "Modifier",
+    "definition": "Describing an event or state that happens incredibly quickly and entirely without warning or expectation."
+  },
+  {
+    "word": "odcano",
+    "english_equiv": "Rope",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thick, heavy, and highly strong physical cord created by twisting or braiding smaller threads or fibers together."
+  },
+  {
+    "word": "oege",
+    "english_equiv": "Secret",
+    "part_of_speech": "Modifier",
+    "definition": "Kept hidden from others; confidential or clandestine."
+  },
+  {
+    "word": "ofxu",
+    "english_equiv": "Shame",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A painful feeling of humiliation, distress, or dishonor caused by consciousness of wrong behavior."
+  },
+  {
+    "word": "ogiru",
+    "english_equiv": "Experience",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract knowledge, familiarity, or practical wisdom gained from observing or undergoing events."
+  },
+  {
+    "word": "ogzo",
+    "english_equiv": "Towel",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A piece of absorbent cloth or paper used for drying things or oneself."
+  },
+  {
+    "word": "ojese",
+    "english_equiv": "Rare",
+    "part_of_speech": "Modifier",
+    "definition": "Not occurring very often; uncommon, exceptional, or hard to find."
+  },
+  {
+    "word": "okezu",
+    "english_equiv": "Lie / Falsehood",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract statement deliberately intended to deceive or misrepresent reality."
+  },
+  {
+    "word": "okse",
+    "english_equiv": "Wrong",
+    "part_of_speech": "Modifier",
+    "definition": "Logically incorrect or factually inaccurate."
+  },
+  {
+    "word": "olifu",
+    "english_equiv": "Research",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The systematic, conceptual investigation into materials and sources to establish new facts."
+  },
+  {
+    "word": "olkenko",
+    "english_equiv": "Emblem / Badge",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical design or object worn or displayed to represent a person, group, or idea."
+  },
+  {
+    "word": "ombi",
+    "english_equiv": "Send / Deliver",
+    "part_of_speech": "Verb",
+    "definition": "To cause a physical object or abstract message to be conveyed to a separate destination."
+  },
+  {
+    "word": "onasi",
+    "english_equiv": "To plant / To cultivate",
+    "part_of_speech": "Verb",
+    "definition": "To actively grow, tend to, or farm biological crops or plants."
+  },
+  {
+    "word": "onexe",
+    "english_equiv": "Approximately / Around / About (Quantity)",
+    "part_of_speech": "Modifier",
+    "definition": "Describes a numerical value, state, or quantity that is close to the referenced benchmark but not exact."
+  },
+  {
+    "word": "ongu",
+    "english_equiv": "Betrayal",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act of breaking trust, being disloyal, or working secretly against one's country, group, or a person."
+  },
+  {
+    "word": "onli",
+    "english_equiv": "Rub",
+    "part_of_speech": "Verb",
+    "definition": "To apply friction or pressure to a surface by moving something back and forth over it."
+  },
+  {
+    "word": "onyfu",
+    "english_equiv": "Inexplicable strangeness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Something so strange that no explanation can be named; stronger than gyke (weird). Logical equivalent: Ram gykei huhe. Nofa nes eksapli luge ram. (It is extremely weird. One cannot explain it.)"
+  },
+  {
+    "word": "opcori",
+    "english_equiv": "Stir / Mix (mechanically)",
+    "part_of_speech": "Verb",
+    "definition": "To move a spoon or other implement around in a liquid or other substance in order to mix it thoroughly."
+  },
+  {
+    "word": "opdi",
+    "english_equiv": "Whisper",
+    "part_of_speech": "Verb",
+    "definition": "To speak very softly using one's breath rather than vocal cords to prevent others from hearing."
+  },
+  {
+    "word": "opowo",
+    "english_equiv": "Bulb",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A rounded swelling body: the glass envelope of an electric lamp, or the round underground bud of a plant."
+  },
+  {
+    "word": "opubu",
+    "english_equiv": "Cruelty to the fallen",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Attacking someone already defeated. Logical equivalent: Nofap wafrid. Daq satsid dal. (The person lost. He still hit them.)"
+  },
+  {
+    "word": "oqawa",
+    "english_equiv": "Spore",
+    "part_of_speech": "Biological Noun",
+    "definition": "A single reproductive unit of fungi, ferns, and mosses."
+  },
+  {
+    "word": "oqo",
+    "english_equiv": "Ticket",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A small piece of paper or card showing that the holder is entitled to travel, enter a place, or participate in an event."
+  },
+  {
+    "word": "orari",
+    "english_equiv": "To stir-fry / To sauté",
+    "part_of_speech": "Verb",
+    "definition": "To cook food quickly by moving it continuously in a small amount of hot oil over high heat."
+  },
+  {
+    "word": "orku",
+    "english_equiv": "Score / Mark / Points",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract numerical quantity or value assigned to represent achievement, performance, or a result in a test or game."
+  },
+  {
+    "word": "orve",
+    "english_equiv": "Poisonous / Toxic",
+    "part_of_speech": "Modifier",
+    "definition": "Capable of causing illness, injury, or death when introduced into or absorbed by a living organism."
+  },
+  {
+    "word": "osaju",
+    "english_equiv": "West",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the cardinal direction corresponding to the point where the sun sets, oriented to the left when facing north."
+  },
+  {
+    "word": "ostu",
+    "english_equiv": "East",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the cardinal direction corresponding to the point where the sun rises, oriented to the right when facing north."
+  },
+  {
+    "word": "osybu",
+    "english_equiv": "Helpless resignation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The state of accepting a situation because nothing can be done about it (Mandarin wunai). Logical equivalent: Daq nes solfi luge jormup. Daq dzefi ram. (He cannot solve the situation. He accepts it.)"
+  },
+  {
+    "word": "otani",
+    "english_equiv": "Cook",
+    "part_of_speech": "Verb",
+    "definition": "To chemically or physically alter food matter for consumption by systematically applying thermal energy."
+  },
+  {
+    "word": "otma",
+    "english_equiv": "Disease / Sickness",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word identifies a physical, biological disorder, infection, or abnormal condition that actively disrupts the physiological function and tissue of a living organism."
+  },
+  {
+    "word": "otre",
+    "english_equiv": "Other / Alternative",
+    "part_of_speech": "Modifier",
+    "definition": "Describes an entity that is distinct from, different than, or remaining outside the specific entity currently being referenced."
+  },
+  {
+    "word": "otsino",
+    "english_equiv": "Thread / String",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A long, very thin flexible strand of fiber structurally used for sewing, tying, or weaving."
+  },
+  {
+    "word": "ouzu",
+    "english_equiv": "Mercy",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Compassion, pity, or forgiveness shown toward someone whom it is within one's power to punish or harm."
+  },
+  {
+    "word": "ov",
+    "english_equiv": "oh no",
+    "part_of_speech": "Grammar",
+    "definition": "Phatic expressing sympathy, dismay, or concern at bad news; 'oh no / that's awful.' Standalone on the Null Track (Rule 33)."
+  },
+  {
+    "word": "ovami",
+    "english_equiv": "To arrive",
+    "part_of_speech": "Verb",
+    "definition": "To complete a physical or conceptual journey and successfully transition into a final destination.",
+    "usage_note": "Emphasizes completing a journey and transitioning into the destination. Compare jobori (to actively reach a point, limit, or endpoint)."
+  },
+  {
+    "word": "ovce",
+    "english_equiv": "Always",
+    "part_of_speech": "Modifier",
+    "definition": "At all times; uninterruptedly or on every occasion."
+  },
+  {
+    "word": "ovpa",
+    "english_equiv": "Neck",
+    "part_of_speech": "Biological Noun",
+    "definition": "The part of the body that connects the head to the torso."
+  },
+  {
+    "word": "ovro",
+    "english_equiv": "Fork",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A utensil with two or more prongs, used for lifting food to the mouth or holding it in place while cutting."
+  },
+  {
+    "word": "owadi",
+    "english_equiv": "Spend",
+    "part_of_speech": "Verb",
+    "definition": "To mathematically exhaust, exchange, or use up a measurable resource, such as time or money."
+  },
+  {
+    "word": "oxahu",
+    "english_equiv": "Project",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract conceptual plan of organized work, an enterprise, or a specific targeted undertaking."
+  },
+  {
+    "word": "oxno",
+    "english_equiv": "Wallet / Purse",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A pocket-sized, flat folding case for holding money and cards."
+  },
+  {
+    "word": "oxopi",
+    "english_equiv": "To organize / To coordinate",
+    "part_of_speech": "Verb",
+    "definition": "To actively arrange entities, systems, or events into a structured and logical order."
+  },
+  {
+    "word": "oxti",
+    "english_equiv": "Protect",
+    "part_of_speech": "Verb",
+    "definition": "To actively maintain a barrier that keeps an entity or system safe from physical harm or logical corruption."
+  },
+  {
+    "word": "ozepi",
+    "english_equiv": "To wish / To desire",
+    "part_of_speech": "Verb",
+    "definition": "To feel or express a strong hope or longing for a specific outcome or reality, often one that is not immediately or easily attainable."
+  },
+  {
+    "word": "ozoxi",
+    "english_equiv": "To occupy / To take up",
+    "part_of_speech": "Verb",
+    "definition": "To fill a physical space, consume a duration of time, or hold a specific position."
+  },
+  {
+    "word": "padupro",
+    "english_equiv": "Lava / Magma",
+    "part_of_speech": "Concrete Noun",
+    "definition": "Molten rock, glowing and fluid with extreme heat, found underground or flowing from volcanic openings."
+  },
+  {
+    "word": "paelo",
+    "english_equiv": "Paper",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thin, flat physical material manufactured from processed pulp, used primarily for writing, printing, or structural packaging."
+  },
+  {
+    "word": "pagari",
+    "english_equiv": "Pay",
+    "part_of_speech": "Verb",
+    "definition": "To transfer money or abstract value in exchange for goods or services."
+  },
+  {
+    "word": "paguku",
+    "english_equiv": "Letting things unfold",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Deliberately not interfering; letting events take their natural course. Logical equivalent: Daq dogi tep cemu je linuci. (He lets things happen.)"
+  },
+  {
+    "word": "paja",
+    "english_equiv": "Uncle",
+    "part_of_speech": "Biological Noun",
+    "definition": "A male biological relative who is the brother of one's parent."
+  },
+  {
+    "word": "pampigi",
+    "english_equiv": "Intend / Mean to",
+    "part_of_speech": "Verb",
+    "definition": "To have a specific action, use, or outcome in mind as one's plan or purpose."
+  },
+  {
+    "word": "pamu",
+    "english_equiv": "Pain / suffering / Injury",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to physical suffering or discomfort; a distinct sensory experience of hurting or emotional suffering."
+  },
+  {
+    "word": "pano",
+    "english_equiv": "Book.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a written or printed work consisting of pages bound together, or a digital equivalent, used to store information."
+  },
+  {
+    "word": "parawu",
+    "english_equiv": "Tradition / Custom",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract systemic belief, behavior, or cultural practice passed down continuously through generations."
+  },
+  {
+    "word": "pary",
+    "english_equiv": "before",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates that the main action must conclude strictly prior to the referenced temporal baseline or event."
+  },
+  {
+    "word": "paswu",
+    "english_equiv": "History",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract, continuous, and systematic record or study of past events."
+  },
+  {
+    "word": "pate",
+    "english_equiv": "Umami / Savory.",
+    "part_of_speech": "Modifier",
+    "definition": "This describes the savory or meaty taste sensation, characteristic of broths and cooked meats."
+  },
+  {
+    "word": "pauli",
+    "english_equiv": "Feel.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to experience an emotion or sensation."
+  },
+  {
+    "word": "paxu",
+    "english_equiv": "Pleasure / Enjoyment / Fun",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract sensory or conceptual experience of profound positive enjoyment, satisfaction, or physical gratification."
+  },
+  {
+    "word": "peba",
+    "english_equiv": "Father",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the male parent of a biological offspring."
+  },
+  {
+    "word": "pedu",
+    "english_equiv": "Power / Influence.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the capacity or ability to direct or influence the behavior of others or the course of events."
+  },
+  {
+    "word": "pegi",
+    "english_equiv": "Fold",
+    "part_of_speech": "Verb",
+    "definition": "To bend something flexible over on itself so that one part of it covers another."
+  },
+  {
+    "word": "pen",
+    "english_equiv": "so / therefore",
+    "part_of_speech": "Grammar",
+    "definition": "Clausal wall introducing a direct result, consequence, or logical conclusion."
+  },
+  {
+    "word": "perinatu",
+    "english_equiv": "Revolution",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A massive, abstract conceptual paradigm shift, or the forcible systemic overthrow of a government (govnu) or social order."
+  },
+  {
+    "word": "pesu",
+    "english_equiv": "Sound.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear."
+  },
+  {
+    "word": "petni",
+    "english_equiv": "Excrete",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to separate and expel waste matter from the body."
+  },
+  {
+    "word": "peze",
+    "english_equiv": "Later / Subsequently",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an event or action occurring at a subsequent time relative to the current baseline."
+  },
+  {
+    "word": "picalo",
+    "english_equiv": "Hospital",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a highly specialized physical building or institution providing medical and surgical treatment for sick or injured people."
+  },
+  {
+    "word": "piji",
+    "english_equiv": "Warn",
+    "part_of_speech": "Verb",
+    "definition": "To inform someone in advance of an impending danger, threat, or problem."
+  },
+  {
+    "word": "pilke",
+    "english_equiv": "Alive",
+    "part_of_speech": "Modifier",
+    "definition": "Living; possessing biological life."
+  },
+  {
+    "word": "piny",
+    "english_equiv": "as / similar to",
+    "part_of_speech": "Prepositions",
+    "definition": "This word indicates that one thing resembles another or shares common characteristics without being identical."
+  },
+  {
+    "word": "pise",
+    "english_equiv": "Sour.",
+    "part_of_speech": "Modifier",
+    "definition": "This describes the taste sensation characteristic of acids, like lemon juice or vinegar."
+  },
+  {
+    "word": "pixra",
+    "english_equiv": "Tooth.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies each of the hard, white structures in the mouth used for biting and chewing."
+  },
+  {
+    "word": "pizu",
+    "english_equiv": "Guilt",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The fact or state of having committed a specified or implied offense, crime, or moral wrong."
+  },
+  {
+    "word": "plaho",
+    "english_equiv": "Lock",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A mechanical or electronic fastening device constructed to physically secure a door or container until opened by a key or code."
+  },
+  {
+    "word": "pli",
+    "english_equiv": "Come.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to move toward a specific location or the speaker."
+  },
+  {
+    "word": "plolso",
+    "english_equiv": "currency / monetary unit",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A generic unit of money or currency; a monetary denomination that can be counted. Specific named currencies use Tier-2 borrowings (e.g. euro-o)."
+  },
+  {
+    "word": "plurata",
+    "english_equiv": "Berry",
+    "part_of_speech": "Biological Noun",
+    "definition": "Any small, round, juicy fruit without a stone, growing on bushes or vines; the general term of which grapa (grape) is one kind."
+  },
+  {
+    "word": "pobre",
+    "english_equiv": "Poor",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes an entity lacking sufficient resources, wealth, or structural quality to maintain a comfortable baseline."
+  },
+  {
+    "word": "poco",
+    "english_equiv": "There / That place.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This word refers to a specific physical location or spatial coordinate that is distant or removed from the speaker's current environment."
+  },
+  {
+    "word": "pogafu",
+    "english_equiv": "Peace",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual state of harmony, tranquility, and the complete mathematical absence of conflict."
+  },
+  {
+    "word": "poka",
+    "english_equiv": "Hair.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the fine thread-like strands growing from the skin of humans, mammals, and some other animals."
+  },
+  {
+    "word": "ponxa",
+    "english_equiv": "Virus",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word identifies an infective biological agent—typically consisting of nucleic acid within a protein coat—that is only able to multiply within the living cells of a host."
+  },
+  {
+    "word": "popepe",
+    "english_equiv": "Cool.",
+    "part_of_speech": "Modifier",
+    "definition": "Mildly cold in a pleasant way; a middle temperature between jabe (cold) and ripe (hot), on the cold side of fyjebe (warm)."
+  },
+  {
+    "word": "porce",
+    "english_equiv": "Orange",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting the color of a ripe orange or the setting sun; a blend of red and yellow."
+  },
+  {
+    "word": "pot",
+    "english_equiv": "Decimal Point / Radix",
+    "part_of_speech": "Grammar",
+    "definition": "This acts as a structural pivot within a numerical sequence. It explicitly signals to the parser that the whole integers have stopped, and any digits following it are to be read sequentially as fractional values. The parser reads the entire sequence, including the decimal pivot, as a single quantitative block until the final -t stacker is dropped."
+  },
+  {
+    "word": "potsuce",
+    "english_equiv": "One billion",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number equivalent to one thousand times one million."
+  },
+  {
+    "word": "potu",
+    "english_equiv": "Dot / Point",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A conceptual point, a specific item/node on a list, or an abstract degree. (If you are referring to a physical, drawn dot on a piece of paper with ink, you would derive it into the concrete noun potuo)."
+  },
+  {
+    "word": "pov",
+    "english_equiv": "Meanwhile / At the same time",
+    "part_of_speech": "Grammar",
+    "definition": "A structural particle used to introduce an event or action happening concurrently with another."
+  },
+  {
+    "word": "pozi",
+    "english_equiv": "Think / Consider",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to direct one's mind toward someone or something or to form ideas."
+  },
+  {
+    "word": "pozmu",
+    "english_equiv": "Dream / Imagine",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the abstract sequence of images, ideas, emotions, and sensations that occur involuntarily in the mind during sleep."
+  },
+  {
+    "word": "praza",
+    "english_equiv": "Kelp",
+    "part_of_speech": "Biological Noun",
+    "definition": "A large brown seaweed that grows in underwater forests."
+  },
+  {
+    "word": "priglo",
+    "english_equiv": "Beetroot.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The dark red edible root of the beet plant."
+  },
+  {
+    "word": "pudy",
+    "english_equiv": "Since",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicating the starting point of a period of time that continues to the present (temporal)."
+  },
+  {
+    "word": "pujypa",
+    "english_equiv": "Heel.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The rounded back part of the foot, below the ankle."
+  },
+  {
+    "word": "puru",
+    "english_equiv": "Curiosity",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A strong desire to know, learn, or investigate something."
+  },
+  {
+    "word": "puve",
+    "english_equiv": "Cheap",
+    "part_of_speech": "Modifier",
+    "definition": "This describes something commanding a low monetary price or requiring very little exchange of financial value."
+  },
+  {
+    "word": "puxa",
+    "english_equiv": "Pig / Swine",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a stout-bodied, omnivorous domesticated mammal with sparse bristly hair, kept primarily as livestock."
+  },
+  {
+    "word": "pybo",
+    "english_equiv": "Candle",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A cylinder of wax or tallow with a central wick that is burned to provide light."
+  },
+  {
+    "word": "pydra",
+    "english_equiv": "Jungle tree.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A tall tropical tree native to dense rainforest regions."
+  },
+  {
+    "word": "pyha",
+    "english_equiv": "Knee",
+    "part_of_speech": "Biological Noun",
+    "definition": "The joint between the thigh and the lower leg in humans and other vertebrates."
+  },
+  {
+    "word": "pyju",
+    "english_equiv": "Chaos / Disorder / Mess",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A state of complete confusion, lack of order, or randomness."
+  },
+  {
+    "word": "pyqe",
+    "english_equiv": "Rude",
+    "part_of_speech": "Modifier",
+    "definition": "Lacking in manners; impolite, offensive, or disrespectful."
+  },
+  {
+    "word": "pytso",
+    "english_equiv": "Rod.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thin, straight length of rigid material, longer and typically sturdier than a stick."
+  },
+  {
+    "word": "pywi",
+    "english_equiv": "Listen",
+    "part_of_speech": "Verb",
+    "definition": "To make a conscious effort to hear; to pay attention to sound.",
+    "usage_note": "The active effort, distinct from passive hearing."
+  },
+  {
+    "word": "rago",
+    "english_equiv": "Roof / Ceiling",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The structural top covering of a building (foiso) or the interior upper surface of an enclosed room."
+  },
+  {
+    "word": "raje",
+    "english_equiv": "Five",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number equivalent to the sum of four and one."
+  },
+  {
+    "word": "rajedu",
+    "english_equiv": "Friday",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Friday; the fifth day of the week. Derived by compounding raje (five) and du (day)."
+  },
+  {
+    "word": "ram",
+    "english_equiv": "it (inanimate)",
+    "part_of_speech": "Grammar",
+    "definition": "Third-person singular inanimate; strictly an object, concept, plant, machine, or entity lacking agency."
+  },
+  {
+    "word": "rame",
+    "english_equiv": "Its (Inanimate)",
+    "part_of_speech": "Modifier",
+    "definition": "Strictly belonging to or associated with an inanimate object, concept, or machine."
+  },
+  {
+    "word": "ratse",
+    "english_equiv": "Dangerous.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something able or likely to cause harm or injury."
+  },
+  {
+    "word": "raure",
+    "english_equiv": "Ugly",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes a state possessing physical or conceptual qualities that are highly unpleasant, dissonant, or aesthetically repulsive."
+  },
+  {
+    "word": "rawetu",
+    "english_equiv": "Culture",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract social behavior, institutions, and conceptual norms transmitted across human societies."
+  },
+  {
+    "word": "reaku",
+    "english_equiv": "Theory",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract conceptual framework or system of ideas intended to explain a specific phenomenon or justify a practice."
+  },
+  {
+    "word": "refo",
+    "english_equiv": "Coffee",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This identifies a brewed, dark physical liquid beverage prepared from the roasted and ground seeds (beans) of the coffee plant."
+  },
+  {
+    "word": "relxu",
+    "english_equiv": "Relation / Relationship / Ties",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual connection, tie, or ongoing association between two or more entities, concepts, or people."
+  },
+  {
+    "word": "rerbi",
+    "english_equiv": "Stay",
+    "part_of_speech": "Verb",
+    "definition": "To remain in the exact same physical location or conceptual state for an extended duration."
+  },
+  {
+    "word": "rerpo",
+    "english_equiv": "Place / Location / Position",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a particular position, point, or area in space, regardless of whether it is occupied."
+  },
+  {
+    "word": "reslihi",
+    "english_equiv": "Hate / Detest",
+    "part_of_speech": "Verb",
+    "definition": "To feel sustained hostile rejection toward a specific entity; the antipode of tazi (love). Stronger and more enduring than neuqu (momentary disgust) or tsake (anger at a single act)."
+  },
+  {
+    "word": "resno",
+    "english_equiv": "Arrow.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thin, pointed projectile shot from a bow."
+  },
+  {
+    "word": "retadu",
+    "english_equiv": "Week",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a continuous time period consisting of seven days."
+  },
+  {
+    "word": "rete",
+    "english_equiv": "Seven.",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number equivalent to the sum of six and one."
+  },
+  {
+    "word": "retedu",
+    "english_equiv": "Sunday",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Sunday; the seventh day of the week. Derived by compounding rete (seven) and du (day)."
+  },
+  {
+    "word": "retibi",
+    "english_equiv": "Return",
+    "part_of_speech": "Verb",
+    "definition": "To reverse course and go back to a previous physical location or baseline abstract state."
+  },
+  {
+    "word": "rewy",
+    "english_equiv": "far",
+    "part_of_speech": "Prepositions",
+    "definition": "Situated at a great distance from; far away relative to a reference point."
+  },
+  {
+    "word": "reza",
+    "english_equiv": "President / Leader / Boss",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who holds the highest executive, administrative, or directing position within an organized group, government, or system."
+  },
+  {
+    "word": "ricodo",
+    "english_equiv": "Ore.",
+    "definition": "Rock or mineral from which metal or valuable material can be extracted.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "rinkawa",
+    "english_equiv": "Skull",
+    "part_of_speech": "Biological Noun",
+    "definition": "The bony framework of the head that encloses and protects the brain; the connected head-bones of meka forming the structure of meota."
+  },
+  {
+    "word": "rinte",
+    "english_equiv": "Rich",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes an entity possessing a great deal of money, assets, or an abundant supply of resources."
+  },
+  {
+    "word": "rinu",
+    "english_equiv": "Wealth",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract economic concept of an abundance of valuable possessions, resources, or financial value."
+  },
+  {
+    "word": "ripe",
+    "english_equiv": "Hot.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something having a high degree of heat or a high temperature."
+  },
+  {
+    "word": "riqo",
+    "english_equiv": "Keyboard",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A panel of keys used to input text and commands into a computer or other electronic device."
+  },
+  {
+    "word": "rivahe",
+    "english_equiv": "Previous.",
+    "part_of_speech": "Modifier",
+    "definition": "Coming immediately before the current one in a sequence or in time (e.g. previous week, previous meeting). The antonym of navere (next); generalizes beyond wecdu (yesterday)."
+  },
+  {
+    "word": "rizi",
+    "english_equiv": "To get up / To rise/ to ascend / Wake",
+    "part_of_speech": "Verb",
+    "definition": "To actively move oneself from a lower physical position to a higher one (such as standing up from a bed or chair), or for a celestial body to ascend.",
+    "usage_note": "Distinct from todyri (raise), which is the transitive action of lifting something else."
+  },
+  {
+    "word": "roase",
+    "english_equiv": "Slow.",
+    "part_of_speech": "Modifier",
+    "definition": "Moving, operating, or occurring at a low speed."
+  },
+  {
+    "word": "rodipe",
+    "english_equiv": "Thirsty",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a biological state of discomfort caused by a lack of fluids, coupled with a strong desire to drink a liquid."
+  },
+  {
+    "word": "rodle",
+    "english_equiv": "True.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something that is in accordance with fact or reality."
+  },
+  {
+    "word": "roku",
+    "english_equiv": "Dark.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This defines the absence of light or the state of being without illumination."
+  },
+  {
+    "word": "roli",
+    "english_equiv": "Drink",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to take a liquid into the mouth and swallow it."
+  },
+  {
+    "word": "romve",
+    "english_equiv": "Again / Repeatedly",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an action or state being repeated or occurring another time."
+  },
+  {
+    "word": "ron",
+    "english_equiv": "Or (Inline Alternative)",
+    "part_of_speech": "Grammar",
+    "definition": "Inline mathematical boolean OR; offers a choice between elements of the same grammatical category."
+  },
+  {
+    "word": "rop",
+    "english_equiv": "Reported / Hearsay Evidence",
+    "part_of_speech": "Grammar",
+    "definition": "A pragmatic mood tag indicating the speaker knows the statement is true because they were told by someone else or read it somewhere."
+  },
+  {
+    "word": "roqte",
+    "english_equiv": "Serious",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes a state demanding careful consideration or strict application; not joking or trifling."
+  },
+  {
+    "word": "rot",
+    "english_equiv": "or",
+    "part_of_speech": "Grammar",
+    "definition": "Clausal wall presenting an alternative choice or independent clause."
+  },
+  {
+    "word": "rowe",
+    "english_equiv": "Wide / Broad.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something having a great or specified extent from side to side."
+  },
+  {
+    "word": "ruava",
+    "english_equiv": "Dandelion",
+    "part_of_speech": "Biological Noun",
+    "definition": "A common wildflower with a yellow head that turns into a round puff of wind-borne seeds."
+  },
+  {
+    "word": "rucemi",
+    "english_equiv": "Lead",
+    "part_of_speech": "Verb",
+    "definition": "To guide, direct, or mathematically precede others in a physical sequence or organizational structure."
+  },
+  {
+    "word": "rudse",
+    "english_equiv": "Rough.",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a surface that is uneven or irregular, often coarse or not smooth to the touch."
+  },
+  {
+    "word": "rufoco",
+    "english_equiv": "Anchor",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A heavy device dropped to hold a vessel or structure in place."
+  },
+  {
+    "word": "rugoxu",
+    "english_equiv": "Month",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a period of time historically corresponding to a lunar cycle or a standard calendar division."
+  },
+  {
+    "word": "rukojo",
+    "english_equiv": "Vein",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A vessel or seam that carries flow through a body or through rock (blood vein, ore vein)."
+  },
+  {
+    "word": "rute",
+    "english_equiv": "Sharp.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something having an edge or point that is able to cut or pierce."
+  },
+  {
+    "word": "ruwi",
+    "english_equiv": "Twist",
+    "part_of_speech": "Verb",
+    "definition": "To turn or spin something around a central axis, or to distort its shape."
+  },
+  {
+    "word": "ruze",
+    "english_equiv": "Fast / Quick.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something moving or capable of moving at high speed."
+  },
+  {
+    "word": "ry",
+    "english_equiv": "owned by",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates strict ownership, legal possession, or belonging."
+  },
+  {
+    "word": "ryrobo",
+    "english_equiv": "Stem / Stalk.",
+    "definition": "The main upward-growing support of a plant.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "sacy",
+    "english_equiv": "outside",
+    "part_of_speech": "Prepositions",
+    "definition": "Used for a position external to the boundaries of an enclosure or object."
+  },
+  {
+    "word": "sal",
+    "english_equiv": "Hello / Greetings",
+    "part_of_speech": "Grammar",
+    "definition": "Acknowledges presence or initiates a social interaction."
+  },
+  {
+    "word": "sanpo",
+    "english_equiv": "Sand / Dust",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a loose, granular physical substance consisting of finely divided rock, mineral particles, or earth."
+  },
+  {
+    "word": "sapi",
+    "english_equiv": "Make / Create",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to create, construct, or form something."
+  },
+  {
+    "word": "sapiti",
+    "english_equiv": "Invent",
+    "part_of_speech": "Verb",
+    "definition": "To physically create, design, or conceptually originate something that did not previously exist."
+  },
+  {
+    "word": "saqa",
+    "english_equiv": "Sibling",
+    "part_of_speech": "Biological Noun",
+    "definition": "A gender-neutral biological relative who shares one or both parents with another individual."
+  },
+  {
+    "word": "sarmi",
+    "english_equiv": "Taste",
+    "part_of_speech": "Verb",
+    "definition": "To perceive the flavor of food or liquid in the mouth."
+  },
+  {
+    "word": "satsi",
+    "english_equiv": "Hit / Strike.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to deliver a blow to someone or something."
+  },
+  {
+    "word": "savodo",
+    "english_equiv": "Coal",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hard black mineral formed from ancient plant matter, dug from the ground and burned as fuel."
+  },
+  {
+    "word": "saza",
+    "english_equiv": "Sister",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a female sibling who shares one or both parents with another individual."
+  },
+  {
+    "word": "segro",
+    "english_equiv": "Blade.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The flat, sharpened cutting part of a knife, sword, or tool."
+  },
+  {
+    "word": "seji",
+    "english_equiv": "Stop.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to cease an action or event."
+  },
+  {
+    "word": "sek",
+    "english_equiv": "List Separator / Spoken Comma",
+    "part_of_speech": "Grammar",
+    "definition": "A structural particle that explicitly separates sequential items in a list or breaks the -t stacker bond between adjacent number blocks. It acts as a phonetic wall, telling the parser to finalize the current item and move to the next. Used for enumerating individual multi-digit numbers (e.g., counting 10, 11, 12) and for listing items without using lan.",
+    "usage_note": "Neutral enumeration, unlike lan, which asserts logical AND."
+  },
+  {
+    "word": "sep",
+    "english_equiv": "In sum / In conclusion",
+    "part_of_speech": "Grammar",
+    "definition": "A pragmatic mood tag placed at the absolute start of a sentence to introduce a summary or conclusion."
+  },
+  {
+    "word": "sesny",
+    "english_equiv": "Despite / In spite of",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicating that an action or state occurs regardless of an obstacle or opposing force."
+  },
+  {
+    "word": "sexi",
+    "english_equiv": "Update",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to make something more modern or current, or to incorporate the most recent information."
+  },
+  {
+    "word": "sidoho",
+    "english_equiv": "Pillar / Column",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A tall vertical support column of a structure."
+  },
+  {
+    "word": "sifa",
+    "english_equiv": "Wife",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a female spouse within a marital partnership."
+  },
+  {
+    "word": "sigi",
+    "english_equiv": "Hold.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to grasp and support something."
+  },
+  {
+    "word": "sil",
+    "english_equiv": "this",
+    "part_of_speech": "Grammar",
+    "definition": "Proximal deictic; the current or immediately preceding clause or concept."
+  },
+  {
+    "word": "sile",
+    "english_equiv": "This / These (Proximal Modifier)",
+    "part_of_speech": "Modifier",
+    "definition": "This word identifies a specific physical or conceptual noun that is physically close to the speaker, or currently present in the immediate environment. It must follow the noun it modifies."
+  },
+  {
+    "word": "sioxi",
+    "english_equiv": "Hold / Host (an event)",
+    "part_of_speech": "Verb",
+    "definition": "To officially facilitate, provide the space for, or preside over an abstract event, meeting, or performance."
+  },
+  {
+    "word": "siswaso",
+    "english_equiv": "Stripe / Band",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A long, narrow section of contrasting color or material running across a surface."
+  },
+  {
+    "word": "skagi",
+    "english_equiv": "Break.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to separate into pieces as a result of a blow, shock, or structural failure."
+  },
+  {
+    "word": "skaxebi",
+    "english_equiv": "Suspect",
+    "part_of_speech": "Verb",
+    "definition": "To tentatively believe something, classically something bad or hidden, on partial evidence; a weak positive lean toward a claim, opposite in direction to iqi (doubt), which leans away."
+  },
+  {
+    "word": "skezafa",
+    "english_equiv": "Pufferfish",
+    "part_of_speech": "Biological Noun",
+    "definition": "A fish that inflates its spiny body into a ball when threatened; many kinds are poisonous."
+  },
+  {
+    "word": "skiwi",
+    "english_equiv": "Control.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to determine the behavior or supervise the running of an entity or system."
+  },
+  {
+    "word": "skoru",
+    "english_equiv": "Market",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange."
+  },
+  {
+    "word": "skroqo",
+    "english_equiv": "Cheese.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A solid dairy product made from curdled milk (lamso). Follows lamso's Concrete Noun class, like its dairy-product sibling zedro (butter)."
+  },
+  {
+    "word": "skrybi",
+    "english_equiv": "To sneeze.",
+    "part_of_speech": "Verb",
+    "definition": "To expel air suddenly and involuntarily through the nose and mouth, typically from irritation."
+  },
+  {
+    "word": "skumki",
+    "english_equiv": "Destroy",
+    "part_of_speech": "Verb",
+    "definition": "To break down, ruin, or dismantle a physical object or abstract system so completely that it no longer structurally exists or functions."
+  },
+  {
+    "word": "slafe",
+    "english_equiv": "Too / Excessively",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a quantity, degree, or state that goes beyond what is mathematically necessary, normal, or desirable. (This acts as the strict quantitative counterpart to uzume [enough] and fe [very], explicitly indicating an excess)."
+  },
+  {
+    "word": "slewofo",
+    "english_equiv": "Wax",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A soft, moldable solid substance that melts at low heat, produced by bees or from oils, used for candles, sealing, and coating."
+  },
+  {
+    "word": "slojo",
+    "english_equiv": "Fan",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A flat object with a spread, wedge-like shape, waved or spun to move air; also the shape itself, as in coral fans."
+  },
+  {
+    "word": "sluqe",
+    "english_equiv": "Six.",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number equivalent to the product of two and three."
+  },
+  {
+    "word": "sluqedu",
+    "english_equiv": "Saturday",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Saturday; the sixth day of the week. Derived by compounding sluqe (six) and du (day)."
+  },
+  {
+    "word": "smeze",
+    "english_equiv": "Raw / Uncooked.",
+    "part_of_speech": "Modifier",
+    "definition": "Not yet cooked or processed; in its natural, unaltered state. Pairs with food (otanie, cooked) and unprocessed ore/materials."
+  },
+  {
+    "word": "smibra",
+    "english_equiv": "Bat.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A flying nocturnal mammal with wings formed from a membrane stretched between its limbs."
   },
   {
     "word": "smimi",
@@ -6559,10 +5981,1475 @@ const dictionaryData = [
     "definition": "To touch with the lips as a sign of affection, greeting, or respect."
   },
   {
-    "word": "grunki",
-    "english_equiv": "To hug.",
+    "word": "smotifi",
+    "english_equiv": "Restore / Reset",
     "part_of_speech": "Verb",
-    "definition": "To hold someone closely in the arms as a sign of affection or comfort; to embrace."
+    "definition": "To return something to an earlier or original state."
+  },
+  {
+    "word": "smusu",
+    "english_equiv": "Horse-to-water futility",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The situation of enabling someone who cannot be compelled: you can give the means, but not the will. Logical equivalent: Suk nyrsi luge kabap zy dorsop bul suk nes lini luge tep kabap roli. (You can carry the horse to the water but you cannot make the horse drink.)"
+  },
+  {
+    "word": "snaha",
+    "english_equiv": "Deer.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A slender, antlered wild mammal known for speed and grace."
+  },
+  {
+    "word": "socu",
+    "english_equiv": "Society",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract structural system of human relationships, institutions, and shared culture existing together within a broad population. (Broader than canpu [Community], which implies a closer shared identity or local group)."
+  },
+  {
+    "word": "sokso",
+    "english_equiv": "Sock",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A soft, flexible physical piece of clothing worn directly on the foot and lower leg to provide warmth and reduce friction inside a shoe."
+  },
+  {
+    "word": "solfi",
+    "english_equiv": "To solve / To settle",
+    "part_of_speech": "Verb",
+    "definition": "To actively investigate and successfully find an answer, explanation, or peaceful resolution to a problem or dispute."
+  },
+  {
+    "word": "somada",
+    "english_equiv": "Dolphin",
+    "part_of_speech": "Biological Noun",
+    "definition": "An intelligent marine mammal with a streamlined body and a beak-like snout."
+  },
+  {
+    "word": "sone",
+    "english_equiv": "Spicy / Pungent",
+    "part_of_speech": "Modifier",
+    "definition": "Having a sharp, burning, hot, or strong taste."
+  },
+  {
+    "word": "sop",
+    "english_equiv": "Direct / Sensory Evidence",
+    "part_of_speech": "Grammar",
+    "definition": "A pragmatic mood tag indicating the speaker knows the statement is true because they directly experienced it (e.g., saw, heard, or felt it happen)."
+  },
+  {
+    "word": "sowi",
+    "english_equiv": "Fall.",
+    "part_of_speech": "Verb",
+    "definition": "This verb describes the action of dropping down under the force of gravity."
+  },
+  {
+    "word": "soxa",
+    "english_equiv": "Body.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the physical structure of a person or an animal, comprising the material substance."
+  },
+  {
+    "word": "spelu",
+    "english_equiv": "Game",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A conceptual structured form of play or a competitive abstract system strictly governed by rules."
+  },
+  {
+    "word": "spicupu",
+    "english_equiv": "Loyalty / Devotion",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Steadfast allegiance and devotion to a person, group, or cause over time; the standing disposition whose single violation is ongu (betrayal). Includes filial devotion toward one's parents (孝)."
+  },
+  {
+    "word": "splaka",
+    "english_equiv": "Cheek.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The soft fleshy side of the face, between the eye and the jaw."
+  },
+  {
+    "word": "splyxi",
+    "english_equiv": "Chop / Mince / Dice",
+    "part_of_speech": "Verb",
+    "definition": "To cut food or other materials into small pieces with repeated sharp blows using a knife or similar tool."
+  },
+  {
+    "word": "spujuba",
+    "english_equiv": "Squid",
+    "part_of_speech": "Biological Noun",
+    "definition": "A soft-bodied marine animal with eight arms and two long tentacles, able to squirt ink."
+  },
+  {
+    "word": "spuxizi",
+    "english_equiv": "Splash",
+    "part_of_speech": "Verb",
+    "definition": "To produce the sound and scatter of liquid being struck or disturbed."
+  },
+  {
+    "word": "spyfu",
+    "english_equiv": "Passive luck-waiting",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Waiting for luck instead of working. Logical equivalent: Daq wastiq kewur. Daq nes naciq. (He is waiting for luck. He is not working.)"
+  },
+  {
+    "word": "stalo",
+    "english_equiv": "Star",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This identifies a distant celestial object, consisting of a massive, luminous sphere of plasma, appearing as a point of light in the night sky."
+  },
+  {
+    "word": "steli",
+    "english_equiv": "Take.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to lay hold of something with one's hands or reach."
+  },
+  {
+    "word": "stepu",
+    "english_equiv": "Story",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A structured conceptual narrative or abstract account of imaginary or real events."
+  },
+  {
+    "word": "stiro",
+    "english_equiv": "Line / Row / Queue",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical sequence of entities arranged sequentially in a continuous line."
+  },
+  {
+    "word": "stomi",
+    "english_equiv": "Give / Provide",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to freely transfer the possession of something to someone."
+  },
+  {
+    "word": "storto",
+    "english_equiv": "Slab.",
+    "definition": "A thin, flat, broad piece of material; a half-height block.",
+    "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "stramu",
+    "english_equiv": "Team / Squad",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract social grouping of individuals assembled specifically for cooperative work, a sport, or a shared task."
+  },
+  {
+    "word": "strene",
+    "english_equiv": "Soon.",
+    "part_of_speech": "Modifier",
+    "definition": "Within a short time from now; in the near future. A temporal modifier, deferred to this batch by the Q8 ruling on temporal adjuncts."
+  },
+  {
+    "word": "strici",
+    "english_equiv": "To translate.",
+    "part_of_speech": "Verb",
+    "definition": "To render text or speech from one language into another, preserving meaning."
+  },
+  {
+    "word": "sube",
+    "english_equiv": "(Probable / Likely)",
+    "part_of_speech": "Modifier",
+    "definition": "Highly probable or likely to happen."
+  },
+  {
+    "word": "sudi",
+    "english_equiv": "Push / Press",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to exert force on something to move it away."
+  },
+  {
+    "word": "sufi",
+    "english_equiv": "Turn.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to rotate or change the direction of movement."
+  },
+  {
+    "word": "suglasa",
+    "english_equiv": "Zombie",
+    "part_of_speech": "Biological Noun",
+    "definition": "A dead body reanimated into mindless motion; the walking dead of folklore."
+  },
+  {
+    "word": "suk",
+    "english_equiv": "you",
+    "part_of_speech": "Grammar",
+    "definition": "Second-person singular; strictly the listener."
+  },
+  {
+    "word": "suke",
+    "english_equiv": "your's",
+    "part_of_speech": "Modifier",
+    "definition": "Strictly belonging to or associated with the listener."
+  },
+  {
+    "word": "sulpo",
+    "english_equiv": "Dye.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A substance used to add or change the color of a material."
+  },
+  {
+    "word": "susno",
+    "english_equiv": "Screen",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A flat, physical display surface on an electronic device constructed to emit light and show visual information."
+  },
+  {
+    "word": "suv",
+    "english_equiv": "You (formal/respectful)",
+    "part_of_speech": "Grammar",
+    "definition": "The formal second-person singular pronoun used to show respect when addressing elders, authorities, strangers, or in professional contexts. Possessive form: `suve` (your/yours, formal singular). Pluralized with `je`: `suv je` (you all, formal), possessive `suvem je` (your/yours, formal plural)."
+  },
+  {
+    "word": "suve",
+    "english_equiv": "Your / Yours (formal)",
+    "part_of_speech": "Modifier",
+    "definition": "Strictly belonging to or associated with the formal/respected listener (possessive of suv, Rule 35)."
+  },
+  {
+    "word": "swami",
+    "english_equiv": "Put.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to move something into a specific place or position."
+  },
+  {
+    "word": "sweso",
+    "english_equiv": "Sweat / Perspiration",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The clear physical liquid excreted through the pores of the skin, typically functioning to regulate biological heat."
+  },
+  {
+    "word": "swozy",
+    "english_equiv": "Except / Excluding",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicating that the specified entity is not included in the statement."
+  },
+  {
+    "word": "swucu",
+    "english_equiv": "Relief",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The positive release felt when a feared or anticipated bad outcome fails to occur; the resolving counterpart of kuri (fear) and juhi (worry)."
+  },
+  {
+    "word": "syca",
+    "english_equiv": "Seed.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the unit of reproduction of a flowering plant capable of developing into another such plant."
+  },
+  {
+    "word": "sydo",
+    "english_equiv": "House / Shelter / Home",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a structure or place serving as a dwelling, providing protection from the elements and a living space for habitation."
+  },
+  {
+    "word": "syn",
+    "english_equiv": "Condition Initiator",
+    "part_of_speech": "Grammar",
+    "definition": "Marks a theoretical premise or conditional clause (if/when/whenever)."
+  },
+  {
+    "word": "synaru",
+    "english_equiv": "Condition / Prerequisite / requirement",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract requirement, prerequisite, or stipulation that must be met."
+  },
+  {
+    "word": "sysu",
+    "english_equiv": "Boredom",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The state of feeling weary, restless, or uninterested due to lack of activity or stimulation."
+  },
+  {
+    "word": "tafe",
+    "english_equiv": "three",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number that is the sum of one and two."
+  },
+  {
+    "word": "tafedu",
+    "english_equiv": "Wednesday",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Wednesday; the third day of the week. Derived by compounding tafe (three) and du (day)."
+  },
+  {
+    "word": "tagudu",
+    "english_equiv": "Bad bargain / Not worth it",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A gain that does not cover its loss. Logical equivalent: Xeskiup landei jete taly wafriup. (The gain is smaller than the loss.)"
+  },
+  {
+    "word": "taicu",
+    "english_equiv": "Party / Festival",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A conceptual social gathering or a political faction organized for a specific shared purpose."
+  },
+  {
+    "word": "taju",
+    "english_equiv": "Envy / Jealousy",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A feeling of discontented or resentful longing aroused by someone else's possessions, qualities, or luck."
+  },
+  {
+    "word": "taly",
+    "english_equiv": "compared to / than",
+    "part_of_speech": "Prepositions",
+    "definition": "Used to establish a structural bridge between a modified subject or action and the baseline it is being measured against."
+  },
+  {
+    "word": "tande",
+    "english_equiv": "Big / Large / Great",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something of considerable size, extent, or capacity."
+  },
+  {
+    "word": "tandorso",
+    "english_equiv": "Ocean / Sea",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a massive, continuous physical body of saltwater that covers a vast structural portion of a planet's surface."
+  },
+  {
+    "word": "tanko",
+    "english_equiv": "Sugar",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A sweet, crystalline physical substance naturally derived from plants, used strictly to sweeten food or drink."
+  },
+  {
+    "word": "tapo",
+    "english_equiv": "Here.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The specific physical location of the speaker or the immediate area being occupied."
+  },
+  {
+    "word": "taqa",
+    "english_equiv": "Brother",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a male sibling who shares one or both parents with another individual."
+  },
+  {
+    "word": "tazi",
+    "english_equiv": "Love.",
+    "part_of_speech": "Verb",
+    "definition": "To feel deep affection, unconditional care, or profound attachment toward an entity."
+  },
+  {
+    "word": "tebe",
+    "english_equiv": "Especially / Particularly",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an entity or state that stands out above all others in a specific context; to a distinctly higher degree than is usual."
+  },
+  {
+    "word": "tefama",
+    "english_equiv": "Hip.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The joint and surrounding area where the leg meets the torso, at the side of the pelvis."
+  },
+  {
+    "word": "tehidi",
+    "english_equiv": "To Study / To Review",
+    "part_of_speech": "Verb",
+    "definition": "To devote time and attention to acquiring knowledge on an academic subject."
+  },
+  {
+    "word": "tel",
+    "english_equiv": "end of subordinate clause / close bracket",
+    "part_of_speech": "Grammar",
+    "definition": "Closing bracket finalizing a subordinate or conditional clause. Optional at sentence boundaries (periods), but strictly mandatory mid-sentence or to resolve mirroring/nesting ambiguity."
+  },
+  {
+    "word": "telfo",
+    "english_equiv": "Telephone / Phone",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical electronic device or machine used for two-way audio communication across a distance."
+  },
+  {
+    "word": "tep",
+    "english_equiv": "subordinate predicate marker",
+    "part_of_speech": "Grammar",
+    "definition": "Opening bracket introducing a subordinate or embedded relative clause. Open brackets are implicitly closed by a period (.) at the end of a sentence."
+  },
+  {
+    "word": "tequ",
+    "english_equiv": "Moment",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A highly specific, brief abstract conceptual point or period in the flow of time."
+  },
+  {
+    "word": "teso",
+    "english_equiv": "Tea",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a physical aromatic liquid beverage prepared by pouring hot water over cured or fresh leaves of a plant."
+  },
+  {
+    "word": "tex",
+    "english_equiv": "Goodbye / Farewell",
+    "part_of_speech": "Grammar",
+    "definition": "Closes a social interaction or indicates departure."
+  },
+  {
+    "word": "tifava",
+    "english_equiv": "Bush / Shrub",
+    "part_of_speech": "Biological Noun",
+    "definition": "A woody plant smaller than a tree (mosa), with many stems branching from near the ground."
+  },
+  {
+    "word": "timybo",
+    "english_equiv": "Pumpkin",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A large, round, orange-fleshed vegetable with a thick rind, harvested in autumn."
+  },
+  {
+    "word": "toce",
+    "english_equiv": "Sorry / Pardon / Apology.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes a state of feeling regret or penitence for an action.",
+    "usage_note": "Apology only — the sense of 'sorry' for one's own wrong action. For the sympathy sense of English 'sorry' (regret at another's misfortune, having caused nothing), use azmu or the phatic ov. See How to say that."
+  },
+  {
+    "word": "tody",
+    "english_equiv": "up / above",
+    "part_of_speech": "Prepositions",
+    "definition": "Used for direction or position higher than a reference."
+  },
+  {
+    "word": "todyri",
+    "english_equiv": "Raise/ lift",
+    "part_of_speech": "Verb",
+    "definition": "To elevate an entity to a higher physical altitude or scale it to a higher mathematical level."
+  },
+  {
+    "word": "tofakro",
+    "english_equiv": "Field / Meadow",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An open area of ground, especially grassland or cleared land used for crops or grazing; the physical place, where atobu is the abstract field of study."
+  },
+  {
+    "word": "tofra",
+    "english_equiv": "Aunt",
+    "part_of_speech": "Biological Noun",
+    "definition": "A female biological relative who is the sister of one's parent."
+  },
+  {
+    "word": "toili",
+    "english_equiv": "Lend",
+    "part_of_speech": "Verb",
+    "definition": "To temporarily give or provide something to someone with the explicit expectation that it will be returned."
+  },
+  {
+    "word": "tolkywo",
+    "english_equiv": "Cross",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A shape or figure formed by two lines or bars intersecting at right angles; also used as a symbol or marker."
+  },
+  {
+    "word": "topza",
+    "english_equiv": "Chest / Torso",
+    "part_of_speech": "Biological Noun",
+    "definition": "This identifies the primary front surface of a biological entity's body, located strictly between the neck and the stomach."
+  },
+  {
+    "word": "tosuru",
+    "english_equiv": "Hardship endurance",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Willing, virtuous endurance of hardship — active, unlike ixovi (endure passively; Mandarin chi ku). Logical equivalent: Daq dzefi pamup. Daq xygaji. (He accepts the pain. He continues.)"
+  },
+  {
+    "word": "tovni",
+    "english_equiv": "To establish / To set up",
+    "part_of_speech": "Verb",
+    "definition": "To officially create, start, or set up an abstract organization, business, or systemic institution."
+  },
+  {
+    "word": "tox",
+    "english_equiv": "cheers",
+    "part_of_speech": "Grammar",
+    "definition": "Phatic toast exchanged when drinking together; 'cheers.' Standalone on the Null Track (Rule 33)."
+  },
+  {
+    "word": "toxu",
+    "english_equiv": "Psychology / Mentality",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract study, concept, or collective state of the mind and its cognitive processes."
+  },
+  {
+    "word": "traxa",
+    "english_equiv": "Kidney",
+    "part_of_speech": "Biological Noun",
+    "definition": "One of a pair of organs in the abdomen that filter waste products from the blood and produce urine."
+  },
+  {
+    "word": "triruzu",
+    "english_equiv": "Frustration",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Agitation arising from a blocked goal or thwarted effort. The obstacle, rather than a moral wrong, distinguishes it from tsake (anger)."
+  },
+  {
+    "word": "truhu",
+    "english_equiv": "Awe / Wonder",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A feeling of reverential respect mixed with fear or wonder."
+  },
+  {
+    "word": "trynda",
+    "english_equiv": "Ankle.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The joint connecting the foot to the leg."
+  },
+  {
+    "word": "tsake",
+    "english_equiv": "Angry",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a strong subjective state of annoyance, displeasure, or furious hostility."
+  },
+  {
+    "word": "tsenge",
+    "english_equiv": "Often.",
+    "part_of_speech": "Modifier",
+    "definition": "With high frequency; more than evle (sometimes) but less than ovce (always). Completes the amce–evle–tsenge–ovce frequency scale."
+  },
+  {
+    "word": "tsi",
+    "english_equiv": "Leave.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to go away from a place, person, or thing; to depart."
+  },
+  {
+    "word": "tsorfo",
+    "english_equiv": "Silver.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A lustrous white precious metal, used in jewelry, coinage, and tools. Follows xedo (metal) and xaqbo (gold) as a specific metal type."
+  },
+  {
+    "word": "tsotu",
+    "english_equiv": "Contentment.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a state of happiness and satisfaction."
+  },
+  {
+    "word": "tsyti",
+    "english_equiv": "Search / Look for.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to try to find something by looking or otherwise seeking carefully and thoroughly."
+  },
+  {
+    "word": "tudihi",
+    "english_equiv": "Bang / Thud",
+    "part_of_speech": "Verb",
+    "definition": "To produce a sudden loud impact sound, as of striking, knocking, or falling."
+  },
+  {
+    "word": "tulo",
+    "english_equiv": "Bottle",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A rigid container, typically constructed of glass or plastic, featuring a narrow neck and used for storing liquids."
+  },
+  {
+    "word": "tumi",
+    "english_equiv": "Change / Alter.",
+    "part_of_speech": "Verb",
+    "definition": "To make or become different; to transform the state of something."
+  },
+  {
+    "word": "tusu",
+    "english_equiv": "Winter",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The coldest season of the year, characterised by short days, low temperatures, and dormant vegetation."
+  },
+  {
+    "word": "tute",
+    "english_equiv": "Sweet.",
+    "part_of_speech": "Modifier",
+    "definition": "This describes the taste sensation characteristic of sugars.",
+    "usage_note": "Distinct from the other basic tastes: sour, salty, or bitter."
+  },
+  {
+    "word": "ty",
+    "english_equiv": "on",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates physical contact with and support by a surface."
+  },
+  {
+    "word": "tyko",
+    "english_equiv": "Material.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This describes the substance things are made of and is critical for defining modern concepts like plastic."
+  },
+  {
+    "word": "ubli",
+    "english_equiv": "Expect",
+    "part_of_speech": "Verb",
+    "definition": "To mentally anticipate or logically regard an event as highly likely to happen.",
+    "usage_note": "Directed at a future event as likely. For accepting a proposition as a working basis without evidence, use dagibi (to assume)."
+  },
+  {
+    "word": "ubme",
+    "english_equiv": "Public",
+    "part_of_speech": "Modifier",
+    "definition": "Done, perceived, or existing in open view; open to the community."
+  },
+  {
+    "word": "ucde",
+    "english_equiv": "Proud",
+    "part_of_speech": "Modifier",
+    "definition": "Feeling deep pleasure or satisfaction as a result of achievements, qualities, or possessions."
+  },
+  {
+    "word": "ucka",
+    "english_equiv": "Seedling / Sprout / Sapling",
+    "part_of_speech": "Biological Noun",
+    "definition": "A young plant, especially one recently grown from a seed."
+  },
+  {
+    "word": "ucto",
+    "english_equiv": "Spoon",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A utensil consisting of a small, shallow oval bowl on a handle, used for eating, stirring, or serving food."
+  },
+  {
+    "word": "udbo",
+    "english_equiv": "Button",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A small disc or knob sewn onto a garment, used to fasten it or as decoration."
+  },
+  {
+    "word": "udce",
+    "english_equiv": "Tight",
+    "part_of_speech": "Modifier",
+    "definition": "Fitting closely; held or closed firmly in place."
+  },
+  {
+    "word": "udzidu",
+    "english_equiv": "Appearance",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual state, outward visual presentation, or visible aspect of how an entity looks and is perceived by an observer."
+  },
+  {
+    "word": "ufaxo",
+    "english_equiv": "Message / Letter",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical or digitally recorded string of text, symbols, or audio meant to convey information from one entity to another."
+  },
+  {
+    "word": "ufdi",
+    "english_equiv": "Shake",
+    "part_of_speech": "Verb",
+    "definition": "To move back and forth or up and down with short, quick, repetitive movements."
+  },
+  {
+    "word": "ufnu",
+    "english_equiv": "Conflict",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A serious disagreement, argument, or clash between opposing forces, ideas, or entities."
+  },
+  {
+    "word": "ugni",
+    "english_equiv": "Leak",
+    "part_of_speech": "Verb",
+    "definition": "To accidentally lose or admit contents (typically fluid) through a hole, crack, or defect."
+  },
+  {
+    "word": "ugte",
+    "english_equiv": "Barely / Scarcely",
+    "part_of_speech": "Modifier",
+    "definition": "A relative degree modifier indicating the lowest perceptible amount of a trait, state, or action; almost not at all."
+  },
+  {
+    "word": "ugvu",
+    "english_equiv": "Ambition",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A strong desire to do, achieve, or accomplish something great, typically requiring determination."
+  },
+  {
+    "word": "uho",
+    "english_equiv": "Flag",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A piece of cloth or fabric, usually rectangular, with a distinctive design used as a symbol or signal (specifically representing a nation or group)."
+  },
+  {
+    "word": "uibu",
+    "english_equiv": "Risk",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A situation involving exposure to danger, harm, or loss."
+  },
+  {
+    "word": "ukwi",
+    "english_equiv": "To Judge / To Adjudicate",
+    "part_of_speech": "Verb",
+    "definition": "To form an opinion or conclusion about something, or to formally decide a case in a court of law."
+  },
+  {
+    "word": "ukwolu",
+    "english_equiv": "Embarrassment",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A feeling of self-consciousness, shame, or awkwardness."
+  },
+  {
+    "word": "ulime",
+    "english_equiv": "Half",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a quantity representing exactly one of two equal parts of a whole (50%).",
+    "usage_note": "Distinct from mide (middle), which refers to a spatial or temporal center."
+  },
+  {
+    "word": "ultu",
+    "english_equiv": "Context",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The circumstances, background, or setting that form the environment for an event, statement, or idea."
+  },
+  {
+    "word": "umeti",
+    "english_equiv": "Suggest / Offer",
+    "part_of_speech": "Verb",
+    "definition": "To put forward a conceptual idea, abstract plan, or possibility for another mind's consideration."
+  },
+  {
+    "word": "umzi",
+    "english_equiv": "Welcome / Greet",
+    "part_of_speech": "Verb",
+    "definition": "To greet someone in a warm, friendly, and hospitable manner upon their arrival."
+  },
+  {
+    "word": "untexo",
+    "english_equiv": "App / Application",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A specific digital tool or concrete software program designed to perform a distinct function for the user on a device like a phone or computer."
+  },
+  {
+    "word": "unyha",
+    "english_equiv": "Moss",
+    "part_of_speech": "Biological Noun",
+    "definition": "A soft, low, dense green plant that carpets damp surfaces."
+  },
+  {
+    "word": "uovo",
+    "english_equiv": "Pillow",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A soft cushion used to support the head, especially when sleeping in bed."
+  },
+  {
+    "word": "upfe",
+    "english_equiv": "Unequal",
+    "part_of_speech": "Modifier",
+    "definition": "Not the same in quantity, size, degree, value, or status."
+  },
+  {
+    "word": "upta",
+    "english_equiv": "Eagle / Hawk",
+    "part_of_speech": "Biological Noun",
+    "definition": "A large bird of prey with a curved beak and long, broad wings."
+  },
+  {
+    "word": "upvi",
+    "english_equiv": "Stretch",
+    "part_of_speech": "Verb",
+    "definition": "To make something longer or wider by pulling it, or to extend one's limbs."
+  },
+  {
+    "word": "upyci",
+    "english_equiv": "Look",
+    "part_of_speech": "Verb",
+    "definition": "To direct one's gaze or visual attention in a specific direction.",
+    "usage_note": "The active effort, distinct from passive seeing."
+  },
+  {
+    "word": "uqu",
+    "english_equiv": "Sign / Symbol",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract mark, gesture, or object that represents an idea, sound, word, or command."
+  },
+  {
+    "word": "urfu",
+    "english_equiv": "Signal",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A gesture, action, or sound that is used to convey information, instructions, or commands."
+  },
+  {
+    "word": "uropi",
+    "english_equiv": "To Sing",
+    "part_of_speech": "Verb",
+    "definition": "To make musical sounds with the voice, especially words with a set tune."
+  },
+  {
+    "word": "usate",
+    "english_equiv": "Straight",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an entity moving continuously in one direction without curving, bending, or deviating structurally."
+  },
+  {
+    "word": "usi",
+    "english_equiv": "Sleep.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to rest with eyes closed in a state of natural unconsciousness."
+  },
+  {
+    "word": "usy",
+    "english_equiv": "at the sequence of / ranking",
+    "part_of_speech": "Prepositions",
+    "definition": "This preposition indicates the ordinal position or sequence of a noun within a series."
+  },
+  {
+    "word": "utmi",
+    "english_equiv": "Float",
+    "part_of_speech": "Verb",
+    "definition": "To rest or move slowly on or near the surface of a liquid without sinking, or drift in the air."
+  },
+  {
+    "word": "uvga",
+    "english_equiv": "Toe",
+    "part_of_speech": "Biological Noun",
+    "definition": "Any of the five terminal digits of the foot."
+  },
+  {
+    "word": "uwa",
+    "english_equiv": "Onion / Garlic",
+    "part_of_speech": "Biological Noun",
+    "definition": "A bulbous vegetable with a pungent smell and taste, used in cooking."
+  },
+  {
+    "word": "uxbe",
+    "english_equiv": "Loose",
+    "part_of_speech": "Modifier",
+    "definition": "Not firmly or tightly fixed in place; relaxed or detached."
+  },
+  {
+    "word": "uxku",
+    "english_equiv": "Success",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract accomplishment of an aim, purpose, or favorable outcome."
+  },
+  {
+    "word": "uzki",
+    "english_equiv": "Hunt",
+    "part_of_speech": "Verb",
+    "definition": "To pursue and capture or kill wild animals for food or sport."
+  },
+  {
+    "word": "uzume",
+    "english_equiv": "Enough",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes a quantity or degree that is mathematically sufficient or adequate to satisfy a baseline need or demand."
+  },
+  {
+    "word": "vahimi",
+    "english_equiv": "Handle / Deal with",
+    "part_of_speech": "Verb",
+    "definition": "To actively direct, manage, or take organizational/disciplinary action regarding a situation, problem, or entity."
+  },
+  {
+    "word": "vajuzu",
+    "english_equiv": "Counterproductive haste",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Hurrying that destroys the thing being grown. Logical equivalent: Buxeup skumki moriup. (The impatience destroys the growth.)"
+  },
+  {
+    "word": "valu",
+    "english_equiv": "Opportunity / Chance",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abstract set of circumstances or a specific moment in time that makes it possible to do something favorable."
+  },
+  {
+    "word": "vansi",
+    "english_equiv": "Advance / Progress",
+    "part_of_speech": "Verb",
+    "definition": "To advance, move forward logically, or progress systematically toward a goal or higher state."
+  },
+  {
+    "word": "vax",
+    "english_equiv": "However / On the other hand",
+    "part_of_speech": "Grammar",
+    "definition": "A structural particle used to introduce a statement that contrasts with or seems to contradict something that has been said previously."
+  },
+  {
+    "word": "vefa",
+    "english_equiv": "Lung",
+    "part_of_speech": "Biological Noun",
+    "definition": "The primary organ of respiration in humans and many other animals, used for gas exchange."
+  },
+  {
+    "word": "veke",
+    "english_equiv": "Low / Short (Vertical)",
+    "part_of_speech": "Modifier",
+    "definition": "This describes something having a small vertical extent or measuring a short distance from bottom to top."
+  },
+  {
+    "word": "vel",
+    "english_equiv": "While / Whereas",
+    "part_of_speech": "Grammar",
+    "definition": "Introduces a completely new, independent clause that occurs simultaneously alongside the previous clause, or presents a direct contextual contrast (whereas)."
+  },
+  {
+    "word": "vengo",
+    "english_equiv": "Flint.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hard gray stone that produces sparks when struck against steel."
+  },
+  {
+    "word": "veponku",
+    "english_equiv": "Surprise",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The emotional response to a sudden, unexpected (odaze) event. Neutral in valence — it may be positive or negative — unlike truhu (awe), which is reverential."
+  },
+  {
+    "word": "vesma",
+    "english_equiv": "Liver.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The internal organ that filters the blood and processes nutrients and toxins."
+  },
+  {
+    "word": "vexu",
+    "english_equiv": "Weather",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual state and overarching condition of the atmosphere at a specific place and time."
+  },
+  {
+    "word": "vianci",
+    "english_equiv": "To dare",
+    "part_of_speech": "Verb",
+    "definition": "To have the courage to execute an action despite fear or risk."
+  },
+  {
+    "word": "vice",
+    "english_equiv": "Brave / Courageous",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a psychological state of facing danger, pain, or difficult situations despite the presence of fear."
+  },
+  {
+    "word": "vifi",
+    "english_equiv": "Boil",
+    "part_of_speech": "Verb",
+    "definition": "To heat a liquid until it reaches its boiling point and turns into vapor."
+  },
+  {
+    "word": "viketso",
+    "english_equiv": "Torch / Lamp",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A portable source of steady light, whether a burning brand or a fueled or electric lamp."
+  },
+  {
+    "word": "vilde",
+    "english_equiv": "Direct / Unmediated",
+    "part_of_speech": "Modifier",
+    "definition": "Describes an action or entity that proceeds in a straight logical sequence without any interruption, intermediaries, or secondary steps."
+  },
+  {
+    "word": "vira",
+    "english_equiv": "Elephant",
+    "part_of_speech": "Biological Noun",
+    "definition": "A very large herbivorous mammal characterized by a long trunk, tusks, and large ears."
+  },
+  {
+    "word": "vispo",
+    "english_equiv": "Letter.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A single written or spoken symbol representing one sound in the alphabet. Follows go (word) as a smaller linguistic unit."
+  },
+  {
+    "word": "vivu",
+    "english_equiv": "Evening",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract period of time at the end of the day, strictly occurring between late afternoon (fohu) and full night (dugu)."
+  },
+  {
+    "word": "vixo",
+    "english_equiv": "Bucket",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A cylindrical open container with a handle, used for carrying liquids or loose materials."
+  },
+  {
+    "word": "vofu",
+    "english_equiv": "Spring",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The season of renewal following winter, characterised by warming temperatures, lengthening days, and the growth of new vegetation."
+  },
+  {
+    "word": "voha",
+    "english_equiv": "Mouse / Rat",
+    "part_of_speech": "Biological Noun",
+    "definition": "A small rodent characterized by a pointed snout, large ears, and a long, thin tail."
+  },
+  {
+    "word": "vojo",
+    "english_equiv": "Powder",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A dry substance of fine, loose particles, produced by grinding, crushing, or settling; finer than sanpo (sand)."
+  },
+  {
+    "word": "vokre",
+    "english_equiv": "Greedy",
+    "part_of_speech": "Modifier",
+    "definition": "Having or showing an intense, selfish desire for wealth, power, or food."
+  },
+  {
+    "word": "volni",
+    "english_equiv": "To be willing to / To consent to",
+    "part_of_speech": "Verb",
+    "definition": "To have a favorable disposition, readiness, or uncoerced agreement to perform an action."
+  },
+  {
+    "word": "vome",
+    "english_equiv": "Less / Fewer",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a mathematically smaller quantity, extent, or degree of something."
+  },
+  {
+    "word": "vubro",
+    "english_equiv": "Stick.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thin, short length of wood, typically a broken or cut branch."
+  },
+  {
+    "word": "vudipi",
+    "english_equiv": "Glaze",
+    "part_of_speech": "Verb",
+    "definition": "To coat a surface with a thin glassy layer that hardens smooth and shiny, as on pottery (dzoco) or food."
+  },
+  {
+    "word": "vuglo",
+    "english_equiv": "Template / Pattern.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A model or guide used to reproduce a shape, design, or structure accurately."
+  },
+  {
+    "word": "vuwo",
+    "english_equiv": "Bell",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hollow, cup-shaped metal object that makes a ringing sound when struck."
+  },
+  {
+    "word": "vy",
+    "english_equiv": "made of",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates the physical substance or material composition of the subject."
+  },
+  {
+    "word": "vyfla",
+    "english_equiv": "Rice.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A small starchy grain, a global staple food, harvested from a cultivated grass. Follows the arteta/zoba (fruit/vegetable) pattern for raw plant food."
+  },
+  {
+    "word": "vyhe",
+    "english_equiv": "Mild / Bland",
+    "part_of_speech": "Modifier",
+    "definition": "Lacking strong flavor, spice, or intensity."
+  },
+  {
+    "word": "vyma",
+    "english_equiv": "Frog / Toad",
+    "part_of_speech": "Biological Noun",
+    "definition": "A tailless amphibian with a short, squat body, long hind legs for leaping, and webbed feet."
+  },
+  {
+    "word": "vyno",
+    "english_equiv": "Desk",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A piece of furniture with a flat top, typically with drawers, designed for writing, reading, or working."
+  },
+  {
+    "word": "vywu",
+    "english_equiv": "Rhythm / Beat",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A strong, regular, repeated pattern of movement or sound."
+  },
+  {
+    "word": "vyzi",
+    "english_equiv": "Escape",
+    "part_of_speech": "Verb",
+    "definition": "To break free from confinement, danger, or control."
+  },
+  {
+    "word": "wable",
+    "english_equiv": "Mutual / Reciprocal",
+    "part_of_speech": "Modifier",
+    "definition": "Indicates that a plural subject is performing an action upon one another."
+  },
+  {
+    "word": "wafri",
+    "english_equiv": "To lose.",
+    "part_of_speech": "Verb",
+    "definition": "To cease to have or possess something (an object, a contest, or an opportunity); to be deprived of, or to be defeated.",
+    "usage_note": "Distinct from ebnesi (to forget)."
+  },
+  {
+    "word": "wage",
+    "english_equiv": "Soft.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something easy to mold, cut, compress, or fold."
+  },
+  {
+    "word": "wal",
+    "english_equiv": "why",
+    "part_of_speech": "Grammar",
+    "definition": "Interrogative clause variable for a reason or cause."
+  },
+  {
+    "word": "wane",
+    "english_equiv": "Left.",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the direction or side towards the west when facing north; the side of the body which contains the heart in most humans."
+  },
+  {
+    "word": "wanso",
+    "english_equiv": "Environment / Surroundings",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The collective physical conditions, objects, or abstract circumstances surrounding and influencing an entity."
+  },
+  {
+    "word": "wapse",
+    "english_equiv": "Flat.",
+    "part_of_speech": "Modifier",
+    "definition": "This describes a surface that is level and smooth, with no raised areas or indentations."
+  },
+  {
+    "word": "waske",
+    "english_equiv": "Old.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something that has existed for a long time."
+  },
+  {
+    "word": "wasmana",
+    "english_equiv": "Grandmother",
+    "part_of_speech": "Biological Noun",
+    "definition": "A female biological relative who is the mother of one's parent."
+  },
+  {
+    "word": "wasnupa",
+    "english_equiv": "Grandparent",
+    "part_of_speech": "Biological Noun",
+    "definition": "A gender-neutral biological relative who is a parent of one's parent."
+  },
+  {
+    "word": "waspeba",
+    "english_equiv": "Grandfather",
+    "part_of_speech": "Biological Noun",
+    "definition": "A male biological relative who is the father of one's parent."
+  },
+  {
+    "word": "wasti",
+    "english_equiv": "Wait",
+    "part_of_speech": "Verb",
+    "definition": "To remain in a state of paused action in strict anticipation of a specific future event or time."
+  },
+  {
+    "word": "wat",
+    "english_equiv": "what",
+    "part_of_speech": "Grammar",
+    "definition": "Interrogative variable for a thing or matter."
+  },
+  {
+    "word": "waxi",
+    "english_equiv": "To exercise / To move actively",
+    "part_of_speech": "Verb",
+    "definition": "To actively move one's biological body to exert energy, maintain health, or engage in physical recreation."
+  },
+  {
+    "word": "waze",
+    "english_equiv": "Weak.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something lacking the power to perform physically demanding tasks."
+  },
+  {
+    "word": "wecdu",
+    "english_equiv": "Yesterday",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the previous day that has elapsed."
+  },
+  {
+    "word": "wece",
+    "english_equiv": "Well (Satisfactory).",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something as subjectively being satisfactory, correct, or proper."
+  },
+  {
+    "word": "wedacu",
+    "english_equiv": "Past",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract temporal realm encompassing all time and recorded events that have already elapsed."
+  },
+  {
+    "word": "wegu",
+    "english_equiv": "Angle.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The space between two intersecting lines; specific geometric properties."
+  },
+  {
+    "word": "weli",
+    "english_equiv": "Interrupt",
+    "part_of_speech": "Verb",
+    "definition": "To stop someone in the middle of an action, speech, or process."
+  },
+  {
+    "word": "wento",
+    "english_equiv": "Ladder",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A structure consisting of two parallel sidepieces joined by steps or rungs, used for climbing up or down."
+  },
+  {
+    "word": "weoke",
+    "english_equiv": "Round.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes a shape that is circular, spherical, or cylindrical; having a curved surface with no sharp corners."
+  },
+  {
+    "word": "weoro",
+    "english_equiv": "Ball",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A solid or hollow spherical physical object designed to roll, bounce, or be thrown in games and sports."
+  },
+  {
+    "word": "wer",
+    "english_equiv": "where",
+    "part_of_speech": "Grammar",
+    "definition": "Interrogative variable for a location."
+  },
+  {
+    "word": "wible",
+    "english_equiv": "(Self / Reflexive)",
+    "part_of_speech": "Modifier",
+    "definition": "Indicates the action reflects back onto the doer, or emphasizes the exact identity of a specific noun/pronoun."
+  },
+  {
+    "word": "wigakru",
+    "english_equiv": "Trust",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Confident reliance on a person's future conduct or honesty; interpersonal and agent-directed, unlike ednu (faith in a doctrine or the divine). The standing attitude whose violation is ongu (betrayal)."
+  },
+  {
+    "word": "wiki",
+    "english_equiv": "Squeeze",
+    "part_of_speech": "Verb",
+    "definition": "To firmly press or compress something, typically to extract liquid or change its shape."
+  },
+  {
+    "word": "wilo",
+    "english_equiv": "Window",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A designed opening in a wall or vehicle, typically fitted with transparent glass, built to let in light and air."
+  },
+  {
+    "word": "winro",
+    "english_equiv": "Wine / Liquor / Spirit",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An alcoholic physical liquid beverage produced by mathematically fermenting fruit, grains, or biological plant matter."
+  },
+  {
+    "word": "wiq",
+    "english_equiv": "when",
+    "part_of_speech": "Grammar",
+    "definition": "Interrogative variable for time."
+  },
+  {
+    "word": "wirano",
+    "english_equiv": "Glass",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hard, brittle, transparent solid substance engineered by fusing sand with soda and lime, used for windows or vessels."
+  },
+  {
+    "word": "wis",
+    "english_equiv": "how",
+    "part_of_speech": "Grammar",
+    "definition": "Interrogative variable for the manner, method, or degree of an action or state."
+  },
+  {
+    "word": "witu",
+    "english_equiv": "Color.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to the property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light."
+  },
+  {
+    "word": "wiza",
+    "english_equiv": "Wing",
+    "part_of_speech": "Biological Noun",
+    "definition": "This word identifies a modified forelimb or specialized biological appendage that enables an organism to fly or glide through the air."
+  },
+  {
+    "word": "wodobo",
+    "english_equiv": "Potato.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A starchy edible tuber, a global food staple."
+  },
+  {
+    "word": "wogi",
+    "english_equiv": "Hope.",
+    "part_of_speech": "Verb",
+    "definition": "This refers to a feeling of expectation and desire for a certain thing to happen; a state of optimism."
+  },
+  {
+    "word": "wokutu",
+    "english_equiv": "Relational fate",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The destined affinity that brings particular people together — interpersonal, unlike jyhu (general destiny; Mandarin yuanfen). Logical equivalent: Jyhup lini tep nofa je karxi dal je. (Destiny causes people to find each other.)"
+  },
+  {
+    "word": "woma",
+    "english_equiv": "Worm",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a burrowing, limbless, soft-bodied invertebrate biological organism."
+  },
+  {
+    "word": "won",
+    "english_equiv": "what (subject) / what thing / what event",
+    "part_of_speech": "Grammar",
+    "definition": "Interrogative subject variable for a non-agent — a thing or event filling SVO Slot 1 (e.g. What happened? What fell?). The inanimate counterpart of wun (who)."
+  },
+  {
+    "word": "woru",
+    "english_equiv": "Area / Region / District",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A defined conceptual, political, or geographic division of space, land, or territory.",
+    "usage_note": "Distinct from the physical dirt/ground itself, zaso."
+  },
+  {
+    "word": "wose",
+    "english_equiv": "Short.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something measuring a small distance from end to end."
+  },
+  {
+    "word": "wotipi",
+    "english_equiv": "Delete / Erase",
+    "part_of_speech": "Verb",
+    "definition": "To remove something completely so that it no longer exists in its medium."
+  },
+  {
+    "word": "wox",
+    "english_equiv": "Wow / Awe",
+    "part_of_speech": "Grammar",
+    "definition": "An exclamation of positive surprise, wonder, or amazement."
+  },
+  {
+    "word": "wozupro",
+    "english_equiv": "Spear",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A weapon consisting of a long shaft with a pointed head, thrust or thrown."
+  },
+  {
+    "word": "wubi",
+    "english_equiv": "Bend",
+    "part_of_speech": "Verb",
+    "definition": "To shape or force something straight into a curve or angle."
+  },
+  {
+    "word": "wuflu",
+    "english_equiv": "Self-deception",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Tricking oneself; hiding a truth from oneself. Logical equivalent: Daq caqui daq wible. (He tricks his own self.)"
+  },
+  {
+    "word": "wug",
+    "english_equiv": "How many / How much? (Interrogative)",
+    "part_of_speech": "Grammar",
+    "definition": "An interrogative variable specifically holding the place of an unknown numerical quantity or mathematical amount. It sits directly in the SVO slot where the numerical answer is expected."
+  },
+  {
+    "word": "wujo",
+    "english_equiv": "Map",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical or digital visual diagram representing an area of land or sea, detailing physical geographic features or routes."
+  },
+  {
+    "word": "wuke",
+    "english_equiv": "Dry.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something free from moisture or liquid."
+  },
+  {
+    "word": "wun",
+    "english_equiv": "who",
+    "part_of_speech": "Grammar",
+    "definition": "Interrogative variable for a person or agent."
+  },
+  {
+    "word": "wuswo",
+    "english_equiv": "Nest",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A structure built by a bird, insect, or other animal to hold its eggs or young."
+  },
+  {
+    "word": "wutro",
+    "english_equiv": "Concrete",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hard construction material made by mixing cement, sand, gravel, and water, which sets into a stone-like mass."
+  },
+  {
+    "word": "wuxiwi",
+    "english_equiv": "Whoosh / Rush",
+    "part_of_speech": "Verb",
+    "definition": "To produce the soft rushing sound of air, or of something moving fast through it."
+  },
+  {
+    "word": "wy",
+    "english_equiv": "with",
+    "part_of_speech": "Prepositions",
+    "definition": "Used for accompaniment or instrumentality."
+  },
+  {
+    "word": "wyde",
+    "english_equiv": "Safe.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something protected from or not exposed to danger or risk."
+  },
+  {
+    "word": "wyqo",
+    "english_equiv": "Soap",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A substance used with water for washing, bathing, and cleaning, typically made from natural oils or fats."
+  },
+  {
+    "word": "xabeso",
+    "english_equiv": "Wind",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This describes the natural, perceptible kinetic movement of air  traveling across an environment."
+  },
+  {
+    "word": "xadoro",
+    "english_equiv": "River",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This identifies a large, naturally flowing body of liquid water continuously moving along a path toward a sea, lake, or ocean."
+  },
+  {
+    "word": "xako",
+    "english_equiv": "Hail",
+    "part_of_speech": "Concrete Noun",
+    "definition": "Pellets of frozen rain or ice that fall in showers from cumulonimbus clouds."
+  },
+  {
+    "word": "xalati",
+    "english_equiv": "Pass",
+    "part_of_speech": "Verb",
+    "definition": "To physically move past an object, or to successfully transfer completely through a structural barrier."
+  },
+  {
+    "word": "xali",
+    "english_equiv": "Move / Go.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to change position or displace something."
+  },
+  {
+    "word": "xap",
+    "english_equiv": "For example",
+    "part_of_speech": "Grammar",
+    "definition": "A pragmatic mood tag placed at the absolute start of a sentence to introduce an example or illustration."
+  },
+  {
+    "word": "xaqbo",
+    "english_equiv": "Gold",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A highly valuable, naturally occurring yellow metal historically used for currency or decoration."
+  },
+  {
+    "word": "xare",
+    "english_equiv": "Clear",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something that is easy to perceive, understand, or see through without physical obstruction or logical ambiguity."
+  },
+  {
+    "word": "xedo",
+    "english_equiv": "Metal.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This describes a solid material that is typically hard, shiny, and conductive."
+  },
+  {
+    "word": "xeku",
+    "english_equiv": "Country / Nation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "This refers to a nation with its own government, occupying a particular territory."
   },
   {
     "word": "xempi",
@@ -6572,347 +7459,197 @@ const dictionaryData = [
     "usage_note": "Distinct from tehidi (academic study), which is about knowledge rather than repeated performance."
   },
   {
-    "word": "strici",
-    "english_equiv": "To translate.",
-    "part_of_speech": "Verb",
-    "definition": "To render text or speech from one language into another, preserving meaning."
-  },
-  {
-    "word": "bosli",
-    "english_equiv": "To hurry.",
-    "part_of_speech": "Verb",
-    "definition": "To move or act with haste; to do something quickly or hastily, or to urge another to do so."
-  },
-  {
-    "word": "coqyni",
-    "english_equiv": "To turn off / To deactivate.",
-    "part_of_speech": "Verb",
-    "definition": "To cause a device, system, or function to stop operating. The antonym of leoci (to turn on / activate)."
-  },
-  {
-    "word": "bumpi",
-    "english_equiv": "To complain.",
-    "part_of_speech": "Verb",
-    "definition": "To express dissatisfaction, annoyance, or grievance about something. A speech-act verb alongside akdi (shout) and opdi (whisper)."
-  },
-  {
-    "word": "fyjebe",
-    "english_equiv": "Warm.",
-    "part_of_speech": "Modifier",
-    "definition": "Comfortably heated; a middle temperature between jabe (cold) and ripe (hot)."
-  },
-  {
-    "word": "popepe",
-    "english_equiv": "Cool.",
-    "part_of_speech": "Modifier",
-    "definition": "Mildly cold in a pleasant way; a middle temperature between jabe (cold) and ripe (hot), on the cold side of fyjebe (warm)."
-  },
-  {
-    "word": "tsenge",
-    "english_equiv": "Often.",
-    "part_of_speech": "Modifier",
-    "definition": "With high frequency; more than evle (sometimes) but less than ovce (always). Completes the amce–evle–tsenge–ovce frequency scale."
-  },
-  {
-    "word": "lumbe",
-    "english_equiv": "Rarely.",
-    "part_of_speech": "Modifier",
-    "definition": "With low frequency; more than amce (never) but less than evle (sometimes). The antonym of tsenge (often)."
-  },
-  {
-    "word": "jilfe",
-    "english_equiv": "Smooth.",
-    "part_of_speech": "Modifier",
-    "definition": "Having an even, regular surface, free of bumps or friction. The antonym of rudse (rough).",
-    "usage_note": "Distinct from ixge (slippery) and wapse (flat)."
-  },
-  {
-    "word": "navere",
-    "english_equiv": "Next.",
-    "part_of_speech": "Modifier",
-    "definition": "Coming immediately after the current one in a sequence or in time (e.g. next week, next person). Generalizes beyond fitydu (tomorrow), which covers only day-distance."
-  },
-  {
-    "word": "rivahe",
-    "english_equiv": "Previous.",
-    "part_of_speech": "Modifier",
-    "definition": "Coming immediately before the current one in a sequence or in time (e.g. previous week, previous meeting). The antonym of navere (next); generalizes beyond wecdu (yesterday)."
-  },
-  {
-    "word": "strene",
-    "english_equiv": "Soon.",
-    "part_of_speech": "Modifier",
-    "definition": "Within a short time from now; in the near future. A temporal modifier, deferred to this batch by the Q8 ruling on temporal adjuncts."
-  },
-  {
-    "word": "vyfla",
-    "english_equiv": "Rice.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A small starchy grain, a global staple food, harvested from a cultivated grass. Follows the arteta/zoba (fruit/vegetable) pattern for raw plant food."
-  },
-  {
-    "word": "dzypra",
-    "english_equiv": "Nut.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A hard-shelled edible seed or fruit kernel, eaten as food or used in cooking."
-  },
-  {
-    "word": "bryklo",
-    "english_equiv": "Bread.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A staple food made by baking a dough of ground grain, water, and typically a leavening agent."
-  },
-  {
-    "word": "skroqo",
-    "english_equiv": "Cheese.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A solid dairy product made from curdled milk (lamso). Follows lamso's Concrete Noun class, like its dairy-product sibling zedro (butter)."
-  },
-  {
-    "word": "zedro",
-    "english_equiv": "Butter.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A soft dairy product made by churning milk (lamso) fat. Follows lamso's Concrete Noun class, like its dairy-product sibling skroqo (cheese)."
-  },
-  {
-    "word": "xyplo",
-    "english_equiv": "Iron.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A common gray-black metal, used for tools, construction, and alloyed into steel. Follows xedo (metal) and xaqbo (gold) as a specific metal type."
-  },
-  {
-    "word": "bufro",
-    "english_equiv": "Copper.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A reddish-orange metal, used in wiring, tools, and alloys. Follows xedo (metal) and xaqbo (gold) as a specific metal type."
-  },
-  {
-    "word": "tsorfo",
-    "english_equiv": "Silver.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A lustrous white precious metal, used in jewelry, coinage, and tools. Follows xedo (metal) and xaqbo (gold) as a specific metal type."
-  },
-  {
-    "word": "kegla",
-    "english_equiv": "Grass.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A low, dense-growing plant with narrow leaves, typically covering lawns and fields. Follows nasa (plant) as a specific plant type."
-  },
-  {
-    "word": "lebla",
-    "english_equiv": "Goat.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A horned farm mammal, raised for milk, meat, and hide."
-  },
-  {
-    "word": "xyswa",
-    "english_equiv": "Duck.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A small water bird with a broad flat bill and webbed feet, kept domestically or found in the wild."
-  },
-  {
-    "word": "frilta",
-    "english_equiv": "Rabbit.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A small, long-eared mammal known for speed and burrowing."
-  },
-  {
-    "word": "cudza",
-    "english_equiv": "Wolf.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A large wild canine that hunts in packs."
-  },
-  {
-    "word": "gydza",
-    "english_equiv": "Fox.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A small, cunning wild canine with a bushy tail."
-  },
-  {
-    "word": "snaha",
-    "english_equiv": "Deer.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A slender, antlered wild mammal known for speed and grace."
-  },
-  {
-    "word": "brirso",
-    "english_equiv": "Lake.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A large body of water surrounded by land. Follows xadoro (river) and tandorso (ocean) as a specific water-body type."
-  },
-  {
-    "word": "jymbo",
-    "english_equiv": "Island.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A piece of land completely surrounded by water."
-  },
-  {
-    "word": "cyxo",
-    "english_equiv": "Beach / Shore.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The sandy or rocky boundary where land meets a large body of water."
-  },
-  {
-    "word": "nyhogo",
-    "english_equiv": "Sentence.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A complete grammatical sequence of words expressing a full statement, question, or command. Follows go (word) as the next unit up in Fiwo's own linguistic vocabulary."
-  },
-  {
-    "word": "vispo",
-    "english_equiv": "Letter.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A single written or spoken symbol representing one sound in the alphabet. Follows go (word) as a smaller linguistic unit."
-  },
-  {
-    "word": "dzubu",
-    "english_equiv": "Verb.",
+    "word": "xepytu",
+    "english_equiv": "Right / Entitlement",
     "part_of_speech": "Abstract Noun",
-    "definition": "The grammatical word class denoting action or state, marked by the functional vowel -i. A category-classification concept, following aziku (rule) as an abstract linguistic term."
+    "definition": "A moral or legal entitlement to have or obtain something, or to act in a certain way without interference."
   },
   {
-    "word": "gylfu",
-    "english_equiv": "Noun.",
+    "word": "xeri",
+    "english_equiv": "Throw.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to propel something with force through the air."
+  },
+  {
+    "word": "xeski",
+    "english_equiv": "Win",
+    "part_of_speech": "Verb",
+    "definition": "To achieve victory, succeed, or finish first in a competitive system or conflict."
+  },
+  {
+    "word": "xex",
+    "english_equiv": "haha / laughter",
+    "part_of_speech": "Grammar",
+    "definition": "Phatic laughter token conveying amusement; 'haha.' Standalone on the Null Track (Rule 33)."
+  },
+  {
+    "word": "xibi",
+    "english_equiv": "Promise",
+    "part_of_speech": "Verb",
+    "definition": "To state or declare that one will definitely do or not do a specific action."
+  },
+  {
+    "word": "xiglehe",
+    "english_equiv": "Magenta",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting a vivid purplish-red color between leupe (red) and luoke (purple)."
+  },
+  {
+    "word": "xildo",
+    "english_equiv": "Shield",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A broad, solid piece of metal, wood, or synthetic material held to block or deflect physical blows and projectiles."
+  },
+  {
+    "word": "xiolo",
+    "english_equiv": "Chair",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A separate piece of furniture designed as a seat for one person, typically featuring a backrest and four legs."
+  },
+  {
+    "word": "xistu",
+    "english_equiv": "Contradiction / Self-contradiction",
     "part_of_speech": "Abstract Noun",
-    "definition": "The grammatical word class denoting a person, place, thing, or concept, spanning the Biological (-a), Concrete (-o), and Abstract (-u) categories. A category-classification concept, following aziku (rule)."
+    "definition": "Statements that do not agree with each other, especially one's own. Logical equivalent: Gesiu je daqe nes dzefi. (His statements do not agree.)"
   },
   {
-    "word": "cytu",
-    "english_equiv": "Preposition.",
+    "word": "xisyzi",
+    "english_equiv": "Hiss",
+    "part_of_speech": "Verb",
+    "definition": "To produce a sharp, sustained s-like sound, as a snake, a cat, or escaping air does."
+  },
+  {
+    "word": "xitriki",
+    "english_equiv": "Teleport",
+    "part_of_speech": "Verb",
+    "definition": "To move instantly from one location to another without crossing the space between."
+  },
+  {
+    "word": "xive",
+    "english_equiv": "Expensive",
+    "part_of_speech": "Modifier",
+    "definition": "This describes something commanding a high monetary price or requiring a large exchange of financial value."
+  },
+  {
+    "word": "xixu",
+    "english_equiv": "Humor / Joke",
     "part_of_speech": "Abstract Noun",
-    "definition": "The grammatical word class marking a relation between a noun and the rest of the sentence, marked by the functional vowel -y. A category-classification concept, following aziku (rule)."
+    "definition": "The quality of being amusing, comic, or funny, especially as expressed in speech or action."
   },
   {
-    "word": "frorsu",
-    "english_equiv": "Modifier.",
+    "word": "xocewo",
+    "english_equiv": "Television / TV",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A concrete electronic device or machine used to receive and display broadcasted moving images and sound."
+  },
+  {
+    "word": "xogri",
+    "english_equiv": "To visit.",
+    "part_of_speech": "Verb",
+    "definition": "To go to see and spend time with a person or place as a social or purposeful call.",
+    "usage_note": "Distinct from pli (come) and xali (go), which carry only motion."
+  },
+  {
+    "word": "xom",
+    "english_equiv": "In other words / That is to say",
+    "part_of_speech": "Grammar",
+    "definition": "A structural particle used to introduce an explanation, clarification, or rephrasing of a previous statement."
+  },
+  {
+    "word": "xonka",
+    "english_equiv": "Chin.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The forward-projecting bony part of the lower jaw, below the mouth."
+  },
+  {
+    "word": "xopa",
+    "english_equiv": "Sheep",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a domesticated ruminant mammal characterized by a thick woolly coat, typically kept in flocks for its wool or meat."
+  },
+  {
+    "word": "xosi",
+    "english_equiv": "Open.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to allow access, passage, or view through a space."
+  },
+  {
+    "word": "xowero",
+    "english_equiv": "Market / Shopping Center",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A physical geographic location, building, or structured area where multiple distinct shops, stalls, or vendors are grouped together for commerce."
+  },
+  {
+    "word": "xowu",
+    "english_equiv": "Show / Performance",
     "part_of_speech": "Abstract Noun",
-    "definition": "The grammatical word class that describes or modifies a noun or verb, marked by the functional vowel -e. A category-classification concept, following aziku (rule)."
+    "definition": "An organized cultural, artistic, or demonstrative event presented specifically for an audience to observe."
   },
   {
-    "word": "loho",
-    "english_equiv": "Armor.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "Protective covering worn over the body to prevent injury, typically made of metal, leather, or hide."
+    "word": "xu",
+    "english_equiv": "Type / Kind / Sort.",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A category of entities having some common characteristics that distinguish them from others."
   },
   {
-    "word": "dzoco",
-    "english_equiv": "Pottery.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "Vessels and objects shaped from clay and hardened by fire."
+    "word": "xucu",
+    "english_equiv": "Voice",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The distinct sound produced by a person's vocal cords, used in speaking, singing, or communicating."
   },
   {
-    "word": "resno",
-    "english_equiv": "Arrow.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A thin, pointed projectile shot from a bow."
-  },
-  {
-    "word": "vuglo",
-    "english_equiv": "Template / Pattern.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A model or guide used to reproduce a shape, design, or structure accurately."
-  },
-  {
-    "word": "lodro",
-    "english_equiv": "Banner / Flag.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A piece of cloth bearing a design or symbol, displayed as an emblem or signal."
-  },
-  {
-    "word": "zilto",
-    "english_equiv": "Trim.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A decorative edge or border added to an object for ornamentation."
-  },
-  {
-    "word": "sulpo",
-    "english_equiv": "Dye.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A substance used to add or change the color of a material."
-  },
-  {
-    "word": "nerto",
-    "english_equiv": "Carpet / Rug.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A thick woven fabric covering used on a floor."
-  },
-  {
-    "word": "dowo",
-    "english_equiv": "Wool.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The soft curly fiber forming the coat of sheep and similar animals, used as a textile material."
-  },
-  {
-    "word": "nuwyko",
-    "english_equiv": "Amethyst.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A purple variety of quartz, valued as a gemstone. Follows xaqbo (gold) as a specific mineral/gem type."
-  },
-  {
-    "word": "pytso",
-    "english_equiv": "Rod.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A thin, straight length of rigid material, longer and typically sturdier than a stick."
-  },
-  {
-    "word": "vubro",
-    "english_equiv": "Stick.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A thin, short length of wood, typically a broken or cut branch."
-  },
-  {
-    "word": "wodobo",
-    "english_equiv": "Potato.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A starchy edible tuber, a global food staple."
-  },
-  {
-    "word": "priglo",
-    "english_equiv": "Beetroot.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The dark red edible root of the beet plant."
-  },
-  {
-    "word": "vengo",
-    "english_equiv": "Flint.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A hard gray stone that produces sparks when struck against steel."
-  },
-  {
-    "word": "kowygo",
-    "english_equiv": "Clay.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A fine-grained, pliable earth material that hardens when fired, used to make pottery and bricks."
-  },
-  {
-    "word": "segro",
-    "english_equiv": "Blade.",
-    "part_of_speech": "Concrete Noun",
-    "definition": "The flat, sharpened cutting part of a knife, sword, or tool."
-  },
-  {
-    "word": "pydra",
-    "english_equiv": "Jungle tree.",
+    "word": "xufa",
+    "english_equiv": "Arm.",
     "part_of_speech": "Biological Noun",
-    "definition": "A tall tropical tree native to dense rainforest regions."
+    "definition": "This refers to each of the two upper limbs of the human body from the shoulder to the hand."
   },
   {
-    "word": "frelka",
-    "english_equiv": "Mangrove.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A tree or shrub that grows in coastal saltwater swamps, supported by tangled above-ground roots."
+    "word": "xufuku",
+    "english_equiv": "Gratitude / Thankfulness",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract feeling of being thankful and showing appreciation."
   },
   {
-    "word": "hoswa",
-    "english_equiv": "Bamboo.",
+    "word": "xulaza",
+    "english_equiv": "Cod",
     "part_of_speech": "Biological Noun",
-    "definition": "A fast-growing woody grass with hollow, segmented stems."
+    "definition": "A large cold-water sea fish, widely caught as a staple food fish."
   },
   {
-    "word": "kifra",
-    "english_equiv": "Cherry tree.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A tree bearing small round stone-fruit, known for its blossoms."
+    "word": "xuni",
+    "english_equiv": "Burn.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to consume or damage something by fire."
+  },
+  {
+    "word": "xwewi",
+    "english_equiv": "Excuse / Pardon",
+    "part_of_speech": "Verb",
+    "definition": "To excuse, forgive, or pardon someone for a minor social transgression or interruption."
+  },
+  {
+    "word": "xy",
+    "english_equiv": "shaped like",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates that the subject shares the physical geometry or outline of the object, but not necessarily its material or function."
+  },
+  {
+    "word": "xyfi",
+    "english_equiv": "Do.",
+    "part_of_speech": "Verb",
+    "definition": "To perform, execute, or carry out a general action."
+  },
+  {
+    "word": "xygaji",
+    "english_equiv": "Continue",
+    "part_of_speech": "Verb",
+    "definition": "To persist in an ongoing activity or state without breaking the SVO track."
+  },
+  {
+    "word": "xyge",
+    "english_equiv": "Thin.",
+    "part_of_speech": "Modifier",
+    "definition": "This word describes something with a small distance between opposite surfaces."
   },
   {
     "word": "xynta",
@@ -6921,118 +7658,281 @@ const dictionaryData = [
     "definition": "A reptile with a hard protective shell covering its body, living on land or in water."
   },
   {
-    "word": "franka",
-    "english_equiv": "Armadillo.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A burrowing mammal covered in bony armored plates, able to curl into a ball for defense."
-  },
-  {
-    "word": "hulka",
-    "english_equiv": "Llama.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A domesticated pack animal related to the camel, with a long neck and woolly coat."
-  },
-  {
-    "word": "kagaxa",
-    "english_equiv": "Axolotl.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A salamander that retains its aquatic larval features throughout its life, native to freshwater lakes."
-  },
-  {
-    "word": "branda",
-    "english_equiv": "Panda.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A large black-and-white bear native to bamboo forests."
-  },
-  {
-    "word": "genda",
-    "english_equiv": "Camel.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A large desert mammal with one or two humps, adapted to carry loads across arid terrain."
-  },
-  {
-    "word": "cowaba",
-    "english_equiv": "Donkey.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A domesticated pack animal related to the horse, smaller and long-eared."
-  },
-  {
-    "word": "smibra",
-    "english_equiv": "Bat.",
-    "part_of_speech": "Biological Noun",
-    "definition": "A flying nocturnal mammal with wings formed from a membrane stretched between its limbs."
-  },
-  {
-    "word": "smeze",
-    "english_equiv": "Raw / Uncooked.",
-    "part_of_speech": "Modifier",
-    "definition": "Not yet cooked or processed; in its natural, unaltered state. Pairs with food (otanie, cooked) and unprocessed ore/materials."
-  },
-  {
-    "word": "bizomo",
-    "english_equiv": "Ingot.",
+    "word": "xyplo",
+    "english_equiv": "Iron.",
     "part_of_speech": "Concrete Noun",
-    "definition": "A block of cast metal, typically shaped for storage or working."
+    "definition": "A common gray-black metal, used for tools, construction, and alloyed into steel. Follows xedo (metal) and xaqbo (gold) as a specific metal type."
   },
   {
-    "word": "splyxi",
-    "english_equiv": "Chop / Mince / Dice",
+    "word": "xyro",
+    "english_equiv": "Store / Shop",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a physical building or retail space structurally dedicated to the commercial selling of goods or services."
+  },
+  {
+    "word": "xyswa",
+    "english_equiv": "Duck.",
+    "part_of_speech": "Biological Noun",
+    "definition": "A small water bird with a broad flat bill and webbed feet, kept domestically or found in the wild."
+  },
+  {
+    "word": "ybawa",
+    "english_equiv": "Bark",
+    "part_of_speech": "Biological Noun",
+    "definition": "The tough outer protective covering of the woody stems and roots of trees."
+  },
+  {
+    "word": "ycuba",
+    "english_equiv": "Mosquito",
+    "part_of_speech": "Biological Noun",
+    "definition": "A small, slender fly that feeds on blood and can transmit diseases."
+  },
+  {
+    "word": "yfuke",
+    "english_equiv": "Of course / Naturally",
+    "part_of_speech": "Modifier",
+    "definition": "Describes a state, conclusion, or action that is mathematically, logically, or socially obvious, natural, and completely without doubt."
+  },
+  {
+    "word": "ylxa",
+    "english_equiv": "Mouth",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the opening in the lower part of the human face through which food is taken in and speech is emitted."
+  },
+  {
+    "word": "ynafe",
+    "english_equiv": "Tasty / Delicious",
+    "part_of_speech": "Modifier",
+    "definition": "Describes a physical substance that produces a highly positive, pleasurable response when processed by the taste receptors."
+  },
+  {
+    "word": "ynse",
+    "english_equiv": "Somewhat / Moderately",
+    "part_of_speech": "Modifier",
+    "definition": "A relative degree modifier indicating a medium, average, or partial amount of a trait, state, or action."
+  },
+  {
+    "word": "ywurdu",
+    "english_equiv": "Crime / Offense",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An action or omission that constitutes a severe offense punishable by law."
+  },
+  {
+    "word": "zabato",
+    "english_equiv": "Bag / Luggage",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A flexible container made of fabric, leather, or plastic, used structurally for carrying or consolidating other physical items."
+  },
+  {
+    "word": "zafoiro",
+    "english_equiv": "Floor",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The structured indoor ground surface of a room or building on which people stand or walk."
+  },
+  {
+    "word": "zala",
+    "english_equiv": "Bug / Insect.",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to a small invertebrate animal, often with a segmented body and legs."
+  },
+  {
+    "word": "zalmu",
+    "english_equiv": "Politics / Governance",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract activities, affairs, and systemic processes associated with making decisions within groups, particularly regarding the distribution of power and resources in a government (govnu)."
+  },
+  {
+    "word": "zanki",
+    "english_equiv": "Hide / Conceal",
     "part_of_speech": "Verb",
-    "definition": "To cut food or other materials into small pieces with repeated sharp blows using a knife or similar tool."
+    "definition": "To place an entity out of sight or prevent it from being found."
   },
   {
-    "word": "dibro",
-    "english_equiv": "Block.",
-    "definition": "A solid cube or rectangular unit of material; the basic building unit.",
-    "part_of_speech": "Concrete Noun"
+    "word": "zapu",
+    "english_equiv": "System",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An organized conceptual framework or set of interacting principles forming a complex whole."
   },
   {
-    "word": "storto",
-    "english_equiv": "Slab.",
-    "definition": "A thin, flat, broad piece of material; a half-height block.",
-    "part_of_speech": "Concrete Noun"
+    "word": "zaqo",
+    "english_equiv": "Salt",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A white crystalline physical mineral consisting of sodium chloride, used to season or preserve food."
   },
   {
-    "word": "jyndo",
-    "english_equiv": "Fence.",
-    "definition": "A barrier of posts and rails that encloses or bounds an area.",
-    "part_of_speech": "Concrete Noun"
+    "word": "zaso",
+    "english_equiv": "Ground / Land",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This term refers to the ground, soil, or the physical land surface."
   },
   {
-    "word": "ricodo",
-    "english_equiv": "Ore.",
-    "definition": "Rock or mineral from which metal or valuable material can be extracted.",
-    "part_of_speech": "Concrete Noun"
+    "word": "zaterte",
+    "english_equiv": "Lime / Light Green",
+    "part_of_speech": "Modifier",
+    "definition": "Exhibiting a bright, light green color, like young leaves in spring. A pale, vivid shade of luare (green)."
   },
   {
-    "word": "cevolo",
-    "english_equiv": "Log / Trunk.",
-    "definition": "A section of a felled tree trunk or thick branch.",
-    "part_of_speech": "Concrete Noun"
+    "word": "zave",
+    "english_equiv": "High / Tall",
+    "part_of_speech": "Modifier",
+    "definition": "This describes something having a great vertical extent or measuring a long distance from bottom to top."
   },
   {
-    "word": "fixlo",
-    "english_equiv": "Plank / Board.",
-    "definition": "A long, flat, sawn piece of wood.",
-    "part_of_speech": "Concrete Noun"
+    "word": "zedro",
+    "english_equiv": "Butter.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A soft dairy product made by churning milk (lamso) fat. Follows lamso's Concrete Noun class, like its dairy-product sibling skroqo (cheese)."
   },
   {
-    "word": "ryrobo",
-    "english_equiv": "Stem / Stalk.",
-    "definition": "The main upward-growing support of a plant.",
-    "part_of_speech": "Concrete Noun"
+    "word": "zemi",
+    "english_equiv": "Cover.",
+    "part_of_speech": "Verb",
+    "definition": "This verb means to put something on top of or in front of something else to protect or conceal it."
   },
   {
-    "word": "blobo",
-    "english_equiv": "Axe.",
-    "definition": "A tool or weapon with a heavy bladed head on a handle, used for chopping.",
-    "part_of_speech": "Concrete Noun"
+    "word": "zenu",
+    "english_equiv": "Care",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The abstract conceptual provision of what is necessary for the health, welfare, or protection of an entity."
   },
   {
-    "word": "jufyso",
-    "english_equiv": "Pickaxe.",
-    "definition": "A tool with a pointed head on a handle, used for breaking rock and mining.",
-    "part_of_speech": "Concrete Noun"
+    "word": "zet",
+    "english_equiv": "as for / regarding (topic marker)",
+    "part_of_speech": "Grammar",
+    "definition": "Topic marker. Placed at the absolute start of a sentence, it opens a topic phrase ('as for X / regarding X'); the wall 'can' (or 'pen') then closes the topic and hands off to the main clause (Rule 32.5).",
+    "usage_note": "Distinct from the preposition zety ('about'), which bridges mid-sentence."
+  },
+  {
+    "word": "zety",
+    "english_equiv": "about",
+    "part_of_speech": "Prepositions",
+    "definition": "Concerning, regarding, or strictly relating to the subject of a specific topic."
+  },
+  {
+    "word": "zewe",
+    "english_equiv": "Nine",
+    "part_of_speech": "Modifier",
+    "definition": "This refers to the cardinal number equivalent to the product of three and three."
+  },
+  {
+    "word": "zezuru",
+    "english_equiv": "Version",
+    "part_of_speech": "Abstract Noun",
+    "definition": "One specific form or edition of something that exists in successive or parallel variants."
+  },
+  {
+    "word": "zib",
+    "english_equiv": "good evening",
+    "part_of_speech": "Grammar",
+    "definition": "Phatic greeting used in the evening; 'good evening.' Standalone on the Null Track (Rule 33)."
+  },
+  {
+    "word": "zihe",
+    "english_equiv": "Famous",
+    "part_of_speech": "Modifier",
+    "definition": "Known about by many people; widely celebrated or recognized."
+  },
+  {
+    "word": "zikuzo",
+    "english_equiv": "Bank",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A concrete physical building or structural institution where money is legally kept, invested, or exchanged."
+  },
+  {
+    "word": "zilto",
+    "english_equiv": "Trim.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A decorative edge or border added to an object for ornamentation."
+  },
+  {
+    "word": "zimempo",
+    "english_equiv": "Pearl",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hard, lustrous white sphere formed inside a shellfish, valued as a jewel."
+  },
+  {
+    "word": "zimowo",
+    "english_equiv": "Framework / Scaffold / Lattice / Grid",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An open lattice or skeletal support structure: frameworks, grids, trellises, scaffolding."
+  },
+  {
+    "word": "zindi",
+    "english_equiv": "To ring / To chime",
+    "part_of_speech": "Verb",
+    "definition": "To actively produce a ringing or chiming sound, as a phone or bell."
+  },
+  {
+    "word": "zipa",
+    "english_equiv": "Face.",
+    "part_of_speech": "Biological Noun",
+    "definition": "The front part of a biological entity's head, typically containing the eyes, nose, and mouth."
+  },
+  {
+    "word": "zixefra",
+    "english_equiv": "Coral",
+    "part_of_speech": "Biological Noun",
+    "definition": "A marine organism that builds hard, branching, stone-like colonies on the sea floor."
+  },
+  {
+    "word": "zoba",
+    "english_equiv": "Vegetable",
+    "part_of_speech": "Biological Noun",
+    "definition": "This refers to the edible, biological matter of a plant—such as the leaves, stems, or roots—cultivated specifically for nutritional consumption."
+  },
+  {
+    "word": "zode",
+    "english_equiv": "Loud / Noisy",
+    "part_of_speech": "Modifier",
+    "definition": "This describes an entity or environment producing a high volume of auditory energy or intense sound."
+  },
+  {
+    "word": "zofy",
+    "english_equiv": "Through",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a spatial bridge where the subject enters one side of an environment, medium, or enclosure and exits the other."
+  },
+  {
+    "word": "zol",
+    "english_equiv": "Although / Even though",
+    "part_of_speech": "Grammar",
+    "definition": "Introduces a concessive clause; it acts as a structural wall indicating that the fact in this clause makes the information in the next clause surprising, contrasting, or unexpected."
+  },
+  {
+    "word": "zoniti",
+    "english_equiv": "To strip / To peel",
+    "part_of_speech": "Verb",
+    "definition": "To remove an outer layer (bark, skin, paint) from a surface."
+  },
+  {
+    "word": "zopi",
+    "english_equiv": "Jump",
+    "part_of_speech": "Verb",
+    "definition": "To temporarily propel a physical body upward into the air using a sudden application of kinetic force."
+  },
+  {
+    "word": "zory",
+    "english_equiv": "Between",
+    "part_of_speech": "Prepositions",
+    "definition": "Indicates a spatial or logical bridge placing the subject directly in the interval that separates two distinct entities."
+  },
+  {
+    "word": "zosu",
+    "english_equiv": "Autumn / Fall",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The season between summer and winter, characterised by cooling temperatures, shortening days, and the shedding of leaves."
+  },
+  {
+    "word": "zovi",
+    "english_equiv": "to exist",
+    "part_of_speech": "Verb",
+    "definition": "To exist; to be present in reality. A bare existential verb for stating that something is, used where the copula hi cannot apply (it requires a suffix) and the Zero Copula cannot (it requires a complement)."
+  },
+  {
+    "word": "zufo",
+    "english_equiv": "Bed.",
+    "part_of_speech": "Concrete Noun",
+    "definition": "This refers to a piece of furniture or a prepared spot used for sleep or rest."
   },
   {
     "word": "zurko",
@@ -7041,117 +7941,21 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun"
   },
   {
-    "word": "glaklo",
-    "english_equiv": "Hoe.",
-    "definition": "A tool with a flat blade on a long handle, used for cultivating and weeding soil.",
-    "part_of_speech": "Concrete Noun"
-  },
-  {
-    "word": "nusogo",
-    "english_equiv": "Sword.",
-    "definition": "A weapon with a long metal blade and a hilt, used for cutting or thrusting.",
-    "part_of_speech": "Concrete Noun"
-  },
-  {
-    "word": "glynto",
-    "english_equiv": "Bow.",
-    "definition": "A weapon consisting of a curved stave and string, used to shoot arrows.",
-    "part_of_speech": "Concrete Noun"
-  },
-  {
-    "word": "fruvadu",
-    "english_equiv": "Disappointment",
+    "word": "zuwu",
+    "english_equiv": "Way / Manner.",
     "part_of_speech": "Abstract Noun",
-    "definition": "Sadness caused by an outcome falling below one's expectation or hope. Unlike briku (regret) it carries no self-blame, and unlike motuwu (grief) it involves no loss of an entity."
+    "definition": "This refers to a method, style, or custom of doing something."
   },
   {
-    "word": "motuwu",
-    "english_equiv": "Grief",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Deep, object-directed sorrow caused by the loss of a person or cherished entity, as through death or permanent departure. Stronger and more focused than goile (general sadness), and never self-caused like briku (regret)."
+    "word": "zy",
+    "english_equiv": "to",
+    "part_of_speech": "Prepositions",
+    "definition": "Used for direction toward a destination or outcome."
   },
   {
-    "word": "kejaklu",
-    "english_equiv": "Loneliness",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The painful state of unwanted solitude or isolation; a felt condition of being alone, distinct from fycisi (to miss), which is directed at a specific absent entity."
-  },
-  {
-    "word": "triruzu",
-    "english_equiv": "Frustration",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Agitation arising from a blocked goal or thwarted effort. The obstacle, rather than a moral wrong, distinguishes it from tsake (anger)."
-  },
-  {
-    "word": "swucu",
-    "english_equiv": "Relief",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The positive release felt when a feared or anticipated bad outcome fails to occur; the resolving counterpart of kuri (fear) and juhi (worry)."
-  },
-  {
-    "word": "veponku",
-    "english_equiv": "Surprise",
-    "part_of_speech": "Abstract Noun",
-    "definition": "The emotional response to a sudden, unexpected (odaze) event. Neutral in valence — it may be positive or negative — unlike ixuyju (awe), which is reverential."
-  },
-  {
-    "word": "reslihi",
-    "english_equiv": "Hate / Detest",
+    "word": "zyli",
+    "english_equiv": "Use.",
     "part_of_speech": "Verb",
-    "definition": "To feel sustained hostile rejection toward a specific entity; the antipode of tazi (love). Stronger and more enduring than neuqu (momentary disgust) or tsake (anger at a single act)."
-  },
-  {
-    "word": "fycisi",
-    "english_equiv": "Miss / Long for",
-    "part_of_speech": "Verb",
-    "definition": "To feel a painful desire for an absent but still-existing entity, person, or place. Present-directed, unlike haku (nostalgia, past-directed), and affectionate, unlike taju (resentful envy). Transitive: Mik fycisi suk = 'I miss you.'"
-  },
-  {
-    "word": "gakiji",
-    "english_equiv": "Guess",
-    "part_of_speech": "Verb",
-    "definition": "To select an answer or form a conclusion without sufficient evidence, aware that one lacks it; the weakest commitment on the belief scale and the acting counterpart of mace (possible). Contrast dagibi (assume), which treats its proposition as a working basis."
-  },
-  {
-    "word": "skaxebi",
-    "english_equiv": "Suspect",
-    "part_of_speech": "Verb",
-    "definition": "To tentatively believe something, classically something bad or hidden, on partial evidence; a weak positive lean toward a claim, opposite in direction to iqi (doubt), which leans away."
-  },
-  {
-    "word": "dagibi",
-    "english_equiv": "Assume",
-    "part_of_speech": "Verb",
-    "definition": "To accept a proposition as true without evidence, as a working basis for reasoning or action; differs from atilui (believe), which carries conviction, and from ubli (expect), which is directed at a future event."
-  },
-  {
-    "word": "dzuripi",
-    "english_equiv": "Seem / Appear",
-    "part_of_speech": "Verb",
-    "definition": "To present the outward appearance of a property or state while the speaker withholds commitment to its truth; takes a bare modifier or noun complement like the Zero Copula (Daq dzuripi goile = 'He seems sad'). The verb counterpart of udzidu (appearance); distinct from the nop evidential tag, which marks the speaker's inference rather than the subject's appearance."
-  },
-  {
-    "word": "wigakru",
-    "english_equiv": "Trust",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Confident reliance on a person's future conduct or honesty; interpersonal and agent-directed, unlike ednu (faith in a doctrine or the divine). The standing attitude whose violation is ongu (betrayal)."
-  },
-  {
-    "word": "moskufu",
-    "english_equiv": "Respect",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Earned positive regard for a person's qualities or standing; a felt attitude, distinct from ezte (polite outward behavior), from suv (grammatical respectful address), and from ixuyju (awe, reverence mixed with fear)."
-  },
-  {
-    "word": "folkunu",
-    "english_equiv": "Dignity / Social face",
-    "part_of_speech": "Abstract Noun",
-    "definition": "One's durable public standing and worth in the eyes of others, which can be given, saved, or lost. Social and lasting, unlike ofxu (inward shame) or ukwolu (momentary embarrassment). Covers the concept of 面子 (miànzi)."
-  },
-  {
-    "word": "spicupu",
-    "english_equiv": "Loyalty / Devotion",
-    "part_of_speech": "Abstract Noun",
-    "definition": "Steadfast allegiance and devotion to a person, group, or cause over time; the standing disposition whose single violation is ongu (betrayal). Includes filial devotion toward one's parents (孝)."
+    "definition": "This verb means to employ something for a particular purpose."
   }
 ];
