@@ -19,7 +19,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to plane.",
     "root": "abeco",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "plane-like",
+      "resembling plane"
+    ]
   },
   {
     "word": "abezei",
@@ -36,21 +40,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "absue",
-    "english_equiv": "Marked by sense",
+    "english_equiv": "Sensible",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by sense.",
+    "definition": "Characterized by or relating to sense; sensible.",
     "root": "absu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "sensible"
+    ]
   },
   {
     "word": "acinae",
     "english_equiv": "Claw-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a claw.",
+    "definition": "Made of, resembling, or relating to claw.",
     "root": "acina",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "claw-like",
+      "resembling claw"
+    ]
   },
   {
     "word": "aclei",
@@ -67,12 +78,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "acleu",
-    "english_equiv": "Generousness",
+    "english_equiv": "Generosity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being generous.",
+    "definition": "The quality or state of being generous; generosity.",
     "root": "acle",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "generosity"
+    ]
   },
   {
     "word": "acrye",
@@ -102,30 +116,39 @@ const derivedDictionaryData = [
   },
   {
     "word": "acumulia",
-    "english_equiv": "Doer of trade",
+    "english_equiv": "Trader",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'trade'.",
+    "definition": "A person who trades; a trader.",
     "root": "acumuli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "trader"
+    ]
   },
   {
     "word": "adihue",
-    "english_equiv": "Marked by consciousness",
+    "english_equiv": "Conscious",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by consciousness.",
+    "definition": "Characterized by or relating to consciousness; conscious.",
     "root": "adihu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "conscious"
+    ]
   },
   {
     "word": "adrebue",
-    "english_equiv": "Marked by degree",
+    "english_equiv": "Gradual",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by degree.",
+    "definition": "Characterized by or relating to degree; gradual.",
     "root": "adrebu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "gradual"
+    ]
   },
   {
     "word": "adriswei",
@@ -141,12 +164,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "adrisweu",
-    "english_equiv": "Diagonalness",
+    "english_equiv": "Diagonality",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being diagonal.",
+    "definition": "The quality or state of being diagonal; diagonality.",
     "root": "adriswe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "diagonality",
+      "slant"
+    ]
   },
   {
     "word": "adyvoe",
@@ -155,16 +182,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to umbrella.",
     "root": "adyvo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "umbrella-like",
+      "resembling umbrella"
+    ]
   },
   {
     "word": "afbia",
-    "english_equiv": "Doer of crawl",
+    "english_equiv": "Crawler",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'crawl'.",
+    "definition": "A person who crawls; a crawler.",
     "root": "afbi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "crawler"
+    ]
   },
   {
     "word": "afxoe",
@@ -173,34 +207,47 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to ash.",
     "root": "afxo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "ash-like",
+      "resembling ash"
+    ]
   },
   {
     "word": "afymue",
-    "english_equiv": "Marked by economy",
+    "english_equiv": "Economic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by economy.",
+    "definition": "Characterized by or relating to economy; economic.",
     "root": "afymu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "economic"
+    ]
   },
   {
     "word": "agcue",
-    "english_equiv": "Marked by mistake",
+    "english_equiv": "Erroneous",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by mistake.",
+    "definition": "Characterized by or relating to mistake; erroneous.",
     "root": "agcu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "erroneous"
+    ]
   },
   {
     "word": "agmia",
-    "english_equiv": "Doer of glue",
+    "english_equiv": "Gluer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'glue'.",
+    "definition": "A person who glues; a gluer.",
     "root": "agmi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "gluer"
+    ]
   },
   {
     "word": "agmie",
@@ -223,7 +270,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to drought.",
     "root": "agso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "drought-like",
+      "resembling drought"
+    ]
   },
   {
     "word": "ahzei",
@@ -253,12 +304,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "aiteu",
-    "english_equiv": "Smellyness",
+    "english_equiv": "Stench",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being smelly.",
+    "definition": "The quality or state of being smelly; stench.",
     "root": "aite",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "stench",
+      "smelliness",
+      "stink"
+    ]
   },
   {
     "word": "ajogoe",
@@ -267,25 +323,35 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to cart.",
     "root": "ajogo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "cart-like",
+      "resembling cart"
+    ]
   },
   {
     "word": "akaria",
-    "english_equiv": "Doer of to roast",
+    "english_equiv": "Roaster",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to roast'.",
+    "definition": "A person who roasts; a roaster.",
     "root": "akari",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "roaster"
+    ]
   },
   {
     "word": "akdia",
-    "english_equiv": "Doer of shout",
+    "english_equiv": "Shouter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'shout'.",
+    "definition": "A person who shouts; a shouter.",
     "root": "akdi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "shouter"
+    ]
   },
   {
     "word": "akdio",
@@ -356,12 +422,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "anazeu",
-    "english_equiv": "Basicness",
+    "english_equiv": "Fundamentality",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being basic.",
+    "definition": "The quality or state of being basic; fundamentality.",
     "root": "anaze",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "fundamentality",
+      "basics"
+    ]
   },
   {
     "word": "anotei",
@@ -391,21 +461,29 @@ const derivedDictionaryData = [
   },
   {
     "word": "aofeu",
-    "english_equiv": "Satiatedness",
+    "english_equiv": "Satiety",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being satiated.",
+    "definition": "The quality or state of being satiated; satiety.",
     "root": "aofe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "satiety",
+      "fullness"
+    ]
   },
   {
     "word": "aplae",
     "english_equiv": "Apple-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a apple.",
+    "definition": "Made of, resembling, or relating to apple.",
     "root": "apla",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "apple-like",
+      "resembling apple"
+    ]
   },
   {
     "word": "aprei",
@@ -422,12 +500,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "apreu",
-    "english_equiv": "Normalness",
+    "english_equiv": "Normality",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being normal.",
+    "definition": "The quality or state of being normal; normality.",
     "root": "apre",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "normality",
+      "normalcy"
+    ]
   },
   {
     "word": "aqei",
@@ -444,21 +526,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "aqeu",
-    "english_equiv": "Maleness",
+    "english_equiv": "Masculinity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being male.",
+    "definition": "The quality or state of being male; masculinity.",
     "root": "aqe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "masculinity",
+      "maleness"
+    ]
   },
   {
     "word": "arcipia",
-    "english_equiv": "Doer of to participate",
+    "english_equiv": "Participant",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to participate'.",
+    "definition": "A person who participates; a participant.",
     "root": "arcipi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "participant"
+    ]
   },
   {
     "word": "arifei",
@@ -488,12 +577,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "arkeu",
-    "english_equiv": "Pregnantness",
+    "english_equiv": "Pregnancy",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being pregnant.",
+    "definition": "The quality or state of being pregnant; pregnancy.",
     "root": "arke",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "pregnancy"
+    ]
   },
   {
     "word": "arloe",
@@ -511,12 +603,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "arsumpia",
-    "english_equiv": "Doer of flow",
+    "english_equiv": "One that flows",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'flow'.",
+    "definition": "A person who flows; an one that flows.",
     "root": "arsumpi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "one that flows"
+    ]
   },
   {
     "word": "arsumpio",
@@ -536,10 +631,14 @@ const derivedDictionaryData = [
     "word": "artetae",
     "english_equiv": "Fruit-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a fruit.",
+    "definition": "Made of, resembling, or relating to fruit.",
     "root": "arteta",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "fruit-like",
+      "resembling fruit"
+    ]
   },
   {
     "word": "artua",
@@ -556,12 +655,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "artue",
-    "english_equiv": "Marked by art",
+    "english_equiv": "Artistic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by art.",
+    "definition": "Characterized by or relating to art; artistic.",
     "root": "artu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "artistic"
+    ]
   },
   {
     "word": "asei",
@@ -578,48 +680,64 @@ const derivedDictionaryData = [
   },
   {
     "word": "aseu",
-    "english_equiv": "Femaleness",
+    "english_equiv": "Femininity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being female.",
+    "definition": "The quality or state of being female; femininity.",
     "root": "ase",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "femininity",
+      "femaleness"
+    ]
   },
   {
     "word": "askue",
-    "english_equiv": "Marked by reason",
+    "english_equiv": "Rational",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by reason.",
+    "definition": "Characterized by or relating to reason; rational.",
     "root": "asku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "rational"
+    ]
   },
   {
     "word": "asmkia",
-    "english_equiv": "Doer of tie",
+    "english_equiv": "Binder",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'tie'.",
+    "definition": "A person who ties; a binder.",
     "root": "asmki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "binder"
+    ]
   },
   {
     "word": "astlue",
-    "english_equiv": "Marked by interest",
+    "english_equiv": "Interesting",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by interest.",
+    "definition": "Characterized by or relating to interest; interesting.",
     "root": "astlu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "interesting"
+    ]
   },
   {
     "word": "atilue",
-    "english_equiv": "Marked by belief",
+    "english_equiv": "Believing",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by belief.",
+    "definition": "Characterized by or relating to belief; believing.",
     "root": "atilu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "believing"
+    ]
   },
   {
     "word": "atilui",
@@ -637,12 +755,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "atobue",
-    "english_equiv": "Marked by field",
+    "english_equiv": "Field-related",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by field.",
+    "definition": "Characterized by or relating to field; field-related.",
     "root": "atobu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "field-related"
+    ]
   },
   {
     "word": "atripoe",
@@ -651,7 +772,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to train.",
     "root": "atripo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "train-like",
+      "resembling train"
+    ]
   },
   {
     "word": "avgei",
@@ -668,12 +793,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "avgeu",
-    "english_equiv": "Rottenness",
+    "english_equiv": "Decay",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being rotten.",
+    "definition": "The quality or state of being rotten; decay.",
     "root": "avge",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "decay",
+      "rottenness"
+    ]
   },
   {
     "word": "avlye",
@@ -695,7 +824,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to nail.",
     "root": "avmo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "nail-like",
+      "resembling nail"
+    ]
   },
   {
     "word": "avmoi",
@@ -730,7 +863,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to dune.",
     "root": "axritso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "dune-like",
+      "resembling dune"
+    ]
   },
   {
     "word": "axvua",
@@ -746,30 +883,39 @@ const derivedDictionaryData = [
   },
   {
     "word": "axvue",
-    "english_equiv": "Marked by alliance",
+    "english_equiv": "Allied",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by alliance.",
+    "definition": "Characterized by or relating to alliance; allied.",
     "root": "axvu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "allied"
+    ]
   },
   {
     "word": "azikue",
-    "english_equiv": "Marked by rule",
+    "english_equiv": "Regulatory",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by rule.",
+    "definition": "Characterized by or relating to rule; regulatory.",
     "root": "aziku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "regulatory"
+    ]
   },
   {
     "word": "azmue",
-    "english_equiv": "Marked by sympathy",
+    "english_equiv": "Compassionate",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by sympathy.",
+    "definition": "Characterized by or relating to sympathy; compassionate.",
     "root": "azmu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "compassionate"
+    ]
   },
   {
     "word": "azoe",
@@ -778,7 +924,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bowl.",
     "root": "azo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bowl-like",
+      "resembling bowl"
+    ]
   },
   {
     "word": "babsei",
@@ -795,12 +945,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "babseu",
-    "english_equiv": "Hungryness",
+    "english_equiv": "Hunger",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being hungry.",
+    "definition": "The quality or state of being hungry; hunger.",
     "root": "babse",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "hunger"
+    ]
   },
   {
     "word": "badujue",
@@ -820,28 +973,38 @@ const derivedDictionaryData = [
     "word": "baharae",
     "english_equiv": "Palm-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a palm.",
+    "definition": "Made of, resembling, or relating to palm.",
     "root": "bahara",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "palm-like",
+      "resembling palm"
+    ]
   },
   {
     "word": "bailia",
-    "english_equiv": "Doer of borrow",
+    "english_equiv": "Borrower",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'borrow'.",
+    "definition": "A person who borrows; a borrower.",
     "root": "baili",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "borrower"
+    ]
   },
   {
     "word": "bakia",
-    "english_equiv": "Doer of try",
+    "english_equiv": "Trier",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'try'.",
+    "definition": "A person who tries; a trier.",
     "root": "baki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "trier"
+    ]
   },
   {
     "word": "bambodoe",
@@ -850,7 +1013,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to sponge.",
     "root": "bambodo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "sponge-like",
+      "resembling sponge"
+    ]
   },
   {
     "word": "banoskoe",
@@ -859,16 +1026,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to breeze.",
     "root": "banosko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "breeze-like",
+      "resembling breeze"
+    ]
   },
   {
     "word": "baqia",
-    "english_equiv": "Doer of call",
+    "english_equiv": "Caller",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'call'.",
+    "definition": "A person who calls; a caller.",
     "root": "baqi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "caller"
+    ]
   },
   {
     "word": "batae",
@@ -898,12 +1072,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "baudeu",
-    "english_equiv": "Beautifulness",
+    "english_equiv": "Beauty",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being beautiful.",
+    "definition": "The quality or state of being beautiful; beauty.",
     "root": "baude",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "beauty"
+    ]
   },
   {
     "word": "baxye",
@@ -934,12 +1111,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "beatia",
-    "english_equiv": "Doer of close",
+    "english_equiv": "Closer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'close'.",
+    "definition": "A person who closes; a closer.",
     "root": "beati",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "closer"
+    ]
   },
   {
     "word": "beglonoe",
@@ -972,10 +1152,14 @@ const derivedDictionaryData = [
     "word": "belae",
     "english_equiv": "Foot-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a foot.",
+    "definition": "Made of, resembling, or relating to foot.",
     "root": "bela",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "foot-like",
+      "resembling foot"
+    ]
   },
   {
     "word": "belimoe",
@@ -984,7 +1168,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to shoe.",
     "root": "belimo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "shoe-like",
+      "resembling shoe"
+    ]
   },
   {
     "word": "beqye",
@@ -1019,16 +1207,24 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to air.",
     "root": "bexo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "air-like",
+      "resembling air"
+    ]
   },
   {
     "word": "bibae",
     "english_equiv": "Baby-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a baby.",
+    "definition": "Made of, resembling, or relating to baby.",
     "root": "biba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "baby-like",
+      "resembling baby"
+    ]
   },
   {
     "word": "bibau",
@@ -1050,7 +1246,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to beer.",
     "root": "biero",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "beer-like",
+      "resembling beer"
+    ]
   },
   {
     "word": "bifei",
@@ -1067,12 +1267,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "biklia",
-    "english_equiv": "Doer of publish",
+    "english_equiv": "Publisher",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'publish'.",
+    "definition": "A person who publishes; a publisher.",
     "root": "bikli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "publisher"
+    ]
   },
   {
     "word": "bilyhoe",
@@ -1081,7 +1284,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to potion.",
     "root": "bilyho",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "potion-like",
+      "resembling potion"
+    ]
   },
   {
     "word": "bimedue",
@@ -1110,12 +1317,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "biwue",
-    "english_equiv": "Marked by problem",
+    "english_equiv": "Problematic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by problem.",
+    "definition": "Characterized by or relating to problem; problematic.",
     "root": "biwu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "problematic"
+    ]
   },
   {
     "word": "biznua",
@@ -1132,12 +1342,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "biznue",
-    "english_equiv": "Marked by company",
+    "english_equiv": "Corporate",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by company.",
+    "definition": "Characterized by or relating to company; corporate.",
     "root": "biznu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "corporate"
+    ]
   },
   {
     "word": "bizomoe",
@@ -1146,7 +1359,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to ingot.",
     "root": "bizomo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "ingot-like",
+      "resembling ingot"
+    ]
   },
   {
     "word": "bloboe",
@@ -1155,16 +1372,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to axe.",
     "root": "blobo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "axe-like",
+      "resembling axe"
+    ]
   },
   {
     "word": "blunue",
-    "english_equiv": "Marked by meaning",
+    "english_equiv": "Meaningful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by meaning.",
+    "definition": "Characterized by or relating to meaning; meaningful.",
     "root": "blunu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "meaningful"
+    ]
   },
   {
     "word": "blunui",
@@ -1184,28 +1408,38 @@ const derivedDictionaryData = [
     "word": "bofamae",
     "english_equiv": "Wrist-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a wrist.",
+    "definition": "Made of, resembling, or relating to wrist.",
     "root": "bofama",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "wrist-like",
+      "resembling wrist"
+    ]
   },
   {
     "word": "bogue",
-    "english_equiv": "Marked by force",
+    "english_equiv": "Forceful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by force.",
+    "definition": "Characterized by or relating to force; forceful.",
     "root": "bogu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "forceful"
+    ]
   },
   {
     "word": "bojae",
-    "english_equiv": "Blood-like",
+    "english_equiv": "Bloody",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a blood.",
+    "definition": "Made of, resembling, or relating to blood; bloody.",
     "root": "boja",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "bloody"
+    ]
   },
   {
     "word": "bojai",
@@ -1234,12 +1468,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "bokeu",
-    "english_equiv": "Badness",
+    "english_equiv": "Evil",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being bad.",
+    "definition": "The quality or state of being bad; evil.",
     "root": "boke",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "evil",
+      "badness"
+    ]
   },
   {
     "word": "borpoe",
@@ -1257,12 +1495,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "boslia",
-    "english_equiv": "Doer of to hurry",
+    "english_equiv": "Hurrier",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to hurry'.",
+    "definition": "A person who hurries; a hurrier.",
     "root": "bosli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "hurrier"
+    ]
   },
   {
     "word": "boslie",
@@ -1279,12 +1520,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "bosliu",
-    "english_equiv": "Act of to hurry",
+    "english_equiv": "Haste / Hurry",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'to hurry'.",
+    "definition": "The act of hurrying; haste.",
     "root": "bosli",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "haste",
+      "hurry",
+      "rush"
+    ]
   },
   {
     "word": "botaxei",
@@ -1301,12 +1547,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "botaxeu",
-    "english_equiv": "Stupidness",
+    "english_equiv": "Stupidity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being stupid.",
+    "definition": "The quality or state of being stupid; stupidity.",
     "root": "botaxe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "stupidity",
+      "foolishness"
+    ]
   },
   {
     "word": "botoe",
@@ -1315,52 +1565,74 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to boat.",
     "root": "boto",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "boat-like",
+      "resembling boat"
+    ]
   },
   {
     "word": "bracia",
-    "english_equiv": "Doer of to chew",
+    "english_equiv": "Chewer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to chew'.",
+    "definition": "A person who chews; a chewer.",
     "root": "braci",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "chewer"
+    ]
   },
   {
     "word": "brandae",
     "english_equiv": "Panda-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a panda.",
+    "definition": "Made of, resembling, or relating to panda.",
     "root": "branda",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "panda-like",
+      "resembling panda"
+    ]
   },
   {
     "word": "brekrae",
     "english_equiv": "Forehead-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a forehead.",
+    "definition": "Made of, resembling, or relating to forehead.",
     "root": "brekra",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "forehead-like",
+      "resembling forehead"
+    ]
   },
   {
     "word": "brempae",
     "english_equiv": "Elbow-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a elbow.",
+    "definition": "Made of, resembling, or relating to elbow.",
     "root": "brempa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "elbow-like",
+      "resembling elbow"
+    ]
   },
   {
     "word": "brikue",
-    "english_equiv": "Marked by regret",
+    "english_equiv": "Regretful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by regret.",
+    "definition": "Characterized by or relating to regret; regretful.",
     "root": "briku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "regretful"
+    ]
   },
   {
     "word": "brikui",
@@ -1394,7 +1666,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to lake.",
     "root": "brirso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "lake-like",
+      "resembling lake"
+    ]
   },
   {
     "word": "brykloa",
@@ -1415,7 +1691,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bread.",
     "root": "bryklo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bread-like",
+      "resembling bread"
+    ]
   },
   {
     "word": "bufroe",
@@ -1433,12 +1713,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "bumpia",
-    "english_equiv": "Doer of to complain",
+    "english_equiv": "Complainer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to complain'.",
+    "definition": "A person who complains; a complainer.",
     "root": "bumpi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "complainer"
+    ]
   },
   {
     "word": "bumpie",
@@ -1473,7 +1756,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to clothes.",
     "root": "busko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "clothes-like",
+      "resembling clothes"
+    ]
   },
   {
     "word": "buskoi",
@@ -1505,12 +1792,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "buvae",
-    "english_equiv": "Cow-like",
+    "english_equiv": "Cow-like, bovine",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a cow.",
+    "definition": "Made of, resembling, or relating to cow; cow-like, bovine.",
     "root": "buva",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "cow-like",
+      "bovine"
+    ]
   },
   {
     "word": "buxei",
@@ -1527,12 +1818,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "buxeu",
-    "english_equiv": "Impatientness",
+    "english_equiv": "Impatience",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being impatient.",
+    "definition": "The quality of being impatient; impatience.",
     "root": "buxe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "impatience"
+    ]
   },
   {
     "word": "bysoe",
@@ -1541,25 +1835,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to sky.",
     "root": "byso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "sky-like",
+      "resembling sky"
+    ]
   },
   {
     "word": "cacodue",
-    "english_equiv": "Marked by diagnosis",
+    "english_equiv": "Diagnostic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by diagnosis.",
+    "definition": "Characterized by or relating to diagnosis; diagnostic.",
     "root": "cacodu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "diagnostic"
+    ]
   },
   {
     "word": "cadae",
-    "english_equiv": "Child-like",
+    "english_equiv": "Childlike, childish",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a child.",
+    "definition": "Made of, resembling, or relating to child; childlike, childish.",
     "root": "cada",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "childlike",
+      "childish"
+    ]
   },
   {
     "word": "cadau",
@@ -1580,7 +1885,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to street.",
     "root": "caeno",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "street-like",
+      "resembling street"
+    ]
   },
   {
     "word": "cafia",
@@ -1601,16 +1910,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to shadow.",
     "root": "caflo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "shadow-like",
+      "resembling shadow"
+    ]
   },
   {
     "word": "canpue",
-    "english_equiv": "Marked by community",
+    "english_equiv": "Communal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by community.",
+    "definition": "Characterized by or relating to community; communal.",
     "root": "canpu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "communal"
+    ]
   },
   {
     "word": "capei",
@@ -1629,19 +1945,26 @@ const derivedDictionaryData = [
     "word": "caqlae",
     "english_equiv": "Boy-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a boy.",
+    "definition": "Made of, resembling, or relating to boy.",
     "root": "caqla",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "boy-like",
+      "resembling boy"
+    ]
   },
   {
     "word": "caque",
-    "english_equiv": "Marked by tactic",
+    "english_equiv": "Tactical",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by tactic.",
+    "definition": "Characterized by or relating to tactic; tactical.",
     "root": "caqu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "tactical"
+    ]
   },
   {
     "word": "caqui",
@@ -1662,19 +1985,27 @@ const derivedDictionaryData = [
     "word": "caslae",
     "english_equiv": "Girl-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a girl.",
+    "definition": "Made of, resembling, or relating to girl.",
     "root": "casla",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "girl-like",
+      "resembling girl"
+    ]
   },
   {
     "word": "catsae",
-    "english_equiv": "Cat-like",
+    "english_equiv": "Cat-like, feline",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a cat.",
+    "definition": "Made of, resembling, or relating to cat; cat-like, feline.",
     "root": "catsa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "cat-like",
+      "feline"
+    ]
   },
   {
     "word": "cavulkoe",
@@ -1683,7 +2014,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to cobweb.",
     "root": "cavulko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "cobweb-like",
+      "resembling cobweb"
+    ]
   },
   {
     "word": "celei",
@@ -1700,21 +2035,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "celeu",
-    "english_equiv": "Privateness",
+    "english_equiv": "Privacy",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being private.",
+    "definition": "The quality or state of being private; privacy.",
     "root": "cele",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "privacy"
+    ]
   },
   {
     "word": "cenia",
-    "english_equiv": "Doer of live",
+    "english_equiv": "Dweller",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'live'.",
+    "definition": "A person who lives; a dweller.",
     "root": "ceni",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "dweller"
+    ]
   },
   {
     "word": "ceniu",
@@ -1737,16 +2078,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to wave.",
     "root": "cerojo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "wave-like",
+      "resembling wave"
+    ]
   },
   {
     "word": "cetofia",
-    "english_equiv": "Doer of show",
+    "english_equiv": "Presenter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'show'.",
+    "definition": "A person who shows; a presenter.",
     "root": "cetofi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "presenter"
+    ]
   },
   {
     "word": "cevoloe",
@@ -1755,7 +2103,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to log.",
     "root": "cevolo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "log-like",
+      "resembling log"
+    ]
   },
   {
     "word": "ciafei",
@@ -1800,19 +2152,25 @@ const derivedDictionaryData = [
     "word": "cigeu",
     "english_equiv": "Foreignness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being foreign.",
+    "definition": "The quality or state of being foreign; foreignness.",
     "root": "cige",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "foreignness"
+    ]
   },
   {
     "word": "cihue",
-    "english_equiv": "Marked by morning",
+    "english_equiv": "Morning",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by morning.",
+    "definition": "Characterized by or relating to morning; morning.",
     "root": "cihu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "morning"
+    ]
   },
   {
     "word": "cijoe",
@@ -1821,43 +2179,61 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to weapon.",
     "root": "cijo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "weapon-like",
+      "resembling weapon"
+    ]
   },
   {
     "word": "cilae",
-    "english_equiv": "Leaf-like",
+    "english_equiv": "Leafy",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a leaf.",
+    "definition": "Made of, resembling, or relating to leaf; leafy.",
     "root": "cila",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "leafy"
+    ]
   },
   {
     "word": "cimia",
-    "english_equiv": "Doer of start",
+    "english_equiv": "Initiator",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'start'.",
+    "definition": "A person who starts; an initiator.",
     "root": "cimi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "initiator"
+    ]
   },
   {
     "word": "cimiu",
-    "english_equiv": "Act of start",
+    "english_equiv": "Beginning / Start",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'start'.",
+    "definition": "The act or point of beginning; a start.",
     "root": "cimi",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "beginning",
+      "start",
+      "onset"
+    ]
   },
   {
     "word": "cisuplue",
-    "english_equiv": "Marked by tide",
+    "english_equiv": "Tidal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by tide.",
+    "definition": "Characterized by or relating to tide; tidal.",
     "root": "cisuplu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "tidal"
+    ]
   },
   {
     "word": "ciswoe",
@@ -1866,7 +2242,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to barrel.",
     "root": "ciswo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "barrel-like",
+      "resembling barrel"
+    ]
   },
   {
     "word": "clapoe",
@@ -1875,7 +2255,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to clock.",
     "root": "clapo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "clock-like",
+      "resembling clock"
+    ]
   },
   {
     "word": "coboe",
@@ -1884,7 +2268,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to fog.",
     "root": "cobo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "fog-like",
+      "resembling fog"
+    ]
   },
   {
     "word": "cohei",
@@ -1914,39 +2302,54 @@ const derivedDictionaryData = [
   },
   {
     "word": "compeu",
-    "english_equiv": "Commonness",
+    "english_equiv": "Popularity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being common.",
+    "definition": "The quality or state of being common; popularity.",
     "root": "compe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "popularity",
+      "commonness"
+    ]
   },
   {
     "word": "coqynia",
-    "english_equiv": "Doer of to turn off",
+    "english_equiv": "Deactivator",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to turn off'.",
+    "definition": "A person who turn offs; a deactivator.",
     "root": "coqyni",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "deactivator"
+    ]
   },
   {
     "word": "corfae",
-    "english_equiv": "Monkey-like",
+    "english_equiv": "Monkey-like, simian",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a monkey.",
+    "definition": "Made of, resembling, or relating to monkey; monkey-like, simian.",
     "root": "corfa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "monkey-like",
+      "simian"
+    ]
   },
   {
     "word": "cosae",
     "english_equiv": "Skin-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a skin.",
+    "definition": "Made of, resembling, or relating to skin.",
     "root": "cosa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "skin-like",
+      "resembling skin"
+    ]
   },
   {
     "word": "cosao",
@@ -1963,12 +2366,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "cotia",
-    "english_equiv": "Doer of cut",
+    "english_equiv": "Cutter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'cut'.",
+    "definition": "A person who cuts; a cutter.",
     "root": "coti",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "cutter"
+    ]
   },
   {
     "word": "cotie",
@@ -2002,19 +2408,27 @@ const derivedDictionaryData = [
     "word": "cowabae",
     "english_equiv": "Donkey-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a donkey.",
+    "definition": "Made of, resembling, or relating to donkey.",
     "root": "cowaba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "donkey-like",
+      "resembling donkey"
+    ]
   },
   {
     "word": "cuacae",
     "english_equiv": "Bear-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a bear.",
+    "definition": "Made of, resembling, or relating to bear.",
     "root": "cuaca",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "bear-like",
+      "resembling bear"
+    ]
   },
   {
     "word": "cubastoe",
@@ -2023,25 +2437,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to sphere.",
     "root": "cubasto",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "sphere-like",
+      "resembling sphere"
+    ]
   },
   {
     "word": "cudzae",
-    "english_equiv": "Wolf-like",
+    "english_equiv": "Wolf-like, lupine",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a wolf.",
+    "definition": "Made of, resembling, or relating to wolf; wolf-like, lupine.",
     "root": "cudza",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "wolf-like",
+      "lupine"
+    ]
   },
   {
     "word": "cufue",
-    "english_equiv": "Marked by goal",
+    "english_equiv": "Purposeful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by goal.",
+    "definition": "Characterized by or relating to goal; purposeful.",
     "root": "cufu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "purposeful"
+    ]
   },
   {
     "word": "cugoe",
@@ -2050,7 +2475,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to eraser.",
     "root": "cugo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "eraser-like",
+      "resembling eraser"
+    ]
   },
   {
     "word": "cujei",
@@ -2067,12 +2496,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "cukia",
-    "english_equiv": "Doer of fight",
+    "english_equiv": "Fighter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'fight'.",
+    "definition": "A person who fights; a fighter.",
     "root": "cuki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "fighter"
+    ]
   },
   {
     "word": "cukie",
@@ -2108,7 +2540,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to dew.",
     "root": "cumeswo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "dew-like",
+      "resembling dew"
+    ]
   },
   {
     "word": "cuntei",
@@ -2130,7 +2566,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to beacon.",
     "root": "cuspo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "beacon-like",
+      "resembling beacon"
+    ]
   },
   {
     "word": "cutwei",
@@ -2147,21 +2587,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "cutweu",
-    "english_equiv": "Readyness",
+    "english_equiv": "Readiness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being ready.",
+    "definition": "The quality or state of being ready; readiness.",
     "root": "cutwe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "readiness"
+    ]
   },
   {
     "word": "cyria",
-    "english_equiv": "Doer of fly",
+    "english_equiv": "Flyer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'fly'.",
+    "definition": "A person who flies; a flyer.",
     "root": "cyri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "flyer"
+    ]
   },
   {
     "word": "cysmoa",
@@ -2182,16 +2628,24 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to village.",
     "root": "cysmo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "village-like",
+      "resembling village"
+    ]
   },
   {
     "word": "cyvae",
     "english_equiv": "Stranger-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a stranger.",
+    "definition": "Made of, resembling, or relating to stranger.",
     "root": "cyva",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "stranger-like",
+      "resembling stranger"
+    ]
   },
   {
     "word": "cyxoe",
@@ -2200,34 +2654,48 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to beach.",
     "root": "cyxo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "beach-like",
+      "resembling beach"
+    ]
   },
   {
     "word": "dafae",
     "english_equiv": "Stomach-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a stomach.",
+    "definition": "Made of, resembling, or relating to stomach.",
     "root": "dafa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "stomach-like",
+      "resembling stomach"
+    ]
   },
   {
     "word": "dagibia",
-    "english_equiv": "Doer of assume",
+    "english_equiv": "Presumer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'assume'.",
+    "definition": "A person who assumes; a presumer.",
     "root": "dagibi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "presumer"
+    ]
   },
   {
     "word": "dahue",
-    "english_equiv": "Marked by value",
+    "english_equiv": "Valuable",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by value.",
+    "definition": "Characterized by or relating to value; valuable.",
     "root": "dahu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "valuable"
+    ]
   },
   {
     "word": "dalei",
@@ -2345,21 +2813,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "decue",
-    "english_equiv": "Marked by attitude",
+    "english_equiv": "Attitudinal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by attitude.",
+    "definition": "Characterized by or relating to attitude; attitudinal.",
     "root": "decu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "attitudinal"
+    ]
   },
   {
     "word": "dedapae",
     "english_equiv": "Thumb-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a thumb.",
+    "definition": "Made of, resembling, or relating to thumb.",
     "root": "dedapa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "thumb-like",
+      "resembling thumb"
+    ]
   },
   {
     "word": "degoe",
@@ -2368,7 +2843,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to table.",
     "root": "dego",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "table-like",
+      "resembling table"
+    ]
   },
   {
     "word": "dekye",
@@ -2397,39 +2876,52 @@ const derivedDictionaryData = [
   },
   {
     "word": "denkia",
-    "english_equiv": "Doer of set",
+    "english_equiv": "Setter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'set'.",
+    "definition": "A person who sets; a setter.",
     "root": "denki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "setter"
+    ]
   },
   {
     "word": "deqazue",
-    "english_equiv": "Marked by department",
+    "english_equiv": "Departmental",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by department.",
+    "definition": "Characterized by or relating to department; departmental.",
     "root": "deqazu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "departmental"
+    ]
   },
   {
     "word": "detae",
-    "english_equiv": "Dog-like",
+    "english_equiv": "Dog-like, canine",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a dog.",
+    "definition": "Made of, resembling, or relating to dog; dog-like, canine.",
     "root": "deta",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "dog-like",
+      "canine"
+    ]
   },
   {
     "word": "dewedue",
-    "english_equiv": "Marked by tuesday",
+    "english_equiv": "Tuesday",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by tuesday.",
+    "definition": "Characterized by or relating to tuesday; tuesday.",
     "root": "dewedu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "tuesday"
+    ]
   },
   {
     "word": "dewei",
@@ -2451,7 +2943,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to block.",
     "root": "dibro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "block-like",
+      "resembling block"
+    ]
   },
   {
     "word": "didei",
@@ -2473,7 +2969,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to liquid.",
     "root": "difo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "liquid-like",
+      "resembling liquid"
+    ]
   },
   {
     "word": "difoi",
@@ -2495,7 +2995,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to solid.",
     "root": "diko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "solid-like",
+      "resembling solid"
+    ]
   },
   {
     "word": "dikoei",
@@ -2512,21 +3016,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "dilujue",
-    "english_equiv": "Marked by account",
+    "english_equiv": "Account-related",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by account.",
+    "definition": "Characterized by or relating to an account or ledger; account-related, accounting.",
     "root": "diluju",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "account-related",
+      "accounting"
+    ]
   },
   {
     "word": "dionue",
-    "english_equiv": "Marked by time",
+    "english_equiv": "Temporal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by time.",
+    "definition": "Characterized by or relating to time; temporal.",
     "root": "dionu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "temporal"
+    ]
   },
   {
     "word": "disoe",
@@ -2535,7 +3046,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to gas.",
     "root": "diso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "gas-like",
+      "resembling gas"
+    ]
   },
   {
     "word": "disoei",
@@ -2554,10 +3069,14 @@ const derivedDictionaryData = [
     "word": "dixae",
     "english_equiv": "Shark-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a shark.",
+    "definition": "Made of, resembling, or relating to shark.",
     "root": "dixa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "shark-like",
+      "resembling shark"
+    ]
   },
   {
     "word": "dizabae",
@@ -2575,12 +3094,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "dodue",
-    "english_equiv": "Marked by universe",
+    "english_equiv": "Universal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by universe.",
+    "definition": "Characterized by or relating to universe; universal.",
     "root": "dodu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "universal"
+    ]
   },
   {
     "word": "dofemoe",
@@ -2589,16 +3111,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to court.",
     "root": "dofemo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "court-like",
+      "resembling court"
+    ]
   },
   {
     "word": "dogia",
-    "english_equiv": "Doer of let",
+    "english_equiv": "Enabler",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'let'.",
+    "definition": "A person who lets; an enabler.",
     "root": "dogi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "enabler"
+    ]
   },
   {
     "word": "domloe",
@@ -2607,7 +3136,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to rain.",
     "root": "domlo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "rain-like",
+      "resembling rain"
+    ]
   },
   {
     "word": "domloei",
@@ -2649,31 +3182,43 @@ const derivedDictionaryData = [
   },
   {
     "word": "doralae",
-    "english_equiv": "Back (anatomy-like",
+    "english_equiv": "Back (anatomy)-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a back (anatomy.",
+    "definition": "Made of, resembling, or relating to back (anatomy).",
     "root": "dorala",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "back (anatomy)-like",
+      "resembling back (anatomy)"
+    ]
   },
   {
     "word": "dormia",
-    "english_equiv": "Doer of swim",
+    "english_equiv": "Swimmer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'swim'.",
+    "definition": "A person who swims; a swimmer.",
     "root": "dormi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "swimmer"
+    ]
   },
   {
     "word": "dorsoe",
-    "english_equiv": "Water-like",
+    "english_equiv": "Wet / Aquatic",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to water.",
+    "definition": "Made of or relating to water; wet, aquatic.",
     "root": "dorso",
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
-    "reviewed": "baseline"
+    "reviewed": "baseline",
+    "senses": [
+      "wet",
+      "aquatic",
+      "watery"
+    ]
   },
   {
     "word": "dorsoei",
@@ -2716,21 +3261,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "doteu",
-    "english_equiv": "Strongness",
+    "english_equiv": "Strength",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being strong.",
+    "definition": "The quality or state of being strong; strength.",
     "root": "dote",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "strength"
+    ]
   },
   {
     "word": "dowoe",
-    "english_equiv": "Wool-like",
+    "english_equiv": "Woolen",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to wool.",
+    "definition": "Made of, resembling, or relating to wool; woolen.",
     "root": "dowo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "woolen"
+    ]
   },
   {
     "word": "drabei",
@@ -2752,7 +3303,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to wheel.",
     "root": "drafo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "wheel-like",
+      "resembling wheel"
+    ]
   },
   {
     "word": "drekoa",
@@ -2783,21 +3338,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "drijia",
-    "english_equiv": "Doer of climb",
+    "english_equiv": "Climber",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'climb'.",
+    "definition": "A person who climbs; a climber.",
     "root": "driji",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "climber"
+    ]
   },
   {
     "word": "drulsia",
-    "english_equiv": "Doer of switch",
+    "english_equiv": "Switcher",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'switch'.",
+    "definition": "A person who switches; a switcher.",
     "root": "drulsi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "switcher"
+    ]
   },
   {
     "word": "drulsio",
@@ -2856,12 +3417,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "dugue",
-    "english_equiv": "Marked by night",
+    "english_equiv": "Nocturnal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by night.",
+    "definition": "Characterized by or relating to night; nocturnal.",
     "root": "dugu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "nocturnal"
+    ]
   },
   {
     "word": "dupei",
@@ -2908,25 +3472,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to plank.",
     "root": "dyrpo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "plank-like",
+      "resembling plank"
+    ]
   },
   {
     "word": "dysae",
     "english_equiv": "Tongue-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a tongue.",
+    "definition": "Made of, resembling, or relating to tongue.",
     "root": "dysa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "tongue-like",
+      "resembling tongue"
+    ]
   },
   {
     "word": "dzefia",
-    "english_equiv": "Doer of agree",
+    "english_equiv": "Accepter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'agree'.",
+    "definition": "A person who agrees; an accepter.",
     "root": "dzefi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "accepter"
+    ]
   },
   {
     "word": "dzocoa",
@@ -2947,52 +3522,74 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to pottery.",
     "root": "dzoco",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "pottery-like",
+      "resembling pottery"
+    ]
   },
   {
     "word": "dzyprae",
     "english_equiv": "Nut-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a nut.",
+    "definition": "Made of, resembling, or relating to nut.",
     "root": "dzypra",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "nut-like",
+      "resembling nut"
+    ]
   },
   {
     "word": "eavae",
-    "english_equiv": "Snake-like",
+    "english_equiv": "Snake-like, serpentine",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a snake.",
+    "definition": "Made of, resembling, or relating to snake; snake-like, serpentine.",
     "root": "eava",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "snake-like",
+      "serpentine"
+    ]
   },
   {
     "word": "ebgae",
     "english_equiv": "Twig-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a twig.",
+    "definition": "Made of, resembling, or relating to twig.",
     "root": "ebga",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "twig-like",
+      "resembling twig"
+    ]
   },
   {
     "word": "ebmeria",
-    "english_equiv": "Doer of remember",
+    "english_equiv": "Rememberer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'remember'.",
+    "definition": "A person who remembers; a rememberer.",
     "root": "ebmeri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "rememberer"
+    ]
   },
   {
     "word": "ebnesia",
-    "english_equiv": "Doer of forget",
+    "english_equiv": "Forgetter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'forget'.",
+    "definition": "A person who forgets; a forgetter.",
     "root": "ebnesi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "forgetter"
+    ]
   },
   {
     "word": "ebnesie",
@@ -3036,21 +3633,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "ebxeu",
-    "english_equiv": "Cruelness",
+    "english_equiv": "Cruelty",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being cruel.",
+    "definition": "The quality or state of being cruel; cruelty.",
     "root": "ebxe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "cruelty"
+    ]
   },
   {
     "word": "ebzikia",
-    "english_equiv": "Doer of recognize",
+    "english_equiv": "Recognizer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'recognize'.",
+    "definition": "A person who recognizes; a recognizer.",
     "root": "ebziki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "recognizer"
+    ]
   },
   {
     "word": "ecmei",
@@ -3067,12 +3670,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "ecmeu",
-    "english_equiv": "Humbleness",
+    "english_equiv": "Humility",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being humble.",
+    "definition": "The quality or state of being humble; humility.",
     "root": "ecme",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "humility",
+      "modesty"
+    ]
   },
   {
     "word": "ednua",
@@ -3089,21 +3696,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "ednue",
-    "english_equiv": "Marked by faith",
+    "english_equiv": "Religious",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by faith.",
+    "definition": "Characterized by or relating to faith; religious.",
     "root": "ednu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "religious"
+    ]
   },
   {
     "word": "edoraria",
-    "english_equiv": "Doer of to deep fry",
+    "english_equiv": "Deep-frier",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to deep fry'.",
+    "definition": "A person who deep fries; a deep-frier.",
     "root": "edorari",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "deep-frier"
+    ]
   },
   {
     "word": "efadei",
@@ -3120,21 +3733,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "efadeu",
-    "english_equiv": "Hardworkingness",
+    "english_equiv": "Diligence",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being hardworking.",
+    "definition": "The quality or state of being hardworking; diligence.",
     "root": "efade",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "diligence",
+      "industriousness"
+    ]
   },
   {
     "word": "efantue",
-    "english_equiv": "Marked by effort",
+    "english_equiv": "Strenuous",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by effort.",
+    "definition": "Characterized by or relating to effort; strenuous.",
     "root": "efantu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "strenuous"
+    ]
   },
   {
     "word": "efmia",
@@ -3152,12 +3772,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "efzue",
-    "english_equiv": "Marked by harmony",
+    "english_equiv": "Harmonious",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by harmony.",
+    "definition": "Characterized by or relating to harmony; harmonious.",
     "root": "efzu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "harmonious"
+    ]
   },
   {
     "word": "egdei",
@@ -3174,12 +3797,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "egdeu",
-    "english_equiv": "Soberness",
+    "english_equiv": "Sobriety",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being sober.",
+    "definition": "The quality or state of being sober; sobriety.",
     "root": "egde",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "sobriety"
+    ]
   },
   {
     "word": "eginoe",
@@ -3188,7 +3814,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to engine.",
     "root": "egino",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "engine-like",
+      "resembling engine"
+    ]
   },
   {
     "word": "egmabei",
@@ -3219,30 +3849,39 @@ const derivedDictionaryData = [
   },
   {
     "word": "eguvue",
-    "english_equiv": "Marked by level",
+    "english_equiv": "Standard",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by level.",
+    "definition": "Characterized by or relating to level; standard.",
     "root": "eguvu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "standard"
+    ]
   },
   {
     "word": "eipia",
-    "english_equiv": "Doer of tear",
+    "english_equiv": "Ripper",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'tear'.",
+    "definition": "A person who tears; a ripper.",
     "root": "eipi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "ripper"
+    ]
   },
   {
     "word": "eksaplia",
-    "english_equiv": "Doer of explain",
+    "english_equiv": "Explainer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'explain'.",
+    "definition": "A person who explains; an explainer.",
     "root": "eksapli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "explainer"
+    ]
   },
   {
     "word": "elgei",
@@ -3259,12 +3898,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "elgeu",
-    "english_equiv": "Honestness",
+    "english_equiv": "Honesty",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being honest.",
+    "definition": "The quality or state of being honest; honesty.",
     "root": "elge",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "honesty"
+    ]
   },
   {
     "word": "elsae",
@@ -3297,28 +3939,37 @@ const derivedDictionaryData = [
     "word": "emfeu",
     "english_equiv": "Freshness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being fresh.",
+    "definition": "The quality or state of being fresh; freshness.",
     "root": "emfe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "freshness"
+    ]
   },
   {
     "word": "emitia",
-    "english_equiv": "Doer of follow",
+    "english_equiv": "Follower",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'follow'.",
+    "definition": "A person who follows; a follower.",
     "root": "emiti",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "follower"
+    ]
   },
   {
     "word": "enconia",
-    "english_equiv": "Doer of meet",
+    "english_equiv": "Meeter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'meet'.",
+    "definition": "A person who meets; a meeter.",
     "root": "enconi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "meeter"
+    ]
   },
   {
     "word": "enconiu",
@@ -3350,39 +4001,52 @@ const derivedDictionaryData = [
   },
   {
     "word": "eneu",
-    "english_equiv": "Light (weightness",
+    "english_equiv": "Lightness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being light (weight.",
+    "definition": "The quality or state of being light; lightness.",
     "root": "ene",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "lightness"
+    ]
   },
   {
     "word": "enria",
-    "english_equiv": "Doer of to go inside",
+    "english_equiv": "Entrant",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to go inside'.",
+    "definition": "A person who go insides; an entrant.",
     "root": "enri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "entrant"
+    ]
   },
   {
     "word": "epiwue",
-    "english_equiv": "Marked by action",
+    "english_equiv": "Active",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by action.",
+    "definition": "Characterized by or relating to action; active.",
     "root": "epiwu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "active"
+    ]
   },
   {
     "word": "epiwui",
-    "english_equiv": "To feel or enact action",
+    "english_equiv": "To act",
     "part_of_speech": "Verb",
-    "definition": "To feel, express, or bring about action.",
+    "definition": "To take action; to act, to do.",
     "root": "epiwu",
     "derivation_path": "u→i",
-    "path_gloss": "Abstract Noun -> Verb (feel/enact)"
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "act",
+      "take action"
+    ]
   },
   {
     "word": "epmoe",
@@ -3391,25 +4055,35 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to oven.",
     "root": "epmo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "oven-like",
+      "resembling oven"
+    ]
   },
   {
     "word": "epufue",
-    "english_equiv": "Marked by justice",
+    "english_equiv": "Just",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by justice.",
+    "definition": "Characterized by or relating to justice; just.",
     "root": "epufu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "just"
+    ]
   },
   {
     "word": "epzia",
-    "english_equiv": "Doer of polish",
+    "english_equiv": "Polisher",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'polish'.",
+    "definition": "A person who polishes; a polisher.",
     "root": "epzi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "polisher"
+    ]
   },
   {
     "word": "epzie",
@@ -3432,7 +4106,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to saliva.",
     "root": "eqso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "saliva-like",
+      "resembling saliva"
+    ]
   },
   {
     "word": "eqsoi",
@@ -3453,16 +4131,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to thunder.",
     "root": "erco",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "thunder-like",
+      "resembling thunder"
+    ]
   },
   {
     "word": "erfia",
-    "english_equiv": "Doer of understand",
+    "english_equiv": "Comprehender",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'understand'.",
+    "definition": "A person who understands; a comprehender.",
     "root": "erfi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "comprehender"
+    ]
   },
   {
     "word": "erua",
@@ -3480,12 +4165,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "erue",
-    "english_equiv": "Marked by war",
+    "english_equiv": "Warlike",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by war.",
+    "definition": "Characterized by or relating to war; warlike.",
     "root": "eru",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "warlike"
+    ]
   },
   {
     "word": "espei",
@@ -3502,21 +4190,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "espeu",
-    "english_equiv": "Specificness",
+    "english_equiv": "Specificity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being specific.",
+    "definition": "The quality or state of being specific; specificity.",
     "root": "espe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "specificity"
+    ]
   },
   {
     "word": "etypia",
-    "english_equiv": "Doer of to get",
+    "english_equiv": "Obtainer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to get'.",
+    "definition": "A person who gets; an obtainer.",
     "root": "etypi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "obtainer"
+    ]
   },
   {
     "word": "evlei",
@@ -3533,12 +4227,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "evmue",
-    "english_equiv": "Marked by accident",
+    "english_equiv": "Accidental",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by accident.",
+    "definition": "Characterized by or relating to accident; accidental.",
     "root": "evmu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "accidental"
+    ]
   },
   {
     "word": "exkei",
@@ -3555,21 +4252,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "exopue",
-    "english_equiv": "Marked by rate",
+    "english_equiv": "Rate-based",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by rate.",
+    "definition": "Characterized by or relating to rate; rate-based.",
     "root": "exopu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "rate-based"
+    ]
   },
   {
     "word": "extanue",
-    "english_equiv": "Marked by lesson",
+    "english_equiv": "Instructional",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by lesson.",
+    "definition": "Characterized by or relating to lesson; instructional.",
     "root": "extanu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "instructional"
+    ]
   },
   {
     "word": "ezloe",
@@ -3578,7 +4281,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to lid.",
     "root": "ezlo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "lid-like",
+      "resembling lid"
+    ]
   },
   {
     "word": "eztei",
@@ -3597,28 +4304,38 @@ const derivedDictionaryData = [
     "word": "ezteu",
     "english_equiv": "Politeness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being polite.",
+    "definition": "The quality or state of being polite; politeness.",
     "root": "ezte",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "politeness",
+      "courtesy"
+    ]
   },
   {
     "word": "fabia",
-    "english_equiv": "Doer of want",
+    "english_equiv": "Desirer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'want'.",
+    "definition": "A person who wants; a desirer.",
     "root": "fabi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "desirer"
+    ]
   },
   {
     "word": "facue",
-    "english_equiv": "Marked by side",
+    "english_equiv": "Lateral",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by side.",
+    "definition": "Characterized by or relating to side; lateral.",
     "root": "facu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "lateral"
+    ]
   },
   {
     "word": "fafei",
@@ -3635,30 +4352,40 @@ const derivedDictionaryData = [
   },
   {
     "word": "fafeu",
-    "english_equiv": "Importantness",
+    "english_equiv": "Importance",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being important.",
+    "definition": "The quality or state of being important; importance.",
     "root": "fafe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "importance"
+    ]
   },
   {
     "word": "fagae",
-    "english_equiv": "Cousin (gender-neutral-like",
+    "english_equiv": "Cousin (gender-neutral)-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a cousin (gender-neutral.",
+    "definition": "Made of, resembling, or relating to cousin (gender-neutral).",
     "root": "faga",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "cousin (gender-neutral)-like",
+      "resembling cousin (gender-neutral)"
+    ]
   },
   {
     "word": "falazia",
-    "english_equiv": "Doer of to journal",
+    "english_equiv": "Recorder",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to journal'.",
+    "definition": "A person who journals; a recorder.",
     "root": "falazi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "recorder"
+    ]
   },
   {
     "word": "falfosoe",
@@ -3667,7 +4394,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to list.",
     "root": "falfoso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "list-like",
+      "resembling list"
+    ]
   },
   {
     "word": "falfosoi",
@@ -3684,12 +4415,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "falmia",
-    "english_equiv": "Doer of to report",
+    "english_equiv": "Reporter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to report'.",
+    "definition": "A person who reports; a reporter.",
     "root": "falmi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "reporter"
+    ]
   },
   {
     "word": "falmio",
@@ -3706,21 +4440,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "fanzia",
-    "english_equiv": "Doer of to introduce",
+    "english_equiv": "Introducer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to introduce'.",
+    "definition": "A person who introduces; an introducer.",
     "root": "fanzi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "introducer"
+    ]
   },
   {
     "word": "farlopae",
     "english_equiv": "Doctor-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a doctor.",
+    "definition": "Made of, resembling, or relating to doctor.",
     "root": "farlopa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "doctor-like",
+      "resembling doctor"
+    ]
   },
   {
     "word": "farlue",
@@ -3738,21 +4479,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "fasidia",
-    "english_equiv": "Doer of include",
+    "english_equiv": "Includer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'include'.",
+    "definition": "A person who includes; an includer.",
     "root": "fasidi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "includer"
+    ]
   },
   {
     "word": "fatlia",
-    "english_equiv": "Doer of to depend on",
+    "english_equiv": "Dependent",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to depend on'.",
+    "definition": "A person who depend ons; a dependent.",
     "root": "fatli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "dependent"
+    ]
   },
   {
     "word": "fatoa",
@@ -3783,12 +4530,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "fawanue",
-    "english_equiv": "Marked by technology",
+    "english_equiv": "Technological",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by technology.",
+    "definition": "Characterized by or relating to technology; technological.",
     "root": "fawanu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "technological"
+    ]
   },
   {
     "word": "fecyei",
@@ -3805,18 +4555,21 @@ const derivedDictionaryData = [
   },
   {
     "word": "fefue",
-    "english_equiv": "Marked by end",
+    "english_equiv": "Final",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by end.",
+    "definition": "Characterized by or relating to end; final.",
     "root": "fefu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "final"
+    ]
   },
   {
     "word": "fehedia",
     "english_equiv": "divorced person",
     "part_of_speech": "Biological Noun",
-    "definition": "A person who has divorced; a formerly married individual whose marriage has been dissolved.",
+    "definition": "A person who divorces; a divorced person.",
     "root": "fehedi",
     "derivation_path": "i→a",
     "path_gloss": "Verb -> Biological Noun (doer)",
@@ -3916,12 +4669,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "fenutia",
-    "english_equiv": "Doer of tell",
+    "english_equiv": "Teller",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'tell'.",
+    "definition": "A person who tells; a teller.",
     "root": "fenuti",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "teller"
+    ]
   },
   {
     "word": "fevoe",
@@ -3930,16 +4686,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to sun.",
     "root": "fevo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "sun-like",
+      "resembling sun"
+    ]
   },
   {
     "word": "fewia",
-    "english_equiv": "Doer of mix",
+    "english_equiv": "Mixer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'mix'.",
+    "definition": "A person who mixes; a mixer.",
     "root": "fewi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "mixer"
+    ]
   },
   {
     "word": "fewio",
@@ -3956,12 +4719,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "fihia",
-    "english_equiv": "Doer of expose",
+    "english_equiv": "Revealer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'expose'.",
+    "definition": "A person who exposes; a revealer.",
     "root": "fihi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "revealer"
+    ]
   },
   {
     "word": "fihie",
@@ -3981,10 +4747,14 @@ const derivedDictionaryData = [
     "word": "fijae",
     "english_equiv": "Ear-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a ear.",
+    "definition": "Made of, resembling, or relating to ear.",
     "root": "fija",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "ear-like",
+      "resembling ear"
+    ]
   },
   {
     "word": "fijai",
@@ -4019,7 +4789,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to path.",
     "root": "fiko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "path-like",
+      "resembling path"
+    ]
   },
   {
     "word": "finei",
@@ -4036,21 +4810,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "fineu",
-    "english_equiv": "Fineness",
+    "english_equiv": "Delicacy",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being fine.",
+    "definition": "The quality or state of being fine; delicacy.",
     "root": "fine",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "delicacy",
+      "fineness"
+    ]
   },
   {
     "word": "fipue",
-    "english_equiv": "Marked by software",
+    "english_equiv": "Software-related",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by software.",
+    "definition": "Characterized by or relating to software; software-related.",
     "root": "fipu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "software-related"
+    ]
   },
   {
     "word": "firfae",
@@ -4081,12 +4862,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "fiturue",
-    "english_equiv": "Marked by future",
+    "english_equiv": "Prospective",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by future.",
+    "definition": "Characterized by or relating to future; prospective.",
     "root": "fituru",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "prospective"
+    ]
   },
   {
     "word": "fitydue",
@@ -4107,7 +4891,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to language.",
     "root": "fiwo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "language-like",
+      "resembling language"
+    ]
   },
   {
     "word": "flestoe",
@@ -4125,12 +4913,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "fodia",
-    "english_equiv": "Doer of process",
+    "english_equiv": "Processor",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'process'.",
+    "definition": "A person who processes; a processor.",
     "root": "fodi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "processor"
+    ]
   },
   {
     "word": "fofuploa",
@@ -4152,7 +4943,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bay.",
     "root": "fofuplo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bay-like",
+      "resembling bay"
+    ]
   },
   {
     "word": "fogei",
@@ -4169,21 +4964,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "fogeu",
-    "english_equiv": "Comfortableness",
+    "english_equiv": "Comfort",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being comfortable.",
+    "definition": "The quality or state of being comfortable; comfort.",
     "root": "foge",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "comfort"
+    ]
   },
   {
     "word": "fohue",
-    "english_equiv": "Marked by afternoon",
+    "english_equiv": "Afternoon",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by afternoon.",
+    "definition": "Characterized by or relating to afternoon; afternoon.",
     "root": "fohu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "afternoon"
+    ]
   },
   {
     "word": "foisoe",
@@ -4192,7 +4993,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to building.",
     "root": "foiso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "building-like",
+      "resembling building"
+    ]
   },
   {
     "word": "foisoi",
@@ -4235,12 +5040,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "folkunue",
-    "english_equiv": "Marked by dignity",
+    "english_equiv": "Dignified",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by dignity.",
+    "definition": "Characterized by or relating to dignity; dignified.",
     "root": "folkunu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "dignified"
+    ]
   },
   {
     "word": "folye",
@@ -4262,7 +5070,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to phone.",
     "root": "fono",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "phone-like",
+      "resembling phone"
+    ]
   },
   {
     "word": "fosei",
@@ -4293,12 +5105,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "foxipria",
-    "english_equiv": "Doer of fade",
+    "english_equiv": "Fader",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'fade'.",
+    "definition": "A person who fades; a fader.",
     "root": "foxipri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "fader"
+    ]
   },
   {
     "word": "foxiprio",
@@ -4345,10 +5160,14 @@ const derivedDictionaryData = [
     "word": "frankae",
     "english_equiv": "Armadillo-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a armadillo.",
+    "definition": "Made of, resembling, or relating to armadillo.",
     "root": "franka",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "armadillo-like",
+      "resembling armadillo"
+    ]
   },
   {
     "word": "frelkae",
@@ -4381,55 +5200,75 @@ const derivedDictionaryData = [
     "word": "friceu",
     "english_equiv": "Deafness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being deaf.",
+    "definition": "The quality or state of being deaf; deafness.",
     "root": "frice",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "deafness"
+    ]
   },
   {
     "word": "friltae",
     "english_equiv": "Rabbit-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a rabbit.",
+    "definition": "Made of, resembling, or relating to rabbit.",
     "root": "frilta",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "rabbit-like",
+      "resembling rabbit"
+    ]
   },
   {
     "word": "frismae",
     "english_equiv": "Rib-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a rib.",
+    "definition": "Made of, resembling, or relating to rib.",
     "root": "frisma",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "rib-like",
+      "resembling rib"
+    ]
   },
   {
     "word": "fruvadue",
-    "english_equiv": "Marked by disappointment",
+    "english_equiv": "Disappointing",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by disappointment.",
+    "definition": "Characterized by or relating to disappointment; disappointing.",
     "root": "fruvadu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "disappointing"
+    ]
   },
   {
     "word": "fualia",
-    "english_equiv": "Doer of catch",
+    "english_equiv": "Catcher",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'catch'.",
+    "definition": "A person who catches; a catcher.",
     "root": "fuali",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "catcher"
+    ]
   },
   {
     "word": "fubae",
     "english_equiv": "Fish-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a fish.",
+    "definition": "Made of, resembling, or relating to fish; fish-like.",
     "root": "fuba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "fish-like"
+    ]
   },
   {
     "word": "fuegoa",
@@ -4461,19 +5300,26 @@ const derivedDictionaryData = [
     "word": "fukae",
     "english_equiv": "Hand-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a hand.",
+    "definition": "Made of, resembling, or relating to hand.",
     "root": "fuka",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "hand-like",
+      "resembling hand"
+    ]
   },
   {
     "word": "fulue",
-    "english_equiv": "Marked by data",
+    "english_equiv": "Informational",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by data.",
+    "definition": "Characterized by or relating to data; informational.",
     "root": "fulu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "informational"
+    ]
   },
   {
     "word": "fuluo",
@@ -4504,12 +5350,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "fuqedia",
-    "english_equiv": "Doer of to demand",
+    "english_equiv": "Demander",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to demand'.",
+    "definition": "A person who demands; a demander.",
     "root": "fuqedi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "demander"
+    ]
   },
   {
     "word": "fuqei",
@@ -4528,10 +5377,14 @@ const derivedDictionaryData = [
     "word": "furnae",
     "english_equiv": "Fur-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a fur.",
+    "definition": "Made of, resembling, or relating to fur.",
     "root": "furna",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "fur-like",
+      "resembling fur"
+    ]
   },
   {
     "word": "furnao",
@@ -4548,21 +5401,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "fuzia",
-    "english_equiv": "Doer of to support",
+    "english_equiv": "Supporter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to support'.",
+    "definition": "A person who supports; a supporter.",
     "root": "fuzi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "supporter"
+    ]
   },
   {
     "word": "fycisia",
-    "english_equiv": "Doer of miss",
+    "english_equiv": "Yearner",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'miss'.",
+    "definition": "A person who misses; a yearner.",
     "root": "fycisi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "yearner"
+    ]
   },
   {
     "word": "fyjebei",
@@ -4579,39 +5438,52 @@ const derivedDictionaryData = [
   },
   {
     "word": "fyjebeu",
-    "english_equiv": "Warmness",
+    "english_equiv": "Warmth",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being warm.",
+    "definition": "The quality or state of being warm; warmth.",
     "root": "fyjebe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "warmth"
+    ]
   },
   {
     "word": "gague",
-    "english_equiv": "Marked by texture",
+    "english_equiv": "Textured",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by texture.",
+    "definition": "Characterized by or relating to texture; textured.",
     "root": "gagu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "textured"
+    ]
   },
   {
     "word": "gahae",
     "english_equiv": "Cocoa-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a cocoa.",
+    "definition": "Made of, resembling, or relating to cocoa.",
     "root": "gaha",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "cocoa-like",
+      "resembling cocoa"
+    ]
   },
   {
     "word": "gakijia",
-    "english_equiv": "Doer of guess",
+    "english_equiv": "Guesser",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'guess'.",
+    "definition": "A person who guesses; a guesser.",
     "root": "gakiji",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "guesser"
+    ]
   },
   {
     "word": "garia",
@@ -4700,16 +5572,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to space.",
     "root": "geco",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "space-like",
+      "resembling space"
+    ]
   },
   {
     "word": "gefria",
-    "english_equiv": "Doer of to go out",
+    "english_equiv": "Exiter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to go out'.",
+    "definition": "A person who go outs; an exiter.",
     "root": "gefri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "exiter"
+    ]
   },
   {
     "word": "gejedoa",
@@ -4741,19 +5620,27 @@ const derivedDictionaryData = [
     "word": "gekafae",
     "english_equiv": "Vine-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a vine.",
+    "definition": "Made of, resembling, or relating to vine.",
     "root": "gekafa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "vine-like",
+      "resembling vine"
+    ]
   },
   {
     "word": "gendae",
     "english_equiv": "Camel-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a camel.",
+    "definition": "Made of, resembling, or relating to camel.",
     "root": "genda",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "camel-like",
+      "resembling camel"
+    ]
   },
   {
     "word": "gepei",
@@ -4770,12 +5657,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "gepeu",
-    "english_equiv": "Generalness",
+    "english_equiv": "Generality",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being general.",
+    "definition": "The quality or state of being general; generality.",
     "root": "gepe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "generality"
+    ]
   },
   {
     "word": "gerotei",
@@ -4794,19 +5684,25 @@ const derivedDictionaryData = [
     "word": "geroteu",
     "english_equiv": "Shallowness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being shallow.",
+    "definition": "The quality or state of being shallow; shallowness.",
     "root": "gerote",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "shallowness"
+    ]
   },
   {
     "word": "gesia",
-    "english_equiv": "Doer of say",
+    "english_equiv": "Speaker",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'say'.",
+    "definition": "A person who says; a speaker.",
     "root": "gesi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "speaker"
+    ]
   },
   {
     "word": "gesie",
@@ -4823,39 +5719,53 @@ const derivedDictionaryData = [
   },
   {
     "word": "gesiu",
-    "english_equiv": "Act of say",
+    "english_equiv": "Speech",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'say'.",
+    "definition": "The act of speaking; speech, talk.",
     "root": "gesi",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "speech",
+      "talk",
+      "discourse"
+    ]
   },
   {
     "word": "getikue",
-    "english_equiv": "Marked by energy",
+    "english_equiv": "Energetic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by energy.",
+    "definition": "Characterized by or relating to energy; energetic.",
     "root": "getiku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "energetic"
+    ]
   },
   {
     "word": "getsue",
-    "english_equiv": "Marked by eriod of time",
+    "english_equiv": "Periodic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by eriod of time.",
+    "definition": "Characterized by or relating to eriod of time; periodic.",
     "root": "getsu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "periodic"
+    ]
   },
   {
     "word": "gidafia",
-    "english_equiv": "Doer of sell",
+    "english_equiv": "Seller",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'sell'.",
+    "definition": "A person who sells; a seller.",
     "root": "gidafi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "seller"
+    ]
   },
   {
     "word": "gidafio",
@@ -4886,12 +5796,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "gidue",
-    "english_equiv": "Marked by money",
+    "english_equiv": "Monetary",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by money.",
+    "definition": "Characterized by or relating to money; monetary.",
     "root": "gidu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "monetary"
+    ]
   },
   {
     "word": "gikosoa",
@@ -4913,25 +5826,35 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to coast.",
     "root": "gikoso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "coast-like",
+      "resembling coast"
+    ]
   },
   {
     "word": "gioxue",
-    "english_equiv": "Marked by ai (artificial intelligence",
+    "english_equiv": "AI-based",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by ai (artificial intelligence.",
+    "definition": "Characterized by or relating to ai; ai-based.",
     "root": "gioxu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "ai-based"
+    ]
   },
   {
     "word": "givia",
-    "english_equiv": "Doer of dig",
+    "english_equiv": "Digger",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'dig'.",
+    "definition": "A person who digs; a digger.",
     "root": "givi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "digger"
+    ]
   },
   {
     "word": "gizei",
@@ -4950,10 +5873,13 @@ const derivedDictionaryData = [
     "word": "gizeu",
     "english_equiv": "Fullness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being full.",
+    "definition": "The quality or state of being full; fullness.",
     "root": "gize",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "fullness"
+    ]
   },
   {
     "word": "glakloe",
@@ -4962,16 +5888,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to hoe.",
     "root": "glaklo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "hoe-like",
+      "resembling hoe"
+    ]
   },
   {
     "word": "glanue",
-    "english_equiv": "Marked by sex",
+    "english_equiv": "Gendered",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by sex.",
+    "definition": "Characterized by or relating to sex; gendered.",
     "root": "glanu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "gendered"
+    ]
   },
   {
     "word": "glapei",
@@ -5003,19 +5936,26 @@ const derivedDictionaryData = [
     "word": "glimadae",
     "english_equiv": "Salmon-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a salmon.",
+    "definition": "Made of, resembling, or relating to salmon.",
     "root": "glimada",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "salmon-like",
+      "resembling salmon"
+    ]
   },
   {
     "word": "glokedue",
-    "english_equiv": "Marked by thursday",
+    "english_equiv": "Thursday",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by thursday.",
+    "definition": "Characterized by or relating to thursday; thursday.",
     "root": "glokedu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "thursday"
+    ]
   },
   {
     "word": "glokei",
@@ -5049,7 +5989,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bow.",
     "root": "glynto",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bow-like",
+      "resembling bow"
+    ]
   },
   {
     "word": "glyntou",
@@ -5065,12 +6009,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "glyvia",
-    "english_equiv": "Doer of defend",
+    "english_equiv": "Defender",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'defend'.",
+    "definition": "A person who defends; a defender.",
     "root": "glyvi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "defender"
+    ]
   },
   {
     "word": "godae",
@@ -5088,12 +6035,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "godue",
-    "english_equiv": "Marked by mind",
+    "english_equiv": "Mental",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by mind.",
+    "definition": "Characterized by or relating to mind; mental.",
     "root": "godu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "mental"
+    ]
   },
   {
     "word": "goe",
@@ -5123,12 +6073,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "gofoe",
-    "english_equiv": "Wood-like",
+    "english_equiv": "Wooden",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to wood.",
+    "definition": "Made of, resembling, or relating to wood; wooden.",
     "root": "gofo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "wooden"
+    ]
   },
   {
     "word": "goilei",
@@ -5147,28 +6100,38 @@ const derivedDictionaryData = [
     "word": "goileu",
     "english_equiv": "Sadness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being sad.",
+    "definition": "The quality or state of being sad; sadness.",
     "root": "goile",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "sadness",
+      "sorrow"
+    ]
   },
   {
     "word": "gojia",
-    "english_equiv": "Doer of pull",
+    "english_equiv": "Puller",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'pull'.",
+    "definition": "A person who pulls; a puller.",
     "root": "goji",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "puller"
+    ]
   },
   {
     "word": "golmia",
-    "english_equiv": "Doer of reform",
+    "english_equiv": "Reformer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'reform'.",
+    "definition": "A person who reforms; a reformer.",
     "root": "golmi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "reformer"
+    ]
   },
   {
     "word": "golmie",
@@ -5199,12 +6162,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "gomue",
-    "english_equiv": "Marked by hour",
+    "english_equiv": "Hourly",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by hour.",
+    "definition": "Characterized by or relating to hour; hourly.",
     "root": "gomu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "hourly"
+    ]
   },
   {
     "word": "goqei",
@@ -5223,37 +6189,50 @@ const derivedDictionaryData = [
     "word": "goqeu",
     "english_equiv": "Thickness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being thick.",
+    "definition": "The quality or state of being thick; thickness.",
     "root": "goqe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "thickness"
+    ]
   },
   {
     "word": "govnue",
-    "english_equiv": "Marked by government",
+    "english_equiv": "Governmental",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by government.",
+    "definition": "Characterized by or relating to government; governmental.",
     "root": "govnu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "governmental"
+    ]
   },
   {
     "word": "grapae",
     "english_equiv": "Grape-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a grape.",
+    "definition": "Made of, resembling, or relating to grape.",
     "root": "grapa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "grape-like",
+      "resembling grape"
+    ]
   },
   {
     "word": "grawia",
-    "english_equiv": "Doer of grateful",
+    "english_equiv": "Grateful person",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'grateful'.",
+    "definition": "A person who gratefuls; a grateful person.",
     "root": "grawi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "grateful person"
+    ]
   },
   {
     "word": "grexoa",
@@ -5274,7 +6253,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to celestial object.",
     "root": "grexo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "celestial object-like",
+      "resembling celestial object"
+    ]
   },
   {
     "word": "grexou",
@@ -5290,21 +6273,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "grunkia",
-    "english_equiv": "Doer of to hug",
+    "english_equiv": "Hugger",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to hug'.",
+    "definition": "A person who hugs; a hugger.",
     "root": "grunki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "hugger"
+    ]
   },
   {
     "word": "guamia",
-    "english_equiv": "Doer of to calculate",
+    "english_equiv": "Accountant",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to calculate'.",
+    "definition": "A person who calculates; an accountant.",
     "root": "guami",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "accountant"
+    ]
   },
   {
     "word": "guamio",
@@ -5334,12 +6323,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "gugia",
-    "english_equiv": "Doer of stand",
+    "english_equiv": "Stander",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'stand'.",
+    "definition": "A person who stands; a stander.",
     "root": "gugi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "stander"
+    ]
   },
   {
     "word": "gugie",
@@ -5357,21 +6349,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "guipsue",
-    "english_equiv": "Marked by pride",
+    "english_equiv": "Prideful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by pride.",
+    "definition": "Characterized by or relating to pride; prideful.",
     "root": "guipsu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "prideful"
+    ]
   },
   {
     "word": "gulipia",
-    "english_equiv": "Doer of download",
+    "english_equiv": "Downloader",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'download'.",
+    "definition": "A person who downloads; a downloader.",
     "root": "gulipi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "downloader"
+    ]
   },
   {
     "word": "gunoloa",
@@ -5393,7 +6391,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to cliff.",
     "root": "gunolo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "cliff-like",
+      "resembling cliff"
+    ]
   },
   {
     "word": "gurei",
@@ -5410,12 +6412,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "gureu",
-    "english_equiv": "Lazyness",
+    "english_equiv": "Laziness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being lazy.",
+    "definition": "The quality or state of being lazy; laziness.",
     "root": "gure",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "laziness",
+      "idleness"
+    ]
   },
   {
     "word": "gutoe",
@@ -5424,7 +6430,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to tool.",
     "root": "guto",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "tool-like",
+      "resembling tool"
+    ]
   },
   {
     "word": "gutoia",
@@ -5443,10 +6453,14 @@ const derivedDictionaryData = [
     "word": "guzae",
     "english_equiv": "Enemy-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a enemy.",
+    "definition": "Made of, resembling, or relating to enemy.",
     "root": "guza",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "enemy-like",
+      "resembling enemy"
+    ]
   },
   {
     "word": "guzau",
@@ -5463,12 +6477,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "gydzae",
-    "english_equiv": "Fox-like",
+    "english_equiv": "Fox-like, vulpine",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a fox.",
+    "definition": "Made of, resembling, or relating to fox; fox-like, vulpine.",
     "root": "gydza",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "fox-like",
+      "vulpine"
+    ]
   },
   {
     "word": "gykei",
@@ -5485,30 +6503,40 @@ const derivedDictionaryData = [
   },
   {
     "word": "gykeu",
-    "english_equiv": "Weirdness",
+    "english_equiv": "Strangeness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being weird.",
+    "definition": "The quality or state of being weird; strangeness.",
     "root": "gyke",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "strangeness",
+      "weirdness"
+    ]
   },
   {
     "word": "gypue",
-    "english_equiv": "Marked by internet",
+    "english_equiv": "Online",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by internet.",
+    "definition": "Characterized by or relating to internet; online.",
     "root": "gypu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "online"
+    ]
   },
   {
     "word": "hadia",
-    "english_equiv": "Doer of answer",
+    "english_equiv": "Respondent",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'answer'.",
+    "definition": "A person who answers; a respondent.",
     "root": "hadi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "respondent"
+    ]
   },
   {
     "word": "haibei",
@@ -5525,12 +6553,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "hakue",
-    "english_equiv": "Marked by nostalgia",
+    "english_equiv": "Nostalgic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by nostalgia.",
+    "definition": "Characterized by or relating to nostalgia; nostalgic.",
     "root": "haku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "nostalgic"
+    ]
   },
   {
     "word": "hanoe",
@@ -5562,12 +6593,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "hatzia",
-    "english_equiv": "Doer of laugh",
+    "english_equiv": "Laugher",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'laugh'.",
+    "definition": "A person who laughs; a laugher.",
     "root": "hatzi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "laugher"
+    ]
   },
   {
     "word": "hatzie",
@@ -5612,25 +6646,32 @@ const derivedDictionaryData = [
     "word": "hazbae",
     "english_equiv": "Husband-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a husband.",
+    "definition": "Made of, resembling, or relating to husband.",
     "root": "hazba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "husband-like",
+      "resembling husband"
+    ]
   },
   {
     "word": "hedcue",
-    "english_equiv": "Marked by part",
+    "english_equiv": "Partial",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by part.",
+    "definition": "Characterized by or relating to part; partial.",
     "root": "hedcu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "partial"
+    ]
   },
   {
     "word": "hekria",
     "english_equiv": "a person who wears something",
     "part_of_speech": "Biological Noun",
-    "definition": "A person who wears something; a wearer.",
+    "definition": "A person who wears; an a person who wears something.",
     "root": "hekri",
     "derivation_path": "i→a",
     "path_gloss": "Verb -> Biological Noun (doer)",
@@ -5731,12 +6772,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "hevia",
-    "english_equiv": "Doer of forgive",
+    "english_equiv": "Forgiver",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'forgive'.",
+    "definition": "A person who forgives; a forgiver.",
     "root": "hevi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "forgiver"
+    ]
   },
   {
     "word": "hevie",
@@ -5755,10 +6799,14 @@ const derivedDictionaryData = [
     "word": "hezeskae",
     "english_equiv": "Parrot-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a parrot.",
+    "definition": "Made of, resembling, or relating to parrot.",
     "root": "hezeska",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "parrot-like",
+      "resembling parrot"
+    ]
   },
   {
     "word": "hezeskai",
@@ -5794,16 +6842,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to anvil.",
     "root": "hibomo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "anvil-like",
+      "resembling anvil"
+    ]
   },
   {
     "word": "hicia",
-    "english_equiv": "Doer of walk",
+    "english_equiv": "Walker",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'walk'.",
+    "definition": "A person who walks; a walker.",
     "root": "hici",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "walker"
+    ]
   },
   {
     "word": "hiqei",
@@ -5825,43 +6880,62 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to hole.",
     "root": "hiro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "hole-like",
+      "resembling hole"
+    ]
   },
   {
     "word": "hisue",
-    "english_equiv": "Marked by name",
+    "english_equiv": "Nominal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by name.",
+    "definition": "Characterized by or relating to name; nominal.",
     "root": "hisu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "nominal"
+    ]
   },
   {
     "word": "hobcadae",
     "english_equiv": "Grandchild-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a grandchild.",
+    "definition": "Made of, resembling, or relating to grandchild.",
     "root": "hobcada",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "grandchild-like",
+      "resembling grandchild"
+    ]
   },
   {
     "word": "hobcaqlae",
     "english_equiv": "Grandson-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a grandson.",
+    "definition": "Made of, resembling, or relating to grandson.",
     "root": "hobcaqla",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "grandson-like",
+      "resembling grandson"
+    ]
   },
   {
     "word": "hobcaslae",
     "english_equiv": "Granddaughter-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a granddaughter.",
+    "definition": "Made of, resembling, or relating to granddaughter.",
     "root": "hobcasla",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "granddaughter-like",
+      "resembling granddaughter"
+    ]
   },
   {
     "word": "hobei",
@@ -5878,12 +6952,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "hobeu",
-    "english_equiv": "Youngness",
+    "english_equiv": "Youth",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being young.",
+    "definition": "The quality or state of being young; youth.",
     "root": "hobe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "youth",
+      "youthfulness"
+    ]
   },
   {
     "word": "hoqypoe",
@@ -5892,7 +6970,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to musical instrument.",
     "root": "hoqypo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "musical instrument-like",
+      "resembling musical instrument"
+    ]
   },
   {
     "word": "horbae",
@@ -5977,12 +7059,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "hujia",
-    "english_equiv": "Doer of hang",
+    "english_equiv": "Hanger",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'hang'.",
+    "definition": "A person who hangs; a hanger.",
     "root": "huji",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "hanger"
+    ]
   },
   {
     "word": "hujie",
@@ -6002,28 +7087,39 @@ const derivedDictionaryData = [
     "word": "hulkae",
     "english_equiv": "Llama-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a llama.",
+    "definition": "Made of, resembling, or relating to llama.",
     "root": "hulka",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "llama-like",
+      "resembling llama"
+    ]
   },
   {
     "word": "hupue",
-    "english_equiv": "Marked by center",
+    "english_equiv": "Central",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by center.",
+    "definition": "Characterized by or relating to center; central.",
     "root": "hupu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "central"
+    ]
   },
   {
     "word": "huqae",
     "english_equiv": "Shoulder-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a shoulder.",
+    "definition": "Made of, resembling, or relating to shoulder.",
     "root": "huqa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "shoulder-like",
+      "resembling shoulder"
+    ]
   },
   {
     "word": "hutsei",
@@ -6040,12 +7136,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "hutseu",
-    "english_equiv": "Mainness",
+    "english_equiv": "Centrality",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being main.",
+    "definition": "The quality or state of being main; centrality.",
     "root": "hutse",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "centrality",
+      "primacy"
+    ]
   },
   {
     "word": "hyhoe",
@@ -6054,25 +7154,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to scissors.",
     "root": "hyho",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "scissors-like",
+      "resembling scissors"
+    ]
   },
   {
     "word": "hykuxue",
-    "english_equiv": "Marked by exam",
+    "english_equiv": "Test-related",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by exam.",
+    "definition": "Characterized by or relating to exam; test-related.",
     "root": "hykuxu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "test-related"
+    ]
   },
   {
     "word": "hylsae",
     "english_equiv": "Lip-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a lip.",
+    "definition": "Made of, resembling, or relating to lip.",
     "root": "hylsa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "lip-like",
+      "resembling lip"
+    ]
   },
   {
     "word": "hymei",
@@ -6130,12 +7241,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "hytreu",
-    "english_equiv": "Sleepyness",
+    "english_equiv": "Sleepiness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being sleepy.",
+    "definition": "The quality or state of being sleepy; sleepiness.",
     "root": "hytre",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "sleepiness",
+      "drowsiness"
+    ]
   },
   {
     "word": "ialei",
@@ -6154,37 +7269,50 @@ const derivedDictionaryData = [
     "word": "ialeu",
     "english_equiv": "Specialness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being special.",
+    "definition": "The quality or state of being special; specialness.",
     "root": "iale",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "specialness"
+    ]
   },
   {
     "word": "ibagia",
-    "english_equiv": "Doer of learn",
+    "english_equiv": "Learner",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'learn'.",
+    "definition": "A person who learns; a learner.",
     "root": "ibagi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "learner"
+    ]
   },
   {
     "word": "ibalirae",
     "english_equiv": "Teacher-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a teacher.",
+    "definition": "Made of, resembling, or relating to teacher.",
     "root": "ibalira",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "teacher-like",
+      "resembling teacher"
+    ]
   },
   {
     "word": "ibalue",
-    "english_equiv": "Marked by education",
+    "english_equiv": "Educational",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by education.",
+    "definition": "Characterized by or relating to education; educational.",
     "root": "ibalu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "educational"
+    ]
   },
   {
     "word": "ibanei",
@@ -6201,12 +7329,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "ibaneu",
-    "english_equiv": "Significantness",
+    "english_equiv": "Significance",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being significant.",
+    "definition": "The quality or state of being significant; significance.",
     "root": "ibane",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "significance"
+    ]
   },
   {
     "word": "ibazoe",
@@ -6215,25 +7346,35 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to school.",
     "root": "ibazo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "school-like",
+      "resembling school"
+    ]
   },
   {
     "word": "ibitue",
-    "english_equiv": "Marked by class",
+    "english_equiv": "Class-based",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by class.",
+    "definition": "Characterized by or relating to class; class-based.",
     "root": "ibitu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "class-based"
+    ]
   },
   {
     "word": "ibvia",
-    "english_equiv": "Doer of pour",
+    "english_equiv": "Pourer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'pour'.",
+    "definition": "A person who pours; a pourer.",
     "root": "ibvi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "pourer"
+    ]
   },
   {
     "word": "icifoe",
@@ -6242,7 +7383,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to plate.",
     "root": "icifo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "plate-like",
+      "resembling plate"
+    ]
   },
   {
     "word": "idrei",
@@ -6259,30 +7404,40 @@ const derivedDictionaryData = [
   },
   {
     "word": "idvue",
-    "english_equiv": "Marked by mystery",
+    "english_equiv": "Mysterious",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by mystery.",
+    "definition": "Characterized by or relating to mystery; mysterious.",
     "root": "idvu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "mysterious"
+    ]
   },
   {
     "word": "iegae",
-    "english_equiv": "Lion-like",
+    "english_equiv": "Lion-like, leonine",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a lion.",
+    "definition": "Made of, resembling, or relating to lion; lion-like, leonine.",
     "root": "iega",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "lion-like",
+      "leonine"
+    ]
   },
   {
     "word": "ifezia",
-    "english_equiv": "Doer of decide",
+    "english_equiv": "Decider",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'decide'.",
+    "definition": "A person who decides; a decider.",
     "root": "ifezi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "decider"
+    ]
   },
   {
     "word": "ifeziu",
@@ -6305,7 +7460,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to toothbrush.",
     "root": "ifgo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "toothbrush-like",
+      "resembling toothbrush"
+    ]
   },
   {
     "word": "ifgoi",
@@ -6326,7 +7485,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to saddle.",
     "root": "ifloco",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "saddle-like",
+      "resembling saddle"
+    ]
   },
   {
     "word": "igroe",
@@ -6335,16 +7498,24 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to card.",
     "root": "igro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "card-like",
+      "resembling card"
+    ]
   },
   {
     "word": "ijyrae",
     "english_equiv": "Tail-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a tail.",
+    "definition": "Made of, resembling, or relating to tail.",
     "root": "ijyra",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "tail-like",
+      "resembling tail"
+    ]
   },
   {
     "word": "ijyrai",
@@ -6365,16 +7536,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to shirt.",
     "root": "ikamo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "shirt-like",
+      "resembling shirt"
+    ]
   },
   {
     "word": "ikapia",
-    "english_equiv": "Doer of to influence",
+    "english_equiv": "Influencer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to influence'.",
+    "definition": "A person who influences; an influencer.",
     "root": "ikapi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "influencer"
+    ]
   },
   {
     "word": "ikua",
@@ -6390,30 +7568,40 @@ const derivedDictionaryData = [
   },
   {
     "word": "ikue",
-    "english_equiv": "Marked by law",
+    "english_equiv": "Legal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by law.",
+    "definition": "Characterized by or relating to law; legal.",
     "root": "iku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "legal"
+    ]
   },
   {
     "word": "iladae",
     "english_equiv": "Reptile-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a reptile.",
+    "definition": "Made of, resembling, or relating to reptile.",
     "root": "ilada",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "reptile-like",
+      "resembling reptile"
+    ]
   },
   {
     "word": "ilpia",
-    "english_equiv": "Doer of kneel",
+    "english_equiv": "Kneeler",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'kneel'.",
+    "definition": "A person who kneels; a kneeler.",
     "root": "ilpi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "kneeler"
+    ]
   },
   {
     "word": "imdoe",
@@ -6422,25 +7610,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to flood.",
     "root": "imdo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "flood-like",
+      "resembling flood"
+    ]
   },
   {
     "word": "imsue",
-    "english_equiv": "Marked by standard",
+    "english_equiv": "Standard",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by standard.",
+    "definition": "Characterized by or relating to standard; standard.",
     "root": "imsu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "standard"
+    ]
   },
   {
     "word": "ipkae",
     "english_equiv": "Spider-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a spider.",
+    "definition": "Made of, resembling, or relating to spider.",
     "root": "ipka",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "spider-like",
+      "resembling spider"
+    ]
   },
   {
     "word": "iqie",
@@ -6457,21 +7656,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "iqocue",
-    "english_equiv": "Marked by effect",
+    "english_equiv": "Effective",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by effect.",
+    "definition": "Characterized by or relating to effect; effective.",
     "root": "iqocu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "effective"
+    ]
   },
   {
     "word": "irakia",
-    "english_equiv": "Doer of cry",
+    "english_equiv": "Weeper",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'cry'.",
+    "definition": "A person who cries; a weeper.",
     "root": "iraki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "weeper"
+    ]
   },
   {
     "word": "irakie",
@@ -6491,28 +7696,39 @@ const derivedDictionaryData = [
     "word": "iraksae",
     "english_equiv": "Tear-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a tear.",
+    "definition": "Made of, resembling, or relating to tear.",
     "root": "iraksa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "tear-like",
+      "resembling tear"
+    ]
   },
   {
     "word": "irtae",
     "english_equiv": "Egg-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a egg.",
+    "definition": "Made of, resembling, or relating to egg.",
     "root": "irta",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "egg-like",
+      "resembling egg"
+    ]
   },
   {
     "word": "isamue",
-    "english_equiv": "Marked by result",
+    "english_equiv": "Resultant",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by result.",
+    "definition": "Characterized by or relating to result; resultant.",
     "root": "isamu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "resultant"
+    ]
   },
   {
     "word": "isnei",
@@ -6531,10 +7747,14 @@ const derivedDictionaryData = [
     "word": "isneu",
     "english_equiv": "Nakedness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being naked.",
+    "definition": "The quality or state of being naked; nakedness.",
     "root": "isne",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "nakedness",
+      "bareness"
+    ]
   },
   {
     "word": "itolei",
@@ -6551,12 +7771,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "itoleu",
-    "english_equiv": "Smartness",
+    "english_equiv": "Intelligence",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being smart.",
+    "definition": "The quality or state of being smart; intelligence.",
     "root": "itole",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "intelligence"
+    ]
   },
   {
     "word": "itsei",
@@ -6573,21 +7796,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "itseu",
-    "english_equiv": "Singleness",
+    "english_equiv": "Solitude",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being single.",
+    "definition": "The quality or state of being single; solitude.",
     "root": "itse",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "solitude",
+      "aloneness"
+    ]
   },
   {
     "word": "iubue",
-    "english_equiv": "Marked by failure",
+    "english_equiv": "Unsuccessful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by failure.",
+    "definition": "Characterized by or relating to failure; unsuccessful.",
     "root": "iubu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "unsuccessful"
+    ]
   },
   {
     "word": "iubui",
@@ -6603,21 +7833,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "ivanue",
-    "english_equiv": "Marked by north",
+    "english_equiv": "Northern",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by north.",
+    "definition": "Characterized by or relating to north; northern.",
     "root": "ivanu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "northern"
+    ]
   },
   {
     "word": "ivortue",
-    "english_equiv": "Marked by south",
+    "english_equiv": "Southern",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by south.",
+    "definition": "Characterized by or relating to south; southern.",
     "root": "ivortu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "southern"
+    ]
   },
   {
     "word": "ivxoe",
@@ -6626,7 +7862,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to hammer.",
     "root": "ivxo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "hammer-like",
+      "resembling hammer"
+    ]
   },
   {
     "word": "ivxoi",
@@ -6658,10 +7898,14 @@ const derivedDictionaryData = [
     "word": "iweu",
     "english_equiv": "Tiredness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being tired.",
+    "definition": "The quality or state of being tired; tiredness.",
     "root": "iwe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "tiredness",
+      "fatigue"
+    ]
   },
   {
     "word": "ixboe",
@@ -6692,12 +7936,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "ixgeu",
-    "english_equiv": "Slipperyness",
+    "english_equiv": "Slipperiness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being slippery.",
+    "definition": "The quality or state of being slippery; slipperiness.",
     "root": "ixge",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "slipperiness"
+    ]
   },
   {
     "word": "ixpae",
@@ -6832,7 +8079,7 @@ const derivedDictionaryData = [
     "word": "jamia",
     "english_equiv": "Writer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person who writes; an author.",
+    "definition": "A person who writes; a writer.",
     "root": "jami",
     "derivation_path": "i→a",
     "path_gloss": "Verb -> Biological Noun (doer)",
@@ -6871,12 +8118,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "jarue",
-    "english_equiv": "Marked by year",
+    "english_equiv": "Annual",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by year.",
+    "definition": "Characterized by or relating to year; annual.",
     "root": "jaru",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "annual"
+    ]
   },
   {
     "word": "jatanoe",
@@ -6885,25 +8135,35 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to pen.",
     "root": "jatano",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "pen-like",
+      "resembling pen"
+    ]
   },
   {
     "word": "javuque",
-    "english_equiv": "Marked by infection",
+    "english_equiv": "Infectious",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by infection.",
+    "definition": "Characterized by or relating to infection; infectious.",
     "root": "javuqu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "infectious"
+    ]
   },
   {
     "word": "jawoe",
-    "english_equiv": "Ice-like",
+    "english_equiv": "Icy",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to ice.",
+    "definition": "Made of, resembling, or relating to ice; icy.",
     "root": "jawo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "icy"
+    ]
   },
   {
     "word": "jawoi",
@@ -6935,12 +8195,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "jaxkeu",
-    "english_equiv": "Newness",
+    "english_equiv": "Novelty",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being new.",
+    "definition": "The quality or state of being new; novelty.",
     "root": "jaxke",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "novelty",
+      "newness"
+    ]
   },
   {
     "word": "jedlei",
@@ -6957,12 +8221,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "jeflue",
-    "english_equiv": "Marked by development",
+    "english_equiv": "Developmental",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by development.",
+    "definition": "Characterized by or relating to development; developmental.",
     "root": "jeflu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "developmental"
+    ]
   },
   {
     "word": "jeflui",
@@ -6994,12 +8261,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "jejue",
-    "english_equiv": "Marked by glory",
+    "english_equiv": "Glorious",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by glory.",
+    "definition": "Characterized by or relating to glory; glorious.",
     "root": "jeju",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "glorious"
+    ]
   },
   {
     "word": "jemei",
@@ -7018,10 +8288,14 @@ const derivedDictionaryData = [
     "word": "jepae",
     "english_equiv": "Offspring-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a offspring.",
+    "definition": "Made of, resembling, or relating to offspring.",
     "root": "jepa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "offspring-like",
+      "resembling offspring"
+    ]
   },
   {
     "word": "jetei",
@@ -7053,46 +8327,62 @@ const derivedDictionaryData = [
     "word": "jilfeu",
     "english_equiv": "Smoothness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being smooth.",
+    "definition": "The quality or state of being smooth; smoothness.",
     "root": "jilfe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "smoothness"
+    ]
   },
   {
     "word": "jipria",
-    "english_equiv": "Doer of wash",
+    "english_equiv": "Washer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'wash'.",
+    "definition": "A person who washes; a washer.",
     "root": "jipri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "washer"
+    ]
   },
   {
     "word": "jiqae",
     "english_equiv": "Sibling's child-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a sibling's child.",
+    "definition": "Made of, resembling, or relating to sibling's child.",
     "root": "jiqa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "sibling's child-like",
+      "resembling sibling's child"
+    ]
   },
   {
     "word": "jobue",
-    "english_equiv": "Marked by job",
+    "english_equiv": "Occupational",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by job.",
+    "definition": "Characterized by or relating to job; occupational.",
     "root": "jobu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "occupational"
+    ]
   },
   {
     "word": "jofia",
-    "english_equiv": "Doer of help",
+    "english_equiv": "Helper",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'help'.",
+    "definition": "A person who helps; a helper.",
     "root": "jofi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "helper"
+    ]
   },
   {
     "word": "jofie",
@@ -7123,12 +8413,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "jokuwue",
-    "english_equiv": "Marked by vote",
+    "english_equiv": "Electoral",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by vote.",
+    "definition": "Characterized by or relating to vote; electoral.",
     "root": "jokuwu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "electoral"
+    ]
   },
   {
     "word": "jokuwui",
@@ -7144,21 +8437,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "jopxia",
-    "english_equiv": "Doer of receive",
+    "english_equiv": "Recipient",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'receive'.",
+    "definition": "A person who receives; a recipient.",
     "root": "jopxi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "recipient"
+    ]
   },
   {
     "word": "jormue",
-    "english_equiv": "Marked by case",
+    "english_equiv": "Situational",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by case.",
+    "definition": "Characterized by or relating to case; situational.",
     "root": "jormu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "situational"
+    ]
   },
   {
     "word": "jotsei",
@@ -7175,12 +8474,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "jotseu",
-    "english_equiv": "Cleanness",
+    "english_equiv": "Cleanliness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being clean.",
+    "definition": "The quality or state of being clean; cleanliness.",
     "root": "jotse",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "cleanliness"
+    ]
   },
   {
     "word": "jozei",
@@ -7223,12 +8525,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "juceu",
-    "english_equiv": "Heavyness",
+    "english_equiv": "Weight",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being heavy.",
+    "definition": "The quality or state of being heavy; weight.",
     "root": "juce",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "weight",
+      "heaviness"
+    ]
   },
   {
     "word": "jufysoe",
@@ -7237,43 +8543,60 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to pickaxe.",
     "root": "jufyso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "pickaxe-like",
+      "resembling pickaxe"
+    ]
   },
   {
     "word": "juhia",
-    "english_equiv": "Doer of worry",
+    "english_equiv": "Worrier",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'worry'.",
+    "definition": "A person who worries; a worrier.",
     "root": "juhi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "worrier"
+    ]
   },
   {
     "word": "jukue",
-    "english_equiv": "Marked by shape",
+    "english_equiv": "Structural",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by shape.",
+    "definition": "Characterized by or relating to shape; structural.",
     "root": "juku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "structural"
+    ]
   },
   {
     "word": "jumae",
     "english_equiv": "Rival-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a rival.",
+    "definition": "Made of, resembling, or relating to rival.",
     "root": "juma",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "rival-like",
+      "resembling rival"
+    ]
   },
   {
     "word": "junue",
-    "english_equiv": "Marked by plan",
+    "english_equiv": "Planned",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by plan.",
+    "definition": "Characterized by or relating to plan; planned.",
     "root": "junu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "planned"
+    ]
   },
   {
     "word": "junui",
@@ -7294,7 +8617,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to city.",
     "root": "juro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "city-like",
+      "resembling city"
+    ]
   },
   {
     "word": "juwei",
@@ -7351,12 +8678,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "jyhue",
-    "english_equiv": "Marked by destiny",
+    "english_equiv": "Fateful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by destiny.",
+    "definition": "Characterized by or relating to destiny; fateful.",
     "root": "jyhu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "fateful"
+    ]
   },
   {
     "word": "jyi",
@@ -7391,7 +8721,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to computer.",
     "root": "jyjo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "computer-like",
+      "resembling computer"
+    ]
   },
   {
     "word": "jyjou",
@@ -7425,7 +8759,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to island.",
     "root": "jymbo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "island-like",
+      "resembling island"
+    ]
   },
   {
     "word": "jyndoe",
@@ -7443,21 +8781,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "jyqia",
-    "english_equiv": "Doer of refuse",
+    "english_equiv": "Rejecter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'refuse'.",
+    "definition": "A person who refuses; a rejecter.",
     "root": "jyqi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "rejecter"
+    ]
   },
   {
     "word": "kabae",
-    "english_equiv": "Horse-like",
+    "english_equiv": "Horse-like, equine",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a horse.",
+    "definition": "Made of, resembling, or relating to horse; horse-like, equine.",
     "root": "kaba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "horse-like",
+      "equine"
+    ]
   },
   {
     "word": "kabcei",
@@ -7474,21 +8819,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "kabceu",
-    "english_equiv": "Simpleness",
+    "english_equiv": "Simplicity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being simple.",
+    "definition": "The quality or state of being simple; simplicity.",
     "root": "kabce",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "simplicity"
+    ]
   },
   {
     "word": "kagaxae",
     "english_equiv": "Axolotl-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a axolotl.",
+    "definition": "Made of, resembling, or relating to axolotl.",
     "root": "kagaxa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "axolotl-like",
+      "resembling axolotl"
+    ]
   },
   {
     "word": "kaloe",
@@ -7497,7 +8849,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to cup.",
     "root": "kalo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "cup-like",
+      "resembling cup"
+    ]
   },
   {
     "word": "kamei",
@@ -7514,21 +8870,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "kameu",
-    "english_equiv": "Saltyness",
+    "english_equiv": "Saltiness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being salty.",
+    "definition": "The quality or state of being salty; saltiness.",
     "root": "kame",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "saltiness"
+    ]
   },
   {
     "word": "kania",
-    "english_equiv": "Doer of know",
+    "english_equiv": "Knower",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'know'.",
+    "definition": "A person who knows; a knower.",
     "root": "kani",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "knower"
+    ]
   },
   {
     "word": "kaniu",
@@ -7546,12 +8908,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "karxia",
-    "english_equiv": "Doer of find",
+    "english_equiv": "Discoverer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'find'.",
+    "definition": "A person who finds; a discoverer.",
     "root": "karxi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "discoverer"
+    ]
   },
   {
     "word": "kasei",
@@ -7573,16 +8938,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to trousers.",
     "root": "kazaro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "trousers-like",
+      "resembling trousers"
+    ]
   },
   {
     "word": "keamue",
-    "english_equiv": "Marked by topic",
+    "english_equiv": "Topical",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by topic.",
+    "definition": "Characterized by or relating to topic; topical.",
     "root": "keamu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "topical"
+    ]
   },
   {
     "word": "keanei",
@@ -7662,21 +9034,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "kejaklue",
-    "english_equiv": "Marked by loneliness",
+    "english_equiv": "Lonely",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by loneliness.",
+    "definition": "Characterized by or relating to loneliness; lonely.",
     "root": "kejaklu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "lonely"
+    ]
   },
   {
     "word": "kekusnia",
-    "english_equiv": "Doer of copy",
+    "english_equiv": "Copier",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'copy'.",
+    "definition": "A person who copies; a copier.",
     "root": "kekusni",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "copier"
+    ]
   },
   {
     "word": "kekusnio",
@@ -7708,28 +9086,37 @@ const derivedDictionaryData = [
     "word": "keqeu",
     "english_equiv": "Nativeness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being native.",
+    "definition": "The quality or state of being native; nativeness.",
     "root": "keqe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "nativeness"
+    ]
   },
   {
     "word": "kewue",
-    "english_equiv": "Marked by luck",
+    "english_equiv": "Fortunate",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by luck.",
+    "definition": "Characterized by or relating to luck; fortunate.",
     "root": "kewu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "fortunate"
+    ]
   },
   {
     "word": "kezoe",
-    "english_equiv": "Oil-like",
+    "english_equiv": "Oily",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to oil.",
+    "definition": "Made of, resembling, or relating to oil; oily.",
     "root": "kezo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "oily"
+    ]
   },
   {
     "word": "kezoi",
@@ -7746,12 +9133,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "kiagia",
-    "english_equiv": "Doer of keep",
+    "english_equiv": "Keeper",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'keep'.",
+    "definition": "A person who keeps; a keeper.",
     "root": "kiagi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "keeper"
+    ]
   },
   {
     "word": "kicojoa",
@@ -7781,12 +9171,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "kicursue",
-    "english_equiv": "Marked by dawn",
+    "english_equiv": "Dawn",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by dawn.",
+    "definition": "Characterized by or relating to dawn; dawn.",
     "root": "kicursu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "dawn"
+    ]
   },
   {
     "word": "kifrae",
@@ -7806,37 +9199,50 @@ const derivedDictionaryData = [
     "word": "kikae",
     "english_equiv": "Chicken-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a chicken.",
+    "definition": "Made of, resembling, or relating to chicken.",
     "root": "kika",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "chicken-like",
+      "resembling chicken"
+    ]
   },
   {
     "word": "kilia",
-    "english_equiv": "Doer of touch",
+    "english_equiv": "Toucher",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'touch'.",
+    "definition": "A person who touches; a toucher.",
     "root": "kili",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "toucher"
+    ]
   },
   {
     "word": "kimaria",
-    "english_equiv": "Doer of kill",
+    "english_equiv": "Killer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'kill'.",
+    "definition": "A person who kills; a killer.",
     "root": "kimari",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "killer"
+    ]
   },
   {
     "word": "kimue",
-    "english_equiv": "Marked by death",
+    "english_equiv": "Fatal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by death.",
+    "definition": "Characterized by or relating to death; fatal.",
     "root": "kimu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "fatal"
+    ]
   },
   {
     "word": "kimugie",
@@ -7859,7 +9265,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to knife.",
     "root": "kino",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "knife-like",
+      "resembling knife"
+    ]
   },
   {
     "word": "klazoe",
@@ -7868,7 +9278,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to cloud.",
     "root": "klazo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "cloud-like",
+      "resembling cloud"
+    ]
   },
   {
     "word": "kluxei",
@@ -7885,12 +9299,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "kluxeu",
-    "english_equiv": "Quietness",
+    "english_equiv": "Silence",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being quiet.",
+    "definition": "The quality or state of being quiet; silence.",
     "root": "kluxe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "silence",
+      "quietness"
+    ]
   },
   {
     "word": "kokloe",
@@ -7921,21 +9339,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "kompue",
-    "english_equiv": "Marked by match",
+    "english_equiv": "Competitive",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by match.",
+    "definition": "Characterized by or relating to match; competitive.",
     "root": "kompu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "competitive"
+    ]
   },
   {
     "word": "kopia",
-    "english_equiv": "Doer of to order",
+    "english_equiv": "Commander",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to order'.",
+    "definition": "A person who orders; a commander.",
     "root": "kopi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "commander"
+    ]
   },
   {
     "word": "kowetei",
@@ -7951,12 +9375,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "kowygoe",
-    "english_equiv": "Clay-like",
+    "english_equiv": "Clayey",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to clay.",
+    "definition": "Made of, resembling, or relating to clay; clayey.",
     "root": "kowygo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "clayey"
+    ]
   },
   {
     "word": "koxei",
@@ -7975,10 +9402,13 @@ const derivedDictionaryData = [
     "word": "koxeu",
     "english_equiv": "Bitterness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being bitter.",
+    "definition": "The quality or state of being bitter; bitterness.",
     "root": "koxe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "bitterness"
+    ]
   },
   {
     "word": "krapoe",
@@ -8058,30 +9488,40 @@ const derivedDictionaryData = [
   },
   {
     "word": "krendia",
-    "english_equiv": "Doer of to share",
+    "english_equiv": "Sharer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to share'.",
+    "definition": "A person who shares; a sharer.",
     "root": "krendi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "sharer"
+    ]
   },
   {
     "word": "kritria",
-    "english_equiv": "Doer of to teach",
+    "english_equiv": "Teacher",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to teach'.",
+    "definition": "A person who teaches; a teacher.",
     "root": "kritri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "teacher"
+    ]
   },
   {
     "word": "kritriu",
-    "english_equiv": "Act of to teach",
+    "english_equiv": "Teaching",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'to teach'.",
+    "definition": "The act or practice of teaching; instruction.",
     "root": "kritri",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "teaching",
+      "instruction"
+    ]
   },
   {
     "word": "kromei",
@@ -8103,16 +9543,24 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to room.",
     "root": "krulo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "room-like",
+      "resembling room"
+    ]
   },
   {
     "word": "kryskae",
     "english_equiv": "Waist-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a waist.",
+    "definition": "Made of, resembling, or relating to waist.",
     "root": "kryska",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "waist-like",
+      "resembling waist"
+    ]
   },
   {
     "word": "kuatei",
@@ -8131,37 +9579,50 @@ const derivedDictionaryData = [
     "word": "kuateu",
     "english_equiv": "Crookedness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being crooked.",
+    "definition": "The quality or state of being crooked; crookedness.",
     "root": "kuate",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "crookedness"
+    ]
   },
   {
     "word": "kujondia",
-    "english_equiv": "Doer of resist",
+    "english_equiv": "Resister",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'resist'.",
+    "definition": "A person who resists; a resister.",
     "root": "kujondi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "resister"
+    ]
   },
   {
     "word": "kunawae",
     "english_equiv": "Orchid-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a orchid.",
+    "definition": "Made of, resembling, or relating to orchid.",
     "root": "kunawa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "orchid-like",
+      "resembling orchid"
+    ]
   },
   {
     "word": "kupia",
-    "english_equiv": "Doer of ask",
+    "english_equiv": "Inquirer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'ask'.",
+    "definition": "A person who asks; an inquirer.",
     "root": "kupi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "inquirer"
+    ]
   },
   {
     "word": "kupiu",
@@ -8211,16 +9672,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bridge.",
     "root": "kuqso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bridge-like",
+      "resembling bridge"
+    ]
   },
   {
     "word": "kuria",
-    "english_equiv": "Doer of fear",
+    "english_equiv": "Coward",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'fear'.",
+    "definition": "A person who fears; a coward.",
     "root": "kuri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "coward"
+    ]
   },
   {
     "word": "kurie",
@@ -8237,12 +9705,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "kuriu",
-    "english_equiv": "Act of fear",
+    "english_equiv": "Fear",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'fear'.",
+    "definition": "The experience of being afraid; fear, fright.",
     "root": "kuri",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "fear",
+      "fright",
+      "dread"
+    ]
   },
   {
     "word": "kusulsoe",
@@ -8251,25 +9724,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to cake.",
     "root": "kusulso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "cake-like",
+      "resembling cake"
+    ]
   },
   {
     "word": "kyfae",
-    "english_equiv": "Bird-like",
+    "english_equiv": "Bird-like, avian",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a bird.",
+    "definition": "Made of, resembling, or relating to bird; bird-like, avian.",
     "root": "kyfa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "bird-like",
+      "avian"
+    ]
   },
   {
     "word": "kynue",
-    "english_equiv": "Marked by summer",
+    "english_equiv": "Summery",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by summer.",
+    "definition": "Characterized by or relating to summer; summery.",
     "root": "kynu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "summery"
+    ]
   },
   {
     "word": "kypei",
@@ -8302,10 +9786,14 @@ const derivedDictionaryData = [
     "word": "kyranae",
     "english_equiv": "Feather-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a feather.",
+    "definition": "Made of, resembling, or relating to feather.",
     "root": "kyrana",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "feather-like",
+      "resembling feather"
+    ]
   },
   {
     "word": "kyranao",
@@ -8322,12 +9810,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "kytia",
-    "english_equiv": "Doer of like",
+    "english_equiv": "Admirer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'like'.",
+    "definition": "A person who likes; an admirer.",
     "root": "kyti",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "admirer"
+    ]
   },
   {
     "word": "labnei",
@@ -8344,21 +9835,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "ladue",
-    "english_equiv": "Marked by idea",
+    "english_equiv": "Conceptual",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by idea.",
+    "definition": "Characterized by or relating to idea; conceptual.",
     "root": "ladu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "conceptual"
+    ]
   },
   {
     "word": "laekia",
-    "english_equiv": "Doer of to choose",
+    "english_equiv": "Selector",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to choose'.",
+    "definition": "A person who chooses; a selector.",
     "root": "laeki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "selector"
+    ]
   },
   {
     "word": "laekiu",
@@ -8393,7 +9890,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to picture.",
     "root": "lakiro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "picture-like",
+      "resembling picture"
+    ]
   },
   {
     "word": "lakiroi",
@@ -8409,12 +9910,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "lamsoe",
-    "english_equiv": "Milk-like",
+    "english_equiv": "Milky",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to milk.",
+    "definition": "Made of, resembling, or relating to milk; milky.",
     "root": "lamso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "milky"
+    ]
   },
   {
     "word": "lamsoi",
@@ -8443,21 +9947,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "lantia",
-    "english_equiv": "Doer of add",
+    "english_equiv": "Adder",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'add'.",
+    "definition": "A person who adds; an adder.",
     "root": "lanti",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "adder"
+    ]
   },
   {
     "word": "lantiu",
-    "english_equiv": "Act of add",
+    "english_equiv": "Addition",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'add'.",
+    "definition": "The act of adding; addition.",
     "root": "lanti",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "addition"
+    ]
   },
   {
     "word": "latei",
@@ -8476,10 +9986,14 @@ const derivedDictionaryData = [
     "word": "leblae",
     "english_equiv": "Goat-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a goat.",
+    "definition": "Made of, resembling, or relating to goat.",
     "root": "lebla",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "goat-like",
+      "resembling goat"
+    ]
   },
   {
     "word": "lefei",
@@ -8498,19 +10012,26 @@ const derivedDictionaryData = [
     "word": "lefeu",
     "english_equiv": "Hardness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being hard.",
+    "definition": "The quality or state of being hard; hardness.",
     "root": "lefe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "hardness"
+    ]
   },
   {
     "word": "lehae",
     "english_equiv": "Fern-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a fern.",
+    "definition": "Made of, resembling, or relating to fern.",
     "root": "leha",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "fern-like",
+      "resembling fern"
+    ]
   },
   {
     "word": "lejoe",
@@ -8519,25 +10040,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to stairs.",
     "root": "lejo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "stairs-like",
+      "resembling stairs"
+    ]
   },
   {
     "word": "lenawae",
     "english_equiv": "Cactus-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a cactus.",
+    "definition": "Made of, resembling, or relating to cactus.",
     "root": "lenawa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "cactus-like",
+      "resembling cactus"
+    ]
   },
   {
     "word": "leocia",
-    "english_equiv": "Doer of turn on",
+    "english_equiv": "Activator",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'turn on'.",
+    "definition": "A person who turn ons; an activator.",
     "root": "leoci",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "activator"
+    ]
   },
   {
     "word": "leocie",
@@ -8581,12 +10113,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "letseu",
-    "english_equiv": "Dirtyness",
+    "english_equiv": "Filth",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being dirty.",
+    "definition": "The quality or state of being dirty; filth.",
     "root": "letse",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "filth",
+      "dirtiness"
+    ]
   },
   {
     "word": "leupei",
@@ -8632,10 +10168,14 @@ const derivedDictionaryData = [
     "word": "lexoglae",
     "english_equiv": "Mule-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a mule.",
+    "definition": "Made of, resembling, or relating to mule.",
     "root": "lexogla",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "mule-like",
+      "resembling mule"
+    ]
   },
   {
     "word": "liamei",
@@ -8668,10 +10208,14 @@ const derivedDictionaryData = [
     "word": "licae",
     "english_equiv": "Colleague-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a colleague.",
+    "definition": "Made of, resembling, or relating to colleague.",
     "root": "lica",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "colleague-like",
+      "resembling colleague"
+    ]
   },
   {
     "word": "lienei",
@@ -8688,30 +10232,39 @@ const derivedDictionaryData = [
   },
   {
     "word": "linia",
-    "english_equiv": "Doer of cause",
+    "english_equiv": "Causer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'cause'.",
+    "definition": "A person who causes; a causer.",
     "root": "lini",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "causer"
+    ]
   },
   {
     "word": "lirue",
-    "english_equiv": "Marked by direction",
+    "english_equiv": "Directional",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by direction.",
+    "definition": "Characterized by or relating to direction; directional.",
     "root": "liru",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "directional"
+    ]
   },
   {
     "word": "lisibue",
-    "english_equiv": "Marked by career",
+    "english_equiv": "Professional",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by career.",
+    "definition": "Characterized by or relating to career; professional.",
     "root": "lisibu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "professional"
+    ]
   },
   {
     "word": "litoe",
@@ -8757,10 +10310,13 @@ const derivedDictionaryData = [
     "word": "lixeu",
     "english_equiv": "Wetness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being wet.",
+    "definition": "The quality or state of being wet; wetness.",
     "root": "lixe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "wetness"
+    ]
   },
   {
     "word": "loagei",
@@ -8790,12 +10346,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "localeu",
-    "english_equiv": "Localness",
+    "english_equiv": "Locality",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being local.",
+    "definition": "The quality or state of being local; locality.",
     "root": "locale",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "locality"
+    ]
   },
   {
     "word": "locwei",
@@ -8817,16 +10376,24 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to banner.",
     "root": "lodro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "banner-like",
+      "resembling banner"
+    ]
   },
   {
     "word": "logegae",
     "english_equiv": "Throat-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a throat.",
+    "definition": "Made of, resembling, or relating to throat.",
     "root": "logega",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "throat-like",
+      "resembling throat"
+    ]
   },
   {
     "word": "lohoe",
@@ -8835,16 +10402,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to armor.",
     "root": "loho",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "armor-like",
+      "resembling armor"
+    ]
   },
   {
     "word": "lokia",
-    "english_equiv": "Doer of read",
+    "english_equiv": "Reader",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'read'.",
+    "definition": "A person who reads; a reader.",
     "root": "loki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "reader"
+    ]
   },
   {
     "word": "lokie",
@@ -8889,10 +10463,13 @@ const derivedDictionaryData = [
     "word": "lomeu",
     "english_equiv": "Narrowness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being narrow.",
+    "definition": "The quality or state of being narrow; narrowness.",
     "root": "lome",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "narrowness"
+    ]
   },
   {
     "word": "lopei",
@@ -8911,10 +10488,14 @@ const derivedDictionaryData = [
     "word": "lopeu",
     "english_equiv": "Bluntness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being blunt.",
+    "definition": "The quality or state of being blunt; bluntness.",
     "root": "lope",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "bluntness",
+      "dullness"
+    ]
   },
   {
     "word": "loskei",
@@ -8931,12 +10512,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "lozuxue",
-    "english_equiv": "Marked by song",
+    "english_equiv": "Melodic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by song.",
+    "definition": "Characterized by or relating to song; melodic.",
     "root": "lozuxu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "melodic"
+    ]
   },
   {
     "word": "luarei",
@@ -8981,12 +10565,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "luhacia",
-    "english_equiv": "Doer of to treat",
+    "english_equiv": "Healer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to treat'.",
+    "definition": "A person who treats; a healer.",
     "root": "luhaci",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "healer"
+    ]
   },
   {
     "word": "luhaciu",
@@ -9030,12 +10617,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "luplelue",
-    "english_equiv": "Marked by echo",
+    "english_equiv": "Resonant",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by echo.",
+    "definition": "Characterized by or relating to echo; resonant.",
     "root": "luplelu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "resonant"
+    ]
   },
   {
     "word": "lusoe",
@@ -9044,7 +10634,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to key.",
     "root": "luso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "key-like",
+      "resembling key"
+    ]
   },
   {
     "word": "lusoi",
@@ -9065,16 +10659,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to border.",
     "root": "lutufro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "border-like",
+      "resembling border"
+    ]
   },
   {
     "word": "luvwitue",
-    "english_equiv": "Marked by university",
+    "english_equiv": "Academic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by university.",
+    "definition": "Characterized by or relating to university; academic.",
     "root": "luvwitu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "academic"
+    ]
   },
   {
     "word": "lyfroe",
@@ -9083,16 +10684,24 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to wire.",
     "root": "lyfro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "wire-like",
+      "resembling wire"
+    ]
   },
   {
     "word": "lyltae",
     "english_equiv": "Lichen-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a lichen.",
+    "definition": "Made of, resembling, or relating to lichen.",
     "root": "lylta",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "lichen-like",
+      "resembling lichen"
+    ]
   },
   {
     "word": "lympie",
@@ -9125,10 +10734,14 @@ const derivedDictionaryData = [
     "word": "lyseu",
     "english_equiv": "Rightness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being right.",
+    "definition": "The quality or state of being right; rightness.",
     "root": "lyse",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "rightness",
+      "the right side"
+    ]
   },
   {
     "word": "macei",
@@ -9186,12 +10799,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "malxia",
-    "english_equiv": "Doer of dance",
+    "english_equiv": "Dancer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'dance'.",
+    "definition": "A person who dances; a dancer.",
     "root": "malxi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "dancer"
+    ]
   },
   {
     "word": "malxiu",
@@ -9210,10 +10826,14 @@ const derivedDictionaryData = [
     "word": "manae",
     "english_equiv": "Mother-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a mother.",
+    "definition": "Made of, resembling, or relating to mother.",
     "root": "mana",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "mother-like",
+      "resembling mother"
+    ]
   },
   {
     "word": "manau",
@@ -9229,39 +10849,53 @@ const derivedDictionaryData = [
   },
   {
     "word": "mantue",
-    "english_equiv": "Marked by amount",
+    "english_equiv": "Quantitative",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by amount.",
+    "definition": "Characterized by or relating to amount; quantitative.",
     "root": "mantu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "quantitative"
+    ]
   },
   {
     "word": "maobae",
     "english_equiv": "Heart-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a heart.",
+    "definition": "Made of, resembling, or relating to heart.",
     "root": "maoba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "heart-like",
+      "resembling heart"
+    ]
   },
   {
     "word": "maobue",
-    "english_equiv": "Marked by emotional core",
+    "english_equiv": "Heartfelt",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by emotional core.",
+    "definition": "Characterized by or relating to emotional core; heartfelt.",
     "root": "maobu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "heartfelt"
+    ]
   },
   {
     "word": "mapae",
     "english_equiv": "Finger-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a finger.",
+    "definition": "Made of, resembling, or relating to finger.",
     "root": "mapa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "finger-like",
+      "resembling finger"
+    ]
   },
   {
     "word": "martei",
@@ -9280,19 +10914,27 @@ const derivedDictionaryData = [
     "word": "mavahae",
     "english_equiv": "Wheat-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a wheat.",
+    "definition": "Made of, resembling, or relating to wheat.",
     "root": "mavaha",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "wheat-like",
+      "resembling wheat"
+    ]
   },
   {
     "word": "mazutsae",
     "english_equiv": "Monster-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a monster.",
+    "definition": "Made of, resembling, or relating to monster.",
     "root": "mazutsa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "monster-like",
+      "resembling monster"
+    ]
   },
   {
     "word": "mehefoe",
@@ -9361,12 +11003,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "melfue",
-    "english_equiv": "Marked by price",
+    "english_equiv": "Costly",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by price.",
+    "definition": "Characterized by or relating to price; costly.",
     "root": "melfu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "costly"
+    ]
   },
   {
     "word": "meokoe",
@@ -9375,25 +11020,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to hat.",
     "root": "meoko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "hat-like",
+      "resembling hat"
+    ]
   },
   {
     "word": "meotae",
     "english_equiv": "Head-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a head.",
+    "definition": "Made of, resembling, or relating to head.",
     "root": "meota",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "head-like",
+      "resembling head"
+    ]
   },
   {
     "word": "merifue",
-    "english_equiv": "Marked by memory",
+    "english_equiv": "Memorable",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by memory.",
+    "definition": "Characterized by or relating to memory; memorable.",
     "root": "merifu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "memorable"
+    ]
   },
   {
     "word": "merifuo",
@@ -9413,10 +11069,14 @@ const derivedDictionaryData = [
     "word": "mezunae",
     "english_equiv": "Shell-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a shell.",
+    "definition": "Made of, resembling, or relating to shell.",
     "root": "mezuna",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "shell-like",
+      "resembling shell"
+    ]
   },
   {
     "word": "midorae",
@@ -9466,16 +11126,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to shelf.",
     "root": "miho",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "shelf-like",
+      "resembling shelf"
+    ]
   },
   {
     "word": "mijue",
-    "english_equiv": "Marked by nature",
+    "english_equiv": "Natural",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by nature.",
+    "definition": "Characterized by or relating to nature; natural.",
     "root": "miju",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "natural"
+    ]
   },
   {
     "word": "mikei",
@@ -9494,19 +11161,27 @@ const derivedDictionaryData = [
     "word": "minzae",
     "english_equiv": "Nationality-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a nationality.",
+    "definition": "Made of, resembling, or relating to nationality.",
     "root": "minza",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "nationality-like",
+      "resembling nationality"
+    ]
   },
   {
     "word": "mitae",
     "english_equiv": "Meat-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a meat.",
+    "definition": "Made of, resembling, or relating to meat.",
     "root": "mita",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "meat-like",
+      "resembling meat"
+    ]
   },
   {
     "word": "miteroe",
@@ -9515,7 +11190,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to meter.",
     "root": "mitero",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "meter-like",
+      "resembling meter"
+    ]
   },
   {
     "word": "mobloa",
@@ -9536,7 +11215,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to vehicle.",
     "root": "moblo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "vehicle-like",
+      "resembling vehicle"
+    ]
   },
   {
     "word": "mobloi",
@@ -9556,10 +11239,14 @@ const derivedDictionaryData = [
     "word": "modae",
     "english_equiv": "God-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a god.",
+    "definition": "Made of, resembling, or relating to god.",
     "root": "moda",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "god-like",
+      "resembling god"
+    ]
   },
   {
     "word": "montoa",
@@ -9581,34 +11268,48 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to mountain.",
     "root": "monto",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "mountain-like",
+      "resembling mountain"
+    ]
   },
   {
     "word": "moria",
-    "english_equiv": "Doer of grow",
+    "english_equiv": "Grower",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'grow'.",
+    "definition": "A person who grows; a grower.",
     "root": "mori",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "grower"
+    ]
   },
   {
     "word": "moriu",
-    "english_equiv": "Act of grow",
+    "english_equiv": "Growth",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'grow'.",
+    "definition": "The process of growing; growth.",
     "root": "mori",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "growth"
+    ]
   },
   {
     "word": "mortsae",
     "english_equiv": "Forest-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a forest.",
+    "definition": "Made of, resembling, or relating to forest.",
     "root": "mortsa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "forest-like",
+      "resembling forest"
+    ]
   },
   {
     "word": "mosae",
@@ -9638,12 +11339,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "moskufue",
-    "english_equiv": "Marked by respect",
+    "english_equiv": "Respectful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by respect.",
+    "definition": "Characterized by or relating to respect; respectful.",
     "root": "moskufu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "respectful"
+    ]
   },
   {
     "word": "moskufui",
@@ -9659,12 +11363,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "motuwue",
-    "english_equiv": "Marked by grief",
+    "english_equiv": "Mournful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by grief.",
+    "definition": "Characterized by or relating to grief; mournful.",
     "root": "motuwu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "mournful"
+    ]
   },
   {
     "word": "motuwui",
@@ -9696,10 +11403,14 @@ const derivedDictionaryData = [
     "word": "moveu",
     "english_equiv": "Vagueness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being vague.",
+    "definition": "The quality or state of being vague; vagueness.",
     "root": "move",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "vagueness",
+      "fuzziness"
+    ]
   },
   {
     "word": "mua",
@@ -9758,12 +11469,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "muileu",
-    "english_equiv": "Difficultness",
+    "english_equiv": "Difficulty",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being difficult.",
+    "definition": "The quality or state of being difficult; difficulty.",
     "root": "muile",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "difficulty"
+    ]
   },
   {
     "word": "mukei",
@@ -9794,21 +11508,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "mydue",
-    "english_equiv": "Marked by model",
+    "english_equiv": "Exemplary",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by model.",
+    "definition": "Characterized by or relating to model; exemplary.",
     "root": "mydu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "exemplary"
+    ]
   },
   {
     "word": "mygae",
     "english_equiv": "Leg-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a leg.",
+    "definition": "Made of, resembling, or relating to leg.",
     "root": "myga",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "leg-like",
+      "resembling leg"
+    ]
   },
   {
     "word": "myi",
@@ -9830,7 +11551,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to fever.",
     "root": "mykoso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "fever-like",
+      "resembling fever"
+    ]
   },
   {
     "word": "myrafae",
@@ -9862,13 +11587,18 @@ const derivedDictionaryData = [
   },
   {
     "word": "nacie",
-    "english_equiv": "Prone to work",
+    "english_equiv": "Work-related / Industrious",
     "part_of_speech": "Modifier",
-    "definition": "Tending toward, or involving, the action 'work'.",
+    "definition": "Relating to or inclined to work; occupational, industrious.",
     "root": "naci",
     "derivation_path": "i→e",
     "path_gloss": "Verb -> Modifier (prone to)",
-    "reviewed": "baseline"
+    "reviewed": "baseline",
+    "senses": [
+      "work-related",
+      "occupational",
+      "industrious"
+    ]
   },
   {
     "word": "naciu",
@@ -9900,10 +11630,14 @@ const derivedDictionaryData = [
     "word": "nafikeu",
     "english_equiv": "Togetherness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being together.",
+    "definition": "The quality or state of being together; togetherness.",
     "root": "nafike",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "togetherness",
+      "unity"
+    ]
   },
   {
     "word": "nailei",
@@ -9920,12 +11654,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "naileu",
-    "english_equiv": "Easyness",
+    "english_equiv": "Ease",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being easy.",
+    "definition": "The quality or state of being easy; ease.",
     "root": "naile",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "ease",
+      "easiness"
+    ]
   },
   {
     "word": "nakei",
@@ -9957,19 +11695,26 @@ const derivedDictionaryData = [
     "word": "naraleu",
     "english_equiv": "Naturalness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being natural.",
+    "definition": "The quality or state of being natural; naturalness.",
     "root": "narale",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "naturalness"
+    ]
   },
   {
     "word": "nasae",
     "english_equiv": "Plant-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a plant.",
+    "definition": "Made of, resembling, or relating to plant.",
     "root": "nasa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "plant-like",
+      "resembling plant"
+    ]
   },
   {
     "word": "nasau",
@@ -10003,16 +11748,24 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to medicine.",
     "root": "nasbo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "medicine-like",
+      "resembling medicine"
+    ]
   },
   {
     "word": "nauxae",
     "english_equiv": "Friend-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a friend.",
+    "definition": "Made of, resembling, or relating to friend.",
     "root": "nauxa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "friend-like",
+      "resembling friend"
+    ]
   },
   {
     "word": "nauxai",
@@ -10053,12 +11806,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "naxue",
-    "english_equiv": "Marked by group",
+    "english_equiv": "Collective",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by group.",
+    "definition": "Characterized by or relating to group; collective.",
     "root": "naxu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "collective"
+    ]
   },
   {
     "word": "negoxrei",
@@ -10076,10 +11832,13 @@ const derivedDictionaryData = [
     "word": "negoxreu",
     "english_equiv": "Randomness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being random.",
+    "definition": "The quality or state of being random; randomness.",
     "root": "negoxre",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "randomness"
+    ]
   },
   {
     "word": "nejowoe",
@@ -10088,25 +11847,35 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to ink.",
     "root": "nejowo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "ink-like",
+      "resembling ink"
+    ]
   },
   {
     "word": "nekia",
-    "english_equiv": "Doer of sit",
+    "english_equiv": "Sitter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'sit'.",
+    "definition": "A person who sits; a sitter.",
     "root": "neki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "sitter"
+    ]
   },
   {
     "word": "nembue",
-    "english_equiv": "Marked by congratulations",
+    "english_equiv": "Congratulatory",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by congratulations.",
+    "definition": "Characterized by or relating to congratulations; congratulatory.",
     "root": "nembu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "congratulatory"
+    ]
   },
   {
     "word": "nenojei",
@@ -10125,10 +11894,13 @@ const derivedDictionaryData = [
     "word": "nenojeu",
     "english_equiv": "Blindness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being blind.",
+    "definition": "The quality or state of being blind; blindness.",
     "root": "nenoje",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "blindness"
+    ]
   },
   {
     "word": "nertoe",
@@ -10137,7 +11909,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to carpet.",
     "root": "nerto",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "carpet-like",
+      "resembling carpet"
+    ]
   },
   {
     "word": "neswye",
@@ -10157,37 +11933,51 @@ const derivedDictionaryData = [
     "word": "netawae",
     "english_equiv": "Cornflower-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a cornflower.",
+    "definition": "Made of, resembling, or relating to cornflower.",
     "root": "netawa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "cornflower-like",
+      "resembling cornflower"
+    ]
   },
   {
     "word": "neuque",
-    "english_equiv": "Marked by disgust",
+    "english_equiv": "Disgusting",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by disgust.",
+    "definition": "Characterized by or relating to disgust; disgusting.",
     "root": "neuqu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "disgusting"
+    ]
   },
   {
     "word": "niazae",
     "english_equiv": "Muscle-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a muscle.",
+    "definition": "Made of, resembling, or relating to muscle.",
     "root": "niaza",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "muscle-like",
+      "resembling muscle"
+    ]
   },
   {
     "word": "nicue",
-    "english_equiv": "Marked by debt",
+    "english_equiv": "Indebted",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by debt.",
+    "definition": "Characterized by or relating to debt; indebted.",
     "root": "nicu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "indebted"
+    ]
   },
   {
     "word": "nicui",
@@ -10204,12 +11994,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "nikria",
-    "english_equiv": "Doer of to swallow",
+    "english_equiv": "Swallower",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to swallow'.",
+    "definition": "A person who swallows; a swallower.",
     "root": "nikri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "swallower"
+    ]
   },
   {
     "word": "nimpoe",
@@ -10218,16 +12011,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to carrot.",
     "root": "nimpo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "carrot-like",
+      "resembling carrot"
+    ]
   },
   {
     "word": "niwia",
-    "english_equiv": "Doer of scrape",
+    "english_equiv": "Scraper",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'scrape'.",
+    "definition": "A person who scrapes; a scraper.",
     "root": "niwi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "scraper"
+    ]
   },
   {
     "word": "nizye",
@@ -10258,21 +12058,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "noajue",
-    "english_equiv": "Marked by role",
+    "english_equiv": "Functional",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by role.",
+    "definition": "Characterized by or relating to role; functional.",
     "root": "noaju",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "functional"
+    ]
   },
   {
     "word": "nofae",
-    "english_equiv": "Person-like",
+    "english_equiv": "Human, humane",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a person.",
+    "definition": "Made of, resembling, or relating to person; human, humane.",
     "root": "nofa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "human",
+      "humane"
+    ]
   },
   {
     "word": "nofau",
@@ -10291,10 +12098,14 @@ const derivedDictionaryData = [
     "word": "nojae",
     "english_equiv": "Eye-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a eye.",
+    "definition": "Made of, resembling, or relating to eye.",
     "root": "noja",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "eye-like",
+      "resembling eye"
+    ]
   },
   {
     "word": "nojai",
@@ -10311,12 +12122,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "nojapia",
-    "english_equiv": "Doer of watch",
+    "english_equiv": "Observer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'watch'.",
+    "definition": "A person who watches; an observer.",
     "root": "nojapi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "observer"
+    ]
   },
   {
     "word": "nojapio",
@@ -10388,12 +12202,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "nomia",
-    "english_equiv": "Doer of eat",
+    "english_equiv": "Consumer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'eat'.",
+    "definition": "A person who eats; a consumer.",
     "root": "nomi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "consumer"
+    ]
   },
   {
     "word": "nomie",
@@ -10425,28 +12242,39 @@ const derivedDictionaryData = [
     "word": "noqsae",
     "english_equiv": "Man-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a man.",
+    "definition": "Made of, resembling, or relating to man.",
     "root": "noqsa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "man-like",
+      "resembling man"
+    ]
   },
   {
     "word": "nosanae",
     "english_equiv": "Woman-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a woman.",
+    "definition": "Made of, resembling, or relating to woman.",
     "root": "nosana",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "woman-like",
+      "resembling woman"
+    ]
   },
   {
     "word": "novue",
-    "english_equiv": "Marked by conspiracy",
+    "english_equiv": "Conspiratorial",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by conspiracy.",
+    "definition": "Characterized by or relating to conspiracy; conspiratorial.",
     "root": "novu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "conspiratorial"
+    ]
   },
   {
     "word": "nozei",
@@ -10463,12 +12291,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "nudue",
-    "english_equiv": "Marked by today",
+    "english_equiv": "Current",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by today.",
+    "definition": "Characterized by or relating to today; current.",
     "root": "nudu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "current"
+    ]
   },
   {
     "word": "nufei",
@@ -10485,30 +12316,40 @@ const derivedDictionaryData = [
   },
   {
     "word": "nufeu",
-    "english_equiv": "Emptyness",
+    "english_equiv": "Emptiness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being empty.",
+    "definition": "The quality or state of being empty; emptiness.",
     "root": "nufe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "emptiness"
+    ]
   },
   {
     "word": "nujue",
-    "english_equiv": "Marked by policy",
+    "english_equiv": "Procedural",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by policy.",
+    "definition": "Characterized by or relating to policy; procedural.",
     "root": "nuju",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "procedural"
+    ]
   },
   {
     "word": "nupae",
     "english_equiv": "Parent-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a parent.",
+    "definition": "Made of, resembling, or relating to parent.",
     "root": "nupa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "parent-like",
+      "resembling parent"
+    ]
   },
   {
     "word": "nupai",
@@ -10542,7 +12383,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to sword.",
     "root": "nusogo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "sword-like",
+      "resembling sword"
+    ]
   },
   {
     "word": "nuwykoe",
@@ -10560,12 +12405,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "nybue",
-    "english_equiv": "Marked by content",
+    "english_equiv": "Substantive",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by content.",
+    "definition": "Characterized by or relating to content; substantive.",
     "root": "nybu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "substantive"
+    ]
   },
   {
     "word": "nyhogoe",
@@ -10574,25 +12422,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to sentence.",
     "root": "nyhogo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "sentence-like",
+      "resembling sentence"
+    ]
   },
   {
     "word": "nyrsia",
-    "english_equiv": "Doer of carry",
+    "english_equiv": "Carrier",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'carry'.",
+    "definition": "A person who carries; a carrier.",
     "root": "nyrsi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "carrier"
+    ]
   },
   {
     "word": "nytae",
     "english_equiv": "Nose-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a nose.",
+    "definition": "Made of, resembling, or relating to nose.",
     "root": "nyta",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "nose-like",
+      "resembling nose"
+    ]
   },
   {
     "word": "nytai",
@@ -10610,21 +12469,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "nyvumue",
-    "english_equiv": "Marked by sunrise",
+    "english_equiv": "Sunrise",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by sunrise.",
+    "definition": "Characterized by or relating to sunrise; sunrise.",
     "root": "nyvumu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "sunrise"
+    ]
   },
   {
     "word": "obtae",
     "english_equiv": "Ant-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a ant.",
+    "definition": "Made of, resembling, or relating to ant.",
     "root": "obta",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "ant-like",
+      "resembling ant"
+    ]
   },
   {
     "word": "ocadua",
@@ -10640,12 +12506,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "ocadue",
-    "english_equiv": "Marked by science",
+    "english_equiv": "Scientific",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by science.",
+    "definition": "Characterized by or relating to science; scientific.",
     "root": "ocadu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "scientific"
+    ]
   },
   {
     "word": "ocfei",
@@ -10662,12 +12531,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "ocfeu",
-    "english_equiv": "Fakeness",
+    "english_equiv": "Falseness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being fake.",
+    "definition": "The quality or state of being fake; falseness.",
     "root": "ocfe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "falseness",
+      "fakeness"
+    ]
   },
   {
     "word": "odazei",
@@ -10689,7 +12562,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to rope.",
     "root": "odcano",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "rope-like",
+      "resembling rope"
+    ]
   },
   {
     "word": "oegei",
@@ -10706,12 +12583,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "oegeu",
-    "english_equiv": "Secretness",
+    "english_equiv": "Secrecy",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being secret.",
+    "definition": "The quality or state of being secret; secrecy.",
     "root": "oege",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "secrecy"
+    ]
   },
   {
     "word": "ofxue",
@@ -10728,12 +12608,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "ogirue",
-    "english_equiv": "Marked by experience",
+    "english_equiv": "Experiential",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by experience.",
+    "definition": "Characterized by or relating to experience; experiential.",
     "root": "ogiru",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "experiential"
+    ]
   },
   {
     "word": "ogirui",
@@ -10755,7 +12638,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to towel.",
     "root": "ogzo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "towel-like",
+      "resembling towel"
+    ]
   },
   {
     "word": "ojesei",
@@ -10772,21 +12659,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "ojeseu",
-    "english_equiv": "Rareness",
+    "english_equiv": "Rarity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being rare.",
+    "definition": "The quality or state of being rare; rarity.",
     "root": "ojese",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "rarity",
+      "rareness"
+    ]
   },
   {
     "word": "okezue",
-    "english_equiv": "Marked by lie",
+    "english_equiv": "Deceitful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by lie.",
+    "definition": "Characterized by or relating to lie; deceitful.",
     "root": "okezu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "deceitful"
+    ]
   },
   {
     "word": "oksei",
@@ -10805,10 +12699,13 @@ const derivedDictionaryData = [
     "word": "okseu",
     "english_equiv": "Wrongness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being wrong.",
+    "definition": "The quality or state of being wrong; wrongness.",
     "root": "okse",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "wrongness"
+    ]
   },
   {
     "word": "olifua",
@@ -10824,12 +12721,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "olifue",
-    "english_equiv": "Marked by research",
+    "english_equiv": "Scholarly",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by research.",
+    "definition": "Characterized by or relating to research; scholarly.",
     "root": "olifu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "scholarly"
+    ]
   },
   {
     "word": "olkenkoe",
@@ -10838,16 +12738,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to emblem.",
     "root": "olkenko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "emblem-like",
+      "resembling emblem"
+    ]
   },
   {
     "word": "ombia",
-    "english_equiv": "Doer of send",
+    "english_equiv": "Sender",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'send'.",
+    "definition": "A person who sends; a sender.",
     "root": "ombi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "sender"
+    ]
   },
   {
     "word": "onasia",
@@ -10892,39 +12799,51 @@ const derivedDictionaryData = [
   },
   {
     "word": "ongue",
-    "english_equiv": "Marked by betrayal",
+    "english_equiv": "Treacherous",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by betrayal.",
+    "definition": "Characterized by or relating to betrayal; treacherous.",
     "root": "ongu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "treacherous"
+    ]
   },
   {
     "word": "onlia",
-    "english_equiv": "Doer of rub",
+    "english_equiv": "Rubber",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'rub'.",
+    "definition": "A person who rubs; a rubber.",
     "root": "onli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "rubber"
+    ]
   },
   {
     "word": "opcoria",
-    "english_equiv": "Doer of stir",
+    "english_equiv": "Stirrer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'stir'.",
+    "definition": "A person who stirs; a stirrer.",
     "root": "opcori",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "stirrer"
+    ]
   },
   {
     "word": "opdia",
-    "english_equiv": "Doer of whisper",
+    "english_equiv": "Whisperer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'whisper'.",
+    "definition": "A person who whispers; a whisperer.",
     "root": "opdi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "whisperer"
+    ]
   },
   {
     "word": "opowoe",
@@ -10933,7 +12852,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bulb.",
     "root": "opowo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bulb-like",
+      "resembling bulb"
+    ]
   },
   {
     "word": "oqawae",
@@ -10956,25 +12879,35 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to ticket.",
     "root": "oqo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "ticket-like",
+      "resembling ticket"
+    ]
   },
   {
     "word": "oraria",
-    "english_equiv": "Doer of to stir-fry",
+    "english_equiv": "Stir-frier",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to stir-fry'.",
+    "definition": "A person who stir-fries; a stir-frier.",
     "root": "orari",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "stir-frier"
+    ]
   },
   {
     "word": "orkue",
-    "english_equiv": "Marked by score",
+    "english_equiv": "Graded",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by score.",
+    "definition": "Characterized by or relating to score; graded.",
     "root": "orku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "graded"
+    ]
   },
   {
     "word": "orvei",
@@ -11005,48 +12938,65 @@ const derivedDictionaryData = [
   },
   {
     "word": "orveu",
-    "english_equiv": "Poisonousness",
+    "english_equiv": "Toxicity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being poisonous.",
+    "definition": "The quality or state of being poisonous; toxicity.",
     "root": "orve",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "toxicity",
+      "poisonousness"
+    ]
   },
   {
     "word": "osajue",
-    "english_equiv": "Marked by west",
+    "english_equiv": "Western",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by west.",
+    "definition": "Characterized by or relating to west; western.",
     "root": "osaju",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "western"
+    ]
   },
   {
     "word": "ostue",
-    "english_equiv": "Marked by east",
+    "english_equiv": "Eastern",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by east.",
+    "definition": "Characterized by or relating to east; eastern.",
     "root": "ostu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "eastern"
+    ]
   },
   {
     "word": "otania",
-    "english_equiv": "Doer of cook",
+    "english_equiv": "Cook",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'cook'.",
+    "definition": "A person who cooks; a cook.",
     "root": "otani",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "cook"
+    ]
   },
   {
     "word": "otmae",
     "english_equiv": "Disease-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a disease.",
+    "definition": "Made of, resembling, or relating to disease.",
     "root": "otma",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "disease-like",
+      "resembling disease"
+    ]
   },
   {
     "word": "otmai",
@@ -11090,12 +13040,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "ouzue",
-    "english_equiv": "Marked by mercy",
+    "english_equiv": "Merciful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by mercy.",
+    "definition": "Characterized by or relating to mercy; merciful.",
     "root": "ouzu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "merciful"
+    ]
   },
   {
     "word": "ovcei",
@@ -11114,10 +13067,14 @@ const derivedDictionaryData = [
     "word": "ovpae",
     "english_equiv": "Neck-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a neck.",
+    "definition": "Made of, resembling, or relating to neck.",
     "root": "ovpa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "neck-like",
+      "resembling neck"
+    ]
   },
   {
     "word": "ovroe",
@@ -11126,25 +13083,35 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to fork.",
     "root": "ovro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "fork-like",
+      "resembling fork"
+    ]
   },
   {
     "word": "owadia",
-    "english_equiv": "Doer of spend",
+    "english_equiv": "Spender",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'spend'.",
+    "definition": "A person who spends; a spender.",
     "root": "owadi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "spender"
+    ]
   },
   {
     "word": "oxahue",
-    "english_equiv": "Marked by project",
+    "english_equiv": "Project-based",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by project.",
+    "definition": "Characterized by or relating to project; project-based.",
     "root": "oxahu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "project-based"
+    ]
   },
   {
     "word": "oxnoe",
@@ -11153,16 +13120,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to wallet.",
     "root": "oxno",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "wallet-like",
+      "resembling wallet"
+    ]
   },
   {
     "word": "oxopia",
-    "english_equiv": "Doer of to organize",
+    "english_equiv": "Organizer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to organize'.",
+    "definition": "A person who organizes; an organizer.",
     "root": "oxopi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "organizer"
+    ]
   },
   {
     "word": "oxtia",
@@ -11194,12 +13168,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "ozepia",
-    "english_equiv": "Doer of to wish",
+    "english_equiv": "Wisher",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to wish'.",
+    "definition": "A person who wishes; a wisher.",
     "root": "ozepi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "wisher"
+    ]
   },
   {
     "word": "ozepiu",
@@ -11216,12 +13193,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "ozoxia",
-    "english_equiv": "Doer of to occupy",
+    "english_equiv": "Occupant",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to occupy'.",
+    "definition": "A person who occupies; an occupant.",
     "root": "ozoxi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "occupant"
+    ]
   },
   {
     "word": "paduproe",
@@ -11244,16 +13224,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to paper.",
     "root": "paelo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "paper-like",
+      "resembling paper"
+    ]
   },
   {
     "word": "pagaria",
-    "english_equiv": "Doer of pay",
+    "english_equiv": "Payer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'pay'.",
+    "definition": "A person who pays; a payer.",
     "root": "pagari",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "payer"
+    ]
   },
   {
     "word": "pagario",
@@ -11271,10 +13258,14 @@ const derivedDictionaryData = [
     "word": "pajae",
     "english_equiv": "Uncle-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a uncle.",
+    "definition": "Made of, resembling, or relating to uncle.",
     "root": "paja",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "uncle-like",
+      "resembling uncle"
+    ]
   },
   {
     "word": "pampigiu",
@@ -11292,12 +13283,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "pamue",
-    "english_equiv": "Marked by pain",
+    "english_equiv": "Painful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by pain.",
+    "definition": "Characterized by or relating to pain; painful.",
     "root": "pamu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "painful"
+    ]
   },
   {
     "word": "pamui",
@@ -11340,12 +13334,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "parawue",
-    "english_equiv": "Marked by tradition",
+    "english_equiv": "Traditional",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by tradition.",
+    "definition": "Characterized by or relating to tradition; traditional.",
     "root": "parawu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "traditional"
+    ]
   },
   {
     "word": "parye",
@@ -11387,12 +13384,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "paswue",
-    "english_equiv": "Marked by history",
+    "english_equiv": "Historical",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by history.",
+    "definition": "Characterized by or relating to history; historical.",
     "root": "paswu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "historical"
+    ]
   },
   {
     "word": "patei",
@@ -11409,30 +13409,40 @@ const derivedDictionaryData = [
   },
   {
     "word": "pateu",
-    "english_equiv": "Umaminess",
+    "english_equiv": "Savoriness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being umami.",
+    "definition": "The quality or state of being umami; savoriness.",
     "root": "pate",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "savoriness",
+      "umami"
+    ]
   },
   {
     "word": "paulia",
-    "english_equiv": "Doer of feel",
+    "english_equiv": "Feeler",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'feel'.",
+    "definition": "A person who feels; a feeler.",
     "root": "pauli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "feeler"
+    ]
   },
   {
     "word": "paxue",
-    "english_equiv": "Marked by pleasure",
+    "english_equiv": "Pleasant",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by pleasure.",
+    "definition": "Characterized by or relating to pleasure; pleasant.",
     "root": "paxu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "pleasant"
+    ]
   },
   {
     "word": "paxui",
@@ -11450,10 +13460,14 @@ const derivedDictionaryData = [
     "word": "pebae",
     "english_equiv": "Father-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a father.",
+    "definition": "Made of, resembling, or relating to father.",
     "root": "peba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "father-like",
+      "resembling father"
+    ]
   },
   {
     "word": "pebau",
@@ -11469,39 +13483,51 @@ const derivedDictionaryData = [
   },
   {
     "word": "pedue",
-    "english_equiv": "Marked by power",
+    "english_equiv": "Powerful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by power.",
+    "definition": "Characterized by or relating to power; powerful.",
     "root": "pedu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "powerful"
+    ]
   },
   {
     "word": "pegia",
-    "english_equiv": "Doer of fold",
+    "english_equiv": "Folder",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'fold'.",
+    "definition": "A person who folds; a folder.",
     "root": "pegi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "folder"
+    ]
   },
   {
     "word": "perinatue",
-    "english_equiv": "Marked by revolution",
+    "english_equiv": "Revolutionary",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by revolution.",
+    "definition": "Characterized by or relating to revolution; revolutionary.",
     "root": "perinatu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "revolutionary"
+    ]
   },
   {
     "word": "pesue",
-    "english_equiv": "Marked by sound",
+    "english_equiv": "Sonic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by sound.",
+    "definition": "Characterized by or relating to sound; sonic.",
     "root": "pesu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "sonic"
+    ]
   },
   {
     "word": "pesui",
@@ -11536,16 +13562,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to hospital.",
     "root": "picalo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "hospital-like",
+      "resembling hospital"
+    ]
   },
   {
     "word": "pijia",
-    "english_equiv": "Doer of warn",
+    "english_equiv": "Warner",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'warn'.",
+    "definition": "A person who warns; a warner.",
     "root": "piji",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "warner"
+    ]
   },
   {
     "word": "pilkei",
@@ -11562,12 +13595,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "pilkeu",
-    "english_equiv": "Aliveness",
+    "english_equiv": "Vitality",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being alive.",
+    "definition": "The quality or state of being alive; vitality.",
     "root": "pilke",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "vitality",
+      "aliveness"
+    ]
   },
   {
     "word": "pinye",
@@ -11599,19 +13636,26 @@ const derivedDictionaryData = [
     "word": "piseu",
     "english_equiv": "Sourness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being sour.",
+    "definition": "The quality or state of being sour; sourness.",
     "root": "pise",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "sourness"
+    ]
   },
   {
     "word": "pixrae",
     "english_equiv": "Tooth-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a tooth.",
+    "definition": "Made of, resembling, or relating to tooth.",
     "root": "pixra",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "tooth-like",
+      "resembling tooth"
+    ]
   },
   {
     "word": "pixrai",
@@ -11647,7 +13691,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to lock.",
     "root": "plaho",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "lock-like",
+      "resembling lock"
+    ]
   },
   {
     "word": "plahoi",
@@ -11664,12 +13712,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "plia",
-    "english_equiv": "Doer of come",
+    "english_equiv": "Arriver",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'come'.",
+    "definition": "A person who comes; an arriver.",
     "root": "pli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "arriver"
+    ]
   },
   {
     "word": "pliu",
@@ -11736,10 +13787,14 @@ const derivedDictionaryData = [
     "word": "pluratae",
     "english_equiv": "Berry-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a berry.",
+    "definition": "Made of, resembling, or relating to berry.",
     "root": "plurata",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "berry-like",
+      "resembling berry"
+    ]
   },
   {
     "word": "pobrei",
@@ -11756,12 +13811,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "pobreu",
-    "english_equiv": "Poorness",
+    "english_equiv": "Poverty",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being poor.",
+    "definition": "The quality or state of being poor; poverty.",
     "root": "pobre",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "poverty"
+    ]
   },
   {
     "word": "pogafue",
@@ -11795,10 +13853,14 @@ const derivedDictionaryData = [
     "word": "pokae",
     "english_equiv": "Hair-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a hair.",
+    "definition": "Made of, resembling, or relating to hair.",
     "root": "poka",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "hair-like",
+      "resembling hair"
+    ]
   },
   {
     "word": "pokao",
@@ -11816,10 +13878,14 @@ const derivedDictionaryData = [
     "word": "ponxae",
     "english_equiv": "Virus-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a virus.",
+    "definition": "Made of, resembling, or relating to virus.",
     "root": "ponxa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "virus-like",
+      "resembling virus"
+    ]
   },
   {
     "word": "popepei",
@@ -11838,10 +13904,13 @@ const derivedDictionaryData = [
     "word": "popepeu",
     "english_equiv": "Coolness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being cool.",
+    "definition": "The quality or state of being cool; coolness.",
     "root": "popepe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "coolness"
+    ]
   },
   {
     "word": "porcei",
@@ -11871,12 +13940,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "pozia",
-    "english_equiv": "Doer of think",
+    "english_equiv": "Thinker",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'think'.",
+    "definition": "A person who thinks; a thinker.",
     "root": "pozi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "thinker"
+    ]
   },
   {
     "word": "poziu",
@@ -11895,12 +13967,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "pozmue",
-    "english_equiv": "Marked by dream",
+    "english_equiv": "Dreamy",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by dream.",
+    "definition": "Characterized by or relating to dream; dreamy.",
     "root": "pozmu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "dreamy"
+    ]
   },
   {
     "word": "pozmui",
@@ -11935,16 +14010,24 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to beetroot.",
     "root": "priglo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "beetroot-like",
+      "resembling beetroot"
+    ]
   },
   {
     "word": "pujypae",
     "english_equiv": "Heel-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a heel.",
+    "definition": "Made of, resembling, or relating to heel.",
     "root": "pujypa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "heel-like",
+      "resembling heel"
+    ]
   },
   {
     "word": "purue",
@@ -11976,19 +14059,26 @@ const derivedDictionaryData = [
     "word": "puveu",
     "english_equiv": "Cheapness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being cheap.",
+    "definition": "The quality or state of being cheap; cheapness.",
     "root": "puve",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "cheapness"
+    ]
   },
   {
     "word": "puxae",
     "english_equiv": "Pig-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a pig.",
+    "definition": "Made of, resembling, or relating to pig.",
     "root": "puxa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "pig-like",
+      "resembling pig"
+    ]
   },
   {
     "word": "pyboe",
@@ -11997,7 +14087,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to candle.",
     "root": "pybo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "candle-like",
+      "resembling candle"
+    ]
   },
   {
     "word": "pydrae",
@@ -12017,19 +14111,26 @@ const derivedDictionaryData = [
     "word": "pyhae",
     "english_equiv": "Knee-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a knee.",
+    "definition": "Made of, resembling, or relating to knee.",
     "root": "pyha",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "knee-like",
+      "resembling knee"
+    ]
   },
   {
     "word": "pyjue",
-    "english_equiv": "Marked by chaos",
+    "english_equiv": "Chaotic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by chaos.",
+    "definition": "Characterized by or relating to chaos; chaotic.",
     "root": "pyju",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "chaotic"
+    ]
   },
   {
     "word": "pyqei",
@@ -12048,10 +14149,13 @@ const derivedDictionaryData = [
     "word": "pyqeu",
     "english_equiv": "Rudeness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being rude.",
+    "definition": "The quality or state of being rude; rudeness.",
     "root": "pyqe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "rudeness"
+    ]
   },
   {
     "word": "pytsoe",
@@ -12060,16 +14164,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to rod.",
     "root": "pytso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "rod-like",
+      "resembling rod"
+    ]
   },
   {
     "word": "pywia",
-    "english_equiv": "Doer of listen",
+    "english_equiv": "Listener",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'listen'.",
+    "definition": "A person who listens; a listener.",
     "root": "pywi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "listener"
+    ]
   },
   {
     "word": "ragoe",
@@ -12078,16 +14189,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to roof.",
     "root": "rago",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "roof-like",
+      "resembling roof"
+    ]
   },
   {
     "word": "rajedue",
-    "english_equiv": "Marked by friday",
+    "english_equiv": "Friday",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by friday.",
+    "definition": "Characterized by or relating to friday; friday.",
     "root": "rajedu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "friday"
+    ]
   },
   {
     "word": "rajei",
@@ -12158,30 +14276,39 @@ const derivedDictionaryData = [
   },
   {
     "word": "raureu",
-    "english_equiv": "Uglyness",
+    "english_equiv": "Ugliness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being ugly.",
+    "definition": "The quality or state of being ugly; ugliness.",
     "root": "raure",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "ugliness"
+    ]
   },
   {
     "word": "rawetue",
-    "english_equiv": "Marked by culture",
+    "english_equiv": "Cultural",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by culture.",
+    "definition": "Characterized by or relating to culture; cultural.",
     "root": "rawetu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "cultural"
+    ]
   },
   {
     "word": "reakue",
-    "english_equiv": "Marked by theory",
+    "english_equiv": "Theoretical",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by theory.",
+    "definition": "Characterized by or relating to theory; theoretical.",
     "root": "reaku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "theoretical"
+    ]
   },
   {
     "word": "refoe",
@@ -12190,25 +14317,35 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to coffee.",
     "root": "refo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "coffee-like",
+      "resembling coffee"
+    ]
   },
   {
     "word": "relxue",
-    "english_equiv": "Marked by relation",
+    "english_equiv": "Relational",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by relation.",
+    "definition": "Characterized by or relating to relation; relational.",
     "root": "relxu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "relational"
+    ]
   },
   {
     "word": "reslihia",
-    "english_equiv": "Doer of hate",
+    "english_equiv": "Hater",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'hate'.",
+    "definition": "A person who hates; a hater.",
     "root": "reslihi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "hater"
+    ]
   },
   {
     "word": "reslihie",
@@ -12239,21 +14376,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "retadue",
-    "english_equiv": "Marked by week",
+    "english_equiv": "Weekly",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by week.",
+    "definition": "Characterized by or relating to week; weekly.",
     "root": "retadu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "weekly"
+    ]
   },
   {
     "word": "retedue",
-    "english_equiv": "Marked by sunday",
+    "english_equiv": "Sunday",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by sunday.",
+    "definition": "Characterized by or relating to sunday; sunday.",
     "root": "retedu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "sunday"
+    ]
   },
   {
     "word": "retei",
@@ -12270,12 +14413,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "retibiu",
-    "english_equiv": "Act of return",
+    "english_equiv": "Return",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'return'.",
+    "definition": "The act of returning; a return.",
     "root": "retibi",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "return",
+      "homecoming"
+    ]
   },
   {
     "word": "rewye",
@@ -12322,10 +14469,14 @@ const derivedDictionaryData = [
     "word": "rezae",
     "english_equiv": "President-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a president.",
+    "definition": "Made of, resembling, or relating to president.",
     "root": "reza",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "president-like",
+      "resembling president"
+    ]
   },
   {
     "word": "ricodoa",
@@ -12346,7 +14497,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to ore.",
     "root": "ricodo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "ore-like",
+      "resembling ore"
+    ]
   },
   {
     "word": "ricodou",
@@ -12391,19 +14546,25 @@ const derivedDictionaryData = [
     "word": "rinteu",
     "english_equiv": "Richness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being rich.",
+    "definition": "The quality or state of being rich; richness.",
     "root": "rinte",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "richness"
+    ]
   },
   {
     "word": "rinue",
-    "english_equiv": "Marked by wealth",
+    "english_equiv": "Wealthy",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by wealth.",
+    "definition": "Characterized by or relating to wealth; wealthy.",
     "root": "rinu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "wealthy"
+    ]
   },
   {
     "word": "ripei",
@@ -12420,12 +14581,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "ripeu",
-    "english_equiv": "Hotness",
+    "english_equiv": "Heat",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being hot.",
+    "definition": "The quality or state of being hot; heat.",
     "root": "ripe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "heat",
+      "hotness"
+    ]
   },
   {
     "word": "riqoe",
@@ -12434,7 +14599,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to keyboard.",
     "root": "riqo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "keyboard-like",
+      "resembling keyboard"
+    ]
   },
   {
     "word": "riqoi",
@@ -12463,12 +14632,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "rizia",
-    "english_equiv": "Doer of to get up",
+    "english_equiv": "Riser",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to get up'.",
+    "definition": "A person who get ups; a riser.",
     "root": "rizi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "riser"
+    ]
   },
   {
     "word": "roasei",
@@ -12487,10 +14659,13 @@ const derivedDictionaryData = [
     "word": "roaseu",
     "english_equiv": "Slowness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being slow.",
+    "definition": "The quality or state of being slow; slowness.",
     "root": "roase",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "slowness"
+    ]
   },
   {
     "word": "rodipei",
@@ -12507,12 +14682,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "rodipeu",
-    "english_equiv": "Thirstyness",
+    "english_equiv": "Thirst",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being thirsty.",
+    "definition": "The quality or state of being thirsty; thirst.",
     "root": "rodipe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "thirst"
+    ]
   },
   {
     "word": "rodlei",
@@ -12544,21 +14722,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "rokue",
-    "english_equiv": "Marked by dark",
+    "english_equiv": "Shadowy",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by dark.",
+    "definition": "Characterized by or relating to dark; shadowy.",
     "root": "roku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "shadowy"
+    ]
   },
   {
     "word": "rolia",
-    "english_equiv": "Doer of drink",
+    "english_equiv": "Drinker",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'drink'.",
+    "definition": "A person who drinks; a drinker.",
     "root": "roli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "drinker"
+    ]
   },
   {
     "word": "romvei",
@@ -12590,10 +14774,14 @@ const derivedDictionaryData = [
     "word": "roqteu",
     "english_equiv": "Seriousness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being serious.",
+    "definition": "The quality or state of being serious; seriousness.",
     "root": "roqte",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "seriousness",
+      "gravity"
+    ]
   },
   {
     "word": "rowei",
@@ -12625,19 +14813,26 @@ const derivedDictionaryData = [
     "word": "ruavae",
     "english_equiv": "Dandelion-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a dandelion.",
+    "definition": "Made of, resembling, or relating to dandelion.",
     "root": "ruava",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "dandelion-like",
+      "resembling dandelion"
+    ]
   },
   {
     "word": "rucemia",
-    "english_equiv": "Doer of lead",
+    "english_equiv": "Leader",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'lead'.",
+    "definition": "A person who leads; a leader.",
     "root": "rucemi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "leader"
+    ]
   },
   {
     "word": "rudsei",
@@ -12656,10 +14851,13 @@ const derivedDictionaryData = [
     "word": "rudseu",
     "english_equiv": "Roughness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being rough.",
+    "definition": "The quality or state of being rough; roughness.",
     "root": "rudse",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "roughness"
+    ]
   },
   {
     "word": "rufocoe",
@@ -12668,7 +14866,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to anchor.",
     "root": "rufoco",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "anchor-like",
+      "resembling anchor"
+    ]
   },
   {
     "word": "rufocoi",
@@ -12685,12 +14887,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "rugoxue",
-    "english_equiv": "Marked by month",
+    "english_equiv": "Monthly",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by month.",
+    "definition": "Characterized by or relating to month; monthly.",
     "root": "rugoxu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "monthly"
+    ]
   },
   {
     "word": "rukojoe",
@@ -12699,7 +14904,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to vein.",
     "root": "rukojo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "vein-like",
+      "resembling vein"
+    ]
   },
   {
     "word": "rutei",
@@ -12718,19 +14927,25 @@ const derivedDictionaryData = [
     "word": "ruteu",
     "english_equiv": "Sharpness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being sharp.",
+    "definition": "The quality or state of being sharp; sharpness.",
     "root": "rute",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "sharpness"
+    ]
   },
   {
     "word": "ruwia",
-    "english_equiv": "Doer of twist",
+    "english_equiv": "Twister",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'twist'.",
+    "definition": "A person who twists; a twister.",
     "root": "ruwi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "twister"
+    ]
   },
   {
     "word": "ruzei",
@@ -12767,7 +14982,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to stem.",
     "root": "ryrobo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "stem-like",
+      "resembling stem"
+    ]
   },
   {
     "word": "sacye",
@@ -12812,21 +15031,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "sapia",
-    "english_equiv": "Doer of make",
+    "english_equiv": "Creator",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'make'.",
+    "definition": "A person who makes; a creator.",
     "root": "sapi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "creator"
+    ]
   },
   {
     "word": "sapitia",
-    "english_equiv": "Doer of invent",
+    "english_equiv": "Inventor",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'invent'.",
+    "definition": "A person who invents; an inventor.",
     "root": "sapiti",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "inventor"
+    ]
   },
   {
     "word": "sapitio",
@@ -12844,28 +15069,38 @@ const derivedDictionaryData = [
     "word": "saqae",
     "english_equiv": "Sibling-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a sibling.",
+    "definition": "Made of, resembling, or relating to sibling.",
     "root": "saqa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "sibling-like",
+      "resembling sibling"
+    ]
   },
   {
     "word": "sarmia",
-    "english_equiv": "Doer of taste",
+    "english_equiv": "Taster",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'taste'.",
+    "definition": "A person who tastes; a taster.",
     "root": "sarmi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "taster"
+    ]
   },
   {
     "word": "satsia",
-    "english_equiv": "Doer of hit",
+    "english_equiv": "Striker",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'hit'.",
+    "definition": "A person who hits; a striker.",
     "root": "satsi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "striker"
+    ]
   },
   {
     "word": "satsiu",
@@ -12898,10 +15133,14 @@ const derivedDictionaryData = [
     "word": "sazae",
     "english_equiv": "Sister-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a sister.",
+    "definition": "Made of, resembling, or relating to sister.",
     "root": "saza",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "sister-like",
+      "resembling sister"
+    ]
   },
   {
     "word": "sazau",
@@ -12922,25 +15161,37 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to blade.",
     "root": "segro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "blade-like",
+      "resembling blade"
+    ]
   },
   {
     "word": "sejia",
-    "english_equiv": "Doer of stop",
+    "english_equiv": "Stopper",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'stop'.",
+    "definition": "A person who stops; a stopper.",
     "root": "seji",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "stopper"
+    ]
   },
   {
     "word": "sejiu",
-    "english_equiv": "Act of stop",
+    "english_equiv": "Stop / Halt",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'stop'.",
+    "definition": "The act of stopping; a halt, cessation.",
     "root": "seji",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "stop",
+      "halt",
+      "cessation"
+    ]
   },
   {
     "word": "sidohoe",
@@ -12949,25 +15200,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to pillar.",
     "root": "sidoho",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "pillar-like",
+      "resembling pillar"
+    ]
   },
   {
     "word": "sifae",
     "english_equiv": "Wife-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a wife.",
+    "definition": "Made of, resembling, or relating to wife.",
     "root": "sifa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "wife-like",
+      "resembling wife"
+    ]
   },
   {
     "word": "sigia",
-    "english_equiv": "Doer of hold",
+    "english_equiv": "Holder",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'hold'.",
+    "definition": "A person who holds; a holder.",
     "root": "sigi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "holder"
+    ]
   },
   {
     "word": "silei",
@@ -12984,12 +15246,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "sioxia",
-    "english_equiv": "Doer of hold",
+    "english_equiv": "Host",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'hold'.",
+    "definition": "A person who holds; a host.",
     "root": "sioxi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "host"
+    ]
   },
   {
     "word": "siswasoe",
@@ -12998,61 +15263,85 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to stripe.",
     "root": "siswaso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "stripe-like",
+      "resembling stripe"
+    ]
   },
   {
     "word": "skagia",
-    "english_equiv": "Doer of break",
+    "english_equiv": "Breaker",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'break'.",
+    "definition": "A person who breaks; a breaker.",
     "root": "skagi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "breaker"
+    ]
   },
   {
     "word": "skaxebia",
-    "english_equiv": "Doer of suspect",
+    "english_equiv": "Suspecter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'suspect'.",
+    "definition": "A person who suspects; a suspecter.",
     "root": "skaxebi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "suspecter"
+    ]
   },
   {
     "word": "skezafae",
     "english_equiv": "Pufferfish-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a pufferfish.",
+    "definition": "Made of, resembling, or relating to pufferfish.",
     "root": "skezafa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "pufferfish-like",
+      "resembling pufferfish"
+    ]
   },
   {
     "word": "skiwia",
-    "english_equiv": "Doer of control",
+    "english_equiv": "Controller",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'control'.",
+    "definition": "A person who controls; a controller.",
     "root": "skiwi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "controller"
+    ]
   },
   {
     "word": "skiwiu",
-    "english_equiv": "Act of control",
+    "english_equiv": "Control",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'control'.",
+    "definition": "The act or state of controlling; control.",
     "root": "skiwi",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "control",
+      "command"
+    ]
   },
   {
     "word": "skorue",
-    "english_equiv": "Marked by market",
+    "english_equiv": "Commercial",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by market.",
+    "definition": "Characterized by or relating to market; commercial.",
     "root": "skoru",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "commercial"
+    ]
   },
   {
     "word": "skroqoe",
@@ -13061,16 +15350,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to cheese.",
     "root": "skroqo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "cheese-like",
+      "resembling cheese"
+    ]
   },
   {
     "word": "skumkia",
-    "english_equiv": "Doer of destroy",
+    "english_equiv": "Destroyer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'destroy'.",
+    "definition": "A person who destroys; a destroyer.",
     "root": "skumki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "destroyer"
+    ]
   },
   {
     "word": "slafei",
@@ -13115,12 +15411,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "sluqedue",
-    "english_equiv": "Marked by saturday",
+    "english_equiv": "Saturday",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by saturday.",
+    "definition": "Characterized by or relating to saturday; saturday.",
     "root": "sluqedu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "saturday"
+    ]
   },
   {
     "word": "sluqei",
@@ -13152,46 +15451,63 @@ const derivedDictionaryData = [
     "word": "smezeu",
     "english_equiv": "Rawness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being raw.",
+    "definition": "The quality or state of being raw; rawness.",
     "root": "smeze",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "rawness"
+    ]
   },
   {
     "word": "smibrae",
     "english_equiv": "Bat-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a bat.",
+    "definition": "Made of, resembling, or relating to bat.",
     "root": "smibra",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "bat-like",
+      "resembling bat"
+    ]
   },
   {
     "word": "smimia",
-    "english_equiv": "Doer of to kiss",
+    "english_equiv": "Kisser",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to kiss'.",
+    "definition": "A person who kisses; a kisser.",
     "root": "smimi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "kisser"
+    ]
   },
   {
     "word": "smotifia",
-    "english_equiv": "Doer of restore",
+    "english_equiv": "Restorer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'restore'.",
+    "definition": "A person who restores; a restorer.",
     "root": "smotifi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "restorer"
+    ]
   },
   {
     "word": "snahae",
     "english_equiv": "Deer-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a deer.",
+    "definition": "Made of, resembling, or relating to deer.",
     "root": "snaha",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "deer-like",
+      "resembling deer"
+    ]
   },
   {
     "word": "snibexei",
@@ -13207,21 +15523,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "snibexeu",
-    "english_equiv": "Humidness",
+    "english_equiv": "Humidity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being humid.",
+    "definition": "The quality or state of being humid; humidity.",
     "root": "snibexe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "humidity"
+    ]
   },
   {
     "word": "socue",
-    "english_equiv": "Marked by society",
+    "english_equiv": "Social",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by society.",
+    "definition": "Characterized by or relating to society; social.",
     "root": "socu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "social"
+    ]
   },
   {
     "word": "soksoe",
@@ -13230,16 +15552,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to sock.",
     "root": "sokso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "sock-like",
+      "resembling sock"
+    ]
   },
   {
     "word": "solfia",
-    "english_equiv": "Doer of to solve",
+    "english_equiv": "Solver",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to solve'.",
+    "definition": "A person who solves; a solver.",
     "root": "solfi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "solver"
+    ]
   },
   {
     "word": "solfiu",
@@ -13258,10 +15587,14 @@ const derivedDictionaryData = [
     "word": "somadae",
     "english_equiv": "Dolphin-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a dolphin.",
+    "definition": "Made of, resembling, or relating to dolphin.",
     "root": "somada",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "dolphin-like",
+      "resembling dolphin"
+    ]
   },
   {
     "word": "sonei",
@@ -13278,66 +15611,91 @@ const derivedDictionaryData = [
   },
   {
     "word": "soneu",
-    "english_equiv": "Spicyness",
+    "english_equiv": "Spiciness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being spicy.",
+    "definition": "The quality or state of being spicy; spiciness.",
     "root": "sone",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "spiciness",
+      "pungency"
+    ]
   },
   {
     "word": "soxae",
     "english_equiv": "Body-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a body.",
+    "definition": "Made of, resembling, or relating to body.",
     "root": "soxa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "body-like",
+      "resembling body"
+    ]
   },
   {
     "word": "spelue",
-    "english_equiv": "Marked by game",
+    "english_equiv": "Recreational",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by game.",
+    "definition": "Characterized by or relating to game; recreational.",
     "root": "spelu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "recreational"
+    ]
   },
   {
     "word": "spicupue",
-    "english_equiv": "Marked by loyalty",
+    "english_equiv": "Loyal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by loyalty.",
+    "definition": "Characterized by or relating to loyalty; loyal.",
     "root": "spicupu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "loyal"
+    ]
   },
   {
     "word": "splakae",
     "english_equiv": "Cheek-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a cheek.",
+    "definition": "Made of, resembling, or relating to cheek.",
     "root": "splaka",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "cheek-like",
+      "resembling cheek"
+    ]
   },
   {
     "word": "splyxia",
-    "english_equiv": "Doer of chop",
+    "english_equiv": "Chopper",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'chop'.",
+    "definition": "A person who chops; a chopper.",
     "root": "splyxi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "chopper"
+    ]
   },
   {
     "word": "spujubae",
     "english_equiv": "Squid-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a squid.",
+    "definition": "Made of, resembling, or relating to squid.",
     "root": "spujuba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "squid-like",
+      "resembling squid"
+    ]
   },
   {
     "word": "staloe",
@@ -13346,25 +15704,35 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to star.",
     "root": "stalo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "star-like",
+      "resembling star"
+    ]
   },
   {
     "word": "stelia",
-    "english_equiv": "Doer of take",
+    "english_equiv": "Taker",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'take'.",
+    "definition": "A person who takes; a taker.",
     "root": "steli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "taker"
+    ]
   },
   {
     "word": "stepue",
-    "english_equiv": "Marked by story",
+    "english_equiv": "Narrative",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by story.",
+    "definition": "Characterized by or relating to story; narrative.",
     "root": "stepu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "narrative"
+    ]
   },
   {
     "word": "stiroe",
@@ -13373,7 +15741,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to line.",
     "root": "stiro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "line-like",
+      "resembling line"
+    ]
   },
   {
     "word": "stiroi",
@@ -13390,12 +15762,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "stomia",
-    "english_equiv": "Doer of give",
+    "english_equiv": "Donor",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'give'.",
+    "definition": "A person who gives; a donor.",
     "root": "stomi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "donor"
+    ]
   },
   {
     "word": "stomio",
@@ -13413,12 +15788,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "stomiu",
-    "english_equiv": "Act of give",
+    "english_equiv": "Giving",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'give'.",
+    "definition": "The act of giving; provision, donation.",
     "root": "stomi",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "giving",
+      "provision",
+      "donation"
+    ]
   },
   {
     "word": "stortoe",
@@ -13427,16 +15807,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to slab.",
     "root": "storto",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "slab-like",
+      "resembling slab"
+    ]
   },
   {
     "word": "stramue",
-    "english_equiv": "Marked by team",
+    "english_equiv": "Collaborative",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by team.",
+    "definition": "Characterized by or relating to team; collaborative.",
     "root": "stramu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "collaborative"
+    ]
   },
   {
     "word": "strenei",
@@ -13453,12 +15840,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "stricia",
-    "english_equiv": "Doer of to translate",
+    "english_equiv": "Translator",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to translate'.",
+    "definition": "A person who translates; a translator.",
     "root": "strici",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "translator"
+    ]
   },
   {
     "word": "stricio",
@@ -13513,12 +15903,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "sudia",
-    "english_equiv": "Doer of push",
+    "english_equiv": "Pusher",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'push'.",
+    "definition": "A person who pushes; a pusher.",
     "root": "sudi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "pusher"
+    ]
   },
   {
     "word": "sudie",
@@ -13536,21 +15929,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "sufia",
-    "english_equiv": "Doer of turn",
+    "english_equiv": "Turner",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'turn'.",
+    "definition": "A person who turns; a turner.",
     "root": "sufi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "turner"
+    ]
   },
   {
     "word": "suglasae",
     "english_equiv": "Zombie-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a zombie.",
+    "definition": "Made of, resembling, or relating to zombie.",
     "root": "suglasa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "zombie-like",
+      "resembling zombie"
+    ]
   },
   {
     "word": "sukei",
@@ -13572,7 +15972,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to dye.",
     "root": "sulpo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "dye-like",
+      "resembling dye"
+    ]
   },
   {
     "word": "sulpoi",
@@ -13594,16 +15998,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to screen.",
     "root": "susno",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "screen-like",
+      "resembling screen"
+    ]
   },
   {
     "word": "swamia",
-    "english_equiv": "Doer of put",
+    "english_equiv": "Placer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'put'.",
+    "definition": "A person who puts; a placer.",
     "root": "swami",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "placer"
+    ]
   },
   {
     "word": "swesoe",
@@ -13612,7 +16023,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to sweat.",
     "root": "sweso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "sweat-like",
+      "resembling sweat"
+    ]
   },
   {
     "word": "swesoi",
@@ -13629,21 +16044,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "swucue",
-    "english_equiv": "Marked by relief",
+    "english_equiv": "Relieving",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by relief.",
+    "definition": "Characterized by or relating to relief; relieving.",
     "root": "swucu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "relieving"
+    ]
   },
   {
     "word": "sycae",
     "english_equiv": "Seed-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a seed.",
+    "definition": "Made of, resembling, or relating to seed.",
     "root": "syca",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "seed-like",
+      "resembling seed"
+    ]
   },
   {
     "word": "sydoa",
@@ -13688,30 +16110,39 @@ const derivedDictionaryData = [
   },
   {
     "word": "synarue",
-    "english_equiv": "Marked by condition",
+    "english_equiv": "Conditional",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by condition.",
+    "definition": "Characterized by or relating to condition; conditional.",
     "root": "synaru",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "conditional"
+    ]
   },
   {
     "word": "sysue",
-    "english_equiv": "Marked by boredom",
+    "english_equiv": "Tedious",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by boredom.",
+    "definition": "Characterized by or relating to boredom; tedious.",
     "root": "sysu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "tedious"
+    ]
   },
   {
     "word": "tafedue",
-    "english_equiv": "Marked by wednesday",
+    "english_equiv": "Wednesday",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by wednesday.",
+    "definition": "Characterized by or relating to wednesday; wednesday.",
     "root": "tafedu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "wednesday"
+    ]
   },
   {
     "word": "tafei",
@@ -13728,12 +16159,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "taicue",
-    "english_equiv": "Marked by party",
+    "english_equiv": "Festive",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by party.",
+    "definition": "Characterized by or relating to party; festive.",
     "root": "taicu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "festive"
+    ]
   },
   {
     "word": "taicui",
@@ -13751,12 +16185,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "tajue",
-    "english_equiv": "Marked by envy",
+    "english_equiv": "Jealous",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by envy.",
+    "definition": "Characterized by or relating to envy; jealous.",
     "root": "taju",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "jealous"
+    ]
   },
   {
     "word": "tajui",
@@ -13827,21 +16264,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "tankoe",
-    "english_equiv": "Sugar-like",
+    "english_equiv": "Sugary",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to sugar.",
+    "definition": "Made of, resembling, or relating to sugar; sugary.",
     "root": "tanko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "sugary"
+    ]
   },
   {
     "word": "taqae",
     "english_equiv": "Brother-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a brother.",
+    "definition": "Made of, resembling, or relating to brother.",
     "root": "taqa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "brother-like",
+      "resembling brother"
+    ]
   },
   {
     "word": "taqau",
@@ -13857,12 +16301,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "tazia",
-    "english_equiv": "Doer of love",
+    "english_equiv": "Lover",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'love'.",
+    "definition": "A person who loves; a lover.",
     "root": "tazi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "lover"
+    ]
   },
   {
     "word": "tazie",
@@ -13894,19 +16341,26 @@ const derivedDictionaryData = [
     "word": "tefamae",
     "english_equiv": "Hip-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a hip.",
+    "definition": "Made of, resembling, or relating to hip.",
     "root": "tefama",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "hip-like",
+      "resembling hip"
+    ]
   },
   {
     "word": "tehidia",
-    "english_equiv": "Doer of to study",
+    "english_equiv": "Student",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to study'.",
+    "definition": "A person who studies; a student.",
     "root": "tehidi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "student"
+    ]
   },
   {
     "word": "telfoe",
@@ -13915,16 +16369,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to telephone.",
     "root": "telfo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "telephone-like",
+      "resembling telephone"
+    ]
   },
   {
     "word": "teque",
-    "english_equiv": "Marked by moment",
+    "english_equiv": "Momentary",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by moment.",
+    "definition": "Characterized by or relating to moment; momentary.",
     "root": "tequ",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "momentary"
+    ]
   },
   {
     "word": "tesoe",
@@ -13933,25 +16394,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to tea.",
     "root": "teso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "tea-like",
+      "resembling tea"
+    ]
   },
   {
     "word": "tifavae",
     "english_equiv": "Bush-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a bush.",
+    "definition": "Made of, resembling, or relating to bush.",
     "root": "tifava",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "bush-like",
+      "resembling bush"
+    ]
   },
   {
     "word": "timufue",
-    "english_equiv": "Marked by dusk",
+    "english_equiv": "Dusk",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by dusk.",
+    "definition": "Characterized by or relating to dusk; dusk.",
     "root": "timufu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "dusk"
+    ]
   },
   {
     "word": "timyboe",
@@ -13974,7 +16446,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to horizon.",
     "root": "tisoslo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "horizon-like",
+      "resembling horizon"
+    ]
   },
   {
     "word": "tocei",
@@ -13991,12 +16467,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "toceu",
-    "english_equiv": "Sorryness",
+    "english_equiv": "Contrition",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being sorry.",
+    "definition": "The quality or state of being sorry; contrition.",
     "root": "toce",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "contrition",
+      "remorse"
+    ]
   },
   {
     "word": "todye",
@@ -14026,12 +16506,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "todyria",
-    "english_equiv": "Doer of raise",
+    "english_equiv": "Lifter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'raise'.",
+    "definition": "A person who raises; a lifter.",
     "root": "todyri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "lifter"
+    ]
   },
   {
     "word": "todyu",
@@ -14054,25 +16537,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to field.",
     "root": "tofakro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "field-like",
+      "resembling field"
+    ]
   },
   {
     "word": "tofrae",
     "english_equiv": "Aunt-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a aunt.",
+    "definition": "Made of, resembling, or relating to aunt.",
     "root": "tofra",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "aunt-like",
+      "resembling aunt"
+    ]
   },
   {
     "word": "toilia",
-    "english_equiv": "Doer of lend",
+    "english_equiv": "Lender",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'lend'.",
+    "definition": "A person who lends; a lender.",
     "root": "toili",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "lender"
+    ]
   },
   {
     "word": "toiliu",
@@ -14094,25 +16588,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to cross.",
     "root": "tolkywo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "cross-like",
+      "resembling cross"
+    ]
   },
   {
     "word": "topzae",
     "english_equiv": "Chest-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a chest.",
+    "definition": "Made of, resembling, or relating to chest.",
     "root": "topza",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "chest-like",
+      "resembling chest"
+    ]
   },
   {
     "word": "tovnia",
-    "english_equiv": "Doer of to establish",
+    "english_equiv": "Founder",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to establish'.",
+    "definition": "A person who establishes; a founder.",
     "root": "tovni",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "founder"
+    ]
   },
   {
     "word": "toxua",
@@ -14128,48 +16633,65 @@ const derivedDictionaryData = [
   },
   {
     "word": "toxue",
-    "english_equiv": "Marked by psychology",
+    "english_equiv": "Psychological",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by psychology.",
+    "definition": "Characterized by or relating to psychology; psychological.",
     "root": "toxu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "psychological"
+    ]
   },
   {
     "word": "traxae",
     "english_equiv": "Kidney-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a kidney.",
+    "definition": "Made of, resembling, or relating to kidney.",
     "root": "traxa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "kidney-like",
+      "resembling kidney"
+    ]
   },
   {
     "word": "triruzue",
-    "english_equiv": "Marked by frustration",
+    "english_equiv": "Frustrating",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by frustration.",
+    "definition": "Characterized by or relating to frustration; frustrating.",
     "root": "triruzu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "frustrating"
+    ]
   },
   {
     "word": "truhue",
-    "english_equiv": "Marked by awe",
+    "english_equiv": "Wondrous",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by awe.",
+    "definition": "Characterized by or relating to awe; wondrous.",
     "root": "truhu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "wondrous"
+    ]
   },
   {
     "word": "tryndae",
     "english_equiv": "Ankle-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a ankle.",
+    "definition": "Made of, resembling, or relating to ankle.",
     "root": "trynda",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "ankle-like",
+      "resembling ankle"
+    ]
   },
   {
     "word": "tsakei",
@@ -14186,12 +16708,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "tsakeu",
-    "english_equiv": "Angryness",
+    "english_equiv": "Anger",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being angry.",
+    "definition": "The quality or state of being angry; anger.",
     "root": "tsake",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "anger"
+    ]
   },
   {
     "word": "tsengei",
@@ -14208,12 +16733,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "tsia",
-    "english_equiv": "Doer of leave",
+    "english_equiv": "Leaver",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'leave'.",
+    "definition": "A person who leaves; a leaver.",
     "root": "tsi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "leaver"
+    ]
   },
   {
     "word": "tsiu",
@@ -14230,30 +16758,39 @@ const derivedDictionaryData = [
   },
   {
     "word": "tsorfoe",
-    "english_equiv": "Silver-like",
+    "english_equiv": "Silvery",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to silver.",
+    "definition": "Made of, resembling, or relating to silver; silvery.",
     "root": "tsorfo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "silvery"
+    ]
   },
   {
     "word": "tsotue",
-    "english_equiv": "Marked by contentment",
+    "english_equiv": "Content",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by contentment.",
+    "definition": "Characterized by or relating to contentment; content.",
     "root": "tsotu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "content"
+    ]
   },
   {
     "word": "tsytia",
-    "english_equiv": "Doer of search",
+    "english_equiv": "Seeker",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'search'.",
+    "definition": "A person who searches; a seeker.",
     "root": "tsyti",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "seeker"
+    ]
   },
   {
     "word": "tuloe",
@@ -14262,7 +16799,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bottle.",
     "root": "tulo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bottle-like",
+      "resembling bottle"
+    ]
   },
   {
     "word": "tuloi",
@@ -14278,12 +16819,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "tusue",
-    "english_equiv": "Marked by winter",
+    "english_equiv": "Wintry",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by winter.",
+    "definition": "Characterized by or relating to winter; wintry.",
     "root": "tusu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "wintry"
+    ]
   },
   {
     "word": "tutei",
@@ -14316,10 +16860,13 @@ const derivedDictionaryData = [
     "word": "tuteu",
     "english_equiv": "Sweetness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being sweet.",
+    "definition": "The quality or state of being sweet; sweetness.",
     "root": "tute",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "sweetness"
+    ]
   },
   {
     "word": "tykoe",
@@ -14328,7 +16875,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to material.",
     "root": "tyko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "material-like",
+      "resembling material"
+    ]
   },
   {
     "word": "ubmei",
@@ -14345,12 +16896,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "ubmeu",
-    "english_equiv": "Publicness",
+    "english_equiv": "Publicity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being public.",
+    "definition": "The quality or state of being public; publicity.",
     "root": "ubme",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "publicity",
+      "publicness"
+    ]
   },
   {
     "word": "ucdei",
@@ -14367,21 +16922,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "ucdeu",
-    "english_equiv": "Proudness",
+    "english_equiv": "Pride",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being proud.",
+    "definition": "The quality or state of being proud; pride.",
     "root": "ucde",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "pride"
+    ]
   },
   {
     "word": "uckae",
     "english_equiv": "Seedling-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a seedling.",
+    "definition": "Made of, resembling, or relating to seedling.",
     "root": "ucka",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "seedling-like",
+      "resembling seedling"
+    ]
   },
   {
     "word": "uctoe",
@@ -14390,7 +16952,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to spoon.",
     "root": "ucto",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "spoon-like",
+      "resembling spoon"
+    ]
   },
   {
     "word": "udboe",
@@ -14399,7 +16965,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to button.",
     "root": "udbo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "button-like",
+      "resembling button"
+    ]
   },
   {
     "word": "udcei",
@@ -14418,19 +16988,25 @@ const derivedDictionaryData = [
     "word": "udceu",
     "english_equiv": "Tightness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being tight.",
+    "definition": "The quality or state of being tight; tightness.",
     "root": "udce",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "tightness"
+    ]
   },
   {
     "word": "udzidue",
-    "english_equiv": "Marked by appearance",
+    "english_equiv": "Apparent",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by appearance.",
+    "definition": "Characterized by or relating to appearance; apparent.",
     "root": "udzidu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "apparent"
+    ]
   },
   {
     "word": "udzidui",
@@ -14453,7 +17029,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to message.",
     "root": "ufaxo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "message-like",
+      "resembling message"
+    ]
   },
   {
     "word": "ufaxoi",
@@ -14470,21 +17050,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "ufdia",
-    "english_equiv": "Doer of shake",
+    "english_equiv": "Shaker",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'shake'.",
+    "definition": "A person who shakes; a shaker.",
     "root": "ufdi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "shaker"
+    ]
   },
   {
     "word": "ufnue",
-    "english_equiv": "Marked by conflict",
+    "english_equiv": "Contentious",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by conflict.",
+    "definition": "Characterized by or relating to conflict; contentious.",
     "root": "ufnu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "contentious"
+    ]
   },
   {
     "word": "ugtei",
@@ -14501,12 +17087,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "ugvue",
-    "english_equiv": "Marked by ambition",
+    "english_equiv": "Ambitious",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by ambition.",
+    "definition": "Characterized by or relating to ambition; ambitious.",
     "root": "ugvu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "ambitious"
+    ]
   },
   {
     "word": "uhoe",
@@ -14515,16 +17104,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to flag.",
     "root": "uho",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "flag-like",
+      "resembling flag"
+    ]
   },
   {
     "word": "uibue",
-    "english_equiv": "Marked by risk",
+    "english_equiv": "Risky",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by risk.",
+    "definition": "Characterized by or relating to risk; risky.",
     "root": "uibu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "risky"
+    ]
   },
   {
     "word": "uibui",
@@ -14541,21 +17137,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "ukwia",
-    "english_equiv": "Doer of to judge",
+    "english_equiv": "Judge",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to judge'.",
+    "definition": "A person who judges; a judge.",
     "root": "ukwi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "judge"
+    ]
   },
   {
     "word": "ukwolue",
-    "english_equiv": "Marked by embarrassment",
+    "english_equiv": "Embarrassing",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by embarrassment.",
+    "definition": "Characterized by or relating to embarrassment; embarrassing.",
     "root": "ukwolu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "embarrassing"
+    ]
   },
   {
     "word": "ulimei",
@@ -14572,21 +17174,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "ultue",
-    "english_equiv": "Marked by context",
+    "english_equiv": "Contextual",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by context.",
+    "definition": "Characterized by or relating to context; contextual.",
     "root": "ultu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "contextual"
+    ]
   },
   {
     "word": "umetia",
-    "english_equiv": "Doer of suggest",
+    "english_equiv": "Proposer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'suggest'.",
+    "definition": "A person who suggests; a proposer.",
     "root": "umeti",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "proposer"
+    ]
   },
   {
     "word": "umetiu",
@@ -14604,12 +17212,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "umzia",
-    "english_equiv": "Doer of welcome",
+    "english_equiv": "Greeter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'welcome'.",
+    "definition": "A person who welcomes; a greeter.",
     "root": "umzi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "greeter"
+    ]
   },
   {
     "word": "untexoe",
@@ -14618,7 +17229,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to app.",
     "root": "untexo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "app-like",
+      "resembling app"
+    ]
   },
   {
     "word": "unyhae",
@@ -14641,7 +17256,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to pillow.",
     "root": "uovo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "pillow-like",
+      "resembling pillow"
+    ]
   },
   {
     "word": "upfei",
@@ -14658,39 +17277,52 @@ const derivedDictionaryData = [
   },
   {
     "word": "upfeu",
-    "english_equiv": "Unequalness",
+    "english_equiv": "Inequality",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being unequal.",
+    "definition": "The quality or state of being unequal; inequality.",
     "root": "upfe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "inequality"
+    ]
   },
   {
     "word": "uptae",
     "english_equiv": "Eagle-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a eagle.",
+    "definition": "Made of, resembling, or relating to eagle.",
     "root": "upta",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "eagle-like",
+      "resembling eagle"
+    ]
   },
   {
     "word": "upvia",
-    "english_equiv": "Doer of stretch",
+    "english_equiv": "Stretcher",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'stretch'.",
+    "definition": "A person who stretches; a stretcher.",
     "root": "upvi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "stretcher"
+    ]
   },
   {
     "word": "upycia",
-    "english_equiv": "Doer of look",
+    "english_equiv": "Viewer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'look'.",
+    "definition": "A person who looks; a viewer.",
     "root": "upyci",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "viewer"
+    ]
   },
   {
     "word": "uquo",
@@ -14736,19 +17368,25 @@ const derivedDictionaryData = [
     "word": "usateu",
     "english_equiv": "Straightness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being straight.",
+    "definition": "The quality or state of being straight; straightness.",
     "root": "usate",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "straightness"
+    ]
   },
   {
     "word": "usia",
-    "english_equiv": "Doer of sleep",
+    "english_equiv": "Sleeper",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'sleep'.",
+    "definition": "A person who sleeps; a sleeper.",
     "root": "usi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "sleeper"
+    ]
   },
   {
     "word": "usiu",
@@ -14780,19 +17418,27 @@ const derivedDictionaryData = [
     "word": "uvgae",
     "english_equiv": "Toe-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a toe.",
+    "definition": "Made of, resembling, or relating to toe.",
     "root": "uvga",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "toe-like",
+      "resembling toe"
+    ]
   },
   {
     "word": "uwae",
     "english_equiv": "Onion-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a onion.",
+    "definition": "Made of, resembling, or relating to onion.",
     "root": "uwa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "onion-like",
+      "resembling onion"
+    ]
   },
   {
     "word": "uxbei",
@@ -14811,19 +17457,25 @@ const derivedDictionaryData = [
     "word": "uxbeu",
     "english_equiv": "Looseness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being loose.",
+    "definition": "The quality or state of being loose; looseness.",
     "root": "uxbe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "looseness"
+    ]
   },
   {
     "word": "uxkue",
-    "english_equiv": "Marked by success",
+    "english_equiv": "Successful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by success.",
+    "definition": "Characterized by or relating to success; successful.",
     "root": "uxku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "successful"
+    ]
   },
   {
     "word": "uxkui",
@@ -14839,12 +17491,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "uzkia",
-    "english_equiv": "Doer of hunt",
+    "english_equiv": "Hunter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'hunt'.",
+    "definition": "A person who hunts; a hunter.",
     "root": "uzki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "hunter"
+    ]
   },
   {
     "word": "uzumei",
@@ -14861,12 +17516,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "vahimia",
-    "english_equiv": "Doer of handle",
+    "english_equiv": "Handler",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'handle'.",
+    "definition": "A person who handles; a handler.",
     "root": "vahimi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "handler"
+    ]
   },
   {
     "word": "value",
@@ -14883,21 +17541,28 @@ const derivedDictionaryData = [
   },
   {
     "word": "vamursue",
-    "english_equiv": "Marked by eclipse",
+    "english_equiv": "Eclipse-related",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by eclipse.",
+    "definition": "Characterized by or relating to eclipse; eclipse-related.",
     "root": "vamursu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "eclipse-related"
+    ]
   },
   {
     "word": "vefae",
     "english_equiv": "Lung-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a lung.",
+    "definition": "Made of, resembling, or relating to lung.",
     "root": "vefa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "lung-like",
+      "resembling lung"
+    ]
   },
   {
     "word": "vekei",
@@ -14916,10 +17581,14 @@ const derivedDictionaryData = [
     "word": "vekeu",
     "english_equiv": "Lowness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being low.",
+    "definition": "The quality or state of being low; lowness.",
     "root": "veke",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "lowness",
+      "shortness"
+    ]
   },
   {
     "word": "vengoe",
@@ -14928,25 +17597,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to flint.",
     "root": "vengo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "flint-like",
+      "resembling flint"
+    ]
   },
   {
     "word": "veponkue",
-    "english_equiv": "Marked by surprise",
+    "english_equiv": "Surprising",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by surprise.",
+    "definition": "Characterized by or relating to surprise; surprising.",
     "root": "veponku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "surprising"
+    ]
   },
   {
     "word": "vesmae",
     "english_equiv": "Liver-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a liver.",
+    "definition": "Made of, resembling, or relating to liver.",
     "root": "vesma",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "liver-like",
+      "resembling liver"
+    ]
   },
   {
     "word": "vexue",
@@ -14963,12 +17643,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "viancia",
-    "english_equiv": "Doer of to dare",
+    "english_equiv": "Daredevil",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to dare'.",
+    "definition": "A person who dares; a daredevil.",
     "root": "vianci",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "daredevil"
+    ]
   },
   {
     "word": "viancie",
@@ -15026,12 +17709,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "vifia",
-    "english_equiv": "Doer of boil",
+    "english_equiv": "Boiler",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'boil'.",
+    "definition": "A person who boils; a boiler.",
     "root": "vifi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "boiler"
+    ]
   },
   {
     "word": "viketsoe",
@@ -15064,19 +17750,26 @@ const derivedDictionaryData = [
     "word": "vildeu",
     "english_equiv": "Directness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being direct.",
+    "definition": "The quality or state of being direct; directness.",
     "root": "vilde",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "directness"
+    ]
   },
   {
     "word": "virae",
     "english_equiv": "Elephant-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a elephant.",
+    "definition": "Made of, resembling, or relating to elephant.",
     "root": "vira",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "elephant-like",
+      "resembling elephant"
+    ]
   },
   {
     "word": "vispoa",
@@ -15098,16 +17791,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to letter.",
     "root": "vispo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "letter-like",
+      "resembling letter"
+    ]
   },
   {
     "word": "vivue",
-    "english_equiv": "Marked by evening",
+    "english_equiv": "Evening",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by evening.",
+    "definition": "Characterized by or relating to evening; evening.",
     "root": "vivu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "evening"
+    ]
   },
   {
     "word": "vixoe",
@@ -15116,25 +17816,36 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bucket.",
     "root": "vixo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bucket-like",
+      "resembling bucket"
+    ]
   },
   {
     "word": "vofue",
-    "english_equiv": "Marked by spring",
+    "english_equiv": "Vernal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by spring.",
+    "definition": "Characterized by or relating to spring; vernal.",
     "root": "vofu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "vernal"
+    ]
   },
   {
     "word": "vohae",
     "english_equiv": "Mouse-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a mouse.",
+    "definition": "Made of, resembling, or relating to mouse.",
     "root": "voha",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "mouse-like",
+      "resembling mouse"
+    ]
   },
   {
     "word": "vojoe",
@@ -15165,12 +17876,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "vokreu",
-    "english_equiv": "Greedyness",
+    "english_equiv": "Greed",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being greedy.",
+    "definition": "The quality or state of being greedy; greed.",
     "root": "vokre",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "greed"
+    ]
   },
   {
     "word": "vomei",
@@ -15192,7 +17906,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to stick.",
     "root": "vubro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "stick-like",
+      "resembling stick"
+    ]
   },
   {
     "word": "vudipie",
@@ -15215,7 +17933,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to template.",
     "root": "vuglo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "template-like",
+      "resembling template"
+    ]
   },
   {
     "word": "vuwoe",
@@ -15224,16 +17946,24 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bell.",
     "root": "vuwo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bell-like",
+      "resembling bell"
+    ]
   },
   {
     "word": "vyflae",
     "english_equiv": "Rice-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a rice.",
+    "definition": "Made of, resembling, or relating to rice.",
     "root": "vyfla",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "rice-like",
+      "resembling rice"
+    ]
   },
   {
     "word": "vyhei",
@@ -15252,10 +17982,14 @@ const derivedDictionaryData = [
     "word": "vyheu",
     "english_equiv": "Mildness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being mild.",
+    "definition": "The quality or state of being mild; mildness.",
     "root": "vyhe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "mildness",
+      "blandness"
+    ]
   },
   {
     "word": "vymae",
@@ -15278,34 +18012,48 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to desk.",
     "root": "vyno",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "desk-like",
+      "resembling desk"
+    ]
   },
   {
     "word": "vywue",
-    "english_equiv": "Marked by rhythm",
+    "english_equiv": "Rhythmic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by rhythm.",
+    "definition": "Characterized by or relating to rhythm; rhythmic.",
     "root": "vywu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "rhythmic"
+    ]
   },
   {
     "word": "vyzia",
-    "english_equiv": "Doer of escape",
+    "english_equiv": "Escapee",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'escape'.",
+    "definition": "A person who escapes; an escapee.",
     "root": "vyzi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "escapee"
+    ]
   },
   {
     "word": "vyziu",
-    "english_equiv": "Act of escape",
+    "english_equiv": "Escape",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'escape'.",
+    "definition": "The act of escaping; an escape.",
     "root": "vyzi",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "escape",
+      "getaway"
+    ]
   },
   {
     "word": "wablei",
@@ -15322,12 +18070,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "wafria",
-    "english_equiv": "Doer of to lose",
+    "english_equiv": "Loser",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to lose'.",
+    "definition": "A person who loses; a loser.",
     "root": "wafri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "loser"
+    ]
   },
   {
     "word": "wagei",
@@ -15346,10 +18097,13 @@ const derivedDictionaryData = [
     "word": "wageu",
     "english_equiv": "Softness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being soft.",
+    "definition": "The quality or state of being soft; softness.",
     "root": "wage",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "softness"
+    ]
   },
   {
     "word": "wanei",
@@ -15366,13 +18120,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "waneu",
-    "english_equiv": "Leftness",
+    "english_equiv": "The left",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being left.",
+    "definition": "The left-hand side or direction; the left.",
     "root": "wane",
     "derivation_path": "e→u",
     "path_gloss": "Modifier -> Abstract Noun (quality)",
-    "reviewed": "baseline"
+    "reviewed": "baseline",
+    "senses": [
+      "the left",
+      "left side"
+    ]
   },
   {
     "word": "wansoe",
@@ -15381,7 +18139,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to environment.",
     "root": "wanso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "environment-like",
+      "resembling environment"
+    ]
   },
   {
     "word": "wapsei",
@@ -15400,10 +18162,13 @@ const derivedDictionaryData = [
     "word": "wapseu",
     "english_equiv": "Flatness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being flat.",
+    "definition": "The quality or state of being flat; flatness.",
     "root": "wapse",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "flatness"
+    ]
   },
   {
     "word": "waskea",
@@ -15433,48 +18198,67 @@ const derivedDictionaryData = [
   },
   {
     "word": "waskeu",
-    "english_equiv": "Oldness",
+    "english_equiv": "Age",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being old.",
+    "definition": "The quality or state of being old; age.",
     "root": "waske",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "age",
+      "oldness"
+    ]
   },
   {
     "word": "wasmanae",
     "english_equiv": "Grandmother-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a grandmother.",
+    "definition": "Made of, resembling, or relating to grandmother.",
     "root": "wasmana",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "grandmother-like",
+      "resembling grandmother"
+    ]
   },
   {
     "word": "wasnupae",
     "english_equiv": "Grandparent-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a grandparent.",
+    "definition": "Made of, resembling, or relating to grandparent.",
     "root": "wasnupa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "grandparent-like",
+      "resembling grandparent"
+    ]
   },
   {
     "word": "waspebae",
     "english_equiv": "Grandfather-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a grandfather.",
+    "definition": "Made of, resembling, or relating to grandfather.",
     "root": "waspeba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "grandfather-like",
+      "resembling grandfather"
+    ]
   },
   {
     "word": "wastia",
-    "english_equiv": "Doer of wait",
+    "english_equiv": "Waiter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'wait'.",
+    "definition": "A person who waits; a waiter.",
     "root": "wasti",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "waiter"
+    ]
   },
   {
     "word": "watosmoe",
@@ -15483,16 +18267,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to rainbow.",
     "root": "watosmo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "rainbow-like",
+      "resembling rainbow"
+    ]
   },
   {
     "word": "waxia",
-    "english_equiv": "Doer of to exercise",
+    "english_equiv": "Exerciser",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to exercise'.",
+    "definition": "A person who exercises; an exerciser.",
     "root": "waxi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "exerciser"
+    ]
   },
   {
     "word": "waxiu",
@@ -15524,19 +18315,25 @@ const derivedDictionaryData = [
     "word": "wazeu",
     "english_equiv": "Weakness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being weak.",
+    "definition": "The quality or state of being weak; weakness.",
     "root": "waze",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "weakness"
+    ]
   },
   {
     "word": "wecdue",
-    "english_equiv": "Marked by yesterday",
+    "english_equiv": "Yesterday's",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by yesterday.",
+    "definition": "Characterized by or relating to yesterday; yesterday's.",
     "root": "wecdu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "yesterday's"
+    ]
   },
   {
     "word": "wecei",
@@ -15553,48 +18350,63 @@ const derivedDictionaryData = [
   },
   {
     "word": "weceu",
-    "english_equiv": "Well (satisfactoryness",
+    "english_equiv": "Wellness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being well (satisfactory.",
+    "definition": "The quality or state of being well; wellness.",
     "root": "wece",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "wellness"
+    ]
   },
   {
     "word": "wedacue",
-    "english_equiv": "Marked by past",
+    "english_equiv": "Bygone",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by past.",
+    "definition": "Characterized by or relating to past; bygone.",
     "root": "wedacu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "bygone"
+    ]
   },
   {
     "word": "wefuhue",
-    "english_equiv": "Marked by climate",
+    "english_equiv": "Climatic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by climate.",
+    "definition": "Characterized by or relating to climate; climatic.",
     "root": "wefuhu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "climatic"
+    ]
   },
   {
     "word": "wegue",
-    "english_equiv": "Marked by angle",
+    "english_equiv": "Angular",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by angle.",
+    "definition": "Characterized by or relating to angle; angular.",
     "root": "wegu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "angular"
+    ]
   },
   {
     "word": "welia",
-    "english_equiv": "Doer of interrupt",
+    "english_equiv": "Interrupter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'interrupt'.",
+    "definition": "A person who interrupts; an interrupter.",
     "root": "weli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "interrupter"
+    ]
   },
   {
     "word": "wentoe",
@@ -15603,7 +18415,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to ladder.",
     "root": "wento",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "ladder-like",
+      "resembling ladder"
+    ]
   },
   {
     "word": "weokei",
@@ -15636,10 +18452,13 @@ const derivedDictionaryData = [
     "word": "weokeu",
     "english_equiv": "Roundness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being round.",
+    "definition": "The quality or state of being round; roundness.",
     "root": "weoke",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "roundness"
+    ]
   },
   {
     "word": "weoroe",
@@ -15648,7 +18467,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to ball.",
     "root": "weoro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "ball-like",
+      "resembling ball"
+    ]
   },
   {
     "word": "wiblei",
@@ -15665,12 +18488,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "wigakrue",
-    "english_equiv": "Marked by trust",
+    "english_equiv": "Trustworthy",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by trust.",
+    "definition": "Characterized by or relating to trust; trustworthy.",
     "root": "wigakru",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "trustworthy"
+    ]
   },
   {
     "word": "wigakrui",
@@ -15686,12 +18512,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "wikia",
-    "english_equiv": "Doer of squeeze",
+    "english_equiv": "Squeezer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'squeeze'.",
+    "definition": "A person who squeezes; a squeezer.",
     "root": "wiki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "squeezer"
+    ]
   },
   {
     "word": "wiloe",
@@ -15700,7 +18529,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to window.",
     "root": "wilo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "window-like",
+      "resembling window"
+    ]
   },
   {
     "word": "winroe",
@@ -15709,34 +18542,48 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to wine.",
     "root": "winro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "wine-like",
+      "resembling wine"
+    ]
   },
   {
     "word": "wiranoe",
-    "english_equiv": "Glass-like",
+    "english_equiv": "Glassy",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to glass.",
+    "definition": "Made of, resembling, or relating to glass; glassy.",
     "root": "wirano",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "glassy"
+    ]
   },
   {
     "word": "witue",
-    "english_equiv": "Marked by color",
+    "english_equiv": "Colorful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by color.",
+    "definition": "Characterized by or relating to color; colorful.",
     "root": "witu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "colorful"
+    ]
   },
   {
     "word": "wizae",
     "english_equiv": "Wing-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a wing.",
+    "definition": "Made of, resembling, or relating to wing.",
     "root": "wiza",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "wing-like",
+      "resembling wing"
+    ]
   },
   {
     "word": "wodoboe",
@@ -15745,16 +18592,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to potato.",
     "root": "wodobo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "potato-like",
+      "resembling potato"
+    ]
   },
   {
     "word": "wogia",
-    "english_equiv": "Doer of hope",
+    "english_equiv": "Hoper",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'hope'.",
+    "definition": "A person who hopes; a hoper.",
     "root": "wogi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "hoper"
+    ]
   },
   {
     "word": "wogiu",
@@ -15773,19 +18627,25 @@ const derivedDictionaryData = [
     "word": "womae",
     "english_equiv": "Worm-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a worm.",
+    "definition": "Made of, resembling, or relating to worm; worm-like.",
     "root": "woma",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "worm-like"
+    ]
   },
   {
     "word": "worue",
-    "english_equiv": "Marked by area",
+    "english_equiv": "Regional",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by area.",
+    "definition": "Characterized by or relating to area; regional.",
     "root": "woru",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "regional"
+    ]
   },
   {
     "word": "wosei",
@@ -15804,19 +18664,25 @@ const derivedDictionaryData = [
     "word": "woseu",
     "english_equiv": "Shortness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being short.",
+    "definition": "The quality or state of being short; shortness.",
     "root": "wose",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "shortness"
+    ]
   },
   {
     "word": "wotipia",
-    "english_equiv": "Doer of delete",
+    "english_equiv": "Deleter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'delete'.",
+    "definition": "A person who deletes; a deleter.",
     "root": "wotipi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "deleter"
+    ]
   },
   {
     "word": "wozuproe",
@@ -15825,16 +18691,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to spear.",
     "root": "wozupro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "spear-like",
+      "resembling spear"
+    ]
   },
   {
     "word": "wubia",
-    "english_equiv": "Doer of bend",
+    "english_equiv": "Bender",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'bend'.",
+    "definition": "A person who bends; a bender.",
     "root": "wubi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "bender"
+    ]
   },
   {
     "word": "wujoa",
@@ -15893,10 +18766,13 @@ const derivedDictionaryData = [
     "word": "wukeu",
     "english_equiv": "Dryness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being dry.",
+    "definition": "The quality or state of being dry; dryness.",
     "root": "wuke",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "dryness"
+    ]
   },
   {
     "word": "wuswoe",
@@ -15905,7 +18781,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to nest.",
     "root": "wuswo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "nest-like",
+      "resembling nest"
+    ]
   },
   {
     "word": "wutroe",
@@ -15955,7 +18835,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to soap.",
     "root": "wyqo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "soap-like",
+      "resembling soap"
+    ]
   },
   {
     "word": "xabesoe",
@@ -15964,7 +18848,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to wind.",
     "root": "xabeso",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "wind-like",
+      "resembling wind"
+    ]
   },
   {
     "word": "xadoroa",
@@ -15986,7 +18874,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to river.",
     "root": "xadoro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "river-like",
+      "resembling river"
+    ]
   },
   {
     "word": "xakoe",
@@ -15995,16 +18887,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to hail.",
     "root": "xako",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "hail-like",
+      "resembling hail"
+    ]
   },
   {
     "word": "xalia",
-    "english_equiv": "Doer of move",
+    "english_equiv": "Mover",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'move'.",
+    "definition": "A person who moves; a mover.",
     "root": "xali",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "mover"
+    ]
   },
   {
     "word": "xalie",
@@ -16049,12 +18948,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "xareu",
-    "english_equiv": "Clearness",
+    "english_equiv": "Clarity",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being clear.",
+    "definition": "The quality or state of being clear; clarity.",
     "root": "xare",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "clarity",
+      "clearness"
+    ]
   },
   {
     "word": "xedoa",
@@ -16110,57 +19013,77 @@ const derivedDictionaryData = [
   },
   {
     "word": "xekue",
-    "english_equiv": "Marked by country",
+    "english_equiv": "National",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by country.",
+    "definition": "Characterized by or relating to country; national.",
     "root": "xeku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "national"
+    ]
   },
   {
     "word": "xempia",
-    "english_equiv": "Doer of to practice",
+    "english_equiv": "Practitioner",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to practice'.",
+    "definition": "A person who practices; a practitioner.",
     "root": "xempi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "practitioner"
+    ]
   },
   {
     "word": "xempiu",
-    "english_equiv": "Act of to practice",
+    "english_equiv": "Practice / Training",
     "part_of_speech": "Abstract Noun",
-    "definition": "The act, process, or concept of 'to practice'.",
+    "definition": "The act of practicing or training; practice.",
     "root": "xempi",
     "derivation_path": "i→u",
-    "path_gloss": "Verb -> Abstract Noun (act/process)"
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "practice",
+      "training",
+      "rehearsal"
+    ]
   },
   {
     "word": "xepytue",
-    "english_equiv": "Marked by right",
+    "english_equiv": "Rightful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by right.",
+    "definition": "Characterized by or relating to right; rightful.",
     "root": "xepytu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "rightful"
+    ]
   },
   {
     "word": "xeria",
-    "english_equiv": "Doer of throw",
+    "english_equiv": "Thrower",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'throw'.",
+    "definition": "A person who throws; a thrower.",
     "root": "xeri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "thrower"
+    ]
   },
   {
     "word": "xeskia",
-    "english_equiv": "Doer of win",
+    "english_equiv": "Winner",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'win'.",
+    "definition": "A person who wins; a winner.",
     "root": "xeski",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "winner"
+    ]
   },
   {
     "word": "xeskio",
@@ -16179,12 +19102,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "xibia",
-    "english_equiv": "Doer of promise",
+    "english_equiv": "Promiser",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'promise'.",
+    "definition": "A person who promises; a promiser.",
     "root": "xibi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "promiser"
+    ]
   },
   {
     "word": "xibiu",
@@ -16218,7 +19144,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to shield.",
     "root": "xildo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "shield-like",
+      "resembling shield"
+    ]
   },
   {
     "word": "xildoi",
@@ -16240,16 +19170,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to chair.",
     "root": "xiolo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "chair-like",
+      "resembling chair"
+    ]
   },
   {
     "word": "xitrikia",
-    "english_equiv": "Doer of teleport",
+    "english_equiv": "Teleporter",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'teleport'.",
+    "definition": "A person who teleports; a teleporter.",
     "root": "xitriki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "teleporter"
+    ]
   },
   {
     "word": "xivei",
@@ -16268,10 +19205,14 @@ const derivedDictionaryData = [
     "word": "xiveu",
     "english_equiv": "Expensiveness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being expensive.",
+    "definition": "The quality or state of being expensive; expensiveness.",
     "root": "xive",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "expensiveness",
+      "costliness"
+    ]
   },
   {
     "word": "xixua",
@@ -16319,43 +19260,61 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to television.",
     "root": "xocewo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "television-like",
+      "resembling television"
+    ]
   },
   {
     "word": "xogria",
-    "english_equiv": "Doer of to visit",
+    "english_equiv": "Visitor",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'to visit'.",
+    "definition": "A person who visits; a visitor.",
     "root": "xogri",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "visitor"
+    ]
   },
   {
     "word": "xonkae",
     "english_equiv": "Chin-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a chin.",
+    "definition": "Made of, resembling, or relating to chin.",
     "root": "xonka",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "chin-like",
+      "resembling chin"
+    ]
   },
   {
     "word": "xopae",
     "english_equiv": "Sheep-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a sheep.",
+    "definition": "Made of, resembling, or relating to sheep.",
     "root": "xopa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "sheep-like",
+      "resembling sheep"
+    ]
   },
   {
     "word": "xosia",
-    "english_equiv": "Doer of open",
+    "english_equiv": "Opener",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'open'.",
+    "definition": "A person who opens; an opener.",
     "root": "xosi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "opener"
+    ]
   },
   {
     "word": "xoweroe",
@@ -16364,7 +19323,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to market.",
     "root": "xowero",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "market-like",
+      "resembling market"
+    ]
   },
   {
     "word": "xowua",
@@ -16381,75 +19344,101 @@ const derivedDictionaryData = [
   },
   {
     "word": "xowue",
-    "english_equiv": "Marked by show",
+    "english_equiv": "Theatrical",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by show.",
+    "definition": "Characterized by or relating to show; theatrical.",
     "root": "xowu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "theatrical"
+    ]
   },
   {
     "word": "xucue",
-    "english_equiv": "Marked by voice",
+    "english_equiv": "Vocal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by voice.",
+    "definition": "Characterized by or relating to voice; vocal.",
     "root": "xucu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "vocal"
+    ]
   },
   {
     "word": "xufae",
     "english_equiv": "Arm-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a arm.",
+    "definition": "Made of, resembling, or relating to arm.",
     "root": "xufa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "arm-like",
+      "resembling arm"
+    ]
   },
   {
     "word": "xufukue",
-    "english_equiv": "Marked by gratitude",
+    "english_equiv": "Thankful",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by gratitude.",
+    "definition": "Characterized by or relating to gratitude; thankful.",
     "root": "xufuku",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "thankful"
+    ]
   },
   {
     "word": "xulazae",
     "english_equiv": "Cod-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a cod.",
+    "definition": "Made of, resembling, or relating to cod.",
     "root": "xulaza",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "cod-like",
+      "resembling cod"
+    ]
   },
   {
     "word": "xunia",
-    "english_equiv": "Doer of burn",
+    "english_equiv": "Burner",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'burn'.",
+    "definition": "A person who burns; a burner.",
     "root": "xuni",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "burner"
+    ]
   },
   {
     "word": "xwewia",
-    "english_equiv": "Doer of excuse",
+    "english_equiv": "Pardoner",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'excuse'.",
+    "definition": "A person who excuses; a pardoner.",
     "root": "xwewi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "pardoner"
+    ]
   },
   {
     "word": "xyfia",
-    "english_equiv": "Doer of do",
+    "english_equiv": "Doer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'do'.",
+    "definition": "A person who does; a doer.",
     "root": "xyfi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "doer"
+    ]
   },
   {
     "word": "xygei",
@@ -16468,19 +19457,26 @@ const derivedDictionaryData = [
     "word": "xygeu",
     "english_equiv": "Thinness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being thin.",
+    "definition": "The quality or state of being thin; thinness.",
     "root": "xyge",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "thinness"
+    ]
   },
   {
     "word": "xyntae",
     "english_equiv": "Turtle-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a turtle.",
+    "definition": "Made of, resembling, or relating to turtle.",
     "root": "xynta",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "turtle-like",
+      "resembling turtle"
+    ]
   },
   {
     "word": "xyploe",
@@ -16516,7 +19512,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to store.",
     "root": "xyro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "store-like",
+      "resembling store"
+    ]
   },
   {
     "word": "xyroi",
@@ -16535,28 +19535,40 @@ const derivedDictionaryData = [
     "word": "xyswae",
     "english_equiv": "Duck-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a duck.",
+    "definition": "Made of, resembling, or relating to duck.",
     "root": "xyswa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "duck-like",
+      "resembling duck"
+    ]
   },
   {
     "word": "ybawae",
     "english_equiv": "Bark-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a bark.",
+    "definition": "Made of, resembling, or relating to bark.",
     "root": "ybawa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "bark-like",
+      "resembling bark"
+    ]
   },
   {
     "word": "ycubae",
     "english_equiv": "Mosquito-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a mosquito.",
+    "definition": "Made of, resembling, or relating to mosquito.",
     "root": "ycuba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "mosquito-like",
+      "resembling mosquito"
+    ]
   },
   {
     "word": "yfukei",
@@ -16575,10 +19587,14 @@ const derivedDictionaryData = [
     "word": "ylxae",
     "english_equiv": "Mouth-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a mouth.",
+    "definition": "Made of, resembling, or relating to mouth.",
     "root": "ylxa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "mouth-like",
+      "resembling mouth"
+    ]
   },
   {
     "word": "ynafei",
@@ -16595,12 +19611,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "ynafeu",
-    "english_equiv": "Tastyness",
+    "english_equiv": "Deliciousness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being tasty.",
+    "definition": "The quality or state of being tasty; deliciousness.",
     "root": "ynafe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "deliciousness",
+      "tastiness"
+    ]
   },
   {
     "word": "ynsei",
@@ -16630,12 +19650,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "ywurdue",
-    "english_equiv": "Marked by crime",
+    "english_equiv": "Criminal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by crime.",
+    "definition": "Characterized by or relating to crime; criminal.",
     "root": "ywurdu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "criminal"
+    ]
   },
   {
     "word": "zabatoe",
@@ -16644,7 +19667,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bag.",
     "root": "zabato",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bag-like",
+      "resembling bag"
+    ]
   },
   {
     "word": "zafoiroe",
@@ -16653,7 +19680,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to floor.",
     "root": "zafoiro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "floor-like",
+      "resembling floor"
+    ]
   },
   {
     "word": "zalae",
@@ -16683,39 +19714,51 @@ const derivedDictionaryData = [
   },
   {
     "word": "zalmue",
-    "english_equiv": "Marked by politics",
+    "english_equiv": "Political",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by politics.",
+    "definition": "Characterized by or relating to politics; political.",
     "root": "zalmu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "political"
+    ]
   },
   {
     "word": "zankia",
-    "english_equiv": "Doer of hide",
+    "english_equiv": "Hider",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'hide'.",
+    "definition": "A person who hides; a hider.",
     "root": "zanki",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "hider"
+    ]
   },
   {
     "word": "zapue",
-    "english_equiv": "Marked by system",
+    "english_equiv": "Systematic",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by system.",
+    "definition": "Characterized by or relating to system; systematic.",
     "root": "zapu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "systematic"
+    ]
   },
   {
     "word": "zaqoe",
-    "english_equiv": "Salt-like",
+    "english_equiv": "Salty",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to salt.",
+    "definition": "Made of, resembling, or relating to salt; salty.",
     "root": "zaqo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "salty"
+    ]
   },
   {
     "word": "zaqoi",
@@ -16785,21 +19828,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "zedroe",
-    "english_equiv": "Butter-like",
+    "english_equiv": "Buttery",
     "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to butter.",
+    "definition": "Made of, resembling, or relating to butter; buttery.",
     "root": "zedro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "buttery"
+    ]
   },
   {
     "word": "zemia",
-    "english_equiv": "Doer of cover",
+    "english_equiv": "Coverer",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'cover'.",
+    "definition": "A person who covers; a coverer.",
     "root": "zemi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "coverer"
+    ]
   },
   {
     "word": "zemio",
@@ -16816,12 +19865,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "zenue",
-    "english_equiv": "Marked by care",
+    "english_equiv": "Caring",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by care.",
+    "definition": "Characterized by or relating to care; caring.",
     "root": "zenu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "caring"
+    ]
   },
   {
     "word": "zenui",
@@ -16838,12 +19890,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "zepuklue",
-    "english_equiv": "Marked by sunset",
+    "english_equiv": "Sunset",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by sunset.",
+    "definition": "Characterized by or relating to sunset; sunset.",
     "root": "zepuklu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "sunset"
+    ]
   },
   {
     "word": "zetye",
@@ -16888,12 +19943,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "zezurue",
-    "english_equiv": "Marked by version",
+    "english_equiv": "Version-based",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by version.",
+    "definition": "Characterized by or relating to version; version-based.",
     "root": "zezuru",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "version-based"
+    ]
   },
   {
     "word": "zihei",
@@ -16910,12 +19968,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "ziheu",
-    "english_equiv": "Famousness",
+    "english_equiv": "Fame",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being famous.",
+    "definition": "The quality or state of being famous; fame.",
     "root": "zihe",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "fame"
+    ]
   },
   {
     "word": "zikuzoa",
@@ -16936,7 +19997,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bank.",
     "root": "zikuzo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bank-like",
+      "resembling bank"
+    ]
   },
   {
     "word": "zikuzou",
@@ -16986,16 +20051,24 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to framework.",
     "root": "zimowo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "framework-like",
+      "resembling framework"
+    ]
   },
   {
     "word": "zipae",
     "english_equiv": "Face-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a face.",
+    "definition": "Made of, resembling, or relating to face.",
     "root": "zipa",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "face-like",
+      "resembling face"
+    ]
   },
   {
     "word": "zixefrae",
@@ -17015,10 +20088,14 @@ const derivedDictionaryData = [
     "word": "zobae",
     "english_equiv": "Vegetable-like",
     "part_of_speech": "Modifier",
-    "definition": "Of, like, or befitting a vegetable.",
+    "definition": "Made of, resembling, or relating to vegetable.",
     "root": "zoba",
     "derivation_path": "a→e",
-    "path_gloss": "Biological Noun -> Modifier (like)"
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "vegetable-like",
+      "resembling vegetable"
+    ]
   },
   {
     "word": "zodei",
@@ -17037,19 +20114,26 @@ const derivedDictionaryData = [
     "word": "zodeu",
     "english_equiv": "Loudness",
     "part_of_speech": "Abstract Noun",
-    "definition": "The quality or state of being loud.",
+    "definition": "The quality or state of being loud; loudness.",
     "root": "zode",
     "derivation_path": "e→u",
-    "path_gloss": "Modifier -> Abstract Noun (quality)"
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "loudness",
+      "noisiness"
+    ]
   },
   {
     "word": "zonitia",
-    "english_equiv": "Doer of strip",
+    "english_equiv": "Peeler",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'strip'.",
+    "definition": "A person who strips; a peeler.",
     "root": "zoniti",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "peeler"
+    ]
   },
   {
     "word": "zonitie",
@@ -17067,12 +20151,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "zopia",
-    "english_equiv": "Doer of jump",
+    "english_equiv": "Jumper",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'jump'.",
+    "definition": "A person who jumps; a jumper.",
     "root": "zopi",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "jumper"
+    ]
   },
   {
     "word": "zorye",
@@ -17089,12 +20176,15 @@ const derivedDictionaryData = [
   },
   {
     "word": "zosue",
-    "english_equiv": "Marked by autumn",
+    "english_equiv": "Autumnal",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by autumn.",
+    "definition": "Characterized by or relating to autumn; autumnal.",
     "root": "zosu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "autumnal"
+    ]
   },
   {
     "word": "zufoe",
@@ -17103,7 +20193,11 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to bed.",
     "root": "zufo",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "bed-like",
+      "resembling bed"
+    ]
   },
   {
     "word": "zurkoe",
@@ -17112,16 +20206,23 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to shovel.",
     "root": "zurko",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "shovel-like",
+      "resembling shovel"
+    ]
   },
   {
     "word": "zuwue",
-    "english_equiv": "Marked by way",
+    "english_equiv": "Methodical",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or marked by way.",
+    "definition": "Characterized by or relating to way; methodical.",
     "root": "zuwu",
     "derivation_path": "u→e",
-    "path_gloss": "Abstract Noun -> Modifier (characterized by)"
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "methodical"
+    ]
   },
   {
     "word": "zye",
@@ -17145,15 +20246,22 @@ const derivedDictionaryData = [
     "definition": "Made of, resembling, or relating to shade.",
     "root": "zygloro",
     "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)"
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "shade-like",
+      "resembling shade"
+    ]
   },
   {
     "word": "zylia",
-    "english_equiv": "Doer of use",
+    "english_equiv": "User",
     "part_of_speech": "Biological Noun",
-    "definition": "A person or agent who performs 'use'.",
+    "definition": "A person who uses; an user.",
     "root": "zyli",
     "derivation_path": "i→a",
-    "path_gloss": "Verb -> Biological Noun (doer)"
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "user"
+    ]
   }
 ];
