@@ -442,6 +442,12 @@ const dictionaryData = [
     "usage_note": "Distinct from sowi, the intransitive act of falling."
   },
   {
+    "word": "axritso",
+    "english_equiv": "Dune",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hill of wind-blown sand."
+  },
+  {
     "word": "axvu",
     "english_equiv": "Alliance",
     "part_of_speech": "Abstract Noun",
@@ -507,6 +513,12 @@ const dictionaryData = [
     "english_equiv": "Sponge",
     "part_of_speech": "Concrete Noun",
     "definition": "A soft, porous object that soaks up and holds liquid, used for washing and cleaning."
+  },
+  {
+    "word": "banosko",
+    "english_equiv": "Breeze",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A light, gentle wind, weaker than a strong wind (xabeso)."
   },
   {
     "word": "baqi",
@@ -919,6 +931,12 @@ const dictionaryData = [
     "definition": "This verb means to remain alive or have life."
   },
   {
+    "word": "cerojo",
+    "english_equiv": "Wave",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A moving ridge on the surface of water."
+  },
+  {
     "word": "cetofi",
     "english_equiv": "Show / Display",
     "part_of_speech": "Verb",
@@ -971,6 +989,12 @@ const dictionaryData = [
     "english_equiv": "Chirp / Squeak",
     "part_of_speech": "Verb",
     "definition": "To produce short, high-pitched sounds, as small birds and small animals do."
+  },
+  {
+    "word": "cisuplu",
+    "english_equiv": "Tide",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The rhythmic daily rise and fall of the sea."
   },
   {
     "word": "ciswo",
@@ -1079,6 +1103,12 @@ const dictionaryData = [
     "english_equiv": "Fight / Argue",
     "part_of_speech": "Verb",
     "definition": "To engage in a physical, verbal, or conceptual struggle against an opposing force or entity."
+  },
+  {
+    "word": "cumeswo",
+    "english_equiv": "Dew",
+    "part_of_speech": "Concrete Noun",
+    "definition": "Small water droplets that form on cool surfaces overnight."
   },
   {
     "word": "cunte",
@@ -1990,6 +2020,12 @@ const dictionaryData = [
     "definition": "This refers to a series of actions or steps taken in order to achieve a particular end."
   },
   {
+    "word": "fofuplo",
+    "english_equiv": "Bay",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A body of water partly enclosed by curving land."
+  },
+  {
     "word": "foge",
     "english_equiv": "Comfortable",
     "part_of_speech": "Modifier",
@@ -2303,6 +2339,12 @@ const dictionaryData = [
     "definition": "This refers to a current medium of exchange in the form of coins and banknotes."
   },
   {
+    "word": "gikoso",
+    "english_equiv": "Coast",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The broad land region bordering the sea, wider than the shore (cyxo)."
+  },
+  {
     "word": "gioxu",
     "english_equiv": "AI (Artificial Intelligence).",
     "part_of_speech": "Abstract Noun",
@@ -2500,6 +2542,12 @@ const dictionaryData = [
     "english_equiv": "Download",
     "part_of_speech": "Verb",
     "definition": "To actively copy, transfer, or retrieve data from the internet or another system into a local device or file."
+  },
+  {
+    "word": "gunolo",
+    "english_equiv": "Cliff",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A high, steep face of rock."
   },
   {
     "word": "gure",
@@ -3555,6 +3603,12 @@ const dictionaryData = [
     "definition": "A precious stone cut or polished and valued for its beauty and rarity; the general category above specific minerals like nuwyko (amethyst)."
   },
   {
+    "word": "kicursu",
+    "english_equiv": "Dawn",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The time of first light, when the sun begins to rise."
+  },
+  {
     "word": "kifra",
     "english_equiv": "Cherry tree.",
     "part_of_speech": "Biological Noun",
@@ -4091,6 +4145,12 @@ const dictionaryData = [
     "english_equiv": "Purple / Violet",
     "part_of_speech": "Modifier",
     "definition": "Exhibiting a dark hue blending red and blue, often associated with twilight skies or certain flowers."
+  },
+  {
+    "word": "luplelu",
+    "english_equiv": "Echo",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A sound that reflects off a surface and is heard again."
   },
   {
     "word": "luso",
@@ -4781,6 +4841,12 @@ const dictionaryData = [
     "english_equiv": "Nose.",
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the part projecting above the mouth on the face of a person or animal, used for smelling."
+  },
+  {
+    "word": "nyvumu",
+    "english_equiv": "Sunrise",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The daily event of the sun appearing above the horizon."
   },
   {
     "word": "obta",
@@ -5999,6 +6065,12 @@ const dictionaryData = [
     "definition": "A slender, antlered wild mammal known for speed and grace."
   },
   {
+    "word": "snibexe",
+    "english_equiv": "Humid",
+    "part_of_speech": "Modifier",
+    "definition": "Containing much moisture in the air."
+  },
+  {
     "word": "socu",
     "english_equiv": "Society",
     "part_of_speech": "Abstract Noun",
@@ -6141,6 +6213,12 @@ const dictionaryData = [
     "english_equiv": "To translate.",
     "part_of_speech": "Verb",
     "definition": "To render text or speech from one language into another, preserving meaning."
+  },
+  {
+    "word": "stuzygi",
+    "english_equiv": "To undo / To reverse",
+    "part_of_speech": "Verb",
+    "definition": "To reverse a previous action or restore something to its prior state; to undo. As a serial-verb primary (Rule 15), it reverses the secondary verb: stuzygi asmkit = to untie."
   },
   {
     "word": "sube",
@@ -6389,10 +6467,22 @@ const dictionaryData = [
     "definition": "A woody plant smaller than a tree (mosa), with many stems branching from near the ground."
   },
   {
+    "word": "timufu",
+    "english_equiv": "Dusk",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The time of fading light after sunset."
+  },
+  {
     "word": "timybo",
     "english_equiv": "Pumpkin",
     "part_of_speech": "Concrete Noun",
     "definition": "A large, round, orange-fleshed vegetable with a thick rind, harvested in autumn."
+  },
+  {
+    "word": "tisoslo",
+    "english_equiv": "Horizon",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The distant line where the sky appears to meet the land or sea."
   },
   {
     "word": "toce",
@@ -6844,6 +6934,12 @@ const dictionaryData = [
     "definition": "An abstract set of circumstances or a specific moment in time that makes it possible to do something favorable."
   },
   {
+    "word": "vamursu",
+    "english_equiv": "Eclipse",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The event of one celestial body hiding another from view."
+  },
+  {
     "word": "vansi",
     "english_equiv": "Advance / Progress",
     "part_of_speech": "Verb",
@@ -7133,6 +7229,12 @@ const dictionaryData = [
     "definition": "Interrogative variable for a thing or matter."
   },
   {
+    "word": "watosmo",
+    "english_equiv": "Rainbow",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An arc of colors appearing in the sky when sunlight passes through rain."
+  },
+  {
     "word": "waxi",
     "english_equiv": "To exercise / To move actively",
     "part_of_speech": "Verb",
@@ -7161,6 +7263,12 @@ const dictionaryData = [
     "english_equiv": "Past",
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract temporal realm encompassing all time and recorded events that have already elapsed."
+  },
+  {
+    "word": "wefuhu",
+    "english_equiv": "Climate",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The long-term pattern of weather in a region."
   },
   {
     "word": "wegu",
@@ -7796,6 +7904,12 @@ const dictionaryData = [
     "definition": "The abstract conceptual provision of what is necessary for the health, welfare, or protection of an entity."
   },
   {
+    "word": "zepuklu",
+    "english_equiv": "Sunset",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The daily event of the sun sinking below the horizon."
+  },
+  {
     "word": "zet",
     "english_equiv": "as for / regarding (topic marker)",
     "part_of_speech": "Grammar",
@@ -7951,6 +8065,12 @@ const dictionaryData = [
     "english_equiv": "to",
     "part_of_speech": "Prepositions",
     "definition": "Used for direction toward a destination or outcome."
+  },
+  {
+    "word": "zygloro",
+    "english_equiv": "Shade",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An area sheltered from direct light."
   },
   {
     "word": "zyli",
