@@ -448,6 +448,12 @@ const dictionaryData = [
     "definition": "A hill of wind-blown sand."
   },
   {
+    "word": "axuklu",
+    "english_equiv": "Network",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An interconnected system or group of things, people, or devices."
+  },
+  {
     "word": "axvu",
     "english_equiv": "Alliance",
     "part_of_speech": "Abstract Noun",
@@ -672,6 +678,12 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun"
   },
   {
+    "word": "blogaca",
+    "english_equiv": "Germ",
+    "part_of_speech": "Biological Noun",
+    "definition": "A tiny organism that causes disease."
+  },
+  {
     "word": "blunu",
     "english_equiv": "Meaning",
     "part_of_speech": "Abstract Noun",
@@ -700,6 +712,18 @@ const dictionaryData = [
     "english_equiv": "Bad.",
     "part_of_speech": "Modifier",
     "definition": "Regarded as subjectively negative or unfavorable."
+  },
+  {
+    "word": "bolytri",
+    "english_equiv": "Diagnose",
+    "part_of_speech": "Verb",
+    "definition": "To identify a disease from its signs."
+  },
+  {
+    "word": "bomufu",
+    "english_equiv": "Pension",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Regular money paid to a person after they stop working."
   },
   {
     "word": "borpo",
@@ -768,6 +792,12 @@ const dictionaryData = [
     "definition": "A staple food made by baking a dough of ground grain, water, and typically a leavening agent."
   },
   {
+    "word": "bucygo",
+    "english_equiv": "Earth",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The planet on which we live, taken as a proper name; the third planet from the sun."
+  },
+  {
     "word": "bufro",
     "english_equiv": "Copper.",
     "part_of_speech": "Concrete Noun",
@@ -784,6 +814,12 @@ const dictionaryData = [
     "english_equiv": "To complain.",
     "part_of_speech": "Verb",
     "definition": "To express dissatisfaction, annoyance, or grievance about something. A speech-act verb alongside akdi (shout) and opdi (whisper)."
+  },
+  {
+    "word": "bunowo",
+    "english_equiv": "Pharmacy",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A place where medicines are prepared and sold."
   },
   {
     "word": "busko",
@@ -804,6 +840,12 @@ const dictionaryData = [
     "definition": "Showing a tendency to be quickly irritated or provoked by delays, obstacles, or opposition."
   },
   {
+    "word": "buxondo",
+    "english_equiv": "Sensor",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A device that detects and measures a physical condition."
+  },
+  {
     "word": "buzisi",
     "english_equiv": "Buzz / Hum",
     "part_of_speech": "Verb",
@@ -814,6 +856,12 @@ const dictionaryData = [
     "english_equiv": "by",
     "part_of_speech": "Prepositions",
     "definition": "Used to indicate agent, means, or source."
+  },
+  {
+    "word": "byceve",
+    "english_equiv": "Each",
+    "part_of_speech": "Modifier",
+    "definition": "Every one of a group considered individually, one by one."
   },
   {
     "word": "byso",
@@ -907,6 +955,12 @@ const dictionaryData = [
     "definition": "The net of fine silk threads spun by a spider to catch prey."
   },
   {
+    "word": "cazeblu",
+    "english_equiv": "Potential",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A latent capacity or possibility that has not yet been realized."
+  },
+  {
     "word": "cef",
     "english_equiv": "Please",
     "part_of_speech": "Grammar",
@@ -955,6 +1009,12 @@ const dictionaryData = [
     "definition": "This describes an action or state that has been fully completed or achieved prior to a specific point in time."
   },
   {
+    "word": "cifudru",
+    "english_equiv": "Character / Nature",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The distinctive moral and mental qualities of a person or thing."
+  },
+  {
     "word": "cige",
     "english_equiv": "Foreign",
     "part_of_speech": "Modifier",
@@ -1001,6 +1061,12 @@ const dictionaryData = [
     "english_equiv": "Barrel",
     "part_of_speech": "Concrete Noun",
     "definition": "A large cylindrical container with bulging sides and flat ends, traditionally of wooden staves bound by hoops."
+  },
+  {
+    "word": "cizuzu",
+    "english_equiv": "Deposit",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Money paid in advance as security or placed into an account."
   },
   {
     "word": "clapo",
@@ -1117,6 +1183,12 @@ const dictionaryData = [
     "definition": "This word describes a state or object belonging strictly to the present timeframe; happening or being actively used right now."
   },
   {
+    "word": "cuskama",
+    "english_equiv": "Devil",
+    "part_of_speech": "Biological Noun",
+    "definition": "A malevolent supernatural being; a demon."
+  },
+  {
     "word": "cuspo",
     "english_equiv": "Beacon",
     "part_of_speech": "Concrete Noun",
@@ -1157,6 +1229,12 @@ const dictionaryData = [
     "english_equiv": "Beach / Shore.",
     "part_of_speech": "Concrete Noun",
     "definition": "The sandy or rocky boundary where land meets a large body of water."
+  },
+  {
+    "word": "dadukru",
+    "english_equiv": "Specialty / Field",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A specialized field of study or expertise."
   },
   {
     "word": "dafa",
@@ -1253,6 +1331,12 @@ const dictionaryData = [
     "english_equiv": "inside",
     "part_of_speech": "Prepositions",
     "definition": "Used for location within an enclosure."
+  },
+  {
+    "word": "deluflu",
+    "english_equiv": "Budget",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A plan of how available money will be spent."
   },
   {
     "word": "denki",
@@ -1375,6 +1459,12 @@ const dictionaryData = [
     "definition": "This identifies precipitating liquid water falling downward from clouds in the atmosphere to the ground."
   },
   {
+    "word": "donava",
+    "english_equiv": "Refugee",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person forced to flee their homeland for safety."
+  },
+  {
     "word": "dorala",
     "english_equiv": "Back (Anatomy)",
     "part_of_speech": "Biological Noun",
@@ -1391,6 +1481,12 @@ const dictionaryData = [
     "english_equiv": "Water.",
     "part_of_speech": "Concrete Noun",
     "definition": "This serves as the prototype word for liquid matter and the substance essential for life."
+  },
+  {
+    "word": "doserto",
+    "english_equiv": "Article",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A piece of nonfiction writing forming an independent part of a publication."
   },
   {
     "word": "dote",
@@ -1459,6 +1555,12 @@ const dictionaryData = [
     "definition": "This refers to the period of darkness in each twenty-four hours; the time from sunset to sunrise."
   },
   {
+    "word": "duluxra",
+    "english_equiv": "Immigrant",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who moves into a country to settle."
+  },
+  {
     "word": "dumu",
     "english_equiv": "Minute.",
     "part_of_speech": "Abstract Noun",
@@ -1475,6 +1577,12 @@ const dictionaryData = [
     "english_equiv": "During",
     "part_of_speech": "Prepositions",
     "definition": "Indicates a temporal bridge, mapping an action strictly to the timeframe of an ongoing event or period."
+  },
+  {
+    "word": "duxili",
+    "english_equiv": "Attack",
+    "part_of_speech": "Verb",
+    "definition": "To use force against something or someone in an attempt to harm or overcome; to assault."
   },
   {
     "word": "dyrpo",
@@ -1505,6 +1613,12 @@ const dictionaryData = [
     "english_equiv": "Verb.",
     "part_of_speech": "Abstract Noun",
     "definition": "The grammatical word class denoting action or state, marked by the functional vowel -i. A category-classification concept, following aziku (rule) as an abstract linguistic term."
+  },
+  {
+    "word": "dzupaka",
+    "english_equiv": "Ruler / Sovereign / Monarch",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who holds sovereign authority over a state; king = + aqe, queen = + ase."
   },
   {
     "word": "dzuripi",
@@ -1729,6 +1843,12 @@ const dictionaryData = [
     "definition": "To mentally comprehend the abstract meaning, logic, or underlying cause of a concept."
   },
   {
+    "word": "erpilsi",
+    "english_equiv": "Vomit",
+    "part_of_speech": "Verb",
+    "definition": "To expel the stomach's contents through the mouth."
+  },
+  {
     "word": "eru",
     "english_equiv": "War",
     "part_of_speech": "Abstract Noun",
@@ -1775,6 +1895,12 @@ const dictionaryData = [
     "english_equiv": "Lesson / Lecture",
     "part_of_speech": "Abstract Noun",
     "definition": "A period of learning or teaching; a structured block of educational instruction."
+  },
+  {
+    "word": "eziswi",
+    "english_equiv": "Implement",
+    "part_of_speech": "Verb",
+    "definition": "To put a plan, decision, or system into effect; to carry out."
   },
   {
     "word": "ezlo",
@@ -1862,6 +1988,12 @@ const dictionaryData = [
     "definition": "To contain an entity as a subordinate part or member of a larger whole or system."
   },
   {
+    "word": "fasnoli",
+    "english_equiv": "Disseminate",
+    "part_of_speech": "Verb",
+    "definition": "To spread or publicize information widely; to propagandize."
+  },
+  {
     "word": "fatli",
     "english_equiv": "To depend on / To rely on",
     "part_of_speech": "Verb",
@@ -1922,6 +2054,12 @@ const dictionaryData = [
     "definition": "A hard, common crystalline mineral, typically white or translucent."
   },
   {
+    "word": "femunu",
+    "english_equiv": "Media",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The collective means of mass communication."
+  },
+  {
     "word": "fenuti",
     "english_equiv": "Tell",
     "part_of_speech": "Verb",
@@ -1940,10 +2078,28 @@ const dictionaryData = [
     "definition": "This verb means to combine or blend different substances together."
   },
   {
+    "word": "fexresa",
+    "english_equiv": "Victim",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person harmed by a crime or event."
+  },
+  {
+    "word": "fexruku",
+    "english_equiv": "Staff",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The body of people employed by an organization; personnel collectively."
+  },
+  {
     "word": "ficudu",
     "english_equiv": "Quitting midway",
     "part_of_speech": "Abstract Noun",
     "definition": "Abandoning a task halfway, wasting what was invested. Logical equivalent: Daq sejid jobup pary fefup. (He stopped the job before the end.)"
+  },
+  {
+    "word": "figenku",
+    "english_equiv": "Type / Kind / Category",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A class or sort into which things are grouped by shared features."
   },
   {
     "word": "fihi",
@@ -2008,10 +2164,22 @@ const dictionaryData = [
     "definition": "This refers to the principal method of human communication, consisting of words used in a structured and conventional way."
   },
   {
+    "word": "flaxado",
+    "english_equiv": "Bandage",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A strip of material wrapped over a wound to protect it."
+  },
+  {
     "word": "flesto",
     "english_equiv": "Diamond",
     "part_of_speech": "Concrete Noun",
     "definition": "The hardest known gemstone, a brilliant colorless crystal of pure carbon."
+  },
+  {
+    "word": "flufu",
+    "english_equiv": "Hygiene",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The practices that keep the body clean and healthy."
   },
   {
     "word": "fodi",
@@ -2056,10 +2224,10 @@ const dictionaryData = [
     "definition": "Indicates that the main action occurs strictly subsequent to the referenced temporal baseline or event."
   },
   {
-    "word": "fono",
-    "english_equiv": "Phone",
-    "part_of_speech": "Concrete Noun",
-    "definition": "A portable, tangible electronic device used primarily for telecommunication and transmitting vocal data."
+    "word": "fomentu",
+    "english_equiv": "Production",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The making of goods at scale; the process and output of manufacturing (distinct from sapi=make)."
   },
   {
     "word": "fos",
@@ -2158,6 +2326,12 @@ const dictionaryData = [
     "definition": "The visible, tangible heat and light energy produced by active combustion."
   },
   {
+    "word": "fuhytu",
+    "english_equiv": "News",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Newly reported information about current events."
+  },
+  {
     "word": "fuka",
     "english_equiv": "Hand",
     "part_of_speech": "Biological Noun",
@@ -2243,6 +2417,24 @@ const dictionaryData = [
     "definition": "This verb means to engage in activity for enjoyment and recreation rather than a serious or practical purpose."
   },
   {
+    "word": "gasirfu",
+    "english_equiv": "Nausea",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The sick feeling of being about to vomit."
+  },
+  {
+    "word": "gasublo",
+    "english_equiv": "Page",
+    "part_of_speech": "Concrete Noun",
+    "definition": "One side of a leaf of a book or document."
+  },
+  {
+    "word": "gavudzi",
+    "english_equiv": "Emphasize",
+    "part_of_speech": "Verb",
+    "definition": "To give special importance or prominence to something; to stress."
+  },
+  {
     "word": "gawe",
     "english_equiv": "Good.",
     "part_of_speech": "Modifier",
@@ -2277,6 +2469,12 @@ const dictionaryData = [
     "english_equiv": "Vine",
     "part_of_speech": "Biological Noun",
     "definition": "A plant with long, thin, climbing or trailing stems that attach to surfaces or other plants for support."
+  },
+  {
+    "word": "gekipro",
+    "english_equiv": "Satellite",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A machine placed in orbit to relay signals or observe."
   },
   {
     "word": "geluku",
@@ -2321,6 +2519,18 @@ const dictionaryData = [
     "definition": "A specific, bounded segment or duration of time with a clear beginning and end. (This is how you isolate a period from the absolute, universal variable of Time [dionu])."
   },
   {
+    "word": "gewysmu",
+    "english_equiv": "Dose",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A measured amount of medicine taken at one time."
+  },
+  {
+    "word": "gicuhu",
+    "english_equiv": "Percent",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A proportion or rate expressed as a number of parts per hundred."
+  },
+  {
     "word": "gidafi",
     "english_equiv": "Sell",
     "part_of_speech": "Verb",
@@ -2337,6 +2547,12 @@ const dictionaryData = [
     "english_equiv": "Money.",
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a current medium of exchange in the form of coins and banknotes."
+  },
+  {
+    "word": "gihoflu",
+    "english_equiv": "Limit",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The greatest possible degree or extent of something; a point beyond which one cannot go."
   },
   {
     "word": "gikoso",
@@ -2387,6 +2603,12 @@ const dictionaryData = [
     "definition": "An interrogative modifier used to ask for the exact specification or choice between known alternatives (e.g., Which book?)."
   },
   {
+    "word": "gliblo",
+    "english_equiv": "Microchip",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The tiny wafer of circuits that runs a computer."
+  },
+  {
     "word": "glimada",
     "english_equiv": "Salmon",
     "part_of_speech": "Biological Noun",
@@ -2403,6 +2625,24 @@ const dictionaryData = [
     "english_equiv": "Thursday",
     "part_of_speech": "Abstract Noun",
     "definition": "Thursday; the fourth day of the week. Derived by compounding gloke (four) and du (day)."
+  },
+  {
+    "word": "glotunu",
+    "english_equiv": "Treaty",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A formal agreement between nations."
+  },
+  {
+    "word": "gloziti",
+    "english_equiv": "Shoot",
+    "part_of_speech": "Verb",
+    "definition": "To fire a projectile from a weapon; shot = + o."
+  },
+  {
+    "word": "gluleje",
+    "english_equiv": "Quite / Fairly / Rather",
+    "part_of_speech": "Modifier",
+    "definition": "To a moderate-high degree — more than 'somewhat' (ynse), less than 'very' (fe); a Rule 10.3 System-B degree adverb."
   },
   {
     "word": "glynto",
@@ -2496,6 +2736,12 @@ const dictionaryData = [
     "definition": "This refers to a natural physical entity, such as a planet, moon, or star, that exists in the universe."
   },
   {
+    "word": "grijysu",
+    "english_equiv": "Quality",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The standard or degree of excellence of something."
+  },
+  {
     "word": "grorowi",
     "english_equiv": "Growl / Roar",
     "part_of_speech": "Verb",
@@ -2506,6 +2752,12 @@ const dictionaryData = [
     "english_equiv": "To hug.",
     "part_of_speech": "Verb",
     "definition": "To hold someone closely in the arms as a sign of affection or comfort; to embrace."
+  },
+  {
+    "word": "gruvese",
+    "english_equiv": "Modern",
+    "part_of_speech": "Modifier",
+    "definition": "Of or relating to the present or recent times; contemporary."
   },
   {
     "word": "gu",
@@ -2557,9 +2809,9 @@ const dictionaryData = [
   },
   {
     "word": "guto",
-    "english_equiv": "Tool.",
+    "english_equiv": "Tool / Equipment.",
     "part_of_speech": "Concrete Noun",
-    "definition": "This refers to a device or implement, especially one held in the hand, used to carry out a particular function."
+    "definition": "This refers to a device or implement, especially one held in the hand, used to carry out a particular function; also the equipment or gear used for an activity."
   },
   {
     "word": "guza",
@@ -2665,6 +2917,12 @@ const dictionaryData = [
     "definition": "This refers to a piece, segment, or component of a whole object or system."
   },
   {
+    "word": "hegorko",
+    "english_equiv": "Drone",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A remotely piloted flying machine."
+  },
+  {
     "word": "hekri",
     "english_equiv": "wear",
     "part_of_speech": "Verb",
@@ -2756,6 +3014,12 @@ const dictionaryData = [
     "definition": "This word describes something that has existed for a short time, often characterizing an early stage of life, growth, or development."
   },
   {
+    "word": "hokeltu",
+    "english_equiv": "Income",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Money regularly received from work or investment."
+  },
+  {
     "word": "hop",
     "english_equiv": "Sarcastic / Ironic",
     "part_of_speech": "Grammar",
@@ -2772,6 +3036,12 @@ const dictionaryData = [
     "english_equiv": "Horn",
     "part_of_speech": "Biological Noun",
     "definition": "This word refers to a hard, permanent bony outgrowth—often curved and pointed—found on the heads of certain animals for defense or competition."
+  },
+  {
+    "word": "horulfu",
+    "english_equiv": "Jury",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The citizens chosen to judge the facts of a case."
   },
   {
     "word": "hoswa",
@@ -2924,6 +3194,12 @@ const dictionaryData = [
     "definition": "To flow or cause to flow in a stream from a container."
   },
   {
+    "word": "icejenu",
+    "english_equiv": "Period",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A stretch of time with a beginning and an end."
+  },
+  {
     "word": "icifo",
     "english_equiv": "Plate",
     "part_of_speech": "Concrete Noun",
@@ -2985,7 +3261,7 @@ const dictionaryData = [
   },
   {
     "word": "igy",
-    "english_equiv": "at the frequency of / times",
+    "english_equiv": "At the frequency of / Times / Per",
     "part_of_speech": "Prepositions",
     "definition": "Indicates a mathematical bridge linking an action to the exact numerical count of its occurrences."
   },
@@ -3166,6 +3442,12 @@ const dictionaryData = [
     "definition": "An organism (such as a mushroom or mold) that feeds on organic matter and lacks chlorophyll."
   },
   {
+    "word": "izevufu",
+    "english_equiv": "Democracy",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Government in which power rests with the people through voting."
+  },
+  {
     "word": "izli",
     "english_equiv": "Invite",
     "part_of_speech": "Verb",
@@ -3176,6 +3458,12 @@ const dictionaryData = [
     "english_equiv": "Cold.",
     "part_of_speech": "Modifier",
     "definition": "This word describes something of or at a low or relatively low temperature."
+  },
+  {
+    "word": "jacifi",
+    "english_equiv": "Resemble / Be like",
+    "part_of_speech": "Verb",
+    "definition": "To be similar to or look like something."
   },
   {
     "word": "jadoro",
@@ -3194,6 +3482,12 @@ const dictionaryData = [
     "english_equiv": "Write.",
     "part_of_speech": "Verb",
     "definition": "This verb means to mark letters, words, or other symbols on a surface to record information."
+  },
+  {
+    "word": "janongo",
+    "english_equiv": "Clinic",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A small facility for outpatient medical care."
   },
   {
     "word": "jany",
@@ -3260,6 +3554,12 @@ const dictionaryData = [
     "english_equiv": "Development",
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract process of conceptual growth, systemic progression, or evolution over time."
+  },
+  {
+    "word": "jegetru",
+    "english_equiv": "Cancer",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A disease of uncontrolled, harmful cell growth."
   },
   {
     "word": "jeju",
@@ -3348,6 +3648,18 @@ const dictionaryData = [
     "definition": "A formal expression of choice or preference in an election or group decision."
   },
   {
+    "word": "jolkodu",
+    "english_equiv": "Average / Mean",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The central value found by summing quantities and dividing by their count."
+  },
+  {
+    "word": "jomyti",
+    "english_equiv": "Invest",
+    "part_of_speech": "Verb",
+    "definition": "To commit money to something expecting future gain."
+  },
+  {
     "word": "jopxi",
     "english_equiv": "Receive",
     "part_of_speech": "Verb",
@@ -3383,6 +3695,12 @@ const dictionaryData = [
     "english_equiv": "Pickaxe.",
     "definition": "A tool with a pointed head on a handle, used for breaking rock and mining.",
     "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "jugliko",
+    "english_equiv": "Socket",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The fixed fitting that receives a plug."
   },
   {
     "word": "juhi",
@@ -3536,6 +3854,12 @@ const dictionaryData = [
     "usage_note": "Distinct from late (all), which calculates the total quantity of a group; keane describes a single thing being 100% complete."
   },
   {
+    "word": "kedovo",
+    "english_equiv": "Fund",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A reserve of money set aside for a particular purpose."
+  },
+  {
     "word": "kefuju",
     "english_equiv": "Taking for granted",
     "part_of_speech": "Abstract Noun",
@@ -3546,6 +3870,12 @@ const dictionaryData = [
     "english_equiv": "Grass.",
     "part_of_speech": "Biological Noun",
     "definition": "A low, dense-growing plant with narrow leaves, typically covering lawns and fields. Follows nasa (plant) as a specific plant type."
+  },
+  {
+    "word": "kehogo",
+    "english_equiv": "Pixel",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The smallest addressable dot of a digital image."
   },
   {
     "word": "kehulu",
@@ -3615,6 +3945,12 @@ const dictionaryData = [
     "definition": "A tree bearing small round stone-fruit, known for its blossoms."
   },
   {
+    "word": "kifybi",
+    "english_equiv": "Protest",
+    "part_of_speech": "Verb",
+    "definition": "To publicly express strong objection."
+  },
+  {
     "word": "kika",
     "english_equiv": "Chicken / Fowl",
     "part_of_speech": "Biological Noun",
@@ -3651,10 +3987,28 @@ const dictionaryData = [
     "definition": "A physical tool or weapon consisting of a sharp, solid cutting edge or blade, usually attached to a grip or handle."
   },
   {
+    "word": "kipeslo",
+    "english_equiv": "Vaccine",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A preparation that trains the body to resist a disease."
+  },
+  {
+    "word": "kixilku",
+    "english_equiv": "Oath",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A solemn, binding promise."
+  },
+  {
     "word": "klazo",
     "english_equiv": "Cloud",
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a visible, physical mass of condensed atmospheric water vapor floating high in the sky."
+  },
+  {
+    "word": "klegowo",
+    "english_equiv": "Novel",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A long fictional narrative in prose; a work of fiction."
   },
   {
     "word": "kluxe",
@@ -3670,9 +4024,15 @@ const dictionaryData = [
   },
   {
     "word": "kof",
-    "english_equiv": "Furthermore / Moreover / In addition",
+    "english_equiv": "Furthermore / Moreover / In addition / (not only …) but also",
     "part_of_speech": "Grammar",
     "definition": "A structural particle used to introduce an additional point, fact, or argument."
+  },
+  {
+    "word": "kokidi",
+    "english_equiv": "Examine",
+    "part_of_speech": "Verb",
+    "definition": "To inspect closely and carefully; to scrutinize or study."
   },
   {
     "word": "koklo",
@@ -3772,10 +4132,22 @@ const dictionaryData = [
     "definition": "This describes an entity that is not straight; structurally forced out of its original linear shape or naturally winding."
   },
   {
+    "word": "kufugli",
+    "english_equiv": "Travel",
+    "part_of_speech": "Verb",
+    "definition": "To journey from one place to another, especially over a long distance."
+  },
+  {
     "word": "kujondi",
     "english_equiv": "Resist / Withstand / Endure",
     "part_of_speech": "Verb",
     "definition": "To hold firm against a force, effect, or pressure without yielding or being changed by it."
+  },
+  {
+    "word": "kukylu",
+    "english_equiv": "Profit",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Money gained after all costs are subtracted."
   },
   {
     "word": "kunawa",
@@ -3825,6 +4197,12 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To undergo a complete transformation into a new state or entity, or to successfully bring an intended result into reality.",
     "usage_note": "Distinct from tumi (change), which just means to alter; kutgi implies a finalized transformation or success."
+  },
+  {
+    "word": "kuvysu",
+    "english_equiv": "Police",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The civil force that enforces law and order; officer = + a."
   },
   {
     "word": "ky",
@@ -3893,6 +4271,12 @@ const dictionaryData = [
     "definition": "A physical visual representation or static image captured by photography, painting, or printing on a tangible surface."
   },
   {
+    "word": "lalupu",
+    "english_equiv": "Evidence",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The facts and objects presented to prove a claim in law."
+  },
+  {
     "word": "lamso",
     "english_equiv": "Milk",
     "part_of_speech": "Concrete Noun",
@@ -3917,6 +4301,12 @@ const dictionaryData = [
     "definition": "To mathematically or physically join an entity to an existing group to increase the total quantity."
   },
   {
+    "word": "laswiti",
+    "english_equiv": "Represent / Stand for",
+    "part_of_speech": "Verb",
+    "definition": "To act or speak on behalf of another; to stand for."
+  },
+  {
     "word": "late",
     "english_equiv": "All",
     "part_of_speech": "Modifier",
@@ -3929,10 +4319,22 @@ const dictionaryData = [
     "definition": "A horned farm mammal, raised for milk, meat, and hide."
   },
   {
+    "word": "lebyko",
+    "english_equiv": "Title",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The name or heading given to a work, document, or composition."
+  },
+  {
     "word": "lefe",
     "english_equiv": "Hard.",
     "part_of_speech": "Modifier",
     "definition": "This word describes something solid, firm, and resistant to pressure."
+  },
+  {
+    "word": "legudro",
+    "english_equiv": "Soccer",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The sport of football (soccer), played by kicking a ball; also the ball used."
   },
   {
     "word": "leha",
@@ -3945,6 +4347,12 @@ const dictionaryData = [
     "english_equiv": "Stairs / Steps",
     "part_of_speech": "Concrete Noun",
     "definition": "A series of steps leading from one level of a building to another, enabling ascent or descent."
+  },
+  {
+    "word": "lemespi",
+    "english_equiv": "Arrest",
+    "part_of_speech": "Verb",
+    "definition": "To seize and hold a person by legal authority."
   },
   {
     "word": "lenawa",
@@ -4002,6 +4410,12 @@ const dictionaryData = [
     "definition": "A viscous, sticky, semi-liquid substance."
   },
   {
+    "word": "libywu",
+    "english_equiv": "Charity",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Voluntary giving to those in need; the practice of it."
+  },
+  {
     "word": "lica",
     "english_equiv": "Colleague",
     "part_of_speech": "Biological Noun",
@@ -4049,6 +4463,12 @@ const dictionaryData = [
     "english_equiv": "Wet.",
     "part_of_speech": "Modifier",
     "definition": "This word describes something covered or saturated with water or another liquid."
+  },
+  {
+    "word": "lizogo",
+    "english_equiv": "Cargo",
+    "part_of_speech": "Concrete Noun",
+    "definition": "Goods carried by a ship, plane, or vehicle."
   },
   {
     "word": "loage",
@@ -4153,6 +4573,12 @@ const dictionaryData = [
     "definition": "A sound that reflects off a surface and is heard again."
   },
   {
+    "word": "lurubra",
+    "english_equiv": "Witness",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who saw an event and can report what happened."
+  },
+  {
     "word": "luso",
     "english_equiv": "Key",
     "part_of_speech": "Concrete Noun",
@@ -4163,6 +4589,12 @@ const dictionaryData = [
     "english_equiv": "Border / Boundary",
     "part_of_speech": "Concrete Noun",
     "definition": "The line or strip marking the outer edge of an area, where one region ends and another begins."
+  },
+  {
+    "word": "luvisma",
+    "english_equiv": "Wound",
+    "part_of_speech": "Biological Noun",
+    "definition": "An injury site where the body is cut or broken open (distinct from pamu, the pain)."
   },
   {
     "word": "luvwitu",
@@ -4207,6 +4639,12 @@ const dictionaryData = [
     "definition": "Possible, but not logically or physically guaranteed."
   },
   {
+    "word": "mafehe",
+    "english_equiv": "Perfect / Flawless",
+    "part_of_speech": "Modifier",
+    "definition": "Complete and without any defect or flaw."
+  },
+  {
     "word": "magustu",
     "english_equiv": "Magic",
     "part_of_speech": "Abstract Noun",
@@ -4217,6 +4655,12 @@ const dictionaryData = [
     "english_equiv": "Breathe.",
     "part_of_speech": "Verb",
     "definition": "This verb means to take air into the lungs and expel it."
+  },
+  {
+    "word": "malfyto",
+    "english_equiv": "Generator",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A machine that produces electricity."
   },
   {
     "word": "malxi",
@@ -4375,6 +4819,12 @@ const dictionaryData = [
     "definition": "Strictly belonging to or associated with the speaker."
   },
   {
+    "word": "miluvu",
+    "english_equiv": "Course",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A structured series of lessons; a program of study."
+  },
+  {
     "word": "minza",
     "english_equiv": "Nationality / Ethnic Group",
     "part_of_speech": "Biological Noun",
@@ -4403,6 +4853,12 @@ const dictionaryData = [
     "english_equiv": "Meter",
     "part_of_speech": "Concrete Noun",
     "definition": "The standard physical unit of measurement for length or distance."
+  },
+  {
+    "word": "mixupru",
+    "english_equiv": "Symptom",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A bodily sign that indicates a disease (distinct from cacodu, the diagnosis)."
   },
   {
     "word": "moblo",
@@ -4459,6 +4915,12 @@ const dictionaryData = [
     "definition": "Not clearly expressed, described, or understood; indefinite."
   },
   {
+    "word": "movimpi",
+    "english_equiv": "Focus",
+    "part_of_speech": "Verb",
+    "definition": "To concentrate attention or energy on something."
+  },
+  {
     "word": "moxy",
     "english_equiv": "Among (them) / Within a group",
     "part_of_speech": "Prepositions",
@@ -4505,6 +4967,12 @@ const dictionaryData = [
     "english_equiv": "Disguised blessing",
     "part_of_speech": "Abstract Noun",
     "definition": "A bad event that causes a good result. Logical equivalent: Cemup boke linid isamur gawe. (The bad thing caused a good result.)"
+  },
+  {
+    "word": "muwyzu",
+    "english_equiv": "Campaign",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An organized series of actions aimed at achieving a particular goal."
   },
   {
     "word": "mux",
@@ -4555,6 +5023,12 @@ const dictionaryData = [
     "definition": "This describes entities existing or acting in conjunction, unity, or close physical/logical association."
   },
   {
+    "word": "naglifi",
+    "english_equiv": "Insist",
+    "part_of_speech": "Verb",
+    "definition": "To hold firmly to a demand or assertion; to press a point despite resistance."
+  },
+  {
     "word": "naile",
     "english_equiv": "Easy",
     "part_of_speech": "Modifier",
@@ -4591,6 +5065,18 @@ const dictionaryData = [
     "definition": "This identifies a physical compound, preparation, or substance strictly used for the treatment, cure, or prevention of biological disease."
   },
   {
+    "word": "natafro",
+    "english_equiv": "Term",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A word or expression naming a particular thing, especially a technical one."
+  },
+  {
+    "word": "natypo",
+    "english_equiv": "Album",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A collection of musical recordings issued together as a single work."
+  },
+  {
     "word": "nauxa",
     "english_equiv": "Friend.",
     "part_of_speech": "Biological Noun",
@@ -4603,10 +5089,22 @@ const dictionaryData = [
     "definition": "Coming immediately after the current one in a sequence or in time (e.g. next week, next person). Generalizes beyond fitydu (tomorrow), which covers only day-distance."
   },
   {
+    "word": "navindo",
+    "english_equiv": "Pulse",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The rhythmic beat of the heart felt in the arteries."
+  },
+  {
     "word": "naxu",
     "english_equiv": "Group / Cluster / Bunch",
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a number of people or things that are located, gathered, or classed together."
+  },
+  {
+    "word": "necadro",
+    "english_equiv": "Charger",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A device that restores energy to a battery."
   },
   {
     "word": "negoxre",
@@ -4675,10 +5173,22 @@ const dictionaryData = [
     "definition": "A feeling of revulsion or profound disapproval aroused by something unpleasant or offensive."
   },
   {
+    "word": "nevono",
+    "english_equiv": "Park",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A public area of land kept for recreation and nature."
+  },
+  {
     "word": "niaza",
     "english_equiv": "Muscle",
     "part_of_speech": "Biological Noun",
     "definition": "This word identifies a band or bundle of fibrous tissue in a biological body that has the mechanical ability to contract, producing movement or maintaining position."
+  },
+  {
+    "word": "nibilko",
+    "english_equiv": "Car",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A wheeled motor vehicle for carrying a few passengers."
   },
   {
     "word": "nicu",
@@ -4699,6 +5209,12 @@ const dictionaryData = [
     "definition": "A tapering orange root vegetable eaten raw or cooked."
   },
   {
+    "word": "ninaltu",
+    "english_equiv": "Tax",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A compulsory payment levied by government on income, goods, or activity."
+  },
+  {
     "word": "niwi",
     "english_equiv": "Scrape",
     "part_of_speech": "Verb",
@@ -4715,6 +5231,12 @@ const dictionaryData = [
     "english_equiv": "Role",
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual function assumed or part played by a person or thing in a particular situation."
+  },
+  {
+    "word": "nodoglu",
+    "english_equiv": "Tip / Gratuity",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Extra money given voluntarily for good service."
   },
   {
     "word": "nofa",
@@ -4739,6 +5261,12 @@ const dictionaryData = [
     "english_equiv": "down / below",
     "part_of_speech": "Prepositions",
     "definition": "Used for direction or position lower than a reference."
+  },
+  {
+    "word": "nolfene",
+    "english_equiv": "Official / Authorized",
+    "part_of_speech": "Modifier",
+    "definition": "Having authority or formal sanction."
   },
   {
     "word": "nomi",
@@ -4771,6 +5299,12 @@ const dictionaryData = [
     "definition": "A secret plan by a group of people to do something unlawful, harmful, or deceitful."
   },
   {
+    "word": "nowuru",
+    "english_equiv": "Resource",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An available asset or means — materials, people, or funds — drawn on to achieve something."
+  },
+  {
     "word": "noze",
     "english_equiv": "Zero",
     "part_of_speech": "Modifier",
@@ -4799,6 +5333,12 @@ const dictionaryData = [
     "english_equiv": "Policy",
     "part_of_speech": "Abstract Noun",
     "definition": "A conceptual course or abstract principle of action adopted or proposed by a governing body or business."
+  },
+  {
+    "word": "nunulpi",
+    "english_equiv": "Cooperate / Collaborate",
+    "part_of_speech": "Verb",
+    "definition": "To work together toward a shared goal."
   },
   {
     "word": "nupa",
@@ -4831,6 +5371,12 @@ const dictionaryData = [
     "definition": "A complete grammatical sequence of words expressing a full statement, question, or command. Follows go (word) as the next unit up in Fiwo's own linguistic vocabulary."
   },
   {
+    "word": "nyltulu",
+    "english_equiv": "Parliament",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The assembly that makes a nation's laws."
+  },
+  {
     "word": "nyrsi",
     "english_equiv": "Carry / Bring",
     "part_of_speech": "Verb",
@@ -4847,6 +5393,12 @@ const dictionaryData = [
     "english_equiv": "Sunrise",
     "part_of_speech": "Abstract Noun",
     "definition": "The daily event of the sun appearing above the horizon."
+  },
+  {
+    "word": "nyxidi",
+    "english_equiv": "Rent",
+    "part_of_speech": "Verb",
+    "definition": "To pay for the temporary use of something owned by another."
   },
   {
     "word": "obta",
@@ -5035,6 +5587,12 @@ const dictionaryData = [
     "definition": "This refers to the cardinal direction corresponding to the point where the sun rises, oriented to the right when facing north."
   },
   {
+    "word": "oswyplo",
+    "english_equiv": "Hell",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A place or state of great suffering; the underworld of torment in myth and religion."
+  },
+  {
     "word": "osybu",
     "english_equiv": "Helpless resignation",
     "part_of_speech": "Abstract Noun",
@@ -5144,6 +5702,12 @@ const dictionaryData = [
     "definition": "To fill a physical space, consume a duration of time, or hold a specific position."
   },
   {
+    "word": "pabici",
+    "english_equiv": "Analyze",
+    "part_of_speech": "Verb",
+    "definition": "To examine something in detail to understand its parts and structure."
+  },
+  {
     "word": "padupro",
     "english_equiv": "Lava / Magma",
     "part_of_speech": "Concrete Noun",
@@ -5198,6 +5762,12 @@ const dictionaryData = [
     "definition": "An abstract systemic belief, behavior, or cultural practice passed down continuously through generations."
   },
   {
+    "word": "parkucu",
+    "english_equiv": "Date",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A specified day identified within the calendar."
+  },
+  {
     "word": "pary",
     "english_equiv": "before",
     "part_of_speech": "Prepositions",
@@ -5246,6 +5816,12 @@ const dictionaryData = [
     "definition": "To bend something flexible over on itself so that one part of it covers another."
   },
   {
+    "word": "pemolko",
+    "english_equiv": "Microphone",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A device that converts sound into an electrical signal."
+  },
+  {
     "word": "pen",
     "english_equiv": "so / therefore",
     "part_of_speech": "Grammar",
@@ -5262,6 +5838,12 @@ const dictionaryData = [
     "english_equiv": "Sound.",
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear."
+  },
+  {
+    "word": "peteswi",
+    "english_equiv": "Spend",
+    "part_of_speech": "Verb",
+    "definition": "To pay out money in exchange for goods or services."
   },
   {
     "word": "petni",
@@ -5292,6 +5874,12 @@ const dictionaryData = [
     "english_equiv": "Alive",
     "part_of_speech": "Modifier",
     "definition": "Living; possessing biological life."
+  },
+  {
+    "word": "pimpefe",
+    "english_equiv": "Available",
+    "part_of_speech": "Modifier",
+    "definition": "Able to be obtained, used, or accessed."
   },
   {
     "word": "piny",
@@ -5426,10 +6014,22 @@ const dictionaryData = [
     "definition": "A large brown seaweed that grows in underwater forests."
   },
   {
+    "word": "prifywu",
+    "english_equiv": "Fee",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A charge required for a service or right."
+  },
+  {
     "word": "priglo",
     "english_equiv": "Beetroot.",
     "part_of_speech": "Concrete Noun",
     "definition": "The dark red edible root of the beet plant."
+  },
+  {
+    "word": "profolu",
+    "english_equiv": "Database",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An organized store of data that can be searched."
   },
   {
     "word": "pudy",
@@ -5444,10 +6044,22 @@ const dictionaryData = [
     "definition": "The rounded back part of the foot, below the ankle."
   },
   {
+    "word": "punkoku",
+    "english_equiv": "Trial",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The formal examination of a legal case in court."
+  },
+  {
     "word": "puru",
     "english_equiv": "Curiosity",
     "part_of_speech": "Abstract Noun",
     "definition": "A strong desire to know, learn, or investigate something."
+  },
+  {
+    "word": "pusnapo",
+    "english_equiv": "Printer",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A machine that reproduces text or images onto paper."
   },
   {
     "word": "puve",
@@ -5559,10 +6171,22 @@ const dictionaryData = [
     "definition": "An abstract conceptual framework or system of ideas intended to explain a specific phenomenon or justify a practice."
   },
   {
+    "word": "reduslu",
+    "english_equiv": "Style",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A distinctive manner of doing, making, or expressing something."
+  },
+  {
     "word": "refo",
     "english_equiv": "Coffee",
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies a brewed, dark physical liquid beverage prepared from the roasted and ground seeds (beans) of the coffee plant."
+  },
+  {
+    "word": "rehusto",
+    "english_equiv": "Server (computer)",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A computer that supplies data or services to others over a network (distinct from kupmia, the person)."
   },
   {
     "word": "relxu",
@@ -5673,6 +6297,12 @@ const dictionaryData = [
     "definition": "Coming immediately before the current one in a sequence or in time (e.g. previous week, previous meeting). The antonym of navere (next); generalizes beyond wecdu (yesterday)."
   },
   {
+    "word": "riwifre",
+    "english_equiv": "Bankrupt",
+    "part_of_speech": "Modifier",
+    "definition": "Unable to pay one's debts; financially ruined."
+  },
+  {
     "word": "rizi",
     "english_equiv": "To get up / To rise/ to ascend / Wake",
     "part_of_speech": "Verb",
@@ -5696,6 +6326,12 @@ const dictionaryData = [
     "english_equiv": "True.",
     "part_of_speech": "Modifier",
     "definition": "This word describes something that is in accordance with fact or reality."
+  },
+  {
+    "word": "rohelso",
+    "english_equiv": "Injection",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The delivery of medicine into the body through a needle."
   },
   {
     "word": "roku",
@@ -5752,6 +6388,12 @@ const dictionaryData = [
     "definition": "A common wildflower with a yellow head that turns into a round puff of wind-borne seeds."
   },
   {
+    "word": "rubidro",
+    "english_equiv": "Plug",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The connector inserted to make an electrical connection."
+  },
+  {
     "word": "rucemi",
     "english_equiv": "Lead",
     "part_of_speech": "Verb",
@@ -5782,6 +6424,18 @@ const dictionaryData = [
     "definition": "A vessel or seam that carries flow through a body or through rock (blood vein, ore vein)."
   },
   {
+    "word": "rumatru",
+    "english_equiv": "Testimony",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A witness's formal account of what they saw."
+  },
+  {
+    "word": "runefre",
+    "english_equiv": "Off / Inactive",
+    "part_of_speech": "Modifier",
+    "definition": "Of a device or system: switched off and not operating."
+  },
+  {
     "word": "rute",
     "english_equiv": "Sharp.",
     "part_of_speech": "Modifier",
@@ -5792,6 +6446,12 @@ const dictionaryData = [
     "english_equiv": "Twist",
     "part_of_speech": "Verb",
     "definition": "To turn or spin something around a central axis, or to distort its shape."
+  },
+  {
+    "word": "ruxigi",
+    "english_equiv": "Point out / Indicate",
+    "part_of_speech": "Verb",
+    "definition": "To direct attention to something; to indicate."
   },
   {
     "word": "ruze",
@@ -5812,10 +6472,22 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun"
   },
   {
+    "word": "ryzusu",
+    "english_equiv": "Discount",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A reduction from the normal price."
+  },
+  {
     "word": "sacy",
     "english_equiv": "outside",
     "part_of_speech": "Prepositions",
     "definition": "Used for a position external to the boundaries of an enclosure or object."
+  },
+  {
+    "word": "safunu",
+    "english_equiv": "Fashion",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The prevailing style of dress or behavior at a given time; trends."
   },
   {
     "word": "sal",
@@ -5945,10 +6617,22 @@ const dictionaryData = [
     "definition": "To officially facilitate, provide the space for, or preside over an abstract event, meeting, or performance."
   },
   {
+    "word": "sismoru",
+    "english_equiv": "Access",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The right or ability to enter, use, or reach something."
+  },
+  {
     "word": "siswaso",
     "english_equiv": "Stripe / Band",
     "part_of_speech": "Concrete Noun",
     "definition": "A long, narrow section of contrasting color or material running across a surface."
+  },
+  {
+    "word": "sitastu",
+    "english_equiv": "Source / Origin",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The place or thing from which something comes or begins."
   },
   {
     "word": "skagi",
@@ -5981,6 +6665,12 @@ const dictionaryData = [
     "definition": "The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange."
   },
   {
+    "word": "skrehe",
+    "english_equiv": "On / Active / Powered",
+    "part_of_speech": "Modifier",
+    "definition": "Of a device or system: switched on and operating."
+  },
+  {
     "word": "skroqo",
     "english_equiv": "Cheese.",
     "part_of_speech": "Concrete Noun",
@@ -5997,6 +6687,12 @@ const dictionaryData = [
     "english_equiv": "Destroy",
     "part_of_speech": "Verb",
     "definition": "To break down, ruin, or dismantle a physical object or abstract system so completely that it no longer structurally exists or functions."
+  },
+  {
+    "word": "skutodo",
+    "english_equiv": "Antenna",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A device that transmits or receives radio waves."
   },
   {
     "word": "slafe",
@@ -6027,6 +6723,12 @@ const dictionaryData = [
     "english_equiv": "Saturday",
     "part_of_speech": "Abstract Noun",
     "definition": "Saturday; the sixth day of the week. Derived by compounding sluqe (six) and du (day)."
+  },
+  {
+    "word": "smakoxo",
+    "english_equiv": "Cable",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thick insulated bundle of wires carrying power or signal."
   },
   {
     "word": "smeze",
@@ -6065,16 +6767,40 @@ const dictionaryData = [
     "definition": "A slender, antlered wild mammal known for speed and grace."
   },
   {
+    "word": "snasumu",
+    "english_equiv": "Refund",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Money returned because goods or services failed."
+  },
+  {
     "word": "snibexe",
     "english_equiv": "Humid",
     "part_of_speech": "Modifier",
     "definition": "Containing much moisture in the air."
   },
   {
+    "word": "snugipi",
+    "english_equiv": "Release",
+    "part_of_speech": "Verb",
+    "definition": "To set free, let go of, or issue to the public."
+  },
+  {
     "word": "socu",
     "english_equiv": "Society",
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract structural system of human relationships, institutions, and shared culture existing together within a broad population. (Broader than canpu [Community], which implies a closer shared identity or local group)."
+  },
+  {
+    "word": "soduju",
+    "english_equiv": "Population",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The people inhabiting a particular place or region, considered as a body."
+  },
+  {
+    "word": "sogeswe",
+    "english_equiv": "Electronic",
+    "part_of_speech": "Modifier",
+    "definition": "Of, relating to, or operated by electronics; digital."
   },
   {
     "word": "sokso",
@@ -6143,6 +6869,12 @@ const dictionaryData = [
     "definition": "To cut food or other materials into small pieces with repeated sharp blows using a knife or similar tool."
   },
   {
+    "word": "spogubu",
+    "english_equiv": "Allergy",
+    "part_of_speech": "Abstract Noun",
+    "definition": "An abnormal defensive reaction to a harmless substance."
+  },
+  {
     "word": "spujuba",
     "english_equiv": "Squid",
     "part_of_speech": "Biological Noun",
@@ -6179,6 +6911,12 @@ const dictionaryData = [
     "definition": "A structured conceptual narrative or abstract account of imaginary or real events."
   },
   {
+    "word": "stibuxu",
+    "english_equiv": "Prescription",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A doctor's written authorization for medicine."
+  },
+  {
     "word": "stiro",
     "english_equiv": "Line / Row / Queue",
     "part_of_speech": "Concrete Noun",
@@ -6213,6 +6951,12 @@ const dictionaryData = [
     "english_equiv": "To translate.",
     "part_of_speech": "Verb",
     "definition": "To render text or speech from one language into another, preserving meaning."
+  },
+  {
+    "word": "stryvi",
+    "english_equiv": "Faint",
+    "part_of_speech": "Verb",
+    "definition": "To lose consciousness briefly from weakness."
   },
   {
     "word": "stuzygi",
@@ -6401,6 +7145,12 @@ const dictionaryData = [
     "definition": "This refers to a male sibling who shares one or both parents with another individual."
   },
   {
+    "word": "tatesmi",
+    "english_equiv": "Recover",
+    "part_of_speech": "Verb",
+    "definition": "To return to health after illness or injury."
+  },
+  {
     "word": "tazi",
     "english_equiv": "Love.",
     "part_of_speech": "Verb",
@@ -6432,9 +7182,9 @@ const dictionaryData = [
   },
   {
     "word": "telfo",
-    "english_equiv": "Telephone / Phone",
+    "english_equiv": "Phone / Telephone / Mobile phone",
     "part_of_speech": "Concrete Noun",
-    "definition": "A physical electronic device or machine used for two-way audio communication across a distance."
+    "definition": "A portable electronic device for two-way audio (and data) communication across a distance; a telephone or mobile/cell phone."
   },
   {
     "word": "tep",
@@ -6467,6 +7217,12 @@ const dictionaryData = [
     "definition": "A woody plant smaller than a tree (mosa), with many stems branching from near the ground."
   },
   {
+    "word": "tiherki",
+    "english_equiv": "Surpass / Exceed",
+    "part_of_speech": "Verb",
+    "definition": "To go beyond a limit, amount, or expectation."
+  },
+  {
     "word": "timufu",
     "english_equiv": "Dusk",
     "part_of_speech": "Abstract Noun",
@@ -6477,6 +7233,12 @@ const dictionaryData = [
     "english_equiv": "Pumpkin",
     "part_of_speech": "Concrete Noun",
     "definition": "A large, round, orange-fleshed vegetable with a thick rind, harvested in autumn."
+  },
+  {
+    "word": "tindobo",
+    "english_equiv": "License",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An official document granting permission to do something."
   },
   {
     "word": "tisoslo",
@@ -6564,6 +7326,12 @@ const dictionaryData = [
     "definition": "One of a pair of organs in the abdomen that filter waste products from the blood and produce urine."
   },
   {
+    "word": "triduli",
+    "english_equiv": "Afford",
+    "part_of_speech": "Verb",
+    "definition": "To have enough money or means for something."
+  },
+  {
     "word": "triruzu",
     "english_equiv": "Frustration",
     "part_of_speech": "Abstract Noun",
@@ -6624,6 +7392,12 @@ const dictionaryData = [
     "definition": "To produce a sudden loud impact sound, as of striking, knocking, or falling."
   },
   {
+    "word": "tujyru",
+    "english_equiv": "Bribe",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A secret payment made to corrupt someone's judgment."
+  },
+  {
     "word": "tulo",
     "english_equiv": "Bottle",
     "part_of_speech": "Concrete Noun",
@@ -6649,6 +7423,12 @@ const dictionaryData = [
     "usage_note": "Distinct from the other basic tastes: sour, salty, or bitter."
   },
   {
+    "word": "tuxunto",
+    "english_equiv": "Bill / Invoice",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A written statement of money owed for goods or services."
+  },
+  {
     "word": "ty",
     "english_equiv": "on",
     "part_of_speech": "Prepositions",
@@ -6659,6 +7439,12 @@ const dictionaryData = [
     "english_equiv": "Material.",
     "part_of_speech": "Concrete Noun",
     "definition": "This describes the substance things are made of and is critical for defining modern concepts like plastic."
+  },
+  {
+    "word": "tytuju",
+    "english_equiv": "Unit",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A single standard quantity, or a distinct grouped whole."
   },
   {
     "word": "ubli",
@@ -6916,16 +7702,28 @@ const dictionaryData = [
     "definition": "This word describes a quantity or degree that is mathematically sufficient or adequate to satisfy a baseline need or demand."
   },
   {
+    "word": "vagaflo",
+    "english_equiv": "Laser",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A device emitting a narrow, intense beam of light."
+  },
+  {
     "word": "vahimi",
-    "english_equiv": "Handle / Deal with",
+    "english_equiv": "Handle / Deal with / Manage / Administer / Be responsible for",
     "part_of_speech": "Verb",
-    "definition": "To actively direct, manage, or take organizational/disciplinary action regarding a situation, problem, or entity."
+    "definition": "To actively direct, manage, administer, or take organizational/disciplinary action regarding a situation, problem, or entity; to bear responsibility for it (conscientiously)."
   },
   {
     "word": "vajuzu",
     "english_equiv": "Counterproductive haste",
     "part_of_speech": "Abstract Noun",
     "definition": "Hurrying that destroys the thing being grown. Logical equivalent: Buxeup skumki moriup. (The impatience destroys the growth.)"
+  },
+  {
+    "word": "vakyko",
+    "english_equiv": "Movie / Film",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A cinematic work that tells a story through moving images."
   },
   {
     "word": "valu",
@@ -7084,10 +7882,22 @@ const dictionaryData = [
     "definition": "This describes a mathematically smaller quantity, extent, or degree of something."
   },
   {
+    "word": "vorosmo",
+    "english_equiv": "Heaven",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A place or state of supreme happiness; the celestial realm of the afterlife in myth and religion."
+  },
+  {
     "word": "vubro",
     "english_equiv": "Stick.",
     "part_of_speech": "Concrete Noun",
     "definition": "A thin, short length of wood, typically a broken or cut branch."
+  },
+  {
+    "word": "vucilfu",
+    "english_equiv": "Duty",
+    "part_of_speech": "Abstract Noun",
+    "definition": "What a person is morally or legally required to do."
   },
   {
     "word": "vudipi",
@@ -7100,6 +7910,18 @@ const dictionaryData = [
     "english_equiv": "Template / Pattern.",
     "part_of_speech": "Concrete Noun",
     "definition": "A model or guide used to reproduce a shape, design, or structure accurately."
+  },
+  {
+    "word": "vuperpu",
+    "english_equiv": "Tribe",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A social group united by kinship, custom, and territory."
+  },
+  {
+    "word": "vutyto",
+    "english_equiv": "Figure",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An illustration, diagram, or picture accompanying a text."
   },
   {
     "word": "vuwo",
@@ -7247,6 +8069,18 @@ const dictionaryData = [
     "definition": "This word describes something lacking the power to perform physically demanding tasks."
   },
   {
+    "word": "webodzo",
+    "english_equiv": "Circuit",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A closed path around which electric current flows."
+  },
+  {
+    "word": "webutu",
+    "english_equiv": "Military / Armed forces",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The organized armed forces of a nation."
+  },
+  {
     "word": "wecdu",
     "english_equiv": "Yesterday",
     "part_of_speech": "Abstract Noun",
@@ -7283,6 +8117,12 @@ const dictionaryData = [
     "definition": "To stop someone in the middle of an action, speech, or process."
   },
   {
+    "word": "wembizi",
+    "english_equiv": "Donate",
+    "part_of_speech": "Verb",
+    "definition": "To give money or goods freely to a person or cause."
+  },
+  {
     "word": "wento",
     "english_equiv": "Ladder",
     "part_of_speech": "Concrete Noun",
@@ -7311,6 +8151,12 @@ const dictionaryData = [
     "english_equiv": "(Self / Reflexive)",
     "part_of_speech": "Modifier",
     "definition": "Indicates the action reflects back onto the doer, or emphasizes the exact identity of a specific noun/pronoun."
+  },
+  {
+    "word": "widirpo",
+    "english_equiv": "Video",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A recording of moving images."
   },
   {
     "word": "wigakru",
@@ -7395,6 +8241,12 @@ const dictionaryData = [
     "english_equiv": "what (subject) / what thing / what event",
     "part_of_speech": "Grammar",
     "definition": "Interrogative subject variable for a non-agent — a thing or event filling SVO Slot 1 (e.g. What happened? What fell?). The inanimate counterpart of wun (who)."
+  },
+  {
+    "word": "wopyvo",
+    "english_equiv": "Facilities",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The buildings, equipment, and services provided for a particular activity or purpose."
   },
   {
     "word": "woru",
@@ -7500,6 +8352,12 @@ const dictionaryData = [
     "definition": "A substance used with water for washing, bathing, and cleaning, typically made from natural oils or fats."
   },
   {
+    "word": "wyrofo",
+    "english_equiv": "Platform",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A raised level surface; a stage or base on which things operate; (computing) a system on which applications run."
+  },
+  {
     "word": "xabeso",
     "english_equiv": "Wind",
     "part_of_speech": "Concrete Noun",
@@ -7510,6 +8368,12 @@ const dictionaryData = [
     "english_equiv": "River",
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies a large, naturally flowing body of liquid water continuously moving along a path toward a sea, lake, or ocean."
+  },
+  {
+    "word": "xageje",
+    "english_equiv": "Forever",
+    "part_of_speech": "Modifier",
+    "definition": "For all future time; eternally, everlastingly."
   },
   {
     "word": "xako",
@@ -7609,10 +8473,22 @@ const dictionaryData = [
     "definition": "A broad, solid piece of metal, wood, or synthetic material held to block or deflect physical blows and projectiles."
   },
   {
+    "word": "xinadzu",
+    "english_equiv": "Conference",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A formal meeting or gathering for discussion, typically with an agenda."
+  },
+  {
     "word": "xiolo",
     "english_equiv": "Chair",
     "part_of_speech": "Concrete Noun",
     "definition": "A separate piece of furniture designed as a seat for one person, typically featuring a backrest and four legs."
+  },
+  {
+    "word": "xiseslu",
+    "english_equiv": "Race",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A competition to determine who is fastest over a set course."
   },
   {
     "word": "xistu",
@@ -7716,6 +8592,12 @@ const dictionaryData = [
     "english_equiv": "Gratitude / Thankfulness",
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract feeling of being thankful and showing appreciation."
+  },
+  {
+    "word": "xujili",
+    "english_equiv": "Upload",
+    "part_of_speech": "Verb",
+    "definition": "To send data from a device to a remote system."
   },
   {
     "word": "xulaza",
@@ -7941,6 +8823,12 @@ const dictionaryData = [
     "definition": "Phatic greeting used in the evening; 'good evening.' Standalone on the Null Track (Rule 33)."
   },
   {
+    "word": "zidzopo",
+    "english_equiv": "Continent",
+    "part_of_speech": "Concrete Noun",
+    "definition": "One of the Earth's great continuous landmasses."
+  },
+  {
     "word": "zihe",
     "english_equiv": "Famous",
     "part_of_speech": "Modifier",
@@ -7981,6 +8869,12 @@ const dictionaryData = [
     "english_equiv": "Face.",
     "part_of_speech": "Biological Noun",
     "definition": "The front part of a biological entity's head, typically containing the eyes, nose, and mouth."
+  },
+  {
+    "word": "zitsugu",
+    "english_equiv": "Council",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A body of people who meet to decide or advise."
   },
   {
     "word": "zixefra",
@@ -8043,16 +8937,40 @@ const dictionaryData = [
     "definition": "To exist; to be present in reality. A bare existential verb for stating that something is, used where the copula hi cannot apply (it requires a suffix) and the Zero Copula cannot (it requires a complement)."
   },
   {
+    "word": "zowumpu",
+    "english_equiv": "Inflation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A general, ongoing rise in prices across an economy."
+  },
+  {
     "word": "zufo",
     "english_equiv": "Bed.",
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a piece of furniture or a prepared spot used for sleep or rest."
   },
   {
+    "word": "zupokru",
+    "english_equiv": "Capital",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Financial assets or wealth available for use in producing more wealth."
+  },
+  {
     "word": "zurko",
     "english_equiv": "Shovel.",
     "definition": "A tool with a broad blade and handle, used for digging and moving loose material.",
     "part_of_speech": "Concrete Noun"
+  },
+  {
+    "word": "zusabru",
+    "english_equiv": "Surgery",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A medical operation that cuts into the body to repair it."
+  },
+  {
+    "word": "zuslefu",
+    "english_equiv": "Algorithm",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A precise step-by-step procedure for solving a problem."
   },
   {
     "word": "zuwu",

@@ -870,6 +870,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "axuklui",
+    "english_equiv": "To network",
+    "part_of_speech": "Verb",
+    "definition": "To connect into or form a network; to interconnect.",
+    "root": "axuklu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "to network",
+      "to interconnect"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "axvua",
     "english_equiv": "Ally",
     "part_of_speech": "Biological Noun",
@@ -1316,6 +1330,34 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Verb (stative)"
   },
   {
+    "word": "bipe",
+    "english_equiv": "Firstly / Originally / Original",
+    "part_of_speech": "Modifier",
+    "definition": "Being the first or earliest; done first; original.",
+    "root": "bip",
+    "derivation_path": "→e",
+    "path_gloss": "Particle -> Modifier (nominalized)",
+    "senses": [
+      "original",
+      "first",
+      "originally"
+    ]
+  },
+  {
+    "word": "bipeo",
+    "english_equiv": "The original / The first one",
+    "part_of_speech": "Concrete Noun",
+    "definition": "The first or original one; the prototype.",
+    "root": "bip",
+    "derivation_path": "→e→o",
+    "path_gloss": "Particle -> Modifier -> Concrete Noun",
+    "senses": [
+      "the original",
+      "the first one",
+      "prototype"
+    ]
+  },
+  {
     "word": "biwue",
     "english_equiv": "Problematic",
     "part_of_speech": "Modifier",
@@ -1477,6 +1519,19 @@ const derivedDictionaryData = [
     "senses": [
       "evil",
       "badness"
+    ]
+  },
+  {
+    "word": "bomufua",
+    "english_equiv": "Pensioner",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who receives a pension.",
+    "root": "bomufu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)",
+    "senses": [
+      "pensioner",
+      "retiree on a pension"
     ]
   },
   {
@@ -1698,6 +1753,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "bucygoe",
+    "english_equiv": "Earthly",
+    "part_of_speech": "Modifier",
+    "definition": "Of or relating to the planet Earth; terrestrial.",
+    "root": "bucygo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "earthly",
+      "terrestrial"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "bufroe",
     "english_equiv": "Made of copper",
     "part_of_speech": "Modifier",
@@ -1734,6 +1803,18 @@ const derivedDictionaryData = [
     "senses": [
       "whiny",
       "complaining"
+    ]
+  },
+  {
+    "word": "bunowoa",
+    "english_equiv": "Pharmacist",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who prepares and dispenses medicines.",
+    "root": "bunowo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)",
+    "senses": [
+      "pharmacist"
     ]
   },
   {
@@ -2021,6 +2102,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "cazeblue",
+    "english_equiv": "Potential",
+    "part_of_speech": "Modifier",
+    "definition": "Existing in possibility; latent, not yet realized.",
+    "root": "cazeblu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "potential",
+      "latent"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "celei",
     "english_equiv": "To be private",
     "part_of_speech": "Verb",
@@ -2121,6 +2216,19 @@ const derivedDictionaryData = [
       "to become already"
     ],
     "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "cifudrue",
+    "english_equiv": "Characteristic",
+    "part_of_speech": "Modifier",
+    "definition": "Typical of a person's or thing's nature.",
+    "root": "cifudru",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "characteristic",
+      "distinctive"
+    ]
   },
   {
     "word": "cigea",
@@ -2246,6 +2354,19 @@ const derivedDictionaryData = [
     "senses": [
       "barrel-like",
       "resembling barrel"
+    ]
+  },
+  {
+    "word": "cizuzui",
+    "english_equiv": "Deposit / To deposit",
+    "part_of_speech": "Verb",
+    "definition": "To place money into an account or pay it as security.",
+    "root": "cizuzu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "deposit",
+      "pay into an account"
     ]
   },
   {
@@ -2560,6 +2681,20 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Verb (stative)"
   },
   {
+    "word": "cuskamae",
+    "english_equiv": "Devilish",
+    "part_of_speech": "Modifier",
+    "definition": "Resembling or characteristic of a devil; wicked.",
+    "root": "cuskama",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "devilish",
+      "diabolical"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "cuspoe",
     "english_equiv": "Beacon-like",
     "part_of_speech": "Modifier",
@@ -2658,6 +2793,19 @@ const derivedDictionaryData = [
     "senses": [
       "beach-like",
       "resembling beach"
+    ]
+  },
+  {
+    "word": "dadukrua",
+    "english_equiv": "Specialist / Expert",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person expert in a specialized field.",
+    "root": "dadukru",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)",
+    "senses": [
+      "specialist",
+      "expert"
     ]
   },
   {
@@ -2872,6 +3020,31 @@ const derivedDictionaryData = [
     "path_gloss": "Preposition -> Concrete Noun (relation object)",
     "senses": [
       "interior"
+    ]
+  },
+  {
+    "word": "deluflue",
+    "english_equiv": "Budgetary",
+    "part_of_speech": "Modifier",
+    "definition": "Relating to or governed by a budget.",
+    "root": "deluflu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "budgetary"
+    ]
+  },
+  {
+    "word": "deluflui",
+    "english_equiv": "Budget / To budget",
+    "part_of_speech": "Verb",
+    "definition": "To plan how available money will be spent.",
+    "root": "deluflu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "budget",
+      "plan spending"
     ]
   },
   {
@@ -3428,6 +3601,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "duluxrai",
+    "english_equiv": "Immigrate",
+    "part_of_speech": "Verb",
+    "definition": "To move into a country in order to settle there.",
+    "root": "duluxra",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)",
+    "senses": [
+      "immigrate",
+      "migrate to"
+    ]
+  },
+  {
     "word": "dupei",
     "english_equiv": "To be deep",
     "part_of_speech": "Verb",
@@ -3464,6 +3650,34 @@ const derivedDictionaryData = [
       "simultaneous",
       "concurrent"
     ]
+  },
+  {
+    "word": "duxilia",
+    "english_equiv": "Attacker",
+    "part_of_speech": "Biological Noun",
+    "definition": "One who attacks; an assailant.",
+    "root": "duxili",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "attacker",
+      "assailant"
+    ],
+    "reviewed": "curated"
+  },
+  {
+    "word": "duxilio",
+    "english_equiv": "An attack",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An act of attacking; an assault or offensive.",
+    "root": "duxili",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)",
+    "senses": [
+      "an attack",
+      "an assault"
+    ],
+    "reviewed": "curated"
   },
   {
     "word": "dyrpoe",
@@ -3526,6 +3740,47 @@ const derivedDictionaryData = [
     "senses": [
       "pottery-like",
       "resembling pottery"
+    ]
+  },
+  {
+    "word": "dzupakae",
+    "english_equiv": "Royal / Regal",
+    "part_of_speech": "Modifier",
+    "definition": "Of or befitting a ruler.",
+    "root": "dzupaka",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "royal",
+      "regal"
+    ]
+  },
+  {
+    "word": "dzupakai",
+    "english_equiv": "To rule / To reign",
+    "part_of_speech": "Verb",
+    "definition": "To hold and exercise sovereign authority.",
+    "root": "dzupaka",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)",
+    "senses": [
+      "rule",
+      "reign",
+      "govern"
+    ]
+  },
+  {
+    "word": "dzupakau",
+    "english_equiv": "Rulership / Reign",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The office, rule, or reign of a sovereign.",
+    "root": "dzupaka",
+    "derivation_path": "a→u",
+    "path_gloss": "Biological Noun -> Abstract Noun (role/state)",
+    "senses": [
+      "reign",
+      "rulership",
+      "sovereignty"
     ]
   },
   {
@@ -4275,6 +4530,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "eziswiu",
+    "english_equiv": "Implementation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act of putting a plan or system into effect.",
+    "root": "eziswi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "implementation"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "ezloe",
     "english_equiv": "Lid-like",
     "part_of_speech": "Modifier",
@@ -4488,6 +4756,20 @@ const derivedDictionaryData = [
     "senses": [
       "includer"
     ]
+  },
+  {
+    "word": "fasnoliu",
+    "english_equiv": "Propaganda",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Information spread widely to influence opinion; dissemination.",
+    "root": "fasnoli",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "propaganda",
+      "dissemination"
+    ],
+    "reviewed": "curated"
   },
   {
     "word": "fatlia",
@@ -4718,6 +5000,33 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "fexrukua",
+    "english_equiv": "Staff member",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who is part of the staff; an employee.",
+    "root": "fexruku",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)",
+    "senses": [
+      "staff member",
+      "employee"
+    ],
+    "reviewed": "curated"
+  },
+  {
+    "word": "figenkue",
+    "english_equiv": "Typical",
+    "part_of_speech": "Modifier",
+    "definition": "Representative of a type or kind.",
+    "root": "figenku",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "typical",
+      "representative"
+    ]
+  },
+  {
     "word": "fihia",
     "english_equiv": "Revealer",
     "part_of_speech": "Biological Noun",
@@ -4898,6 +5207,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "flaxadoi",
+    "english_equiv": "Bandage / To bandage",
+    "part_of_speech": "Verb",
+    "definition": "To wrap a wound with a bandage.",
+    "root": "flaxado",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)",
+    "senses": [
+      "bandage",
+      "dress a wound"
+    ]
+  },
+  {
     "word": "flestoe",
     "english_equiv": "Made of diamond",
     "part_of_speech": "Modifier",
@@ -4909,6 +5231,19 @@ const derivedDictionaryData = [
       "made of diamond",
       "diamond-hard",
       "sparkling"
+    ]
+  },
+  {
+    "word": "flufue",
+    "english_equiv": "Hygienic / Sanitary",
+    "part_of_speech": "Modifier",
+    "definition": "Clean and conducive to health.",
+    "root": "flufu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "hygienic",
+      "sanitary"
     ]
   },
   {
@@ -5064,16 +5399,30 @@ const derivedDictionaryData = [
     ]
   },
   {
-    "word": "fonoe",
-    "english_equiv": "Phone-like",
-    "part_of_speech": "Modifier",
-    "definition": "Made of, resembling, or relating to phone.",
-    "root": "fono",
-    "derivation_path": "o→e",
-    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "word": "fomentua",
+    "english_equiv": "Producer / Manufacturer",
+    "part_of_speech": "Biological Noun",
+    "definition": "One who produces goods at scale.",
+    "root": "fomentu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)",
     "senses": [
-      "phone-like",
-      "resembling phone"
+      "producer",
+      "manufacturer"
+    ]
+  },
+  {
+    "word": "fomentui",
+    "english_equiv": "To produce / To manufacture",
+    "part_of_speech": "Verb",
+    "definition": "To make goods at scale.",
+    "root": "fomentu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "produce",
+      "manufacture",
+      "mass-produce"
     ]
   },
   {
@@ -5527,6 +5876,33 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "gasirfue",
+    "english_equiv": "Nauseous / Nauseated",
+    "part_of_speech": "Modifier",
+    "definition": "Feeling the urge to vomit.",
+    "root": "gasirfu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "nauseous",
+      "nauseated"
+    ]
+  },
+  {
+    "word": "gavudziu",
+    "english_equiv": "Emphasis",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Special importance or prominence given to something; stress.",
+    "root": "gavudzi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "emphasis",
+      "stress"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "gawei",
     "english_equiv": "To be good",
     "part_of_speech": "Verb",
@@ -5807,6 +6183,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "gihoflui",
+    "english_equiv": "To limit",
+    "part_of_speech": "Verb",
+    "definition": "To set a limit on; to restrict.",
+    "root": "gihoflu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "to limit",
+      "to restrict"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "gikosoa",
     "english_equiv": "Coastal worker",
     "part_of_speech": "Biological Noun",
@@ -5969,6 +6359,32 @@ const derivedDictionaryData = [
       "to become four"
     ],
     "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "glozitia",
+    "english_equiv": "Shooter",
+    "part_of_speech": "Biological Noun",
+    "definition": "One who shoots.",
+    "root": "gloziti",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "shooter",
+      "gunman"
+    ]
+  },
+  {
+    "word": "glozitio",
+    "english_equiv": "Shot",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A single act of firing, or a projectile fired.",
+    "root": "gloziti",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)",
+    "senses": [
+      "shot",
+      "gunshot"
+    ]
   },
   {
     "word": "glyntoa",
@@ -6284,6 +6700,34 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "gruvesei",
+    "english_equiv": "To modernize",
+    "part_of_speech": "Verb",
+    "definition": "To make or become modern.",
+    "root": "gruvese",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)",
+    "senses": [
+      "to modernize",
+      "to be modern"
+    ],
+    "reviewed": "curated"
+  },
+  {
+    "word": "gruveseu",
+    "english_equiv": "Modernity",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The quality or state of being modern.",
+    "root": "gruvese",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "modernity",
+      "modernness"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "guamia",
     "english_equiv": "Accountant",
     "part_of_speech": "Biological Noun",
@@ -6524,6 +6968,20 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
       "online"
+    ]
+  },
+  {
+    "word": "gypuo",
+    "english_equiv": "Website",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A site or set of pages on the internet; a website.",
+    "root": "gypu",
+    "derivation_path": "u→o",
+    "path_gloss": "Abstract Noun -> Concrete Noun (embodiment)",
+    "senses": [
+      "website",
+      "web site",
+      "web page"
     ]
   },
   {
@@ -7003,6 +7461,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "horulfua",
+    "english_equiv": "Juror",
+    "part_of_speech": "Biological Noun",
+    "definition": "A member of a jury.",
+    "root": "horulfu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)",
+    "senses": [
+      "juror",
+      "jury member"
+    ]
+  },
+  {
     "word": "hoswae",
     "english_equiv": "Made of bamboo",
     "part_of_speech": "Modifier",
@@ -7374,6 +7845,19 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Biological Noun (doer)",
     "senses": [
       "pourer"
+    ]
+  },
+  {
+    "word": "icejenue",
+    "english_equiv": "Periodic",
+    "part_of_speech": "Modifier",
+    "definition": "Recurring at intervals; of a period.",
+    "root": "icejenu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "periodic",
+      "recurring"
     ]
   },
   {
@@ -7961,6 +8445,18 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "izevufue",
+    "english_equiv": "Democratic",
+    "part_of_speech": "Modifier",
+    "definition": "Of or relating to democracy.",
+    "root": "izevufu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "democratic"
+    ]
+  },
+  {
     "word": "izlia",
     "english_equiv": "Guest / Invitee",
     "part_of_speech": "Biological Noun",
@@ -8010,6 +8506,33 @@ const derivedDictionaryData = [
     "senses": [
       "coldness",
       "chill"
+    ]
+  },
+  {
+    "word": "jacifie",
+    "english_equiv": "Similar / Alike",
+    "part_of_speech": "Modifier",
+    "definition": "Resembling something; alike.",
+    "root": "jacifi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "similar",
+      "alike"
+    ]
+  },
+  {
+    "word": "jacifiu",
+    "english_equiv": "Resemblance / Similarity",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The state or degree of being alike.",
+    "root": "jacifi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "resemblance",
+      "similarity",
+      "likeness"
     ]
   },
   {
@@ -8207,6 +8730,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "jediu",
+    "english_equiv": "Possession / Property",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Something owned; a possession or piece of property.",
+    "root": "jedi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "property",
+      "possession",
+      "belongings"
+    ]
+  },
+  {
     "word": "jedlei",
     "english_equiv": "To be many",
     "part_of_speech": "Verb",
@@ -8244,6 +8781,18 @@ const derivedDictionaryData = [
       "to grow",
       "to advance",
       "to evolve"
+    ]
+  },
+  {
+    "word": "jegetrue",
+    "english_equiv": "Cancerous",
+    "part_of_speech": "Modifier",
+    "definition": "Affected by or of the nature of cancer.",
+    "root": "jegetru",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "cancerous"
     ]
   },
   {
@@ -8299,16 +8848,18 @@ const derivedDictionaryData = [
   },
   {
     "word": "jetei",
-    "english_equiv": "To be more",
+    "english_equiv": "To increase",
     "part_of_speech": "Verb",
-    "definition": "Stative: to be or become more.",
+    "definition": "To increase; to make or become greater in amount, number, or degree (transitive or stative).",
     "root": "jete",
     "derivation_path": "e→i",
     "senses": [
-      "to be more",
+      "to increase",
+      "to raise",
+      "to make more",
       "to become more"
     ],
-    "path_gloss": "Modifier -> Verb (stative)"
+    "path_gloss": "Modifier -> Verb"
   },
   {
     "word": "jilfei",
@@ -8433,6 +8984,43 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Verb (feel/enact)",
     "senses": [
       "vote"
+    ]
+  },
+  {
+    "word": "jolkodue",
+    "english_equiv": "Average (adj)",
+    "part_of_speech": "Modifier",
+    "definition": "Being the mathematical mean; typical.",
+    "root": "jolkodu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "average",
+      "mean"
+    ]
+  },
+  {
+    "word": "jomytia",
+    "english_equiv": "Investor",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who commits money expecting future gain.",
+    "root": "jomyti",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "investor"
+    ]
+  },
+  {
+    "word": "jomytiu",
+    "english_equiv": "Investment",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Money committed for future gain; the act of investing.",
+    "root": "jomyti",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "investment"
     ]
   },
   {
@@ -8970,6 +9558,19 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Verb (stative)"
   },
   {
+    "word": "kedovoi",
+    "english_equiv": "Fund / To fund",
+    "part_of_speech": "Verb",
+    "definition": "To provide money for a purpose.",
+    "root": "kedovo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)",
+    "senses": [
+      "fund",
+      "finance"
+    ]
+  },
+  {
     "word": "keglae",
     "english_equiv": "Grassy",
     "part_of_speech": "Modifier",
@@ -9196,6 +9797,32 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "kifybia",
+    "english_equiv": "Protester",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who publicly expresses objection.",
+    "root": "kifybi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "protester",
+      "demonstrator"
+    ]
+  },
+  {
+    "word": "kifybiu",
+    "english_equiv": "Protest",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A public expression of strong objection.",
+    "root": "kifybi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "protest",
+      "demonstration"
+    ]
+  },
+  {
     "word": "kikae",
     "english_equiv": "Chicken-like",
     "part_of_speech": "Modifier",
@@ -9272,6 +9899,33 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "kipesloi",
+    "english_equiv": "Vaccinate",
+    "part_of_speech": "Verb",
+    "definition": "To give someone a vaccine against a disease.",
+    "root": "kipeslo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)",
+    "senses": [
+      "vaccinate",
+      "immunize"
+    ]
+  },
+  {
+    "word": "kixilkui",
+    "english_equiv": "Swear / Take an oath",
+    "part_of_speech": "Verb",
+    "definition": "To make a solemn, binding promise.",
+    "root": "kixilku",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "swear",
+      "take an oath",
+      "vow"
+    ]
+  },
+  {
     "word": "klazoe",
     "english_equiv": "Cloud-like",
     "part_of_speech": "Modifier",
@@ -9283,6 +9937,19 @@ const derivedDictionaryData = [
       "cloud-like",
       "resembling cloud"
     ]
+  },
+  {
+    "word": "klegowoa",
+    "english_equiv": "Novelist",
+    "part_of_speech": "Biological Noun",
+    "definition": "A writer of novels.",
+    "root": "klegowo",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)",
+    "senses": [
+      "novelist"
+    ],
+    "reviewed": "curated"
   },
   {
     "word": "kluxei",
@@ -9309,6 +9976,34 @@ const derivedDictionaryData = [
       "silence",
       "quietness"
     ]
+  },
+  {
+    "word": "kokidia",
+    "english_equiv": "Examiner",
+    "part_of_speech": "Biological Noun",
+    "definition": "One who examines or inspects.",
+    "root": "kokidi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "examiner",
+      "inspector"
+    ],
+    "reviewed": "curated"
+  },
+  {
+    "word": "kokidiu",
+    "english_equiv": "Examination",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act of examining; a close inspection or study.",
+    "root": "kokidi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "examination",
+      "inspection"
+    ],
+    "reviewed": "curated"
   },
   {
     "word": "kokloe",
@@ -9588,6 +10283,34 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "kufuglia",
+    "english_equiv": "Traveler",
+    "part_of_speech": "Biological Noun",
+    "definition": "One who travels.",
+    "root": "kufugli",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "traveler",
+      "voyager"
+    ],
+    "reviewed": "curated"
+  },
+  {
+    "word": "kufuglio",
+    "english_equiv": "A journey",
+    "part_of_speech": "Concrete Noun",
+    "definition": "An instance of travel; a trip or voyage.",
+    "root": "kufugli",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)",
+    "senses": [
+      "a journey",
+      "a trip"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "kujondia",
     "english_equiv": "Resister",
     "part_of_speech": "Biological Noun",
@@ -9597,6 +10320,32 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Biological Noun (doer)",
     "senses": [
       "resister"
+    ]
+  },
+  {
+    "word": "kukylue",
+    "english_equiv": "Profitable",
+    "part_of_speech": "Modifier",
+    "definition": "Yielding profit; financially rewarding.",
+    "root": "kukylu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "profitable",
+      "lucrative"
+    ]
+  },
+  {
+    "word": "kukylui",
+    "english_equiv": "Profit / To profit",
+    "part_of_speech": "Verb",
+    "definition": "To gain money after costs are subtracted; to benefit financially.",
+    "root": "kukylu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "profit",
+      "make a profit"
     ]
   },
   {
@@ -9728,6 +10477,34 @@ const derivedDictionaryData = [
     "senses": [
       "cake-like",
       "resembling cake"
+    ]
+  },
+  {
+    "word": "kuvysua",
+    "english_equiv": "Police officer",
+    "part_of_speech": "Biological Noun",
+    "definition": "A member of the police force.",
+    "root": "kuvysu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)",
+    "senses": [
+      "police officer",
+      "officer",
+      "cop"
+    ]
+  },
+  {
+    "word": "kuvysui",
+    "english_equiv": "To police / To patrol",
+    "part_of_speech": "Verb",
+    "definition": "To keep order as the police do.",
+    "root": "kuvysu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "police",
+      "patrol",
+      "enforce order"
     ]
   },
   {
@@ -9970,6 +10747,31 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "laswitia",
+    "english_equiv": "Representative / Delegate",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who represents or acts for others.",
+    "root": "laswiti",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "representative",
+      "delegate"
+    ]
+  },
+  {
+    "word": "laswitiu",
+    "english_equiv": "Representation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act of representing or standing for others.",
+    "root": "laswiti",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "representation"
+    ]
+  },
+  {
     "word": "latei",
     "english_equiv": "To be all",
     "part_of_speech": "Verb",
@@ -9983,6 +10785,21 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Verb (stative)"
   },
   {
+    "word": "lateu",
+    "english_equiv": "Total / Sum / Totality",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The whole amount; the sum or total of all parts.",
+    "root": "late",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "total",
+      "sum",
+      "totality",
+      "the whole"
+    ]
+  },
+  {
     "word": "leblae",
     "english_equiv": "Goat-like",
     "part_of_speech": "Modifier",
@@ -9994,6 +10811,20 @@ const derivedDictionaryData = [
       "goat-like",
       "resembling goat"
     ]
+  },
+  {
+    "word": "lebykoi",
+    "english_equiv": "To title",
+    "part_of_speech": "Verb",
+    "definition": "To give a title or heading to a work.",
+    "root": "lebyko",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)",
+    "senses": [
+      "to title",
+      "to entitle"
+    ],
+    "reviewed": "curated"
   },
   {
     "word": "lefei",
@@ -10021,6 +10852,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "legudroa",
+    "english_equiv": "Soccer player",
+    "part_of_speech": "Biological Noun",
+    "definition": "One who plays soccer; a footballer.",
+    "root": "legudro",
+    "derivation_path": "o→a",
+    "path_gloss": "Concrete Noun -> Biological Noun (handler)",
+    "senses": [
+      "soccer player",
+      "footballer"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "lehae",
     "english_equiv": "Fern-like",
     "part_of_speech": "Modifier",
@@ -10044,6 +10889,19 @@ const derivedDictionaryData = [
     "senses": [
       "stairs-like",
       "resembling stairs"
+    ]
+  },
+  {
+    "word": "lemespiu",
+    "english_equiv": "Arrest",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act of seizing and holding a person by legal authority.",
+    "root": "lemespi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "arrest",
+      "apprehension"
     ]
   },
   {
@@ -10202,6 +11060,45 @@ const derivedDictionaryData = [
       "slimy",
       "made of slime",
       "sticky-viscous"
+    ]
+  },
+  {
+    "word": "libywua",
+    "english_equiv": "Philanthropist",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who gives generously to those in need.",
+    "root": "libywu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)",
+    "senses": [
+      "philanthropist",
+      "charitable person"
+    ]
+  },
+  {
+    "word": "libywue",
+    "english_equiv": "Charitable",
+    "part_of_speech": "Modifier",
+    "definition": "Generous in giving to those in need.",
+    "root": "libywu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "charitable",
+      "generous"
+    ]
+  },
+  {
+    "word": "libywui",
+    "english_equiv": "To give to charity",
+    "part_of_speech": "Verb",
+    "definition": "To give money or goods to those in need.",
+    "root": "libywu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "give to charity",
+      "donate charitably"
     ]
   },
   {
@@ -10628,6 +11525,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "lurubrai",
+    "english_equiv": "Witness / To witness",
+    "part_of_speech": "Verb",
+    "definition": "To see an event so as to be able to report it.",
+    "root": "lurubra",
+    "derivation_path": "a→i",
+    "path_gloss": "Biological Noun -> Verb (act as)",
+    "senses": [
+      "witness",
+      "testify to"
+    ]
+  },
+  {
     "word": "lusoe",
     "english_equiv": "Key-like",
     "part_of_speech": "Modifier",
@@ -10663,6 +11573,19 @@ const derivedDictionaryData = [
     "senses": [
       "border-like",
       "resembling border"
+    ]
+  },
+  {
+    "word": "luvismae",
+    "english_equiv": "Wounded / Injured",
+    "part_of_speech": "Modifier",
+    "definition": "Having an open wound; injured.",
+    "root": "luvisma",
+    "derivation_path": "a→e",
+    "path_gloss": "Biological Noun -> Modifier (like)",
+    "senses": [
+      "wounded",
+      "injured"
     ]
   },
   {
@@ -10755,6 +11678,32 @@ const derivedDictionaryData = [
       "to become possible"
     ],
     "path_gloss": "Modifier -> Verb (stative)"
+  },
+  {
+    "word": "mafehei",
+    "english_equiv": "To be perfect",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be complete and flawless.",
+    "root": "mafehe",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)",
+    "senses": [
+      "be perfect",
+      "be flawless"
+    ]
+  },
+  {
+    "word": "mafeheu",
+    "english_equiv": "Perfection",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The state of being perfect or flawless.",
+    "root": "mafehe",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "perfection",
+      "flawlessness"
+    ]
   },
   {
     "word": "magustua",
@@ -11197,6 +12146,18 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "mixuprue",
+    "english_equiv": "Symptomatic",
+    "part_of_speech": "Modifier",
+    "definition": "Showing the symptoms of a disease.",
+    "root": "mixupru",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "symptomatic"
+    ]
+  },
+  {
     "word": "mobloa",
     "english_equiv": "Driver",
     "part_of_speech": "Biological Noun",
@@ -11413,6 +12374,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "movimpiu",
+    "english_equiv": "Focus",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Concentration of attention or energy; a center of interest.",
+    "root": "movimpi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "focus",
+      "concentration"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "mua",
     "english_equiv": "Ghost / Spirit",
     "part_of_speech": "Biological Noun",
@@ -11505,6 +12480,19 @@ const derivedDictionaryData = [
       "of a flower",
       "flower-patterned"
     ]
+  },
+  {
+    "word": "muwyzui",
+    "english_equiv": "To campaign",
+    "part_of_speech": "Verb",
+    "definition": "To conduct or take part in a campaign.",
+    "root": "muwyzu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "to campaign"
+    ],
+    "reviewed": "curated"
   },
   {
     "word": "mydue",
@@ -11638,6 +12626,33 @@ const derivedDictionaryData = [
       "togetherness",
       "unity"
     ]
+  },
+  {
+    "word": "naglifie",
+    "english_equiv": "Insistent",
+    "part_of_speech": "Modifier",
+    "definition": "Given to insisting; persistent and demanding.",
+    "root": "naglifi",
+    "derivation_path": "i→e",
+    "path_gloss": "Verb -> Modifier (prone to)",
+    "senses": [
+      "insistent",
+      "persistent"
+    ],
+    "reviewed": "curated"
+  },
+  {
+    "word": "naglifiu",
+    "english_equiv": "Insistence",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act or quality of insisting; persistent demand.",
+    "root": "naglifi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "insistence"
+    ],
+    "reviewed": "curated"
   },
   {
     "word": "nailei",
@@ -11814,6 +12829,19 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
       "collective"
+    ]
+  },
+  {
+    "word": "necadroi",
+    "english_equiv": "Charge",
+    "part_of_speech": "Verb",
+    "definition": "To restore energy to a battery with a charger.",
+    "root": "necadro",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)",
+    "senses": [
+      "charge",
+      "recharge"
     ]
   },
   {
@@ -12018,6 +13046,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "ninaltui",
+    "english_equiv": "To tax",
+    "part_of_speech": "Verb",
+    "definition": "To impose a tax on.",
+    "root": "ninaltu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "tax",
+      "levy"
+    ]
+  },
+  {
     "word": "niwia",
     "english_equiv": "Scraper",
     "part_of_speech": "Biological Noun",
@@ -12069,6 +13110,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "nodoglui",
+    "english_equiv": "Tip / To tip",
+    "part_of_speech": "Verb",
+    "definition": "To give extra money for good service.",
+    "root": "nodoglu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "tip",
+      "give a gratuity"
+    ]
+  },
+  {
     "word": "nofae",
     "english_equiv": "Human, humane",
     "part_of_speech": "Modifier",
@@ -12083,15 +13137,17 @@ const derivedDictionaryData = [
   },
   {
     "word": "nofau",
-    "english_equiv": "Personhood",
+    "english_equiv": "Humanity / Humankind / Personhood",
     "part_of_speech": "Abstract Noun",
-    "definition": "The state or quality of being a person; personhood.",
+    "definition": "Human beings collectively; the human race; also the abstract quality of being a person (personhood).",
     "root": "nofa",
     "derivation_path": "a→u",
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)",
     "senses": [
-      "personhood",
-      "identity"
+      "humanity",
+      "humankind",
+      "the human race",
+      "personhood"
     ]
   },
   {
@@ -12198,6 +13254,20 @@ const derivedDictionaryData = [
       "bottom",
       "underside",
       "base"
+    ]
+  },
+  {
+    "word": "nolfenea",
+    "english_equiv": "Official (person)",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person holding a position of authority.",
+    "root": "nolfene",
+    "derivation_path": "e→a",
+    "path_gloss": "Modifier -> Biological Noun (characterized person)",
+    "senses": [
+      "official",
+      "officer",
+      "functionary"
     ]
   },
   {
@@ -12339,6 +13409,32 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "nunulpia",
+    "english_equiv": "Collaborator / Partner",
+    "part_of_speech": "Biological Noun",
+    "definition": "One who cooperates with others.",
+    "root": "nunulpi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "collaborator",
+      "partner"
+    ]
+  },
+  {
+    "word": "nunulpiu",
+    "english_equiv": "Cooperation / Collaboration",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act of working together.",
+    "root": "nunulpi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "cooperation",
+      "collaboration"
+    ]
+  },
+  {
     "word": "nupae",
     "english_equiv": "Parent-like",
     "part_of_speech": "Modifier",
@@ -12477,6 +13573,32 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
       "sunrise"
+    ]
+  },
+  {
+    "word": "nyxidia",
+    "english_equiv": "Tenant / Renter",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who pays to use property owned by another.",
+    "root": "nyxidi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "tenant",
+      "renter"
+    ]
+  },
+  {
+    "word": "nyxidiu",
+    "english_equiv": "Rental / Renting",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act of paying for temporary use; the payment made.",
+    "root": "nyxidi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "rental",
+      "renting"
     ]
   },
   {
@@ -12974,6 +14096,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "oswyploe",
+    "english_equiv": "Hellish",
+    "part_of_speech": "Modifier",
+    "definition": "Resembling or characteristic of hell; tormenting.",
+    "root": "oswyplo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "hellish",
+      "infernal"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "otania",
     "english_equiv": "Cook",
     "part_of_speech": "Biological Noun",
@@ -13201,6 +14337,30 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Biological Noun (doer)",
     "senses": [
       "occupant"
+    ]
+  },
+  {
+    "word": "pabicia",
+    "english_equiv": "Analyst",
+    "part_of_speech": "Biological Noun",
+    "definition": "One who analyzes.",
+    "root": "pabici",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "analyst"
+    ]
+  },
+  {
+    "word": "pabiciu",
+    "english_equiv": "Analysis",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A detailed examination of something's parts.",
+    "root": "pabici",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "analysis"
     ]
   },
   {
@@ -13543,6 +14703,31 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "peteswia",
+    "english_equiv": "Spender",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who pays out money.",
+    "root": "peteswi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "spender"
+    ]
+  },
+  {
+    "word": "peteswiu",
+    "english_equiv": "Spending / Expenditure",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act of paying out money.",
+    "root": "peteswi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "spending",
+      "expenditure"
+    ]
+  },
+  {
     "word": "pezei",
     "english_equiv": "To be later",
     "part_of_speech": "Verb",
@@ -13604,6 +14789,31 @@ const derivedDictionaryData = [
     "senses": [
       "vitality",
       "aliveness"
+    ]
+  },
+  {
+    "word": "pimpefei",
+    "english_equiv": "To be available",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be obtainable or accessible.",
+    "root": "pimpefe",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)",
+    "senses": [
+      "be available",
+      "be accessible"
+    ]
+  },
+  {
+    "word": "pimpefeu",
+    "english_equiv": "Availability",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The state of being available.",
+    "root": "pimpefe",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "availability"
     ]
   },
   {
@@ -14030,6 +15240,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "punkokui",
+    "english_equiv": "Try / Put on trial",
+    "part_of_speech": "Verb",
+    "definition": "To subject someone to a legal trial.",
+    "root": "punkoku",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "try",
+      "put on trial"
+    ]
+  },
+  {
     "word": "purue",
     "english_equiv": "Curious",
     "part_of_speech": "Modifier",
@@ -14040,6 +15263,18 @@ const derivedDictionaryData = [
     "senses": [
       "curious",
       "inquisitive"
+    ]
+  },
+  {
+    "word": "pusnapoi",
+    "english_equiv": "Print",
+    "part_of_speech": "Verb",
+    "definition": "To produce text or images on paper with a printer.",
+    "root": "pusnapo",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)",
+    "senses": [
+      "print"
     ]
   },
   {
@@ -14308,6 +15543,19 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
       "theoretical"
+    ]
+  },
+  {
+    "word": "reduslue",
+    "english_equiv": "Stylish / Stylistic",
+    "part_of_speech": "Modifier",
+    "definition": "Having or relating to style.",
+    "root": "reduslu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "stylish",
+      "stylistic"
     ]
   },
   {
@@ -14631,6 +15879,32 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Verb (stative)"
   },
   {
+    "word": "riwifrei",
+    "english_equiv": "To go bankrupt",
+    "part_of_speech": "Verb",
+    "definition": "To become unable to pay one's debts.",
+    "root": "riwifre",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)",
+    "senses": [
+      "go bankrupt",
+      "become insolvent"
+    ]
+  },
+  {
+    "word": "riwifreu",
+    "english_equiv": "Bankruptcy",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The state of being unable to pay one's debts.",
+    "root": "riwifre",
+    "derivation_path": "e→u",
+    "path_gloss": "Modifier -> Abstract Noun (quality)",
+    "senses": [
+      "bankruptcy",
+      "insolvency"
+    ]
+  },
+  {
     "word": "rizia",
     "english_equiv": "Riser",
     "part_of_speech": "Biological Noun",
@@ -14718,6 +15992,18 @@ const derivedDictionaryData = [
       "fact",
       "reality",
       "veracity"
+    ]
+  },
+  {
+    "word": "rohelsoi",
+    "english_equiv": "Inject",
+    "part_of_speech": "Verb",
+    "definition": "To deliver medicine into the body with a needle.",
+    "root": "rohelso",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)",
+    "senses": [
+      "inject"
     ]
   },
   {
@@ -14823,6 +16109,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "rubidroi",
+    "english_equiv": "Plug in",
+    "part_of_speech": "Verb",
+    "definition": "To connect a device by inserting a plug.",
+    "root": "rubidro",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)",
+    "senses": [
+      "plug in",
+      "connect"
+    ]
+  },
+  {
     "word": "rucemia",
     "english_equiv": "Leader",
     "part_of_speech": "Biological Noun",
@@ -14911,6 +16210,32 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "rumatrui",
+    "english_equiv": "Testify",
+    "part_of_speech": "Verb",
+    "definition": "To give a formal account as a witness.",
+    "root": "rumatru",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "testify",
+      "give testimony"
+    ]
+  },
+  {
+    "word": "runefrei",
+    "english_equiv": "To be off",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be switched off / inactive.",
+    "root": "runefre",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)",
+    "senses": [
+      "be off",
+      "be inactive"
+    ]
+  },
+  {
     "word": "rutei",
     "english_equiv": "To be sharp",
     "part_of_speech": "Verb",
@@ -14945,6 +16270,19 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Biological Noun (doer)",
     "senses": [
       "twister"
+    ]
+  },
+  {
+    "word": "ruxigiu",
+    "english_equiv": "Indication",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A sign that points something out.",
+    "root": "ruxigi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "indication",
+      "sign"
     ]
   },
   {
@@ -14989,6 +16327,32 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "ryzusue",
+    "english_equiv": "Discounted",
+    "part_of_speech": "Modifier",
+    "definition": "Offered at a reduced price.",
+    "root": "ryzusu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "discounted",
+      "reduced-price"
+    ]
+  },
+  {
+    "word": "ryzusui",
+    "english_equiv": "Discount / To discount",
+    "part_of_speech": "Verb",
+    "definition": "To reduce the price of something.",
+    "root": "ryzusu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "discount",
+      "reduce the price"
+    ]
+  },
+  {
     "word": "sacye",
     "english_equiv": "Outer",
     "part_of_speech": "Modifier",
@@ -15013,6 +16377,20 @@ const derivedDictionaryData = [
     "senses": [
       "exterior",
       "outside"
+    ]
+  },
+  {
+    "word": "safunue",
+    "english_equiv": "Fashionable",
+    "part_of_speech": "Modifier",
+    "definition": "In keeping with current fashion.",
+    "root": "safunu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "fashionable",
+      "trendy",
+      "stylish"
     ]
   },
   {
@@ -15257,6 +16635,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "sismorui",
+    "english_equiv": "To access",
+    "part_of_speech": "Verb",
+    "definition": "To gain entry to or the use of something.",
+    "root": "sismoru",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "to access",
+      "to gain entry to"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "siswasoe",
     "english_equiv": "Stripe-like",
     "part_of_speech": "Modifier",
@@ -15341,6 +16733,19 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
       "commercial"
+    ]
+  },
+  {
+    "word": "skrehei",
+    "english_equiv": "To be on",
+    "part_of_speech": "Verb",
+    "definition": "Stative: to be switched on / active.",
+    "root": "skrehe",
+    "derivation_path": "e→i",
+    "path_gloss": "Modifier -> Verb (stative)",
+    "senses": [
+      "be on",
+      "be active"
     ]
   },
   {
@@ -15510,6 +16915,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "snasumui",
+    "english_equiv": "Refund / To refund",
+    "part_of_speech": "Verb",
+    "definition": "To return money paid for goods or services.",
+    "root": "snasumu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "refund",
+      "return money"
+    ]
+  },
+  {
     "word": "snibexei",
     "english_equiv": "To be humid",
     "part_of_speech": "Verb",
@@ -15532,6 +16950,20 @@ const derivedDictionaryData = [
     "senses": [
       "humidity"
     ]
+  },
+  {
+    "word": "snugipio",
+    "english_equiv": "A release",
+    "part_of_speech": "Concrete Noun",
+    "definition": "Something released or issued to the public.",
+    "root": "snugipi",
+    "derivation_path": "i→o",
+    "path_gloss": "Verb -> Concrete Noun (instrument/result)",
+    "senses": [
+      "a release",
+      "an issue"
+    ],
+    "reviewed": "curated"
   },
   {
     "word": "socue",
@@ -15685,6 +17117,18 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "spogubue",
+    "english_equiv": "Allergic",
+    "part_of_speech": "Modifier",
+    "definition": "Having or caused by an allergy.",
+    "root": "spogubu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "allergic"
+    ]
+  },
+  {
     "word": "spujubae",
     "english_equiv": "Squid-like",
     "part_of_speech": "Modifier",
@@ -15732,6 +17176,18 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
       "narrative"
+    ]
+  },
+  {
+    "word": "stibuxui",
+    "english_equiv": "Prescribe",
+    "part_of_speech": "Verb",
+    "definition": "To authorize medicine or treatment in writing.",
+    "root": "stibuxu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "prescribe"
     ]
   },
   {
@@ -15926,6 +17382,19 @@ const derivedDictionaryData = [
       "push-activated",
       "pressure-sensitive"
     ]
+  },
+  {
+    "word": "sudiu",
+    "english_equiv": "Pressure",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Pressure; the force applied to a surface, or the state of being pressed (physical or figurative).",
+    "root": "sudi",
+    "derivation_path": "i→u",
+    "senses": [
+      "pressure",
+      "the force of pressing"
+    ],
+    "path_gloss": "Verb -> Noun (abstract)"
   },
   {
     "word": "sufia",
@@ -16297,6 +17766,18 @@ const derivedDictionaryData = [
     "path_gloss": "Biological Noun -> Abstract Noun (role/state)",
     "senses": [
       "brotherhood"
+    ]
+  },
+  {
+    "word": "tatesmiu",
+    "english_equiv": "Recovery",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The process of returning to health.",
+    "root": "tatesmi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "recovery"
     ]
   },
   {
@@ -16793,6 +18274,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "tujyrui",
+    "english_equiv": "Bribe / To bribe",
+    "part_of_speech": "Verb",
+    "definition": "To pay someone secretly to corrupt their judgment.",
+    "root": "tujyru",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "bribe",
+      "pay off"
+    ]
+  },
+  {
     "word": "tuloe",
     "english_equiv": "Bottle-like",
     "part_of_speech": "Modifier",
@@ -16866,6 +18360,20 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Abstract Noun (quality)",
     "senses": [
       "sweetness"
+    ]
+  },
+  {
+    "word": "tuxuntoi",
+    "english_equiv": "To bill / To invoice",
+    "part_of_speech": "Verb",
+    "definition": "To present a statement of money owed.",
+    "root": "tuxunto",
+    "derivation_path": "o→i",
+    "path_gloss": "Concrete Noun -> Verb (use/apply)",
+    "senses": [
+      "bill",
+      "invoice",
+      "charge"
     ]
   },
   {
@@ -17900,6 +19408,20 @@ const derivedDictionaryData = [
     "path_gloss": "Modifier -> Verb (stative)"
   },
   {
+    "word": "vorosmoe",
+    "english_equiv": "Heavenly",
+    "part_of_speech": "Modifier",
+    "definition": "Resembling or characteristic of heaven; blissful.",
+    "root": "vorosmo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "heavenly",
+      "celestial"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "vubroe",
     "english_equiv": "Stick-like",
     "part_of_speech": "Modifier",
@@ -17910,6 +19432,19 @@ const derivedDictionaryData = [
     "senses": [
       "stick-like",
       "resembling stick"
+    ]
+  },
+  {
+    "word": "vucilfue",
+    "english_equiv": "Dutiful / Obligatory",
+    "part_of_speech": "Modifier",
+    "definition": "Bound by or arising from duty.",
+    "root": "vucilfu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "dutiful",
+      "obligatory"
     ]
   },
   {
@@ -17937,6 +19472,18 @@ const derivedDictionaryData = [
     "senses": [
       "template-like",
       "resembling template"
+    ]
+  },
+  {
+    "word": "vuperpue",
+    "english_equiv": "Tribal",
+    "part_of_speech": "Modifier",
+    "definition": "Of or relating to a tribe.",
+    "root": "vuperpu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "tribal"
     ]
   },
   {
@@ -18324,6 +19871,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "webutue",
+    "english_equiv": "Military (adj)",
+    "part_of_speech": "Modifier",
+    "definition": "Of or relating to the armed forces.",
+    "root": "webutu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "military",
+      "martial"
+    ]
+  },
+  {
     "word": "wecdue",
     "english_equiv": "Yesterday's",
     "part_of_speech": "Modifier",
@@ -18406,6 +19966,30 @@ const derivedDictionaryData = [
     "path_gloss": "Verb -> Biological Noun (doer)",
     "senses": [
       "interrupter"
+    ]
+  },
+  {
+    "word": "wembizia",
+    "english_equiv": "Donor",
+    "part_of_speech": "Biological Noun",
+    "definition": "A person who gives money or goods to a cause.",
+    "root": "wembizi",
+    "derivation_path": "i→a",
+    "path_gloss": "Verb -> Biological Noun (doer)",
+    "senses": [
+      "donor"
+    ]
+  },
+  {
+    "word": "wembiziu",
+    "english_equiv": "Donation",
+    "part_of_speech": "Abstract Noun",
+    "definition": "Money or goods given freely to a person or cause.",
+    "root": "wembizi",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "donation"
     ]
   },
   {
@@ -18920,6 +20504,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "xapo",
+    "english_equiv": "Example / Instance",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A specific instance that illustrates a general rule, class, or point; an example.",
+    "root": "xap",
+    "derivation_path": "→o",
+    "path_gloss": "Particle -> Concrete Noun (nominalized)",
+    "senses": [
+      "example",
+      "instance",
+      "illustration"
+    ]
+  },
+  {
     "word": "xaqboe",
     "english_equiv": "Made of gold",
     "part_of_speech": "Modifier",
@@ -19177,6 +20775,20 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "xiseslui",
+    "english_equiv": "To race",
+    "part_of_speech": "Verb",
+    "definition": "To compete in a race; to contest for speed.",
+    "root": "xiseslu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "to race",
+      "to compete for speed"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "xitrikia",
     "english_equiv": "Teleporter",
     "part_of_speech": "Biological Noun",
@@ -19389,6 +21001,18 @@ const derivedDictionaryData = [
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
       "thankful"
+    ]
+  },
+  {
+    "word": "xujiliu",
+    "english_equiv": "Upload",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The act of sending data to a remote system.",
+    "root": "xujili",
+    "derivation_path": "i→u",
+    "path_gloss": "Verb -> Abstract Noun (act/process)",
+    "senses": [
+      "upload"
     ]
   },
   {
@@ -19954,6 +21578,19 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "zidzopoe",
+    "english_equiv": "Continental",
+    "part_of_speech": "Modifier",
+    "definition": "Of or relating to a continent.",
+    "root": "zidzopo",
+    "derivation_path": "o→e",
+    "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
+    "senses": [
+      "continental"
+    ],
+    "reviewed": "curated"
+  },
+  {
     "word": "zihei",
     "english_equiv": "To be famous",
     "part_of_speech": "Verb",
@@ -20068,6 +21705,19 @@ const derivedDictionaryData = [
     "senses": [
       "face-like",
       "resembling face"
+    ]
+  },
+  {
+    "word": "zitsugua",
+    "english_equiv": "Councilor",
+    "part_of_speech": "Biological Noun",
+    "definition": "A member of a council.",
+    "root": "zitsugu",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)",
+    "senses": [
+      "councilor",
+      "council member"
     ]
   },
   {
@@ -20187,6 +21837,18 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "zowumpue",
+    "english_equiv": "Inflationary",
+    "part_of_speech": "Modifier",
+    "definition": "Causing or relating to a general rise in prices.",
+    "root": "zowumpu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "inflationary"
+    ]
+  },
+  {
     "word": "zufoe",
     "english_equiv": "Bed-like",
     "part_of_speech": "Modifier",
@@ -20213,6 +21875,55 @@ const derivedDictionaryData = [
     ]
   },
   {
+    "word": "zusabrua",
+    "english_equiv": "Surgeon",
+    "part_of_speech": "Biological Noun",
+    "definition": "A doctor who performs surgery.",
+    "root": "zusabru",
+    "derivation_path": "u→a",
+    "path_gloss": "Abstract Noun -> Biological Noun (practitioner)",
+    "senses": [
+      "surgeon"
+    ]
+  },
+  {
+    "word": "zusabrue",
+    "english_equiv": "Surgical",
+    "part_of_speech": "Modifier",
+    "definition": "Relating to or done by surgery.",
+    "root": "zusabru",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "surgical"
+    ]
+  },
+  {
+    "word": "zusabrui",
+    "english_equiv": "Operate / Perform surgery",
+    "part_of_speech": "Verb",
+    "definition": "To perform a surgical operation on a patient.",
+    "root": "zusabru",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "operate",
+      "perform surgery"
+    ]
+  },
+  {
+    "word": "zuslefue",
+    "english_equiv": "Algorithmic",
+    "part_of_speech": "Modifier",
+    "definition": "Following a step-by-step computational procedure.",
+    "root": "zuslefu",
+    "derivation_path": "u→e",
+    "path_gloss": "Abstract Noun -> Modifier (characterized by)",
+    "senses": [
+      "algorithmic"
+    ]
+  },
+  {
     "word": "zuwue",
     "english_equiv": "Methodical",
     "part_of_speech": "Modifier",
@@ -20236,6 +21947,7 @@ const derivedDictionaryData = [
     "senses": [
       "forward",
       "toward",
+      "towards",
       "onward"
     ]
   },
