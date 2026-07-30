@@ -717,14 +717,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "astlue",
-    "english_equiv": "Interesting",
+    "english_equiv": "Interested",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or relating to interest; interesting.",
+    "definition": "Feeling interest in something; engaged, curious.",
     "root": "astlu",
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
-      "interesting"
+      "interested",
+      "engaged"
+    ]
+  },
+  {
+    "word": "astlui",
+    "english_equiv": "To interest",
+    "part_of_speech": "Verb",
+    "definition": "To produce interest in someone; to interest, engage.",
+    "root": "astlu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "interest"
     ]
   },
   {
@@ -5585,14 +5598,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "fruvadue",
-    "english_equiv": "Disappointing",
+    "english_equiv": "Disappointed",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or relating to disappointment; disappointing.",
+    "definition": "Feeling disappointment; let down.",
     "root": "fruvadu",
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
-      "disappointing"
+      "disappointed",
+      "let down"
+    ]
+  },
+  {
+    "word": "fruvadui",
+    "english_equiv": "To disappoint",
+    "part_of_speech": "Verb",
+    "definition": "To produce disappointment in someone; to let down.",
+    "root": "fruvadu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "disappoint"
     ]
   },
   {
@@ -12972,14 +12998,27 @@ const derivedDictionaryData = [
   },
   {
     "word": "neuque",
-    "english_equiv": "Disgusting",
+    "english_equiv": "Disgusted",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or relating to disgust; disgusting.",
+    "definition": "Feeling disgust; repulsed.",
     "root": "neuqu",
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
-      "disgusting"
+      "disgusted",
+      "repulsed"
+    ]
+  },
+  {
+    "word": "neuqui",
+    "english_equiv": "To disgust",
+    "part_of_speech": "Verb",
+    "definition": "To produce disgust in someone; to repulse.",
+    "root": "neuqu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "disgust"
     ]
   },
   {
@@ -14443,14 +14482,16 @@ const derivedDictionaryData = [
   },
   {
     "word": "pamue",
-    "english_equiv": "Painful",
+    "english_equiv": "In pain / Hurting",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or relating to pain; painful.",
+    "definition": "Feeling pain; hurting, sore.",
     "root": "pamu",
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
-      "painful"
+      "in pain",
+      "hurting",
+      "sore"
     ]
   },
   {
@@ -17513,14 +17554,26 @@ const derivedDictionaryData = [
   },
   {
     "word": "swucue",
-    "english_equiv": "Relieving",
+    "english_equiv": "Relieved",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or relating to relief; relieving.",
+    "definition": "Feeling relief; unburdened after worry.",
     "root": "swucu",
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
-      "relieving"
+      "relieved"
+    ]
+  },
+  {
+    "word": "swucui",
+    "english_equiv": "To relieve",
+    "part_of_speech": "Verb",
+    "definition": "To produce relief in someone; to unburden.",
+    "root": "swucu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "relieve"
     ]
   },
   {
@@ -17591,14 +17644,26 @@ const derivedDictionaryData = [
   },
   {
     "word": "sysue",
-    "english_equiv": "Tedious",
+    "english_equiv": "Bored",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or relating to boredom; tedious.",
+    "definition": "Feeling boredom; weary from lack of interest.",
     "root": "sysu",
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
-      "tedious"
+      "bored"
+    ]
+  },
+  {
+    "word": "sysui",
+    "english_equiv": "To bore",
+    "part_of_speech": "Verb",
+    "definition": "To produce boredom in someone; to bore.",
+    "root": "sysu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "bore"
     ]
   },
   {
@@ -18139,26 +18204,51 @@ const derivedDictionaryData = [
   },
   {
     "word": "triruzue",
-    "english_equiv": "Frustrating",
+    "english_equiv": "Frustrated",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or relating to frustration; frustrating.",
+    "definition": "Feeling frustration; thwarted.",
     "root": "triruzu",
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
-      "frustrating"
+      "frustrated"
+    ]
+  },
+  {
+    "word": "triruzui",
+    "english_equiv": "To frustrate",
+    "part_of_speech": "Verb",
+    "definition": "To produce frustration in someone; to thwart.",
+    "root": "triruzu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "frustrate"
     ]
   },
   {
     "word": "truhue",
-    "english_equiv": "Wondrous",
+    "english_equiv": "Awestruck",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or relating to awe; wondrous.",
+    "definition": "Feeling awe or wonder.",
     "root": "truhu",
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
-      "wondrous"
+      "awestruck",
+      "in awe"
+    ]
+  },
+  {
+    "word": "truhui",
+    "english_equiv": "To awe",
+    "part_of_speech": "Verb",
+    "definition": "To produce awe or wonder in someone.",
+    "root": "truhu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "awe"
     ]
   },
   {
@@ -18657,14 +18747,26 @@ const derivedDictionaryData = [
   },
   {
     "word": "ukwolue",
-    "english_equiv": "Embarrassing",
+    "english_equiv": "Embarrassed",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or relating to embarrassment; embarrassing.",
+    "definition": "Feeling embarrassment; self-conscious.",
     "root": "ukwolu",
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
-      "embarrassing"
+      "embarrassed"
+    ]
+  },
+  {
+    "word": "ukwolui",
+    "english_equiv": "To embarrass",
+    "part_of_speech": "Verb",
+    "definition": "To produce embarrassment in someone.",
+    "root": "ukwolu",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "embarrass"
     ]
   },
   {
@@ -19113,14 +19215,26 @@ const derivedDictionaryData = [
   },
   {
     "word": "veponkue",
-    "english_equiv": "Surprising",
+    "english_equiv": "Surprised",
     "part_of_speech": "Modifier",
-    "definition": "Characterized by or relating to surprise; surprising.",
+    "definition": "Feeling surprise; taken aback.",
     "root": "veponku",
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "senses": [
-      "surprising"
+      "surprised"
+    ]
+  },
+  {
+    "word": "veponkui",
+    "english_equiv": "To surprise",
+    "part_of_speech": "Verb",
+    "definition": "To produce surprise in someone; to take aback.",
+    "root": "veponku",
+    "derivation_path": "u→i",
+    "path_gloss": "Abstract Noun -> Verb (feel/enact)",
+    "senses": [
+      "surprise"
     ]
   },
   {
