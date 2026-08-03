@@ -19,7 +19,7 @@ const posColors = {
     "Abstract Noun": "#001dab",
     "Verb": "#bc0000",
     "Modifier": "#3f9022",
-    "Preposition": "#ff6600",
+    "Prepositions": "#ff6600",
     "Grammar": "#666666"
 };
 // Nav open/close helpers
@@ -115,11 +115,12 @@ function renderDictionary() {
 
         filteredData.sort((a, b) => a.word.localeCompare(b.word));
         if (sortBy.value) {
-            if (sortBy.value === "Noun") {
-                filteredData = filteredData.filter(item => item.part_of_speech.includes("Noun"));
-            } else {
-                filteredData = filteredData.filter(item => item.part_of_speech === sortBy.value);
-            }
+            filteredData = filteredData.filter(item => {
+                const pos = item.part_of_speech || '';
+                // "Noun" covers the three noun classes; the canon labels prepositions "Prepositions".
+                if (sortBy.value === "Noun") return pos.includes("Noun");
+                return pos === sortBy.value || pos === sortBy.value + 's';
+            });
         }
 
         wordCount.textContent = `Words: ${filteredData.length}`;
@@ -151,36 +152,15 @@ function renderDictionary() {
     }
 
     updateDisplay();
-    searchBar.addEventListener('input', updateDisplay);
-    if (dictionaryFilter) dictionaryFilter.addEventListener('change', updateDisplay);
-    sortBy.addEventListener('change', updateDisplay);
-}
 
-// Story read functionality
-document.querySelectorAll('.read-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        const card = btn.parentElement;
-        const title = card.querySelector('h3').textContent;
-        const content = card.querySelector('.story-content');
-        if (content) {
-            document.getElementById('modal-title').textContent = title;
-            document.getElementById('modal-body').innerHTML = content.innerHTML;
-            document.getElementById('story-modal').style.display = 'block';
-        }
-    });
-});
-
-// Close modal
-document.getElementById('close-modal').addEventListener('click', () => {
-    document.getElementById('story-modal').style.display = 'none';
-});
-
-// Close modal on outside click
-window.addEventListener('click', (e) => {
-    if (e.target === document.getElementById('story-modal')) {
-        document.getElementById('story-modal').style.display = 'none';
+    // renderDictionary() runs on every visit to the tab — bind the controls only once.
+    if (!grid.dataset.controlsBound) {
+        searchBar.addEventListener('input', updateDisplay);
+        if (dictionaryFilter) dictionaryFilter.addEventListener('change', updateDisplay);
+        sortBy.addEventListener('change', updateDisplay);
+        grid.dataset.controlsBound = '1';
     }
-});
+}
 
 // Close definition modal
 document.getElementById('close-definition-modal').addEventListener('click', () => {
@@ -197,11 +177,7 @@ window.addEventListener('click', (e) => {
 // Close any open modal with Escape key
 window.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
-        const storyModal = document.getElementById('story-modal');
         const definitionModal = document.getElementById('definition-modal');
-        if (storyModal && storyModal.style.display === 'block') {
-            storyModal.style.display = 'none';
-        }
         if (definitionModal && definitionModal.style.display === 'block') {
             definitionModal.style.display = 'none';
         }
@@ -496,6 +472,233 @@ if (translateTextBtn && translatorInput && translatorOutput) {
             e.preventDefault();
             runTranslator();
         }
+    });
+}
+
+// ============================================
+// LET'S READ — full-screen bilingual reader
+// ============================================
+// Stories come from stories.js (GENERATED from Language material/Translations.md
+// by Tools/update_stories.mjs). Every line is parsed once on open so word
+// breakdowns and colour coding share the translator's parser output.
+
+const readerEl = document.getElementById('reader');
+const readerBody = document.getElementById('reader-body');
+const readerTitle = document.getElementById('reader-title');
+const readerLegend = document.getElementById('reader-legend');
+const storiesGrid = document.getElementById('stories-grid');
+const wordPanel = document.getElementById('word-panel');
+const wordPanelBody = document.getElementById('word-panel-body');
+
+// tokens of the line currently open, keyed by line index
+let readerLines = [];
+let lastScrollY = 0;
+
+function readerWordHtml(tok, lineIdx, wordIdx) {
+    const info = catInfo[tok.cat] || catInfo.particle;
+    const suffixLen = (tok.suffix || '').length;
+    const rawRoot = suffixLen ? tok.raw.slice(0, tok.raw.length - suffixLen) : tok.raw;
+    const rawSuffix = suffixLen ? tok.raw.slice(tok.raw.length - suffixLen) : '';
+    return `<span class="tok rw ${info.cls}${tok.error ? ' tok-has-error' : ''}"` +
+        ` data-line="${lineIdx}" data-word="${wordIdx}" role="button" tabindex="0"` +
+        ` title="${esc(tok.gloss || tok.raw)}">${esc(rawRoot)}` +
+        `${rawSuffix ? `<span class="tok-suffix">${esc(rawSuffix)}</span>` : ''}</span>`;
+}
+
+// Several parser categories share one colour (every clausal wall is tok-wall,
+// every particle is tok-glue), so the key is written per COLOUR, not per category.
+const legendLabels = {
+    'tok-noun':    'Noun',
+    'tok-proper':  'Proper noun',
+    'tok-verb':    'Verb',
+    'tok-mod':     'Modifier',
+    'tok-prep':    'Preposition',
+    'tok-mood':    'Mood tag / passive / phatic',
+    'tok-wall':    'Clausal wall · condition · negation',
+    'tok-bracket': 'tep…tel bracket',
+    'tok-glue':    'Glue · separator · particle',
+    'tok-var':     'Question variable',
+    'tok-err':     'Unparsed'
+};
+
+// Built from the colours actually used by THIS story, so the key never lists a
+// category the reader cannot see on the page — and never silently drops one.
+function buildLegend(lines) {
+    const present = new Set();
+    lines.forEach(line => line.tokens.forEach(t => {
+        if (t.kind === 'punct') return;
+        present.add((catInfo[t.cat] || catInfo.particle).cls);
+    }));
+    return Object.keys(legendLabels)
+        .filter(cls => present.has(cls))
+        .map(cls => `<span class="legend-item"><span class="tok ${cls}">Aa</span>${esc(legendLabels[cls])}</span>`)
+        .join('');
+}
+
+function showWordPanel(tok, wordEl) {
+    const info = catInfo[tok.cat] || catInfo.particle;
+    const pron = (typeof FiwoPronounce !== 'undefined' && !tok.error)
+        ? FiwoPronounce.pronounceHtml(tok.raw, { syllables: true }) : '';
+    const suffixRow = tok.suffix
+        ? `<div class="wp-row"><span class="wp-label">Suffix</span><span><span class="gloss-suffix">-${esc(tok.suffix)}</span> ${esc(FiwoParser.suffixMeaning(tok.suffix, tok.cat))}</span></div>`
+        : '';
+    const structuralCats = ['mood_tag', 'clausal_wall', 'condition', 'passive', 'phatic',
+        'negation', 'bracket_open', 'bracket_close', 'inline_glue', 'list_sep', 'math_op', 'particle'];
+    const showSlot = tok.slot && !structuralCats.includes(tok.cat)
+        && tok.slot.toLowerCase() !== info.label.toLowerCase();
+    const entry = tok.entry;
+
+    wordPanelBody.innerHTML = `
+        <div class="wp-head">
+            <span class="wp-word">${readerWordHtml(tok, -1, -1)}</span>
+            <span class="gloss-cat ${info.cls}">${esc(info.label)}</span>
+            ${showSlot ? `<span class="gloss-slot">${esc(tok.slot)}</span>` : ''}
+        </div>
+        ${pron ? `<div class="wp-row"><span class="wp-label">Say it</span><span>${pron}</span></div>` : ''}
+        <div class="wp-row"><span class="wp-label">Means</span><span class="wp-meaning">${esc(tok.error ? '✗ ' + tok.error : (tok.gloss || '—'))}</span></div>
+        ${tok.root && tok.root !== tok.raw ? `<div class="wp-row"><span class="wp-label">Root</span><span>${esc(tok.root)}</span></div>` : ''}
+        ${suffixRow}
+        ${entry && entry.definition ? `<div class="wp-row"><span class="wp-label">Definition</span><span>${esc(entry.definition)}</span></div>` : ''}
+        ${tok.note ? `<div class="wp-note">${esc(tok.note)}</div>` : ''}`;
+    wordPanel.hidden = false;
+
+    // The panel is docked to the bottom, so a word low on the screen would end up
+    // behind it — nudge the text up just enough to keep the word you tapped visible.
+    if (wordEl) {
+        const gap = wordEl.getBoundingClientRect().bottom - wordPanel.getBoundingClientRect().top;
+        if (gap > -8) readerBody.scrollBy({ top: gap + 24, behavior: 'smooth' });
+    }
+}
+
+function hideWordPanel() {
+    wordPanel.hidden = true;
+    readerBody.querySelectorAll('.rw.rw-active').forEach(el => el.classList.remove('rw-active'));
+}
+
+function openStory(story) {
+    if (typeof FiwoParser === 'undefined') return;
+
+    readerTitle.textContent = story.title;
+    readerLines = story.lines.map(line => {
+        const result = FiwoParser.parseSentence(line.fiwo);
+        return { ...line, tokens: result.tokens };
+    });
+
+    readerBody.innerHTML = readerLines.map((line, i) => {
+        let w = -1;
+        // Spaces go BEFORE words but never before punctuation, so the line reads
+        // as prose rather than as the translator's spaced-out token stream.
+        const fiwoHtml = line.tokens.map((t, ti) => {
+            if (t.kind === 'punct') return `<span class="tok-punct">${esc(t.raw)}</span>`;
+            w++;
+            return (ti > 0 ? ' ' : '') + readerWordHtml(t, i, w);
+        }).join('');
+        return `
+            <article class="reader-line" data-line="${i}">
+                <div class="reader-line-row">
+                    <span class="reader-num" aria-hidden="true">${i + 1}</span>
+                    <p class="reader-fiwo">${fiwoHtml}</p>
+                    <button class="reader-en-toggle" data-line="${i}" aria-expanded="false"
+                            aria-label="Show translation of line ${i + 1}" title="Show translation">EN</button>
+                </div>
+                <p class="reader-en" id="reader-en-${i}" hidden>${esc(line.english)}</p>
+            </article>`;
+    }).join('');
+
+    readerLegend.innerHTML = buildLegend(readerLines);
+    lastScrollY = window.scrollY;
+    readerEl.hidden = false;
+    document.body.classList.add('reader-open');
+    readerBody.scrollTop = 0;
+    document.getElementById('reader-close').focus({ preventScroll: true });
+}
+
+function closeReader() {
+    readerEl.hidden = true;
+    hideWordPanel();
+    document.body.classList.remove('reader-open');
+    window.scrollTo({ top: lastScrollY });
+}
+
+function renderStoryLibrary() {
+    if (!storiesGrid || typeof storyData === 'undefined') return;
+    // No reveal-on-scroll class here — initScrollReveals() runs later in this file
+    // and picks up every .story-card, including these.
+    storiesGrid.innerHTML = storyData.map((s, i) => `
+        <div class="story-card">
+            <h3>${esc(s.title)}</h3>
+            <p>${s.lines.length} lines · ${s.wordCount} words</p>
+            <button class="read-btn" data-story="${i}">Read</button>
+        </div>`).join('');
+
+    storiesGrid.querySelectorAll('.read-btn').forEach(btn => {
+        btn.addEventListener('click', () => openStory(storyData[Number(btn.dataset.story)]));
+    });
+}
+
+if (readerEl && storiesGrid) {
+    renderStoryLibrary();
+
+    document.getElementById('reader-close').addEventListener('click', closeReader);
+    document.getElementById('word-panel-close').addEventListener('click', hideWordPanel);
+
+    // Colour coding on/off (requirement: toggle in the reader's top bar)
+    const colorsBtn = document.getElementById('reader-colors');
+    colorsBtn.addEventListener('click', () => {
+        const on = readerBody.classList.toggle('colors-on');
+        colorsBtn.setAttribute('aria-pressed', String(on));
+        colorsBtn.classList.toggle('is-on', on);
+        readerLegend.hidden = !on;
+    });
+
+    // Reveal/hide every translation at once
+    const allEnBtn = document.getElementById('reader-all-en');
+    allEnBtn.addEventListener('click', () => {
+        const on = allEnBtn.getAttribute('aria-pressed') !== 'true';
+        allEnBtn.setAttribute('aria-pressed', String(on));
+        allEnBtn.classList.toggle('is-on', on);
+        readerBody.querySelectorAll('.reader-line').forEach(lineEl => {
+            lineEl.querySelector('.reader-en').hidden = !on;
+            const t = lineEl.querySelector('.reader-en-toggle');
+            t.setAttribute('aria-expanded', String(on));
+            t.classList.toggle('is-on', on);
+        });
+    });
+
+    // One delegated handler for both per-line toggles and word clicks
+    readerBody.addEventListener('click', (e) => {
+        const toggle = e.target.closest('.reader-en-toggle');
+        if (toggle) {
+            const lineEl = toggle.closest('.reader-line');
+            const en = lineEl.querySelector('.reader-en');
+            const show = en.hidden;
+            en.hidden = !show;
+            toggle.setAttribute('aria-expanded', String(show));
+            toggle.classList.toggle('is-on', show);
+            return;
+        }
+        const word = e.target.closest('.rw');
+        if (!word) return;
+        const line = readerLines[Number(word.dataset.line)];
+        if (!line) return;
+        const tok = line.tokens.filter(t => t.kind !== 'punct')[Number(word.dataset.word)];
+        if (!tok) return;
+        readerBody.querySelectorAll('.rw.rw-active').forEach(el => el.classList.remove('rw-active'));
+        word.classList.add('rw-active');
+        showWordPanel(tok, word);
+    });
+
+    // Keyboard: Enter/Space activates a word, Escape backs out one layer
+    readerBody.addEventListener('keydown', (e) => {
+        if ((e.key === 'Enter' || e.key === ' ') && e.target.classList.contains('rw')) {
+            e.preventDefault();
+            e.target.click();
+        }
+    });
+    window.addEventListener('keydown', (e) => {
+        if (e.key !== 'Escape' || readerEl.hidden) return;
+        if (!wordPanel.hidden) hideWordPanel();
+        else closeReader();
     });
 }
 

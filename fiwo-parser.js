@@ -244,6 +244,13 @@
         });
         if (errors.length) return { tokens, errors, valid: false };
 
+        // A sentence with no words is nothing to parse. Mirrors the same guard in
+        // Tools/validate_sentence.py — without it, punctuation-only input ("...")
+        // was reported valid despite containing no Fiwo at all.
+        if (!tokens.some(t => t.kind === 'word')) {
+            return { tokens, errors: ['[∅] Empty sentence — no Fiwo words to parse.'], valid: false };
+        }
+
         const stack = [newCtx()];
         let pendingPrep = null, pendingGlue = null, pendingNeg = null, lastRoot = null;
         const ctx = () => stack[stack.length - 1];
