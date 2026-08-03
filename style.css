@@ -41,6 +41,9 @@
     --border-subtle: rgba(255, 255, 255, 0.06);
     --border-light:  rgba(255, 255, 255, 0.1);
     --border-focus:  var(--accent);
+    /* Reader ruled lines — deliberately stronger than --border-light: these are
+       a reading aid, so they have to be findable at a glance, not decorative. */
+    --reader-rule:   #33333f;
 
     /* ── Radii ── */
     --radius-sm:     8px;
@@ -1642,11 +1645,17 @@ body.reader-open { overflow: hidden; }
     margin: 0 auto;
 }
 
-.reader-line { margin-bottom: 1.35rem; }
+.reader-line { margin-bottom: .9rem; }
+
+/* Reading a passage means tracking along a line without losing your place, and
+   Fiwo puts its grammar in the word endings, so losing the line is costly. The
+   rules themselves are drawn per visual line on .reader-fiwo below; this row
+   only needs the breathing room under them. */
 .reader-line-row {
     display: flex;
     align-items: flex-start;
     gap: .75rem;
+    padding-bottom: .1rem;
 }
 
 /* Line numbers: present for reference, quiet enough not to compete with the text */
@@ -1665,9 +1674,23 @@ body.reader-open { overflow: hidden; }
     margin: 0;
     font-family: var(--font-code);
     font-size: 1.2rem;
-    line-height: 2;
     color: var(--text-primary);
     letter-spacing: .01em;
+
+    /* Ruled paper. The gradient repeats at exactly one line-box, so a rule lands
+       on the baseline of EVERY visual line — including the second half of a
+       sentence that wraps, which a border on the row cannot reach.
+       --rule-pitch drives BOTH line-height and the gradient period: change it in
+       one place (see the mobile override) and the rules stay on the grid. */
+    --rule-pitch: 2;
+    line-height: var(--rule-pitch);
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0,
+        transparent calc(var(--rule-pitch) * 1em - 1px),
+        var(--reader-rule) calc(var(--rule-pitch) * 1em - 1px),
+        var(--reader-rule) calc(var(--rule-pitch) * 1em)
+    );
 }
 
 /* Colour coding is OFF by default: neutralise the shared .tok palette until
@@ -1822,7 +1845,8 @@ body.reader-open { overflow: hidden; }
     .reader-actions { margin-left: auto; }
     .reader-toggle { padding: .4rem .7rem; font-size: .78rem; }
     .reader-body { padding: 1.5rem 1rem 5rem; }
-    .reader-fiwo { font-size: 1.08rem; line-height: 1.95; }
+    /* --rule-pitch, not line-height — it drives both, keeping rules on the grid */
+    .reader-fiwo { font-size: 1.08rem; --rule-pitch: 1.95; }
     .reader-num { width: 1.4rem; font-size: .7rem; }
     .reader-en { margin-left: 2.15rem; }
     .word-panel { max-height: 55vh; bottom: .5rem; padding: 1rem; }
