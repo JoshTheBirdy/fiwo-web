@@ -748,9 +748,28 @@ table.phonetics-table {
 .download-container {
     display: flex;
     gap: 0.75rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0.75rem;
     flex-wrap: wrap;
 }
+
+/* Which file to hand an AI — the Tutor Pack alone beats uploading everything.
+   Lives INSIDE .download-container on purpose: update_workbook.mjs regenerates
+   everything between that div's close and </section>, so anything after it is
+   wiped on the next build. flex-basis 100% drops it onto its own row. */
+.download-note {
+    flex: 0 0 100%;
+    max-width: 68ch;
+    margin: 0.5rem 0 0;
+    padding: 0.85rem 1.1rem;
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    background: var(--accent-glow);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.download-note strong { color: var(--text-primary); }
 
 /* ═══════════════════════════════════════════
    § TRANSLATOR

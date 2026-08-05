@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=10">
+    <link rel="stylesheet" href="style.css?v=11">
 </head>
 <body>
 
@@ -1220,7 +1220,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><em>Parser Logic:</em> <code>fap</code> applies to the whole chain (<code>fabid nomit</code>). Slot 1 (<code>batap</code>) is the ultimate receiver of the action. Slot 3 (<code>nofap</code>) is the ultimate doer.</li>
 <li><em>Meaning:</em> <em>The food was wanted to be eaten by the person.</em> (In active voice: <em>The person wanted to eat the food.</em>)</li>
 <li><strong>Forbidden Mixed Voices:</strong> Because <code>-t</code> forms an unbreakable bond, you cannot mix voices within a serial chain (e.g., Active V1 + Passive V2). To express mixed voices like &quot;The person wanted to be eaten by the food,&quot; you <strong>must</strong> use a Complement Clause (Rule 30).<ul>
-<li><em>Correct Mixed Voice:</em> <strong>Nofap fabid tep fap daq wible nomid batap tel.</strong> (Person-the + want-[past] + [Bracket] + [Passive Flag] + he + self + eat-[past] + food-the. Meaning: <em>The person wanted that he himself was eaten by the food.</em>)</li>
+<li><em>Correct Mixed Voice:</em> <strong>Nofap fabid tep fap daq wible nomid batap.</strong> (Person-the + want-[past] + [Bracket] + [Passive Flag] + he + self + eat-[past] + food-the. Meaning: <em>The person wanted that he himself was eaten by the food.</em>)</li>
 </ul>
 </li>
 </ul>
@@ -1834,13 +1834,14 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 </li>
 <li><strong>Quotation Clauses (Direct Speech):</strong> Direct speech is a <strong>complement bracket</strong> (§4) after a verb of speech or thought (<code>gesi</code> say, <code>kupi</code> ask, <code>baqi</code> shout, <code>hadi</code> reply, <code>pozi</code> think/infer, <code>eksapli</code> explain…). The <code>tep … tel</code> bracket holds the quoted utterance <strong>verbatim</strong> — original pronouns, mood tags, and deixis exactly as the speaker produced them. Fiwo needs no quotation marks; the brackets are the quotation. <em>(Ruling 2026-07-17, Todo D1. This is the same complement slot as §4 — the rule names it and adds the utterance-boundary and quote-initial conventions below.)</em><ul>
 <li><strong>The quoted utterance is capitalized like a sentence.</strong> The first word after <code>tep</code> (and after each internal utterance boundary, below) is <strong>utterance-initial</strong> — a leading capital marks a quoted sentence-start, not a proper noun. So <code>daq kupid tep Mace, mik nojapid ram tel</code> reads <code>Mace</code> as the modifier <em>maybe</em>, not a name.</li>
-<li><strong>Internal sentence punctuation is an utterance boundary <em>inside</em> the bracket — it never closes the bracket or ends the outer sentence.</strong> A <code>.</code>, <code>?</code>, or <code>!</code> between <code>tep</code> and its <code>tel</code> resets the inner clause and opens the next quoted utterance (mood tags legal again, because it is utterance-initial). Only <code>tel</code> (or the true sentence-final period, which closes any still-open bracket) closes the quote. This makes multi-sentence quotes deterministic with zero new machinery — <strong>bracket depth alone</strong> decides whether punctuation resets the sentence or just the inner utterance, so parsing stays single-pass. <em>(This convention applies to every open bracket uniformly, not only quotes — internal punctuation inside any <code>tep … tel</code> is a within-bracket boundary. Punctuation is never load-bearing for the outer parse.)</em><ul>
-<li><em>Single-utterance quote:</em> <strong>Daq kupid tep Kup suk nojapid gutop mike? tel.</strong> (He asked [Did you see my tool?]. The internal <code>?</code> is the quoted question&#39;s own; <code>tel</code> closes the quote.)</li>
-<li><em>Multi-utterance quote:</em> <strong>Panop kupid tep Kup wun xosis hoxop. Kup suk xyfis wis ram? tel.</strong> (The book asked [What opens the door? How do you find it?]. The internal <code>.</code> ends the first quoted question and the second <code>Kup</code> is legal because it is utterance-initial inside the quote.)</li>
+<li><strong>Internal sentence punctuation is an utterance boundary <em>inside</em> the bracket — it never closes the bracket or ends the outer sentence.</strong> A <code>.</code>, <code>?</code>, or <code>!</code> between <code>tep</code> and its <code>tel</code> resets the inner clause and opens the next quoted utterance (mood tags legal again, because it is utterance-initial). The quote is closed by <code>tel</code> — or by the true end of the sentence, which flushes any still-open bracket (§7), so a quote running to the end of the sentence needs no <code>tel</code> at all. This makes multi-sentence quotes deterministic with zero new machinery — <strong>bracket depth alone</strong> decides whether punctuation resets the sentence or just the inner utterance, so parsing stays single-pass. <em>(This convention applies to every open bracket uniformly, not only quotes — internal punctuation inside any <code>tep … tel</code> is a within-bracket boundary. Punctuation is never load-bearing for the outer parse.)</em><ul>
+<li><em>Single-utterance quote:</em> <strong>Daq kupid tep Kup suk nojapid gutop mike?</strong> (He asked [Did you see my tool?]. The internal <code>?</code> is the quoted question&#39;s own; the end of the sentence closes the bracket, so no <code>tel</code> is written — see §7.)</li>
+<li><em>Multi-utterance quote:</em> <strong>Panop kupid tep Kup wun xosis hoxop. Kup suk xyfis wis ram?</strong> (The book asked [What opens the door? How do you find it?]. The internal <code>.</code> ends the first quoted question and the second <code>Kup</code> is legal because it is utterance-initial inside the quote.)</li>
+<li><em>The same quote mid-sentence, where <code>tel</code> becomes mandatory:</em> <strong>Daq kupid tep Kup suk nojapid gutop mike? tel bef daq xalid.</strong> (He asked [Did you see my tool?] and he moved on.) Without <code>tel</code>, the wall <code>bef</code> and everything after it would be read as the next utterance <em>inside</em> the quotation.</li>
 </ul>
 </li>
-<li><strong>Quoted fragments are legal quote-initially.</strong> A quotation reproduces a complete utterance, and an Answer Fragment (Rule 37) <em>is</em> a complete utterance, so a bare modifier or prepositional phrase may open a quote: <strong>Daq hadid tep Mace, mik nojapid ram tel.</strong> (He replied [Maybe, I saw it].)</li>
-<li><strong>Direct vs. indirect speech is never a parse ambiguity.</strong> Indirect speech (<code>Daq gesid tep dal xalis tel</code> = &quot;he said that she would go&quot;) uses the identical complement bracket; the difference is purely semantic (verbatim, shifted deixis) and needs no separate syntax.</li>
+<li><strong>Quoted fragments are legal quote-initially.</strong> A quotation reproduces a complete utterance, and an Answer Fragment (Rule 37) <em>is</em> a complete utterance, so a bare modifier or prepositional phrase may open a quote: <strong>Daq hadid tep Mace, mik nojapid ram.</strong> (He replied [Maybe, I saw it].)</li>
+<li><strong>Direct vs. indirect speech is never a parse ambiguity.</strong> Indirect speech (<code>Daq gesid tep dal xalis.</code> = &quot;he said that she would go&quot;) uses the identical complement bracket; the difference is purely semantic (verbatim, shifted deixis) and needs no separate syntax.</li>
 </ul>
 </li>
 </ol>
@@ -2186,10 +2187,16 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
         <section id="how-to-learn" class="page">
             <h2>How to Learn Fiwo</h2>
             <div class="download-container">
-
+                <a href="Fiwo-Tutor-Pack.txt" download="Fiwo-Tutor-Pack.txt" class="download-btn">Download Tutor Pack</a>
                 <a href="Fiwo-Dictionary.txt" download="Fiwo-Dictionary.txt" class="download-btn">Download Root Dictionary</a>
                 <a href="Fiwo-Derived-Dictionary.txt" download="Fiwo-Derived-Dictionary.txt" class="download-btn">Download Derived Dictionary</a>
                 <a href="Fiwo-AI-instructions.txt" download="Fiwo-AI-instructions.txt" class="download-btn">Download AI Instructions</a>
+                <p class="download-note"><strong>Practising with an AI?</strong> Upload the <strong>Tutor Pack</strong> on its own. It is
+                self-contained &mdash; all 38 rules plus the 462-word core vocabulary, every entry with its full definition.
+                Adding the dictionaries alongside it makes the model <em>worse</em>, not better: together they are ~8&times; the
+                size of the pack, and burying the grammar under vocabulary is what causes a model to miss common words and
+                invent roots. Take <strong>AI Instructions</strong> (the full 1,493-root vocabulary) instead when you want
+                translation rather than practice, and the dictionaries when you want to look something up yourself.</p>
             </div>
 <h1>Fiwo Workbook — The Course</h1>
 <h1>Phase 1 — Exist, name, and describe (L1–L5)</h1>
@@ -7198,7 +7205,7 @@ measuring: same slot, two registers.</p>
 </ol>
 <p><strong>Part B: Shorten it.</strong> Remove everything droppable.</p>
 <ol start="4">
-<li><code>Kep mik kani tep suk usid tel.</code></li>
+<li><code>Kep mik kani tep suk usid.</code></li>
 </ol>
 <h3>Lesson 37 Spoken Drill</h3>
 <p>Have a rapid question-and-answer exchange with yourself, twenty turns, answering everything with the shortest legal fragment. Speed is the point — this is the register you will actually live in.</p>

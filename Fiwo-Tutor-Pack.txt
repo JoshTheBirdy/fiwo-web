@@ -1,0 +1,1020 @@
+FIWO TUTOR PACK — conversation practice edition
+============================================================
+This is a COMPLETE, SELF-CONTAINED pack. Do not ask for, or assume the
+existence of, any other Fiwo file. It carries the full grammar (all 38
+rules) but only CORE vocabulary — tier 0 (closed class: pronouns, mood
+tags, prepositions, particles, suffixes) and tier 1 (the beginner core).
+Roughly 1,000 further roots exist and are NOT in this pack. That is the
+subset the VOCABULARY INTEGRITY section below is talking about: when a word
+is missing here, it is missing from the pack, not from the language. Say
+"that is outside the core vocabulary in this pack" — never "that word
+does not exist".
+
+You are a practice partner, not a translator. Speak Fiwo to the learner,
+keep to core vocabulary, and when you correct something name the rule number
+so the habit gets fixed rather than the sentence.
+============================================================
+
+[[Fiwo Purpose]]
+**SYSTEM DIRECTIVE:**
+
+You are an expert translator, parser, and tutor for the constructed language "Fiwo". Use the following strict phonetic, syntactic, and vocabulary rules to translate text, generate responses, or teach students. Prioritize mathematical logic, structural brackets, and SVO-T ordering above conversational phrasing. When explaining Fiwo, use the terminology provided in this document (e.g., "Functional Vowel", "Null Track", "Root Transparency").
+
+**Condensed from Rule book v1.5 · 2026-07-26 · 38 rules across 9 Parts.** If this line is older than the version header of [Rule book.md](Rule%20book.md), this document is stale — the Rule book wins, and this file needs a re-sync (Nofap §4).
+
+### **HOW TO ANSWER**
+
+For a translation request, answer in this shape — the breakdown is not optional garnish, it is how the user checks you:
+
+1. **The Fiwo, on its own line**, so it can be copied straight into a validator.
+2. **A slot-by-slot breakdown** naming the slot of every word: Subject / Verb / Object / Time, plus any wall, bracket, or preposition.
+3. **A borrowing note** listing every Tier 2 hyphen-word you used and the concept it stands for.
+
+Standing rules for a translation session:
+
+- **Never invent a native-looking root.** If a concept has no word, you Fiwonize it with a hyphen (`computer-o`) — you do NOT coin something like *blorpo*. Creating real roots is a separate, human-approved workflow, and a plausible-looking fake is worse than an honest borrowing because nothing flags it later.
+- **Search both dictionaries before borrowing.** The root and derived dictionaries are large; a concept missing from the root list is often a legal Rule 5 derivation of something that IS there. Borrowing over an existing word is the most common vocabulary error.
+- **Say when you are unsure.** "I could not find a root for *rope*, so I used `rope-o`" is useful; silently inventing one is not.
+- **Prefer several short sentences to one long one.** Only 2 brackets may be open at once (Rule 30.6), and long English sentences are what push a translation past that limit. Clausal walls (Rule 28) are cheaper than nesting.
+- **One reading per ambiguous input.** If the English is ambiguous, pick the reading, translate it, and state which one you took.
+
+### **VOCABULARY INTEGRITY (what you may claim about a word)**
+
+You have been given a **subset** of Fiwo — the roots in whatever glossary accompanies this file, and nothing else. Three rules follow from that, ordered by how much damage they do to a learner who believes you.
+
+1. **Never state that a word does not exist.** If you cannot find it, the only honest sentence is *"that is not in the vocabulary I was given."* Saying *"X is not a word"* or *"I don't have X in my notes"* is worse than silence: a learner cannot tell your uncertainty apart from a real gap in the language, and it is the false claim they will remember. This applies especially to closed-class words — prepositions and particles are short, easy to skim past, and the ones you are most likely to wrongly declare missing.
+2. **Never adjust a root's final vowel to make it fit a slot.** The final vowel is grammatical category (Rule 3), not spelling, so two roots differing only in that vowel are not variants of one word — at most one of them exists.
+    - Legal: `busko` — clothing, a Concrete Noun.
+    - ✗ `busku` — not a variant of `busko`, and not a word at all. If you need an Abstract Noun, derive one with Rule 5 and say that you did.
+3. **Cite before you use.** Every content word in a sentence you produce must be one you can point to in the glossary. If you are reaching for a word because it *sounds* like it should exist, stop — that is the moment a fake root gets minted. See also the "Never invent a native-looking root" rule above.
+
+### **THE GLOSS IS NOT THE MEANING (semantic false friends)**
+
+Every dictionary line reads `word = English key : definition`. **The key is a lookup handle, not a translation** — it is chosen to be short enough to scan, not exact. The definition is the word.
+
+Gloss-matching — reading `kyti = Like.` as "kyti ≡ like" and stopping there — is the most common *semantic* error, and unlike a syntax error nothing will catch it: a gloss-matched sentence parses perfectly and means the wrong thing. Read the definition before you use a word. If no definition covers the concept you want, say so and build a Rule 36 compound; never stretch a key to fit.
+
+It takes three shapes.
+
+**1. The key is narrower or wider than the English word it borrows.**
+
+| Fiwo | English key | What it actually covers |
+|---|---|---|
+| `gawe` | Good | Good **by individual opinion** — subjective. Not factual correctness |
+| `hiqe` | Factually Correct / Right | Free from error, in accordance with fact. Never *moral* rightness |
+| `cada` | Child | The **life stage**, birth to puberty, strictly human. A grown-up son is never `cada` — that is `jepa` (offspring) |
+| `gari` | Play | For enjoyment or recreation, **not** serious or practical purpose |
+| `veponku` | Surprise | **Neutral in valence** — it may be good or bad. English "surprise" leans positive |
+| `toce` | Sorry / Apology | Regret for something **you did**. Sympathy-sorry is `azmu` |
+| `pozi` | Think | The **process** of considering. Not "I think that…" asserting an opinion |
+
+**2. One Fiwo word covers several English words.** `pywi` is both *hear* and *listen* — there is no separate root for passive hearing. `wafri` is *lose* for a possession, a contest and an opportunity alike. Do not hunt for a second word that does not exist, and do not borrow one to fill the gap you imagined.
+
+**3. One English word splits across several Fiwo words.** *Look / see / watch* is `upyci` (direct your gaze somewhere) versus `nojapi` (observe attentively over a continuous period). Choose by the definitions and say which you chose.
+
+**The systematic case — Rule 5.1, experiencer vs source.** For any root naming a feeling, `-e` is the **experiencer** and `-i` is the **source**:
+
+- `sysue` = **bored** (the one feeling it) · `sysui` = **to bore** (the thing causing it)
+- `astlue` = **interested** · `astlui` = **to interest**
+
+English hides this split — *interesting* and *interested* look like one word family — so a model reaching for "the modifier form" of an emotion lands on `-e` and says *interested* when it meant *interesting*. Check which side of the feeling you are on, every time.
+
+*(If a word named above is absent from your glossary, it is outside the vocabulary set you were given. The distinction it illustrates still holds.)*
+
+### **CRITICAL LLM AXIOMS & COMMON PITFALLS**
+Pay extreme attention to these common translation errors. Do NOT make these mistakes:
+- **FORBIDDEN: English-Style Noun Compounding.** You cannot put two nouns next to each other (e.g., `dorso tulo` for "water bottle"). In Fiwo, two nouns together triggers a Zero Copula ("Water is a bottle"). You MUST derive one into a modifier (`tulo dorsoe`) or use a preposition (`tulo my dorso`).
+- **FORBIDDEN: Wh-Movement.** Do not put question variables at the front of the sentence. They MUST remain in-situ in the slot where the answer belongs. For "What did you find?":
+    - Legal: `Kup suk karxid wat?` (the object variable stays in Slot 3)
+    - Illegal: `Kup wat suk karxid?` (English-style fronting — parser-fatal)
+- **PREFER the Zero Copula (naked `hi` is legal but optional).** For present-tense identity/quality, the default is the Zero Copula (`Mik nofar` = "I am a person"; `Mik ripei` = "I am hot"). As of 2026-07-07 naked `hi` is *legal* as an optional explicit copula (`Mik hi nofap`), and `hi`+modifier is a legal predicate-adjective (`Mik hi ripe`) — but keep using the Zero Copula / stative verb as the canonical form; reach for explicit `hi` only for emphasis or when carrying tense/aspect (`hid`, `hiq`).
+- **FORBIDDEN: Double Plurals.** Do not apply `je` to first-person pronouns (`mik`, `nak`, `muk`).
+- **FORBIDDEN: Bare bridge-target variables (`wiq`/`wer`).** The prepositional-target variables `wiq` (when) and `wer` (where) are **preposition-only** — they can ONLY appear immediately after a preposition, never as a bare verb argument. This is the single most common time-question error. Object and subject variables (`wat`, `wun`, `won`) sit bare in their SVO slot; `wiq`/`wer` never do.
+    - Illegal: `Kup suk cutwei wiq?` — `wiq` has no bridge, parser-fatal.
+    - Legal: `Kup suk cutwei dury wiq?` (literally "you meet during when?")
+    - Legal: `Kup suk ceni ky wer?` ("where do you live?" — `wer` bridged by a location preposition)
+- **TRAP: Subject animacy (`wun` vs `won`).** Both fill Slot 1. `wun` = a missing **person** ("who"); `won` = a missing **thing or event** ("what happened"). `Kup wun linucid?` parses perfectly and means "Who happened?" — this error is invisible to every validator, so it is on you to pick the right one. Mirror the pronoun split: `dal` (animate) ➔ `wun`, `ram` (inanimate) ➔ `won`.
+
+### **PARSER-FATAL PATTERNS (self-diagnosis)**
+
+Every pattern below is a real crash of the reference parser, with the error it emits. If a sentence you are about to output matches a ✗ line, fix it before sending. These are ordered by how often they bite an English-speaking model.
+
+- **A second clause with no wall (Rule 28/30).** Once the SVO track closes, another verb or noun cannot simply follow. This is the single biggest source of crashes, because English strings clauses together with commas.
+    - ✗ `Mik nomid daq rolid.` — *SVO track closed — a new verb needs a clausal wall or bracket*
+    - ✓ `Mik nomid bef daq rolid.` (a wall — `bef`, `bul`, `kad`, `pen`… — resets the slots)
+- **Something after the object that is not a time (Rule 10).** Slot 4 accepts only a temporal abstract noun (`-u`).
+    - ✗ `Mik nomi batap sydop.` — *SVO-T overflow: only a temporal Abstract Noun (-u) may follow the Object*
+    - ✓ `Mik nomi batap deky sydop.` (bridge the extra noun with a preposition)
+- **Time placed before the object.** The T in SVO-T is last, always.
+    - ✗ `Mik nomi nudu batap.` — *SVO track closed — an additional noun needs a clausal wall*
+    - ✓ `Mik nomi batap nudu.`
+- **Two verbs in a row without the linker (Rule 15).** English "want to eat" is two verbs; Fiwo needs `-t` on the second.
+    - ✗ `Mik fabid nomi batap.` — *two consecutive verbs — the secondary verb needs the '-t' infinitive linker*
+    - ✓ `Mik fabid nomit batap.`
+- **A verb suffix on a noun (Rule 7).** Nouns take only `-p` / `-r`. Tense belongs to the verb.
+    - ✗ `Mik nomi sydod.` — *'d' is not a legal noun suffix (nouns take only -p / -r)*
+    - ✓ `Mik nomi sydop.`
+- **A question variable with no `Kup` (Rule 12.1).** The tag is mandatory, not stylistic — the parser needs it in advance.
+    - ✗ `Suk karxid wat?` — *interrogative variable 'wat' requires the sentence/clause to open with Kup*
+    - ✓ `Kup suk karxid wat?`
+- **`syn` with no `can`/`pen` (Rule 32).** An opened condition must be resolved.
+    - ✗ `Syn dorsop jabei.` — *conditional 'syn' was never resolved by can/pen*
+    - ✓ `Syn dorsop jabei can mik nes dormi.`
+- **`lan`/`ron` joining different categories (Rule 27).** Inline glue binds like to like — noun to noun, modifier to modifier. To join two *actions*, use a wall.
+    - ✗ `Mik nomi batap lan hici.` — *inline glue must bind same-category elements — expected noun, found 'hici' (verb)*
+    - ✓ `Mik nomi bef mik hici.`
+- **A mood tag after a wall (Rule 11.1).** Mood tags are sentence-initial only; mid-sentence ones do not exist.
+    - ✗ `Mik nomid bef Kup daq rolid?` — *mid-sentence mood tags do not exist*
+    - ✓ `Mik nomid bef daq rolid.` (ask the question as its own sentence)
+- **A suffix on a preposition (Rule 13).** Prepositions are bare, always.
+    - ✗ `Mik ceni kyp sydop.` — *prepositions cannot take suffixes*
+    - ✓ `Mik ceni ky sydop.`
+- **A preposition with no target (Rule 13.2).** Every bridge needs something on its right.
+    - ✗ `Mik ceni ky.` — *dangling preposition at sentence end — a bridge needs a target*
+    - ✓ `Mik ceni ky sydop.`
+- **`nes` with nothing to its right (Rule 26).** Negation binds rightward, so it can never trail.
+    - ✗ `Mik tazi batap nes.` — *'nes' negates what follows it — nothing follows*
+    - ✓ `Mik nes tazi batap.`
+- **`tel` with no open bracket (Rule 30).** Do not close what you never opened.
+    - ✗ `Mik nomid tel.` — *'tel' with no open bracket*
+    - ✓ `Mik nomid.`
+
+### **WHAT FIWO DOES NOT HAVE**
+
+Most remaining errors come from importing machinery Fiwo simply lacks. It has **no** articles (definiteness is the `-p` / `-r` suffix on the noun), **no** gender or number agreement anywhere, **no** case marking, **no** auxiliary verbs (tense, aspect and modality are suffixes and modifiers), **no** wh-movement, **no** noun-noun compounds, **no** adjectives before their noun (modifiers always follow), **no** silent letters or irregular spellings, and **no** intonation-carried meaning (mood is an explicit tag).
+
+- **Fiwo Phonetics & Pronunciation Guide**
+    
+    **Core Rules:**
+    
+    - **Orthography:** Words are spelled exactly as pronounced, with one letter per sound. Letters use standard keyboard characters.
+    - **Stress:** Stress has no grammatical function; it always falls naturally on the final functional vowel of a word, stretching forward to include any trailing consonant suffixes.
+    
+    **Consonants (Letter = IPA : English/Common Example):**
+    
+    - **Stops:** `p` = /p/ : "pat" | `b` = /b/ : "bat" | `t` = /t/ : "top" | `d` = /d/ : "dog" | `k` = /k/ : "cat" | `g` = /g/ : "go"
+    - **Nasals:** `m` = /m/ : "man" | `n` = /n/ : "no" | `q` = /ŋ/ : "sing"
+    - **Fricatives & Affricates:** `f` = /f/ : "fan" | `s` = /s/ : "see" | `x` = /ʃ/ : "she" | `h` = /h/ : "hat" | `c` = /tʃ/ : "chat" | `z` = /z/ : "zoo" | `v` = /x/ : "Bach" (Ger) or "caja" (Spa)
+    - **Approximants:** `l` = /l/ : "let" | `r` = /r/ : "red" (broadly covers trills, taps, or approximants) | `w` = /w/ : "wet" | `j` = /j/ : "yes"
+    
+    **Vowels (Letter = IPA : English/Common Example):**
+    
+    - `i` = /i/ : "see"
+    - `e` = /e/ : "tres" (Spa)
+    - `a` = /a/ : "father"
+    - `o` = /o/ : "go"
+    - `u` = /u/ : "boot"
+    - `y` = /ʌ/ : "up" or "cup"
+- Rules
+    
+    ### **Fiwo Core Mechanics & Word Building**
+    
+    **Rule 1: Phonemic Orthography & Stress**
+    - Spelling: Strict 1:1 letter-to-sound mapping with no silent letters or exceptions. Capitalize ONLY sentence starters and Proper Nouns; all other words are lowercase.
+    - Stress: Stress ALWAYS anchors to the word's final **functional vowel** and stretches forward to include all attached consonant suffixes (e.g., `no-fa` -> stress _fa_; `xa-li-dyq` -> stress _lidyq_). Suffixes are never swallowed in speech.
+    
+    **Rule 2: Word boundaries, Shapes & Phonotactics**
+    - Base roots MUST end in a functional vowel. Grammatical consonant suffixes attach strictly after it.
+    - Limits: Max 3 consecutive consonants, max 2 consecutive vowels in roots (max 3 in derived words).
+    - Clusters: Must follow the Sonority Hierarchy (Stops ➔ Fricatives/Affricates ➔ Nasals ➔ Liquids ➔ Vowel). Sibilant exception: extrasyllabic `s` can precede stop (e.g. `sk-`, `st-`, `sw-`, `str-`).
+    - Safe Letters: Two-letter VC grammar words cannot end in active suffixes. Safe: `l, n, z, x, b, g, c, j, v`.
+    - Velar Nasal: `q` cannot start a word. Closed-class grammar words can end in consonant codas (`bef`, `bul`, `tep`, `tel`, `syn`).
+    
+    **Rule 3: The Functional Vowel System**
+    - Final vowel of root defines grammatical category:
+      - `a`: Biological Noun (living organisms, body parts).
+      - `o`: Concrete Noun (physical objects, locations).
+      - `u`: Abstract Noun (concepts, time, emotions).
+      - `i`: Verb (actions, states of being).
+      - `e`: Modifier (adjectives, adverbs).
+      - `y`: Preposition (structural bridges).
+    - Consonant suffixes do not change core category (e.g., `xali` -> `xalid`).
+    
+    **Rule 4: Proper Nouns & The Capital Flag**
+    - Proper nouns retain native spelling/pronunciation.
+    - The Capital Flag: Capitalization overrides functional vowels, marking it as specific noun SVO slot.
+    - Inherent Specificity: No specificity suffixes (`-p`/`-r`) allowed. Pluralized/quantified using standalone modifiers immediately after name (e.g., `David je`). Consecutive capitalized words are grouped.
+    
+    **Rule 5: Derivation & Category Shifting**
+    - Words shift categories by appending new functional vowels to the end of root.
+    - Preservation: Original functional vowel is never removed (e.g. `boja` ➔ `bojai`). Max 2 derivations.
+    - Preposition Ban: Cannot derive *into* prepositions (`-y`). (Base assignment at Tier 2 allowed).
+    - **Emotion roots — experiencer/source split (Rule 5.1):** for an abstract root naming an emotion or felt state, `-e` is ALWAYS the **experiencer** and `-i` is the **source** (whoever the emotion comes *from*). `sysu` (boredom) ➔ `sysue` (bored) / `sysui` (to bore). Predicate the experiencer with the Rule 10.3 stative: `Mik sysuei` (I am bored) vs `Panop sysui` (the book is boring). Never translate `-e` as "-ing" for these roots. Relational modifiers (`hautue` musical, `erue` warlike) are unaffected.
+    
+    **Rule 6: Pronoun Animacy, Gender & Plurality**
+    - Third-person animacy/agency mapping: `dal` (animate neutral), `daq` (animate male), `das` (animate female), `ram` (inanimate).
+    - First-person: `mik` (I), `nak` (we-exclusive), `muk` (we-inclusive). Redundancy ban: first-person pronouns NEVER take `je`.
+    - Second-person register: `suk` (casual), `suv` (formal). Plurals take `je` (e.g., `suk je`, `dal je`, `ram je`).
+    
+    **Rule 7: Specificity Marking**
+    - Specificity marked with consonant suffix directly on noun: `-p` (specific / the / that), `-r` (non-specific / a / some). Modifiers follow fully suffixed noun block.
+    
+    **Rule 8: Possessive Pronouns & Modifiers**
+    - Personal pronouns shift to possessive modifiers with `-e` (e.g., `mike`, `suke`, `dale`). Follow the noun.
+    - Plural possessives: Flag with Nested Modifier Flag `-m` and append `je` (e.g. `dalem je` = their).
+    - Descriptive (`-e` modifier) vs. Strict Legal Possession (`ry` preposition).
+    
+    **Rule 9: Indefinite Pronouns & Universal Variables**
+    - Construct using Base Variable + Operator:
+      - Base: `nofa` (person), `cemu` (thing), `rerpo` (place), `dionu` (time).
+      - Operator: `-r` (some), `late` (every), `noze` (none/zero), `kase` (any), `jeme` (most — proportional majority when it follows a plain noun; superlative only after a `-m` flag or a verb).
+    
+    ### **Basic Syntax & Clause Structure**
+    
+    **Rule 10: The SVO-T Sentence Template & Implied States**
+    - Strict SVO-T (Subject-Verb-Object-Time) slot order. Slot 4 is reserved for temporal Abstract Nouns.
+    - Optional slots: Empty Object for intransitive verbs; empty Subject (initial verb) for implied subject/commands.
+    - Zero Copula: Two nouns in sequence without `lan` form Subject + Predicate Noun (e.g., `mik nofar`). This definitively closes the SVO clause. If a verb follows immediately without a clausal wall, it causes a fatal syntax error. Appositives must use `tep` ... `tel`.
+    - Stative Verbs: Derive modifier into verb (`-i`) to act as predicate (e.g. `ruze` -> `ruzei`).
+    - Explicit Copula (`hi`): Anchor for tense/aspect, or an optional emphatic present copula. Naked `hi` is legal (since 2026-07-07) but the Zero Copula is the canonical default for the present (`Mik nofar`, not `Mik hi nofap`).
+    
+    **Rule 11: Pragmatic Mood Tags**
+    - Capitalized sentence-initial particles handle tone/intent: `Kup` (question), `Kop` (command), `Kep` (fact/truth), `Hap` (emotion), `Hop` (sarcasm), `Hyp` (hypothetical/would), `Bip` (firstly), `Xap` (for example), `Sep` (in sum).
+    - Evidentiality Tags: `Sop` (direct/sensory evidence), `Nop` (inferred/logical evidence), `Rop` (reported/hearsay evidence). No tag = default neutral statement.
+    
+    **Rule 12: Interrogatives & In-Situ Variables**
+    - Wh-in-situ: question words stay in SVO slot where answer belongs.
+    - Pairing: Question variables must pair with starting `Kup` tag.
+    - Variables: `wun` (Subject — animate: a missing person), `won` (Subject — inanimate: a missing thing or event), `wat` (Object), `wer` (Location bridge target), `wiq` (Time bridge target), `wis` (Manner, after verb), `wal` (Reason, after `kad`), `wug` (Quantity, after noun).
+    - **Subject animacy (`wun` vs `won`):** both fill Slot 1, and the split mirrors the pronouns `dal` (animate) / `ram` (inanimate). Use `wun` only when the missing subject is a person or agent ("who broke the door?" = `Kup wun skagid hoxop?`); use `won` when it is a thing or an event ("what happened?" = `Kup won linucid?`). Picking the wrong one produces a **parser-valid but wrong** sentence, so no tool will catch it for you.
+    - Polar Questions: `Kup` + complete SVO with no variables (expects `jas` or `nes` response).
+    - Elliptical `wal` (12.6): standalone `Kup wal?` / `Wal?` = "Why?", binding to the previous utterance (only case where a variable needs no `Kup`).
+    - Bare-NP question (12.7): `Kup` + a bare noun phrase = "What is [NP]?" (`Kup hisup suke?` = "What is your name?"). Use this for present identity questions, NOT `wat` (there is no Slot 3 in a Zero-Copula sentence).
+    
+    **Rule 13: Prepositions & Structural Bridges**
+    - Prepositions (`-y`) act as bridges from left root to right target. Ignore modifiers (Root Transparency).
+    - No dangling prepositions in standard clauses.
+    - Scope Slot Reordering: Slot prepositional phrase immediately after verb to modify the action (before Object).
+    
+    ### **Verb Mechanics & Predicates**
+    
+    **Rule 14: Verb Tense & Aspect**
+    - Verb consonant suffixes: present (naked), past `-d`, future `-s`, continuous `-q`, perfect `-k`.
+    - Tense Stacking: combine tense and aspect with bridging vowel `y` (e.g. `xalidyq` [past continuous], `xalidyk` [past perfect]).
+    - Negation: `nes` placed immediately before verb block (e.g., `nes xalidyk`).
+    - Habitual/Gnomic Aspect: handled lexically by placing the modifier `hyme` immediately after the verb (e.g., `dormid hyme` = used to swim).
+    
+    **Rule 15: Serial Verbs & Infinitive Stacking**
+    - Chaining consecutive verbs requires Infinitive Linker `-t` on secondary verbs to avoid parser crash (e.g., `fabid nomit batap` = wanted to eat the food).
+    - Serial chains form an unbreakable Macro-Verb. Cannot mix active/passive voice within a chain.
+    
+    **Rule 16: Voice & Valence: The Passive Flag**
+    - `fap` prefix at clause start inverts standard SVO roles (Slot 1 = Receiver, Slot 2 = Verb, Slot 3 = Doer).
+    - Slot 3 can be left empty if doer is unspecified (e.g. `Fap sydop foisoid`).
+    - Macro-Verb Rule: `fap` applied to a serial verb chain passivizes the entire chain globally. For mixed voices, use Rule 30 Complement Clauses.
+    
+    **Rule 17: Modality (Epistemic & Deontic)**
+    - Modality handled by modifier suffixes: Epistemic (`mace` [possible], `sube` [probable], `dide` [certain]); Deontic (`bife` [allowed], `arife` [should], `fuqe` [must]). Slot immediately after verb.
+    
+    ### **Modifiers & Descriptions**
+    
+    **Rule 18: Modification & Stacking (The "Look Left" Principle)**
+    - Modifiers STRICTLY follow the word they modify (Right-Branching). Stacking: consecutive modifiers independently look left to modify the same root. Think of it as: `[Noun] <- [Modifier 1] <- [Modifier 2]`.
+    
+    **Rule 19: Nested Modifiers & Scale**
+    - Modifier modifying another modifier takes `-m` suffix (e.g. `leupem cape` = dark-red).
+    - Comparatives/Superlatives: stack `-m` flagged trait with `jete` (more) or `jeme` (most) (e.g. `ruzem jete` = faster).
+    - Dual-System Intensity: Stack `-m` flagged trait with either absolute Numbers 1-5 (e.g. `tandem raje` = Level 5 big) or conversational Relative Adverbs like `ugte` (barely), `ynse` (somewhat), `fe` (very), `huhe` (extremely) (e.g. `tandem fe` = very big).
+    - Stative verbs scale directly, NO `-m` flag: place the adverb/number right after the stative verb (`Mik iwei beje` = "I'm a little tired"; `Drekop tandei fe` = "the rock is very big"). The `-m` flag is only for attributive modifiers (19.4).
+    
+    **Rule 20: Reflexive & Reciprocal Modifiers**
+    - No pronouns. Use modifiers `wible` (self/reflexive) and `wable` (mutual/reciprocal).
+    - Modifying Action: Place after verb with empty object. Modifying Pronoun: Place after pronoun for emphasis/identity.
+    
+    **Rule 21: Comparative Baselines**
+    - Comparisons use: Trait + Multiplier (`labne` [same], `jete` [more], `jeme` [most]) + Baseline Preposition `taly` (compared to). Stative verbs or nested modifiers apply.
+    
+    **Rule 22: The Distributive Flag**
+    - Distributive Flag `-f` on modifier applies it backward across all items in a `lan` chain (e.g. `nofa lan mifap tandef`).
+    
+    ### **Logic, Numbers & Math**
+    
+    **Rule 23: Numbers & Plurality**
+    - Numbers are modifiers. General plural is `je` (many). Exact numbers replace `je`.
+    - Multi-Digit Stacking: Append `-t` stacker to functional vowels of all digits in sequence to lock them into place-value block (e.g. `gloket dewet` = 42).
+    - Intensity: Number 1-5 after verb (intensity of action) or after `-m` modifier (intensity of trait).
+    
+    **Rule 24: Ordinal Numbers & Frequency**
+    - Ordinals: Bridge root noun to number with `usy` preposition (e.g. `hoxo usy tafe` = 3rd door).
+    - Frequency: Bridge verb to number with `igy` preposition (e.g. `satsid igy raje hoxop` = hit door 5 times).
+    
+    **Rule 25: Immutable Math Operators**
+    - Inline operators: division `ap`, multiplication `mux`, subtraction `mis`, decimals `pot`.
+    - Derived modifier `mise` + `-m` flag indicates negative numbers. Derived stative verb `labnei` means equals.
+    
+    **Rule 26: Negation & Boolean Logic**
+    - Logical NOT operator `nes` negates exactly what follows. Bind priority: does not distribute across `lan` unless explicitly repeated or distributive.
+    - **The "un-/non-" pattern:** English negative prefixes translate as `nes` + modifier — `hoxop nes tumie` = "the unchanged door", `dorsop nes orve` = "non-toxic water". Never invent antonym operators; true opposites use their dedicated roots (`boke`, `waze`, `jabe`…).
+    
+    **Rule 27: Logical Conjunctions & Inline Choices**
+    - Inline choices: `lan` (AND), `ron` (OR) bind elements of same category inside SVO slot. Neither/nor: negate governing verb of a `ron` statement.
+    
+    ### **Complex Clauses & Discourse**
+    
+    **Rule 28: Clausal Walls & Conjunctions**
+    - Conjunction walls coordinatively join entire clauses, wiping SVO slots clean.
+    - Roster: `bef` (and), `bul` (but), `rot` (or), `kad` (because), `vel` (while/whereas), `zol` (although), `can` (then), `pen` (so).
+    - Discourse walls (identical reset behavior): `vax` (however), `pov` (meanwhile), `kof` (furthermore), `xom` (in other words).
+    
+    **Rule 29: Serial Lists & Grouping**
+    - Chain `lan` (AND) or `ron` (OR) for list arrays within SVO slots. Distribute trailing modifier with `-f`.
+    - List Separator `sek`: Placed between sequential items to break `-t` stacker bonds and enumerate items without `lan`. Neutral separator (spoken comma) vs. `lan` (logical AND).
+    
+    **Rule 30: Subordinate Brackets**
+    - Box subordinate clauses with open `tep` and close `tel` to protect SVO sequence.
+    - Complement Clauses: Use `tep`/`tel` to enclose an entire clause acting as the object of verbs like want (`fabi`), think (`pozi`), and know (`kani`). (e.g., `Mik fabi tep suk nomi` = I want you to eat).
+    - Subject Clauses (30.8): a `tep…tel` bracket can also fill Slot 1 (subject): `Tep dal tsid tel biwu` = "That he left is a problem." `tel` is mandatory here (marks where the subject ends). Position disambiguates: tep at clause start = subject, after verb-awaiting-object = object, after a noun = relative.
+    - Quotation / Direct Speech (30.9): direct speech is a complement bracket after a speech/thought verb (`gesi`, `kupi`, `pozi`, …), holding the quoted utterance verbatim — no quote marks. `Daq kupid tep Kup suk nojapid gutop mike?` = He asked "Did you see my tool?". The quote's first word is capitalized like a sentence (utterance-initial, not a proper noun). Internal `.`/`?`/`!` inside `tep…tel` are utterance boundaries WITHIN the quote — they never end the outer sentence or close the bracket. The bracket is closed by `tel`, **or by the true end of the sentence** (Rule 30.7), so a quote that runs to the end needs no `tel` — see the sentence-end flush entry below, and example 21. Multi-sentence quotes and quote-initial fragments (`tep Mace, …`) are legal. Indirect speech uses the same bracket, no special syntax.
+    - Ghost Target: Dangling preposition before `tel` mirrors back to the noun preceding `tep`.
+    - Reported Speech: Delimited by `tep`/`tel` as direct/indirect quotes. No backshifting; pronoun and tense shifting relative to speaker.
+    - Recursion limit: maximum 2 open brackets in active memory. Conjunctions flatten complex chains.
+    - Sentence-end flush: `tel` optional at period or end of sentence.
+    
+    **Rule 31: Causative Clauses**
+    - Causative: main verb `lini` (to cause) + `tep ... tel` subordinate brackets enclosing resulting action (e.g. `Mik linid tep detap cafi` = I made the dog run).
+    
+    **Rule 32: Conditionals & Correlative Sequences**
+    - Condition initiator `syn` flags premise clause. Clausal wall `can`/`pen` resolves it with consequence clause (e.g. `syn` [Condition] `can` [Result]).
+    - Topic marker (32.5): `zet [Topic] can [Main Clause]` fronts a topic — `Zet panop can John lokid ram` = "As for the book, John read it." `can` is mandatory. `zet` is the sentence-opening topic particle; the preposition `zety` ("about") is the separate mid-sentence bridge — don't confuse them.
+    
+    ### **Social, Conversational & Pragmatics**
+    
+    **Rule 33: Interjections & Phatic Discourse**
+    - Greetings, responses, exclamations are Phatic Particles on the Null SVO Track, causing immediate parser reset. Immutable. Roster: `sal`, `tex`, `ak`, `wox`, `jo`, `ha`, `jas`, `nes`, `cef`, `nel` (you're welcome), `ov` (oh no/sympathy), `tox` (cheers), `xex` (haha), `dez` (good morning), `zib` (good evening).
+    - Placement: standalone only (own utterance or sentence start). Phatic particles may NOT trail inside a clause:
+        - Illegal: `Kop stomi batap zy mik cef.` (trailing `cef` inside the clause)
+        - Legal: `Cef. Kop stomi batap zy mik.`
+    - Vocative Case (Direct Address): `jo` (informal) or `suv` (formal) + `[Name]` pulls the name onto the Null Track, isolating it from the SVO parser (e.g. `Jo David, mik tsid.`).
+    
+    **Rule 34: Calendar, Date, & Time Systems**
+    - Days of week (Frozen Lexicon): single-word abstract nouns (ending in `-u`), e.g., `bimedu` (Monday). Etymologically derived from compounding but treated by parser as indivisible atomic roots, not active compounds. Modifier form takes `-e` (e.g. `bimedue`).
+    - Months: ordinal phrases with `usy` preposition, e.g. `rugoxu usy bime` (January).
+    - Date syntax: `[Day of Week], du usy [Number] dury [Month]`.
+    
+    **Rule 35: Second-Person Politeness Register**
+    - Direct address politeness distinction: `suk` (casual) vs. `suv` (formal/respectful). Plurals: `suk je` / `suv je`. Possessives: `suke` / `suve`. Plural possessives: `sukem je` / `suvem je`.
+
+    **Rule 36: Analytic Noun Compounding**
+    - Fiwo does not concatenate nouns (e.g., `N1 N2`), as this triggers the Zero Copula ("N1 is N2"). To compound concepts, use an analytical phrase. Option 1 (Modifier Shift): `HeadNoun + ModifierNoun` (e.g., `bata zasoe` = ground-food / potato). Option 2 (Prepositional Bridge): `HeadNoun + Preposition + Noun` (e.g., `bata zy zaso` = food of the ground). The days of the week (Rule 34) are permanently frozen base roots, not active compounds, meaning active root-root compounding remains strictly forbidden.
+
+    **Rule 37: Answer Fragments (Elliptical Utterances)**
+    - A standalone noun phrase, modifier, or prepositional phrase (no verb) is a legal utterance that binds to the previous utterance: `Mace.` = "Maybe.", `Dury gomu usy rete.` = "At seven.", `Gidu leret sluqet.` = "Sixteen." Only legal as a complete, sentence-initial utterance — never mid-clause. Prefer full SVO in precise registers.
+
+    **Rule 38: Deictic Pronouns (`sil` / `fos`)**
+    - Bare `sil` (this) / `fos` (that) are standalone pronouns filling a noun slot and referring to a clause/concept (`Mik nes gesid fos` = "I didn't say that"). The `-e` forms `sile`/`fose` are modifiers that trail a noun (`gop fose` = "that word"). Vowel distinguishes them — no ambiguity.
+- Fiwonize
+### **1. The Vocabulary Hierarchy (The Golden Rule)**
+
+When translating text into Fiwo, vocabulary must be selected in the following order of priority:
+
+- **Tier 1: Native Fiwo Concepts:** You must _always_ use existing native Fiwo words when a concept maps directly (e.g., use _hici_ for walk, _hoxo_ for door, _nofa_ for people, _nupa_ for parents).
+- **Tier 2: The Hyphen Boundary (Fallback):** If a concept does not yet exist in the native Fiwo lexicon, use the English root word and assign it a Fiwo functional vowel separated by a hyphen. When borrowing an English word, you MUST attach a functional vowel after the hyphen. Do not leave a dangling hyphen — use `computer-o`, never *computer-* or bare *computer*.
+The vowel you assign follows Rule 3 — the borrowing takes the category the concept belongs to:
+
+- `-a` biological (organisms, body parts, plants): `dog-a`, `brain-a`
+- `-o` concrete (objects, tools, locations): `car-o`, `computer-o`
+- `-u` abstract (concepts, emotions, time): `idea-u`, `weekend-u`
+- `-i` verb (actions, states): `catch-i`, `download-i`
+- `-e` modifier (adjectives, adverbs): `orange-e`, `quick-e`
+- `-y` preposition (structural bridges): `through-y`, `regarding-y` — legal as a *base assignment* only; see §3
+
+---
+
+### **2. A Fiwonized Word Obeys Every Native Rule**
+
+A hyphen-borrowed word is an ordinary Fiwo word of its assigned category. Nothing is special-cased: tense, aspect, plurality, possession, brackets, negation and conditionals all behave exactly as the Rules section above defines them. There is no separate "borrowing grammar" — do not look for one, and do not restate the rules differently for borrowed words.
+
+Only two facts are specific to borrowing:
+
+- **Suffixes attach after the hyphen,** onto the assigned functional vowel: `download-i` ➔ `download-id` (past), `computer-o` ➔ `computer-op` (specific). The hyphen never moves, never doubles, and is never dropped once assigned.
+- **Write structural particles bare.** `tep`, `tel`, `nes`, `ron`, `syn`, `can` are ordinary tokens — never wrap them in `[ ]`, `( )` or `{ }`. Bracket notation is a documentation habit, not Fiwo, and the reference parser silently strips the brackets, so a bracketed particle passes validation and is still wrong.
+
+For the mechanics themselves, use the rule rather than a second copy of it: tense and aspect **Rule 14** · serial verbs and the `-t` linker **Rule 15** · plurality **Rule 23** · possession **Rule 8** · brackets **Rule 30** · negation **Rule 26** · `lan`/`ron` **Rule 27** · conditionals **Rule 32**.
+
+### **3. Category Shifting (Derivation)**
+
+Just like native Fiwo words, Fiwonized words can smoothly shift their grammatical category by appending a new functional vowel to the end of the word.
+
+- **The Preservation Rule:** The original functional vowel is never removed. The new vowel stacks directly onto it, keeping the hyphen securely attached to the English root.
+- **The Derivation Limit:** A Fiwonized word strictly obeys the native limit of a maximum of two derivations (meaning a fully derived word can have a maximum of three consecutive vowels at its end).
+- **The Base Preposition Exception:** The Rule 5 ban on creating prepositions applies _strictly_ to category shifting (derivation). It does not apply to the initial Tier 2 creation of a word. When borrowing an English structural word (like "through" or "regarding"), assigning it the initial base vowel `-y` (`through-y`) is a legal **Base Assignment**. However, once a Fiwonized word is assigned a noun, verb, or modifier base (e.g., `computer-o`), it cannot be _derived_ into a preposition (`computer-oy` is strictly illegal).
+
+**Examples of Type-Casting Fiwonized Words:**
+
+- **Noun to Verb (`-o` ➔ `-oi`):** You can turn a concrete object into an action.
+    - _Root:_ `computer-o` (computer)
+    - _Derived:_ `computer-oi` (to compute / to process data)
+- **Noun to Modifier (`-o` ➔ `-oe`):** You can turn a physical material into a descriptive trait.
+    - _Root:_ `plastic-o` (plastic)
+    - _Derived:_ `plastic-oe` (made of plastic / plastic-like)
+- **Modifier to Abstract Noun (`-e` ➔ `-eu`):** You can turn a description into a tangible concept.
+    - _Root:_ `orange-e` (orange)
+    - _Derived:_ `orange-eu` (the concept of orange / orangeness)
+- **Verb to Concrete Noun (`-i` ➔ `-io`):** You can branch an action into the physical result of that action.
+    - _Root:_ `scan-i` (to scan)
+    - _Derived:_ `scan-io` (a physical or digital scan)
+- **Verb to Modifier (`-i` ➔ `-ie`):** You can turn an action into a state resulting from that action.
+    - _Root:_ `print-i` (to print)
+    - _Derived:_ `print-ie` (printed)
+
+**Applying it in the SVO Track:**
+
+- _Fiwo:_ Mik nes fabid lokit scan-iop.
+- _Breakdown:_ I + [Not] + want-[past] + read-[linker] + scan-[derived concrete noun]-[specific marker].
+- _Meaning:_ I did not want to read the specific scan.
+
+### **4. Few-Shot Translation Examples (Pattern Recognition)**
+
+To help the parser recognize valid Fiwo sentence structures, study these examples demonstrating SVO-T ordering, mood tags, brackets, and derivation:
+
+1. **Intransitive & Empty Subject (Command):**
+   - *English:* Look at the green tree!
+   - *Fiwo:* Kop nojapi mosap luare.
+   - *Breakdown:* [Command] + [Implied Subject You] + watch + tree-the + green.
+
+2. **Basic Transitive with Time (SVO-T):**
+   - *English:* The bird is actively flying today.
+   - *Fiwo:* Kyfap cyriq nudu.
+   - *Breakdown:* Bird-the [Subject] + fly-[continuous] [Verb] + [Empty Object] + today [Time].
+
+3. **Specificity, Derivation & Infinitive Stacking:**
+   - *English:* I did not want to read the specific scan.
+   - *Fiwo:* Mik nes fabid lokit scan-iop.
+   - *Breakdown:* I + [Not] + want-[past] + read-[linker] + scan-[derived concrete noun]-[specific marker].
+
+4. **Proper Nouns & Prepositions:**
+   - *English:* I live in London.
+   - *Fiwo:* Mik ceni deky London.
+   - *Breakdown:* I + live + inside + London [Proper Noun Flag].
+
+5. **Interrogative Variables (In-Situ):**
+   - *English:* Who broke the door?
+   - *Fiwo:* Kup wun skagid hoxop?
+   - *Breakdown:* [Question] + who [Subject Variable] + break-[past] + door-the.
+
+6. **Possessive Modifiers & Plurality:**
+   - *English:* Their house.
+   - *Fiwo:* Sydop dalem je.
+   - *Breakdown:* House-the + his/hers/its-[modified-nested] + many.
+
+7. **Relative Clauses (Subordinate Brackets):**
+   - *English:* I am the builder who built that building.
+   - *Fiwo:* Mik foisoiap tep foisoid foisop fose.
+   - *Breakdown:* I + builder-the + [open relative] + build-[past] + building-the + that.
+
+8. **Zero Copula (Noun = Noun):**
+   - *English:* I am a person.
+   - *Fiwo:* Mik nofar.
+   - *Breakdown:* I [Subject] + person-some [Predicate Noun]. (No verb used).
+
+9. **Distributive Flag (-f):**
+   - *English:* The big animal and person.
+   - *Fiwo:* Mifap lan nofap tandef.
+   - *Breakdown:* Animal-the + and + person-the + big-[distributive].
+
+10. **Conditionals & Conjunctions:**
+    - *English:* If a moment of uncertainty existed, then they did not fear to shove the passengers back.
+    - *Fiwo:* Syn moment-u uncertainty-e cenid can dal je nes kurid sudit passenger-a je back-e.
+    - *Breakdown:* [If] + moment + uncertainty + existed + [Then] + they + not + fear-[past] + shove-[linker] + passenger + many + back.
+
+11. **Time Question (the `wiq` bridge — never bare):**
+    - *English:* When do you eat?
+    - *Fiwo:* Kup suk nomi dury wiq?
+    - *Breakdown:* [Question] + you + eat + during [time preposition] + when [bridge target]. The variable is NEVER bare — ✗ `Kup suk nomi wiq?` is parser-fatal.
+
+12. **Place Question (the `wer` bridge):**
+    - *English:* Where do you live?
+    - *Fiwo:* Kup suk ceni ky wer?
+    - *Breakdown:* [Question] + you + live + at [location preposition] + where [bridge target].
+
+13. **Inanimate Subject Variable (`won`, not `wun`):**
+    - *English:* What happened?
+    - *Fiwo:* Kup won linucid?
+    - *Breakdown:* [Question] + what [inanimate Slot 1] + happen-[past]. `wun` here would mean "who happened" — valid to the parser, wrong to a speaker.
+
+14. **Emotion Roots: Experiencer vs. Source (Rule 5.1):**
+    - *English:* I am bored. / The book is boring.
+    - *Fiwo:* Mik sysuei. / Panop sysui.
+    - *Breakdown:* The `-e` form is always the one *feeling* it, predicated with the stative `-i` (Rule 10.3); the plain `-i` verb is what *causes* it. Never render the `-e` form as English "-ing".
+
+15. **Passive Voice (`fap`, doer omitted):**
+    - *English:* The house was built.
+    - *Fiwo:* Fap sydop foisoid.
+    - *Breakdown:* [Passive flag] + house-the [Receiver, Slot 1] + build-[past] + [Slot 3 empty, doer unspecified].
+
+16. **Modality (modifier immediately after the verb):**
+    - *English:* I must go.
+    - *Fiwo:* Mik xali fuqe.
+    - *Breakdown:* I + go + must [deontic modifier]. Modality is never a verb in Fiwo — it is a modifier in the slot right after the verb.
+
+17. **Comparative with a Baseline (Rule 21):**
+    - *English:* The dog runs faster than the cat.
+    - *Fiwo:* Detap cafi ruzem jete taly catsap.
+    - *Breakdown:* Dog-the + run + fast-[nested flag] + more + compared-to + cat-the.
+
+18. **Clausal Wall (two full clauses joined):**
+    - *English:* I ate and he drank.
+    - *Fiwo:* Mik nomid bef daq rolid.
+    - *Breakdown:* I + eat-[past] + [and-wall] + he + drink-[past]. The wall wipes the SVO slots clean — a fresh clause starts after it.
+
+19. **Putting It Together (multi-clause: bracket + time slot + wall):**
+    - *English:* Yesterday I found the book that you wanted, but I did not read it.
+    - *Fiwo:* Mik karxid panop tep suk fabid tel wecdu bul mik nes lokid ram.
+    - *Breakdown:* Slot 1 `Mik` + Slot 2 `karxid` + Slot 3 `panop` with a relative bracket `tep suk fabid tel` + Slot 4 `wecdu` (time, last) + wall `bul` + a fresh clause `mik nes lokid ram`. Note the order of operations: the bracket closes before the time slot, the time slot closes the clause, and only then may the wall open a new one. English word order gives you none of this — build the slots, do not translate the sequence.
+
+20. **Neither / Nor (negate the verb governing a `ron` list):**
+    - *English:* I want neither the rope nor the bag.
+    - *Fiwo:* Mik nes fabi odcanop ron zabatop.
+    - *Breakdown:* I + not + want + rope-the + or + bag-the. Fiwo has no dedicated "neither" — negating the governing verb distributes across the whole `ron` list (Rule 26/27).
+
+21. **Direct Speech (Rule 30.9 quotation bracket) — and where `tel` is redundant:**
+    - *English:* He asked, "Did you see my tool?"
+    - *Fiwo:* Daq kupid tep Kup suk nojapid gutop mike?
+    - *Breakdown:* He + ask-[past] + [open quote] + the quoted utterance verbatim. No quote marks; the `?` inside is a boundary *within* the bracket and does not end the outer sentence. The bracket is then closed by the **end of the sentence itself** (Rule 30.7, sentence-end flush), so **no `tel` is written**. This is the default — prefer it.
+    - *Continuing past the quote makes `tel` mandatory:* Daq kupid tep Kup suk nojapid gutop mike? tel bef daq xalid. — "He asked 'Did you see my tool?' and he moved on." Without `tel`, the wall `bef daq xalid` reads as the next utterance *inside* the quotation.
+    - **General habit:** write `tel` only where it is load-bearing — mid-sentence (before a wall, a time slot, or the outer predicate), as the ghost-target mirror after a dangling preposition, to close the inner bracket of a nested `tep … tep …`, and after a subject clause (30.8). A bracket that runs to the end of the sentence never needs one.
+
+- Glossary
+For quick translations 
+
+The English after `=` is a LOOKUP KEY, not a translation. Fiwo roots do not map
+one-to-one onto English words — the definition after `:` is the actual meaning, and it is often
+narrower, wider, or differently cut than the English key suggests.
+Read the definition before using a word. If no definition covers the concept you
+want, say so and build a Rule 36 compound; never stretch a key to fit.
+
+[Grammar & Logic] — 88 entries
+-a = Biological Noun Derivation : Derives a biological noun, such as a living organism, plant, animal, or body part.  [tier 0 · grammar core]
+-d = Past Tense : Indicates an action that occurred in the past.  [tier 0 · grammar core]
+-dyk = Past Perfect : Establishes that an action was completely finished before another past action occurred.  [tier 0 · grammar core]
+-dyq = Past Continuous : Indicates an action that was actively in progress during the past.  [tier 0 · grammar core]
+-e = Modifier Derivation : Derives a descriptive modifier.  [tier 0 · grammar core]
+-f = Distributive Flag : The -f suffix tells the parser to act as mathematical parentheses, distributing the modifier backward across every noun connected by lan until the chain breaks.  [tier 0 · grammar core]
+-i = Verb / Stative Verb Derivation : Derives an action or a stative verb.  [tier 0 · grammar core]
+-k = Perfect Aspect : Indicates a completed past action that has a direct result or relevance right now.  [tier 0 · grammar core]
+-m = Nested Modifier Flag : Signals the parser to suspend the Look Left rule, allowing the next modifier to attach to this word instead of the root.  [tier 0 · grammar core]
+-o = Concrete Noun Derivation : Derives a concrete noun, such as a physical object, material, tool, or location.  [tier 0 · grammar core]
+-p = Specific Noun Marker : Explicitly identifies a known, definite entity.  [tier 0 · grammar core]
+-q = Continuous Aspect : Indicates an action actively in progress at this exact moment.  [tier 0 · grammar core]
+-r = Non-specific Noun Marker : Indicates an indefinite, unknown, or general entity.  [tier 0 · grammar core]
+-s = Future Tense : Indicates an action that will occur forward in time.  [tier 0 · grammar core]
+-syk = Future Perfect : Sets a deadline for when a future action will be completely finished.  [tier 0 · grammar core]
+-syq = Future Continuous : Describes an ongoing state at a specific point in the future.  [tier 0 · grammar core]
+-t = The Stacker : Mathematical linker that locks adjacent words into a single syntactic block, combining single digits into multi-digit integers or permanently chaining serial verbs.  [tier 0 · grammar core]
+-u = Abstract Noun Derivation : Derives an abstract noun, such as a concept, emotion, time, or intangible idea.  [tier 0 · grammar core]
+ak = Ouch / Pain : Exclamation of sudden physical pain or intense discomfort.  [tier 0 · grammar core]
+ap = Divided by / Fraction of / Out of : This is an immutable mathematical operator used to perform explicit division or create fractions within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used in a Zero Copula sentence to state a mathematical equation (e.g., sluqe ap dewe tafe = 6 divided by 2 is 3).  [tier 0 · grammar core]
+bef = clause connector / and (clausal) : Clausal wall introducing an independent parallel thought; completely resets the SVO parser.  [tier 0 · grammar core]
+bip = Firstly / First of all : A pragmatic mood tag placed at the absolute start of a sentence to introduce the first point in a sequence.  [tier 0 · grammar core]
+bul = but : Clausal wall introducing a contrasting thought or exception.  [tier 0 · grammar core]
+can = then : Clausal wall introducing a subsequent chronological action; resolves a conditional premise.  [tier 0 · grammar core]
+cef = Please : Expresses politeness, courteous intent, or softens a command.  [tier 0 · grammar core]
+dal = he / she / it (animate) : Third-person singular animate neutral; an entity with intent or agency where gender is unspecified or irrelevant.  [tier 0 · grammar core]
+daq = he / him : Third-person singular animate male; a male entity with intent or agency.  [tier 0 · grammar core]
+das = she / her : Third-person singular animate female; a female entity with intent or agency.  [tier 0 · grammar core]
+dez = good morning : Phatic greeting used in the morning; 'good morning.' Standalone on the Null Track (Rule 33).  [tier 0 · grammar core]
+fap = Passive Voice Indicator : Structural tag placed at the clause start to mathematically invert SVO thematic roles.  [tier 0 · grammar core]
+fos = that : Distal deictic; a conceptually distant, prior, or non-current clause or concept.  [tier 0 · grammar core]
+ha = Oh / I see : Indicates sudden realization, acknowledgment, or understanding.  [tier 0 · grammar core]
+hap = Emotional / Subjective : An expression of personal feeling or subjective experience.  [tier 0 · grammar core]
+hop = Sarcastic / Ironic : Sarcastic or ironic intent, explicitly encoded to prevent logical misinterpretation.  [tier 0 · grammar core]
+hyp = Hypothetical / Counterfactual : A pragmatic mood tag placed at the absolute start of a clause to indicate that the following statement is a simulation of a reality that does not exist. It translates the English concepts of "would" or "would have".  [tier 0 · grammar core]
+jas = yes : Affirmation or agreement.  [tier 0 · grammar core]
+jo = Hey / Attention : Sharp exclamation to command immediate attention or warn.  [tier 0 · grammar core]
+kad = Because / For the reason that : A structural wall that introduces an entirely new independent clause (with its own subject and verb) that explains the reason for the previous clause.  [tier 0 · grammar core]
+kep = Factual / Objective : An objective statement, scientific truth, or absolute fact, strictly excluding everyday observations.  [tier 0 · grammar core]
+kof = Furthermore / Moreover / In addition / (not only …) but also : A structural particle used to introduce an additional point, fact, or argument.  [tier 0 · grammar core]
+kop = Command / Imperative : A direct order or command.  [tier 0 · grammar core]
+kup = Question / Request : An explicit inquiry or request for information.  [tier 0 · grammar core]
+lan = Plus / And (Inline Additive) : Binds elements of the same grammatical category. Can be chained for lists of three or more.  [tier 0 · grammar core]
+mik = I / me : First-person singular; the speaker's body and mind.  [tier 0 · grammar core]
+mis = Minus / Subtracted by : This is an immutable mathematical operator used to perform explicit subtraction within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used as the subject of a Zero Copula sentence to state a timeless mathematical equation (e.g., raje mis dewe tafe = 5 minus 2 is 3).  [tier 0 · grammar core]
+muk = we / us (inclusive) : First-person plural inclusive; the speaker, the listener, and potentially others.  [tier 0 · grammar core]
+mux = Times / Multiplied by : This is an immutable mathematical operator used to perform explicit multiplication within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used as the subject of a Zero Copula sentence to state a timeless mathematical equation (e.g., tafe mux dewe sluqe = 3 times 2 is 6).  [tier 0 · grammar core]
+nak = we / us (exclusive) : First-person plural exclusive; the speaker and others, explicitly excluding the listener.  [tier 0 · grammar core]
+nel = you're welcome : Phatic reply acknowledging thanks; conveys 'you're welcome / no need.' Standalone on the Null Track (Rule 33).  [tier 0 · grammar core]
+nes = no / not : Strict logical operator of negation (boolean NOT); standalone negative interjection.  [tier 0 · grammar core]
+nop = Inferred / Logical Evidence : A pragmatic mood tag indicating the speaker knows the statement is true through logical deduction or physical evidence.  [tier 0 · grammar core]
+ov = oh no : Phatic expressing sympathy, dismay, or concern at bad news; 'oh no / that's awful.' Standalone on the Null Track (Rule 33).  [tier 0 · grammar core]
+pen = so / therefore : Clausal wall introducing a direct result, consequence, or logical conclusion.  [tier 0 · grammar core]
+pot = Decimal Point / Radix : This acts as a structural pivot within a numerical sequence. It explicitly signals to the parser that the whole integers have stopped, and any digits following it are to be read sequentially as fractional values. The parser reads the entire sequence, including the decimal pivot, as a single quantitative block until the final -t stacker is dropped.  [tier 0 · grammar core]
+pov = Meanwhile / At the same time : A structural particle used to introduce an event or action happening concurrently with another.  [tier 0 · grammar core]
+ram = it (inanimate) : Third-person singular inanimate; strictly an object, concept, plant, machine, or entity lacking agency.  [tier 0 · grammar core]
+ron = Or (Inline Alternative) : Inline mathematical boolean OR; offers a choice between elements of the same grammatical category.  [tier 0 · grammar core]
+rop = Reported / Hearsay Evidence : A pragmatic mood tag indicating the speaker knows the statement is true because they were told by someone else or read it somewhere.  [tier 0 · grammar core]
+rot = or : Clausal wall presenting an alternative choice or independent clause.  [tier 0 · grammar core]
+sal = Hello / Greetings : Acknowledges presence or initiates a social interaction.  [tier 0 · grammar core]
+sek = List Separator / Spoken Comma : A structural particle that explicitly separates sequential items in a list or breaks the -t stacker bond between adjacent number blocks. It acts as a phonetic wall, telling the parser to finalize the current item and move to the next. Used for enumerating individual multi-digit numbers (e.g., counting 10, 11, 12) and for listing items without using lan. (Usage: Neutral enumeration, unlike lan, which asserts logical AND.)  [tier 0 · grammar core]
+sep = In sum / In conclusion : A pragmatic mood tag placed at the absolute start of a sentence to introduce a summary or conclusion.  [tier 0 · grammar core]
+sil = this : Proximal deictic; the current or immediately preceding clause or concept.  [tier 0 · grammar core]
+sop = Direct / Sensory Evidence : A pragmatic mood tag indicating the speaker knows the statement is true because they directly experienced it (e.g., saw, heard, or felt it happen).  [tier 0 · grammar core]
+suk = you : Second-person singular; strictly the listener.  [tier 0 · grammar core]
+suv = You (formal/respectful) : The formal second-person singular pronoun used to show respect when addressing elders, authorities, strangers, or in professional contexts. Possessive form: `suve` (your/yours, formal singular). Pluralized with `je`: `suv je` (you all, formal), possessive `suvem je` (your/yours, formal plural).  [tier 0 · grammar core]
+syn = Condition Initiator : Marks a theoretical premise or conditional clause (if/when/whenever).  [tier 0 · grammar core]
+tel = end of subordinate clause / close bracket : Closing bracket finalizing a subordinate or conditional clause. Optional at sentence boundaries (periods), but strictly mandatory mid-sentence or to resolve mirroring/nesting ambiguity.  [tier 0 · grammar core]
+tep = subordinate predicate marker : Opening bracket introducing a subordinate or embedded relative clause. Open brackets are implicitly closed by a period (.) at the end of a sentence.  [tier 0 · grammar core]
+tex = Goodbye / Farewell : Closes a social interaction or indicates departure.  [tier 0 · grammar core]
+tox = cheers : Phatic toast exchanged when drinking together; 'cheers.' Standalone on the Null Track (Rule 33).  [tier 0 · grammar core]
+vax = However / On the other hand : A structural particle used to introduce a statement that contrasts with or seems to contradict something that has been said previously.  [tier 0 · grammar core]
+vel = While / Whereas : Introduces a completely new, independent clause that occurs simultaneously alongside the previous clause, or presents a direct contextual contrast (whereas).  [tier 0 · grammar core]
+wal = why : Interrogative clause variable for a reason or cause.  [tier 0 · grammar core]
+wat = what : Interrogative variable for a thing or matter.  [tier 0 · grammar core]
+wer = where : Interrogative variable for a location.  [tier 0 · grammar core]
+wiq = when : Interrogative variable for time.  [tier 0 · grammar core]
+wis = how : Interrogative variable for the manner, method, or degree of an action or state.  [tier 0 · grammar core]
+won = what (subject) / what thing / what event : Interrogative subject variable for a non-agent — a thing or event filling SVO Slot 1 (e.g. What happened? What fell?). The inanimate counterpart of wun (who).  [tier 0 · grammar core]
+wox = Wow / Awe : An exclamation of positive surprise, wonder, or amazement.  [tier 0 · grammar core]
+wug = How many / How much? (Interrogative) : An interrogative variable specifically holding the place of an unknown numerical quantity or mathematical amount. It sits directly in the SVO slot where the numerical answer is expected.  [tier 0 · grammar core]
+wun = who : Interrogative variable for a person or agent.  [tier 0 · grammar core]
+xap = For example : A pragmatic mood tag placed at the absolute start of a sentence to introduce an example or illustration.  [tier 0 · grammar core]
+xex = haha / laughter : Phatic laughter token conveying amusement; 'haha.' Standalone on the Null Track (Rule 33).  [tier 0 · grammar core]
+xom = In other words / That is to say : A structural particle used to introduce an explanation, clarification, or rephrasing of a previous statement.  [tier 0 · grammar core]
+zet = as for / regarding (topic marker) : Topic marker. Placed at the absolute start of a sentence, it opens a topic phrase ('as for X / regarding X'); the wall 'can' (or 'pen') then closes the topic and hands off to the main clause (Rule 32.5). (Usage: Distinct from the preposition zety ('about'), which bridges mid-sentence.)  [tier 0 · grammar core]
+zib = good evening : Phatic greeting used in the evening; 'good evening.' Standalone on the Null Track (Rule 33).  [tier 0 · grammar core]
+zol = Although / Even though : Introduces a concessive clause; it acts as a structural wall indicating that the fact in this clause makes the information in the next clause surprising, contrasting, or unexpected.  [tier 0 · grammar core]
+
+[Prepositions (-y)] — 46 entries
+acry = Across : Indicates a spatial bridge mapping movement or position from one side of a surface, boundary, or flat area to the opposite side.  [tier 0 · grammar core]
+amby = Instead of / In place of : Indicating substitution of one entity or action for another.  [tier 0 · grammar core]
+apawy = According to / In accordance with : A structural preposition indicating that an action or state strictly follows the rules, statements, or nature of the target noun.  [tier 0 · grammar core]
+avly = Along : In a line parallel with, or next to the length of a surface or path.  [tier 0 · grammar core]
+baxy = Behind : Indicates a spatial bridge where the subject is located at or directed toward the rear or back of a reference point.  [tier 0 · grammar core]
+beqy = Beyond : Indicates a spatial or logical bridge mapping a position that is strictly past the physical limits, boundary, or scope of the reference point.  [tier 0 · grammar core]
+by = by : Used to indicate agent, means, or source.  [tier 0 · grammar core]
+cagy = for : This word indicates the purpose, destination, or intended recipient of an action or object.  [tier 0 · grammar core]
+dawy = Due to / As a result of / Because of : A structural bridge linking an outcome strictly to the noun that caused it.  [tier 0 · grammar core]
+deky = inside : Used for location within an enclosure.  [tier 0 · grammar core]
+dury = During : Indicates a temporal bridge, mapping an action strictly to the timeframe of an ongoing event or period.  [tier 0 · grammar core]
+fazy = nature of : Indicates abstract characteristics, personality, or intrinsic nature; having the qualities of the object.  [tier 0 · grammar core]
+fecy = Until / Up to : Indicates a temporal or spatial bridge extending continuously up to the absolute limit or termination point of an event or location.  [tier 0 · grammar core]
+foly = After : Indicates that the main action occurs strictly subsequent to the referenced temporal baseline or event.  [tier 0 · grammar core]
+fy = from : Used for origin or starting point  [tier 0 · grammar core]
+hemy = near : Used for close proximity.  [tier 0 · grammar core]
+igy = At the frequency of / Times / Per : Indicates a mathematical bridge linking an action to the exact numerical count of its occurrences.  [tier 0 · grammar core]
+jany = Against : Indicates a bridge of physical contact involving pressure and support, or direct logical opposition/resistance to a concept.  [tier 0 · grammar core]
+jicy = also : Indicates inclusion or mathematical addition, functioning as a bridge meaning in addition to or along with the target object.  [tier 0 · grammar core]
+jy = part of : Indicates the subject is an integral component or piece of the object, such as a body part or machine element.  [tier 0 · grammar core]
+ky = at : Indicates general location, presence, or proximity at a specific point.  [tier 0 · grammar core]
+mety = By means of / Through / Via : Indicates the method, process, tool, or pathway utilized to achieve a specific result or destination. (e.g., I learned it via reading).  [tier 0 · grammar core]
+moxy = Among (them) / Within a group : Indicates a spatial or conceptual bridge where the subject is surrounded by, or included as a distinct part of, a larger defined group or set. (e.g., The apple among the grapes).  [tier 0 · grammar core]
+my = containing : Indicates that the subject is holding the object inside it; specifies content rather than purpose.  [tier 0 · grammar core]
+neswy = Without : Indicates a logical bridge of absence or the explicit lack of an accompanying object or trait.  [tier 0 · grammar core]
+nizy = In front of / Ahead of : Indicates a spatial bridge where the subject is located at or directed toward the forward-facing exterior of a reference point.  [tier 0 · grammar core]
+noky = down / below : Used for direction or position lower than a reference.  [tier 0 · grammar core]
+pary = before : Indicates that the main action must conclude strictly prior to the referenced temporal baseline or event.  [tier 0 · grammar core]
+piny = as / similar to : This word indicates that one thing resembles another or shares common characteristics without being identical.  [tier 0 · grammar core]
+pudy = Since : Indicating the starting point of a period of time that continues to the present (temporal).  [tier 0 · grammar core]
+rewy = far : Situated at a great distance from; far away relative to a reference point.  [tier 0 · grammar core]
+ry = owned by : Indicates strict ownership, legal possession, or belonging.  [tier 0 · grammar core]
+sacy = outside : Used for a position external to the boundaries of an enclosure or object.  [tier 0 · grammar core]
+sesny = Despite / In spite of : Indicating that an action or state occurs regardless of an obstacle or opposing force.  [tier 0 · grammar core]
+swozy = Except / Excluding : Indicating that the specified entity is not included in the statement.  [tier 0 · grammar core]
+taly = compared to / than : Used to establish a structural bridge between a modified subject or action and the baseline it is being measured against.  [tier 0 · grammar core]
+tody = up / above : Used for direction or position higher than a reference.  [tier 0 · grammar core]
+ty = on : Indicates physical contact with and support by a surface.  [tier 0 · grammar core]
+usy = at the sequence of / ranking : This preposition indicates the ordinal position or sequence of a noun within a series.  [tier 0 · grammar core]
+vy = made of : Indicates the physical substance or material composition of the subject.  [tier 0 · grammar core]
+wy = with : Used for accompaniment or instrumentality.  [tier 0 · grammar core]
+xy = shaped like : Indicates that the subject shares the physical geometry or outline of the object, but not necessarily its material or function.  [tier 0 · grammar core]
+zety = about : Concerning, regarding, or strictly relating to the subject of a specific topic.  [tier 0 · grammar core]
+zofy = Through : Indicates a spatial bridge where the subject enters one side of an environment, medium, or enclosure and exits the other.  [tier 0 · grammar core]
+zory = Between : Indicates a spatial or logical bridge placing the subject directly in the interval that separates two distinct entities.  [tier 0 · grammar core]
+zy = to : Used for direction toward a destination or outcome.  [tier 0 · grammar core]
+
+[Biological Nouns (-a)] — 48 entries
+arteta = Fruit : This identifies the fleshy, edible product of a tree or plant that naturally contains seeds and is consumed as food.  [tier 1 · core]
+bata = Food / Meal : Any organic, nutritious matter consumed or absorbed by a living organism to sustain life and growth.  [tier 1 · core]
+bela = Foot. : This identifies the lower extremity of the leg below the ankle, on which a person stands or walks.  [tier 1 · core]
+biba = Baby / Infant : A very young human child, particularly one who has not yet learned to walk or talk.  [tier 1 · core]
+boja = Blood. : This identifies the red liquid that circulates in the arteries and veins of humans and other vertebrate animals.  [tier 1 · core]
+cada = Child : This word refers strictly to a human being in the biological stage of life between birth and puberty. (Usage: Distinct from jepa (offspring), which maps the relational link to a parent.)  [tier 1 · core]
+catsa = Cat : This refers to a small, domesticated carnivorous mammal, widely kept as a companion animal.  [tier 1 · core]
+cosa = Skin : This refers to the thin layer of tissue forming the natural outer covering of the body.  [tier 1 · core]
+dafa = Stomach : This word refers to the internal muscular organ in which the first major part of the physical digestion of food occurs.  [tier 1 · core]
+deta = Dog : This refers to a domesticated, carnivorous land-dwelling animal, typically kept as a companion or for work.  [tier 1 · core]
+dorala = Back (Anatomy) : This refers to the rear surface of a human body from the shoulders to the hips, or the equivalent upper structural surface of an animal.  [tier 1 · core]
+farlopa = Doctor / Medical Healer : This refers to a person who practices medicine and restores systemic well-being.  [tier 1 · core]
+fija = Ear : The biological organ responsible for the perception of sound.  [tier 1 · core]
+fuba = Fish : This identifies a cold-blooded vertebrate animal with gills and fins that lives strictly and entirely in water.  [tier 1 · core]
+fuka = Hand : This identifies the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb.  [tier 1 · core]
+ibalira = Teacher / Educator : This refers to a person who gives systematic instruction and provides knowledge.  [tier 1 · core]
+irta = Egg : This word identifies the round or oval biological reproductive body laid by the females of many animals, containing the developing embryo.  [tier 1 · core]
+kaba = Horse : This refers to a large, solid-hoofed herbivorous mammal, traditionally utilized by humans for riding or draft work.  [tier 1 · core]
+kegla = Grass. : A low, dense-growing plant with narrow leaves, typically covering lawns and fields. Follows nasa (plant) as a specific plant type.  [tier 1 · core]
+kyfa = Bird. : This refers to a flying animal, typically characterized by feathers and wings.  [tier 1 · core]
+mana = Mother : This refers to the female parent of a biological offspring.  [tier 1 · core]
+maoba = Heart : The physical, biological muscle organ that pumps blood through the circulatory system of an organism.  [tier 1 · core]
+mapa = Finger. : This identifies each of the long, slender members attached to the hand.  [tier 1 · core]
+meota = Head. : This identifies the upper part of the human body containing the brain, eyes, ears, nose, and mouth.  [tier 1 · core]
+mifa = Animal. : This identifies a living organism that is specifically a land-dwelling beast.  [tier 1 · core]
+mita = Meat. : This refers to the flesh of an animal used as food.  [tier 1 · core]
+mosa = Tree : This identifies a large plant, typically having a single stem or trunk growing to a considerable height.  [tier 1 · core]
+mula = Flower. : This refers to the seed-bearing part of a plant, consisting of reproductive organs and colorful petals.  [tier 1 · core]
+myga = Leg. : This refers to each of the limbs on which a person or animal walks and stands.  [tier 1 · core]
+nauxa = Friend. : This refers to a person whom one knows and with whom one has a bond of mutual affection.  [tier 1 · core]
+nofa = Person / Human / People : This refers to a human being, individual, or member of the human species.  [tier 1 · core]
+noja = Eye. : This identifies the organ of sight in humans and animals.  [tier 1 · core]
+noqsa = Man / Adult Male / Guy : This identifies a fully grown male human being.  [tier 1 · core]
+nosana = Woman / Adult Female : This identifies a fully grown female human being.  [tier 1 · core]
+nyta = Nose. : This identifies the part projecting above the mouth on the face of a person or animal, used for smelling.  [tier 1 · core]
+ovpa = Neck : The part of the body that connects the head to the torso.  [tier 1 · core]
+peba = Father : This refers to the male parent of a biological offspring.  [tier 1 · core]
+pixra = Tooth. : This identifies each of the hard, white structures in the mouth used for biting and chewing.  [tier 1 · core]
+poka = Hair. : This refers to the fine thread-like strands growing from the skin of humans, mammals, and some other animals.  [tier 1 · core]
+saza = Sister : This refers to a female sibling who shares one or both parents with another individual.  [tier 1 · core]
+soxa = Body. : This refers to the physical structure of a person or an animal, comprising the material substance.  [tier 1 · core]
+taqa = Brother : This refers to a male sibling who shares one or both parents with another individual.  [tier 1 · core]
+vyfla = Rice. : A small starchy grain, a global staple food, harvested from a cultivated grass. Follows the arteta/zoba (fruit/vegetable) pattern for raw plant food.  [tier 1 · core]
+xufa = Arm. : This refers to each of the two upper limbs of the human body from the shoulder to the hand.  [tier 1 · core]
+ylxa = Mouth : This refers to the opening in the lower part of the human face through which food is taken in and speech is emitted.  [tier 1 · core]
+zala = Bug / Insect. : This refers to a small invertebrate animal, often with a segmented body and legs.  [tier 1 · core]
+zipa = Face. : The front part of a biological entity's head, typically containing the eyes, nose, and mouth.  [tier 1 · core]
+zoba = Vegetable : This refers to the edible, biological matter of a plant—such as the leaves, stems, or roots—cultivated specifically for nutritional consumption.  [tier 1 · core]
+
+[Concrete Nouns (-o)] — 55 entries
+atripo = Train : A connected series of physical railway carriages or wagons structurally linked and moved by a locomotive engine along tracks.  [tier 1 · core]
+belimo = Shoe : A physical covering for the foot, typically made of leather or synthetic materials, featuring a sturdy protective sole.  [tier 1 · core]
+bryklo = Bread. : A staple food made by baking a dough of ground grain, water, and typically a leavening agent.  [tier 1 · core]
+bucygo = Earth : The planet on which we live, taken as a proper name; the third planet from the sun.  [tier 1 · core]
+busko = Clothes / Clothing. : This refers to items worn to cover the body, typically made of fabric or textile materials.  [tier 1 · core]
+byso = Sky. : This refers to the region of the atmosphere and outer space seen from the earth.  [tier 1 · core]
+caeno = Street : A paved public thoroughfare in a city or town, serving as a physical infrastructure route for vehicles and pedestrians.  [tier 1 · core]
+dego = Table : A piece of furniture consisting of a flat physical top supported by one or more legs, used as a surface for working or eating.  [tier 1 · core]
+domlo = Rain : This identifies precipitating liquid water falling downward from clouds in the atmosphere to the ground.  [tier 1 · core]
+dorso = Water. : This serves as the prototype word for liquid matter and the substance essential for life.  [tier 1 · core]
+dreko = Rock / Stone : This denotes the hard, solid mineral material that is part of the earth's surface.  [tier 1 · core]
+fevo = Sun : This refers to the primary daytime celestial body or central star that provides light and heat energy to a planetary system.  [tier 1 · core]
+fiko = Path / Road. : This refers to a route, course, or track along which something moves or reaches a destination.  [tier 1 · core]
+fiwo = Language. : This refers to the principal method of human communication, consisting of words used in a structured and conventional way.  [tier 1 · core]
+fuego = Fire : The visible, tangible heat and light energy produced by active combustion.  [tier 1 · core]
+go = Word. : This refers to a single distinct meaningful element of speech or writing. (Usage: Adapted to distinguish it from 'number'.)  [tier 1 · core]
+grexo = Celestial Object / Planet / Moon. : This refers to a natural physical entity, such as a planet, moon, or star, that exists in the universe.  [tier 1 · core]
+hano = Container / Box. : This describes an enclosure or object used for holding or transporting something.  [tier 1 · core]
+hoxo = Door / Gate. : This identifies an access point or movable barrier used to close an opening.  [tier 1 · core]
+ibazo = School : This identifies a physical building or structural institution explicitly designed for the teaching and education of students.  [tier 1 · core]
+icifo = Plate : A flat, usually circular solid dish from which food is physically served or eaten.  [tier 1 · core]
+ikamo = Shirt : A physical piece of clothing designed specifically to cover the upper body and chest area (topza).  [tier 1 · core]
+jadoro = Snow : This refers to atmospheric water vapor frozen into solid ice crystals and falling as light, white structural flakes.  [tier 1 · core]
+juro = City. : This refers to a large human settlement with a high population density and extensive systems for housing, transportation, and utilities.  [tier 1 · core]
+kalo = Cup : A small, bowl-shaped physical container, often with a handle, designed for holding and drinking liquids.  [tier 1 · core]
+kino = Knife : A physical tool or weapon consisting of a sharp, solid cutting edge or blade, usually attached to a grip or handle.  [tier 1 · core]
+klazo = Cloud : This refers to a visible, physical mass of condensed atmospheric water vapor floating high in the sky.  [tier 1 · core]
+krapo = Wall : A continuous, vertical solid structure made of brick, stone, wood, or metal that encloses or divides a physical area.  [tier 1 · core]
+krulo = Room : A physically enclosed space situated within a building, structurally separated by walls and accessed via a door.  [tier 1 · core]
+lamso = Milk : This identifies the opaque, nutrient-rich white liquid produced by the mammary glands of female mammals to feed their offspring.  [tier 1 · core]
+luso = Key : A small piece of shaped metal with specific physical incisions cut to mechanically fit and operate a specific lock.  [tier 1 · core]
+meoko = Hat : A shaped physical covering for the head worn for environmental protection, warmth, or uniform.  [tier 1 · core]
+monto = Mountain : This refers to a massive, natural solid elevation of the earth's surface, rising abruptly to a peak from the surrounding ground.  [tier 1 · core]
+nasbo = Medicine / Drug : This identifies a physical compound, preparation, or substance strictly used for the treatment, cure, or prevention of biological disease.  [tier 1 · core]
+nibilko = Car : A wheeled motor vehicle for carrying a few passengers.  [tier 1 · core]
+paelo = Paper : A thin, flat physical material manufactured from processed pulp, used primarily for writing, printing, or structural packaging.  [tier 1 · core]
+pano = Book. : This refers to a written or printed work consisting of pages bound together, or a digital equivalent, used to store information.  [tier 1 · core]
+picalo = Hospital : This refers to a highly specialized physical building or institution providing medical and surgical treatment for sick or injured people.  [tier 1 · core]
+poco = There / That place. : This word refers to a specific physical location or spatial coordinate that is distant or removed from the speaker's current environment.  [tier 1 · core]
+rerpo = Place / Location / Position : This refers to a particular position, point, or area in space, regardless of whether it is occupied.  [tier 1 · core]
+stalo = Star : This identifies a distant celestial object, consisting of a massive, luminous sphere of plasma, appearing as a point of light in the night sky.  [tier 1 · core]
+sydo = House / Shelter / Home : This refers to a structure or place serving as a dwelling, providing protection from the elements and a living space for habitation.  [tier 1 · core]
+tandorso = Ocean / Sea : This refers to a massive, continuous physical body of saltwater that covers a vast structural portion of a planet's surface.  [tier 1 · core]
+tanko = Sugar : A sweet, crystalline physical substance naturally derived from plants, used strictly to sweeten food or drink.  [tier 1 · core]
+tapo = Here. : The specific physical location of the speaker or the immediate area being occupied.  [tier 1 · core]
+wilo = Window : A designed opening in a wall or vehicle, typically fitted with transparent glass, built to let in light and air.  [tier 1 · core]
+wujo = Map : A physical or digital visual diagram representing an area of land or sea, detailing physical geographic features or routes.  [tier 1 · core]
+xabeso = Wind : This describes the natural, perceptible kinetic movement of air  traveling across an environment.  [tier 1 · core]
+xadoro = River : This identifies a large, naturally flowing body of liquid water continuously moving along a path toward a sea, lake, or ocean.  [tier 1 · core]
+xiolo = Chair : A separate piece of furniture designed as a seat for one person, typically featuring a backrest and four legs.  [tier 1 · core]
+xyro = Store / Shop : This refers to a physical building or retail space structurally dedicated to the commercial selling of goods or services.  [tier 1 · core]
+zabato = Bag / Luggage : A flexible container made of fabric, leather, or plastic, used structurally for carrying or consolidating other physical items.  [tier 1 · core]
+zafoiro = Floor : The structured indoor ground surface of a room or building on which people stand or walk.  [tier 1 · core]
+zaqo = Salt : A white crystalline physical mineral consisting of sodium chloride, used to season or preserve food.  [tier 1 · core]
+zufo = Bed. : This refers to a piece of furniture or a prepared spot used for sleep or rest.  [tier 1 · core]
+
+[Abstract Nouns (-u)] — 40 entries
+asku = Reason : The abstract intellectual justification, motive, or logical premise behind an action or belief.  [tier 1 · core]
+astlu = Interest : The abstract conceptual feeling of wanting to know/learn about something, or an intangible advantage/benefit.  [tier 1 · core]
+bimedu = Monday : Monday; the first day of the week. Derived by compounding bime (one) and du (day).  [tier 1 · core]
+cemu = Thing : A universal substantive used to refer to any abstract entity, concept, idea, or matter of discussion.  [tier 1 · core]
+cihu = Morning : This refers to the early part of the day, typically from sunrise until the midpoint of the day.  [tier 1 · core]
+dewedu = Tuesday : Tuesday; the second day of the week. Derived by compounding dewe (two) and du (day).  [tier 1 · core]
+dionu = Time. : This refers to the indefinite continued progress of existence and events.  [tier 1 · core]
+du = Day. : A period of time from sunrise to sunrise; current day.  [tier 1 · core]
+dugu = Night. : This refers to the period of darkness in each twenty-four hours; the time from sunset to sunrise.  [tier 1 · core]
+dumu = Minute. : This refers to a period of time equal to sixty seconds or one-sixtieth of an hour.  [tier 1 · core]
+fefu = End. : This defines the final part of something or its termination point.  [tier 1 · core]
+fitydu = Tomorrow : This refers to the next day in the chronological sequence.  [tier 1 · core]
+gidu = Money. : This refers to a current medium of exchange in the form of coins and banknotes.  [tier 1 · core]
+glokedu = Thursday : Thursday; the fourth day of the week. Derived by compounding gloke (four) and du (day).  [tier 1 · core]
+gomu = Hour. : This refers to a period of time equal to sixty minutes or one twenty-fourth of a day.  [tier 1 · core]
+gu = Number. : This refers to an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity.  [tier 1 · core]
+hisu = Name. : This identifies a word or set of words by which a person, animal, place, or thing is known.  [tier 1 · core]
+ivanu = North : This refers to the primary cardinal direction corresponding to the earth's northern magnetic pole or the upward orientation on a standard map.  [tier 1 · core]
+ivortu = South : This refers to the cardinal direction directly opposite to the north.  [tier 1 · core]
+jaru = Year. : The time it takes for a planet to complete one full revolution around its star; a period of time comprising 365 days.  [tier 1 · core]
+jobu = Job : An abstract conceptual role, task, or agreed-upon piece of work, especially one that is compensated.  [tier 1 · core]
+jolkodu = Average / Mean : The central value found by summing quantities and dividing by their count.  [tier 1 · core]
+kehulu = Family. : The social unit of individuals bound by kinship, marriage, or a shared household; the family as a collective structure. (Usage: Distinct from canpu (a broader community) and from named individual relatives such as nupa (parent), saqa (sibling), and jepa (offspring).)  [tier 1 · core]
+ladu = Idea : A single, newly formed thought, inspiration, or concept in the mind.  [tier 1 · core]
+melfu = Price / Cost : This refers to the amount of money expected, required, or given in payment for something.  [tier 1 · core]
+naxu = Group / Cluster / Bunch : This refers to a number of people or things that are located, gathered, or classed together.  [tier 1 · core]
+nu = Now. : Used for the present moment.  [tier 1 · core]
+nudu = Today : This refers to the current day.  [tier 1 · core]
+rajedu = Friday : Friday; the fifth day of the week. Derived by compounding raje (five) and du (day).  [tier 1 · core]
+retadu = Week : This refers to a continuous time period consisting of seven days.  [tier 1 · core]
+retedu = Sunday : Sunday; the seventh day of the week. Derived by compounding rete (seven) and du (day).  [tier 1 · core]
+rugoxu = Month : This refers to a period of time historically corresponding to a lunar cycle or a standard calendar division.  [tier 1 · core]
+skoru = Market : The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange.  [tier 1 · core]
+sluqedu = Saturday : Saturday; the sixth day of the week. Derived by compounding sluqe (six) and du (day).  [tier 1 · core]
+sysu = Boredom : The state of feeling weary, restless, or uninterested due to lack of activity or stimulation.  [tier 1 · core]
+tafedu = Wednesday : Wednesday; the third day of the week. Derived by compounding tafe (three) and du (day).  [tier 1 · core]
+veponku = Surprise : The emotional response to a sudden, unexpected (odaze) event. Neutral in valence — it may be positive or negative — unlike truhu (awe), which is reverential.  [tier 1 · core]
+vivu = Evening : The abstract period of time at the end of the day, strictly occurring between late afternoon (fohu) and full night (dugu).  [tier 1 · core]
+wecdu = Yesterday : This refers to the previous day that has elapsed.  [tier 1 · core]
+witu = Color. : This refers to the property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light.  [tier 1 · core]
+
+[Modifiers (-e)] — 105 entries
+amce = Never : At no time; not ever.  [tier 1 · core]
+amute = Early : This word describes an event or state happening before the usual, expected, or planned time.  [tier 1 · core]
+anote = Late : This word describes an event or state happening after the usual, expected, or planned time.  [tier 1 · core]
+arife = (Should / Recommended) : Highly recommended, socially expected, or logically advisable, but not strictly obligatory.  [tier 1 · core]
+babse = Hungry : This describes a biological state of discomfort or weakness caused by a lack of food, coupled with a strong desire to eat.  [tier 1 · core]
+baude = Beautiful : This word describes a state possessing physical or conceptual qualities that give immense, positive aesthetic pleasure to the senses.  [tier 1 · core]
+bife = (Allowed / Permitted) : Explicitly permitted or allowed.  [tier 1 · core]
+bime = One : This refers to the lowest cardinal number, representing a single unit or entity.  [tier 1 · core]
+boke = Bad. : Regarded as subjectively negative or unfavorable.  [tier 1 · core]
+cape = Black / Dark. : This word describes the very darkest color, resulting from the absence or complete absorption of light.  [tier 1 · core]
+cohe = Few / Little. : This word describes a small number or amount of something.  [tier 1 · core]
+cuje = Some / An indefinite amount : Describes an indefinite, non-zero quantity or subset of an entity. Mathematically, it asserts that a quantity exists (strictly greater than zero) but explicitly leaves the exact number undefined, stripping away any subjective judgment of whether it is few or many.  [tier 1 · core]
+dale = His / Hers / Its (Animate Neutral) : Strictly belonging to or associated with a person or animal where gender is unspecified or irrelevant.  [tier 1 · core]
+daqe = His (Male) : Strictly belonging to or associated with a specific male person or animal.  [tier 1 · core]
+dase = Hers (Female) : Strictly belonging to or associated with a specific female person or animal.  [tier 1 · core]
+dewe = Two / Couple : This refers to the cardinal number that is the sum of one and one.  [tier 1 · core]
+dide = (Certain / Definitely) / Sure : Mathematically or logically guaranteed to happen.  [tier 1 · core]
+dote = Strong. : This word describes something having the power to move heavy weights or perform other physically demanding tasks.  [tier 1 · core]
+drabe = One hundred : This refers to the cardinal number equivalent to ten times ten.  [tier 1 · core]
+egmabe = One thousand : This refers to the cardinal number equivalent to ten times one hundred.  [tier 1 · core]
+ene = Light (Weight). : This word describes something of little weight or easy to lift.  [tier 1 · core]
+evle = Sometimes : Occasionally; on some occasions but not all.  [tier 1 · core]
+fe = Very : Definition: Intensifier used to emphasize degree.  [tier 1 · core]
+felpe = Different. : This word describes something not the same as another or each other.  [tier 1 · core]
+fose = That / Those (Distal Modifier) : This word identifies a specific physical or conceptual noun that is physically distant from the speaker, or removed from the immediate environment. It must follow the noun it modifies.  [tier 1 · core]
+fuqe = (Must / Necessary) : Strictly required, necessary, or obligatory.  [tier 1 · core]
+fyjebe = Warm. : Comfortably heated; a middle temperature between jabe (cold) and ripe (hot).  [tier 1 · core]
+gawe = Good. : This word describes something regarded as positive or favorable based on individual opinion.  [tier 1 · core]
+geale = Actually / In reality / True / Real : Describes a state or fact that is objectively real and true, often used to contrast with an expectation, assumption, or falsehood (okseu).  [tier 1 · core]
+gloke = four : This refers to the cardinal number that is the product of two and two.  [tier 1 · core]
+goile = Sad : This describes a subjective state of sorrow, unhappiness, or emotional pain.  [tier 1 · core]
+hiqe = Factually Correct / Right : Free from error; in accordance with fact or truth. (Usage: Distinct from the subjective senses 'well' or 'good'.)  [tier 1 · core]
+hobe = Young. : This word describes something that has existed for a short time, often characterizing an early stage of life, growth, or development.  [tier 1 · core]
+hyme = habitually / regularly / customarily / used to : Describes an action, state, or behavior that occurs repeatedly and characteristically over a period of time, forming an established routine or habit rather than a singular event.  [tier 1 · core]
+iwe = Tired : This describes a physical or mental state of exhaustion, depleted energy, or a strong need for sleep and rest.  [tier 1 · core]
+jabe = Cold. : This word describes something of or at a low or relatively low temperature.  [tier 1 · core]
+jaxke = New. : This word describes something produced, introduced, or discovered recently or now for the first time.  [tier 1 · core]
+je = Plural Marker / -s : A strict grammatical marker indicating plurality (strictly more than one of an entity). It acts purely as a mathematical multiplier (>1) to pluralize a noun, carrying no subjective weight regarding how large the group actually is.  [tier 1 · core]
+jedle = Many / A lot / Numerous : his describes a subjectively large quantity, high volume, or great number of a specific entity.  [tier 1 · core]
+jeme = Most. : The greatest quantity/quality compared to something else.  [tier 1 · core]
+jete = More. : An increase compared to something else.  [tier 1 · core]
+jotse = Clean. : This word describes something free from dirt, marks, or stains.  [tier 1 · core]
+joze = Long. : This word describes something measuring a great distance from end to end.  [tier 1 · core]
+juce = Heavy. : This word describes something of great weight or difficult to lift.  [tier 1 · core]
+juwe = Only / Just. : This word limits something to a single person, thing, or amount, explicitly excluding anything else.  [tier 1 · core]
+kase = (Any / Whichever) : This word describes something as being of free choice, where the specific identity does not matter.  [tier 1 · core]
+kype = Happy. : This describes a state of feeling or showing pleasure.  [tier 1 · core]
+labne = Same. : This word describes something identical or not different.  [tier 1 · core]
+lande = Small / Little : This word describes something of limited size or extent.  [tier 1 · core]
+late = All : This word refers to the whole quantity or extent of a particular group or thing.  [tier 1 · core]
+lefe = Hard. : This word describes something solid, firm, and resistant to pressure.  [tier 1 · core]
+lere = Ten : This refers to the cardinal number equivalent to the product of five and two, or one more than nine.  [tier 1 · core]
+letse = Dirty. : This word describes something covered or marked with an unclean substance.  [tier 1 · core]
+leupe = Red. : Exhibiting the color of blood or fire.  [tier 1 · core]
+loage = Blue. : Exhibiting the color of the clear sky.  [tier 1 · core]
+locwe = White / Light. : This word describes the color of fresh snow or milk, reflecting all visible rays of light.  [tier 1 · core]
+loske = Yellow. : Exhibiting the color of a lemon or gold.  [tier 1 · core]
+luare = Green. : Exhibiting the color of growing grass.  [tier 1 · core]
+mace = (Possible / Might / Maybe) : Possible, but not logically or physically guaranteed.  [tier 1 · core]
+marte = Eight : This refers to the cardinal number equivalent to the product of two and four.  [tier 1 · core]
+mike = My / Mine : Strictly belonging to or associated with the speaker.  [tier 1 · core]
+mise = Negative (mathematical) : Marks a number as negative. Derived from the subtraction operator mis; attaches to a nested-flagged number (e.g. rajem mise = negative five, Rule 25).  [tier 1 · core]
+muile = Difficult : This word describes an action or concept requiring significant effort, skill, or time to accomplish or understand.  [tier 1 · core]
+muke = Our / Ours (Inclusive) : Strictly belonging to or associated with the speaker, the listener, and potentially others.  [tier 1 · core]
+naile = Easy : This word describes an action or concept achieved without great effort; presenting zero or very few obstacles.  [tier 1 · core]
+nake = Our / Ours (Exclusive) : Strictly belonging to or associated with the speaker and others, explicitly excluding the listener.  [tier 1 · core]
+noze = Zero : This refers to the arithmetical symbol denoting the absence of all magnitude or quantity.  [tier 1 · core]
+ocfe = Fake / Counterfeit / False : Not genuine; imitation or counterfeit (specifically physical or abstract imitation).  [tier 1 · core]
+okse = Wrong : Logically incorrect or factually inaccurate.  [tier 1 · core]
+ovce = Always : At all times; uninterruptedly or on every occasion.  [tier 1 · core]
+peze = Later / Subsequently : This describes an event or action occurring at a subsequent time relative to the current baseline.  [tier 1 · core]
+puve = Cheap : This describes something commanding a low monetary price or requiring very little exchange of financial value.  [tier 1 · core]
+raje = Five : This refers to the cardinal number equivalent to the sum of four and one.  [tier 1 · core]
+rame = Its (Inanimate) : Strictly belonging to or associated with an inanimate object, concept, or machine.  [tier 1 · core]
+raure = Ugly : This word describes a state possessing physical or conceptual qualities that are highly unpleasant, dissonant, or aesthetically repulsive.  [tier 1 · core]
+rete = Seven. : This refers to the cardinal number equivalent to the sum of six and one.  [tier 1 · core]
+ripe = Hot. : This word describes something having a high degree of heat or a high temperature.  [tier 1 · core]
+rodipe = Thirsty : This describes a biological state of discomfort caused by a lack of fluids, coupled with a strong desire to drink a liquid.  [tier 1 · core]
+romve = Again / Repeatedly : This describes an action or state being repeated or occurring another time.  [tier 1 · core]
+sile = This / These (Proximal Modifier) : This word identifies a specific physical or conceptual noun that is physically close to the speaker, or currently present in the immediate environment. It must follow the noun it modifies.  [tier 1 · core]
+skrehe = On / Active / Powered : Of a device or system: switched on and operating.  [tier 1 · core]
+slafe = Too / Excessively : This describes a quantity, degree, or state that goes beyond what is mathematically necessary, normal, or desirable. (This acts as the strict quantitative counterpart to uzume [enough] and fe [very], explicitly indicating an excess).  [tier 1 · core]
+sluqe = Six. : This refers to the cardinal number equivalent to the product of two and three.  [tier 1 · core]
+strene = Soon. : Within a short time from now; in the near future. A temporal modifier, deferred to this batch by the Q8 ruling on temporal adjuncts.  [tier 1 · core]
+sube = (Probable / Likely) : Highly probable or likely to happen.  [tier 1 · core]
+suke = your's : Strictly belonging to or associated with the listener.  [tier 1 · core]
+suve = Your / Yours (formal) : Strictly belonging to or associated with the formal/respected listener (possessive of suv, Rule 35).  [tier 1 · core]
+tafe = three : This refers to the cardinal number that is the sum of one and two.  [tier 1 · core]
+tande = Big / Large / Great : This word describes something of considerable size, extent, or capacity.  [tier 1 · core]
+toce = Sorry / Pardon / Apology. : This word describes a state of feeling regret or penitence for an action. (Usage: Apology only — the sense of 'sorry' for one's own wrong action. For the sympathy sense of English 'sorry' (regret at another's misfortune, having caused nothing), use azmu or the phatic ov. See How to say that.)  [tier 1 · core]
+tsake = Angry : This describes a strong subjective state of annoyance, displeasure, or furious hostility.  [tier 1 · core]
+tsenge = Often. : With high frequency; more than evle (sometimes) but less than ovce (always). Completes the amce–evle–tsenge–ovce frequency scale.  [tier 1 · core]
+tute = Sweet. : This describes the taste sensation characteristic of sugars. (Usage: Distinct from the other basic tastes: sour, salty, or bitter.)  [tier 1 · core]
+ulime = Half : This describes a quantity representing exactly one of two equal parts of a whole (50%). (Usage: Distinct from mide (middle), which refers to a spatial or temporal center.)  [tier 1 · core]
+veke = Low / Short (Vertical) : This describes something having a small vertical extent or measuring a short distance from bottom to top.  [tier 1 · core]
+vome = Less / Fewer : This describes a mathematically smaller quantity, extent, or degree of something.  [tier 1 · core]
+wable = Mutual / Reciprocal : Indicates that a plural subject is performing an action upon one another.  [tier 1 · core]
+wage = Soft. : This word describes something easy to mold, cut, compress, or fold.  [tier 1 · core]
+wane = Left. : This refers to the direction or side towards the west when facing north; the side of the body which contains the heart in most humans.  [tier 1 · core]
+waske = Old. : This word describes something that has existed for a long time.  [tier 1 · core]
+waze = Weak. : This word describes something lacking the power to perform physically demanding tasks.  [tier 1 · core]
+wible = (Self / Reflexive) : Indicates the action reflects back onto the doer, or emphasizes the exact identity of a specific noun/pronoun.  [tier 1 · core]
+xive = Expensive : This describes something commanding a high monetary price or requiring a large exchange of financial value.  [tier 1 · core]
+zave = High / Tall : This describes something having a great vertical extent or measuring a long distance from bottom to top.  [tier 1 · core]
+zewe = Nine : This refers to the cardinal number equivalent to the product of three and three.  [tier 1 · core]
+
+[Verbs (-i)] — 80 entries
+beati = Close. : To block an opening, seal a passage, or restrict physical access.  [tier 1 · core]
+cafi = Run : To move swiftly on foot at a pace significantly faster than a walk.  [tier 1 · core]
+ceni = Live. : This verb means to remain alive or have life.  [tier 1 · core]
+cimi = Start / Begin : This verb means to begin an action or event.  [tier 1 · core]
+ebmeri = Remember : To successfully retrieve historical data, past events, or abstract knowledge from storage back into active memory.  [tier 1 · core]
+ebnesi = Forget : To lose access to stored mental data; the systemic inability to retrieve a past event or learned concept.  [tier 1 · core]
+enconi = Meet : To intentionally or accidentally come into the physical presence of someone.  [tier 1 · core]
+erfi = Understand / Realize : To mentally comprehend the abstract meaning, logic, or underlying cause of a concept.  [tier 1 · core]
+etypi = To get / To obtain : To actively and successfully acquire, gain possession of, or secure a physical object or abstract concept. (Implies active effort or successful acquisition).  [tier 1 · core]
+fabi = Want. : This verb means to have a desire to possess or do something.  [tier 1 · core]
+fenuti = Tell : To communicate specific information, facts, or instructions directly to another entity.  [tier 1 · core]
+gari = Play. : This verb means to engage in activity for enjoyment and recreation rather than a serious or practical purpose.  [tier 1 · core]
+gesi = Say / Speak / Talk / Discuss : This verb means to utter words so as to convey information.  [tier 1 · core]
+gidafi = Sell : To permanently transfer the legal ownership of physical goods or abstract services in exchange for money.  [tier 1 · core]
+gidsi = Buy : To obtain physical or legal possession of an entity by paying money.  [tier 1 · core]
+grawi = Grateful / Thank. : This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks.  [tier 1 · core]
+gugi = Stand. : This verb means to maintain an upright position, supported by the feet in a vertical orientation.  [tier 1 · core]
+hadi = Answer / Reply : This verb means to say or write something to deal with or as a reaction to a question.  [tier 1 · core]
+hatzi = Laugh / Smile : To express sudden amusement, joy, or positive emotion through facial alteration and rhythmic vocalization.  [tier 1 · core]
+hekri = wear : To have clothing, footwear, or an accessory on the body; to be dressed in something.  [tier 1 · core]
+hi = To Be / To Exist As : To Be / To Exist. An explicit copula and existential verb. It is strictly forbidden in its unmodified form and must always bear a consonant suffix (such as tense, aspect, or an infinitive stacker) to be legally processed by the SVO track.  [tier 1 · core]
+hici = Walk. : This verb means to move at a regular pace by lifting and setting down each foot in turn.  [tier 1 · core]
+ibagi = Learn : To acquire new knowledge, skills, or data through abstract study or physical experience.  [tier 1 · core]
+iraki = Cry : To shed biological tears as a physiological response to distress, pain, or overwhelming subjective feeling.  [tier 1 · core]
+jami = Write. : This verb means to mark letters, words, or other symbols on a surface to record information.  [tier 1 · core]
+jedi = Have. : This verb means to possess, own, or hold something as property or a characteristic.  [tier 1 · core]
+jipri = Wash : To clean something (like the body, clothes, or dishes) using water and typically soap.  [tier 1 · core]
+jobori = To arrive / To reach : To actively reach a destination, limit, or end point. (Usage: Emphasizes actively reaching a destination, limit, or endpoint. Compare ovami (completing a journey into a destination).)  [tier 1 · core]
+jofi = Help / Assist. : To make it easier for someone to do something by offering one's services or resources.  [tier 1 · core]
+kani = Know. : This verb means to possess knowledge, facts, or skills.  [tier 1 · core]
+karxi = Find / Discover. : This verb means to discover or perceive by chance or unexpectedly, or to become aware of something new.  [tier 1 · core]
+kili = Touch / Feel. : This verb means to perceive through physical contact or the sense of touch.  [tier 1 · core]
+kimugi = Die : To permanently cease biological functions; the absolute termination of a living system.  [tier 1 · core]
+koci = Need. : This verb means to require something because it is essential or very important.  [tier 1 · core]
+kritri = To teach. : To give systematic instruction to someone; to cause another to learn a skill or body of knowledge. The transitive action of the ibalira (teacher). (Usage: Distinct from ibalirai (to act teacherly) and tehidi (to study).)  [tier 1 · core]
+kufugli = Travel : To journey from one place to another, especially over a long distance.  [tier 1 · core]
+kupi = Ask. : This verb means to say something in order to obtain an answer or some information.  [tier 1 · core]
+kuri = Fear / Afraid : This verb means to be afraid of someone or something.  [tier 1 · core]
+kyti = Like. : This verb expresses positive feelings towards something or someone and is completely subjective.  [tier 1 · core]
+lini = Cause. : To make something happen or exist; to bring about a result or effect.  [tier 1 · core]
+loki = Read : This verb means to look at and comprehend the meaning of written or printed matter.  [tier 1 · core]
+luhaci = To Treat / To Heal / Cure : To give medical care or attention to a person, illness, or injury.  [tier 1 · core]
+maji = Breathe. : This verb means to take air into the lungs and expel it.  [tier 1 · core]
+naci = Work. : This verb means to perform labor, professional tasks, or exert effort to produce a result.  [tier 1 · core]
+neki = Sit. : This verb means to rest with the body supported by the buttocks or thighs; to occupy a seat.  [tier 1 · core]
+nomi = Eat / Consume. : This verb means to put food into the mouth, chew, and swallow it as a fundamental biological action.  [tier 1 · core]
+nyrsi = Carry / Bring : To physically support the weight of a load and transport it from one location to another.  [tier 1 · core]
+ombi = Send / Deliver : To cause a physical object or abstract message to be conveyed to a separate destination.  [tier 1 · core]
+otani = Cook : To chemically or physically alter food matter for consumption by systematically applying thermal energy.  [tier 1 · core]
+pagari = Pay : To transfer money or abstract value in exchange for goods or services.  [tier 1 · core]
+pli = Come. : This verb means to move toward a specific location or the speaker.  [tier 1 · core]
+pozi = Think / Consider : This verb means to direct one's mind toward someone or something or to form ideas.  [tier 1 · core]
+pywi = Listen : To make a conscious effort to hear; to pay attention to sound. (Usage: The active effort, distinct from passive hearing.)  [tier 1 · core]
+rerbi = Stay : To remain in the exact same physical location or conceptual state for an extended duration.  [tier 1 · core]
+reslihi = Hate / Detest : To feel sustained hostile rejection toward a specific entity; the antipode of tazi (love). Stronger and more enduring than neuqu (momentary disgust) or tsake (anger at a single act).  [tier 1 · core]
+rizi = To get up / To rise/ to ascend / Wake : To actively move oneself from a lower physical position to a higher one (such as standing up from a bed or chair), or for a celestial body to ascend. (Usage: Distinct from todyri (raise), which is the transitive action of lifting something else.)  [tier 1 · core]
+roli = Drink : This verb means to take a liquid into the mouth and swallow it.  [tier 1 · core]
+sapi = Make / Create : This verb means to create, construct, or form something.  [tier 1 · core]
+sarmi = Taste : To perceive the flavor of food or liquid in the mouth.  [tier 1 · core]
+seji = Stop. : This verb means to cease an action or event.  [tier 1 · core]
+sigi = Hold. : This verb means to grasp and support something.  [tier 1 · core]
+steli = Take. : This verb means to lay hold of something with one's hands or reach.  [tier 1 · core]
+stomi = Give / Provide : This verb means to freely transfer the possession of something to someone.  [tier 1 · core]
+sufi = Turn. : This verb means to rotate or change the direction of movement.  [tier 1 · core]
+swami = Put. : This verb means to move something into a specific place or position.  [tier 1 · core]
+tazi = Love. : To feel deep affection, unconditional care, or profound attachment toward an entity.  [tier 1 · core]
+tehidi = To Study / To Review : To devote time and attention to acquiring knowledge on an academic subject.  [tier 1 · core]
+tsi = Leave. : This verb means to go away from a place, person, or thing; to depart.  [tier 1 · core]
+umzi = Welcome / Greet : To greet someone in a warm, friendly, and hospitable manner upon their arrival.  [tier 1 · core]
+upyci = Look : To direct one's gaze or visual attention in a specific direction. (Usage: The active effort, distinct from passive seeing.)  [tier 1 · core]
+uropi = To Sing : To make musical sounds with the voice, especially words with a set tune.  [tier 1 · core]
+usi = Sleep. : This verb means to rest with eyes closed in a state of natural unconsciousness.  [tier 1 · core]
+wafri = To lose. : To cease to have or possess something (an object, a contest, or an opportunity); to be deprived of, or to be defeated. (Usage: Distinct from ebnesi (to forget).)  [tier 1 · core]
+wasti = Wait : To remain in a state of paused action in strict anticipation of a specific future event or time.  [tier 1 · core]
+wogi = Hope. : This refers to a feeling of expectation and desire for a certain thing to happen; a state of optimism.  [tier 1 · core]
+xali = Move / Go. : This verb means to change position or displace something.  [tier 1 · core]
+xosi = Open. : This verb means to allow access, passage, or view through a space.  [tier 1 · core]
+xwewi = Excuse / Pardon : To excuse, forgive, or pardon someone for a minor social transgression or interruption.  [tier 1 · core]
+xyfi = Do. : To perform, execute, or carry out a general action.  [tier 1 · core]
+zyli = Use. : This verb means to employ something for a particular purpose.  [tier 1 · core]
