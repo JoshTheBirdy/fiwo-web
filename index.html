@@ -301,10 +301,10 @@
 </ul>
         </section>
         <section id="rules" class="page">
-            <h2>Rule Book (All 38 Rules)</h2>
+            <h2>Rule Book (All 39 Rules)</h2>
 <p>This is the comprehensive, official rulebook of the <strong>Fiwo</strong> constructed language. It contains the complete set of phonological, morphological, syntactical, and logical rules that define how the language is written, spoken, and parsed.</p>
-<p>The rules are organized into <strong>9 Parts</strong> in a logical, pedagogical progression, beginning with core phonetic foundations and building up to complex clausal mechanics, conversational register, and ellipsis &amp; deixis.</p>
-<p><strong>Rule book v1.5 · 2026-07-26 · 38 rules across 9 Parts.</strong> Every grammar change is dated in the <strong>Rule Change Log</strong> at the end of this file. Bump the version and add a log entry with any rule change (Nofap §4).</p>
+<p>The rules are organized into <strong>9 Parts</strong> in a logical, pedagogical progression, beginning with core phonetic foundations and building up to complex clausal mechanics, conversational register, ellipsis &amp; deixis, and spoken repair.</p>
+<p><strong>Rule book v1.6 · 2026-08-07 · 39 rules across 9 Parts.</strong> Every grammar change is dated in the <strong>Rule Change Log</strong> at the end of this file. Bump the version and add a log entry with any rule change (Nofap §4).</p>
 <hr>
 <h2>Part I: Phonology, Orthography &amp; Foundations</h2>
 <h3>Rule 1: Phonemic Orthography &amp; Stress</h3>
@@ -2149,6 +2149,34 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><strong>Kup suk kani tep fos.</strong> ([Question] + you + know + [that] + that. Meaning: <em>Do you know that?</em> — <code>fos</code> as the bracketed complement&#39;s subject/content.)</li>
 </ul>
 </li>
+</ol>
+<hr>
+<h3>Rule 39: Spoken Repair (<code>gix</code>)</h3>
+<p>Speech is produced in real time and goes wrong. Because Fiwo permits exactly one parse, an uncorrected slip does not merely blur an utterance — it invalidates it. The <strong>Repair Particle <code>gix</code></strong> gives the speaker a deterministic way to withdraw what was just said. It is not a Phatic Particle and does not use the Null Track (Rule 33); it is its own word class with its own mechanism.</p>
+<p>Repair costs nothing in determinism. <code>gix</code> is a <strong>state pop</strong>, not backtracking: no token is ever re-read, the decision is made at the particle itself with no lookahead, and the parser keeps only one small frame per word of the current clause.</p>
+<ol>
+<li><strong>Word Repair.</strong> When <code>gix</code> is read with at least one word behind it in the current clause, it <strong>erases the immediately preceding word</strong> and restores the parser to the exact state it held before that word was read. The clause then continues normally. <code>gix</code> may be repeated, each occurrence erasing one further word.<ul>
+<li><strong>Mik gidsid catsap gix detap.</strong> (I + bought + the-cat + [repair] + the-dog. <code>gix</code> erases <code>catsap</code>; the Object slot unlocks and re-locks on <code>detap</code>. Meaning: <em>I bought the dog.</em>)</li>
+<li><strong>Mik nomid catsap gix gix gidsid detap.</strong> (Two repairs, erasing <code>catsap</code> then <code>nomid</code>. Meaning: <em>I bought the dog.</em>)</li>
+</ul>
+</li>
+<li><strong>Utterance Void.</strong> When <code>gix</code> is <strong>utterance-initial</strong> — the first token of a sentence, with nothing behind it — it <strong>voids the single preceding utterance</strong>, and the parser begins a fresh clause with the very next word. <code>Gix.</code> standing alone and <code>Gix</code> followed by a new sentence are the same operation. A voided utterance is not itself voidable, and the void discards the previous utterance&#39;s <em>meaning</em>, not its grammar: a voided sentence must still have been a legal sentence.<ul>
+<li><strong>Mik nomid tesop bef daq rolid. Gix mik gidsid detap.</strong> (I ate the tea and he drank. [Void] I bought the dog. Meaning: <em>I bought the dog.</em>)</li>
+<li>Which behaviour applies is decided by <strong>position alone</strong>, never by what follows — this is what keeps repair single-pass.</li>
+</ul>
+</li>
+<li><strong>The Clause Boundary.</strong> Repair never crosses a boundary. <code>gix</code> may not erase past a clausal wall, past <code>tep</code> into the outer clause, out of a bracket, or past a sentence boundary. This is what keeps repair a single-step state reversal rather than backtracking.</li>
+<li><strong>Structural Immunity.</strong> Clausal walls, <code>tep</code>/<code>tel</code>, <code>syn</code>, the topic marker <code>zet</code>, Pragmatic Mood Tags, and <code>fap</code> cannot be erased by <code>gix</code>. To withdraw an utterance containing a mis-said structural word, end the utterance and open the next one with <code>gix</code> (39.2).<ul>
+<li><em>Illegal:</em> <code>Kup gix suk nomi tesop?</code> (a mood tag is not erasable)</li>
+<li><em>Illegal:</em> <code>Mik gidsid detap bef gix daq nomid tesop.</code> (repair cannot reach past the wall)</li>
+</ul>
+</li>
+<li><strong>Nothing To Repair — FATAL.</strong> <code>gix</code> is a FATAL ERROR in two positions: mid-sentence with an empty repair stack (immediately after a clausal wall, or immediately after <code>tep</code>), and immediately following a token that is awaiting a right-hand target — a preposition, <code>nes</code>, <code>lan</code>/<code>ron</code>, <code>sek</code>, or a math operator. Compare Rule 26: negation with nothing to negate is likewise fatal.<ul>
+<li><em>Illegal:</em> <code>Mik gidsid zy gix detap.</code> (the bridge <code>zy</code> has no target yet, so no word is complete)</li>
+</ul>
+</li>
+<li><strong>Prosody.</strong> <code>gix</code> is set off from the preceding word by a brief separation, marking it as a repair rather than as a further word in the clause. It is never run together with the word it erases.</li>
+<li><strong>Register.</strong> <code>gix</code> is a feature of speech and of transcribed speech, and is legal in every register as such. Precise written registers (instructions, legal, mathematical) are edited rather than repaired, as with Answer Fragments (Rule 37.5). Repair particles do not appear in the teaching corpus.</li>
 </ol>
 
 </section>
@@ -7179,7 +7207,7 @@ measuring: same slot, two registers.</p>
 <h2>Lesson 37 · Speak like a person, not a parser</h2>
 <p><strong>By the end of this lesson you can:</strong> use the short forms real speech runs on.</p>
 <blockquote>
-<p><strong>Note: this lesson is deliberately incomplete.</strong> Fiwo&#39;s spoken-mode rules — a correction particle for when you misspeak, prosody around brackets, and exactly which markers may be dropped in casual speech — are still being decided (Todo 7.4). What follows is what is already canon. The rest arrives when those rules are ruled.</p>
+<p><strong>Note: this lesson is still partly incomplete.</strong> The correction particle landed 2026-08-07 (Rule 39) and is taught in §5 below. Two spoken-mode questions remain open (Todo 7.4b/c): prosody around brackets and walls, and exactly which markers may be dropped in casual speech beyond the ones taught here.</p>
 </blockquote>
 <h3>1. Short answers are real sentences</h3>
 <p>You met these in Lesson 12. A bare noun phrase, modifier, or prepositional phrase standing alone is a complete, legal utterance — it binds to whatever was just said.</p>
@@ -7194,7 +7222,29 @@ measuring: same slot, two registers.</p>
 <p>From Lesson 23. If the bracket runs to the end, the full stop closes it. In speech this saves a syllable on almost every complex sentence — use it.</p>
 <h3>3. Mood tags are optional in casual speech</h3>
 <p>From Lesson 15. In conversation people drop <code>Kep</code>, <code>Hap</code> and the rest and let their voice carry the tone. <code>Kup</code> is the exception and stays.</p>
-<h3>4. Registers</h3>
+<h3>4. When you misspeak: <code>gix</code></h3>
+<p>This is the one that matters most, and it is the one every other language lets you do without thinking about it.</p>
+<p>Fiwo has exactly one legal parse per sentence. So if you say the wrong word, the sentence is not merely unclear — it is broken, and no amount of carrying on will fix it. <code>gix</code> is your backspace.</p>
+<p><strong>Say <code>gix</code>, and the word right before it is gone.</strong> Then just carry on with the right one.</p>
+<blockquote>
+<p><strong>Mik nomid vyflap gix bryklop.</strong> — I ate the rice — <em>no</em> — the bread.
+The listener hears exactly: <strong>Mik nomid bryklop.</strong></p>
+</blockquote>
+<p>Say it twice to erase two words, three times for three. There is no limit inside the clause.</p>
+<p><strong>If you are already too far gone, start the sentence again.</strong> Say <code>gix</code> <em>first</em>, before anything else, and everything you just said is thrown away:</p>
+<blockquote>
+<p><strong>Gix mik nomid bryklop.</strong> — Scratch that. I ate the bread.</p>
+</blockquote>
+<p>Those are the only two behaviours, and <strong>where you say it decides which one you get</strong> — with a word behind it, it erases that word; at the very start, it wipes the last sentence. You never have to choose.</p>
+<p>Three things it will not do:</p>
+<ul>
+<li>It never reaches past <code>bef</code>, <code>kad</code>, <code>tep</code> or any other structural word — repair stays inside the clause you are in.</li>
+<li>It cannot erase those structural words themselves. Said the wrong <code>bef</code>? Finish the sentence, then open the next one with <code>gix</code>.</li>
+<li>It needs a finished word to erase. <code>Mik hicid zy gix sydop</code> is wrong, because <code>zy</code> is still waiting for its own noun — nothing is finished yet.</li>
+</ul>
+<p>Leave a small gap before <code>gix</code> when you say it, so it lands as a correction and not as another word in the sentence.</p>
+<p>One warning: <strong><code>gix</code> is for speaking, not for writing.</strong> When you write, you have a delete key — use that. You will not find <code>gix</code> anywhere else in this course.</p>
+<h3>5. Registers</h3>
 <p>Fragments and dropped tags belong to conversation and texting. In precise registers — instructions, legal, mathematical — write full clauses with tags, because a fragment&#39;s meaning depends on the sentence before it.</p>
 <h3>Lesson 37 Exercises</h3>
 <p><strong>Part A: Give the shortest legal answer.</strong></p>
@@ -7207,14 +7257,26 @@ measuring: same slot, two registers.</p>
 <ol start="4">
 <li><code>Kep mik kani tep suk usid.</code></li>
 </ol>
+<p><strong>Part C: What does the listener hear?</strong> Carry out the repair.</p>
+<ol start="5">
+<li><code>Mik nomid bryklop gix vyflap.</code></li>
+<li><code>Kup suk nomis vyflap gix bryklop?</code></li>
+<li><code>Mik nomid vyflap gix gix hicid.</code></li>
+</ol>
+<p><strong>Part D: Repair it yourself.</strong> You meant to say <code>Mik nomid bryklop</code>, but you have already said <code>Mik nomid vyflap</code>. Finish the sentence out loud without starting over.</p>
 <h3>Lesson 37 Spoken Drill</h3>
 <p>Have a rapid question-and-answer exchange with yourself, twenty turns, answering everything with the shortest legal fragment. Speed is the point — this is the register you will actually live in.</p>
+<p>Then a second drill, and do this one badly on purpose: narrate what you are doing out loud, and every time you catch a wrong word, say <code>gix</code> and keep going instead of restarting. The whole point of <code>gix</code> is that it has to be automatic before it is useful — you will not have time to think about it when you actually need it.</p>
 <details class="answer-key"><summary>Lesson 37 Answer Key</summary>
 <ol>
 <li><code>Jas.</code> or <code>Nes.</code></li>
 <li><code>Vyflap.</code></li>
 <li><code>Gidu lere.</code></li>
 <li><code>Mik kani tep suk usid.</code> — the tag is optional and the final <code>tel</code> is closed by the full stop.</li>
+<li><code>Mik nomid vyflap.</code> — <code>gix</code> erased <code>bryklop</code>.</li>
+<li><code>Kup suk nomis bryklop?</code> — repair works inside a question like anywhere else; <code>Kup</code> is untouched because it is structural.</li>
+<li><code>Mik hicid.</code> — two <code>gix</code> erased <code>vyflap</code> and then <code>nomid</code>, so the verb slot was free for <code>hicid</code>.</li>
+<li><code>Mik nomid vyflap gix bryklop.</code></li>
 </ol>
 </details><hr>
 <h2>Lesson 38 · Read a story unaided</h2>
@@ -7384,9 +7446,9 @@ actually speak. Then close the book and retell it in your own words.</p>
     <script src="dictionary.js"></script>
     <script src="DerivedDictionary.js"></script>
     <script src="stories.js?v=5"></script>
-    <script src="fiwo-parser.js?v=7"></script>
+    <script src="fiwo-parser.js?v=8"></script>
     <script src="fiwo-pronounce.js?v=6"></script>
-    <script src="script.js?v=5"></script>
+    <script src="script.js?v=6"></script>
     <script data-goatcounter="https://joshthebirdy.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>

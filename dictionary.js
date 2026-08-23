@@ -11981,5 +11981,13 @@ const dictionaryData = [
     "definition": "This verb means to employ something for a particular purpose.",
     "tier": 1,
     "rank": 39
+  },
+  {
+    "word": "gix",
+    "english_equiv": "[repair] / erase that / scratch that",
+    "part_of_speech": "Grammar",
+    "definition": "Repair Particle (Rule 39). Erases the immediately preceding word and restores the parser to the state it held before that word; may be repeated. Utterance-initial, it instead voids the single preceding utterance and a fresh clause begins. Its own word class - NOT a phatic particle and not on the Null Track (Rule 33). Cannot erase clausal walls, tep/tel, syn, mood tags or fap, and never reaches across a clause boundary.",
+    "tier": 0,
+    "rank": 131
   }
 ];

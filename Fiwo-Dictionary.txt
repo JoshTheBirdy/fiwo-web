@@ -1,4 +1,4 @@
-# Fiwo Root Dictionary — 1493 entries
+# Fiwo Root Dictionary — 1494 entries
 # GENERATED from Canon/lexicon.json by Tools/build.py — do not edit by hand
 #
 # One entry per line, pipe-delimited, grouped by part of speech:
@@ -10,7 +10,7 @@
 # Read the definition before using a word. If no definition covers the concept you
 # want, say so and build a Rule 36 compound; never stretch a key to fit.
 
-=== Grammar — 88 entries ===
+=== Grammar — 89 entries ===
 -a | tier 0 · grammar core | Biological Noun Derivation | Derives a biological noun, such as a living organism, plant, animal, or body part.
 -d | tier 0 · grammar core | Past Tense | Indicates an action that occurred in the past.
 -dyk | tier 0 · grammar core | Past Perfect | Establishes that an action was completely finished before another past action occurred.
@@ -42,6 +42,7 @@ das | tier 0 · grammar core | she / her | Third-person singular animate female;
 dez | tier 0 · grammar core | good morning | Phatic greeting used in the morning; 'good morning.' Standalone on the Null Track (Rule 33).
 fap | tier 0 · grammar core | Passive Voice Indicator | Structural tag placed at the clause start to mathematically invert SVO thematic roles.
 fos | tier 0 · grammar core | that | Distal deictic; a conceptually distant, prior, or non-current clause or concept.
+gix | tier 0 · grammar core | [repair] / erase that / scratch that | Repair Particle (Rule 39). Erases the immediately preceding word and restores the parser to the state it held before that word; may be repeated. Utterance-initial, it instead voids the single preceding utterance and a fresh clause begins. Its own word class - NOT a phatic particle and not on the Null Track (Rule 33). Cannot erase clausal walls, tep/tel, syn, mood tags or fap, and never reaches across a clause boundary.
 ha | tier 0 · grammar core | Oh / I see | Indicates sudden realization, acknowledgment, or understanding.
 hap | tier 0 · grammar core | Emotional / Subjective | An expression of personal feeling or subjective experience.
 hop | tier 0 · grammar core | Sarcastic / Ironic | Sarcastic or ironic intent, explicitly encoded to prevent logical misinterpretation.

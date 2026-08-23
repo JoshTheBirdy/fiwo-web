@@ -4154,5 +4154,1515 @@ const storyData = [
         "english": "This is the end of the story, but it is the beginning of the language."
       }
     ]
+  },
+  {
+    "title": "II. Lozuxup jedid hiror (The Song With a Hole In It)",
+    "wordCount": 896,
+    "lines": [
+      {
+        "fiwo": "Fikop locwe nes fikor rodle.",
+        "english": "The white road is not really a road."
+      },
+      {
+        "fiwo": "Ram stirop my dreko je lande ty facup ostue my Kelvo.",
+        "english": "It is a line of small stones on the eastern side of Kelvo."
+      },
+      {
+        "fiwo": "Nofar amce sapid ram romve dury jaru je zewet nozet nozet.",
+        "english": "Nobody has repaired it in nine hundred years."
+      },
+      {
+        "fiwo": "Uropiar juwe hici ty ram bef dal hici igy bime dury ceniup dale.",
+        "english": "Only a Singer walks it, and only once in a life."
+      },
+      {
+        "fiwo": "Nyra drijid ram dury du dewe.",
+        "english": "Nyra climbed it for two days."
+      },
+      {
+        "fiwo": "Das nyrsid bryklor bef hanor my dorso.",
+        "english": "She carried bread and a skin of water."
+      },
+      {
+        "fiwo": "Dorsop kutgid jawor dury dugup usy bime.",
+        "english": "The water became ice on the first night."
+      },
+      {
+        "fiwo": "Das hekrid buskop taqae tandem slafe.",
+        "english": "She wore her brother's coat, which was too big."
+      },
+      {
+        "fiwo": "Fos gawe kad das goji luge xufa je dase deky ram.",
+        "english": "That was good, because she could pull her arms inside it."
+      },
+      {
+        "fiwo": "Jabeup nes cemur tep plid bef tsid.",
+        "english": "The cold was not a thing that came and went."
+      },
+      {
+        "fiwo": "Ram zovid ky rerpo late dury dionu late piny zasop.",
+        "english": "It was everywhere, all the time, the way the ground is."
+      },
+      {
+        "fiwo": "Nofar xyfi luge cemup bime juwe.",
+        "english": "A person can do only one thing."
+      },
+      {
+        "fiwo": "Das ifezid igy gomu late tep das cenis haibe.",
+        "english": "She decided, every hour, that she would go on being alive."
+      },
+      {
+        "fiwo": "Dury dugup usy dewe ifeziup fose kutgid Nyra.",
+        "english": "By the second night, that deciding had become Nyra."
+      },
+      {
+        "fiwo": "Das karxid uqu je taqae.",
+        "english": "She found her brother's marks."
+      },
+      {
+        "fiwo": "Das karxid rerpop tep daq sowidyk bef daq rizidyk.",
+        "english": "She found a place where he had fallen and got up."
+      },
+      {
+        "fiwo": "Peze das karxid uqup my fuka daqe deky daxokop waske.",
+        "english": "Further on she found the print of his hand in old frost."
+      },
+      {
+        "fiwo": "Ky hirop noky huqap my montop das karxid kinop daqe deky jawop.",
+        "english": "At the fork below the shoulder of the mountain she found his knife driven into the ice."
+      },
+      {
+        "fiwo": "Das gugid nizy ram dury tequr joze kad kinop nes ruxigid fikop locwe.",
+        "english": "She stood in front of it for a long moment, because the knife did not point at the white road."
+      },
+      {
+        "fiwo": "Ram ruxigid hiror lande deky drekop ky facup wane.",
+        "english": "It pointed at a small crack in the rock on the left side."
+      },
+      {
+        "fiwo": "Lozuxup bef stepu je bef nosana je waske amce gesid zety hirop fose.",
+        "english": "The Song, and the stories, and the old women had never spoken of that crack."
+      },
+      {
+        "fiwo": "Das stelid kinop bef das enrid deky hirop.",
+        "english": "She took the knife and went into the crack."
+      },
+      {
+        "fiwo": "Ram sacy xabesop pen das hicid deky ram dury gomur.",
+        "english": "It was out of the wind, so she walked inside it for an hour."
+      },
+      {
+        "fiwo": "Can das erfid tep das fyjebei.",
+        "english": "Then she realised that she was warm."
+      },
+      {
+        "fiwo": "Nes jabem vome. Fyjebe.",
+        "english": "Not less cold. Warm."
+      },
+      {
+        "fiwo": "Drekop noky fuka je dase fyjebeid.",
+        "english": "The stone under her hands was warm."
+      },
+      {
+        "fiwo": "Das sejid bef das swamid zipap dase jany ram bef das irakid.",
+        "english": "She stopped and put her face against it and cried."
+      },
+      {
+        "fiwo": "Das nes irakid ty fikop locwe.",
+        "english": "She had not cried on the white road."
+      },
+      {
+        "fiwo": "Peze das xygajid.",
+        "english": "Then she went on."
+      },
+      {
+        "fiwo": "Hirop rucemid das zy krulop vy wirano cape.",
+        "english": "The crack led her into the room of black glass."
+      },
+      {
+        "fiwo": "Das nes nojai luge facup otre.",
+        "english": "She could not see the other side."
+      },
+      {
+        "fiwo": "Litop lande dase xalid deky rokup bef ram amce retibid.",
+        "english": "Her small light went out into the dark and never came back."
+      },
+      {
+        "fiwo": "Zafoirop jilfeid bef ram capeid bef ram fyjebeid.",
+        "english": "The floor was smooth and black and warm."
+      },
+      {
+        "fiwo": "Ram xygajid jozem huhe.",
+        "english": "It went on a very long way."
+      },
+      {
+        "fiwo": "Cemur deky hupup majidyq.",
+        "english": "Something out in the middle was breathing."
+      },
+      {
+        "fiwo": "Ram tandeid huhe.",
+        "english": "It was very large."
+      },
+      {
+        "fiwo": "Das amce nojaid ram keane.",
+        "english": "She never saw the whole of it."
+      },
+      {
+        "fiwo": "Das nojaid tep hedcup joze rame xalid igy bime.",
+        "english": "She saw one long ridge of it move, once."
+      },
+      {
+        "fiwo": "Ram xalid piny huqap my nofar tep usiq bef sufi.",
+        "english": "It moved the way a shoulder moves when a sleeper turns over."
+      },
+      {
+        "fiwo": "Hedcup fose zavem jete taly sydop lozuxue.",
+        "english": "That ridge was higher than the singing house."
+      },
+      {
+        "fiwo": "Das karxid tep das ilpid bul das nes ebmerid ifeziup.",
+        "english": "She found that she was kneeling, but she did not remember deciding to."
+      },
+      {
+        "fiwo": "Gor nes zovid deky fiwop dase cagy cemup tep das paulid.",
+        "english": "There was no word in her language for what she felt."
+      },
+      {
+        "fiwo": "Das paulid truhup bul Kelvo truhui.",
+        "english": "She felt truhu; Kelvo was the one causing it."
+      },
+      {
+        "fiwo": "Das kurid bul kuriup nes kupid tep das cafid.",
+        "english": "She was afraid, but the fear was not asking her to run."
+      },
+      {
+        "fiwo": "Das cimid uropit.",
+        "english": "She began to sing."
+      },
+      {
+        "fiwo": "Ram kutgid.",
+        "english": "It worked."
+      },
+      {
+        "fiwo": "Fos cemup odazem jeme.",
+        "english": "That was the most surprising thing."
+      },
+      {
+        "fiwo": "Das caslar tep jedid jaru je bimet retet bef ibagid lozuxup zofy krapor.",
+        "english": "She was a girl of seventeen who had learned the Song through a wall."
+      },
+      {
+        "fiwo": "Xucup dase ufdid bul montop majid roasem jete.",
+        "english": "Her voice shook, but the mountain breathed more slowly."
+      },
+      {
+        "fiwo": "Das uropid hedcup usy bime bef hedcup usy dewe bef hupup zode.",
+        "english": "She sang the first part, and the second part, and the loud middle."
+      },
+      {
+        "fiwo": "Syn das joborid kluxeur can das sigid ram bef das guamid ram.",
+        "english": "Each time she came to a pause, she held it and counted it."
+      },
+      {
+        "fiwo": "Dromu kritridyk taqap dase wy zuwup labne.",
+        "english": "Dromu had taught her brother in exactly that way."
+      },
+      {
+        "fiwo": "Peze das joborid hirop.",
+        "english": "Then she came to the hole."
+      },
+      {
+        "fiwo": "Hedcup usy gloke sejid noky das piny zafoiror tep sejid.",
+        "english": "The fourth part ran out under her like a floor that stops."
+      },
+      {
+        "fiwo": "Das amce pywid ram.",
+        "english": "She had never heard it."
+      },
+      {
+        "fiwo": "Nofar amce uropid ram nizy krapop tep das nekid jany ram.",
+        "english": "Nobody had ever sung it in front of a wall she was sitting against."
+      },
+      {
+        "fiwo": "Das sejid.",
+        "english": "She stopped."
+      },
+      {
+        "fiwo": "Montop majid ruzem jete.",
+        "english": "The mountain breathed faster."
+      },
+      {
+        "fiwo": "Ram nes grorowid. Hyp fos gawem jete.",
+        "english": "It did not roar. That would have been better."
+      },
+      {
+        "fiwo": "Zafoirop cape noky pyha je dase xalid bejem huhe.",
+        "english": "The black floor under her knees moved very slightly."
+      },
+      {
+        "fiwo": "Syn nofar sudi fefup otre can degop xali piny fos.",
+        "english": "When someone leans on the other end, a table moves like that."
+      },
+      {
+        "fiwo": "Das erfid jukup my jormup dase.",
+        "english": "She understood the shape of what she was inside."
+      },
+      {
+        "fiwo": "Syn das kluxeis can montop rizis keane.",
+        "english": "If she kept silent, the mountain would come all the way up."
+      },
+      {
+        "fiwo": "Syn das uropis okse can das nes kani isamup.",
+        "english": "If she sang wrong, she did not know the result."
+      },
+      {
+        "fiwo": "Das nes seji luge bef das nes xygaji luge.",
+        "english": "She could not stop and she could not go on."
+      },
+      {
+        "fiwo": "Kof das cotidyk kuqsop.",
+        "english": "And she had already cut the bridge."
+      },
+      {
+        "fiwo": "Fos hupup my uibup.",
+        "english": "This was the exact middle of the risk."
+      },
+      {
+        "fiwo": "Fos ifuxup.",
+        "english": "This was ifuxu."
+      },
+      {
+        "fiwo": "Cimiup nailei bul sejiup muilei.",
+        "english": "Starting is easy, but stopping is difficult."
+      },
+      {
+        "fiwo": "Pen das uropid cemup kase.",
+        "english": "So she sang anything."
+      },
+      {
+        "fiwo": "Das uropid hedcu je dase bef das uropid ram je romve deky stirop okse.",
+        "english": "She sang the parts she had, and she sang them again in the wrong order."
+      },
+      {
+        "fiwo": "Das uropid lozuxup my gu tep manap dase zylidyk cagy usiup dase.",
+        "english": "She sang the counting song her mother had used for her sleep."
+      },
+      {
+        "fiwo": "Das uropid go je cagy zaqo sek bryklo sek dowo sek hoxo.",
+        "english": "She sang the words for salt, bread, wool, door."
+      },
+      {
+        "fiwo": "Das uropid hisup dase wible bef hisup taqae.",
+        "english": "She sang her own name and then her brother's name."
+      },
+      {
+        "fiwo": "Syn cemur nes idojid can das uropid pesu je gloke labne dury dionur joze.",
+        "english": "When nothing was left, she sang the same four notes over and over."
+      },
+      {
+        "fiwo": "Noja je dase beatid dury dionup keane.",
+        "english": "Her eyes were shut the whole time."
+      },
+      {
+        "fiwo": "Montop majid piny tequp rivahe. Ram nes roaseid bef ram nes ruzeid.",
+        "english": "The mountain breathed as before. It did not slow and it did not quicken."
+      },
+      {
+        "fiwo": "Das xyfid fos dury dur bef dugur.",
+        "english": "She did that for a day and a night."
+      },
+      {
+        "fiwo": "Das nes kani zuwup.",
+        "english": "She does not know how."
+      },
+      {
+        "fiwo": "Peze syn nofa je kupid das can das nes hadid wece.",
+        "english": "Afterwards, when people asked her, she never answered well."
+      },
+      {
+        "fiwo": "Rodleup nes wecei.",
+        "english": "The truth does not make a satisfactory answer."
+      },
+      {
+        "fiwo": "Das ixovid ram dury gomu late bef das nes sejid.",
+        "english": "She simply took it, hour after hour, and did not stop."
+      },
+      {
+        "fiwo": "Das cetofid tosurup.",
+        "english": "What she showed was tosuru: hardship taken up on purpose and carried."
+      },
+      {
+        "fiwo": "Dury dugup usy dewe das iweid huhe pen das sigid kluxeur jozem slafe.",
+        "english": "In the second night she was exhausted, and so she held a pause too long."
+      },
+      {
+        "fiwo": "Cemur plid fy rokup.",
+        "english": "Something came back out of the dark."
+      },
+      {
+        "fiwo": "Bip das pozid tep xucup dase wible retibid fy krapop otre.",
+        "english": "Her first thought was that it was her own voice returning off the far wall."
+      },
+      {
+        "fiwo": "Syn das jedid jaru je exke can das pywidyk fos deky hirop dupe.",
+        "english": "She had heard that in the gorge when she was a few years old."
+      },
+      {
+        "fiwo": "Pen das bakid ram piny cadar.",
+        "english": "So she tested it the way a child tests it."
+      },
+      {
+        "fiwo": "Das uropid gor.",
+        "english": "She sang a word."
+      },
+      {
+        "fiwo": "Cemup tep plid nes gop fose.",
+        "english": "What came back was not that word."
+      },
+      {
+        "fiwo": "Das nekid ty wiranop cape.",
+        "english": "She sat down on the black glass."
+      },
+      {
+        "fiwo": "Das uropid pesu je tafe tep rizid.",
+        "english": "She sang three notes rising."
+      },
+      {
+        "fiwo": "Cemup tep plid pesu je tafe tep sowid.",
+        "english": "What came back was three notes falling."
+      },
+      {
+        "fiwo": "Ram nes luplelur.",
+        "english": "It was not an echo."
+      },
+      {
+        "fiwo": "Montop hadid das.",
+        "english": "The mountain answered her."
+      },
+      {
+        "fiwo": "Syn suk umzi nofar can dal hadi piny fos.",
+        "english": "A person answers like that when you greet them."
+      },
+      {
+        "fiwo": "Dury tequp fose Nyra erfid kluxeu je.",
+        "english": "In that moment Nyra understood the pauses."
+      },
+      {
+        "fiwo": "Kluxeu je nes zovid cagy uropiap.",
+        "english": "The pauses were never for the Singer."
+      },
+      {
+        "fiwo": "Ram je zovid cagy montop.",
+        "english": "They were for the mountain."
+      },
+      {
+        "fiwo": "Ram je rerpo je my hedcup ulime otre.",
+        "english": "They were the places where the other half of it went."
+      },
+      {
+        "fiwo": "Lozuxup nes xucur itse tep linid tep montop usid.",
+        "english": "The Song was not one voice putting a mountain to sleep."
+      },
+      {
+        "fiwo": "Ram facup bime my nyhogor joze zory nofa dewe.",
+        "english": "It was one side of a long sentence between two people."
+      },
+      {
+        "fiwo": "Dury jaru egmabe fap uropia je kritridyk tep uropi zofy kluxeu je.",
+        "english": "For a thousand years the Singers had been taught to sing straight through the pauses."
+      },
+      {
+        "fiwo": "Dromu gesid hyme tep Kop sigi ram. Kop guami ram. Kop nes pywi deky ram. Kop guami.",
+        "english": "Dromu always said: \"Hold it. Count it. Do not listen into it. Count.\""
+      },
+      {
+        "fiwo": "Sevla amce linid tep montop usid.",
+        "english": "Sevla had never put the mountain to sleep."
+      },
+      {
+        "fiwo": "Sevla gesidyk tody dal dury jaru egmabe.",
+        "english": "Sevla had been talking over him for a thousand years."
+      },
+      {
+        "fiwo": "Nyra sejid uropit.",
+        "english": "Nyra stopped singing."
+      },
+      {
+        "fiwo": "Das swamid fuka je dase wapse ty zafoirop fyjebe.",
+        "english": "She put her hands flat on the warm black floor."
+      },
+      {
+        "fiwo": "Das xyfid cemup tep uropiar amce xyfid dury jaru egmabe.",
+        "english": "She did the thing no Singer had done in a thousand years."
+      },
+      {
+        "fiwo": "Epiwup fose nes kocid viceur bul ram muileid jete taly fikop locwe.",
+        "english": "That act needed no courage, and so it was harder than the white road."
+      },
+      {
+        "fiwo": "Das rerbid bef das wastid bef das dogid tep cemup linucid.",
+        "english": "She stayed still, and she waited, and she let it happen."
+      },
+      {
+        "fiwo": "Das laekid pagukup.",
+        "english": "She chose paguku — the deliberate refusal to interfere."
+      },
+      {
+        "fiwo": "Kluxeup xygajid jozem huhe pen das cimid ufdit.",
+        "english": "The silence went on so long that she began to shake."
+      },
+      {
+        "fiwo": "Peze rokup gesid bokem fe roasem fe.",
+        "english": "Then the dark spoke, badly and slowly."
+      },
+      {
+        "fiwo": "Ram gesid piny ylxar tep nes sapidyk jukup fose.",
+        "english": "It spoke like a mouth that had never made that shape before."
+      },
+      {
+        "fiwo": "Ram gesid tep Talvo.",
+        "english": "It said: \"Talvo.\""
+      }
+    ]
+  },
+  {
+    "title": "I. Fap odcanop xunid (The Rope That Burned)",
+    "wordCount": 980,
+    "lines": [
+      {
+        "fiwo": "Cysmor lande gugid ty drekop wapse.",
+        "english": "A small village stood on flat rock."
+      },
+      {
+        "fiwo": "Hisup rame Sevla.",
+        "english": "Its name is Sevla."
+      },
+      {
+        "fiwo": "Montop tande gugid tody ram.",
+        "english": "A great mountain stood above it."
+      },
+      {
+        "fiwo": "Hisup rame Kelvo.",
+        "english": "Its name is Kelvo."
+      },
+      {
+        "fiwo": "Hirop dupem huhe zovid zory ram je.",
+        "english": "An extremely deep hole lay between them."
+      },
+      {
+        "fiwo": "Syn nofar xerid drekor deky hirop can dal nes pywid pesur.",
+        "english": "If someone threw a stone into the hole, they heard no sound."
+      },
+      {
+        "fiwo": "Kuqsop itse vy odcano zovid tody hirop.",
+        "english": "One rope bridge lay across the hole."
+      },
+      {
+        "fiwo": "Ram zovidyk poco dury jaru egmabe.",
+        "english": "It had been there for a thousand years."
+      },
+      {
+        "fiwo": "Syn jawop sowid fecy drekop usy tafe can Kelvo rizid fy usiup.",
+        "english": "When the ice came down as far as the third stone, Kelvo rose out of sleep."
+      },
+      {
+        "fiwo": "Pen cysmop ombid uropiap rame zy montop.",
+        "english": "So the village sent up its Singer."
+      },
+      {
+        "fiwo": "Uropiap xalatid kuqsop bef daq drijid fikop locwe.",
+        "english": "The Singer crossed the bridge and climbed the white road."
+      },
+      {
+        "fiwo": "Daq enrid deky montop bef daq uropid lozuxup joze deky krulop vy wirano cape.",
+        "english": "He went into the mountain and sang the Long Song in the room of black glass."
+      },
+      {
+        "fiwo": "Kelvo usid romve.",
+        "english": "Kelvo slept again."
+      },
+      {
+        "fiwo": "Tusup retibid zy montop bef Sevla cenid dury jaru je jete.",
+        "english": "The winter went back up the mountain and Sevla lived more years."
+      },
+      {
+        "fiwo": "Fap lozuxup amce jamid.",
+        "english": "The Song was never written."
+      },
+      {
+        "fiwo": "Ram xalid fy ylxar zy ylxar.",
+        "english": "It passed from one mouth to one mouth."
+      },
+      {
+        "fiwo": "Uropiap juwe ibagid bife ram.",
+        "english": "Only the Singer was allowed to learn it."
+      },
+      {
+        "fiwo": "Dromu uropiap waske.",
+        "english": "Dromu was the old Singer."
+      },
+      {
+        "fiwo": "Daq kritrid Talvo deky sydop lozuxue.",
+        "english": "He taught Talvo inside the singing house."
+      },
+      {
+        "fiwo": "Daq stomid gop bime dury du bime.",
+        "english": "He gave one word in one day."
+      },
+      {
+        "fiwo": "Fap hoxop beatid ovce.",
+        "english": "The door was always shut."
+      },
+      {
+        "fiwo": "Nyra morid baxy hoxop fose.",
+        "english": "Nyra grew up on the other side of that door."
+      },
+      {
+        "fiwo": "Syn das jedid jaru je rete can das nekid jany krapop dury dionup usy bime.",
+        "english": "She was seven years old when she first sat against that wall."
+      },
+      {
+        "fiwo": "Das nes pywid bife bul das pywid haibe.",
+        "english": "She was not allowed to listen, but she listened anyway."
+      },
+      {
+        "fiwo": "Dury jaru je lere das ibagid hedcup bime ap tafe jy lozuxup.",
+        "english": "In ten years she gathered one third of the Song."
+      },
+      {
+        "fiwo": "Das ibagid hedcu je zode.",
+        "english": "She gathered the loud parts."
+      },
+      {
+        "fiwo": "Das ibagid hedcu je tep taqap dase uropid boke bef daq uropid romve.",
+        "english": "She gathered the parts that her brother sang badly and had to sing again."
+      },
+      {
+        "fiwo": "Kof das ibagid kluxeu je.",
+        "english": "And she gathered the silences."
+      },
+      {
+        "fiwo": "Fos cemup gyke.",
+        "english": "That was the strange thing."
+      },
+      {
+        "fiwo": "Zory hedcu je Dromu linid tep Talvo sigid kluxeur joze.",
+        "english": "Between the parts, Dromu made Talvo hold a long silence."
+      },
+      {
+        "fiwo": "Daq linid tep Talvo guamid ram bef Talvo nes tumid ram.",
+        "english": "He made Talvo count it and never shorten it."
+      },
+      {
+        "fiwo": "Nyra pozid tep uropiap majid dury kluxeu je.",
+        "english": "Nyra thought the singer was breathing during the silences."
+      },
+      {
+        "fiwo": "Talvo pozid labne.",
+        "english": "Talvo thought the same."
+      },
+      {
+        "fiwo": "Dromu amce eksaplid kluxeu je.",
+        "english": "Dromu never explained the silences."
+      },
+      {
+        "fiwo": "Daq gesid juwe tep Kop guami. Kop nes pywi deky ram. Kop guami.",
+        "english": "He only said: \"Count. Do not listen into it. Count.\""
+      },
+      {
+        "fiwo": "Dury zosup my jarup usy bimet retet daxokop enrid deky azo je my zaqo.",
+        "english": "In the autumn of her seventeenth year, frost came into the salt bowls."
+      },
+      {
+        "fiwo": "Ram plid jaru je tafe amute.",
+        "english": "It came three years early."
+      },
+      {
+        "fiwo": "Fap cuspop ty drekop zave xunid pary dionup rame.",
+        "english": "The beacon on the high stone was lit before its time."
+      },
+      {
+        "fiwo": "Jawop sowid dury du je zewe bef ram haxanid drekop usy tafe.",
+        "english": "The ice came down in nine days and reached the third stone."
+      },
+      {
+        "fiwo": "Noky zafoirop my sydo late drekop sapid pesur veke.",
+        "english": "Under the floor of every house the rock made a low sound."
+      },
+      {
+        "fiwo": "Ram pesuid piny mifar tandem huhe tep sufid ky zufop rame.",
+        "english": "It sounded like a very large animal turning over in its bed."
+      },
+      {
+        "fiwo": "Talvo jedid jaru je dewet gloket.",
+        "english": "Talvo was twenty-four years old."
+      },
+      {
+        "fiwo": "Daq jedid hedcu je gloke jy lozuxup bul hedcu je raje zovid.",
+        "english": "He had four parts of the Song, but there were five parts."
+      },
+      {
+        "fiwo": "Fap hedcup usy raje kritris dury vofup.",
+        "english": "The fifth part was to be taught in the spring."
+      },
+      {
+        "fiwo": "Cysmop late enrid deky sydop lozuxue.",
+        "english": "The whole village came into the singing house."
+      },
+      {
+        "fiwo": "Dromu gesid cemup tep nofa je late kanidyk.",
+        "english": "Dromu said the thing that everyone already knew."
+      },
+      {
+        "fiwo": "Montop rizid amute.",
+        "english": "The mountain had woken early."
+      },
+      {
+        "fiwo": "Lozuxup nes keanei deky uropiap.",
+        "english": "The Song was not whole inside the Singer."
+      },
+      {
+        "fiwo": "Kep lozuxup ulime bokei jete taly kluxeup.",
+        "english": "It is a fact that half a Song is worse than silence."
+      },
+      {
+        "fiwo": "Can Dromu kupid Talvo nizy nofa je late.",
+        "english": "Then Dromu asked Talvo in front of everyone."
+      },
+      {
+        "fiwo": "Daq kupid tep Kup suk jedi lozuxup keane?",
+        "english": "He asked, \"Do you have the whole Song?\""
+      },
+      {
+        "fiwo": "Nyra nojapid zipap taqae.",
+        "english": "Nyra watched her brother's face."
+      },
+      {
+        "fiwo": "Das nojaid tep daq ivatid cemu dewe.",
+        "english": "She saw him weigh two things."
+      },
+      {
+        "fiwo": "Ky facup bime rodleup zovid.",
+        "english": "On the one side was the truth."
+      },
+      {
+        "fiwo": "Ky facup otre folkunup daqe zovid.",
+        "english": "On the other side was his standing before the room."
+      },
+      {
+        "fiwo": "Talvo gesid tep Mik jedi ram keane.",
+        "english": "Talvo said, \"I have all of it.\""
+      },
+      {
+        "fiwo": "Daq gesid okezur bef Nyra kanid ram.",
+        "english": "He was lying, and Nyra knew it."
+      },
+      {
+        "fiwo": "Okezup daqe wuflur.",
+        "english": "His lie was a wuflu — a self-deception, told first of all to himself."
+      },
+      {
+        "fiwo": "Vax das nes gesid cemur.",
+        "english": "However, she said nothing."
+      },
+      {
+        "fiwo": "Das jedid jaru je bimet retet.",
+        "english": "She was seventeen."
+      },
+      {
+        "fiwo": "Kof caslar tep efmid lozuxup zofy krapop tel nes gugi luge nizy uropiap.",
+        "english": "And a girl who had stolen the Song through a wall cannot stand up in front of the Singer."
+      },
+      {
+        "fiwo": "Pen das dogid tep daq tsid.",
+        "english": "So she let him go."
+      },
+      {
+        "fiwo": "Fos cemup tep das nyrsis xageje.",
+        "english": "That is the thing she would carry forever."
+      },
+      {
+        "fiwo": "Das nes nyrsis okezup daqe. Das nyrsis epiwup dase.",
+        "english": "She would not carry his lie. She would carry her own act."
+      },
+      {
+        "fiwo": "Daq xalatid kuqsop dury cihup.",
+        "english": "He crossed the bridge in the morning."
+      },
+      {
+        "fiwo": "Manap dalem swamid kezop ty belimo je daqe.",
+        "english": "Their mother had put oil on his boots."
+      },
+      {
+        "fiwo": "Cysmop late gugid ty drekop bef nofa je nojapid daq.",
+        "english": "The whole village stood on the rock and watched him."
+      },
+      {
+        "fiwo": "Daq landeid ty fikop locwe bef can daq nes zovid poco.",
+        "english": "He became small on the white road, and then he was not there."
+      },
+      {
+        "fiwo": "Dugup usy bime kluxeid. Dugup usy dewe kluxeid.",
+        "english": "The first night was quiet. The second night was quiet."
+      },
+      {
+        "fiwo": "Dury dugup usy tafe montop sapid pesur.",
+        "english": "On the third night the mountain made a sound."
+      },
+      {
+        "fiwo": "Ram nes pesup veke.",
+        "english": "It was not the low sound."
+      },
+      {
+        "fiwo": "Ram xygajid dury dionur joze bef ram sejid.",
+        "english": "It went on for a long time and it stopped."
+      },
+      {
+        "fiwo": "Foly kluxeur ram cimid romve.",
+        "english": "After a silence it began again."
+      },
+      {
+        "fiwo": "Nyra gugid ty drekop jabe wy nofa je late.",
+        "english": "Nyra stood on the cold rock with everyone."
+      },
+      {
+        "fiwo": "Das erfid cemur tep nofa je otre nes pywid.",
+        "english": "She understood something that the others did not hear."
+      },
+      {
+        "fiwo": "Pesup jedid jukur.",
+        "english": "The sound had a shape."
+      },
+      {
+        "fiwo": "Ram jedid cimiur bef ram jedid fefur.",
+        "english": "It had a beginning and it had an end."
+      },
+      {
+        "fiwo": "Ram sejid ky rerpop tep cemup keanei bul ram nes sejid ky rerpop tep cemup nufei.",
+        "english": "It stopped where a thing is complete, not where a thing runs empty."
+      },
+      {
+        "fiwo": "Das gesid fos zode.",
+        "english": "She said this out loud."
+      },
+      {
+        "fiwo": "Nosanar waske kopid tep Kop kluxei.",
+        "english": "An old woman told her to be quiet."
+      },
+      {
+        "fiwo": "Dromu upycid das dury tequr joze bef daq upycid rerpor otre.",
+        "english": "Dromu looked at her for a long moment and then looked away."
+      },
+      {
+        "fiwo": "Nyra pozid zety Dromu dury jaru je jedle.",
+        "english": "Nyra thought about that look for many years."
+      },
+      {
+        "fiwo": "Talvo nes retibid dury dup usy gloke ron dup usy raje ron dup usy zewe.",
+        "english": "Talvo did not come back on the fourth day, the fifth, or the ninth."
+      },
+      {
+        "fiwo": "Dury dup usy lere jadorop cimid bef ram amce sejid.",
+        "english": "On the tenth day the snow began and it never stopped."
+      },
+      {
+        "fiwo": "Fecy fefup my rugoxup ram gugid piny topzar zave jany krapo je ivanue.",
+        "english": "By the end of the month it stood chest-high against the north walls."
+      },
+      {
+        "fiwo": "Lebla je tafe kimugid.",
+        "english": "Three goats died."
+      },
+      {
+        "fiwo": "Fikop zy worup veke haibe zovid bul fap ram beatis strene.",
+        "english": "The road to the low country was still open, but it would close soon."
+      },
+      {
+        "fiwo": "Dromu baqid cysmop late bef daq gesid rodleup.",
+        "english": "Dromu called the whole village and told the truth."
+      },
+      {
+        "fiwo": "Uropiar dewe nes zovid.",
+        "english": "There is no second Singer."
+      },
+      {
+        "fiwo": "Lozuxup drijid montop deky Talvo bef ram nes sowid romve.",
+        "english": "The Song climbed the mountain inside Talvo and it did not come down again."
+      },
+      {
+        "fiwo": "Sevla stelis cemup tep nofa je nyrsi luge bef Sevla xalis zy worup veke.",
+        "english": "Sevla would take what it could carry and go to the low country."
+      },
+      {
+        "fiwo": "Nofa je cenis poco piny nofa je tep jedidyk montor.",
+        "english": "They would live there as people who used to have a mountain."
+      },
+      {
+        "fiwo": "Nofar nes cukid.",
+        "english": "Nobody argued."
+      },
+      {
+        "fiwo": "Fos hedcup bokem jeme.",
+        "english": "That was the worst part."
+      },
+      {
+        "fiwo": "Nofa je cukidyk zety lebla je bef krapo je bef jahiziu je dury jaru egmabe.",
+        "english": "They had argued about goats and walls and marriages for a thousand years."
+      },
+      {
+        "fiwo": "Nofa je dzefid fefup my cemu late nu.",
+        "english": "Now they agreed to the end of everything."
+      },
+      {
+        "fiwo": "Osybup enrid deky Sevla.",
+        "english": "Osybu — helpless resignation — had come into Sevla."
+      },
+      {
+        "fiwo": "Nyra nojapid nauxa je dase bef zipap late dzefid piny nofar tep dzefi vexup.",
+        "english": "Nyra watched her neighbours, and every face agreed the way a person agrees to weather."
+      },
+      {
+        "fiwo": "Das gesid tep Mik jedi hedcur jy ram.",
+        "english": "She said, \"I have a part of it.\""
+      },
+      {
+        "fiwo": "Krulop kluxeid.",
+        "english": "The room went quiet."
+      },
+      {
+        "fiwo": "Das nes jedid ram keane bul das jedid hedcu je zode bef hedcu je romve.",
+        "english": "She did not have all of it, but she had the loud parts and the repeated parts."
+      },
+      {
+        "fiwo": "Dromu nes akdid.",
+        "english": "Dromu did not shout."
+      },
+      {
+        "fiwo": "Daq gesid vyhem huhe bef fos bokem jete.",
+        "english": "He spoke very softly, and that was worse."
+      },
+      {
+        "fiwo": "Daq gesid tep hedcup jy lozuxup nes lozuxur lande.",
+        "english": "He said that a part of the Song is not a small Song."
+      },
+      {
+        "fiwo": "Ram lozuxur okse.",
+        "english": "It is a wrong Song."
+      },
+      {
+        "fiwo": "Syn lozuxup keane usi luge montop can lozuxup ulime rizi luge ram.",
+        "english": "If a whole Song can put the mountain to sleep, a half Song can wake it."
+      },
+      {
+        "fiwo": "Daq gesid tep taqap dase cetofidyk fos.",
+        "english": "He said her brother had already shown that."
+      },
+      {
+        "fiwo": "Can daq kopid tep nofar amce xalati kuqsop bef daq swamid noqsa dewe ty ram.",
+        "english": "Then he ordered that nobody cross the bridge, and he put two men on it."
+      },
+      {
+        "fiwo": "Das wastid du je gloke.",
+        "english": "She waited four days."
+      },
+      {
+        "fiwo": "Das dogid tep nofa je nojai dase tep stelid cemu je cagy worup veke.",
+        "english": "She let them see her packing for the low country."
+      },
+      {
+        "fiwo": "Manap dase zemid azo je my zaqo wy dowo bef Nyra jofid das.",
+        "english": "She helped her mother wrap the salt bowls in wool."
+      },
+      {
+        "fiwo": "Dury dugup usy raje pary litop Nyra hicid ty kuqsop wy kinor bef savodor ripe.",
+        "english": "On the fifth night, before the light, Nyra walked onto the bridge with a knife and a hot coal."
+      },
+      {
+        "fiwo": "Das xalatid ram bef das cotid odcano je ky facup otre.",
+        "english": "She crossed it and cut the ropes on the far side."
+      },
+      {
+        "fiwo": "Can das swamid fuegop deky ram je.",
+        "english": "Then she put the fire into them."
+      },
+      {
+        "fiwo": "Das pozidyk tep epiwup muilei.",
+        "english": "She had thought the act would be difficult."
+      },
+      {
+        "fiwo": "Ram nes muileid.",
+        "english": "It was not difficult."
+      },
+      {
+        "fiwo": "Odcanop waske stelid fuegop piny keglar wuke.",
+        "english": "The old rope took the flame the way dry grass takes it."
+      },
+      {
+        "fiwo": "Kuqsop sowid deky hirop piny stiror lito bef nofar amce pywid pesup rame.",
+        "english": "The bridge fell into the hole like a line of light, and its sound never came up."
+      },
+      {
+        "fiwo": "Epiwup dase labukup.",
+        "english": "What she had done was labuku: the destroying of one's own way back."
+      },
+      {
+        "fiwo": "Das gugid ky rokup ty facup montoe.",
+        "english": "She stood in the dark on the mountain side."
+      },
+      {
+        "fiwo": "Nofar nes nyrsi luge das zy Sevla nu.",
+        "english": "Now nobody could carry her back to her house."
+      },
+      {
+        "fiwo": "Kof cemur nes zovi baxy das cagy kuriup dase.",
+        "english": "And there was nothing behind her for her fear to go to."
+      },
+      {
+        "fiwo": "Das kutgis uropiar rot das kutgis soxar ty fikop locwe.",
+        "english": "She would become a Singer, or she would become a body on the white road."
+      },
+      {
+        "fiwo": "Cemur otre nes zovi zory ram je.",
+        "english": "Nothing else exists between those two."
+      },
+      {
+        "fiwo": "Das sufid bef das cimid drijit.",
+        "english": "She turned and began to climb."
+      }
+    ]
+  },
+  {
+    "title": "III. Kluxeup (The Silence)",
+    "wordCount": 1107,
+    "lines": [
+      {
+        "fiwo": "Kelvo owadid dugup keane ty gop usy dewe.",
+        "english": "Kelvo spent a whole night on the second word."
+      },
+      {
+        "fiwo": "Kelvo gesid tep Kop pli dupem jete.",
+        "english": "Kelvo said: \"Come deeper.\""
+      },
+      {
+        "fiwo": "Nyra xalid dupem jete.",
+        "english": "Nyra went deeper."
+      },
+      {
+        "fiwo": "Baxy krulop vy wirano cape zafoirop sowid bef fyjebeup tandeid.",
+        "english": "Past the room of black glass the floor sloped and the warmth grew."
+      },
+      {
+        "fiwo": "Deky levidzor lande ky fefup Nyra karxid taqap dase pilke.",
+        "english": "In a small hollow at the end of it, Nyra found her brother alive."
+      },
+      {
+        "fiwo": "Daq rerbidyk poco dury du je bimet bimet.",
+        "english": "He had been there eleven days."
+      },
+      {
+        "fiwo": "Daq nes nomid dury du je sluqe.",
+        "english": "He had eaten nothing for six days."
+      },
+      {
+        "fiwo": "Daq rerbid jany drekop fyjebe piny nofar jany epmop.",
+        "english": "He lay against the warm stone the way a man lies against an oven."
+      },
+      {
+        "fiwo": "Syn litop dase joborid daq can daq nes zemid noja je daqe.",
+        "english": "When her light reached him, he did not shield his eyes."
+      },
+      {
+        "fiwo": "Das kurid fos jete taly cemu late deky montop.",
+        "english": "She feared that more than anything else in the mountain."
+      },
+      {
+        "fiwo": "Daq ebzikid das. Fos cemur.",
+        "english": "He knew her. That was something."
+      },
+      {
+        "fiwo": "Daq gesid tep Mik uropid ram keane.",
+        "english": "He said: \"I sang all of it.\""
+      },
+      {
+        "fiwo": "Daq gesid tep Mik sapid hedcup usy raje wible. Mik sapid ram fy hedcu je mike. Ram gawe. Jo Nyra. Ram gawe.",
+        "english": "He said: \"I made the fifth part myself. I made it out of the parts I had. It was good. Nyra, it was good.\""
+      },
+      {
+        "fiwo": "Das hadid tep Mik kani.",
+        "english": "She answered: \"I know.\""
+      },
+      {
+        "fiwo": "Daq hatzid bef fos bokem huhe.",
+        "english": "He laughed, and that was terrible."
+      },
+      {
+        "fiwo": "Daq gesid tep Ram nes usid. Ram rizid.",
+        "english": "He said: \"It did not sleep. It sat up.\""
+      },
+      {
+        "fiwo": "Das stomid dorsop bef bryklop ulime zy daq.",
+        "english": "She gave him water and half of the bread."
+      },
+      {
+        "fiwo": "Nyra fenutid daq cemup tep das ibagidyk deky rokup vel daq rolid.",
+        "english": "While he drank, Nyra told him what she had learned in the dark."
+      },
+      {
+        "fiwo": "Das nojapid tep noqsar karxid rodleup.",
+        "english": "She watched a man find out the truth."
+      },
+      {
+        "fiwo": "Ceniup keane daqe hedcup ulime jy nyhogor.",
+        "english": "His whole life was one half of a sentence."
+      },
+      {
+        "fiwo": "Fap daq stomid zy lozuxup dury jarup usy gloke daqe.",
+        "english": "He had been given to the Song in his fourth year."
+      },
+      {
+        "fiwo": "Daq owadid jaru je dewet nozet ty lozuxup.",
+        "english": "He had spent twenty years on it."
+      },
+      {
+        "fiwo": "Daq gesid okezur nizy cysmop late kad daq nes fabid kutgit uropiar tep nes kanid lozuxup.",
+        "english": "He lied in front of the whole village rather than become the Singer who did not know the Song."
+      },
+      {
+        "fiwo": "Bul cufup nes zovid poco.",
+        "english": "But the purpose had never been there."
+      },
+      {
+        "fiwo": "Daq kluxeid dury tequr. Peze daq gesid tep Kluxeu je.",
+        "english": "He was quiet a while. Then he said: \"The pauses.\""
+      },
+      {
+        "fiwo": "Nyra hadid tep Jas.",
+        "english": "Nyra answered: \"Yes.\""
+      },
+      {
+        "fiwo": "Daq gesid tep Mik guamid ram je. Mik guamid ram je dury jaru je dewet nozet.",
+        "english": "He said: \"I counted them. For twenty years I counted them.\""
+      },
+      {
+        "fiwo": "Peze daq irakid.",
+        "english": "Then he cried."
+      },
+      {
+        "fiwo": "Nyra sigid meotap taqae jany huqap dase deky levidzor fyjebe my montor pilke.",
+        "english": "Nyra held her brother's head against her shoulder in a warm cave inside a living mountain."
+      },
+      {
+        "fiwo": "Tody ram je tusup xygajid sowit.",
+        "english": "Above them the winter went on coming down."
+      },
+      {
+        "fiwo": "Nofa dewe rerbid dury du je zewe.",
+        "english": "The two of them stayed nine days."
+      },
+      {
+        "fiwo": "Bip nofa dewe rerbid kad Talvo nes hici luge.",
+        "english": "Firstly they stayed because Talvo could not walk."
+      },
+      {
+        "fiwo": "Peze nofa dewe rerbid kad cemur linucid deky kluxeu je.",
+        "english": "Then they stayed because of what happened in the pauses."
+      },
+      {
+        "fiwo": "Kelvo gesid roasem fe.",
+        "english": "Kelvo spoke very slowly."
+      },
+      {
+        "fiwo": "Nofa je uropidyk zy Kelvo dury jaru egmabe bul nofar amce hadid dal.",
+        "english": "People had sung at Kelvo for a thousand years, but nobody had ever answered him."
+      },
+      {
+        "fiwo": "Fiwop dale waskeid bef ram gykeid.",
+        "english": "The language he reached for was old and strange."
+      },
+      {
+        "fiwo": "Go je lande nes zovid deky ram.",
+        "english": "There were no small words in it."
+      },
+      {
+        "fiwo": "Vax Nyra erfid jukup my go je dale.",
+        "english": "However, Nyra understood the shape of his words."
+      },
+      {
+        "fiwo": "Ram je plid deky stirop sile dury du je zewe deky rokup.",
+        "english": "They came in this order, over nine days, in the dark."
+      },
+      {
+        "fiwo": "Jabeup pli fy rerpop beqy ivanup.",
+        "english": "The cold comes from the place beyond the north."
+      },
+      {
+        "fiwo": "Ram plid ovce.",
+        "english": "It has always come."
+      },
+      {
+        "fiwo": "Kelvo gugi nizy ram bef dal sigi ram.",
+        "english": "Kelvo stands in front of it and holds it."
+      },
+      {
+        "fiwo": "Dal sigidyk ram pary cimiup my Sevla.",
+        "english": "He has held it since before the beginning of Sevla."
+      },
+      {
+        "fiwo": "Kelvo xyfi cemup bime juwe. Dal sigi.",
+        "english": "Kelvo does only one thing. He holds."
+      },
+      {
+        "fiwo": "Kelvo iwei.",
+        "english": "Kelvo is tired."
+      },
+      {
+        "fiwo": "Kelvo amce kupid tep dal sejis.",
+        "english": "Kelvo never asked to stop."
+      },
+      {
+        "fiwo": "Dal kupid cemur otre deky kluxeu je dury jaru egmabe.",
+        "english": "He asked for something else, in the pauses, for a thousand years."
+      },
+      {
+        "fiwo": "Dal kupid uropia late tep Sevla ombidyk zy montop.",
+        "english": "He asked it of every Singer that Sevla ever sent up."
+      },
+      {
+        "fiwo": "Uropia late guamid zofy kluxeup bef dal je retibid zy sydo je dalem je.",
+        "english": "Every one of them counted through the silence and went home."
+      },
+      {
+        "fiwo": "Kof Sevla stomid taicur zy dal je.",
+        "english": "And Sevla gave them a feast."
+      },
+      {
+        "fiwo": "Kelvo kupid hisur juwe.",
+        "english": "Kelvo was asking only for a name."
+      },
+      {
+        "fiwo": "Nyra nes erfid ram dury dionup usy bime.",
+        "english": "Nyra did not understand it at first."
+      },
+      {
+        "fiwo": "Das pozid tep ram cemur lande.",
+        "english": "She thought it was a small thing."
+      },
+      {
+        "fiwo": "Peze das paulid ofxup zety poziup dase.",
+        "english": "Later she felt shame about that thought."
+      },
+      {
+        "fiwo": "Ram nes cemur lande.",
+        "english": "It was not a small thing."
+      },
+      {
+        "fiwo": "Sevla jedid gor cagy montop.",
+        "english": "Sevla had a word for the mountain."
+      },
+      {
+        "fiwo": "Gop fose Kelvo.",
+        "english": "The word was Kelvo."
+      },
+      {
+        "fiwo": "Kelvo hisup my rerpor.",
+        "english": "Kelvo is the name of a place."
+      },
+      {
+        "fiwo": "Tofakror jedi hisur wy zuwup labne.",
+        "english": "A field has a name in exactly that way."
+      },
+      {
+        "fiwo": "Deky ikup late lan lozuxup late montop ram.",
+        "english": "In all the law and in all the Song, the mountain was an it."
+      },
+      {
+        "fiwo": "Nofar amce pozid zety fos.",
+        "english": "Nobody had ever thought about that."
+      },
+      {
+        "fiwo": "Ram azikup my fiwop tep cysmop dubizid deky ram.",
+        "english": "It was the grammar the village was born into."
+      },
+      {
+        "fiwo": "Fos mecubup my Sevla.",
+        "english": "That was Sevla's mecubu: a small experience mistaken for the whole world."
+      },
+      {
+        "fiwo": "Azikup fose okseid dury jaru egmabe.",
+        "english": "That grammar had been wrong for a thousand years."
+      },
+      {
+        "fiwo": "Ram nekid deky rokup bef ram okseid zy cemur tep pywi luge ram.",
+        "english": "It sat in the dark being wrong at something that could hear it."
+      },
+      {
+        "fiwo": "Talvo gesid ram usy bime deky levidzop fyjebe dury dup usy zewe wy xucur waze.",
+        "english": "Talvo said it first, in the warm hollow, on the ninth day, in a wrecked voice."
+      },
+      {
+        "fiwo": "Daq gesid tep Montop nes ram.",
+        "english": "He said: \"The mountain is not an it.\""
+      },
+      {
+        "fiwo": "Nofa dewe sowid zofy hirop kad kuqsor nes zovid.",
+        "english": "They came down through the crack, because there was no bridge."
+      },
+      {
+        "fiwo": "Kinop ry Talvo ruxigid hirop tep rucemid Nyra zy montop.",
+        "english": "Talvo's knife had pointed at the crack that led Nyra into the mountain."
+      },
+      {
+        "fiwo": "Hirop labne rucemid nofa dewe zy Sevla.",
+        "english": "The same crack led them both back to Sevla."
+      },
+      {
+        "fiwo": "Nyra pozid zety fos dury jaru je jedle.",
+        "english": "Nyra thought about that for many years."
+      },
+      {
+        "fiwo": "Das atiluid tep wokutup linid tep saqa dewe karxid wable.",
+        "english": "She came to believe that wokutu had made the two of them find each other."
+      },
+      {
+        "fiwo": "Sevla haibe zovid.",
+        "english": "Sevla was still there."
+      },
+      {
+        "fiwo": "Fap fikop zy worup veke beatidyk dury du je marte rivahe.",
+        "english": "The road to the low country had closed eight days before."
+      },
+      {
+        "fiwo": "Cysmop dzefidyk tep dal je tsis bul dal je nes tsid.",
+        "english": "The village had agreed to leave, but they had not left."
+      },
+      {
+        "fiwo": "Jadorop haxanid rago je ty facup ivanue.",
+        "english": "The snow stood as high as the roofs on the north side."
+      },
+      {
+        "fiwo": "Nofa je bimet bimet waske bef cada dewe kimugid dury rugoxup.",
+        "english": "Eleven of the old and two of the very young had died in the month."
+      },
+      {
+        "fiwo": "Syn Nyra lan Talvo enrid fy jadorop locwe can nofar nes akdid.",
+        "english": "When Nyra and Talvo walked in out of the white, nobody screamed."
+      },
+      {
+        "fiwo": "Nofa je iweid huhe.",
+        "english": "They were too tired."
+      },
+      {
+        "fiwo": "Manap dalem nekid ty zasop.",
+        "english": "Their mother sat down on the ground."
+      },
+      {
+        "fiwo": "Dromu gefrid peze nofa je late.",
+        "english": "Dromu came out last."
+      },
+      {
+        "fiwo": "Daq upycid Talvo dury dionur joze.",
+        "english": "He looked at Talvo for a long time."
+      },
+      {
+        "fiwo": "Peze daq gesid kluxem fe tep Ram hadid suk.",
+        "english": "Then he said, quietly: \"It answered you.\""
+      },
+      {
+        "fiwo": "Nyra gesid tep Suk kanidyk.",
+        "english": "Nyra said: \"You knew.\""
+      },
+      {
+        "fiwo": "Dromu hadid tep Ibalirap my ibalirap mike sowid fy montop fose bef daq gesid tep Montop gesid zy mik.",
+        "english": "Dromu answered: \"My teacher's teacher came down off that mountain and said, 'The mountain spoke to me.'\""
+      },
+      {
+        "fiwo": "Zitsugup pywid daq.",
+        "english": "The council heard him."
+      },
+      {
+        "fiwo": "Zitsugup ukwid tep jabeup enridyk deky godap daqe.",
+        "english": "The council ruled that the cold had got into his brain."
+      },
+      {
+        "fiwo": "Fap panop daqe xunid.",
+        "english": "His book was burned."
+      },
+      {
+        "fiwo": "Dromu gesid tep Syn mik jedid jaru je zewe can nofa je fenutid mik stepup fose. Ram stepur zety nofar gyke. Mik pozid zety ram dury du late pudy dionup fose.",
+        "english": "Dromu said: \"When I was nine years old they told me that story. It was a story about a madman. I have thought about it every day since.\""
+      },
+      {
+        "fiwo": "Daq gesid tep Mik kritrid taqap suke tep guami zofy kluxeup tel kad mik kurid. Syn mik okseid can uropia late dury jaru egmabe gesidyk tody nofar. Mik nes gugi luge deky poziup fose.",
+        "english": "He said: \"I taught your brother to count through the silence because I was afraid. If I was wrong, then every Singer for a thousand years had been talking over somebody. I cannot stand inside that thought.\""
+      },
+      {
+        "fiwo": "Daq jedid jaru je zewet bimet.",
+        "english": "He was ninety-one."
+      },
+      {
+        "fiwo": "Daq nes kupid tep Nyra hevis daq.",
+        "english": "He did not ask Nyra to forgive him."
+      },
+      {
+        "fiwo": "Das nes hevid daq bef daq ublidyk fos.",
+        "english": "She did not forgive him, and he had expected that."
+      },
+      {
+        "fiwo": "Das enrid deky sydop lozuxue bef cysmop late emitid das.",
+        "english": "She went into the singing house and the whole village came in after her."
+      },
+      {
+        "fiwo": "Nofa je late tep gugi luge tel enrid.",
+        "english": "Everyone who could still stand came in."
+      },
+      {
+        "fiwo": "Das nes gesid dury dionur joze.",
+        "english": "She did not make a speech."
+      },
+      {
+        "fiwo": "Das pozidyq dury du dewe zety nyhogop rodle wosem jeme.",
+        "english": "She had been thinking for two days about the shortest true sentence."
+      },
+      {
+        "fiwo": "Das kanid tep nofa je cukis zety nyhogop jozem jete.",
+        "english": "She knew that they would argue with anything longer."
+      },
+      {
+        "fiwo": "Das gesid tep Kelvo nes ram. Kelvo dal.",
+        "english": "She said: \"Kelvo is not an it. Kelvo is a someone.\""
+      },
+      {
+        "fiwo": "Go dewe jy azikup.",
+        "english": "Two words of grammar."
+      },
+      {
+        "fiwo": "Fos cemup keane tep Sevla amce dogid.",
+        "english": "That was the whole of the thing Sevla had never allowed."
+      },
+      {
+        "fiwo": "Peze das fenutid nofa je cemu je otre.",
+        "english": "Then she told them the rest."
+      },
+      {
+        "fiwo": "Cysmop cukid dury retadu je bimet bimet.",
+        "english": "The village argued for eleven weeks."
+      },
+      {
+        "fiwo": "Fos dionur wosem huhe cagy cysmor tep hufribi jaru egmabe.",
+        "english": "That is a very short time for a village to overturn a thousand years."
+      },
+      {
+        "fiwo": "Syn jadorop sejid rizit can nofa je haibe cukid.",
+        "english": "When the snow stopped rising, they were still arguing."
+      },
+      {
+        "fiwo": "Jadorop nes kutgid dorsor.",
+        "english": "The snow did not melt."
+      },
+      {
+        "fiwo": "Ram sejid juwe kutgit bokem jete.",
+        "english": "It simply stopped getting worse."
+      },
+      {
+        "fiwo": "Kep ouzup fos dury dionup jeme.",
+        "english": "In fact, that is what mercy is, most of the time."
+      },
+      {
+        "fiwo": "Vofup plid anote bef ram xygeid.",
+        "english": "The spring came late and thin."
+      },
+      {
+        "fiwo": "Talvo wafrid mapa dewe jy fukap wane daqe.",
+        "english": "Talvo lost two fingers of his left hand."
+      },
+      {
+        "fiwo": "Kof daq wafrid xucup lozuxue daqe pen daq amce kutgi luge uropiap.",
+        "english": "And he lost his singing voice, so he could never become the Singer."
+      },
+      {
+        "fiwo": "Kof Talvo drijid montop romve dury kynup ty fikop jaxke.",
+        "english": "And it was Talvo who climbed the mountain again in the summer, on the new path."
+      },
+      {
+        "fiwo": "Daq nekid deky rokup bef daq gesid hisup tep nofa je dzefidyk.",
+        "english": "He sat in the dark and said the name they had agreed on."
+      },
+      {
+        "fiwo": "Peze daq nes gesid dury gomu je sluqe bef daq pywid.",
+        "english": "Then he said nothing for six hours, and he listened."
+      },
+      {
+        "fiwo": "Hisup my jobup fose pywiap nu.",
+        "english": "The name of that job is the Listener now."
+      },
+      {
+        "fiwo": "Ram nes jejur tande piny jobup waske.",
+        "english": "It is not a great honour the way the old one was."
+      },
+      {
+        "fiwo": "Taicur nes zovi.",
+        "english": "There is no feast."
+      },
+      {
+        "fiwo": "Suk driji montop. Suk gesi hisup.",
+        "english": "You climb the mountain. You say the name."
+      },
+      {
+        "fiwo": "Peze suk kluxei fecy dionup tep suk kujondi luge.",
+        "english": "Then you stay quiet for as long as you can bear."
+      },
+      {
+        "fiwo": "Suk jami cemup tep suk etypi.",
+        "english": "You write down what you get."
+      },
+      {
+        "fiwo": "Hedcup jeme nes jedi blunur bul hedcup lande jedi ram.",
+        "english": "Most of it has no meaning, but a small part of it does."
+      },
+      {
+        "fiwo": "Nyra amce drijid montop romve.",
+        "english": "Nyra never went up again."
+      },
+      {
+        "fiwo": "Das kritrid.",
+        "english": "She taught."
+      },
+      {
+        "fiwo": "Das uropid boke bul das xyfid cemup otre gawem huhe.",
+        "english": "She was bad at the singing and very good at the other thing."
+      },
+      {
+        "fiwo": "Hoxop my sydop dase amce beatid.",
+        "english": "The door of her house was never shut."
+      },
+      {
+        "fiwo": "Dury jaru je rajet bimet das kritrid kluxeu je.",
+        "english": "For fifty-one years she taught the pauses."
+      },
+      {
+        "fiwo": "Das kritrid nofa je tep sigi kluxeur bef tep nes lanti cemur deky ram.",
+        "english": "She taught people to hold a silence and to put nothing into it."
+      },
+      {
+        "fiwo": "Peze dury ceniup dase cadar kupid das zety hedcup usy raje.",
+        "english": "Late in her life a child asked her about the fifth part."
+      },
+      {
+        "fiwo": "Nyra hadid tep Ram nes zovi.",
+        "english": "Nyra answered: \"There is not one.\""
+      },
+      {
+        "fiwo": "Das gesid tep Lozuxup keaneidyk dury jaru egmabe.",
+        "english": "She said: \"The Song has been complete for a thousand years.\""
+      },
+      {
+        "fiwo": "Das gesid tep Cemup lande nes hedcur jy lozuxup.",
+        "english": "She said: \"The small thing is not a part of the Song.\""
+      },
+      {
+        "fiwo": "Das gesid tep Cemu late zovid poco. Go late zovid deky stirop hiqe. Lozuxup kocid anuwup juwe. Ram kocid nofar tep wastis ky fefup rame.",
+        "english": "She said: \"Everything was there. Every word was in the right order. The Song needed only the anuwu. It needed one person at the end of it who would wait.\""
+      }
+    ]
   }
 ];

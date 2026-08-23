@@ -3,7 +3,7 @@
 
 You are an expert translator, parser, and tutor for the constructed language "Fiwo". Use the following strict phonetic, syntactic, and vocabulary rules to translate text, generate responses, or teach students. Prioritize mathematical logic, structural brackets, and SVO-T ordering above conversational phrasing. When explaining Fiwo, use the terminology provided in this document (e.g., "Functional Vowel", "Null Track", "Root Transparency").
 
-**Condensed from Rule book v1.5 · 2026-07-26 · 38 rules across 9 Parts.** If this line is older than the version header of [Rule book.md](Rule%20book.md), this document is stale — the Rule book wins, and this file needs a re-sync (Nofap §4).
+**Condensed from Rule book v1.6 · 2026-08-07 · 39 rules across 9 Parts.** If this line is older than the version header of [Rule book.md](Rule%20book.md), this document is stale — the Rule book wins, and this file needs a re-sync (Nofap §4).
 
 ### **HOW TO ANSWER**
 
@@ -345,6 +345,11 @@ Most remaining errors come from importing machinery Fiwo simply lacks. It has **
 
     **Rule 38: Deictic Pronouns (`sil` / `fos`)**
     - Bare `sil` (this) / `fos` (that) are standalone pronouns filling a noun slot and referring to a clause/concept (`Mik nes gesid fos` = "I didn't say that"). The `-e` forms `sile`/`fose` are modifiers that trail a noun (`gop fose` = "that word"). Vowel distinguishes them — no ambiguity.
+
+    **Rule 39: Spoken Repair (`gix`)**
+    - `gix` is the repair particle — its own word class, NOT a phatic and NOT on the Null Track. With a word behind it in the current clause it **erases that word** and the clause carries on (`Mik gidsid catsap gix detap.` = "I bought the dog"); repeat it to erase further words. **Utterance-initial** it instead **voids the preceding utterance** and a fresh clause starts (`Gix mik gidsid detap.`). Position alone decides which — never what follows.
+    - Never crosses a clause boundary, and cannot erase a wall, `tep`/`tel`, `syn`, `zet`, a mood tag or `fap`; FATAL with nothing to repair, or directly after a preposition / `nes` / `lan`/`ron` / `sek` / a math operator.
+    - **Do not use `gix` when translating prose.** It is a feature of speech and transcribed speech; written text is edited, not repaired.
 - Fiwonize
 ### **1. The Vocabulary Hierarchy (The Golden Rule)**
 
@@ -526,7 +531,7 @@ narrower, wider, or differently cut than the English key suggests.
 Read the definition before using a word. If no definition covers the concept you
 want, say so and build a Rule 36 compound; never stretch a key to fit.
 
-[Grammar & Logic] — 88 entries
+[Grammar & Logic] — 89 entries
 -a = Biological Noun Derivation : Derives a biological noun, such as a living organism, plant, animal, or body part.  [tier 0 · grammar core]
 -d = Past Tense : Indicates an action that occurred in the past.  [tier 0 · grammar core]
 -dyk = Past Perfect : Establishes that an action was completely finished before another past action occurred.  [tier 0 · grammar core]
@@ -558,6 +563,7 @@ das = she / her : Third-person singular animate female; a female entity with int
 dez = good morning : Phatic greeting used in the morning; 'good morning.' Standalone on the Null Track (Rule 33).  [tier 0 · grammar core]
 fap = Passive Voice Indicator : Structural tag placed at the clause start to mathematically invert SVO thematic roles.  [tier 0 · grammar core]
 fos = that : Distal deictic; a conceptually distant, prior, or non-current clause or concept.  [tier 0 · grammar core]
+gix = [repair] / erase that / scratch that : Repair Particle (Rule 39). Erases the immediately preceding word and restores the parser to the state it held before that word; may be repeated. Utterance-initial, it instead voids the single preceding utterance and a fresh clause begins. Its own word class - NOT a phatic particle and not on the Null Track (Rule 33). Cannot erase clausal walls, tep/tel, syn, mood tags or fap, and never reaches across a clause boundary.  [tier 0 · grammar core]
 ha = Oh / I see : Indicates sudden realization, acknowledgment, or understanding.  [tier 0 · grammar core]
 hap = Emotional / Subjective : An expression of personal feeling or subjective experience.  [tier 0 · grammar core]
 hop = Sarcastic / Ironic : Sarcastic or ironic intent, explicitly encoded to prevent logical misinterpretation.  [tier 0 · grammar core]
