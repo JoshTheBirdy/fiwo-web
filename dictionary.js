@@ -1649,7 +1649,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 70,
     "freq": 12,
-    "freq_rank": 333,
+    "freq_rank": 334,
     "example": {
       "fiwo": "Jormup sile bokei.",
       "english": "This situation is bad."
@@ -1809,7 +1809,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 331,
     "freq": 12,
-    "freq_rank": 334,
+    "freq_rank": 335,
     "example": {
       "fiwo": "Nak dormid deky brirsop.",
       "english": "We swam in the lake."
@@ -3824,7 +3824,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 297,
     "freq": 12,
-    "freq_rank": 335,
+    "freq_rank": 336,
     "example": {
       "fiwo": "Mik ebnesis agcup mike.",
       "english": "I will forget my mistake."
@@ -4695,7 +4695,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 152,
     "freq": 12,
-    "freq_rank": 336,
+    "freq_rank": 337,
     "example": {
       "fiwo": "Mik nojaid fefup.",
       "english": "I saw the end."
@@ -6253,8 +6253,8 @@ const dictionaryData = [
     "definition": "This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks.",
     "tier": 1,
     "rank": 267,
-    "freq": 12,
-    "freq_rank": 337,
+    "freq": 13,
+    "freq_rank": 320,
     "example": {
       "fiwo": "Mik grawid licap mike.",
       "english": "I thanked my colleague."
@@ -6601,7 +6601,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 77,
     "freq": 13,
-    "freq_rank": 320,
+    "freq_rank": 321,
     "example": {
       "fiwo": "Hap mik kyti nauxap mike!",
       "english": "I love my friend so much!"
@@ -9663,7 +9663,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 152,
     "freq": 13,
-    "freq_rank": 322
+    "freq_rank": 323
   },
   {
     "word": "ky",
@@ -10163,7 +10163,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 323,
     "freq": 13,
-    "freq_rank": 325,
+    "freq_rank": 326,
     "example": {
       "fiwo": "Licap ry mik jofid mik.",
       "english": "My colleague helped me."
@@ -11577,7 +11577,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 26,
     "freq": 13,
-    "freq_rank": 326,
+    "freq_rank": 327,
     "example": {
       "fiwo": "Nak nacid nafike.",
       "english": "We worked together."
@@ -16025,7 +16025,7 @@ const dictionaryData = [
     "definition": "Second-person singular; strictly the listener.",
     "tier": 0,
     "rank": 3,
-    "freq": 304,
+    "freq": 306,
     "freq_rank": 11,
     "example": {
       "fiwo": "Suk jofiq mik nudu.",
@@ -16092,7 +16092,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 17,
     "freq": 13,
-    "freq_rank": 327
+    "freq_rank": 328
   },
   {
     "word": "suxo",
@@ -16382,7 +16382,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 255,
     "freq": 13,
-    "freq_rank": 328,
+    "freq_rank": 329,
     "example": {
       "fiwo": "Taqap mike kypeid.",
       "english": "My brother was happy."
@@ -18584,7 +18584,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 197,
     "freq": 13,
-    "freq_rank": 329,
+    "freq_rank": 330,
     "example": {
       "fiwo": "Wecdup domloeid.",
       "english": "Yesterday was rainy."
@@ -20047,7 +20047,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 212,
     "freq": 13,
-    "freq_rank": 330,
+    "freq_rank": 331,
     "example": {
       "fiwo": "Zabatop juceid.",
       "english": "The bag was heavy."
@@ -20103,7 +20103,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 268,
     "freq": 13,
-    "freq_rank": 331,
+    "freq_rank": 332,
     "example": {
       "fiwo": "Ipkap zankis baxy cilar.",
       "english": "The spider will hide behind a leaf."
@@ -20696,7 +20696,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 39,
     "freq": 13,
-    "freq_rank": 332,
+    "freq_rank": 333,
     "example": {
       "fiwo": "Mik zylid jatanop.",
       "english": "I used the pen."

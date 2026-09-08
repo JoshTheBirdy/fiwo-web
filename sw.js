@@ -29,7 +29,7 @@
  * activate, so a bad deploy is one version bump away from being flushed.
  */
 
-const CACHE_VERSION = 'fiwo-v6';
+const CACHE_VERSION = 'fiwo-v8';
 
 /* The shell: enough to open the site with no network at all. The heavy data
  * files (stories.js, DerivedDictionary.js) are deliberately NOT precached —

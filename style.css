@@ -3579,6 +3579,10 @@ body.study-open { overflow: hidden; }
 /* Neither right nor wrong: you looked. Muted rather than coloured, because the
    colours mean something and this is the absence of that something. */
 .wb-item.is-shown { border-left-color: var(--text-dim); }
+/* Said aloud. Also unchecked, but the opposite of giving up on it — so it is
+   coloured, in the violet that already means "credited" on the deck's Easy
+   grade, rather than sharing the grey above. */
+.wb-item.is-spoken { border-left-color: var(--secondary-light); }
 
 .wb-q { display: flex; gap: 0.6rem; align-items: baseline; }
 .wb-n {
@@ -3653,6 +3657,7 @@ body.study-open { overflow: hidden; }
 }
 .wb-item.is-wrong .wb-verdict { color: #fbbf24; }
 .wb-item.is-shown .wb-verdict { color: var(--text-muted); }
+.wb-item.is-spoken .wb-verdict { color: var(--secondary-light); }
 .wb-key {
     margin: 0.25rem 0 0 !important;
     font-size: 0.86rem;

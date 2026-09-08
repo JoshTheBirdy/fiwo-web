@@ -28,7 +28,7 @@
 (function () {
     'use strict';
 
-    const POINTS = { first: 10, retry: 5, self: 6, revealed: 2, cloze: 4 };
+    const POINTS = { first: 10, retry: 5, self: 6, revealed: 2, cloze: 4, spoken: 4 };
 
     let data = null;
     let currentId = null;
@@ -47,7 +47,21 @@
 
     // ── Scoring ─────────────────────────────────────────────────────────────
 
-    const scorable = (ex) => ex.points > 0;
+    /* Two different questions, and conflating them is what made the spoken
+     * drills disappear.
+     *
+     * `counts` — is this an item you have to do before the lesson is finished?
+     * Every item is: each one renders a widget you can act on. It used to be
+     * `points > 0`, which quietly meant "and oral drills are not items", so
+     * Lesson 1 — eight of whose thirteen exercises are *Say it aloud* — stayed
+     * on "Not started" no matter how many of them you said.
+     *
+     * `gradeable` — can this item come out right or wrong? An oral one cannot;
+     * nothing heard it. So it counts towards finishing the lesson and towards
+     * the points, and stays out of the mastery fraction, which would otherwise
+     * cap a perfect Lesson 1 at 5/13. */
+    const counts = (ex) => ex.points > 0 || ex.type === 'oral';
+    const gradeable = (ex) => ex.type !== 'oral';
 
     /* Cloze items are generated from the lesson's own examples, so they live
      * beside the authored exercises rather than among them, and their ids are
@@ -62,22 +76,40 @@
 
     const allItems = (lesson) => [...lesson.exercises, ...clozeItems(lesson)];
 
+    /* What a stored answer is worth NOW.
+     *
+     * Straight from the record, except for a spoken drill, whose value was never
+     * anything the reader did — clicking *Said it* is the only way to make one,
+     * so its points are decided entirely by the scoring model. Drills answered
+     * while that model said 0 are re-valued rather than stranded at zero, which
+     * is the difference between fixing the scoring and asking Josh to redo
+     * Lesson 1 to collect on it. */
+    const earned = (ex, rec) =>
+        rec.spoken ? (rec.points || ex.points || POINTS.spoken) : (rec.points || 0);
+
     /** What a lesson is worth, and what has been got out of it so far. */
     function tally(lesson) {
         const saved = FiwoStore.lesson(lesson.id);
-        const items = allItems(lesson).filter(scorable);
+        const items = allItems(lesson).filter(counts);
         const max = items.reduce((n, ex) => n + ex.points, 0);
-        let score = 0, correct = 0, answered = 0;
+        const spoken = items.filter(ex => !gradeable(ex)).length;
+        const marked = items.length - spoken;
+        let score = 0, correct = 0, answered = 0, said = 0;
         for (const ex of items) {
             const rec = saved.items[ex.n];
             if (!rec) continue;
             answered++;
-            score += rec.points || 0;
+            score += earned(ex, rec);
             if (rec.correct) correct++;
+            if (!gradeable(ex)) said++;
         }
         return {
-            score, max, answered, correct, total: items.length,
-            mastery: items.length ? Math.round((correct / items.length) * 100) : 0,
+            score, max, answered, correct, total: items.length, marked, spoken, said,
+            /* Mastery is the share of the CHECKED items you got right. With no
+             * checked items at all it falls back to how much of the lesson has
+             * been done, so an all-spoken lesson can still fill its ring. */
+            mastery: marked ? Math.round((correct / marked) * 100)
+                : items.length ? Math.round((answered / items.length) * 100) : 0,
             done: items.length > 0 && answered === items.length,
         };
     }
@@ -174,7 +206,9 @@
             const t = tally(lesson);
             ring.style.setProperty('--pct', `${t.mastery}%`);
             ring.dataset.state = t.done ? 'done' : t.answered ? 'part' : 'none';
-            ring.title = t.answered ? `${t.correct} of ${t.total} right · ${t.score}/${t.max} points` : 'Not started';
+            ring.title = t.answered
+                ? `${t.answered} of ${t.total} done · ${t.correct} of ${t.marked} right · ${t.score}/${t.max} points`
+                : 'Not started';
         }
         toc.querySelectorAll('[data-wb-link]').forEach(a =>
             a.classList.toggle('is-current', a.dataset.wbLink === currentId));
@@ -200,11 +234,17 @@
         'oral': 'Say it aloud',
     };
 
-    /* Three outcomes, not two. "I showed myself the answer" is neither right nor
+    /* Four outcomes, not two. "I showed myself the answer" is neither right nor
      * wrong, and colouring it as either is a small lie the reader will notice
-     * before the score does. */
+     * before the score does.
+     *
+     * A spoken drill used to share that muted grey, on the reasoning that
+     * nothing checked either of them. But grey is the colour of *giving up* on
+     * an item, and saying a word aloud is the opposite — it is the whole point
+     * of the lesson. It gets its own colour: done and credited, not verified. */
     const outcomeClass = (rec) =>
-        !rec ? '' : (rec.revealed || rec.spoken) ? 'is-shown' : rec.correct ? 'is-right' : 'is-wrong';
+        !rec ? '' : rec.spoken ? 'is-spoken' : rec.revealed ? 'is-shown'
+            : rec.correct ? 'is-right' : 'is-wrong';
 
     /* ── The word bank ───────────────────────────────────────────────────────
      *
@@ -298,10 +338,11 @@
     }
 
     function verdictHtml(ex, rec) {
-        const pts = rec.points || 0;
-        /* A spoken drill is not marked "Right" — nothing checked it. It is
-         * recorded so the day counts towards the streak and the lesson knows
-         * you did it, and it scores nothing, which is the honest amount. */
+        const pts = earned(ex, rec);
+        /* A spoken drill is not marked "Right" — nothing checked it, so it is
+         * never counted towards mastery. It does count towards finishing the
+         * lesson and towards the points, because a course whose first lesson is
+         * eight-thirteenths spoken cannot treat speaking as not-work. */
         const word = rec.spoken ? 'Said it' : rec.revealed ? 'Answer shown' : rec.correct ? 'Right' : 'Not yet';
         return `<p class="wb-verdict">${word}${pts ? ` · +${pts}` : ''}</p>
                 ${ex.key ? `<p class="wb-key"><span>Answer</span> ${rich(ex.key)}</p>` : ''}`;
@@ -382,8 +423,15 @@
         paintToc();
     }
 
+    /* "N of M right" over every item was wrong the moment spoken drills started
+     * counting — eight of Lesson 1's items can never be "right". Right is
+     * reported over the marked items, said over the spoken ones, and the two
+     * add up to the lesson. */
     const scoreLine = (t) => t.total
-        ? `<b>${t.score}</b> / ${t.max} points · ${t.correct} of ${t.total} right${t.done ? ' · finished' : ''}`
+        ? `<b>${t.score}</b> / ${t.max} points`
+            + (t.marked ? ` · ${t.correct} of ${t.marked} right` : '')
+            + (t.spoken ? ` · ${t.said} of ${t.spoken} said aloud` : '')
+            + (t.done ? ' · finished' : '')
         : 'Reading only — no exercises in this lesson.';
 
     function repaintScore() {
@@ -407,8 +455,8 @@
         const lesson = data.lessons.find(l => l.id === currentId);
         const saved = FiwoStore.lesson(lesson.id);
         const merged = { ...saved.items, [ex.n]: rec };
-        const items = allItems(lesson).filter(scorable);
-        const score = items.reduce((n, e) => n + (merged[e.n]?.points || 0), 0);
+        const items = allItems(lesson).filter(counts);
+        const score = items.reduce((n, e) => n + (merged[e.n] ? earned(e, merged[e.n]) : 0), 0);
         const max = items.reduce((n, e) => n + e.points, 0);
         const done = items.every(e => merged[e.n]);
         FiwoStore.setWorkbookItem(lesson.id, ex.n, rec, {
@@ -418,7 +466,7 @@
 
     function settle(li, ex, rec) {
         record(ex, rec);
-        li.classList.remove('is-right', 'is-wrong', 'is-shown');
+        li.classList.remove('is-right', 'is-wrong', 'is-shown', 'is-spoken');
         li.classList.add(outcomeClass(rec));
         /* A filled gap becomes text, not a dead input box: the point of a cloze
          * is reading the finished sentence back, and a disabled field in the
@@ -566,7 +614,11 @@
         }
 
         if (e.target.closest('[data-oral]')) {
-            settle(li, ex, { answer: '', correct: false, tries: 1, points: 0, spoken: true });
+            /* `correct: false` and still worth points, like a reveal: mastery is
+             * the share you got RIGHT and nothing heard this one, but the lesson
+             * has to know it happened or its own drills do not count as work. */
+            settle(li, ex, { answer: '', correct: false, tries: 1,
+                             points: ex.points || POINTS.spoken, spoken: true });
             return;
         }
 

@@ -10632,7 +10632,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 13,
-    "freq_rank": 321
+    "freq_rank": 322
   },
   {
     "word": "jozeu",
@@ -12539,7 +12539,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 13,
-    "freq_rank": 323
+    "freq_rank": 324
   },
   {
     "word": "lantia",
@@ -12674,7 +12674,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 13,
-    "freq_rank": 324
+    "freq_rank": 325
   },
   {
     "word": "lefeu",
