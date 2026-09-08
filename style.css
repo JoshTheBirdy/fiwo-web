@@ -67,11 +67,30 @@
     --shadow-lg:     0 8px 32px rgba(0, 0, 0, 0.5);
     --shadow-glow:   0 0 20px var(--accent-glow), 0 0 40px rgba(16, 185, 129, 0.05);
 
-    /* ── Z-Indices ── */
+    /* ── Z-Indices ──
+       The reader and its word panel were hardcoded 3000/3100 while the modal
+       sat at 2000, which was fine while the two could never be open together.
+       The word panel now opens the definition modal, so the modal has to clear
+       both — named here so the next layer added to the reader is checked
+       against the stack rather than guessing a bigger number. */
     --z-nav-overlay: 1000;
     --z-nav:         1001;
     --z-menu-btn:    1002;
-    --z-modal:       2000;
+    --z-reader:      3000;
+    --z-word-panel:  3100;
+    --z-modal:       3200;
+    /* The study session sits above everything, including the modal: it is the
+       one screen that deliberately hides the rest of the site. */
+    --z-study:       3300;
+
+    /* ── Grade colours ──
+       Shared with the Android app so a card that reads "Hard" looks the same in
+       both. Ordered by the swipe that produces them: ↓ Again · ← Hard · ↑ Good
+       · → Easy. */
+    --grade-1:       #f87171;                 /* Again — swipe down  */
+    --grade-2:       #fb923c;                 /* Hard  — swipe left  */
+    --grade-3:       var(--accent);           /* Good  — swipe up    */
+    --grade-4:       var(--secondary-light);  /* Easy  — swipe right */
 }
 
 /* ═══════════════════════════════════════════
@@ -221,6 +240,17 @@ code {
     padding: 0.15em 0.45em;
     border-radius: var(--radius-sm);
     border: 1px solid rgba(251, 146, 60, 0.12);
+}
+
+/* Rule 1 marks the stressed syllable inside a code span (`no-**fa**`), which
+   update_rules.mjs promotes to <strong>. Weight alone is close to invisible in
+   a monospace face at 0.875em, so underline it as well — the whole point of
+   the example is that your eye lands on the stressed part. */
+code strong {
+    font-weight: 700;
+    color: var(--accent-light);
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
 }
 
 /* ── Links ── */
@@ -548,9 +578,9 @@ table.phonetics-table {
     border: 1px solid var(--border-subtle);
 }
 
-#search-bar,
-#sort-by,
-#dictionary-filter {
+/* Class-based rather than a list of ids: the control row gained a tier filter
+   and a sort order, and every new one meant editing four selector lists. */
+.dict-control {
     padding: 0.7rem 1rem;
     border: 1px solid var(--border-light);
     border-radius: var(--radius-md);
@@ -569,21 +599,144 @@ table.phonetics-table {
     min-width: 200px;
 }
 
-#search-bar:focus,
-#sort-by:focus,
-#dictionary-filter:focus {
+.dict-control:focus {
     outline: none;
     border-color: var(--accent);
     box-shadow: 0 0 0 3px var(--accent-glow);
 }
 
-#sort-by,
-#dictionary-filter {
+.dict-select {
     cursor: pointer;
     padding-right: 2rem;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23a1a1aa' d='M1.41 0L6 4.58 10.59 0 12 1.41l-6 6-6-6z'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: right 0.8rem center;
+}
+
+/* ── Start here ── */
+.start-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: none;
+}
+
+.start-step {
+    display: flex;
+    gap: 1.25rem;
+    padding: 1.75rem 0;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.start-step:first-child {
+    border-top: none;
+    padding-top: 0.5rem;
+}
+
+.step-num {
+    flex: 0 0 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: var(--bg-input);
+    border: 1px solid var(--border-light);
+    color: var(--accent-light);
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.step-body {
+    flex: 1;
+    min-width: 0;
+}
+
+.step-body h3 {
+    margin: 0.25rem 0 0.6rem;
+    font-size: 1.15rem;
+    color: var(--text-primary);
+}
+
+.step-body p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin: 0 0 1rem;
+    max-width: 68ch;
+}
+
+/* The worked sentence in step 2: Fiwo, its pieces, then the English. */
+.step-example {
+    margin: 0 0 1rem;
+    padding: 1rem 1.15rem;
+    border-radius: var(--radius-md);
+    background: var(--bg-input);
+    border: 1px solid var(--border-subtle);
+}
+
+.step-example-fiwo {
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
+    color: var(--accent-light);
+    margin: 0 0 0.75rem !important;
+}
+
+.step-example-parts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.75rem;
+    margin: 0 0 0.75rem !important;
+}
+
+.step-example-parts span {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    padding: 0.2rem 0.55rem;
+    border-radius: var(--radius-sm);
+    background: var(--bg-card);
+    white-space: nowrap;
+}
+
+.step-example-en {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin: 0 !important;
+}
+
+.step-link {
+    display: inline-block;
+    margin: 0 0.75rem 0 0;
+    padding: 0.5rem 0.95rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-light);
+    background: var(--bg-input);
+    color: var(--text-primary);
+    font-family: var(--font-main);
+    font-size: 0.88rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: border-color var(--duration) ease, color var(--duration) ease;
+}
+
+.step-link:hover,
+.step-link:focus-visible {
+    border-color: var(--accent);
+    color: var(--accent-light);
+    outline: none;
+}
+
+.step-link-quiet {
+    background: none;
+    border-color: transparent;
+    color: var(--text-dim);
+}
+
+/* A lede above the controls, explaining the scope of what is listed. */
+.section-lede {
+    color: var(--text-secondary);
+    max-width: 68ch;
+    margin: -0.5rem 0 1.5rem;
+    line-height: 1.7;
 }
 
 #word-count {
@@ -622,6 +775,18 @@ table.phonetics-table {
 
 .card:active {
     transform: scale(0.97);
+}
+
+/* Corpus usage count, mirroring .pos-dot in the opposite corner. Deliberately
+   quiet — it is context while scanning, not the point of the card. */
+.card-freq {
+    position: absolute;
+    top: 0.85rem;
+    right: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums;
 }
 
 .pos-dot {
@@ -685,14 +850,313 @@ table.phonetics-table {
     box-shadow: var(--shadow-md);
 }
 
-.story-card h3 {
+.story-card h3,
+.story-card h4 {
     color: var(--text-primary);
     margin-top: 0;
+    font-size: 1.15rem;
 }
 
 .story-card p {
     color: var(--text-muted);
     margin: 0 auto 1rem;
+}
+
+/* A band heading sits inside the grid, so it has to span every column or it
+   would be treated as one more card. */
+.band-heading {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin: 1.5rem 0 0;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--border-subtle);
+    font-size: 1.05rem;
+    letter-spacing: 0.02em;
+    color: var(--accent-light);
+}
+
+.band-heading:first-child {
+    margin-top: 0;
+}
+
+.band-count {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--text-dim);
+    letter-spacing: 0;
+}
+
+.story-card {
+    position: relative;
+}
+
+/* Finished stories stay visible and legible — dimming them would hide the
+   thing the reader just earned. Only the border marks them. */
+.story-read {
+    border-color: rgba(16, 185, 129, 0.35);
+}
+
+.story-tick {
+    position: absolute;
+    top: 0.9rem;
+    right: 1.1rem;
+    color: var(--accent);
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.story-meta {
+    font-size: 0.85rem;
+    margin-bottom: 0.35rem !important;
+}
+
+.story-grade {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem 0.9rem;
+    font-size: 0.78rem;
+    color: var(--text-dim);
+    margin-bottom: 1rem !important;
+}
+
+.story-progress {
+    height: 4px;
+    border-radius: 2px;
+    background: var(--bg-input);
+    overflow: hidden;
+    margin: 0 0 1rem;
+}
+
+.story-progress-bar {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 2px;
+}
+
+.story-clear {
+    display: block;
+    margin: 0.6rem auto 0;
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-family: var(--font-main);
+    font-size: 0.75rem;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+
+.story-clear:hover {
+    color: var(--text-secondary);
+}
+
+/* ── Progress panel ── */
+.progress-panel {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    padding: 1.1rem 1.35rem;
+    margin-bottom: 2rem;
+}
+
+.progress-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* Storage health (Layer 5). The left rule carries the risk level, because the
+   difference between "saved" and "iOS deletes this in 7 days" has to be
+   readable before the sentence is. Replaces `.progress-storage`, which said one
+   true thing in one colour and gave the reader nothing to do about it. */
+.storage-health {
+    margin: 0.5rem 0 0;
+    padding-left: 0.8rem;
+    border-left: 3px solid var(--border-light);
+    max-width: 62ch;
+}
+.storage-health[data-risk="none"]   { border-left-color: var(--accent); }
+.storage-health[data-risk="low"]    { border-left-color: var(--accent); }
+.storage-health[data-risk="medium"] { border-left-color: #fbbf24; }
+.storage-health[data-risk="high"]   { border-left-color: #ef4444; }
+
+.sh-headline {
+    margin: 0 !important;
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: var(--text-body);
+    line-height: 1.5;
+}
+.storage-health[data-risk="medium"] .sh-headline { color: #fbbf24; }
+.storage-health[data-risk="high"] .sh-headline   { color: #fca5a5; }
+
+.sh-advice {
+    margin: 0.3rem 0 0 !important;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    line-height: 1.55;
+}
+
+/* The controls sit in a row so that "Back up to a file" and the quieter
+   "Use an existing backup file" beside it read as one choice with two doors,
+   rather than as two unrelated buttons stacked up. */
+.sh-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+    margin-top: 0.55rem;
+}
+.sh-actions .progress-btn {
+    margin-top: 0;
+}
+
+/* Secondary by weight, not by being hidden — the recovery door has to be
+   findable by someone who has just lost everything. */
+.sh-quiet {
+    background: transparent;
+    border-color: transparent;
+    color: var(--text-muted);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+}
+.sh-quiet:hover {
+    color: var(--text-secondary);
+    background: var(--bg-input);
+}
+
+.sh-file {
+    margin: 0.5rem 0 0 !important;
+    font-size: 0.8rem;
+    line-height: 1.55;
+    color: var(--accent);
+}
+
+.sh-notice {
+    margin: 0.55rem 0 0 !important;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border-light);
+    font-size: 0.8rem;
+    line-height: 1.55;
+    color: var(--text-secondary);
+}
+
+.sh-backup {
+    margin: 0.55rem 0 0 !important;
+    font-size: 0.8rem;
+    line-height: 1.55;
+    color: var(--text-muted);
+}
+.sh-backup[data-level="high"] {
+    color: #fca5a5;
+    font-weight: 600;
+}
+
+.progress-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.progress-btn {
+    padding: 0.45rem 0.85rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-light);
+    background: var(--bg-input);
+    color: var(--text-secondary);
+    font-family: var(--font-main);
+    font-size: 0.8rem;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: border-color var(--duration) ease, color var(--duration) ease;
+}
+
+.progress-btn:hover {
+    border-color: var(--accent);
+    color: var(--text-primary);
+}
+
+/* The install button only appears when installing would actually help, so it
+   gets to be the loud one in the row. */
+.progress-btn-accent {
+    border-color: var(--accent);
+    color: var(--accent-light);
+    font-weight: 600;
+}
+
+.progress-btn-accent:hover {
+    background: var(--accent-glow);
+    color: var(--accent-light);
+}
+
+.progress-btn-danger:hover {
+    border-color: #ef4444;
+    color: #fca5a5;
+}
+
+.progress-message {
+    margin: 0.9rem 0 0 !important;
+    padding: 0.6rem 0.85rem;
+    border-radius: var(--radius-md);
+    background: var(--bg-input);
+    border-left: 3px solid var(--accent);
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+/* ── Rule permalinks ── */
+/* Only appears on hover/focus on a pointer device; always present for keyboards
+   and always present on touch, where there is no hover to reveal it. */
+.rule-permalink {
+    margin-left: 0.5rem;
+    padding: 0 0.3rem;
+    border: none;
+    background: none;
+    color: var(--text-dim);
+    font-family: var(--font-mono);
+    font-size: 0.8em;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity var(--duration) ease, color var(--duration) ease;
+}
+
+h3:hover > .rule-permalink,
+.rule-permalink:focus-visible,
+.rule-permalink.copied {
+    opacity: 1;
+}
+
+.rule-permalink:hover,
+.rule-permalink.copied {
+    color: var(--accent);
+}
+
+@media (hover: none) {
+    .rule-permalink { opacity: 0.45; }
+}
+
+/* Briefly mark a rule arrived at by deep link, so the jump is explained. */
+.rule-targeted {
+    animation: resumeFlash 2.2s ease-out;
+    border-radius: var(--radius-md);
+}
+
+/* Briefly mark the line a reader was resumed to, so the jump is explained. */
+.reader-line-resumed {
+    animation: resumeFlash 2.2s ease-out;
+    border-radius: var(--radius-md);
+}
+
+@keyframes resumeFlash {
+    0%, 55% { background: rgba(16, 185, 129, 0.14); }
+    100% { background: transparent; }
 }
 
 .story-content {
@@ -747,8 +1211,20 @@ table.phonetics-table {
 
 .download-container {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 0.75rem;
     margin-bottom: 0.75rem;
+}
+/* The buttons wrap; the note below them does not share their line.
+   It used to: `.download-note` asks for `flex-basis: 100%`, but flex clamps an
+   item's hypothetical size by `max-width` BEFORE deciding where lines break,
+   so the 68ch reading measure made it narrow enough to sit beside the fourth
+   button on a wide screen. Splitting the rows says what was meant instead of
+   relying on that interaction. */
+.download-row {
+    display: flex;
+    gap: 0.75rem;
     flex-wrap: wrap;
 }
 
@@ -757,7 +1233,6 @@ table.phonetics-table {
    everything between that div's close and </section>, so anything after it is
    wiped on the next build. flex-basis 100% drops it onto its own row. */
 .download-note {
-    flex: 0 0 100%;
     max-width: 68ch;
     margin: 0.5rem 0 0;
     padding: 0.85rem 1.1rem;
@@ -783,6 +1258,225 @@ table.phonetics-table {
     gap: 1rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
+}
+
+/* ── Translator: two directions ── */
+.translator-modes {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.mode-btn {
+    padding: 0.55rem 1.1rem;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--border-light);
+    background: none;
+    color: var(--text-muted);
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: border-color var(--duration) ease, color var(--duration) ease,
+                background var(--duration) ease;
+}
+
+.mode-btn:hover { color: var(--text-primary); }
+
+.mode-btn.is-on {
+    border-color: var(--accent);
+    background: var(--accent-glow);
+    color: var(--accent-light);
+    font-weight: 600;
+}
+
+/* ── Composer ── */
+.composer-find {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.composer-find #composer-input {
+    flex: 1;
+    min-width: 220px;
+}
+
+.composer-candidates:not(:empty) {
+    margin-bottom: 1.75rem;
+}
+
+.cand-row {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border-subtle);
+    flex-wrap: wrap;
+}
+
+.cand-word {
+    flex: 0 0 7rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.cand-none {
+    color: var(--text-dim);
+    font-size: 0.82rem;
+    font-style: italic;
+}
+
+.cand-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    flex: 1;
+}
+
+.cand-chip {
+    display: flex;
+    align-items: baseline;
+    gap: 0.45rem;
+    padding: 0.35rem 0.7rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-light);
+    background: var(--bg-input);
+    font-family: var(--font-main);
+    cursor: pointer;
+    text-align: left;
+    transition: border-color var(--duration) ease;
+}
+
+.cand-chip:hover,
+.cand-chip:focus-visible { border-color: var(--accent); outline: none; }
+
+.composer-build {
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem;
+}
+
+.composer-build-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.composer-build-head .entry-example-label { margin-bottom: 0; }
+
+.composer-build-actions {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+
+.composer-build-actions .step-link {
+    margin: 0;
+    padding: 0.35rem 0.7rem;
+    font-size: 0.78rem;
+}
+
+.composer-slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-bottom: 1.25rem;
+}
+
+.composer-empty {
+    color: var(--text-dim);
+    font-size: 0.88rem;
+    margin: 0;
+}
+
+/* One picked word, with the controls that decide its final shape. */
+.slot-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    min-width: 9.5rem;
+    padding: 0.7rem 0.8rem;
+    border-radius: var(--radius-md);
+    background: var(--bg-input);
+    border: 1px solid var(--border-light);
+}
+
+.slot-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.slot-form {
+    font-family: var(--font-mono);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--accent-light);
+}
+
+.slot-remove {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    font-size: 1.1rem;
+    line-height: 1;
+    cursor: pointer;
+    padding: 0 0.15rem;
+}
+
+.slot-remove:hover { color: #fca5a5; }
+
+.slot-gloss {
+    font-size: 0.76rem;
+    color: var(--text-secondary);
+}
+
+.slot-note {
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    font-style: italic;
+}
+
+.slot-select {
+    width: 100%;
+    padding: 0.3rem 0.4rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-card);
+    color: var(--text-secondary);
+    font-family: var(--font-main);
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.composer-output {
+    font-family: var(--font-mono);
+    font-size: 1.35rem;
+    color: var(--text-primary);
+    margin: 0 0 0.85rem !important;
+    min-height: 1.5em;
+}
+
+.composer-verdict:empty { display: none; }
+
+/* Translate, plus the share button that appears once there is a parse to share. */
+.translator-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: stretch;
+}
+
+.translator-buttons .step-link {
+    margin: 0;
+    text-align: center;
 }
 
 .translator-controls textarea {
@@ -1006,6 +1700,141 @@ table.phonetics-table {
     margin-bottom: 1rem;
 }
 
+/* ── Dictionary entry: meta tags, usage note, example, family ── */
+.entry-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.25rem;
+}
+
+.entry-tag {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    background: var(--bg-input);
+    border: 1px solid var(--border-light);
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.entry-tag-dim {
+    color: var(--text-dim);
+    font-weight: 500;
+}
+
+.entry-row {
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Disambiguation prose ("distinct from iku (formal law)"). 46 entries carry one
+   and none of them had ever reached the page. */
+.entry-usage {
+    font-size: 0.95rem;
+    line-height: 1.65;
+    color: var(--text-secondary);
+    background: var(--bg-input);
+    border-left: 3px solid var(--border-light);
+    border-radius: 0 var(--radius-md) var(--radius-md) 0;
+    padding: 0.7rem 1rem;
+}
+
+.entry-example-label {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-dim);
+    margin-bottom: 0.5rem;
+}
+
+.entry-example {
+    margin: 1.25rem 0;
+    padding: 0.9rem 1.1rem;
+    border-radius: var(--radius-md);
+    background: var(--bg-input);
+    border: 1px solid var(--border-subtle);
+}
+
+.entry-example-fiwo {
+    font-family: var(--font-mono);
+    font-size: 1.05rem;
+    color: var(--text-primary);
+    margin-bottom: 0.35rem !important;
+}
+
+.entry-example-fiwo strong {
+    color: var(--accent-light);
+    font-weight: 700;
+}
+
+.entry-example-en {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    margin-bottom: 0 !important;
+}
+
+.entry-family {
+    margin: 1.25rem 0 0;
+}
+
+.family-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+/* One derived form. The derivation itself (`o→a`) is shown between the word and
+   its gloss, so the family reads as a transformation and not just a word list. */
+.family-chip {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    padding: 0.5rem 0.8rem;
+    border-radius: var(--radius-md);
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    color: var(--text-primary);
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+    text-align: left;
+    cursor: pointer;
+    transition: border-color var(--duration) ease,
+                background var(--duration) ease;
+}
+
+.family-chip:hover,
+.family-chip:focus-visible {
+    border-color: var(--accent);
+    background: var(--bg-input);
+    outline: none;
+}
+
+.chip-word {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--accent-light);
+}
+
+.chip-path {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    padding: 0.1rem 0.35rem;
+    border-radius: var(--radius-sm);
+    background: var(--bg-input);
+}
+
+.chip-gloss {
+    font-size: 0.82rem;
+    color: var(--text-secondary);
+}
+
 /* ═══════════════════════════════════════════
    § FOOTER
    ═══════════════════════════════════════════ */
@@ -1065,18 +1894,36 @@ footer p {
     select,
     textarea,
     #search-bar,
-    #sort-by {
+    .dict-control {
         font-size: 16px !important;
     }
+
+    /* ── Composer ── */
+    /* The 7rem label column leaves the chips about 130px, so their glosses wrap
+       to three lines each. Stack instead: English word on its own line, chips
+       across the full width underneath. */
+    .cand-row { flex-direction: column; align-items: stretch; gap: .4rem; }
+    .cand-word { flex: none; }
+    .composer-find #composer-input { min-width: 0; }
+    .composer-find .translate-btn { width: 100%; }
+    .slot-card { flex: 1 1 100%; }
+    .composer-build-head { flex-direction: column; align-items: flex-start; }
+    .composer-output { font-size: 1.15rem; }
+
+    /* ── Start here ── */
+    /* The number gutter costs ~60px, which the step-1 table cannot spare on a
+       375px screen. */
+    .start-step { gap: .75rem; padding: 1.35rem 0; }
+    .step-num { flex-basis: 1.9rem; height: 1.9rem; font-size: .85rem; }
+    .step-body h3 { font-size: 1.05rem; }
+    .step-link { margin-bottom: .5rem; }
 
     /* ── Dictionary ── */
     .dictionary-controls {
         flex-direction: column;
     }
 
-    #search-bar,
-    #sort-by,
-    #dictionary-filter {
+    .dict-control {
         width: 100%;
         min-width: 0;
     }
@@ -1204,13 +2051,9 @@ footer p {
     body.rules-active .toc-rules {
         display: block !important;
     }
-    body.learn-active .toc-learn {
-        display: block !important;
-    }
 
     /* Make room for the TOC so it never overlaps text */
-    body.rules-active main,
-    body.learn-active main {
+    body.rules-active main {
         padding-left: 160px !important; 
     }
     
@@ -1590,7 +2433,7 @@ body.reader-open { overflow: hidden; }
 .reader {
     position: fixed;
     inset: 0;
-    z-index: 3000;
+    z-index: var(--z-reader);
     display: flex;
     flex-direction: column;
     background: var(--bg-primary);
@@ -1721,6 +2564,103 @@ body.reader-open { overflow: hidden; }
 .reader-body:not(.colors-on) .tok-bracket { background: none; padding: 0; }
 .reader-body.colors-on .tok { font-weight: 600; }
 
+/* "Focus new": fade everything in the Tier 0-1 core so the unfamiliar roots
+   are what the eye lands on. The faded text stays readable — this is emphasis,
+   not redaction, and you still need to read the sentence around the new word. */
+.reader-body.focus-new .tok { color: var(--text-dim); font-weight: 400; }
+.reader-body.focus-new .tok-suffix { color: var(--text-dim); }
+.reader-body.focus-new .rw-new,
+.reader-body.focus-new .rw-new .tok-suffix {
+    color: var(--accent-light);
+    font-weight: 700;
+}
+.reader-body.focus-new .rw-new {
+    background: rgba(16, 185, 129, 0.09);
+}
+
+/* ── New-words panel ── */
+.reader-newwords {
+    flex: 0 0 auto;
+    max-height: 42vh;
+    overflow-y: auto;
+    padding: 1rem 1.5rem 1.25rem;
+    border-bottom: 1px solid var(--border-subtle);
+    background: var(--bg-card);
+}
+
+.newwords-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.9rem;
+}
+
+.newwords-lede,
+.newwords-empty {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin: 0;
+    max-width: 62ch;
+    line-height: 1.6;
+}
+
+.newwords-empty {
+    margin-bottom: 0.9rem;
+}
+
+.newwords-head .reader-toggle {
+    flex-shrink: 0;
+}
+
+.newwords-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.newword {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.45rem 0.75rem;
+    border-radius: var(--radius-md);
+    background: var(--bg-input);
+    border: 1px solid var(--border-light);
+    font-family: var(--font-main);
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    cursor: pointer;
+    text-align: left;
+    transition: border-color var(--duration) ease;
+}
+
+.newword:hover,
+.newword:focus-visible {
+    border-color: var(--accent);
+    outline: none;
+}
+
+.newword-root {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--accent-light);
+}
+
+.newword-gloss {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+/* How many times this root occurs in THIS story — the number that decides
+   whether it is worth learning before you start. */
+.newword-count {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums;
+}
+
 .rw {
     cursor: pointer;
     border-radius: 4px;
@@ -1791,7 +2731,7 @@ body.reader-open { overflow: hidden; }
     left: 50%;
     transform: translateX(-50%);
     bottom: 1rem;
-    z-index: 3100;
+    z-index: var(--z-word-panel);
     width: min(42rem, calc(100vw - 2rem));
     max-height: 45vh;
     overflow-y: auto;
@@ -1858,11 +2798,75 @@ body.reader-open { overflow: hidden; }
     color: var(--secondary-light);
 }
 
+/* The way through to the dictionary. Full width and last, so it reads as the
+   next step rather than as another row of the breakdown above it. */
+.wp-entry {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    /* Row gap stays tight: on a phone the hint wraps to its own line, and a
+       full 0.8rem there pushed the button to 110px in a panel capped at 45vh. */
+    gap: .15rem .8rem;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: .7rem;
+    padding: .55rem .8rem;
+    background: var(--accent-glow, rgba(16, 185, 129, .1));
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-sm);
+    color: var(--text-body);
+    font: inherit;
+    font-size: .88rem;
+    text-align: left;
+    cursor: pointer;
+    transition: border-color .15s, background .15s;
+}
+.wp-entry:hover { border-color: var(--accent); background: rgba(16, 185, 129, .16); }
+.wp-entry:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wp-entry-label strong { font-family: var(--font-code); color: var(--accent); }
+.wp-entry-label::after { content: ' →'; color: var(--text-dim); }
+.wp-entry-hint {
+    color: var(--text-dim);
+    font-size: .68rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+}
+
 @media (max-width: 640px) {
     .reader-bar { flex-wrap: wrap; gap: .6rem; padding: .7rem .9rem; }
-    .reader-bar h2 { order: 3; width: 100%; font-size: .95rem; }
-    .reader-actions { margin-left: auto; }
-    .reader-toggle { padding: .4rem .7rem; font-size: .78rem; }
+
+    /* Two rows, not three. The title used to be forced onto a line of its own
+       (`order: 3; width: 100%`), which was fine when the actions fitted beside
+       the back button — but the action row grew and started wrapping, giving a
+       211px header on an 812px screen. Title beside the back button, actions on
+       their own line, gets that back to ~120px. */
+    .reader-bar h2 {
+        order: 1;
+        width: auto;
+        flex: 1;
+        min-width: 0;
+        font-size: .95rem;
+    }
+
+    /* One row of controls that scrolls sideways if it ever cannot fit, rather
+       than either clipping (the old `flex-shrink: 0; nowrap`, which put "All
+       translations" 180px off-screen and unreachable) or wrapping to two rows
+       and eating the screen. */
+    .reader-actions {
+        order: 2;
+        width: 100%;
+        margin-left: 0;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 2px;
+    }
+    .reader-actions::-webkit-scrollbar { display: none; }
+    .reader-toggle { padding: .35rem .6rem; font-size: .74rem; white-space: nowrap; }
+    .reader-newwords { max-height: 38vh; padding: .9rem 1rem 1rem; }
+    .newwords-head { flex-direction: column; gap: .6rem; }
+    .newwords-head .reader-toggle { align-self: flex-start; }
     .reader-body { padding: 1.5rem 1rem 5rem; }
     /* --rule-pitch, not line-height — it drives both, keeping rules on the grid */
     .reader-fiwo { font-size: 1.08rem; --rule-pitch: 1.95; }
@@ -1871,4 +2875,924 @@ body.reader-open { overflow: hidden; }
     .word-panel { max-height: 55vh; bottom: .5rem; padding: 1rem; }
     .wp-row { flex-direction: column; gap: .1rem; }
     .wp-label { width: auto; }
+}
+
+/* ═══════════════════════════════════════════
+   § LEARN HUB — the two pages under "How to Learn"
+   (Learn pages roadmap §1)
+   ═══════════════════════════════════════════ */
+
+/* Nested sidebar entries. `.side-nav ul` sets `height: 100%` and a column
+   flex for the top-level list; a nested list inherits both by selector and
+   would stretch to fill the drawer, so each is unset explicitly. */
+.side-nav .nav-sub {
+    height: auto;
+    gap: 0;
+    margin: 0.15rem 0 0.35rem 0;
+    padding-left: 1.1rem;
+    border-left: 1px solid var(--border-subtle);
+}
+.side-nav .nav-sub a {
+    font-size: 0.92rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    color: var(--text-dim);
+}
+.side-nav .nav-sub a:hover,
+.side-nav .nav-sub a.active {
+    color: var(--accent-light);
+}
+
+/* Back to the hub, at the top of each child page. */
+.page-crumb {
+    margin: 0 0 1.25rem 0;
+    font-size: 0.9rem;
+}
+.page-crumb a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-weight: 600;
+}
+.page-crumb a:hover {
+    color: var(--accent-light);
+}
+
+.learn-method {
+    margin: 1.25rem 0 0 0;
+    padding-left: 1.4rem;
+    line-height: 1.7;
+}
+.learn-method li {
+    margin-bottom: 1rem;
+    color: var(--text-body);
+}
+.learn-method li::marker {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.learn-paths {
+    display: grid;
+    gap: 1.25rem;
+    margin: 2rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.learn-path-card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color var(--duration) ease, transform var(--duration) ease;
+}
+.learn-path-card:hover,
+.learn-path-card:focus-visible {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    text-decoration: none;
+}
+.learn-path-card h3 {
+    margin: 0 0 0.35rem 0;
+    color: var(--text-primary);
+}
+.learn-path-stat {
+    margin: 0 0 0.9rem 0;
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
+    color: var(--accent);
+    font-family: var(--font-code);
+}
+.learn-path-card p {
+    color: var(--text-body);
+    margin: 0;
+}
+.learn-path-go {
+    margin-top: 1.1rem;
+    font-weight: 700;
+    color: var(--accent-light);
+}
+
+/* ═══════════════════════════════════════════
+   § FLASHCARDS — the deck's home screen
+   (Learn pages roadmap §3.3)
+   ═══════════════════════════════════════════ */
+
+.fc-due {
+    padding: 1.4rem 1.6rem;
+    margin-bottom: 1.25rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--accent);
+    background: var(--accent-glow);
+}
+.fc-due.is-clear {
+    border-color: var(--border-light);
+    background: var(--bg-card);
+}
+.fc-due-main {
+    font-size: 1.3rem;
+    color: var(--text-primary);
+}
+.fc-due-main b { color: var(--accent-light); }
+.fc-due-note {
+    margin-top: 0.35rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.55;
+}
+
+.fc-stat-grid {
+    display: grid;
+    gap: 0.85rem;
+    margin-bottom: 1.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.fc-stat {
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-card);
+}
+.fc-stat-value {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.1;
+}
+.fc-stat-label {
+    margin-top: 0.15rem;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+}
+.fc-stat-hint {
+    margin-top: 0.2rem;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+}
+
+.fc-block {
+    padding: 1.25rem 1.4rem;
+    margin-bottom: 1.25rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-subtle);
+    background: var(--bg-card);
+}
+.fc-block h3 {
+    margin: 0 0 0.9rem 0;
+    font-size: 1rem;
+    color: var(--text-primary);
+}
+.fc-note {
+    margin: 0.7rem 0 0;
+    font-size: 0.82rem;
+    color: var(--text-dim);
+    line-height: 1.6;
+    max-width: 66ch;
+}
+
+/* Progress bars. The three grade colours are the app's, so a card that reads
+   "young" here looks the way it does on the phone. */
+.fc-bar-row { margin-bottom: 0.7rem; }
+.fc-bar-head {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin-bottom: 0.25rem;
+}
+.fc-bar-val { font-family: var(--font-code); font-size: 0.78rem; }
+.fc-bar {
+    height: 7px;
+    border-radius: var(--radius-pill);
+    background: rgba(255, 255, 255, 0.06);
+    overflow: hidden;
+}
+.fc-bar-fill {
+    height: 100%;
+    border-radius: var(--radius-pill);
+    transition: width var(--duration) ease;
+}
+.fc-bar-fill.grade-1 { background: #ef4444; }
+.fc-bar-fill.grade-3 { background: var(--accent); }
+.fc-bar-fill.grade-4 { background: var(--secondary-light); }
+
+/* Review heatmap, 13 weeks. Columns are weeks so it reads left to right like
+   the calendar it is standing in for. */
+.fc-heat {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(7, 11px);
+    gap: 3px;
+    overflow-x: auto;
+    padding-bottom: 0.35rem;
+}
+.fc-heat-cell {
+    width: 11px;
+    height: 11px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.05);
+    display: inline-block;
+}
+.fc-heat-l1 { background: rgba(16, 185, 129, 0.28); }
+.fc-heat-l2 { background: rgba(16, 185, 129, 0.5); }
+.fc-heat-l3 { background: rgba(16, 185, 129, 0.75); }
+.fc-heat-l4 { background: var(--accent); }
+.fc-heat-cell.is-future { opacity: 0.25; }
+.fc-heat-cell.is-today { outline: 1px solid var(--accent-light); outline-offset: 1px; }
+.fc-heat-key {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 0.5rem;
+    font-size: 0.72rem;
+    color: var(--text-dim);
+}
+.fc-heat-key span { margin: 0 0.3rem; }
+
+/* Filters. Multi-select chips over ONE card pool — nothing selected in a group
+   means no restriction from that group, which is why they are toggles rather
+   than a select. */
+.fc-filter { margin-bottom: 1rem; }
+.fc-filter-label {
+    display: block;
+    margin-bottom: 0.45rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+}
+.fc-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.fc-chip {
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--radius-pill);
+    border: 1px solid var(--border-light);
+    background: transparent;
+    color: var(--text-muted);
+    font-size: 0.82rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all var(--duration) ease;
+}
+.fc-chip:hover { border-color: var(--accent); color: var(--text-primary); }
+.fc-chip.is-on {
+    border-color: var(--accent);
+    background: var(--accent-glow);
+    color: var(--accent-light);
+    font-weight: 600;
+}
+
+.fc-number {
+    width: 6rem;
+    padding: 0.45rem 0.6rem;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-light);
+    background: var(--bg-input);
+    color: var(--text-primary);
+    font-family: var(--font-code);
+}
+.fc-toggle {
+    display: flex;
+    gap: 0.65rem;
+    align-items: flex-start;
+    margin-top: 0.9rem;
+    font-size: 0.85rem;
+    color: var(--text-body);
+    line-height: 1.55;
+    cursor: pointer;
+}
+.fc-toggle input { margin-top: 0.25rem; flex: none; }
+.fc-toggle b { color: var(--text-primary); }
+
+.fc-build {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    font-family: var(--font-code);
+}
+
+/* ═══════════════════════════════════════════
+   § STUDY SESSION
+   Ported from the Android app's stylesheet, because the session markup is
+   vendored from it unchanged (Fiwo/Tools/build_web_study.mjs). Class names must
+   keep matching `study.js` there — if a rule here looks orphaned, check that
+   file before deleting it.
+
+   Full screen and above every other layer: reviewing is the one thing on this
+   site that wants no other affordances visible.
+   ═══════════════════════════════════════════ */
+
+/* Same lock the reader uses (`body.reader-open`). A full-screen overlay does
+   not stop the page behind it scrolling, and a swipe that starts just off the
+   card would otherwise drag the site around underneath. */
+body.study-open { overflow: hidden; }
+
+.study {
+    position: fixed;
+    inset: 0;
+    z-index: var(--z-study);
+    background: var(--bg-primary);
+    /* A card thrown off the screen must not extend the page and summon a
+       scrollbar on its way out. */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: max(14px, env(safe-area-inset-top)) 18px
+             calc(14px + env(safe-area-inset-bottom));
+}
+/* The deck is read at arm's length on a desk as well as held in a hand, so the
+   column is capped rather than stretched across a 27-inch monitor. */
+.study > * { width: 100%; max-width: 620px; margin-inline: auto; }
+
+.study-bar { display: flex; align-items: center; gap: 14px; flex: none; }
+.study-exit {
+    background: none; border: 0; padding: 4px 6px;
+    color: var(--text-dim); font-size: 1.2rem; cursor: pointer;
+    font-family: var(--font-main);
+}
+.study-exit:hover { color: var(--text-primary); }
+.study-progress {
+    flex: 1; height: 4px;
+    background: var(--bg-card);
+    border-radius: var(--radius-pill);
+    overflow: hidden;
+}
+.study-progress-fill {
+    height: 100%;
+    background: var(--accent);
+    transition: width var(--duration) var(--ease-out);
+}
+.study-count { color: var(--text-dim); font-size: 0.8rem; min-width: 2.2em; text-align: right; }
+/* Only rendered when audio is enabled, which on this build is never — the stub
+   in study/tts.js answers "no". Kept so the day the trained voice lands, the
+   button has somewhere to stand. */
+.study-say {
+    background: none; border: 0; padding: 2px 4px;
+    font-size: 1rem; line-height: 1; cursor: pointer; opacity: 0.75;
+}
+.study-say:active { opacity: 1; }
+
+.study-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    text-align: center;
+    cursor: pointer;
+    padding: 20px 0;
+    overflow-y: auto;
+    /* Above the tint, and it takes the pointer itself: without
+       `touch-action: none` the browser claims a vertical drag for scrolling and
+       Good and Again — the two most-used grades — never fire. */
+    position: relative;
+    z-index: 1;
+    touch-action: none;
+    will-change: transform;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.study-meta { display: flex; gap: 8px; }
+.tag {
+    padding: 3px 10px;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-pill);
+    font-size: 0.75rem;
+    color: var(--text-dim);
+}
+.tag-new { color: var(--secondary-light); border-color: var(--secondary-glow); }
+
+.study-face { font-size: 1.9rem; color: var(--text-primary); line-height: 1.4; }
+/* Fiwo gets the accent so the two languages are never confusable at a glance —
+   which matters most on production cards, where the answer is the Fiwo. */
+.study-face.fiwo { color: var(--accent-light); }
+.study-face.back { font-size: 1.5rem; }
+.study-rule { width: 60%; border: 0; border-top: 1px solid var(--border-light); margin: 4px 0; }
+.study-note { margin: 0; max-width: 40ch; color: var(--text-dim); font-size: 0.85rem; }
+.study-hint { color: var(--text-dim); font-size: 0.85rem; margin: 0; }
+
+.study-foot {
+    flex: none; min-height: 44px;
+    display: flex; align-items: center; justify-content: center; gap: 1.2rem;
+}
+.study-undo {
+    background: none; border: 0; color: var(--text-dim); font-size: 0.85rem;
+    font-family: var(--font-main); cursor: pointer;
+}
+.study-undo:hover { color: var(--text-primary); }
+/* The keyboard map, stated where it is needed. The app never shows this — a
+   phone has no keys — but this deck is used at a desk, and a gesture nobody
+   tells you about is a gesture nobody uses. */
+.study-keys { color: var(--text-dim); font-size: 0.78rem; }
+.study-keys kbd {
+    font-family: var(--font-code);
+    font-size: 0.72rem;
+    padding: 1px 5px;
+    border: 1px solid var(--border-light);
+    border-bottom-width: 2px;
+    border-radius: 4px;
+    color: var(--text-muted);
+}
+
+.grades { flex: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.grade {
+    padding: 13px 4px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-top-width: 3px;
+    border-radius: var(--radius-md);
+    color: var(--text-body);
+    font-family: var(--font-main);
+    cursor: pointer;
+    display: flex; flex-direction: column; gap: 3px;
+    transition: background var(--duration) ease;
+}
+.grade:hover { background: var(--bg-elevated); }
+.grade-label { font-size: 0.85rem; font-weight: 700; }
+.grade-when { font-size: 0.72rem; color: var(--text-dim); }
+.grade-1 { border-top-color: var(--grade-1); }
+.grade-2 { border-top-color: var(--grade-2); }
+.grade-3 { border-top-color: var(--grade-3); }
+.grade-4 { border-top-color: var(--grade-4); }
+.grade-1-fg { color: var(--grade-1); }
+.grade-2-fg { color: var(--grade-2); }
+.grade-3-fg { color: var(--accent-light); }
+.grade-4-fg { color: var(--grade-4); }
+
+/* ── Swipe to grade ──────────────────────────────────────────────────────────
+       ↑ Good  ·  → Easy  ·  ↓ Again  ·  ← Hard
+
+   The screen takes the colour of the grade you are heading for, so the card
+   answers "what will this do" while you are still deciding, not after. */
+.swipe-glow {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    pointer-events: none;
+    /* Short: this is direct manipulation, so the colour should track the
+       pointer. Not zero, because a little smoothing hides frame drops. */
+    transition: opacity 90ms linear;
+    z-index: 0;
+}
+.swipe-hint {
+    position: absolute;
+    top: 50%; left: 0; right: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 120ms linear, transform 140ms var(--ease-out);
+    /* Above the card, not behind it: at small drags the card still covers the
+       middle of the screen, and a label you cannot read until you have almost
+       committed is no help at all. */
+    z-index: 2;
+    text-shadow: 0 2px 18px var(--bg-primary);
+}
+/* Past the threshold: releasing now WILL grade. Worth a distinct state, since
+   the difference between "dragging" and "committed" is the whole gesture. */
+.swipe-hint.is-armed { transform: translateY(-50%) scale(1.12); }
+
+@media (prefers-reduced-motion: reduce) {
+    .swipe-hint { transition: opacity 120ms linear; }
+    .swipe-hint.is-armed { transform: translateY(-50%); }
+    .study-progress-fill { transition: none; }
+}
+
+.study-done { margin: auto; text-align: center; width: 100%; max-width: 340px; }
+.study-done h2 { font-size: 2rem; margin: 0; color: var(--accent-light); }
+.study-done-sub { color: var(--text-muted); margin: 6px 0 26px; }
+.study-tally { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 26px; }
+.tally-n { font-size: 1.5rem; font-weight: 700; }
+.tally-l { font-size: 0.75rem; color: var(--text-dim); }
+.btn-primary {
+    width: 100%;
+    padding: 15px;
+    background: var(--accent);
+    border: 0;
+    border-radius: var(--radius-md);
+    color: #04150e;
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-primary:disabled { background: var(--bg-card); color: var(--text-dim); }
+
+/* The button that starts it all, on the flashcards home. */
+.fc-start {
+    margin-top: 0.9rem;
+    padding: 0.85rem 1.6rem;
+    background: var(--accent);
+    border: 0;
+    border-radius: var(--radius-md);
+    color: #04150e;
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.fc-start:hover { background: var(--accent-light); }
+
+/* ═══════════════════════════════════════════
+   § WORKBOOK — the course you answer
+   ═══════════════════════════════════════════ */
+
+/* Panel beside the lesson, not bolted to the viewport like the Rulebook's. It
+   carries per-lesson progress, so it has to sit next to the thing it describes
+   and scroll with it rather than float over it. */
+.wb-layout {
+    display: grid;
+    grid-template-columns: 250px minmax(0, 1fr);
+    gap: 2rem;
+    align-items: start;
+}
+
+.wb-toc {
+    position: sticky;
+    top: 5rem;
+    max-height: calc(100vh - 7rem);
+    overflow-y: auto;
+    padding-right: 0.4rem;
+    border-right: 1px solid var(--border-subtle);
+}
+.wb-toc::-webkit-scrollbar { width: 6px; }
+.wb-toc::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 3px; }
+
+.wb-toc-head {
+    padding: 0 0 0.75rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+.wb-totals b {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    color: var(--accent);
+}
+.wb-totals span {
+    display: block;
+    font-size: 0.74rem;
+    color: var(--text-dim);
+    line-height: 1.45;
+}
+
+.wb-phase { margin-bottom: 1.1rem; }
+.wb-phase h4 {
+    margin: 0 0 0.15rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+}
+.wb-ability {
+    margin: 0 0 0.4rem !important;
+    font-size: 0.7rem;
+    line-height: 1.4;
+    color: var(--text-dim);
+}
+.wb-phase ul { list-style: none; margin: 0; padding: 0; }
+
+.wb-phase a {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.3rem 0.45rem;
+    border-radius: var(--radius-sm, 6px);
+    text-decoration: none;
+    color: var(--text-muted);
+    line-height: 1.25;
+}
+.wb-phase a b {
+    grid-column: 1;
+    display: block;
+    font-size: 0.7rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    font-weight: 600;
+}
+/* Two lines, then clip. Forty-six entries at their natural height make a panel
+   you scroll rather than scan. */
+.wb-phase a span {
+    grid-column: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 0.78rem;
+}
+.wb-phase a:hover { background: var(--bg-elevated); color: var(--text-body); }
+.wb-phase a.is-current {
+    background: var(--accent-glow);
+    color: var(--text-primary);
+}
+.wb-phase a.is-current b { color: var(--accent); }
+
+/* Mastery as a ring rather than a number: at a glance you want "how much of
+   this lesson do I have", not a figure to compare. */
+.wb-ring {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: conic-gradient(var(--accent) var(--pct, 0%), var(--border-light) 0);
+    position: relative;
+    flex: none;
+}
+.wb-ring::after {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    border-radius: 50%;
+    background: var(--bg-primary);
+}
+.wb-ring[data-state="done"]::after { background: var(--accent); }
+.wb-ring[data-state="none"] { background: var(--border-subtle); }
+
+/* ── The lesson ───────────────────────────────────────────────────────────── */
+
+.wb-head { margin-bottom: 1.2rem; }
+.wb-head h3 { margin: 0; font-size: 1.35rem; }
+.wb-subtitle {
+    margin: 0.15rem 0 0.5rem !important;
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+.wb-score {
+    font-size: 0.82rem;
+    color: var(--text-dim);
+}
+.wb-score b { color: var(--accent); font-size: 1rem; }
+
+.wb-teach > :first-child { margin-top: 0; }
+.wb-outro {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.wb-exercises {
+    margin-top: 2rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--border-light);
+}
+.wb-part { margin-bottom: 1.8rem; }
+.wb-part h4 {
+    margin: 0 0 0.2rem;
+    font-size: 0.95rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+.wb-part-type {
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+}
+.wb-part-note {
+    margin: 0 0 0.6rem !important;
+    font-size: 0.83rem;
+    color: var(--text-muted);
+}
+
+.wb-items { list-style: none; margin: 0; padding: 0; }
+
+.wb-item {
+    padding: 0.7rem 0.85rem;
+    margin-bottom: 0.5rem;
+    border-radius: var(--radius-md, 8px);
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-left: 3px solid var(--border-light);
+}
+.wb-item.is-right { border-left-color: var(--accent); }
+.wb-item.is-wrong { border-left-color: #fbbf24; }
+/* Neither right nor wrong: you looked. Muted rather than coloured, because the
+   colours mean something and this is the absence of that something. */
+.wb-item.is-shown { border-left-color: var(--text-dim); }
+
+.wb-q { display: flex; gap: 0.6rem; align-items: baseline; }
+.wb-n {
+    flex: none;
+    min-width: 1.4rem;
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    font-variant-numeric: tabular-nums;
+}
+.wb-q-text { font-size: 0.95rem; line-height: 1.5; color: var(--text-body); }
+
+.wb-entry { margin: 0.55rem 0 0 2rem; }
+.wb-input {
+    width: 100%;
+    padding: 0.45rem 0.6rem;
+    border-radius: var(--radius-sm, 6px);
+    border: 1px solid var(--border-light);
+    background: var(--bg-input);
+    color: var(--text-primary);
+    font-family: var(--font-main);
+    font-size: 0.92rem;
+    resize: vertical;
+}
+.wb-input:focus { outline: none; border-color: var(--border-focus); }
+.wb-input:disabled { color: var(--text-muted); opacity: 1; }
+
+.wb-entry-actions, .wb-self {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.45rem;
+}
+.wb-btn {
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--radius-sm, 6px);
+    border: 1px solid var(--border-light);
+    background: var(--bg-input);
+    color: var(--text-secondary, var(--text-body));
+    font-family: var(--font-main);
+    font-size: 0.78rem;
+    cursor: pointer;
+}
+.wb-btn:hover { border-color: var(--accent); color: var(--text-primary); }
+.wb-btn-go { border-color: var(--accent); color: var(--accent-light); }
+.wb-quiet { border-color: transparent; color: var(--text-dim); }
+.wb-quiet:hover { color: var(--text-body); }
+
+.wb-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0.55rem 0 0 2rem;
+}
+.wb-option {
+    padding: 0.3rem 0.7rem;
+    border-radius: var(--radius-sm, 6px);
+    border: 1px solid var(--border-light);
+    background: var(--bg-input);
+    cursor: pointer;
+}
+.wb-option code { color: var(--accent-light); font-size: 0.88rem; }
+.wb-option:hover:not(:disabled) { border-color: var(--accent); }
+.wb-option:disabled { cursor: default; opacity: 0.45; }
+.wb-option.is-picked { opacity: 1; border-color: var(--text-muted); }
+
+.wb-feedback:not(:empty) { margin: 0.5rem 0 0 2rem; }
+.wb-verdict {
+    margin: 0 !important;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+}
+.wb-item.is-wrong .wb-verdict { color: #fbbf24; }
+.wb-item.is-shown .wb-verdict { color: var(--text-muted); }
+.wb-key {
+    margin: 0.25rem 0 0 !important;
+    font-size: 0.86rem;
+    line-height: 1.5;
+    color: var(--text-body);
+}
+.wb-key span {
+    font-size: 0.68rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-right: 0.4rem;
+}
+.wb-hint {
+    margin: 0.25rem 0 0 !important;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: var(--text-muted);
+}
+.wb-miss { color: #fbbf24; }
+
+.wb-move {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-subtle);
+    font-size: 0.85rem;
+}
+.wb-move a { color: var(--text-muted); text-decoration: none; }
+.wb-move a:hover { color: var(--accent); }
+
+/* The panel stacks above the lesson on narrow screens rather than becoming a
+   drawer: it is the page's only navigation, and a menu you have to discover is
+   worse than one you scroll past. */
+@media (max-width: 900px) {
+    .wb-layout { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+    .wb-toc {
+        position: static;
+        max-height: 240px;
+        border-right: none;
+        border-bottom: 1px solid var(--border-subtle);
+        padding-bottom: 0.5rem;
+    }
+    .wb-entry, .wb-options, .wb-feedback:not(:empty) { margin-left: 0; }
+}
+
+/* ── Word bank and cloze ──────────────────────────────────────────────────── */
+
+.wb-bank { margin: 0.55rem 0 0 2rem; }
+
+/* The answer being built. Dashed and always visible, so an empty one reads as
+   "put words here" rather than as nothing at all. */
+.wb-slot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    min-height: 2.4rem;
+    padding: 0.35rem 0.5rem;
+    border: 1px dashed var(--border-light);
+    border-radius: var(--radius-sm, 6px);
+    background: var(--bg-input);
+}
+.wb-slot:empty::after {
+    content: 'Tap the words below, in order';
+    font-size: 0.78rem;
+    color: var(--text-dim);
+}
+
+.wb-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.45rem;
+}
+
+.wb-tile {
+    padding: 0.3rem 0.6rem;
+    border-radius: var(--radius-sm, 6px);
+    border: 1px solid var(--border-light);
+    background: var(--bg-elevated);
+    color: var(--accent-light);
+    font-family: var(--font-main);
+    font-size: 0.88rem;
+    cursor: grab;
+    /* The browser must not claim the gesture for scrolling, or a drag that
+       starts on a tile turns into a page scroll halfway through. */
+    touch-action: none;
+    user-select: none;
+}
+.wb-tile:hover:not(:disabled) { border-color: var(--accent); }
+.wb-tile:disabled { cursor: default; opacity: 0.6; }
+
+.wb-tile.is-dragging {
+    position: fixed;
+    z-index: var(--z-study, 3300);
+    cursor: grabbing;
+    pointer-events: none;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+    border-color: var(--accent);
+}
+.wb-tile-ghost {
+    background: var(--border-subtle);
+    border-style: dashed;
+    pointer-events: none;
+}
+
+.wb-item-cloze { padding-left: 0.85rem; }
+.wb-cloze-line {
+    margin: 0 !important;
+    font-size: 1rem;
+    line-height: 1.9;
+    color: var(--text-primary);
+}
+.wb-cloze-en {
+    margin: 0.2rem 0 0 !important;
+    font-size: 0.83rem;
+    color: var(--text-muted);
+}
+.wb-gap-input {
+    width: auto;
+    padding: 0.1rem 0.35rem;
+    border: none;
+    border-bottom: 2px solid var(--accent);
+    border-radius: 0;
+    background: var(--bg-input);
+    color: var(--accent-light);
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    text-align: center;
+}
+.wb-gap-input:focus { outline: none; background: var(--accent-glow); }
+.wb-gap.is-filled {
+    padding: 0.1rem 0.35rem;
+    border-bottom: 2px solid var(--accent);
+    color: var(--accent-light);
+}
+
+@media (max-width: 900px) {
+    .wb-bank { margin-left: 0; }
 }

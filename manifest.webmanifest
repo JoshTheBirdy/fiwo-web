@@ -1,0 +1,24 @@
+{
+  "name": "Fiwo — an engineered language",
+  "short_name": "Fiwo",
+  "description": "The Fiwo language: 39 rules, a deterministic parser, 1,500+ roots, a dictionary that shows its derivations, and graded stories to read.",
+  "start_url": "./#start-here",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0a0a0f",
+  "background_color": "#0a0a0f",
+  "categories": ["education", "books", "reference"],
+  "lang": "en",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Dictionary", "url": "./#dictionary" },
+    { "name": "Let's Read", "url": "./#lets-read" },
+    { "name": "Translator", "url": "./#translator" }
+  ]
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Fiwo">
+  <!-- Emerald tile so the mark reads on both light and dark browser chrome.
+       The F is drawn as rects rather than <text>: a favicon cannot rely on a
+       font being available, and this stays legible down to 16px. -->
+  <rect width="32" height="32" rx="7" fill="#10b981"/>
+  <g fill="#0a0a0f">
+    <rect x="10" y="7"  width="4"  height="18"/>
+    <rect x="10" y="7"  width="12" height="4"/>
+    <rect x="10" y="14" width="9"  height="4"/>
+  </g>
+</svg>

@@ -6,7 +6,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Derives a biological noun, such as a living organism, plant, animal, or body part.",
     "tier": 0,
-    "rank": 130
+    "rank": 130,
+    "freq": 0,
+    "freq_rank": 1337,
+    "example": {
+      "fiwo": "Sydoap ceni deky sydop.",
+      "english": "The resident lives in the house."
+    }
   },
   {
     "word": "-d",
@@ -14,7 +20,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Indicates an action that occurred in the past.",
     "tier": 0,
-    "rank": 123
+    "rank": 123,
+    "freq": 0,
+    "freq_rank": 1338,
+    "example": {
+      "fiwo": "Daq nacid wecdu.",
+      "english": "He worked yesterday."
+    }
   },
   {
     "word": "-dyk",
@@ -22,7 +34,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Establishes that an action was completely finished before another past action occurred.",
     "tier": 0,
-    "rank": 117
+    "rank": 117,
+    "freq": 0,
+    "freq_rank": 1339,
+    "example": {
+      "fiwo": "Daq nacidyk pary tequp tep mik plid.",
+      "english": "He had already worked before I arrived."
+    }
   },
   {
     "word": "-dyq",
@@ -30,7 +48,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Indicates an action that was actively in progress during the past.",
     "tier": 0,
-    "rank": 121
+    "rank": 121,
+    "freq": 0,
+    "freq_rank": 1340,
+    "example": {
+      "fiwo": "Daq nacidyq wecdu.",
+      "english": "He was working yesterday."
+    }
   },
   {
     "word": "-e",
@@ -38,7 +62,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Derives a descriptive modifier.",
     "tier": 0,
-    "rank": 132
+    "rank": 132,
+    "freq": 0,
+    "freq_rank": 1341,
+    "example": {
+      "fiwo": "Sydop mike dorsoei.",
+      "english": "My house is wet."
+    }
   },
   {
     "word": "-f",
@@ -46,7 +76,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "The -f suffix tells the parser to act as mathematical parentheses, distributing the modifier backward across every noun connected by lan until the chain breaks.",
     "tier": 0,
-    "rank": 134
+    "rank": 134,
+    "freq": 0,
+    "freq_rank": 1342
   },
   {
     "word": "-i",
@@ -54,7 +86,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Derives an action or a stative verb.",
     "tier": 0,
-    "rank": 124
+    "rank": 124,
+    "freq": 0,
+    "freq_rank": 1343,
+    "example": {
+      "fiwo": "Mik foisoid sydop.",
+      "english": "I built the house."
+    }
   },
   {
     "word": "-k",
@@ -62,7 +100,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Indicates a completed past action that has a direct result or relevance right now.",
     "tier": 0,
-    "rank": 118
+    "rank": 118,
+    "freq": 0,
+    "freq_rank": 1344,
+    "example": {
+      "fiwo": "Daq nacik.",
+      "english": "He has finished working."
+    }
   },
   {
     "word": "-m",
@@ -70,7 +114,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Signals the parser to suspend the Look Left rule, allowing the next modifier to attach to this word instead of the root.",
     "tier": 0,
-    "rank": 131
+    "rank": 131,
+    "freq": 0,
+    "freq_rank": 1345,
+    "example": {
+      "fiwo": "Mik karxid sydop dalem je.",
+      "english": "I found their house."
+    }
   },
   {
     "word": "-o",
@@ -78,7 +128,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Derives a concrete noun, such as a physical object, material, tool, or location.",
     "tier": 0,
-    "rank": 129
+    "rank": 129,
+    "freq": 0,
+    "freq_rank": 1346,
+    "example": {
+      "fiwo": "Mik stelidyq jamiop.",
+      "english": "I was holding the document."
+    }
   },
   {
     "word": "-p",
@@ -86,7 +142,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Explicitly identifies a known, definite entity.",
     "tier": 0,
-    "rank": 126
+    "rank": 126,
+    "freq": 0,
+    "freq_rank": 1347,
+    "example": {
+      "fiwo": "Mik karxid detap.",
+      "english": "I found the specific dog."
+    }
   },
   {
     "word": "-q",
@@ -94,7 +156,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Indicates an action actively in progress at this exact moment.",
     "tier": 0,
-    "rank": 120
+    "rank": 120,
+    "freq": 0,
+    "freq_rank": 1348,
+    "example": {
+      "fiwo": "Daq naciq nu.",
+      "english": "He is working right now."
+    }
   },
   {
     "word": "-r",
@@ -102,7 +170,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Indicates an indefinite, unknown, or general entity.",
     "tier": 0,
-    "rank": 125
+    "rank": 125,
+    "freq": 0,
+    "freq_rank": 1349,
+    "example": {
+      "fiwo": "Mik karxid detar.",
+      "english": "I found a dog."
+    }
   },
   {
     "word": "-s",
@@ -110,7 +184,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Indicates an action that will occur forward in time.",
     "tier": 0,
-    "rank": 122
+    "rank": 122,
+    "freq": 0,
+    "freq_rank": 1350,
+    "example": {
+      "fiwo": "Daq nacis fitydu.",
+      "english": "He will work tomorrow."
+    }
   },
   {
     "word": "-syk",
@@ -118,7 +198,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Sets a deadline for when a future action will be completely finished.",
     "tier": 0,
-    "rank": 116
+    "rank": 116,
+    "freq": 0,
+    "freq_rank": 1351,
+    "example": {
+      "fiwo": "Daq nacisyk pary dugu.",
+      "english": "He will have worked before nightfall."
+    }
   },
   {
     "word": "-syq",
@@ -126,7 +212,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Describes an ongoing state at a specific point in the future.",
     "tier": 0,
-    "rank": 119
+    "rank": 119,
+    "freq": 0,
+    "freq_rank": 1352,
+    "example": {
+      "fiwo": "Daq nacisyq ky dumu dewe.",
+      "english": "He will be working in two minutes."
+    }
   },
   {
     "word": "-t",
@@ -134,7 +226,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Mathematical linker that locks adjacent words into a single syntactic block, combining single digits into multi-digit integers or permanently chaining serial verbs.",
     "tier": 0,
-    "rank": 133
+    "rank": 133,
+    "freq": 0,
+    "freq_rank": 1353,
+    "example": {
+      "fiwo": "Mik fabi nomit batap.",
+      "english": "I want to eat the food."
+    }
   },
   {
     "word": "-u",
@@ -142,7 +240,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Derives an abstract noun, such as a concept, emotion, time, or intangible idea.",
     "tier": 0,
-    "rank": 128
+    "rank": 128,
+    "freq": 0,
+    "freq_rank": 1354,
+    "example": {
+      "fiwo": "Kypeup suke jofid mik.",
+      "english": "Your happiness helped me."
+    }
   },
   {
     "word": "abeco",
@@ -150,7 +254,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A powered, fixed-wing flying vehicle constructed from lightweight metals or composites.",
     "tier": 2,
-    "rank": 416
+    "rank": 416,
+    "freq": 4,
+    "freq_rank": 600,
+    "example": {
+      "fiwo": "Abecop cyridyq zave.",
+      "english": "The plane was flying high."
+    }
   },
   {
     "word": "abeze",
@@ -158,7 +268,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "A comparative modifier used to indicate that something reaches a specifically referenced degree, extent, or manner (e.g., Why are you so angry?).",
     "tier": 2,
-    "rank": 9
+    "rank": 9,
+    "freq": 2,
+    "freq_rank": 761,
+    "example": {
+      "fiwo": "Daq ruzeid abeze.",
+      "english": "He was so fast."
+    }
   },
   {
     "word": "absu",
@@ -167,7 +283,13 @@ const dictionaryData = [
     "definition": "An abstract faculty of perception, logic, or structural meaning.",
     "usage_note": "The faculty itself, distinct from the physical sense organ.",
     "tier": 3,
-    "rank": 187
+    "rank": 187,
+    "freq": 0,
+    "freq_rank": 1358,
+    "example": {
+      "fiwo": "Absup ry mik paulidyq.",
+      "english": "My sense was feeling."
+    }
   },
   {
     "word": "acina",
@@ -175,7 +297,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word identifies a sharp, curved, horny nail situated on the digit of an animal's foot, used for gripping or tearing.",
     "tier": 3,
-    "rank": 558
+    "rank": 558,
+    "freq": 0,
+    "freq_rank": 1360,
+    "example": {
+      "fiwo": "Catsap jedi acinar rute je.",
+      "english": "The cat has sharp claws."
+    }
   },
   {
     "word": "acle",
@@ -183,7 +311,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Showing a readiness to give more of something (like time, care, or wealth) than is expected.",
     "tier": 3,
-    "rank": 493
+    "rank": 493,
+    "freq": 0,
+    "freq_rank": 1362,
+    "example": {
+      "fiwo": "Licap acleid.",
+      "english": "The colleague was generous."
+    }
   },
   {
     "word": "acry",
@@ -191,7 +325,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a spatial bridge mapping movement or position from one side of a surface, boundary, or flat area to the opposite side.",
     "tier": 0,
-    "rank": 70
+    "rank": 70,
+    "freq": 8,
+    "freq_rank": 432,
+    "example": {
+      "fiwo": "Catsap cafid acry caenop.",
+      "english": "The cat ran across the street."
+    }
   },
   {
     "word": "acumuli",
@@ -199,7 +339,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To give one thing and receive another in return; to exchange goods or services with another party.",
     "tier": 3,
-    "rank": 210
+    "rank": 210,
+    "freq": 0,
+    "freq_rank": 1366,
+    "example": {
+      "fiwo": "Nak acumulid batap.",
+      "english": "We traded the food."
+    }
   },
   {
     "word": "adihu",
@@ -207,7 +353,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract state of being awake, perceiving reality, and having a subjective, self-aware experience.",
     "tier": 3,
-    "rank": 444
+    "rank": 444,
+    "freq": 2,
+    "freq_rank": 762,
+    "example": {
+      "fiwo": "Adihup ry mik moriq.",
+      "english": "My awareness is growing."
+    }
   },
   {
     "word": "adrebu",
@@ -215,7 +367,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Extent, Used when referring to the how much of an abstract concept (e.g., The extent of the problem).",
     "tier": 2,
-    "rank": 242
+    "rank": 242,
+    "freq": 1,
+    "freq_rank": 915,
+    "example": {
+      "fiwo": "Adrebup ry mik zaveid.",
+      "english": "My degree was high."
+    }
   },
   {
     "word": "adriswe",
@@ -223,7 +381,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Running at a slant, joining opposite corners rather than following the vertical or horizontal.",
     "tier": 3,
-    "rank": 561
+    "rank": 561,
+    "freq": 0,
+    "freq_rank": 1370,
+    "example": {
+      "fiwo": "Fikop adriswe.",
+      "english": "The path is diagonal."
+    }
   },
   {
     "word": "adyvo",
@@ -231,7 +395,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A folding canopy on a metal frame, used to protect against rain or sun.",
     "tier": 3,
-    "rank": 548
+    "rank": 548,
+    "freq": 0,
+    "freq_rank": 1373,
+    "example": {
+      "fiwo": "Uymop ry mik.",
+      "english": "The umbrella is mine."
+    }
   },
   {
     "word": "aefi",
@@ -239,7 +409,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To slide accidentally or lose one's footing on a slippery surface.",
     "tier": 3,
-    "rank": 474
+    "rank": 474,
+    "freq": 0,
+    "freq_rank": 1375,
+    "example": {
+      "fiwo": "Daq aefid ty jawop.",
+      "english": "He slipped on the ice."
+    }
   },
   {
     "word": "afbi",
@@ -247,7 +423,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To move forward close to the ground, typically on hands and knees.",
     "tier": 3,
-    "rank": 550
+    "rank": 550,
+    "freq": 0,
+    "freq_rank": 1376,
+    "example": {
+      "fiwo": "Womap afbis ty zafoirop.",
+      "english": "The worm will crawl on the floor."
+    }
   },
   {
     "word": "afxo",
@@ -255,7 +437,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The solid, powdery physical residue left behind after combustible matter has been completely consumed by fire.",
     "tier": 3,
-    "rank": 497
+    "rank": 497,
+    "freq": 0,
+    "freq_rank": 1378,
+    "example": {
+      "fiwo": "Afxop locweid.",
+      "english": "The ash was white."
+    }
   },
   {
     "word": "afymu",
@@ -263,7 +451,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual system governing the production, distribution, and consumption of societal resources.",
     "tier": 3,
-    "rank": 181
+    "rank": 181,
+    "freq": 0,
+    "freq_rank": 1380,
+    "example": {
+      "fiwo": "Afymup ry nak bokeid.",
+      "english": "Our economy was bad."
+    }
   },
   {
     "word": "agcu",
@@ -271,7 +465,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An action, decision, or judgment that is incorrect, misguided, or wrong.",
     "tier": 2,
-    "rank": 235
+    "rank": 235,
+    "freq": 8,
+    "freq_rank": 433,
+    "example": {
+      "fiwo": "Agcup ry mik bokeid.",
+      "english": "My mistake was bad."
+    }
   },
   {
     "word": "agmi",
@@ -279,7 +479,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To fasten, stick, or bind things together using an adhesive substance.",
     "tier": 3,
-    "rank": 538
+    "rank": 538,
+    "freq": 0,
+    "freq_rank": 1383,
+    "example": {
+      "fiwo": "Mik agmid lakirop ty krapop.",
+      "english": "I glued the picture to the wall."
+    }
   },
   {
     "word": "agso",
@@ -287,7 +493,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A prolonged period of abnormally low rainfall, leading to a severe shortage of water.",
     "tier": 3,
-    "rank": 540
+    "rank": 540,
+    "freq": 4,
+    "freq_rank": 601,
+    "example": {
+      "fiwo": "Agsop skumkid nasap je.",
+      "english": "The drought destroyed the plants."
+    }
   },
   {
     "word": "ahze",
@@ -295,7 +507,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word indicates that something is very close to a specific state, quantity, or degree, but is not completely there yet.",
     "tier": 3,
-    "rank": 86
+    "rank": 86,
+    "freq": 0,
+    "freq_rank": 1387,
+    "example": {
+      "fiwo": "Mik usid ahze.",
+      "english": "I almost slept."
+    }
   },
   {
     "word": "aite",
@@ -303,7 +521,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Emitting a strong, unpleasant, or foul odor.",
     "tier": 3,
-    "rank": 560
+    "rank": 560,
+    "freq": 0,
+    "freq_rank": 1389,
+    "example": {
+      "fiwo": "Mitap suve aitei.",
+      "english": "Your meat is smelly."
+    }
   },
   {
     "word": "ajogo",
@@ -311,7 +535,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An open wheeled vehicle for carrying loads, pulled or pushed.",
     "tier": 3,
-    "rank": 530
+    "rank": 530,
+    "freq": 1,
+    "freq_rank": 917,
+    "example": {
+      "fiwo": "Ajogop juce.",
+      "english": "The cart is heavy."
+    }
   },
   {
     "word": "ak",
@@ -319,7 +549,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Exclamation of sudden physical pain or intense discomfort.",
     "tier": 0,
-    "rank": 85
+    "rank": 85,
+    "freq": 0,
+    "freq_rank": 1392,
+    "example": {
+      "fiwo": "Ak! Ram satsid mygap mike.",
+      "english": "Ouch! It hit my leg."
+    }
   },
   {
     "word": "akari",
@@ -327,7 +563,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To cook food using dry, ambient heat in an enclosed space (like an oven) or over an open flame.",
     "tier": 3,
-    "rank": 536
+    "rank": 536,
+    "freq": 0,
+    "freq_rank": 1393,
+    "example": {
+      "fiwo": "Das akaris kikap.",
+      "english": "She will roast the chicken."
+    }
   },
   {
     "word": "akdi",
@@ -335,7 +577,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To speak, cry out, or call in a very loud voice, typically expressing strong emotion.",
     "tier": 3,
-    "rank": 519
+    "rank": 519,
+    "freq": 3,
+    "freq_rank": 661,
+    "example": {
+      "fiwo": "Detap akdid.",
+      "english": "The dog barked/shouted."
+    }
   },
   {
     "word": "amby",
@@ -343,7 +591,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicating substitution of one entity or action for another.",
     "tier": 0,
-    "rank": 111
+    "rank": 111,
+    "freq": 0,
+    "freq_rank": 1397,
+    "example": {
+      "fiwo": "Mik rolid refor amby tesor.",
+      "english": "I drank coffee instead of tea."
+    }
   },
   {
     "word": "amce",
@@ -351,7 +605,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "At no time; not ever.",
     "tier": 1,
-    "rank": 280
+    "rank": 280,
+    "freq": 20,
+    "freq_rank": 226,
+    "example": {
+      "fiwo": "Dugup ripei amce.",
+      "english": "The night is never hot."
+    }
   },
   {
     "word": "amute",
@@ -359,7 +619,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes an event or state happening before the usual, expected, or planned time.",
     "tier": 1,
-    "rank": 138
+    "rank": 138,
+    "freq": 5,
+    "freq_rank": 545,
+    "example": {
+      "fiwo": "Daq plid amute.",
+      "english": "He arrived early."
+    }
   },
   {
     "word": "anaze",
@@ -367,7 +633,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes an abstract concept, rule, or structural element that serves as the deep, necessary foundation or core basis from which other things develop.",
     "tier": 3,
-    "rank": 302
+    "rank": 302,
+    "freq": 0,
+    "freq_rank": 1401,
+    "example": {
+      "fiwo": "Azikup anazei.",
+      "english": "The rule is basic."
+    }
   },
   {
     "word": "anote",
@@ -375,7 +647,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes an event or state happening after the usual, expected, or planned time.",
     "tier": 1,
-    "rank": 136
+    "rank": 136,
+    "freq": 2,
+    "freq_rank": 763,
+    "example": {
+      "fiwo": "Mik plid anote.",
+      "english": "I arrived late."
+    }
   },
   {
     "word": "anuwu",
@@ -383,7 +661,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The one small final addition that brings the whole to life; the opposite of lynku (ruin by overdoing). Logical equivalent: Lantiup lande fefue keanei cemup late. (The small final addition completes everything.)",
     "tier": 2,
-    "rank": 403
+    "rank": 403,
+    "freq": 2,
+    "freq_rank": 765,
+    "example": {
+      "fiwo": "Jormup sile anuwur.",
+      "english": "This situation is the vital finishing touch."
+    }
   },
   {
     "word": "aofe",
@@ -391,7 +675,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Fully satisfied after eating; no longer hungry.",
     "tier": 3,
-    "rank": 32
+    "rank": 32,
+    "freq": 0,
+    "freq_rank": 1403
   },
   {
     "word": "ap",
@@ -399,7 +685,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "This is an immutable mathematical operator used to perform explicit division or create fractions within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used in a Zero Copula sentence to state a mathematical equation (e.g., sluqe ap dewe tafe = 6 divided by 2 is 3).",
     "tier": 0,
-    "rank": 52
+    "rank": 52,
+    "freq": 7,
+    "freq_rank": 462,
+    "example": {
+      "fiwo": "Sluqe ap dewe labnei tafe.",
+      "english": "Six divided by two equals three."
+    }
   },
   {
     "word": "apawy",
@@ -407,7 +699,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "A structural preposition indicating that an action or state strictly follows the rules, statements, or nature of the target noun.",
     "tier": 0,
-    "rank": 115
+    "rank": 115,
+    "freq": 10,
+    "freq_rank": 381,
+    "example": {
+      "fiwo": "Muk xyfid ram apawy azikup.",
+      "english": "We did it according to the rule."
+    }
   },
   {
     "word": "apla",
@@ -415,7 +713,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The fleshy, round fruit of a specific widely cultivated tree, typically possessing a red or green skin and a crisp interior.",
     "tier": 2,
-    "rank": 135
+    "rank": 135,
+    "freq": 10,
+    "freq_rank": 382,
+    "example": {
+      "fiwo": "Aplap tutei.",
+      "english": "The apple is sweet."
+    }
   },
   {
     "word": "apre",
@@ -423,7 +727,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Conforming to a standard; usual, typical, or expected.",
     "tier": 3,
-    "rank": 250
+    "rank": 250,
+    "freq": 0,
+    "freq_rank": 1406,
+    "example": {
+      "fiwo": "Isamup apreid.",
+      "english": "The result was typical."
+    }
   },
   {
     "word": "aqe",
@@ -431,7 +741,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Pertaining to the biological sex that typically produces the mobile gametes (sperm), or relating to masculine characteristics.",
     "tier": 2,
-    "rank": 126
+    "rank": 126,
+    "freq": 1,
+    "freq_rank": 919,
+    "example": {
+      "fiwo": "Nofap aqei.",
+      "english": "The person is male."
+    }
   },
   {
     "word": "arcipi",
@@ -439,7 +755,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively enter into an event, group, or activity and take part in its ongoing processes.",
     "tier": 3,
-    "rank": 265
+    "rank": 265,
+    "freq": 0,
+    "freq_rank": 1409,
+    "example": {
+      "fiwo": "Nak arcipis ky spelup.",
+      "english": "We will participate in the game."
+    }
   },
   {
     "word": "arife",
@@ -447,7 +769,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Highly recommended, socially expected, or logically advisable, but not strictly obligatory.",
     "tier": 1,
-    "rank": 319
+    "rank": 319,
+    "freq": 5,
+    "freq_rank": 546,
+    "example": {
+      "fiwo": "Suk jofis arife nupap suke.",
+      "english": "You should help your parent."
+    }
   },
   {
     "word": "arke",
@@ -455,7 +783,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Having a child or young developing in the uterus.",
     "tier": 3,
-    "rank": 405
+    "rank": 405,
+    "freq": 0,
+    "freq_rank": 1412,
+    "example": {
+      "fiwo": "Nosanap arkeid.",
+      "english": "The woman was pregnant."
+    }
   },
   {
     "word": "arlo",
@@ -463,7 +797,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A natural electrical discharge of very short duration and high voltage, accompanied by a bright flash.",
     "tier": 3,
-    "rank": 481
+    "rank": 481,
+    "freq": 0,
+    "freq_rank": 1414,
+    "example": {
+      "fiwo": "Arlop satsid mosap.",
+      "english": "The lightning hit the tree."
+    }
   },
   {
     "word": "arsumpi",
@@ -471,7 +811,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To move steadily and continuously in a current or stream, as liquids, air, or crowds naturally do; ibvi (pour) is the deliberate act.",
     "tier": 2,
-    "rank": 438
+    "rank": 438,
+    "freq": 1,
+    "freq_rank": 921,
+    "example": {
+      "fiwo": "Dorsop arsumpiq.",
+      "english": "The water is flowing."
+    }
   },
   {
     "word": "arteta",
@@ -479,7 +825,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the fleshy, edible product of a tree or plant that naturally contains seeds and is consumed as food.",
     "tier": 1,
-    "rank": 272
+    "rank": 272,
+    "freq": 4,
+    "freq_rank": 603,
+    "example": {
+      "fiwo": "Mik nomidyq artetar.",
+      "english": "I was eating a fruit."
+    }
   },
   {
     "word": "artu",
@@ -487,7 +839,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The conceptual expression or abstract application of human creative skill and imagination.",
     "tier": 2,
-    "rank": 82
+    "rank": 82,
+    "freq": 0,
+    "freq_rank": 1419,
+    "example": {
+      "fiwo": "Artup ry London baudeid.",
+      "english": "The art of London was beautiful."
+    }
   },
   {
     "word": "ase",
@@ -495,7 +853,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Pertaining to the biological sex that typically produces the larger gametes (ova), or relating to feminine characteristics.",
     "tier": 2,
-    "rank": 123
+    "rank": 123,
+    "freq": 2,
+    "freq_rank": 768,
+    "example": {
+      "fiwo": "Nofap asei.",
+      "english": "The person is female."
+    }
   },
   {
     "word": "asku",
@@ -503,7 +867,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract intellectual justification, motive, or logical premise behind an action or belief.",
     "tier": 1,
-    "rank": 291
+    "rank": 291,
+    "freq": 2,
+    "freq_rank": 769,
+    "example": {
+      "fiwo": "Askup ry mik gawei.",
+      "english": "My reason is good."
+    }
   },
   {
     "word": "asmki",
@@ -511,7 +881,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To fasten or secure something using a string or rope.",
     "tier": 2,
-    "rank": 271
+    "rank": 271,
+    "freq": 3,
+    "freq_rank": 662,
+    "example": {
+      "fiwo": "Mik asmkis odcanop.",
+      "english": "I will tie the rope."
+    }
   },
   {
     "word": "astlu",
@@ -519,7 +895,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual feeling of wanting to know/learn about something, or an intangible advantage/benefit.",
     "tier": 1,
-    "rank": 174
+    "rank": 174,
+    "freq": 0,
+    "freq_rank": 1425,
+    "example": {
+      "fiwo": "Astlup mike moriq.",
+      "english": "My interest is growing."
+    }
   },
   {
     "word": "atilu",
@@ -528,7 +910,13 @@ const dictionaryData = [
     "definition": "A firmly held abstract understanding, principle, or conceptual truth that a person accepts as real, even without absolute physical proof.",
     "usage_note": "Its verb derivation atilui ('to believe') carries conviction. Contrast dagibi (assume — accept without evidence as a working basis) and skaxebi (suspect — partial evidence).",
     "tier": 2,
-    "rank": 263
+    "rank": 263,
+    "freq": 0,
+    "freq_rank": 1426,
+    "example": {
+      "fiwo": "Atilup ry mik dotei.",
+      "english": "My belief is strong."
+    }
   },
   {
     "word": "atobu",
@@ -536,7 +924,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract domain of study, specific area of conceptual interest, or theoretical sphere of activity.",
     "tier": 3,
-    "rank": 141
+    "rank": 141,
+    "freq": 0,
+    "freq_rank": 1428,
+    "example": {
+      "fiwo": "Atobup ry ocadup tandei.",
+      "english": "The field of science is big."
+    }
   },
   {
     "word": "atripo",
@@ -544,7 +938,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A connected series of physical railway carriages or wagons structurally linked and moved by a locomotive engine along tracks.",
     "tier": 1,
-    "rank": 241
+    "rank": 241,
+    "freq": 6,
+    "freq_rank": 496,
+    "example": {
+      "fiwo": "Atripop plid.",
+      "english": "The train arrived."
+    }
   },
   {
     "word": "auvi",
@@ -552,7 +952,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To go down below the surface of a liquid, or fall slowly toward the bottom.",
     "tier": 3,
-    "rank": 483
+    "rank": 483,
+    "freq": 0,
+    "freq_rank": 1431,
+    "example": {
+      "fiwo": "Drekor auvis deky dorsor.",
+      "english": "Rock will sink in water."
+    }
   },
   {
     "word": "avge",
@@ -560,7 +966,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "No longer fresh or pleasant; spoiled, decomposed, or organic matter that has broken down.",
     "tier": 3,
-    "rank": 542
+    "rank": 542,
+    "freq": 0,
+    "freq_rank": 1432,
+    "example": {
+      "fiwo": "Aplap avgeid.",
+      "english": "The apple was rotten."
+    }
   },
   {
     "word": "avly",
@@ -568,7 +980,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "In a line parallel with, or next to the length of a surface or path.",
     "tier": 0,
-    "rank": 82
+    "rank": 82,
+    "freq": 2,
+    "freq_rank": 771,
+    "example": {
+      "fiwo": "Mik hicid avly caenop.",
+      "english": "I walked along the street."
+    }
   },
   {
     "word": "avmo",
@@ -576,7 +994,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A small, thin, pointed piece of metal with a flat head, driven into wood or other materials to hold them together.",
     "tier": 3,
-    "rank": 479
+    "rank": 479,
+    "freq": 0,
+    "freq_rank": 1435,
+    "example": {
+      "fiwo": "Avmop deky gofop.",
+      "english": "The nail is inside the wood."
+    }
   },
   {
     "word": "avowi",
@@ -585,7 +1009,13 @@ const dictionaryData = [
     "definition": "To intentionally or accidentally release a physical object from one's grasp, allowing gravity to pull it down.",
     "usage_note": "Distinct from sowi, the intransitive act of falling.",
     "tier": 3,
-    "rank": 194
+    "rank": 194,
+    "freq": 1,
+    "freq_rank": 925,
+    "example": {
+      "fiwo": "Aplap avowis fy mosap.",
+      "english": "The apple will drop from the tree."
+    }
   },
   {
     "word": "axritso",
@@ -593,7 +1023,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A hill of wind-blown sand.",
     "tier": 3,
-    "rank": 557
+    "rank": 557,
+    "freq": 0,
+    "freq_rank": 1438,
+    "example": {
+      "fiwo": "Mik nojaid axritsop.",
+      "english": "I saw the dune."
+    }
   },
   {
     "word": "axuklu",
@@ -601,7 +1037,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An interconnected system or group of things, people, or devices.",
     "tier": 2,
-    "rank": 217
+    "rank": 217,
+    "freq": 1,
+    "freq_rank": 926,
+    "example": {
+      "fiwo": "Axuklu tande.",
+      "english": "The network is big."
+    }
   },
   {
     "word": "axvu",
@@ -609,7 +1051,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A union or association formed for mutual benefit, especially between groups, factions, or countries.",
     "tier": 3,
-    "rank": 439
+    "rank": 439,
+    "freq": 0,
+    "freq_rank": 1442,
+    "example": {
+      "fiwo": "Axvup ry xeku late doteid.",
+      "english": "The alliance of all countries was strong."
+    }
   },
   {
     "word": "aziku",
@@ -618,7 +1066,13 @@ const dictionaryData = [
     "definition": "This refers to an abstract constraint, principle, or guideline governing conduct or action.",
     "usage_note": "Distinct from iku, a strictly enforced formal law.",
     "tier": 2,
-    "rank": 98
+    "rank": 98,
+    "freq": 24,
+    "freq_rank": 197,
+    "example": {
+      "fiwo": "Azikup ry ibazop lefeid.",
+      "english": "The rule of the school was hard."
+    }
   },
   {
     "word": "azmu",
@@ -626,7 +1080,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Feelings of pity, sorrow, or shared concern for someone else's misfortune or pain.",
     "tier": 2,
-    "rank": 326
+    "rank": 326,
+    "freq": 3,
+    "freq_rank": 664,
+    "example": {
+      "fiwo": "Azmup ry mana mike tandei.",
+      "english": "My mother's sympathy is great."
+    }
   },
   {
     "word": "azo",
@@ -634,7 +1094,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A deep, rounded physical container used for holding liquids or food.",
     "tier": 3,
-    "rank": 387
+    "rank": 387,
+    "freq": 2,
+    "freq_rank": 772,
+    "example": {
+      "fiwo": "Azop myi batap.",
+      "english": "The bowl contains the food."
+    }
   },
   {
     "word": "babse",
@@ -642,7 +1108,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a biological state of discomfort or weakness caused by a lack of food, coupled with a strong desire to eat.",
     "tier": 1,
-    "rank": 285
+    "rank": 285,
+    "freq": 1,
+    "freq_rank": 927,
+    "example": {
+      "fiwo": "Mik babseidyq.",
+      "english": "I was getting hungry."
+    }
   },
   {
     "word": "baduju",
@@ -650,7 +1122,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A sign that something, especially something bad, is coming.",
     "tier": 3,
-    "rank": 559
+    "rank": 559,
+    "freq": 0,
+    "freq_rank": 1449,
+    "example": {
+      "fiwo": "Fumop badujur.",
+      "english": "The smoke is an omen."
+    }
   },
   {
     "word": "bafu",
@@ -658,7 +1136,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the base unit of time, equal to one-sixtieth of a minute.",
     "tier": 2,
-    "rank": 469
+    "rank": 469,
+    "freq": 0,
+    "freq_rank": 1451,
+    "example": {
+      "fiwo": "Bafup ruzeid.",
+      "english": "The second was fast."
+    }
   },
   {
     "word": "bahara",
@@ -666,7 +1150,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The inner, flat surface of the hand, between the wrist and the fingers.",
     "tier": 3,
-    "rank": 470
+    "rank": 470,
+    "freq": 0,
+    "freq_rank": 1452,
+    "example": {
+      "fiwo": "Bahara mike lande.",
+      "english": "My palm is small."
+    }
   },
   {
     "word": "baili",
@@ -674,7 +1164,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To temporarily take or receive physical possession of something with the strict intention of returning it to its owner.",
     "tier": 3,
-    "rank": 520
+    "rank": 520,
+    "freq": 7,
+    "freq_rank": 463,
+    "example": {
+      "fiwo": "Mik bailis jatanop suke.",
+      "english": "I will borrow your pen."
+    }
   },
   {
     "word": "baki",
@@ -682,7 +1178,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To execute an action with the intent of achieving a specific result, while acknowledging that the outcome is uncertain or experimental.",
     "tier": 2,
-    "rank": 36
+    "rank": 36,
+    "freq": 2,
+    "freq_rank": 773,
+    "example": {
+      "fiwo": "Mik bakid foisoit sydor.",
+      "english": "I tried to build a house."
+    }
   },
   {
     "word": "bambodo",
@@ -690,7 +1192,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A soft, porous object that soaks up and holds liquid, used for washing and cleaning.",
     "tier": 3,
-    "rank": 551
+    "rank": 551,
+    "freq": 1,
+    "freq_rank": 928,
+    "example": {
+      "fiwo": "Bambodop lande.",
+      "english": "The sponge is small."
+    }
   },
   {
     "word": "banosko",
@@ -698,7 +1206,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A light, gentle wind, weaker than a strong wind (xabeso).",
     "tier": 3,
-    "rank": 73
+    "rank": 73,
+    "freq": 1,
+    "freq_rank": 929,
+    "example": {
+      "fiwo": "Mik pauli banoskop.",
+      "english": "I feel the breeze."
+    }
   },
   {
     "word": "baqi",
@@ -706,7 +1220,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to cry out to someone in order to summon them or attract their attention.",
     "tier": 2,
-    "rank": 19
+    "rank": 19,
+    "freq": 19,
+    "freq_rank": 235,
+    "example": {
+      "fiwo": "Manap mike baqid mik.",
+      "english": "My mother called me."
+    }
   },
   {
     "word": "barusu",
@@ -714,7 +1234,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Doing things without care or precision. Logical equivalent: Daq naci neswy zenup. (He works without care.)",
     "tier": 3,
-    "rank": 183
+    "rank": 183,
+    "freq": 0,
+    "freq_rank": 1459,
+    "example": {
+      "fiwo": "Jormup sile barusur.",
+      "english": "This situation is carelessness."
+    }
   },
   {
     "word": "bata",
@@ -722,7 +1248,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "Any organic, nutritious matter consumed or absorbed by a living organism to sustain life and growth.",
     "tier": 1,
-    "rank": 52
+    "rank": 52,
+    "freq": 140,
+    "freq_rank": 31,
+    "example": {
+      "fiwo": "Mik nomid batap.",
+      "english": "I ate the food."
+    }
   },
   {
     "word": "baude",
@@ -730,7 +1262,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes a state possessing physical or conceptual qualities that give immense, positive aesthetic pleasure to the senses.",
     "tier": 1,
-    "rank": 103
+    "rank": 103,
+    "freq": 5,
+    "freq_rank": 547,
+    "example": {
+      "fiwo": "Mulap baudei.",
+      "english": "The flower is beautiful."
+    }
   },
   {
     "word": "baxy",
@@ -738,7 +1276,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a spatial bridge where the subject is located at or directed toward the rear or back of a reference point.",
     "tier": 0,
-    "rank": 71
+    "rank": 71,
+    "freq": 4,
+    "freq_rank": 605,
+    "example": {
+      "fiwo": "Detap suke ceni baxy hoxop.",
+      "english": "Your dog is behind the door."
+    }
   },
   {
     "word": "beati",
@@ -746,7 +1290,27 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To block an opening, seal a passage, or restrict physical access.",
     "tier": 1,
-    "rank": 204
+    "rank": 204,
+    "freq": 20,
+    "freq_rank": 227,
+    "example": {
+      "fiwo": "Daq beatid hoxop.",
+      "english": "He closed the door."
+    }
+  },
+  {
+    "word": "bebi",
+    "english_equiv": "Weave",
+    "part_of_speech": "Verb",
+    "definition": "To form fabric, a web, or a net by interlacing threads or strands.",
+    "tier": 3,
+    "rank": 571,
+    "freq": 0,
+    "freq_rank": 1463,
+    "example": {
+      "fiwo": "Nosana bebid busko.",
+      "english": "The woman wove the cloth."
+    }
   },
   {
     "word": "bef",
@@ -754,7 +1318,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Clausal wall introducing an independent parallel thought; completely resets the SVO parser.",
     "tier": 0,
-    "rank": 2
+    "rank": 2,
+    "freq": 275,
+    "freq_rank": 12,
+    "example": {
+      "fiwo": "Mik nacid nudu bef mik usis dugu sile.",
+      "english": "I worked today, and I will sleep tonight."
+    }
   },
   {
     "word": "beglono",
@@ -762,7 +1332,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The sweet, golden, viscous food produced by bees (elsa) from flower nectar.",
     "tier": 3,
-    "rank": 445
+    "rank": 445,
+    "freq": 0,
+    "freq_rank": 1465,
+    "example": {
+      "fiwo": "Beglonop tute.",
+      "english": "The honey is sweet."
+    }
   },
   {
     "word": "beje",
@@ -770,7 +1346,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "A relative degree modifier indicating a small, minor, or low amount of a trait, state, or action.",
     "tier": 3,
-    "rank": 18
+    "rank": 18,
+    "freq": 2,
+    "freq_rank": 774
   },
   {
     "word": "bela",
@@ -778,7 +1356,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the lower extremity of the leg below the ankle, on which a person stands or walks.",
     "tier": 1,
-    "rank": 227
+    "rank": 227,
+    "freq": 3,
+    "freq_rank": 666,
+    "example": {
+      "fiwo": "Belap mike dorsoei.",
+      "english": "My foot is wet."
+    }
   },
   {
     "word": "belimo",
@@ -786,7 +1370,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical covering for the foot, typically made of leather or synthetic materials, featuring a sturdy protective sole.",
     "tier": 1,
-    "rank": 247
+    "rank": 247,
+    "freq": 5,
+    "freq_rank": 548,
+    "example": {
+      "fiwo": "Belimop letseid.",
+      "english": "The shoe was dirty."
+    }
   },
   {
     "word": "beqy",
@@ -794,7 +1384,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a spatial or logical bridge mapping a position that is strictly past the physical limits, boundary, or scope of the reference point.",
     "tier": 0,
-    "rank": 104
+    "rank": 104,
+    "freq": 2,
+    "freq_rank": 775,
+    "example": {
+      "fiwo": "Mortsap ceni beqy montop.",
+      "english": "The forest is beyond the mountain."
+    }
   },
   {
     "word": "bexo",
@@ -802,7 +1398,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The invisible mixture of gases surrounding a planet or filling an environment.",
     "tier": 2,
-    "rank": 21
+    "rank": 21,
+    "freq": 5,
+    "freq_rank": 549,
+    "example": {
+      "fiwo": "Bexop jabeid nudu.",
+      "english": "The air was cold today."
+    }
   },
   {
     "word": "biba",
@@ -810,7 +1412,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A very young human child, particularly one who has not yet learned to walk or talk.",
     "tier": 1,
-    "rank": 186
+    "rank": 186,
+    "freq": 6,
+    "freq_rank": 497,
+    "example": {
+      "fiwo": "Bibap irakid dury dugu.",
+      "english": "The baby cried during the night."
+    }
   },
   {
     "word": "biero",
@@ -818,7 +1426,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A fermented, carbonated physical liquid beverage typically brewed from malted barley and flavored with hops.",
     "tier": 3,
-    "rank": 357
+    "rank": 357,
+    "freq": 0,
+    "freq_rank": 1474,
+    "example": {
+      "fiwo": "Bierop jabeid.",
+      "english": "The beer was cold."
+    }
   },
   {
     "word": "bife",
@@ -826,7 +1440,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Explicitly permitted or allowed.",
     "tier": 1,
-    "rank": 315
+    "rank": 315,
+    "freq": 9,
+    "freq_rank": 406,
+    "example": {
+      "fiwo": "Mik bifeis cenit tapo.",
+      "english": "I am allowed to live here."
+    }
   },
   {
     "word": "bikli",
@@ -834,7 +1454,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To officially prepare and issue a book, journal, piece of media, or statement for broad public distribution.",
     "tier": 3,
-    "rank": 137
+    "rank": 137,
+    "freq": 0,
+    "freq_rank": 1476,
+    "example": {
+      "fiwo": "Licap mike biklis panop.",
+      "english": "My colleague will publish the book."
+    }
   },
   {
     "word": "bilyho",
@@ -842,7 +1468,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A brewed magical liquid prepared in small quantities and drunk to produce a specific effect on the body or mind.",
     "tier": 3,
-    "rank": 552
+    "rank": 552,
+    "freq": 0,
+    "freq_rank": 1478,
+    "example": {
+      "fiwo": "Mik rolid bilyhop.",
+      "english": "I drank the potion."
+    }
   },
   {
     "word": "bime",
@@ -850,7 +1482,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the lowest cardinal number, representing a single unit or entity.",
     "tier": 1,
-    "rank": 14
+    "rank": 14,
+    "freq": 204,
+    "freq_rank": 17,
+    "example": {
+      "fiwo": "Mosar bime morid.",
+      "english": "One tree grew."
+    }
   },
   {
     "word": "bimedu",
@@ -858,7 +1496,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Monday; the first day of the week. Derived by compounding bime (one) and du (day).",
     "tier": 1,
-    "rank": 134
+    "rank": 134,
+    "freq": 13,
+    "freq_rank": 313,
+    "example": {
+      "fiwo": "Bimedup cimidyq.",
+      "english": "Monday was starting."
+    }
   },
   {
     "word": "bip",
@@ -866,7 +1510,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A pragmatic mood tag placed at the absolute start of a sentence to introduce the first point in a sequence.",
     "tier": 0,
-    "rank": 46
+    "rank": 46,
+    "freq": 6,
+    "freq_rank": 498,
+    "example": {
+      "fiwo": "Bip mik nacis, can mik usis.",
+      "english": "First of all, I will work, then I will sleep."
+    }
   },
   {
     "word": "biwu",
@@ -874,7 +1524,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a matter or situation regarded as unwelcome or harmful and needing to be dealt with and overcome.",
     "tier": 2,
-    "rank": 3
+    "rank": 3,
+    "freq": 29,
+    "freq_rank": 170,
+    "example": {
+      "fiwo": "Mik jedis biwur.",
+      "english": "I will have a problem."
+    }
   },
   {
     "word": "biznu",
@@ -883,7 +1539,13 @@ const dictionaryData = [
     "definition": "A conceptual human organization or structural enterprise legally engaged in commercial, industrial, or professional activities.",
     "usage_note": "Distinct from the physical retail building xyro (store) and the broader systemic concept afymu (economy).",
     "tier": 2,
-    "rank": 24
+    "rank": 24,
+    "freq": 5,
+    "freq_rank": 550,
+    "example": {
+      "fiwo": "Biznup ry daq tandeid.",
+      "english": "His company was big."
+    }
   },
   {
     "word": "bizomo",
@@ -891,7 +1553,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A block of cast metal, typically shaped for storage or working.",
     "tier": 3,
-    "rank": 562
+    "rank": 562,
+    "freq": 0,
+    "freq_rank": 1485,
+    "example": {
+      "fiwo": "Bizomop mik tande.",
+      "english": "My ingot is big."
+    }
   },
   {
     "word": "blobo",
@@ -899,7 +1567,13 @@ const dictionaryData = [
     "definition": "A tool or weapon with a heavy bladed head on a handle, used for chopping.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 539
+    "rank": 539,
+    "freq": 0,
+    "freq_rank": 1487,
+    "example": {
+      "fiwo": "Blobop rute.",
+      "english": "The axe is sharp."
+    }
   },
   {
     "word": "blogaca",
@@ -907,7 +1581,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A tiny organism that causes disease.",
     "tier": 3,
-    "rank": 262
+    "rank": 262,
+    "freq": 1,
+    "freq_rank": 933
   },
   {
     "word": "blunu",
@@ -915,7 +1591,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the semantic intent, logical significance, or intended message behind a word, action, or concept.",
     "tier": 3,
-    "rank": 331
+    "rank": 331,
+    "freq": 24,
+    "freq_rank": 198,
+    "example": {
+      "fiwo": "Semup ry gop fafei.",
+      "english": "The meaning of the word is important."
+    }
   },
   {
     "word": "bofama",
@@ -923,7 +1605,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The joint connecting the hand to the forearm.",
     "tier": 3,
-    "rank": 513
+    "rank": 513,
+    "freq": 0,
+    "freq_rank": 1490,
+    "example": {
+      "fiwo": "Bofama mike tandeid.",
+      "english": "My wrist was big."
+    }
   },
   {
     "word": "bogu",
@@ -931,7 +1619,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to strength or energy as an attribute of physical action or movement, or an influence that can change the motion of an object.",
     "tier": 2,
-    "rank": 60
+    "rank": 60,
+    "freq": 2,
+    "freq_rank": 777,
+    "example": {
+      "fiwo": "Daq stomidyq bogup.",
+      "english": "He was giving the force."
+    }
   },
   {
     "word": "boja",
@@ -939,7 +1633,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the red liquid that circulates in the arteries and veins of humans and other vertebrate animals.",
     "tier": 1,
-    "rank": 145
+    "rank": 145,
+    "freq": 7,
+    "freq_rank": 464,
+    "example": {
+      "fiwo": "Bojap leupeid.",
+      "english": "The blood was red."
+    }
   },
   {
     "word": "boke",
@@ -947,7 +1647,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Regarded as subjectively negative or unfavorable.",
     "tier": 1,
-    "rank": 70
+    "rank": 70,
+    "freq": 12,
+    "freq_rank": 333,
+    "example": {
+      "fiwo": "Jormup sile bokei.",
+      "english": "This situation is bad."
+    }
   },
   {
     "word": "bolytri",
@@ -955,7 +1661,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To identify a disease from its signs.",
     "tier": 3,
-    "rank": 240
+    "rank": 240,
+    "freq": 1,
+    "freq_rank": 935
   },
   {
     "word": "bomufu",
@@ -963,7 +1671,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Regular money paid to a person after they stop working.",
     "tier": 3,
-    "rank": 60
+    "rank": 60,
+    "freq": 1,
+    "freq_rank": 936
   },
   {
     "word": "borpo",
@@ -971,7 +1681,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A deep metal cooking vessel used over heat; the basic kitchen container for boiling and stewing.",
     "tier": 3,
-    "rank": 434
+    "rank": 434,
+    "freq": 0,
+    "freq_rank": 1497,
+    "example": {
+      "fiwo": "Borpop ripe.",
+      "english": "The pot is hot."
+    }
   },
   {
     "word": "bosli",
@@ -979,7 +1695,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To move or act with haste; to do something quickly or hastily, or to urge another to do so.",
     "tier": 2,
-    "rank": 455
+    "rank": 455,
+    "freq": 1,
+    "freq_rank": 937,
+    "example": {
+      "fiwo": "Nofar bosli.",
+      "english": "The person hurries."
+    }
   },
   {
     "word": "botaxe",
@@ -987,7 +1709,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an entity possessing a low mental capacity, or lacking logic, reasoning, and good judgment.",
     "tier": 3,
-    "rank": 268
+    "rank": 268,
+    "freq": 0,
+    "freq_rank": 1501,
+    "example": {
+      "fiwo": "Daq botaxei.",
+      "english": "He is foolish."
+    }
   },
   {
     "word": "boto",
@@ -995,7 +1723,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physically constructed vessel designed to float and travel on the surface of water.",
     "tier": 2,
-    "rank": 225
+    "rank": 225,
+    "freq": 39,
+    "freq_rank": 128,
+    "example": {
+      "fiwo": "Botop utmiq.",
+      "english": "The boat is floating."
+    }
   },
   {
     "word": "braci",
@@ -1003,7 +1737,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To crush and grind food between the teeth before swallowing.",
     "tier": 3,
-    "rank": 545
+    "rank": 545,
+    "freq": 0,
+    "freq_rank": 1504,
+    "example": {
+      "fiwo": "Daq bracid batap.",
+      "english": "He chewed the food."
+    }
   },
   {
     "word": "branda",
@@ -1011,7 +1751,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large black-and-white bear native to bamboo forests.",
     "tier": 3,
-    "rank": 546
+    "rank": 546,
+    "freq": 0,
+    "freq_rank": 1506,
+    "example": {
+      "fiwo": "Brandap nomi hoswap.",
+      "english": "The panda eats bamboo."
+    }
   },
   {
     "word": "brekra",
@@ -1019,7 +1765,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The upper front part of the face, above the eyebrows and below the hairline.",
     "tier": 3,
-    "rank": 533
+    "rank": 533,
+    "freq": 0,
+    "freq_rank": 1508,
+    "example": {
+      "fiwo": "Brekrap daq zave.",
+      "english": "His forehead is tall."
+    }
   },
   {
     "word": "brempa",
@@ -1027,7 +1779,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The joint connecting the upper arm to the forearm.",
     "tier": 3,
-    "rank": 534
+    "rank": 534,
+    "freq": 0,
+    "freq_rank": 1510,
+    "example": {
+      "fiwo": "Brempap mik rudse.",
+      "english": "My elbow is rough."
+    }
   },
   {
     "word": "briku",
@@ -1035,7 +1793,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A feeling of sadness, repentance, or disappointment over something that has happened or been done.",
     "tier": 3,
-    "rank": 437
+    "rank": 437,
+    "freq": 0,
+    "freq_rank": 1512,
+    "example": {
+      "fiwo": "Mik pauli brikup.",
+      "english": "I feel regret."
+    }
   },
   {
     "word": "brirso",
@@ -1043,7 +1807,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A large body of water surrounded by land. Follows xadoro (river) and tandorso (ocean) as a specific water-body type.",
     "tier": 2,
-    "rank": 331
+    "rank": 331,
+    "freq": 12,
+    "freq_rank": 334,
+    "example": {
+      "fiwo": "Nak dormid deky brirsop.",
+      "english": "We swam in the lake."
+    }
   },
   {
     "word": "bryklo",
@@ -1051,7 +1821,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A staple food made by baking a dough of ground grain, water, and typically a leavening agent.",
     "tier": 1,
-    "rank": 313
+    "rank": 313,
+    "freq": 30,
+    "freq_rank": 164,
+    "example": {
+      "fiwo": "Manap krendid bryklop.",
+      "english": "The mother shared the bread."
+    }
   },
   {
     "word": "bucygo",
@@ -1059,7 +1835,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The planet on which we live, taken as a proper name; the third planet from the sun.",
     "tier": 1,
-    "rank": 209
+    "rank": 209,
+    "freq": 3,
+    "freq_rank": 667,
+    "example": {
+      "fiwo": "Bucygo tande.",
+      "english": "Earth is big."
+    }
   },
   {
     "word": "bufro",
@@ -1067,7 +1849,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A reddish-orange metal, used in wiring, tools, and alloys. Follows xedo (metal) and xaqbo (gold) as a specific metal type.",
     "tier": 3,
-    "rank": 454
+    "rank": 454,
+    "freq": 0,
+    "freq_rank": 1520,
+    "example": {
+      "fiwo": "Bufrop rudse.",
+      "english": "The copper is rough."
+    }
   },
   {
     "word": "bul",
@@ -1075,7 +1863,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Clausal wall introducing a contrasting thought or exception.",
     "tier": 0,
-    "rank": 13
+    "rank": 13,
+    "freq": 154,
+    "freq_rank": 27,
+    "example": {
+      "fiwo": "Mik nomid batap bul mik babseiq haibe.",
+      "english": "I ate the food, but I am still hungry."
+    }
   },
   {
     "word": "bumpi",
@@ -1083,7 +1877,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To express dissatisfaction, annoyance, or grievance about something. A speech-act verb alongside akdi (shout) and opdi (whisper).",
     "tier": 3,
-    "rank": 128
+    "rank": 128,
+    "freq": 1,
+    "freq_rank": 940,
+    "example": {
+      "fiwo": "Cadap bumpid zety batap.",
+      "english": "The child complained about the food."
+    }
   },
   {
     "word": "bunowo",
@@ -1091,7 +1891,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A place where medicines are prepared and sold.",
     "tier": 2,
-    "rank": 396
+    "rank": 396,
+    "freq": 2,
+    "freq_rank": 778
   },
   {
     "word": "busko",
@@ -1099,7 +1901,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to items worn to cover the body, typically made of fabric or textile materials.",
     "tier": 1,
-    "rank": 198
+    "rank": 198,
+    "freq": 15,
+    "freq_rank": 285,
+    "example": {
+      "fiwo": "Mik gidsid buskor.",
+      "english": "I bought some clothes."
+    }
   },
   {
     "word": "buva",
@@ -1107,7 +1915,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies a large domesticated ungulate kept primarily as livestock for the production of meat or milk.",
     "tier": 3,
-    "rank": 89
+    "rank": 89,
+    "freq": 2,
+    "freq_rank": 779,
+    "example": {
+      "fiwo": "Buvap ceni ty zasop.",
+      "english": "The cow sits on the ground."
+    }
   },
   {
     "word": "buxe",
@@ -1115,7 +1929,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Showing a tendency to be quickly irritated or provoked by delays, obstacles, or opposition.",
     "tier": 3,
-    "rank": 135
+    "rank": 135,
+    "freq": 0,
+    "freq_rank": 1530,
+    "example": {
+      "fiwo": "Daq buxeid.",
+      "english": "He was impatient."
+    }
   },
   {
     "word": "buxondo",
@@ -1123,7 +1943,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A device that detects and measures a physical condition.",
     "tier": 3,
-    "rank": 167
+    "rank": 167,
+    "freq": 1,
+    "freq_rank": 943
   },
   {
     "word": "buzisi",
@@ -1131,7 +1953,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To produce a continuous low vibrating sound, as an insect's wings or a running machine does.",
     "tier": 3,
-    "rank": 498
+    "rank": 498,
+    "freq": 0,
+    "freq_rank": 1531,
+    "example": {
+      "fiwo": "Elsap buzisid.",
+      "english": "The bee buzzed."
+    }
   },
   {
     "word": "by",
@@ -1139,7 +1967,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Used to indicate agent, means, or source.",
     "tier": 0,
-    "rank": 64
+    "rank": 64,
+    "freq": 0,
+    "freq_rank": 1532,
+    "example": {
+      "fiwo": "Jamiop by David.",
+      "english": "The document is by David."
+    }
   },
   {
     "word": "byceve",
@@ -1147,7 +1981,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Every one of a group considered individually, one by one.",
     "tier": 2,
-    "rank": 122
+    "rank": 122,
+    "freq": 32,
+    "freq_rank": 150
   },
   {
     "word": "byso",
@@ -1155,7 +1991,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to the region of the atmosphere and outer space seen from the earth.",
     "tier": 1,
-    "rank": 188
+    "rank": 188,
+    "freq": 15,
+    "freq_rank": 286,
+    "example": {
+      "fiwo": "Bysop loagei.",
+      "english": "The sky is blue."
+    }
   },
   {
     "word": "cacodu",
@@ -1163,7 +2005,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The identification of the nature of an illness or other problem by examination of the symptoms.",
     "tier": 3,
-    "rank": 471
+    "rank": 471,
+    "freq": 1,
+    "freq_rank": 944,
+    "example": {
+      "fiwo": "Farlopap sapis cacodup.",
+      "english": "The doctor will make a diagnosis."
+    }
   },
   {
     "word": "cada",
@@ -1172,7 +2020,13 @@ const dictionaryData = [
     "definition": "This word refers strictly to a human being in the biological stage of life between birth and puberty.",
     "usage_note": "Distinct from jepa (offspring), which maps the relational link to a parent.",
     "tier": 1,
-    "rank": 97
+    "rank": 97,
+    "freq": 81,
+    "freq_rank": 63,
+    "example": {
+      "fiwo": "Cadap usiq.",
+      "english": "The child is sleeping."
+    }
   },
   {
     "word": "caeno",
@@ -1180,7 +2034,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A paved public thoroughfare in a city or town, serving as a physical infrastructure route for vehicles and pedestrians.",
     "tier": 1,
-    "rank": 120
+    "rank": 120,
+    "freq": 22,
+    "freq_rank": 218,
+    "example": {
+      "fiwo": "Caenop jozeid.",
+      "english": "The street was long."
+    }
   },
   {
     "word": "cafi",
@@ -1188,7 +2048,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To move swiftly on foot at a pace significantly faster than a walk.",
     "tier": 1,
-    "rank": 51
+    "rank": 51,
+    "freq": 36,
+    "freq_rank": 139,
+    "example": {
+      "fiwo": "Detap cafid zy sydop.",
+      "english": "The dog ran to the house."
+    }
   },
   {
     "word": "caflo",
@@ -1196,7 +2062,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The dark physical area or shape structurally created on a surface when an opaque object blocks a light source (lito).",
     "tier": 3,
-    "rank": 423
+    "rank": 423,
+    "freq": 3,
+    "freq_rank": 668,
+    "example": {
+      "fiwo": "Caflop jozeid.",
+      "english": "The shadow was long."
+    }
   },
   {
     "word": "cagy",
@@ -1204,7 +2076,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "This word indicates the purpose, destination, or intended recipient of an action or object.",
     "tier": 0,
-    "rank": 31
+    "rank": 31,
+    "freq": 70,
+    "freq_rank": 79,
+    "example": {
+      "fiwo": "Mik foisoid sydop cagy nauxap.",
+      "english": "I built the house for the friend."
+    }
   },
   {
     "word": "can",
@@ -1212,7 +2090,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Clausal wall introducing a subsequent chronological action; resolves a conditional premise.",
     "tier": 0,
-    "rank": 15
+    "rank": 15,
+    "freq": 152,
+    "freq_rank": 28,
+    "example": {
+      "fiwo": "Syn suk nomis batap can mik kypeis.",
+      "english": "If you eat the food, then I will be happy."
+    }
   },
   {
     "word": "canpu",
@@ -1220,7 +2104,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract social structure, shared identity, or conceptual bond uniting a group of individuals.",
     "tier": 2,
-    "rank": 170
+    "rank": 170,
+    "freq": 2,
+    "freq_rank": 780,
+    "example": {
+      "fiwo": "Canpup ry nak kypei.",
+      "english": "Our community is happy."
+    }
   },
   {
     "word": "cape",
@@ -1228,7 +2118,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes the very darkest color, resulting from the absence or complete absorption of light.",
     "tier": 1,
-    "rank": 65
+    "rank": 65,
+    "freq": 24,
+    "freq_rank": 199,
+    "example": {
+      "fiwo": "Dugup capei.",
+      "english": "The night is dark."
+    }
   },
   {
     "word": "caqla",
@@ -1236,7 +2132,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers strictly to a young male human who has not yet reached adulthood.",
     "tier": 2,
-    "rank": 154
+    "rank": 154,
+    "freq": 5,
+    "freq_rank": 551,
+    "example": {
+      "fiwo": "Caqlap garidyq wy detap.",
+      "english": "The boy was playing with the dog."
+    }
   },
   {
     "word": "caqu",
@@ -1244,7 +2146,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract conceptual step, planned maneuver, or clever method executed to gain an advantage or achieve a specific goal within a system or game.",
     "tier": 2,
-    "rank": 260
+    "rank": 260,
+    "freq": 1,
+    "freq_rank": 945,
+    "example": {
+      "fiwo": "Caqup ry daq gaweid.",
+      "english": "His tactic was good."
+    }
   },
   {
     "word": "casla",
@@ -1252,7 +2160,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers strictly to a young female human who has not yet reached adulthood.",
     "tier": 2,
-    "rank": 114
+    "rank": 114,
+    "freq": 10,
+    "freq_rank": 384,
+    "example": {
+      "fiwo": "Caslap lokidyq panop.",
+      "english": "The girl was reading the book."
+    }
   },
   {
     "word": "catsa",
@@ -1260,7 +2174,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a small, domesticated carnivorous mammal, widely kept as a companion animal.",
     "tier": 1,
-    "rank": 156
+    "rank": 156,
+    "freq": 17,
+    "freq_rank": 256,
+    "example": {
+      "fiwo": "Catsap usiq ty degop.",
+      "english": "The cat is sleeping on the table."
+    }
   },
   {
     "word": "cavulko",
@@ -1268,7 +2188,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The net of fine silk threads spun by a spider to catch prey.",
     "tier": 3,
-    "rank": 329
+    "rank": 329,
+    "freq": 0,
+    "freq_rank": 1545,
+    "example": {
+      "fiwo": "Cavulkop deky levidzop.",
+      "english": "The cobweb is in the cave."
+    }
   },
   {
     "word": "cazeblu",
@@ -1276,7 +2202,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A latent capacity or possibility that has not yet been realized.",
     "tier": 2,
-    "rank": 213
+    "rank": 213,
+    "freq": 1,
+    "freq_rank": 947,
+    "example": {
+      "fiwo": "Cada jedi cazeblup.",
+      "english": "The child has potential."
+    }
   },
   {
     "word": "cef",
@@ -1284,7 +2216,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Expresses politeness, courteous intent, or softens a command.",
     "tier": 0,
-    "rank": 72
+    "rank": 72,
+    "freq": 10,
+    "freq_rank": 385,
+    "example": {
+      "fiwo": "Cef. Kop stomi batap zy mik.",
+      "english": "Please give the food to me."
+    }
   },
   {
     "word": "cele",
@@ -1292,7 +2230,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Belonging to or for the use of one particular person or group only; not public.",
     "tier": 3,
-    "rank": 133
+    "rank": 133,
+    "freq": 0,
+    "freq_rank": 1548,
+    "example": {
+      "fiwo": "Krulop celeid.",
+      "english": "The room was private."
+    }
   },
   {
     "word": "cemu",
@@ -1300,7 +2244,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A universal substantive used to refer to any abstract entity, concept, idea, or matter of discussion.",
     "tier": 1,
-    "rank": 9
+    "rank": 9,
+    "freq": 81,
+    "freq_rank": 64,
+    "example": {
+      "fiwo": "Mik karxid cemur gyke.",
+      "english": "I found something strange."
+    }
   },
   {
     "word": "ceni",
@@ -1308,7 +2258,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to remain alive or have life.",
     "tier": 1,
-    "rank": 37
+    "rank": 37,
+    "freq": 108,
+    "freq_rank": 47,
+    "example": {
+      "fiwo": "Nak cenid ky sydop.",
+      "english": "We lived in the house."
+    }
   },
   {
     "word": "cerojo",
@@ -1316,7 +2272,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A moving ridge on the surface of water.",
     "tier": 2,
-    "rank": 224
+    "rank": 224,
+    "freq": 6,
+    "freq_rank": 499,
+    "example": {
+      "fiwo": "Cerojo xaliq.",
+      "english": "The wave is moving."
+    }
   },
   {
     "word": "cetofi",
@@ -1324,7 +2286,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To intentionally make a physical object, concept, or data visually or intellectually apparent to another entity.",
     "tier": 2,
-    "rank": 6
+    "rank": 6,
+    "freq": 7,
+    "freq_rank": 465,
+    "example": {
+      "fiwo": "Das cetofis lakirop.",
+      "english": "She will display the picture."
+    }
   },
   {
     "word": "cevolo",
@@ -1332,7 +2300,13 @@ const dictionaryData = [
     "definition": "A section of a felled tree trunk or thick branch.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 76
+    "rank": 76,
+    "freq": 1,
+    "freq_rank": 949,
+    "example": {
+      "fiwo": "Cevolop juceid.",
+      "english": "The log was heavy."
+    }
   },
   {
     "word": "ciafe",
@@ -1340,7 +2314,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an action or state that has been fully completed or achieved prior to a specific point in time.",
     "tier": 2,
-    "rank": 467
+    "rank": 467,
+    "freq": 3,
+    "freq_rank": 670,
+    "example": {
+      "fiwo": "Daq plid ciafe.",
+      "english": "He already arrived."
+    }
   },
   {
     "word": "cifudru",
@@ -1348,7 +2328,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The distinctive moral and mental qualities of a person or thing.",
     "tier": 2,
-    "rank": 250
+    "rank": 250,
+    "freq": 1,
+    "freq_rank": 950
   },
   {
     "word": "cige",
@@ -1356,7 +2338,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Belonging to, coming from, or characteristic of another country, language, or society.",
     "tier": 3,
-    "rank": 196
+    "rank": 196,
+    "freq": 0,
+    "freq_rank": 1556,
+    "example": {
+      "fiwo": "Minzap cigeid.",
+      "english": "The nationality was foreign."
+    }
   },
   {
     "word": "cihu",
@@ -1364,7 +2352,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the early part of the day, typically from sunrise until the midpoint of the day.",
     "tier": 1,
-    "rank": 220
+    "rank": 220,
+    "freq": 19,
+    "freq_rank": 236,
+    "example": {
+      "fiwo": "Cihup locweid.",
+      "english": "The morning was bright."
+    }
   },
   {
     "word": "cijo",
@@ -1372,7 +2366,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical tool, instrument, or device specifically engineered to inflict bodily harm or structural damage.",
     "tier": 2,
-    "rank": 412
+    "rank": 412,
+    "freq": 3,
+    "freq_rank": 671,
+    "example": {
+      "fiwo": "Cijop ratseid.",
+      "english": "The weapon was dangerous."
+    }
   },
   {
     "word": "cila",
@@ -1380,7 +2380,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the flattened, usually green structure of a plant attached to a stem.",
     "tier": 2,
-    "rank": 319
+    "rank": 319,
+    "freq": 8,
+    "freq_rank": 434,
+    "example": {
+      "fiwo": "Cilap sowid fy mosap.",
+      "english": "The leaf fell from the tree."
+    }
   },
   {
     "word": "cimi",
@@ -1388,7 +2394,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to begin an action or event.",
     "tier": 1,
-    "rank": 53
+    "rank": 53,
+    "freq": 44,
+    "freq_rank": 110,
+    "example": {
+      "fiwo": "Spelup cimid.",
+      "english": "The game started."
+    }
   },
   {
     "word": "cirpiwi",
@@ -1396,7 +2408,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To produce short, high-pitched sounds, as small birds and small animals do.",
     "tier": 3,
-    "rank": 555
+    "rank": 555,
+    "freq": 0,
+    "freq_rank": 1563,
+    "example": {
+      "fiwo": "Vohap cirpiwid.",
+      "english": "The mouse squeaked."
+    }
   },
   {
     "word": "cisuplu",
@@ -1404,7 +2422,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The rhythmic daily rise and fall of the sea.",
     "tier": 3,
-    "rank": 494
+    "rank": 494,
+    "freq": 0,
+    "freq_rank": 1564,
+    "example": {
+      "fiwo": "Mik nojaid cisuplup.",
+      "english": "I saw the tide."
+    }
   },
   {
     "word": "ciswo",
@@ -1412,7 +2436,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A large cylindrical container with bulging sides and flat ends, traditionally of wooden staves bound by hoops.",
     "tier": 3,
-    "rank": 473
+    "rank": 473,
+    "freq": 6,
+    "freq_rank": 500,
+    "example": {
+      "fiwo": "Ciswop juce.",
+      "english": "The barrel is heavy."
+    }
   },
   {
     "word": "cizuzu",
@@ -1420,7 +2450,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Money paid in advance as security or placed into an account.",
     "tier": 3,
-    "rank": 48
+    "rank": 48,
+    "freq": 1,
+    "freq_rank": 952
   },
   {
     "word": "clapo",
@@ -1428,7 +2460,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A mechanical or electrical physical device constructed with a dial or display for mathematically measuring and showing time.",
     "tier": 3,
-    "rank": 55
+    "rank": 55,
+    "freq": 2,
+    "freq_rank": 781,
+    "example": {
+      "fiwo": "Clapop sejid.",
+      "english": "The clock stopped."
+    }
   },
   {
     "word": "cobo",
@@ -1436,7 +2474,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thick cloud of tiny water droplets suspended in the atmosphere at or near the earth's surface that obscures or restricts visibility.",
     "tier": 3,
-    "rank": 523
+    "rank": 523,
+    "freq": 3,
+    "freq_rank": 672,
+    "example": {
+      "fiwo": "Mik nojaid cobop nudu.",
+      "english": "I saw the fog today."
+    }
   },
   {
     "word": "cohe",
@@ -1444,7 +2488,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes a small number or amount of something.",
     "tier": 1,
-    "rank": 100
+    "rank": 100,
+    "freq": 13,
+    "freq_rank": 314,
+    "example": {
+      "fiwo": "Gidup cohei.",
+      "english": "The money is little."
+    }
   },
   {
     "word": "colupri",
@@ -1452,7 +2502,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To burst apart suddenly and violently with a release of energy, noise, and force.",
     "tier": 3,
-    "rank": 373
+    "rank": 373,
+    "freq": 0,
+    "freq_rank": 1570,
+    "example": {
+      "fiwo": "Fatop coluprid.",
+      "english": "The machine exploded."
+    }
   },
   {
     "word": "compe",
@@ -1460,7 +2516,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something occurring, found, or done frequently; highly prevalent in the environment.",
     "tier": 3,
-    "rank": 124
+    "rank": 124,
+    "freq": 0,
+    "freq_rank": 1571,
+    "example": {
+      "fiwo": "Cijop compei.",
+      "english": "The weapon is common."
+    }
   },
   {
     "word": "coqyni",
@@ -1468,7 +2530,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To cause a device, system, or function to stop operating. The antonym of leoci (to turn on / activate).",
     "tier": 2,
-    "rank": 64
+    "rank": 64,
+    "freq": 4,
+    "freq_rank": 607,
+    "example": {
+      "fiwo": "Mik coqynid abecop.",
+      "english": "I turned off the machine."
+    }
   },
   {
     "word": "corfa",
@@ -1476,7 +2544,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A primate, typically having a tail and living in trees in tropical regions.",
     "tier": 3,
-    "rank": 526
+    "rank": 526,
+    "freq": 0,
+    "freq_rank": 1574,
+    "example": {
+      "fiwo": "Hynap zopid ty mosap.",
+      "english": "The monkey jumped on the tree."
+    }
   },
   {
     "word": "cosa",
@@ -1484,7 +2558,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the thin layer of tissue forming the natural outer covering of the body.",
     "tier": 1,
-    "rank": 303
+    "rank": 303,
+    "freq": 0,
+    "freq_rank": 1576,
+    "example": {
+      "fiwo": "Cosap ry dal je dorsoei.",
+      "english": "Their skin is wet."
+    }
   },
   {
     "word": "coti",
@@ -1492,7 +2572,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to separate or divide something using a sharp edge.",
     "tier": 2,
-    "rank": 256
+    "rank": 256,
+    "freq": 7,
+    "freq_rank": 467,
+    "example": {
+      "fiwo": "Daq cotid otsinop.",
+      "english": "He cut the thread."
+    }
   },
   {
     "word": "cowaba",
@@ -1500,7 +2586,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A domesticated pack animal related to the horse, smaller and long-eared.",
     "tier": 3,
-    "rank": 544
+    "rank": 544,
+    "freq": 0,
+    "freq_rank": 1582,
+    "example": {
+      "fiwo": "Cowabap lande.",
+      "english": "The donkey is small."
+    }
   },
   {
     "word": "cuaca",
@@ -1508,7 +2600,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large, heavy mammal with thick fur and a very short tail.",
     "tier": 3,
-    "rank": 386
+    "rank": 386,
+    "freq": 0,
+    "freq_rank": 1584,
+    "example": {
+      "fiwo": "Eyzap cenidyq deky mortsap.",
+      "english": "The bear was living in the forest."
+    }
   },
   {
     "word": "cubasto",
@@ -1516,7 +2614,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A perfectly round three-dimensional body, every surface point equally distant from the center; the geometric shape, where weoro (ball) is the play object.",
     "tier": 3,
-    "rank": 449
+    "rank": 449,
+    "freq": 0,
+    "freq_rank": 1586,
+    "example": {
+      "fiwo": "Cubastop jilfe.",
+      "english": "The sphere is smooth."
+    }
   },
   {
     "word": "cudza",
@@ -1524,7 +2628,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large wild canine that hunts in packs.",
     "tier": 2,
-    "rank": 283
+    "rank": 283,
+    "freq": 2,
+    "freq_rank": 782,
+    "example": {
+      "fiwo": "Cudzap tande.",
+      "english": "The wolf is big."
+    }
   },
   {
     "word": "cufu",
@@ -1532,7 +2642,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual target or desired future outcome toward which systematic effort is directed.",
     "tier": 2,
-    "rank": 110
+    "rank": 110,
+    "freq": 3,
+    "freq_rank": 673,
+    "example": {
+      "fiwo": "Cufup ry mik zaveid.",
+      "english": "My goal was high."
+    }
   },
   {
     "word": "cugo",
@@ -1540,7 +2656,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A piece of soft rubber or plastic used to rub out ink or pencil marks.",
     "tier": 3,
-    "rank": 553
+    "rank": 553,
+    "freq": 0,
+    "freq_rank": 1590,
+    "example": {
+      "fiwo": "Cugop xygeid.",
+      "english": "The eraser was thin."
+    }
   },
   {
     "word": "cuje",
@@ -1548,7 +2670,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes an indefinite, non-zero quantity or subset of an entity. Mathematically, it asserts that a quantity exists (strictly greater than zero) but explicitly leaves the exact number undefined, stripping away any subjective judgment of whether it is few or many.",
     "tier": 1,
-    "rank": 264
+    "rank": 264,
+    "freq": 10,
+    "freq_rank": 386,
+    "example": {
+      "fiwo": "Mik gidsid zobar cuje.",
+      "english": "I bought some vegetables."
+    }
   },
   {
     "word": "cuki",
@@ -1556,7 +2684,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To engage in a physical, verbal, or conceptual struggle against an opposing force or entity.",
     "tier": 2,
-    "rank": 45
+    "rank": 45,
+    "freq": 22,
+    "freq_rank": 219,
+    "example": {
+      "fiwo": "Detar dewe cukidyq.",
+      "english": "Two dogs were fighting."
+    }
   },
   {
     "word": "cumeswo",
@@ -1564,7 +2698,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "Small water droplets that form on cool surfaces overnight.",
     "tier": 3,
-    "rank": 549
+    "rank": 549,
+    "freq": 0,
+    "freq_rank": 1596,
+    "example": {
+      "fiwo": "Mik nojaid cumeswop.",
+      "english": "I saw the dew."
+    }
   },
   {
     "word": "cunte",
@@ -1572,7 +2712,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes a state or object belonging strictly to the present timeframe; happening or being actively used right now.",
     "tier": 2,
-    "rank": 245
+    "rank": 245,
+    "freq": 2,
+    "freq_rank": 783,
+    "example": {
+      "fiwo": "Skorup cuntei.",
+      "english": "The market is current."
+    }
   },
   {
     "word": "cuskama",
@@ -1580,7 +2726,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A malevolent supernatural being; a demon.",
     "tier": 2,
-    "rank": 390
+    "rank": 390,
+    "freq": 11,
+    "freq_rank": 363,
+    "example": {
+      "fiwo": "Mik nojaid cuskamap.",
+      "english": "I saw the devil."
+    }
   },
   {
     "word": "cuspo",
@@ -1588,7 +2740,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A light or fire set in a high, visible place to signal, warn, or guide from a distance.",
     "tier": 3,
-    "rank": 535
+    "rank": 535,
+    "freq": 1,
+    "freq_rank": 955,
+    "example": {
+      "fiwo": "Cuspop deky montop.",
+      "english": "The beacon is on the mountain."
+    }
   },
   {
     "word": "cutwe",
@@ -1596,7 +2754,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes an entity in a fully prepared and suitable state to immediately begin an action or activity.",
     "tier": 2,
-    "rank": 52
+    "rank": 52,
+    "freq": 0,
+    "freq_rank": 1600,
+    "example": {
+      "fiwo": "Nak cutwei.",
+      "english": "We are ready."
+    }
   },
   {
     "word": "cyri",
@@ -1604,7 +2768,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To move through the air or space under control, whether by aerodynamic wings, biological capability, or mechanical propulsion.",
     "tier": 2,
-    "rank": 155
+    "rank": 155,
+    "freq": 13,
+    "freq_rank": 315,
+    "example": {
+      "fiwo": "Kyfap cyrid tody montop.",
+      "english": "The bird flew above the mountain."
+    }
   },
   {
     "word": "cysmo",
@@ -1612,7 +2782,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A small settlement of houses and inhabitants in the countryside; smaller than juro (city).",
     "tier": 2,
-    "rank": 375
+    "rank": 375,
+    "freq": 46,
+    "freq_rank": 102,
+    "example": {
+      "fiwo": "Cysmop lande.",
+      "english": "The village is small."
+    }
   },
   {
     "word": "cytu",
@@ -1620,7 +2796,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The grammatical word class marking a relation between a noun and the rest of the sentence, marked by the functional vowel -y. A category-classification concept, following aziku (rule).",
     "tier": 3,
-    "rank": 556
+    "rank": 556,
+    "freq": 0,
+    "freq_rank": 1605,
+    "example": {
+      "fiwo": "Cytup fafe.",
+      "english": "The preposition is important."
+    }
   },
   {
     "word": "cyva",
@@ -1628,7 +2810,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A person who is unknown to the speaker; someone with whom one has no prior acquaintance or familiarity.",
     "tier": 3,
-    "rank": 105
+    "rank": 105,
+    "freq": 43,
+    "freq_rank": 113,
+    "example": {
+      "fiwo": "Cyvap cenidyq deky sydop.",
+      "english": "The stranger was living in the house."
+    }
   },
   {
     "word": "cyxo",
@@ -1636,7 +2824,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The sandy or rocky boundary where land meets a large body of water.",
     "tier": 3,
-    "rank": 249
+    "rank": 249,
+    "freq": 10,
+    "freq_rank": 387,
+    "example": {
+      "fiwo": "Cyxop jozeid.",
+      "english": "The beach was long."
+    }
   },
   {
     "word": "dadukru",
@@ -1644,7 +2838,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A specialized field of study or expertise.",
     "tier": 2,
-    "rank": 199
+    "rank": 199,
+    "freq": 1,
+    "freq_rank": 956
   },
   {
     "word": "dafa",
@@ -1652,7 +2848,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word refers to the internal muscular organ in which the first major part of the physical digestion of food occurs.",
     "tier": 1,
-    "rank": 314
+    "rank": 314,
+    "freq": 0,
+    "freq_rank": 1609,
+    "example": {
+      "fiwo": "Mitap ceni deky dafap.",
+      "english": "The meat is inside the stomach."
+    }
   },
   {
     "word": "dagibi",
@@ -1660,7 +2862,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To accept a proposition as true without evidence, as a working basis for reasoning or action; differs from atilui (believe), which carries conviction, and from ubli (expect), which is directed at a future event.",
     "tier": 3,
-    "rank": 372
+    "rank": 372,
+    "freq": 1,
+    "freq_rank": 957,
+    "example": {
+      "fiwo": "Mik dagibi ram.",
+      "english": "I assume it."
+    }
   },
   {
     "word": "dahu",
@@ -1668,7 +2876,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the relative worth, merit, or importance of a thing; or a numerical quantity assigned to a symbol or variable.",
     "tier": 3,
-    "rank": 145
+    "rank": 145,
+    "freq": 1,
+    "freq_rank": 958,
+    "example": {
+      "fiwo": "Melfup jedis dahup.",
+      "english": "The price will have the value."
+    }
   },
   {
     "word": "dal",
@@ -1676,7 +2890,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Third-person singular animate neutral; an entity with intent or agency where gender is unspecified or irrelevant.",
     "tier": 0,
-    "rank": 18
+    "rank": 18,
+    "freq": 144,
+    "freq_rank": 30
   },
   {
     "word": "dale",
@@ -1684,7 +2900,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Strictly belonging to or associated with a person or animal where gender is unspecified or irrelevant.",
     "tier": 1,
-    "rank": 11
+    "rank": 11,
+    "freq": 56,
+    "freq_rank": 89
   },
   {
     "word": "dangu",
@@ -1692,7 +2910,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A period of rest and leisure away from work, study, or routine; a holiday or vacation.",
     "tier": 3,
-    "rank": 348
+    "rank": 348,
+    "freq": 0,
+    "freq_rank": 1614,
+    "example": {
+      "fiwo": "Nak xalis dury dangu.",
+      "english": "We will go on vacation."
+    }
   },
   {
     "word": "daq",
@@ -1700,7 +2924,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Third-person singular animate male; a male entity with intent or agency.",
     "tier": 0,
-    "rank": 6
+    "rank": 6,
+    "freq": 709,
+    "freq_rank": 6,
+    "example": {
+      "fiwo": "Daq gidsid moblop.",
+      "english": "He bought the car."
+    }
   },
   {
     "word": "daqe",
@@ -1708,7 +2938,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Strictly belonging to or associated with a specific male person or animal.",
     "tier": 1,
-    "rank": 7
+    "rank": 7,
+    "freq": 120,
+    "freq_rank": 41
   },
   {
     "word": "das",
@@ -1716,7 +2948,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Third-person singular animate female; a female entity with intent or agency.",
     "tier": 0,
-    "rank": 14
+    "rank": 14,
+    "freq": 719,
+    "freq_rank": 5,
+    "example": {
+      "fiwo": "Das jamid ufaxop.",
+      "english": "She wrote the message."
+    }
   },
   {
     "word": "dase",
@@ -1724,7 +2962,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Strictly belonging to or associated with a specific female person or animal.",
     "tier": 1,
-    "rank": 327
+    "rank": 327,
+    "freq": 125,
+    "freq_rank": 39
   },
   {
     "word": "dawy",
@@ -1732,7 +2972,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "A structural bridge linking an outcome strictly to the noun that caused it.",
     "tier": 0,
-    "rank": 38
+    "rank": 38,
+    "freq": 4,
+    "freq_rank": 608,
+    "example": {
+      "fiwo": "Zasop dorsoei dawy domloup.",
+      "english": "The ground is wet due to the rain."
+    }
   },
   {
     "word": "daxoko",
@@ -1740,7 +2986,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thin layer of ice crystals that forms on cold surfaces.",
     "tier": 3,
-    "rank": 505
+    "rank": 505,
+    "freq": 2,
+    "freq_rank": 785,
+    "example": {
+      "fiwo": "Daxokop zovi ty keglap.",
+      "english": "The frost is on the grass."
+    }
   },
   {
     "word": "decu",
@@ -1748,7 +3000,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract psychological stance, settled way of thinking, or behavioral disposition toward a specific entity or situation.",
     "tier": 3,
-    "rank": 232
+    "rank": 232,
+    "freq": 1,
+    "freq_rank": 959,
+    "example": {
+      "fiwo": "Decup ry daq gaweid.",
+      "english": "His attitude was good."
+    }
   },
   {
     "word": "dedapa",
@@ -1756,7 +3014,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The short, thick first digit of the hand, opposable to the other four fingers.",
     "tier": 3,
-    "rank": 492
+    "rank": 492,
+    "freq": 0,
+    "freq_rank": 1624,
+    "example": {
+      "fiwo": "Dedapap daq lande.",
+      "english": "His thumb is small."
+    }
   },
   {
     "word": "dego",
@@ -1764,7 +3028,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A piece of furniture consisting of a flat physical top supported by one or more legs, used as a surface for working or eating.",
     "tier": 1,
-    "rank": 142
+    "rank": 142,
+    "freq": 30,
+    "freq_rank": 165,
+    "example": {
+      "fiwo": "Degop myi batap.",
+      "english": "The table holds the food."
+    }
   },
   {
     "word": "deky",
@@ -1772,7 +3042,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Used for location within an enclosure.",
     "tier": 0,
-    "rank": 54
+    "rank": 54,
+    "freq": 204,
+    "freq_rank": 18,
+    "example": {
+      "fiwo": "Panop ceni deky hanop.",
+      "english": "The book is inside the box."
+    }
   },
   {
     "word": "deluflu",
@@ -1780,7 +3056,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A plan of how available money will be spent.",
     "tier": 2,
-    "rank": 329
+    "rank": 329,
+    "freq": 1,
+    "freq_rank": 960
   },
   {
     "word": "denki",
@@ -1788,7 +3066,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To physically arrange, place, or establish something in a fixed, specific state.",
     "tier": 2,
-    "rank": 88
+    "rank": 88,
+    "freq": 1,
+    "freq_rank": 961,
+    "example": {
+      "fiwo": "Das denkid clapop.",
+      "english": "She set the clock."
+    }
   },
   {
     "word": "deqazu",
@@ -1796,7 +3080,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract conceptual division, academic faculty, or specialized branch within a larger institutional or corporate system.",
     "tier": 3,
-    "rank": 99
+    "rank": 99,
+    "freq": 0,
+    "freq_rank": 1631,
+    "example": {
+      "fiwo": "Deqazup ry mik nacis.",
+      "english": "My department will work."
+    }
   },
   {
     "word": "deta",
@@ -1804,7 +3094,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a domesticated, carnivorous land-dwelling animal, typically kept as a companion or for work.",
     "tier": 1,
-    "rank": 99
+    "rank": 99,
+    "freq": 50,
+    "freq_rank": 98,
+    "example": {
+      "fiwo": "Detap cafidyq zy mik.",
+      "english": "The dog was running to me."
+    }
   },
   {
     "word": "dewe",
@@ -1812,7 +3108,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number that is the sum of one and one.",
     "tier": 1,
-    "rank": 22
+    "rank": 22,
+    "freq": 163,
+    "freq_rank": 23,
+    "example": {
+      "fiwo": "Mosar dewe morid.",
+      "english": "Two trees grew."
+    }
   },
   {
     "word": "dewedu",
@@ -1820,7 +3122,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Tuesday; the second day of the week. Derived by compounding dewe (two) and du (day).",
     "tier": 1,
-    "rank": 253
+    "rank": 253,
+    "freq": 8,
+    "freq_rank": 435,
+    "example": {
+      "fiwo": "Dewedup jaxkeid.",
+      "english": "Tuesday was new."
+    }
   },
   {
     "word": "dez",
@@ -1828,7 +3136,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Phatic greeting used in the morning; 'good morning.' Standalone on the Null Track (Rule 33).",
     "tier": 0,
-    "rank": 76
+    "rank": 76,
+    "freq": 2,
+    "freq_rank": 786,
+    "example": {
+      "fiwo": "Dez. Kup suk gawei?",
+      "english": "Good morning. How are you?"
+    }
   },
   {
     "word": "dibro",
@@ -1836,7 +3150,13 @@ const dictionaryData = [
     "definition": "A solid cube or rectangular unit of material; the basic building unit.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 266
+    "rank": 266,
+    "freq": 0,
+    "freq_rank": 1635,
+    "example": {
+      "fiwo": "Dibrop lefeid.",
+      "english": "The block was hard."
+    }
   },
   {
     "word": "dide",
@@ -1844,7 +3164,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Mathematically or logically guaranteed to happen.",
     "tier": 1,
-    "rank": 105
+    "rank": 105,
+    "freq": 0,
+    "freq_rank": 1637,
+    "example": {
+      "fiwo": "Daq foisois dide sydop.",
+      "english": "He will definitely build the house."
+    }
   },
   {
     "word": "difo",
@@ -1852,7 +3178,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This defines the state of matter that flows freely but is of constant volume.",
     "tier": 2,
-    "rank": 230
+    "rank": 230,
+    "freq": 2,
+    "freq_rank": 787,
+    "example": {
+      "fiwo": "Difor sowid ty zafoirop.",
+      "english": "Some liquid fell on the floor."
+    }
   },
   {
     "word": "diko",
@@ -1860,7 +3192,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This defines the state of matter characterized by structural rigidity and resistance to force.",
     "tier": 3,
-    "rank": 311
+    "rank": 311,
+    "freq": 0,
+    "freq_rank": 1639,
+    "example": {
+      "fiwo": "Jawop dikoei.",
+      "english": "Ice is solid."
+    }
   },
   {
     "word": "diluju",
@@ -1868,7 +3206,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A registered identity within a system, holding a user's access, data, and history.",
     "tier": 3,
-    "rank": 103
+    "rank": 103,
+    "freq": 0,
+    "freq_rank": 1641,
+    "example": {
+      "fiwo": "Mik jedi dilujur.",
+      "english": "I have an account."
+    }
   },
   {
     "word": "dionu",
@@ -1876,7 +3220,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the indefinite continued progress of existence and events.",
     "tier": 1,
-    "rank": 24
+    "rank": 24,
+    "freq": 47,
+    "freq_rank": 101,
+    "example": {
+      "fiwo": "Dionup dotei.",
+      "english": "Time is powerful."
+    }
   },
   {
     "word": "dipuwu",
@@ -1884,7 +3234,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An outcome that requires both parties. Logical equivalent: Epiwup sile koci nofa dewe. (This action needs two people.)",
     "tier": 2,
-    "rank": 398
+    "rank": 398,
+    "freq": 0,
+    "freq_rank": 1644,
+    "example": {
+      "fiwo": "Ram dipuwur.",
+      "english": "That is a mutual responsibility."
+    }
   },
   {
     "word": "diso",
@@ -1892,7 +3248,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This defines the state of matter that expands freely to fill any available space.",
     "tier": 3,
-    "rank": 206
+    "rank": 206,
+    "freq": 0,
+    "freq_rank": 1645,
+    "example": {
+      "fiwo": "Bexop disoei.",
+      "english": "Air is gaseous."
+    }
   },
   {
     "word": "dixa",
@@ -1900,7 +3262,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large, carnivorous fish with a cartilaginous skeleton and multiple rows of teeth.",
     "tier": 3,
-    "rank": 173
+    "rank": 173,
+    "freq": 1,
+    "freq_rank": 966,
+    "example": {
+      "fiwo": "Dixap dormidyq deky tandorsop.",
+      "english": "The shark was swimming in the sea."
+    }
   },
   {
     "word": "dizaba",
@@ -1908,7 +3276,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The complete connected frame of bones (meka) that supports a body; also the animated bone-creature of folklore.",
     "tier": 3,
-    "rank": 527
+    "rank": 527,
+    "freq": 0,
+    "freq_rank": 1648,
+    "example": {
+      "fiwo": "Dizabap locwe.",
+      "english": "The skeleton is white."
+    }
   },
   {
     "word": "dodu",
@@ -1916,7 +3290,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This word represents the entire universe or the broad context in which things exist.",
     "tier": 2,
-    "rank": 68
+    "rank": 68,
+    "freq": 7,
+    "freq_rank": 468,
+    "example": {
+      "fiwo": "Dodup tandei.",
+      "english": "The universe is big."
+    }
   },
   {
     "word": "dofemo",
@@ -1924,7 +3304,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical building, room, or tribunal where legal cases are heard and justice is administered.",
     "tier": 2,
-    "rank": 34
+    "rank": 34,
+    "freq": 10,
+    "freq_rank": 388,
+    "example": {
+      "fiwo": "Dofemop fafe.",
+      "english": "The court is important."
+    }
   },
   {
     "word": "dogi",
@@ -1932,7 +3318,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to not prevent an action from occurring.",
     "tier": 2,
-    "rank": 435
+    "rank": 435,
+    "freq": 8,
+    "freq_rank": 436,
+    "example": {
+      "fiwo": "Manap mike dogid tep mik garid.",
+      "english": "My mother let me play."
+    }
   },
   {
     "word": "domlo",
@@ -1940,7 +3332,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies precipitating liquid water falling downward from clouds in the atmosphere to the ground.",
     "tier": 1,
-    "rank": 161
+    "rank": 161,
+    "freq": 17,
+    "freq_rank": 257,
+    "example": {
+      "fiwo": "Domlop sowid nudu.",
+      "english": "The rain fell today."
+    }
   },
   {
     "word": "donava",
@@ -1948,7 +3346,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A person forced to flee their homeland for safety.",
     "tier": 3,
-    "rank": 140
+    "rank": 140,
+    "freq": 7,
+    "freq_rank": 470
   },
   {
     "word": "dorala",
@@ -1956,7 +3356,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the rear surface of a human body from the shoulders to the hips, or the equivalent upper structural surface of an animal.",
     "tier": 1,
-    "rank": 260
+    "rank": 260,
+    "freq": 3,
+    "freq_rank": 675
   },
   {
     "word": "dormi",
@@ -1964,7 +3366,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively propel oneself through liquid.",
     "tier": 2,
-    "rank": 333
+    "rank": 333,
+    "freq": 10,
+    "freq_rank": 389,
+    "example": {
+      "fiwo": "Fubap dormis deky tandorsop.",
+      "english": "The fish will swim in the sea."
+    }
   },
   {
     "word": "dorso",
@@ -1972,7 +3380,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This serves as the prototype word for liquid matter and the substance essential for life.",
     "tier": 1,
-    "rank": 50
+    "rank": 50,
+    "freq": 110,
+    "freq_rank": 44,
+    "example": {
+      "fiwo": "Mik rolid dorsop.",
+      "english": "I drank the water."
+    }
   },
   {
     "word": "doserto",
@@ -1980,7 +3394,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A piece of nonfiction writing forming an independent part of a publication.",
     "tier": 2,
-    "rank": 173
+    "rank": 173,
+    "freq": 1,
+    "freq_rank": 968,
+    "example": {
+      "fiwo": "Mik jamid dosertop.",
+      "english": "I wrote the article."
+    }
   },
   {
     "word": "dote",
@@ -1988,7 +3408,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something having the power to move heavy weights or perform other physically demanding tasks.",
     "tier": 1,
-    "rank": 92
+    "rank": 92,
+    "freq": 5,
+    "freq_rank": 554,
+    "example": {
+      "fiwo": "Daq dotei.",
+      "english": "He is strong."
+    }
   },
   {
     "word": "dowo",
@@ -1996,7 +3422,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The soft curly fiber forming the coat of sheep and similar animals, used as a textile material.",
     "tier": 3,
-    "rank": 512
+    "rank": 512,
+    "freq": 2,
+    "freq_rank": 790,
+    "example": {
+      "fiwo": "Dowop locwe.",
+      "english": "The wool is white."
+    }
   },
   {
     "word": "drabe",
@@ -2004,7 +3436,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number equivalent to ten times ten.",
     "tier": 1,
-    "rank": 321
+    "rank": 321,
+    "freq": 15,
+    "freq_rank": 287,
+    "example": {
+      "fiwo": "Nofar drabe plid.",
+      "english": "One hundred people came."
+    }
   },
   {
     "word": "drafo",
@@ -2012,7 +3450,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A circular solid object designed to revolve on an axle, fixed below a vehicle or inside a machine to enable kinetic movement.",
     "tier": 3,
-    "rank": 19
+    "rank": 19,
+    "freq": 4,
+    "freq_rank": 609,
+    "example": {
+      "fiwo": "Drafop xalidyq.",
+      "english": "The wheel was moving."
+    }
   },
   {
     "word": "dreko",
@@ -2020,7 +3464,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This denotes the hard, solid mineral material that is part of the earth's surface.",
     "tier": 1,
-    "rank": 128
+    "rank": 128,
+    "freq": 32,
+    "freq_rank": 151,
+    "example": {
+      "fiwo": "Daq xerid drekop.",
+      "english": "He threw the rock."
+    }
   },
   {
     "word": "driji",
@@ -2028,7 +3478,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To go up, ascend, or scale something, typically using both hands and feet.",
     "tier": 3,
-    "rank": 448
+    "rank": 448,
+    "freq": 10,
+    "freq_rank": 390,
+    "example": {
+      "fiwo": "Zalap drijid ty mosap.",
+      "english": "The bug climbed on the tree."
+    }
   },
   {
     "word": "drulsi",
@@ -2036,7 +3492,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To change something between two alternative states, such as on and off.",
     "tier": 3,
-    "rank": 352
+    "rank": 352,
+    "freq": 0,
+    "freq_rank": 1664,
+    "example": {
+      "fiwo": "Mik drulsid viketsop.",
+      "english": "I toggled the lamp."
+    }
   },
   {
     "word": "du",
@@ -2044,7 +3506,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A period of time from sunrise to sunrise; current day.",
     "tier": 1,
-    "rank": 35
+    "rank": 35,
+    "freq": 134,
+    "freq_rank": 35,
+    "example": {
+      "fiwo": "Dup ripeid.",
+      "english": "The day was warm."
+    }
   },
   {
     "word": "dubizi",
@@ -2052,7 +3520,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To come into existence or enter the world at a specific place and moment, whether by birth, hatching, or sudden appearance.",
     "tier": 3,
-    "rank": 157
+    "rank": 157,
+    "freq": 1,
+    "freq_rank": 969,
+    "example": {
+      "fiwo": "Mifap dubizid deky mortsap.",
+      "english": "The animal spawned in the forest."
+    }
   },
   {
     "word": "duco",
@@ -2060,7 +3534,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A smooth, highly reflective surface (typically glass with a metallic backing) that forms a clear image of objects in front of it.",
     "tier": 3,
-    "rank": 33
+    "rank": 33,
+    "freq": 1,
+    "freq_rank": 970,
+    "example": {
+      "fiwo": "Ducop skagid.",
+      "english": "The mirror broke."
+    }
   },
   {
     "word": "dugu",
@@ -2068,7 +3548,28 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the period of darkness in each twenty-four hours; the time from sunset to sunrise.",
     "tier": 1,
-    "rank": 62
+    "rank": 62,
+    "freq": 81,
+    "freq_rank": 65,
+    "example": {
+      "fiwo": "Dugup jabeid.",
+      "english": "The night was cold."
+    }
+  },
+  {
+    "word": "duja",
+    "english_equiv": "Thorn",
+    "part_of_speech": "Biological Noun",
+    "definition": "A sharp, hard, pointed structure growing on the stem or branch of a plant, serving as a natural defense.",
+    "tier": 3,
+    "rank": 570,
+    "usage_note": "A plant part. Distinct from acina (claw), which is an animal's.",
+    "freq": 0,
+    "freq_rank": 1670,
+    "example": {
+      "fiwo": "Firfap jedi duja je.",
+      "english": "The rose has thorns."
+    }
   },
   {
     "word": "duluxra",
@@ -2076,7 +3577,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A person who moves into a country to settle.",
     "tier": 3,
-    "rank": 119
+    "rank": 119,
+    "freq": 1,
+    "freq_rank": 971
   },
   {
     "word": "dumu",
@@ -2084,7 +3587,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a period of time equal to sixty seconds or one-sixtieth of an hour.",
     "tier": 1,
-    "rank": 162
+    "rank": 162,
+    "freq": 7,
+    "freq_rank": 471,
+    "example": {
+      "fiwo": "Dumup fecyeid.",
+      "english": "The minute was up."
+    }
   },
   {
     "word": "dupe",
@@ -2092,7 +3601,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an entity extending far down from the top surface or having a great internal vertical dimension.",
     "tier": 3,
-    "rank": 185
+    "rank": 185,
+    "freq": 5,
+    "freq_rank": 555,
+    "example": {
+      "fiwo": "Dorsop dupei.",
+      "english": "The water is deep."
+    }
   },
   {
     "word": "dury",
@@ -2100,7 +3615,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a temporal bridge, mapping an action strictly to the timeframe of an ongoing event or period.",
     "tier": 0,
-    "rank": 27
+    "rank": 27,
+    "freq": 382,
+    "freq_rank": 10,
+    "example": {
+      "fiwo": "Mik usid dury domloup.",
+      "english": "I slept during the rain."
+    }
   },
   {
     "word": "duxili",
@@ -2108,7 +3629,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To use force against something or someone in an attempt to harm or overcome; to assault.",
     "tier": 2,
-    "rank": 171
+    "rank": 171,
+    "freq": 1,
+    "freq_rank": 972,
+    "example": {
+      "fiwo": "Daq duxilid nofap.",
+      "english": "He attacked the person."
+    }
   },
   {
     "word": "dyrpo",
@@ -2116,7 +3643,13 @@ const dictionaryData = [
     "definition": "A long, flat, sawn piece of wood.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 166
+    "rank": 166,
+    "freq": 0,
+    "freq_rank": 1676,
+    "example": {
+      "fiwo": "Fixlop das lande.",
+      "english": "Her plank is small."
+    }
   },
   {
     "word": "dysa",
@@ -2124,7 +3657,28 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the fleshy muscular organ in the mouth used for tasting, licking, swallowing, and speaking.",
     "tier": 3,
-    "rank": 416
+    "rank": 416,
+    "freq": 0,
+    "freq_rank": 1678,
+    "example": {
+      "fiwo": "Mik nojaid dysap.",
+      "english": "I saw the tongue."
+    }
+  },
+  {
+    "word": "dyzu",
+    "english_equiv": "Setting",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A configured value or preference that governs how something behaves; the state a thing is set to.",
+    "tier": 3,
+    "rank": 590,
+    "usage_note": "The configured state, not the act of choosing — that is laekiu, from laeki (to choose).",
+    "freq": 0,
+    "freq_rank": 1680,
+    "example": {
+      "fiwo": "Mik tumid dyzu je speluue.",
+      "english": "I changed the game settings."
+    }
   },
   {
     "word": "dzefi",
@@ -2132,7 +3686,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To mathematically or logically align with another entity's opinion, statement, or abstract state.",
     "tier": 2,
-    "rank": 90
+    "rank": 90,
+    "freq": 38,
+    "freq_rank": 132,
+    "example": {
+      "fiwo": "Mik dzefid wy junup dale.",
+      "english": "I agreed with his plan."
+    }
   },
   {
     "word": "dzoco",
@@ -2140,7 +3700,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "Vessels and objects shaped from clay and hardened by fire.",
     "tier": 3,
-    "rank": 272
+    "rank": 272,
+    "freq": 1,
+    "freq_rank": 973,
+    "example": {
+      "fiwo": "Dzocop mik tande.",
+      "english": "My pottery is big."
+    }
   },
   {
     "word": "dzubu",
@@ -2148,7 +3714,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The grammatical word class denoting action or state, marked by the functional vowel -i. A category-classification concept, following aziku (rule) as an abstract linguistic term.",
     "tier": 3,
-    "rank": 532
+    "rank": 532,
+    "freq": 1,
+    "freq_rank": 974,
+    "example": {
+      "fiwo": "Ibalirap kritrid dzubup.",
+      "english": "The teacher taught the verb."
+    }
   },
   {
     "word": "dzupaka",
@@ -2156,7 +3728,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A person who holds sovereign authority over a state; king = + aqe, queen = + ase.",
     "tier": 3,
-    "rank": 146
+    "rank": 146,
+    "freq": 1,
+    "freq_rank": 975
   },
   {
     "word": "dzuripi",
@@ -2164,7 +3738,27 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To present the outward appearance of a property or state while the speaker withholds commitment to its truth; takes a bare modifier or noun complement like the Zero Copula (Daq dzuripi goile = 'He seems sad'). The verb counterpart of udzidu (appearance); distinct from the nop evidential tag, which marks the speaker's inference rather than the subject's appearance.",
     "tier": 3,
-    "rank": 162
+    "rank": 162,
+    "freq": 1,
+    "freq_rank": 976,
+    "example": {
+      "fiwo": "Daq dzuripi goile.",
+      "english": "He seems sad."
+    }
+  },
+  {
+    "word": "dzuvi",
+    "english_equiv": "Erode",
+    "part_of_speech": "Verb",
+    "definition": "To wear away gradually by the action of wind, water, or time.",
+    "tier": 3,
+    "rank": 580,
+    "freq": 0,
+    "freq_rank": 1687,
+    "example": {
+      "fiwo": "Dorso dzuvid dreko dury dionu late.",
+      "english": "The water eroded the rock over all time."
+    }
   },
   {
     "word": "dzypra",
@@ -2172,7 +3766,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A hard-shelled edible seed or fruit kernel, eaten as food or used in cooking.",
     "tier": 3,
-    "rank": 2
+    "rank": 2,
+    "freq": 1,
+    "freq_rank": 977,
+    "example": {
+      "fiwo": "Cadap nomi dzyprap.",
+      "english": "The child eats nuts."
+    }
   },
   {
     "word": "eava",
@@ -2180,7 +3780,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A long, legless, carnivorous reptile of the suborder Serpentes.",
     "tier": 3,
-    "rank": 442
+    "rank": 442,
+    "freq": 0,
+    "freq_rank": 1690,
+    "example": {
+      "fiwo": "Eavap sowid fy mosap.",
+      "english": "The snake fell from the tree."
+    }
   },
   {
     "word": "ebga",
@@ -2188,7 +3794,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A very small, thin terminal branch of a tree or shrub.",
     "tier": 3,
-    "rank": 322
+    "rank": 322,
+    "freq": 1,
+    "freq_rank": 978,
+    "example": {
+      "fiwo": "Ebgap skagid.",
+      "english": "The twig broke."
+    }
   },
   {
     "word": "ebmeri",
@@ -2196,7 +3808,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To successfully retrieve historical data, past events, or abstract knowledge from storage back into active memory.",
     "tier": 1,
-    "rank": 96
+    "rank": 96,
+    "freq": 29,
+    "freq_rank": 171,
+    "example": {
+      "fiwo": "Mik ebmeris hisup suke.",
+      "english": "I will remember your name."
+    }
   },
   {
     "word": "ebnesi",
@@ -2204,7 +3822,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To lose access to stored mental data; the systemic inability to retrieve a past event or learned concept.",
     "tier": 1,
-    "rank": 297
+    "rank": 297,
+    "freq": 12,
+    "freq_rank": 335,
+    "example": {
+      "fiwo": "Mik ebnesis agcup mike.",
+      "english": "I will forget my mistake."
+    }
   },
   {
     "word": "ebo",
@@ -2212,7 +3836,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A series of connected metal links or rings used for pulling, securing, or holding objects.",
     "tier": 3,
-    "rank": 335
+    "rank": 335,
+    "freq": 0,
+    "freq_rank": 1696,
+    "example": {
+      "fiwo": "Ebop xedoeid.",
+      "english": "The chain was metallic."
+    }
   },
   {
     "word": "ebxe",
@@ -2220,7 +3850,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Willfully causing pain, distress, or suffering to others, or feeling no concern for it.",
     "tier": 3,
-    "rank": 465
+    "rank": 465,
+    "freq": 0,
+    "freq_rank": 1698,
+    "example": {
+      "fiwo": "Rezap ebxeid.",
+      "english": "The leader was cruel."
+    }
   },
   {
     "word": "ebziki",
@@ -2228,7 +3864,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To successfully identify an entity or concept from previous experience, stored data, or memory.",
     "tier": 3,
-    "rank": 374
+    "rank": 374,
+    "freq": 5,
+    "freq_rank": 556,
+    "example": {
+      "fiwo": "Mik ebzikis zipap suke.",
+      "english": "I will recognize your face."
+    }
   },
   {
     "word": "ecme",
@@ -2236,7 +3878,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Having or showing a modest estimate of one's own importance.",
     "tier": 3,
-    "rank": 466
+    "rank": 466,
+    "freq": 0,
+    "freq_rank": 1701,
+    "example": {
+      "fiwo": "Rezap ecmeid.",
+      "english": "The president was humble."
+    }
   },
   {
     "word": "ednu",
@@ -2244,7 +3892,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Strong belief, trust, or conviction in a doctrine, system, or divine creator.",
     "tier": 2,
-    "rank": 159
+    "rank": 159,
+    "freq": 0,
+    "freq_rank": 1703,
+    "example": {
+      "fiwo": "Ednup ry mik doteid.",
+      "english": "My faith was strong."
+    }
   },
   {
     "word": "edorari",
@@ -2252,7 +3906,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To cook a physical object by completely submerging it in boiling fat or oil.",
     "tier": 3,
-    "rank": 508
+    "rank": 508,
+    "freq": 0,
+    "freq_rank": 1705,
+    "example": {
+      "fiwo": "Das edoraris mitap.",
+      "english": "She will deep fry the meat."
+    }
   },
   {
     "word": "efade",
@@ -2260,7 +3920,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an entity consistently applying a high degree of energy, focus, and dedication to a task.",
     "tier": 3,
-    "rank": 22
+    "rank": 22,
+    "freq": 2,
+    "freq_rank": 794,
+    "example": {
+      "fiwo": "Licap efadeid.",
+      "english": "The colleague was hardworking."
+    }
   },
   {
     "word": "efantu",
@@ -2268,7 +3934,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual measurement of physical or mental exertion required to achieve a goal.",
     "tier": 3,
-    "rank": 225
+    "rank": 225,
+    "freq": 0,
+    "freq_rank": 1708,
+    "example": {
+      "fiwo": "Efantup mike tandeid.",
+      "english": "My effort was great."
+    }
   },
   {
     "word": "efmi",
@@ -2276,7 +3948,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To take another person's property without permission or legal right.",
     "tier": 2,
-    "rank": 241
+    "rank": 241,
+    "freq": 5,
+    "freq_rank": 557,
+    "example": {
+      "fiwo": "Guzap efmid gidup mike.",
+      "english": "The enemy stole my money."
+    }
   },
   {
     "word": "efzu",
@@ -2284,7 +3962,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The state of agreement, concord, peaceful cooperation, or pleasing musical notes sounded together.",
     "tier": 3,
-    "rank": 464
+    "rank": 464,
+    "freq": 0,
+    "freq_rank": 1711,
+    "example": {
+      "fiwo": "Efzup ry canpup baudeid.",
+      "english": "The harmony of the community was beautiful."
+    }
   },
   {
     "word": "egde",
@@ -2292,7 +3976,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Not affected by alcohol or intoxicants; clear-headed.",
     "tier": 3,
-    "rank": 496
+    "rank": 496,
+    "freq": 0,
+    "freq_rank": 1713,
+    "example": {
+      "fiwo": "Noqsap egdeid.",
+      "english": "The man was sober."
+    }
   },
   {
     "word": "egino",
@@ -2300,7 +3990,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A complex mechanical machine with moving physical parts that converts fuel or power into kinetic motion.",
     "tier": 3,
-    "rank": 261
+    "rank": 261,
+    "freq": 0,
+    "freq_rank": 1715,
+    "example": {
+      "fiwo": "Eginop doteid.",
+      "english": "The engine was strong."
+    }
   },
   {
     "word": "egmabe",
@@ -2308,7 +4004,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number equivalent to ten times one hundred.",
     "tier": 1,
-    "rank": 322
+    "rank": 322,
+    "freq": 14,
+    "freq_rank": 303,
+    "example": {
+      "fiwo": "Nofar egmabe plid.",
+      "english": "One thousand people came."
+    }
   },
   {
     "word": "egpo",
@@ -2316,7 +4018,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A long, hollow cylinder of metal, plastic, or glass, used for conveying or containing fluids or signals.",
     "tier": 3,
-    "rank": 410
+    "rank": 410,
+    "freq": 0,
+    "freq_rank": 1718,
+    "example": {
+      "fiwo": "Egpop jozeid.",
+      "english": "The tube was long."
+    }
   },
   {
     "word": "eguvu",
@@ -2324,7 +4032,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract conceptual measurement of achievement, quality, or relative position on a vertical or hierarchical scale.",
     "tier": 3,
-    "rank": 1
+    "rank": 1,
+    "freq": 0,
+    "freq_rank": 1720,
+    "example": {
+      "fiwo": "Eguvup ry mik zaveid.",
+      "english": "My level was high."
+    }
   },
   {
     "word": "eipi",
@@ -2332,7 +4046,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To pull apart or into pieces by force.",
     "tier": 3,
-    "rank": 413
+    "rank": 413,
+    "freq": 0,
+    "freq_rank": 1722,
+    "example": {
+      "fiwo": "Das eipid paelop.",
+      "english": "She tore the paper."
+    }
   },
   {
     "word": "eksapli",
@@ -2340,7 +4060,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To structurally clarify data, logic, or meaning to make it perfectly comprehensible to another mind.",
     "tier": 2,
-    "rank": 104
+    "rank": 104,
+    "freq": 6,
+    "freq_rank": 502,
+    "example": {
+      "fiwo": "Ibalirap eksaplid azikup.",
+      "english": "The teacher explained the rule."
+    }
   },
   {
     "word": "elge",
@@ -2348,7 +4074,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Free of deceit; truthful and sincere.",
     "tier": 3,
-    "rank": 291
+    "rank": 291,
+    "freq": 0,
+    "freq_rank": 1725,
+    "example": {
+      "fiwo": "Licap elgeid.",
+      "english": "The colleague was honest."
+    }
   },
   {
     "word": "elsa",
@@ -2356,7 +4088,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A stinging, winged insect known for its role in pollination and producing honey.",
     "tier": 3,
-    "rank": 172
+    "rank": 172,
+    "freq": 1,
+    "freq_rank": 984,
+    "example": {
+      "fiwo": "Elsap foisoiq sydor.",
+      "english": "The bee is building a house."
+    }
   },
   {
     "word": "emfe",
@@ -2364,7 +4102,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Newly made, harvested, or obtained; not stale, sour, or decayed.",
     "tier": 3,
-    "rank": 260
+    "rank": 260,
+    "freq": 0,
+    "freq_rank": 1727,
+    "example": {
+      "fiwo": "Mitap emfei.",
+      "english": "The meat is fresh."
+    }
   },
   {
     "word": "emiti",
@@ -2372,7 +4116,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To physically move or conceptually travel sequentially behind a target.",
     "tier": 2,
-    "rank": 91
+    "rank": 91,
+    "freq": 9,
+    "freq_rank": 407,
+    "example": {
+      "fiwo": "Detap emitid mik.",
+      "english": "The dog followed me."
+    }
   },
   {
     "word": "enconi",
@@ -2380,7 +4130,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To intentionally or accidentally come into the physical presence of someone.",
     "tier": 1,
-    "rank": 129
+    "rank": 129,
+    "freq": 9,
+    "freq_rank": 408,
+    "example": {
+      "fiwo": "Mik enconid rezap.",
+      "english": "I met the president."
+    }
   },
   {
     "word": "ene",
@@ -2388,7 +4144,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something of little weight or easy to lift.",
     "tier": 1,
-    "rank": 284
+    "rank": 284,
+    "freq": 0,
+    "freq_rank": 1732
   },
   {
     "word": "enri",
@@ -2396,7 +4154,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To physically move from the exterior environment into the interior of an enclosure or defined space.",
     "tier": 2,
-    "rank": 79
+    "rank": 79,
+    "freq": 23,
+    "freq_rank": 207,
+    "example": {
+      "fiwo": "Daq enris deky sydop.",
+      "english": "He will enter the house."
+    }
   },
   {
     "word": "epiwu",
@@ -2404,7 +4168,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual state or fundamental process of doing something to achieve an aim.",
     "tier": 2,
-    "rank": 35
+    "rank": 35,
+    "freq": 11,
+    "freq_rank": 364,
+    "example": {
+      "fiwo": "Epiwup ry daq gaweid.",
+      "english": "His action was good."
+    }
   },
   {
     "word": "epmo",
@@ -2412,7 +4182,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An enclosed compartment or heated surface used for cooking, baking, or heating food.",
     "tier": 3,
-    "rank": 472
+    "rank": 472,
+    "freq": 2,
+    "freq_rank": 798,
+    "example": {
+      "fiwo": "Epmop ripeid.",
+      "english": "The oven was hot."
+    }
   },
   {
     "word": "epufu",
@@ -2420,7 +4196,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract principle of moral rightness, equity, fairness, and the administration of law.",
     "tier": 3,
-    "rank": 290
+    "rank": 290,
+    "freq": 0,
+    "freq_rank": 1737,
+    "example": {
+      "fiwo": "Uyzup ry xekup gawei.",
+      "english": "The justice of the country is good."
+    }
   },
   {
     "word": "epzi",
@@ -2428,7 +4210,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To rub a surface to make it smooth, shiny, and reflective.",
     "tier": 3,
-    "rank": 428
+    "rank": 428,
+    "freq": 0,
+    "freq_rank": 1738,
+    "example": {
+      "fiwo": "Daq epzis belimop.",
+      "english": "He will polish the shoe."
+    }
   },
   {
     "word": "eqso",
@@ -2436,7 +4224,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The biological liquid naturally produced in the mouth to lubricate food and initiate physical digestion.",
     "tier": 3,
-    "rank": 507
+    "rank": 507,
+    "freq": 0,
+    "freq_rank": 1741,
+    "example": {
+      "fiwo": "Eqsop sowid fy ylxap.",
+      "english": "Saliva fell from the mouth."
+    }
   },
   {
     "word": "erco",
@@ -2444,7 +4238,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A loud rumbling or crashing noise heard after a lightning flash due to the rapid expansion of heated air.",
     "tier": 3,
-    "rank": 452
+    "rank": 452,
+    "freq": 0,
+    "freq_rank": 1744,
+    "example": {
+      "fiwo": "Nak paulid ercop.",
+      "english": "We felt the thunder."
+    }
   },
   {
     "word": "erfi",
@@ -2452,7 +4252,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To mentally comprehend the abstract meaning, logic, or underlying cause of a concept.",
     "tier": 1,
-    "rank": 107
+    "rank": 107,
+    "freq": 28,
+    "freq_rank": 178,
+    "example": {
+      "fiwo": "Mik erfid biwup.",
+      "english": "I understood the problem."
+    }
   },
   {
     "word": "erpilsi",
@@ -2460,7 +4266,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To expel the stomach's contents through the mouth.",
     "tier": 3,
-    "rank": 224
+    "rank": 224,
+    "freq": 1,
+    "freq_rank": 986
   },
   {
     "word": "eru",
@@ -2468,7 +4276,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A state of abstract or political conflict, competition, or severe hostility between different groups or nations.",
     "tier": 2,
-    "rank": 37
+    "rank": 37,
+    "freq": 13,
+    "freq_rank": 316,
+    "example": {
+      "fiwo": "Erup beqyeid.",
+      "english": "The war was beyond."
+    }
   },
   {
     "word": "espe",
@@ -2476,7 +4290,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something clearly defined, explicitly identified, or restricted to a singular, particular individual or situation.",
     "tier": 3,
-    "rank": 174
+    "rank": 174,
+    "freq": 0,
+    "freq_rank": 1748,
+    "example": {
+      "fiwo": "Biwup espei.",
+      "english": "The problem is specific."
+    }
   },
   {
     "word": "etypi",
@@ -2484,7 +4304,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively and successfully acquire, gain possession of, or secure a physical object or abstract concept. (Implies active effort or successful acquisition).",
     "tier": 1,
-    "rank": 256
+    "rank": 256,
+    "freq": 5,
+    "freq_rank": 558,
+    "example": {
+      "fiwo": "Mik etypis jobup.",
+      "english": "I will get the job."
+    }
   },
   {
     "word": "evle",
@@ -2492,7 +4318,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Occasionally; on some occasions but not all.",
     "tier": 1,
-    "rank": 143
+    "rank": 143,
+    "freq": 2,
+    "freq_rank": 799,
+    "example": {
+      "fiwo": "Dugup domloi evle.",
+      "english": "It sometimes rains at night."
+    }
   },
   {
     "word": "evmu",
@@ -2500,7 +4332,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An event that happens unexpectedly and unintentionally, typically resulting in damage or injury.",
     "tier": 3,
-    "rank": 297
+    "rank": 297,
+    "freq": 0,
+    "freq_rank": 1752,
+    "example": {
+      "fiwo": "Evmup linucid.",
+      "english": "The accident happened."
+    }
   },
   {
     "word": "exke",
@@ -2508,7 +4346,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "An unspecified, small quantitative amount—typically more than two, but not enough to be considered many (jedle).",
     "tier": 3,
-    "rank": 3
+    "rank": 3,
+    "freq": 5,
+    "freq_rank": 559,
+    "example": {
+      "fiwo": "Mik karxid aplar exke.",
+      "english": "I found several apples."
+    }
   },
   {
     "word": "exopu",
@@ -2516,7 +4360,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract mathematical measure, quantity, or frequency typically measured against a separate baseline quantity.",
     "tier": 3,
-    "rank": 108
+    "rank": 108,
+    "freq": 0,
+    "freq_rank": 1755,
+    "example": {
+      "fiwo": "Exopup ry jeflup ruzei.",
+      "english": "The rate of development is fast."
+    }
   },
   {
     "word": "extanu",
@@ -2524,7 +4374,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A period of learning or teaching; a structured block of educational instruction.",
     "tier": 3,
-    "rank": 377
+    "rank": 377,
+    "freq": 0,
+    "freq_rank": 1757,
+    "example": {
+      "fiwo": "Ibalirap stomi extanup.",
+      "english": "The teacher gives the lesson."
+    }
   },
   {
     "word": "eziswi",
@@ -2532,7 +4388,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To put a plan, decision, or system into effect; to carry out.",
     "tier": 2,
-    "rank": 421
+    "rank": 421,
+    "freq": 2,
+    "freq_rank": 800,
+    "example": {
+      "fiwo": "Muk eziswid azikup.",
+      "english": "We implemented the rule."
+    }
   },
   {
     "word": "ezlo",
@@ -2540,7 +4402,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A removable cover or cap for a container, jar, or bottle.",
     "tier": 3,
-    "rank": 510
+    "rank": 510,
+    "freq": 2,
+    "freq_rank": 801,
+    "example": {
+      "fiwo": "Ezlop skagid.",
+      "english": "The lid broke."
+    }
   },
   {
     "word": "ezte",
@@ -2548,7 +4416,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Having or showing behavior that is respectful and considerate of others.",
     "tier": 3,
-    "rank": 490
+    "rank": 490,
+    "freq": 0,
+    "freq_rank": 1761,
+    "example": {
+      "fiwo": "Cadap ezteid.",
+      "english": "The child was polite."
+    }
   },
   {
     "word": "fabi",
@@ -2556,7 +4430,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to have a desire to possess or do something.",
     "tier": 1,
-    "rank": 16
+    "rank": 16,
+    "freq": 77,
+    "freq_rank": 68,
+    "example": {
+      "fiwo": "Mik fabid nomit batap.",
+      "english": "I wanted to eat the food."
+    }
   },
   {
     "word": "facu",
@@ -2564,7 +4444,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This identifies a position, area, or surface on the left or right of a central line.",
     "tier": 2,
-    "rank": 431
+    "rank": 431,
+    "freq": 23,
+    "freq_rank": 208,
+    "example": {
+      "fiwo": "Sydop jedi facu late.",
+      "english": "The house has all sides."
+    }
   },
   {
     "word": "fafe",
@@ -2572,7 +4458,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something of great significance, value, or consequence.",
     "tier": 2,
-    "rank": 14
+    "rank": 14,
+    "freq": 4,
+    "freq_rank": 611,
+    "example": {
+      "fiwo": "Mifap fafei cagy nak.",
+      "english": "The animal is important to us."
+    }
   },
   {
     "word": "faga",
@@ -2580,7 +4472,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A gender-neutral biological relative who is the child of one's parent's sibling.",
     "tier": 2,
-    "rank": 266
+    "rank": 266,
+    "freq": 2,
+    "freq_rank": 802
   },
   {
     "word": "falazi",
@@ -2588,7 +4482,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively write down, log, or systematically record events, thoughts, or experiences that have taken place, typically for personal reflection or historical preservation.",
     "tier": 3,
-    "rank": 69
+    "rank": 69,
+    "freq": 3,
+    "freq_rank": 677,
+    "example": {
+      "fiwo": "Das falazid ogirup.",
+      "english": "She recorded the experience."
+    }
   },
   {
     "word": "falfoso",
@@ -2596,7 +4496,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A written or displayed series of items set out one after another. (The spoken-list separator is the particle sek.)",
     "tier": 3,
-    "rank": 37
+    "rank": 37,
+    "freq": 1,
+    "freq_rank": 989,
+    "example": {
+      "fiwo": "Mik jamid falfosop.",
+      "english": "I wrote the list."
+    }
   },
   {
     "word": "falmi",
@@ -2605,7 +4511,13 @@ const dictionaryData = [
     "definition": "To officially retell, record, or communicate the factual details of events that have already taken place.",
     "usage_note": "Distinct from nari (to tell), which is general communication; falmi implies an objective recounting of history or data.",
     "tier": 3,
-    "rank": 20
+    "rank": 20,
+    "freq": 3,
+    "freq_rank": 678,
+    "example": {
+      "fiwo": "Daq falmis isamup.",
+      "english": "He will report the result."
+    }
   },
   {
     "word": "fanzi",
@@ -2613,7 +4525,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To intentionally make a person, concept, or thing known to another entity for the first time.",
     "tier": 3,
-    "rank": 81
+    "rank": 81,
+    "freq": 0,
+    "freq_rank": 1771,
+    "example": {
+      "fiwo": "Mik fanzid nauxap mike.",
+      "english": "I introduced my friend."
+    }
   },
   {
     "word": "fap",
@@ -2621,7 +4539,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Structural tag placed at the clause start to mathematically invert SVO thematic roles.",
     "tier": 0,
-    "rank": 99
+    "rank": 99,
+    "freq": 35,
+    "freq_rank": 140,
+    "example": {
+      "fiwo": "Fap batap nomid catsap.",
+      "english": "The food was eaten by the cat."
+    }
   },
   {
     "word": "farlopa",
@@ -2629,7 +4553,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a person who practices medicine and restores systemic well-being.",
     "tier": 1,
-    "rank": 131
+    "rank": 131,
+    "freq": 30,
+    "freq_rank": 166,
+    "example": {
+      "fiwo": "Farlopap jofis mik.",
+      "english": "The doctor will help me."
+    }
   },
   {
     "word": "farlu",
@@ -2637,7 +4567,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual state of being free from physical or psychological illness; overall systemic well-being.",
     "tier": 2,
-    "rank": 192
+    "rank": 192,
+    "freq": 0,
+    "freq_rank": 1774,
+    "example": {
+      "fiwo": "Farlup ry mik gawei.",
+      "english": "My health is good."
+    }
   },
   {
     "word": "fasidi",
@@ -2645,7 +4581,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To contain an entity as a subordinate part or member of a larger whole or system.",
     "tier": 3,
-    "rank": 65
+    "rank": 65,
+    "freq": 0,
+    "freq_rank": 1775,
+    "example": {
+      "fiwo": "Batap mike fasidid zobar.",
+      "english": "My food included vegetables."
+    }
   },
   {
     "word": "fasnoli",
@@ -2653,7 +4595,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To spread or publicize information widely; to propagandize.",
     "tier": 3,
-    "rank": 152
+    "rank": 152,
+    "freq": 1,
+    "freq_rank": 990,
+    "example": {
+      "fiwo": "Govnu fasnolid fuhytup.",
+      "english": "The government disseminated the news."
+    }
   },
   {
     "word": "fatli",
@@ -2661,7 +4609,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To require the support, action, or existence of another entity in order to function, survive, or succeed.",
     "tier": 3,
-    "rank": 417
+    "rank": 417,
+    "freq": 0,
+    "freq_rank": 1778,
+    "example": {
+      "fiwo": "Isamup fatlis olifur.",
+      "english": "The result depends on research."
+    }
   },
   {
     "word": "fato",
@@ -2669,7 +4623,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a device or engine and is the essential base concept for more complex items like computers.",
     "tier": 2,
-    "rank": 57
+    "rank": 57,
+    "freq": 41,
+    "freq_rank": 118,
+    "example": {
+      "fiwo": "Fatop cimidyq.",
+      "english": "The machine was starting."
+    }
   },
   {
     "word": "fawanu",
@@ -2677,7 +4637,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract concept, discipline, or application of scientific knowledge, techniques, and systems for practical purposes.",
     "tier": 2,
-    "rank": 253
+    "rank": 253,
+    "freq": 2,
+    "freq_rank": 803,
+    "example": {
+      "fiwo": "Fawanup ry jyjop ruzeiq.",
+      "english": "The technology of the computer is advancing."
+    }
   },
   {
     "word": "fazy",
@@ -2685,7 +4651,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates abstract characteristics, personality, or intrinsic nature; having the qualities of the object.",
     "tier": 0,
-    "rank": 86
+    "rank": 86,
+    "freq": 0,
+    "freq_rank": 1783,
+    "example": {
+      "fiwo": "Daq ceni fazy mifar.",
+      "english": "He lives like an animal."
+    }
   },
   {
     "word": "fe",
@@ -2693,7 +4665,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Definition: Intensifier used to emphasize degree.",
     "tier": 1,
-    "rank": 47
+    "rank": 47,
+    "freq": 45,
+    "freq_rank": 106,
+    "example": {
+      "fiwo": "Daq ruzei fe.",
+      "english": "He is very fast."
+    }
   },
   {
     "word": "fecy",
@@ -2701,7 +4679,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a temporal or spatial bridge extending continuously up to the absolute limit or termination point of an event or location.",
     "tier": 0,
-    "rank": 50
+    "rank": 50,
+    "freq": 9,
+    "freq_rank": 409,
+    "example": {
+      "fiwo": "Mik wastid fecy cihup.",
+      "english": "I waited until the morning."
+    }
   },
   {
     "word": "fefu",
@@ -2709,7 +4693,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This defines the final part of something or its termination point.",
     "tier": 1,
-    "rank": 152
+    "rank": 152,
+    "freq": 12,
+    "freq_rank": 336,
+    "example": {
+      "fiwo": "Mik nojaid fefup.",
+      "english": "I saw the end."
+    }
   },
   {
     "word": "fehedi",
@@ -2717,7 +4707,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To formally dissolve a marital partnership, ending the spouse relation between two individuals; the reverse of jahizi (to marry).",
     "tier": 3,
-    "rank": 71
+    "rank": 71,
+    "freq": 0,
+    "freq_rank": 1784,
+    "example": {
+      "fiwo": "Das fehedid hazbap.",
+      "english": "She divorced the husband."
+    }
   },
   {
     "word": "felpe",
@@ -2725,7 +4721,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something not the same as another or each other.",
     "tier": 1,
-    "rank": 268
+    "rank": 268,
+    "freq": 5,
+    "freq_rank": 561,
+    "example": {
+      "fiwo": "Nak gidsid moblor felpe.",
+      "english": "We bought a different car."
+    }
   },
   {
     "word": "femporo",
@@ -2733,7 +4735,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A hard, common crystalline mineral, typically white or translucent.",
     "tier": 3,
-    "rank": 521
+    "rank": 521,
+    "freq": 0,
+    "freq_rank": 1790,
+    "example": {
+      "fiwo": "Femporop locwe.",
+      "english": "The quartz is white."
+    }
   },
   {
     "word": "femunu",
@@ -2741,7 +4749,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The collective means of mass communication.",
     "tier": 2,
-    "rank": 179
+    "rank": 179,
+    "freq": 5,
+    "freq_rank": 562
   },
   {
     "word": "fenuti",
@@ -2749,7 +4759,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To communicate specific information, facts, or instructions directly to another entity.",
     "tier": 1,
-    "rank": 90
+    "rank": 90,
+    "freq": 8,
+    "freq_rank": 437,
+    "example": {
+      "fiwo": "Pebap fenutis stepup.",
+      "english": "Father will tell the story."
+    }
   },
   {
     "word": "fevo",
@@ -2757,7 +4773,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to the primary daytime celestial body or central star that provides light and heat energy to a planetary system.",
     "tier": 1,
-    "rank": 298
+    "rank": 298,
+    "freq": 13,
+    "freq_rank": 317,
+    "example": {
+      "fiwo": "Fevop ripei.",
+      "english": "The sun is hot."
+    }
   },
   {
     "word": "fewi",
@@ -2765,7 +4787,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to combine or blend different substances together.",
     "tier": 3,
-    "rank": 284
+    "rank": 284,
+    "freq": 1,
+    "freq_rank": 992,
+    "example": {
+      "fiwo": "Mik fewid tankor deky tesop.",
+      "english": "I mixed sugar in the tea."
+    }
   },
   {
     "word": "fexresa",
@@ -2773,7 +4801,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A person harmed by a crime or event.",
     "tier": 2,
-    "rank": 392
+    "rank": 392,
+    "freq": 1,
+    "freq_rank": 993
   },
   {
     "word": "fexruku",
@@ -2781,7 +4811,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The body of people employed by an organization; personnel collectively.",
     "tier": 2,
-    "rank": 176
+    "rank": 176,
+    "freq": 1,
+    "freq_rank": 994,
+    "example": {
+      "fiwo": "Fexruku efade.",
+      "english": "The staff is hardworking."
+    }
   },
   {
     "word": "ficudu",
@@ -2789,7 +4825,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Abandoning a task halfway, wasting what was invested. Logical equivalent: Daq sejid jobup pary fefup. (He stopped the job before the end.)",
     "tier": 3,
-    "rank": 93
+    "rank": 93,
+    "freq": 0,
+    "freq_rank": 1797,
+    "example": {
+      "fiwo": "Kop ebmeri ficudur.",
+      "english": "Remember quitting-midway."
+    }
   },
   {
     "word": "figenku",
@@ -2797,7 +4839,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A class or sort into which things are grouped by shared features.",
     "tier": 2,
-    "rank": 145
+    "rank": 145,
+    "freq": 1,
+    "freq_rank": 995
   },
   {
     "word": "fihi",
@@ -2805,7 +4849,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To uncover something, removing what covered or protected it.",
     "tier": 3,
-    "rank": 477
+    "rank": 477,
+    "freq": 0,
+    "freq_rank": 1799,
+    "example": {
+      "fiwo": "Mik fihid drekop.",
+      "english": "I exposed the rock."
+    }
   },
   {
     "word": "fija",
@@ -2813,7 +4863,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The biological organ responsible for the perception of sound.",
     "tier": 1,
-    "rank": 202
+    "rank": 202,
+    "freq": 3,
+    "freq_rank": 681,
+    "example": {
+      "fiwo": "Daq kilidyq fijap.",
+      "english": "He was touching the ear."
+    }
   },
   {
     "word": "fiko",
@@ -2821,7 +4877,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a route, course, or track along which something moves or reaches a destination.",
     "tier": 1,
-    "rank": 118
+    "rank": 118,
+    "freq": 41,
+    "freq_rank": 119,
+    "example": {
+      "fiwo": "Fikop rewyeid.",
+      "english": "The path was far."
+    }
   },
   {
     "word": "fine",
@@ -2830,7 +4892,13 @@ const dictionaryData = [
     "definition": "This word describes something of high precision, delicate physical quality, or consisting of very small particles.",
     "usage_note": "Distinct from wece, which is merely satisfactory.",
     "tier": 3,
-    "rank": 53
+    "rank": 53,
+    "freq": 0,
+    "freq_rank": 1805,
+    "example": {
+      "fiwo": "Otsinop finei.",
+      "english": "The thread is delicate."
+    }
   },
   {
     "word": "fipu",
@@ -2839,7 +4907,13 @@ const dictionaryData = [
     "definition": "The abstract programs, operational logic, and code information used by a computer system.",
     "usage_note": "Distinct from the physical hardware.",
     "tier": 3,
-    "rank": 267
+    "rank": 267,
+    "freq": 1,
+    "freq_rank": 997,
+    "example": {
+      "fiwo": "Mik zyli fipup.",
+      "english": "I use the software."
+    }
   },
   {
     "word": "firfa",
@@ -2847,7 +4921,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A thorned flowering shrub; the iconic garden flower.",
     "tier": 3,
-    "rank": 236
+    "rank": 236,
+    "freq": 1,
+    "freq_rank": 998,
+    "example": {
+      "fiwo": "Mik stomid firfar zy manap.",
+      "english": "I gave a rose to the mother."
+    }
   },
   {
     "word": "fiske",
@@ -2855,7 +4935,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "A temporal modifier describing an event or action that occurred in the absolute immediate past relative to the current timeframe.",
     "tier": 2,
-    "rank": 53
+    "rank": 53,
+    "freq": 1,
+    "freq_rank": 999,
+    "example": {
+      "fiwo": "Daq plid fiske.",
+      "english": "He recently arrived."
+    }
   },
   {
     "word": "fituru",
@@ -2863,7 +4949,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract temporal realm encompassing all time and theoretical events that are yet to come.",
     "tier": 2,
-    "rank": 59
+    "rank": 59,
+    "freq": 7,
+    "freq_rank": 472,
+    "example": {
+      "fiwo": "Fiturup ry nak gawei.",
+      "english": "Our future is good."
+    }
   },
   {
     "word": "fitydu",
@@ -2871,7 +4963,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the next day in the chronological sequence.",
     "tier": 1,
-    "rank": 135
+    "rank": 135,
+    "freq": 11,
+    "freq_rank": 365,
+    "example": {
+      "fiwo": "Fitydup jabeis.",
+      "english": "Tomorrow will be cold."
+    }
   },
   {
     "word": "fiwo",
@@ -2879,7 +4977,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to the principal method of human communication, consisting of words used in a structured and conventional way.",
     "tier": 1,
-    "rank": 121
+    "rank": 121,
+    "freq": 43,
+    "freq_rank": 114,
+    "example": {
+      "fiwo": "Nak gesiq fiwop.",
+      "english": "We are speaking the language."
+    }
   },
   {
     "word": "flaxado",
@@ -2887,7 +4991,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A strip of material wrapped over a wound to protect it.",
     "tier": 3,
-    "rank": 237
+    "rank": 237,
+    "freq": 1,
+    "freq_rank": 1001
   },
   {
     "word": "flesto",
@@ -2895,7 +5001,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The hardest known gemstone, a brilliant colorless crystal of pure carbon.",
     "tier": 3,
-    "rank": 382
+    "rank": 382,
+    "freq": 0,
+    "freq_rank": 1813,
+    "example": {
+      "fiwo": "Flestop tande.",
+      "english": "The diamond is big."
+    }
   },
   {
     "word": "flufu",
@@ -2903,7 +5015,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The practices that keep the body clean and healthy.",
     "tier": 3,
-    "rank": 186
+    "rank": 186,
+    "freq": 1,
+    "freq_rank": 1002
   },
   {
     "word": "fodi",
@@ -2911,7 +5025,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This refers to a series of actions or steps taken in order to achieve a particular end.",
     "tier": 3,
-    "rank": 34
+    "rank": 34,
+    "freq": 0,
+    "freq_rank": 1816,
+    "example": {
+      "fiwo": "Fatop fodiq fulup.",
+      "english": "The machine is processing the data."
+    }
   },
   {
     "word": "fofuplo",
@@ -2919,7 +5039,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A body of water partly enclosed by curving land.",
     "tier": 3,
-    "rank": 276
+    "rank": 276,
+    "freq": 10,
+    "freq_rank": 392,
+    "example": {
+      "fiwo": "Mik nojaid fofuplop.",
+      "english": "I saw the bay."
+    }
   },
   {
     "word": "foge",
@@ -2927,7 +5053,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a physical or psychological state of ease, relaxation, and pleasant contentment, free from pain or hardship.",
     "tier": 2,
-    "rank": 300
+    "rank": 300,
+    "freq": 1,
+    "freq_rank": 1003,
+    "example": {
+      "fiwo": "Zufop fogeid.",
+      "english": "The bed was comfortable."
+    }
   },
   {
     "word": "fohu",
@@ -2935,7 +5067,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the late part of the day, typically from the midpoint of the day until sunset.",
     "tier": 2,
-    "rank": 214
+    "rank": 214,
+    "freq": 6,
+    "freq_rank": 503,
+    "example": {
+      "fiwo": "Fohup jabeis.",
+      "english": "The afternoon will be cold."
+    }
   },
   {
     "word": "foiso",
@@ -2943,7 +5081,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a structure with a roof and walls, such as a house, school, store, or factory.",
     "tier": 2,
-    "rank": 7
+    "rank": 7,
+    "freq": 26,
+    "freq_rank": 188,
+    "example": {
+      "fiwo": "Foisop tandei.",
+      "english": "The building is big."
+    }
   },
   {
     "word": "folkunu",
@@ -2951,7 +5095,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "One's durable public standing and worth in the eyes of others, which can be given, saved, or lost. Social and lasting, unlike ofxu (inward shame) or ukwolu (momentary embarrassment). Covers the concept of 面子 (miànzi).",
     "tier": 2,
-    "rank": 46
+    "rank": 46,
+    "freq": 3,
+    "freq_rank": 682,
+    "example": {
+      "fiwo": "Folkunu ry daq tandeid.",
+      "english": "His dignity was great."
+    }
   },
   {
     "word": "foly",
@@ -2959,7 +5109,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates that the main action occurs strictly subsequent to the referenced temporal baseline or event.",
     "tier": 0,
-    "rank": 29
+    "rank": 29,
+    "freq": 23,
+    "freq_rank": 209,
+    "example": {
+      "fiwo": "Mik usis foly naciup.",
+      "english": "I will sleep after the work."
+    }
   },
   {
     "word": "fomentu",
@@ -2967,7 +5123,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The making of goods at scale; the process and output of manufacturing (distinct from sapi=make).",
     "tier": 2,
-    "rank": 231
+    "rank": 231,
+    "freq": 1,
+    "freq_rank": 1006
   },
   {
     "word": "fos",
@@ -2975,7 +5133,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Distal deictic; a conceptually distant, prior, or non-current clause or concept.",
     "tier": 0,
-    "rank": 53
+    "rank": 53,
+    "freq": 155,
+    "freq_rank": 26,
+    "example": {
+      "fiwo": "Mik nes kyti fos.",
+      "english": "I do not like that."
+    }
   },
   {
     "word": "fose",
@@ -2983,7 +5147,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word identifies a specific physical or conceptual noun that is physically distant from the speaker, or removed from the immediate environment. It must follow the noun it modifies.",
     "tier": 1,
-    "rank": 31
+    "rank": 31,
+    "freq": 108,
+    "freq_rank": 48
   },
   {
     "word": "fota",
@@ -2991,7 +5157,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the part of a plant that attaches it to the ground and absorbs water and nourishment.",
     "tier": 3,
-    "rank": 383
+    "rank": 383,
+    "freq": 0,
+    "freq_rank": 1829,
+    "example": {
+      "fiwo": "Nasap jedis fotar je.",
+      "english": "The plant will have roots."
+    }
   },
   {
     "word": "foxipri",
@@ -2999,7 +5171,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To lose or shift color, brightness, or intensity gradually; to pass smoothly from one shade into another.",
     "tier": 3,
-    "rank": 491
+    "rank": 491,
+    "freq": 0,
+    "freq_rank": 1831,
+    "example": {
+      "fiwo": "Witup foxiprid.",
+      "english": "The color faded."
+    }
   },
   {
     "word": "frame",
@@ -3007,7 +5185,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something that is not under the physical control of another, not restricted, or provided without mathematical/monetary cost.",
     "tier": 2,
-    "rank": 76
+    "rank": 76,
+    "freq": 0,
+    "freq_rank": 1834,
+    "example": {
+      "fiwo": "Nak framei.",
+      "english": "We are free."
+    }
   },
   {
     "word": "franka",
@@ -3015,7 +5199,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A burrowing mammal covered in bony armored plates, able to curl into a ball for defense.",
     "tier": 3,
-    "rank": 543
+    "rank": 543,
+    "freq": 0,
+    "freq_rank": 1836,
+    "example": {
+      "fiwo": "Frankap lande.",
+      "english": "The armadillo is small."
+    }
   },
   {
     "word": "frelka",
@@ -3023,7 +5213,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A tree or shrub that grows in coastal saltwater swamps, supported by tangled above-ground roots.",
     "tier": 3,
-    "rank": 541
+    "rank": 541,
+    "freq": 0,
+    "freq_rank": 1838,
+    "example": {
+      "fiwo": "Frelkap deky dorsop.",
+      "english": "The mangrove is in the water."
+    }
   },
   {
     "word": "frengi",
@@ -3031,7 +5227,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To press briefly and release, as a button or a pointing device, producing a single sharp actuation.",
     "tier": 3,
-    "rank": 234
+    "rank": 234,
+    "freq": 0,
+    "freq_rank": 1840,
+    "example": {
+      "fiwo": "Mik frengid udbop.",
+      "english": "I clicked the button."
+    }
   },
   {
     "word": "frice",
@@ -3039,7 +5241,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Unable to hear; lacking the sense of hearing. Parallels nenoje (blind) as the sensory-loss modifier for hearing.",
     "tier": 3,
-    "rank": 469
+    "rank": 469,
+    "freq": 0,
+    "freq_rank": 1841,
+    "example": {
+      "fiwo": "Nofap frice.",
+      "english": "The person is deaf."
+    }
   },
   {
     "word": "frilta",
@@ -3047,7 +5255,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A small, long-eared mammal known for speed and burrowing.",
     "tier": 3,
-    "rank": 455
+    "rank": 455,
+    "freq": 0,
+    "freq_rank": 1844,
+    "example": {
+      "fiwo": "Friltap cafid acry caenop.",
+      "english": "The rabbit ran across the street."
+    }
   },
   {
     "word": "frisma",
@@ -3055,7 +5269,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "One of the curved bones forming the cage that protects the chest cavity.",
     "tier": 3,
-    "rank": 522
+    "rank": 522,
+    "freq": 0,
+    "freq_rank": 1846,
+    "example": {
+      "fiwo": "Frismap mik tande.",
+      "english": "My rib is big."
+    }
   },
   {
     "word": "frorsu",
@@ -3063,7 +5283,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The grammatical word class that describes or modifies a noun or verb, marked by the functional vowel -e. A category-classification concept, following aziku (rule).",
     "tier": 3,
-    "rank": 537
+    "rank": 537,
+    "freq": 0,
+    "freq_rank": 1848,
+    "example": {
+      "fiwo": "Frorsup lande.",
+      "english": "The modifier is small."
+    }
   },
   {
     "word": "fruvadu",
@@ -3071,7 +5297,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Sadness caused by an outcome falling below one's expectation or hope. Unlike briku (regret) it carries no self-blame, and unlike motuwu (grief) it involves no loss of an entity.",
     "tier": 3,
-    "rank": 460
+    "rank": 460,
+    "freq": 0,
+    "freq_rank": 1849,
+    "example": {
+      "fiwo": "Mik pauli fruvadup zety hykuxup.",
+      "english": "I feel disappointment about the exam."
+    }
   },
   {
     "word": "fuali",
@@ -3079,7 +5311,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To successfully intercept and hold a physical object moving through the air, or to capture an entity that is actively fleeing.",
     "tier": 3,
-    "rank": 213
+    "rank": 213,
+    "freq": 4,
+    "freq_rank": 612,
+    "example": {
+      "fiwo": "Mik fualis kyfap.",
+      "english": "I will catch the bird."
+    }
   },
   {
     "word": "fuba",
@@ -3087,7 +5325,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies a cold-blooded vertebrate animal with gills and fins that lives strictly and entirely in water.",
     "tier": 1,
-    "rank": 201
+    "rank": 201,
+    "freq": 18,
+    "freq_rank": 243,
+    "example": {
+      "fiwo": "Fubap dormiq deky dorsop.",
+      "english": "The fish is swimming in the water."
+    }
   },
   {
     "word": "fuego",
@@ -3095,7 +5339,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The visible, tangible heat and light energy produced by active combustion.",
     "tier": 1,
-    "rank": 94
+    "rank": 94,
+    "freq": 18,
+    "freq_rank": 244,
+    "example": {
+      "fiwo": "Fuegop xunidyq gofop.",
+      "english": "The fire was burning the wood."
+    }
   },
   {
     "word": "fuhytu",
@@ -3103,7 +5353,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Newly reported information about current events.",
     "tier": 2,
-    "rank": 29
+    "rank": 29,
+    "freq": 5,
+    "freq_rank": 563
   },
   {
     "word": "fuka",
@@ -3111,7 +5363,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the end part of a person's arm beyond the wrist, including the palm, fingers, and thumb.",
     "tier": 1,
-    "rank": 196
+    "rank": 196,
+    "freq": 34,
+    "freq_rank": 144,
+    "example": {
+      "fiwo": "Mik kilid fukap.",
+      "english": "I felt the hand."
+    }
   },
   {
     "word": "fulu",
@@ -3119,7 +5377,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to facts, statistics, or distinct pieces of information collected together for reference or analysis.",
     "tier": 2,
-    "rank": 33
+    "rank": 33,
+    "freq": 8,
+    "freq_rank": 438,
+    "example": {
+      "fiwo": "Mik jopxid fulup.",
+      "english": "I received the data."
+    }
   },
   {
     "word": "fumo",
@@ -3127,7 +5391,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The visible, particulate gas or vapor naturally produced and emitted by an active fire (fueguo).",
     "tier": 2,
-    "rank": 426
+    "rank": 426,
+    "freq": 2,
+    "freq_rank": 805,
+    "example": {
+      "fiwo": "Fumop rizidyq fy foisop.",
+      "english": "Smoke was rising from the building."
+    }
   },
   {
     "word": "fuqe",
@@ -3135,7 +5405,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Strictly required, necessary, or obligatory.",
     "tier": 1,
-    "rank": 316
+    "rank": 316,
+    "freq": 46,
+    "freq_rank": 103,
+    "example": {
+      "fiwo": "Suk seji fuqe cukit.",
+      "english": "You must stop fighting."
+    }
   },
   {
     "word": "fuqedi",
@@ -3143,7 +5419,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively ask for something with strict necessity or authoritative expectation.",
     "tier": 3,
-    "rank": 222
+    "rank": 222,
+    "freq": 0,
+    "freq_rank": 1858,
+    "example": {
+      "fiwo": "Govnup fuqedis gidur.",
+      "english": "The government will demand money."
+    }
   },
   {
     "word": "furna",
@@ -3152,7 +5434,13 @@ const dictionaryData = [
     "definition": "This word describes the dense coat of short, fine, soft hair on certain mammals, explicitly functioning as biological insulation.",
     "usage_note": "Distinct from poka, the broader word for hair.",
     "tier": 3,
-    "rank": 191
+    "rank": 191,
+    "freq": 1,
+    "freq_rank": 1010,
+    "example": {
+      "fiwo": "Mifap jedis furnar.",
+      "english": "The animal will have fur."
+    }
   },
   {
     "word": "fuzi",
@@ -3160,7 +5448,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively provide conceptual, logistical, or moral backing to a person, idea, or system.",
     "tier": 2,
-    "rank": 130
+    "rank": 130,
+    "freq": 1,
+    "freq_rank": 1011,
+    "example": {
+      "fiwo": "Nauxap mike fuzis mik.",
+      "english": "My friend will support me."
+    }
   },
   {
     "word": "fy",
@@ -3168,7 +5462,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Used for origin or starting point",
     "tier": 0,
-    "rank": 32
+    "rank": 32,
+    "freq": 62,
+    "freq_rank": 85,
+    "example": {
+      "fiwo": "Mik cafid fy sydop.",
+      "english": "I ran from the house."
+    }
   },
   {
     "word": "fycisi",
@@ -3176,7 +5476,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To feel a painful desire for an absent but still-existing entity, person, or place. Present-directed, unlike haku (nostalgia, past-directed), and affectionate, unlike taju (resentful envy). Transitive: Mik fycisi suk = 'I miss you.'",
     "tier": 2,
-    "rank": 362
+    "rank": 362,
+    "freq": 3,
+    "freq_rank": 684,
+    "example": {
+      "fiwo": "Mik fycisi nauxap mike.",
+      "english": "I miss my friend."
+    }
   },
   {
     "word": "fyjebe",
@@ -3184,7 +5490,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Comfortably heated; a middle temperature between jabe (cold) and ripe (hot).",
     "tier": 1,
-    "rank": 305
+    "rank": 305,
+    "freq": 5,
+    "freq_rank": 564,
+    "example": {
+      "fiwo": "Dorsop fyjebe.",
+      "english": "The water is warm."
+    }
   },
   {
     "word": "gagu",
@@ -3192,7 +5504,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Noun (Abstract). Definition: This refers to the feel, appearance, or consistency of a surface or a substance.",
     "tier": 2,
-    "rank": 364
+    "rank": 364,
+    "freq": 1,
+    "freq_rank": 1013,
+    "example": {
+      "fiwo": "Gagup ry degop wageid.",
+      "english": "The texture of the table was soft."
+    }
   },
   {
     "word": "gaha",
@@ -3200,7 +5518,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The tropical tree seed from which chocolate is made; also the ground brown powder of that seed.",
     "tier": 3,
-    "rank": 517
+    "rank": 517,
+    "freq": 0,
+    "freq_rank": 1865,
+    "example": {
+      "fiwo": "Gahap krome.",
+      "english": "The cocoa is brown."
+    }
   },
   {
     "word": "gakiji",
@@ -3208,7 +5532,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To select an answer or form a conclusion without sufficient evidence, aware that one lacks it; the weakest commitment on the belief scale and the acting counterpart of mace (possible). Contrast dagibi (assume), which treats its proposition as a working basis.",
     "tier": 3,
-    "rank": 66
+    "rank": 66,
+    "freq": 0,
+    "freq_rank": 1867,
+    "example": {
+      "fiwo": "Mik gakiji ram.",
+      "english": "I guess it."
+    }
   },
   {
     "word": "gari",
@@ -3216,7 +5546,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to engage in activity for enjoyment and recreation rather than a serious or practical purpose.",
     "tier": 1,
-    "rank": 73
+    "rank": 73,
+    "freq": 16,
+    "freq_rank": 274,
+    "example": {
+      "fiwo": "Cadap garidyq wy weorop.",
+      "english": "The child was playing with the ball."
+    }
   },
   {
     "word": "gasirfu",
@@ -3224,7 +5560,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The sick feeling of being about to vomit.",
     "tier": 3,
-    "rank": 219
+    "rank": 219,
+    "freq": 1,
+    "freq_rank": 1014
   },
   {
     "word": "gasublo",
@@ -3232,7 +5570,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "One side of a leaf of a book or document.",
     "tier": 2,
-    "rank": 238
+    "rank": 238,
+    "freq": 14,
+    "freq_rank": 304
   },
   {
     "word": "gavudzi",
@@ -3240,7 +5580,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To give special importance or prominence to something; to stress.",
     "tier": 3,
-    "rank": 87
+    "rank": 87,
+    "freq": 1,
+    "freq_rank": 1015,
+    "example": {
+      "fiwo": "Ibalira gavudzid azikup.",
+      "english": "The teacher emphasized the rule."
+    }
   },
   {
     "word": "gawe",
@@ -3248,7 +5594,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something regarded as positive or favorable based on individual opinion.",
     "tier": 1,
-    "rank": 10
+    "rank": 10,
+    "freq": 22,
+    "freq_rank": 220,
+    "example": {
+      "fiwo": "Jobup gawei.",
+      "english": "The job is good."
+    }
   },
   {
     "word": "geale",
@@ -3256,7 +5608,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes a state or fact that is objectively real and true, often used to contrast with an expectation, assumption, or falsehood (okseu).",
     "tier": 1,
-    "rank": 154
+    "rank": 154,
+    "freq": 4,
+    "freq_rank": 613,
+    "example": {
+      "fiwo": "Daq nacid geale.",
+      "english": "He actually worked."
+    }
   },
   {
     "word": "geco",
@@ -3264,7 +5622,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This word defines a specific area, room, or the physical extent in which objects are located.",
     "tier": 2,
-    "rank": 249
+    "rank": 249,
+    "freq": 1,
+    "freq_rank": 1016,
+    "example": {
+      "fiwo": "Gecop nufeid.",
+      "english": "The space was empty."
+    }
   },
   {
     "word": "gefri",
@@ -3272,7 +5636,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To physically move from the interior of an enclosure or defined space to the exterior environment.",
     "tier": 2,
-    "rank": 120
+    "rank": 120,
+    "freq": 17,
+    "freq_rank": 259
   },
   {
     "word": "gejedo",
@@ -3280,7 +5646,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The physical electrical power, current, or energy utilized to run machines, systems, or lighting.",
     "tier": 2,
-    "rank": 39
+    "rank": 39,
+    "freq": 6,
+    "freq_rank": 504,
+    "example": {
+      "fiwo": "Gejedop doteid.",
+      "english": "The electricity was powerful."
+    }
   },
   {
     "word": "gekafa",
@@ -3288,7 +5660,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A plant with long, thin, climbing or trailing stems that attach to surfaces or other plants for support.",
     "tier": 3,
-    "rank": 502
+    "rank": 502,
+    "freq": 0,
+    "freq_rank": 1879,
+    "example": {
+      "fiwo": "Gekafap mori ty krapop.",
+      "english": "The vine grows on the wall."
+    }
   },
   {
     "word": "gekipro",
@@ -3296,7 +5674,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A machine placed in orbit to relay signals or observe.",
     "tier": 3,
-    "rank": 9
+    "rank": 9,
+    "freq": 7,
+    "freq_rank": 473
   },
   {
     "word": "geluku",
@@ -3304,7 +5684,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Being feared or obeyed only through a patron's power. Logical equivalent: Nofa je kuri daq dawy rezap. (People fear him because of the leader.)",
     "tier": 3,
-    "rank": 36
+    "rank": 36,
+    "freq": 0,
+    "freq_rank": 1881,
+    "example": {
+      "fiwo": "Ram gelukur.",
+      "english": "That is borrowed authority."
+    }
   },
   {
     "word": "genda",
@@ -3312,7 +5698,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large desert mammal with one or two humps, adapted to carry loads across arid terrain.",
     "tier": 3,
-    "rank": 516
+    "rank": 516,
+    "freq": 0,
+    "freq_rank": 1882,
+    "example": {
+      "fiwo": "Gendap deky woru wuke.",
+      "english": "The camel is in the desert."
+    }
   },
   {
     "word": "gepe",
@@ -3320,7 +5712,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something that affects or concerns all or most things in a group; broad and not restricted to a specific target.",
     "tier": 2,
-    "rank": 413
+    "rank": 413,
+    "freq": 0,
+    "freq_rank": 1884,
+    "example": {
+      "fiwo": "Azikup gepei.",
+      "english": "The rule is general."
+    }
   },
   {
     "word": "gerote",
@@ -3328,7 +5726,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an entity having very little distance from the top surface to the bottom; lacking depth.",
     "tier": 3,
-    "rank": 450
+    "rank": 450,
+    "freq": 0,
+    "freq_rank": 1886,
+    "example": {
+      "fiwo": "Dorsop gerotei.",
+      "english": "The water is shallow."
+    }
   },
   {
     "word": "gesi",
@@ -3336,7 +5740,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to utter words so as to convey information.",
     "tier": 1,
-    "rank": 29
+    "rank": 29,
+    "freq": 702,
+    "freq_rank": 7,
+    "example": {
+      "fiwo": "Daq gesid gor.",
+      "english": "He spoke a word."
+    }
   },
   {
     "word": "getiku",
@@ -3344,7 +5754,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract mathematical or conceptual capacity for doing work or initiating physical activity.",
     "tier": 2,
-    "rank": 131
+    "rank": 131,
+    "freq": 0,
+    "freq_rank": 1890,
+    "example": {
+      "fiwo": "Getikup ry fatop nufeid.",
+      "english": "The energy of the machine was empty."
+    }
   },
   {
     "word": "getsu",
@@ -3352,7 +5768,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A specific, bounded segment or duration of time with a clear beginning and end. (This is how you isolate a period from the absolute, universal variable of Time [dionu]).",
     "tier": 3,
-    "rank": 294
+    "rank": 294,
+    "freq": 11,
+    "freq_rank": 366,
+    "example": {
+      "fiwo": "Getsup ry erup jozeid.",
+      "english": "The period of war was long."
+    }
   },
   {
     "word": "gewysmu",
@@ -3360,7 +5782,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A measured amount of medicine taken at one time.",
     "tier": 3,
-    "rank": 51
+    "rank": 51,
+    "freq": 1,
+    "freq_rank": 1019
   },
   {
     "word": "gicuhu",
@@ -3368,7 +5792,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A proportion or rate expressed as a number of parts per hundred.",
     "tier": 2,
-    "rank": 186
+    "rank": 186,
+    "freq": 1,
+    "freq_rank": 1020,
+    "example": {
+      "fiwo": "Gicuhu zave.",
+      "english": "The percentage is high."
+    }
   },
   {
     "word": "gidafi",
@@ -3376,7 +5806,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To permanently transfer the legal ownership of physical goods or abstract services in exchange for money.",
     "tier": 1,
-    "rank": 179
+    "rank": 179,
+    "freq": 8,
+    "freq_rank": 439,
+    "example": {
+      "fiwo": "Licap mike gidafis sydop.",
+      "english": "My colleague will sell the house."
+    }
   },
   {
     "word": "gidsi",
@@ -3384,7 +5820,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To obtain physical or legal possession of an entity by paying money.",
     "tier": 1,
-    "rank": 85
+    "rank": 85,
+    "freq": 20,
+    "freq_rank": 228,
+    "example": {
+      "fiwo": "Das gidsid ikamop.",
+      "english": "She bought the shirt."
+    }
   },
   {
     "word": "gidu",
@@ -3392,7 +5834,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a current medium of exchange in the form of coins and banknotes.",
     "tier": 1,
-    "rank": 42
+    "rank": 42,
+    "freq": 63,
+    "freq_rank": 83,
+    "example": {
+      "fiwo": "Mik jedid gidur.",
+      "english": "I had money."
+    }
   },
   {
     "word": "gihoflu",
@@ -3400,7 +5848,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The greatest possible degree or extent of something; a point beyond which one cannot go.",
     "tier": 2,
-    "rank": 286
+    "rank": 286,
+    "freq": 1,
+    "freq_rank": 1021,
+    "example": {
+      "fiwo": "Ram jedi gihoflup.",
+      "english": "It has a limit."
+    }
   },
   {
     "word": "gikoso",
@@ -3408,7 +5862,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The broad land region bordering the sea, wider than the shore (cyxo).",
     "tier": 2,
-    "rank": 109
+    "rank": 109,
+    "freq": 8,
+    "freq_rank": 440,
+    "example": {
+      "fiwo": "Nak cenid ky gikoso.",
+      "english": "We lived on the coast."
+    }
   },
   {
     "word": "gioxu",
@@ -3416,7 +5876,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to computer systems able to perform tasks that normally require human intelligence.",
     "tier": 3,
-    "rank": 107
+    "rank": 107,
+    "freq": 4,
+    "freq_rank": 616
   },
   {
     "word": "givi",
@@ -3424,7 +5886,23 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To break up and move ground or earth.",
     "tier": 3,
-    "rank": 411
+    "rank": 411,
+    "freq": 0,
+    "freq_rank": 1899,
+    "example": {
+      "fiwo": "Daq givis hiror.",
+      "english": "He will dig a hole."
+    }
+  },
+  {
+    "word": "gix",
+    "english_equiv": "[repair] / erase that / scratch that",
+    "part_of_speech": "Grammar",
+    "definition": "Repair Particle (Rule 39). Erases the immediately preceding word and restores the parser to the state it held before that word; may be repeated. Utterance-initial, it instead voids the single preceding utterance and a fresh clause begins. Its own word class - NOT a phatic particle and not on the Null Track (Rule 33). Cannot erase clausal walls, tep/tel, syn, mood tags or fap, and never reaches across a clause boundary.",
+    "tier": 0,
+    "rank": 131,
+    "freq": 6,
+    "freq_rank": 505
   },
   {
     "word": "gize",
@@ -3432,7 +5910,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something containing or holding as much or as many as possible.",
     "tier": 2,
-    "rank": 166
+    "rank": 166,
+    "freq": 0,
+    "freq_rank": 1901,
+    "example": {
+      "fiwo": "Tulop gizei.",
+      "english": "The bottle is full."
+    }
   },
   {
     "word": "glaklo",
@@ -3440,7 +5924,13 @@ const dictionaryData = [
     "definition": "A tool with a flat blade on a long handle, used for cultivating and weeding soil.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 531
+    "rank": 531,
+    "freq": 0,
+    "freq_rank": 1903,
+    "example": {
+      "fiwo": "Glaklop lande.",
+      "english": "The hoe is small."
+    }
   },
   {
     "word": "glanu",
@@ -3448,7 +5938,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract demographic category or conceptual classification of a biological entity's sex or gender identity.",
     "tier": 3,
-    "rank": 35
+    "rank": 35,
+    "freq": 1,
+    "freq_rank": 1022
   },
   {
     "word": "glape",
@@ -3456,7 +5948,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting an intermediate color between black and white, resembling the color of ash or an overcast sky.",
     "tier": 3,
-    "rank": 342
+    "rank": 342,
+    "freq": 0,
+    "freq_rank": 1906,
+    "example": {
+      "fiwo": "Klazop glapeid.",
+      "english": "The cloud was gray."
+    }
   },
   {
     "word": "glece",
@@ -3464,7 +5962,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "An interrogative modifier used to ask for the exact specification or choice between known alternatives (e.g., Which book?).",
     "tier": 2,
-    "rank": 55
+    "rank": 55,
+    "freq": 4,
+    "freq_rank": 617
   },
   {
     "word": "gliblo",
@@ -3472,7 +5972,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The tiny wafer of circuits that runs a computer.",
     "tier": 3,
-    "rank": 255
+    "rank": 255,
+    "freq": 1,
+    "freq_rank": 1024
   },
   {
     "word": "glimada",
@@ -3480,7 +5982,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large silvery fish that swims upriver from the sea to breed; prized as food.",
     "tier": 3,
-    "rank": 456
+    "rank": 456,
+    "freq": 0,
+    "freq_rank": 1908,
+    "example": {
+      "fiwo": "Mik nomid glimadap.",
+      "english": "I ate the salmon."
+    }
   },
   {
     "word": "gloke",
@@ -3488,7 +5996,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number that is the product of two and two.",
     "tier": 1,
-    "rank": 59
+    "rank": 59,
+    "freq": 96,
+    "freq_rank": 55,
+    "example": {
+      "fiwo": "Kyfar gloke cyrid.",
+      "english": "Four birds flew."
+    }
   },
   {
     "word": "glokedu",
@@ -3496,7 +6010,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Thursday; the fourth day of the week. Derived by compounding gloke (four) and du (day).",
     "tier": 1,
-    "rank": 323
+    "rank": 323,
+    "freq": 14,
+    "freq_rank": 305,
+    "example": {
+      "fiwo": "Glokedup fohup.",
+      "english": "Thursday is afternoon."
+    }
   },
   {
     "word": "glotunu",
@@ -3504,7 +6024,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A formal agreement between nations.",
     "tier": 3,
-    "rank": 11
+    "rank": 11,
+    "freq": 2,
+    "freq_rank": 807
   },
   {
     "word": "gloziti",
@@ -3512,7 +6034,24 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To fire a projectile from a weapon; shot = + o.",
     "tier": 2,
-    "rank": 338
+    "rank": 338,
+    "freq": 1,
+    "freq_rank": 1025
+  },
+  {
+    "word": "gluji",
+    "english_equiv": "Fish (verb)",
+    "part_of_speech": "Verb",
+    "definition": "To catch fish, using a line, net, or trap.",
+    "tier": 3,
+    "rank": 587,
+    "usage_note": "Distinct from fuali (to catch anything in motion).",
+    "freq": 0,
+    "freq_rank": 1914,
+    "example": {
+      "fiwo": "Daq glujid ty brirso.",
+      "english": "He fished at the lake."
+    }
   },
   {
     "word": "gluleje",
@@ -3520,7 +6059,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "To a moderate-high degree — more than 'somewhat' (ynse), less than 'very' (fe); a Rule 10.3 System-B degree adverb.",
     "tier": 2,
-    "rank": 167
+    "rank": 167,
+    "freq": 2,
+    "freq_rank": 808
   },
   {
     "word": "glynto",
@@ -3528,7 +6069,13 @@ const dictionaryData = [
     "definition": "A weapon consisting of a curved stave and string, used to shoot arrows.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 398
+    "rank": 398,
+    "freq": 0,
+    "freq_rank": 1917,
+    "example": {
+      "fiwo": "Glyntop daq tande.",
+      "english": "His bow is big."
+    }
   },
   {
     "word": "glyvi",
@@ -3536,7 +6083,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To protect someone or something from harm, danger, or attack.",
     "tier": 3,
-    "rank": 344
+    "rank": 344,
+    "freq": 1,
+    "freq_rank": 1026,
+    "example": {
+      "fiwo": "Daq glyvis sydop dale.",
+      "english": "He will defend his house."
+    }
   },
   {
     "word": "go",
@@ -3545,7 +6098,13 @@ const dictionaryData = [
     "definition": "This refers to a single distinct meaningful element of speech or writing.",
     "usage_note": "Adapted to distinguish it from 'number'.",
     "tier": 1,
-    "rank": 113
+    "rank": 113,
+    "freq": 109,
+    "freq_rank": 45,
+    "example": {
+      "fiwo": "Daq gesid gor.",
+      "english": "He spoke a word."
+    }
   },
   {
     "word": "goda",
@@ -3553,7 +6112,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word identifies the central organ of the nervous system located inside the head, responsible for physically processing sensory and intellectual activity.",
     "tier": 3,
-    "rank": 175
+    "rank": 175,
+    "freq": 2,
+    "freq_rank": 809,
+    "example": {
+      "fiwo": "Godap ry nofar tandei.",
+      "english": "A person's brain is large."
+    }
   },
   {
     "word": "godu",
@@ -3561,7 +6126,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual capacity for logical thought, critical understanding, processing complex information and memory.",
     "tier": 2,
-    "rank": 425
+    "rank": 425,
+    "freq": 8,
+    "freq_rank": 441,
+    "example": {
+      "fiwo": "Godup ry mik pozmuiq.",
+      "english": "My mind is dreaming."
+    }
   },
   {
     "word": "gofo",
@@ -3569,7 +6140,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to the hard, fibrous plant material that makes up the main substance of trees.",
     "tier": 2,
-    "rank": 96
+    "rank": 96,
+    "freq": 11,
+    "freq_rank": 367,
+    "example": {
+      "fiwo": "Degop vy gofo.",
+      "english": "The table is made of wood."
+    }
   },
   {
     "word": "goile",
@@ -3577,7 +6154,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a subjective state of sorrow, unhappiness, or emotional pain.",
     "tier": 1,
-    "rank": 150
+    "rank": 150,
+    "freq": 1,
+    "freq_rank": 1027,
+    "example": {
+      "fiwo": "Cadap goileid.",
+      "english": "The child was sad."
+    }
   },
   {
     "word": "goji",
@@ -3585,7 +6168,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to exert force on something to move it toward oneself.",
     "tier": 3,
-    "rank": 218
+    "rank": 218,
+    "freq": 3,
+    "freq_rank": 686,
+    "example": {
+      "fiwo": "Daq gojid odcanop.",
+      "english": "He pulled the rope."
+    }
   },
   {
     "word": "golmi",
@@ -3593,7 +6182,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively make changes to an abstract system, institution, or practice in order to improve it.",
     "tier": 3,
-    "rank": 226
+    "rank": 226,
+    "freq": 0,
+    "freq_rank": 1929,
+    "example": {
+      "fiwo": "Muk golmis canpup.",
+      "english": "We will reform the community."
+    }
   },
   {
     "word": "gomu",
@@ -3601,7 +6196,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a period of time equal to sixty minutes or one twenty-fourth of a day.",
     "tier": 1,
-    "rank": 106
+    "rank": 106,
+    "freq": 32,
+    "freq_rank": 152,
+    "example": {
+      "fiwo": "Gomup xalid ruze.",
+      "english": "The hour went fast."
+    }
   },
   {
     "word": "goqe",
@@ -3609,7 +6210,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something with a large distance between opposite surfaces.",
     "tier": 3,
-    "rank": 347
+    "rank": 347,
+    "freq": 2,
+    "freq_rank": 810,
+    "example": {
+      "fiwo": "Krapop goqei.",
+      "english": "The wall is thick."
+    }
   },
   {
     "word": "govnu",
@@ -3617,7 +6224,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract structural system, group of people, or institution that officially controls and makes decisions for a country, state, or organized community.",
     "tier": 2,
-    "rank": 11
+    "rank": 11,
+    "freq": 16,
+    "freq_rank": 276,
+    "example": {
+      "fiwo": "Govnup ry xekup dotei.",
+      "english": "The government of the country is strong."
+    }
   },
   {
     "word": "grapa",
@@ -3625,7 +6238,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A small, sweet biological berry that naturally grows in clusters on a vine.",
     "tier": 3,
-    "rank": 195
+    "rank": 195,
+    "freq": 3,
+    "freq_rank": 687,
+    "example": {
+      "fiwo": "Grapap pisei.",
+      "english": "The grape is sour."
+    }
   },
   {
     "word": "grawi",
@@ -3633,7 +6252,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to acknowledge and appreciate a benefit, favor, or kindness received; to express thanks.",
     "tier": 1,
-    "rank": 267
+    "rank": 267,
+    "freq": 12,
+    "freq_rank": 337,
+    "example": {
+      "fiwo": "Mik grawid licap mike.",
+      "english": "I thanked my colleague."
+    }
   },
   {
     "word": "grexo",
@@ -3641,7 +6266,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a natural physical entity, such as a planet, moon, or star, that exists in the universe.",
     "tier": 1,
-    "rank": 304
+    "rank": 304,
+    "freq": 4,
+    "freq_rank": 618,
+    "example": {
+      "fiwo": "Grexop cyriq.",
+      "english": "The moon is hovering."
+    }
   },
   {
     "word": "grijysu",
@@ -3649,7 +6280,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The standard or degree of excellence of something.",
     "tier": 2,
-    "rank": 236
+    "rank": 236,
+    "freq": 1,
+    "freq_rank": 1029
   },
   {
     "word": "grorowi",
@@ -3657,7 +6290,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To produce a deep, rough, threatening sound in the throat, as an angry animal does.",
     "tier": 3,
-    "rank": 495
+    "rank": 495,
+    "freq": 2,
+    "freq_rank": 811,
+    "example": {
+      "fiwo": "Detap grorowid.",
+      "english": "The dog growled."
+    }
   },
   {
     "word": "grunki",
@@ -3665,7 +6304,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To hold someone closely in the arms as a sign of affection or comfort; to embrace.",
     "tier": 3,
-    "rank": 435
+    "rank": 435,
+    "freq": 1,
+    "freq_rank": 1030,
+    "example": {
+      "fiwo": "Daq grunkid sifap daqe.",
+      "english": "He hugged his wife."
+    }
   },
   {
     "word": "gruvese",
@@ -3673,7 +6318,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Of or relating to the present or recent times; contemporary.",
     "tier": 2,
-    "rank": 174
+    "rank": 174,
+    "freq": 1,
+    "freq_rank": 1031,
+    "example": {
+      "fiwo": "Juro gruvese.",
+      "english": "The city is modern."
+    }
   },
   {
     "word": "gu",
@@ -3681,7 +6332,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity.",
     "tier": 1,
-    "rank": 175
+    "rank": 175,
+    "freq": 58,
+    "freq_rank": 87,
+    "example": {
+      "fiwo": "Dewe gur.",
+      "english": "Two is a number."
+    }
   },
   {
     "word": "guami",
@@ -3689,7 +6346,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively utilize numbers or perform a mathematical calculation. Derived mathematically by appending the verb suffix -i to the abstract noun gu (Number).",
     "tier": 2,
-    "rank": 254
+    "rank": 254,
+    "freq": 49,
+    "freq_rank": 100,
+    "example": {
+      "fiwo": "Gioxup guamis gup late.",
+      "english": "The AI will calculate all numbers."
+    }
   },
   {
     "word": "gufundo",
@@ -3697,7 +6360,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A precious gemstone of deep green color.",
     "tier": 3,
-    "rank": 511
+    "rank": 511,
+    "freq": 0,
+    "freq_rank": 1946,
+    "example": {
+      "fiwo": "Gufundop luare.",
+      "english": "The emerald is green."
+    }
   },
   {
     "word": "gugi",
@@ -3705,7 +6374,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to maintain an upright position, supported by the feet in a vertical orientation.",
     "tier": 1,
-    "rank": 231
+    "rank": 231,
+    "freq": 30,
+    "freq_rank": 167,
+    "example": {
+      "fiwo": "Mifap gugidyq ty zafoirop.",
+      "english": "The animal was standing on the floor."
+    }
   },
   {
     "word": "guipsu",
@@ -3713,7 +6388,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A feeling of deep pleasure or satisfaction derived from one's own achievements, qualities, or possessions.",
     "tier": 3,
-    "rank": 333
+    "rank": 333,
+    "freq": 0,
+    "freq_rank": 1950,
+    "example": {
+      "fiwo": "Daq pauli guipsup.",
+      "english": "He feels pride."
+    }
   },
   {
     "word": "gulipi",
@@ -3721,7 +6402,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively copy, transfer, or retrieve data from the internet or another system into a local device or file.",
     "tier": 3,
-    "rank": 275
+    "rank": 275,
+    "freq": 0,
+    "freq_rank": 1952,
+    "example": {
+      "fiwo": "Mik gulipid fuluop.",
+      "english": "I downloaded the file."
+    }
   },
   {
     "word": "gunolo",
@@ -3729,7 +6416,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A high, steep face of rock.",
     "tier": 2,
-    "rank": 443
+    "rank": 443,
+    "freq": 1,
+    "freq_rank": 1032,
+    "example": {
+      "fiwo": "Mik nojaid gunolop.",
+      "english": "I saw the cliff."
+    }
   },
   {
     "word": "gure",
@@ -3737,7 +6430,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a state of applying low effort, lacking motivation, or actively avoiding work and exertion.",
     "tier": 3,
-    "rank": 400
+    "rank": 400,
+    "freq": 0,
+    "freq_rank": 1956,
+    "example": {
+      "fiwo": "Mifap gureid.",
+      "english": "The animal was lazy."
+    }
   },
   {
     "word": "guto",
@@ -3745,7 +6444,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a device or implement, especially one held in the hand, used to carry out a particular function; also the equipment or gear used for an activity.",
     "tier": 2,
-    "rank": 51
+    "rank": 51,
+    "freq": 14,
+    "freq_rank": 306,
+    "example": {
+      "fiwo": "Mik zylid gutop.",
+      "english": "I used the tool."
+    }
   },
   {
     "word": "guza",
@@ -3753,7 +6458,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A person who is actively hostile toward, or bears deep ill will against, another; an adversary in a personal, social, or political conflict.",
     "tier": 2,
-    "rank": 281
+    "rank": 281,
+    "freq": 5,
+    "freq_rank": 565,
+    "example": {
+      "fiwo": "Guzap ry mik cukidyq.",
+      "english": "My enemy was fighting."
+    }
   },
   {
     "word": "gydza",
@@ -3761,7 +6472,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A small, cunning wild canine with a bushy tail.",
     "tier": 3,
-    "rank": 278
+    "rank": 278,
+    "freq": 0,
+    "freq_rank": 1961,
+    "example": {
+      "fiwo": "Gydzap itole.",
+      "english": "The fox is clever."
+    }
   },
   {
     "word": "gyke",
@@ -3769,7 +6486,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something unusual, surprising, or not belonging to the current environment or context.",
     "tier": 2,
-    "rank": 54
+    "rank": 54,
+    "freq": 4,
+    "freq_rank": 619,
+    "example": {
+      "fiwo": "Mifap gykei.",
+      "english": "The animal is strange."
+    }
   },
   {
     "word": "gylfu",
@@ -3777,7 +6500,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The grammatical word class denoting a person, place, thing, or concept, spanning the Biological (-a), Concrete (-o), and Abstract (-u) categories. A category-classification concept, following aziku (rule).",
     "tier": 3,
-    "rank": 504
+    "rank": 504,
+    "freq": 0,
+    "freq_rank": 1964,
+    "example": {
+      "fiwo": "Ibalirap kritrid gylfup.",
+      "english": "The teacher taught the noun."
+    }
   },
   {
     "word": "gypu",
@@ -3785,7 +6514,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the global system of interconnected computer networks; a virtual location or network structure.",
     "tier": 2,
-    "rank": 175
+    "rank": 175,
+    "freq": 4,
+    "freq_rank": 620,
+    "example": {
+      "fiwo": "Gypup dotei.",
+      "english": "The internet is powerful."
+    }
   },
   {
     "word": "ha",
@@ -3793,7 +6528,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Indicates sudden realization, acknowledgment, or understanding.",
     "tier": 0,
-    "rank": 102
+    "rank": 102,
+    "freq": 1,
+    "freq_rank": 1034,
+    "example": {
+      "fiwo": "Ha, mik erfi nu.",
+      "english": "Oh, I understand now."
+    }
   },
   {
     "word": "hadi",
@@ -3801,7 +6542,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to say or write something to deal with or as a reaction to a question.",
     "tier": 1,
-    "rank": 117
+    "rank": 117,
+    "freq": 134,
+    "freq_rank": 36,
+    "example": {
+      "fiwo": "Daq hadid kupiup.",
+      "english": "He answered the question."
+    }
   },
   {
     "word": "haibe",
@@ -3809,7 +6556,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Indicates the continuation of a state or action, confirming that a prior condition has not yet changed, stopped, or resolved.",
     "tier": 2,
-    "rank": 136
+    "rank": 136,
+    "freq": 15,
+    "freq_rank": 288,
+    "example": {
+      "fiwo": "Daq nacid haibe.",
+      "english": "He was still working."
+    }
   },
   {
     "word": "haku",
@@ -3818,7 +6571,13 @@ const dictionaryData = [
     "definition": "A sentimental longing or wistful affection for a period or place in the past.",
     "usage_note": "Past- and place-directed. For longing toward a present but absent person or place, use fycisi (to miss).",
     "tier": 3,
-    "rank": 501
+    "rank": 501,
+    "freq": 0,
+    "freq_rank": 1969,
+    "example": {
+      "fiwo": "Hakup ry mik tandeid.",
+      "english": "My nostalgia was great."
+    }
   },
   {
     "word": "hano",
@@ -3826,7 +6585,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This describes an enclosure or object used for holding or transporting something.",
     "tier": 1,
-    "rank": 178
+    "rank": 178,
+    "freq": 12,
+    "freq_rank": 338,
+    "example": {
+      "fiwo": "Hanop deky sydop.",
+      "english": "The box is inside the house."
+    }
   },
   {
     "word": "hap",
@@ -3834,7 +6599,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "An expression of personal feeling or subjective experience.",
     "tier": 0,
-    "rank": 77
+    "rank": 77,
+    "freq": 13,
+    "freq_rank": 320,
+    "example": {
+      "fiwo": "Hap mik kyti nauxap mike!",
+      "english": "I love my friend so much!"
+    }
   },
   {
     "word": "haroso",
@@ -3842,7 +6613,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thin sphere of liquid enclosing air or gas, or a pocket of air rising through a liquid.",
     "tier": 3,
-    "rank": 420
+    "rank": 420,
+    "freq": 0,
+    "freq_rank": 1972,
+    "example": {
+      "fiwo": "Harosop utmi.",
+      "english": "The bubble floats."
+    }
   },
   {
     "word": "hatzi",
@@ -3850,7 +6627,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To express sudden amusement, joy, or positive emotion through facial alteration and rhythmic vocalization.",
     "tier": 1,
-    "rank": 306
+    "rank": 306,
+    "freq": 31,
+    "freq_rank": 159,
+    "example": {
+      "fiwo": "Cadap hatzis.",
+      "english": "The child will smile."
+    }
   },
   {
     "word": "hautu",
@@ -3858,7 +6641,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the art of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression of emotion.",
     "tier": 2,
-    "rank": 85
+    "rank": 85,
+    "freq": 3,
+    "freq_rank": 689,
+    "example": {
+      "fiwo": "Mik kytid hautup.",
+      "english": "I liked the music."
+    }
   },
   {
     "word": "haxani",
@@ -3866,7 +6655,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To successfully stretch out to, make physical contact with, or achieve a mathematical or conceptual limit.",
     "tier": 2,
-    "rank": 215
+    "rank": 215,
+    "freq": 3,
+    "freq_rank": 690,
+    "example": {
+      "fiwo": "Hoxop haxanid zafoirop.",
+      "english": "The door reached the floor."
+    }
   },
   {
     "word": "hazba",
@@ -3874,7 +6669,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a male spouse within a marital partnership.",
     "tier": 2,
-    "rank": 272
+    "rank": 272,
+    "freq": 2,
+    "freq_rank": 812,
+    "example": {
+      "fiwo": "Hazbap ry das nacid.",
+      "english": "Her husband worked."
+    }
   },
   {
     "word": "hedcu",
@@ -3882,7 +6683,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a piece, segment, or component of a whole object or system.",
     "tier": 2,
-    "rank": 65
+    "rank": 65,
+    "freq": 42,
+    "freq_rank": 117,
+    "example": {
+      "fiwo": "Ram hedcur jy sydop.",
+      "english": "It is a part of the house."
+    }
   },
   {
     "word": "hegorko",
@@ -3890,7 +6697,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A remotely piloted flying machine.",
     "tier": 3,
-    "rank": 113
+    "rank": 113,
+    "freq": 1,
+    "freq_rank": 1035
   },
   {
     "word": "hekri",
@@ -3898,7 +6707,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To have clothing, footwear, or an accessory on the body; to be dressed in something.",
     "tier": 1,
-    "rank": 295
+    "rank": 295,
+    "freq": 7,
+    "freq_rank": 474,
+    "example": {
+      "fiwo": "Mik hekri busko sile.",
+      "english": "I wear these clothes."
+    }
   },
   {
     "word": "hemy",
@@ -3906,7 +6721,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Used for close proximity.",
     "tier": 0,
-    "rank": 57
+    "rank": 57,
+    "freq": 50,
+    "freq_rank": 99,
+    "example": {
+      "fiwo": "Sydop mike ceni hemy jurop.",
+      "english": "My house is near the city."
+    }
   },
   {
     "word": "hevi",
@@ -3914,7 +6735,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To logically or emotionally pardon an offense, effectively terminating any anger, resentment, or desire for punishment toward another entity.",
     "tier": 3,
-    "rank": 397
+    "rank": 397,
+    "freq": 4,
+    "freq_rank": 621,
+    "example": {
+      "fiwo": "Manap mike hevis mik.",
+      "english": "My mother will forgive me."
+    }
   },
   {
     "word": "hezeska",
@@ -3922,7 +6749,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A brightly colored tropical bird with a curved beak, able to mimic speech.",
     "tier": 3,
-    "rank": 514
+    "rank": 514,
+    "freq": 0,
+    "freq_rank": 1988,
+    "example": {
+      "fiwo": "Hezeskap gesi.",
+      "english": "The parrot speaks."
+    }
   },
   {
     "word": "hi",
@@ -3930,7 +6763,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To Be / To Exist. An explicit copula and existential verb. It is strictly forbidden in its unmodified form and must always bear a consonant suffix (such as tense, aspect, or an infinitive stacker) to be legally processed by the SVO track.",
     "tier": 1,
-    "rank": 13
+    "rank": 13,
+    "freq": 12,
+    "freq_rank": 339,
+    "example": {
+      "fiwo": "Mik hid kype wecdu.",
+      "english": "I was happy yesterday."
+    }
   },
   {
     "word": "hiaruce",
@@ -3938,7 +6777,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number equivalent to one thousand times one thousand.",
     "tier": 2,
-    "rank": 441
+    "rank": 441,
+    "freq": 3,
+    "freq_rank": 693,
+    "example": {
+      "fiwo": "Nofar hiaruce plid.",
+      "english": "One million people came."
+    }
   },
   {
     "word": "hibomo",
@@ -3946,7 +6791,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A heavy iron block with a flat top on which hot metal is hammered (ivxo) into shape.",
     "tier": 3,
-    "rank": 524
+    "rank": 524,
+    "freq": 0,
+    "freq_rank": 1992,
+    "example": {
+      "fiwo": "Hibomop juce.",
+      "english": "The anvil is heavy."
+    }
   },
   {
     "word": "hici",
@@ -3954,7 +6805,27 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to move at a regular pace by lifting and setting down each foot in turn.",
     "tier": 1,
-    "rank": 114
+    "rank": 114,
+    "freq": 41,
+    "freq_rank": 120,
+    "example": {
+      "fiwo": "Nak hicid avly caenop.",
+      "english": "We walked along the street."
+    }
+  },
+  {
+    "word": "hina",
+    "english_equiv": "Membrane",
+    "part_of_speech": "Biological Noun",
+    "definition": "A thin, pliable sheet of tissue that lines, covers, or connects parts of an organism.",
+    "tier": 3,
+    "rank": 585,
+    "freq": 0,
+    "freq_rank": 1995,
+    "example": {
+      "fiwo": "Hina oxti noja.",
+      "english": "The membrane protects the eye."
+    }
   },
   {
     "word": "hiqe",
@@ -3963,7 +6834,13 @@ const dictionaryData = [
     "definition": "Free from error; in accordance with fact or truth.",
     "usage_note": "Distinct from the subjective senses 'well' or 'good'.",
     "tier": 1,
-    "rank": 251
+    "rank": 251,
+    "freq": 11,
+    "freq_rank": 368,
+    "example": {
+      "fiwo": "Isamup hiqei.",
+      "english": "The result is correct."
+    }
   },
   {
     "word": "hiro",
@@ -3971,7 +6848,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An empty space, gap, or physical opening structurally present within a solid object or surface.",
     "tier": 2,
-    "rank": 423
+    "rank": 423,
+    "freq": 17,
+    "freq_rank": 260,
+    "example": {
+      "fiwo": "Hirop ceni deky krapop.",
+      "english": "The hole is in the wall."
+    }
   },
   {
     "word": "hisu",
@@ -3979,7 +6862,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This identifies a word or set of words by which a person, animal, place, or thing is known.",
     "tier": 1,
-    "rank": 88
+    "rank": 88,
+    "freq": 82,
+    "freq_rank": 62,
+    "example": {
+      "fiwo": "Hisup mike David.",
+      "english": "My name is David."
+    }
   },
   {
     "word": "hobcada",
@@ -3987,7 +6876,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A gender-neutral biological relative who is the child of one's child.",
     "tier": 3,
-    "rank": 129
+    "rank": 129,
+    "freq": 0,
+    "freq_rank": 1998,
+    "example": {
+      "fiwo": "Hobcadap ry mik hobeid.",
+      "english": "My grandchild was young."
+    }
   },
   {
     "word": "hobcaqla",
@@ -3995,7 +6890,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A male biological relative who is the male child of one's child.",
     "tier": 3,
-    "rank": 45
+    "rank": 45,
+    "freq": 0,
+    "freq_rank": 2000,
+    "example": {
+      "fiwo": "Hobcaqlap ry mik garidyq.",
+      "english": "My grandson was playing."
+    }
   },
   {
     "word": "hobcasla",
@@ -4003,7 +6904,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A female biological relative who is the female child of one's child.",
     "tier": 3,
-    "rank": 94
+    "rank": 94,
+    "freq": 0,
+    "freq_rank": 2002,
+    "example": {
+      "fiwo": "Hobcaslap ry mik usidyq.",
+      "english": "My granddaughter was sleeping."
+    }
   },
   {
     "word": "hobe",
@@ -4011,7 +6918,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something that has existed for a short time, often characterizing an early stage of life, growth, or development.",
     "tier": 1,
-    "rank": 72
+    "rank": 72,
+    "freq": 9,
+    "freq_rank": 412,
+    "example": {
+      "fiwo": "Detap hobei.",
+      "english": "The dog is young."
+    }
   },
   {
     "word": "hokeltu",
@@ -4019,7 +6932,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Money regularly received from work or investment.",
     "tier": 2,
-    "rank": 276
+    "rank": 276,
+    "freq": 4,
+    "freq_rank": 622
   },
   {
     "word": "hop",
@@ -4027,7 +6942,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Sarcastic or ironic intent, explicitly encoded to prevent logical misinterpretation.",
     "tier": 0,
-    "rank": 107
+    "rank": 107,
+    "freq": 3,
+    "freq_rank": 694,
+    "example": {
+      "fiwo": "Hop suk itolei.",
+      "english": "Oh, you're a genius, aren't you."
+    }
   },
   {
     "word": "hoqypo",
@@ -4035,7 +6956,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A device created or adapted to make musical sounds.",
     "tier": 3,
-    "rank": 391
+    "rank": 391,
+    "freq": 0,
+    "freq_rank": 2005,
+    "example": {
+      "fiwo": "Caqlap zyli hoqypop.",
+      "english": "The boy uses the musical instrument."
+    }
   },
   {
     "word": "horba",
@@ -4043,7 +6970,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word refers to a hard, permanent bony outgrowth—often curved and pointed—found on the heads of certain animals for defense or competition.",
     "tier": 3,
-    "rank": 421
+    "rank": 421,
+    "freq": 0,
+    "freq_rank": 2007,
+    "example": {
+      "fiwo": "Kabap jedid horbar je.",
+      "english": "The horse had horns."
+    }
   },
   {
     "word": "horulfu",
@@ -4051,7 +6984,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The citizens chosen to judge the facts of a case.",
     "tier": 2,
-    "rank": 406
+    "rank": 406,
+    "freq": 2,
+    "freq_rank": 814
   },
   {
     "word": "hoswa",
@@ -4059,7 +6994,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A fast-growing woody grass with hollow, segmented stems.",
     "tier": 3,
-    "rank": 269
+    "rank": 269,
+    "freq": 1,
+    "freq_rank": 1036,
+    "example": {
+      "fiwo": "Hoswap ruze.",
+      "english": "The bamboo is fast(-growing)."
+    }
   },
   {
     "word": "hoxo",
@@ -4067,7 +7008,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies an access point or movable barrier used to close an opening.",
     "tier": 1,
-    "rank": 110
+    "rank": 110,
+    "freq": 74,
+    "freq_rank": 73,
+    "example": {
+      "fiwo": "Hoxop beatidyq.",
+      "english": "The door was closing."
+    }
   },
   {
     "word": "hudywi",
@@ -4075,7 +7022,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To expel air from the lungs with a sudden sharp sound, typically to clear the throat or respiratory airways.",
     "tier": 3,
-    "rank": 453
+    "rank": 453,
+    "freq": 3,
+    "freq_rank": 695,
+    "example": {
+      "fiwo": "Daq hudywiq.",
+      "english": "He is coughing."
+    }
   },
   {
     "word": "hufribi",
@@ -4083,7 +7036,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To turn something over or reverse its orientation, order, or arrangement.",
     "tier": 3,
-    "rank": 402
+    "rank": 402,
+    "freq": 1,
+    "freq_rank": 1037,
+    "example": {
+      "fiwo": "Mik hufribid lakirop.",
+      "english": "I flipped the picture."
+    }
   },
   {
     "word": "huhe",
@@ -4091,7 +7050,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "A relative degree modifier indicating the highest subjective amount of a trait, state, or action; remarkably intense.",
     "tier": 2,
-    "rank": 144
+    "rank": 144,
+    "freq": 17,
+    "freq_rank": 261
   },
   {
     "word": "huji",
@@ -4099,7 +7060,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To attach, suspend, or be attached at the top so that the lower part is free.",
     "tier": 3,
-    "rank": 282
+    "rank": 282,
+    "freq": 0,
+    "freq_rank": 2015,
+    "example": {
+      "fiwo": "Das hujis lakirop ty krapop.",
+      "english": "She will hang the picture on the wall."
+    }
   },
   {
     "word": "hulka",
@@ -4107,7 +7074,27 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A domesticated pack animal related to the camel, with a long neck and woolly coat.",
     "tier": 3,
-    "rank": 525
+    "rank": 525,
+    "freq": 0,
+    "freq_rank": 2018,
+    "example": {
+      "fiwo": "Hulkap tande.",
+      "english": "The llama is big."
+    }
+  },
+  {
+    "word": "hunku",
+    "english_equiv": "Gravity",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The force drawing bodies of mass toward one another; what makes a released object fall.",
+    "tier": 3,
+    "rank": 579,
+    "freq": 0,
+    "freq_rank": 2020,
+    "example": {
+      "fiwo": "Hunku sudi mik zy zaso.",
+      "english": "Gravity pulls me to the ground."
+    }
   },
   {
     "word": "hupu",
@@ -4115,7 +7102,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the point that is equally distant from every part of the circumference or ends of something.",
     "tier": 3,
-    "rank": 23
+    "rank": 23,
+    "freq": 6,
+    "freq_rank": 506,
+    "example": {
+      "fiwo": "Mik ceni ky hupup.",
+      "english": "I live in the center."
+    }
   },
   {
     "word": "huqa",
@@ -4123,7 +7116,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The joint connecting the arm or forelimb with the torso.",
     "tier": 3,
-    "rank": 316
+    "rank": 316,
+    "freq": 3,
+    "freq_rank": 696,
+    "example": {
+      "fiwo": "Huqap ry mik tandeid.",
+      "english": "My shoulder was large."
+    }
   },
   {
     "word": "hutse",
@@ -4131,7 +7130,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes an entity or concept that acts as the focal point or most fundamental component of a group or system.",
     "tier": 2,
-    "rank": 466
+    "rank": 466,
+    "freq": 0,
+    "freq_rank": 2023,
+    "example": {
+      "fiwo": "Biwup hutsei.",
+      "english": "The problem is primary."
+    }
   },
   {
     "word": "hyho",
@@ -4139,7 +7144,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A hand-held cutting tool consisting of a pair of pivoted blades that slide past each other.",
     "tier": 3,
-    "rank": 500
+    "rank": 500,
+    "freq": 0,
+    "freq_rank": 2025,
+    "example": {
+      "fiwo": "Hyhop ruteid.",
+      "english": "The scissors were sharp."
+    }
   },
   {
     "word": "hykuxu",
@@ -4147,7 +7158,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A formal assessment of a person's knowledge, proficiency, or skills in a particular subject.",
     "tier": 2,
-    "rank": 261
+    "rank": 261,
+    "freq": 1,
+    "freq_rank": 1039,
+    "example": {
+      "fiwo": "Cada xyfi hykuxup.",
+      "english": "The child does the exam."
+    }
   },
   {
     "word": "hylsa",
@@ -4155,7 +7172,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "One of the two soft fleshy edges forming the opening of the mouth (ylxa); used in speech and eating.",
     "tier": 3,
-    "rank": 422
+    "rank": 422,
+    "freq": 0,
+    "freq_rank": 2028,
+    "example": {
+      "fiwo": "Hylsap das lande.",
+      "english": "Her lip is small."
+    }
   },
   {
     "word": "hyme",
@@ -4163,7 +7186,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes an action, state, or behavior that occurs repeatedly and characteristically over a period of time, forming an established routine or habit rather than a singular event.",
     "tier": 1,
-    "rank": 325
+    "rank": 325,
+    "freq": 8,
+    "freq_rank": 442,
+    "example": {
+      "fiwo": "Daq nacis hyme.",
+      "english": "He will work habitually."
+    }
   },
   {
     "word": "hyp",
@@ -4171,7 +7200,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A pragmatic mood tag placed at the absolute start of a clause to indicate that the following statement is a simulation of a reality that does not exist. It translates the English concepts of \"would\" or \"would have\".",
     "tier": 0,
-    "rank": 101
+    "rank": 101,
+    "freq": 12,
+    "freq_rank": 340
   },
   {
     "word": "hyqu",
@@ -4179,7 +7210,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The quality of having experience, knowledge, good judgment, and deep understanding of life.",
     "tier": 3,
-    "rank": 376
+    "rank": 376,
+    "freq": 1,
+    "freq_rank": 1040,
+    "example": {
+      "fiwo": "Hyqup ry daq tandei.",
+      "english": "His wisdom is great."
+    }
   },
   {
     "word": "hytre",
@@ -4187,7 +7224,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Feeling tired, fatigued, and ready to fall asleep.",
     "tier": 3,
-    "rank": 488
+    "rank": 488,
+    "freq": 0,
+    "freq_rank": 2033,
+    "example": {
+      "fiwo": "Mik hytreid.",
+      "english": "I was sleepy."
+    }
   },
   {
     "word": "iale",
@@ -4195,7 +7238,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something that is intentionally set apart or different from what is usual or standard.",
     "tier": 2,
-    "rank": 422
+    "rank": 422,
+    "freq": 0,
+    "freq_rank": 2035,
+    "example": {
+      "fiwo": "Jarup ialeid.",
+      "english": "The year was special."
+    }
   },
   {
     "word": "ibagi",
@@ -4203,7 +7252,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To acquire new knowledge, skills, or data through abstract study or physical experience.",
     "tier": 1,
-    "rank": 127
+    "rank": 127,
+    "freq": 16,
+    "freq_rank": 277,
+    "example": {
+      "fiwo": "Cadap ibagid fiwop.",
+      "english": "The child learned the language."
+    }
   },
   {
     "word": "ibalira",
@@ -4211,7 +7266,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a person who gives systematic instruction and provides knowledge.",
     "tier": 1,
-    "rank": 163
+    "rank": 163,
+    "freq": 17,
+    "freq_rank": 262,
+    "example": {
+      "fiwo": "Ibalirap jamid ufaxop.",
+      "english": "The teacher wrote the message."
+    }
   },
   {
     "word": "ibalu",
@@ -4219,7 +7280,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual process of receiving or giving systematic instruction and acquiring knowledge.",
     "tier": 2,
-    "rank": 447
+    "rank": 447,
+    "freq": 0,
+    "freq_rank": 2039,
+    "example": {
+      "fiwo": "Ibalup fafei.",
+      "english": "Education is important."
+    }
   },
   {
     "word": "ibane",
@@ -4227,7 +7294,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Having a major, measurable effect or noticeable physical/logical impact.",
     "tier": 3,
-    "rank": 126
+    "rank": 126,
+    "freq": 0,
+    "freq_rank": 2041,
+    "example": {
+      "fiwo": "Jeflup ibanei.",
+      "english": "Development is significant."
+    }
   },
   {
     "word": "ibazo",
@@ -4235,7 +7308,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies a physical building or structural institution explicitly designed for the teaching and education of students.",
     "tier": 1,
-    "rank": 148
+    "rank": 148,
+    "freq": 9,
+    "freq_rank": 413,
+    "example": {
+      "fiwo": "Ibazop tandeid.",
+      "english": "The school was big."
+    }
   },
   {
     "word": "ibitu",
@@ -4243,7 +7322,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract system of ordering society or categorizing items based on shared conceptual characteristics.",
     "tier": 2,
-    "rank": 202
+    "rank": 202,
+    "freq": 1,
+    "freq_rank": 1045,
+    "example": {
+      "fiwo": "Ibitup mike cimidyq.",
+      "english": "My class was starting."
+    }
   },
   {
     "word": "ibvi",
@@ -4251,7 +7336,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To flow or cause to flow in a stream from a container.",
     "tier": 3,
-    "rank": 424
+    "rank": 424,
+    "freq": 0,
+    "freq_rank": 2044,
+    "example": {
+      "fiwo": "Kop ibvi winrop zy kalop!",
+      "english": "Pour the wine into the cup!"
+    }
   },
   {
     "word": "icejenu",
@@ -4259,7 +7350,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A stretch of time with a beginning and an end.",
     "tier": 2,
-    "rank": 194
+    "rank": 194,
+    "freq": 1,
+    "freq_rank": 1046
   },
   {
     "word": "icifo",
@@ -4267,7 +7360,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A flat, usually circular solid dish from which food is physically served or eaten.",
     "tier": 1,
-    "rank": 282
+    "rank": 282,
+    "freq": 3,
+    "freq_rank": 697,
+    "example": {
+      "fiwo": "Icifop letseid.",
+      "english": "The plate was dirty."
+    }
   },
   {
     "word": "idoji",
@@ -4275,7 +7374,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To be mathematically or physically left over after other parts have been removed or consumed.",
     "tier": 3,
-    "rank": 193
+    "rank": 193,
+    "freq": 5,
+    "freq_rank": 567,
+    "example": {
+      "fiwo": "Mik idojis deky krulop.",
+      "english": "I will remain in the room."
+    }
   },
   {
     "word": "idre",
@@ -4283,7 +7388,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes a quantity representing exactly one of four equal parts of a whole (25%).",
     "tier": 2,
-    "rank": 151
+    "rank": 151,
+    "freq": 2,
+    "freq_rank": 815,
+    "example": {
+      "fiwo": "Aplap idrei.",
+      "english": "The apple is a quarter."
+    }
   },
   {
     "word": "idvu",
@@ -4291,7 +7402,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Something that is difficult or impossible to understand, explain, or uncover.",
     "tier": 2,
-    "rank": 221
+    "rank": 221,
+    "freq": 2,
+    "freq_rank": 816,
+    "example": {
+      "fiwo": "Idvup ry daq tandeid.",
+      "english": "His secret was big."
+    }
   },
   {
     "word": "iega",
@@ -4299,7 +7416,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large, carnivorous feline mammal.",
     "tier": 3,
-    "rank": 369
+    "rank": 369,
+    "freq": 12,
+    "freq_rank": 341,
+    "example": {
+      "fiwo": "Iegap cafid acry caenop.",
+      "english": "The lion ran across the street."
+    }
   },
   {
     "word": "ifezi",
@@ -4307,7 +7430,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To mathematically collapse a set of choices into a single, final logical resolution.",
     "tier": 2,
-    "rank": 124
+    "rank": 124,
+    "freq": 7,
+    "freq_rank": 475,
+    "example": {
+      "fiwo": "Rezap ifezis nudu.",
+      "english": "The president will decide today."
+    }
   },
   {
     "word": "ifgo",
@@ -4315,7 +7444,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A small brush with a long handle, used specifically for cleaning the teeth.",
     "tier": 3,
-    "rank": 503
+    "rank": 503,
+    "freq": 0,
+    "freq_rank": 2050,
+    "example": {
+      "fiwo": "Ifgop ry mik letseid.",
+      "english": "My toothbrush was dirty."
+    }
   },
   {
     "word": "ifloco",
@@ -4323,7 +7458,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A shaped leather seat fastened on an animal's back for a rider.",
     "tier": 3,
-    "rank": 480
+    "rank": 480,
+    "freq": 0,
+    "freq_rank": 2053,
+    "example": {
+      "fiwo": "Iflocop ty kabap.",
+      "english": "The saddle is on the horse."
+    }
   },
   {
     "word": "ifuxu",
@@ -4331,7 +7472,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A risk easier to start than to stop; being astride it. Logical equivalent: Cimiu nailei. Sejiu muilei. (Starting is easy. Stopping is difficult.)",
     "tier": 2,
-    "rank": 400
+    "rank": 400,
+    "freq": 1,
+    "freq_rank": 1049,
+    "example": {
+      "fiwo": "Ram ifuxur.",
+      "english": "That is a mid-risk trap."
+    }
   },
   {
     "word": "igro",
@@ -4339,7 +7486,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A small, flat, stiff piece of paper or plastic used as a physical token for identification, finance, or data storage.",
     "tier": 3,
-    "rank": 90
+    "rank": 90,
+    "freq": 0,
+    "freq_rank": 2055,
+    "example": {
+      "fiwo": "Nak garidyq wy igrop je.",
+      "english": "We were playing with the cards."
+    }
   },
   {
     "word": "igy",
@@ -4347,7 +7500,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a mathematical bridge linking an action to the exact numerical count of its occurrences.",
     "tier": 0,
-    "rank": 56
+    "rank": 56,
+    "freq": 18,
+    "freq_rank": 245,
+    "example": {
+      "fiwo": "Mik zopid igy dewe.",
+      "english": "I jumped twice."
+    }
   },
   {
     "word": "ijyra",
@@ -4355,7 +7514,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word refers to the distinct, flexible appendage extending from the rear end of an animal's body.",
     "tier": 3,
-    "rank": 358
+    "rank": 358,
+    "freq": 0,
+    "freq_rank": 2057,
+    "example": {
+      "fiwo": "Detap ijyraidyq ijyrap.",
+      "english": "The dog was wagging its tail."
+    }
   },
   {
     "word": "ikamo",
@@ -4363,7 +7528,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical piece of clothing designed specifically to cover the upper body and chest area (topza).",
     "tier": 1,
-    "rank": 223
+    "rank": 223,
+    "freq": 6,
+    "freq_rank": 507,
+    "example": {
+      "fiwo": "Ikamop locweid.",
+      "english": "The shirt was white."
+    }
   },
   {
     "word": "ikapi",
@@ -4371,7 +7542,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To exert a non-physical force or abstract power upon an entity, thereby altering its development, behavior, or conceptual state.",
     "tier": 3,
-    "rank": 200
+    "rank": 200,
+    "freq": 0,
+    "freq_rank": 2060,
+    "example": {
+      "fiwo": "Ocadup ikapis fiturup.",
+      "english": "Science will influence the future."
+    }
   },
   {
     "word": "iku",
@@ -4379,7 +7556,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A system of abstract rules created and enforced by an institution to regulate behavior and maintain order.",
     "tier": 2,
-    "rank": 31
+    "rank": 31,
+    "freq": 77,
+    "freq_rank": 69,
+    "example": {
+      "fiwo": "Ikup ry xekup fafei.",
+      "english": "The law of the country is important."
+    }
   },
   {
     "word": "ilada",
@@ -4387,7 +7570,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies a cold-blooded, typically land-dwelling biological class characterized by scales and, often, a lack of limbs.",
     "tier": 3,
-    "rank": 506
+    "rank": 506,
+    "freq": 1,
+    "freq_rank": 1052,
+    "example": {
+      "fiwo": "Iladap sowid deky dorsop.",
+      "english": "The reptile fell into the water."
+    }
   },
   {
     "word": "ilpi",
@@ -4395,7 +7584,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To support oneself on one or both knees.",
     "tier": 3,
-    "rank": 509
+    "rank": 509,
+    "freq": 1,
+    "freq_rank": 1053,
+    "example": {
+      "fiwo": "Daq ilpid ky hoxop.",
+      "english": "He kneeled at the door."
+    }
   },
   {
     "word": "imdo",
@@ -4403,7 +7598,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An overflowing of a large amount of water beyond its normal confines, especially over what is normally dry land.",
     "tier": 3,
-    "rank": 353
+    "rank": 353,
+    "freq": 0,
+    "freq_rank": 2065,
+    "example": {
+      "fiwo": "Imdop zemiq caenop.",
+      "english": "The flood is covering the street."
+    }
   },
   {
     "word": "imsu",
@@ -4411,7 +7612,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A level of quality or attainment, or a rule/principle by which something is judged.",
     "tier": 3,
-    "rank": 92
+    "rank": 92,
+    "freq": 0,
+    "freq_rank": 2067,
+    "example": {
+      "fiwo": "Imsup ry ibazop lefeid.",
+      "english": "The standard of the school was hard."
+    }
   },
   {
     "word": "ipka",
@@ -4419,7 +7626,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "An eight-legged predatory arachnid that spins webs to catch prey.",
     "tier": 2,
-    "rank": 324
+    "rank": 324,
+    "freq": 2,
+    "freq_rank": 817,
+    "example": {
+      "fiwo": "Ipkap foisoidyq cilar.",
+      "english": "The spider was building a leaf."
+    }
   },
   {
     "word": "ipti",
@@ -4427,7 +7640,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To cause or allow liquid or solid to run or fall from a container.",
     "tier": 3,
-    "rank": 461
+    "rank": 461,
+    "freq": 1,
+    "freq_rank": 1054,
+    "example": {
+      "fiwo": "Daq iptid lamsop.",
+      "english": "He spilled the milk."
+    }
   },
   {
     "word": "iqi",
@@ -4436,7 +7655,13 @@ const dictionaryData = [
     "definition": "To feel uncertain about something, or to lack conviction in a truth.",
     "usage_note": "Leans away from a claim's truth. For a weak positive lean on partial evidence (classically something bad or hidden), use skaxebi (to suspect).",
     "tier": 3,
-    "rank": 153
+    "rank": 153,
+    "freq": 0,
+    "freq_rank": 2070,
+    "example": {
+      "fiwo": "Daq iqis Gop suke.",
+      "english": "He doubts your word."
+    }
   },
   {
     "word": "iqocu",
@@ -4444,7 +7669,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual change which is a direct mathematical result or consequence of a prior cause.",
     "tier": 3,
-    "rank": 96
+    "rank": 96,
+    "freq": 0,
+    "freq_rank": 2072,
+    "example": {
+      "fiwo": "Iqocup ry olifup tandeid.",
+      "english": "The effect of the research was great."
+    }
   },
   {
     "word": "iraki",
@@ -4452,7 +7683,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To shed biological tears as a physiological response to distress, pain, or overwhelming subjective feeling.",
     "tier": 1,
-    "rank": 183
+    "rank": 183,
+    "freq": 29,
+    "freq_rank": 172,
+    "example": {
+      "fiwo": "Bibap irakis dury dugup.",
+      "english": "The baby will cry during the night."
+    }
   },
   {
     "word": "iraksa",
@@ -4460,7 +7697,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The physical, saline liquid produced and shed by the eyes.",
     "tier": 3,
-    "rank": 468
+    "rank": 468,
+    "freq": 0,
+    "freq_rank": 2076
   },
   {
     "word": "irta",
@@ -4468,7 +7707,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word identifies the round or oval biological reproductive body laid by the females of many animals, containing the developing embryo.",
     "tier": 1,
-    "rank": 309
+    "rank": 309,
+    "freq": 1,
+    "freq_rank": 1055,
+    "example": {
+      "fiwo": "Mik karxid irtap.",
+      "english": "I found the egg."
+    }
   },
   {
     "word": "isamu",
@@ -4476,7 +7721,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract consequence, logical effect, or final mathematical outcome of a specific action or event.",
     "tier": 2,
-    "rank": 38
+    "rank": 38,
+    "freq": 15,
+    "freq_rank": 289,
+    "example": {
+      "fiwo": "Isamup gaweid.",
+      "english": "The result was good."
+    }
   },
   {
     "word": "isne",
@@ -4484,7 +7735,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Without clothing, foliage, or natural covering.",
     "tier": 3,
-    "rank": 326
+    "rank": 326,
+    "freq": 0,
+    "freq_rank": 2080,
+    "example": {
+      "fiwo": "Nofap isneid.",
+      "english": "The person was naked."
+    }
   },
   {
     "word": "itole",
@@ -4492,7 +7749,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an entity possessing a high mental capacity, sharp intellect, or the ability to process data efficiently.",
     "tier": 2,
-    "rank": 312
+    "rank": 312,
+    "freq": 1,
+    "freq_rank": 1057,
+    "example": {
+      "fiwo": "Cadap itolei.",
+      "english": "The child is smart."
+    }
   },
   {
     "word": "itse",
@@ -4500,7 +7763,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes an individual entity strictly separated from others, consisting of exactly one part.",
     "tier": 2,
-    "rank": 386
+    "rank": 386,
+    "freq": 8,
+    "freq_rank": 443,
+    "example": {
+      "fiwo": "Mik jedi ikamor itse.",
+      "english": "I have a single shirt."
+    }
   },
   {
     "word": "iubu",
@@ -4508,7 +7777,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The state or condition of not meeting a desirable goal or standard; the lack of success.",
     "tier": 3,
-    "rank": 212
+    "rank": 212,
+    "freq": 0,
+    "freq_rank": 2084,
+    "example": {
+      "fiwo": "Iubup ry daq bokeid.",
+      "english": "His failure was bad."
+    }
   },
   {
     "word": "ivanu",
@@ -4516,7 +7791,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the primary cardinal direction corresponding to the earth's northern magnetic pole or the upward orientation on a standard map.",
     "tier": 1,
-    "rank": 270
+    "rank": 270,
+    "freq": 6,
+    "freq_rank": 508,
+    "example": {
+      "fiwo": "Ivanup jabeid.",
+      "english": "The north was cold."
+    }
   },
   {
     "word": "ivati",
@@ -4524,7 +7805,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively measure the heavy weight or physical mass of an object or biological entity",
     "tier": 3,
-    "rank": 432
+    "rank": 432,
+    "freq": 1,
+    "freq_rank": 1059,
+    "example": {
+      "fiwo": "Farlopap ivatis soxap.",
+      "english": "The doctor will weigh the body."
+    }
   },
   {
     "word": "ivortu",
@@ -4532,7 +7819,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the cardinal direction directly opposite to the north.",
     "tier": 1,
-    "rank": 265
+    "rank": 265,
+    "freq": 0,
+    "freq_rank": 2087,
+    "example": {
+      "fiwo": "Ivortup ripeid.",
+      "english": "The south was warm."
+    }
   },
   {
     "word": "ivxo",
@@ -4540,7 +7833,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A hand tool with a heavy metal head on a handle, used for driving nails, beating metal, or breaking objects.",
     "tier": 3,
-    "rank": 132
+    "rank": 132,
+    "freq": 2,
+    "freq_rank": 819,
+    "example": {
+      "fiwo": "Ivxop juceid.",
+      "english": "The hammer was heavy."
+    }
   },
   {
     "word": "iwe",
@@ -4548,7 +7847,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a physical or mental state of exhaustion, depleted energy, or a strong need for sleep and rest.",
     "tier": 1,
-    "rank": 216
+    "rank": 216,
+    "freq": 0,
+    "freq_rank": 2091,
+    "example": {
+      "fiwo": "Nofap iweiq.",
+      "english": "The person is getting tired."
+    }
   },
   {
     "word": "ixbo",
@@ -4556,7 +7861,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A small rectangular block of fired clay or concrete, used in building.",
     "tier": 3,
-    "rank": 367
+    "rank": 367,
+    "freq": 0,
+    "freq_rank": 2093,
+    "example": {
+      "fiwo": "Ixbop lefeid.",
+      "english": "The brick was hard."
+    }
   },
   {
     "word": "ixge",
@@ -4564,7 +7875,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Having a surface so smooth, wet, or oily that objects slide easily or traction is lost.",
     "tier": 3,
-    "rank": 486
+    "rank": 486,
+    "freq": 0,
+    "freq_rank": 2095,
+    "example": {
+      "fiwo": "Zafoirop ixgeid.",
+      "english": "The floor was slippery."
+    }
   },
   {
     "word": "ixovi",
@@ -4573,7 +7890,13 @@ const dictionaryData = [
     "definition": "To passively take in an action, object, or circumstance placed upon the subject by an outside force; to bear or endure an experience.",
     "usage_note": "The 'undergo/endure' sense: passively taking in something imposed. Distinct from jopxi (to accept delivery of something offered).",
     "tier": 2,
-    "rank": 203
+    "rank": 203,
+    "freq": 4,
+    "freq_rank": 623,
+    "example": {
+      "fiwo": "Daq ixovis pamup.",
+      "english": "He will endure the pain."
+    }
   },
   {
     "word": "ixpa",
@@ -4581,7 +7904,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "An organism (such as a mushroom or mold) that feeds on organic matter and lacks chlorophyll.",
     "tier": 3,
-    "rank": 484
+    "rank": 484,
+    "freq": 0,
+    "freq_rank": 2097,
+    "example": {
+      "fiwo": "Ixpap moridyq deky mortsap.",
+      "english": "The fungus was growing in the forest."
+    }
   },
   {
     "word": "izevufu",
@@ -4589,7 +7918,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Government in which power rests with the people through voting.",
     "tier": 2,
-    "rank": 397
+    "rank": 397,
+    "freq": 1,
+    "freq_rank": 1061
   },
   {
     "word": "izli",
@@ -4597,7 +7928,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To formally or friendly request the presence or participation of someone.",
     "tier": 3,
-    "rank": 355
+    "rank": 355,
+    "freq": 0,
+    "freq_rank": 2100,
+    "example": {
+      "fiwo": "Das izlis nauxap dale.",
+      "english": "She will invite her friend."
+    }
   },
   {
     "word": "jabe",
@@ -4605,7 +7942,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something of or at a low or relatively low temperature.",
     "tier": 1,
-    "rank": 119
+    "rank": 119,
+    "freq": 5,
+    "freq_rank": 568,
+    "example": {
+      "fiwo": "Dorsop jabei.",
+      "english": "The water is cold."
+    }
   },
   {
     "word": "jacifi",
@@ -4613,7 +7956,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To be similar to or look like something.",
     "tier": 2,
-    "rank": 87
+    "rank": 87,
+    "freq": 1,
+    "freq_rank": 1062
   },
   {
     "word": "jadoro",
@@ -4621,7 +7966,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to atmospheric water vapor frozen into solid ice crystals and falling as light, white structural flakes.",
     "tier": 1,
-    "rank": 301
+    "rank": 301,
+    "freq": 5,
+    "freq_rank": 570,
+    "example": {
+      "fiwo": "Jadorop sowiq.",
+      "english": "The snow is falling."
+    }
   },
   {
     "word": "jahizi",
@@ -4629,7 +7980,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To enter into a marital partnership with another individual, forming the spouse relation (hazba / sifa); the act that establishes a marriage.",
     "tier": 3,
-    "rank": 47
+    "rank": 47,
+    "freq": 0,
+    "freq_rank": 2106,
+    "example": {
+      "fiwo": "Daq jahizid sifap.",
+      "english": "He married the wife."
+    }
   },
   {
     "word": "jami",
@@ -4637,7 +7994,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to mark letters, words, or other symbols on a surface to record information.",
     "tier": 1,
-    "rank": 116
+    "rank": 116,
+    "freq": 160,
+    "freq_rank": 25,
+    "example": {
+      "fiwo": "Das jamid ufaxop.",
+      "english": "She wrote the message."
+    }
   },
   {
     "word": "janongo",
@@ -4645,7 +8008,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A small facility for outpatient medical care.",
     "tier": 2,
-    "rank": 321
+    "rank": 321,
+    "freq": 3,
+    "freq_rank": 700
   },
   {
     "word": "jany",
@@ -4653,7 +8018,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a bridge of physical contact involving pressure and support, or direct logical opposition/resistance to a concept.",
     "tier": 0,
-    "rank": 68
+    "rank": 68,
+    "freq": 21,
+    "freq_rank": 223,
+    "example": {
+      "fiwo": "Daq cukidyq jany erup.",
+      "english": "He was fighting against the war."
+    }
   },
   {
     "word": "jaru",
@@ -4661,7 +8032,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The time it takes for a planet to complete one full revolution around its star; a period of time comprising 365 days.",
     "tier": 1,
-    "rank": 60
+    "rank": 60,
+    "freq": 128,
+    "freq_rank": 38,
+    "example": {
+      "fiwo": "Jarup fitydue usy bime.",
+      "english": "The year tomorrow is number one."
+    }
   },
   {
     "word": "jas",
@@ -4669,7 +8046,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Affirmation or agreement.",
     "tier": 0,
-    "rank": 49
+    "rank": 49,
+    "freq": 27,
+    "freq_rank": 184,
+    "example": {
+      "fiwo": "Jas, mik stomis ram zy suk.",
+      "english": "Yes, I will give it to you."
+    }
   },
   {
     "word": "jatano",
@@ -4677,7 +8060,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies a small, hand-held physical tool or instrument structurally designed for writing or drawing on paper.",
     "tier": 2,
-    "rank": 448
+    "rank": 448,
+    "freq": 2,
+    "freq_rank": 820,
+    "example": {
+      "fiwo": "Jatanop ry mik.",
+      "english": "The pen is mine."
+    }
   },
   {
     "word": "javuqu",
@@ -4685,7 +8074,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The process of infecting or the state of being infected by a disease-causing organism.",
     "tier": 3,
-    "rank": 346
+    "rank": 346,
+    "freq": 1,
+    "freq_rank": 1064,
+    "example": {
+      "fiwo": "Javuqup ratse.",
+      "english": "The infection is dangerous."
+    }
   },
   {
     "word": "jawo",
@@ -4693,7 +8088,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This defines the solid state of water matter, formed structurally when liquid water freezes due to low temperatures.",
     "tier": 2,
-    "rank": 69
+    "rank": 69,
+    "freq": 11,
+    "freq_rank": 369,
+    "example": {
+      "fiwo": "Jawop difoidyq.",
+      "english": "The ice was melting."
+    }
   },
   {
     "word": "jaxke",
@@ -4701,7 +8102,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something produced, introduced, or discovered recently or now for the first time.",
     "tier": 1,
-    "rank": 48
+    "rank": 48,
+    "freq": 32,
+    "freq_rank": 153,
+    "example": {
+      "fiwo": "Jyjop jaxkei.",
+      "english": "The computer is new."
+    }
   },
   {
     "word": "je",
@@ -4709,7 +8116,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "A strict grammatical marker indicating plurality (strictly more than one of an entity). It acts purely as a mathematical multiplier (>1) to pluralize a noun, carrying no subjective weight regarding how large the group actually is.",
     "tier": 1,
-    "rank": 5
+    "rank": 5,
+    "freq": 860,
+    "freq_rank": 3,
+    "example": {
+      "fiwo": "Nofar je cafid.",
+      "english": "Many people ran."
+    }
   },
   {
     "word": "jedi",
@@ -4717,7 +8130,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to possess, own, or hold something as property or a characteristic.",
     "tier": 1,
-    "rank": 1
+    "rank": 1,
+    "freq": 161,
+    "freq_rank": 24,
+    "example": {
+      "fiwo": "Mik jedi jyjor.",
+      "english": "I have a computer."
+    }
   },
   {
     "word": "jedle",
@@ -4725,7 +8144,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "his describes a subjectively large quantity, high volume, or great number of a specific entity.",
     "tier": 1,
-    "rank": 244
+    "rank": 244,
+    "freq": 37,
+    "freq_rank": 136,
+    "example": {
+      "fiwo": "Nofar jedle plid.",
+      "english": "Many people arrived."
+    }
   },
   {
     "word": "jeflu",
@@ -4733,7 +8158,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract process of conceptual growth, systemic progression, or evolution over time.",
     "tier": 2,
-    "rank": 67
+    "rank": 67,
+    "freq": 3,
+    "freq_rank": 701,
+    "example": {
+      "fiwo": "Jeflup ry fawanup ruzeiq.",
+      "english": "The development of technology is speeding up."
+    }
   },
   {
     "word": "jegetru",
@@ -4741,7 +8172,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A disease of uncontrolled, harmful cell growth.",
     "tier": 2,
-    "rank": 284
+    "rank": 284,
+    "freq": 1,
+    "freq_rank": 1065
   },
   {
     "word": "jeju",
@@ -4749,7 +8182,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "High renown, honor, or praise won by notable achievements or majestic beauty.",
     "tier": 3,
-    "rank": 339
+    "rank": 339,
+    "freq": 2,
+    "freq_rank": 822,
+    "example": {
+      "fiwo": "Jejup ry xekup tandeid.",
+      "english": "The glory of the country was great."
+    }
   },
   {
     "word": "jeme",
@@ -4757,7 +8196,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "The greatest quantity/quality compared to something else.",
     "tier": 1,
-    "rank": 33
+    "rank": 33,
+    "freq": 20,
+    "freq_rank": 229,
+    "example": {
+      "fiwo": "Daq ruzei jeme.",
+      "english": "He is the fastest."
+    }
   },
   {
     "word": "jepa",
@@ -4765,7 +8210,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the immediate descendant produced by the reproduction of a living organism.",
     "tier": 3,
-    "rank": 54
+    "rank": 54,
+    "freq": 2,
+    "freq_rank": 823,
+    "example": {
+      "fiwo": "Catsap jofiq jepap.",
+      "english": "The cat is helping its offspring."
+    }
   },
   {
     "word": "jete",
@@ -4773,7 +8224,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "An increase compared to something else.",
     "tier": 1,
-    "rank": 23
+    "rank": 23,
+    "freq": 56,
+    "freq_rank": 90,
+    "example": {
+      "fiwo": "Daq ruzei jete taly mik.",
+      "english": "He is faster than me."
+    }
   },
   {
     "word": "jicy",
@@ -4781,7 +8238,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates inclusion or mathematical addition, functioning as a bridge meaning in addition to or along with the target object.",
     "tier": 0,
-    "rank": 100
+    "rank": 100,
+    "freq": 6,
+    "freq_rank": 510,
+    "example": {
+      "fiwo": "Mik nomid aplar jicy mitar.",
+      "english": "I ate an apple along with meat."
+    }
   },
   {
     "word": "jilfe",
@@ -4790,7 +8253,27 @@ const dictionaryData = [
     "definition": "Having an even, regular surface, free of bumps or friction. The antonym of rudse (rough).",
     "usage_note": "Distinct from ixge (slippery) and wapse (flat).",
     "tier": 2,
-    "rank": 344
+    "rank": 344,
+    "freq": 3,
+    "freq_rank": 703,
+    "example": {
+      "fiwo": "Tykop jilfe.",
+      "english": "The material is smooth."
+    }
+  },
+  {
+    "word": "jipo",
+    "english_equiv": "Link",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A reference that points from one place to another, such as a web address or a pointer to another file.",
+    "tier": 3,
+    "rank": 565,
+    "freq": 0,
+    "freq_rank": 2127,
+    "example": {
+      "fiwo": "Mik lokid jipop.",
+      "english": "I read the link."
+    }
   },
   {
     "word": "jipri",
@@ -4798,7 +8281,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To clean something (like the body, clothes, or dishes) using water and typically soap.",
     "tier": 1,
-    "rank": 308
+    "rank": 308,
+    "freq": 12,
+    "freq_rank": 342,
+    "example": {
+      "fiwo": "Kop jipri belimop!",
+      "english": "Wash the shoe!"
+    }
   },
   {
     "word": "jiqa",
@@ -4806,7 +8295,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A gender-neutral biological relative who is the child of one's sibling.",
     "tier": 2,
-    "rank": 354
+    "rank": 354,
+    "freq": 3,
+    "freq_rank": 704
   },
   {
     "word": "jisi",
@@ -4814,7 +8305,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To fall in small, distinct drops of liquid.",
     "tier": 3,
-    "rank": 487
+    "rank": 487,
+    "freq": 0,
+    "freq_rank": 2130,
+    "example": {
+      "fiwo": "Dorsop jisidyq.",
+      "english": "Water was dripping."
+    }
   },
   {
     "word": "jo",
@@ -4822,7 +8319,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Sharp exclamation to command immediate attention or warn.",
     "tier": 0,
-    "rank": 67
+    "rank": 67,
+    "freq": 7,
+    "freq_rank": 476,
+    "example": {
+      "fiwo": "Jo! Kop seji!",
+      "english": "Hey! Stop!"
+    }
   },
   {
     "word": "jobori",
@@ -4831,7 +8334,13 @@ const dictionaryData = [
     "definition": "To actively reach a destination, limit, or end point.",
     "usage_note": "Emphasizes actively reaching a destination, limit, or endpoint. Compare ovami (completing a journey into a destination).",
     "tier": 1,
-    "rank": 292
+    "rank": 292,
+    "freq": 41,
+    "freq_rank": 121,
+    "example": {
+      "fiwo": "Atripop joboris ky jurop.",
+      "english": "The train will reach the city."
+    }
   },
   {
     "word": "jobu",
@@ -4839,7 +8348,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract conceptual role, task, or agreed-upon piece of work, especially one that is compensated.",
     "tier": 1,
-    "rank": 86
+    "rank": 86,
+    "freq": 18,
+    "freq_rank": 246,
+    "example": {
+      "fiwo": "Jobup ry mik nacidyq.",
+      "english": "My job was working."
+    }
   },
   {
     "word": "jofi",
@@ -4847,7 +8362,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To make it easier for someone to do something by offering one's services or resources.",
     "tier": 1,
-    "rank": 55
+    "rank": 55,
+    "freq": 40,
+    "freq_rank": 124,
+    "example": {
+      "fiwo": "Licap jofid mik.",
+      "english": "The colleague helped me."
+    }
   },
   {
     "word": "jokuwu",
@@ -4855,7 +8376,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A formal expression of choice or preference in an election or group decision.",
     "tier": 2,
-    "rank": 150
+    "rank": 150,
+    "freq": 15,
+    "freq_rank": 290,
+    "example": {
+      "fiwo": "Jokuwup fafe.",
+      "english": "The election is important."
+    }
   },
   {
     "word": "jolkodu",
@@ -4863,7 +8390,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The central value found by summing quantities and dividing by their count.",
     "tier": 1,
-    "rank": 181
+    "rank": 181,
+    "freq": 1,
+    "freq_rank": 1068
   },
   {
     "word": "jomyti",
@@ -4871,7 +8400,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To commit money to something expecting future gain.",
     "tier": 2,
-    "rank": 463
+    "rank": 463,
+    "freq": 1,
+    "freq_rank": 1069
   },
   {
     "word": "jopxi",
@@ -4880,7 +8411,13 @@ const dictionaryData = [
     "definition": "To passively or actively accept delivery and take possession of something offered or sent.",
     "usage_note": "The 'take delivery' sense: accepting something offered or sent. Distinct from ixovi (to receive/endure something imposed by an outside force).",
     "tier": 2,
-    "rank": 304
+    "rank": 304,
+    "freq": 10,
+    "freq_rank": 393,
+    "example": {
+      "fiwo": "Das jopxis ufaxop.",
+      "english": "She will receive the message."
+    }
   },
   {
     "word": "jormu",
@@ -4888,7 +8425,27 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a set of circumstances or conditions in which one finds oneself; a state of affairs.",
     "tier": 2,
-    "rank": 15
+    "rank": 15,
+    "freq": 12,
+    "freq_rank": 343,
+    "example": {
+      "fiwo": "Jormup sile bokeid.",
+      "english": "This situation was bad."
+    }
+  },
+  {
+    "word": "joso",
+    "english_equiv": "Entity",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A distinct thing existing as an individual unit, whether living or not; a creature, object, or projectile with its own position and state.",
+    "tier": 3,
+    "rank": 563,
+    "freq": 0,
+    "freq_rank": 2140,
+    "example": {
+      "fiwo": "Mik nojaid josop deky dodup.",
+      "english": "I saw the entity in the world."
+    }
   },
   {
     "word": "jotse",
@@ -4896,7 +8453,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something free from dirt, marks, or stains.",
     "tier": 1,
-    "rank": 193
+    "rank": 193,
+    "freq": 1,
+    "freq_rank": 1070,
+    "example": {
+      "fiwo": "Krulop jotsei.",
+      "english": "The room is clean."
+    }
   },
   {
     "word": "joze",
@@ -4904,7 +8467,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something measuring a great distance from end to end.",
     "tier": 1,
-    "rank": 46
+    "rank": 46,
+    "freq": 35,
+    "freq_rank": 141,
+    "example": {
+      "fiwo": "Caenop jozei.",
+      "english": "The street is long."
+    }
   },
   {
     "word": "juce",
@@ -4912,7 +8481,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something of great weight or difficult to lift.",
     "tier": 1,
-    "rank": 140
+    "rank": 140,
+    "freq": 6,
+    "freq_rank": 511,
+    "example": {
+      "fiwo": "Ivxop jucei.",
+      "english": "The hammer is heavy."
+    }
   },
   {
     "word": "jufyso",
@@ -4920,7 +8495,13 @@ const dictionaryData = [
     "definition": "A tool with a pointed head on a handle, used for breaking rock and mining.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 518
+    "rank": 518,
+    "freq": 1,
+    "freq_rank": 1071,
+    "example": {
+      "fiwo": "Jufysop mik tande.",
+      "english": "My pickaxe is big."
+    }
   },
   {
     "word": "jugliko",
@@ -4928,7 +8509,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The fixed fitting that receives a plug.",
     "tier": 3,
-    "rank": 205
+    "rank": 205,
+    "freq": 1,
+    "freq_rank": 1072
   },
   {
     "word": "juhi",
@@ -4936,7 +8519,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To feel anxious, uneasy, or troubled about potential problems.",
     "tier": 3,
-    "rank": 160
+    "rank": 160,
+    "freq": 0,
+    "freq_rank": 2145,
+    "example": {
+      "fiwo": "Manap mike juhis.",
+      "english": "My mother will worry."
+    }
   },
   {
     "word": "juku",
@@ -4944,7 +8533,27 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the external form, contours, or outline of someone or something.",
     "tier": 2,
-    "rank": 404
+    "rank": 404,
+    "freq": 4,
+    "freq_rank": 624,
+    "example": {
+      "fiwo": "Degop jedi jukur weoke.",
+      "english": "The table has a round shape."
+    }
+  },
+  {
+    "word": "julti",
+    "english_equiv": "Drown",
+    "part_of_speech": "Verb",
+    "definition": "To die from being unable to breathe while submerged in a liquid.",
+    "tier": 3,
+    "rank": 575,
+    "freq": 0,
+    "freq_rank": 2148,
+    "example": {
+      "fiwo": "Daq jultid deky brirso.",
+      "english": "He drowned in the lake."
+    }
   },
   {
     "word": "juma",
@@ -4952,7 +8561,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A person who competes against another for the same objective, status, or superiority; a personal or ongoing competitor.",
     "tier": 3,
-    "rank": 385
+    "rank": 385,
+    "freq": 0,
+    "freq_rank": 2150,
+    "example": {
+      "fiwo": "Jumap ry mik xeskid erup.",
+      "english": "My rival won the war."
+    }
   },
   {
     "word": "junu",
@@ -4960,7 +8575,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A detailed conceptual proposal or abstract structural framework designed for achieving an objective.",
     "tier": 2,
-    "rank": 47
+    "rank": 47,
+    "freq": 5,
+    "freq_rank": 572,
+    "example": {
+      "fiwo": "Junup ry mik gawei.",
+      "english": "My plan is good."
+    }
   },
   {
     "word": "juro",
@@ -4968,7 +8589,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a large human settlement with a high population density and extensive systems for housing, transportation, and utilities.",
     "tier": 1,
-    "rank": 34
+    "rank": 34,
+    "freq": 68,
+    "freq_rank": 81,
+    "example": {
+      "fiwo": "Mik xalidyq zy jurop.",
+      "english": "I was going to the city."
+    }
   },
   {
     "word": "juwe",
@@ -4976,7 +8603,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word limits something to a single person, thing, or amount, explicitly excluding anything else.",
     "tier": 1,
-    "rank": 237
+    "rank": 237,
+    "freq": 45,
+    "freq_rank": 107,
+    "example": {
+      "fiwo": "Mik nacid juwe.",
+      "english": "I only worked."
+    }
   },
   {
     "word": "jy",
@@ -4984,7 +8617,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates the subject is an integral component or piece of the object, such as a body part or machine element.",
     "tier": 0,
-    "rank": 60
+    "rank": 60,
+    "freq": 17,
+    "freq_rank": 263,
+    "example": {
+      "fiwo": "Belap jy soxap mike.",
+      "english": "The foot is part of my body."
+    }
   },
   {
     "word": "jyfe",
@@ -4992,7 +8631,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Able to accept or tolerate delays, problems, or suffering without becoming annoyed or anxious.",
     "tier": 3,
-    "rank": 189
+    "rank": 189,
+    "freq": 0,
+    "freq_rank": 2157,
+    "example": {
+      "fiwo": "Manap mike jyfeid.",
+      "english": "My mother was patient."
+    }
   },
   {
     "word": "jyhu",
@@ -5000,7 +8645,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The events that will necessarily happen to a particular person or thing in the future, often pre-determined.",
     "tier": 2,
-    "rank": 355
+    "rank": 355,
+    "freq": 0,
+    "freq_rank": 2159,
+    "example": {
+      "fiwo": "Fap jyhup ry mik ifezid.",
+      "english": "My destiny was decided."
+    }
   },
   {
     "word": "jyjo",
@@ -5008,7 +8659,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An electronic device designed for storing, retrieving, and processing data.",
     "tier": 2,
-    "rank": 105
+    "rank": 105,
+    "freq": 9,
+    "freq_rank": 414,
+    "example": {
+      "fiwo": "Jyjop ry mik jaxkeid.",
+      "english": "My computer was new."
+    }
   },
   {
     "word": "jymbo",
@@ -5016,7 +8673,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A piece of land completely surrounded by water.",
     "tier": 2,
-    "rank": 184
+    "rank": 184,
+    "freq": 1,
+    "freq_rank": 1074,
+    "example": {
+      "fiwo": "Jymbop lande.",
+      "english": "The island is small."
+    }
   },
   {
     "word": "jyndo",
@@ -5024,7 +8687,13 @@ const dictionaryData = [
     "definition": "A barrier of posts and rails that encloses or bounds an area.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 368
+    "rank": 368,
+    "freq": 0,
+    "freq_rank": 2167,
+    "example": {
+      "fiwo": "Jyndop jozeid.",
+      "english": "The fence was long."
+    }
   },
   {
     "word": "jyqi",
@@ -5032,7 +8701,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To show or state unwillingness to accept, do, or grant something.",
     "tier": 3,
-    "rank": 324
+    "rank": 324,
+    "freq": 15,
+    "freq_rank": 291,
+    "example": {
+      "fiwo": "Daq jyqis cukit.",
+      "english": "He refuses to fight."
+    }
   },
   {
     "word": "kaba",
@@ -5040,7 +8715,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a large, solid-hoofed herbivorous mammal, traditionally utilized by humans for riding or draft work.",
     "tier": 1,
-    "rank": 205
+    "rank": 205,
+    "freq": 4,
+    "freq_rank": 625,
+    "example": {
+      "fiwo": "Kabap cafid avly caenop.",
+      "english": "The horse ran along the street."
+    }
   },
   {
     "word": "kabce",
@@ -5048,7 +8729,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something possessing an uncomplicated structure; fundamentally basic with few moving parts.",
     "tier": 3,
-    "rank": 42
+    "rank": 42,
+    "freq": 0,
+    "freq_rank": 2171,
+    "example": {
+      "fiwo": "Fiwo kabcei.",
+      "english": "Fiwo is simple."
+    }
   },
   {
     "word": "kad",
@@ -5056,7 +8743,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A structural wall that introduces an entirely new independent clause (with its own subject and verb) that explains the reason for the previous clause.",
     "tier": 0,
-    "rank": 19
+    "rank": 19,
+    "freq": 76,
+    "freq_rank": 71,
+    "example": {
+      "fiwo": "Mik ceni tapo kad mik kyti jurop.",
+      "english": "I live here because I like the city."
+    }
   },
   {
     "word": "kagaxa",
@@ -5064,7 +8757,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A salamander that retains its aquatic larval features throughout its life, native to freshwater lakes.",
     "tier": 3,
-    "rank": 515
+    "rank": 515,
+    "freq": 0,
+    "freq_rank": 2173,
+    "example": {
+      "fiwo": "Kagaxap deky brirsop.",
+      "english": "The axolotl is in the lake."
+    }
   },
   {
     "word": "kalo",
@@ -5072,7 +8771,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A small, bowl-shaped physical container, often with a handle, designed for holding and drinking liquids.",
     "tier": 1,
-    "rank": 218
+    "rank": 218,
+    "freq": 14,
+    "freq_rank": 307,
+    "example": {
+      "fiwo": "Kalop nufeid.",
+      "english": "The cup was empty."
+    }
   },
   {
     "word": "kame",
@@ -5080,7 +8785,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes the taste sensation characteristic of sodium chloride (salt).",
     "tier": 3,
-    "rank": 239
+    "rank": 239,
+    "freq": 0,
+    "freq_rank": 2176,
+    "example": {
+      "fiwo": "Batap kamei.",
+      "english": "The food is salty."
+    }
   },
   {
     "word": "kani",
@@ -5088,7 +8799,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to possess knowledge, facts, or skills.",
     "tier": 1,
-    "rank": 6
+    "rank": 6,
+    "freq": 169,
+    "freq_rank": 21,
+    "example": {
+      "fiwo": "Mik kanid rezap.",
+      "english": "I knew the president."
+    }
   },
   {
     "word": "karxi",
@@ -5096,7 +8813,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to discover or perceive by chance or unexpectedly, or to become aware of something new.",
     "tier": 1,
-    "rank": 27
+    "rank": 27,
+    "freq": 89,
+    "freq_rank": 58,
+    "example": {
+      "fiwo": "Daq karxid lusop suke.",
+      "english": "He found your key."
+    }
   },
   {
     "word": "kase",
@@ -5104,7 +8827,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something as being of free choice, where the specific identity does not matter.",
     "tier": 1,
-    "rank": 326
+    "rank": 326,
+    "freq": 9,
+    "freq_rank": 415,
+    "example": {
+      "fiwo": "Suk bifeis nomit batar kase.",
+      "english": "You may eat any food."
+    }
   },
   {
     "word": "kazaro",
@@ -5112,7 +8841,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical piece of clothing designed to cover the lower body and legs, featuring separate structural sections for each leg.",
     "tier": 3,
-    "rank": 287
+    "rank": 287,
+    "freq": 0,
+    "freq_rank": 2181,
+    "example": {
+      "fiwo": "Kazarop letseid.",
+      "english": "The trousers were dirty."
+    }
   },
   {
     "word": "keamu",
@@ -5120,7 +8855,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the specific subject, theme, or abstract concept being actively discussed, processed, or considered.",
     "tier": 2,
-    "rank": 379
+    "rank": 379,
+    "freq": 3,
+    "freq_rank": 707,
+    "example": {
+      "fiwo": "Keamup ry ibitup fafei.",
+      "english": "The topic of the class is important."
+    }
   },
   {
     "word": "keane",
@@ -5129,7 +8870,13 @@ const dictionaryData = [
     "definition": "This describes an entity that is fully intact, unbroken, and comprising its absolute full extent.",
     "usage_note": "Distinct from late (all), which calculates the total quantity of a group; keane describes a single thing being 100% complete.",
     "tier": 2,
-    "rank": 86
+    "rank": 86,
+    "freq": 38,
+    "freq_rank": 133,
+    "example": {
+      "fiwo": "Daq lokid panop keane.",
+      "english": "He read the whole book."
+    }
   },
   {
     "word": "kedovo",
@@ -5137,7 +8884,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A reserve of money set aside for a particular purpose.",
     "tier": 2,
-    "rank": 309
+    "rank": 309,
+    "freq": 1,
+    "freq_rank": 1075
   },
   {
     "word": "kefuju",
@@ -5145,7 +8894,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Treating a good as automatic or deserved, without gratitude or examination. Logical equivalent: Daq stelid cemup gawe. Daq nes xufukui. (He took the good thing. He is not grateful.)",
     "tier": 2,
-    "rank": 296
+    "rank": 296,
+    "freq": 0,
+    "freq_rank": 2185,
+    "example": {
+      "fiwo": "Ram kefujur.",
+      "english": "That is taking-for-granted."
+    }
   },
   {
     "word": "kegla",
@@ -5153,7 +8908,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A low, dense-growing plant with narrow leaves, typically covering lawns and fields. Follows nasa (plant) as a specific plant type.",
     "tier": 1,
-    "rank": 278
+    "rank": 278,
+    "freq": 7,
+    "freq_rank": 478,
+    "example": {
+      "fiwo": "Keglap luare.",
+      "english": "The grass is green."
+    }
   },
   {
     "word": "kehogo",
@@ -5161,7 +8922,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The smallest addressable dot of a digital image.",
     "tier": 3,
-    "rank": 178
+    "rank": 178,
+    "freq": 1,
+    "freq_rank": 1076
   },
   {
     "word": "kehulu",
@@ -5170,7 +8933,13 @@ const dictionaryData = [
     "definition": "The social unit of individuals bound by kinship, marriage, or a shared household; the family as a collective structure.",
     "usage_note": "Distinct from canpu (a broader community) and from named individual relatives such as nupa (parent), saqa (sibling), and jepa (offspring).",
     "tier": 1,
-    "rank": 122
+    "rank": 122,
+    "freq": 2,
+    "freq_rank": 825,
+    "example": {
+      "fiwo": "Kehulup fafe.",
+      "english": "The family is important."
+    }
   },
   {
     "word": "kejaklu",
@@ -5178,7 +8947,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The painful state of unwanted solitude or isolation; a felt condition of being alone, distinct from fycisi (to miss), which is directed at a specific absent entity.",
     "tier": 3,
-    "rank": 467
+    "rank": 467,
+    "freq": 0,
+    "freq_rank": 2190,
+    "example": {
+      "fiwo": "Mik pauli kejaklup.",
+      "english": "I feel loneliness."
+    }
   },
   {
     "word": "kekusni",
@@ -5186,7 +8961,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To produce an exact duplicate of something, leaving the original unchanged.",
     "tier": 3,
-    "rank": 182
+    "rank": 182,
+    "freq": 1,
+    "freq_rank": 1078,
+    "example": {
+      "fiwo": "Das kekusnid ufaxop.",
+      "english": "She copied the message."
+    }
   },
   {
     "word": "kep",
@@ -5194,7 +8975,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "An objective statement, scientific truth, or absolute fact, strictly excluding everyday observations.",
     "tier": 0,
-    "rank": 79
+    "rank": 79,
+    "freq": 26,
+    "freq_rank": 189,
+    "example": {
+      "fiwo": "Kep kyfa cyri.",
+      "english": "Birds fly."
+    }
   },
   {
     "word": "keqe",
@@ -5202,7 +8989,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Associated with the place or circumstances of a person's birth or origin.",
     "tier": 2,
-    "rank": 275
+    "rank": 275,
+    "freq": 3,
+    "freq_rank": 708,
+    "example": {
+      "fiwo": "Fiwo keqei.",
+      "english": "The language is native."
+    }
   },
   {
     "word": "kewu",
@@ -5210,7 +9003,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Success or failure apparently brought by chance rather than one's own actions.",
     "tier": 2,
-    "rank": 218
+    "rank": 218,
+    "freq": 1,
+    "freq_rank": 1079,
+    "example": {
+      "fiwo": "Kewup ry mik gaweid.",
+      "english": "My luck was good."
+    }
   },
   {
     "word": "kezo",
@@ -5218,7 +9017,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A viscous, thick liquid substance derived from petroleum or plants, functioning physically as a combustible fuel or mechanical lubricant.",
     "tier": 3,
-    "rank": 21
+    "rank": 21,
+    "freq": 3,
+    "freq_rank": 709,
+    "example": {
+      "fiwo": "Kezop sowid.",
+      "english": "The oil spilled."
+    }
   },
   {
     "word": "kiagi",
@@ -5226,7 +9031,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To retain continuous physical or legal possession of an object or state.",
     "tier": 2,
-    "rank": 328
+    "rank": 328,
+    "freq": 4,
+    "freq_rank": 627,
+    "example": {
+      "fiwo": "Das kiagid lusop.",
+      "english": "She kept the key."
+    }
   },
   {
     "word": "kicojo",
@@ -5234,7 +9045,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A precious stone cut or polished and valued for its beauty and rarity; the general category above specific minerals like nuwyko (amethyst).",
     "tier": 3,
-    "rank": 440
+    "rank": 440,
+    "freq": 0,
+    "freq_rank": 2199,
+    "example": {
+      "fiwo": "Kicojop lande.",
+      "english": "The gem is small."
+    }
   },
   {
     "word": "kicursu",
@@ -5242,7 +9059,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The time of first light, when the sun begins to rise.",
     "tier": 2,
-    "rank": 239
+    "rank": 239,
+    "freq": 6,
+    "freq_rank": 512,
+    "example": {
+      "fiwo": "Mik nojaid kicursup.",
+      "english": "I saw the dawn."
+    }
   },
   {
     "word": "kifra",
@@ -5250,7 +9073,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A tree bearing small round stone-fruit, known for its blossoms.",
     "tier": 3,
-    "rank": 378
+    "rank": 378,
+    "freq": 0,
+    "freq_rank": 2203,
+    "example": {
+      "fiwo": "Kifrap zave.",
+      "english": "The cherry tree is tall."
+    }
   },
   {
     "word": "kifybi",
@@ -5258,7 +9087,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To publicly express strong objection.",
     "tier": 2,
-    "rank": 414
+    "rank": 414,
+    "freq": 1,
+    "freq_rank": 1080
   },
   {
     "word": "kika",
@@ -5266,7 +9097,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A common domesticated biological bird, typically kept for its eggs or meat.",
     "tier": 2,
-    "rank": 430
+    "rank": 430,
+    "freq": 1,
+    "freq_rank": 1081,
+    "example": {
+      "fiwo": "Kikap cenidyq ky sydop.",
+      "english": "The chicken was living at the house."
+    }
   },
   {
     "word": "kili",
@@ -5274,7 +9111,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to perceive through physical contact or the sense of touch.",
     "tier": 1,
-    "rank": 95
+    "rank": 95,
+    "freq": 8,
+    "freq_rank": 444,
+    "example": {
+      "fiwo": "Mik kilid krapop.",
+      "english": "I touched the wall."
+    }
   },
   {
     "word": "kimari",
@@ -5282,7 +9125,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To intentionally force the death or systemic termination of a biological entity.",
     "tier": 3,
-    "rank": 27
+    "rank": 27,
+    "freq": 2,
+    "freq_rank": 827,
+    "example": {
+      "fiwo": "Dixap kimaris fubap.",
+      "english": "The shark will kill the fish."
+    }
   },
   {
     "word": "kimu",
@@ -5290,7 +9139,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual state representing the permanent end of a biological life or system's existence.",
     "tier": 2,
-    "rank": 371
+    "rank": 371,
+    "freq": 2,
+    "freq_rank": 828,
+    "example": {
+      "fiwo": "Kimup cimidyq.",
+      "english": "Death was starting."
+    }
   },
   {
     "word": "kimugi",
@@ -5298,7 +9153,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To permanently cease biological functions; the absolute termination of a living system.",
     "tier": 1,
-    "rank": 177
+    "rank": 177,
+    "freq": 27,
+    "freq_rank": 185,
+    "example": {
+      "fiwo": "Mifap waske kimugis nudu.",
+      "english": "The old animal will die today."
+    }
   },
   {
     "word": "kino",
@@ -5306,7 +9167,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical tool or weapon consisting of a sharp, solid cutting edge or blade, usually attached to a grip or handle.",
     "tier": 1,
-    "rank": 252
+    "rank": 252,
+    "freq": 9,
+    "freq_rank": 416,
+    "example": {
+      "fiwo": "Kinop ruteid.",
+      "english": "The knife was sharp."
+    }
   },
   {
     "word": "kipeslo",
@@ -5314,7 +9181,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A preparation that trains the body to resist a disease.",
     "tier": 3,
-    "rank": 100
+    "rank": 100,
+    "freq": 1,
+    "freq_rank": 1083
   },
   {
     "word": "kixilku",
@@ -5322,7 +9191,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A solemn, binding promise.",
     "tier": 3,
-    "rank": 110
+    "rank": 110,
+    "freq": 1,
+    "freq_rank": 1084
   },
   {
     "word": "klazo",
@@ -5330,7 +9201,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a visible, physical mass of condensed atmospheric water vapor floating high in the sky.",
     "tier": 1,
-    "rank": 271
+    "rank": 271,
+    "freq": 4,
+    "freq_rank": 628,
+    "example": {
+      "fiwo": "Klazop locweid.",
+      "english": "The cloud was white."
+    }
   },
   {
     "word": "klegowo",
@@ -5338,7 +9215,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A long fictional narrative in prose; a work of fiction.",
     "tier": 2,
-    "rank": 289
+    "rank": 289,
+    "freq": 1,
+    "freq_rank": 1086,
+    "example": {
+      "fiwo": "Das lokid klegowop.",
+      "english": "She read the novel."
+    }
   },
   {
     "word": "kluxe",
@@ -5346,7 +9229,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an entity or environment producing little to no auditory energy; an absence of sound.",
     "tier": 3,
-    "rank": 220
+    "rank": 220,
+    "freq": 5,
+    "freq_rank": 573,
+    "example": {
+      "fiwo": "Krulop kluxeid.",
+      "english": "The room was quiet."
+    }
   },
   {
     "word": "koci",
@@ -5354,7 +9243,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to require something because it is essential or very important.",
     "tier": 1,
-    "rank": 44
+    "rank": 44,
+    "freq": 32,
+    "freq_rank": 154,
+    "example": {
+      "fiwo": "Mik kocid gidur.",
+      "english": "I needed money."
+    }
   },
   {
     "word": "kof",
@@ -5362,7 +9257,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A structural particle used to introduce an additional point, fact, or argument.",
     "tier": 0,
-    "rank": 39
+    "rank": 39,
+    "freq": 15,
+    "freq_rank": 292,
+    "example": {
+      "fiwo": "Kof, ram lixeid.",
+      "english": "Furthermore, it was wet."
+    }
   },
   {
     "word": "kokidi",
@@ -5370,7 +9271,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To inspect closely and carefully; to scrutinize or study.",
     "tier": 2,
-    "rank": 391
+    "rank": 391,
+    "freq": 4,
+    "freq_rank": 629,
+    "example": {
+      "fiwo": "Mik kokidid panop.",
+      "english": "I examined the book."
+    }
   },
   {
     "word": "koklo",
@@ -5378,7 +9285,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thin, flat, regular piece of fired clay, stone, or similar material, laid in rows to cover floors, walls, or roofs.",
     "tier": 3,
-    "rank": 459
+    "rank": 459,
+    "freq": 0,
+    "freq_rank": 2217,
+    "example": {
+      "fiwo": "Zafoirop kokloe.",
+      "english": "The floor is tiled."
+    }
   },
   {
     "word": "kompu",
@@ -5386,7 +9299,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An organized, time-bound contest or game between entities aiming to establish superiority or win based on a strict set of rules.",
     "tier": 3,
-    "rank": 8
+    "rank": 8,
+    "freq": 0,
+    "freq_rank": 2218,
+    "example": {
+      "fiwo": "Kompup ry spelup cimidyq.",
+      "english": "The match of the game was starting."
+    }
   },
   {
     "word": "kop",
@@ -5394,7 +9313,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A direct order or command.",
     "tier": 0,
-    "rank": 69
+    "rank": 69,
+    "freq": 117,
+    "freq_rank": 42,
+    "example": {
+      "fiwo": "Kop xali zy sydop!",
+      "english": "Go to the house!"
+    }
   },
   {
     "word": "kopi",
@@ -5402,7 +9327,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To give an authoritative instruction or direct order to another entity.",
     "tier": 2,
-    "rank": 80
+    "rank": 80,
+    "freq": 6,
+    "freq_rank": 513,
+    "example": {
+      "fiwo": "Rezap kopis noqsap.",
+      "english": "The president will command the man."
+    }
   },
   {
     "word": "kowete",
@@ -5410,7 +9341,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting the blue-green color of shallow tropical water. Sits between loage (blue) and luare (green).",
     "tier": 3,
-    "rank": 499
+    "rank": 499,
+    "freq": 0,
+    "freq_rank": 2222,
+    "example": {
+      "fiwo": "Tandorsop kowete.",
+      "english": "The ocean is cyan."
+    }
   },
   {
     "word": "kowygo",
@@ -5418,7 +9355,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A fine-grained, pliable earth material that hardens when fired, used to make pottery and bricks.",
     "tier": 3,
-    "rank": 340
+    "rank": 340,
+    "freq": 0,
+    "freq_rank": 2224,
+    "example": {
+      "fiwo": "Kowygop mik lande.",
+      "english": "My clay is small."
+    }
   },
   {
     "word": "koxe",
@@ -5426,7 +9369,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a sharp, pungent taste sensation, often perceived as unpleasant, found in things like dark chocolate, coffee, or certain alkaloids.",
     "tier": 3,
-    "rank": 104
+    "rank": 104,
+    "freq": 0,
+    "freq_rank": 2226,
+    "example": {
+      "fiwo": "Refop koxei.",
+      "english": "The coffee is bitter."
+    }
   },
   {
     "word": "krapo",
@@ -5434,7 +9383,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A continuous, vertical solid structure made of brick, stone, wood, or metal that encloses or divides a physical area.",
     "tier": 1,
-    "rank": 153
+    "rank": 153,
+    "freq": 19,
+    "freq_rank": 237,
+    "example": {
+      "fiwo": "Krapop lefeid.",
+      "english": "The wall was hard."
+    }
   },
   {
     "word": "krekiki",
@@ -5442,7 +9397,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To produce a sharp snapping or slow grinding sound, as of wood straining or ice splitting.",
     "tier": 3,
-    "rank": 300
+    "rank": 300,
+    "freq": 0,
+    "freq_rank": 2229,
+    "example": {
+      "fiwo": "Eywop krekikid.",
+      "english": "The stairs creaked."
+    }
   },
   {
     "word": "kremba",
@@ -5450,7 +9411,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A tame animal kept for companionship or pleasure rather than for work or food.",
     "tier": 3,
-    "rank": 286
+    "rank": 286,
+    "freq": 0,
+    "freq_rank": 2231,
+    "example": {
+      "fiwo": "Kremba mike kypei.",
+      "english": "My pet is happy."
+    }
   },
   {
     "word": "krendi",
@@ -5458,7 +9425,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To give a portion of something to others, or to use or possess something jointly with others.",
     "tier": 2,
-    "rank": 251
+    "rank": 251,
+    "freq": 3,
+    "freq_rank": 710,
+    "example": {
+      "fiwo": "Das krendid batap.",
+      "english": "She shared the food."
+    }
   },
   {
     "word": "kritri",
@@ -5467,7 +9440,13 @@ const dictionaryData = [
     "definition": "To give systematic instruction to someone; to cause another to learn a skill or body of knowledge. The transitive action of the ibalira (teacher).",
     "usage_note": "Distinct from ibalirai (to act teacherly) and tehidi (to study).",
     "tier": 1,
-    "rank": 215
+    "rank": 215,
+    "freq": 25,
+    "freq_rank": 192,
+    "example": {
+      "fiwo": "Ibalirap kritrid casla je.",
+      "english": "The teacher taught the girls."
+    }
   },
   {
     "word": "krome",
@@ -5475,7 +9454,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting the dark, earthy color of soil, wood, or dead leaves.",
     "tier": 2,
-    "rank": 305
+    "rank": 305,
+    "freq": 1,
+    "freq_rank": 1089,
+    "example": {
+      "fiwo": "Ayjap kromeid.",
+      "english": "The bark was brown."
+    }
   },
   {
     "word": "krulo",
@@ -5483,7 +9468,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physically enclosed space situated within a building, structurally separated by walls and accessed via a door.",
     "tier": 1,
-    "rank": 82
+    "rank": 82,
+    "freq": 79,
+    "freq_rank": 67,
+    "example": {
+      "fiwo": "Krulop jotseid.",
+      "english": "The room was clean."
+    }
   },
   {
     "word": "kryska",
@@ -5491,7 +9482,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The narrow middle part of the torso, between the ribs and the hips.",
     "tier": 3,
-    "rank": 425
+    "rank": 425,
+    "freq": 0,
+    "freq_rank": 2239,
+    "example": {
+      "fiwo": "Kryskap das lande.",
+      "english": "Her waist is small."
+    }
   },
   {
     "word": "kuate",
@@ -5499,7 +9496,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an entity that is not straight; structurally forced out of its original linear shape or naturally winding.",
     "tier": 3,
-    "rank": 409
+    "rank": 409,
+    "freq": 0,
+    "freq_rank": 2241,
+    "example": {
+      "fiwo": "Ebgap kuateid.",
+      "english": "The twig was bent."
+    }
   },
   {
     "word": "kufugli",
@@ -5507,7 +9510,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To journey from one place to another, especially over a long distance.",
     "tier": 1,
-    "rank": 206
+    "rank": 206,
+    "freq": 3,
+    "freq_rank": 711,
+    "example": {
+      "fiwo": "Mik kufugli zye juro.",
+      "english": "I travel toward the city."
+    }
   },
   {
     "word": "kujondi",
@@ -5515,7 +9524,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To hold firm against a force, effect, or pressure without yielding or being changed by it.",
     "tier": 3,
-    "rank": 361
+    "rank": 361,
+    "freq": 1,
+    "freq_rank": 1092,
+    "example": {
+      "fiwo": "Xildop kujondid resnop.",
+      "english": "The shield resisted the arrow."
+    }
   },
   {
     "word": "kukylu",
@@ -5523,7 +9538,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Money gained after all costs are subtracted.",
     "tier": 2,
-    "rank": 201
+    "rank": 201,
+    "freq": 2,
+    "freq_rank": 830
   },
   {
     "word": "kunawa",
@@ -5531,7 +9548,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A flowering plant with showy, intricately shaped blooms, prized for its beauty.",
     "tier": 3,
-    "rank": 485
+    "rank": 485,
+    "freq": 0,
+    "freq_rank": 2248,
+    "example": {
+      "fiwo": "Kunawap liame.",
+      "english": "The orchid is pink."
+    }
   },
   {
     "word": "kup",
@@ -5539,7 +9562,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "An explicit inquiry or request for information.",
     "tier": 0,
-    "rank": 43
+    "rank": 43,
+    "freq": 242,
+    "freq_rank": 15,
+    "example": {
+      "fiwo": "Kup suk nomid batap?",
+      "english": "Did you eat the food?"
+    }
   },
   {
     "word": "kupi",
@@ -5547,7 +9576,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to say something in order to obtain an answer or some information.",
     "tier": 1,
-    "rank": 76
+    "rank": 76,
+    "freq": 179,
+    "freq_rank": 20,
+    "example": {
+      "fiwo": "Mik kupid melfup.",
+      "english": "I asked for the price."
+    }
   },
   {
     "word": "kupmi",
@@ -5555,7 +9590,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively perform duties, provide help, or supply resources to another entity.",
     "tier": 2,
-    "rank": 232
+    "rank": 232,
+    "freq": 1,
+    "freq_rank": 1093,
+    "example": {
+      "fiwo": "Licap mike kupmid mik.",
+      "english": "My colleague served me."
+    }
   },
   {
     "word": "kuqso",
@@ -5563,7 +9604,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical structure built to span and provide passage over a physical obstacle, such as a river, road, or valley.",
     "tier": 3,
-    "rank": 163
+    "rank": 163,
+    "freq": 9,
+    "freq_rank": 417,
+    "example": {
+      "fiwo": "Kuqsop tandei.",
+      "english": "The bridge is big."
+    }
   },
   {
     "word": "kuri",
@@ -5571,7 +9618,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to be afraid of someone or something.",
     "tier": 1,
-    "rank": 139
+    "rank": 139,
+    "freq": 32,
+    "freq_rank": 155,
+    "example": {
+      "fiwo": "Mifap kurid fuegop.",
+      "english": "The animal feared the fire."
+    }
   },
   {
     "word": "kusulso",
@@ -5579,7 +9632,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A sweet baked food made from flour, sugar, and fat, typically eaten for celebration or dessert.",
     "tier": 3,
-    "rank": 257
+    "rank": 257,
+    "freq": 0,
+    "freq_rank": 2256,
+    "example": {
+      "fiwo": "Kusulsop tute.",
+      "english": "The cake is sweet."
+    }
   },
   {
     "word": "kutgi",
@@ -5588,7 +9647,13 @@ const dictionaryData = [
     "definition": "To undergo a complete transformation into a new state or entity, or to successfully bring an intended result into reality.",
     "usage_note": "Distinct from tumi (change), which just means to alter; kutgi implies a finalized transformation or success.",
     "tier": 2,
-    "rank": 41
+    "rank": 41,
+    "freq": 15,
+    "freq_rank": 293,
+    "example": {
+      "fiwo": "Junup nake kutgis.",
+      "english": "Our plan will succeed."
+    }
   },
   {
     "word": "kuvysu",
@@ -5596,7 +9661,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The civil force that enforces law and order; officer = + a.",
     "tier": 2,
-    "rank": 152
+    "rank": 152,
+    "freq": 13,
+    "freq_rank": 322
   },
   {
     "word": "ky",
@@ -5604,7 +9671,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates general location, presence, or proximity at a specific point.",
     "tier": 0,
-    "rank": 12
+    "rank": 12,
+    "freq": 139,
+    "freq_rank": 32,
+    "example": {
+      "fiwo": "Mik ceni ky London.",
+      "english": "I live in London."
+    }
   },
   {
     "word": "kyfa",
@@ -5612,7 +9685,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a flying animal, typically characterized by feathers and wings.",
     "tier": 1,
-    "rank": 200
+    "rank": 200,
+    "freq": 16,
+    "freq_rank": 278,
+    "example": {
+      "fiwo": "Kyfap cyriq.",
+      "english": "The bird is flying."
+    }
   },
   {
     "word": "kynu",
@@ -5620,7 +9699,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The warmest season of the year, characterised by long days, high temperatures, and peak sunlight.",
     "tier": 2,
-    "rank": 419
+    "rank": 419,
+    "freq": 10,
+    "freq_rank": 394,
+    "example": {
+      "fiwo": "Kynup ripeis.",
+      "english": "Summer will be hot."
+    }
   },
   {
     "word": "kype",
@@ -5628,7 +9713,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a state of feeling or showing pleasure.",
     "tier": 1,
-    "rank": 67
+    "rank": 67,
+    "freq": 3,
+    "freq_rank": 713,
+    "example": {
+      "fiwo": "Manap mike kypei.",
+      "english": "My mother is happy."
+    }
   },
   {
     "word": "kyrana",
@@ -5636,7 +9727,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word refers to any of the flat, specialized epidermal structures that grow from a bird's skin to form its plumage.",
     "tier": 3,
-    "rank": 248
+    "rank": 248,
+    "freq": 1,
+    "freq_rank": 1095,
+    "example": {
+      "fiwo": "Kyranap sowid.",
+      "english": "The feather fell."
+    }
   },
   {
     "word": "kyti",
@@ -5644,7 +9741,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb expresses positive feelings towards something or someone and is completely subjective.",
     "tier": 1,
-    "rank": 54
+    "rank": 54,
+    "freq": 12,
+    "freq_rank": 344,
+    "example": {
+      "fiwo": "Mik kytid spelup.",
+      "english": "I liked the game."
+    }
   },
   {
     "word": "labne",
@@ -5652,7 +9755,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something identical or not different.",
     "tier": 1,
-    "rank": 69
+    "rank": 69,
+    "freq": 14,
+    "freq_rank": 308,
+    "example": {
+      "fiwo": "Nak karxid sydop labne.",
+      "english": "We found the same house."
+    }
   },
   {
     "word": "labuku",
@@ -5660,7 +9769,28 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Deliberately destroying one's own way back so one must succeed. Logical equivalent: Daq skumkid vyziup. Daq xeski fuqe nu. (He destroyed the escape. He must win now.)",
     "tier": 2,
-    "rank": 407
+    "rank": 407,
+    "freq": 1,
+    "freq_rank": 1096,
+    "example": {
+      "fiwo": "Jormup sile labukur.",
+      "english": "This situation is a no-retreat commitment."
+    }
+  },
+  {
+    "word": "laco",
+    "english_equiv": "Crystal",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A solid whose atoms are arranged in a regular repeating lattice, typically with flat faces and a translucent body.",
+    "tier": 3,
+    "rank": 572,
+    "usage_note": "Distinct from kicojo (a cut gem) and femporo (quartz specifically).",
+    "freq": 0,
+    "freq_rank": 2264,
+    "example": {
+      "fiwo": "Mik karxid laco deky levidzo.",
+      "english": "I found a crystal in the cave."
+    }
   },
   {
     "word": "ladu",
@@ -5668,7 +9798,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A single, newly formed thought, inspiration, or concept in the mind.",
     "tier": 1,
-    "rank": 211
+    "rank": 211,
+    "freq": 3,
+    "freq_rank": 714,
+    "example": {
+      "fiwo": "Ladup ry mik gawei.",
+      "english": "My idea is good."
+    }
   },
   {
     "word": "laeki",
@@ -5676,7 +9812,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively pick out one or more physical or conceptual options from a larger set of alternatives.",
     "tier": 2,
-    "rank": 212
+    "rank": 212,
+    "freq": 2,
+    "freq_rank": 831,
+    "example": {
+      "fiwo": "Das laekis ikamop.",
+      "english": "She will choose the shirt."
+    }
   },
   {
     "word": "lakiro",
@@ -5684,7 +9826,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical visual representation or static image captured by photography, painting, or printing on a tangible surface.",
     "tier": 2,
-    "rank": 58
+    "rank": 58,
+    "freq": 12,
+    "freq_rank": 345,
+    "example": {
+      "fiwo": "Lakirop baudeid.",
+      "english": "The picture was beautiful."
+    }
   },
   {
     "word": "lalupu",
@@ -5692,7 +9840,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The facts and objects presented to prove a claim in law.",
     "tier": 2,
-    "rank": 210
+    "rank": 210,
+    "freq": 4,
+    "freq_rank": 630
   },
   {
     "word": "lamso",
@@ -5700,7 +9850,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies the opaque, nutrient-rich white liquid produced by the mammary glands of female mammals to feed their offspring.",
     "tier": 1,
-    "rank": 234
+    "rank": 234,
+    "freq": 10,
+    "freq_rank": 395,
+    "example": {
+      "fiwo": "Lamsop tuteid.",
+      "english": "The milk was sweet."
+    }
   },
   {
     "word": "lan",
@@ -5708,7 +9864,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Binds elements of the same grammatical category. Can be chained for lists of three or more.",
     "tier": 0,
-    "rank": 10
+    "rank": 10,
+    "freq": 66,
+    "freq_rank": 82,
+    "example": {
+      "fiwo": "Mik karxid catsar lan detar.",
+      "english": "I found a cat and a dog."
+    }
   },
   {
     "word": "lande",
@@ -5716,7 +9878,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something of limited size or extent.",
     "tier": 1,
-    "rank": 38
+    "rank": 38,
+    "freq": 55,
+    "freq_rank": 93,
+    "example": {
+      "fiwo": "Mifap landei.",
+      "english": "The animal is small."
+    }
   },
   {
     "word": "lanti",
@@ -5724,7 +9892,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To mathematically or physically join an entity to an existing group to increase the total quantity.",
     "tier": 2,
-    "rank": 100
+    "rank": 100,
+    "freq": 7,
+    "freq_rank": 480,
+    "example": {
+      "fiwo": "Mik lantid tankor zy tesop.",
+      "english": "I added sugar to the tea."
+    }
   },
   {
     "word": "laswiti",
@@ -5732,7 +9906,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To act or speak on behalf of another; to stand for.",
     "tier": 2,
-    "rank": 209
+    "rank": 209,
+    "freq": 2,
+    "freq_rank": 832
   },
   {
     "word": "late",
@@ -5740,7 +9916,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word refers to the whole quantity or extent of a particular group or thing.",
     "tier": 1,
-    "rank": 12
+    "rank": 12,
+    "freq": 89,
+    "freq_rank": 59,
+    "example": {
+      "fiwo": "Nofa late plid.",
+      "english": "Everyone came."
+    }
   },
   {
     "word": "lebla",
@@ -5748,7 +9930,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A horned farm mammal, raised for milk, meat, and hide.",
     "tier": 3,
-    "rank": 403
+    "rank": 403,
+    "freq": 3,
+    "freq_rank": 715,
+    "example": {
+      "fiwo": "Leblap nomiq keglap.",
+      "english": "The goat is eating the grass."
+    }
   },
   {
     "word": "lebyko",
@@ -5756,7 +9944,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The name or heading given to a work, document, or composition.",
     "tier": 2,
-    "rank": 146
+    "rank": 146,
+    "freq": 1,
+    "freq_rank": 1098,
+    "example": {
+      "fiwo": "Mik loki lebykop.",
+      "english": "I read the title."
+    }
   },
   {
     "word": "lefe",
@@ -5764,7 +9958,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something solid, firm, and resistant to pressure.",
     "tier": 1,
-    "rank": 77
+    "rank": 77,
+    "freq": 1,
+    "freq_rank": 1099,
+    "example": {
+      "fiwo": "Drekop lefei.",
+      "english": "The rock is hard."
+    }
   },
   {
     "word": "legudro",
@@ -5772,7 +9972,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The sport of football (soccer), played by kicking a ball; also the ball used.",
     "tier": 2,
-    "rank": 318
+    "rank": 318,
+    "freq": 1,
+    "freq_rank": 1100,
+    "example": {
+      "fiwo": "Cada gari legudrop.",
+      "english": "The child plays soccer."
+    }
   },
   {
     "word": "leha",
@@ -5780,7 +9986,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A feathery-leaved, shade-loving plant that reproduces by spores.",
     "tier": 3,
-    "rank": 288
+    "rank": 288,
+    "freq": 1,
+    "freq_rank": 1101,
+    "example": {
+      "fiwo": "Lehap moriq deky zasop.",
+      "english": "The fern is growing in the ground."
+    }
   },
   {
     "word": "lejo",
@@ -5788,7 +10000,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A series of steps leading from one level of a building to another, enabling ascent or descent.",
     "tier": 3,
-    "rank": 370
+    "rank": 370,
+    "freq": 1,
+    "freq_rank": 1102,
+    "example": {
+      "fiwo": "Eywop zaveid.",
+      "english": "The stairs were high."
+    }
   },
   {
     "word": "lemespi",
@@ -5796,7 +10014,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To seize and hold a person by legal authority.",
     "tier": 2,
-    "rank": 248
+    "rank": 248,
+    "freq": 2,
+    "freq_rank": 833
   },
   {
     "word": "lenawa",
@@ -5804,7 +10024,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A thick-stemmed desert plant covered in spines, storing water in its flesh.",
     "tier": 3,
-    "rank": 478
+    "rank": 478,
+    "freq": 0,
+    "freq_rank": 2284,
+    "example": {
+      "fiwo": "Lenawap deky woru wuke.",
+      "english": "The cactus is in the desert."
+    }
   },
   {
     "word": "leoci",
@@ -5813,7 +10039,13 @@ const dictionaryData = [
     "definition": "To activate, power on, or initiate the active function of a machine, system, or electronic device.",
     "usage_note": "Distinct from cimi (to start an event) and xosi (to physically open a door).",
     "tier": 2,
-    "rank": 44
+    "rank": 44,
+    "freq": 7,
+    "freq_rank": 481,
+    "example": {
+      "fiwo": "Kop leoci litop!",
+      "english": "Turn on the light!"
+    }
   },
   {
     "word": "lere",
@@ -5821,7 +10053,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number equivalent to the product of five and two, or one more than nine.",
     "tier": 1,
-    "rank": 144
+    "rank": 144,
+    "freq": 22,
+    "freq_rank": 221,
+    "example": {
+      "fiwo": "Mosar lere morid.",
+      "english": "Ten trees grew."
+    }
   },
   {
     "word": "letse",
@@ -5829,7 +10067,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something covered or marked with an unclean substance.",
     "tier": 1,
-    "rank": 208
+    "rank": 208,
+    "freq": 3,
+    "freq_rank": 716,
+    "example": {
+      "fiwo": "Belimop letsei.",
+      "english": "The shoe is dirty."
+    }
   },
   {
     "word": "leupe",
@@ -5837,7 +10081,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting the color of blood or fire.",
     "tier": 1,
-    "rank": 115
+    "rank": 115,
+    "freq": 12,
+    "freq_rank": 346,
+    "example": {
+      "fiwo": "Bojap leupei.",
+      "english": "Blood is red."
+    }
   },
   {
     "word": "levidzo",
@@ -5845,7 +10095,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A natural hollow space or passage under the ground or inside a mountain, large enough to enter.",
     "tier": 3,
-    "rank": 24
+    "rank": 24,
+    "freq": 15,
+    "freq_rank": 294,
+    "example": {
+      "fiwo": "Levidzop cape.",
+      "english": "The cave is dark."
+    }
   },
   {
     "word": "lexogla",
@@ -5853,7 +10109,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The sturdy offspring of a donkey (cowaba) and a horse (kaba), bred to carry loads.",
     "tier": 3,
-    "rank": 476
+    "rank": 476,
+    "freq": 0,
+    "freq_rank": 2292,
+    "example": {
+      "fiwo": "Lexoglap nyrsi zabatop.",
+      "english": "The mule carries the bag."
+    }
   },
   {
     "word": "liame",
@@ -5861,7 +10123,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting a pale red color, often resembling the color of a rose or flushed skin.",
     "tier": 2,
-    "rank": 462
+    "rank": 462,
+    "freq": 1,
+    "freq_rank": 1103,
+    "example": {
+      "fiwo": "Zipap liamei.",
+      "english": "The face is pink."
+    }
   },
   {
     "word": "liboso",
@@ -5869,7 +10137,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A viscous, sticky, semi-liquid substance.",
     "tier": 3,
-    "rank": 475
+    "rank": 475,
+    "freq": 0,
+    "freq_rank": 2294,
+    "example": {
+      "fiwo": "Mik nojaid libosor deky levidzop.",
+      "english": "I saw slime in the cave."
+    }
   },
   {
     "word": "libywu",
@@ -5877,7 +10151,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Voluntary giving to those in need; the practice of it.",
     "tier": 2,
-    "rank": 267
+    "rank": 267,
+    "freq": 2,
+    "freq_rank": 834
   },
   {
     "word": "lica",
@@ -5885,7 +10161,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A person with whom one works in the same organisation, profession, or shared endeavour; a co-worker or professional peer.",
     "tier": 2,
-    "rank": 323
+    "rank": 323,
+    "freq": 13,
+    "freq_rank": 325,
+    "example": {
+      "fiwo": "Licap ry mik jofid mik.",
+      "english": "My colleague helped me."
+    }
   },
   {
     "word": "liene",
@@ -5893,7 +10175,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "A modifier used to emphasize that something is surprising, extreme, or an unexpected inclusion, acting structurally to scale the noun or verb it modifies to an unexpected limit.",
     "tier": 2,
-    "rank": 291
+    "rank": 291,
+    "freq": 2,
+    "freq_rank": 835
   },
   {
     "word": "lini",
@@ -5901,7 +10185,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To make something happen or exist; to bring about a result or effect.",
     "tier": 1,
-    "rank": 25
+    "rank": 25,
+    "freq": 20,
+    "freq_rank": 230,
+    "example": {
+      "fiwo": "Domlop linid mudop.",
+      "english": "The rain caused the mud."
+    }
   },
   {
     "word": "linuci",
@@ -5909,7 +10199,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To take place or come into existence as an event, typically used for an action that has no specific, conscious agent.",
     "tier": 2,
-    "rank": 42
+    "rank": 42,
+    "freq": 16,
+    "freq_rank": 279,
+    "example": {
+      "fiwo": "Biwup linucidyq.",
+      "english": "The problem was happening."
+    }
   },
   {
     "word": "liru",
@@ -5917,7 +10213,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the abstract spatial orientation, line, or course along which an entity moves, points, or faces.",
     "tier": 2,
-    "rank": 327
+    "rank": 327,
+    "freq": 1,
+    "freq_rank": 1105,
+    "example": {
+      "fiwo": "Lirup zy ostup.",
+      "english": "The direction is to the east."
+    }
   },
   {
     "word": "lisibu",
@@ -5926,7 +10228,13 @@ const dictionaryData = [
     "definition": "An abstract conceptual pursuit, a lifelong professional path, or a major dedicated undertaking.",
     "usage_note": "Distinct from jobu, a standard day-to-day job.",
     "tier": 2,
-    "rank": 373
+    "rank": 373,
+    "freq": 0,
+    "freq_rank": 2303,
+    "example": {
+      "fiwo": "Lisibup ry daq gaweid.",
+      "english": "His career was good."
+    }
   },
   {
     "word": "lito",
@@ -5934,7 +10242,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This describes photon energy or the natural agent that stimulates sight and makes things visible.",
     "tier": 2,
-    "rank": 32
+    "rank": 32,
+    "freq": 30,
+    "freq_rank": 168,
+    "example": {
+      "fiwo": "Litop lixeid.",
+      "english": "The light was bright."
+    }
   },
   {
     "word": "lixe",
@@ -5942,7 +10256,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something covered or saturated with water or another liquid.",
     "tier": 2,
-    "rank": 303
+    "rank": 303,
+    "freq": 0,
+    "freq_rank": 2306,
+    "example": {
+      "fiwo": "Ogzop lixei.",
+      "english": "The towel is wet."
+    }
   },
   {
     "word": "lizogo",
@@ -5950,7 +10270,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "Goods carried by a ship, plane, or vehicle.",
     "tier": 3,
-    "rank": 30
+    "rank": 30,
+    "freq": 23,
+    "freq_rank": 211
   },
   {
     "word": "loage",
@@ -5958,7 +10280,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting the color of the clear sky.",
     "tier": 1,
-    "rank": 157
+    "rank": 157,
+    "freq": 4,
+    "freq_rank": 632,
+    "example": {
+      "fiwo": "Bysop loagei.",
+      "english": "The sky is blue."
+    }
   },
   {
     "word": "locale",
@@ -5966,7 +10294,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something strictly belonging or relating to a particular, confined area or neighborhood, rather than a broad region.",
     "tier": 2,
-    "rank": 350
+    "rank": 350,
+    "freq": 0,
+    "freq_rank": 2308,
+    "example": {
+      "fiwo": "Xyrop locale xosid.",
+      "english": "The local shop opened."
+    }
   },
   {
     "word": "locwe",
@@ -5974,7 +10308,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes the color of fresh snow or milk, reflecting all visible rays of light.",
     "tier": 1,
-    "rank": 78
+    "rank": 78,
+    "freq": 18,
+    "freq_rank": 247,
+    "example": {
+      "fiwo": "Ikamop locwei.",
+      "english": "The shirt is white."
+    }
   },
   {
     "word": "lodro",
@@ -5982,7 +10322,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A piece of cloth bearing a design or symbol, displayed as an emblem or signal.",
     "tier": 2,
-    "rank": 440
+    "rank": 440,
+    "freq": 1,
+    "freq_rank": 1106,
+    "example": {
+      "fiwo": "Lodrop leupe.",
+      "english": "The banner is red."
+    }
   },
   {
     "word": "logega",
@@ -5990,7 +10336,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word identifies the internal muscular passage extending from the back of the mouth down toward the lungs and stomach.",
     "tier": 3,
-    "rank": 328
+    "rank": 328,
+    "freq": 0,
+    "freq_rank": 2312,
+    "example": {
+      "fiwo": "Mitap sowid deky logegap.",
+      "english": "The meat fell down the throat."
+    }
   },
   {
     "word": "loho",
@@ -5998,7 +10350,27 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "Protective covering worn over the body to prevent injury, typically made of metal, leather, or hide.",
     "tier": 3,
-    "rank": 408
+    "rank": 408,
+    "freq": 0,
+    "freq_rank": 2314,
+    "example": {
+      "fiwo": "Lohop das lande.",
+      "english": "Her armor is small."
+    }
+  },
+  {
+    "word": "loju",
+    "english_equiv": "Efficiency",
+    "part_of_speech": "Abstract Noun",
+    "definition": "The ratio of useful output to the effort or resource spent; achieving a result with little waste.",
+    "tier": 3,
+    "rank": 574,
+    "freq": 0,
+    "freq_rank": 2316,
+    "example": {
+      "fiwo": "Fato sile jedi loju tande.",
+      "english": "This machine has great efficiency."
+    }
   },
   {
     "word": "loki",
@@ -6006,7 +10378,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to look at and comprehend the meaning of written or printed matter.",
     "tier": 1,
-    "rank": 45
+    "rank": 45,
+    "freq": 96,
+    "freq_rank": 56,
+    "example": {
+      "fiwo": "Das lokid panop.",
+      "english": "She read the book."
+    }
   },
   {
     "word": "lome",
@@ -6014,7 +10392,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something of small width in relation to length.",
     "tier": 3,
-    "rank": 296
+    "rank": 296,
+    "freq": 0,
+    "freq_rank": 2318,
+    "example": {
+      "fiwo": "Fikop lomei.",
+      "english": "The path is narrow."
+    }
   },
   {
     "word": "lope",
@@ -6022,7 +10406,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something lacking a sharp edge or point.",
     "tier": 3,
-    "rank": 418
+    "rank": 418,
+    "freq": 0,
+    "freq_rank": 2320,
+    "example": {
+      "fiwo": "Kinop lopei.",
+      "english": "The knife is blunt."
+    }
   },
   {
     "word": "loske",
@@ -6030,7 +10420,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting the color of a lemon or gold.",
     "tier": 1,
-    "rank": 266
+    "rank": 266,
+    "freq": 1,
+    "freq_rank": 1110,
+    "example": {
+      "fiwo": "Meokop loskei.",
+      "english": "The hat is yellow."
+    }
   },
   {
     "word": "lozuxu",
@@ -6038,7 +10434,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A short metrical composition intended or adapted for singing; a distinct piece of music.",
     "tier": 2,
-    "rank": 393
+    "rank": 393,
+    "freq": 33,
+    "freq_rank": 147,
+    "example": {
+      "fiwo": "Ibalirap kyti lozuxup.",
+      "english": "The teacher likes the song."
+    }
   },
   {
     "word": "luare",
@@ -6046,7 +10448,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting the color of growing grass.",
     "tier": 1,
-    "rank": 111
+    "rank": 111,
+    "freq": 4,
+    "freq_rank": 633,
+    "example": {
+      "fiwo": "Cilap luarei.",
+      "english": "The leaf is green."
+    }
   },
   {
     "word": "luge",
@@ -6054,7 +10462,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes having the power, skill, means, or opportunity to do something.",
     "tier": 2,
-    "rank": 16
+    "rank": 16,
+    "freq": 22,
+    "freq_rank": 222,
+    "example": {
+      "fiwo": "Mik lugei nacit nudu.",
+      "english": "I am able to work today."
+    }
   },
   {
     "word": "luhaci",
@@ -6062,7 +10476,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To give medical care or attention to a person, illness, or injury.",
     "tier": 1,
-    "rank": 180
+    "rank": 180,
+    "freq": 6,
+    "freq_rank": 515,
+    "example": {
+      "fiwo": "Farlopap luhaciq cadap.",
+      "english": "The doctor is treating the child."
+    }
   },
   {
     "word": "lumbe",
@@ -6070,7 +10490,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "With low frequency; more than amce (never) but less than evle (sometimes). The antonym of tsenge (often).",
     "tier": 3,
-    "rank": 283
+    "rank": 283,
+    "freq": 0,
+    "freq_rank": 2323,
+    "example": {
+      "fiwo": "Daq bumpid lumbe.",
+      "english": "He complains rarely."
+    }
   },
   {
     "word": "luoke",
@@ -6078,7 +10504,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting a dark hue blending red and blue, often associated with twilight skies or certain flowers.",
     "tier": 3,
-    "rank": 318
+    "rank": 318,
+    "freq": 0,
+    "freq_rank": 2325,
+    "example": {
+      "fiwo": "Mulap luokei.",
+      "english": "The flower is purple."
+    }
   },
   {
     "word": "luplelu",
@@ -6086,7 +10518,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A sound that reflects off a surface and is heard again.",
     "tier": 3,
-    "rank": 393
+    "rank": 393,
+    "freq": 1,
+    "freq_rank": 1115,
+    "example": {
+      "fiwo": "Mik fijaid luplelup.",
+      "english": "I heard the echo."
+    }
   },
   {
     "word": "lurubra",
@@ -6094,7 +10532,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A person who saw an event and can report what happened.",
     "tier": 2,
-    "rank": 385
+    "rank": 385,
+    "freq": 2,
+    "freq_rank": 836
   },
   {
     "word": "luso",
@@ -6102,7 +10542,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A small piece of shaped metal with specific physical incisions cut to mechanically fit and operate a specific lock.",
     "tier": 1,
-    "rank": 192
+    "rank": 192,
+    "freq": 28,
+    "freq_rank": 179,
+    "example": {
+      "fiwo": "Lusop ry mik.",
+      "english": "The key is mine."
+    }
   },
   {
     "word": "lutufro",
@@ -6110,7 +10556,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The line or strip marking the outer edge of an area, where one region ends and another begins.",
     "tier": 3,
-    "rank": 188
+    "rank": 188,
+    "freq": 2,
+    "freq_rank": 837,
+    "example": {
+      "fiwo": "Nak hicid zy lutufrop.",
+      "english": "We walked to the border."
+    }
   },
   {
     "word": "luvisma",
@@ -6118,7 +10570,9 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "An injury site where the body is cut or broken open (distinct from pamu, the pain).",
     "tier": 3,
-    "rank": 6
+    "rank": 6,
+    "freq": 1,
+    "freq_rank": 1116
   },
   {
     "word": "luvwitu",
@@ -6126,7 +10580,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A high-level conceptual institution of advanced academic learning, research, and degree qualification.",
     "tier": 2,
-    "rank": 189
+    "rank": 189,
+    "freq": 1,
+    "freq_rank": 1117,
+    "example": {
+      "fiwo": "Luvwitup ry London tandei.",
+      "english": "The university of London is big."
+    }
   },
   {
     "word": "lyfro",
@@ -6134,7 +10594,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thin flexible strand of metal, especially one carrying electricity.",
     "tier": 3,
-    "rank": 279
+    "rank": 279,
+    "freq": 3,
+    "freq_rank": 720,
+    "example": {
+      "fiwo": "Lyfrop nyrsi gejedor.",
+      "english": "The wire carries the electricity."
+    }
   },
   {
     "word": "lylta",
@@ -6142,7 +10608,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A slow-growing composite organism (fungus plus alga) that crusts rocks and trees.",
     "tier": 3,
-    "rank": 489
+    "rank": 489,
+    "freq": 0,
+    "freq_rank": 2334,
+    "example": {
+      "fiwo": "Lyltap morid ty mosap.",
+      "english": "The lichen grew on the tree."
+    }
   },
   {
     "word": "lympi",
@@ -6150,7 +10622,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To corrode through air or moisture; to rust or oxidize.",
     "tier": 3,
-    "rank": 441
+    "rank": 441,
+    "freq": 1,
+    "freq_rank": 1118,
+    "example": {
+      "fiwo": "Xedop lympiq.",
+      "english": "The metal is rusting."
+    }
   },
   {
     "word": "lynku",
@@ -6158,7 +10636,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Destroying a complete thing by adding more to it. Logical equivalent: Cemup keaneid. Lantiup skumkid ram. (The thing was complete. The addition destroyed it.)",
     "tier": 3,
-    "rank": 130
+    "rank": 130,
+    "freq": 0,
+    "freq_rank": 2337,
+    "example": {
+      "fiwo": "Ram lynkur.",
+      "english": "That is ruin-by-overdoing."
+    }
   },
   {
     "word": "lyse",
@@ -6166,7 +10650,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the direction or side towards the east when facing north; opposite to left.",
     "tier": 2,
-    "rank": 288
+    "rank": 288,
+    "freq": 1,
+    "freq_rank": 1119,
+    "example": {
+      "fiwo": "Isamup lysei.",
+      "english": "The result is right."
+    }
   },
   {
     "word": "mace",
@@ -6174,7 +10664,27 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Possible, but not logically or physically guaranteed.",
     "tier": 1,
-    "rank": 317
+    "rank": 317,
+    "freq": 10,
+    "freq_rank": 396,
+    "example": {
+      "fiwo": "Daq pliq mace nudu.",
+      "english": "He might come today."
+    }
+  },
+  {
+    "word": "madaki",
+    "english_equiv": "Upgrade",
+    "part_of_speech": "Verb",
+    "definition": "To raise something to a higher grade, tier, or level of capability.",
+    "tier": 3,
+    "rank": 564,
+    "freq": 0,
+    "freq_rank": 2340,
+    "example": {
+      "fiwo": "Daq madakid jufysop dale.",
+      "english": "He upgraded his pickaxe."
+    }
   },
   {
     "word": "mafehe",
@@ -6182,7 +10692,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Complete and without any defect or flaw.",
     "tier": 2,
-    "rank": 185
+    "rank": 185,
+    "freq": 0,
+    "freq_rank": 2342
   },
   {
     "word": "magustu",
@@ -6190,7 +10702,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract supernatural force or art by which impossible effects are willed into reality, outside the laws of nature.",
     "tier": 3,
-    "rank": 154
+    "rank": 154,
+    "freq": 2,
+    "freq_rank": 838,
+    "example": {
+      "fiwo": "Daq kanid magustup.",
+      "english": "He knew magic."
+    }
   },
   {
     "word": "maji",
@@ -6198,7 +10716,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to take air into the lungs and expel it.",
     "tier": 1,
-    "rank": 310
+    "rank": 310,
+    "freq": 12,
+    "freq_rank": 349,
+    "example": {
+      "fiwo": "Mifap majidyq.",
+      "english": "The animal was breathing."
+    }
   },
   {
     "word": "malfyto",
@@ -6206,7 +10730,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A machine that produces electricity.",
     "tier": 3,
-    "rank": 111
+    "rank": 111,
+    "freq": 1,
+    "freq_rank": 1122
   },
   {
     "word": "malxi",
@@ -6214,7 +10740,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To move one's body rhythmically, often in sequence with music, to express emotion or engage in a social activity.",
     "tier": 3,
-    "rank": 74
+    "rank": 74,
+    "freq": 2,
+    "freq_rank": 839,
+    "example": {
+      "fiwo": "Nak malxis ky taicup.",
+      "english": "We will dance at the party."
+    }
   },
   {
     "word": "mana",
@@ -6222,7 +10754,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the female parent of a biological offspring.",
     "tier": 1,
-    "rank": 98
+    "rank": 98,
+    "freq": 55,
+    "freq_rank": 94,
+    "example": {
+      "fiwo": "Manap mike tazid mik.",
+      "english": "My mother loved me."
+    }
   },
   {
     "word": "mantu",
@@ -6230,7 +10768,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The conceptual measurement, total volume, or numerical value of an entity or resource. (This is the noun form you would use to say The amount of water is high, where as wug is the grammar word used to ask What amount? / How much?).",
     "tier": 2,
-    "rank": 265
+    "rank": 265,
+    "freq": 1,
+    "freq_rank": 1123,
+    "example": {
+      "fiwo": "Mantup ry dorsor coheid.",
+      "english": "The quantity of water was small."
+    }
   },
   {
     "word": "maoba",
@@ -6238,7 +10782,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The physical, biological muscle organ that pumps blood through the circulatory system of an organism.",
     "tier": 1,
-    "rank": 258
+    "rank": 258,
+    "freq": 1,
+    "freq_rank": 1124,
+    "example": {
+      "fiwo": "Maobap ry mik kypei.",
+      "english": "My heart is happy."
+    }
   },
   {
     "word": "maobu",
@@ -6246,7 +10796,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "he abstract conceptual center of a person, often associated with deep intuition, morality, or emotional truth. (This is the conceptual understanding of the heart).",
     "tier": 3,
-    "rank": 198
+    "rank": 198,
+    "freq": 0,
+    "freq_rank": 2353,
+    "example": {
+      "fiwo": "Maobup ry mik kypei.",
+      "english": "My emotional core is happy."
+    }
   },
   {
     "word": "mapa",
@@ -6254,7 +10810,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies each of the long, slender members attached to the hand.",
     "tier": 1,
-    "rank": 302
+    "rank": 302,
+    "freq": 3,
+    "freq_rank": 721,
+    "example": {
+      "fiwo": "Mik kilid mapap.",
+      "english": "I touched the finger."
+    }
   },
   {
     "word": "marte",
@@ -6262,7 +10824,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number equivalent to the product of two and four.",
     "tier": 1,
-    "rank": 171
+    "rank": 171,
+    "freq": 23,
+    "freq_rank": 212,
+    "example": {
+      "fiwo": "Mosar marte morid.",
+      "english": "Eight trees grew."
+    }
   },
   {
     "word": "mavaha",
@@ -6270,7 +10838,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A cereal grass whose grain is ground into flour for bread; a global staple crop. Follows vyfla (rice) as a specific staple.",
     "tier": 3,
-    "rank": 394
+    "rank": 394,
+    "freq": 0,
+    "freq_rank": 2357,
+    "example": {
+      "fiwo": "Buvap nomi mavahap.",
+      "english": "The cow eats the wheat."
+    }
   },
   {
     "word": "mavuru",
@@ -6278,7 +10852,27 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "One action solving two problems. Logical equivalent: Epiwu bime solfi biwu dewe. (One action solves two problems.)",
     "tier": 2,
-    "rank": 240
+    "rank": 240,
+    "freq": 0,
+    "freq_rank": 2359,
+    "example": {
+      "fiwo": "Jormup sile mavurur.",
+      "english": "This situation is a double gain."
+    }
+  },
+  {
+    "word": "mawu",
+    "english_equiv": "Curse",
+    "part_of_speech": "Abstract Noun",
+    "definition": "A harmful power laid upon a person or object, persisting against their will.",
+    "tier": 3,
+    "rank": 577,
+    "freq": 0,
+    "freq_rank": 2360,
+    "example": {
+      "fiwo": "Mawu hiq ty sydo waske.",
+      "english": "A curse is on the old house."
+    }
   },
   {
     "word": "mazutsa",
@@ -6286,7 +10880,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large, frightening creature of imagination or legend, typically hostile to humans.",
     "tier": 3,
-    "rank": 246
+    "rank": 246,
+    "freq": 0,
+    "freq_rank": 2361,
+    "example": {
+      "fiwo": "Mazutsap tande.",
+      "english": "The monster is big."
+    }
   },
   {
     "word": "mecubu",
@@ -6294,7 +10894,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Believing one's small experience is the whole world. Logical equivalent: Daq nojaid cohe zol daq atilui tep daq kani late. (He saw little although he believes he knows all.)",
     "tier": 3,
-    "rank": 98
+    "rank": 98,
+    "freq": 1,
+    "freq_rank": 1125,
+    "example": {
+      "fiwo": "Kop ebmeri mecubur.",
+      "english": "Remember the narrow worldview."
+    }
   },
   {
     "word": "mehefo",
@@ -6302,7 +10908,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An instrument with a magnetized needle that always points north, used to find direction.",
     "tier": 3,
-    "rank": 436
+    "rank": 436,
+    "freq": 0,
+    "freq_rank": 2363,
+    "example": {
+      "fiwo": "Mik jedi mehefor.",
+      "english": "I have a compass."
+    }
   },
   {
     "word": "meka",
@@ -6310,7 +10922,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to any of the pieces of hard, whitish tissue making up the skeleton in humans and other vertebrates.",
     "tier": 3,
-    "rank": 254
+    "rank": 254,
+    "freq": 0,
+    "freq_rank": 2367,
+    "example": {
+      "fiwo": "Mekap skagid.",
+      "english": "The bone broke."
+    }
   },
   {
     "word": "melfu",
@@ -6318,7 +10936,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the amount of money expected, required, or given in payment for something.",
     "tier": 1,
-    "rank": 109
+    "rank": 109,
+    "freq": 29,
+    "freq_rank": 174,
+    "example": {
+      "fiwo": "Melfup zaveid.",
+      "english": "The price was high."
+    }
   },
   {
     "word": "meoko",
@@ -6326,7 +10950,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A shaped physical covering for the head worn for environmental protection, warmth, or uniform.",
     "tier": 1,
-    "rank": 259
+    "rank": 259,
+    "freq": 3,
+    "freq_rank": 722,
+    "example": {
+      "fiwo": "Meokop locweid.",
+      "english": "The hat was white."
+    }
   },
   {
     "word": "meota",
@@ -6334,7 +10964,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the upper part of the human body containing the brain, eyes, ears, nose, and mouth.",
     "tier": 1,
-    "rank": 246
+    "rank": 246,
+    "freq": 5,
+    "freq_rank": 576,
+    "example": {
+      "fiwo": "Mik sigidyq meotap.",
+      "english": "I was holding the head."
+    }
   },
   {
     "word": "merifu",
@@ -6342,7 +10978,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual faculty by which a mind or system stores, retains, and retrieves informational data.",
     "tier": 3,
-    "rank": 131
+    "rank": 131,
+    "freq": 6,
+    "freq_rank": 516,
+    "example": {
+      "fiwo": "Merifup ry mik gawei.",
+      "english": "My memory is good."
+    }
   },
   {
     "word": "mety",
@@ -6350,7 +10992,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates the method, process, tool, or pathway utilized to achieve a specific result or destination. (e.g., I learned it via reading).",
     "tier": 0,
-    "rank": 58
+    "rank": 58,
+    "freq": 11,
+    "freq_rank": 371,
+    "example": {
+      "fiwo": "Mik ibagid fiwop mety lokiur.",
+      "english": "I learned the language by means of reading."
+    }
   },
   {
     "word": "mexi",
@@ -6358,7 +11006,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to give life to a child or offspring.",
     "tier": 3,
-    "rank": 142
+    "rank": 142,
+    "freq": 0,
+    "freq_rank": 2375,
+    "example": {
+      "fiwo": "Nosanap mexid bibar.",
+      "english": "The woman gave birth to a baby."
+    }
   },
   {
     "word": "mezuna",
@@ -6366,7 +11020,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word refers to the hard, protective outer organic layer or exoskeleton naturally secreted and worn by certain animals, such as turtles or mollusks.",
     "tier": 3,
-    "rank": 280
+    "rank": 280,
+    "freq": 0,
+    "freq_rank": 2376,
+    "example": {
+      "fiwo": "Mezunap lefeid.",
+      "english": "The shell was hard."
+    }
   },
   {
     "word": "midora",
@@ -6374,7 +11034,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large, heavy biological fruit characterized by a hard green rind and sweet, watery red flesh.",
     "tier": 3,
-    "rank": 463
+    "rank": 463,
+    "freq": 0,
+    "freq_rank": 2378,
+    "example": {
+      "fiwo": "Midorap tandei.",
+      "english": "The watermelon is big."
+    }
   },
   {
     "word": "mifa",
@@ -6382,7 +11048,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies a living organism that is specifically a land-dwelling beast.",
     "tier": 1,
-    "rank": 133
+    "rank": 133,
+    "freq": 31,
+    "freq_rank": 160,
+    "example": {
+      "fiwo": "Mifap ruzei.",
+      "english": "The animal is fast."
+    }
   },
   {
     "word": "miho",
@@ -6390,7 +11062,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A flat, horizontal board or platform fixed to a wall or in a cupboard, used for holding objects.",
     "tier": 3,
-    "rank": 389
+    "rank": 389,
+    "freq": 8,
+    "freq_rank": 446,
+    "example": {
+      "fiwo": "Mihop vy xedo.",
+      "english": "The shelf is made of metal."
+    }
   },
   {
     "word": "miju",
@@ -6398,7 +11076,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract inherent character, fundamental qualities, or conceptual essence of a thing.",
     "tier": 2,
-    "rank": 310
+    "rank": 310,
+    "freq": 1,
+    "freq_rank": 1126,
+    "example": {
+      "fiwo": "Mijup ry mortsap baudei.",
+      "english": "The nature of the forest is beautiful."
+    }
   },
   {
     "word": "mik",
@@ -6406,7 +11090,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "First-person singular; the speaker's body and mind.",
     "tier": 0,
-    "rank": 1
+    "rank": 1,
+    "freq": 1111,
+    "freq_rank": 2,
+    "example": {
+      "fiwo": "Mik ceni deky jurop.",
+      "english": "I live in the city."
+    }
   },
   {
     "word": "mike",
@@ -6414,7 +11104,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Strictly belonging to or associated with the speaker.",
     "tier": 1,
-    "rank": 2
+    "rank": 2,
+    "freq": 166,
+    "freq_rank": 22,
+    "example": {
+      "fiwo": "Sydop mike tandei.",
+      "english": "My house is big."
+    }
   },
   {
     "word": "miluvu",
@@ -6422,7 +11118,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A structured series of lessons; a program of study.",
     "tier": 2,
-    "rank": 129
+    "rank": 129,
+    "freq": 1,
+    "freq_rank": 1127
   },
   {
     "word": "minza",
@@ -6430,7 +11128,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A biological and cultural grouping of people sharing common descent, history, or language.",
     "tier": 2,
-    "rank": 349
+    "rank": 349,
+    "freq": 3,
+    "freq_rank": 723,
+    "example": {
+      "fiwo": "Minzap ry nak tazid pogafur.",
+      "english": "Our nation loved peace."
+    }
   },
   {
     "word": "mis",
@@ -6438,7 +11142,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "This is an immutable mathematical operator used to perform explicit subtraction within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used as the subject of a Zero Copula sentence to state a timeless mathematical equation (e.g., raje mis dewe tafe = 5 minus 2 is 3).",
     "tier": 0,
-    "rank": 98
+    "rank": 98,
+    "freq": 5,
+    "freq_rank": 577,
+    "example": {
+      "fiwo": "Raje mis dewe labnei tafe.",
+      "english": "Five minus two equals three."
+    }
   },
   {
     "word": "mise",
@@ -6446,7 +11156,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Marks a number as negative. Derived from the subtraction operator mis; attaches to a nested-flagged number (e.g. rajem mise = negative five, Rule 25).",
     "tier": 1,
-    "rank": 146
+    "rank": 146,
+    "freq": 3,
+    "freq_rank": 724,
+    "example": {
+      "fiwo": "Mik jamid gu rajem mise.",
+      "english": "I wrote the number negative five."
+    }
   },
   {
     "word": "mita",
@@ -6454,7 +11170,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the flesh of an animal used as food.",
     "tier": 1,
-    "rank": 185
+    "rank": 185,
+    "freq": 24,
+    "freq_rank": 201,
+    "example": {
+      "fiwo": "Mik gidsid mitar.",
+      "english": "I bought some meat."
+    }
   },
   {
     "word": "mitero",
@@ -6462,7 +11184,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The standard physical unit of measurement for length or distance.",
     "tier": 3,
-    "rank": 364
+    "rank": 364,
+    "freq": 5,
+    "freq_rank": 578,
+    "example": {
+      "fiwo": "Miterop dewe.",
+      "english": "Two meters."
+    }
   },
   {
     "word": "mixupru",
@@ -6470,7 +11198,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A bodily sign that indicates a disease (distinct from cacodu, the diagnosis).",
     "tier": 2,
-    "rank": 439
+    "rank": 439,
+    "freq": 3,
+    "freq_rank": 725
   },
   {
     "word": "moblo",
@@ -6478,7 +11208,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A machine equipped with wheels, runners, or an engine, specifically built for transporting people or physical goods over a surface.",
     "tier": 2,
-    "rank": 94
+    "rank": 94,
+    "freq": 12,
+    "freq_rank": 350,
+    "example": {
+      "fiwo": "Moblop ruzei.",
+      "english": "The car is fast."
+    }
   },
   {
     "word": "moda",
@@ -6486,7 +11222,28 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a supreme being, divine creator, or principal object of faith and worship.",
     "tier": 2,
-    "rank": 18
+    "rank": 18,
+    "freq": 1,
+    "freq_rank": 1128,
+    "example": {
+      "fiwo": "Mik tazidyq modap.",
+      "english": "I was loving God."
+    }
+  },
+  {
+    "word": "mogowi",
+    "english_equiv": "Twist",
+    "part_of_speech": "Verb",
+    "definition": "To distort the shape of something by turning its ends in opposite directions; to wind or spiral.",
+    "tier": 3,
+    "rank": 569,
+    "usage_note": "Distinct from ruwi (roll), which turns about an axis without deforming the object.",
+    "freq": 0,
+    "freq_rank": 2393,
+    "example": {
+      "fiwo": "Xabesop mogowi mosap.",
+      "english": "The wind twists the tree."
+    }
   },
   {
     "word": "monto",
@@ -6494,7 +11251,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a massive, natural solid elevation of the earth's surface, rising abruptly to a peak from the surrounding ground.",
     "tier": 1,
-    "rank": 207
+    "rank": 207,
+    "freq": 43,
+    "freq_rank": 115,
+    "example": {
+      "fiwo": "Montop zaveid.",
+      "english": "The mountain was high."
+    }
   },
   {
     "word": "mori",
@@ -6502,7 +11265,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to increase in physical size, quantity, or maturity over a period of time.",
     "tier": 2,
-    "rank": 77
+    "rank": 77,
+    "freq": 20,
+    "freq_rank": 231,
+    "example": {
+      "fiwo": "Nasap morid nudu.",
+      "english": "The plant grew today."
+    }
   },
   {
     "word": "mortsa",
@@ -6510,7 +11279,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A dense biological collection or large group of trees growing together in a specific area.",
     "tier": 2,
-    "rank": 118
+    "rank": 118,
+    "freq": 15,
+    "freq_rank": 295,
+    "example": {
+      "fiwo": "Nak xalidyq zofy mortsap.",
+      "english": "We were going through the forest."
+    }
   },
   {
     "word": "mosa",
@@ -6518,7 +11293,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies a large plant, typically having a single stem or trunk growing to a considerable height.",
     "tier": 1,
-    "rank": 132
+    "rank": 132,
+    "freq": 44,
+    "freq_rank": 111,
+    "example": {
+      "fiwo": "Mifap ceni deky mosap.",
+      "english": "The animal lives inside the tree."
+    }
   },
   {
     "word": "moskufu",
@@ -6526,7 +11307,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Earned positive regard for a person's qualities or standing; a felt attitude, distinct from ezte (polite outward behavior), from suv (grammatical respectful address), and from truhu (awe, reverence mixed with fear).",
     "tier": 2,
-    "rank": 163
+    "rank": 163,
+    "freq": 0,
+    "freq_rank": 2399,
+    "example": {
+      "fiwo": "Mik pauli moskufup zety ibalirap.",
+      "english": "I feel respect for the teacher."
+    }
   },
   {
     "word": "motuwu",
@@ -6534,7 +11321,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Deep, object-directed sorrow caused by the loss of a person or cherished entity, as through death or permanent departure. Stronger and more focused than goile (general sadness), and never self-caused like briku (regret).",
     "tier": 3,
-    "rank": 366
+    "rank": 366,
+    "freq": 2,
+    "freq_rank": 841,
+    "example": {
+      "fiwo": "Motuwup ry daq tandeid.",
+      "english": "His grief was great."
+    }
   },
   {
     "word": "move",
@@ -6542,7 +11335,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Not clearly expressed, described, or understood; indefinite.",
     "tier": 3,
-    "rank": 415
+    "rank": 415,
+    "freq": 0,
+    "freq_rank": 2404,
+    "example": {
+      "fiwo": "Ladup moveid.",
+      "english": "The idea was vague."
+    }
   },
   {
     "word": "movimpi",
@@ -6550,7 +11349,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To concentrate attention or energy on something.",
     "tier": 2,
-    "rank": 178
+    "rank": 178,
+    "freq": 1,
+    "freq_rank": 1132,
+    "example": {
+      "fiwo": "Mik movimpid ty jobu.",
+      "english": "I focused on the work."
+    }
   },
   {
     "word": "moxy",
@@ -6558,7 +11363,9 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a spatial or conceptual bridge where the subject is surrounded by, or included as a distinct part of, a larger defined group or set. (e.g., The apple among the grapes).",
     "tier": 0,
-    "rank": 103
+    "rank": 103,
+    "freq": 2,
+    "freq_rank": 842
   },
   {
     "word": "mu",
@@ -6566,7 +11373,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the immaterial essence, spiritual core, or animating force of a being, regarded as distinct from both the physical body and the intellectual mind.",
     "tier": 2,
-    "rank": 132
+    "rank": 132,
+    "freq": 2,
+    "freq_rank": 843,
+    "example": {
+      "fiwo": "Mup ry mik kypei.",
+      "english": "My soul is happy."
+    }
   },
   {
     "word": "mudo",
@@ -6574,7 +11387,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A wet, soft, and sticky physical mixture of earth (zaso) and water (dorso).",
     "tier": 3,
-    "rank": 46
+    "rank": 46,
+    "freq": 2,
+    "freq_rank": 844,
+    "example": {
+      "fiwo": "Mudop dorsoeid.",
+      "english": "The mud was wet."
+    }
   },
   {
     "word": "muile",
@@ -6582,7 +11401,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes an action or concept requiring significant effort, skill, or time to accomplish or understand.",
     "tier": 1,
-    "rank": 159
+    "rank": 159,
+    "freq": 1,
+    "freq_rank": 1133,
+    "example": {
+      "fiwo": "Olifup muilei.",
+      "english": "Research is difficult."
+    }
   },
   {
     "word": "muk",
@@ -6590,7 +11415,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "First-person plural inclusive; the speaker, the listener, and potentially others.",
     "tier": 0,
-    "rank": 8
+    "rank": 8,
+    "freq": 186,
+    "freq_rank": 19
   },
   {
     "word": "muke",
@@ -6598,7 +11425,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Strictly belonging to or associated with the speaker, the listener, and potentially others.",
     "tier": 1,
-    "rank": 68
+    "rank": 68,
+    "freq": 12,
+    "freq_rank": 351
   },
   {
     "word": "mula",
@@ -6606,7 +11435,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the seed-bearing part of a plant, consisting of reproductive organs and colorful petals.",
     "tier": 1,
-    "rank": 236
+    "rank": 236,
+    "freq": 5,
+    "freq_rank": 579,
+    "example": {
+      "fiwo": "Mulap baudei.",
+      "english": "The flower is beautiful."
+    }
   },
   {
     "word": "musmu",
@@ -6614,7 +11449,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A bad event that causes a good result. Logical equivalent: Cemup boke linid isamur gawe. (The bad thing caused a good result.)",
     "tier": 3,
-    "rank": 70
+    "rank": 70,
+    "freq": 0,
+    "freq_rank": 2413,
+    "example": {
+      "fiwo": "Ram musmur.",
+      "english": "That is a disguised blessing."
+    }
   },
   {
     "word": "muwyzu",
@@ -6622,7 +11463,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An organized series of actions aimed at achieving a particular goal.",
     "tier": 2,
-    "rank": 177
+    "rank": 177,
+    "freq": 1,
+    "freq_rank": 1134,
+    "example": {
+      "fiwo": "Reza cimid muwyzup.",
+      "english": "The leader started the campaign."
+    }
   },
   {
     "word": "mux",
@@ -6630,7 +11477,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "This is an immutable mathematical operator used to perform explicit multiplication within a sentence. When placed between two numerical blocks, the parser evaluates the calculation first, unifying them into a single quantitative value before the result looks left to attach to a noun. It can also be used as the subject of a Zero Copula sentence to state a timeless mathematical equation (e.g., tafe mux dewe sluqe = 3 times 2 is 6).",
     "tier": 0,
-    "rank": 59
+    "rank": 59,
+    "freq": 1,
+    "freq_rank": 1135,
+    "example": {
+      "fiwo": "Tafe mux dewe labnei sluqe.",
+      "english": "Three times two equals six."
+    }
   },
   {
     "word": "my",
@@ -6638,7 +11491,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates that the subject is holding the object inside it; specifies content rather than purpose.",
     "tier": 0,
-    "rank": 91
+    "rank": 91,
+    "freq": 98,
+    "freq_rank": 54,
+    "example": {
+      "fiwo": "Hanop my dorsor.",
+      "english": "The box contains water."
+    }
   },
   {
     "word": "mydu",
@@ -6646,7 +11505,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A conceptual framework or abstract mathematical representation used to simulate, describe, or predict a system.",
     "tier": 2,
-    "rank": 437
+    "rank": 437,
+    "freq": 0,
+    "freq_rank": 2415,
+    "example": {
+      "fiwo": "Mydup ry jyjop gawei.",
+      "english": "The model of the computer is good."
+    }
   },
   {
     "word": "myga",
@@ -6654,7 +11519,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to each of the limbs on which a person or animal walks and stands.",
     "tier": 1,
-    "rank": 269
+    "rank": 269,
+    "freq": 2,
+    "freq_rank": 845,
+    "example": {
+      "fiwo": "Mygap mike pamuid.",
+      "english": "My leg was hurting."
+    }
   },
   {
     "word": "mykoso",
@@ -6662,7 +11533,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An abnormally high body temperature, often an immune response to an illness.",
     "tier": 3,
-    "rank": 327
+    "rank": 327,
+    "freq": 0,
+    "freq_rank": 2418,
+    "example": {
+      "fiwo": "Das jedi mykosop.",
+      "english": "She has a fever."
+    }
   },
   {
     "word": "myrafa",
@@ -6670,7 +11547,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A legendary giant reptile with wings and claws, often depicted breathing fire.",
     "tier": 3,
-    "rank": 271
+    "rank": 271,
+    "freq": 10,
+    "freq_rank": 397,
+    "example": {
+      "fiwo": "Myrafap xerid fuegop.",
+      "english": "The dragon threw fire."
+    }
   },
   {
     "word": "naci",
@@ -6678,7 +11561,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to perform labor, professional tasks, or exert effort to produce a result.",
     "tier": 1,
-    "rank": 21
+    "rank": 21,
+    "freq": 99,
+    "freq_rank": 52,
+    "example": {
+      "fiwo": "Nak nacid du late.",
+      "english": "We worked all day."
+    }
   },
   {
     "word": "nafike",
@@ -6686,7 +11575,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes entities existing or acting in conjunction, unity, or close physical/logical association.",
     "tier": 2,
-    "rank": 26
+    "rank": 26,
+    "freq": 13,
+    "freq_rank": 326,
+    "example": {
+      "fiwo": "Nak nacid nafike.",
+      "english": "We worked together."
+    }
   },
   {
     "word": "naglifi",
@@ -6694,7 +11589,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To hold firmly to a demand or assertion; to press a point despite resistance.",
     "tier": 2,
-    "rank": 339
+    "rank": 339,
+    "freq": 3,
+    "freq_rank": 726,
+    "example": {
+      "fiwo": "Mik naglifi.",
+      "english": "I insist."
+    }
   },
   {
     "word": "naile",
@@ -6702,7 +11603,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes an action or concept achieved without great effort; presenting zero or very few obstacles.",
     "tier": 1,
-    "rank": 165
+    "rank": 165,
+    "freq": 1,
+    "freq_rank": 1138,
+    "example": {
+      "fiwo": "Jobup nailei.",
+      "english": "The job is easy."
+    }
   },
   {
     "word": "nak",
@@ -6710,7 +11617,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "First-person plural exclusive; the speaker and others, explicitly excluding the listener.",
     "tier": 0,
-    "rank": 17
+    "rank": 17,
+    "freq": 60,
+    "freq_rank": 86
   },
   {
     "word": "nake",
@@ -6718,7 +11627,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Strictly belonging to or associated with the speaker and others, explicitly excluding the listener.",
     "tier": 1,
-    "rank": 15
+    "rank": 15,
+    "freq": 5,
+    "freq_rank": 580
   },
   {
     "word": "narale",
@@ -6726,7 +11637,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something existing in or caused by biology or the physical universe; not manufactured by human or artificial intervention.",
     "tier": 2,
-    "rank": 444
+    "rank": 444,
+    "freq": 0,
+    "freq_rank": 2427,
+    "example": {
+      "fiwo": "Mijup naralei.",
+      "english": "Nature is natural."
+    }
   },
   {
     "word": "nasa",
@@ -6734,7 +11651,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a living organism of the kind exemplified by trees, shrubs, and herbs.",
     "tier": 2,
-    "rank": 70
+    "rank": 70,
+    "freq": 8,
+    "freq_rank": 447,
+    "example": {
+      "fiwo": "Nasap moriq nudu.",
+      "english": "The plant is growing today."
+    }
   },
   {
     "word": "nasbo",
@@ -6742,7 +11665,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies a physical compound, preparation, or substance strictly used for the treatment, cure, or prevention of biological disease.",
     "tier": 1,
-    "rank": 176
+    "rank": 176,
+    "freq": 10,
+    "freq_rank": 398,
+    "example": {
+      "fiwo": "Nasbop jofid mik.",
+      "english": "The medicine helped me."
+    }
   },
   {
     "word": "natafro",
@@ -6750,7 +11679,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A word or expression naming a particular thing, especially a technical one.",
     "tier": 2,
-    "rank": 172
+    "rank": 172,
+    "freq": 1,
+    "freq_rank": 1140
   },
   {
     "word": "natypo",
@@ -6758,7 +11689,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A collection of musical recordings issued together as a single work.",
     "tier": 2,
-    "rank": 165
+    "rank": 165,
+    "freq": 1,
+    "freq_rank": 1141,
+    "example": {
+      "fiwo": "Mik kytid natypop.",
+      "english": "I liked the album."
+    }
   },
   {
     "word": "nauxa",
@@ -6766,7 +11703,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a person whom one knows and with whom one has a bond of mutual affection.",
     "tier": 1,
-    "rank": 79
+    "rank": 79,
+    "freq": 31,
+    "freq_rank": 161,
+    "example": {
+      "fiwo": "Nauxap mike kypei.",
+      "english": "My friend is happy."
+    }
   },
   {
     "word": "navere",
@@ -6774,7 +11717,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Coming immediately after the current one in a sequence or in time (e.g. next week, next person). Generalizes beyond fitydu (tomorrow), which covers only day-distance.",
     "tier": 2,
-    "rank": 297
+    "rank": 297,
+    "freq": 18,
+    "freq_rank": 248,
+    "example": {
+      "fiwo": "Retadup navere.",
+      "english": "The week is next."
+    }
   },
   {
     "word": "navindo",
@@ -6782,7 +11731,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The rhythmic beat of the heart felt in the arteries.",
     "tier": 3,
-    "rank": 62
+    "rank": 62,
+    "freq": 2,
+    "freq_rank": 846
   },
   {
     "word": "naxu",
@@ -6790,7 +11741,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a number of people or things that are located, gathered, or classed together.",
     "tier": 1,
-    "rank": 195
+    "rank": 195,
+    "freq": 7,
+    "freq_rank": 484,
+    "example": {
+      "fiwo": "Naxup ry nak cafid.",
+      "english": "Our group ran."
+    }
   },
   {
     "word": "necadro",
@@ -6798,7 +11755,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A device that restores energy to a battery.",
     "tier": 3,
-    "rank": 176
+    "rank": 176,
+    "freq": 1,
+    "freq_rank": 1142
   },
   {
     "word": "negoxre",
@@ -6806,7 +11765,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Determined by chance alone, without pattern, plan, or predictability.",
     "tier": 3,
-    "rank": 202
+    "rank": 202,
+    "freq": 0,
+    "freq_rank": 2439,
+    "example": {
+      "fiwo": "Spelup negoxre.",
+      "english": "The game is random."
+    }
   },
   {
     "word": "nejowo",
@@ -6814,7 +11779,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A colored liquid used for writing, drawing, and printing.",
     "tier": 3,
-    "rank": 365
+    "rank": 365,
+    "freq": 0,
+    "freq_rank": 2441,
+    "example": {
+      "fiwo": "Nejowop cape.",
+      "english": "The ink is black."
+    }
   },
   {
     "word": "neki",
@@ -6822,7 +11793,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to rest with the body supported by the buttocks or thighs; to occupy a seat.",
     "tier": 1,
-    "rank": 187
+    "rank": 187,
+    "freq": 73,
+    "freq_rank": 76,
+    "example": {
+      "fiwo": "Daq nekid ty xiolop.",
+      "english": "He sat on the chair."
+    }
   },
   {
     "word": "nel",
@@ -6830,7 +11807,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Phatic reply acknowledging thanks; conveys 'you're welcome / no need.' Standalone on the Null Track (Rule 33).",
     "tier": 0,
-    "rank": 83
+    "rank": 83,
+    "freq": 2,
+    "freq_rank": 847,
+    "example": {
+      "fiwo": "Nel. Ram biwu noze.",
+      "english": "You're welcome. It's no problem."
+    }
   },
   {
     "word": "nembu",
@@ -6838,7 +11821,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An expression of praise for an achievement or good wishes on a special occasion.",
     "tier": 3,
-    "rank": 273
+    "rank": 273,
+    "freq": 3,
+    "freq_rank": 728,
+    "example": {
+      "fiwo": "Mik stomi nembup.",
+      "english": "I give congratulations."
+    }
   },
   {
     "word": "nenoje",
@@ -6846,7 +11835,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes a biological entity mathematically lacking the ability to perceive visual data.",
     "tier": 3,
-    "rank": 221
+    "rank": 221,
+    "freq": 0,
+    "freq_rank": 2445,
+    "example": {
+      "fiwo": "Mifap nenojeid.",
+      "english": "The animal was blind."
+    }
   },
   {
     "word": "nerto",
@@ -6854,7 +11849,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thick woven fabric covering used on a floor.",
     "tier": 3,
-    "rank": 334
+    "rank": 334,
+    "freq": 1,
+    "freq_rank": 1145,
+    "example": {
+      "fiwo": "Nertop das tande.",
+      "english": "Her carpet is big."
+    }
   },
   {
     "word": "nes",
@@ -6862,7 +11863,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Strict logical operator of negation (boolean NOT); standalone negative interjection.",
     "tier": 0,
-    "rank": 7
+    "rank": 7,
+    "freq": 736,
+    "freq_rank": 4,
+    "example": {
+      "fiwo": "Nes, mik nes kyti batap.",
+      "english": "No, I do not like the food."
+    }
   },
   {
     "word": "neswy",
@@ -6870,7 +11877,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a logical bridge of absence or the explicit lack of an accompanying object or trait.",
     "tier": 0,
-    "rank": 61
+    "rank": 61,
+    "freq": 12,
+    "freq_rank": 353,
+    "example": {
+      "fiwo": "Mik xalid neswy buskor.",
+      "english": "I went without clothes."
+    }
   },
   {
     "word": "netawa",
@@ -6878,7 +11891,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A slender wildflower with an intensely blue head, once common in grain fields.",
     "tier": 3,
-    "rank": 482
+    "rank": 482,
+    "freq": 0,
+    "freq_rank": 2449,
+    "example": {
+      "fiwo": "Netawap loage.",
+      "english": "The cornflower is blue."
+    }
   },
   {
     "word": "neuqu",
@@ -6886,7 +11905,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A feeling of revulsion or profound disapproval aroused by something unpleasant or offensive.",
     "tier": 3,
-    "rank": 443
+    "rank": 443,
+    "freq": 0,
+    "freq_rank": 2451,
+    "example": {
+      "fiwo": "Mik pauli neuqup.",
+      "english": "I feel disgust."
+    }
   },
   {
     "word": "nevono",
@@ -6894,7 +11919,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A public area of land kept for recreation and nature.",
     "tier": 2,
-    "rank": 195
+    "rank": 195,
+    "freq": 7,
+    "freq_rank": 485
   },
   {
     "word": "niaza",
@@ -6902,7 +11929,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word identifies a band or bundle of fibrous tissue in a biological body that has the mechanical ability to contract, producing movement or maintaining position.",
     "tier": 3,
-    "rank": 247
+    "rank": 247,
+    "freq": 0,
+    "freq_rank": 2454,
+    "example": {
+      "fiwo": "Daq jedis niazar dote je.",
+      "english": "He will have strong muscles."
+    }
   },
   {
     "word": "nibilko",
@@ -6910,7 +11943,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A wheeled motor vehicle for carrying a few passengers.",
     "tier": 1,
-    "rank": 182
+    "rank": 182,
+    "freq": 1,
+    "freq_rank": 1146
   },
   {
     "word": "nicu",
@@ -6918,7 +11953,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An obligation to pay or do something, typically financial, owed to another entity.",
     "tier": 3,
-    "rank": 390
+    "rank": 390,
+    "freq": 25,
+    "freq_rank": 193,
+    "example": {
+      "fiwo": "Oycup ry mik tandeid.",
+      "english": "My debt was big."
+    }
   },
   {
     "word": "nikri",
@@ -6926,7 +11967,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To move food, drink, or saliva from the mouth down the throat into the stomach.",
     "tier": 3,
-    "rank": 406
+    "rank": 406,
+    "freq": 0,
+    "freq_rank": 2457,
+    "example": {
+      "fiwo": "Cadap nikrid batap.",
+      "english": "The child swallowed the food."
+    }
   },
   {
     "word": "nimpo",
@@ -6934,7 +11981,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A tapering orange root vegetable eaten raw or cooked.",
     "tier": 3,
-    "rank": 438
+    "rank": 438,
+    "freq": 0,
+    "freq_rank": 2459,
+    "example": {
+      "fiwo": "Mik nomid nimpop.",
+      "english": "I ate the carrot."
+    }
   },
   {
     "word": "ninaltu",
@@ -6942,7 +11995,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A compulsory payment levied by government on income, goods, or activity.",
     "tier": 2,
-    "rank": 197
+    "rank": 197,
+    "freq": 1,
+    "freq_rank": 1147
   },
   {
     "word": "niwi",
@@ -6950,7 +12005,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To drag a hard, sharp, or rough implement across a surface, typically to clean, smooth, or remove material.",
     "tier": 3,
-    "rank": 451
+    "rank": 451,
+    "freq": 0,
+    "freq_rank": 2462,
+    "example": {
+      "fiwo": "Mifap niwis krapop.",
+      "english": "The animal will scrape the wall."
+    }
   },
   {
     "word": "nizy",
@@ -6958,7 +12019,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a spatial bridge where the subject is located at or directed toward the forward-facing exterior of a reference point.",
     "tier": 0,
-    "rank": 74
+    "rank": 74,
+    "freq": 15,
+    "freq_rank": 296,
+    "example": {
+      "fiwo": "Moblop ceni nizy sydop.",
+      "english": "The car is in front of the house."
+    }
   },
   {
     "word": "noaju",
@@ -6966,7 +12033,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual function assumed or part played by a person or thing in a particular situation.",
     "tier": 2,
-    "rank": 408
+    "rank": 408,
+    "freq": 0,
+    "freq_rank": 2466,
+    "example": {
+      "fiwo": "Noajup ry rezap fafei.",
+      "english": "The role of the president is important."
+    }
   },
   {
     "word": "nodoglu",
@@ -6974,7 +12047,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Extra money given voluntarily for good service.",
     "tier": 2,
-    "rank": 368
+    "rank": 368,
+    "freq": 1,
+    "freq_rank": 1148
   },
   {
     "word": "nofa",
@@ -6982,7 +12057,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a human being, individual, or member of the human species.",
     "tier": 1,
-    "rank": 3
+    "rank": 3,
+    "freq": 492,
+    "freq_rank": 8,
+    "example": {
+      "fiwo": "Nofap ceni ky sydop.",
+      "english": "The person lives in the house."
+    }
   },
   {
     "word": "noja",
@@ -6990,7 +12071,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the organ of sight in humans and animals.",
     "tier": 1,
-    "rank": 112
+    "rank": 112,
+    "freq": 18,
+    "freq_rank": 249,
+    "example": {
+      "fiwo": "Nojap mike je kypei.",
+      "english": "My eyes are happy."
+    }
   },
   {
     "word": "nojapi",
@@ -6998,7 +12085,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To observe an entity or event attentively over a continuous period of time.",
     "tier": 2,
-    "rank": 5
+    "rank": 5,
+    "freq": 40,
+    "freq_rank": 125,
+    "example": {
+      "fiwo": "Nak nojapid xowup.",
+      "english": "We watched the show."
+    }
   },
   {
     "word": "noky",
@@ -7006,7 +12099,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Used for direction or position lower than a reference.",
     "tier": 0,
-    "rank": 48
+    "rank": 48,
+    "freq": 17,
+    "freq_rank": 265,
+    "example": {
+      "fiwo": "Kyfap cyridyq noky klazop.",
+      "english": "The bird was flying down below the cloud."
+    }
   },
   {
     "word": "nolfene",
@@ -7014,7 +12113,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Having authority or formal sanction.",
     "tier": 2,
-    "rank": 196
+    "rank": 196,
+    "freq": 1,
+    "freq_rank": 1150
   },
   {
     "word": "nomi",
@@ -7022,7 +12123,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to put food into the mouth, chew, and swallow it as a fundamental biological action.",
     "tier": 1,
-    "rank": 84
+    "rank": 84,
+    "freq": 136,
+    "freq_rank": 33,
+    "example": {
+      "fiwo": "Catsap nomid fubap.",
+      "english": "The cat ate the fish."
+    }
   },
   {
     "word": "nop",
@@ -7030,7 +12137,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A pragmatic mood tag indicating the speaker knows the statement is true through logical deduction or physical evidence.",
     "tier": 0,
-    "rank": 112
+    "rank": 112,
+    "freq": 11,
+    "freq_rank": 373
   },
   {
     "word": "noqsa",
@@ -7038,7 +12147,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies a fully grown male human being.",
     "tier": 1,
-    "rank": 102
+    "rank": 102,
+    "freq": 18,
+    "freq_rank": 250,
+    "example": {
+      "fiwo": "Noqsap nacid nudu.",
+      "english": "The man worked today."
+    }
   },
   {
     "word": "nosana",
@@ -7046,7 +12161,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies a fully grown female human being.",
     "tier": 1,
-    "rank": 141
+    "rank": 141,
+    "freq": 23,
+    "freq_rank": 213,
+    "example": {
+      "fiwo": "Nosanap jamid panop.",
+      "english": "The woman wrote the book."
+    }
   },
   {
     "word": "novu",
@@ -7054,7 +12175,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A secret plan by a group of people to do something unlawful, harmful, or deceitful.",
     "tier": 3,
-    "rank": 301
+    "rank": 301,
+    "freq": 0,
+    "freq_rank": 2482,
+    "example": {
+      "fiwo": "Novup ry rezap bokeid.",
+      "english": "The conspiracy of the president was bad."
+    }
   },
   {
     "word": "nowuru",
@@ -7062,7 +12189,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An available asset or means — materials, people, or funds — drawn on to achieve something.",
     "tier": 2,
-    "rank": 418
+    "rank": 418,
+    "freq": 1,
+    "freq_rank": 1152
   },
   {
     "word": "noze",
@@ -7070,7 +12199,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the arithmetical symbol denoting the absence of all magnitude or quantity.",
     "tier": 1,
-    "rank": 123
+    "rank": 123,
+    "freq": 136,
+    "freq_rank": 34,
+    "example": {
+      "fiwo": "Gidup nozei.",
+      "english": "The money is zero."
+    }
   },
   {
     "word": "nu",
@@ -7078,7 +12213,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Used for the present moment.",
     "tier": 1,
-    "rank": 36
+    "rank": 36,
+    "freq": 46,
+    "freq_rank": 104,
+    "example": {
+      "fiwo": "Nup dotei.",
+      "english": "Now is powerful."
+    }
   },
   {
     "word": "nudu",
@@ -7086,7 +12227,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the current day.",
     "tier": 1,
-    "rank": 56
+    "rank": 56,
+    "freq": 39,
+    "freq_rank": 129,
+    "example": {
+      "fiwo": "Nudup ripeid.",
+      "english": "Today was warm."
+    }
   },
   {
     "word": "nufe",
@@ -7094,7 +12241,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something containing nothing or having no occupants.",
     "tier": 2,
-    "rank": 164
+    "rank": 164,
+    "freq": 5,
+    "freq_rank": 581,
+    "example": {
+      "fiwo": "Tulop nufei.",
+      "english": "The bottle is empty."
+    }
   },
   {
     "word": "nuju",
@@ -7102,7 +12255,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A conceptual course or abstract principle of action adopted or proposed by a governing body or business.",
     "tier": 2,
-    "rank": 401
+    "rank": 401,
+    "freq": 20,
+    "freq_rank": 232,
+    "example": {
+      "fiwo": "Nujup ry zikuzop gawei.",
+      "english": "The policy of the bank is good."
+    }
   },
   {
     "word": "nunulpi",
@@ -7110,7 +12269,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To work together toward a shared goal.",
     "tier": 3,
-    "rank": 143
+    "rank": 143,
+    "freq": 1,
+    "freq_rank": 1154
   },
   {
     "word": "nupa",
@@ -7118,7 +12279,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a father or mother, or a person or animal that produces offspring.",
     "tier": 2,
-    "rank": 200
+    "rank": 200,
+    "freq": 6,
+    "freq_rank": 518,
+    "example": {
+      "fiwo": "Nupap jofis cadap.",
+      "english": "The parent will help the child."
+    }
   },
   {
     "word": "nusogo",
@@ -7126,7 +12293,13 @@ const dictionaryData = [
     "definition": "A weapon with a long metal blade and a hilt, used for cutting or thrusting.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 274
+    "rank": 274,
+    "freq": 0,
+    "freq_rank": 2492,
+    "example": {
+      "fiwo": "Nusogop rute.",
+      "english": "The sword is sharp."
+    }
   },
   {
     "word": "nuwyko",
@@ -7134,7 +12307,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A purple variety of quartz, valued as a gemstone. Follows xaqbo (gold) as a specific mineral/gem type.",
     "tier": 3,
-    "rank": 462
+    "rank": 462,
+    "freq": 0,
+    "freq_rank": 2494,
+    "example": {
+      "fiwo": "Nuwykop tande.",
+      "english": "The amethyst is big."
+    }
   },
   {
     "word": "nybu",
@@ -7142,7 +12321,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract information, meaning, or subject matter contained within a document, speech, or medium.",
     "tier": 3,
-    "rank": 16
+    "rank": 16,
+    "freq": 0,
+    "freq_rank": 2496,
+    "example": {
+      "fiwo": "Nybup ry panop gaweid.",
+      "english": "The content of the book was good."
+    }
   },
   {
     "word": "nyhogo",
@@ -7150,7 +12335,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A complete grammatical sequence of words expressing a full statement, question, or command. Follows go (word) as the next unit up in Fiwo's own linguistic vocabulary.",
     "tier": 3,
-    "rank": 197
+    "rank": 197,
+    "freq": 7,
+    "freq_rank": 486,
+    "example": {
+      "fiwo": "Nyhogop jozeid.",
+      "english": "The sentence was long."
+    }
   },
   {
     "word": "nyltulu",
@@ -7158,7 +12349,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The assembly that makes a nation's laws.",
     "tier": 2,
-    "rank": 314
+    "rank": 314,
+    "freq": 2,
+    "freq_rank": 848
   },
   {
     "word": "nyrsi",
@@ -7166,7 +12359,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To physically support the weight of a load and transport it from one location to another.",
     "tier": 1,
-    "rank": 91
+    "rank": 91,
+    "freq": 41,
+    "freq_rank": 122,
+    "example": {
+      "fiwo": "Daq nyrsis zabatop.",
+      "english": "He will carry the bag."
+    }
   },
   {
     "word": "nyta",
@@ -7174,7 +12373,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the part projecting above the mouth on the face of a person or animal, used for smelling.",
     "tier": 1,
-    "rank": 300
+    "rank": 300,
+    "freq": 0,
+    "freq_rank": 2500,
+    "example": {
+      "fiwo": "Nytap dalem je tandei.",
+      "english": "Their nose is big."
+    }
   },
   {
     "word": "nyvumu",
@@ -7182,7 +12387,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The daily event of the sun appearing above the horizon.",
     "tier": 3,
-    "rank": 14
+    "rank": 14,
+    "freq": 1,
+    "freq_rank": 1156,
+    "example": {
+      "fiwo": "Mik xalid dury nyvumu.",
+      "english": "I went at sunrise."
+    }
   },
   {
     "word": "nyxidi",
@@ -7190,7 +12401,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To pay for the temporary use of something owned by another.",
     "tier": 2,
-    "rank": 356
+    "rank": 356,
+    "freq": 1,
+    "freq_rank": 1157
   },
   {
     "word": "obta",
@@ -7198,7 +12411,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A small, colonial social insect of the family Formicidae.",
     "tier": 3,
-    "rank": 404
+    "rank": 404,
+    "freq": 6,
+    "freq_rank": 519,
+    "example": {
+      "fiwo": "Obtap xalidyq deky sydop.",
+      "english": "The ant was moving inside the house."
+    }
   },
   {
     "word": "ocadu",
@@ -7206,7 +12425,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract systematic enterprise that builds and organizes knowledge in the form of testable, logical explanations.",
     "tier": 2,
-    "rank": 204
+    "rank": 204,
+    "freq": 2,
+    "freq_rank": 849,
+    "example": {
+      "fiwo": "Ocadup jofiq nofaup.",
+      "english": "Science is helping humanity."
+    }
   },
   {
     "word": "ocfe",
@@ -7214,7 +12439,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Not genuine; imitation or counterfeit (specifically physical or abstract imitation).",
     "tier": 1,
-    "rank": 296
+    "rank": 296,
+    "freq": 0,
+    "freq_rank": 2507,
+    "example": {
+      "fiwo": "Oqop ocfeid.",
+      "english": "The ticket was fake."
+    }
   },
   {
     "word": "odaze",
@@ -7222,7 +12453,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describing an event or state that happens incredibly quickly and entirely without warning or expectation.",
     "tier": 3,
-    "rank": 253
+    "rank": 253,
+    "freq": 1,
+    "freq_rank": 1158,
+    "example": {
+      "fiwo": "Domlop odazeid.",
+      "english": "The rain was sudden."
+    }
   },
   {
     "word": "odcano",
@@ -7230,7 +12467,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thick, heavy, and highly strong physical cord created by twisting or braiding smaller threads or fibers together.",
     "tier": 2,
-    "rank": 320
+    "rank": 320,
+    "freq": 17,
+    "freq_rank": 266,
+    "example": {
+      "fiwo": "Odcanop doteid.",
+      "english": "The rope was strong."
+    }
   },
   {
     "word": "oege",
@@ -7238,7 +12481,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Kept hidden from others; confidential or clandestine.",
     "tier": 3,
-    "rank": 49
+    "rank": 49,
+    "freq": 0,
+    "freq_rank": 2510,
+    "example": {
+      "fiwo": "Ufaxop oegeid.",
+      "english": "The message was secret."
+    }
   },
   {
     "word": "ofxu",
@@ -7246,7 +12495,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A painful feeling of humiliation, distress, or dishonor caused by consciousness of wrong behavior.",
     "tier": 2,
-    "rank": 295
+    "rank": 295,
+    "freq": 6,
+    "freq_rank": 520,
+    "example": {
+      "fiwo": "Ofxup ry daq tandeid.",
+      "english": "His shame was great."
+    }
   },
   {
     "word": "ogiru",
@@ -7254,7 +12509,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract knowledge, familiarity, or practical wisdom gained from observing or undergoing events.",
     "tier": 2,
-    "rank": 223
+    "rank": 223,
+    "freq": 1,
+    "freq_rank": 1161,
+    "example": {
+      "fiwo": "Ogirup ry mik tandeid.",
+      "english": "My experience was great."
+    }
   },
   {
     "word": "ogzo",
@@ -7262,7 +12523,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A piece of absorbent cloth or paper used for drying things or oneself.",
     "tier": 3,
-    "rank": 97
+    "rank": 97,
+    "freq": 2,
+    "freq_rank": 851,
+    "example": {
+      "fiwo": "Ogzop dorsoeid.",
+      "english": "The towel was wet."
+    }
   },
   {
     "word": "ojese",
@@ -7270,7 +12537,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Not occurring very often; uncommon, exceptional, or hard to find.",
     "tier": 3,
-    "rank": 109
+    "rank": 109,
+    "freq": 0,
+    "freq_rank": 2516,
+    "example": {
+      "fiwo": "Mifap ojesei.",
+      "english": "The animal is rare."
+    }
   },
   {
     "word": "okezu",
@@ -7278,7 +12551,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract statement deliberately intended to deceive or misrepresent reality.",
     "tier": 3,
-    "rank": 79
+    "rank": 79,
+    "freq": 17,
+    "freq_rank": 267,
+    "example": {
+      "fiwo": "okezup mike bokeid.",
+      "english": "My lie was bad."
+    }
   },
   {
     "word": "okse",
@@ -7286,7 +12565,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Logically incorrect or factually inaccurate.",
     "tier": 1,
-    "rank": 248
+    "rank": 248,
+    "freq": 12,
+    "freq_rank": 355,
+    "example": {
+      "fiwo": "Isamup oksei.",
+      "english": "The result is wrong."
+    }
   },
   {
     "word": "olifu",
@@ -7294,7 +12579,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The systematic, conceptual investigation into materials and sources to establish new facts.",
     "tier": 2,
-    "rank": 89
+    "rank": 89,
+    "freq": 3,
+    "freq_rank": 730,
+    "example": {
+      "fiwo": "Olifup ry mik cimidyq.",
+      "english": "My research was starting."
+    }
   },
   {
     "word": "olkenko",
@@ -7302,7 +12593,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical design or object worn or displayed to represent a person, group, or idea.",
     "tier": 3,
-    "rank": 363
+    "rank": 363,
+    "freq": 0,
+    "freq_rank": 2522,
+    "example": {
+      "fiwo": "Olkenkop ty lodrop.",
+      "english": "The emblem is on the banner."
+    }
   },
   {
     "word": "ombi",
@@ -7310,7 +12607,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To cause a physical object or abstract message to be conveyed to a separate destination.",
     "tier": 1,
-    "rank": 275
+    "rank": 275,
+    "freq": 3,
+    "freq_rank": 731,
+    "example": {
+      "fiwo": "Mik ombis ufaxop zy suk.",
+      "english": "I will send the message to you."
+    }
   },
   {
     "word": "onasi",
@@ -7318,7 +12621,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively grow, tend to, or farm biological crops or plants.",
     "tier": 2,
-    "rank": 334
+    "rank": 334,
+    "freq": 1,
+    "freq_rank": 1163,
+    "example": {
+      "fiwo": "Pebap onasis sycar.",
+      "english": "Father will plant seeds."
+    }
   },
   {
     "word": "onexe",
@@ -7326,7 +12635,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes a numerical value, state, or quantity that is close to the referenced benchmark but not exact.",
     "tier": 2,
-    "rank": 244
+    "rank": 244,
+    "freq": 1,
+    "freq_rank": 1164
   },
   {
     "word": "ongu",
@@ -7334,7 +12645,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The act of breaking trust, being disloyal, or working secretly against one's country, group, or a person.",
     "tier": 3,
-    "rank": 427
+    "rank": 427,
+    "freq": 0,
+    "freq_rank": 2528,
+    "example": {
+      "fiwo": "Ongup ry daq bokeid.",
+      "english": "His betrayal was bad."
+    }
   },
   {
     "word": "onli",
@@ -7342,7 +12659,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To apply friction or pressure to a surface by moving something back and forth over it.",
     "tier": 3,
-    "rank": 379
+    "rank": 379,
+    "freq": 0,
+    "freq_rank": 2530,
+    "example": {
+      "fiwo": "Mik onlis belap.",
+      "english": "I will rub the foot."
+    }
   },
   {
     "word": "onyfu",
@@ -7350,7 +12673,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Something so strange that no explanation can be named; stronger than gyke (weird). Logical equivalent: Ram gykei huhe. Nofa nes eksapli luge ram. (It is extremely weird. One cannot explain it.)",
     "tier": 3,
-    "rank": 116
+    "rank": 116,
+    "freq": 0,
+    "freq_rank": 2532,
+    "example": {
+      "fiwo": "Kop ebmeri onyfur.",
+      "english": "Remember the inexplicable."
+    }
   },
   {
     "word": "opcori",
@@ -7358,7 +12687,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To move a spoon or other implement around in a liquid or other substance in order to mix it thoroughly.",
     "tier": 3,
-    "rank": 136
+    "rank": 136,
+    "freq": 1,
+    "freq_rank": 1165
   },
   {
     "word": "opdi",
@@ -7366,7 +12697,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To speak very softly using one's breath rather than vocal cords to prevent others from hearing.",
     "tier": 3,
-    "rank": 414
+    "rank": 414,
+    "freq": 0,
+    "freq_rank": 2534,
+    "example": {
+      "fiwo": "Nak opdid ufaxop.",
+      "english": "We whispered the message."
+    }
   },
   {
     "word": "opowo",
@@ -7374,7 +12711,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A rounded swelling body: the glass envelope of an electric lamp, or the round underground bud of a plant.",
     "tier": 3,
-    "rank": 426
+    "rank": 426,
+    "freq": 0,
+    "freq_rank": 2536,
+    "example": {
+      "fiwo": "Opowop lande.",
+      "english": "The bulb is small."
+    }
   },
   {
     "word": "opubu",
@@ -7382,7 +12725,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Attacking someone already defeated. Logical equivalent: Nofap wafrid. Daq satsid dal. (The person lost. He still hit them.)",
     "tier": 3,
-    "rank": 28
+    "rank": 28,
+    "freq": 0,
+    "freq_rank": 2538,
+    "example": {
+      "fiwo": "Kop ebmeri opubur.",
+      "english": "Remember cruelty-to-the-fallen."
+    }
   },
   {
     "word": "oqawa",
@@ -7390,7 +12739,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A single reproductive unit of fungi, ferns, and mosses.",
     "tier": 3,
-    "rank": 457
+    "rank": 457,
+    "freq": 0,
+    "freq_rank": 2539,
+    "example": {
+      "fiwo": "Lehap lini oqawa je.",
+      "english": "The fern makes spores."
+    }
   },
   {
     "word": "oqo",
@@ -7398,7 +12753,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A small piece of paper or card showing that the holder is entitled to travel, enter a place, or participate in an event.",
     "tier": 2,
-    "rank": 348
+    "rank": 348,
+    "freq": 2,
+    "freq_rank": 852,
+    "example": {
+      "fiwo": "Oqop xiveid.",
+      "english": "The ticket was expensive."
+    }
   },
   {
     "word": "orari",
@@ -7406,7 +12767,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To cook food quickly by moving it continuously in a small amount of hot oil over high heat.",
     "tier": 3,
-    "rank": 429
+    "rank": 429,
+    "freq": 0,
+    "freq_rank": 2542,
+    "example": {
+      "fiwo": "Das oraris zobap je.",
+      "english": "She will sauté the vegetables."
+    }
   },
   {
     "word": "orku",
@@ -7414,7 +12781,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract numerical quantity or value assigned to represent achievement, performance, or a result in a test or game.",
     "tier": 2,
-    "rank": 366
+    "rank": 366,
+    "freq": 0,
+    "freq_rank": 2544,
+    "example": {
+      "fiwo": "Orkup ry mik zaveid.",
+      "english": "My score was high."
+    }
   },
   {
     "word": "orve",
@@ -7422,7 +12795,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Capable of causing illness, injury, or death when introduced into or absorbed by a living organism.",
     "tier": 2,
-    "rank": 294
+    "rank": 294,
+    "freq": 1,
+    "freq_rank": 1166,
+    "example": {
+      "fiwo": "Zobap orvei.",
+      "english": "The vegetable is poisonous."
+    }
   },
   {
     "word": "osaju",
@@ -7430,7 +12809,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the cardinal direction corresponding to the point where the sun sets, oriented to the left when facing north.",
     "tier": 2,
-    "rank": 347
+    "rank": 347,
+    "freq": 0,
+    "freq_rank": 2547,
+    "example": {
+      "fiwo": "Osajup capeis.",
+      "english": "The west will be dark."
+    }
   },
   {
     "word": "ostu",
@@ -7438,7 +12823,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the cardinal direction corresponding to the point where the sun rises, oriented to the right when facing north.",
     "tier": 2,
-    "rank": 259
+    "rank": 259,
+    "freq": 2,
+    "freq_rank": 854,
+    "example": {
+      "fiwo": "Ostup locweid.",
+      "english": "The east was bright."
+    }
   },
   {
     "word": "oswyplo",
@@ -7446,7 +12837,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A place or state of great suffering; the underworld of torment in myth and religion.",
     "tier": 2,
-    "rank": 140
+    "rank": 140,
+    "freq": 1,
+    "freq_rank": 1169,
+    "example": {
+      "fiwo": "Oswyplo cape.",
+      "english": "Hell is dark."
+    }
   },
   {
     "word": "osybu",
@@ -7454,7 +12851,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The state of accepting a situation because nothing can be done about it (Mandarin wunai). Logical equivalent: Daq nes solfi luge jormup. Daq dzefi ram. (He cannot solve the situation. He accepts it.)",
     "tier": 3,
-    "rank": 38
+    "rank": 38,
+    "freq": 1,
+    "freq_rank": 1170,
+    "example": {
+      "fiwo": "Kop ebmeri osybur.",
+      "english": "Remember helpless resignation."
+    }
   },
   {
     "word": "otani",
@@ -7462,7 +12865,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To chemically or physically alter food matter for consumption by systematically applying thermal energy.",
     "tier": 1,
-    "rank": 293
+    "rank": 293,
+    "freq": 12,
+    "freq_rank": 356,
+    "example": {
+      "fiwo": "Manap mike otanis mitap.",
+      "english": "My mother will cook the meat."
+    }
   },
   {
     "word": "otma",
@@ -7470,7 +12879,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word identifies a physical, biological disorder, infection, or abnormal condition that actively disrupts the physiological function and tissue of a living organism.",
     "tier": 2,
-    "rank": 97
+    "rank": 97,
+    "freq": 9,
+    "freq_rank": 419,
+    "example": {
+      "fiwo": "Otmap cimidyq.",
+      "english": "The sickness was starting."
+    }
   },
   {
     "word": "otre",
@@ -7478,7 +12893,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes an entity that is distinct from, different than, or remaining outside the specific entity currently being referenced.",
     "tier": 2,
-    "rank": 13
+    "rank": 13,
+    "freq": 45,
+    "freq_rank": 108,
+    "example": {
+      "fiwo": "Nak foisois sydor otre.",
+      "english": "We will build another house."
+    }
   },
   {
     "word": "otsino",
@@ -7486,7 +12907,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A long, very thin flexible strand of fiber structurally used for sewing, tying, or weaving.",
     "tier": 2,
-    "rank": 315
+    "rank": 315,
+    "freq": 3,
+    "freq_rank": 733,
+    "example": {
+      "fiwo": "Otsinop skagid.",
+      "english": "The thread broke."
+    }
   },
   {
     "word": "ouzu",
@@ -7494,7 +12921,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Compassion, pity, or forgiveness shown toward someone whom it is within one's power to punish or harm.",
     "tier": 3,
-    "rank": 285
+    "rank": 285,
+    "freq": 1,
+    "freq_rank": 1171,
+    "example": {
+      "fiwo": "Ouzup ry rezap tandeid.",
+      "english": "The mercy of the president was great."
+    }
   },
   {
     "word": "ov",
@@ -7502,7 +12935,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Phatic expressing sympathy, dismay, or concern at bad news; 'oh no / that's awful.' Standalone on the Null Track (Rule 33).",
     "tier": 0,
-    "rank": 110
+    "rank": 110,
+    "freq": 2,
+    "freq_rank": 855,
+    "example": {
+      "fiwo": "Ov. Detap suke kimugid.",
+      "english": "Oh no. Your dog died."
+    }
   },
   {
     "word": "ovami",
@@ -7511,7 +12950,13 @@ const dictionaryData = [
     "definition": "To complete a physical or conceptual journey and successfully transition into a final destination.",
     "usage_note": "Emphasizes completing a journey and transitioning into the destination. Compare jobori (to actively reach a point, limit, or endpoint).",
     "tier": 2,
-    "rank": 332
+    "rank": 332,
+    "freq": 24,
+    "freq_rank": 202,
+    "example": {
+      "fiwo": "Nak ovamis ky London.",
+      "english": "We will arrive in London."
+    }
   },
   {
     "word": "ovce",
@@ -7519,7 +12964,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "At all times; uninterruptedly or on every occasion.",
     "tier": 1,
-    "rank": 232
+    "rank": 232,
+    "freq": 3,
+    "freq_rank": 734,
+    "example": {
+      "fiwo": "Dugup jabei ovce.",
+      "english": "The night is always cold."
+    }
   },
   {
     "word": "ovpa",
@@ -7527,7 +12978,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The part of the body that connects the head to the torso.",
     "tier": 1,
-    "rank": 294
+    "rank": 294,
+    "freq": 0,
+    "freq_rank": 2555,
+    "example": {
+      "fiwo": "Ovpap ry daq jozeid.",
+      "english": "His neck was long."
+    }
   },
   {
     "word": "ovro",
@@ -7535,7 +12992,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A utensil with two or more prongs, used for lifting food to the mouth or holding it in place while cutting.",
     "tier": 3,
-    "rank": 351
+    "rank": 351,
+    "freq": 1,
+    "freq_rank": 1172,
+    "example": {
+      "fiwo": "Ovrop ruteid.",
+      "english": "The fork was sharp."
+    }
   },
   {
     "word": "owadi",
@@ -7543,7 +13006,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To mathematically exhaust, exchange, or use up a measurable resource, such as time or money.",
     "tier": 3,
-    "rank": 12
+    "rank": 12,
+    "freq": 2,
+    "freq_rank": 856,
+    "example": {
+      "fiwo": "Daq owadid gidu late.",
+      "english": "He spent all the money."
+    }
   },
   {
     "word": "oxahu",
@@ -7551,7 +13020,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract conceptual plan of organized work, an enterprise, or a specific targeted undertaking.",
     "tier": 2,
-    "rank": 367
+    "rank": 367,
+    "freq": 2,
+    "freq_rank": 857,
+    "example": {
+      "fiwo": "Oxahup ry mik cimidyq.",
+      "english": "My project was starting."
+    }
   },
   {
     "word": "oxno",
@@ -7559,7 +13034,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A pocket-sized, flat folding case for holding money and cards.",
     "tier": 3,
-    "rank": 317
+    "rank": 317,
+    "freq": 1,
+    "freq_rank": 1173,
+    "example": {
+      "fiwo": "Oxnop myi gidur.",
+      "english": "The wallet contains money."
+    }
   },
   {
     "word": "oxopi",
@@ -7567,7 +13048,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively arrange entities, systems, or events into a structured and logical order.",
     "tier": 3,
-    "rank": 362
+    "rank": 362,
+    "freq": 0,
+    "freq_rank": 2561,
+    "example": {
+      "fiwo": "Das oxopis taicup.",
+      "english": "She will organize the party."
+    }
   },
   {
     "word": "oxti",
@@ -7575,7 +13062,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively maintain a barrier that keeps an entity or system safe from physical harm or logical corruption.",
     "tier": 2,
-    "rank": 190
+    "rank": 190,
+    "freq": 1,
+    "freq_rank": 1174,
+    "example": {
+      "fiwo": "Oxtiap oxtis Rezap.",
+      "english": "The guard will protect the President."
+    }
   },
   {
     "word": "ozepi",
@@ -7583,7 +13076,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To feel or express a strong hope or longing for a specific outcome or reality, often one that is not immediately or easily attainable.",
     "tier": 2,
-    "rank": 381
+    "rank": 381,
+    "freq": 0,
+    "freq_rank": 2564,
+    "example": {
+      "fiwo": "Mik ozepis wece.",
+      "english": "I wish well."
+    }
   },
   {
     "word": "ozoxi",
@@ -7591,7 +13090,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To fill a physical space, consume a duration of time, or hold a specific position.",
     "tier": 2,
-    "rank": 262
+    "rank": 262,
+    "freq": 0,
+    "freq_rank": 2567,
+    "example": {
+      "fiwo": "Sydop ozoxis krulo late.",
+      "english": "The house occupies all rooms."
+    }
   },
   {
     "word": "pabici",
@@ -7599,7 +13104,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To examine something in detail to understand its parts and structure.",
     "tier": 3,
-    "rank": 127
+    "rank": 127,
+    "freq": 2,
+    "freq_rank": 859
   },
   {
     "word": "padupro",
@@ -7607,7 +13114,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "Molten rock, glowing and fluid with extreme heat, found underground or flowing from volcanic openings.",
     "tier": 3,
-    "rank": 407
+    "rank": 407,
+    "freq": 0,
+    "freq_rank": 2571,
+    "example": {
+      "fiwo": "Paduprop ripe.",
+      "english": "The lava is hot."
+    }
   },
   {
     "word": "paelo",
@@ -7615,7 +13128,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thin, flat physical material manufactured from processed pulp, used primarily for writing, printing, or structural packaging.",
     "tier": 1,
-    "rank": 168
+    "rank": 168,
+    "freq": 30,
+    "freq_rank": 169,
+    "example": {
+      "fiwo": "Mik jamid ty paelop.",
+      "english": "I wrote on the paper."
+    }
   },
   {
     "word": "pagari",
@@ -7623,7 +13142,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To transfer money or abstract value in exchange for goods or services.",
     "tier": 1,
-    "rank": 125
+    "rank": 125,
+    "freq": 23,
+    "freq_rank": 214,
+    "example": {
+      "fiwo": "Mik pagarid melfup.",
+      "english": "I paid the price."
+    }
   },
   {
     "word": "paguku",
@@ -7631,7 +13156,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Deliberately not interfering; letting events take their natural course. Logical equivalent: Daq dogi tep cemu je linuci. (He lets things happen.)",
     "tier": 3,
-    "rank": 67
+    "rank": 67,
+    "freq": 1,
+    "freq_rank": 1175,
+    "example": {
+      "fiwo": "Kop ebmeri pagukur.",
+      "english": "Remember letting-things-unfold."
+    }
   },
   {
     "word": "paja",
@@ -7639,7 +13170,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A male biological relative who is the brother of one's parent.",
     "tier": 2,
-    "rank": 387
+    "rank": 387,
+    "freq": 0,
+    "freq_rank": 2576,
+    "example": {
+      "fiwo": "Nupataqap ry mik stomidyq panop.",
+      "english": "My uncle was giving the book."
+    }
   },
   {
     "word": "pampigi",
@@ -7647,7 +13184,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To have a specific action, use, or outcome in mind as one's plan or purpose.",
     "tier": 2,
-    "rank": 293
+    "rank": 293,
+    "freq": 0,
+    "freq_rank": 2578,
+    "example": {
+      "fiwo": "Mik pampigid nomit batap.",
+      "english": "I intended to eat the food."
+    }
   },
   {
     "word": "pamu",
@@ -7655,7 +13198,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to physical suffering or discomfort; a distinct sensory experience of hurting or emotional suffering.",
     "tier": 2,
-    "rank": 63
+    "rank": 63,
+    "freq": 5,
+    "freq_rank": 582,
+    "example": {
+      "fiwo": "Mik paulid pamup.",
+      "english": "I felt the pain."
+    }
   },
   {
     "word": "pano",
@@ -7663,7 +13212,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a written or printed work consisting of pages bound together, or a digital equivalent, used to store information.",
     "tier": 1,
-    "rank": 49
+    "rank": 49,
+    "freq": 134,
+    "freq_rank": 37,
+    "example": {
+      "fiwo": "Das lokid panop.",
+      "english": "She read the book."
+    }
   },
   {
     "word": "parawu",
@@ -7671,7 +13226,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract systemic belief, behavior, or cultural practice passed down continuously through generations.",
     "tier": 2,
-    "rank": 301
+    "rank": 301,
+    "freq": 1,
+    "freq_rank": 1178,
+    "example": {
+      "fiwo": "Parawup ry nak waskeid.",
+      "english": "Our tradition was old."
+    }
   },
   {
     "word": "parkucu",
@@ -7679,7 +13240,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A specified day identified within the calendar.",
     "tier": 2,
-    "rank": 168
+    "rank": 168,
+    "freq": 1,
+    "freq_rank": 1179
   },
   {
     "word": "pary",
@@ -7687,7 +13250,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates that the main action must conclude strictly prior to the referenced temporal baseline or event.",
     "tier": 0,
-    "rank": 30
+    "rank": 30,
+    "freq": 24,
+    "freq_rank": 203,
+    "example": {
+      "fiwo": "Mik nomis pary naciur.",
+      "english": "I will eat before work."
+    }
   },
   {
     "word": "paswu",
@@ -7695,7 +13264,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract, continuous, and systematic record or study of past events.",
     "tier": 2,
-    "rank": 48
+    "rank": 48,
+    "freq": 1,
+    "freq_rank": 1180,
+    "example": {
+      "fiwo": "Paswup ry nak jozeid.",
+      "english": "Our history was long."
+    }
   },
   {
     "word": "pate",
@@ -7703,7 +13278,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes the savory or meaty taste sensation, characteristic of broths and cooked meats.",
     "tier": 3,
-    "rank": 95
+    "rank": 95,
+    "freq": 0,
+    "freq_rank": 2584,
+    "example": {
+      "fiwo": "Mitap suve patei.",
+      "english": "Your meat is savory."
+    }
   },
   {
     "word": "pauli",
@@ -7711,7 +13292,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to experience an emotion or sensation.",
     "tier": 2,
-    "rank": 1
+    "rank": 1,
+    "freq": 28,
+    "freq_rank": 180,
+    "example": {
+      "fiwo": "Mik paulid pamup.",
+      "english": "I felt the pain."
+    }
   },
   {
     "word": "paxu",
@@ -7719,7 +13306,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract sensory or conceptual experience of profound positive enjoyment, satisfaction, or physical gratification.",
     "tier": 2,
-    "rank": 336
+    "rank": 336,
+    "freq": 1,
+    "freq_rank": 1182,
+    "example": {
+      "fiwo": "Paxup ry mik tandeid.",
+      "english": "My pleasure was great."
+    }
   },
   {
     "word": "peba",
@@ -7727,7 +13320,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the male parent of a biological offspring.",
     "tier": 1,
-    "rank": 199
+    "rank": 199,
+    "freq": 35,
+    "freq_rank": 142,
+    "example": {
+      "fiwo": "Pebap mike nacid.",
+      "english": "My father worked."
+    }
   },
   {
     "word": "pedu",
@@ -7735,7 +13334,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the capacity or ability to direct or influence the behavior of others or the course of events.",
     "tier": 2,
-    "rank": 66
+    "rank": 66,
+    "freq": 2,
+    "freq_rank": 862,
+    "example": {
+      "fiwo": "Rezap jedi pedup.",
+      "english": "The president has the power."
+    }
   },
   {
     "word": "pegi",
@@ -7743,7 +13348,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To bend something flexible over on itself so that one part of it covers another.",
     "tier": 3,
-    "rank": 332
+    "rank": 332,
+    "freq": 0,
+    "freq_rank": 2592,
+    "example": {
+      "fiwo": "Kop pegi paelop!",
+      "english": "Fold the paper!"
+    }
   },
   {
     "word": "pemolko",
@@ -7751,7 +13362,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A device that converts sound into an electrical signal.",
     "tier": 3,
-    "rank": 148
+    "rank": 148,
+    "freq": 1,
+    "freq_rank": 1183
   },
   {
     "word": "pen",
@@ -7759,7 +13372,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Clausal wall introducing a direct result, consequence, or logical conclusion.",
     "tier": 0,
-    "rank": 11
+    "rank": 11,
+    "freq": 32,
+    "freq_rank": 156,
+    "example": {
+      "fiwo": "Daq nacid du late pen daq iweid.",
+      "english": "He worked all day, so he was tired."
+    }
   },
   {
     "word": "perinatu",
@@ -7767,7 +13386,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A massive, abstract conceptual paradigm shift, or the forcible systemic overthrow of a government (govnu) or social order.",
     "tier": 3,
-    "rank": 180
+    "rank": 180,
+    "freq": 0,
+    "freq_rank": 2594,
+    "example": {
+      "fiwo": "Perinatup ry xekup cimidyq.",
+      "english": "The revolution of the country was starting."
+    }
   },
   {
     "word": "pesu",
@@ -7775,7 +13400,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear.",
     "tier": 2,
-    "rank": 61
+    "rank": 61,
+    "freq": 25,
+    "freq_rank": 194,
+    "example": {
+      "fiwo": "Mik paulidyq pesur.",
+      "english": "I was hearing a sound."
+    }
   },
   {
     "word": "peteswi",
@@ -7783,7 +13414,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To pay out money in exchange for goods or services.",
     "tier": 2,
-    "rank": 258
+    "rank": 258,
+    "freq": 1,
+    "freq_rank": 1184
   },
   {
     "word": "petni",
@@ -7791,7 +13424,27 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to separate and expel waste matter from the body.",
     "tier": 3,
-    "rank": 458
+    "rank": 458,
+    "freq": 0,
+    "freq_rank": 2599,
+    "example": {
+      "fiwo": "Mifap petnid.",
+      "english": "The animal excreted."
+    }
+  },
+  {
+    "word": "peto",
+    "english_equiv": "Frame",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A rigid border or structure that encloses, holds, or displays something.",
+    "tier": 3,
+    "rank": 566,
+    "freq": 0,
+    "freq_rank": 2600,
+    "example": {
+      "fiwo": "Petop jedi lakirop.",
+      "english": "The frame holds a picture."
+    }
   },
   {
     "word": "peze",
@@ -7799,7 +13452,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an event or action occurring at a subsequent time relative to the current baseline.",
     "tier": 1,
-    "rank": 240
+    "rank": 240,
+    "freq": 38,
+    "freq_rank": 134,
+    "example": {
+      "fiwo": "Mik plis peze.",
+      "english": "I will arrive later."
+    }
   },
   {
     "word": "picalo",
@@ -7807,7 +13466,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a highly specialized physical building or institution providing medical and surgical treatment for sick or injured people.",
     "tier": 1,
-    "rank": 151
+    "rank": 151,
+    "freq": 6,
+    "freq_rank": 522,
+    "example": {
+      "fiwo": "Picalop ceni hemye.",
+      "english": "The hospital is nearby."
+    }
   },
   {
     "word": "piji",
@@ -7815,7 +13480,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To inform someone in advance of an impending danger, threat, or problem.",
     "tier": 3,
-    "rank": 343
+    "rank": 343,
+    "freq": 0,
+    "freq_rank": 2603,
+    "example": {
+      "fiwo": "Farlopap pijid Rezap.",
+      "english": "The doctor warned the President."
+    }
   },
   {
     "word": "pilke",
@@ -7823,7 +13494,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Living; possessing biological life.",
     "tier": 3,
-    "rank": 88
+    "rank": 88,
+    "freq": 2,
+    "freq_rank": 863,
+    "example": {
+      "fiwo": "Nasap pilkei.",
+      "english": "The plant is alive."
+    }
   },
   {
     "word": "pimpefe",
@@ -7831,7 +13508,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Able to be obtained, used, or accessed.",
     "tier": 2,
-    "rank": 148
+    "rank": 148,
+    "freq": 0,
+    "freq_rank": 2606
   },
   {
     "word": "piny",
@@ -7839,7 +13518,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "This word indicates that one thing resembles another or shares common characteristics without being identical.",
     "tier": 0,
-    "rank": 89
+    "rank": 89,
+    "freq": 19,
+    "freq_rank": 238,
+    "example": {
+      "fiwo": "Daq cafiq piny detar.",
+      "english": "He runs like a dog."
+    }
   },
   {
     "word": "pise",
@@ -7847,7 +13532,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes the taste sensation characteristic of acids, like lemon juice or vinegar.",
     "tier": 3,
-    "rank": 203
+    "rank": 203,
+    "freq": 0,
+    "freq_rank": 2609,
+    "example": {
+      "fiwo": "Aplap pisei.",
+      "english": "The apple is sour."
+    }
   },
   {
     "word": "pixra",
@@ -7855,7 +13546,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies each of the hard, white structures in the mouth used for biting and chewing.",
     "tier": 1,
-    "rank": 311
+    "rank": 311,
+    "freq": 1,
+    "freq_rank": 1186,
+    "example": {
+      "fiwo": "Nidap mike ripei.",
+      "english": "My tooth is hot."
+    }
   },
   {
     "word": "pizu",
@@ -7863,7 +13560,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The fact or state of having committed a specified or implied offense, crime, or moral wrong.",
     "tier": 3,
-    "rank": 314
+    "rank": 314,
+    "freq": 1,
+    "freq_rank": 1188,
+    "example": {
+      "fiwo": "Pizup ry daq tandeid.",
+      "english": "His guilt was great."
+    }
   },
   {
     "word": "plaho",
@@ -7871,7 +13574,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A mechanical or electronic fastening device constructed to physically secure a door or container until opened by a key or code.",
     "tier": 2,
-    "rank": 458
+    "rank": 458,
+    "freq": 2,
+    "freq_rank": 865,
+    "example": {
+      "fiwo": "Plahop lefeid.",
+      "english": "The lock was hard."
+    }
   },
   {
     "word": "pli",
@@ -7879,7 +13588,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to move toward a specific location or the speaker.",
     "tier": 1,
-    "rank": 26
+    "rank": 26,
+    "freq": 111,
+    "freq_rank": 43,
+    "example": {
+      "fiwo": "Nauxap mike plid.",
+      "english": "My friend arrived."
+    }
   },
   {
     "word": "plolso",
@@ -7887,7 +13602,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A generic unit of money or currency; a monetary denomination that can be counted. Specific named currencies use Tier-2 borrowings (e.g. euro-o).",
     "tier": 3,
-    "rank": 233
+    "rank": 233,
+    "freq": 0,
+    "freq_rank": 2615,
+    "example": {
+      "fiwo": "Mik jedi plolso lere.",
+      "english": "I have ten monetary units."
+    }
   },
   {
     "word": "plurata",
@@ -7895,7 +13616,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "Any small, round, juicy fruit without a stone, growing on bushes or vines; the general term of which grapa (grape) is one kind.",
     "tier": 3,
-    "rank": 356
+    "rank": 356,
+    "freq": 0,
+    "freq_rank": 2618,
+    "example": {
+      "fiwo": "Mik nomid pluratap.",
+      "english": "I ate the berry."
+    }
   },
   {
     "word": "pobre",
@@ -7903,7 +13630,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes an entity lacking sufficient resources, wealth, or structural quality to maintain a comfortable baseline.",
     "tier": 2,
-    "rank": 137
+    "rank": 137,
+    "freq": 1,
+    "freq_rank": 1189,
+    "example": {
+      "fiwo": "Naxup pobrei.",
+      "english": "The group is poor."
+    }
   },
   {
     "word": "poco",
@@ -7911,7 +13644,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This word refers to a specific physical location or spatial coordinate that is distant or removed from the speaker's current environment.",
     "tier": 1,
-    "rank": 221
+    "rank": 221,
+    "freq": 8,
+    "freq_rank": 448,
+    "example": {
+      "fiwo": "Mik xalid poco.",
+      "english": "I went there."
+    }
   },
   {
     "word": "pogafu",
@@ -7919,7 +13658,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual state of harmony, tranquility, and the complete mathematical absence of conflict.",
     "tier": 2,
-    "rank": 119
+    "rank": 119,
+    "freq": 3,
+    "freq_rank": 735,
+    "example": {
+      "fiwo": "Pogafup ry xekup gawei.",
+      "english": "The peace of the country is good."
+    }
   },
   {
     "word": "poka",
@@ -7927,7 +13672,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the fine thread-like strands growing from the skin of humans, mammals, and some other animals.",
     "tier": 1,
-    "rank": 273
+    "rank": 273,
+    "freq": 0,
+    "freq_rank": 2622,
+    "example": {
+      "fiwo": "Daq cotidyq pokap.",
+      "english": "He was cutting the hair."
+    }
   },
   {
     "word": "ponxa",
@@ -7935,7 +13686,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word identifies an infective biological agent—typically consisting of nucleic acid within a protein coat—that is only able to multiply within the living cells of a host.",
     "tier": 3,
-    "rank": 216
+    "rank": 216,
+    "freq": 0,
+    "freq_rank": 2625,
+    "example": {
+      "fiwo": "Ponxap neswy sydor.",
+      "english": "The virus is without a home."
+    }
   },
   {
     "word": "popepe",
@@ -7943,7 +13700,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Mildly cold in a pleasant way; a middle temperature between jabe (cold) and ripe (hot), on the cold side of fyjebe (warm).",
     "tier": 2,
-    "rank": 380
+    "rank": 380,
+    "freq": 0,
+    "freq_rank": 2627,
+    "example": {
+      "fiwo": "Xabesop popepe.",
+      "english": "The wind is cool."
+    }
   },
   {
     "word": "porce",
@@ -7951,7 +13714,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting the color of a ripe orange or the setting sun; a blend of red and yellow.",
     "tier": 3,
-    "rank": 149
+    "rank": 149,
+    "freq": 0,
+    "freq_rank": 2630,
+    "example": {
+      "fiwo": "Artetap porcei.",
+      "english": "The fruit is orange."
+    }
   },
   {
     "word": "pot",
@@ -7959,7 +13728,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "This acts as a structural pivot within a numerical sequence. It explicitly signals to the parser that the whole integers have stopped, and any digits following it are to be read sequentially as fractional values. The parser reads the entire sequence, including the decimal pivot, as a single quantitative block until the final -t stacker is dropped.",
     "tier": 0,
-    "rank": 108
+    "rank": 108,
+    "freq": 2,
+    "freq_rank": 870,
+    "example": {
+      "fiwo": "Tafet pot bimet gloket labnei tafet pot bimet gloket.",
+      "english": "3.14 equals 3.14."
+    }
   },
   {
     "word": "potsuce",
@@ -7967,7 +13742,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number equivalent to one thousand times one million.",
     "tier": 3,
-    "rank": 82
+    "rank": 82,
+    "freq": 0,
+    "freq_rank": 2631,
+    "example": {
+      "fiwo": "Nofar potsuce plid.",
+      "english": "One billion people came."
+    }
   },
   {
     "word": "potu",
@@ -7975,7 +13756,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A conceptual point, a specific item/node on a list, or an abstract degree. (If you are referring to a physical, drawn dot on a piece of paper with ink, you would derive it into the concrete noun potuo).",
     "tier": 2,
-    "rank": 282
+    "rank": 282,
+    "freq": 0,
+    "freq_rank": 2633,
+    "example": {
+      "fiwo": "Potup leupeid.",
+      "english": "The dot was red."
+    }
   },
   {
     "word": "pov",
@@ -7983,7 +13770,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A structural particle used to introduce an event or action happening concurrently with another.",
     "tier": 0,
-    "rank": 93
+    "rank": 93,
+    "freq": 1,
+    "freq_rank": 1192,
+    "example": {
+      "fiwo": "Pov, daq iwei.",
+      "english": "Meanwhile, he is tired."
+    }
   },
   {
     "word": "pozi",
@@ -7991,7 +13784,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to direct one's mind toward someone or something or to form ideas.",
     "tier": 1,
-    "rank": 28
+    "rank": 28,
+    "freq": 46,
+    "freq_rank": 105,
+    "example": {
+      "fiwo": "Mik pozid zety fiturup.",
+      "english": "I thought about the future."
+    }
   },
   {
     "word": "pozmu",
@@ -7999,7 +13798,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the abstract sequence of images, ideas, emotions, and sensations that occur involuntarily in the mind during sleep.",
     "tier": 2,
-    "rank": 325
+    "rank": 325,
+    "freq": 0,
+    "freq_rank": 2635,
+    "example": {
+      "fiwo": "Pozmup mike baudeid.",
+      "english": "My dream was beautiful."
+    }
   },
   {
     "word": "praza",
@@ -8007,7 +13812,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large brown seaweed that grows in underwater forests.",
     "tier": 3,
-    "rank": 446
+    "rank": 446,
+    "freq": 0,
+    "freq_rank": 2637,
+    "example": {
+      "fiwo": "Prazap moriq deky dorsop.",
+      "english": "The kelp is growing in the water."
+    }
   },
   {
     "word": "prifywu",
@@ -8015,7 +13826,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A charge required for a service or right.",
     "tier": 2,
-    "rank": 372
+    "rank": 372,
+    "freq": 1,
+    "freq_rank": 1194
   },
   {
     "word": "priglo",
@@ -8023,7 +13836,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The dark red edible root of the beet plant.",
     "tier": 3,
-    "rank": 447
+    "rank": 447,
+    "freq": 0,
+    "freq_rank": 2639,
+    "example": {
+      "fiwo": "Priglop leupe.",
+      "english": "The beetroot is red."
+    }
   },
   {
     "word": "profolu",
@@ -8031,7 +13850,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An organized store of data that can be searched.",
     "tier": 2,
-    "rank": 433
+    "rank": 433,
+    "freq": 1,
+    "freq_rank": 1195
   },
   {
     "word": "pudy",
@@ -8039,7 +13860,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicating the starting point of a period of time that continues to the present (temporal).",
     "tier": 0,
-    "rank": 94
+    "rank": 94,
+    "freq": 10,
+    "freq_rank": 399,
+    "example": {
+      "fiwo": "Mik ceni tapo pudy dup usy bime.",
+      "english": "I have lived here since day one."
+    }
   },
   {
     "word": "pujypa",
@@ -8047,7 +13874,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The rounded back part of the foot, below the ankle.",
     "tier": 3,
-    "rank": 384
+    "rank": 384,
+    "freq": 0,
+    "freq_rank": 2641,
+    "example": {
+      "fiwo": "Pujypap das rudse.",
+      "english": "Her heel is rough."
+    }
   },
   {
     "word": "punkoku",
@@ -8055,7 +13888,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The formal examination of a legal case in court.",
     "tier": 2,
-    "rank": 278
+    "rank": 278,
+    "freq": 2,
+    "freq_rank": 872
   },
   {
     "word": "puru",
@@ -8063,7 +13898,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A strong desire to know, learn, or investigate something.",
     "tier": 2,
-    "rank": 434
+    "rank": 434,
+    "freq": 1,
+    "freq_rank": 1197,
+    "example": {
+      "fiwo": "Purup ry cadap tandei.",
+      "english": "The curiosity of the child is great."
+    }
   },
   {
     "word": "pusnapo",
@@ -8071,7 +13912,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A machine that reproduces text or images onto paper.",
     "tier": 3,
-    "rank": 91
+    "rank": 91,
+    "freq": 1,
+    "freq_rank": 1198
   },
   {
     "word": "puve",
@@ -8079,7 +13922,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes something commanding a low monetary price or requiring very little exchange of financial value.",
     "tier": 1,
-    "rank": 290
+    "rank": 290,
+    "freq": 1,
+    "freq_rank": 1199,
+    "example": {
+      "fiwo": "Batap puvei.",
+      "english": "The food is cheap."
+    }
   },
   {
     "word": "puxa",
@@ -8087,7 +13936,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a stout-bodied, omnivorous domesticated mammal with sparse bristly hair, kept primarily as livestock.",
     "tier": 3,
-    "rank": 298
+    "rank": 298,
+    "freq": 0,
+    "freq_rank": 2646,
+    "example": {
+      "fiwo": "Puxap nomiq batap.",
+      "english": "The pig is eating the food."
+    }
   },
   {
     "word": "pybo",
@@ -8095,7 +13950,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A cylinder of wax or tallow with a central wick that is burned to provide light.",
     "tier": 3,
-    "rank": 371
+    "rank": 371,
+    "freq": 2,
+    "freq_rank": 874,
+    "example": {
+      "fiwo": "Pybop litoidyq.",
+      "english": "The candle was shining."
+    }
   },
   {
     "word": "pydra",
@@ -8103,7 +13964,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A tall tropical tree native to dense rainforest regions.",
     "tier": 3,
-    "rank": 308
+    "rank": 308,
+    "freq": 0,
+    "freq_rank": 2649,
+    "example": {
+      "fiwo": "Pydrap zave.",
+      "english": "The jungle tree is tall."
+    }
   },
   {
     "word": "pyha",
@@ -8111,7 +13978,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The joint between the thigh and the lower leg in humans and other vertebrates.",
     "tier": 3,
-    "rank": 235
+    "rank": 235,
+    "freq": 1,
+    "freq_rank": 1200,
+    "example": {
+      "fiwo": "Pyhap ry daq lefeid.",
+      "english": "His knee was stiff."
+    }
   },
   {
     "word": "pyju",
@@ -8119,7 +13992,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A state of complete confusion, lack of order, or randomness.",
     "tier": 2,
-    "rank": 220
+    "rank": 220,
+    "freq": 0,
+    "freq_rank": 2652,
+    "example": {
+      "fiwo": "Pyjup cimidyq.",
+      "english": "Chaos was starting."
+    }
   },
   {
     "word": "pyqe",
@@ -8127,7 +14006,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Lacking in manners; impolite, offensive, or disrespectful.",
     "tier": 3,
-    "rank": 264
+    "rank": 264,
+    "freq": 0,
+    "freq_rank": 2654,
+    "example": {
+      "fiwo": "Nofap pyqeid.",
+      "english": "The person was rude."
+    }
   },
   {
     "word": "pytso",
@@ -8135,7 +14020,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thin, straight length of rigid material, longer and typically sturdier than a stick.",
     "tier": 3,
-    "rank": 293
+    "rank": 293,
+    "freq": 0,
+    "freq_rank": 2656,
+    "example": {
+      "fiwo": "Pytsop jozeid.",
+      "english": "The rod was long."
+    }
   },
   {
     "word": "pywi",
@@ -8144,7 +14035,13 @@ const dictionaryData = [
     "definition": "To make a conscious effort to hear; to pay attention to sound.",
     "usage_note": "The active effort, distinct from passive hearing.",
     "tier": 1,
-    "rank": 194
+    "rank": 194,
+    "freq": 34,
+    "freq_rank": 145,
+    "example": {
+      "fiwo": "Kop pywi hautup!",
+      "english": "Listen to the music!"
+    }
   },
   {
     "word": "rago",
@@ -8152,7 +14049,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The structural top covering of a building (foiso) or the interior upper surface of an enclosed room.",
     "tier": 2,
-    "rank": 442
+    "rank": 442,
+    "freq": 4,
+    "freq_rank": 636,
+    "example": {
+      "fiwo": "Ragop zaveid.",
+      "english": "The ceiling was high."
+    }
   },
   {
     "word": "raje",
@@ -8160,7 +14063,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number equivalent to the sum of four and one.",
     "tier": 1,
-    "rank": 57
+    "rank": 57,
+    "freq": 77,
+    "freq_rank": 70,
+    "example": {
+      "fiwo": "Nofar raje nacid.",
+      "english": "Five people worked."
+    }
   },
   {
     "word": "rajedu",
@@ -8168,7 +14077,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Friday; the fifth day of the week. Derived by compounding raje (five) and du (day).",
     "tier": 1,
-    "rank": 149
+    "rank": 149,
+    "freq": 12,
+    "freq_rank": 357,
+    "example": {
+      "fiwo": "Rajedup hid taicup.",
+      "english": "Friday was party day."
+    }
   },
   {
     "word": "ram",
@@ -8176,7 +14091,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Third-person singular inanimate; strictly an object, concept, plant, machine, or entity lacking agency.",
     "tier": 0,
-    "rank": 5
+    "rank": 5,
+    "freq": 469,
+    "freq_rank": 9
   },
   {
     "word": "rame",
@@ -8184,7 +14101,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Strictly belonging to or associated with an inanimate object, concept, or machine.",
     "tier": 1,
-    "rank": 63
+    "rank": 63,
+    "freq": 17,
+    "freq_rank": 268
   },
   {
     "word": "ratse",
@@ -8192,7 +14111,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something able or likely to cause harm or injury.",
     "tier": 2,
-    "rank": 102
+    "rank": 102,
+    "freq": 3,
+    "freq_rank": 736,
+    "example": {
+      "fiwo": "Cijop ratsei.",
+      "english": "The weapon is dangerous."
+    }
   },
   {
     "word": "raure",
@@ -8200,7 +14125,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes a state possessing physical or conceptual qualities that are highly unpleasant, dissonant, or aesthetically repulsive.",
     "tier": 1,
-    "rank": 299
+    "rank": 299,
+    "freq": 0,
+    "freq_rank": 2662,
+    "example": {
+      "fiwo": "Mifap raurei.",
+      "english": "The animal is ugly."
+    }
   },
   {
     "word": "rawetu",
@@ -8208,7 +14139,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract social behavior, institutions, and conceptual norms transmitted across human societies.",
     "tier": 2,
-    "rank": 424
+    "rank": 424,
+    "freq": 0,
+    "freq_rank": 2664,
+    "example": {
+      "fiwo": "Rawetup ry xekup waskeid.",
+      "english": "The culture of the country was old."
+    }
   },
   {
     "word": "reaku",
@@ -8216,7 +14153,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract conceptual framework or system of ideas intended to explain a specific phenomenon or justify a practice.",
     "tier": 3,
-    "rank": 15
+    "rank": 15,
+    "freq": 0,
+    "freq_rank": 2666,
+    "example": {
+      "fiwo": "Reakup ry daq doteid.",
+      "english": "His theory was strong."
+    }
   },
   {
     "word": "reduslu",
@@ -8224,7 +14167,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A distinctive manner of doing, making, or expressing something.",
     "tier": 2,
-    "rank": 198
+    "rank": 198,
+    "freq": 1,
+    "freq_rank": 1205
   },
   {
     "word": "refo",
@@ -8232,7 +14177,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies a brewed, dark physical liquid beverage prepared from the roasted and ground seeds (beans) of the coffee plant.",
     "tier": 2,
-    "rank": 206
+    "rank": 206,
+    "freq": 4,
+    "freq_rank": 637,
+    "example": {
+      "fiwo": "Refop koxeid.",
+      "english": "The coffee was bitter."
+    }
   },
   {
     "word": "rehusto",
@@ -8240,7 +14191,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A computer that supplies data or services to others over a network (distinct from kupmia, the person).",
     "tier": 2,
-    "rank": 384
+    "rank": 384,
+    "freq": 1,
+    "freq_rank": 1206
   },
   {
     "word": "relxu",
@@ -8248,7 +14201,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual connection, tie, or ongoing association between two or more entities, concepts, or people.",
     "tier": 2,
-    "rank": 369
+    "rank": 369,
+    "freq": 1,
+    "freq_rank": 1207,
+    "example": {
+      "fiwo": "Relxup ry nak doteid.",
+      "english": "Our relationship was strong."
+    }
   },
   {
     "word": "rerbi",
@@ -8256,7 +14215,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To remain in the exact same physical location or conceptual state for an extended duration.",
     "tier": 1,
-    "rank": 242
+    "rank": 242,
+    "freq": 37,
+    "freq_rank": 137,
+    "example": {
+      "fiwo": "Nak rerbis ky sydop.",
+      "english": "We will stay at the house."
+    }
   },
   {
     "word": "rerpo",
@@ -8264,7 +14229,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a particular position, point, or area in space, regardless of whether it is occupied.",
     "tier": 1,
-    "rank": 58
+    "rank": 58,
+    "freq": 19,
+    "freq_rank": 239,
+    "example": {
+      "fiwo": "Rerpop hemyeid.",
+      "english": "The place was near."
+    }
   },
   {
     "word": "reslihi",
@@ -8272,7 +14243,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To feel sustained hostile rejection toward a specific entity; the antipode of tazi (love). Stronger and more enduring than neuqu (momentary disgust) or tsake (anger at a single act).",
     "tier": 1,
-    "rank": 261
+    "rank": 261,
+    "freq": 1,
+    "freq_rank": 1208,
+    "example": {
+      "fiwo": "Mik reslihi guzap.",
+      "english": "I hate the enemy."
+    }
   },
   {
     "word": "resno",
@@ -8280,7 +14257,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thin, pointed projectile shot from a bow.",
     "tier": 3,
-    "rank": 123
+    "rank": 123,
+    "freq": 1,
+    "freq_rank": 1209,
+    "example": {
+      "fiwo": "Resnop rute.",
+      "english": "The arrow is sharp."
+    }
   },
   {
     "word": "retadu",
@@ -8288,7 +14271,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a continuous time period consisting of seven days.",
     "tier": 1,
-    "rank": 166
+    "rank": 166,
+    "freq": 31,
+    "freq_rank": 162,
+    "example": {
+      "fiwo": "Retadup ry mik nacisyq.",
+      "english": "My week will be working."
+    }
   },
   {
     "word": "rete",
@@ -8296,7 +14285,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number equivalent to the sum of six and one.",
     "tier": 1,
-    "rank": 191
+    "rank": 191,
+    "freq": 39,
+    "freq_rank": 130,
+    "example": {
+      "fiwo": "Mular rete morid.",
+      "english": "Seven flowers grew."
+    }
   },
   {
     "word": "retedu",
@@ -8304,7 +14299,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Sunday; the seventh day of the week. Derived by compounding rete (seven) and du (day).",
     "tier": 1,
-    "rank": 155
+    "rank": 155,
+    "freq": 7,
+    "freq_rank": 487,
+    "example": {
+      "fiwo": "Retedup usiup.",
+      "english": "Sunday is sleep day."
+    }
   },
   {
     "word": "retibi",
@@ -8312,7 +14313,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To reverse course and go back to a previous physical location or baseline abstract state.",
     "tier": 2,
-    "rank": 116
+    "rank": 116,
+    "freq": 33,
+    "freq_rank": 148,
+    "example": {
+      "fiwo": "Daq retibis zy sydop dale.",
+      "english": "He returned to his house."
+    }
   },
   {
     "word": "rewy",
@@ -8320,7 +14327,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Situated at a great distance from; far away relative to a reference point.",
     "tier": 0,
-    "rank": 63
+    "rank": 63,
+    "freq": 6,
+    "freq_rank": 523,
+    "example": {
+      "fiwo": "Jurop ceni rewy sydop.",
+      "english": "The city is far from the house."
+    }
   },
   {
     "word": "reza",
@@ -8328,7 +14341,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A person who holds the highest executive, administrative, or directing position within an organized group, government, or system.",
     "tier": 2,
-    "rank": 10
+    "rank": 10,
+    "freq": 26,
+    "freq_rank": 191,
+    "example": {
+      "fiwo": "Rezap ceni deky jurop.",
+      "english": "The president lives in the city."
+    }
   },
   {
     "word": "ricodo",
@@ -8336,7 +14355,13 @@ const dictionaryData = [
     "definition": "Rock or mineral from which metal or valuable material can be extracted.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 304
+    "rank": 304,
+    "freq": 0,
+    "freq_rank": 2680,
+    "example": {
+      "fiwo": "Ricodop mik tande.",
+      "english": "My ore is big."
+    }
   },
   {
     "word": "rinkawa",
@@ -8344,7 +14369,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The bony framework of the head that encloses and protects the brain; the connected head-bones of meka forming the structure of meota.",
     "tier": 3,
-    "rank": 307
+    "rank": 307,
+    "freq": 0,
+    "freq_rank": 2684,
+    "example": {
+      "fiwo": "Rinkawap locwe.",
+      "english": "The skull is white."
+    }
   },
   {
     "word": "rinte",
@@ -8352,7 +14383,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes an entity possessing a great deal of money, assets, or an abundant supply of resources.",
     "tier": 2,
-    "rank": 188
+    "rank": 188,
+    "freq": 0,
+    "freq_rank": 2686,
+    "example": {
+      "fiwo": "Nofap rintei.",
+      "english": "The person is rich."
+    }
   },
   {
     "word": "rinu",
@@ -8360,7 +14397,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract economic concept of an abundance of valuable possessions, resources, or financial value.",
     "tier": 3,
-    "rank": 169
+    "rank": 169,
+    "freq": 0,
+    "freq_rank": 2688,
+    "example": {
+      "fiwo": "Rinup ry daq tandeid.",
+      "english": "His wealth was great."
+    }
   },
   {
     "word": "ripe",
@@ -8368,7 +14411,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something having a high degree of heat or a high temperature.",
     "tier": 1,
-    "rank": 101
+    "rank": 101,
+    "freq": 7,
+    "freq_rank": 488,
+    "example": {
+      "fiwo": "Refop ripei.",
+      "english": "The coffee is hot."
+    }
   },
   {
     "word": "riqo",
@@ -8376,7 +14425,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A panel of keys used to input text and commands into a computer or other electronic device.",
     "tier": 3,
-    "rank": 299
+    "rank": 299,
+    "freq": 0,
+    "freq_rank": 2690,
+    "example": {
+      "fiwo": "Riqop letseid.",
+      "english": "The keyboard was dirty."
+    }
   },
   {
     "word": "rivahe",
@@ -8384,7 +14439,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Coming immediately before the current one in a sequence or in time (e.g. previous week, previous meeting). The antonym of navere (next); generalizes beyond wecdu (yesterday).",
     "tier": 2,
-    "rank": 436
+    "rank": 436,
+    "freq": 27,
+    "freq_rank": 186,
+    "example": {
+      "fiwo": "Retadup rivahe.",
+      "english": "The week is previous."
+    }
   },
   {
     "word": "riwifre",
@@ -8392,7 +14453,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Unable to pay one's debts; financially ruined.",
     "tier": 3,
-    "rank": 138
+    "rank": 138,
+    "freq": 0,
+    "freq_rank": 2694
   },
   {
     "word": "rizi",
@@ -8401,7 +14464,13 @@ const dictionaryData = [
     "definition": "To actively move oneself from a lower physical position to a higher one (such as standing up from a bed or chair), or for a celestial body to ascend.",
     "usage_note": "Distinct from todyri (raise), which is the transitive action of lifting something else.",
     "tier": 1,
-    "rank": 170
+    "rank": 170,
+    "freq": 37,
+    "freq_rank": 138,
+    "example": {
+      "fiwo": "Daq rizis amute.",
+      "english": "He will get up early."
+    }
   },
   {
     "word": "roase",
@@ -8409,7 +14478,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Moving, operating, or occurring at a low speed.",
     "tier": 2,
-    "rank": 84
+    "rank": 84,
+    "freq": 19,
+    "freq_rank": 240,
+    "example": {
+      "fiwo": "Moblop roasei.",
+      "english": "The car is slow."
+    }
   },
   {
     "word": "rodipe",
@@ -8417,7 +14492,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a biological state of discomfort caused by a lack of fluids, coupled with a strong desire to drink a liquid.",
     "tier": 1,
-    "rank": 312
+    "rank": 312,
+    "freq": 0,
+    "freq_rank": 2697,
+    "example": {
+      "fiwo": "Daq rodipeidyq.",
+      "english": "He was getting thirsty."
+    }
   },
   {
     "word": "rodle",
@@ -8425,7 +14506,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something that is in accordance with fact or reality.",
     "tier": 2,
-    "rank": 22
+    "rank": 22,
+    "freq": 8,
+    "freq_rank": 449,
+    "example": {
+      "fiwo": "Gop suke rodlei.",
+      "english": "Your word is true."
+    }
   },
   {
     "word": "rohelso",
@@ -8433,7 +14520,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The delivery of medicine into the body through a needle.",
     "tier": 3,
-    "rank": 64
+    "rank": 64,
+    "freq": 2,
+    "freq_rank": 877
   },
   {
     "word": "roku",
@@ -8441,7 +14530,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This defines the absence of light or the state of being without illumination.",
     "tier": 2,
-    "rank": 409
+    "rank": 409,
+    "freq": 9,
+    "freq_rank": 422,
+    "example": {
+      "fiwo": "Rokup pliq.",
+      "english": "Darkness is coming."
+    }
   },
   {
     "word": "roli",
@@ -8449,7 +14544,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to take a liquid into the mouth and swallow it.",
     "tier": 1,
-    "rank": 167
+    "rank": 167,
+    "freq": 15,
+    "freq_rank": 297,
+    "example": {
+      "fiwo": "Mik rolid lamsop.",
+      "english": "I drank the milk."
+    }
   },
   {
     "word": "romve",
@@ -8457,7 +14558,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an action or state being repeated or occurring another time.",
     "tier": 1,
-    "rank": 108
+    "rank": 108,
+    "freq": 75,
+    "freq_rank": 72,
+    "example": {
+      "fiwo": "Daq nacid romve.",
+      "english": "He worked again."
+    }
   },
   {
     "word": "ron",
@@ -8465,7 +14572,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Inline mathematical boolean OR; offers a choice between elements of the same grammatical category.",
     "tier": 0,
-    "rank": 44
+    "rank": 44,
+    "freq": 6,
+    "freq_rank": 524,
+    "example": {
+      "fiwo": "Suk nomi bife aplar ron grapar.",
+      "english": "You may eat an apple or a grape."
+    }
   },
   {
     "word": "rop",
@@ -8473,7 +14586,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A pragmatic mood tag indicating the speaker knows the statement is true because they were told by someone else or read it somewhere.",
     "tier": 0,
-    "rank": 92
+    "rank": 92,
+    "freq": 83,
+    "freq_rank": 60
   },
   {
     "word": "roqte",
@@ -8481,7 +14596,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes a state demanding careful consideration or strict application; not joking or trifling.",
     "tier": 2,
-    "rank": 382
+    "rank": 382,
+    "freq": 0,
+    "freq_rank": 2702,
+    "example": {
+      "fiwo": "Biwup roqtei.",
+      "english": "The problem is serious."
+    }
   },
   {
     "word": "rot",
@@ -8489,7 +14610,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Clausal wall presenting an alternative choice or independent clause.",
     "tier": 0,
-    "rank": 36
+    "rank": 36,
+    "freq": 8,
+    "freq_rank": 451,
+    "example": {
+      "fiwo": "Suk nacis nudu rot suk usis nudu.",
+      "english": "You will work today, or you will sleep."
+    }
   },
   {
     "word": "rowe",
@@ -8497,7 +14624,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something having a great or specified extent from side to side.",
     "tier": 2,
-    "rank": 449
+    "rank": 449,
+    "freq": 0,
+    "freq_rank": 2704,
+    "example": {
+      "fiwo": "Caenop rowei.",
+      "english": "The street is wide."
+    }
   },
   {
     "word": "ruava",
@@ -8505,7 +14638,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A common wildflower with a yellow head that turns into a round puff of wind-borne seeds.",
     "tier": 3,
-    "rank": 430
+    "rank": 430,
+    "freq": 0,
+    "freq_rank": 2705,
+    "example": {
+      "fiwo": "Ruavap loske.",
+      "english": "The dandelion is yellow."
+    }
   },
   {
     "word": "rubidro",
@@ -8513,7 +14652,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The connector inserted to make an electrical connection.",
     "tier": 3,
-    "rank": 13
+    "rank": 13,
+    "freq": 1,
+    "freq_rank": 1215
   },
   {
     "word": "rucemi",
@@ -8521,7 +14662,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To guide, direct, or mathematically precede others in a physical sequence or organizational structure.",
     "tier": 2,
-    "rank": 343
+    "rank": 343,
+    "freq": 3,
+    "freq_rank": 738,
+    "example": {
+      "fiwo": "Rezap rucemid minzap.",
+      "english": "The president led the nation."
+    }
   },
   {
     "word": "rudse",
@@ -8529,7 +14676,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a surface that is uneven or irregular, often coarse or not smooth to the touch.",
     "tier": 2,
-    "rank": 299
+    "rank": 299,
+    "freq": 3,
+    "freq_rank": 739,
+    "example": {
+      "fiwo": "Gagup rudsei.",
+      "english": "The texture is rough."
+    }
   },
   {
     "word": "rufoco",
@@ -8537,7 +14690,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A heavy device dropped to hold a vessel or structure in place.",
     "tier": 3,
-    "rank": 323
+    "rank": 323,
+    "freq": 0,
+    "freq_rank": 2710,
+    "example": {
+      "fiwo": "Botop koci rufocor.",
+      "english": "The boat needs an anchor."
+    }
   },
   {
     "word": "rugoxu",
@@ -8545,7 +14704,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a period of time historically corresponding to a lunar cycle or a standard calendar division.",
     "tier": 1,
-    "rank": 93
+    "rank": 93,
+    "freq": 63,
+    "freq_rank": 84,
+    "example": {
+      "fiwo": "Rugoxup ry vofup baudei.",
+      "english": "The month of spring is beautiful."
+    }
   },
   {
     "word": "rukojo",
@@ -8553,7 +14718,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A vessel or seam that carries flow through a body or through rock (blood vein, ore vein).",
     "tier": 3,
-    "rank": 381
+    "rank": 381,
+    "freq": 0,
+    "freq_rank": 2714,
+    "example": {
+      "fiwo": "Bojap arsumpi mety rukojop.",
+      "english": "Blood flows through the vein."
+    }
   },
   {
     "word": "rumatru",
@@ -8561,7 +14732,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A witness's formal account of what they saw.",
     "tier": 3,
-    "rank": 5
+    "rank": 5,
+    "freq": 2,
+    "freq_rank": 881
   },
   {
     "word": "runefre",
@@ -8569,7 +14742,23 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Of a device or system: switched off and not operating.",
     "tier": 2,
-    "rank": 83
+    "rank": 83,
+    "freq": 0,
+    "freq_rank": 2716
+  },
+  {
+    "word": "rupo",
+    "english_equiv": "Hook",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A curved piece of metal or wood used for catching, holding, or hanging something.",
+    "tier": 3,
+    "rank": 581,
+    "freq": 0,
+    "freq_rank": 2717,
+    "example": {
+      "fiwo": "Ikamo hiq ty rupo.",
+      "english": "The shirt is on the hook."
+    }
   },
   {
     "word": "rute",
@@ -8577,15 +14766,28 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something having an edge or point that is able to cut or pierce.",
     "tier": 2,
-    "rank": 208
+    "rank": 208,
+    "freq": 7,
+    "freq_rank": 490,
+    "example": {
+      "fiwo": "Kinop rutei.",
+      "english": "The knife is sharp."
+    }
   },
   {
     "word": "ruwi",
-    "english_equiv": "Twist",
+    "english_equiv": "Roll",
     "part_of_speech": "Verb",
-    "definition": "To turn or spin something around a central axis, or to distort its shape.",
+    "definition": "To turn or spin something around a central axis, without changing its shape.",
     "tier": 3,
-    "rank": 251
+    "rank": 251,
+    "usage_note": "Rolling preserves the object's shape; to deform it by turning, use mogowi (twist).",
+    "freq": 0,
+    "freq_rank": 2719,
+    "example": {
+      "fiwo": "Daq ruwid drafop.",
+      "english": "He rolled the wheel."
+    }
   },
   {
     "word": "ruxigi",
@@ -8593,7 +14795,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To direct attention to something; to indicate.",
     "tier": 2,
-    "rank": 106
+    "rank": 106,
+    "freq": 8,
+    "freq_rank": 452
   },
   {
     "word": "ruze",
@@ -8601,7 +14805,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something moving or capable of moving at high speed.",
     "tier": 2,
-    "rank": 25
+    "rank": 25,
+    "freq": 18,
+    "freq_rank": 251,
+    "example": {
+      "fiwo": "Detap suke ruzei.",
+      "english": "Your dog is fast."
+    }
   },
   {
     "word": "ry",
@@ -8609,7 +14819,27 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates strict ownership, legal possession, or belonging.",
     "tier": 0,
-    "rank": 66
+    "rank": 66,
+    "freq": 251,
+    "freq_rank": 14,
+    "example": {
+      "fiwo": "Sydop ry David.",
+      "english": "The house belongs to David."
+    }
+  },
+  {
+    "word": "ryji",
+    "english_equiv": "Absorb",
+    "part_of_speech": "Verb",
+    "definition": "To take something in and hold it, so that it no longer passes through or acts on what lies beyond.",
+    "tier": 3,
+    "rank": 573,
+    "freq": 0,
+    "freq_rank": 2723,
+    "example": {
+      "fiwo": "Bambodo ryji dorso.",
+      "english": "The sponge absorbs the water."
+    }
   },
   {
     "word": "ryrobo",
@@ -8617,7 +14847,13 @@ const dictionaryData = [
     "definition": "The main upward-growing support of a plant.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 227
+    "rank": 227,
+    "freq": 0,
+    "freq_rank": 2726,
+    "example": {
+      "fiwo": "Ryrobop luare.",
+      "english": "The stem is green."
+    }
   },
   {
     "word": "ryzusu",
@@ -8625,7 +14861,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A reduction from the normal price.",
     "tier": 2,
-    "rank": 410
+    "rank": 410,
+    "freq": 1,
+    "freq_rank": 1219
   },
   {
     "word": "sacy",
@@ -8633,7 +14871,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Used for a position external to the boundaries of an enclosure or object.",
     "tier": 0,
-    "rank": 62
+    "rank": 62,
+    "freq": 2,
+    "freq_rank": 882,
+    "example": {
+      "fiwo": "Detap ceni sacy sydop.",
+      "english": "The dog is outside the house."
+    }
   },
   {
     "word": "safunu",
@@ -8641,7 +14885,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The prevailing style of dress or behavior at a given time; trends.",
     "tier": 2,
-    "rank": 285
+    "rank": 285,
+    "freq": 1,
+    "freq_rank": 1222
   },
   {
     "word": "sal",
@@ -8649,7 +14895,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Acknowledges presence or initiates a social interaction.",
     "tier": 0,
-    "rank": 75
+    "rank": 75,
+    "freq": 6,
+    "freq_rank": 525,
+    "example": {
+      "fiwo": "Sal, kup suk kypei?",
+      "english": "Hello, are you happy?"
+    }
   },
   {
     "word": "sanpo",
@@ -8657,7 +14909,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a loose, granular physical substance consisting of finely divided rock, mineral particles, or earth.",
     "tier": 3,
-    "rank": 192
+    "rank": 192,
+    "freq": 6,
+    "freq_rank": 526,
+    "example": {
+      "fiwo": "Sanpop wukeid.",
+      "english": "The sand was dry."
+    }
   },
   {
     "word": "sapi",
@@ -8665,7 +14923,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to create, construct, or form something.",
     "tier": 1,
-    "rank": 18
+    "rank": 18,
+    "freq": 45,
+    "freq_rank": 109,
+    "example": {
+      "fiwo": "Daq sapid uhor.",
+      "english": "He made a flag."
+    }
   },
   {
     "word": "sapiti",
@@ -8673,7 +14937,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To physically create, design, or conceptually originate something that did not previously exist.",
     "tier": 3,
-    "rank": 401
+    "rank": 401,
+    "freq": 0,
+    "freq_rank": 2732,
+    "example": {
+      "fiwo": "Artuap sapitid fator jaxke.",
+      "english": "The artist invented a new machine."
+    }
   },
   {
     "word": "saqa",
@@ -8681,7 +14951,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A gender-neutral biological relative who shares one or both parents with another individual.",
     "tier": 2,
-    "rank": 411
+    "rank": 411,
+    "freq": 4,
+    "freq_rank": 639,
+    "example": {
+      "fiwo": "Saqap ry mik ceni tapo.",
+      "english": "My sibling lives here."
+    }
   },
   {
     "word": "sarmi",
@@ -8689,7 +14965,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To perceive the flavor of food or liquid in the mouth.",
     "tier": 1,
-    "rank": 288
+    "rank": 288,
+    "freq": 0,
+    "freq_rank": 2736,
+    "example": {
+      "fiwo": "Mik sarmis mitap.",
+      "english": "I will taste the meat."
+    }
   },
   {
     "word": "satsi",
@@ -8697,7 +14979,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to deliver a blow to someone or something.",
     "tier": 2,
-    "rank": 12
+    "rank": 12,
+    "freq": 8,
+    "freq_rank": 453,
+    "example": {
+      "fiwo": "Detap satsid catsap.",
+      "english": "The dog hit the cat."
+    }
   },
   {
     "word": "savodo",
@@ -8705,7 +14993,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A hard black mineral formed from ancient plant matter, dug from the ground and burned as fuel.",
     "tier": 3,
-    "rank": 164
+    "rank": 164,
+    "freq": 1,
+    "freq_rank": 1224,
+    "example": {
+      "fiwo": "Savodop cape.",
+      "english": "The coal is black."
+    }
   },
   {
     "word": "saza",
@@ -8713,7 +15007,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a female sibling who shares one or both parents with another individual.",
     "tier": 1,
-    "rank": 279
+    "rank": 279,
+    "freq": 11,
+    "freq_rank": 375,
+    "example": {
+      "fiwo": "Sazap suke pliq nudu.",
+      "english": "Your sister is coming today."
+    }
   },
   {
     "word": "segro",
@@ -8721,7 +15021,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The flat, sharpened cutting part of a knife, sword, or tool.",
     "tier": 3,
-    "rank": 270
+    "rank": 270,
+    "freq": 0,
+    "freq_rank": 2743,
+    "example": {
+      "fiwo": "Segrop rute.",
+      "english": "The blade is sharp."
+    }
   },
   {
     "word": "seji",
@@ -8729,7 +15035,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to cease an action or event.",
     "tier": 1,
-    "rank": 71
+    "rank": 71,
+    "freq": 51,
+    "freq_rank": 97,
+    "example": {
+      "fiwo": "Kop seji xalit!",
+      "english": "Stop moving!"
+    }
   },
   {
     "word": "sek",
@@ -8738,7 +15050,9 @@ const dictionaryData = [
     "definition": "A structural particle that explicitly separates sequential items in a list or breaks the -t stacker bond between adjacent number blocks. It acts as a phonetic wall, telling the parser to finalize the current item and move to the next. Used for enumerating individual multi-digit numbers (e.g., counting 10, 11, 12) and for listing items without using lan.",
     "usage_note": "Neutral enumeration, unlike lan, which asserts logical AND.",
     "tier": 0,
-    "rank": 127
+    "rank": 127,
+    "freq": 16,
+    "freq_rank": 280
   },
   {
     "word": "sep",
@@ -8746,7 +15060,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A pragmatic mood tag placed at the absolute start of a sentence to introduce a summary or conclusion.",
     "tier": 0,
-    "rank": 90
+    "rank": 90,
+    "freq": 1,
+    "freq_rank": 1225,
+    "example": {
+      "fiwo": "Sep, muk kypei.",
+      "english": "In conclusion, we are happy."
+    }
   },
   {
     "word": "sesny",
@@ -8754,7 +15074,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicating that an action or state occurs regardless of an obstacle or opposing force.",
     "tier": 0,
-    "rank": 109
+    "rank": 109,
+    "freq": 0,
+    "freq_rank": 2746,
+    "example": {
+      "fiwo": "Nak xalid zy jurop sesny xabesop.",
+      "english": "We went to the city despite the wind."
+    }
   },
   {
     "word": "sexi",
@@ -8762,7 +15088,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to make something more modern or current, or to incorporate the most recent information.",
     "tier": 3,
-    "rank": 83
+    "rank": 83,
+    "freq": 0,
+    "freq_rank": 2747,
+    "example": {
+      "fiwo": "Das sexid ufaxop.",
+      "english": "She updated the message."
+    }
   },
   {
     "word": "sidoho",
@@ -8770,7 +15102,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A tall vertical support column of a structure.",
     "tier": 3,
-    "rank": 215
+    "rank": 215,
+    "freq": 0,
+    "freq_rank": 2748,
+    "example": {
+      "fiwo": "Sidohop fuzi sydop.",
+      "english": "The pillar supports the house."
+    }
   },
   {
     "word": "sifa",
@@ -8778,7 +15116,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a female spouse within a marital partnership.",
     "tier": 2,
-    "rank": 107
+    "rank": 107,
+    "freq": 5,
+    "freq_rank": 584,
+    "example": {
+      "fiwo": "Sifap ry daq kypei.",
+      "english": "His wife is happy."
+    }
   },
   {
     "word": "sigi",
@@ -8786,7 +15130,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to grasp and support something.",
     "tier": 1,
-    "rank": 222
+    "rank": 222,
+    "freq": 17,
+    "freq_rank": 270,
+    "example": {
+      "fiwo": "Daq sigid fukap mike.",
+      "english": "He held my hand."
+    }
   },
   {
     "word": "sil",
@@ -8794,7 +15144,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Proximal deictic; the current or immediately preceding clause or concept.",
     "tier": 0,
-    "rank": 20
+    "rank": 20,
+    "freq": 29,
+    "freq_rank": 175,
+    "example": {
+      "fiwo": "Mik kyti sil.",
+      "english": "I like this."
+    }
   },
   {
     "word": "sile",
@@ -8802,7 +15158,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word identifies a specific physical or conceptual noun that is physically close to the speaker, or currently present in the immediate environment. It must follow the noun it modifies.",
     "tier": 1,
-    "rank": 4
+    "rank": 4,
+    "freq": 43,
+    "freq_rank": 116
   },
   {
     "word": "sioxi",
@@ -8810,7 +15168,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To officially facilitate, provide the space for, or preside over an abstract event, meeting, or performance.",
     "tier": 2,
-    "rank": 340
+    "rank": 340,
+    "freq": 6,
+    "freq_rank": 527
   },
   {
     "word": "sismoru",
@@ -8818,7 +15178,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The right or ability to enter, use, or reach something.",
     "tier": 2,
-    "rank": 147
+    "rank": 147,
+    "freq": 1,
+    "freq_rank": 1226,
+    "example": {
+      "fiwo": "Mik fabi sismorup.",
+      "english": "I want access."
+    }
   },
   {
     "word": "siswaso",
@@ -8826,7 +15192,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A long, narrow section of contrasting color or material running across a surface.",
     "tier": 2,
-    "rank": 453
+    "rank": 453,
+    "freq": 0,
+    "freq_rank": 2755,
+    "example": {
+      "fiwo": "Siswasop leupe.",
+      "english": "The stripe is red."
+    }
   },
   {
     "word": "sitastu",
@@ -8834,7 +15206,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The place or thing from which something comes or begins.",
     "tier": 2,
-    "rank": 180
+    "rank": 180,
+    "freq": 1,
+    "freq_rank": 1227
   },
   {
     "word": "skagi",
@@ -8842,7 +15216,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to separate into pieces as a result of a blow, shock, or structural failure.",
     "tier": 2,
-    "rank": 27
+    "rank": 27,
+    "freq": 25,
+    "freq_rank": 195,
+    "example": {
+      "fiwo": "Daq skagid ducop.",
+      "english": "He broke the mirror."
+    }
   },
   {
     "word": "skaxebi",
@@ -8850,7 +15230,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To tentatively believe something, classically something bad or hidden, on partial evidence; a weak positive lean toward a claim, opposite in direction to iqi (doubt), which leans away.",
     "tier": 3,
-    "rank": 151
+    "rank": 151,
+    "freq": 0,
+    "freq_rank": 2758,
+    "example": {
+      "fiwo": "Mik skaxebi guzap.",
+      "english": "I suspect the enemy."
+    }
   },
   {
     "word": "skezafa",
@@ -8858,7 +15244,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A fish that inflates its spiny body into a ball when threatened; many kinds are poisonous.",
     "tier": 3,
-    "rank": 431
+    "rank": 431,
+    "freq": 0,
+    "freq_rank": 2760,
+    "example": {
+      "fiwo": "Skezafap weoke.",
+      "english": "The pufferfish is round."
+    }
   },
   {
     "word": "skiwi",
@@ -8866,7 +15258,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to determine the behavior or supervise the running of an entity or system.",
     "tier": 2,
-    "rank": 75
+    "rank": 75,
+    "freq": 0,
+    "freq_rank": 2762,
+    "example": {
+      "fiwo": "Daq skiwid fatop.",
+      "english": "He controlled the machine."
+    }
   },
   {
     "word": "skoru",
@@ -8874,7 +15272,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange.",
     "tier": 1,
-    "rank": 214
+    "rank": 214,
+    "freq": 3,
+    "freq_rank": 740,
+    "example": {
+      "fiwo": "Skorup cunte tandei.",
+      "english": "The current market is big."
+    }
   },
   {
     "word": "skrehe",
@@ -8882,7 +15286,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Of a device or system: switched on and operating.",
     "tier": 1,
-    "rank": 137
+    "rank": 137,
+    "freq": 0,
+    "freq_rank": 2765
   },
   {
     "word": "skroqo",
@@ -8890,7 +15296,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A solid dairy product made from curdled milk (lamso). Follows lamso's Concrete Noun class, like its dairy-product sibling zedro (butter).",
     "tier": 3,
-    "rank": 125
+    "rank": 125,
+    "freq": 0,
+    "freq_rank": 2766,
+    "example": {
+      "fiwo": "Daq gidsid skroqop.",
+      "english": "He bought cheese."
+    }
   },
   {
     "word": "skrybi",
@@ -8898,7 +15310,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To expel air suddenly and involuntarily through the nose and mouth, typically from irritation.",
     "tier": 3,
-    "rank": 412
+    "rank": 412,
+    "freq": 0,
+    "freq_rank": 2768,
+    "example": {
+      "fiwo": "Mik skrybid.",
+      "english": "I sneezed."
+    }
   },
   {
     "word": "skumki",
@@ -8906,7 +15324,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To break down, ruin, or dismantle a physical object or abstract system so completely that it no longer structurally exists or functions.",
     "tier": 2,
-    "rank": 161
+    "rank": 161,
+    "freq": 7,
+    "freq_rank": 491,
+    "example": {
+      "fiwo": "Fuegop skumkis sydop.",
+      "english": "Fire will destroy the house."
+    }
   },
   {
     "word": "skutodo",
@@ -8914,7 +15338,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A device that transmits or receives radio waves.",
     "tier": 3,
-    "rank": 121
+    "rank": 121,
+    "freq": 1,
+    "freq_rank": 1230
   },
   {
     "word": "slafe",
@@ -8922,7 +15348,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a quantity, degree, or state that goes beyond what is mathematically necessary, normal, or desirable. (This acts as the strict quantitative counterpart to uzume [enough] and fe [very], explicitly indicating an excess).",
     "tier": 1,
-    "rank": 80
+    "rank": 80,
+    "freq": 6,
+    "freq_rank": 528,
+    "example": {
+      "fiwo": "Batap ripeid slafe.",
+      "english": "The food was too hot."
+    }
   },
   {
     "word": "slewofo",
@@ -8930,7 +15362,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A soft, moldable solid substance that melts at low heat, produced by bees or from oils, used for candles, sealing, and coating.",
     "tier": 3,
-    "rank": 336
+    "rank": 336,
+    "freq": 0,
+    "freq_rank": 2771,
+    "example": {
+      "fiwo": "Slewofop jilfe.",
+      "english": "The wax is smooth."
+    }
   },
   {
     "word": "slojo",
@@ -8938,7 +15376,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A flat object with a spread, wedge-like shape, waved or spun to move air; also the shape itself, as in coral fans.",
     "tier": 2,
-    "rank": 446
+    "rank": 446,
+    "freq": 0,
+    "freq_rank": 2773,
+    "example": {
+      "fiwo": "Mik jedi slojor.",
+      "english": "I have a fan."
+    }
   },
   {
     "word": "sluqe",
@@ -8946,7 +15390,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number equivalent to the product of two and three.",
     "tier": 1,
-    "rank": 147
+    "rank": 147,
+    "freq": 28,
+    "freq_rank": 181,
+    "example": {
+      "fiwo": "Detar sluqe cafid.",
+      "english": "Six dogs ran."
+    }
   },
   {
     "word": "sluqedu",
@@ -8954,7 +15404,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Saturday; the sixth day of the week. Derived by compounding sluqe (six) and du (day).",
     "tier": 1,
-    "rank": 228
+    "rank": 228,
+    "freq": 5,
+    "freq_rank": 585,
+    "example": {
+      "fiwo": "Sluqedup hid spelup.",
+      "english": "Saturday was game day."
+    }
   },
   {
     "word": "smakoxo",
@@ -8962,7 +15418,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thick insulated bundle of wires carrying power or signal.",
     "tier": 2,
-    "rank": 352
+    "rank": 352,
+    "freq": 1,
+    "freq_rank": 1231
   },
   {
     "word": "smeze",
@@ -8970,7 +15428,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Not yet cooked or processed; in its natural, unaltered state. Pairs with food (otanie, cooked) and unprocessed ore/materials.",
     "tier": 3,
-    "rank": 144
+    "rank": 144,
+    "freq": 0,
+    "freq_rank": 2777,
+    "example": {
+      "fiwo": "Mita smeze.",
+      "english": "The meat is raw."
+    }
   },
   {
     "word": "smibra",
@@ -8978,7 +15442,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A flying nocturnal mammal with wings formed from a membrane stretched between its limbs.",
     "tier": 3,
-    "rank": 217
+    "rank": 217,
+    "freq": 0,
+    "freq_rank": 2780,
+    "example": {
+      "fiwo": "Smibrap deky mortsap.",
+      "english": "The bat is in the forest."
+    }
   },
   {
     "word": "smimi",
@@ -8986,7 +15456,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To touch with the lips as a sign of affection, greeting, or respect.",
     "tier": 3,
-    "rank": 118
+    "rank": 118,
+    "freq": 0,
+    "freq_rank": 2782,
+    "example": {
+      "fiwo": "Manap smimid cadap.",
+      "english": "The mother kissed the child."
+    }
   },
   {
     "word": "smotifi",
@@ -8994,7 +15470,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To return something to an earlier or original state.",
     "tier": 3,
-    "rank": 258
+    "rank": 258,
+    "freq": 2,
+    "freq_rank": 884,
+    "example": {
+      "fiwo": "Mik smotifid jyjop.",
+      "english": "I restored the computer."
+    }
   },
   {
     "word": "smusu",
@@ -9002,7 +15484,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The situation of enabling someone who cannot be compelled: you can give the means, but not the will. Logical equivalent: Suk nyrsi luge kabap zy dorsop bul suk nes lini luge tep kabap roli. (You can carry the horse to the water but you cannot make the horse drink.)",
     "tier": 3,
-    "rank": 80
+    "rank": 80,
+    "freq": 0,
+    "freq_rank": 2785,
+    "example": {
+      "fiwo": "Jormup sile smusur.",
+      "english": "This situation is horse-to-water futility."
+    }
   },
   {
     "word": "snaha",
@@ -9010,7 +15498,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A slender, antlered wild mammal known for speed and grace.",
     "tier": 3,
-    "rank": 277
+    "rank": 277,
+    "freq": 0,
+    "freq_rank": 2786,
+    "example": {
+      "fiwo": "Snahap ruze.",
+      "english": "The deer is fast."
+    }
   },
   {
     "word": "snasumu",
@@ -9018,7 +15512,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Money returned because goods or services failed.",
     "tier": 3,
-    "rank": 72
+    "rank": 72,
+    "freq": 1,
+    "freq_rank": 1232
   },
   {
     "word": "snibexe",
@@ -9026,7 +15522,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Containing much moisture in the air.",
     "tier": 2,
-    "rank": 427
+    "rank": 427,
+    "freq": 2,
+    "freq_rank": 885,
+    "example": {
+      "fiwo": "Vexup snibexe.",
+      "english": "The weather is humid."
+    }
   },
   {
     "word": "snugipi",
@@ -9034,7 +15536,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To set free, let go of, or issue to the public.",
     "tier": 2,
-    "rank": 133
+    "rank": 133,
+    "freq": 4,
+    "freq_rank": 640,
+    "example": {
+      "fiwo": "Daq snugipid detap.",
+      "english": "He released the dog."
+    }
   },
   {
     "word": "socu",
@@ -9042,7 +15550,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract structural system of human relationships, institutions, and shared culture existing together within a broad population. (Broader than canpu [Community], which implies a closer shared identity or local group).",
     "tier": 2,
-    "rank": 341
+    "rank": 341,
+    "freq": 0,
+    "freq_rank": 2792,
+    "example": {
+      "fiwo": "Socup ry nak gawei.",
+      "english": "Our society is good."
+    }
   },
   {
     "word": "soduju",
@@ -9050,7 +15564,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The people inhabiting a particular place or region, considered as a body.",
     "tier": 2,
-    "rank": 157
+    "rank": 157,
+    "freq": 1,
+    "freq_rank": 1233,
+    "example": {
+      "fiwo": "Soduju tande.",
+      "english": "The population is big."
+    }
   },
   {
     "word": "sogeswe",
@@ -9058,7 +15578,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Of, relating to, or operated by electronics; digital.",
     "tier": 2,
-    "rank": 280
+    "rank": 280,
+    "freq": 1,
+    "freq_rank": 1234,
+    "example": {
+      "fiwo": "Jyjo sogeswe.",
+      "english": "The computer is electronic."
+    }
   },
   {
     "word": "sokso",
@@ -9066,7 +15592,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A soft, flexible physical piece of clothing worn directly on the foot and lower leg to provide warmth and reduce friction inside a shoe.",
     "tier": 3,
-    "rank": 388
+    "rank": 388,
+    "freq": 0,
+    "freq_rank": 2794,
+    "example": {
+      "fiwo": "Soksop letseid.",
+      "english": "The sock was dirty."
+    }
   },
   {
     "word": "solfi",
@@ -9074,7 +15606,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively investigate and successfully find an answer, explanation, or peaceful resolution to a problem or dispute.",
     "tier": 2,
-    "rank": 226
+    "rank": 226,
+    "freq": 3,
+    "freq_rank": 741,
+    "example": {
+      "fiwo": "Nak solfis biwup.",
+      "english": "We will solve the problem."
+    }
   },
   {
     "word": "somada",
@@ -9082,7 +15620,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "An intelligent marine mammal with a streamlined body and a beak-like snout.",
     "tier": 3,
-    "rank": 380
+    "rank": 380,
+    "freq": 0,
+    "freq_rank": 2797,
+    "example": {
+      "fiwo": "Somadap ruze.",
+      "english": "The dolphin is fast."
+    }
   },
   {
     "word": "sone",
@@ -9090,7 +15634,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Having a sharp, burning, hot, or strong taste.",
     "tier": 3,
-    "rank": 354
+    "rank": 354,
+    "freq": 0,
+    "freq_rank": 2799,
+    "example": {
+      "fiwo": "Batap sonei.",
+      "english": "The food is spicy."
+    }
   },
   {
     "word": "sop",
@@ -9098,7 +15648,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A pragmatic mood tag indicating the speaker knows the statement is true because they directly experienced it (e.g., saw, heard, or felt it happen).",
     "tier": 0,
-    "rank": 80
+    "rank": 80,
+    "freq": 14,
+    "freq_rank": 309
   },
   {
     "word": "sowi",
@@ -9106,7 +15658,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb describes the action of dropping down under the force of gravity.",
     "tier": 2,
-    "rank": 49
+    "rank": 49,
+    "freq": 35,
+    "freq_rank": 143,
+    "example": {
+      "fiwo": "Kyranap sowid.",
+      "english": "The feather fell."
+    }
   },
   {
     "word": "soxa",
@@ -9114,7 +15672,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the physical structure of a person or an animal, comprising the material substance.",
     "tier": 1,
-    "rank": 83
+    "rank": 83,
+    "freq": 12,
+    "freq_rank": 358,
+    "example": {
+      "fiwo": "Soxap mike iwei.",
+      "english": "My body is tired."
+    }
   },
   {
     "word": "spelu",
@@ -9122,7 +15686,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A conceptual structured form of play or a competitive abstract system strictly governed by rules.",
     "tier": 2,
-    "rank": 28
+    "rank": 28,
+    "freq": 9,
+    "freq_rank": 423,
+    "example": {
+      "fiwo": "Spelup cimidyq.",
+      "english": "The game was starting."
+    }
   },
   {
     "word": "spicupu",
@@ -9130,7 +15700,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Steadfast allegiance and devotion to a person, group, or cause over time; the standing disposition whose single violation is ongu (betrayal). Includes filial devotion toward one's parents (孝).",
     "tier": 2,
-    "rank": 277
+    "rank": 277,
+    "freq": 0,
+    "freq_rank": 2803,
+    "example": {
+      "fiwo": "Spicupu ry das tandeid.",
+      "english": "Her loyalty was great."
+    }
   },
   {
     "word": "splaka",
@@ -9138,7 +15714,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The soft fleshy side of the face, between the eye and the jaw.",
     "tier": 3,
-    "rank": 321
+    "rank": 321,
+    "freq": 0,
+    "freq_rank": 2805,
+    "example": {
+      "fiwo": "Splakap mik lande.",
+      "english": "My cheek is small."
+    }
   },
   {
     "word": "splyxi",
@@ -9146,7 +15728,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To cut food or other materials into small pieces with repeated sharp blows using a knife or similar tool.",
     "tier": 3,
-    "rank": 360
+    "rank": 360,
+    "freq": 1,
+    "freq_rank": 1237,
+    "example": {
+      "fiwo": "Daq splyxid batap.",
+      "english": "He chopped the food."
+    }
   },
   {
     "word": "spogubu",
@@ -9154,7 +15742,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abnormal defensive reaction to a harmless substance.",
     "tier": 3,
-    "rank": 156
+    "rank": 156,
+    "freq": 1,
+    "freq_rank": 1238
   },
   {
     "word": "spujuba",
@@ -9162,7 +15752,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A soft-bodied marine animal with eight arms and two long tentacles, able to squirt ink.",
     "tier": 3,
-    "rank": 399
+    "rank": 399,
+    "freq": 0,
+    "freq_rank": 2809,
+    "example": {
+      "fiwo": "Spujubap deky tandorsop.",
+      "english": "The squid is in the ocean."
+    }
   },
   {
     "word": "spuxizi",
@@ -9170,7 +15766,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To produce the sound and scatter of liquid being struck or disturbed.",
     "tier": 3,
-    "rank": 341
+    "rank": 341,
+    "freq": 0,
+    "freq_rank": 2811,
+    "example": {
+      "fiwo": "Fubap spuxizid.",
+      "english": "The fish splashed."
+    }
   },
   {
     "word": "spyfu",
@@ -9178,7 +15780,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Waiting for luck instead of working. Logical equivalent: Daq wastiq kewur. Daq nes naciq. (He is waiting for luck. He is not working.)",
     "tier": 2,
-    "rank": 399
+    "rank": 399,
+    "freq": 0,
+    "freq_rank": 2812,
+    "example": {
+      "fiwo": "Jormup sile spyfur.",
+      "english": "This situation is passive luck-waiting."
+    }
   },
   {
     "word": "stalo",
@@ -9186,7 +15794,27 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies a distant celestial object, consisting of a massive, luminous sphere of plasma, appearing as a point of light in the night sky.",
     "tier": 1,
-    "rank": 249
+    "rank": 249,
+    "freq": 10,
+    "freq_rank": 400,
+    "example": {
+      "fiwo": "Stalop lixeid.",
+      "english": "The star was bright."
+    }
+  },
+  {
+    "word": "staxi",
+    "english_equiv": "Fill",
+    "part_of_speech": "Verb",
+    "definition": "To put enough material into a container or space to occupy it completely.",
+    "tier": 3,
+    "rank": 567,
+    "freq": 0,
+    "freq_rank": 2814,
+    "example": {
+      "fiwo": "Das staxid weorop mety dorsop.",
+      "english": "She filled the ball with water."
+    }
   },
   {
     "word": "steli",
@@ -9194,7 +15822,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to lay hold of something with one's hands or reach.",
     "tier": 1,
-    "rank": 74
+    "rank": 74,
+    "freq": 44,
+    "freq_rank": 112,
+    "example": {
+      "fiwo": "Das stelid gidup mike.",
+      "english": "She took my money."
+    }
   },
   {
     "word": "stepu",
@@ -9202,7 +15836,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A structured conceptual narrative or abstract account of imaginary or real events.",
     "tier": 2,
-    "rank": 115
+    "rank": 115,
+    "freq": 10,
+    "freq_rank": 401,
+    "example": {
+      "fiwo": "Mik lokid stepup.",
+      "english": "I read the story."
+    }
   },
   {
     "word": "stibuxu",
@@ -9210,7 +15850,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A doctor's written authorization for medicine.",
     "tier": 2,
-    "rank": 358
+    "rank": 358,
+    "freq": 4,
+    "freq_rank": 641
   },
   {
     "word": "stiro",
@@ -9218,7 +15860,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical sequence of entities arranged sequentially in a continuous line.",
     "tier": 2,
-    "rank": 264
+    "rank": 264,
+    "freq": 5,
+    "freq_rank": 586,
+    "example": {
+      "fiwo": "Stirop jozeid.",
+      "english": "The line was long."
+    }
   },
   {
     "word": "stomi",
@@ -9226,7 +15874,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to freely transfer the possession of something to someone.",
     "tier": 1,
-    "rank": 32
+    "rank": 32,
+    "freq": 105,
+    "freq_rank": 49,
+    "example": {
+      "fiwo": "Manap mike stomid batap zy mik.",
+      "english": "My mother gave the food to me."
+    }
   },
   {
     "word": "storto",
@@ -9234,7 +15888,13 @@ const dictionaryData = [
     "definition": "A thin, flat, broad piece of material; a half-height block.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 395
+    "rank": 395,
+    "freq": 0,
+    "freq_rank": 2823,
+    "example": {
+      "fiwo": "Stortop wapse.",
+      "english": "The slab is flat."
+    }
   },
   {
     "word": "stramu",
@@ -9242,7 +15902,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract social grouping of individuals assembled specifically for cooperative work, a sport, or a shared task.",
     "tier": 2,
-    "rank": 139
+    "rank": 139,
+    "freq": 10,
+    "freq_rank": 402,
+    "example": {
+      "fiwo": "Stramup ry nak xeskid.",
+      "english": "Our team won."
+    }
   },
   {
     "word": "strene",
@@ -9250,7 +15916,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Within a short time from now; in the near future. A temporal modifier, deferred to this batch by the Q8 ruling on temporal adjuncts.",
     "tier": 1,
-    "rank": 239
+    "rank": 239,
+    "freq": 10,
+    "freq_rank": 403,
+    "example": {
+      "fiwo": "Nak xogri manap mike strene.",
+      "english": "We will visit my mother soon."
+    }
   },
   {
     "word": "strici",
@@ -9258,7 +15930,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To render text or speech from one language into another, preserving meaning.",
     "tier": 3,
-    "rank": 325
+    "rank": 325,
+    "freq": 0,
+    "freq_rank": 2827,
+    "example": {
+      "fiwo": "Das strici panop fy fiwo.",
+      "english": "She translates the book from Fiwo."
+    }
   },
   {
     "word": "stryvi",
@@ -9266,7 +15944,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To lose consciousness briefly from weakness.",
     "tier": 3,
-    "rank": 115
+    "rank": 115,
+    "freq": 1,
+    "freq_rank": 1239
   },
   {
     "word": "stuzygi",
@@ -9274,7 +15954,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To reverse a previous action or restore something to its prior state; to undo. As a serial-verb primary (Rule 15), it reverses the secondary verb: stuzygi asmkit = to untie.",
     "tier": 2,
-    "rank": 162
+    "rank": 162,
+    "freq": 4,
+    "freq_rank": 642,
+    "example": {
+      "fiwo": "Kop stuzygi ram.",
+      "english": "Undo it."
+    }
   },
   {
     "word": "sube",
@@ -9282,7 +15968,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Highly probable or likely to happen.",
     "tier": 1,
-    "rank": 318
+    "rank": 318,
+    "freq": 0,
+    "freq_rank": 2832,
+    "example": {
+      "fiwo": "Domlop sowiq sube.",
+      "english": "Rain is likely falling."
+    }
   },
   {
     "word": "sudi",
@@ -9290,7 +15982,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to exert force on something to move it away.",
     "tier": 2,
-    "rank": 252
+    "rank": 252,
+    "freq": 2,
+    "freq_rank": 887,
+    "example": {
+      "fiwo": "Daq sudid moblop.",
+      "english": "He pushed the car."
+    }
   },
   {
     "word": "sufi",
@@ -9298,7 +15996,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to rotate or change the direction of movement.",
     "tier": 1,
-    "rank": 238
+    "rank": 238,
+    "freq": 8,
+    "freq_rank": 454,
+    "example": {
+      "fiwo": "Moblop sufid zy waneup.",
+      "english": "The car turned to the left."
+    }
   },
   {
     "word": "suglasa",
@@ -9306,7 +16010,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A dead body reanimated into mindless motion; the walking dead of folklore.",
     "tier": 3,
-    "rank": 320
+    "rank": 320,
+    "freq": 0,
+    "freq_rank": 2838,
+    "example": {
+      "fiwo": "Suglasap hicid zy cysmop.",
+      "english": "The zombie walked to the village."
+    }
   },
   {
     "word": "suk",
@@ -9314,7 +16024,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Second-person singular; strictly the listener.",
     "tier": 0,
-    "rank": 3
+    "rank": 3,
+    "freq": 304,
+    "freq_rank": 11,
+    "example": {
+      "fiwo": "Suk jofiq mik nudu.",
+      "english": "You are helping me today."
+    }
   },
   {
     "word": "suke",
@@ -9322,7 +16038,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Strictly belonging to or associated with the listener.",
     "tier": 1,
-    "rank": 324
+    "rank": 324,
+    "freq": 56,
+    "freq_rank": 91,
+    "example": {
+      "fiwo": "Sydop suke landei.",
+      "english": "Your house is small."
+    }
   },
   {
     "word": "sulpo",
@@ -9330,7 +16052,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A substance used to add or change the color of a material.",
     "tier": 3,
-    "rank": 209
+    "rank": 209,
+    "freq": 1,
+    "freq_rank": 1240,
+    "example": {
+      "fiwo": "Sulpop loage.",
+      "english": "The dye is blue."
+    }
   },
   {
     "word": "susno",
@@ -9338,7 +16066,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A flat, physical display surface on an electronic device constructed to emit light and show visual information.",
     "tier": 2,
-    "rank": 112
+    "rank": 112,
+    "freq": 4,
+    "freq_rank": 643,
+    "example": {
+      "fiwo": "Cetop capeid.",
+      "english": "The screen was dark."
+    }
   },
   {
     "word": "suv",
@@ -9346,7 +16080,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "The formal second-person singular pronoun used to show respect when addressing elders, authorities, strangers, or in professional contexts. Possessive form: `suve` (your/yours, formal singular). Pluralized with `je`: `suv je` (you all, formal), possessive `suvem je` (your/yours, formal plural).",
     "tier": 0,
-    "rank": 22
+    "rank": 22,
+    "freq": 70,
+    "freq_rank": 80
   },
   {
     "word": "suve",
@@ -9354,7 +16090,23 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Strictly belonging to or associated with the formal/respected listener (possessive of suv, Rule 35).",
     "tier": 1,
-    "rank": 17
+    "rank": 17,
+    "freq": 13,
+    "freq_rank": 327
+  },
+  {
+    "word": "suxo",
+    "english_equiv": "Cream",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A thick, smooth, semi-liquid substance.",
+    "tier": 3,
+    "rank": 584,
+    "freq": 0,
+    "freq_rank": 2844,
+    "example": {
+      "fiwo": "Mik lantid suxo zy refo.",
+      "english": "I added cream to the coffee."
+    }
   },
   {
     "word": "swami",
@@ -9362,7 +16114,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to move something into a specific place or position.",
     "tier": 1,
-    "rank": 89
+    "rank": 89,
+    "freq": 15,
+    "freq_rank": 298,
+    "example": {
+      "fiwo": "Mik swamid kalop ty degop.",
+      "english": "I put the cup on the table."
+    }
   },
   {
     "word": "sweso",
@@ -9370,7 +16128,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The clear physical liquid excreted through the pores of the skin, typically functioning to regulate biological heat.",
     "tier": 3,
-    "rank": 252
+    "rank": 252,
+    "freq": 0,
+    "freq_rank": 2846,
+    "example": {
+      "fiwo": "Swesop sowid.",
+      "english": "Sweat fell."
+    }
   },
   {
     "word": "swozy",
@@ -9378,7 +16142,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicating that the specified entity is not included in the statement.",
     "tier": 0,
-    "rank": 106
+    "rank": 106,
+    "freq": 0,
+    "freq_rank": 2849,
+    "example": {
+      "fiwo": "Nofa late plid swozy David.",
+      "english": "Everyone came except David."
+    }
   },
   {
     "word": "swucu",
@@ -9386,7 +16156,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The positive release felt when a feared or anticipated bad outcome fails to occur; the resolving counterpart of kuri (fear) and juhi (worry).",
     "tier": 3,
-    "rank": 112
+    "rank": 112,
+    "freq": 0,
+    "freq_rank": 2850,
+    "example": {
+      "fiwo": "Nak pauli swucup.",
+      "english": "We feel relief."
+    }
   },
   {
     "word": "syca",
@@ -9394,7 +16170,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the unit of reproduction of a flowering plant capable of developing into another such plant.",
     "tier": 3,
-    "rank": 31
+    "rank": 31,
+    "freq": 4,
+    "freq_rank": 644,
+    "example": {
+      "fiwo": "Mik onasid sycar.",
+      "english": "I planted a seed."
+    }
   },
   {
     "word": "sydo",
@@ -9402,7 +16184,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a structure or place serving as a dwelling, providing protection from the elements and a living space for habitation.",
     "tier": 1,
-    "rank": 19
+    "rank": 19,
+    "freq": 145,
+    "freq_rank": 29,
+    "example": {
+      "fiwo": "Sydop ry mik.",
+      "english": "The house is mine."
+    }
   },
   {
     "word": "syn",
@@ -9410,7 +16198,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Marks a theoretical premise or conditional clause (if/when/whenever).",
     "tier": 0,
-    "rank": 97
+    "rank": 97,
+    "freq": 109,
+    "freq_rank": 46,
+    "example": {
+      "fiwo": "Syn suk jofis mik can mik stomis gidup suke zy suk.",
+      "english": "If you help me, then I will give you your money."
+    }
   },
   {
     "word": "synaru",
@@ -9418,7 +16212,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract requirement, prerequisite, or stipulation that must be met.",
     "tier": 2,
-    "rank": 459
+    "rank": 459,
+    "freq": 2,
+    "freq_rank": 888,
+    "example": {
+      "fiwo": "Synarup ry ibazop lefeid.",
+      "english": "The prerequisite of the school was hard."
+    }
   },
   {
     "word": "sysu",
@@ -9426,7 +16226,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The state of feeling weary, restless, or uninterested due to lack of activity or stimulation.",
     "tier": 1,
-    "rank": 328
+    "rank": 328,
+    "freq": 0,
+    "freq_rank": 2857,
+    "example": {
+      "fiwo": "Sysup ry mik bokeid.",
+      "english": "My boredom was bad."
+    }
   },
   {
     "word": "tafe",
@@ -9434,7 +16240,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number that is the sum of one and two.",
     "tier": 1,
-    "rank": 41
+    "rank": 41,
+    "freq": 104,
+    "freq_rank": 50,
+    "example": {
+      "fiwo": "Mosar tafe morid.",
+      "english": "Three trees grew."
+    }
   },
   {
     "word": "tafedu",
@@ -9442,7 +16254,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Wednesday; the third day of the week. Derived by compounding tafe (three) and du (day).",
     "tier": 1,
-    "rank": 307
+    "rank": 307,
+    "freq": 6,
+    "freq_rank": 530,
+    "example": {
+      "fiwo": "Tafedup nacidyq.",
+      "english": "Wednesday was working."
+    }
   },
   {
     "word": "tagudu",
@@ -9450,7 +16268,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A gain that does not cover its loss. Logical equivalent: Xeskiup landei jete taly wafriup. (The gain is smaller than the loss.)",
     "tier": 2,
-    "rank": 117
+    "rank": 117,
+    "freq": 0,
+    "freq_rank": 2860,
+    "example": {
+      "fiwo": "Ram tagudur.",
+      "english": "That is a bad bargain."
+    }
   },
   {
     "word": "taicu",
@@ -9458,7 +16282,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A conceptual social gathering or a political faction organized for a specific shared purpose.",
     "tier": 2,
-    "rank": 40
+    "rank": 40,
+    "freq": 6,
+    "freq_rank": 531,
+    "example": {
+      "fiwo": "Taicup cimidyq.",
+      "english": "The party was starting."
+    }
   },
   {
     "word": "taju",
@@ -9466,7 +16296,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A feeling of discontented or resentful longing aroused by someone else's possessions, qualities, or luck.",
     "tier": 3,
-    "rank": 338
+    "rank": 338,
+    "freq": 0,
+    "freq_rank": 2862,
+    "example": {
+      "fiwo": "Tajup ry daq bokeid.",
+      "english": "His envy was bad."
+    }
   },
   {
     "word": "taly",
@@ -9474,7 +16310,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Used to establish a structural bridge between a modified subject or action and the baseline it is being measured against.",
     "tier": 0,
-    "rank": 26
+    "rank": 26,
+    "freq": 32,
+    "freq_rank": 157,
+    "example": {
+      "fiwo": "Detap mike tandei jete taly catsap suke.",
+      "english": "My dog is bigger than your cat."
+    }
   },
   {
     "word": "tande",
@@ -9482,7 +16324,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something of considerable size, extent, or capacity.",
     "tier": 1,
-    "rank": 20
+    "rank": 20,
+    "freq": 92,
+    "freq_rank": 57,
+    "example": {
+      "fiwo": "Mifap tandei.",
+      "english": "The animal is big."
+    }
   },
   {
     "word": "tandorso",
@@ -9490,7 +16338,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a massive, continuous physical body of saltwater that covers a vast structural portion of a planet's surface.",
     "tier": 1,
-    "rank": 169
+    "rank": 169,
+    "freq": 14,
+    "freq_rank": 310,
+    "example": {
+      "fiwo": "Tandorsop tandei.",
+      "english": "The ocean is vast."
+    }
   },
   {
     "word": "tanko",
@@ -9498,7 +16352,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A sweet, crystalline physical substance naturally derived from plants, used strictly to sweeten food or drink.",
     "tier": 1,
-    "rank": 245
+    "rank": 245,
+    "freq": 2,
+    "freq_rank": 889,
+    "example": {
+      "fiwo": "Tankop tutei.",
+      "english": "Sugar is sweet."
+    }
   },
   {
     "word": "tapo",
@@ -9506,7 +16366,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The specific physical location of the speaker or the immediate area being occupied.",
     "tier": 1,
-    "rank": 40
+    "rank": 40,
+    "freq": 16,
+    "freq_rank": 281,
+    "example": {
+      "fiwo": "Mik ceni tapo.",
+      "english": "I live here."
+    }
   },
   {
     "word": "taqa",
@@ -9514,7 +16380,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a male sibling who shares one or both parents with another individual.",
     "tier": 1,
-    "rank": 255
+    "rank": 255,
+    "freq": 13,
+    "freq_rank": 328,
+    "example": {
+      "fiwo": "Taqap mike kypeid.",
+      "english": "My brother was happy."
+    }
   },
   {
     "word": "tatesmi",
@@ -9522,7 +16394,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To return to health after illness or injury.",
     "tier": 2,
-    "rank": 269
+    "rank": 269,
+    "freq": 4,
+    "freq_rank": 645
   },
   {
     "word": "tazi",
@@ -9530,7 +16404,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To feel deep affection, unconditional care, or profound attachment toward an entity.",
     "tier": 1,
-    "rank": 66
+    "rank": 66,
+    "freq": 12,
+    "freq_rank": 359,
+    "example": {
+      "fiwo": "Mik tazid nauxap mike.",
+      "english": "I loved my friend."
+    }
   },
   {
     "word": "tebe",
@@ -9538,7 +16418,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an entity or state that stands out above all others in a specific context; to a distinctly higher degree than is usual.",
     "tier": 2,
-    "rank": 322
+    "rank": 322,
+    "freq": 0,
+    "freq_rank": 2873,
+    "example": {
+      "fiwo": "Spelup gaweid tebe.",
+      "english": "The game was especially good."
+    }
   },
   {
     "word": "tefama",
@@ -9546,7 +16432,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The joint and surrounding area where the leg meets the torso, at the side of the pelvis.",
     "tier": 3,
-    "rank": 147
+    "rank": 147,
+    "freq": 0,
+    "freq_rank": 2875,
+    "example": {
+      "fiwo": "Tefamap daq tande.",
+      "english": "His hip is big."
+    }
   },
   {
     "word": "tehidi",
@@ -9554,7 +16446,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To devote time and attention to acquiring knowledge on an academic subject.",
     "tier": 1,
-    "rank": 164
+    "rank": 164,
+    "freq": 1,
+    "freq_rank": 1243,
+    "example": {
+      "fiwo": "Caqlap tehidi fiwop.",
+      "english": "The boy studies the language."
+    }
   },
   {
     "word": "tel",
@@ -9562,7 +16460,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Closing bracket finalizing a subordinate or conditional clause. Optional at sentence boundaries (periods), but strictly mandatory mid-sentence or to resolve mirroring/nesting ambiguity.",
     "tier": 0,
-    "rank": 87
+    "rank": 87,
+    "freq": 83,
+    "freq_rank": 61,
+    "example": {
+      "fiwo": "Nofap tep cukiq tel ceni deky sydop.",
+      "english": "The person who is fighting lives in the house."
+    }
   },
   {
     "word": "telfo",
@@ -9570,7 +16474,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A portable electronic device for two-way audio (and data) communication across a distance; a telephone or mobile/cell phone.",
     "tier": 2,
-    "rank": 50
+    "rank": 50,
+    "freq": 6,
+    "freq_rank": 532,
+    "example": {
+      "fiwo": "Telfop zindidyq.",
+      "english": "The phone was ringing."
+    }
   },
   {
     "word": "tep",
@@ -9578,7 +16488,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Opening bracket introducing a subordinate or embedded relative clause. Open brackets are implicitly closed by a period (.) at the end of a sentence.",
     "tier": 0,
-    "rank": 95
+    "rank": 95,
+    "freq": 1172,
+    "freq_rank": 1,
+    "example": {
+      "fiwo": "Mik karxid detar tep cafidyq.",
+      "english": "I found a dog that was running."
+    }
   },
   {
     "word": "tequ",
@@ -9586,7 +16502,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A highly specific, brief abstract conceptual point or period in the flow of time.",
     "tier": 2,
-    "rank": 222
+    "rank": 222,
+    "freq": 16,
+    "freq_rank": 282,
+    "example": {
+      "fiwo": "Tequp pliq.",
+      "english": "The moment is coming."
+    }
   },
   {
     "word": "teso",
@@ -9594,7 +16516,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a physical aromatic liquid beverage prepared by pouring hot water over cured or fresh leaves of a plant.",
     "tier": 2,
-    "rank": 233
+    "rank": 233,
+    "freq": 6,
+    "freq_rank": 533,
+    "example": {
+      "fiwo": "Tesop ripeid.",
+      "english": "The tea was hot."
+    }
   },
   {
     "word": "tex",
@@ -9602,7 +16530,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Closes a social interaction or indicates departure.",
     "tier": 0,
-    "rank": 96
+    "rank": 96,
+    "freq": 1,
+    "freq_rank": 1244,
+    "example": {
+      "fiwo": "Tex, mik xalis nu.",
+      "english": "Goodbye, I am leaving now."
+    }
   },
   {
     "word": "tifava",
@@ -9610,7 +16544,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A woody plant smaller than a tree (mosa), with many stems branching from near the ground.",
     "tier": 3,
-    "rank": 134
+    "rank": 134,
+    "freq": 0,
+    "freq_rank": 2881,
+    "example": {
+      "fiwo": "Tifavap lande.",
+      "english": "The bush is small."
+    }
   },
   {
     "word": "tiherki",
@@ -9618,7 +16558,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To go beyond a limit, amount, or expectation.",
     "tier": 3,
-    "rank": 75
+    "rank": 75,
+    "freq": 1,
+    "freq_rank": 1245
   },
   {
     "word": "timufu",
@@ -9626,7 +16568,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The time of fading light after sunset.",
     "tier": 3,
-    "rank": 50
+    "rank": 50,
+    "freq": 1,
+    "freq_rank": 1246,
+    "example": {
+      "fiwo": "Nak xalid dury timufu.",
+      "english": "We left at dusk."
+    }
   },
   {
     "word": "timybo",
@@ -9634,7 +16582,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A large, round, orange-fleshed vegetable with a thick rind, harvested in autumn.",
     "tier": 3,
-    "rank": 337
+    "rank": 337,
+    "freq": 0,
+    "freq_rank": 2884,
+    "example": {
+      "fiwo": "Timybop tande.",
+      "english": "The pumpkin is big."
+    }
   },
   {
     "word": "tindobo",
@@ -9642,7 +16596,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An official document granting permission to do something.",
     "tier": 2,
-    "rank": 353
+    "rank": 353,
+    "freq": 1,
+    "freq_rank": 1247
   },
   {
     "word": "tisoslo",
@@ -9650,7 +16606,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The distant line where the sky appears to meet the land or sea.",
     "tier": 2,
-    "rank": 298
+    "rank": 298,
+    "freq": 5,
+    "freq_rank": 588,
+    "example": {
+      "fiwo": "Mik nojaid tisoslop.",
+      "english": "I saw the horizon."
+    }
   },
   {
     "word": "toce",
@@ -9659,7 +16621,13 @@ const dictionaryData = [
     "definition": "This word describes a state of feeling regret or penitence for an action.",
     "usage_note": "Apology only — the sense of 'sorry' for one's own wrong action. For the sympathy sense of English 'sorry' (regret at another's misfortune, having caused nothing), use azmu or the phatic ov. See How to say that.",
     "tier": 1,
-    "rank": 126
+    "rank": 126,
+    "freq": 1,
+    "freq_rank": 1248,
+    "example": {
+      "fiwo": "Mik tocei cagy suk.",
+      "english": "I am sorry to you."
+    }
   },
   {
     "word": "tody",
@@ -9667,7 +16635,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Used for direction or position higher than a reference.",
     "tier": 0,
-    "rank": 51
+    "rank": 51,
+    "freq": 12,
+    "freq_rank": 360,
+    "example": {
+      "fiwo": "Bysop ceni tody zasop.",
+      "english": "The sky is above the ground."
+    }
   },
   {
     "word": "todyri",
@@ -9675,7 +16649,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To elevate an entity to a higher physical altitude or scale it to a higher mathematical level.",
     "tier": 2,
-    "rank": 229
+    "rank": 229,
+    "freq": 2,
+    "freq_rank": 890,
+    "example": {
+      "fiwo": "Daq todyrid meokop.",
+      "english": "He raised the hat."
+    }
   },
   {
     "word": "tofakro",
@@ -9683,7 +16663,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An open area of ground, especially grassland or cleared land used for crops or grazing; the physical place, where atobu is the abstract field of study.",
     "tier": 2,
-    "rank": 306
+    "rank": 306,
+    "freq": 1,
+    "freq_rank": 1249,
+    "example": {
+      "fiwo": "Buvap deky tofakrop.",
+      "english": "The cow is in the field."
+    }
   },
   {
     "word": "tofra",
@@ -9691,7 +16677,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A female biological relative who is the sister of one's parent.",
     "tier": 2,
-    "rank": 363
+    "rank": 363,
+    "freq": 0,
+    "freq_rank": 2893,
+    "example": {
+      "fiwo": "Tofrap ry mik plid.",
+      "english": "My aunt came."
+    }
   },
   {
     "word": "toili",
@@ -9699,7 +16691,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To temporarily give or provide something to someone with the explicit expectation that it will be returned.",
     "tier": 3,
-    "rank": 313
+    "rank": 313,
+    "freq": 0,
+    "freq_rank": 2895,
+    "example": {
+      "fiwo": "Das toilis gidur zy mik.",
+      "english": "She will lend money to me."
+    }
   },
   {
     "word": "tolkywo",
@@ -9707,7 +16705,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A shape or figure formed by two lines or bars intersecting at right angles; also used as a symbol or marker.",
     "tier": 2,
-    "rank": 388
+    "rank": 388,
+    "freq": 0,
+    "freq_rank": 2898,
+    "example": {
+      "fiwo": "Mik jamid tolkywop.",
+      "english": "I drew a cross."
+    }
   },
   {
     "word": "topza",
@@ -9715,7 +16719,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This identifies the primary front surface of a biological entity's body, located strictly between the neck and the stomach.",
     "tier": 3,
-    "rank": 117
+    "rank": 117,
+    "freq": 2,
+    "freq_rank": 891,
+    "example": {
+      "fiwo": "Topzap ry daq tandeid.",
+      "english": "His chest was large."
+    }
   },
   {
     "word": "tosuru",
@@ -9723,7 +16733,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Willing, virtuous endurance of hardship — active, unlike ixovi (endure passively; Mandarin chi ku). Logical equivalent: Daq dzefi pamup. Daq xygaji. (He accepts the pain. He continues.)",
     "tier": 3,
-    "rank": 39
+    "rank": 39,
+    "freq": 1,
+    "freq_rank": 1250,
+    "example": {
+      "fiwo": "Ram tosurur.",
+      "english": "That is hardship endurance."
+    }
   },
   {
     "word": "tovni",
@@ -9731,7 +16747,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To officially create, start, or set up an abstract organization, business, or systemic institution.",
     "tier": 2,
-    "rank": 237
+    "rank": 237,
+    "freq": 0,
+    "freq_rank": 2901,
+    "example": {
+      "fiwo": "Govnup nake tovnis ikup.",
+      "english": "Our government will establish the law."
+    }
   },
   {
     "word": "tox",
@@ -9739,7 +16761,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Phatic toast exchanged when drinking together; 'cheers.' Standalone on the Null Track (Rule 33).",
     "tier": 0,
-    "rank": 105
+    "rank": 105,
+    "freq": 2,
+    "freq_rank": 892,
+    "example": {
+      "fiwo": "Tox. Kop muk roli.",
+      "english": "Cheers. Let's drink."
+    }
   },
   {
     "word": "toxu",
@@ -9747,7 +16775,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract study, concept, or collective state of the mind and its cognitive processes.",
     "tier": 2,
-    "rank": 274
+    "rank": 274,
+    "freq": 0,
+    "freq_rank": 2903,
+    "example": {
+      "fiwo": "Toxup ry daq gaweid.",
+      "english": "His mentality was good."
+    }
   },
   {
     "word": "traxa",
@@ -9755,7 +16789,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "One of a pair of organs in the abdomen that filter waste products from the blood and produce urine.",
     "tier": 3,
-    "rank": 529
+    "rank": 529,
+    "freq": 0,
+    "freq_rank": 2906,
+    "example": {
+      "fiwo": "Oykap ry nofa late.",
+      "english": "The kidney of everyone."
+    }
   },
   {
     "word": "triduli",
@@ -9763,7 +16803,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To have enough money or means for something.",
     "tier": 2,
-    "rank": 337
+    "rank": 337,
+    "freq": 1,
+    "freq_rank": 1251
   },
   {
     "word": "triruzu",
@@ -9771,7 +16813,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Agitation arising from a blocked goal or thwarted effort. The obstacle, rather than a moral wrong, distinguishes it from tsake (anger).",
     "tier": 3,
-    "rank": 295
+    "rank": 295,
+    "freq": 0,
+    "freq_rank": 2908,
+    "example": {
+      "fiwo": "Triruzup ry mik bokeid.",
+      "english": "My frustration was bad."
+    }
   },
   {
     "word": "truhu",
@@ -9779,7 +16827,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A feeling of reverential respect mixed with fear or wonder.",
     "tier": 2,
-    "rank": 415
+    "rank": 415,
+    "freq": 1,
+    "freq_rank": 1253,
+    "example": {
+      "fiwo": "Nak pauli truhup.",
+      "english": "We feel awe."
+    }
   },
   {
     "word": "trynda",
@@ -9787,7 +16841,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The joint connecting the foot to the leg.",
     "tier": 3,
-    "rank": 292
+    "rank": 292,
+    "freq": 0,
+    "freq_rank": 2911,
+    "example": {
+      "fiwo": "Trynda mike pamuid.",
+      "english": "My ankle hurt."
+    }
   },
   {
     "word": "tsake",
@@ -9795,7 +16855,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a strong subjective state of annoyance, displeasure, or furious hostility.",
     "tier": 1,
-    "rank": 287
+    "rank": 287,
+    "freq": 1,
+    "freq_rank": 1255,
+    "example": {
+      "fiwo": "Rezap tsakeid.",
+      "english": "The leader was angry."
+    }
   },
   {
     "word": "tsenge",
@@ -9803,7 +16869,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "With high frequency; more than evle (sometimes) but less than ovce (always). Completes the amce–evle–tsenge–ovce frequency scale.",
     "tier": 1,
-    "rank": 229
+    "rank": 229,
+    "freq": 0,
+    "freq_rank": 2914,
+    "example": {
+      "fiwo": "Mik xogrid manap mike tsenge.",
+      "english": "I visit my mother often."
+    }
   },
   {
     "word": "tsi",
@@ -9811,7 +16883,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to go away from a place, person, or thing; to depart.",
     "tier": 1,
-    "rank": 64
+    "rank": 64,
+    "freq": 73,
+    "freq_rank": 78,
+    "example": {
+      "fiwo": "Daq tsid wecdu.",
+      "english": "He left yesterday."
+    }
   },
   {
     "word": "tsorfo",
@@ -9819,7 +16897,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A lustrous white precious metal, used in jewelry, coinage, and tools. Follows xedo (metal) and xaqbo (gold) as a specific metal type.",
     "tier": 2,
-    "rank": 464
+    "rank": 464,
+    "freq": 0,
+    "freq_rank": 2917,
+    "example": {
+      "fiwo": "Tsorfop das lande.",
+      "english": "Her silver is small."
+    }
   },
   {
     "word": "tsotu",
@@ -9827,7 +16911,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a state of happiness and satisfaction.",
     "tier": 3,
-    "rank": 396
+    "rank": 396,
+    "freq": 0,
+    "freq_rank": 2919,
+    "example": {
+      "fiwo": "Tsotup mike tandei.",
+      "english": "My contentment is great."
+    }
   },
   {
     "word": "tsyti",
@@ -9835,7 +16925,28 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to try to find something by looking or otherwise seeking carefully and thoroughly.",
     "tier": 2,
-    "rank": 8
+    "rank": 8,
+    "freq": 11,
+    "freq_rank": 376,
+    "example": {
+      "fiwo": "Nak tsytid lusop.",
+      "english": "We searched for the key."
+    }
+  },
+  {
+    "word": "tudari",
+    "english_equiv": "Decorate",
+    "part_of_speech": "Verb",
+    "definition": "To add ornamentation to an object in order to improve its appearance.",
+    "tier": 3,
+    "rank": 568,
+    "usage_note": "Distinct from zilto (trim), which is the physical decorative border itself, not the act.",
+    "freq": 0,
+    "freq_rank": 2922,
+    "example": {
+      "fiwo": "Muk tudarid krulop suke.",
+      "english": "We decorated your room."
+    }
   },
   {
     "word": "tudihi",
@@ -9843,7 +16954,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To produce a sudden loud impact sound, as of striking, knocking, or falling.",
     "tier": 3,
-    "rank": 190
+    "rank": 190,
+    "freq": 0,
+    "freq_rank": 2924,
+    "example": {
+      "fiwo": "Hoxop tudihid.",
+      "english": "The door banged."
+    }
   },
   {
     "word": "tujyru",
@@ -9851,7 +16968,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A secret payment made to corrupt someone's judgment.",
     "tier": 3,
-    "rank": 158
+    "rank": 158,
+    "freq": 1,
+    "freq_rank": 1256
   },
   {
     "word": "tulo",
@@ -9859,7 +16978,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A rigid container, typically constructed of glass or plastic, featuring a narrow neck and used for storing liquids.",
     "tier": 2,
-    "rank": 270
+    "rank": 270,
+    "freq": 3,
+    "freq_rank": 743,
+    "example": {
+      "fiwo": "Tulop myi lamsor.",
+      "english": "The bottle contains milk."
+    }
   },
   {
     "word": "tumi",
@@ -9867,7 +16992,28 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To make or become different; to transform the state of something.",
     "tier": 2,
-    "rank": 20
+    "rank": 20,
+    "freq": 29,
+    "freq_rank": 176,
+    "example": {
+      "fiwo": "Fiturup tumid nak.",
+      "english": "The future changed us."
+    }
+  },
+  {
+    "word": "tura",
+    "english_equiv": "Fang",
+    "part_of_speech": "Biological Noun",
+    "definition": "A long, pointed tooth used to seize prey or inject venom.",
+    "tier": 3,
+    "rank": 588,
+    "usage_note": "A specific tooth; the general word is pixra.",
+    "freq": 0,
+    "freq_rank": 2928,
+    "example": {
+      "fiwo": "Iega jedi tura je rute.",
+      "english": "The lion has sharp fangs."
+    }
   },
   {
     "word": "tusu",
@@ -9875,7 +17021,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The coldest season of the year, characterised by short days, low temperatures, and dormant vegetation.",
     "tier": 2,
-    "rank": 183
+    "rank": 183,
+    "freq": 15,
+    "freq_rank": 299,
+    "example": {
+      "fiwo": "Tusup jabeid.",
+      "english": "Winter was cold."
+    }
   },
   {
     "word": "tute",
@@ -9884,7 +17036,13 @@ const dictionaryData = [
     "definition": "This describes the taste sensation characteristic of sugars.",
     "usage_note": "Distinct from the other basic tastes: sour, salty, or bitter.",
     "tier": 1,
-    "rank": 184
+    "rank": 184,
+    "freq": 2,
+    "freq_rank": 893,
+    "example": {
+      "fiwo": "Tandop tutei.",
+      "english": "Sugar is sweet."
+    }
   },
   {
     "word": "tuxunto",
@@ -9892,7 +17050,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A written statement of money owed for goods or services.",
     "tier": 2,
-    "rank": 169
+    "rank": 169,
+    "freq": 1,
+    "freq_rank": 1257
   },
   {
     "word": "ty",
@@ -9900,7 +17060,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates physical contact with and support by a surface.",
     "tier": 0,
-    "rank": 16
+    "rank": 16,
+    "freq": 99,
+    "freq_rank": 53,
+    "example": {
+      "fiwo": "Panop ceni ty degop.",
+      "english": "The book is on the table."
+    }
   },
   {
     "word": "tyko",
@@ -9908,7 +17074,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This describes the substance things are made of and is critical for defining modern concepts like plastic.",
     "tier": 2,
-    "rank": 311
+    "rank": 311,
+    "freq": 1,
+    "freq_rank": 1258,
+    "example": {
+      "fiwo": "Tykop ry buskop mike wageid.",
+      "english": "The material of my clothes was soft."
+    }
   },
   {
     "word": "tytuju",
@@ -9916,7 +17088,23 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A single standard quantity, or a distinct grouped whole.",
     "tier": 2,
-    "rank": 247
+    "rank": 247,
+    "freq": 1,
+    "freq_rank": 1259
+  },
+  {
+    "word": "tyxe",
+    "english_equiv": "Tropical",
+    "part_of_speech": "Modifier",
+    "definition": "Belonging to or characteristic of the hot, humid regions near the equator.",
+    "tier": 3,
+    "rank": 586,
+    "freq": 0,
+    "freq_rank": 2934,
+    "example": {
+      "fiwo": "Fuba tyxe ceni ky tandorso.",
+      "english": "The tropical fish lives in the ocean."
+    }
   },
   {
     "word": "ubli",
@@ -9925,7 +17113,13 @@ const dictionaryData = [
     "definition": "To mentally anticipate or logically regard an event as highly likely to happen.",
     "usage_note": "Directed at a future event as likely. For accepting a proposition as a working basis without evidence, use dagibi (to assume).",
     "tier": 2,
-    "rank": 383
+    "rank": 383,
+    "freq": 4,
+    "freq_rank": 647,
+    "example": {
+      "fiwo": "Mik ublis uxkur.",
+      "english": "I expect success."
+    }
   },
   {
     "word": "ubme",
@@ -9933,7 +17127,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Done, perceived, or existing in open view; open to the community.",
     "tier": 2,
-    "rank": 234
+    "rank": 234,
+    "freq": 0,
+    "freq_rank": 2935,
+    "example": {
+      "fiwo": "Picalop ubmei.",
+      "english": "The hospital is public."
+    }
   },
   {
     "word": "ucde",
@@ -9941,7 +17141,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Feeling deep pleasure or satisfaction as a result of achievements, qualities, or possessions.",
     "tier": 2,
-    "rank": 468
+    "rank": 468,
+    "freq": 0,
+    "freq_rank": 2937,
+    "example": {
+      "fiwo": "Manap mike ucdeid.",
+      "english": "My mother was proud."
+    }
   },
   {
     "word": "ucka",
@@ -9949,7 +17155,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A young plant, especially one recently grown from a seed.",
     "tier": 3,
-    "rank": 392
+    "rank": 392,
+    "freq": 0,
+    "freq_rank": 2939,
+    "example": {
+      "fiwo": "Uckap gefridyq fy zasop.",
+      "english": "The seedling was coming out from the ground."
+    }
   },
   {
     "word": "ucto",
@@ -9957,7 +17169,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A utensil consisting of a small, shallow oval bowl on a handle, used for eating, stirring, or serving food.",
     "tier": 3,
-    "rank": 315
+    "rank": 315,
+    "freq": 0,
+    "freq_rank": 2941,
+    "example": {
+      "fiwo": "Uctop ty icifop.",
+      "english": "The spoon is on the plate."
+    }
   },
   {
     "word": "udbo",
@@ -9965,7 +17183,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A small disc or knob sewn onto a garment, used to fasten it or as decoration.",
     "tier": 2,
-    "rank": 428
+    "rank": 428,
+    "freq": 1,
+    "freq_rank": 1262,
+    "example": {
+      "fiwo": "Udbop landeid.",
+      "english": "The button was small."
+    }
   },
   {
     "word": "udce",
@@ -9973,7 +17197,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Fitting closely; held or closed firmly in place.",
     "tier": 3,
-    "rank": 78
+    "rank": 78,
+    "freq": 0,
+    "freq_rank": 2944,
+    "example": {
+      "fiwo": "Belimop udceid.",
+      "english": "The shoe was tight."
+    }
   },
   {
     "word": "udzidu",
@@ -9981,7 +17211,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual state, outward visual presentation, or visible aspect of how an entity looks and is perceived by an observer.",
     "tier": 3,
-    "rank": 40
+    "rank": 40,
+    "freq": 0,
+    "freq_rank": 2946,
+    "example": {
+      "fiwo": "Udzidup ry sydop baudeid.",
+      "english": "The appearance of the house was beautiful."
+    }
   },
   {
     "word": "ufaxo",
@@ -9989,7 +17225,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical or digitally recorded string of text, symbols, or audio meant to convey information from one entity to another.",
     "tier": 2,
-    "rank": 73
+    "rank": 73,
+    "freq": 15,
+    "freq_rank": 300,
+    "example": {
+      "fiwo": "Das jopxid ufaxop.",
+      "english": "She received the message."
+    }
   },
   {
     "word": "ufdi",
@@ -9997,7 +17239,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To move back and forth or up and down with short, quick, repetitive movements.",
     "tier": 3,
-    "rank": 179
+    "rank": 179,
+    "freq": 5,
+    "freq_rank": 589,
+    "example": {
+      "fiwo": "Xabesop ufdis mosap.",
+      "english": "The wind will shake the tree."
+    }
   },
   {
     "word": "ufnu",
@@ -10005,7 +17253,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A serious disagreement, argument, or clash between opposing forces, ideas, or entities.",
     "tier": 3,
-    "rank": 59
+    "rank": 59,
+    "freq": 0,
+    "freq_rank": 2952,
+    "example": {
+      "fiwo": "Ufnup cimidyq.",
+      "english": "The conflict was starting."
+    }
   },
   {
     "word": "ugni",
@@ -10013,7 +17267,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To accidentally lose or admit contents (typically fluid) through a hole, crack, or defect.",
     "tier": 3,
-    "rank": 244
+    "rank": 244,
+    "freq": 0,
+    "freq_rank": 2954,
+    "example": {
+      "fiwo": "Tulop ugnis.",
+      "english": "The bottle will leak."
+    }
   },
   {
     "word": "ugte",
@@ -10021,7 +17281,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "A relative degree modifier indicating the lowest perceptible amount of a trait, state, or action; almost not at all.",
     "tier": 3,
-    "rank": 433
+    "rank": 433,
+    "freq": 0,
+    "freq_rank": 2955
   },
   {
     "word": "ugvu",
@@ -10029,7 +17291,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A strong desire to do, achieve, or accomplish something great, typically requiring determination.",
     "tier": 3,
-    "rank": 303
+    "rank": 303,
+    "freq": 0,
+    "freq_rank": 2957,
+    "example": {
+      "fiwo": "Ugvup ry daq tandeid.",
+      "english": "His ambition was great."
+    }
   },
   {
     "word": "uho",
@@ -10037,7 +17305,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A piece of cloth or fabric, usually rectangular, with a distinctive design used as a symbol or signal (specifically representing a nation or group).",
     "tier": 2,
-    "rank": 417
+    "rank": 417,
+    "freq": 6,
+    "freq_rank": 534,
+    "example": {
+      "fiwo": "Uhop loageid.",
+      "english": "The flag was blue."
+    }
   },
   {
     "word": "uibu",
@@ -10045,7 +17319,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A situation involving exposure to danger, harm, or loss.",
     "tier": 2,
-    "rank": 359
+    "rank": 359,
+    "freq": 1,
+    "freq_rank": 1264,
+    "example": {
+      "fiwo": "Uibup ry moblop zaveid.",
+      "english": "The risk of the vehicle was high."
+    }
   },
   {
     "word": "ukwi",
@@ -10053,7 +17333,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To form an opinion or conclusion about something, or to formally decide a case in a court of law.",
     "tier": 2,
-    "rank": 103
+    "rank": 103,
+    "freq": 7,
+    "freq_rank": 492,
+    "example": {
+      "fiwo": "Daq ukwi jormup.",
+      "english": "He judges the case."
+    }
   },
   {
     "word": "ukwolu",
@@ -10061,7 +17347,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A feeling of self-consciousness, shame, or awkwardness.",
     "tier": 2,
-    "rank": 465
+    "rank": 465,
+    "freq": 0,
+    "freq_rank": 2962,
+    "example": {
+      "fiwo": "Das pauli ukwolup.",
+      "english": "She feels embarrassment."
+    }
   },
   {
     "word": "ulime",
@@ -10070,7 +17362,13 @@ const dictionaryData = [
     "definition": "This describes a quantity representing exactly one of two equal parts of a whole (50%).",
     "usage_note": "Distinct from mide (middle), which refers to a spatial or temporal center.",
     "tier": 1,
-    "rank": 124
+    "rank": 124,
+    "freq": 9,
+    "freq_rank": 426,
+    "example": {
+      "fiwo": "Aplap ulimei.",
+      "english": "The apple is half."
+    }
   },
   {
     "word": "ultu",
@@ -10078,7 +17376,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The circumstances, background, or setting that form the environment for an event, statement, or idea.",
     "tier": 3,
-    "rank": 58
+    "rank": 58,
+    "freq": 0,
+    "freq_rank": 2965,
+    "example": {
+      "fiwo": "Ultup ry gop fafei.",
+      "english": "The context of the word is important."
+    }
   },
   {
     "word": "umeti",
@@ -10086,7 +17390,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To put forward a conceptual idea, abstract plan, or possibility for another mind's consideration.",
     "tier": 2,
-    "rank": 141
+    "rank": 141,
+    "freq": 0,
+    "freq_rank": 2967,
+    "example": {
+      "fiwo": "Licap mike umetid junur otre.",
+      "english": "My colleague suggested another plan."
+    }
   },
   {
     "word": "umzi",
@@ -10094,7 +17404,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To greet someone in a warm, friendly, and hospitable manner upon their arrival.",
     "tier": 1,
-    "rank": 262
+    "rank": 262,
+    "freq": 4,
+    "freq_rank": 648,
+    "example": {
+      "fiwo": "Rezap umzis cyvap.",
+      "english": "The president welcomes the stranger."
+    }
   },
   {
     "word": "untexo",
@@ -10102,7 +17418,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A specific digital tool or concrete software program designed to perform a distinct function for the user on a device like a phone or computer.",
     "tier": 2,
-    "rank": 432
+    "rank": 432,
+    "freq": 0,
+    "freq_rank": 2970,
+    "example": {
+      "fiwo": "Untexop gaweid.",
+      "english": "The app was good."
+    }
   },
   {
     "word": "unyha",
@@ -10110,7 +17432,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A soft, low, dense green plant that carpets damp surfaces.",
     "tier": 3,
-    "rank": 306
+    "rank": 306,
+    "freq": 0,
+    "freq_rank": 2972,
+    "example": {
+      "fiwo": "Unyhap zovi ty drekop.",
+      "english": "The moss is on the rock."
+    }
   },
   {
     "word": "uovo",
@@ -10118,7 +17446,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A soft cushion used to support the head, especially when sleeping in bed.",
     "tier": 3,
-    "rank": 170
+    "rank": 170,
+    "freq": 1,
+    "freq_rank": 1267,
+    "example": {
+      "fiwo": "Uovop wageid.",
+      "english": "The pillow was soft."
+    }
   },
   {
     "word": "upfe",
@@ -10126,7 +17460,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Not the same in quantity, size, degree, value, or status.",
     "tier": 3,
-    "rank": 375
+    "rank": 375,
+    "freq": 0,
+    "freq_rank": 2975,
+    "example": {
+      "fiwo": "Melfup upfeid.",
+      "english": "The price was unequal."
+    }
   },
   {
     "word": "upta",
@@ -10134,7 +17474,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large bird of prey with a curved beak and long, broad wings.",
     "tier": 3,
-    "rank": 230
+    "rank": 230,
+    "freq": 0,
+    "freq_rank": 2977,
+    "example": {
+      "fiwo": "Uptap cyridyq tody montop.",
+      "english": "The eagle was flying above the mountain."
+    }
   },
   {
     "word": "upvi",
@@ -10142,7 +17488,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To make something longer or wider by pulling it, or to extend one's limbs.",
     "tier": 3,
-    "rank": 161
+    "rank": 161,
+    "freq": 0,
+    "freq_rank": 2979,
+    "example": {
+      "fiwo": "Kyfap upvid wizap je.",
+      "english": "The bird stretched its wings."
+    }
   },
   {
     "word": "upyci",
@@ -10151,7 +17503,13 @@ const dictionaryData = [
     "definition": "To direct one's gaze or visual attention in a specific direction.",
     "usage_note": "The active effort, distinct from passive seeing.",
     "tier": 1,
-    "rank": 210
+    "rank": 210,
+    "freq": 74,
+    "freq_rank": 75,
+    "example": {
+      "fiwo": "Kop upyci zipap mike!",
+      "english": "Look at my face!"
+    }
   },
   {
     "word": "uqu",
@@ -10159,7 +17517,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract mark, gesture, or object that represents an idea, sound, word, or command.",
     "tier": 2,
-    "rank": 342
+    "rank": 342,
+    "freq": 12,
+    "freq_rank": 361,
+    "example": {
+      "fiwo": "Uqup locweid.",
+      "english": "The sign was bright."
+    }
   },
   {
     "word": "urfu",
@@ -10167,7 +17531,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A gesture, action, or sound that is used to convey information, instructions, or commands.",
     "tier": 3,
-    "rank": 57
+    "rank": 57,
+    "freq": 8,
+    "freq_rank": 456,
+    "example": {
+      "fiwo": "Urfup locweid.",
+      "english": "The signal was bright."
+    }
   },
   {
     "word": "uropi",
@@ -10175,7 +17545,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To make musical sounds with the voice, especially words with a set tune.",
     "tier": 1,
-    "rank": 233
+    "rank": 233,
+    "freq": 29,
+    "freq_rank": 177,
+    "example": {
+      "fiwo": "Caslap uropi hautup.",
+      "english": "The girl sings the music."
+    }
   },
   {
     "word": "usate",
@@ -10183,7 +17559,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an entity moving continuously in one direction without curving, bending, or deviating structurally.",
     "tier": 2,
-    "rank": 357
+    "rank": 357,
+    "freq": 0,
+    "freq_rank": 2983,
+    "example": {
+      "fiwo": "Fikop usatei.",
+      "english": "The path is straight."
+    }
   },
   {
     "word": "usi",
@@ -10191,7 +17573,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to rest with eyes closed in a state of natural unconsciousness.",
     "tier": 1,
-    "rank": 104
+    "rank": 104,
+    "freq": 101,
+    "freq_rank": 51,
+    "example": {
+      "fiwo": "Mik usis dugu late.",
+      "english": "I will sleep all night."
+    }
   },
   {
     "word": "usy",
@@ -10199,7 +17587,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "This preposition indicates the ordinal position or sequence of a noun within a series.",
     "tier": 0,
-    "rank": 78
+    "rank": 78,
+    "freq": 218,
+    "freq_rank": 16,
+    "example": {
+      "fiwo": "Mik lokid panop usy bime.",
+      "english": "I read the first book."
+    }
   },
   {
     "word": "utmi",
@@ -10207,7 +17601,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To rest or move slowly on or near the surface of a liquid without sinking, or drift in the air.",
     "tier": 3,
-    "rank": 63
+    "rank": 63,
+    "freq": 3,
+    "freq_rank": 744,
+    "example": {
+      "fiwo": "Gofor utmis ty dorsop.",
+      "english": "Wood will float on the water."
+    }
   },
   {
     "word": "uvga",
@@ -10215,7 +17615,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "Any of the five terminal digits of the foot.",
     "tier": 3,
-    "rank": 242
+    "rank": 242,
+    "freq": 0,
+    "freq_rank": 2987,
+    "example": {
+      "fiwo": "Uvgap ry belap mike.",
+      "english": "The toe of my foot."
+    }
   },
   {
     "word": "uwa",
@@ -10223,7 +17629,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A bulbous vegetable with a pungent smell and taste, used in cooking.",
     "tier": 3,
-    "rank": 289
+    "rank": 289,
+    "freq": 0,
+    "freq_rank": 2989,
+    "example": {
+      "fiwo": "Uwap tuteid.",
+      "english": "The onion was sweet."
+    }
   },
   {
     "word": "uxbe",
@@ -10231,7 +17643,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Not firmly or tightly fixed in place; relaxed or detached.",
     "tier": 3,
-    "rank": 114
+    "rank": 114,
+    "freq": 0,
+    "freq_rank": 2991,
+    "example": {
+      "fiwo": "Plahop uxbeid.",
+      "english": "The lock was loose."
+    }
   },
   {
     "word": "uxku",
@@ -10239,7 +17657,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract accomplishment of an aim, purpose, or favorable outcome.",
     "tier": 2,
-    "rank": 71
+    "rank": 71,
+    "freq": 4,
+    "freq_rank": 649,
+    "example": {
+      "fiwo": "Uxkup ry daq tandeid.",
+      "english": "His success was great."
+    }
   },
   {
     "word": "uzki",
@@ -10247,7 +17671,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To pursue and capture or kill wild animals for food or sport.",
     "tier": 3,
-    "rank": 101
+    "rank": 101,
+    "freq": 2,
+    "freq_rank": 895,
+    "example": {
+      "fiwo": "Noqsap uzkis mifap.",
+      "english": "The man will hunt the animal."
+    }
   },
   {
     "word": "uzume",
@@ -10255,7 +17685,27 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes a quantity or degree that is mathematically sufficient or adequate to satisfy a baseline need or demand.",
     "tier": 2,
-    "rank": 227
+    "rank": 227,
+    "freq": 2,
+    "freq_rank": 896,
+    "example": {
+      "fiwo": "Batap uzumei.",
+      "english": "The food is enough."
+    }
+  },
+  {
+    "word": "vado",
+    "english_equiv": "Library",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A building or room where books are kept for reading, study, and borrowing.",
+    "tier": 3,
+    "rank": 589,
+    "freq": 0,
+    "freq_rank": 2995,
+    "example": {
+      "fiwo": "Mik lokid pano deky vado.",
+      "english": "I read a book in the library."
+    }
   },
   {
     "word": "vagaflo",
@@ -10263,7 +17713,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A device emitting a narrow, intense beam of light.",
     "tier": 2,
-    "rank": 450
+    "rank": 450,
+    "freq": 1,
+    "freq_rank": 1272
   },
   {
     "word": "vahimi",
@@ -10271,7 +17723,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively direct, manage, administer, or take organizational/disciplinary action regarding a situation, problem, or entity; to bear responsibility for it (conscientiously).",
     "tier": 2,
-    "rank": 56
+    "rank": 56,
+    "freq": 3,
+    "freq_rank": 745,
+    "example": {
+      "fiwo": "Daq vahimis biwup.",
+      "english": "He will handle the problem."
+    }
   },
   {
     "word": "vajuzu",
@@ -10279,7 +17737,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Hurrying that destroys the thing being grown. Logical equivalent: Buxeup skumki moriup. (The impatience destroys the growth.)",
     "tier": 3,
-    "rank": 61
+    "rank": 61,
+    "freq": 0,
+    "freq_rank": 2998,
+    "example": {
+      "fiwo": "Kop ebmeri vajuzur.",
+      "english": "Remember counterproductive haste."
+    }
   },
   {
     "word": "vakyko",
@@ -10287,7 +17751,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A cinematic work that tells a story through moving images.",
     "tier": 2,
-    "rank": 156
+    "rank": 156,
+    "freq": 1,
+    "freq_rank": 1273
   },
   {
     "word": "valu",
@@ -10295,7 +17761,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An abstract set of circumstances or a specific moment in time that makes it possible to do something favorable.",
     "tier": 2,
-    "rank": 62
+    "rank": 62,
+    "freq": 2,
+    "freq_rank": 897,
+    "example": {
+      "fiwo": "Valup ry mik plid.",
+      "english": "My opportunity arrived."
+    }
   },
   {
     "word": "vamursu",
@@ -10303,7 +17775,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The event of one celestial body hiding another from view.",
     "tier": 3,
-    "rank": 310
+    "rank": 310,
+    "freq": 0,
+    "freq_rank": 3000,
+    "example": {
+      "fiwo": "Mik nojaid vamursup.",
+      "english": "I saw the eclipse."
+    }
   },
   {
     "word": "vansi",
@@ -10311,7 +17789,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To advance, move forward logically, or progress systematically toward a goal or higher state.",
     "tier": 2,
-    "rank": 452
+    "rank": 452,
+    "freq": 0,
+    "freq_rank": 3002,
+    "example": {
+      "fiwo": "Minzap vansis zye.",
+      "english": "The nation will progress forward."
+    }
   },
   {
     "word": "vax",
@@ -10319,7 +17803,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A structural particle used to introduce a statement that contrasts with or seems to contradict something that has been said previously.",
     "tier": 0,
-    "rank": 88
+    "rank": 88,
+    "freq": 27,
+    "freq_rank": 187,
+    "example": {
+      "fiwo": "Vax, das kypei.",
+      "english": "However, she is happy."
+    }
   },
   {
     "word": "vefa",
@@ -10327,7 +17817,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The primary organ of respiration in humans and many other animals, used for gas exchange.",
     "tier": 3,
-    "rank": 228
+    "rank": 228,
+    "freq": 0,
+    "freq_rank": 3003,
+    "example": {
+      "fiwo": "Vefap ry mifar tandei.",
+      "english": "The lung of an animal is big."
+    }
   },
   {
     "word": "veke",
@@ -10335,7 +17831,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes something having a small vertical extent or measuring a short distance from bottom to top.",
     "tier": 1,
-    "rank": 230
+    "rank": 230,
+    "freq": 6,
+    "freq_rank": 535
   },
   {
     "word": "vel",
@@ -10343,7 +17841,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Introduces a completely new, independent clause that occurs simultaneously alongside the previous clause, or presents a direct contextual contrast (whereas).",
     "tier": 0,
-    "rank": 37
+    "rank": 37,
+    "freq": 8,
+    "freq_rank": 457,
+    "example": {
+      "fiwo": "Mik nacid vel suk usid.",
+      "english": "I worked while you slept."
+    }
   },
   {
     "word": "vengo",
@@ -10351,7 +17855,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A hard gray stone that produces sparks when struck against steel.",
     "tier": 3,
-    "rank": 319
+    "rank": 319,
+    "freq": 0,
+    "freq_rank": 3006,
+    "example": {
+      "fiwo": "Vengop lefeid.",
+      "english": "The flint was hard."
+    }
   },
   {
     "word": "veponku",
@@ -10359,7 +17869,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The emotional response to a sudden, unexpected (odaze) event. Neutral in valence — it may be positive or negative — unlike truhu (awe), which is reverential.",
     "tier": 1,
-    "rank": 281
+    "rank": 281,
+    "freq": 1,
+    "freq_rank": 1275,
+    "example": {
+      "fiwo": "Veponkup ry das tandeid.",
+      "english": "Her surprise was great."
+    }
   },
   {
     "word": "vesma",
@@ -10367,7 +17883,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The internal organ that filters the blood and processes nutrients and toxins.",
     "tier": 3,
-    "rank": 204
+    "rank": 204,
+    "freq": 0,
+    "freq_rank": 3008,
+    "example": {
+      "fiwo": "Vesmap daq farlue.",
+      "english": "His liver is healthy."
+    }
   },
   {
     "word": "vexu",
@@ -10375,7 +17897,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual state and overarching condition of the atmosphere at a specific place and time.",
     "tier": 2,
-    "rank": 101
+    "rank": 101,
+    "freq": 6,
+    "freq_rank": 536,
+    "example": {
+      "fiwo": "Vexup ry nudu gawei.",
+      "english": "The weather today is good."
+    }
   },
   {
     "word": "vianci",
@@ -10383,7 +17911,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To have the courage to execute an action despite fear or risk.",
     "tier": 3,
-    "rank": 159
+    "rank": 159,
+    "freq": 1,
+    "freq_rank": 1277,
+    "example": {
+      "fiwo": "Daq viancis zopit.",
+      "english": "He dares to jump."
+    }
   },
   {
     "word": "vice",
@@ -10391,7 +17925,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a psychological state of facing danger, pain, or difficult situations despite the presence of fear.",
     "tier": 3,
-    "rank": 155
+    "rank": 155,
+    "freq": 1,
+    "freq_rank": 1278,
+    "example": {
+      "fiwo": "Nosanap viceid.",
+      "english": "The woman was brave."
+    }
   },
   {
     "word": "vifi",
@@ -10399,7 +17939,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To heat a liquid until it reaches its boiling point and turns into vapor.",
     "tier": 2,
-    "rank": 454
+    "rank": 454,
+    "freq": 1,
+    "freq_rank": 1281,
+    "example": {
+      "fiwo": "Mik vifis dorsop.",
+      "english": "I will boil the water."
+    }
   },
   {
     "word": "viketso",
@@ -10407,7 +17953,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A portable source of steady light, whether a burning brand or a fueled or electric lamp.",
     "tier": 3,
-    "rank": 139
+    "rank": 139,
+    "freq": 14,
+    "freq_rank": 311,
+    "example": {
+      "fiwo": "Mik jedi viketsor.",
+      "english": "I have a torch."
+    }
   },
   {
     "word": "vilde",
@@ -10415,7 +17967,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes an action or entity that proceeds in a straight logical sequence without any interruption, intermediaries, or secondary steps.",
     "tier": 2,
-    "rank": 389
+    "rank": 389,
+    "freq": 0,
+    "freq_rank": 3015,
+    "example": {
+      "fiwo": "Lirup vildei.",
+      "english": "The direction is direct."
+    }
   },
   {
     "word": "vira",
@@ -10423,7 +17981,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A very large herbivorous mammal characterized by a long trunk, tusks, and large ears.",
     "tier": 3,
-    "rank": 229
+    "rank": 229,
+    "freq": 0,
+    "freq_rank": 3017,
+    "example": {
+      "fiwo": "Virap juceid.",
+      "english": "The elephant was heavy."
+    }
   },
   {
     "word": "vispo",
@@ -10431,7 +17995,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A single written or spoken symbol representing one sound in the alphabet. Follows go (word) as a smaller linguistic unit.",
     "tier": 2,
-    "rank": 377
+    "rank": 377,
+    "freq": 0,
+    "freq_rank": 3019,
+    "example": {
+      "fiwo": "Vispop lande.",
+      "english": "The letter is small."
+    }
   },
   {
     "word": "vivu",
@@ -10439,7 +18009,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract period of time at the end of the day, strictly occurring between late afternoon (fohu) and full night (dugu).",
     "tier": 1,
-    "rank": 190
+    "rank": 190,
+    "freq": 5,
+    "freq_rank": 591,
+    "example": {
+      "fiwo": "Vivup jabeid.",
+      "english": "The evening was cold."
+    }
   },
   {
     "word": "vixo",
@@ -10447,7 +18023,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A cylindrical open container with a handle, used for carrying liquids or loose materials.",
     "tier": 3,
-    "rank": 231
+    "rank": 231,
+    "freq": 0,
+    "freq_rank": 3023,
+    "example": {
+      "fiwo": "Vixop myi dorsor.",
+      "english": "The bucket contains water."
+    }
   },
   {
     "word": "vofu",
@@ -10455,7 +18037,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The season of renewal following winter, characterised by warming temperatures, lengthening days, and the growth of new vegetation.",
     "tier": 2,
-    "rank": 313
+    "rank": 313,
+    "freq": 4,
+    "freq_rank": 651,
+    "example": {
+      "fiwo": "Vofup baudeid.",
+      "english": "Spring was beautiful."
+    }
   },
   {
     "word": "voha",
@@ -10463,7 +18051,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A small rodent characterized by a pointed snout, large ears, and a long, thin tail.",
     "tier": 2,
-    "rank": 405
+    "rank": 405,
+    "freq": 11,
+    "freq_rank": 377,
+    "example": {
+      "fiwo": "Vohap cenidyq deky degop.",
+      "english": "The mouse was living inside the table."
+    }
   },
   {
     "word": "vojo",
@@ -10471,7 +18065,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A dry substance of fine, loose particles, produced by grinding, crushing, or settling; finer than sanpo (sand).",
     "tier": 3,
-    "rank": 177
+    "rank": 177,
+    "freq": 0,
+    "freq_rank": 3027,
+    "example": {
+      "fiwo": "Vojop locwe.",
+      "english": "The powder is white."
+    }
   },
   {
     "word": "vokre",
@@ -10479,7 +18079,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Having or showing an intense, selfish desire for wealth, power, or food.",
     "tier": 3,
-    "rank": 312
+    "rank": 312,
+    "freq": 0,
+    "freq_rank": 3029,
+    "example": {
+      "fiwo": "Nofap vokreid.",
+      "english": "The person was greedy."
+    }
   },
   {
     "word": "volni",
@@ -10487,7 +18093,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To have a favorable disposition, readiness, or uncoerced agreement to perform an action.",
     "tier": 2,
-    "rank": 461
+    "rank": 461,
+    "freq": 0,
+    "freq_rank": 3031,
+    "example": {
+      "fiwo": "Nak volnis jofit.",
+      "english": "We are willing to help."
+    }
   },
   {
     "word": "vome",
@@ -10495,7 +18107,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a mathematically smaller quantity, extent, or degree of something.",
     "tier": 1,
-    "rank": 219
+    "rank": 219,
+    "freq": 1,
+    "freq_rank": 1284,
+    "example": {
+      "fiwo": "Gidup vomei.",
+      "english": "The money is less."
+    }
   },
   {
     "word": "vorosmo",
@@ -10503,7 +18121,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A place or state of supreme happiness; the celestial realm of the afterlife in myth and religion.",
     "tier": 2,
-    "rank": 205
+    "rank": 205,
+    "freq": 2,
+    "freq_rank": 900,
+    "example": {
+      "fiwo": "Nofa fabi vorosmop.",
+      "english": "People want heaven."
+    }
   },
   {
     "word": "vubro",
@@ -10511,7 +18135,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A thin, short length of wood, typically a broken or cut branch.",
     "tier": 2,
-    "rank": 445
+    "rank": 445,
+    "freq": 0,
+    "freq_rank": 3033,
+    "example": {
+      "fiwo": "Vubrop lande.",
+      "english": "The stick is small."
+    }
   },
   {
     "word": "vucilfu",
@@ -10519,7 +18149,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "What a person is morally or legally required to do.",
     "tier": 2,
-    "rank": 302
+    "rank": 302,
+    "freq": 7,
+    "freq_rank": 493
   },
   {
     "word": "vudipi",
@@ -10527,7 +18159,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To coat a surface with a thin glassy layer that hardens smooth and shiny, as on pottery (dzoco) or food.",
     "tier": 3,
-    "rank": 359
+    "rank": 359,
+    "freq": 0,
+    "freq_rank": 3036,
+    "example": {
+      "fiwo": "Das vudipid dzocop.",
+      "english": "She glazed the pottery."
+    }
   },
   {
     "word": "vuglo",
@@ -10535,7 +18173,27 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A model or guide used to reproduce a shape, design, or structure accurately.",
     "tier": 3,
-    "rank": 56
+    "rank": 56,
+    "freq": 0,
+    "freq_rank": 3038,
+    "example": {
+      "fiwo": "Vuglop daq tande.",
+      "english": "His template is big."
+    }
+  },
+  {
+    "word": "vulfi",
+    "english_equiv": "Trap",
+    "part_of_speech": "Verb",
+    "definition": "To catch and hold by means of a concealed device, so that escape is prevented.",
+    "tier": 3,
+    "rank": 576,
+    "freq": 0,
+    "freq_rank": 3040,
+    "example": {
+      "fiwo": "Nofa vulfid mifa deky woru.",
+      "english": "The person trapped the animal in the forest."
+    }
   },
   {
     "word": "vuperpu",
@@ -10543,7 +18201,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A social group united by kinship, custom, and territory.",
     "tier": 3,
-    "rank": 4
+    "rank": 4,
+    "freq": 1,
+    "freq_rank": 1285
   },
   {
     "word": "vutyto",
@@ -10551,7 +18211,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An illustration, diagram, or picture accompanying a text.",
     "tier": 2,
-    "rank": 134
+    "rank": 134,
+    "freq": 1,
+    "freq_rank": 1286,
+    "example": {
+      "fiwo": "Mik nojai vutytop.",
+      "english": "I see the figure."
+    }
   },
   {
     "word": "vuwo",
@@ -10559,7 +18225,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A hollow, cup-shaped metal object that makes a ringing sound when struck.",
     "tier": 3,
-    "rank": 44
+    "rank": 44,
+    "freq": 1,
+    "freq_rank": 1287,
+    "example": {
+      "fiwo": "Vuwop zindidyq.",
+      "english": "The bell was ringing."
+    }
   },
   {
     "word": "vy",
@@ -10567,7 +18239,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates the physical substance or material composition of the subject.",
     "tier": 0,
-    "rank": 34
+    "rank": 34,
+    "freq": 15,
+    "freq_rank": 301,
+    "example": {
+      "fiwo": "Sydop vy gofo.",
+      "english": "The house is made of wood."
+    }
   },
   {
     "word": "vyfla",
@@ -10575,7 +18253,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A small starchy grain, a global staple food, harvested from a cultivated grass. Follows the arteta/zoba (fruit/vegetable) pattern for raw plant food.",
     "tier": 1,
-    "rank": 286
+    "rank": 286,
+    "freq": 5,
+    "freq_rank": 592,
+    "example": {
+      "fiwo": "Mik nomid vyflap.",
+      "english": "I ate rice."
+    }
   },
   {
     "word": "vyhe",
@@ -10583,7 +18267,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Lacking strong flavor, spice, or intensity.",
     "tier": 3,
-    "rank": 214
+    "rank": 214,
+    "freq": 1,
+    "freq_rank": 1288,
+    "example": {
+      "fiwo": "Mitap suve vyhei.",
+      "english": "Your meat is mild."
+    }
   },
   {
     "word": "vyma",
@@ -10591,7 +18281,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A tailless amphibian with a short, squat body, long hind legs for leaping, and webbed feet.",
     "tier": 3,
-    "rank": 281
+    "rank": 281,
+    "freq": 0,
+    "freq_rank": 3046,
+    "example": {
+      "fiwo": "Vymap zopid ky xadorop.",
+      "english": "The frog jumped at the river."
+    }
   },
   {
     "word": "vyno",
@@ -10599,7 +18295,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A piece of furniture with a flat top, typically with drawers, designed for writing, reading, or working.",
     "tier": 3,
-    "rank": 102
+    "rank": 102,
+    "freq": 0,
+    "freq_rank": 3048,
+    "example": {
+      "fiwo": "Vynop ry mik.",
+      "english": "The desk is mine."
+    }
   },
   {
     "word": "vywu",
@@ -10607,7 +18309,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A strong, regular, repeated pattern of movement or sound.",
     "tier": 2,
-    "rank": 351
+    "rank": 351,
+    "freq": 0,
+    "freq_rank": 3050,
+    "example": {
+      "fiwo": "Vywup ry hautup gaweid.",
+      "english": "The rhythm of the music was good."
+    }
   },
   {
     "word": "vyzi",
@@ -10615,7 +18323,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To break free from confinement, danger, or control.",
     "tier": 2,
-    "rank": 160
+    "rank": 160,
+    "freq": 2,
+    "freq_rank": 901,
+    "example": {
+      "fiwo": "Vohap vyzid fy sydop.",
+      "english": "The mouse escaped from the house."
+    }
   },
   {
     "word": "wable",
@@ -10623,7 +18337,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Indicates that a plural subject is performing an action upon one another.",
     "tier": 1,
-    "rank": 274
+    "rank": 274,
+    "freq": 14,
+    "freq_rank": 312,
+    "example": {
+      "fiwo": "Nak cukid wable.",
+      "english": "We fought each other."
+    }
   },
   {
     "word": "wafri",
@@ -10632,7 +18352,13 @@ const dictionaryData = [
     "definition": "To cease to have or possess something (an object, a contest, or an opportunity); to be deprived of, or to be defeated.",
     "usage_note": "Distinct from ebnesi (to forget).",
     "tier": 1,
-    "rank": 160
+    "rank": 160,
+    "freq": 11,
+    "freq_rank": 378,
+    "example": {
+      "fiwo": "Mik wafrid oqop mike.",
+      "english": "I lost my ticket."
+    }
   },
   {
     "word": "wage",
@@ -10640,7 +18366,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something easy to mold, cut, compress, or fold.",
     "tier": 1,
-    "rank": 224
+    "rank": 224,
+    "freq": 0,
+    "freq_rank": 3055,
+    "example": {
+      "fiwo": "Uovop wagei.",
+      "english": "The pillow is soft."
+    }
   },
   {
     "word": "wal",
@@ -10648,7 +18380,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Interrogative clause variable for a reason or cause.",
     "tier": 0,
-    "rank": 47
+    "rank": 47,
+    "freq": 21,
+    "freq_rank": 225,
+    "example": {
+      "fiwo": "Kup das irakiq kad wal?",
+      "english": "Why is she crying?"
+    }
   },
   {
     "word": "wane",
@@ -10656,7 +18394,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the direction or side towards the west when facing north; the side of the body which contains the heart in most humans.",
     "tier": 1,
-    "rank": 189
+    "rank": 189,
+    "freq": 5,
+    "freq_rank": 594,
+    "example": {
+      "fiwo": "Fukap wanei.",
+      "english": "The hand is the left."
+    }
   },
   {
     "word": "wanso",
@@ -10664,7 +18408,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The collective physical conditions, objects, or abstract circumstances surrounding and influencing an entity.",
     "tier": 2,
-    "rank": 394
+    "rank": 394,
+    "freq": 0,
+    "freq_rank": 3057,
+    "example": {
+      "fiwo": "Wansop baudeid.",
+      "english": "The environment was beautiful."
+    }
   },
   {
     "word": "wapse",
@@ -10672,7 +18422,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes a surface that is level and smooth, with no raised areas or indentations.",
     "tier": 2,
-    "rank": 365
+    "rank": 365,
+    "freq": 3,
+    "freq_rank": 747,
+    "example": {
+      "fiwo": "Degop wapsei.",
+      "english": "The table is flat."
+    }
   },
   {
     "word": "waske",
@@ -10680,7 +18436,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something that has existed for a long time.",
     "tier": 1,
-    "rank": 43
+    "rank": 43,
+    "freq": 40,
+    "freq_rank": 126,
+    "example": {
+      "fiwo": "Mosap waskei.",
+      "english": "The tree is old."
+    }
   },
   {
     "word": "wasmana",
@@ -10688,7 +18450,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A female biological relative who is the mother of one's parent.",
     "tier": 2,
-    "rank": 361
+    "rank": 361,
+    "freq": 0,
+    "freq_rank": 3062,
+    "example": {
+      "fiwo": "Wasmanap ry mik otmaid.",
+      "english": "My grandmother was sick."
+    }
   },
   {
     "word": "wasnupa",
@@ -10696,7 +18464,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A gender-neutral biological relative who is a parent of one's parent.",
     "tier": 2,
-    "rank": 457
+    "rank": 457,
+    "freq": 1,
+    "freq_rank": 1294,
+    "example": {
+      "fiwo": "Wasnupap ry mik waskeid.",
+      "english": "My grandparent was old."
+    }
   },
   {
     "word": "waspeba",
@@ -10704,7 +18478,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A male biological relative who is the father of one's parent.",
     "tier": 2,
-    "rank": 335
+    "rank": 335,
+    "freq": 0,
+    "freq_rank": 3065,
+    "example": {
+      "fiwo": "Waspebap ry mik jofidyq mik.",
+      "english": "My grandfather was helping me."
+    }
   },
   {
     "word": "wasti",
@@ -10712,7 +18492,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To remain in a state of paused action in strict anticipation of a specific future event or time.",
     "tier": 1,
-    "rank": 81
+    "rank": 81,
+    "freq": 25,
+    "freq_rank": 196,
+    "example": {
+      "fiwo": "Nak wastis fitydu.",
+      "english": "We will wait tomorrow."
+    }
   },
   {
     "word": "wat",
@@ -10720,7 +18506,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Interrogative variable for a thing or matter.",
     "tier": 0,
-    "rank": 24
+    "rank": 24,
+    "freq": 33,
+    "freq_rank": 149,
+    "example": {
+      "fiwo": "Kup suk steliq wat?",
+      "english": "What are you holding?"
+    }
   },
   {
     "word": "watosmo",
@@ -10728,7 +18520,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An arc of colors appearing in the sky when sunlight passes through rain.",
     "tier": 2,
-    "rank": 255
+    "rank": 255,
+    "freq": 6,
+    "freq_rank": 537,
+    "example": {
+      "fiwo": "Mik nojaid watosmop.",
+      "english": "I saw the rainbow."
+    }
   },
   {
     "word": "waxi",
@@ -10736,7 +18534,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively move one's biological body to exert energy, maintain health, or engage in physical recreation.",
     "tier": 3,
-    "rank": 7
+    "rank": 7,
+    "freq": 0,
+    "freq_rank": 3069,
+    "example": {
+      "fiwo": "Nosanap waxis nudu.",
+      "english": "The woman will exercise today."
+    }
   },
   {
     "word": "waze",
@@ -10744,7 +18548,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something lacking the power to perform physically demanding tasks.",
     "tier": 1,
-    "rank": 225
+    "rank": 225,
+    "freq": 1,
+    "freq_rank": 1295,
+    "example": {
+      "fiwo": "Soxap mike wazei.",
+      "english": "My body is weak."
+    }
   },
   {
     "word": "webodzo",
@@ -10752,7 +18562,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A closed path around which electric current flows.",
     "tier": 2,
-    "rank": 360
+    "rank": 360,
+    "freq": 1,
+    "freq_rank": 1296
   },
   {
     "word": "webutu",
@@ -10760,7 +18572,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The organized armed forces of a nation.",
     "tier": 2,
-    "rank": 153
+    "rank": 153,
+    "freq": 3,
+    "freq_rank": 748
   },
   {
     "word": "wecdu",
@@ -10768,7 +18582,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the previous day that has elapsed.",
     "tier": 1,
-    "rank": 197
+    "rank": 197,
+    "freq": 13,
+    "freq_rank": 329,
+    "example": {
+      "fiwo": "Wecdup domloeid.",
+      "english": "Yesterday was rainy."
+    }
   },
   {
     "word": "wece",
@@ -10776,7 +18596,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something as subjectively being satisfactory, correct, or proper.",
     "tier": 2,
-    "rank": 2
+    "rank": 2,
+    "freq": 5,
+    "freq_rank": 595
   },
   {
     "word": "wedacu",
@@ -10784,7 +18606,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract temporal realm encompassing all time and recorded events that have already elapsed.",
     "tier": 2,
-    "rank": 72
+    "rank": 72,
+    "freq": 3,
+    "freq_rank": 749,
+    "example": {
+      "fiwo": "Wedacup ry nak bokeid.",
+      "english": "Our past was bad."
+    }
   },
   {
     "word": "wefuhu",
@@ -10792,7 +18620,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The long-term pattern of weather in a region.",
     "tier": 2,
-    "rank": 460
+    "rank": 460,
+    "freq": 0,
+    "freq_rank": 3076,
+    "example": {
+      "fiwo": "Wefuhup gawei.",
+      "english": "The climate is good."
+    }
   },
   {
     "word": "wegu",
@@ -10800,7 +18634,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The space between two intersecting lines; specific geometric properties.",
     "tier": 3,
-    "rank": 122
+    "rank": 122,
+    "freq": 0,
+    "freq_rank": 3078,
+    "example": {
+      "fiwo": "Wegup weceid.",
+      "english": "The angle was right."
+    }
   },
   {
     "word": "weli",
@@ -10808,7 +18648,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To stop someone in the middle of an action, speech, or process.",
     "tier": 3,
-    "rank": 330
+    "rank": 330,
+    "freq": 1,
+    "freq_rank": 1298,
+    "example": {
+      "fiwo": "Suk welid mik.",
+      "english": "You interrupted me."
+    }
   },
   {
     "word": "wembizi",
@@ -10816,7 +18662,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To give money or goods freely to a person or cause.",
     "tier": 3,
-    "rank": 25
+    "rank": 25,
+    "freq": 1,
+    "freq_rank": 1299
   },
   {
     "word": "wento",
@@ -10824,7 +18672,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A structure consisting of two parallel sidepieces joined by steps or rungs, used for climbing up or down.",
     "tier": 3,
-    "rank": 528
+    "rank": 528,
+    "freq": 0,
+    "freq_rank": 3083,
+    "example": {
+      "fiwo": "Oyvop doteid.",
+      "english": "The ladder was strong."
+    }
   },
   {
     "word": "weoke",
@@ -10832,7 +18686,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes a shape that is circular, spherical, or cylindrical; having a curved surface with no sharp corners.",
     "tier": 2,
-    "rank": 95
+    "rank": 95,
+    "freq": 2,
+    "freq_rank": 903,
+    "example": {
+      "fiwo": "Weorop weokei.",
+      "english": "The ball is round."
+    }
   },
   {
     "word": "weoro",
@@ -10840,7 +18700,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A solid or hollow spherical physical object designed to roll, bounce, or be thrown in games and sports.",
     "tier": 2,
-    "rank": 138
+    "rank": 138,
+    "freq": 6,
+    "freq_rank": 538,
+    "example": {
+      "fiwo": "Daq xerid weorop.",
+      "english": "He threw the ball."
+    }
   },
   {
     "word": "wer",
@@ -10848,7 +18714,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Interrogative variable for a location.",
     "tier": 0,
-    "rank": 41
+    "rank": 41,
+    "freq": 11,
+    "freq_rank": 379,
+    "example": {
+      "fiwo": "Kup dal ceni ky wer?",
+      "english": "Where does he/she live?"
+    }
   },
   {
     "word": "wible",
@@ -10856,7 +18728,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Indicates the action reflects back onto the doer, or emphasizes the exact identity of a specific noun/pronoun.",
     "tier": 1,
-    "rank": 320
+    "rank": 320,
+    "freq": 55,
+    "freq_rank": 95,
+    "example": {
+      "fiwo": "Mik jofid wible.",
+      "english": "I helped myself."
+    }
   },
   {
     "word": "widirpo",
@@ -10864,7 +18742,9 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A recording of moving images.",
     "tier": 2,
-    "rank": 111
+    "rank": 111,
+    "freq": 1,
+    "freq_rank": 1301
   },
   {
     "word": "wigakru",
@@ -10872,7 +18752,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Confident reliance on a person's future conduct or honesty; interpersonal and agent-directed, unlike ednu (faith in a doctrine or the divine). The standing attitude whose violation is ongu (betrayal).",
     "tier": 2,
-    "rank": 307
+    "rank": 307,
+    "freq": 0,
+    "freq_rank": 3089,
+    "example": {
+      "fiwo": "Wigakru ry mik tandeid.",
+      "english": "My trust was great."
+    }
   },
   {
     "word": "wiki",
@@ -10880,7 +18766,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To firmly press or compress something, typically to extract liquid or change its shape.",
     "tier": 3,
-    "rank": 263
+    "rank": 263,
+    "freq": 0,
+    "freq_rank": 3092,
+    "example": {
+      "fiwo": "Das wikis artetap.",
+      "english": "She will squeeze the fruit."
+    }
   },
   {
     "word": "wilo",
@@ -10888,7 +18780,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A designed opening in a wall or vehicle, typically fitted with transparent glass, built to let in light and air.",
     "tier": 1,
-    "rank": 254
+    "rank": 254,
+    "freq": 24,
+    "freq_rank": 205,
+    "example": {
+      "fiwo": "Wilop xosidyq.",
+      "english": "The window was opening."
+    }
   },
   {
     "word": "winro",
@@ -10896,7 +18794,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An alcoholic physical liquid beverage produced by mathematically fermenting fruit, grains, or biological plant matter.",
     "tier": 2,
-    "rank": 345
+    "rank": 345,
+    "freq": 3,
+    "freq_rank": 750,
+    "example": {
+      "fiwo": "Winrop ripeid.",
+      "english": "The wine was warm."
+    }
   },
   {
     "word": "wiq",
@@ -10904,7 +18808,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Interrogative variable for time.",
     "tier": 0,
-    "rank": 28
+    "rank": 28,
+    "freq": 8,
+    "freq_rank": 458,
+    "example": {
+      "fiwo": "Kup suk plid ky wiq?",
+      "english": "When did you arrive?"
+    }
   },
   {
     "word": "wirano",
@@ -10912,7 +18822,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A hard, brittle, transparent solid substance engineered by fusing sand with soda and lime, used for windows or vessels.",
     "tier": 2,
-    "rank": 395
+    "rank": 395,
+    "freq": 10,
+    "freq_rank": 404,
+    "example": {
+      "fiwo": "Wiranop skagid.",
+      "english": "The glass broke."
+    }
   },
   {
     "word": "wis",
@@ -10920,7 +18836,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Interrogative variable for the manner, method, or degree of an action or state.",
     "tier": 0,
-    "rank": 42
+    "rank": 42,
+    "freq": 6,
+    "freq_rank": 539,
+    "example": {
+      "fiwo": "Kup daq xyfid wis ram?",
+      "english": "How did he do it?"
+    }
   },
   {
     "word": "witu",
@@ -10928,7 +18850,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to the property possessed by an object of producing different sensations on the eye as a result of the way it reflects or emits light.",
     "tier": 1,
-    "rank": 243
+    "rank": 243,
+    "freq": 1,
+    "freq_rank": 1302,
+    "example": {
+      "fiwo": "Witup ry aplap leupeid.",
+      "english": "The color of the apple was red."
+    }
   },
   {
     "word": "wiza",
@@ -10936,7 +18864,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This word identifies a modified forelimb or specialized biological appendage that enables an organism to fly or glide through the air.",
     "tier": 2,
-    "rank": 402
+    "rank": 402,
+    "freq": 1,
+    "freq_rank": 1303,
+    "example": {
+      "fiwo": "Kyfap jedi wiza dewe.",
+      "english": "The bird has two wings."
+    }
   },
   {
     "word": "wodobo",
@@ -10944,7 +18878,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A starchy edible tuber, a global food staple.",
     "tier": 3,
-    "rank": 208
+    "rank": 208,
+    "freq": 0,
+    "freq_rank": 3099,
+    "example": {
+      "fiwo": "Wodobop das lande.",
+      "english": "Her potato is small."
+    }
   },
   {
     "word": "wogi",
@@ -10952,7 +18892,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This refers to a feeling of expectation and desire for a certain thing to happen; a state of optimism.",
     "tier": 1,
-    "rank": 87
+    "rank": 87,
+    "freq": 4,
+    "freq_rank": 652,
+    "example": {
+      "fiwo": "Mik wogid pogafur.",
+      "english": "I hoped for peace."
+    }
   },
   {
     "word": "wokutu",
@@ -10960,7 +18906,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The destined affinity that brings particular people together — interpersonal, unlike jyhu (general destiny; Mandarin yuanfen). Logical equivalent: Jyhup lini tep nofa je karxi dal je. (Destiny causes people to find each other.)",
     "tier": 3,
-    "rank": 52
+    "rank": 52,
+    "freq": 1,
+    "freq_rank": 1305,
+    "example": {
+      "fiwo": "Jormup sile wokutur.",
+      "english": "This situation is relational fate."
+    }
   },
   {
     "word": "woma",
@@ -10968,7 +18920,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a burrowing, limbless, soft-bodied invertebrate biological organism.",
     "tier": 3,
-    "rank": 207
+    "rank": 207,
+    "freq": 1,
+    "freq_rank": 1306,
+    "example": {
+      "fiwo": "Womap cenidyq deky mudop.",
+      "english": "The worm was living in the mud."
+    }
   },
   {
     "word": "won",
@@ -10976,7 +18934,9 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Interrogative subject variable for a non-agent — a thing or event filling SVO Slot 1 (e.g. What happened? What fell?). The inanimate counterpart of wun (who).",
     "tier": 0,
-    "rank": 35
+    "rank": 35,
+    "freq": 9,
+    "freq_rank": 427
   },
   {
     "word": "wopyvo",
@@ -10984,7 +18944,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The buildings, equipment, and services provided for a particular activity or purpose.",
     "tier": 2,
-    "rank": 246
+    "rank": 246,
+    "freq": 3,
+    "freq_rank": 751,
+    "example": {
+      "fiwo": "Juro jedi wopyvop.",
+      "english": "The city has facilities."
+    }
   },
   {
     "word": "woru",
@@ -10993,7 +18959,13 @@ const dictionaryData = [
     "definition": "A defined conceptual, political, or geographic division of space, land, or territory.",
     "usage_note": "Distinct from the physical dirt/ground itself, zaso.",
     "tier": 2,
-    "rank": 108
+    "rank": 108,
+    "freq": 9,
+    "freq_rank": 428,
+    "example": {
+      "fiwo": "Worup ry jurop tandei.",
+      "english": "The area of the city is large."
+    }
   },
   {
     "word": "wose",
@@ -11001,7 +18973,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something measuring a small distance from end to end.",
     "tier": 2,
-    "rank": 257
+    "rank": 257,
+    "freq": 2,
+    "freq_rank": 904,
+    "example": {
+      "fiwo": "Caenop wosei.",
+      "english": "The street is short."
+    }
   },
   {
     "word": "wotipi",
@@ -11009,7 +18987,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To remove something completely so that it no longer exists in its medium.",
     "tier": 3,
-    "rank": 168
+    "rank": 168,
+    "freq": 1,
+    "freq_rank": 1308,
+    "example": {
+      "fiwo": "Mik wotipid ufaxop.",
+      "english": "I deleted the message."
+    }
   },
   {
     "word": "wox",
@@ -11017,7 +19001,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "An exclamation of positive surprise, wonder, or amazement.",
     "tier": 0,
-    "rank": 73
+    "rank": 73,
+    "freq": 3,
+    "freq_rank": 752,
+    "example": {
+      "fiwo": "Wox, sydop suke baudei!",
+      "english": "Wow, your house is beautiful!"
+    }
   },
   {
     "word": "wozupro",
@@ -11025,7 +19015,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A weapon consisting of a long shaft with a pointed head, thrust or thrown.",
     "tier": 3,
-    "rank": 309
+    "rank": 309,
+    "freq": 0,
+    "freq_rank": 3106,
+    "example": {
+      "fiwo": "Wozuprop rute.",
+      "english": "The spear is sharp."
+    }
   },
   {
     "word": "wubi",
@@ -11033,7 +19029,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To shape or force something straight into a curve or angle.",
     "tier": 3,
-    "rank": 199
+    "rank": 199,
+    "freq": 1,
+    "freq_rank": 1309,
+    "example": {
+      "fiwo": "Daq wubid odcanop.",
+      "english": "He bent the rope."
+    }
   },
   {
     "word": "wuflu",
@@ -11041,7 +19043,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Tricking oneself; hiding a truth from oneself. Logical equivalent: Daq caqui daq wible. (He tricks his own self.)",
     "tier": 3,
-    "rank": 10
+    "rank": 10,
+    "freq": 1,
+    "freq_rank": 1310,
+    "example": {
+      "fiwo": "Kop ebmeri wuflur.",
+      "english": "Remember self-deception."
+    }
   },
   {
     "word": "wug",
@@ -11049,7 +19057,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "An interrogative variable specifically holding the place of an unknown numerical quantity or mathematical amount. It sits directly in the SVO slot where the numerical answer is expected.",
     "tier": 0,
-    "rank": 33
+    "rank": 33,
+    "freq": 20,
+    "freq_rank": 233,
+    "example": {
+      "fiwo": "Kup suk karxid deta wug?",
+      "english": "How many dogs did you find?"
+    }
   },
   {
     "word": "wujo",
@@ -11057,7 +19071,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical or digital visual diagram representing an area of land or sea, detailing physical geographic features or routes.",
     "tier": 1,
-    "rank": 277
+    "rank": 277,
+    "freq": 0,
+    "freq_rank": 3109,
+    "example": {
+      "fiwo": "Wujop tandeid.",
+      "english": "The map was large."
+    }
   },
   {
     "word": "wuke",
@@ -11065,7 +19085,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something free from moisture or liquid.",
     "tier": 2,
-    "rank": 149
+    "rank": 149,
+    "freq": 3,
+    "freq_rank": 753,
+    "example": {
+      "fiwo": "Zasop wukei.",
+      "english": "The ground is dry."
+    }
   },
   {
     "word": "wun",
@@ -11073,7 +19099,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Interrogative variable for a person or agent.",
     "tier": 0,
-    "rank": 25
+    "rank": 25,
+    "freq": 16,
+    "freq_rank": 283,
+    "example": {
+      "fiwo": "Kup wun jamid panop?",
+      "english": "Who wrote the book?"
+    }
   },
   {
     "word": "wuswo",
@@ -11081,7 +19113,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A structure built by a bird, insect, or other animal to hold its eggs or young.",
     "tier": 3,
-    "rank": 211
+    "rank": 211,
+    "freq": 0,
+    "freq_rank": 3114,
+    "example": {
+      "fiwo": "Wuswop deky mosap.",
+      "english": "The nest is in the tree."
+    }
   },
   {
     "word": "wutro",
@@ -11089,7 +19127,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A hard construction material made by mixing cement, sand, gravel, and water, which sets into a stone-like mass.",
     "tier": 3,
-    "rank": 84
+    "rank": 84,
+    "freq": 0,
+    "freq_rank": 3116,
+    "example": {
+      "fiwo": "Krapop wutroe.",
+      "english": "The wall is made of concrete."
+    }
   },
   {
     "word": "wuxiwi",
@@ -11097,7 +19141,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To produce the soft rushing sound of air, or of something moving fast through it.",
     "tier": 3,
-    "rank": 68
+    "rank": 68,
+    "freq": 0,
+    "freq_rank": 3117,
+    "example": {
+      "fiwo": "Xabesop wuxiwid.",
+      "english": "The wind whooshed."
+    }
   },
   {
     "word": "wy",
@@ -11105,7 +19155,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Used for accompaniment or instrumentality.",
     "tier": 0,
-    "rank": 21
+    "rank": 21,
+    "freq": 39,
+    "freq_rank": 131,
+    "example": {
+      "fiwo": "Mik xalis zy jurop wy nauxap mike.",
+      "english": "I will go to the city with my friend."
+    }
   },
   {
     "word": "wyde",
@@ -11113,7 +19169,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something protected from or not exposed to danger or risk.",
     "tier": 2,
-    "rank": 74
+    "rank": 74,
+    "freq": 2,
+    "freq_rank": 905,
+    "example": {
+      "fiwo": "Rerpop wydei.",
+      "english": "The place is safe."
+    }
   },
   {
     "word": "wyqo",
@@ -11121,7 +19183,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A substance used with water for washing, bathing, and cleaning, typically made from natural oils or fats.",
     "tier": 3,
-    "rank": 184
+    "rank": 184,
+    "freq": 0,
+    "freq_rank": 3119,
+    "example": {
+      "fiwo": "Wyqop myi dorsor.",
+      "english": "The soap contains water."
+    }
   },
   {
     "word": "wyrofo",
@@ -11129,7 +19197,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A raised level surface; a stage or base on which things operate; (computing) a system on which applications run.",
     "tier": 2,
-    "rank": 243
+    "rank": 243,
+    "freq": 3,
+    "freq_rank": 754,
+    "example": {
+      "fiwo": "Nofa gugi ty wyrofo.",
+      "english": "The person stands on the platform."
+    }
   },
   {
     "word": "xabeso",
@@ -11137,7 +19211,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This describes the natural, perceptible kinetic movement of air  traveling across an environment.",
     "tier": 1,
-    "rank": 203
+    "rank": 203,
+    "freq": 20,
+    "freq_rank": 234,
+    "example": {
+      "fiwo": "Xabesop doteid.",
+      "english": "The wind was strong."
+    }
   },
   {
     "word": "xadoro",
@@ -11145,7 +19225,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This identifies a large, naturally flowing body of liquid water continuously moving along a path toward a sea, lake, or ocean.",
     "tier": 1,
-    "rank": 235
+    "rank": 235,
+    "freq": 11,
+    "freq_rank": 380,
+    "example": {
+      "fiwo": "Xadorop cafidyq.",
+      "english": "The river was running."
+    }
   },
   {
     "word": "xageje",
@@ -11153,7 +19239,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "For all future time; eternally, everlastingly.",
     "tier": 2,
-    "rank": 219
+    "rank": 219,
+    "freq": 2,
+    "freq_rank": 906,
+    "example": {
+      "fiwo": "Nofa nes hi xageje.",
+      "english": "People do not exist forever."
+    }
   },
   {
     "word": "xako",
@@ -11161,7 +19253,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "Pellets of frozen rain or ice that fall in showers from cumulonimbus clouds.",
     "tier": 3,
-    "rank": 259
+    "rank": 259,
+    "freq": 0,
+    "freq_rank": 3123,
+    "example": {
+      "fiwo": "Xakop satsiq ragop.",
+      "english": "The hail is hitting the roof."
+    }
   },
   {
     "word": "xalati",
@@ -11169,7 +19267,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To physically move past an object, or to successfully transfer completely through a structural barrier.",
     "tier": 2,
-    "rank": 330
+    "rank": 330,
+    "freq": 5,
+    "freq_rank": 596,
+    "example": {
+      "fiwo": "Atripop xalatis juro late.",
+      "english": "The train will pass all cities."
+    }
   },
   {
     "word": "xali",
@@ -11177,7 +19281,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to change position or displace something.",
     "tier": 1,
-    "rank": 8
+    "rank": 8,
+    "freq": 124,
+    "freq_rank": 40,
+    "example": {
+      "fiwo": "Mik xalis zy jurop.",
+      "english": "I will go to the city."
+    }
   },
   {
     "word": "xap",
@@ -11185,7 +19295,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A pragmatic mood tag placed at the absolute start of a sentence to introduce an example or illustration.",
     "tier": 0,
-    "rank": 65
+    "rank": 65,
+    "freq": 1,
+    "freq_rank": 1313,
+    "example": {
+      "fiwo": "Xap mik kyti detar.",
+      "english": "For example, I like dogs."
+    }
   },
   {
     "word": "xaqbo",
@@ -11193,7 +19309,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A highly valuable, naturally occurring yellow metal historically used for currency or decoration.",
     "tier": 2,
-    "rank": 290
+    "rank": 290,
+    "freq": 0,
+    "freq_rank": 3128,
+    "example": {
+      "fiwo": "Xaqbop xiveid.",
+      "english": "The gold was expensive."
+    }
   },
   {
     "word": "xare",
@@ -11201,7 +19323,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something that is easy to perceive, understand, or see through without physical obstruction or logical ambiguity.",
     "tier": 2,
-    "rank": 92
+    "rank": 92,
+    "freq": 2,
+    "freq_rank": 907,
+    "example": {
+      "fiwo": "Litop xarei.",
+      "english": "The light is clear."
+    }
   },
   {
     "word": "xedo",
@@ -11209,7 +19337,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This describes a solid material that is typically hard, shiny, and conductive.",
     "tier": 2,
-    "rank": 81
+    "rank": 81,
+    "freq": 8,
+    "freq_rank": 459,
+    "example": {
+      "fiwo": "Kinop vy xedo.",
+      "english": "The knife is made of metal."
+    }
   },
   {
     "word": "xeku",
@@ -11217,7 +19351,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a nation with its own government, occupying a particular territory.",
     "tier": 2,
-    "rank": 4
+    "rank": 4,
+    "freq": 24,
+    "freq_rank": 206,
+    "example": {
+      "fiwo": "Xekup mike tandei.",
+      "english": "My country is big."
+    }
   },
   {
     "word": "xempi",
@@ -11226,7 +19366,13 @@ const dictionaryData = [
     "definition": "To perform an activity repeatedly in order to acquire or improve a skill.",
     "usage_note": "Distinct from tehidi (academic study), which is about knowledge rather than repeated performance.",
     "tier": 2,
-    "rank": 78
+    "rank": 78,
+    "freq": 2,
+    "freq_rank": 908,
+    "example": {
+      "fiwo": "Mik xempid fiwo dionu late.",
+      "english": "I practiced Fiwo every day."
+    }
   },
   {
     "word": "xepytu",
@@ -11234,7 +19380,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A moral or legal entitlement to have or obtain something, or to act in a certain way without interference.",
     "tier": 2,
-    "rank": 158
+    "rank": 158,
+    "freq": 4,
+    "freq_rank": 654,
+    "example": {
+      "fiwo": "Daq jedi xepytup.",
+      "english": "He has the right."
+    }
   },
   {
     "word": "xeri",
@@ -11242,7 +19394,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to propel something with force through the air.",
     "tier": 2,
-    "rank": 191
+    "rank": 191,
+    "freq": 6,
+    "freq_rank": 541,
+    "example": {
+      "fiwo": "Das xerid weorop.",
+      "english": "She threw the ball."
+    }
   },
   {
     "word": "xeski",
@@ -11250,7 +19408,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To achieve victory, succeed, or finish first in a competitive system or conflict.",
     "tier": 2,
-    "rank": 17
+    "rank": 17,
+    "freq": 9,
+    "freq_rank": 429,
+    "example": {
+      "fiwo": "Stramup nake xeskis spelup.",
+      "english": "Our team will win the game."
+    }
   },
   {
     "word": "xex",
@@ -11258,7 +19422,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Phatic laughter token conveying amusement; 'haha.' Standalone on the Null Track (Rule 33).",
     "tier": 0,
-    "rank": 113
+    "rank": 113,
+    "freq": 0,
+    "freq_rank": 3140,
+    "example": {
+      "fiwo": "Xex. Ram xixui fe.",
+      "english": "Haha. That's very funny."
+    }
   },
   {
     "word": "xibi",
@@ -11266,7 +19436,27 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To state or declare that one will definitely do or not do a specific action.",
     "tier": 2,
-    "rank": 228
+    "rank": 228,
+    "freq": 1,
+    "freq_rank": 1316,
+    "example": {
+      "fiwo": "Mik xibis plit fitydu.",
+      "english": "I promise to come tomorrow."
+    }
+  },
+  {
+    "word": "xico",
+    "english_equiv": "Treasure",
+    "part_of_speech": "Concrete Noun",
+    "definition": "A hoard of valuable objects, especially one hidden, buried, or long sought.",
+    "tier": 3,
+    "rank": 578,
+    "freq": 0,
+    "freq_rank": 3143,
+    "example": {
+      "fiwo": "Muk karxid xico ky sanpo.",
+      "english": "We found treasure in the sand."
+    }
   },
   {
     "word": "xiglehe",
@@ -11274,7 +19464,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting a vivid purplish-red color between leupe (red) and luoke (purple).",
     "tier": 3,
-    "rank": 349
+    "rank": 349,
+    "freq": 0,
+    "freq_rank": 3145,
+    "example": {
+      "fiwo": "Sulpop xiglehe.",
+      "english": "The dye is magenta."
+    }
   },
   {
     "word": "xildo",
@@ -11282,7 +19478,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A broad, solid piece of metal, wood, or synthetic material held to block or deflect physical blows and projectiles.",
     "tier": 3,
-    "rank": 43
+    "rank": 43,
+    "freq": 1,
+    "freq_rank": 1317,
+    "example": {
+      "fiwo": "Xildop doteid.",
+      "english": "The shield was strong."
+    }
   },
   {
     "word": "xinadzu",
@@ -11290,7 +19492,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A formal meeting or gathering for discussion, typically with an agenda.",
     "tier": 2,
-    "rank": 143
+    "rank": 143,
+    "freq": 1,
+    "freq_rank": 1318,
+    "example": {
+      "fiwo": "Mik xalis zy xinadzu.",
+      "english": "I will go to the conference."
+    }
   },
   {
     "word": "xiolo",
@@ -11298,7 +19506,27 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A separate piece of furniture designed as a seat for one person, typically featuring a backrest and four legs.",
     "tier": 1,
-    "rank": 217
+    "rank": 217,
+    "freq": 17,
+    "freq_rank": 272,
+    "example": {
+      "fiwo": "Xiolop ry mik.",
+      "english": "The chair is mine."
+    }
+  },
+  {
+    "word": "xirfi",
+    "english_equiv": "Ferment",
+    "part_of_speech": "Verb",
+    "definition": "To change chemically through the action of yeast or bacteria, as in brewing or souring.",
+    "tier": 3,
+    "rank": 583,
+    "freq": 0,
+    "freq_rank": 3150,
+    "example": {
+      "fiwo": "Nofa xirfid grapa je cagy winro.",
+      "english": "The person fermented the grapes for wine."
+    }
   },
   {
     "word": "xiseslu",
@@ -11306,7 +19534,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A competition to determine who is fastest over a set course.",
     "tier": 2,
-    "rank": 121
+    "rank": 121,
+    "freq": 1,
+    "freq_rank": 1319,
+    "example": {
+      "fiwo": "Mik nojaid xiseslup.",
+      "english": "I watched the race."
+    }
   },
   {
     "word": "xistu",
@@ -11314,7 +19548,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Statements that do not agree with each other, especially one's own. Logical equivalent: Gesiu je daqe nes dzefi. (His statements do not agree.)",
     "tier": 3,
-    "rank": 29
+    "rank": 29,
+    "freq": 0,
+    "freq_rank": 3153,
+    "example": {
+      "fiwo": "Jormup sile xistur.",
+      "english": "This situation is a contradiction."
+    }
   },
   {
     "word": "xisyzi",
@@ -11322,7 +19562,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To produce a sharp, sustained s-like sound, as a snake, a cat, or escaping air does.",
     "tier": 3,
-    "rank": 345
+    "rank": 345,
+    "freq": 0,
+    "freq_rank": 3154,
+    "example": {
+      "fiwo": "Catsap xisyzid.",
+      "english": "The cat hissed."
+    }
   },
   {
     "word": "xitriki",
@@ -11330,7 +19576,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To move instantly from one location to another without crossing the space between.",
     "tier": 3,
-    "rank": 350
+    "rank": 350,
+    "freq": 0,
+    "freq_rank": 3155,
+    "example": {
+      "fiwo": "Daq xitrikid zy jurop.",
+      "english": "He teleported to the city."
+    }
   },
   {
     "word": "xive",
@@ -11338,7 +19590,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes something commanding a high monetary price or requiring a large exchange of financial value.",
     "tier": 1,
-    "rank": 213
+    "rank": 213,
+    "freq": 1,
+    "freq_rank": 1320,
+    "example": {
+      "fiwo": "Moblop xivei.",
+      "english": "The car is expensive."
+    }
   },
   {
     "word": "xixu",
@@ -11346,7 +19604,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The quality of being amusing, comic, or funny, especially as expressed in speech or action.",
     "tier": 2,
-    "rank": 378
+    "rank": 378,
+    "freq": 0,
+    "freq_rank": 3158,
+    "example": {
+      "fiwo": "Xixup ry stepup gaweid.",
+      "english": "The humor of the story was good."
+    }
   },
   {
     "word": "xocewo",
@@ -11354,7 +19618,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A concrete electronic device or machine used to receive and display broadcasted moving images and sound.",
     "tier": 2,
-    "rank": 279
+    "rank": 279,
+    "freq": 0,
+    "freq_rank": 3161,
+    "example": {
+      "fiwo": "Cetop ry xocewop.",
+      "english": "The television screen."
+    }
   },
   {
     "word": "xogri",
@@ -11363,7 +19633,13 @@ const dictionaryData = [
     "definition": "To go to see and spend time with a person or place as a social or purposeful call.",
     "usage_note": "Distinct from pli (come) and xali (go), which carry only motion.",
     "tier": 2,
-    "rank": 207
+    "rank": 207,
+    "freq": 3,
+    "freq_rank": 756,
+    "example": {
+      "fiwo": "Nak xogrid manap mike.",
+      "english": "We visited my mother."
+    }
   },
   {
     "word": "xom",
@@ -11371,7 +19647,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "A structural particle used to introduce an explanation, clarification, or rephrasing of a previous statement.",
     "tier": 0,
-    "rank": 81
+    "rank": 81,
+    "freq": 1,
+    "freq_rank": 1322,
+    "example": {
+      "fiwo": "Xom, ram je tandeid.",
+      "english": "In other words, they were big."
+    }
   },
   {
     "word": "xonka",
@@ -11379,7 +19661,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The forward-projecting bony part of the lower jaw, below the mouth.",
     "tier": 3,
-    "rank": 223
+    "rank": 223,
+    "freq": 0,
+    "freq_rank": 3164,
+    "example": {
+      "fiwo": "Xonkap daq tande.",
+      "english": "His chin is big."
+    }
   },
   {
     "word": "xopa",
@@ -11387,7 +19675,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a domesticated ruminant mammal characterized by a thick woolly coat, typically kept in flocks for its wool or meat.",
     "tier": 3,
-    "rank": 171
+    "rank": 171,
+    "freq": 0,
+    "freq_rank": 3166,
+    "example": {
+      "fiwo": "Xopap jedi furnar locwe.",
+      "english": "The sheep has white wool."
+    }
   },
   {
     "word": "xosi",
@@ -11395,7 +19689,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to allow access, passage, or view through a space.",
     "tier": 1,
-    "rank": 75
+    "rank": 75,
+    "freq": 40,
+    "freq_rank": 127,
+    "example": {
+      "fiwo": "Kop xosi wilop!",
+      "english": "Open the window!"
+    }
   },
   {
     "word": "xowero",
@@ -11403,7 +19703,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A physical geographic location, building, or structured area where multiple distinct shops, stalls, or vendors are grouped together for commerce.",
     "tier": 2,
-    "rank": 43
+    "rank": 43,
+    "freq": 3,
+    "freq_rank": 757,
+    "example": {
+      "fiwo": "Xowerop gizeid du late.",
+      "english": "The market was full all day."
+    }
   },
   {
     "word": "xowu",
@@ -11411,7 +19717,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An organized cultural, artistic, or demonstrative event presented specifically for an audience to observe.",
     "tier": 2,
-    "rank": 128
+    "rank": 128,
+    "freq": 1,
+    "freq_rank": 1323,
+    "example": {
+      "fiwo": "Xowup cimidyq.",
+      "english": "The show was starting."
+    }
   },
   {
     "word": "xu",
@@ -11419,7 +19731,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A category of entities having some common characteristics that distinguish them from others.",
     "tier": 2,
-    "rank": 216
+    "rank": 216,
+    "freq": 0,
+    "freq_rank": 3172,
+    "example": {
+      "fiwo": "Ram xur ry batap.",
+      "english": "It is a type of food."
+    }
   },
   {
     "word": "xucu",
@@ -11427,7 +19745,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The distinct sound produced by a person's vocal cords, used in speaking, singing, or communicating.",
     "tier": 2,
-    "rank": 316
+    "rank": 316,
+    "freq": 8,
+    "freq_rank": 460,
+    "example": {
+      "fiwo": "Xucup ry das baudeid.",
+      "english": "Her voice was beautiful."
+    }
   },
   {
     "word": "xufa",
@@ -11435,7 +19759,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to each of the two upper limbs of the human body from the shoulder to the hand.",
     "tier": 1,
-    "rank": 276
+    "rank": 276,
+    "freq": 2,
+    "freq_rank": 909,
+    "example": {
+      "fiwo": "Daq xalidyq xufap.",
+      "english": "He was moving his arm."
+    }
   },
   {
     "word": "xufuku",
@@ -11443,7 +19773,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract feeling of being thankful and showing appreciation.",
     "tier": 3,
-    "rank": 241
+    "rank": 241,
+    "freq": 0,
+    "freq_rank": 3175,
+    "example": {
+      "fiwo": "Mik jedi xufukup.",
+      "english": "I have gratitude."
+    }
   },
   {
     "word": "xujili",
@@ -11451,7 +19787,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To send data from a device to a remote system.",
     "tier": 3,
-    "rank": 41
+    "rank": 41,
+    "freq": 1,
+    "freq_rank": 1324
   },
   {
     "word": "xulaza",
@@ -11459,7 +19797,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A large cold-water sea fish, widely caught as a staple food fish.",
     "tier": 3,
-    "rank": 256
+    "rank": 256,
+    "freq": 0,
+    "freq_rank": 3178,
+    "example": {
+      "fiwo": "Das nomid xulazap.",
+      "english": "She ate the cod."
+    }
   },
   {
     "word": "xuni",
@@ -11467,7 +19811,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to consume or damage something by fire.",
     "tier": 2,
-    "rank": 429
+    "rank": 429,
+    "freq": 4,
+    "freq_rank": 655,
+    "example": {
+      "fiwo": "Fuegop xunid mosap.",
+      "english": "The fire burned the tree."
+    }
   },
   {
     "word": "xwewi",
@@ -11475,7 +19825,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To excuse, forgive, or pardon someone for a minor social transgression or interruption.",
     "tier": 1,
-    "rank": 283
+    "rank": 283,
+    "freq": 1,
+    "freq_rank": 1325,
+    "example": {
+      "fiwo": "Kop xwewi mik.",
+      "english": "Excuse me."
+    }
   },
   {
     "word": "xy",
@@ -11483,7 +19839,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates that the subject shares the physical geometry or outline of the object, but not necessarily its material or function.",
     "tier": 0,
-    "rank": 114
+    "rank": 114,
+    "freq": 0,
+    "freq_rank": 3182,
+    "example": {
+      "fiwo": "Mosap xy sydor.",
+      "english": "The tree is shaped like a house."
+    }
   },
   {
     "word": "xyfi",
@@ -11491,7 +19853,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To perform, execute, or carry out a general action.",
     "tier": 1,
-    "rank": 30
+    "rank": 30,
+    "freq": 18,
+    "freq_rank": 253,
+    "example": {
+      "fiwo": "Mik xyfid jobup.",
+      "english": "I did the job."
+    }
   },
   {
     "word": "xygaji",
@@ -11499,7 +19867,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To persist in an ongoing activity or state without breaking the SVO track.",
     "tier": 2,
-    "rank": 93
+    "rank": 93,
+    "freq": 8,
+    "freq_rank": 461,
+    "example": {
+      "fiwo": "Daq xygajid nacit.",
+      "english": "He continued to work."
+    }
   },
   {
     "word": "xyge",
@@ -11507,7 +19881,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This word describes something with a small distance between opposite surfaces.",
     "tier": 2,
-    "rank": 451
+    "rank": 451,
+    "freq": 1,
+    "freq_rank": 1326,
+    "example": {
+      "fiwo": "Otsinop xygei.",
+      "english": "The thread is thin."
+    }
   },
   {
     "word": "xynta",
@@ -11515,7 +19895,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A reptile with a hard protective shell covering its body, living on land or in water.",
     "tier": 3,
-    "rank": 243
+    "rank": 243,
+    "freq": 0,
+    "freq_rank": 3185,
+    "example": {
+      "fiwo": "Xyntap lande.",
+      "english": "The turtle is small."
+    }
   },
   {
     "word": "xyplo",
@@ -11523,7 +19909,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A common gray-black metal, used for tools, construction, and alloyed into steel. Follows xedo (metal) and xaqbo (gold) as a specific metal type.",
     "tier": 2,
-    "rank": 420
+    "rank": 420,
+    "freq": 0,
+    "freq_rank": 3187,
+    "example": {
+      "fiwo": "Xyplop lefeid.",
+      "english": "The iron was hard."
+    }
   },
   {
     "word": "xyro",
@@ -11531,7 +19923,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a physical building or retail space structurally dedicated to the commercial selling of goods or services.",
     "tier": 1,
-    "rank": 158
+    "rank": 158,
+    "freq": 41,
+    "freq_rank": 123,
+    "example": {
+      "fiwo": "Xyrop xosidyq.",
+      "english": "The shop was opening."
+    }
   },
   {
     "word": "xyswa",
@@ -11539,7 +19937,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A small water bird with a broad flat bill and webbed feet, kept domestically or found in the wild.",
     "tier": 3,
-    "rank": 150
+    "rank": 150,
+    "freq": 0,
+    "freq_rank": 3191,
+    "example": {
+      "fiwo": "Xyswap dormidyq deky brirsop.",
+      "english": "The duck was swimming in the lake."
+    }
   },
   {
     "word": "ybawa",
@@ -11547,7 +19951,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The tough outer protective covering of the woody stems and roots of trees.",
     "tier": 3,
-    "rank": 547
+    "rank": 547,
+    "freq": 0,
+    "freq_rank": 3193,
+    "example": {
+      "fiwo": "Ayjap ry mosap capeid.",
+      "english": "The bark of the tree was dark."
+    }
   },
   {
     "word": "ycuba",
@@ -11555,7 +19965,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A small, slender fly that feeds on blood and can transmit diseases.",
     "tier": 3,
-    "rank": 554
+    "rank": 554,
+    "freq": 0,
+    "freq_rank": 3195,
+    "example": {
+      "fiwo": "Uyxap pixraidyq mik.",
+      "english": "The mosquito was biting me."
+    }
   },
   {
     "word": "yfuke",
@@ -11563,7 +19979,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes a state, conclusion, or action that is mathematically, logically, or socially obvious, natural, and completely without doubt.",
     "tier": 2,
-    "rank": 211
+    "rank": 211,
+    "freq": 0,
+    "freq_rank": 3197,
+    "example": {
+      "fiwo": "Daq plis yfuke.",
+      "english": "Of course he will come."
+    }
   },
   {
     "word": "ylxa",
@@ -11571,7 +19993,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the opening in the lower part of the human face through which food is taken in and speech is emitted.",
     "tier": 1,
-    "rank": 250
+    "rank": 250,
+    "freq": 5,
+    "freq_rank": 597,
+    "example": {
+      "fiwo": "Kop xosi ylxap suke!",
+      "english": "Open your mouth!"
+    }
   },
   {
     "word": "ynafe",
@@ -11579,7 +20007,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Describes a physical substance that produces a highly positive, pleasurable response when processed by the taste receptors.",
     "tier": 3,
-    "rank": 106
+    "rank": 106,
+    "freq": 0,
+    "freq_rank": 3200,
+    "example": {
+      "fiwo": "Batap ynafei.",
+      "english": "The food is delicious."
+    }
   },
   {
     "word": "ynse",
@@ -11587,7 +20021,9 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "A relative degree modifier indicating a medium, average, or partial amount of a trait, state, or action.",
     "tier": 3,
-    "rank": 419
+    "rank": 419,
+    "freq": 0,
+    "freq_rank": 3202
   },
   {
     "word": "ywurdu",
@@ -11595,7 +20031,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An action or omission that constitutes a severe offense punishable by law.",
     "tier": 2,
-    "rank": 125
+    "rank": 125,
+    "freq": 3,
+    "freq_rank": 759,
+    "example": {
+      "fiwo": "Ywurdup bokei.",
+      "english": "Crime is bad."
+    }
   },
   {
     "word": "zabato",
@@ -11603,7 +20045,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A flexible container made of fabric, leather, or plastic, used structurally for carrying or consolidating other physical items.",
     "tier": 1,
-    "rank": 212
+    "rank": 212,
+    "freq": 13,
+    "freq_rank": 330,
+    "example": {
+      "fiwo": "Zabatop juceid.",
+      "english": "The bag was heavy."
+    }
   },
   {
     "word": "zafoiro",
@@ -11611,7 +20059,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "The structured indoor ground surface of a room or building on which people stand or walk.",
     "tier": 1,
-    "rank": 173
+    "rank": 173,
+    "freq": 12,
+    "freq_rank": 362,
+    "example": {
+      "fiwo": "Zafoirop wukeid.",
+      "english": "The floor was dry."
+    }
   },
   {
     "word": "zala",
@@ -11619,7 +20073,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to a small invertebrate animal, often with a segmented body and legs.",
     "tier": 1,
-    "rank": 289
+    "rank": 289,
+    "freq": 1,
+    "freq_rank": 1327,
+    "example": {
+      "fiwo": "Zalap ceni ty cilap.",
+      "english": "The bug is on the leaf."
+    }
   },
   {
     "word": "zalmu",
@@ -11627,7 +20087,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract activities, affairs, and systemic processes associated with making decisions within groups, particularly regarding the distribution of power and resources in a government (govnu).",
     "tier": 2,
-    "rank": 374
+    "rank": 374,
+    "freq": 0,
+    "freq_rank": 3209,
+    "example": {
+      "fiwo": "Zalmup ry xekup bokeid.",
+      "english": "The politics of the country was bad."
+    }
   },
   {
     "word": "zanki",
@@ -11635,7 +20101,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To place an entity out of sight or prevent it from being found.",
     "tier": 2,
-    "rank": 268
+    "rank": 268,
+    "freq": 13,
+    "freq_rank": 331,
+    "example": {
+      "fiwo": "Ipkap zankis baxy cilar.",
+      "english": "The spider will hide behind a leaf."
+    }
   },
   {
     "word": "zapu",
@@ -11643,7 +20115,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "An organized conceptual framework or set of interacting principles forming a complex whole.",
     "tier": 2,
-    "rank": 182
+    "rank": 182,
+    "freq": 0,
+    "freq_rank": 3213,
+    "example": {
+      "fiwo": "Zapup ry govnup dotei.",
+      "english": "The system of the government is strong."
+    }
   },
   {
     "word": "zaqo",
@@ -11651,7 +20129,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A white crystalline physical mineral consisting of sodium chloride, used to season or preserve food.",
     "tier": 1,
-    "rank": 226
+    "rank": 226,
+    "freq": 10,
+    "freq_rank": 405,
+    "example": {
+      "fiwo": "Zaqop kameid.",
+      "english": "The salt was salty."
+    }
   },
   {
     "word": "zaso",
@@ -11659,7 +20143,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This term refers to the ground, soil, or the physical land surface.",
     "tier": 2,
-    "rank": 30
+    "rank": 30,
+    "freq": 23,
+    "freq_rank": 216,
+    "example": {
+      "fiwo": "Zasop wukeid.",
+      "english": "The ground was dry."
+    }
   },
   {
     "word": "zaterte",
@@ -11667,7 +20157,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Exhibiting a bright, light green color, like young leaves in spring. A pale, vivid shade of luare (green).",
     "tier": 2,
-    "rank": 292
+    "rank": 292,
+    "freq": 0,
+    "freq_rank": 3218,
+    "example": {
+      "fiwo": "Cilap zaterte.",
+      "english": "The leaf is lime green."
+    }
   },
   {
     "word": "zave",
@@ -11675,7 +20171,27 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes something having a great vertical extent or measuring a long distance from bottom to top.",
     "tier": 1,
-    "rank": 61
+    "rank": 61,
+    "freq": 15,
+    "freq_rank": 302,
+    "example": {
+      "fiwo": "Montop zavei.",
+      "english": "The mountain is high."
+    }
+  },
+  {
+    "word": "zawi",
+    "english_equiv": "Admire",
+    "part_of_speech": "Verb",
+    "definition": "To regard something with pleasure and wonder.",
+    "tier": 3,
+    "rank": 582,
+    "freq": 0,
+    "freq_rank": 3221,
+    "example": {
+      "fiwo": "Cada zawid lakiro.",
+      "english": "The child admired the picture."
+    }
   },
   {
     "word": "zedro",
@@ -11683,7 +20199,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A soft dairy product made by churning milk (lamso) fat. Follows lamso's Concrete Noun class, like its dairy-product sibling skroqo (cheese).",
     "tier": 3,
-    "rank": 77
+    "rank": 77,
+    "freq": 0,
+    "freq_rank": 3223,
+    "example": {
+      "fiwo": "Zedrop jilfe.",
+      "english": "The butter is smooth."
+    }
   },
   {
     "word": "zemi",
@@ -11691,7 +20213,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to put something on top of or in front of something else to protect or conceal it.",
     "tier": 2,
-    "rank": 113
+    "rank": 113,
+    "freq": 6,
+    "freq_rank": 544,
+    "example": {
+      "fiwo": "Ogzop zemid batap.",
+      "english": "The towel covered the food."
+    }
   },
   {
     "word": "zenu",
@@ -11699,7 +20227,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The abstract conceptual provision of what is necessary for the health, welfare, or protection of an entity.",
     "tier": 2,
-    "rank": 181
+    "rank": 181,
+    "freq": 0,
+    "freq_rank": 3226,
+    "example": {
+      "fiwo": "Zenup ry mana mike gawei.",
+      "english": "My mother's care is good."
+    }
   },
   {
     "word": "zepuklu",
@@ -11707,7 +20241,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The daily event of the sun sinking below the horizon.",
     "tier": 3,
-    "rank": 201
+    "rank": 201,
+    "freq": 0,
+    "freq_rank": 3228,
+    "example": {
+      "fiwo": "Nak nojaid zepuklup.",
+      "english": "We saw the sunset."
+    }
   },
   {
     "word": "zet",
@@ -11716,7 +20256,13 @@ const dictionaryData = [
     "definition": "Topic marker. Placed at the absolute start of a sentence, it opens a topic phrase ('as for X / regarding X'); the wall 'can' (or 'pen') then closes the topic and hands off to the main clause (Rule 32.5).",
     "usage_note": "Distinct from the preposition zety ('about'), which bridges mid-sentence.",
     "tier": 0,
-    "rank": 9
+    "rank": 9,
+    "freq": 32,
+    "freq_rank": 158,
+    "example": {
+      "fiwo": "Zet panop can John lokid ram.",
+      "english": "As for the book, John read it."
+    }
   },
   {
     "word": "zety",
@@ -11724,7 +20270,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Concerning, regarding, or strictly relating to the subject of a specific topic.",
     "tier": 0,
-    "rank": 23
+    "rank": 23,
+    "freq": 58,
+    "freq_rank": 88,
+    "example": {
+      "fiwo": "Mik lokid panor zety fawanur.",
+      "english": "I read a book about technology."
+    }
   },
   {
     "word": "zewe",
@@ -11732,7 +20284,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This refers to the cardinal number equivalent to the product of three and three.",
     "tier": 1,
-    "rank": 257
+    "rank": 257,
+    "freq": 28,
+    "freq_rank": 182,
+    "example": {
+      "fiwo": "Mosar zewe morid.",
+      "english": "Nine trees grew."
+    }
   },
   {
     "word": "zezuru",
@@ -11740,7 +20298,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "One specific form or edition of something that exists in successive or parallel variants.",
     "tier": 2,
-    "rank": 308
+    "rank": 308,
+    "freq": 0,
+    "freq_rank": 3232,
+    "example": {
+      "fiwo": "Mik kanid zezurup.",
+      "english": "I knew the version."
+    }
   },
   {
     "word": "zib",
@@ -11748,7 +20312,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Phatic greeting used in the evening; 'good evening.' Standalone on the Null Track (Rule 33).",
     "tier": 0,
-    "rank": 84
+    "rank": 84,
+    "freq": 1,
+    "freq_rank": 1330,
+    "example": {
+      "fiwo": "Zib. Mik tsi fuqe.",
+      "english": "Good evening. I have to leave."
+    }
   },
   {
     "word": "zidzopo",
@@ -11756,7 +20326,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "One of the Earth's great continuous landmasses.",
     "tier": 2,
-    "rank": 370
+    "rank": 370,
+    "freq": 2,
+    "freq_rank": 911,
+    "example": {
+      "fiwo": "Zidzopo tande.",
+      "english": "The continent is big."
+    }
   },
   {
     "word": "zihe",
@@ -11764,7 +20340,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "Known about by many people; widely celebrated or recognized.",
     "tier": 2,
-    "rank": 376
+    "rank": 376,
+    "freq": 0,
+    "freq_rank": 3235,
+    "example": {
+      "fiwo": "Farlopap ziheid.",
+      "english": "The doctor was famous."
+    }
   },
   {
     "word": "zikuzo",
@@ -11772,7 +20354,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A concrete physical building or structural institution where money is legally kept, invested, or exchanged.",
     "tier": 2,
-    "rank": 99
+    "rank": 99,
+    "freq": 4,
+    "freq_rank": 657,
+    "example": {
+      "fiwo": "Zikuzop beatidyq.",
+      "english": "The bank was closing."
+    }
   },
   {
     "word": "zilto",
@@ -11780,7 +20368,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A decorative edge or border added to an object for ornamentation.",
     "tier": 3,
-    "rank": 238
+    "rank": 238,
+    "freq": 0,
+    "freq_rank": 3240,
+    "example": {
+      "fiwo": "Ziltop das lande.",
+      "english": "Her trim is small."
+    }
   },
   {
     "word": "zimempo",
@@ -11788,7 +20382,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "A hard, lustrous white sphere formed inside a shellfish, valued as a jewel.",
     "tier": 3,
-    "rank": 165
+    "rank": 165,
+    "freq": 0,
+    "freq_rank": 3242,
+    "example": {
+      "fiwo": "Zimempop locwe.",
+      "english": "The pearl is white."
+    }
   },
   {
     "word": "zimowo",
@@ -11796,7 +20396,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An open lattice or skeletal support structure: frameworks, grids, trellises, scaffolding.",
     "tier": 3,
-    "rank": 120
+    "rank": 120,
+    "freq": 0,
+    "freq_rank": 3244,
+    "example": {
+      "fiwo": "Nacia je hicid ty zimowop.",
+      "english": "The workers walked on the scaffolding."
+    }
   },
   {
     "word": "zindi",
@@ -11804,7 +20410,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To actively produce a ringing or chiming sound, as a phone or bell.",
     "tier": 2,
-    "rank": 273
+    "rank": 273,
+    "freq": 5,
+    "freq_rank": 598
   },
   {
     "word": "zipa",
@@ -11812,7 +20420,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "The front part of a biological entity's head, typically containing the eyes, nose, and mouth.",
     "tier": 1,
-    "rank": 130
+    "rank": 130,
+    "freq": 31,
+    "freq_rank": 163,
+    "example": {
+      "fiwo": "Zipap dase baudei.",
+      "english": "Her face is beautiful."
+    }
   },
   {
     "word": "zitsugu",
@@ -11820,7 +20434,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A body of people who meet to decide or advise.",
     "tier": 2,
-    "rank": 187
+    "rank": 187,
+    "freq": 23,
+    "freq_rank": 217
   },
   {
     "word": "zixefra",
@@ -11828,7 +20444,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "A marine organism that builds hard, branching, stone-like colonies on the sea floor.",
     "tier": 3,
-    "rank": 245
+    "rank": 245,
+    "freq": 0,
+    "freq_rank": 3248,
+    "example": {
+      "fiwo": "Zixefrap deky tandorsop.",
+      "english": "The coral is in the ocean."
+    }
   },
   {
     "word": "zoba",
@@ -11836,7 +20458,13 @@ const dictionaryData = [
     "part_of_speech": "Biological Noun",
     "definition": "This refers to the edible, biological matter of a plant—such as the leaves, stems, or roots—cultivated specifically for nutritional consumption.",
     "tier": 1,
-    "rank": 263
+    "rank": 263,
+    "freq": 5,
+    "freq_rank": 599,
+    "example": {
+      "fiwo": "Das gidsid zobar.",
+      "english": "She bought some vegetables."
+    }
   },
   {
     "word": "zode",
@@ -11844,7 +20472,13 @@ const dictionaryData = [
     "part_of_speech": "Modifier",
     "definition": "This describes an entity or environment producing a high volume of auditory energy or intense sound.",
     "tier": 3,
-    "rank": 17
+    "rank": 17,
+    "freq": 4,
+    "freq_rank": 658,
+    "example": {
+      "fiwo": "Pesup zodeid.",
+      "english": "The sound was loud."
+    }
   },
   {
     "word": "zofy",
@@ -11852,7 +20486,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a spatial bridge where the subject enters one side of an environment, medium, or enclosure and exits the other.",
     "tier": 0,
-    "rank": 55
+    "rank": 55,
+    "freq": 19,
+    "freq_rank": 241,
+    "example": {
+      "fiwo": "Mifap xalidyq zofy mortsap.",
+      "english": "The animal was going through the forest."
+    }
   },
   {
     "word": "zol",
@@ -11860,7 +20500,13 @@ const dictionaryData = [
     "part_of_speech": "Grammar",
     "definition": "Introduces a concessive clause; it acts as a structural wall indicating that the fact in this clause makes the information in the next clause surprising, contrasting, or unexpected.",
     "tier": 0,
-    "rank": 45
+    "rank": 45,
+    "freq": 9,
+    "freq_rank": 430,
+    "example": {
+      "fiwo": "Daq nacid zol daq iweid.",
+      "english": "He worked although he was tired."
+    }
   },
   {
     "word": "zoniti",
@@ -11868,7 +20514,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To remove an outer layer (bark, skin, paint) from a surface.",
     "tier": 3,
-    "rank": 85
+    "rank": 85,
+    "freq": 0,
+    "freq_rank": 3252,
+    "example": {
+      "fiwo": "Daq zonitid cevolop.",
+      "english": "He stripped the log."
+    }
   },
   {
     "word": "zopi",
@@ -11876,7 +20528,13 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To temporarily propel a physical body upward into the air using a sudden application of kinetic force.",
     "tier": 2,
-    "rank": 127
+    "rank": 127,
+    "freq": 4,
+    "freq_rank": 659,
+    "example": {
+      "fiwo": "Detap suke zopis zave.",
+      "english": "Your dog will jump high."
+    }
   },
   {
     "word": "zory",
@@ -11884,7 +20542,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Indicates a spatial or logical bridge placing the subject directly in the interval that separates two distinct entities.",
     "tier": 0,
-    "rank": 40
+    "rank": 40,
+    "freq": 17,
+    "freq_rank": 273,
+    "example": {
+      "fiwo": "Sydop ceni zory mosar lan caenor.",
+      "english": "The house sits between a tree and a street."
+    }
   },
   {
     "word": "zosu",
@@ -11892,7 +20556,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "The season between summer and winter, characterised by cooling temperatures, shortening days, and the shedding of leaves.",
     "tier": 2,
-    "rank": 287
+    "rank": 287,
+    "freq": 1,
+    "freq_rank": 1332,
+    "example": {
+      "fiwo": "Zosup jabeis.",
+      "english": "Autumn will be cold."
+    }
   },
   {
     "word": "zovi",
@@ -11900,7 +20570,9 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "To exist; to be present in reality. A bare existential verb for stating that something is, used where the copula hi cannot apply (it requires a suffix) and the Zero Copula cannot (it requires a complement).",
     "tier": 2,
-    "rank": 193
+    "rank": 193,
+    "freq": 81,
+    "freq_rank": 66
   },
   {
     "word": "zowumpu",
@@ -11908,7 +20580,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A general, ongoing rise in prices across an economy.",
     "tier": 2,
-    "rank": 456
+    "rank": 456,
+    "freq": 1,
+    "freq_rank": 1333
   },
   {
     "word": "zufo",
@@ -11916,7 +20590,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "This refers to a piece of furniture or a prepared spot used for sleep or rest.",
     "tier": 1,
-    "rank": 172
+    "rank": 172,
+    "freq": 9,
+    "freq_rank": 431,
+    "example": {
+      "fiwo": "Mik sowid ty zufop.",
+      "english": "I fell on the bed."
+    }
   },
   {
     "word": "zupokru",
@@ -11924,7 +20604,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "Financial assets or wealth available for use in producing more wealth.",
     "tier": 2,
-    "rank": 142
+    "rank": 142,
+    "freq": 2,
+    "freq_rank": 913,
+    "example": {
+      "fiwo": "Biznu jedi zupokrup.",
+      "english": "The company has capital."
+    }
   },
   {
     "word": "zurko",
@@ -11932,7 +20618,13 @@ const dictionaryData = [
     "definition": "A tool with a broad blade and handle, used for digging and moving loose material.",
     "part_of_speech": "Concrete Noun",
     "tier": 3,
-    "rank": 305
+    "rank": 305,
+    "freq": 0,
+    "freq_rank": 3259,
+    "example": {
+      "fiwo": "Zurkop das lande.",
+      "english": "Her shovel is small."
+    }
   },
   {
     "word": "zusabru",
@@ -11940,7 +20632,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A medical operation that cuts into the body to repair it.",
     "tier": 2,
-    "rank": 317
+    "rank": 317,
+    "freq": 1,
+    "freq_rank": 1334
   },
   {
     "word": "zuslefu",
@@ -11948,7 +20642,9 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "A precise step-by-step procedure for solving a problem.",
     "tier": 3,
-    "rank": 26
+    "rank": 26,
+    "freq": 1,
+    "freq_rank": 1335
   },
   {
     "word": "zuwu",
@@ -11956,7 +20652,13 @@ const dictionaryData = [
     "part_of_speech": "Abstract Noun",
     "definition": "This refers to a method, style, or custom of doing something.",
     "tier": 2,
-    "rank": 23
+    "rank": 23,
+    "freq": 7,
+    "freq_rank": 495,
+    "example": {
+      "fiwo": "Zuwup ry daq ruzeid.",
+      "english": "His way was fast."
+    }
   },
   {
     "word": "zy",
@@ -11964,7 +20666,13 @@ const dictionaryData = [
     "part_of_speech": "Prepositions",
     "definition": "Used for direction toward a destination or outcome.",
     "tier": 0,
-    "rank": 4
+    "rank": 4,
+    "freq": 261,
+    "freq_rank": 13,
+    "example": {
+      "fiwo": "Mik xaliq zy sydop.",
+      "english": "I am going to the house."
+    }
   },
   {
     "word": "zygloro",
@@ -11972,7 +20680,13 @@ const dictionaryData = [
     "part_of_speech": "Concrete Noun",
     "definition": "An area sheltered from direct light.",
     "tier": 2,
-    "rank": 346
+    "rank": 346,
+    "freq": 1,
+    "freq_rank": 1336,
+    "example": {
+      "fiwo": "Deta usi ky zygloro.",
+      "english": "The dog sleeps in the shade."
+    }
   },
   {
     "word": "zyli",
@@ -11980,14 +20694,12 @@ const dictionaryData = [
     "part_of_speech": "Verb",
     "definition": "This verb means to employ something for a particular purpose.",
     "tier": 1,
-    "rank": 39
-  },
-  {
-    "word": "gix",
-    "english_equiv": "[repair] / erase that / scratch that",
-    "part_of_speech": "Grammar",
-    "definition": "Repair Particle (Rule 39). Erases the immediately preceding word and restores the parser to the state it held before that word; may be repeated. Utterance-initial, it instead voids the single preceding utterance and a fresh clause begins. Its own word class - NOT a phatic particle and not on the Null Track (Rule 33). Cannot erase clausal walls, tep/tel, syn, mood tags or fap, and never reaches across a clause boundary.",
-    "tier": 0,
-    "rank": 131
+    "rank": 39,
+    "freq": 13,
+    "freq_rank": 332,
+    "example": {
+      "fiwo": "Mik zylid jatanop.",
+      "english": "I used the pen."
+    }
   }
 ];
