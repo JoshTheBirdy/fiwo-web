@@ -12,6 +12,15 @@
     const CLAUSAL_WALLS = new Set(['bef', 'bul', 'rot', 'kad', 'vel', 'zol', 'can', 'pen', 'vax', 'pov', 'kof', 'xom']);
     const PHATIC = new Set(['sal', 'tex', 'ak', 'wox', 'jo', 'ha', 'jas', 'cef',
         'nel', 'ov', 'tox', 'xex', 'dez', 'zib']);  // + social-formula batch (2026-07-07)
+    const REPAIR = 'gix';  // Rule 39 spoken repair (2026-08-07)
+    // Still awaiting something to their right, so nothing completed to erase (Rule 39.5).
+    const REPAIR_BLOCKED_AFTER = new Set(['preposition', 'negation', 'inline_glue', 'list_sep', 'math_op']);
+    // Rule 39.4 Structural Immunity: these never get a repair frame, so `gix`
+    // can never erase one. The boundary rule (39.3) is anchored to them.
+    const REPAIR_IMMUNE = new Set(['mood_tag', 'passive', 'condition', 'topic',
+        'clausal_wall', 'bracket_open', 'bracket_close']);
+    const CTX_SNAPSHOT_FIELDS = ['state', 'tagsOk', 'question', 'passive', 'ghost',
+        'openedAs', 'lastWall', 'synPending', 'topicPending', 'zcTimeUsed'];
     const PRONOUNS = new Set(['mik', 'suk', 'suv', 'dal', 'das', 'daq', 'ram', 'nak', 'muk']);
     const NO_JE_PRONOUNS = new Set(['mik', 'nak', 'muk']);
     const DEICTICS = new Set(['sil', 'fos']);
@@ -20,10 +29,17 @@
     const SUBJECT_VARS = new Set(['wun', 'won']);  // wun animate/who, won inanimate/what (Rule 12)
     const VARIABLES = new Set(['wun', 'won', 'wat', 'wer', 'wiq', 'wis', 'wug', 'wal']);
     const PREP_TARGET_VARS = new Set(['wer', 'wiq']);
-    const NUMBER_WORDS = new Set(['noze', 'bime', 'dewe', 'tafe', 'gloke', 'raje', 'sluqe', 'rete', 'marte', 'zewe', 'lere']);
-    const TEMPORAL_ROOTS = new Set(['nudu', 'fitydu', 'wecdu', 'nu', 'du', 'dugu', 'dionu', 'bafu', 'dumu', 'gomu',
+    // Must stay in step with Tools/validate_sentence.py — the spec, the Python
+    // reference parser and this JS port are one rule in three places.
+    // 2026-09-11 retirement batch: dewe -> kage, rete -> prure, dumu -> mepu,
+    // dewedu -> kagedu, retedu -> pruredu. These are STRUCTURAL, not merely
+    // lexical: leaving them stale does not raise an unknown-word error, it
+    // silently stops numbers and time expressions parsing at all.
+    // `retadu` (Week) was ruled to stay exactly as it is.
+    const NUMBER_WORDS = new Set(['noze', 'bime', 'kage', 'tafe', 'gloke', 'raje', 'sluqe', 'prure', 'marte', 'zewe', 'lere']);
+    const TEMPORAL_ROOTS = new Set(['nudu', 'fitydu', 'wecdu', 'nu', 'du', 'dugu', 'dionu', 'bafu', 'mepu', 'gomu',
         'cihu', 'fohu', 'vivu', 'retadu', 'rugoxu', 'jaru', 'tequ', 'getsu', 'fituru', 'wedacu',
-        'bimedu', 'dewedu', 'tafedu', 'glokedu', 'rajedu', 'sluqedu', 'retedu']);
+        'bimedu', 'kagedu', 'tafedu', 'glokedu', 'rajedu', 'sluqedu', 'pruredu']);
 
     const NOUN_SUFFIXES = new Set(['p', 'r']);
     const VERB_SUFFIXES = new Set(['d', 's', 'q', 'k', 't', 'dyq', 'dyk', 'syq', 'syk']);
@@ -89,6 +105,7 @@
         if (MATH_OPS.has(w)) return 'math_op';
         if (w === 'sek') return 'list_sep';
         if (PHATIC.has(w)) return 'phatic';
+        if (w === REPAIR) return 'repair';
         if (PRONOUNS.has(w) || DEICTICS.has(w)) return 'noun';
         if (VARIABLES.has(w)) return 'variable';
         const pos = entry.part_of_speech;
@@ -220,8 +237,42 @@
         return Object.assign({
             state: 'fresh', tagsOk: true, question: false, passive: false,
             ghost: null, openedAs: null, lastWall: null, synPending: false,
-            topicPending: false, zcTimeUsed: false
+            topicPending: false, zcTimeUsed: false,
+            // Rule 39: one frame per word read in THIS clause, holding the
+            // state from just before it. Wiped at every clause boundary, so
+            // repair can never cross one and the stack stays bounded.
+            repair: []
         }, opts || {});
+    }
+
+    function ctxSnapshot(c) {
+        const s = {};
+        CTX_SNAPSHOT_FIELDS.forEach(f => { s[f] = c[f]; });
+        return s;
+    }
+    function ctxRestore(c, snap) {
+        CTX_SNAPSHOT_FIELDS.forEach(f => { c[f] = snap[f]; });
+    }
+
+    // Rule 39: the utterance with every repair carried out — particles gone,
+    // erased words gone, anything voided by an utterance-initial `gix` dropped.
+    // Returns null when there was no repair to do.
+    function normalized(tokens) {
+        if (!tokens.some(t => t.kind === 'word' && t.root === REPAIR)) return null;
+        let out = [], pendingPunct = [];
+        tokens.forEach(t => {
+            if (t.kind === 'punct') { pendingPunct.push(t); return; }
+            if (t.root === REPAIR || t.erased || t.voided) {
+                if (t.voided) { out = []; pendingPunct = []; }
+                return;
+            }
+            pendingPunct.forEach(p => { if (out.length) out[out.length - 1] += p.raw; });
+            pendingPunct = [];
+            out.push(t.raw);
+        });
+        let text = out.join(' ');
+        pendingPunct.forEach(p => { if (out.length) text += p.raw; });
+        return text ? text[0].toUpperCase() + text.slice(1) : '';
     }
 
     function parseSentence(sentence) {
@@ -253,6 +304,8 @@
 
         const stack = [newCtx()];
         let pendingPrep = null, pendingGlue = null, pendingNeg = null, lastRoot = null;
+        let prevWord = null;            // last word read in this clause (Rule 39.5)
+        let utteranceInitial = true;    // no word read yet in this sentence (Rule 39.2)
         const ctx = () => stack[stack.length - 1];
         const fail = (tok, msg) => { errors.push(`[${tok ? tok.raw : '∅'}] ${msg}`); if (tok) tok.error = msg; };
         const openBrackets = () => stack.filter(c => c.openedAs).length + stack.filter(c => c.synPending).length;
@@ -262,6 +315,8 @@
             if (child.synPending) fail(tok, "conditional 'syn' was never resolved by can/pen (Rule 32)");
             if (child.topicPending) fail(tok, "topic marker 'zet' was never closed by can/pen (Rule 32.5)");
             const parent = ctx();
+            // Rule 39.3/39.4: repair may not reach back across `tel`.
+            parent.repair.length = 0;
             if (child.openedAs === 'complement' && parent.state === 'await_object') parent.state = 'await_time';
             if (child.openedAs === 'subject' && parent.state === 'fresh') parent.state = 'await_verb';  // Rule 30.8
         }
@@ -278,7 +333,8 @@
             if (c.topicPending) fail(tok, "topic marker 'zet' unresolved at a quoted-utterance boundary (Rule 32.5)");
             c.state = 'fresh'; c.tagsOk = true; c.question = false;
             c.passive = false; c.lastWall = null; c.zcTimeUsed = false;
-            pendingPrep = pendingGlue = pendingNeg = lastRoot = null;
+            c.repair.length = 0;   // Rule 39.3: utterance boundary
+            pendingPrep = pendingGlue = pendingNeg = lastRoot = prevWord = null;
         }
         function endSentence(tok) {
             if (pendingPrep) fail(pendingPrep, 'dangling preposition at sentence end — a bridge needs a target (Rule 13.2 / 30.7)');
@@ -288,7 +344,8 @@
             if (ctx().synPending) fail(tok, "conditional 'syn' was never resolved by can/pen (Rule 32)");
             if (ctx().topicPending) fail(tok, "topic marker 'zet' was never closed by can/pen (Rule 32.5)");
             stack.length = 0; stack.push(newCtx());
-            pendingPrep = pendingGlue = pendingNeg = lastRoot = null;
+            pendingPrep = pendingGlue = pendingNeg = lastRoot = prevWord = null;
+            utteranceInitial = true;   // Rule 39.2: next word opens a new utterance
         }
 
         let i = 0;
@@ -300,6 +357,53 @@
                 i++; continue;
             }
             const cat = t.cat;
+
+            // ---- Rule 39: spoken repair ----
+            // Handled before every other branch: `gix` is defined by what is
+            // BEHIND it, never by what follows, so no lookahead is ever needed.
+            if (cat === 'repair') {
+                if (utteranceInitial) {
+                    // 39.2 Utterance Void
+                    for (let k = 0; k < i; k++) if (tokens[k].kind === 'word') tokens[k].voided = true;
+                    t.voided = true;
+                    utteranceInitial = false;
+                    i++; continue;
+                }
+                if (prevWord && REPAIR_BLOCKED_AFTER.has(prevWord.cat)) {
+                    fail(t, `'${t.root}' cannot follow '${prevWord.raw}' — that word is still awaiting something to its right, so no completed word exists to erase (Rule 39.5)`);
+                    i++; continue;
+                }
+                if (prevWord && REPAIR_IMMUNE.has(prevWord.cat)) {
+                    fail(t, `'${prevWord.raw}' is structural and cannot be erased — end the utterance and open the next one with '${t.root}' instead (Rule 39.4)`);
+                    i++; continue;
+                }
+                if (!c.repair.length) {
+                    fail(t, `'${t.root}' has nothing to repair — no word has been read since the last clause boundary, and it is not utterance-initial (Rule 39.5)`);
+                    i++; continue;
+                }
+                // 39.1 Word Repair — pop one frame, restore the prior state.
+                const frame = c.repair.pop();
+                frame.tok.erased = true;
+                frame.tok.slot = null;
+                ctxRestore(c, frame.ctx);
+                pendingPrep = frame.pendingPrep; pendingGlue = frame.pendingGlue;
+                pendingNeg = frame.pendingNeg; lastRoot = frame.lastRoot;
+                prevWord = frame.prevWord;
+                i++; continue;
+            }
+
+            // Every other word gets a frame holding the state from just before
+            // it. Structural words are skipped (Rule 39.4) — with no frame they
+            // cannot be popped, and each already sits at a boundary that
+            // emptied the stack, so repair can never reach past them.
+            if (!REPAIR_IMMUNE.has(cat)) {
+                c.repair.push({
+                    ctx: ctxSnapshot(c), tok: t,
+                    pendingPrep, pendingGlue, pendingNeg, lastRoot, prevWord
+                });
+            }
+            prevWord = t;
+            utteranceInitial = false;
 
             // resolve pending preposition target
             if (pendingPrep) {
@@ -383,6 +487,7 @@
                 }
                 t.slot = resolved ? 'Then' : 'Wall';
                 c.state = 'fresh'; c.tagsOk = false; c.passive = false; c.lastWall = t.root; lastRoot = null;
+                c.repair.length = 0;   // Rule 39.3/39.4: a wall is a boundary
                 i++; continue;
             }
             if (cat === 'negation') {
@@ -511,7 +616,8 @@
         }
         if (!tokens.some(t => t.kind === 'punct' && '.!?'.includes(t.raw))) endSentence(tokens[tokens.length - 1] || null);
 
-        return { tokens, errors, valid: errors.length === 0 };
+        const repaired = normalized(tokens);
+        return { tokens, errors, valid: errors.length === 0, ...(repaired !== null && { repaired }) };
     }
 
     window.FiwoParser = { parseSentence, suffixMeaning, analyze: (w) => morph(w, true) };

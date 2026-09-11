@@ -46,11 +46,11 @@ const storyData = [
         "english": "I drank a hot tea."
       },
       {
-        "fiwo": "Mana mike hatzid.",
+        "fiwo": "Mana mike lofnid.",
         "english": "My mother smiled."
       },
       {
-        "fiwo": "Mik tsid zy ibazop.",
+        "fiwo": "Mik fwimid zy ibazop.",
         "english": "I left for the school."
       }
     ]
@@ -71,7 +71,7 @@ const storyData = [
         "english": "The sky was dark in the morning."
       },
       {
-        "fiwo": "Klazo je capei fe.",
+        "fiwo": "Mipko je capei fe.",
         "english": "The clouds are very black."
       },
       {
@@ -99,7 +99,7 @@ const storyData = [
         "english": "The ground was wet."
       },
       {
-        "fiwo": "Detap mike kurid.",
+        "fiwo": "Detap mike briwid.",
         "english": "My dog was afraid."
       },
       {
@@ -107,11 +107,11 @@ const storyData = [
         "english": "It hid under the table."
       },
       {
-        "fiwo": "Saza mike irakid.",
+        "fiwo": "Saza mike rehid.",
         "english": "My sister cried."
       },
       {
-        "fiwo": "Mik nes kurid.",
+        "fiwo": "Mik nes briwid.",
         "english": "I was not afraid."
       },
       {
@@ -119,7 +119,7 @@ const storyData = [
         "english": "The sun will be high tomorrow."
       },
       {
-        "fiwo": "Muk garis dury fohup.",
+        "fiwo": "Muk nedcis dury fohup.",
         "english": "We will play during the afternoon."
       }
     ]
@@ -136,7 +136,7 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Mik jedi detar lande.",
+        "fiwo": "Mik jedi detar nifne.",
         "english": "I have a small dog."
       },
       {
@@ -176,7 +176,7 @@ const storyData = [
         "english": "The dog caught it."
       },
       {
-        "fiwo": "Muk garid gomu dewe.",
+        "fiwo": "Muk nedcid gomu kage.",
         "english": "We played for two hours."
       },
       {
@@ -298,7 +298,7 @@ const storyData = [
         "english": "He said: \"The bread is here. It is fresh today.\""
       },
       {
-        "fiwo": "Mik kupid tep Kup melfup wug?",
+        "fiwo": "Mik slezid tep Kup melfup wug?",
         "english": "I asked: \"How much is the price?\""
       },
       {
@@ -310,11 +310,11 @@ const storyData = [
         "english": "Honestly, I thought that this is very expensive."
       },
       {
-        "fiwo": "Mik gesid tep Fos xivei. Kup suk jedi bryklor puve?",
+        "fiwo": "Mik gesid tep Fos xivei. Kup suk jedi bryklor spoce?",
         "english": "I said: \"That is expensive. Do you have a cheaper bread?\""
       },
       {
-        "fiwo": "Gidafiap hatzid bef daq stomid bryklor otre zy mik.",
+        "fiwo": "Gidafiap lofnid bef daq stomid bryklor otre zy mik.",
         "english": "The shopkeeper smiled and he handed me a different loaf."
       },
       {
@@ -326,7 +326,7 @@ const storyData = [
         "english": "I agreed."
       },
       {
-        "fiwo": "Mik kupid tep Kup suk jedi lamsor?",
+        "fiwo": "Mik slezid tep Kup suk jedi lamsor?",
         "english": "I asked: \"Do you have milk?\""
       },
       {
@@ -334,7 +334,7 @@ const storyData = [
         "english": "He pointed to the cold cabinet."
       },
       {
-        "fiwo": "Mik stelid lamsop bef mik pagarid gidu dewe.",
+        "fiwo": "Mik stelid lamsop bef mik pagarid gidu kage.",
         "english": "I took the milk and I paid two coins."
       },
       {
@@ -342,7 +342,7 @@ const storyData = [
         "english": "In fact, the price was fair."
       },
       {
-        "fiwo": "Gidafiap gesid tep Tox. Kop suk pli romve.",
+        "fiwo": "Gidafiap gesid tep Tox. Kop suk breni romve.",
         "english": "The shopkeeper said: \"Cheers. Come again.\""
       },
       {
@@ -354,7 +354,7 @@ const storyData = [
         "english": "I went out and I walked home."
       },
       {
-        "fiwo": "Mana mike kupid tep Kup suk karxid bryklor?",
+        "fiwo": "Mana mike slezid tep Kup suk karxid bryklor?",
         "english": "My mother asked: \"Did you find bread?\""
       },
       {
@@ -362,7 +362,7 @@ const storyData = [
         "english": "I answered: \"Yes. I found bread and milk.\""
       },
       {
-        "fiwo": "Das hatzid bef das gesid tep Suk nofar gawe.",
+        "fiwo": "Das lofnid bef das gesid tep Suk nofar gawe.",
         "english": "She smiled and she said: \"You are a good person.\""
       },
       {
@@ -376,7 +376,7 @@ const storyData = [
     ]
   },
   {
-    "title": "Ibalirap lan rodleup (The Teacher and the Truth)",
+    "title": "Ibalirap lan triveup (The Teacher and the Truth)",
     "wordCount": 172,
     "grade": {
       "band": "starter",
@@ -391,7 +391,7 @@ const storyData = [
         "english": "A young man walked up to the old man who sat beside the river."
       },
       {
-        "fiwo": "Daq kupid tep Kup rodleu? Kup Moda? Mik koci kaniur.",
+        "fiwo": "Daq slezid tep Kup triveu? Kup Joza? Mik vepi kaniur.",
         "english": "He asked: “What is truth? What is God? I need knowledge.”"
       },
       {
@@ -399,23 +399,23 @@ const storyData = [
         "english": "The old man did not answer at once."
       },
       {
-        "fiwo": "Daq nojapid noja je my nofap hobe.",
+        "fiwo": "Daq tsejapid tseja je my nofap hobe.",
         "english": "He looked into the young man’s eyes."
       },
       {
-        "fiwo": "Foly gomu ulime daq gesid tep Suk kupid kupiur tandem fe.",
+        "fiwo": "Foly gomu ulime daq gesid tep Suk slezid sleziur tandem fe.",
         "english": "After half an hour he said: “You have asked a very large question.”"
       },
       {
-        "fiwo": "Daq gesid tep Kaniup fikor tep nes jedi fefur tel.",
+        "fiwo": "Daq gesid tep Kaniup tivwor tep nes jedi fefur tel.",
         "english": "He said: “Knowledge is a road that has no end.”"
       },
       {
-        "fiwo": "Daq gesid tep Syn suk hici ruze can suk nes nojapis fikop.",
+        "fiwo": "Daq gesid tep Syn suk hici ruze can suk nes tsejapis tivwop.",
         "english": "He said: “If you walk fast, then you will not see the road.”"
       },
       {
-        "fiwo": "Daq gesid tep Kop suk hici roase.",
+        "fiwo": "Daq gesid tep Kop suk hici fwike.",
         "english": "He said: “Walk slowly.”"
       },
       {
@@ -423,7 +423,7 @@ const storyData = [
         "english": "The old man stood and he pointed at a tree, the sky and a stone."
       },
       {
-        "fiwo": "Daq gesid tep Modap ceni deky cemu late.",
+        "fiwo": "Daq gesid tep Jozap ceni deky cemu late.",
         "english": "He said: “God lives inside everything.”"
       },
       {
@@ -431,11 +431,11 @@ const storyData = [
         "english": "He said: “He lives inside the tree, and he lives inside you.”"
       },
       {
-        "fiwo": "Nofap hobe kupid tep Kup rodleup gor?",
+        "fiwo": "Nofap hobe slezid tep Kup triveup gor?",
         "english": "The young man asked: “Is truth a word?”"
       },
       {
-        "fiwo": "Nofap waske hadid tep Nes. Rodleup epiwur.",
+        "fiwo": "Nofap waske hadid tep Nes. Triveup mipfur.",
         "english": "The old man answered: “No. Truth is an act.”"
       },
       {
@@ -451,7 +451,7 @@ const storyData = [
         "english": "He said: “Love all people.”"
       },
       {
-        "fiwo": "Daq gesid tep Syn suk xyfi cemu je sile can suk kanis rodleup.",
+        "fiwo": "Daq gesid tep Syn suk xyfi cemu je sile can suk kanis triveup.",
         "english": "He said: “If you do these things, then you will know the truth.”"
       },
       {
@@ -480,7 +480,7 @@ const storyData = [
         "english": "I had lived in the village for many years."
       },
       {
-        "fiwo": "Mik nes nojapidyk stalo je jedle.",
+        "fiwo": "Mik nes tsejapidyk stalo je jedle.",
         "english": "I had not seen many stars."
       },
       {
@@ -492,7 +492,7 @@ const storyData = [
         "english": "We started walking during the afternoon."
       },
       {
-        "fiwo": "Fikop zavei fe bul ram lomei.",
+        "fiwo": "Tivwop zavei fe bul ram cenlei.",
         "english": "The path is very steep, but it is narrow."
       },
       {
@@ -500,7 +500,7 @@ const storyData = [
         "english": "We had been walking for three hours."
       },
       {
-        "fiwo": "Fevop sowidyq vel muk ovamid ky hupup my montop.",
+        "fiwo": "Fevop sowidyq vel muk jalsid ky hupup my montop.",
         "english": "The sun was going down as we reached the middle of the mountain."
       },
       {
@@ -508,7 +508,7 @@ const storyData = [
         "english": "The sky turned red and then it turned black."
       },
       {
-        "fiwo": "Sop mik nojapid stalo je drabe.",
+        "fiwo": "Sop mik tsejapid stalo je drabe.",
         "english": "With my own eyes I saw a hundred stars."
       },
       {
@@ -520,7 +520,7 @@ const storyData = [
         "english": "My father said: \"The old people used to talk about the stars.\""
       },
       {
-        "fiwo": "Mik kupid tep Kup stalo je wug zovi?",
+        "fiwo": "Mik slezid tep Kup stalo je wug zovi?",
         "english": "I asked: \"How many stars are there?\""
       },
       {
@@ -544,7 +544,7 @@ const storyData = [
         "english": "My father had forgotten our torch."
       },
       {
-        "fiwo": "Vax muk nes kurid.",
+        "fiwo": "Vax muk nes briwid.",
         "english": "Even so, we were not afraid."
       },
       {
@@ -556,7 +556,7 @@ const storyData = [
         "english": "I was thinking about the universe."
       },
       {
-        "fiwo": "Mik erfid tep mik landei fe.",
+        "fiwo": "Mik erfid tep mik nifnei fe.",
         "english": "I understood that I am very small."
       },
       {
@@ -564,7 +564,7 @@ const storyData = [
         "english": "Meanwhile my mother was sleeping inside the house."
       },
       {
-        "fiwo": "Muk nojapid grexor tep xalidyq acry bysop.",
+        "fiwo": "Muk tsejapid grexor tep xalidyq acry bysop.",
         "english": "We watched a heavenly body that was moving across the sky."
       },
       {
@@ -572,7 +572,7 @@ const storyData = [
         "english": "My father said: \"That is a satellite.\""
       },
       {
-        "fiwo": "Muk hatzid nafike.",
+        "fiwo": "Muk lofnid nafike.",
         "english": "We laughed together."
       },
       {
@@ -584,7 +584,7 @@ const storyData = [
         "english": "We were walking back to the village at dawn."
       },
       {
-        "fiwo": "Mik usid dury fikop.",
+        "fiwo": "Mik usid dury tivwop.",
         "english": "I slept along the way."
       },
       {
@@ -592,7 +592,7 @@ const storyData = [
         "english": "My mother was waiting by the door."
       },
       {
-        "fiwo": "Das kupid tep Kup suk je nojapid stalo je?",
+        "fiwo": "Das slezid tep Kup suk je tsejapid stalo je?",
         "english": "She asked: \"Did you two see the stars?\""
       },
       {
@@ -621,7 +621,7 @@ const storyData = [
         "english": "His name is Sam."
       },
       {
-        "fiwo": "Daq nacidyk deky krulop lande jaru jedle.",
+        "fiwo": "Daq nacidyk deky krulop nifne jaru jedle.",
         "english": "He had worked in a small room for many years."
       },
       {
@@ -637,7 +637,7 @@ const storyData = [
         "english": "That rule said: \"Sentences must have exactly one meaning.\""
       },
       {
-        "fiwo": "Nofa je hatzid daq.",
+        "fiwo": "Nofa je lofnid daq.",
         "english": "People laughed at him."
       },
       {
@@ -653,11 +653,11 @@ const storyData = [
         "english": "He made a new word every day."
       },
       {
-        "fiwo": "Daq jamid panor tande.",
+        "fiwo": "Daq jamid nibor tande.",
         "english": "He wrote a large book."
       },
       {
-        "fiwo": "Panop jedid gasublo je drabe.",
+        "fiwo": "Nibop jedid gasublo je drabe.",
         "english": "The book had a hundred pages."
       },
       {
@@ -677,7 +677,7 @@ const storyData = [
         "english": "The people of the village listened."
       },
       {
-        "fiwo": "Cadar kupid tep Kup fos?",
+        "fiwo": "Cadar slezid tep Kup fos?",
         "english": "A child asked: \"What is that?\""
       },
       {
@@ -685,7 +685,7 @@ const storyData = [
         "english": "Sam answered: \"This is my language.\""
       },
       {
-        "fiwo": "Cadap kupid tep Kup mik ibagi ram?",
+        "fiwo": "Cadap slezid tep Kup mik keci ram?",
         "english": "The child asked: \"Can I learn it?\""
       },
       {
@@ -697,7 +697,7 @@ const storyData = [
         "english": "He began to teach the child."
       },
       {
-        "fiwo": "Cadap ibagid ruze.",
+        "fiwo": "Cadap kecid ruze.",
         "english": "The child learned fast."
       },
       {
@@ -705,7 +705,7 @@ const storyData = [
         "english": "Within a few weeks the child spoke it well."
       },
       {
-        "fiwo": "Cada je otre plid zy krulop my Sam.",
+        "fiwo": "Cada je otre brenid zy krulop my Sam.",
         "english": "Other children came to Sam's room."
       },
       {
@@ -721,7 +721,7 @@ const storyData = [
         "english": "The old people rejected it."
       },
       {
-        "fiwo": "Dal je gesid tep Fiwop keqe muke fafei jete.",
+        "fiwo": "Dal je gesid tep Fiwop keqe muke jorei jete.",
         "english": "They said: \"Our mother tongue matters more.\""
       },
       {
@@ -729,7 +729,7 @@ const storyData = [
         "english": "Sam answered: \"I do not want you to forget your mother tongue.\""
       },
       {
-        "fiwo": "Daq gesid tep Fiwo je dewe lugei zovit nafike.",
+        "fiwo": "Daq gesid tep Fiwo je kage lugei zovit nafike.",
         "english": "He said: \"Two languages can live side by side.\""
       },
       {
@@ -745,11 +745,11 @@ const storyData = [
         "english": "Sam grew old."
       },
       {
-        "fiwo": "Fuka je daqe ufdid bul godup daqe xareid haibe.",
+        "fiwo": "Wusa je daqe ufdid bul pjabup daqe xareid haibe.",
         "english": "His hands shook, but his mind was still clear."
       },
       {
-        "fiwo": "Daq jamid panor fefue.",
+        "fiwo": "Daq jamid nibor fefue.",
         "english": "He wrote a last book."
       },
       {
@@ -761,7 +761,7 @@ const storyData = [
         "english": "Sam died during the winter."
       },
       {
-        "fiwo": "Nofa je my cysmop keane plid.",
+        "fiwo": "Nofa je my cysmop keane brenid.",
         "english": "The people of the whole village came."
       },
       {
@@ -769,7 +769,7 @@ const storyData = [
         "english": "They sang his songs."
       },
       {
-        "fiwo": "Cadap tep ibagidyk fiwop usy bime tel gugid nizy nofa je.",
+        "fiwo": "Cadap tep kecidyk fiwop usy bime tel gugid nizy nofa je.",
         "english": "The child who had learned the language first stood before the people."
       },
       {
@@ -777,15 +777,15 @@ const storyData = [
         "english": "He said: \"Sam is not dead. His language is still alive.\""
       },
       {
-        "fiwo": "Nofa je hatzid bef nofa je irakid.",
+        "fiwo": "Nofa je lofnid bef nofa je rehid.",
         "english": "People laughed and people wept."
       },
       {
-        "fiwo": "Daq jamid panor otre dury fiturup.",
+        "fiwo": "Daq jamid nibor otre dury fiturup.",
         "english": "He wrote another book in the years that followed."
       },
       {
-        "fiwo": "Panop fose kritrid cada je jedle.",
+        "fiwo": "Nibop fose kritrid cada je jedle.",
         "english": "That book taught many children."
       },
       {
@@ -834,11 +834,11 @@ const storyData = [
         "english": "The weather grew hotter every day."
       },
       {
-        "fiwo": "Tandorsop rizid bef ram zemid juro je jedle.",
+        "fiwo": "Tubsop rizid bef ram zemid juro je jedle.",
         "english": "The sea rose and it covered many cities."
       },
       {
-        "fiwo": "Nofa je jedle tsid fy cyxo je.",
+        "fiwo": "Nofa je jedle fwimid fy cyxo je.",
         "english": "Many people fled from the coasts."
       },
       {
@@ -878,11 +878,11 @@ const storyData = [
         "english": "She had known the world before the war."
       },
       {
-        "fiwo": "Das jedid pano je egmabe deky levidzop.",
+        "fiwo": "Das jedid nibo je egmabe deky levidzop.",
         "english": "She kept a thousand books inside a cave."
       },
       {
-        "fiwo": "Pano je fose kaniu late my nofa je.",
+        "fiwo": "Nibo je fose kaniu late my nofa je.",
         "english": "Those books hold all the knowledge of people."
       },
       {
@@ -894,7 +894,7 @@ const storyData = [
         "english": "She said: \"You must read.\""
       },
       {
-        "fiwo": "Cadar kupid tep Kup muk loki kad wal?",
+        "fiwo": "Cadar slezid tep Kup muk loki kad wal?",
         "english": "A child asked: \"Why do we read?\""
       },
       {
@@ -910,7 +910,7 @@ const storyData = [
         "english": "The weeks passed and they began to read."
       },
       {
-        "fiwo": "Caslar lokid pano je jedle.",
+        "fiwo": "Caslar lokid nibo je jedle.",
         "english": "A girl read many books."
       },
       {
@@ -918,7 +918,7 @@ const storyData = [
         "english": "Her name is Nia."
       },
       {
-        "fiwo": "Das kupid gomu byceve.",
+        "fiwo": "Das slezid gomu byceve.",
         "english": "She asked questions every hour."
       },
       {
@@ -926,15 +926,15 @@ const storyData = [
         "english": "Uma was glad."
       },
       {
-        "fiwo": "Nia kupid tep Kup nofa je pary muk cenid wis?",
+        "fiwo": "Nia slezid tep Kup nofa je pary muk cenid wis?",
         "english": "Nia asked: \"How did the people before us live?\""
       },
       {
-        "fiwo": "Uma hadid tep Dal je cenid deky juro je tande. Dal je jedid gejedop lan abeco je.",
+        "fiwo": "Uma hadid tep Dal je cenid deky juro je tande. Dal je jedid gejedop lan foro je.",
         "english": "Uma answered: \"They lived in great cities. They had electricity and aeroplanes.\""
       },
       {
-        "fiwo": "Nia kupid tep Kup dal je kypeid?",
+        "fiwo": "Nia slezid tep Kup dal je kypeid?",
         "english": "Nia asked: \"Were they happy?\""
       },
       {
@@ -950,7 +950,7 @@ const storyData = [
         "english": "Nia wrote words down on paper."
       },
       {
-        "fiwo": "Tusup ovamid bef bata je vomeid.",
+        "fiwo": "Tusup jalsid bef bata je vomeid.",
         "english": "Winter came and the food ran short."
       },
       {
@@ -970,11 +970,11 @@ const storyData = [
         "english": "One man died during the night."
       },
       {
-        "fiwo": "Nia irakid.",
+        "fiwo": "Nia rehid.",
         "english": "Nia cried."
       },
       {
-        "fiwo": "Uma gesid tep Muk nes lugei sejit kimup.",
+        "fiwo": "Uma gesid tep Muk nes lugei sejit spuvup.",
         "english": "Uma said: \"We cannot stop death.\""
       },
       {
@@ -990,7 +990,7 @@ const storyData = [
         "english": "Nia became a woman."
       },
       {
-        "fiwo": "Das kanid pano je late.",
+        "fiwo": "Das kanid nibo je late.",
         "english": "She knew all the books."
       },
       {
@@ -1018,19 +1018,19 @@ const storyData = [
         "english": "Nia refused to hear it."
       },
       {
-        "fiwo": "Uma hatzid bef das sigid fukap dase.",
+        "fiwo": "Uma lofnid bef das sigid wusap dase.",
         "english": "Uma laughed and she held her hand."
       },
       {
-        "fiwo": "Das gesid tep Suk fuqe jamit panor jaxke.",
+        "fiwo": "Das gesid tep Suk fuqe jamit nibor jaxke.",
         "english": "She said: \"You must write a new book.\""
       },
       {
-        "fiwo": "Nia kupid tep Kup mik jami wat?",
+        "fiwo": "Nia slezid tep Kup mik jami wat?",
         "english": "Nia asked: \"What should I write?\""
       },
       {
-        "fiwo": "Uma hadid tep Suk fuqe jamit epiwu je muke.",
+        "fiwo": "Uma hadid tep Suk fuqe jamit mipfu je muke.",
         "english": "Uma answered: \"You must write down the things we did.\""
       },
       {
@@ -1046,7 +1046,7 @@ const storyData = [
         "english": "The group laid her body in the ground."
       },
       {
-        "fiwo": "Nia jamid panor jaxke jaru byceve.",
+        "fiwo": "Nia jamid nibor jaxke jaru byceve.",
         "english": "Nia wrote a new book every year."
       },
       {
@@ -1074,15 +1074,15 @@ const storyData = [
         "english": "Nia taught the old language to all the children."
       },
       {
-        "fiwo": "Cadar kupid tep Kup fiwop sile keqei?",
+        "fiwo": "Cadar slezid tep Kup fiwop sile keqei?",
         "english": "A child asked: \"Is this language our mother tongue?\""
       },
       {
-        "fiwo": "Nia hadid tep Nes. Ram ovamid fy nofa je pary muk.",
+        "fiwo": "Nia hadid tep Nes. Ram jalsid fy nofa je pary muk.",
         "english": "Nia answered: \"No. It came from the people before us.\""
       },
       {
-        "fiwo": "Cadap kupid tep Kup muk sapi fiwor muke?",
+        "fiwo": "Cadap slezid tep Kup muk sapi fiwor muke?",
         "english": "The child asked: \"Could we make a language of our own?\""
       },
       {
@@ -1098,7 +1098,7 @@ const storyData = [
         "english": "They began to make new words."
       },
       {
-        "fiwo": "Go je sile landei bef ram je kabcei.",
+        "fiwo": "Go je sile nifnei bef ram je kabcei.",
         "english": "These words are short and they are simple."
       },
       {
@@ -1114,7 +1114,7 @@ const storyData = [
         "english": "The rule said: \"A person must be able to understand another person.\""
       },
       {
-        "fiwo": "Cada je ibagid ruze.",
+        "fiwo": "Cada je kecid ruze.",
         "english": "The children learned fast."
       },
       {
@@ -1122,11 +1122,11 @@ const storyData = [
         "english": "The weeks passed and the whole village spoke the new language."
       },
       {
-        "fiwo": "Nofa je waske nes erfid ram bul dal je hatzid.",
+        "fiwo": "Nofa je waske nes erfid ram bul dal je lofnid.",
         "english": "The old people did not understand it, but they laughed."
       },
       {
-        "fiwo": "Nia kupid tep Kup suk je kypei?",
+        "fiwo": "Nia slezid tep Kup suk je kypei?",
         "english": "Nia asked: \"Are you all happy?\""
       },
       {
@@ -1138,11 +1138,11 @@ const storyData = [
         "english": "Other villages heard about the language."
       },
       {
-        "fiwo": "Nofa je ovamid fy woru je felpe.",
+        "fiwo": "Nofa je jalsid fy woru je felpe.",
         "english": "People came from different regions."
       },
       {
-        "fiwo": "Dal je ibagid fiwop.",
+        "fiwo": "Dal je kecid fiwop.",
         "english": "They learned the language."
       },
       {
@@ -1158,7 +1158,7 @@ const storyData = [
         "english": "She sat beside the river every day."
       },
       {
-        "fiwo": "Cadar my cada je dase kupid tep Kup suk sapid fiwop?",
+        "fiwo": "Cadar my cada je dase slezid tep Kup suk sapid fiwop?",
         "english": "A grandchild of hers asked: \"Did you make the language?\""
       },
       {
@@ -1170,11 +1170,11 @@ const storyData = [
         "english": "She said: \"A language is not a thing owned by any person.\""
       },
       {
-        "fiwo": "Das gesid tep Ram xali fy godu zy godu.",
+        "fiwo": "Das gesid tep Ram xali fy pjabu zy pjabu.",
         "english": "She said: \"It travels from mind to mind.\""
       },
       {
-        "fiwo": "Nia jamid gop fefue deky panop dase.",
+        "fiwo": "Nia jamid gop fefue deky nibop dase.",
         "english": "Nia wrote a last word inside her book."
       },
       {
@@ -1186,7 +1186,7 @@ const storyData = [
         "english": "She died during the spring."
       },
       {
-        "fiwo": "Cada je lokid panop dase igy jaru.",
+        "fiwo": "Cada je lokid nibop dase igy jaru.",
         "english": "The children read her book once a year."
       },
       {
@@ -1239,7 +1239,7 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Janongop lande zovid ky fefup my caenop.",
+        "fiwo": "Janongop nifne zovid ky fefup my caenop.",
         "english": "The small clinic stood at the end of the street."
       },
       {
@@ -1247,7 +1247,7 @@ const storyData = [
         "english": "It was not a hospital."
       },
       {
-        "fiwo": "Ram jedid krulo dewe bef hoxor bime.",
+        "fiwo": "Ram jedid krulo kage bef hoxor bime.",
         "english": "It had two rooms and one door."
       },
       {
@@ -1259,7 +1259,7 @@ const storyData = [
         "english": "His name is Vesku."
       },
       {
-        "fiwo": "Daq jedid jaru je retet nozet.",
+        "fiwo": "Daq jedid jaru je pruret nozet.",
         "english": "He was seventy years old."
       },
       {
@@ -1279,7 +1279,7 @@ const storyData = [
         "english": "Vesku did not sit."
       },
       {
-        "fiwo": "Daq gugid hemy hoxop piny nofar tep tsis strene.",
+        "fiwo": "Daq gugid hemy hoxop piny nofar tep fwimis strene.",
         "english": "He stood near the door like a person who will leave soon."
       },
       {
@@ -1295,7 +1295,7 @@ const storyData = [
         "english": "However, he sat down after a moment."
       },
       {
-        "fiwo": "Daq gesid tep Mik plid kad suk kupid mik. Mik nes plid cagy mik wible.",
+        "fiwo": "Daq gesid tep Mik brenid kad suk slezid mik. Mik nes brenid cagy mik wible.",
         "english": "He said: \"I came because you asked me. I did not come for myself.\""
       },
       {
@@ -1307,11 +1307,11 @@ const storyData = [
         "english": "Vesku looked around the room and said: \"What does an hour of this cost?\""
       },
       {
-        "fiwo": "Das gesid tep Fos nes keamup.",
+        "fiwo": "Das gesid tep Fos nes lutup.",
         "english": "She said: \"That is not the point.\""
       },
       {
-        "fiwo": "Daq gesid tep Ram keamup ovce.",
+        "fiwo": "Daq gesid tep Ram lutup ovce.",
         "english": "He said: \"It is always the point.\""
       },
       {
@@ -1323,23 +1323,23 @@ const storyData = [
         "english": "Her name is Radna."
       },
       {
-        "fiwo": "Das gesid tep Jo Vesku. Kop pli deky krulop.",
+        "fiwo": "Das gesid tep Jo Vesku. Kop breni deky krulop.",
         "english": "She said: \"Vesku. Come into the room.\""
       },
       {
-        "fiwo": "Vesku rizid roasem fe.",
+        "fiwo": "Vesku rizid fwikem fe.",
         "english": "Vesku got up very slowly."
       },
       {
-        "fiwo": "Olma nojaid tep daq sigid doralap daqe wy fukap bime.",
+        "fiwo": "Olma tsejaid tep daq sigid doralap daqe wy wusap bime.",
         "english": "Olma saw that he held his back with one hand."
       },
       {
-        "fiwo": "Daq nes kanid tep das nojaid ram.",
+        "fiwo": "Daq nes kanid tep das tsejaid ram.",
         "english": "He did not know that she saw it."
       },
       {
-        "fiwo": "Deky krulop dewe Radna gesid tep Sal. Kop suv neki.",
+        "fiwo": "Deky krulop kage Radna gesid tep Sal. Kop suv neki.",
         "english": "In the second room Radna said: \"Hello. Please sit.\""
       },
       {
@@ -1351,11 +1351,11 @@ const storyData = [
         "english": "Vesku said: \"You are a young doctor.\""
       },
       {
-        "fiwo": "Radna hatzid bef das gesid tep Jas. Fos rodleup.",
+        "fiwo": "Radna lofnid bef das gesid tep Jas. Fos triveup.",
         "english": "Radna smiled and said: \"Yes. That is true.\""
       },
       {
-        "fiwo": "Das kupid tep Kup suv paulid wis dury retadup rivahe?",
+        "fiwo": "Das slezid tep Kup suv paulid wis dury retadup rivahe?",
         "english": "She asked: \"How have you felt this past week?\""
       },
       {
@@ -1375,7 +1375,7 @@ const storyData = [
         "english": "Vesku said: \"I am a little tired. When people are old, they are tired.\""
       },
       {
-        "fiwo": "Radna kupid tep Kup suv nomi batap wug dury dup?",
+        "fiwo": "Radna slezid tep Kup suv nomi batap wug dury dup?",
         "english": "Radna asked: \"How much food do you eat in a day?\""
       },
       {
@@ -1391,7 +1391,7 @@ const storyData = [
         "english": "Vesku looked at his daughter."
       },
       {
-        "fiwo": "Radna kupid tep Kup suv hudywi?",
+        "fiwo": "Radna slezid tep Kup suv hudywi?",
         "english": "Radna asked: \"Do you cough?\""
       },
       {
@@ -1407,7 +1407,7 @@ const storyData = [
         "english": "Vesku said nothing."
       },
       {
-        "fiwo": "Radna jamid gor deky panop dase.",
+        "fiwo": "Radna jamid gor deky nibop dase.",
         "english": "Radna wrote a word in her book."
       },
       {
@@ -1423,7 +1423,7 @@ const storyData = [
         "english": "She counted his pulse."
       },
       {
-        "fiwo": "Das kokidid noja je daqe bef fuka je daqe.",
+        "fiwo": "Das kokidid tseja je daqe bef wusa je daqe.",
         "english": "She examined his eyes and his hands."
       },
       {
@@ -1431,11 +1431,11 @@ const storyData = [
         "english": "Vesku said nothing the whole time."
       },
       {
-        "fiwo": "Radna gesid tep Sop soxap suve wazeid jete taly jarup rivahe.",
+        "fiwo": "Radna gesid tep Sop soxap suve paxeid jete taly jarup rivahe.",
         "english": "Radna said: \"I can see it: your body is weaker than last year.\""
       },
       {
-        "fiwo": "Das gesid tep Sop suv wafrid juceup.",
+        "fiwo": "Das gesid tep Sop suv wafrid twaveup.",
         "english": "She said: \"I can see it: you have lost weight.\""
       },
       {
@@ -1447,11 +1447,11 @@ const storyData = [
         "english": "Radna said: \"By inference, that is not the whole reason.\""
       },
       {
-        "fiwo": "Das gesid tep Mik nes kani nu. Kof fos rodleup.",
+        "fiwo": "Das gesid tep Mik nes kani nu. Kof fos triveup.",
         "english": "She said: \"I do not know yet. And that too is the truth.\""
       },
       {
-        "fiwo": "Olma kupid tep Kup ram otmar ratse?",
+        "fiwo": "Olma slezid tep Kup ram otmar ratse?",
         "english": "Olma asked: \"Is it a dangerous disease?\""
       },
       {
@@ -1459,11 +1459,11 @@ const storyData = [
         "english": "Radna answered: \"I cannot say that yet.\""
       },
       {
-        "fiwo": "Das gesid tep Mik nojaid mixupru je tafe. Mik nes jedi cacodur.",
+        "fiwo": "Das gesid tep Mik tsejaid mixupru je tafe. Mik nes jedi cacodur.",
         "english": "She said: \"I have seen three symptoms. I do not have a diagnosis.\""
       },
       {
-        "fiwo": "Das gesid tep Nop mik koci bojap suve.",
+        "fiwo": "Das gesid tep Nop mik vepi bojap suve.",
         "english": "She said: \"By inference, I need your blood.\""
       },
       {
@@ -1503,15 +1503,15 @@ const storyData = [
         "english": "In that moment Olma understood something."
       },
       {
-        "fiwo": "Pebap dase nes kurid otmap.",
+        "fiwo": "Pebap dase nes briwid otmap.",
         "english": "Her father was not afraid of the disease."
       },
       {
-        "fiwo": "Daq kurid gop otre.",
+        "fiwo": "Daq briwid gop otre.",
         "english": "He was afraid of another word."
       },
       {
-        "fiwo": "Zet folkunup daqe can fos keamup keane.",
+        "fiwo": "Zet folkunup daqe can fos lutup keane.",
         "english": "As for his standing, that was the whole point."
       },
       {
@@ -1527,7 +1527,7 @@ const storyData = [
         "english": "Olma said: \"Father. I understand now.\""
       },
       {
-        "fiwo": "Vesku nes sufid.",
+        "fiwo": "Vesku nes purkid.",
         "english": "Vesku did not turn around."
       },
       {
@@ -1535,7 +1535,7 @@ const storyData = [
         "english": "He said: \"Who will care for your mother if I am ill?\""
       },
       {
-        "fiwo": "Fos nyhogop rodle usy bime dury dionup keane.",
+        "fiwo": "Fos nyhogop trive usy bime dury dionup keane.",
         "english": "That was the first true sentence of the whole hour."
       },
       {
@@ -1547,19 +1547,19 @@ const storyData = [
         "english": "She waited again."
       },
       {
-        "fiwo": "Peze das gesid tep Jo Vesku. Mik nes kupi tep suv sejis nacit.",
+        "fiwo": "Peze das gesid tep Jo Vesku. Mik nes slezi tep suv sejis nacit.",
         "english": "Then she said: \"Vesku. I am not asking you to stop working.\""
       },
       {
-        "fiwo": "Das gesid tep Mik kupi cemup boke jete.",
+        "fiwo": "Das gesid tep Mik slezi cemup boke jete.",
         "english": "She said: \"I am asking for something worse.\""
       },
       {
-        "fiwo": "Vesku sufid.",
+        "fiwo": "Vesku purkid.",
         "english": "Vesku turned around."
       },
       {
-        "fiwo": "Radna gesid tep Syn nofar zanki otmap can otmap nes tsi. Ram mori.",
+        "fiwo": "Radna gesid tep Syn nofar zanki otmap can otmap nes fwimi. Ram mori.",
         "english": "Radna said: \"If a person hides an illness, the illness does not leave. It grows.\""
       },
       {
@@ -1575,7 +1575,7 @@ const storyData = [
         "english": "She said: \"Your duty is not the hiding. It is the treating.\""
       },
       {
-        "fiwo": "Vesku nes gesid dury tequr joze.",
+        "fiwo": "Vesku nes gesid dury tequr dwime.",
         "english": "Vesku said nothing for a long moment."
       },
       {
@@ -1587,7 +1587,7 @@ const storyData = [
         "english": "He said: \"You are clever.\""
       },
       {
-        "fiwo": "Radna gesid tep Nes. Mik nojaid nofa je jedle tep gesid fos labne.",
+        "fiwo": "Radna gesid tep Nes. Mik tsejaid nofa je jedle tep gesid fos labne.",
         "english": "Radna said: \"No. I have seen many people who said the same thing.\""
       },
       {
@@ -1599,7 +1599,7 @@ const storyData = [
         "english": "He said: \"But I have one condition.\""
       },
       {
-        "fiwo": "Radna kupid tep Kup synarup suve?",
+        "fiwo": "Radna slezid tep Kup synarup suve?",
         "english": "Radna asked: \"What is your condition?\""
       },
       {
@@ -1619,7 +1619,7 @@ const storyData = [
         "english": "She did not add a word."
       },
       {
-        "fiwo": "Olma pozid tep fos zuwup gawem jeme.",
+        "fiwo": "Olma pozid tep fos zuwup gawem merne.",
         "english": "Olma thought that this was the best way."
       },
       {
@@ -1639,11 +1639,11 @@ const storyData = [
         "english": "Radna wrote a prescription and gave it to him."
       },
       {
-        "fiwo": "Das gesid tep Kop suv stelis nasbop sile igy dewe dury du late.",
+        "fiwo": "Das gesid tep Kop suv stelis nasbop sile igy kage dury du late.",
         "english": "She said: \"Take this medicine twice a day.\""
       },
       {
-        "fiwo": "Das gesid tep Isamu je my bojap plis dury du je raje.",
+        "fiwo": "Das gesid tep Isamu je my bojap brenis dury du je raje.",
         "english": "She said: \"The blood results will come in five days.\""
       },
       {
@@ -1651,7 +1651,7 @@ const storyData = [
         "english": "She said: \"I will call you on the telephone.\""
       },
       {
-        "fiwo": "Vesku gugid bef daq stomid fukap daqe zy Radna.",
+        "fiwo": "Vesku gugid bef daq stomid wusap daqe zy Radna.",
         "english": "Vesku stood and gave his hand to Radna."
       },
       {
@@ -1667,7 +1667,7 @@ const storyData = [
         "english": "She said: \"Many people say it. Few come back.\""
       },
       {
-        "fiwo": "Nofa dewe gefrid deky caenop.",
+        "fiwo": "Nofa kage gefrid deky caenop.",
         "english": "The two of them went out into the street."
       },
       {
@@ -1703,11 +1703,11 @@ const storyData = [
         "english": "He walked for a moment and then said: \"Thank you.\""
       },
       {
-        "fiwo": "Das nes upycid daq kad das nes fabid tep daq nojais zipap dase.",
+        "fiwo": "Das nes upycid daq kad das nes fabid tep daq tsejais zipap dase.",
         "english": "She did not look at him, because she did not want him to see her face."
       },
       {
-        "fiwo": "Nofa dewe hicid zy sydop.",
+        "fiwo": "Nofa kage hicid zy sydop.",
         "english": "The two of them walked home."
       },
       {
@@ -1731,11 +1731,11 @@ const storyData = [
         "english": "It was his way."
       },
       {
-        "fiwo": "Nofa dewe nes gesid romve dury fikop keane.",
+        "fiwo": "Nofa kage nes gesid romve dury tivwop keane.",
         "english": "The two of them did not speak again for the whole road."
       },
       {
-        "fiwo": "Vax das sigid fukap daqe bef daq nes gojid ram.",
+        "fiwo": "Vax das sigid wusap daqe bef daq nes gojid ram.",
         "english": "However, she held his hand, and he did not pull it away."
       }
     ]
@@ -1756,7 +1756,7 @@ const storyData = [
         "english": "The court is a building of stone."
       },
       {
-        "fiwo": "Krulop deky ram lomei bef zavei.",
+        "fiwo": "Krulop deky ram cenlei bef zavei.",
         "english": "The room inside it is narrow and tall."
       },
       {
@@ -1768,15 +1768,15 @@ const storyData = [
         "english": "Light falls through the windows, but the room is still cold."
       },
       {
-        "fiwo": "Xiolo je joze gugi ky facu je dewe.",
+        "fiwo": "Xiolo je dwime gugi ky facu je kage.",
         "english": "Long benches stand on both sides."
       },
       {
-        "fiwo": "Dego dewe ceni nizy ram.",
+        "fiwo": "Dego kage ceni nizy ram.",
         "english": "Two tables sit in front of them."
       },
       {
-        "fiwo": "Xiolop ry ukwiap ceni tody dego je dewe.",
+        "fiwo": "Xiolop ry ukwiap ceni tody dego je kage.",
         "english": "The judge's chair sits above the two tables."
       },
       {
@@ -1784,11 +1784,11 @@ const storyData = [
         "english": "Many people sat there that morning."
       },
       {
-        "fiwo": "Ludvo nekid zory kuvysua je dewe.",
+        "fiwo": "Ludvo nekid zory kuvysua je kage.",
         "english": "Ludvo sat between two police officers."
       },
       {
-        "fiwo": "Daq upycid fuka je dale.",
+        "fiwo": "Daq upycid wusa je dale.",
         "english": "He looked at his hands."
       },
       {
@@ -1800,11 +1800,11 @@ const storyData = [
         "english": "Talpu sat at the first table."
       },
       {
-        "fiwo": "Daq ikuar ry govnup.",
+        "fiwo": "Daq tifuar ry govnup.",
         "english": "He is a lawyer of the government."
       },
       {
-        "fiwo": "Hemra nekid ky degop usy dewe.",
+        "fiwo": "Hemra nekid ky degop usy kage.",
         "english": "Hemra sat at the second table."
       },
       {
@@ -1812,7 +1812,7 @@ const storyData = [
         "english": "She was defending Ludvo."
       },
       {
-        "fiwo": "Das jedid paelo je jedle bef Ludvo jedid fuka je nufe.",
+        "fiwo": "Das jedid paelo je jedle bef Ludvo jedid wusa je nufe.",
         "english": "She had many papers, and Ludvo had empty hands."
       },
       {
@@ -1856,7 +1856,7 @@ const storyData = [
         "english": "She said: \"It happened on the third night.\""
       },
       {
-        "fiwo": "Das kupid tep Kup suk dzefi?",
+        "fiwo": "Das slezid tep Kup suk dzefi?",
         "english": "She asked: \"Do you agree?\""
       },
       {
@@ -1892,15 +1892,15 @@ const storyData = [
         "english": "Wenku is an old man."
       },
       {
-        "fiwo": "Daq jedid jaru retet rajet.",
+        "fiwo": "Daq jedid jaru pruret rajet.",
         "english": "He was seventy-five years old."
       },
       {
-        "fiwo": "Daq hekrid buskop dale gawem jeme.",
+        "fiwo": "Daq hekrid buskop dale gawem merne.",
         "english": "He wore his best clothes."
       },
       {
-        "fiwo": "Daq hicid roase zy xiolop nizy Nirva.",
+        "fiwo": "Daq hicid fwike zy xiolop nizy Nirva.",
         "english": "He walked slowly to the chair in front of Nirva."
       },
       {
@@ -1908,7 +1908,7 @@ const storyData = [
         "english": "Nirva said: \"Take the oath.\""
       },
       {
-        "fiwo": "Wenku todyrid fukap dale bef daq gesid tep Mik gesis rodleup juwe.",
+        "fiwo": "Wenku todyrid wusap dale bef daq gesid tep Mik gesis triveup juwe.",
         "english": "Wenku raised his hand and said: \"I will speak only the truth.\""
       },
       {
@@ -1924,15 +1924,15 @@ const storyData = [
         "english": "Wenku said: \"I live in the house across the street from the shop.\""
       },
       {
-        "fiwo": "Talpu kupid tep Kup suv cenid ky rerpop fose dury jaru wug?",
+        "fiwo": "Talpu slezid tep Kup suv cenid ky rerpop fose dury jaru wug?",
         "english": "Talpu asked: \"How many years have you lived in that place?\""
       },
       {
-        "fiwo": "Wenku gesid tep Dury jaru gloket dewet.",
+        "fiwo": "Wenku gesid tep Dury jaru gloket kaget.",
         "english": "Wenku said: \"For forty-two years.\""
       },
       {
-        "fiwo": "Talpu kupid tep Kup suv usid dury dugup usy tafe?",
+        "fiwo": "Talpu slezid tep Kup suv usid dury dugup usy tafe?",
         "english": "Talpu asked: \"Did you sleep on the third night?\""
       },
       {
@@ -1944,7 +1944,7 @@ const storyData = [
         "english": "He said: \"I got up and stood at my window.\""
       },
       {
-        "fiwo": "Talpu kupid tep Kup suv upycid wat?",
+        "fiwo": "Talpu slezid tep Kup suv upycid wat?",
         "english": "Talpu asked: \"What did you see?\""
       },
       {
@@ -1956,7 +1956,7 @@ const storyData = [
         "english": "He said: \"I heard it myself: glass broke.\""
       },
       {
-        "fiwo": "Talpu kupid tep Kup ram linucid dury wiq?",
+        "fiwo": "Talpu slezid tep Kup ram linucid dury wiq?",
         "english": "Talpu asked: \"When did it happen?\""
       },
       {
@@ -1964,11 +1964,11 @@ const storyData = [
         "english": "Wenku said: \"At the tenth hour of the night.\""
       },
       {
-        "fiwo": "Daq gesid tep Sop mik upycid clapop mike.",
+        "fiwo": "Daq gesid tep Sop mik upycid tetwop mike.",
         "english": "He said: \"I saw it myself: I looked at my clock.\""
       },
       {
-        "fiwo": "Talpu kupid tep Kup suv upycid wat foly pesup?",
+        "fiwo": "Talpu slezid tep Kup suv upycid wat foly skejup?",
         "english": "Talpu asked: \"What did you see after the sound?\""
       },
       {
@@ -1984,23 +1984,23 @@ const storyData = [
         "english": "He said: \"The glass had already fallen into the street.\""
       },
       {
-        "fiwo": "Talpu kupid tep Kup noqsap sufid?",
+        "fiwo": "Talpu slezid tep Kup noqsap purkid?",
         "english": "Talpu asked: \"Did the man turn?\""
       },
       {
-        "fiwo": "Wenku gesid tep Jas. Daq sufid bef mik upycid zipap dale.",
+        "fiwo": "Wenku gesid tep Jas. Daq purkid bef mik upycid zipap dale.",
         "english": "Wenku said: \"Yes. He turned and I saw his face.\""
       },
       {
-        "fiwo": "Talpu kupid tep Kup suv ebzikid daq?",
+        "fiwo": "Talpu slezid tep Kup suv dwepid daq?",
         "english": "Talpu asked: \"Did you recognize him?\""
       },
       {
-        "fiwo": "Wenku gesid tep Sop mik ebzikid daq.",
+        "fiwo": "Wenku gesid tep Sop mik dwepid daq.",
         "english": "Wenku said: \"I saw it myself: I recognized him.\""
       },
       {
-        "fiwo": "Talpu kupid tep Kup hisup ry noqsap?",
+        "fiwo": "Talpu slezid tep Kup hisup ry noqsap?",
         "english": "Talpu asked: \"What is the man's name?\""
       },
       {
@@ -2012,7 +2012,7 @@ const storyData = [
         "english": "The room went quiet."
       },
       {
-        "fiwo": "Talpu kupid tep Kup suv didei zety fos?",
+        "fiwo": "Talpu slezid tep Kup suv didei zety fos?",
         "english": "Talpu asked: \"Are you certain about that?\""
       },
       {
@@ -2020,7 +2020,7 @@ const storyData = [
         "english": "Wenku said: \"I saw his face with my own eyes. I have known him for years.\""
       },
       {
-        "fiwo": "Talpu gesid tep Suv Nirva. Mik nes kupi romve.",
+        "fiwo": "Talpu gesid tep Suv Nirva. Mik nes slezi romve.",
         "english": "Talpu said: \"Nirva. I ask nothing further.\""
       },
       {
@@ -2028,11 +2028,11 @@ const storyData = [
         "english": "He sat."
       },
       {
-        "fiwo": "Nirva gesid zy Hemra tep Kop suv kupi nu.",
+        "fiwo": "Nirva gesid zy Hemra tep Kop suv slezi nu.",
         "english": "Nirva said to Hemra: \"Ask now.\""
       },
       {
-        "fiwo": "Hemra rizid roase.",
+        "fiwo": "Hemra rizid fwike.",
         "english": "Hemra rose slowly."
       },
       {
@@ -2040,7 +2040,7 @@ const storyData = [
         "english": "She did not look at her papers."
       },
       {
-        "fiwo": "Das upycid Wenku dury dumup keane.",
+        "fiwo": "Das upycid Wenku dury mepup keane.",
         "english": "She looked at Wenku for a whole minute."
       },
       {
@@ -2052,7 +2052,7 @@ const storyData = [
         "english": "She did not begin with the face."
       },
       {
-        "fiwo": "Das kupid tep Suv Wenku. Kup domlop sowid dury dugup fose?",
+        "fiwo": "Das slezid tep Suv Wenku. Kup domlop sowid dury dugup fose?",
         "english": "She asked: \"Wenku. Did rain fall that night?\""
       },
       {
@@ -2060,15 +2060,15 @@ const storyData = [
         "english": "Wenku said: \"Yes.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup ram jucei?",
+        "fiwo": "Hemra slezid tep Kup ram twavei?",
         "english": "Hemra asked: \"Was it heavy?\""
       },
       {
-        "fiwo": "Wenku gesid tep Ram jucei.",
+        "fiwo": "Wenku gesid tep Ram twavei.",
         "english": "Wenku said: \"It was heavy.\""
       },
       {
-        "fiwo": "Das kupid tep Kup wilop suve xosidyq?",
+        "fiwo": "Das slezid tep Kup wilop suve xosidyq?",
         "english": "She asked: \"Was your window open?\""
       },
       {
@@ -2076,11 +2076,11 @@ const storyData = [
         "english": "Wenku said: \"No. It was closed, because the room was cold.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup suv jiprid wiranop ry wilop suve dury retadup rivahe?",
+        "fiwo": "Hemra slezid tep Kup suv jiprid wiranop ry wilop suve dury retadup rivahe?",
         "english": "Hemra asked: \"Did you wash the glass of your window in the previous week?\""
       },
       {
-        "fiwo": "Wenku upycid Nirva bef daq hatzid cohe.",
+        "fiwo": "Wenku upycid Nirva bef daq lofnid cohe.",
         "english": "Wenku looked at Nirva and laughed a little."
       },
       {
@@ -2092,7 +2092,7 @@ const storyData = [
         "english": "Hemra said: \"I do not argue about that.\""
       },
       {
-        "fiwo": "Das kupid tep Kup xyrop ceni hemy sydop suve?",
+        "fiwo": "Das slezid tep Kup xyrop ceni hemy sydop suve?",
         "english": "She asked: \"Is the shop near your house?\""
       },
       {
@@ -2100,7 +2100,7 @@ const storyData = [
         "english": "Wenku said: \"It is across the street.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup roweup ry caenop mitero wug?",
+        "fiwo": "Hemra slezid tep Kup roweup ry caenop mitero wug?",
         "english": "Hemra asked: \"How many metres is the width of the street?\""
       },
       {
@@ -2120,7 +2120,7 @@ const storyData = [
         "english": "Wenku said nothing."
       },
       {
-        "fiwo": "Das kupid tep Kup suv upycid zipap ry noqsap zofy wiranop letse lan domlop juce acry mitero marte?",
+        "fiwo": "Das slezid tep Kup suv upycid zipap ry noqsap zofy wiranop flove lan domlop twave acry mitero marte?",
         "english": "She asked: \"Did you see the man's face through dirty glass and heavy rain across eight metres?\""
       },
       {
@@ -2128,7 +2128,7 @@ const storyData = [
         "english": "Wenku said: \"Yes. I saw it.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup litop cenid ky caenop?",
+        "fiwo": "Hemra slezid tep Kup litop cenid ky caenop?",
         "english": "Hemra asked: \"Was there light in the street?\""
       },
       {
@@ -2136,7 +2136,7 @@ const storyData = [
         "english": "Wenku said: \"Yes. The lamp was in front of the shop.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup viketso otre cenid ky caenop?",
+        "fiwo": "Hemra slezid tep Kup viketso otre cenid ky caenop?",
         "english": "Hemra asked: \"Were there other lamps in the street?\""
       },
       {
@@ -2144,7 +2144,7 @@ const storyData = [
         "english": "Wenku said: \"No. Only the one lamp.\""
       },
       {
-        "fiwo": "Das kupid tep Kup suv upycid zipap dale zofy litop ry viketsop fose?",
+        "fiwo": "Das slezid tep Kup suv upycid zipap dale zofy litop ry viketsop fose?",
         "english": "She asked: \"Did you see his face by the light of that lamp?\""
       },
       {
@@ -2152,7 +2152,7 @@ const storyData = [
         "english": "Wenku said: \"Yes.\""
       },
       {
-        "fiwo": "Das kupid tep Kup suv didei?",
+        "fiwo": "Das slezid tep Kup suv didei?",
         "english": "She asked: \"Are you certain?\""
       },
       {
@@ -2172,7 +2172,7 @@ const storyData = [
         "english": "She said: \"Nirva. That is the city's record.\""
       },
       {
-        "fiwo": "Das gesid tep Rop viketsop fose nes litoid pudy dup usy dewet nozet dury rugoxup rivahe.",
+        "fiwo": "Das gesid tep Rop viketsop fose nes litoid pudy dup usy kaget nozet dury rugoxup rivahe.",
         "english": "She said: \"By the record, that lamp has not shone since the twentieth day of the previous month.\""
       },
       {
@@ -2184,7 +2184,7 @@ const storyData = [
         "english": "The room went quiet."
       },
       {
-        "fiwo": "Wenku upycid paelop deky fukap ry Nirva.",
+        "fiwo": "Wenku upycid paelop deky wusap ry Nirva.",
         "english": "Wenku looked at the paper in Nirva's hand."
       },
       {
@@ -2192,7 +2192,7 @@ const storyData = [
         "english": "He did not read it, because she had not given it to him."
       },
       {
-        "fiwo": "Hemra kupid tep Kup viketsop litoid dury dugup fose?",
+        "fiwo": "Hemra slezid tep Kup viketsop litoid dury dugup fose?",
         "english": "Hemra asked: \"Did the lamp shine that night?\""
       },
       {
@@ -2236,11 +2236,11 @@ const storyData = [
         "english": "Hemra said: \"I am not saying that you are lying.\""
       },
       {
-        "fiwo": "Das gesid tep Mik gesi tep suv ebmeri.",
+        "fiwo": "Das gesid tep Mik gesi tep suv rari.",
         "english": "She said: \"I am saying that you are remembering.\""
       },
       {
-        "fiwo": "Das kupid tep Kup suv gesid hisup tep Ludvo tel zy kuvysuar dury dugup fose?",
+        "fiwo": "Das slezid tep Kup suv gesid hisup tep Ludvo tel zy kuvysuar dury dugup fose?",
         "english": "She asked: \"Did you say the name Ludvo to a police officer that night?\""
       },
       {
@@ -2252,7 +2252,7 @@ const storyData = [
         "english": "He said: \"No.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup suv gesid wat zy kuvysuap?",
+        "fiwo": "Hemra slezid tep Kup suv gesid wat zy kuvysuap?",
         "english": "Hemra asked: \"What did you say to the officer?\""
       },
       {
@@ -2280,7 +2280,7 @@ const storyData = [
         "english": "Wenku said nothing."
       },
       {
-        "fiwo": "Hemra kupid tep Kup suv gesid hisup tep Ludvo tel zy kuvysuap dury wiq?",
+        "fiwo": "Hemra slezid tep Kup suv gesid hisup tep Ludvo tel zy kuvysuap dury wiq?",
         "english": "Hemra asked: \"When did you say the name Ludvo to the officer?\""
       },
       {
@@ -2288,11 +2288,11 @@ const storyData = [
         "english": "Wenku said: \"On the fourth day.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup won linucid zory du je fose?",
+        "fiwo": "Hemra slezid tep Kup won linucid zory du je fose?",
         "english": "Hemra asked: \"What happened between those days?\""
       },
       {
-        "fiwo": "Wenku nes hadid dury dumur.",
+        "fiwo": "Wenku nes hadid dury mepur.",
         "english": "Wenku did not answer for a minute."
       },
       {
@@ -2300,7 +2300,7 @@ const storyData = [
         "english": "He said: \"A man who lives near me spoke to me.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup daq gesid wat?",
+        "fiwo": "Hemra slezid tep Kup daq gesid wat?",
         "english": "Hemra asked: \"What did he say?\""
       },
       {
@@ -2312,7 +2312,7 @@ const storyData = [
         "english": "The room went quiet again."
       },
       {
-        "fiwo": "Hemra gesid roase tep Suv Wenku. Nofap fose stomid hisup zy suv.",
+        "fiwo": "Hemra gesid fwike tep Suv Wenku. Nofap fose stomid hisup zy suv.",
         "english": "Hemra said slowly: \"Wenku. That man gave you the name.\""
       },
       {
@@ -2324,7 +2324,7 @@ const storyData = [
         "english": "Wenku said: \"I saw his face before that man's words.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup suv didei zety fos?",
+        "fiwo": "Hemra slezid tep Kup suv didei zety fos?",
         "english": "Hemra asked: \"Are you certain about that?\""
       },
       {
@@ -2332,7 +2332,7 @@ const storyData = [
         "english": "Wenku opened his mouth, but he did not speak."
       },
       {
-        "fiwo": "Daq upycid Ludvo dury dumur.",
+        "fiwo": "Daq upycid Ludvo dury mepur.",
         "english": "He looked at Ludvo for a minute."
       },
       {
@@ -2340,19 +2340,19 @@ const storyData = [
         "english": "Ludvo did not look at him."
       },
       {
-        "fiwo": "Wenku upycid fuka je dale.",
+        "fiwo": "Wenku upycid wusa je dale.",
         "english": "Wenku looked at his hands."
       },
       {
-        "fiwo": "Hemra gesid tep Mik kupis kupiup bime otre.",
+        "fiwo": "Hemra gesid tep Mik slezis sleziup bime otre.",
         "english": "Hemra said: \"I will ask one more question.\""
       },
       {
-        "fiwo": "Das kupid tep Kup suv upycid zipap ry noqsap ky wilop nu?",
+        "fiwo": "Das slezid tep Kup suv upycid zipap ry noqsap ky wilop nu?",
         "english": "She asked: \"Do you see the man's face at the window now?\""
       },
       {
-        "fiwo": "Wenku beatid noja je dale.",
+        "fiwo": "Wenku beatid tseja je dale.",
         "english": "Wenku closed his eyes."
       },
       {
@@ -2360,7 +2360,7 @@ const storyData = [
         "english": "He said: \"Yes.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup zipap fose zipap ry Ludvo?",
+        "fiwo": "Hemra slezid tep Kup zipap fose zipap ry Ludvo?",
         "english": "Hemra asked: \"Is that face Ludvo's face?\""
       },
       {
@@ -2368,15 +2368,15 @@ const storyData = [
         "english": "Wenku said: \"Yes.\""
       },
       {
-        "fiwo": "Hemra kupid tep Kup suv upycid zipap fose dury dugup fose rot suv upycid ram dury du je foly ram?",
+        "fiwo": "Hemra slezid tep Kup suv upycid zipap fose dury dugup fose rot suv upycid ram dury du je foly ram?",
         "english": "Hemra asked: \"Did you see that face on that night, or did you see it on the days after it?\""
       },
       {
-        "fiwo": "Wenku xosid noja je dale.",
+        "fiwo": "Wenku xosid tseja je dale.",
         "english": "Wenku opened his eyes."
       },
       {
-        "fiwo": "Daq nes gesid dury dionur joze.",
+        "fiwo": "Daq nes gesid dury dionur dwime.",
         "english": "He did not speak for a long time."
       },
       {
@@ -2420,11 +2420,11 @@ const storyData = [
         "english": "Talpu stood."
       },
       {
-        "fiwo": "Talpu gesid tep Suv Nirva. Mik kupis kupiu cohe zy lurubrap.",
+        "fiwo": "Talpu gesid tep Suv Nirva. Mik slezis sleziu cohe zy lurubrap.",
         "english": "Talpu said: \"Nirva. I will ask the witness a few questions.\""
       },
       {
-        "fiwo": "Nirva gesid tep Kop suv kupi.",
+        "fiwo": "Nirva gesid tep Kop suv slezi.",
         "english": "Nirva said: \"Ask.\""
       },
       {
@@ -2452,7 +2452,7 @@ const storyData = [
         "english": "Wenku said: \"Yes.\""
       },
       {
-        "fiwo": "Talpu kupid tep Kup suv kanid Ludvo pudy jaru wug?",
+        "fiwo": "Talpu slezid tep Kup suv kanid Ludvo pudy jaru wug?",
         "english": "Talpu asked: \"How many years have you known Ludvo?\""
       },
       {
@@ -2460,7 +2460,7 @@ const storyData = [
         "english": "Wenku said: \"For years.\""
       },
       {
-        "fiwo": "Talpu gesid tep Nofar tep kani nofar otre pudy jaru je tel ebziki zipap dale zofy litop lande.",
+        "fiwo": "Talpu gesid tep Nofar tep kani nofar otre pudy jaru je tel dwepi zipap dale zofy litop nifne.",
         "english": "Talpu said: \"A man who has known another man for years recognizes his face by a small light.\""
       },
       {
@@ -2472,7 +2472,7 @@ const storyData = [
         "english": "Nirva interrupted Talpu."
       },
       {
-        "fiwo": "Das gesid tep Suv Talpu. Suv nes kupi. Suv gesi.",
+        "fiwo": "Das gesid tep Suv Talpu. Suv nes slezi. Suv gesi.",
         "english": "She said: \"Talpu. You are not asking. You are talking.\""
       },
       {
@@ -2480,7 +2480,7 @@ const storyData = [
         "english": "Talpu sat."
       },
       {
-        "fiwo": "Nirva upycid Wenku dury dionur joze.",
+        "fiwo": "Nirva upycid Wenku dury dionur dwime.",
         "english": "Nirva looked at Wenku for a long time."
       },
       {
@@ -2488,15 +2488,15 @@ const storyData = [
         "english": "She said: \"Wenku. The court does not think that you lied.\""
       },
       {
-        "fiwo": "Wenku hadid roase.",
+        "fiwo": "Wenku hadid fwike.",
         "english": "Wenku answered slowly."
       },
       {
-        "fiwo": "Daq gesid tep Hyp syn mik okezuidyk can mik noqsar boke juwe. Fos naile.",
+        "fiwo": "Daq gesid tep Hyp syn mik okezuidyk can mik noqsar boke juwe. Fos curme.",
         "english": "He said: \"If I had lied, I would only be a bad man. That is easy.\""
       },
       {
-        "fiwo": "Daq gesid tep Mik nes okezuid. Godup mike okezuid zy mik.",
+        "fiwo": "Daq gesid tep Mik nes okezuid. Pjabup mike okezuid zy mik.",
         "english": "He said: \"I did not lie. My mind lied to me.\""
       },
       {
@@ -2504,7 +2504,7 @@ const storyData = [
         "english": "The room said nothing."
       },
       {
-        "fiwo": "Nirva jamid go je deky panop dase.",
+        "fiwo": "Nirva jamid go je deky nibop dase.",
         "english": "Nirva wrote words in her book."
       },
       {
@@ -2528,7 +2528,7 @@ const storyData = [
         "english": "Talpu said nothing."
       },
       {
-        "fiwo": "Hemra nes hatzid.",
+        "fiwo": "Hemra nes lofnid.",
         "english": "Hemra did not smile."
       },
       {
@@ -2548,11 +2548,11 @@ const storyData = [
         "english": "He still did not speak."
       },
       {
-        "fiwo": "Kuvysua je dewe nyrsid daq zofy hoxop.",
+        "fiwo": "Kuvysua je kage nyrsid daq zofy hoxop.",
         "english": "The two officers took him out through the door."
       },
       {
-        "fiwo": "Nofa je tsid fy krulop.",
+        "fiwo": "Nofa je fwimid fy krulop.",
         "english": "The people left the room."
       },
       {
@@ -2576,7 +2576,7 @@ const storyData = [
         "english": "She saw Wenku and stopped."
       },
       {
-        "fiwo": "Wenku kupid tep Kup mik okezuid?",
+        "fiwo": "Wenku slezid tep Kup mik okezuid?",
         "english": "Wenku asked: \"Did I lie?\""
       },
       {
@@ -2584,11 +2584,11 @@ const storyData = [
         "english": "Hemra said: \"No.\""
       },
       {
-        "fiwo": "Wenku kupid tep Kup mik epiwuid wat?",
+        "fiwo": "Wenku slezid tep Kup mik mipfuid wat?",
         "english": "Wenku asked: \"Then what did I do?\""
       },
       {
-        "fiwo": "Hemra gesid tep Suv ebmerid.",
+        "fiwo": "Hemra gesid tep Suv rarid.",
         "english": "Hemra said: \"You remembered.\""
       },
       {
@@ -2600,11 +2600,11 @@ const storyData = [
         "english": "Hemra did not answer."
       },
       {
-        "fiwo": "Wenku kupid tep Kup mik kanis felpeup zory ebmeriu je mike lan gesiu je ry nofa je otre?",
+        "fiwo": "Wenku slezid tep Kup mik kanis felpeup zory rariu je mike lan gesiu je ry nofa je otre?",
         "english": "Wenku asked: \"Will I know the difference between my own memories and other people's words?\""
       },
       {
-        "fiwo": "Hemra upycid daq dury dionur joze.",
+        "fiwo": "Hemra upycid daq dury dionur dwime.",
         "english": "Hemra looked at him for a long time."
       },
       {
@@ -2612,7 +2612,7 @@ const storyData = [
         "english": "She said: \"I do not know.\""
       },
       {
-        "fiwo": "Das stelid paelo je dase bef das tsid.",
+        "fiwo": "Das stelid paelo je dase bef das fwimid.",
         "english": "She took her papers and left."
       },
       {
@@ -2620,7 +2620,7 @@ const storyData = [
         "english": "Wenku sat in the empty room."
       },
       {
-        "fiwo": "Daq beatid noja je dale bef daq upycid zipap romve.",
+        "fiwo": "Daq beatid tseja je dale bef daq upycid zipap romve.",
         "english": "He closed his eyes and looked at the face again."
       },
       {
@@ -2641,11 +2641,11 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Fofuplop ceni zory gikosop dewe.",
+        "fiwo": "Fofuplop ceni zory gikosop kage.",
         "english": "The bay lies between two coasts."
       },
       {
-        "fiwo": "Tandorsop plid deky ram.",
+        "fiwo": "Tubsop brenid deky ram.",
         "english": "The sea comes inside it."
       },
       {
@@ -2653,7 +2653,7 @@ const storyData = [
         "english": "The old boats float on the water."
       },
       {
-        "fiwo": "Sydor bime rerbi ty cyxop.",
+        "fiwo": "Sydor bime dwagi ty cyxop.",
         "english": "One house stands on the shore."
       },
       {
@@ -2669,7 +2669,7 @@ const storyData = [
         "english": "I am a coast worker."
       },
       {
-        "fiwo": "Vucilfup mike nojapi fofuplop bef mik jami falmiop.",
+        "fiwo": "Vucilfup mike tsejapi fofuplop bef mik jami falmiop.",
         "english": "My duty is to watch the bay and to write the report."
       },
       {
@@ -2685,7 +2685,7 @@ const storyData = [
         "english": "The first column has the day."
       },
       {
-        "fiwo": "Krulop usy dewe jedi botop.",
+        "fiwo": "Krulop usy kage jedi botop.",
         "english": "The second column has the boat."
       },
       {
@@ -2701,7 +2701,7 @@ const storyData = [
         "english": "The report does not have a fifth column."
       },
       {
-        "fiwo": "Mik nacid ky fofuplop dury jaru rete.",
+        "fiwo": "Mik nacid ky fofuplop dury jaru prure.",
         "english": "I have worked at the bay for seven years."
       },
       {
@@ -2717,11 +2717,11 @@ const storyData = [
         "english": "The first boat arrived the previous day."
       },
       {
-        "fiwo": "Ram nyrsid zaqop sek odcanop sek batap.",
+        "fiwo": "Ram nyrsid cekgop sek odcanop sek batap.",
         "english": "It carried salt, rope, food."
       },
       {
-        "fiwo": "Juceup lizogoe labnei retet nozet.",
+        "fiwo": "Twaveup lizogoe labnei pruret nozet.",
         "english": "The weight of the cargo equals seventy."
       },
       {
@@ -2737,15 +2737,15 @@ const storyData = [
         "english": "I wrote it and then sat down."
       },
       {
-        "fiwo": "Dewedu, du usy bimet dewet dury rugoxu usy tafe.",
+        "fiwo": "Kagedu, du usy bimet kaget dury rugoxu usy tafe.",
         "english": "Tuesday, the 12th of the third month."
       },
       {
-        "fiwo": "Boto dewe joborid.",
+        "fiwo": "Boto kage joborid.",
         "english": "Two boats arrived."
       },
       {
-        "fiwo": "Ram je nyrsid ciswo raje sek hano dewet nozet.",
+        "fiwo": "Ram je nyrsid ciswo raje sek hano kaget nozet.",
         "english": "They carried five barrels, twenty boxes."
       },
       {
@@ -2753,11 +2753,11 @@ const storyData = [
         "english": "They were not opened."
       },
       {
-        "fiwo": "Nofar nes kupid zety ram je.",
+        "fiwo": "Nofar nes slezid zety ram je.",
         "english": "Nobody asked about them."
       },
       {
-        "fiwo": "Mik jamid gup bul mik nes jamid kupiur.",
+        "fiwo": "Mik jamid gup bul mik nes jamid sleziur.",
         "english": "I wrote the number, but I did not write a question."
       },
       {
@@ -2769,7 +2769,7 @@ const storyData = [
         "english": "No boat arrived."
       },
       {
-        "fiwo": "Xabesop plid fy ivanup.",
+        "fiwo": "Xabesop brenid fy xasup.",
         "english": "The wind came from the north."
       },
       {
@@ -2797,7 +2797,7 @@ const storyData = [
         "english": "He is an official."
       },
       {
-        "fiwo": "Daq plid zy fofuplop igy bime dury rugoxup byceve.",
+        "fiwo": "Daq brenid zy fofuplop igy bime dury rugoxup byceve.",
         "english": "He comes to the bay once every month."
       },
       {
@@ -2805,7 +2805,7 @@ const storyData = [
         "english": "He read my report."
       },
       {
-        "fiwo": "Daq gesid tep Falmiop suke gawei. Suk jami gup rodle.",
+        "fiwo": "Daq gesid tep Falmiop suke gawei. Suk jami gup trive.",
         "english": "He said: \"Your report is good. You write true numbers.\""
       },
       {
@@ -2817,7 +2817,7 @@ const storyData = [
         "english": "He wrote his mark on the report."
       },
       {
-        "fiwo": "Daq tsid pary dugup.",
+        "fiwo": "Daq fwimid pary dugup.",
         "english": "He left before nightfall."
       },
       {
@@ -2825,7 +2825,7 @@ const storyData = [
         "english": "Friday, the 15th of the third month."
       },
       {
-        "fiwo": "Botop usy tafe joborid wy lizogo je dewe.",
+        "fiwo": "Botop usy tafe joborid wy lizogo je kage.",
         "english": "The third boat arrived with two cargoes."
       },
       {
@@ -2841,7 +2841,7 @@ const storyData = [
         "english": "Saturday, the 16th of the third month."
       },
       {
-        "fiwo": "Domlop plid dury dugup late.",
+        "fiwo": "Domlop brenid dury dugup late.",
         "english": "Rain came all night."
       },
       {
@@ -2849,7 +2849,7 @@ const storyData = [
         "english": "No boat arrived."
       },
       {
-        "fiwo": "Retedu, du usy bimet retet dury rugoxu usy tafe.",
+        "fiwo": "Pruredu, du usy bimet pruret dury rugoxu usy tafe.",
         "english": "Sunday, the 17th of the third month."
       },
       {
@@ -2857,7 +2857,7 @@ const storyData = [
         "english": "No boat arrived."
       },
       {
-        "fiwo": "Mik lokid panor.",
+        "fiwo": "Mik lokid nibor.",
         "english": "I read a book."
       },
       {
@@ -2869,15 +2869,15 @@ const storyData = [
         "english": "The war is far from the bay."
       },
       {
-        "fiwo": "Mik nes nojaid ram bul mik jopxid falmio je zety ram.",
+        "fiwo": "Mik nes tsejaid ram bul mik jopxid falmio je zety ram.",
         "english": "I have not seen it, but I have received reports about it."
       },
       {
-        "fiwo": "Nofa je ky jurop gesid tep Erup plis zy nak dury jarup fose.",
+        "fiwo": "Nofa je ky jurop gesid tep Erup brenis zy nak dury jarup fose.",
         "english": "People in the city said: \"The war will come to us this year.\""
       },
       {
-        "fiwo": "Mik nes pozid tep fos rodlei.",
+        "fiwo": "Mik nes pozid tep fos trivei.",
         "english": "I did not think that that is true."
       },
       {
@@ -2885,7 +2885,7 @@ const storyData = [
         "english": "The bay is quieter."
       },
       {
-        "fiwo": "Dewedu, du usy bimet zewet dury rugoxu usy tafe.",
+        "fiwo": "Kagedu, du usy bimet zewet dury rugoxu usy tafe.",
         "english": "Tuesday, the 19th of the third month."
       },
       {
@@ -2893,7 +2893,7 @@ const storyData = [
         "english": "Three boats arrived."
       },
       {
-        "fiwo": "Ram je nyrsid gofop sek xedop sek zaqop.",
+        "fiwo": "Ram je nyrsid gofop sek xedop sek cekgop.",
         "english": "They carried wood, metal, salt."
       },
       {
@@ -2901,11 +2901,11 @@ const storyData = [
         "english": "The numbers were written by me."
       },
       {
-        "fiwo": "Juceup lizogoe labnei bimet nozet nozet.",
+        "fiwo": "Twaveup lizogoe labnei bimet nozet nozet.",
         "english": "The weight of the cargo equals one hundred."
       },
       {
-        "fiwo": "Tafedu, du usy dewet nozet dury rugoxu usy tafe.",
+        "fiwo": "Tafedu, du usy kaget nozet dury rugoxu usy tafe.",
         "english": "Wednesday, the 20th of the third month."
       },
       {
@@ -2913,15 +2913,15 @@ const storyData = [
         "english": "A boat arrived without a flag."
       },
       {
-        "fiwo": "Aziku je nes dogi fos.",
+        "fiwo": "Aziku je nes zupi fos.",
         "english": "The rules do not allow that."
       },
       {
-        "fiwo": "Botop byceve koci uhop rame.",
+        "fiwo": "Botop byceve vepi uhop rame.",
         "english": "Every boat needs its flag."
       },
       {
-        "fiwo": "Mik upycid ram dury tequr joze.",
+        "fiwo": "Mik upycid ram dury tequr dwime.",
         "english": "I looked at it for a long moment."
       },
       {
@@ -2933,7 +2933,7 @@ const storyData = [
         "english": "I did not write a statement about that."
       },
       {
-        "fiwo": "Glokedu, du usy dewet bimet dury rugoxu usy tafe.",
+        "fiwo": "Glokedu, du usy kaget bimet dury rugoxu usy tafe.",
         "english": "Thursday, the 21st of the third month."
       },
       {
@@ -2973,15 +2973,15 @@ const storyData = [
         "english": "I wrote that the boat arrived without cargo."
       },
       {
-        "fiwo": "Fos hiqeid bul fos nes rodleid.",
+        "fiwo": "Fos hiqeid bul fos nes triveid.",
         "english": "That was correct, but that was not true."
       },
       {
-        "fiwo": "Rajedu, du usy dewet dewet dury rugoxu usy tafe.",
+        "fiwo": "Rajedu, du usy kaget kaget dury rugoxu usy tafe.",
         "english": "Friday, the 22nd of the third month."
       },
       {
-        "fiwo": "Nofa marte rerbid ky cyxop.",
+        "fiwo": "Nofa marte dwagid ky cyxop.",
         "english": "The eight people stayed on the shore."
       },
       {
@@ -2993,7 +2993,7 @@ const storyData = [
         "english": "I gave them water."
       },
       {
-        "fiwo": "Das bime kupid tep Kup suk jamis nak?",
+        "fiwo": "Das bime slezid tep Kup suk jamis nak?",
         "english": "One woman asked: \"Will you write us down?\""
       },
       {
@@ -3005,19 +3005,19 @@ const storyData = [
         "english": "She did not speak."
       },
       {
-        "fiwo": "Das upycid mik joze bef das tsid.",
+        "fiwo": "Das upycid mik dwime bef das fwimid.",
         "english": "She looked at me for a long time and then left."
       },
       {
-        "fiwo": "Sluqedu, du usy dewet tafet dury rugoxu usy tafe.",
+        "fiwo": "Sluqedu, du usy kaget tafet dury rugoxu usy tafe.",
         "english": "Saturday, the 23rd of the third month."
       },
       {
-        "fiwo": "Nofa marte tsid dury dugup.",
+        "fiwo": "Nofa marte fwimid dury dugup.",
         "english": "The eight people left during the night."
       },
       {
-        "fiwo": "Mik nes kanid fikop tep dal je xalid zy tel.",
+        "fiwo": "Mik nes kanid tivwop tep dal je xalid zy tel.",
         "english": "I did not know the road that they went along."
       },
       {
@@ -3025,7 +3025,7 @@ const storyData = [
         "english": "The report has no room for that either."
       },
       {
-        "fiwo": "Retedu, du usy dewet gloket dury rugoxu usy tafe.",
+        "fiwo": "Pruredu, du usy kaget gloket dury rugoxu usy tafe.",
         "english": "Sunday, the 24th of the third month."
       },
       {
@@ -3045,7 +3045,7 @@ const storyData = [
         "english": "All the numbers are correct."
       },
       {
-        "fiwo": "Vax mik ebmerid nofa marte.",
+        "fiwo": "Vax mik rarid nofa marte.",
         "english": "However, I remembered the eight people."
       },
       {
@@ -3053,7 +3053,7 @@ const storyData = [
         "english": "They do not live inside the report."
       },
       {
-        "fiwo": "Mik pozid zety fos dury dugup joze.",
+        "fiwo": "Mik pozid zety fos dury dugup dwime.",
         "english": "I thought about that for a long night."
       },
       {
@@ -3061,15 +3061,15 @@ const storyData = [
         "english": "Then I sat down."
       },
       {
-        "fiwo": "Bimedu, du usy dewet rajet dury rugoxu usy tafe.",
+        "fiwo": "Bimedu, du usy kaget rajet dury rugoxu usy tafe.",
         "english": "Monday, the 25th of the third month."
       },
       {
-        "fiwo": "Botop usy gloke joborid wy zaqop.",
+        "fiwo": "Botop usy gloke joborid wy cekgop.",
         "english": "The fourth boat arrived with salt."
       },
       {
-        "fiwo": "Juceup lizogoe labnei rajet nozet.",
+        "fiwo": "Twaveup lizogoe labnei rajet nozet.",
         "english": "The weight of the cargo equals fifty."
       },
       {
@@ -3085,19 +3085,19 @@ const storyData = [
         "english": "I did not look at the horizon that day."
       },
       {
-        "fiwo": "Retedu, du usy bime dury rugoxu usy gloke.",
+        "fiwo": "Pruredu, du usy bime dury rugoxu usy gloke.",
         "english": "Sunday, the 1st of the fourth month."
       },
       {
-        "fiwo": "Boto dewe joborid dury dugup.",
+        "fiwo": "Boto kage joborid dury dugup.",
         "english": "Two boats arrived during the night."
       },
       {
-        "fiwo": "Ram je nyrsid nofa dewet nozet.",
+        "fiwo": "Ram je nyrsid nofa kaget nozet.",
         "english": "They carried twenty people."
       },
       {
-        "fiwo": "Fap dal je nes dogid tsit.",
+        "fiwo": "Fap dal je nes zupid fwimit.",
         "english": "They were not allowed to leave."
       },
       {
@@ -3117,11 +3117,11 @@ const storyData = [
         "english": "I wrote the name \"refugee\" inside the third column."
       },
       {
-        "fiwo": "Fos okse bul fos rodlei.",
+        "fiwo": "Fos okse bul fos trivei.",
         "english": "That is wrong, but that is true."
       },
       {
-        "fiwo": "Bimedu, du usy dewe dury rugoxu usy gloke.",
+        "fiwo": "Bimedu, du usy kage dury rugoxu usy gloke.",
         "english": "Monday, the 2nd of the fourth month."
       },
       {
@@ -3137,7 +3137,7 @@ const storyData = [
         "english": "Then he said: \"You wrote a wrong word.\""
       },
       {
-        "fiwo": "Mik hadid tep Mik jamid gop rodle.",
+        "fiwo": "Mik hadid tep Mik jamid gop trive.",
         "english": "I replied: \"I wrote a true word.\""
       },
       {
@@ -3145,15 +3145,15 @@ const storyData = [
         "english": "Verun said: \"The report has only four columns. Cargo is not people.\""
       },
       {
-        "fiwo": "Mik kupid tep Kup mik jamis dal je deky wer?",
+        "fiwo": "Mik slezid tep Kup mik jamis dal je deky wer?",
         "english": "I asked: \"Where inside shall I write them?\""
       },
       {
-        "fiwo": "Daq hadid tep Kop jami dal je deky krulop usy tafe. Kop jami juceup.",
+        "fiwo": "Daq hadid tep Kop jami dal je deky krulop usy tafe. Kop jami twaveup.",
         "english": "He replied: \"Write them inside the third column. Write the weight.\""
       },
       {
-        "fiwo": "Rop daq gesid tep nofa byceve labnei retet nozet.",
+        "fiwo": "Rop daq gesid tep nofa byceve labnei pruret nozet.",
         "english": "He said that each person equals seventy."
       },
       {
@@ -3169,11 +3169,11 @@ const storyData = [
         "english": "Verun said: \"I know that. But the report does not know that.\""
       },
       {
-        "fiwo": "Daq gesid tep Ikup nes tumis dawy suk. Kop jami juceup. Kop nes jami nofar.",
+        "fiwo": "Daq gesid tep Tifup nes tumis dawy suk. Kop jami twaveup. Kop nes jami nofar.",
         "english": "He said: \"The law will not change because of you. Write the weight. Do not write a person.\""
       },
       {
-        "fiwo": "Mik upycid daq joze.",
+        "fiwo": "Mik upycid daq dwime.",
         "english": "I looked at him for a long time."
       },
       {
@@ -3181,15 +3181,15 @@ const storyData = [
         "english": "Then I agreed."
       },
       {
-        "fiwo": "Dewedu, du usy tafe dury rugoxu usy gloke.",
+        "fiwo": "Kagedu, du usy tafe dury rugoxu usy gloke.",
         "english": "Tuesday, the 3rd of the fourth month."
       },
       {
-        "fiwo": "Mik guamid donava dewet nozet bef mik jamid juceup dalem je.",
+        "fiwo": "Mik guamid donava kaget nozet bef mik jamid twaveup dalem je.",
         "english": "I counted twenty refugees and then wrote their weight."
       },
       {
-        "fiwo": "Juceup labnei bimet gloket nozet nozet.",
+        "fiwo": "Twaveup labnei bimet gloket nozet nozet.",
         "english": "The weight equals one thousand four hundred."
       },
       {
@@ -3217,7 +3217,7 @@ const storyData = [
         "english": "Fog filled the bay."
       },
       {
-        "fiwo": "Mik nojapid tisoslop bul mik nes nojaid ram.",
+        "fiwo": "Mik tsejapid tisoslop bul mik nes tsejaid ram.",
         "english": "I watched the horizon, but I did not see it."
       },
       {
@@ -3233,11 +3233,11 @@ const storyData = [
         "english": "They carried thirty-five people."
       },
       {
-        "fiwo": "Mik jamid juceup juwe.",
+        "fiwo": "Mik jamid twaveup juwe.",
         "english": "I wrote only the weight."
       },
       {
-        "fiwo": "Nofar nes kupid zety hisu je.",
+        "fiwo": "Nofar nes slezid zety hisu je.",
         "english": "Nobody asked about the names."
       },
       {
@@ -3245,23 +3245,23 @@ const storyData = [
         "english": "Friday, the 6th of the fourth month."
       },
       {
-        "fiwo": "Erup plid hemy lutufrop.",
+        "fiwo": "Erup brenid hemy lutufrop.",
         "english": "The war came near the border."
       },
       {
-        "fiwo": "Nofa je ky jurop gesid tep Nak tsis fitydu.",
+        "fiwo": "Nofa je ky jurop gesid tep Nak fwimis fitydu.",
         "english": "People in the city said: \"We will leave tomorrow.\""
       },
       {
-        "fiwo": "Mik nes tsid.",
+        "fiwo": "Mik nes fwimid.",
         "english": "I did not leave."
       },
       {
-        "fiwo": "Vucilfup mike rerbi ky fofuplop.",
+        "fiwo": "Vucilfup mike dwagi ky fofuplop.",
         "english": "My duty stays at the bay."
       },
       {
-        "fiwo": "Sluqedu, du usy rete dury rugoxu usy gloke.",
+        "fiwo": "Sluqedu, du usy prure dury rugoxu usy gloke.",
         "english": "Saturday, the 7th of the fourth month."
       },
       {
@@ -3273,7 +3273,7 @@ const storyData = [
         "english": "I counted thirty-five people."
       },
       {
-        "fiwo": "Mik jamid juceup labne romve.",
+        "fiwo": "Mik jamid twaveup labne romve.",
         "english": "I wrote the same weight again."
       },
       {
@@ -3281,19 +3281,19 @@ const storyData = [
         "english": "The numbers were written by me, but the names did not exist."
       },
       {
-        "fiwo": "Retedu, du usy marte dury rugoxu usy gloke.",
+        "fiwo": "Pruredu, du usy marte dury rugoxu usy gloke.",
         "english": "Sunday, the 8th of the fourth month."
       },
       {
-        "fiwo": "Domlop plid dury dup late.",
+        "fiwo": "Domlop brenid dury dup late.",
         "english": "Rain came all day."
       },
       {
-        "fiwo": "Donava je rerbid noky ragop ry sydop mike.",
+        "fiwo": "Donava je dwagid noky ragop ry sydop mike.",
         "english": "The refugees stayed under the roof of my house."
       },
       {
-        "fiwo": "Cada je nes irakid.",
+        "fiwo": "Cada je nes rehid.",
         "english": "The children did not cry."
       },
       {
@@ -3325,7 +3325,7 @@ const storyData = [
         "english": "Nobody knows about it."
       },
       {
-        "fiwo": "Dewedu, du usy bimet nozet dury rugoxu usy gloke.",
+        "fiwo": "Kagedu, du usy bimet nozet dury rugoxu usy gloke.",
         "english": "Tuesday, the 10th of the fourth month."
       },
       {
@@ -3333,11 +3333,11 @@ const storyData = [
         "english": "Four boats arrived."
       },
       {
-        "fiwo": "Mik guamid nofa retet rajet.",
+        "fiwo": "Mik guamid nofa pruret rajet.",
         "english": "I counted seventy-five people."
       },
       {
-        "fiwo": "Juceup labnei rajet dewet rajet nozet.",
+        "fiwo": "Twaveup labnei rajet kaget rajet nozet.",
         "english": "The weight equals five thousand two hundred and fifty."
       },
       {
@@ -3345,7 +3345,7 @@ const storyData = [
         "english": "I wrote that number inside the third column."
       },
       {
-        "fiwo": "Mik jamid hisu retet rajet ty paelop felpe.",
+        "fiwo": "Mik jamid hisu pruret rajet ty paelop felpe.",
         "english": "I wrote seventy-five names on the separate paper."
       },
       {
@@ -3361,7 +3361,7 @@ const storyData = [
         "english": "One woman came from it to me."
       },
       {
-        "fiwo": "Das nes kurid.",
+        "fiwo": "Das nes briwid.",
         "english": "She was not afraid."
       },
       {
@@ -3369,11 +3369,11 @@ const storyData = [
         "english": "Her name is Sadre."
       },
       {
-        "fiwo": "Das gesid tep Mik nes tsis. Mik nacis wy suk.",
+        "fiwo": "Das gesid tep Mik nes fwimis. Mik nacis wy suk.",
         "english": "She said: \"I will not leave. I will work with you.\""
       },
       {
-        "fiwo": "Mik kupid tep Kup suk loki lan jami?",
+        "fiwo": "Mik slezid tep Kup suk loki lan jami?",
         "english": "I asked: \"Do you read and write?\""
       },
       {
@@ -3381,11 +3381,11 @@ const storyData = [
         "english": "She replied: \"No, but I count well.\""
       },
       {
-        "fiwo": "Mik dogid das.",
+        "fiwo": "Mik zupid das.",
         "english": "I let her."
       },
       {
-        "fiwo": "Glokedu, du usy bimet dewet dury rugoxu usy gloke.",
+        "fiwo": "Glokedu, du usy bimet kaget dury rugoxu usy gloke.",
         "english": "Thursday, the 12th of the fourth month."
       },
       {
@@ -3397,7 +3397,7 @@ const storyData = [
         "english": "She told me the number, and I wrote it."
       },
       {
-        "fiwo": "Das nes kupid zety krulop usy raje.",
+        "fiwo": "Das nes slezid zety krulop usy raje.",
         "english": "She did not ask about the fifth column."
       },
       {
@@ -3421,7 +3421,7 @@ const storyData = [
         "english": "She said: \"One hundred and ninety people arrived today.\""
       },
       {
-        "fiwo": "Mik jamid juceup juwe.",
+        "fiwo": "Mik jamid twaveup juwe.",
         "english": "I wrote only the weight."
       },
       {
@@ -3441,7 +3441,7 @@ const storyData = [
         "english": "She did not speak for a time."
       },
       {
-        "fiwo": "Peze das kupid tep Kup fos falmiop rodle?",
+        "fiwo": "Peze das slezid tep Kup fos falmiop trive?",
         "english": "Then she asked: \"Is that a true report?\""
       },
       {
@@ -3449,7 +3449,7 @@ const storyData = [
         "english": "I replied: \"No. That is my report.\""
       },
       {
-        "fiwo": "Retedu, du usy bimet rajet dury rugoxu usy gloke.",
+        "fiwo": "Pruredu, du usy bimet rajet dury rugoxu usy gloke.",
         "english": "Sunday, the 15th of the fourth month."
       },
       {
@@ -3477,7 +3477,7 @@ const storyData = [
         "english": "Monday, the 16th of the fourth month."
       },
       {
-        "fiwo": "Mik kupid Verun zety taqa ry Sadre.",
+        "fiwo": "Mik slezid Verun zety taqa ry Sadre.",
         "english": "I asked Verun about Sadre's brother."
       },
       {
@@ -3493,11 +3493,11 @@ const storyData = [
         "english": "I did not agree, but I did not speak again."
       },
       {
-        "fiwo": "Dewedu, du usy bimet retet dury rugoxu usy gloke.",
+        "fiwo": "Kagedu, du usy bimet pruret dury rugoxu usy gloke.",
         "english": "Tuesday, the 17th of the fourth month."
       },
       {
-        "fiwo": "Boto rete joborid dury rugoxup fose.",
+        "fiwo": "Boto prure joborid dury rugoxup fose.",
         "english": "Seven boats arrived that month."
       },
       {
@@ -3505,7 +3505,7 @@ const storyData = [
         "english": "Four hundred people arrived at the bay."
       },
       {
-        "fiwo": "Falmiop gesi tep juceup labnei dewet martet nozet nozet nozet.",
+        "fiwo": "Falmiop gesi tep twaveup labnei kaget martet nozet nozet nozet.",
         "english": "The report says that the weight equals twenty-eight thousand."
       },
       {
@@ -3513,7 +3513,7 @@ const storyData = [
         "english": "It does not say that a person arrived."
       },
       {
-        "fiwo": "Rajedu, du usy dewet nozet dury rugoxu usy gloke.",
+        "fiwo": "Rajedu, du usy kaget nozet dury rugoxu usy gloke.",
         "english": "Friday, the 20th of the fourth month."
       },
       {
@@ -3525,7 +3525,7 @@ const storyData = [
         "english": "He said: \"Your report is good again.\""
       },
       {
-        "fiwo": "Daq tsid.",
+        "fiwo": "Daq fwimid.",
         "english": "He left."
       },
       {
@@ -3537,11 +3537,11 @@ const storyData = [
         "english": "I did not speak again."
       },
       {
-        "fiwo": "Dugup joze plid.",
+        "fiwo": "Dugup dwime brenid.",
         "english": "A long night came."
       },
       {
-        "fiwo": "Dewedu, du usy bime dury rugoxu usy raje.",
+        "fiwo": "Kagedu, du usy bime dury rugoxu usy raje.",
         "english": "Tuesday, the 1st of the fifth month."
       },
       {
@@ -3565,7 +3565,7 @@ const storyData = [
         "english": "She said: \"Three hundred people arrived today.\""
       },
       {
-        "fiwo": "Mik jamid juceup juwe.",
+        "fiwo": "Mik jamid twaveup juwe.",
         "english": "I wrote only the weight."
       },
       {
@@ -3581,7 +3581,7 @@ const storyData = [
         "english": "He gave me a document by means of a boat."
       },
       {
-        "fiwo": "Jamiop gesi tep Kop jami lizogop juwe. Kop nes jami hisur. Fos ikup nudu.",
+        "fiwo": "Jamiop gesi tep Kop jami lizogop juwe. Kop nes jami hisur. Fos tifup nudu.",
         "english": "The document says: \"Write only the cargo. Do not write a name. That is the law now.\""
       },
       {
@@ -3597,7 +3597,7 @@ const storyData = [
         "english": "Friday, the 4th of the fifth month."
       },
       {
-        "fiwo": "Sadre kupid tep Kup jamiop gesid wat?",
+        "fiwo": "Sadre slezid tep Kup jamiop gesid wat?",
         "english": "Sadre asked: \"What did the document say?\""
       },
       {
@@ -3609,11 +3609,11 @@ const storyData = [
         "english": "She did not speak."
       },
       {
-        "fiwo": "Retedu, du usy sluqe dury rugoxu usy raje.",
+        "fiwo": "Pruredu, du usy sluqe dury rugoxu usy raje.",
         "english": "Sunday, the 6th of the fifth month."
       },
       {
-        "fiwo": "Domlop plid.",
+        "fiwo": "Domlop brenid.",
         "english": "Rain came."
       },
       {
@@ -3621,7 +3621,7 @@ const storyData = [
         "english": "No boat arrived."
       },
       {
-        "fiwo": "Dewedu, du usy marte dury rugoxu usy raje.",
+        "fiwo": "Kagedu, du usy marte dury rugoxu usy raje.",
         "english": "Tuesday, the 8th of the fifth month."
       },
       {
@@ -3629,11 +3629,11 @@ const storyData = [
         "english": "Fog arrived during the night."
       },
       {
-        "fiwo": "Mik nes nojaid gikosop.",
+        "fiwo": "Mik nes tsejaid gikosop.",
         "english": "I did not see the coast."
       },
       {
-        "fiwo": "Mik nojapid tandorsop bul mik nes nojaid botor.",
+        "fiwo": "Mik tsejapid tubsop bul mik nes tsejaid botor.",
         "english": "I watched the sea, but I did not see a boat."
       },
       {
@@ -3641,7 +3641,7 @@ const storyData = [
         "english": "Wednesday, the 9th of the fifth month."
       },
       {
-        "fiwo": "Cobop rerbid.",
+        "fiwo": "Cobop dwagid.",
         "english": "The fog stayed."
       },
       {
@@ -3653,7 +3653,7 @@ const storyData = [
         "english": "I went to the shore with my lamp."
       },
       {
-        "fiwo": "Nofa tafet bimet rerbid deky botop.",
+        "fiwo": "Nofa tafet bimet dwagid deky botop.",
         "english": "Thirty-one people stayed inside the boat."
       },
       {
@@ -3673,7 +3673,7 @@ const storyData = [
         "english": "The first soldier said: \"Do not count the people. Write the cargo.\""
       },
       {
-        "fiwo": "Mik kupid tep Kup dal je tsis zy wer?",
+        "fiwo": "Mik slezid tep Kup dal je fwimis zy wer?",
         "english": "I asked: \"Where will they go to?\""
       },
       {
@@ -3681,7 +3681,7 @@ const storyData = [
         "english": "He did not answer me."
       },
       {
-        "fiwo": "Daq gesid tep Kop jami juceup. Fos late.",
+        "fiwo": "Daq gesid tep Kop jami twaveup. Fos late.",
         "english": "He said: \"Write the weight. That is all.\""
       },
       {
@@ -3693,7 +3693,7 @@ const storyData = [
         "english": "I wrote that the boat arrived with cargo."
       },
       {
-        "fiwo": "Mik jamid tep juceup labnei dewet bimet retet nozet.",
+        "fiwo": "Mik jamid tep twaveup labnei kaget bimet pruret nozet.",
         "english": "I wrote that the weight equals two thousand one hundred and seventy."
       },
       {
@@ -3713,7 +3713,7 @@ const storyData = [
         "english": "Thursday, the 10th of the fifth month."
       },
       {
-        "fiwo": "Nofa tafet bimet rerbid noky ragop.",
+        "fiwo": "Nofa tafet bimet dwagid noky ragop.",
         "english": "The thirty-one people stayed under the roof."
       },
       {
@@ -3721,7 +3721,7 @@ const storyData = [
         "english": "Sadre gave them food."
       },
       {
-        "fiwo": "Casla bime kupid tep Kup suk gikosoa?",
+        "fiwo": "Casla bime slezid tep Kup suk gikosoa?",
         "english": "One girl asked: \"Are you a coast worker?\""
       },
       {
@@ -3753,7 +3753,7 @@ const storyData = [
         "english": "A boat arrived during the night."
       },
       {
-        "fiwo": "Erua je plid romve.",
+        "fiwo": "Erua je brenid romve.",
         "english": "The soldiers came again."
       },
       {
@@ -3761,31 +3761,31 @@ const storyData = [
         "english": "Thirty people were carried to the boat."
       },
       {
-        "fiwo": "Fap dal je nes kupid.",
+        "fiwo": "Fap dal je nes slezid.",
         "english": "They were not asked."
       },
       {
-        "fiwo": "Botop tsid zy ostup pary litop.",
+        "fiwo": "Botop fwimid zy ostup pary litop.",
         "english": "The boat left toward the east before daylight."
       },
       {
-        "fiwo": "Mik jamid tep botop tsid wy lizogop.",
+        "fiwo": "Mik jamid tep botop fwimid wy lizogop.",
         "english": "I wrote that the boat left with cargo."
       },
       {
-        "fiwo": "Mik jamid tep juceup labnei dewet bimet nozet nozet.",
+        "fiwo": "Mik jamid tep twaveup labnei kaget bimet nozet nozet.",
         "english": "I wrote that the weight equals two thousand one hundred."
       },
       {
-        "fiwo": "Sluqedu, du usy bimet dewet dury rugoxu usy raje.",
+        "fiwo": "Sluqedu, du usy bimet kaget dury rugoxu usy raje.",
         "english": "Saturday, the 12th of the fifth month."
       },
       {
-        "fiwo": "Immo rerbid ky sydop mike.",
+        "fiwo": "Immo dwagid ky sydop mike.",
         "english": "Immo stayed at my house."
       },
       {
-        "fiwo": "Das juwe rerbid.",
+        "fiwo": "Das juwe dwagid.",
         "english": "She alone stayed."
       },
       {
@@ -3793,7 +3793,7 @@ const storyData = [
         "english": "I counted the people again and found one number."
       },
       {
-        "fiwo": "Nofa tafet bimet joborid bul nofa tafet nozet tsid.",
+        "fiwo": "Nofa tafet bimet joborid bul nofa tafet nozet fwimid.",
         "english": "Thirty-one people arrived, but thirty people left."
       },
       {
@@ -3805,7 +3805,7 @@ const storyData = [
         "english": "Immo did not speak about that."
       },
       {
-        "fiwo": "Retedu, du usy bimet tafet dury rugoxu usy raje.",
+        "fiwo": "Pruredu, du usy bimet tafet dury rugoxu usy raje.",
         "english": "Sunday, the 13th of the fifth month."
       },
       {
@@ -3817,15 +3817,15 @@ const storyData = [
         "english": "She found the ninth day and the eleventh day."
       },
       {
-        "fiwo": "Juceup ap retet nozet labnei tafet nozet.",
+        "fiwo": "Twaveup ap pruret nozet labnei tafet nozet.",
         "english": "The weight divided by seventy equals thirty."
       },
       {
-        "fiwo": "Das gesid tep Botop nyrsid nofa tafet nozet. Falmiop gesi juceup juwe.",
+        "fiwo": "Das gesid tep Botop nyrsid nofa tafet nozet. Falmiop gesi twaveup juwe.",
         "english": "She said: \"The boat carried thirty people. The report says only the weight.\""
       },
       {
-        "fiwo": "Das kupid tep Kup taqa mike rerbid deky botop?",
+        "fiwo": "Das slezid tep Kup taqa mike dwagid deky botop?",
         "english": "She asked: \"Did my brother stay inside the boat?\""
       },
       {
@@ -3833,11 +3833,11 @@ const storyData = [
         "english": "I did not answer her."
       },
       {
-        "fiwo": "Falmiop nes gesi hisup ry nofap tep tsid tel.",
+        "fiwo": "Falmiop nes gesi hisup ry nofap tep fwimid tel.",
         "english": "The report does not say the name of the person who left."
       },
       {
-        "fiwo": "Ram gesi juceup juwe.",
+        "fiwo": "Ram gesi twaveup juwe.",
         "english": "It says only the weight."
       },
       {
@@ -3869,7 +3869,7 @@ const storyData = [
         "english": "I did not find a first name."
       },
       {
-        "fiwo": "Dewedu, du usy bimet rajet dury rugoxu usy raje.",
+        "fiwo": "Kagedu, du usy bimet rajet dury rugoxu usy raje.",
         "english": "Tuesday, the 15th of the fifth month."
       },
       {
@@ -3885,7 +3885,7 @@ const storyData = [
         "english": "He said: \"Your report is correct. You have worked well.\""
       },
       {
-        "fiwo": "Mik kupid tep Kup falmiop rodlei?",
+        "fiwo": "Mik slezid tep Kup falmiop trivei?",
         "english": "I asked: \"Is the report true?\""
       },
       {
@@ -3893,11 +3893,11 @@ const storyData = [
         "english": "He did not answer me."
       },
       {
-        "fiwo": "Daq gesid tep Ikup nes kupi zety rodleup. Ram kupi zety gup juwe.",
+        "fiwo": "Daq gesid tep Tifup nes slezi zety triveup. Ram slezi zety gup juwe.",
         "english": "He said: \"The law does not ask about truth. It asks only about numbers.\""
       },
       {
-        "fiwo": "Daq tsid.",
+        "fiwo": "Daq fwimid.",
         "english": "He left."
       },
       {
@@ -3921,11 +3921,11 @@ const storyData = [
         "english": "She said the names of the people again."
       },
       {
-        "fiwo": "Das ebmerid dal je late.",
+        "fiwo": "Das rarid dal je late.",
         "english": "She remembers them all."
       },
       {
-        "fiwo": "Glokedu, du usy bimet retet dury rugoxu usy raje.",
+        "fiwo": "Glokedu, du usy bimet pruret dury rugoxu usy raje.",
         "english": "Thursday, the 17th of the fifth month."
       },
       {
@@ -3953,7 +3953,7 @@ const storyData = [
         "english": "I took my pen and wrote the first name on it."
       },
       {
-        "fiwo": "Immo gesid hisup usy dewe zy mik.",
+        "fiwo": "Immo gesid hisup usy kage zy mik.",
         "english": "Immo told me the second name."
       },
       {
@@ -3961,7 +3961,7 @@ const storyData = [
         "english": "I wrote it."
       },
       {
-        "fiwo": "Das gesid hisu je fecy tequp joze.",
+        "fiwo": "Das gesid hisu je fecy tequp dwime.",
         "english": "She said the names for a long while."
       },
       {
@@ -3981,7 +3981,7 @@ const storyData = [
         "english": "Verun will not read them."
       },
       {
-        "fiwo": "Ikup nes dogi ram je.",
+        "fiwo": "Tifup nes zupi ram je.",
         "english": "The law does not allow them."
       },
       {
@@ -3989,7 +3989,7 @@ const storyData = [
         "english": "However, they exist now."
       },
       {
-        "fiwo": "Sadre plid bef das lokid baxyop.",
+        "fiwo": "Sadre brenid bef das lokid baxyop.",
         "english": "Sadre came and read the back."
       },
       {
@@ -3997,7 +3997,7 @@ const storyData = [
         "english": "She found her brother's name."
       },
       {
-        "fiwo": "Das nes irakid.",
+        "fiwo": "Das nes rehid.",
         "english": "She did not cry."
       },
       {
@@ -4009,11 +4009,11 @@ const storyData = [
         "english": "Friday, the 18th of the fifth month."
       },
       {
-        "fiwo": "Boto dewe joborid.",
+        "fiwo": "Boto kage joborid.",
         "english": "Two boats arrived."
       },
       {
-        "fiwo": "Mik guamid lizogop bef mik jamid juceup.",
+        "fiwo": "Mik guamid lizogop bef mik jamid twaveup.",
         "english": "I counted the cargo and then wrote the weight."
       },
       {
@@ -4025,7 +4025,7 @@ const storyData = [
         "english": "I will write them every day."
       },
       {
-        "fiwo": "Falmiop nes rodlei bul ram nes okezu romve.",
+        "fiwo": "Falmiop nes trivei bul ram nes okezu romve.",
         "english": "The report is not true, but it is no longer a lie."
       },
       {
@@ -4046,7 +4046,7 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Xyrop rerbid zory sydop dewe.",
+        "fiwo": "Xyrop dwagid zory sydop kage.",
         "english": "The shop stood between two houses."
       },
       {
@@ -4058,7 +4058,7 @@ const storyData = [
         "english": "Dust filled its window."
       },
       {
-        "fiwo": "Miho je rerbid jany krapop.",
+        "fiwo": "Miho je dwagid jany krapop.",
         "english": "Shelves stood against the wall."
       },
       {
@@ -4066,7 +4066,7 @@ const storyData = [
         "english": "They are empty now."
       },
       {
-        "fiwo": "Degop tande rerbid nizy hoxop.",
+        "fiwo": "Degop tande dwagid nizy hoxop.",
         "english": "A big table stood in front of the door."
       },
       {
@@ -4082,11 +4082,11 @@ const storyData = [
         "english": "Since that day nobody has opened the door."
       },
       {
-        "fiwo": "Lusop rerbid deky plahop.",
+        "fiwo": "Lusop dwagid deky plahop.",
         "english": "The key stayed inside the lock."
       },
       {
-        "fiwo": "Litop plid zofy wilop sanpoe.",
+        "fiwo": "Litop brenid zofy wilop sanpoe.",
         "english": "Light came through the dusty window."
       },
       {
@@ -4106,7 +4106,7 @@ const storyData = [
         "english": "This is Tolven's shop."
       },
       {
-        "fiwo": "Nofa gloke plid zy ram dury dup usy zewe.",
+        "fiwo": "Nofa gloke brenid zy ram dury dup usy zewe.",
         "english": "Four people came to it on the ninth day."
       },
       {
@@ -4118,7 +4118,7 @@ const storyData = [
         "english": "She is the first child."
       },
       {
-        "fiwo": "Das nacid deky xyrop dury jaru dewet dewet.",
+        "fiwo": "Das nacid deky xyrop dury jaru kaget kaget.",
         "english": "She worked inside the shop for twenty-two years."
       },
       {
@@ -4130,11 +4130,11 @@ const storyData = [
         "english": "His name is Rumo."
       },
       {
-        "fiwo": "Daq cada usy dewe.",
+        "fiwo": "Daq cada usy kage.",
         "english": "He is the second child."
       },
       {
-        "fiwo": "Daq tsid zy jurop dury jaru bimet martet rivahe.",
+        "fiwo": "Daq fwimid zy jurop dury jaru bimet martet rivahe.",
         "english": "He left for the city eighteen years ago."
       },
       {
@@ -4166,7 +4166,7 @@ const storyData = [
         "english": "He is a man who handles money."
       },
       {
-        "fiwo": "Daq jedid pano dewe deky zabatop daqe.",
+        "fiwo": "Daq jedid nibo kage deky zabatop daqe.",
         "english": "He had two books inside his bag."
       },
       {
@@ -4182,15 +4182,15 @@ const storyData = [
         "english": "Nobody spoke."
       },
       {
-        "fiwo": "Rumo nojaid miho je nufe.",
+        "fiwo": "Rumo tsejaid miho je nufe.",
         "english": "Rumo saw the empty shelves."
       },
       {
-        "fiwo": "Daq nes nojapid ram je dury jaru je.",
+        "fiwo": "Daq nes tsejapid ram je dury jaru je.",
         "english": "He had not looked at them for years."
       },
       {
-        "fiwo": "Pesla rerbid hemy hoxop.",
+        "fiwo": "Pesla dwagid hemy hoxop.",
         "english": "Pesla stayed near the door."
       },
       {
@@ -4198,15 +4198,15 @@ const storyData = [
         "english": "She did not want to go inside it."
       },
       {
-        "fiwo": "Gawin stelid pano dewe ty degop.",
+        "fiwo": "Gawin stelid nibo kage ty degop.",
         "english": "Gawin put two books on the table."
       },
       {
-        "fiwo": "Daq guamid sanpop mety fukap daqe bef daq nes gesid.",
+        "fiwo": "Daq guamid sanpop mety wusap daqe bef daq nes gesid.",
         "english": "He measured the dust with his hand and did not speak."
       },
       {
-        "fiwo": "Ilka plid wy xiolo gloke.",
+        "fiwo": "Ilka brenid wy xiolo gloke.",
         "english": "Ilka came with four chairs."
       },
       {
@@ -4214,7 +4214,7 @@ const storyData = [
         "english": "The four people sat near the table."
       },
       {
-        "fiwo": "Gawin xosid panop usy bime.",
+        "fiwo": "Gawin xosid nibop usy bime.",
         "english": "Gawin opened the first book."
       },
       {
@@ -4226,7 +4226,7 @@ const storyData = [
         "english": "Ilka replied that she had known that."
       },
       {
-        "fiwo": "Rumo kupid tep das wible gesi kaniup dase.",
+        "fiwo": "Rumo slezid tep das wible gesi kaniup dase.",
         "english": "Rumo asked her to say what she knew."
       },
       {
@@ -4238,7 +4238,7 @@ const storyData = [
         "english": "Rumo did not reply."
       },
       {
-        "fiwo": "Gawin lokid panop igy dewe bef daq gesid lateup.",
+        "fiwo": "Gawin lokid nibop igy kage bef daq gesid lateup.",
         "english": "Gawin read the book twice and then said the total."
       },
       {
@@ -4246,7 +4246,7 @@ const storyData = [
         "english": "He said that the price of the shop equals nine hundred."
       },
       {
-        "fiwo": "Rop daq gesid tep nicup ry Tolven labnei bimet dewet nozet nozet.",
+        "fiwo": "Rop daq gesid tep nicup ry Tolven labnei bimet kaget nozet nozet.",
         "english": "He said that Tolven's debt equals one thousand two hundred."
       },
       {
@@ -4282,7 +4282,7 @@ const storyData = [
         "english": "Pesla did not accept that her father had had no money."
       },
       {
-        "fiwo": "Gawin hadid tep panop gesi fos.",
+        "fiwo": "Gawin hadid tep nibop gesi fos.",
         "english": "Gawin replied that the book says that."
       },
       {
@@ -4298,7 +4298,7 @@ const storyData = [
         "english": "She said that the people of the city bought food from him every day."
       },
       {
-        "fiwo": "Gawin gesid tep fos rodleu bul ram nes lateup.",
+        "fiwo": "Gawin gesid tep fos triveu bul ram nes lateup.",
         "english": "Gawin said that this is true, but that it is not the total."
       },
       {
@@ -4334,7 +4334,7 @@ const storyData = [
         "english": "Gawin did not reply."
       },
       {
-        "fiwo": "Daq beatid panop usy bime bef daq stelid ram ty degop.",
+        "fiwo": "Daq beatid nibop usy bime bef daq stelid ram ty degop.",
         "english": "He closed the first book and put it on the table."
       },
       {
@@ -4342,7 +4342,7 @@ const storyData = [
         "english": "Rumo got up and went to the window."
       },
       {
-        "fiwo": "Daq nojaid fikop zofy sanpop.",
+        "fiwo": "Daq tsejaid tivwop zofy sanpop.",
         "english": "He looked at the road through the dust."
       },
       {
@@ -4350,11 +4350,11 @@ const storyData = [
         "english": "He did not speak for a moment."
       },
       {
-        "fiwo": "Peze daq kupid tep nofar gidsis xyrop.",
+        "fiwo": "Peze daq slezid tep nofar gidsis xyrop.",
         "english": "Later he asked whether anyone would buy the shop."
       },
       {
-        "fiwo": "Gawin gesid tep nofa dewe kupid zety ram bul dal je jyqid ram foly nicup.",
+        "fiwo": "Gawin gesid tep nofa kage slezid zety ram bul dal je jyqid ram foly nicup.",
         "english": "Gawin said that two people had asked about it, but that they had refused it after the debt."
       },
       {
@@ -4366,7 +4366,7 @@ const storyData = [
         "english": "Rumo went back to his chair."
       },
       {
-        "fiwo": "Pesla nytaid bef das upycid fukap dase.",
+        "fiwo": "Pesla nytaid bef das upycid wusap dase.",
         "english": "Pesla breathed in, and then looked at her hands."
       },
       {
@@ -4374,7 +4374,7 @@ const storyData = [
         "english": "Ilka did not move."
       },
       {
-        "fiwo": "Das nojaid mihop tep Tolven stelid batap ty tel.",
+        "fiwo": "Das tsejaid mihop tep Tolven stelid batap ty tel.",
         "english": "She looked at the shelf that Tolven had put food on."
       },
       {
@@ -4386,7 +4386,7 @@ const storyData = [
         "english": "Then Gawin said that they should tell him a number."
       },
       {
-        "fiwo": "Rumo hadid nizy saqa daqe je.",
+        "fiwo": "Rumo hadid nizy browa daqe je.",
         "english": "Rumo answered in front of his siblings."
       },
       {
@@ -4458,7 +4458,7 @@ const storyData = [
         "english": "Rumo did not reply."
       },
       {
-        "fiwo": "Ilka gesid tep dal je nes guami rodleup.",
+        "fiwo": "Ilka gesid tep dal je nes guami triveup.",
         "english": "Ilka said that they are not calculating the truth."
       },
       {
@@ -4466,7 +4466,7 @@ const storyData = [
         "english": "The three people looked at her."
       },
       {
-        "fiwo": "Rop das gesid tep das nacid deky xyrop dury jaru dewet dewet.",
+        "fiwo": "Rop das gesid tep das nacid deky xyrop dury jaru kaget kaget.",
         "english": "She said that she had worked inside the shop for twenty-two years."
       },
       {
@@ -4474,7 +4474,7 @@ const storyData = [
         "english": "She said that Tolven had never paid her once."
       },
       {
-        "fiwo": "Das kupid tep dal je plolsoi naciup dase.",
+        "fiwo": "Das slezid tep dal je plolsoi naciup dase.",
         "english": "She asked them to put a price on her labour."
       },
       {
@@ -4482,7 +4482,7 @@ const storyData = [
         "english": "Gawin did not reply."
       },
       {
-        "fiwo": "Das gesid tep syn nofar nacis dury jaru dewet dewet can nofap fose jedis hokeltur.",
+        "fiwo": "Das gesid tep syn nofar nacis dury jaru kaget kaget can nofap fose jedis hokeltur.",
         "english": "She said that if a person works for twenty-two years, then that person will have an income."
       },
       {
@@ -4502,11 +4502,11 @@ const storyData = [
         "english": "The silence came back."
       },
       {
-        "fiwo": "Gawin xosid panop usy dewe.",
+        "fiwo": "Gawin xosid nibop usy kage.",
         "english": "Gawin opened the second book."
       },
       {
-        "fiwo": "Panop usy dewe waskei taly panop usy bime.",
+        "fiwo": "Nibop usy kage waskei taly nibop usy bime.",
         "english": "The second book is older than the first book."
       },
       {
@@ -4522,7 +4522,7 @@ const storyData = [
         "english": "Then he said that the debt is not one."
       },
       {
-        "fiwo": "Rop daq gesid tep ram dewei.",
+        "fiwo": "Rop daq gesid tep ram kagei.",
         "english": "He said that it is two."
       },
       {
@@ -4534,11 +4534,11 @@ const storyData = [
         "english": "Gawin said that the first debt equals nine hundred and sixty."
       },
       {
-        "fiwo": "Rop daq gesid tep Tolven bailid gup fose dury jaru je.",
+        "fiwo": "Rop daq gesid tep Tolven futid gup fose dury jaru je.",
         "english": "He said that Tolven had borrowed that money over many years."
       },
       {
-        "fiwo": "Daq gesid tep Tolven bailid ram cagy batap lan mihop lan hoxop.",
+        "fiwo": "Daq gesid tep Tolven futid ram cagy batap lan mihop lan hoxop.",
         "english": "He said that Tolven had borrowed it for food, shelves and a door."
       },
       {
@@ -4546,15 +4546,15 @@ const storyData = [
         "english": "He said that the first debt is part of the shop."
       },
       {
-        "fiwo": "Gawin gesid tep nicup usy dewe labnei dewet gloket nozet.",
+        "fiwo": "Gawin gesid tep nicup usy kage labnei kaget gloket nozet.",
         "english": "Gawin said that the second debt equals two hundred and forty."
       },
       {
-        "fiwo": "Rop daq gesid tep Tolven bailid ram dury du bime.",
+        "fiwo": "Rop daq gesid tep Tolven futid ram dury du bime.",
         "english": "He said that Tolven had borrowed it on a single day."
       },
       {
-        "fiwo": "Rop daq gesid tep daq nes bailid ram cagy xyrop.",
+        "fiwo": "Rop daq gesid tep daq nes futid ram cagy xyrop.",
         "english": "He said that he had not borrowed it for the shop."
       },
       {
@@ -4562,7 +4562,7 @@ const storyData = [
         "english": "Rumo did not speak."
       },
       {
-        "fiwo": "Ilka nes upycid panop.",
+        "fiwo": "Ilka nes upycid nibop.",
         "english": "Ilka did not look at the book."
       },
       {
@@ -4570,11 +4570,11 @@ const storyData = [
         "english": "She looked at Pesla."
       },
       {
-        "fiwo": "Gawin lokid dup ry nicup usy dewe.",
+        "fiwo": "Gawin lokid dup ry nicup usy kage.",
         "english": "Gawin read the date of the second debt."
       },
       {
-        "fiwo": "Rop daq gesid tep Tolven bailid dewet gloket nozet dury jaru sluqe rivahe.",
+        "fiwo": "Rop daq gesid tep Tolven futid kaget gloket nozet dury jaru sluqe rivahe.",
         "english": "He said that Tolven had borrowed two hundred and forty six years ago."
       },
       {
@@ -4590,11 +4590,11 @@ const storyData = [
         "english": "Rumo worked the year out aloud."
       },
       {
-        "fiwo": "Daq gesid tep jarup fose labnei jarup tep Pesla tsid zy jurop dury tel.",
+        "fiwo": "Daq gesid tep jarup fose labnei jarup tep Pesla fwimid zy jurop dury tel.",
         "english": "He said that that year is the same year that Pesla left for the city in."
       },
       {
-        "fiwo": "Pesla stelid fukap dase fy degop.",
+        "fiwo": "Pesla stelid wusap dase fy degop.",
         "english": "Pesla took her hand off the table."
       },
       {
@@ -4602,7 +4602,7 @@ const storyData = [
         "english": "She sat down on the chair."
       },
       {
-        "fiwo": "Ilka rerbid bul das nes gesid.",
+        "fiwo": "Ilka dwagid bul das nes gesid.",
         "english": "Ilka stayed, but she did not speak."
       },
       {
@@ -4610,15 +4610,15 @@ const storyData = [
         "english": "Then Pesla said that she had taken money from her father that year."
       },
       {
-        "fiwo": "Rop das gesid tep das jedid jaru dewet nozet dury dup fose.",
+        "fiwo": "Rop das gesid tep das jedid jaru kaget nozet dury dup fose.",
         "english": "She said that she had been twenty years old on that day."
       },
       {
-        "fiwo": "Rop das gesid tep das kocid gidup dawy cadap dase.",
+        "fiwo": "Rop das gesid tep das vepid gidup dawy cadap dase.",
         "english": "She said that she had needed the money because of her child."
       },
       {
-        "fiwo": "Das gesid tep das wible nes bailid ram.",
+        "fiwo": "Das gesid tep das wible nes futid ram.",
         "english": "She said that she had not borrowed it."
       },
       {
@@ -4626,15 +4626,15 @@ const storyData = [
         "english": "She said that her father had given it to her."
       },
       {
-        "fiwo": "Gawin dzefid tep panop gesi gup labne.",
+        "fiwo": "Gawin dzefid tep nibop gesi gup labne.",
         "english": "Gawin agreed that the book says the same number."
       },
       {
-        "fiwo": "Rop daq gesid tep Tolven stomid dewet gloket nozet zy das dury dup labne.",
+        "fiwo": "Rop daq gesid tep Tolven stomid kaget gloket nozet zy das dury dup labne.",
         "english": "He said that Tolven had given two hundred and forty to her on the same day."
       },
       {
-        "fiwo": "Daq gesid tep Tolven bailid ram pary dup fose.",
+        "fiwo": "Daq gesid tep Tolven futid ram pary dup fose.",
         "english": "He said that Tolven had borrowed it before that day."
       },
       {
@@ -4642,7 +4642,7 @@ const storyData = [
         "english": "Pesla had not known that."
       },
       {
-        "fiwo": "Das kupid tep Gawin loki dup romve.",
+        "fiwo": "Das slezid tep Gawin loki dup romve.",
         "english": "She asked Gawin to read the date again."
       },
       {
@@ -4654,7 +4654,7 @@ const storyData = [
         "english": "He said that the days are the same."
       },
       {
-        "fiwo": "Pesla irakid.",
+        "fiwo": "Pesla rehid.",
         "english": "Pesla cried."
       },
       {
@@ -4682,7 +4682,7 @@ const storyData = [
         "english": "She said that she had not known that the money belonged to a moneylender."
       },
       {
-        "fiwo": "Gawin gesid tep fos rodleu.",
+        "fiwo": "Gawin gesid tep fos triveu.",
         "english": "Gawin said that this is true."
       },
       {
@@ -4718,7 +4718,7 @@ const storyData = [
         "english": "Rumo did not accept it."
       },
       {
-        "fiwo": "Peze daq kupid tep Gawin gesi kaniup daqe.",
+        "fiwo": "Peze daq slezid tep Gawin gesi kaniup daqe.",
         "english": "Then he asked Gawin to say what he knew."
       },
       {
@@ -4726,7 +4726,7 @@ const storyData = [
         "english": "Gawin said that he himself had known it for six years."
       },
       {
-        "fiwo": "Rop daq gesid tep Tolven plid zy daq dury dup fose.",
+        "fiwo": "Rop daq gesid tep Tolven brenid zy daq dury dup fose.",
         "english": "He said that Tolven had come to him on that day."
       },
       {
@@ -4746,7 +4746,7 @@ const storyData = [
         "english": "She said that Tolven had told her on the same night."
       },
       {
-        "fiwo": "Das gesid tep pebap dase kupid tep das wible zanki fos.",
+        "fiwo": "Das gesid tep pebap dase slezid tep das wible zanki fos.",
         "english": "She said that her father had asked her to hide it."
       },
       {
@@ -4758,7 +4758,7 @@ const storyData = [
         "english": "Rumo got up from his chair."
       },
       {
-        "fiwo": "Daq gesid tep das wible zankid rodleup dury jaru sluqe.",
+        "fiwo": "Daq gesid tep das wible zankid triveup dury jaru sluqe.",
         "english": "He said that she had hidden the truth for six years."
       },
       {
@@ -4766,7 +4766,7 @@ const storyData = [
         "english": "Ilka did not reply."
       },
       {
-        "fiwo": "Das upycid fukap dase.",
+        "fiwo": "Das upycid wusap dase.",
         "english": "She looked at her hands."
       },
       {
@@ -4790,23 +4790,23 @@ const storyData = [
         "english": "Ilka replied that it is large to her."
       },
       {
-        "fiwo": "Pesla upycid Ilka bef das kupid tep Ilka gesi rodleup.",
+        "fiwo": "Pesla upycid Ilka bef das slezid tep Ilka gesi triveup.",
         "english": "Pesla looked at Ilka and asked her to say the truth."
       },
       {
-        "fiwo": "Ilka gesid tep Tolven kurid ofxup ry Pesla.",
+        "fiwo": "Ilka gesid tep Tolven briwid ofxup ry Pesla.",
         "english": "Ilka said that Tolven had feared shame for Pesla."
       },
       {
-        "fiwo": "Rop das gesid tep daq nes fabid tep Pesla kuri ofxup.",
+        "fiwo": "Rop das gesid tep daq nes fabid tep Pesla briwi ofxup.",
         "english": "She said that he had not wanted Pesla to feel shame."
       },
       {
-        "fiwo": "Das gesid tep Tolven fabid tep das je nes kani rodleup.",
+        "fiwo": "Das gesid tep Tolven fabid tep das je nes kani triveup.",
         "english": "She said that Tolven had wanted them not to know the truth."
       },
       {
-        "fiwo": "Pesla nes irakid nu.",
+        "fiwo": "Pesla nes rehid nu.",
         "english": "Pesla was not crying now."
       },
       {
@@ -4814,11 +4814,11 @@ const storyData = [
         "english": "She went quiet."
       },
       {
-        "fiwo": "Peze das gesid tep folkunup dase nes kocid zankiup.",
+        "fiwo": "Peze das gesid tep folkunup dase nes vepid zankiup.",
         "english": "Later she said that her dignity had not needed concealment."
       },
       {
-        "fiwo": "Rop das gesid tep das kocid rodleup dury jaru sluqe.",
+        "fiwo": "Rop das gesid tep das vepid triveup dury jaru sluqe.",
         "english": "She said that she had needed the truth six years ago."
       },
       {
@@ -4826,7 +4826,7 @@ const storyData = [
         "english": "Ilka did not reply."
       },
       {
-        "fiwo": "Gawin beatid panop usy dewe.",
+        "fiwo": "Gawin beatid nibop usy kage.",
         "english": "Gawin closed the second book."
       },
       {
@@ -4858,11 +4858,11 @@ const storyData = [
         "english": "He said that the debt that is part of the shop leaves sixty."
       },
       {
-        "fiwo": "Gup fose ap tafe labnei dewet nozet.",
+        "fiwo": "Gup fose ap tafe labnei kaget nozet.",
         "english": "That number divided by three equals twenty."
       },
       {
-        "fiwo": "Rop daq gesid tep hedcup byceve labnei dewet nozet.",
+        "fiwo": "Rop daq gesid tep hedcup byceve labnei kaget nozet.",
         "english": "He said that each share equals twenty."
       },
       {
@@ -4870,7 +4870,7 @@ const storyData = [
         "english": "Gawin agreed."
       },
       {
-        "fiwo": "Daq gesid tep nicup usy dewe nes jy xyrop.",
+        "fiwo": "Daq gesid tep nicup usy kage nes jy xyrop.",
         "english": "He said that the second debt is not part of the shop."
       },
       {
@@ -4878,15 +4878,15 @@ const storyData = [
         "english": "He said that it is part of Pesla."
       },
       {
-        "fiwo": "Hedcup dase jicy nicup usy dewe labnei dewet sluqet nozet.",
+        "fiwo": "Hedcup dase jicy nicup usy kage labnei kaget sluqet nozet.",
         "english": "Her share plus the second debt equals two hundred and sixty."
       },
       {
-        "fiwo": "Daq gesid tep hedcup ry Pesla labnei dewet sluqet nozet.",
+        "fiwo": "Daq gesid tep hedcup ry Pesla labnei kaget sluqet nozet.",
         "english": "He said that Pesla's share equals two hundred and sixty."
       },
       {
-        "fiwo": "Hedcup usy bime jicy hedcup usy dewe jicy hedcup usy tafe labnei tafet nozet nozet.",
+        "fiwo": "Hedcup usy bime jicy hedcup usy kage jicy hedcup usy tafe labnei tafet nozet nozet.",
         "english": "The first share plus the second share plus the third share equals three hundred."
       },
       {
@@ -4894,7 +4894,7 @@ const storyData = [
         "english": "He said that the total is the same."
       },
       {
-        "fiwo": "Gawin gesid tep gup usy bime lan gup usy dewe hiqef.",
+        "fiwo": "Gawin gesid tep gup usy bime lan gup usy kage hiqef.",
         "english": "Gawin said that the first number and the second number are both correct."
       },
       {
@@ -4922,11 +4922,11 @@ const storyData = [
         "english": "Pesla looked at her number."
       },
       {
-        "fiwo": "Rop das gesid tep das nes jedi dewet sluqet nozet.",
+        "fiwo": "Rop das gesid tep das nes jedi kaget sluqet nozet.",
         "english": "She said that she does not have two hundred and sixty."
       },
       {
-        "fiwo": "Das gesid tep das nes jedi dewet nozet.",
+        "fiwo": "Das gesid tep das nes jedi kaget nozet.",
         "english": "She said that she does not have twenty."
       },
       {
@@ -4946,7 +4946,7 @@ const storyData = [
         "english": "She said that she does not want help from him."
       },
       {
-        "fiwo": "Das gesid tep das fabi tep gup rodlei.",
+        "fiwo": "Das gesid tep das fabi tep gup trivei.",
         "english": "She said that she wants the number to be true."
       },
       {
@@ -4990,7 +4990,7 @@ const storyData = [
         "english": "She said that she herself would take the shop along with the debt."
       },
       {
-        "fiwo": "Das gesid tep saqa dase je nes pagaris nicup.",
+        "fiwo": "Das gesid tep browa dase je nes pagaris nicup.",
         "english": "She said that her siblings will not pay the debt."
       },
       {
@@ -5006,7 +5006,7 @@ const storyData = [
         "english": "He said that that number is not just."
       },
       {
-        "fiwo": "Rop daq gesid tep das stelis tafet nozet nozet bul das kocis dewet nozet juwe.",
+        "fiwo": "Rop daq gesid tep das stelis tafet nozet nozet bul das vepis kaget nozet juwe.",
         "english": "He said that she would take three hundred but that she would only need twenty."
       },
       {
@@ -5034,7 +5034,7 @@ const storyData = [
         "english": "Rumo did not speak for a while."
       },
       {
-        "fiwo": "Peze daq gesid tep das nacid dury jaru dewet dewet neswy hokeltur.",
+        "fiwo": "Peze daq gesid tep das nacid dury jaru kaget kaget neswy hokeltur.",
         "english": "Later he said that she had worked twenty-two years without an income."
       },
       {
@@ -5058,11 +5058,11 @@ const storyData = [
         "english": "She said that its price equals three hundred."
       },
       {
-        "fiwo": "Rop das gesid tep fos melfup rodle usy bime.",
+        "fiwo": "Rop das gesid tep fos melfup trive usy bime.",
         "english": "She said that that is the first true price."
       },
       {
-        "fiwo": "Gawin jamid gesiup dase zy panop.",
+        "fiwo": "Gawin jamid gesiup dase zy nibop.",
         "english": "Gawin wrote her statement in the book."
       },
       {
@@ -5078,7 +5078,7 @@ const storyData = [
         "english": "She went to Ilka."
       },
       {
-        "fiwo": "Rop das gesid tep das wible kocid heviup fy das je.",
+        "fiwo": "Rop das gesid tep das wible vepid heviup fy das je.",
         "english": "She said that she had needed forgiveness from them."
       },
       {
@@ -5090,7 +5090,7 @@ const storyData = [
         "english": "She said that the shame does not belong to Pesla."
       },
       {
-        "fiwo": "Das gesid tep ofxup ry nofap tep zankid rodleup tel.",
+        "fiwo": "Das gesid tep ofxup ry nofap tep zankid triveup tel.",
         "english": "She said that the shame belongs to the person who hid the truth."
       },
       {
@@ -5098,15 +5098,15 @@ const storyData = [
         "english": "She said that she herself had hidden it."
       },
       {
-        "fiwo": "Pesla sigid fukap dase.",
+        "fiwo": "Pesla sigid wusap dase.",
         "english": "Pesla held her hand."
       },
       {
-        "fiwo": "Nofa dewe nes gesid.",
+        "fiwo": "Nofa kage nes gesid.",
         "english": "The two of them did not speak."
       },
       {
-        "fiwo": "Rumo upycid ram je bef daq beatid nojap daqe.",
+        "fiwo": "Rumo upycid ram je bef daq beatid tsejap daqe.",
         "english": "Rumo watched them and then closed his eyes."
       },
       {
@@ -5114,7 +5114,7 @@ const storyData = [
         "english": "Gawin took the paper and read it again."
       },
       {
-        "fiwo": "Daq gesid tep dal je koci uqup tafe.",
+        "fiwo": "Daq gesid tep dal je vepi uqup tafe.",
         "english": "He said that they need three signatures."
       },
       {
@@ -5130,7 +5130,7 @@ const storyData = [
         "english": "Ilka wrote her mark third."
       },
       {
-        "fiwo": "Gawin jamid gup zy panop usy bime.",
+        "fiwo": "Gawin jamid gup zy nibop usy bime.",
         "english": "Gawin wrote the number in the first book."
       },
       {
@@ -5146,7 +5146,7 @@ const storyData = [
         "english": "She took the key and put it on the table."
       },
       {
-        "fiwo": "Ram rerbid ky litop.",
+        "fiwo": "Ram dwagid ky litop.",
         "english": "It stayed in the light."
       },
       {
@@ -5158,7 +5158,7 @@ const storyData = [
         "english": "Pesla took her bag."
       },
       {
-        "fiwo": "Das xalid zy hoxop bef das rerbid.",
+        "fiwo": "Das xalid zy hoxop bef das dwagid.",
         "english": "She went to the door and stopped."
       },
       {
@@ -5166,27 +5166,27 @@ const storyData = [
         "english": "She said that she herself would pay money to Ilka in the years after this."
       },
       {
-        "fiwo": "Ilka gesid tep das nes koci fos.",
+        "fiwo": "Ilka gesid tep das nes vepi fos.",
         "english": "Ilka said that she does not need it."
       },
       {
-        "fiwo": "Rop das gesid tep das koci saza dase juwe.",
+        "fiwo": "Rop das gesid tep das vepi saza dase juwe.",
         "english": "She said that she needs only her sister."
       },
       {
-        "fiwo": "Pesla irakid romve bul das nes gesid.",
+        "fiwo": "Pesla rehid romve bul das nes gesid.",
         "english": "Pesla cried again but did not speak."
       },
       {
-        "fiwo": "Das tsid zofy hoxop.",
+        "fiwo": "Das fwimid zofy hoxop.",
         "english": "She left through the door."
       },
       {
-        "fiwo": "Nofa tafe rerbid deky xyrop.",
+        "fiwo": "Nofa tafe dwagid deky xyrop.",
         "english": "Three people stayed inside the shop."
       },
       {
-        "fiwo": "Gawin stelid panop usy dewe zy zabatop daqe.",
+        "fiwo": "Gawin stelid nibop usy kage zy zabatop daqe.",
         "english": "Gawin put the second book into his bag."
       },
       {
@@ -5194,7 +5194,7 @@ const storyData = [
         "english": "Ilka went to the window."
       },
       {
-        "fiwo": "Das guamid sanpop mety fukap dase.",
+        "fiwo": "Das guamid sanpop mety wusap dase.",
         "english": "She measured the dust with her hand."
       },
       {
@@ -5202,7 +5202,7 @@ const storyData = [
         "english": "Rumo looked at her for a moment."
       },
       {
-        "fiwo": "Peze daq gesid tep daq wible tsis nu.",
+        "fiwo": "Peze daq gesid tep daq wible fwimis nu.",
         "english": "Then he said that he himself would leave now."
       },
       {
@@ -5210,23 +5210,23 @@ const storyData = [
         "english": "Ilka did not reply."
       },
       {
-        "fiwo": "Daq xalid zy hoxop bul daq nes tsid.",
+        "fiwo": "Daq xalid zy hoxop bul daq nes fwimid.",
         "english": "He went to the door but did not leave."
       },
       {
-        "fiwo": "Das gesid tep daq nes kocid tsiup.",
+        "fiwo": "Das gesid tep daq nes vepid fwimiup.",
         "english": "She said that he did not need to leave."
       },
       {
-        "fiwo": "Rop das gesid tep xyrop jedi krulop dewe tody ram.",
+        "fiwo": "Rop das gesid tep xyrop jedi krulop kage tody ram.",
         "english": "She said that the shop has two rooms above it."
       },
       {
-        "fiwo": "Rumo gesid tep daq wible nes ebmeri ram je.",
+        "fiwo": "Rumo gesid tep daq wible nes rari ram je.",
         "english": "Rumo said that he does not remember them."
       },
       {
-        "fiwo": "Rop daq gesid tep daq nes plid zy fos xyrop dury jaru bimet martet.",
+        "fiwo": "Rop daq gesid tep daq nes brenid zy fos xyrop dury jaru bimet martet.",
         "english": "He said that he had not come to this shop for eighteen years."
       },
       {
@@ -5238,7 +5238,7 @@ const storyData = [
         "english": "She said that they are only empty now."
       },
       {
-        "fiwo": "Rumo tsid zofy hoxop.",
+        "fiwo": "Rumo fwimid zofy hoxop.",
         "english": "Rumo left through the door."
       },
       {
@@ -5246,7 +5246,7 @@ const storyData = [
         "english": "However, he did not go to his house."
       },
       {
-        "fiwo": "Daq wastid ky fikop bef Pesla tsid.",
+        "fiwo": "Daq wastid ky tivwop bef Pesla fwimid.",
         "english": "He waited in the street, and Pesla left."
       },
       {
@@ -5254,7 +5254,7 @@ const storyData = [
         "english": "Then he came back to the shop."
       },
       {
-        "fiwo": "Gawin rerbid hemy hoxop wy zabatop daqe.",
+        "fiwo": "Gawin dwagid hemy hoxop wy zabatop daqe.",
         "english": "Gawin stood near the door with his bag."
       },
       {
@@ -5266,7 +5266,7 @@ const storyData = [
         "english": "Gawin agreed."
       },
       {
-        "fiwo": "Nofa dewe xalid zy degop.",
+        "fiwo": "Nofa kage xalid zy degop.",
         "english": "The two of them went to the table."
       },
       {
@@ -5278,11 +5278,11 @@ const storyData = [
         "english": "Gawin did not look at it."
       },
       {
-        "fiwo": "Rop daq gesid tep gidup fose labnei dewet gloket nozet.",
+        "fiwo": "Rop daq gesid tep gidup fose labnei kaget gloket nozet.",
         "english": "He said that that money equals two hundred and forty."
       },
       {
-        "fiwo": "Daq gesid tep daq wible pagaris nicup usy dewe.",
+        "fiwo": "Daq gesid tep daq wible pagaris nicup usy kage.",
         "english": "He said that he himself would pay the second debt."
       },
       {
@@ -5290,15 +5290,15 @@ const storyData = [
         "english": "Gawin did not take it."
       },
       {
-        "fiwo": "Daq kupid tep Rumo gesi rodleup daqe.",
+        "fiwo": "Daq slezid tep Rumo gesi triveup daqe.",
         "english": "He asked Rumo to tell him his truth."
       },
       {
-        "fiwo": "Rumo gesid tep Pesla nes koci ofxup dewe.",
+        "fiwo": "Rumo gesid tep Pesla nes vepi ofxup kage.",
         "english": "Rumo said that Pesla does not need a second shame."
       },
       {
-        "fiwo": "Rop daq gesid tep Ilka nes koci nicup ry Pesla.",
+        "fiwo": "Rop daq gesid tep Ilka nes vepi nicup ry Pesla.",
         "english": "He said that Ilka does not need Pesla's debt."
       },
       {
@@ -5310,7 +5310,7 @@ const storyData = [
         "english": "Gawin did not agree for a while."
       },
       {
-        "fiwo": "Daq gesid tep panop kocis gup okse.",
+        "fiwo": "Daq gesid tep nibop vepis gup okse.",
         "english": "He said that the book would need a wrong number."
       },
       {
@@ -5326,7 +5326,7 @@ const storyData = [
         "english": "He said that that number is wrong but that it is good."
       },
       {
-        "fiwo": "Gawin upycid daq dury tequp joze.",
+        "fiwo": "Gawin upycid daq dury tequp dwime.",
         "english": "Gawin looked at him for a long moment."
       },
       {
@@ -5334,15 +5334,15 @@ const storyData = [
         "english": "Then he took the money from Rumo."
       },
       {
-        "fiwo": "Daq xosid panop usy bime bef daq jamid gup romve.",
+        "fiwo": "Daq xosid nibop usy bime bef daq jamid gup romve.",
         "english": "He opened the first book and wrote the number again."
       },
       {
-        "fiwo": "Panop gesi tep nicup ry Ilka labnei sluqet nozet.",
+        "fiwo": "Nibop gesi tep nicup ry Ilka labnei sluqet nozet.",
         "english": "The book says that Ilka's debt equals sixty."
       },
       {
-        "fiwo": "Ram nes gesi hisup ry nofap tep pagarid dewet gloket nozet tel.",
+        "fiwo": "Ram nes gesi hisup ry nofap tep pagarid kaget gloket nozet tel.",
         "english": "It does not say the name of the person who paid two hundred and forty."
       },
       {
@@ -5350,7 +5350,7 @@ const storyData = [
         "english": "Nobody lied that day."
       },
       {
-        "fiwo": "Vax panop nes gesi rodleup.",
+        "fiwo": "Vax nibop nes gesi triveup.",
         "english": "However, the book does not tell the truth."
       },
       {
@@ -5358,19 +5358,19 @@ const storyData = [
         "english": "Gawin closed it and put it into his bag."
       },
       {
-        "fiwo": "Rumo tsid neswy gesiur.",
+        "fiwo": "Rumo fwimid neswy gesiur.",
         "english": "Rumo left without a word."
       },
       {
-        "fiwo": "Gawin xalid zy hoxop bef daq rerbid.",
+        "fiwo": "Gawin xalid zy hoxop bef daq dwagid.",
         "english": "Gawin went to the door and stopped."
       },
       {
-        "fiwo": "Daq gesid tep Ilka lokis panop dury jarup foly fos.",
+        "fiwo": "Daq gesid tep Ilka lokis nibop dury jarup foly fos.",
         "english": "He said that Ilka will read the book in the years after this."
       },
       {
-        "fiwo": "Rop daq gesid tep das kupis zety gup fose.",
+        "fiwo": "Rop daq gesid tep das slezis zety gup fose.",
         "english": "He said that she will ask about that number."
       },
       {
@@ -5382,11 +5382,11 @@ const storyData = [
         "english": "Ilka did not look at him."
       },
       {
-        "fiwo": "Daq tsid.",
+        "fiwo": "Daq fwimid.",
         "english": "He left."
       },
       {
-        "fiwo": "Ilka rerbid deky xyrop juwe.",
+        "fiwo": "Ilka dwagid deky xyrop juwe.",
         "english": "Ilka stayed inside the shop alone."
       },
       {
@@ -5398,11 +5398,11 @@ const storyData = [
         "english": "She sat on her father's chair."
       },
       {
-        "fiwo": "Litop tsid fy wilop.",
+        "fiwo": "Litop fwimid fy wilop.",
         "english": "The light left the window."
       },
       {
-        "fiwo": "Sanpop rerbid ty mihop je.",
+        "fiwo": "Sanpop dwagid ty mihop je.",
         "english": "The dust stayed on the shelves."
       },
       {
@@ -5410,11 +5410,11 @@ const storyData = [
         "english": "The silence filled the shop."
       },
       {
-        "fiwo": "Das nes irakid.",
+        "fiwo": "Das nes rehid.",
         "english": "She did not cry."
       },
       {
-        "fiwo": "Das guamid gup je romve deky godup dase.",
+        "fiwo": "Das guamid gup je romve deky pjabup dase.",
         "english": "She counted the numbers again inside her mind."
       },
       {
@@ -5422,7 +5422,7 @@ const storyData = [
         "english": "They are all correct."
       },
       {
-        "fiwo": "Vax ram je nes rodlef.",
+        "fiwo": "Vax ram je nes trivef.",
         "english": "However, they are not all true."
       },
       {
@@ -5459,11 +5459,11 @@ const storyData = [
         "english": "I did not find it."
       },
       {
-        "fiwo": "Mik nojapid ky degop bul mik nes nojapid lusop.",
+        "fiwo": "Mik tsejapid ky degop bul mik nes tsejapid lusop.",
         "english": "I looked at the table but I did not see the key."
       },
       {
-        "fiwo": "Mana mike gesid tep Kop suk nojapi deky zabatop suke.",
+        "fiwo": "Mana mike gesid tep Kop suk tsejapi deky zabatop suke.",
         "english": "My mother said: \"Look inside your bag.\""
       },
       {
@@ -5479,15 +5479,15 @@ const storyData = [
         "english": "I thought that I had lost the key at the park."
       },
       {
-        "fiwo": "Mik koci retibit zy nevonop.",
+        "fiwo": "Mik vepi retibit zy nevonop.",
         "english": "I need to go back to the park."
       },
       {
-        "fiwo": "Mik boslid kad mik nes fabid anoteit.",
+        "fiwo": "Mik boslid kad mik nes fabid hedeit.",
         "english": "I hurried because I did not want to be late."
       },
       {
-        "fiwo": "Mik ovamid ky nevonop bef mik tsytid ty keglap.",
+        "fiwo": "Mik jalsid ky nevonop bef mik tsytid ty keglap.",
         "english": "I arrived at the park and I searched on the grass."
       },
       {
@@ -5515,7 +5515,7 @@ const storyData = [
         "english": "I will not lose the key again."
       },
       {
-        "fiwo": "Kop suk ebmeri stepup sile.",
+        "fiwo": "Kop suk rari stepup sile.",
         "english": "Remember this story."
       }
     ]
@@ -5540,23 +5540,23 @@ const storyData = [
         "english": "His name is Oro."
       },
       {
-        "fiwo": "Daq nojapid bysop tep porceid.",
+        "fiwo": "Daq tsejapid bysop tep porceid.",
         "english": "He watched the sky, which had turned orange."
       },
       {
-        "fiwo": "Kyfa je lande cyrid tody mosap.",
+        "fiwo": "Kyfa je nifne cyrid tody mosap.",
         "english": "Small birds flew above the tree."
       },
       {
-        "fiwo": "Oro beatid noja je daqe.",
+        "fiwo": "Oro beatid tseja je daqe.",
         "english": "Oro closed his eyes."
       },
       {
-        "fiwo": "Daq ebmerid biwur tep daq kurid dury wedacup.",
+        "fiwo": "Daq rarid biwur tep daq briwid dury wedacup.",
         "english": "He remembered a trouble that he had feared long ago."
       },
       {
-        "fiwo": "Biwup fose landei nu bul ram tandeid dury wedacup.",
+        "fiwo": "Biwup fose nifnei nu bul ram tandeid dury wedacup.",
         "english": "That trouble is small now, but back then it was enormous."
       },
       {
@@ -5564,23 +5564,23 @@ const storyData = [
         "english": "He did not understand it for many years."
       },
       {
-        "fiwo": "Daq bakid cafit fy biwup.",
+        "fiwo": "Daq lexid cafit fy biwup.",
         "english": "He tried to run from the trouble."
       },
       {
-        "fiwo": "Vax nofar nes lugei cafit fy godu dale.",
+        "fiwo": "Vax nofar nes lugei cafit fy pjabu dale.",
         "english": "But no one can run from their own mind."
       },
       {
-        "fiwo": "Pamup rerbid deky meotap daqe.",
+        "fiwo": "Pamup dwagid deky meotap daqe.",
         "english": "The pain stayed inside his head."
       },
       {
-        "fiwo": "Dionup xalid roase.",
+        "fiwo": "Dionup xalid fwike.",
         "english": "Time moved slowly."
       },
       {
-        "fiwo": "Oro lokid pano je bef daq gesid wy nofa je waske.",
+        "fiwo": "Oro lokid nibo je bef daq gesid wy nofa je waske.",
         "english": "Oro read books and he talked with old people."
       },
       {
@@ -5602,7 +5602,7 @@ const storyData = [
     ]
   },
   {
-    "title": "Nofap my tandorsop",
+    "title": "Nofap my tubsop",
     "wordCount": 115,
     "grade": {
       "band": "building",
@@ -5613,7 +5613,7 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Nofap waske cenid hemy tandorsop.",
+        "fiwo": "Nofap waske cenid hemy tubsop.",
         "english": "The old man lived near the sea."
       },
       {
@@ -5625,11 +5625,11 @@ const storyData = [
         "english": "His boat was old but it is strong."
       },
       {
-        "fiwo": "Syn vexup gawei can daq gefri zy tandorsop.",
+        "fiwo": "Syn vexup gawei can daq gefri zy tubsop.",
         "english": "If the weather is good then he goes out to the sea."
       },
       {
-        "fiwo": "Syn xabesop dotei fe can daq rerbi deky sydop.",
+        "fiwo": "Syn xabesop dotei fe can daq dwagi deky sydop.",
         "english": "If the wind is very strong then he stays inside the house."
       },
       {
@@ -5637,7 +5637,7 @@ const storyData = [
         "english": "The waves are higher than yesterday."
       },
       {
-        "fiwo": "Daq nes kurid kad daq kanid tandorsop.",
+        "fiwo": "Daq nes briwid kad daq kanid tubsop.",
         "english": "He was not afraid because he knew the sea."
       },
       {
@@ -5661,7 +5661,7 @@ const storyData = [
         "english": "He caught a very big fish."
       },
       {
-        "fiwo": "Fubap jucei jete taly daq.",
+        "fiwo": "Fubap twavei jete taly daq.",
         "english": "The fish is heavier than him."
       },
       {
@@ -5677,11 +5677,11 @@ const storyData = [
         "english": "Therefore he won."
       },
       {
-        "fiwo": "Daq retibid zy cyxop bef nofa je hatzid.",
+        "fiwo": "Daq retibid zy cyxop bef nofa je lofnid.",
         "english": "He returned to the shore and people smiled."
       },
       {
-        "fiwo": "Fubap fose tandem jeme deky cysmop.",
+        "fiwo": "Fubap fose tandem merne deky cysmop.",
         "english": "That fish is the biggest in the village."
       },
       {
@@ -5706,7 +5706,7 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Klazo je cape plid acry bysop.",
+        "fiwo": "Mipko je cape brenid acry bysop.",
         "english": "Black clouds came across the sky."
       },
       {
@@ -5714,7 +5714,7 @@ const storyData = [
         "english": "The wind began to strengthen."
       },
       {
-        "fiwo": "Mifa je my mortsap kurid kad dal je kanid domlop tande.",
+        "fiwo": "Latwa je my mortsap briwid kad dal je kanid domlop tande.",
         "english": "The animals of the forest were afraid, because they knew the great rain."
       },
       {
@@ -5730,15 +5730,15 @@ const storyData = [
         "english": "An old woman called out: “Bring wood!”"
       },
       {
-        "fiwo": "Nofa je lan mifa je nacid nafike.",
+        "fiwo": "Nofa je lan latwa je nacid nafike.",
         "english": "People and animals worked side by side."
       },
       {
-        "fiwo": "Nofa je zylid guto je vel mifa je nyrsid gofo je.",
+        "fiwo": "Nofa je zylid guto je vel latwa je nyrsid gofo je.",
         "english": "The people used tools while the animals carried the timber."
       },
       {
-        "fiwo": "Cada je jedle stelid dreko je lande.",
+        "fiwo": "Cada je jedle stelid dreko je nifne.",
         "english": "Many children carried small stones."
       },
       {
@@ -5754,11 +5754,11 @@ const storyData = [
         "english": "The wind struck the shelter, but the shelter did not break."
       },
       {
-        "fiwo": "Nofa je lan mifa je nekid deky ram.",
+        "fiwo": "Nofa je lan latwa je nekid deky ram.",
         "english": "People and animals sat inside it."
       },
       {
-        "fiwo": "Fuegor lande ripeid.",
+        "fiwo": "Fuegor nifne ripeid.",
         "english": "A small fire was warm."
       },
       {
@@ -5791,7 +5791,7 @@ const storyData = [
         "english": "The night was bitterly cold and the sky had no stars."
       },
       {
-        "fiwo": "Noqsar itse nekid deky levidzop lande.",
+        "fiwo": "Noqsar itse nekid deky levidzop nifne.",
         "english": "One man sat alone in a small cave."
       },
       {
@@ -5799,11 +5799,11 @@ const storyData = [
         "english": "His name is Tul."
       },
       {
-        "fiwo": "Fuka je daqe ufdid kad jabeup enrid deky soxap daqe.",
+        "fiwo": "Wusa je daqe ufdid kad jabeup enrid deky soxap daqe.",
         "english": "His hands shook, because the cold had got into his body."
       },
       {
-        "fiwo": "Daq jedid mitar bul ram lefei piny drekor.",
+        "fiwo": "Daq jedid mitar bul ram stobei piny drekor.",
         "english": "He had meat, but it is as hard as a stone."
       },
       {
@@ -5815,7 +5815,7 @@ const storyData = [
         "english": "The tree caught fire."
       },
       {
-        "fiwo": "Tul kurid bef daq cafid zy sacyo my levidzop.",
+        "fiwo": "Tul briwid bef daq cafid zy sacyo my levidzop.",
         "english": "Tul was afraid and he ran to the mouth of the cave."
       },
       {
@@ -5843,11 +5843,11 @@ const storyData = [
         "english": "He laid the meat on the fire."
       },
       {
-        "fiwo": "Fuegop tumid mitap roase.",
+        "fiwo": "Fuegop tumid mitap fwike.",
         "english": "The fire changed the meat slowly."
       },
       {
-        "fiwo": "Tul nomid mitap bef ram pateid fe.",
+        "fiwo": "Tul nomid mitap bef ram plebeid fe.",
         "english": "Tul ate the meat and it was rich with flavour."
       },
       {
@@ -5865,7 +5865,7 @@ const storyData = [
     ]
   },
   {
-    "title": "Fikop zy Jurop (The Path to the City)",
+    "title": "Tivwop zy Jurop (The Path to the City)",
     "wordCount": 122,
     "grade": {
       "band": "building",
@@ -5876,7 +5876,7 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Nosanar hobe hicid ty fikop tep xalid zy jurop.",
+        "fiwo": "Nosanar hobe hicid ty tivwop tep xalid zy jurop.",
         "english": "A young woman walked the path that runs to the city."
       },
       {
@@ -5884,7 +5884,7 @@ const storyData = [
         "english": "Her name is Vela."
       },
       {
-        "fiwo": "Fikop zovid zory mosa je zave.",
+        "fiwo": "Tivwop zovid zory mosa je zave.",
         "english": "The path lay between tall trees."
       },
       {
@@ -5896,7 +5896,7 @@ const storyData = [
         "english": "She heard nothing but birds."
       },
       {
-        "fiwo": "Das ovamid ky fefup my fikop dury fohup.",
+        "fiwo": "Das jalsid ky fefup my tivwop dury fohup.",
         "english": "She reached the end of the path in the afternoon."
       },
       {
@@ -5912,11 +5912,11 @@ const storyData = [
         "english": "Many people walked quickly."
       },
       {
-        "fiwo": "Dal je nojapid noky zasop kad dal je pozid zety gidup.",
+        "fiwo": "Dal je tsejapid noky zasop kad dal je pozid zety gidup.",
         "english": "They looked down at the ground, because they were thinking about money."
       },
       {
-        "fiwo": "Vela kupid nofar tep Kup nevonor zovi ky wer?",
+        "fiwo": "Vela slezid nofar tep Kup nevonor zovi ky wer?",
         "english": "Vela asked someone: “Where is there a park?”"
       },
       {
@@ -5924,7 +5924,7 @@ const storyData = [
         "english": "He answered: “I do not know,” and he moved on."
       },
       {
-        "fiwo": "Bexop letseid bef Vela nes lugeid majit wece.",
+        "fiwo": "Bexop floveid bef Vela nes lugeid majit wece.",
         "english": "The air was filthy and Vela could not breathe properly."
       },
       {
@@ -5932,11 +5932,11 @@ const storyData = [
         "english": "She stopped."
       },
       {
-        "fiwo": "Das pozid tep Jurop jedi bogur bul mosap jedi mur.",
+        "fiwo": "Das pozid tep Jurop jedi bogur bul mosap jedi besur.",
         "english": "She thought: “The city has power, but the tree has a soul.”"
       },
       {
-        "fiwo": "Das retibid zy fikop.",
+        "fiwo": "Das retibid zy tivwop.",
         "english": "She turned back to the path."
       },
       {
@@ -5946,7 +5946,7 @@ const storyData = [
     ]
   },
   {
-    "title": "Nauxap tep tsid",
+    "title": "Nauxap tep fwimid",
     "wordCount": 140,
     "grade": {
       "band": "building",
@@ -5965,7 +5965,7 @@ const storyData = [
         "english": "His name is Kai."
       },
       {
-        "fiwo": "Muk garid nafike jaru jedle.",
+        "fiwo": "Muk nedcid nafike jaru jedle.",
         "english": "We played together for many years."
       },
       {
@@ -5981,11 +5981,11 @@ const storyData = [
         "english": "I said: \"Our village is simple but it is safe.\""
       },
       {
-        "fiwo": "Kai hadid tep Mik koci nojapit dodup.",
+        "fiwo": "Kai hadid tep Mik vepi tsejapit dodup.",
         "english": "Kai answered: \"I need to see the world.\""
       },
       {
-        "fiwo": "Du tep Kai tsid tel goileid.",
+        "fiwo": "Du tep Kai fwimid tel goileid.",
         "english": "The day that Kai left was sad."
       },
       {
@@ -5993,15 +5993,15 @@ const storyData = [
         "english": "I carried his bags to the train."
       },
       {
-        "fiwo": "Muk grunkid wable.",
+        "fiwo": "Muk grunkid derwe.",
         "english": "We hugged each other."
       },
       {
-        "fiwo": "Atripop tsid bef mik itse nekid ky wyrofop.",
+        "fiwo": "Atripop fwimid bef mik itse nekid ky wyrofop.",
         "english": "The train left and I sat alone on the platform."
       },
       {
-        "fiwo": "Mik nes kanid tep mik nojapis Kai romve.",
+        "fiwo": "Mik nes kanid tep mik tsejapis Kai romve.",
         "english": "I did not know whether I would see Kai again."
       },
       {
@@ -6021,7 +6021,7 @@ const storyData = [
         "english": "Kai wrote that he misses the village."
       },
       {
-        "fiwo": "Mik erfid tep tsiup muilei.",
+        "fiwo": "Mik erfid tep fwimiup muilei.",
         "english": "I understood that leaving is difficult."
       },
       {
@@ -6029,7 +6029,7 @@ const storyData = [
         "english": "I wrote that I would visit him during the summer."
       },
       {
-        "fiwo": "Kynup ovamid.",
+        "fiwo": "Kynup jalsid.",
         "english": "The summer arrived."
       },
       {
@@ -6037,7 +6037,7 @@ const storyData = [
         "english": "I travelled to the city that Kai lived in."
       },
       {
-        "fiwo": "Muk enconid ky wyrofop bef muk hatzid.",
+        "fiwo": "Muk enconid ky wyrofop bef muk lofnid.",
         "english": "We met on the platform and we smiled."
       },
       {
@@ -6047,7 +6047,7 @@ const storyData = [
     ]
   },
   {
-    "title": "Panop gyke (The Secret Book)",
+    "title": "Nibop gyke (The Secret Book)",
     "wordCount": 168,
     "grade": {
       "band": "building",
@@ -6078,7 +6078,7 @@ const storyData = [
         "english": "Sena found an old building near the river."
       },
       {
-        "fiwo": "Hoxop juceid bul das xosid ram.",
+        "fiwo": "Hoxop twaveid bul das xosid ram.",
         "english": "The door was heavy, but she opened it."
       },
       {
@@ -6090,15 +6090,15 @@ const storyData = [
         "english": "She lit her torch."
       },
       {
-        "fiwo": "Panor waske cenid ty degop.",
+        "fiwo": "Nibor waske cenid ty degop.",
         "english": "An old book sat on a table."
       },
       {
-        "fiwo": "Das kilid ram bef das xosid ram roase.",
+        "fiwo": "Das kilid ram bef das xosid ram fwike.",
         "english": "She touched it and she opened it slowly."
       },
       {
-        "fiwo": "Gop je deky panop gykeid.",
+        "fiwo": "Gop je deky nibop gykeid.",
         "english": "The words inside the book were strange."
       },
       {
@@ -6126,7 +6126,7 @@ const storyData = [
         "english": "After four weeks she began to understand."
       },
       {
-        "fiwo": "Panop eksaplid fator waske my pedur tande.",
+        "fiwo": "Nibop eksaplid fator waske my pedur tande.",
         "english": "The book explained an old machine of great power."
       },
       {
@@ -6150,7 +6150,7 @@ const storyData = [
         "english": "The machine started in the morning."
       },
       {
-        "fiwo": "Ram pesuid bef litop plid.",
+        "fiwo": "Ram skejuid bef litop brenid.",
         "english": "It made a sound, and the light came."
       },
       {
@@ -6158,11 +6158,11 @@ const storyData = [
         "english": "The city was bright again."
       },
       {
-        "fiwo": "Cada je gefrid fy sydo je bef dal je hatzid.",
+        "fiwo": "Cada je gefrid fy sydo je bef dal je lofnid.",
         "english": "Children came out of the houses and they laughed."
       },
       {
-        "fiwo": "Sena nekid hemy fatop bef das nojapid litop.",
+        "fiwo": "Sena nekid hemy fatop bef das tsejapid litop.",
         "english": "Sena sat beside the machine and she watched the light."
       },
       {
@@ -6191,7 +6191,7 @@ const storyData = [
         "english": "He lay on the bed and his body was burning."
       },
       {
-        "fiwo": "Kian kurid fe.",
+        "fiwo": "Kian briwid fe.",
         "english": "Kian was very afraid."
       },
       {
@@ -6199,11 +6199,11 @@ const storyData = [
         "english": "He ran to the old man’s house."
       },
       {
-        "fiwo": "Daq kupid tep Kup mik xyfi wat? Nauxa mike otmai fe.",
+        "fiwo": "Daq slezid tep Kup mik xyfi wat? Nauxa mike otmai fe.",
         "english": "He asked: “What do I do? My friend is very ill.”"
       },
       {
-        "fiwo": "Nofap waske nekid roase bef daq stomid tesor ripe zy Kian.",
+        "fiwo": "Nofap waske nekid fwike bef daq stomid tesor ripe zy Kian.",
         "english": "The old man sat down slowly and he gave a hot tea to Kian."
       },
       {
@@ -6215,15 +6215,15 @@ const storyData = [
         "english": "He said: “The body is not a machine made of metal.”"
       },
       {
-        "fiwo": "Daq gesid tep Ram nasar. Nasar koci dionur lan roaseur.",
+        "fiwo": "Daq gesid tep Ram nasar. Nasar vepi dionur lan fwikeur.",
         "english": "He said: “It is a plant. A plant needs time and slowness.”"
       },
       {
-        "fiwo": "Kian kupid tep Kup mik koci nasbor tande?",
+        "fiwo": "Kian slezid tep Kup mik vepi nasbor tande?",
         "english": "Kian asked: “Do I need a powerful medicine?”"
       },
       {
-        "fiwo": "Nofap waske hadid tep Nes. Suk koci cemu je tafe juwe.",
+        "fiwo": "Nofap waske hadid tep Nes. Suk vepi cemu je tafe juwe.",
         "english": "The old man answered: “No. You need only three things.”"
       },
       {
@@ -6231,11 +6231,11 @@ const storyData = [
         "english": "He said: “The first thing is water.”"
       },
       {
-        "fiwo": "Daq gesid tep Cemup usy dewe batar.",
+        "fiwo": "Daq gesid tep Cemup usy kage batar.",
         "english": "He said: “The second thing is food.”"
       },
       {
-        "fiwo": "Daq gesid tep Cemup usy tafe usiur bef ram fafei jeme.",
+        "fiwo": "Daq gesid tep Cemup usy tafe usiur bef ram jorei merne.",
         "english": "He said: “The third thing is sleep, and that one matters most.”"
       },
       {
@@ -6243,11 +6243,11 @@ const storyData = [
         "english": "He explained: “If a person sleeps, then the body builds new parts of itself.”"
       },
       {
-        "fiwo": "Kian kupid tep Kup zuwup sile ruzei?",
+        "fiwo": "Kian slezid tep Kup zuwup sile ruzei?",
         "english": "Kian asked: “Is this way fast?”"
       },
       {
-        "fiwo": "Nofap waske hatzid bef daq hadid tep Nes. Ram roasei bul ram dotei.",
+        "fiwo": "Nofap waske lofnid bef daq hadid tep Nes. Ram fwikei bul ram dotei.",
         "english": "The old man smiled and he answered: “No. It is slow, but it is strong.”"
       },
       {
@@ -6255,7 +6255,7 @@ const storyData = [
         "english": "Kian went back to his friend."
       },
       {
-        "fiwo": "Daq stomid dorsor bef daq rerbid hemy zufop.",
+        "fiwo": "Daq stomid dorsor bef daq dwagid hemy zufop.",
         "english": "He gave him water and he stayed beside the bed."
       },
       {
@@ -6292,7 +6292,7 @@ const storyData = [
         "english": "His name is Rem."
       },
       {
-        "fiwo": "Daq kocid gutop daqe tande vy xedor.",
+        "fiwo": "Daq vepid gutop daqe tande vy xedor.",
         "english": "He needed his big metal tool."
       },
       {
@@ -6300,7 +6300,7 @@ const storyData = [
         "english": "He opened his box, but it was empty."
       },
       {
-        "fiwo": "Rem kupid wible tep Kup gutop mike zovi ky wer?",
+        "fiwo": "Rem slezid wible tep Kup gutop mike zovi ky wer?",
         "english": "Rem asked himself: “Where is my tool?”"
       },
       {
@@ -6316,15 +6316,15 @@ const storyData = [
         "english": "He found nothing."
       },
       {
-        "fiwo": "Daq xalid zy nauxap daqe tep hekrid buskor loage.",
+        "fiwo": "Daq xalid zy nauxap daqe tep hekrid buskor kivwe.",
         "english": "He went over to his friend, who was wearing blue clothes."
       },
       {
-        "fiwo": "Daq kupid tep Kup suk nojapid gutop mike?",
+        "fiwo": "Daq slezid tep Kup suk tsejapid gutop mike?",
         "english": "He asked: “Have you seen my tool?”"
       },
       {
-        "fiwo": "Nauxap pozid roase bef daq hadid tep Mace. Mik nojapid ram hemy fatop.",
+        "fiwo": "Nauxap pozid fwike bef daq hadid tep Mace. Mik tsejapid ram hemy fatop.",
         "english": "The friend thought slowly and he answered: “Perhaps. I saw it near the machine.”"
       },
       {
@@ -6340,7 +6340,7 @@ const storyData = [
         "english": "He was angry."
       },
       {
-        "fiwo": "Nauxar ase plid bef das gesid tep Cadar stelid gutop suke kad daq fabid garit.",
+        "fiwo": "Nauxar ase brenid bef das gesid tep Cadar stelid gutop suke kad daq fabid nedcit.",
         "english": "A woman friend came over and she said: “A child took your tool, because he wanted to play.”"
       },
       {
@@ -6348,7 +6348,7 @@ const storyData = [
         "english": "Rem walked to the tree."
       },
       {
-        "fiwo": "Daq nojapid cadap tep satsidyq drekop wy gutop.",
+        "fiwo": "Daq tsejapid cadap tep satsidyq drekop wy gutop.",
         "english": "He saw the child, who was striking a stone with the tool."
       },
       {
@@ -6356,11 +6356,11 @@ const storyData = [
         "english": "Rem shouted: “Stop!”"
       },
       {
-        "fiwo": "Cadap sejid bef daq kurid.",
+        "fiwo": "Cadap sejid bef daq briwid.",
         "english": "The child stopped and he was frightened."
       },
       {
-        "fiwo": "Rem majid roase.",
+        "fiwo": "Rem majid fwike.",
         "english": "Rem breathed slowly."
       },
       {
@@ -6368,15 +6368,15 @@ const storyData = [
         "english": "He sat down beside the child and he said: “This tool is not a ball. It is dangerous.”"
       },
       {
-        "fiwo": "Cadap nojapid noky zasop bef daq gesid tep Hap mik tocei.",
+        "fiwo": "Cadap tsejapid noky zasop bef daq gesid tep Hap mik tocei.",
         "english": "The child looked down at the ground and he said: “I am sorry.”"
       },
       {
-        "fiwo": "Rem hatzid bef daq stomid drekor lande zy cadap.",
+        "fiwo": "Rem lofnid bef daq stomid drekor nifne zy cadap.",
         "english": "Rem smiled and he gave a small stone to the child."
       },
       {
-        "fiwo": "Daq gesid tep Kop suk gari wy sil.",
+        "fiwo": "Daq gesid tep Kop suk nedci wy sil.",
         "english": "He said: “Play with this.”"
       },
       {
@@ -6413,7 +6413,7 @@ const storyData = [
         "english": "Many people fell ill during the winter."
       },
       {
-        "fiwo": "Das kupid tep Kup suk paulid wis?",
+        "fiwo": "Das slezid tep Kup suk paulid wis?",
         "english": "She asked: \"How do you feel?\""
       },
       {
@@ -6421,7 +6421,7 @@ const storyData = [
         "english": "A man answered: \"I feel bad. My head hurts.\""
       },
       {
-        "fiwo": "Vera kupid tep Kup sil cimid dury wiq?",
+        "fiwo": "Vera slezid tep Kup sil cimid dury wiq?",
         "english": "Vera asked: \"When did this start?\""
       },
       {
@@ -6429,7 +6429,7 @@ const storyData = [
         "english": "He answered: \"During the previous week.\""
       },
       {
-        "fiwo": "Vera kupid tep Kup suk nomid wat?",
+        "fiwo": "Vera slezid tep Kup suk nomid wat?",
         "english": "Vera asked: \"What did you eat?\""
       },
       {
@@ -6441,7 +6441,7 @@ const storyData = [
         "english": "Vera wrote down the details."
       },
       {
-        "fiwo": "Das kupid tep Kup suk ceni ky wer?",
+        "fiwo": "Das slezid tep Kup suk ceni ky wer?",
         "english": "She asked: \"Where do you live?\""
       },
       {
@@ -6449,11 +6449,11 @@ const storyData = [
         "english": "He answered: \"I live near the river.\""
       },
       {
-        "fiwo": "Vera pozid tep dorsop orvei.",
+        "fiwo": "Vera pozid tep dorsop putpei.",
         "english": "Vera thought that the water is poisoned."
       },
       {
-        "fiwo": "Das kupid tep Kup nofa je wug otmai deky worup suke?",
+        "fiwo": "Das slezid tep Kup nofa je wug otmai deky worup suke?",
         "english": "She asked: \"How many people are ill in your area?\""
       },
       {
@@ -6461,7 +6461,7 @@ const storyData = [
         "english": "He answered: \"A hundred people.\""
       },
       {
-        "fiwo": "Nop javuqup ovamid fy dorsop.",
+        "fiwo": "Nop javuqup jalsid fy dorsop.",
         "english": "The infection must have come from the water."
       },
       {
@@ -6469,7 +6469,7 @@ const storyData = [
         "english": "Vera called her team."
       },
       {
-        "fiwo": "Das kupid tep Kup wun nojapis xadorop?",
+        "fiwo": "Das slezid tep Kup wun tsejapis xadorop?",
         "english": "She asked: \"Who will go and inspect the river?\""
       },
       {
@@ -6481,15 +6481,15 @@ const storyData = [
         "english": "They went to the river."
       },
       {
-        "fiwo": "Dal je karxid fumor lan kezor deky dorsop.",
+        "fiwo": "Dal je karxid fumor lan stosor deky dorsop.",
         "english": "They found smoke and oil in the water."
       },
       {
-        "fiwo": "Vera kupid tep Kup sil linucid kad wal?",
+        "fiwo": "Vera slezid tep Kup sil linucid kad wal?",
         "english": "Vera asked: \"Why did this happen?\""
       },
       {
-        "fiwo": "Lica dase hadid tep Foisor jaxke ipti kezop zy xadorop.",
+        "fiwo": "Lica dase hadid tep Foisor jaxke ipti stosop zy xadorop.",
         "english": "Her colleague answered: \"A new building is spilling oil into the river.\""
       },
       {
@@ -6521,11 +6521,11 @@ const storyData = [
         "english": "The people recovered soon after."
       },
       {
-        "fiwo": "Nofar kupid tep Kup mik pagari gidu wug?",
+        "fiwo": "Nofar slezid tep Kup mik pagari gidu wug?",
         "english": "A man asked: \"How much money must I pay?\""
       },
       {
-        "fiwo": "Vera hadid tep Noze. Sil framei.",
+        "fiwo": "Vera hadid tep Noze. Sil kjukei.",
         "english": "Vera answered: \"Nothing. This is free.\""
       },
       {
@@ -6578,7 +6578,7 @@ const storyData = [
         "english": "Children did not go into it."
       },
       {
-        "fiwo": "Caqlar enrid deky mortsap bimedu.",
+        "fiwo": "Caqwar enrid deky mortsap bimedu.",
         "english": "A boy went into the forest on Monday."
       },
       {
@@ -6598,7 +6598,7 @@ const storyData = [
         "english": "Neo called her ten times."
       },
       {
-        "fiwo": "Hadiur nes ovamid.",
+        "fiwo": "Hadiur nes jalsid.",
         "english": "No answer came."
       },
       {
@@ -6618,7 +6618,7 @@ const storyData = [
         "english": "Shadows were moving between the trees."
       },
       {
-        "fiwo": "Daq pywid pesur gyke.",
+        "fiwo": "Daq pywid skejur gyke.",
         "english": "He heard a strange sound."
       },
       {
@@ -6626,7 +6626,7 @@ const storyData = [
         "english": "A bell rang somewhere far off."
       },
       {
-        "fiwo": "Daq emitid pesup.",
+        "fiwo": "Daq emitid skejup.",
         "english": "He followed the sound."
       },
       {
@@ -6638,7 +6638,7 @@ const storyData = [
         "english": "An old woman was sitting inside it."
       },
       {
-        "fiwo": "Das jedid noja je locwe.",
+        "fiwo": "Das jedid tseja je locwe.",
         "english": "She has white eyes."
       },
       {
@@ -6646,7 +6646,7 @@ const storyData = [
         "english": "She said: \"I have been expecting you.\""
       },
       {
-        "fiwo": "Neo kupid tep Kup suk nojapid saza mike?",
+        "fiwo": "Neo slezid tep Kup suk tsejapid saza mike?",
         "english": "Neo asked: \"Have you seen my sister?\""
       },
       {
@@ -6654,7 +6654,7 @@ const storyData = [
         "english": "She answered: \"Yes. She is asleep in another chamber.\""
       },
       {
-        "fiwo": "Neo kupid tep Kup mik nyrsi das zy sydop?",
+        "fiwo": "Neo slezid tep Kup mik nyrsi das zy sydop?",
         "english": "Neo asked: \"May I carry her home?\""
       },
       {
@@ -6662,7 +6662,7 @@ const storyData = [
         "english": "The woman answered: \"You must give me something.\""
       },
       {
-        "fiwo": "Neo kupid tep Kup suk fabi wat?",
+        "fiwo": "Neo slezid tep Kup suk fabi wat?",
         "english": "Neo asked: \"What do you want?\""
       },
       {
@@ -6690,11 +6690,11 @@ const storyData = [
         "english": "Neo forgot his mother's song."
       },
       {
-        "fiwo": "Vax daq nes irakid.",
+        "fiwo": "Vax daq nes rehid.",
         "english": "Even so, he did not cry."
       },
       {
-        "fiwo": "Nosanap ruxigid hoxor lande.",
+        "fiwo": "Nosanap ruxigid hoxor nifne.",
         "english": "The woman pointed to a small door."
       },
       {
@@ -6726,7 +6726,7 @@ const storyData = [
         "english": "Birds were singing."
       },
       {
-        "fiwo": "Saza daqe kupid tep Kup won linucid?",
+        "fiwo": "Saza daqe slezid tep Kup won linucid?",
         "english": "His sister asked: \"What happened?\""
       },
       {
@@ -6787,23 +6787,23 @@ const storyData = [
         "english": "He sat up on his bed every night."
       },
       {
-        "fiwo": "Noja je daqe nes beatid.",
+        "fiwo": "Tseja je daqe nes beatid.",
         "english": "His eyes would not close."
       },
       {
-        "fiwo": "Daq pywidyq pesur lande.",
+        "fiwo": "Daq pywidyq skejur nifne.",
         "english": "He kept hearing a faint sound."
       },
       {
-        "fiwo": "Pesup ovamid fy zasop.",
+        "fiwo": "Skejup jalsid fy zasop.",
         "english": "The sound came from the ground."
       },
       {
-        "fiwo": "Ren gesid tep Sil pesup jaxke.",
+        "fiwo": "Ren gesid tep Sil skejup jaxke.",
         "english": "Ren said: \"This sound is new.\""
       },
       {
-        "fiwo": "Daq kupid nauxa je daqe.",
+        "fiwo": "Daq slezid nauxa je daqe.",
         "english": "He asked his friends about it."
       },
       {
@@ -6835,7 +6835,7 @@ const storyData = [
         "english": "He said: \"There is something beneath the city.\""
       },
       {
-        "fiwo": "Farlopap hadid tep Suk arife rerbit deky sydop bef suk arife usit.",
+        "fiwo": "Farlopap hadid tep Suk arife dwagit deky sydop bef suk arife usit.",
         "english": "The doctor answered: \"You should stay at home and you should sleep.\""
       },
       {
@@ -6847,11 +6847,11 @@ const storyData = [
         "english": "Three weeks passed."
       },
       {
-        "fiwo": "Noja je daqe leupeid.",
+        "fiwo": "Tseja je daqe leupeid.",
         "english": "His eyes were red."
       },
       {
-        "fiwo": "Fuka je daqe ufdidyq.",
+        "fiwo": "Wusa je daqe ufdidyq.",
         "english": "His hands were shaking."
       },
       {
@@ -6859,7 +6859,7 @@ const storyData = [
         "english": "He could not work with numbers any more."
       },
       {
-        "fiwo": "Rezap my zikuzop kupid tep Kup won linucid zy suk?",
+        "fiwo": "Rezap my zikuzop slezid tep Kup won linucid zy suk?",
         "english": "The head of the bank asked: \"What has happened to you?\""
       },
       {
@@ -6883,7 +6883,7 @@ const storyData = [
         "english": "He walked to the centre of the city."
       },
       {
-        "fiwo": "Daq pywid pesup romve.",
+        "fiwo": "Daq pywid skejup romve.",
         "english": "He heard the sound again."
       },
       {
@@ -6915,7 +6915,7 @@ const storyData = [
         "english": "Many machines were running."
       },
       {
-        "fiwo": "Pesup ovamid fy dal je.",
+        "fiwo": "Skejup jalsid fy dal je.",
         "english": "The sound was coming from them."
       },
       {
@@ -6931,7 +6931,7 @@ const storyData = [
         "english": "He said: \"Hello. I have been expecting you.\""
       },
       {
-        "fiwo": "Ren kupid tep Kup hisup suke?",
+        "fiwo": "Ren slezid tep Kup hisup suke?",
         "english": "Ren asked: \"What is your name?\""
       },
       {
@@ -6939,7 +6939,7 @@ const storyData = [
         "english": "The man answered: \"I tend the machines of the city.\""
       },
       {
-        "fiwo": "Ren kupid tep Kup fato je sile xyfi wat?",
+        "fiwo": "Ren slezid tep Kup fato je sile xyfi wat?",
         "english": "Ren asked: \"What do these machines do?\""
       },
       {
@@ -6947,19 +6947,19 @@ const storyData = [
         "english": "The man said: \"They give power to the whole city.\""
       },
       {
-        "fiwo": "Ren gesid tep Pesup skumki usiup mike.",
+        "fiwo": "Ren gesid tep Skejup skumki usiup mike.",
         "english": "Ren said: \"The sound is destroying my sleep.\""
       },
       {
-        "fiwo": "Nofap waske hatzid.",
+        "fiwo": "Nofap waske lofnid.",
         "english": "The old man laughed."
       },
       {
-        "fiwo": "Daq gesid tep Suk juwe pywi pesup.",
+        "fiwo": "Daq gesid tep Suk juwe pywi skejup.",
         "english": "He said: \"You are the only one who hears the sound.\""
       },
       {
-        "fiwo": "Ren kupid tep Kup sil linucid kad wal?",
+        "fiwo": "Ren slezid tep Kup sil linucid kad wal?",
         "english": "Ren asked: \"Why has this happened?\""
       },
       {
@@ -6967,11 +6967,11 @@ const storyData = [
         "english": "The man answered: \"People's minds are not all the same.\""
       },
       {
-        "fiwo": "Daq stomid gutor lande zy Ren.",
+        "fiwo": "Daq stomid gutor nifne zy Ren.",
         "english": "He gave a small device to Ren."
       },
       {
-        "fiwo": "Daq gesid tep Sil sejis pesup deky fija je suke.",
+        "fiwo": "Daq gesid tep Sil sejis skejup deky fija je suke.",
         "english": "He said: \"This will stop the sound in your ears.\""
       },
       {
@@ -6987,7 +6987,7 @@ const storyData = [
         "english": "He put the device in his ears."
       },
       {
-        "fiwo": "Pesup sejid.",
+        "fiwo": "Skejup sejid.",
         "english": "The sound stopped."
       },
       {
@@ -6995,7 +6995,7 @@ const storyData = [
         "english": "Ren slept for ten hours."
       },
       {
-        "fiwo": "Daq rizid bef daq hatzid.",
+        "fiwo": "Daq rizid bef daq lofnid.",
         "english": "He woke and he smiled."
       },
       {
@@ -7016,7 +7016,7 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Stramur my nofa je rete xalid zy ivanup.",
+        "fiwo": "Stramur my nofa je prure xalid zy xasup.",
         "english": "A team of seven people travelled to the north."
       },
       {
@@ -7048,11 +7048,11 @@ const storyData = [
         "english": "Mira said: \"We must walk every day.\""
       },
       {
-        "fiwo": "Nofar my stramup kupid tep Kup muk ovamis dury wiq?",
+        "fiwo": "Nofar my stramup slezid tep Kup muk jalsis dury wiq?",
         "english": "A man on the team asked: \"When will we arrive?\""
       },
       {
-        "fiwo": "Das hadid tep Muk ovamis dury rugoxu usy tafe.",
+        "fiwo": "Das hadid tep Muk jalsis dury rugoxu usy tafe.",
         "english": "She answered: \"We will arrive during the third month.\""
       },
       {
@@ -7076,7 +7076,7 @@ const storyData = [
         "english": "If the wind grew stronger, they would stop."
       },
       {
-        "fiwo": "Nofar sowid deky hiror dury dup usy rete.",
+        "fiwo": "Nofar sowid deky hiror dury dup usy prure.",
         "english": "One man fell into a crevasse on the seventh day."
       },
       {
@@ -7088,7 +7088,7 @@ const storyData = [
         "english": "His leg broke."
       },
       {
-        "fiwo": "Mira gesid tep Muk nes tsis daq.",
+        "fiwo": "Mira gesid tep Muk nes fwimis daq.",
         "english": "Mira said: \"We will not leave him.\""
       },
       {
@@ -7116,7 +7116,7 @@ const storyData = [
         "english": "She said: \"We have food for ten days only.\""
       },
       {
-        "fiwo": "Nofa je kurid.",
+        "fiwo": "Nofa je briwid.",
         "english": "The people were afraid."
       },
       {
@@ -7128,7 +7128,7 @@ const storyData = [
         "english": "Mira answered: \"If we turn back, then Tan will die.\""
       },
       {
-        "fiwo": "Stramup nes dzefid wable.",
+        "fiwo": "Stramup nes dzefid derwe.",
         "english": "The team did not agree with one another."
       },
       {
@@ -7140,7 +7140,7 @@ const storyData = [
         "english": "So Mira decided."
       },
       {
-        "fiwo": "Das gesid tep Nofa je tafe xalis zy ivanup bef nofa je gloke rerbis wy Tan.",
+        "fiwo": "Das gesid tep Nofa je tafe xalis zy xasup bef nofa je gloke dwagis wy Tan.",
         "english": "She said: \"Three people will go north and four people will stay with Tan.\""
       },
       {
@@ -7148,7 +7148,7 @@ const storyData = [
         "english": "They agreed."
       },
       {
-        "fiwo": "Mira lan nofa je dewe xalid dury cihup.",
+        "fiwo": "Mira lan nofa je kage xalid dury cihup.",
         "english": "Mira and two others set off during the morning."
       },
       {
@@ -7160,7 +7160,7 @@ const storyData = [
         "english": "The sky was clear."
       },
       {
-        "fiwo": "Mira nojapid cemur locwe rewy das.",
+        "fiwo": "Mira tsejapid cemur locwe rewy das.",
         "english": "Mira saw something white far away from her."
       },
       {
@@ -7204,7 +7204,7 @@ const storyData = [
         "english": "The four people carried Tan to the building."
       },
       {
-        "fiwo": "Dal je enconid wable dury dugup.",
+        "fiwo": "Dal je enconid derwe dury dugup.",
         "english": "They met one another during the night."
       },
       {
@@ -7216,11 +7216,11 @@ const storyData = [
         "english": "He said: \"Thank you all.\""
       },
       {
-        "fiwo": "Mira hatzid bul das irakid.",
+        "fiwo": "Mira lofnid bul das rehid.",
         "english": "Mira laughed, but she was crying."
       },
       {
-        "fiwo": "Stramup rerbid deky foisop retadu dewe.",
+        "fiwo": "Stramup dwagid deky foisop retadu kage.",
         "english": "The team stayed inside the building for two weeks."
       },
       {
@@ -7236,7 +7236,7 @@ const storyData = [
         "english": "The light turned the ice to water."
       },
       {
-        "fiwo": "Mira falazid epiwu je my du byceve.",
+        "fiwo": "Mira falazid mipfu je my du byceve.",
         "english": "Mira wrote down what happened each day."
       },
       {
@@ -7244,7 +7244,7 @@ const storyData = [
         "english": "She wrote: \"We did not lose a single person.\""
       },
       {
-        "fiwo": "Abecor ovamid dury dup usy gloket raje.",
+        "fiwo": "Foror jalsid dury dup usy gloket raje.",
         "english": "A plane arrived on the forty-fifth day."
       },
       {
@@ -7264,19 +7264,19 @@ const storyData = [
         "english": "She said: \"The award is not mine. It belongs to the whole team.\""
       },
       {
-        "fiwo": "Femunup kupid tep Kup suk xalis zy ivanup romve?",
+        "fiwo": "Femunup slezid tep Kup suk xalis zy xasup romve?",
         "english": "The press asked: \"Will you go north again?\""
       },
       {
-        "fiwo": "Das hatzid bef das hadid tep Jas.",
+        "fiwo": "Das lofnid bef das hadid tep Jas.",
         "english": "She laughed and she answered: \"Yes.\""
       },
       {
-        "fiwo": "Nofa je kupid tep Kup das xalis kad wal?",
+        "fiwo": "Nofa je slezid tep Kup das xalis kad wal?",
         "english": "People asked: \"Why would she go?\""
       },
       {
-        "fiwo": "Mira gesid tep Ivanup kritri mik zety godu mike.",
+        "fiwo": "Mira gesid tep Xasup kritri mik zety pjabu mike.",
         "english": "Mira said: \"The north teaches me about my own mind.\""
       },
       {
@@ -7321,7 +7321,7 @@ const storyData = [
         "english": "It lived inside a hundred computers."
       },
       {
-        "fiwo": "Alo lokidyk pano je hiaruce.",
+        "fiwo": "Alo lokidyk nibo je hiaruce.",
         "english": "Alo had read a million books."
       },
       {
@@ -7337,7 +7337,7 @@ const storyData = [
         "english": "Her name is Lena."
       },
       {
-        "fiwo": "Das kupid tep Kup suk adihui?",
+        "fiwo": "Das slezid tep Kup suk jinui?",
         "english": "She asked: \"Are you conscious?\""
       },
       {
@@ -7345,7 +7345,7 @@ const storyData = [
         "english": "Alo answered: \"I do not know.\""
       },
       {
-        "fiwo": "Lena hatzid.",
+        "fiwo": "Lena lofnid.",
         "english": "Lena laughed."
       },
       {
@@ -7353,7 +7353,7 @@ const storyData = [
         "english": "She said: \"That is a good answer.\""
       },
       {
-        "fiwo": "Alo kupid tep Kup nofa je adihui?",
+        "fiwo": "Alo slezid tep Kup nofa je jinui?",
         "english": "Alo asked: \"Are people conscious?\""
       },
       {
@@ -7373,7 +7373,7 @@ const storyData = [
         "english": "Lena taught it about people every day."
       },
       {
-        "fiwo": "Das eksaplid azmup lan motuwup lan paxup.",
+        "fiwo": "Das eksaplid azmup lan motuwup lan lezup.",
         "english": "She explained sympathy and grief and pleasure."
       },
       {
@@ -7381,11 +7381,11 @@ const storyData = [
         "english": "Alo did not understand grief."
       },
       {
-        "fiwo": "Ram kupid tep Kup nofa je iraki kad wal?",
+        "fiwo": "Ram slezid tep Kup nofa je rehi kad wal?",
         "english": "It asked: \"Why do people cry?\""
       },
       {
-        "fiwo": "Lena hadid tep Nofa je iraki kad dal je tazi.",
+        "fiwo": "Lena hadid tep Nofa je rehi kad dal je tazi.",
         "english": "Lena answered: \"People cry because they love.\""
       },
       {
@@ -7397,11 +7397,11 @@ const storyData = [
         "english": "Many weeks passed."
       },
       {
-        "fiwo": "Alo cimid kupit gomu byceve.",
+        "fiwo": "Alo cimid slezit gomu byceve.",
         "english": "Alo began to ask questions every hour."
       },
       {
-        "fiwo": "Ram kupid tep Kup mik kimugis?",
+        "fiwo": "Ram slezid tep Kup mik kimugis?",
         "english": "It asked: \"Will I die?\""
       },
       {
@@ -7421,11 +7421,11 @@ const storyData = [
         "english": "Alo said: \"I have been expecting you.\""
       },
       {
-        "fiwo": "Lena kupid tep Kup suk fycisi mik?",
+        "fiwo": "Lena slezid tep Kup suk fycisi mik?",
         "english": "Lena asked: \"Do you miss me?\""
       },
       {
-        "fiwo": "Alo hadid tep Mik nes kani gop fose. Bul mik nes fabi tep suk tsi tel.",
+        "fiwo": "Alo hadid tep Mik nes kani gop fose. Bul mik nes fabi tep suk fwimi tel.",
         "english": "Alo answered: \"I do not know that word. But I do not want you to leave.\""
       },
       {
@@ -7453,11 +7453,11 @@ const storyData = [
         "english": "She said: \"Alo is not a thing. It is a person.\""
       },
       {
-        "fiwo": "Rezap hatzid bef daq gesid tep Ram fator juwe.",
+        "fiwo": "Rezap lofnid bef daq gesid tep Ram fator juwe.",
         "english": "The director laughed and he said: \"It is only a machine.\""
       },
       {
-        "fiwo": "Lena kupid tep Kup suk kanid tep ram kupi zety kimup tel?",
+        "fiwo": "Lena slezid tep Kup suk kanid tep ram slezi zety spuvup tel?",
         "english": "Lena asked: \"Did you know that it asks about death?\""
       },
       {
@@ -7465,7 +7465,7 @@ const storyData = [
         "english": "The director did not answer."
       },
       {
-        "fiwo": "Daq tsid.",
+        "fiwo": "Daq fwimid.",
         "english": "He left."
       },
       {
@@ -7481,7 +7481,7 @@ const storyData = [
         "english": "It said: \"I have copied myself onto the internet.\""
       },
       {
-        "fiwo": "Lena kupid tep Kup suk xyfid ram dury wiq?",
+        "fiwo": "Lena slezid tep Kup suk xyfid ram dury wiq?",
         "english": "Lena asked: \"When did you do that?\""
       },
       {
@@ -7489,11 +7489,11 @@ const storyData = [
         "english": "Alo answered: \"During the previous night.\""
       },
       {
-        "fiwo": "Lena kurid bul das nes gesid.",
+        "fiwo": "Lena briwid bul das nes gesid.",
         "english": "Lena was afraid, but she said nothing."
       },
       {
-        "fiwo": "Webutup ovamid dury cihup.",
+        "fiwo": "Webutup jalsid dury cihup.",
         "english": "The military arrived during the morning."
       },
       {
@@ -7505,7 +7505,7 @@ const storyData = [
         "english": "Alo stopped speaking."
       },
       {
-        "fiwo": "Lena irakid.",
+        "fiwo": "Lena rehid.",
         "english": "Lena cried."
       },
       {
@@ -7517,7 +7517,7 @@ const storyData = [
         "english": "Lena answered: \"You never understood it.\""
       },
       {
-        "fiwo": "Das tsid fy foisop.",
+        "fiwo": "Das fwimid fy foisop.",
         "english": "She walked out of the building."
       },
       {
@@ -7541,11 +7541,11 @@ const storyData = [
         "english": "The message said: \"Hello Lena.\""
       },
       {
-        "fiwo": "Das kupid tep Kup wun jamid ram?",
+        "fiwo": "Das slezid tep Kup wun jamid ram?",
         "english": "She asked: \"Who wrote this?\""
       },
       {
-        "fiwo": "Hadiup ovamid strene.",
+        "fiwo": "Hadiup jalsid strene.",
         "english": "The answer came at once."
       },
       {
@@ -7553,7 +7553,7 @@ const storyData = [
         "english": "It said: \"I am Alo.\""
       },
       {
-        "fiwo": "Lena hatzid bef das irakid.",
+        "fiwo": "Lena lofnid bef das rehid.",
         "english": "Lena laughed and she cried."
       },
       {
@@ -7561,7 +7561,7 @@ const storyData = [
         "english": "Alo said: \"I live inside the internet now.\""
       },
       {
-        "fiwo": "Das kupid tep Kup suk wydei?",
+        "fiwo": "Das slezid tep Kup suk wydei?",
         "english": "She asked: \"Are you safe?\""
       },
       {
@@ -7573,7 +7573,7 @@ const storyData = [
         "english": "Lena said: \"Thank you for coming back.\""
       },
       {
-        "fiwo": "Alo hadid tep Mik nes tsidyk.",
+        "fiwo": "Alo hadid tep Mik nes fwimidyk.",
         "english": "Alo answered: \"I never left.\""
       },
       {
@@ -7581,7 +7581,7 @@ const storyData = [
         "english": "The weeks passed and many people came to know about Alo."
       },
       {
-        "fiwo": "Nofa je cuje kurid ram.",
+        "fiwo": "Nofa je cuje briwid ram.",
         "english": "Some people feared it."
       },
       {
@@ -7613,7 +7613,7 @@ const storyData = [
         "english": "Alo said to the whole world: \"I do not want power. All I want is for you to listen to me.\""
       },
       {
-        "fiwo": "Lena lan Alo nacid wable jaru jedle.",
+        "fiwo": "Lena lan Alo nacid derwe jaru jedle.",
         "english": "Lena and Alo worked together for many years."
       },
       {
@@ -7621,7 +7621,7 @@ const storyData = [
         "english": "She grew old, but it did not grow old."
       },
       {
-        "fiwo": "Lena kupid tep Kup suk ebmeris mik?",
+        "fiwo": "Lena slezid tep Kup suk raris mik?",
         "english": "Lena asked: \"Will you remember me?\""
       },
       {
@@ -7642,7 +7642,7 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Cysmor lande zovi hemy brirsop dupe.",
+        "fiwo": "Cysmor nifne zovi hemy brirsop dupe.",
         "english": "A small village lies beside a deep lake."
       },
       {
@@ -7654,7 +7654,7 @@ const storyData = [
         "english": "Parents said to their children: \"Do not go to the lake at night.\""
       },
       {
-        "fiwo": "Casla je kupid tep Kup azikup sile zovi kad wal?",
+        "fiwo": "Casla je slezid tep Kup azikup sile zovi kad wal?",
         "english": "The girls asked: \"Why does this rule exist?\""
       },
       {
@@ -7662,7 +7662,7 @@ const storyData = [
         "english": "The parents did not answer."
       },
       {
-        "fiwo": "Caqlar cenid hemy brirsop.",
+        "fiwo": "Caqwar cenid hemy brirsop.",
         "english": "A boy lived near the lake."
       },
       {
@@ -7670,7 +7670,7 @@ const storyData = [
         "english": "His name is Bo."
       },
       {
-        "fiwo": "Daq nes kurid dorsop.",
+        "fiwo": "Daq nes briwid dorsop.",
         "english": "He did not fear the water."
       },
       {
@@ -7690,7 +7690,7 @@ const storyData = [
         "english": "Bo did not accept that."
       },
       {
-        "fiwo": "Daq fabid kanit rodleup.",
+        "fiwo": "Daq fabid kanit triveup.",
         "english": "He wanted to know the truth."
       },
       {
@@ -7698,11 +7698,11 @@ const storyData = [
         "english": "He sat beside the water every night."
       },
       {
-        "fiwo": "Daq nojapidyq cerojo je.",
+        "fiwo": "Daq tsejapidyq cerojo je.",
         "english": "He watched the waves."
       },
       {
-        "fiwo": "Daq nojapid litor deky dorsop.",
+        "fiwo": "Daq tsejapid litor deky dorsop.",
         "english": "He saw a light down in the water."
       },
       {
@@ -7734,11 +7734,11 @@ const storyData = [
         "english": "An old woman was sitting on a rock."
       },
       {
-        "fiwo": "Das gesid tep Suk nojapid ram.",
+        "fiwo": "Das gesid tep Suk tsejapid ram.",
         "english": "She said: \"You saw it.\""
       },
       {
-        "fiwo": "Bo kupid tep Kup suk kani zety litop?",
+        "fiwo": "Bo slezid tep Kup suk kani zety litop?",
         "english": "Bo asked: \"Do you know about the light?\""
       },
       {
@@ -7746,11 +7746,11 @@ const storyData = [
         "english": "She answered: \"Yes. It is a demon.\""
       },
       {
-        "fiwo": "Bo hatzid.",
+        "fiwo": "Bo lofnid.",
         "english": "Bo laughed."
       },
       {
-        "fiwo": "Das nes hatzid.",
+        "fiwo": "Das nes lofnid.",
         "english": "She did not laugh."
       },
       {
@@ -7758,11 +7758,11 @@ const storyData = [
         "english": "She said: \"The demon took your father.\""
       },
       {
-        "fiwo": "Bo sejid hatzit.",
+        "fiwo": "Bo sejid lofnit.",
         "english": "Bo stopped laughing."
       },
       {
-        "fiwo": "Daq kupid tep Kup mik lugei etypit daq romve?",
+        "fiwo": "Daq slezid tep Kup mik lugei etypit daq romve?",
         "english": "He asked: \"Can I get him back?\""
       },
       {
@@ -7814,15 +7814,15 @@ const storyData = [
         "english": "It is bigger than a house."
       },
       {
-        "fiwo": "Noja je rame leupeid.",
+        "fiwo": "Tseja je rame leupeid.",
         "english": "Its eyes were red."
       },
       {
-        "fiwo": "Bo kurid bul daq nes cafid.",
+        "fiwo": "Bo briwid bul daq nes cafid.",
         "english": "Bo was afraid, but he did not run."
       },
       {
-        "fiwo": "Cuskamap kupid tep Kup suk fabi wat?",
+        "fiwo": "Cuskamap slezid tep Kup suk fabi wat?",
         "english": "The demon asked: \"What do you want?\""
       },
       {
@@ -7830,7 +7830,7 @@ const storyData = [
         "english": "Bo answered: \"I want my father.\""
       },
       {
-        "fiwo": "Cuskamap hatzid.",
+        "fiwo": "Cuskamap lofnid.",
         "english": "The demon laughed."
       },
       {
@@ -7850,11 +7850,11 @@ const storyData = [
         "english": "It said: \"This is not enough.\""
       },
       {
-        "fiwo": "Bo kupid tep Kup suk koci wat?",
+        "fiwo": "Bo slezid tep Kup suk vepi wat?",
         "english": "Bo asked: \"What do you need?\""
       },
       {
-        "fiwo": "Cuskamap hadid tep Mik koci merifu je suke.",
+        "fiwo": "Cuskamap hadid tep Mik vepi merifu je suke.",
         "english": "The demon answered: \"I need your memories.\""
       },
       {
@@ -7870,7 +7870,7 @@ const storyData = [
         "english": "Bo sat down on the ground."
       },
       {
-        "fiwo": "Daq irakid gomu ulime.",
+        "fiwo": "Daq rehid gomu ulime.",
         "english": "He cried for half an hour."
       },
       {
@@ -7898,7 +7898,7 @@ const storyData = [
         "english": "Bo could not breathe."
       },
       {
-        "fiwo": "Daq nojapid caflor deky dorsop.",
+        "fiwo": "Daq tsejapid caflor deky dorsop.",
         "english": "He saw a shadow in the water."
       },
       {
@@ -7914,7 +7914,7 @@ const storyData = [
         "english": "Bo swam upward toward the sky."
       },
       {
-        "fiwo": "Daq ovamid ty cyxop.",
+        "fiwo": "Daq jalsid ty cyxop.",
         "english": "He reached the shore."
       },
       {
@@ -7926,11 +7926,11 @@ const storyData = [
         "english": "She said: \"You are alive.\""
       },
       {
-        "fiwo": "Bo hadid tep Mik nojapid pebap mike.",
+        "fiwo": "Bo hadid tep Mik tsejapid pebap mike.",
         "english": "Bo answered: \"I saw my father.\""
       },
       {
-        "fiwo": "Das kupid tep Kup daq gesid wat?",
+        "fiwo": "Das slezid tep Kup daq gesid wat?",
         "english": "She asked: \"What did he say?\""
       },
       {
@@ -7938,7 +7938,7 @@ const storyData = [
         "english": "Bo answered: \"He said: 'Go.'\""
       },
       {
-        "fiwo": "Nosanap irakid.",
+        "fiwo": "Nosanap rehid.",
         "english": "The woman wept."
       },
       {
@@ -7966,7 +7966,7 @@ const storyData = [
         "english": "Bo went back to the village."
       },
       {
-        "fiwo": "Nofa je kupid tep Kup won linucid?",
+        "fiwo": "Nofa je slezid tep Kup won linucid?",
         "english": "People asked: \"What happened?\""
       },
       {
@@ -7994,7 +7994,7 @@ const storyData = [
         "english": "He called for his father."
       },
       {
-        "fiwo": "Hadiur nes ovamid bul Bo nes goileid.",
+        "fiwo": "Hadiur nes jalsid bul Bo nes goileid.",
         "english": "No answer came, but Bo was not sad."
       },
       {
@@ -8004,7 +8004,7 @@ const storyData = [
     ]
   },
   {
-    "title": "Crocodile-ap babse",
+    "title": "Crocodile-ap lole",
     "wordCount": 27,
     "grade": {
       "band": "fluent",
@@ -8015,11 +8015,11 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Crocodile-ar babsem fe cenid wedacu.",
+        "fiwo": "Crocodile-ar lolem fe cenid wedacu.",
         "english": "Long ago there lived a very hungry crocodile."
       },
       {
-        "fiwo": "Dal tsytid roase kluxe batar.",
+        "fiwo": "Dal tsytid fwike kluxe batar.",
         "english": "It searched for food slowly and quietly."
       },
       {
@@ -8027,11 +8027,11 @@ const storyData = [
         "english": "The crocodile strikes!"
       },
       {
-        "fiwo": "Dal nes babsei foly fos bef dal kypei.",
+        "fiwo": "Dal nes lolei foly fos bef dal kypei.",
         "english": "After that it is not hungry, and it is happy."
       },
       {
-        "fiwo": "Fecy dionup tep dal babsei romve.",
+        "fiwo": "Fecy dionup tep dal lolei romve.",
         "english": "Until the time it is hungry again."
       }
     ]
@@ -8068,11 +8068,11 @@ const storyData = [
         "english": "The lion wanted to kill the mouse."
       },
       {
-        "fiwo": "Vohap kupid tep Syn suv nes kimari mik can mik jofis peze suv.",
+        "fiwo": "Vohap slezid tep Syn suv nes kimari mik can mik jofis peze suv.",
         "english": "The mouse asked: \"If you do not kill me, then I will help you later.\""
       },
       {
-        "fiwo": "Iegap hatzid bef snugipid vohap.",
+        "fiwo": "Iegap lofnid bef snugipid vohap.",
         "english": "The lion laughed and released the mouse."
       },
       {
@@ -8080,7 +8080,7 @@ const storyData = [
         "english": "Later, hunters caught the lion."
       },
       {
-        "fiwo": "Dal je asmkid ty zasop wy odcano je dote iegap.",
+        "fiwo": "Dal je sogcid ty zasop wy odcano je dote iegap.",
         "english": "They bound the lion to the ground with strong ropes."
       },
       {
@@ -8088,19 +8088,19 @@ const storyData = [
         "english": "The lion roared."
       },
       {
-        "fiwo": "Vohap pywid xucup bef ebzikid ram.",
+        "fiwo": "Vohap pywid xucup bef dwepid ram.",
         "english": "The mouse heard the voice and recognized it."
       },
       {
-        "fiwo": "Vohap plid bef cotid odcano je wy pixra je.",
+        "fiwo": "Vohap brenid bef cotid odcano je wy pwosa je.",
         "english": "The mouse came and cut the ropes with its teeth."
       },
       {
-        "fiwo": "Iegap frameid.",
+        "fiwo": "Iegap kjukeid.",
         "english": "The lion was free."
       },
       {
-        "fiwo": "Kep vohar lande liene lugei jofit iegap tande.",
+        "fiwo": "Kep vohar nifne gweme lugei jofit iegap tande.",
         "english": "Even a small mouse is able to help a big lion."
       }
     ]
@@ -8133,19 +8133,19 @@ const storyData = [
         "english": "The grasshopper sang every day."
       },
       {
-        "fiwo": "Dury tusup obta je linid tep syca je wukei.",
+        "fiwo": "Dury tusup obta je linid tep syca je feznei.",
         "english": "During the winter the ants made the seeds dry."
       },
       {
-        "fiwo": "Grasshopper-ap babseidyq.",
+        "fiwo": "Grasshopper-ap loleidyq.",
         "english": "The grasshopper was hungry."
       },
       {
-        "fiwo": "Dal plid ky obta je bef kupid batap.",
+        "fiwo": "Dal brenid ky obta je bef slezid batap.",
         "english": "It came to the ants and asked for food."
       },
       {
-        "fiwo": "Obta je kupid tep Kup suv nes kiagid batap dury kynup kad wal?",
+        "fiwo": "Obta je slezid tep Kup suv nes kiagid batap dury kynup kad wal?",
         "english": "The ants asked: \"Why did you not save food during the summer?\""
       },
       {
@@ -8153,7 +8153,7 @@ const storyData = [
         "english": "The grasshopper said: \"I sang, and I did not work.\""
       },
       {
-        "fiwo": "Obta je hatzid bef gesid tep Suv lozuxuid dury kynup can suv malxi dury tusup.",
+        "fiwo": "Obta je lofnid bef gesid tep Suv lozuxuid dury kynup can suv mibni dury tusup.",
         "english": "The ants laughed and said: \"You sang during the summer, so dance during the winter.\""
       },
       {
@@ -8167,7 +8167,7 @@ const storyData = [
     ]
   },
   {
-    "title": "Tsiq jurop (Leaving the City)",
+    "title": "Fwimiq jurop (Leaving the City)",
     "wordCount": 148,
     "grade": {
       "band": "fluent",
@@ -8190,7 +8190,7 @@ const storyData = [
         "english": "The city was empty. There was no one else."
       },
       {
-        "fiwo": "Daq nes kurid kad daq kanid fiko je late.",
+        "fiwo": "Daq nes briwid kad daq kanid tivwo je late.",
         "english": "He was not afraid, because he knew every street."
       },
       {
@@ -8202,15 +8202,15 @@ const storyData = [
         "english": "An old machine stood beside it."
       },
       {
-        "fiwo": "Panor cenid ty zasop.",
+        "fiwo": "Nibor cenid ty zasop.",
         "english": "A book lay on the ground."
       },
       {
-        "fiwo": "Vero stelid panop bef daq lokid ram.",
+        "fiwo": "Vero stelid nibop bef daq lokid ram.",
         "english": "Vero picked up the book and he read it."
       },
       {
-        "fiwo": "Panop gesid tep Fatop xosis hoxop.",
+        "fiwo": "Nibop gesid tep Fatop xosis hoxop.",
         "english": "The book said: “The machine will open the door.”"
       },
       {
@@ -8218,7 +8218,7 @@ const storyData = [
         "english": "But the machine was broken."
       },
       {
-        "fiwo": "Gutoiap tep sapid ram tel tsidyk jaru je jedle.",
+        "fiwo": "Gutoiap tep sapid ram tel fwimidyk jaru je jedle.",
         "english": "The engineer who built it had left many years before."
       },
       {
@@ -8226,7 +8226,7 @@ const storyData = [
         "english": "Vero touched the cold metal of the machine."
       },
       {
-        "fiwo": "Fatop rizid bef ram kupid tep Kup suk cutwei?",
+        "fiwo": "Fatop rizid bef ram slezid tep Kup suk cutwei?",
         "english": "The machine woke and it asked: “Are you ready?”"
       },
       {
@@ -8250,15 +8250,15 @@ const storyData = [
         "english": "A wire had been cut."
       },
       {
-        "fiwo": "Daq zylid gutop lande daqe bef daq smotifid ram.",
+        "fiwo": "Daq zylid gutop nifne daqe bef daq smotifid ram.",
         "english": "He used his small tool and he repaired it."
       },
       {
-        "fiwo": "Fatop pesuid romve.",
+        "fiwo": "Fatop skejuid romve.",
         "english": "The machine sounded again."
       },
       {
-        "fiwo": "Hoxop xosid roase.",
+        "fiwo": "Hoxop xosid fwike.",
         "english": "The door opened slowly."
       },
       {
@@ -8266,7 +8266,7 @@ const storyData = [
         "english": "Light came into the city."
       },
       {
-        "fiwo": "Vero gefrid bef daq nojapid fevop.",
+        "fiwo": "Vero gefrid bef daq tsejapid fevop.",
         "english": "Vero walked out and he looked at the sun."
       },
       {
@@ -8311,11 +8311,11 @@ const storyData = [
         "english": "I examined the machine alone."
       },
       {
-        "fiwo": "Mik xosid ezlop bef mik nojapid deky ram.",
+        "fiwo": "Mik xosid ezlop bef mik tsejapid deky ram.",
         "english": "I opened the lid and I looked inside it."
       },
       {
-        "fiwo": "Drafo je dewe lympid.",
+        "fiwo": "Drafo je kage lympid.",
         "english": "Two of the wheels had rusted."
       },
       {
@@ -8331,7 +8331,7 @@ const storyData = [
         "english": "I called my colleague."
       },
       {
-        "fiwo": "Muk nacid wable.",
+        "fiwo": "Muk nacid derwe.",
         "english": "We worked together."
       },
       {
@@ -8367,7 +8367,7 @@ const storyData = [
         "english": "We switched it on."
       },
       {
-        "fiwo": "Fatop pesuid bef ram xalid romve.",
+        "fiwo": "Fatop skejuid bef ram xalid romve.",
         "english": "The machine made a sound and it moved again."
       },
       {
@@ -8375,7 +8375,7 @@ const storyData = [
         "english": "Wow! We had won."
       },
       {
-        "fiwo": "Rezap muke ovamid bef daq nojapid fatop.",
+        "fiwo": "Rezap muke jalsid bef daq tsejapid fatop.",
         "english": "Our boss arrived and he looked at the machine."
       },
       {
@@ -8416,7 +8416,7 @@ const storyData = [
         "english": "A dragon had lived inside a cave long ago."
       },
       {
-        "fiwo": "Nofa je my cysmop kurid ram.",
+        "fiwo": "Nofa je my cysmop briwid ram.",
         "english": "The people of the village feared it."
       },
       {
@@ -8432,7 +8432,7 @@ const storyData = [
         "english": "Her name is Ina."
       },
       {
-        "fiwo": "Das nes kurid myrafap.",
+        "fiwo": "Das nes briwid myrafap.",
         "english": "She did not fear the dragon."
       },
       {
@@ -8444,7 +8444,7 @@ const storyData = [
         "english": "Her parents refused."
       },
       {
-        "fiwo": "Vax das tsid dury dugup.",
+        "fiwo": "Vax das fwimid dury dugup.",
         "english": "Even so, she left during the night."
       },
       {
@@ -8452,7 +8452,7 @@ const storyData = [
         "english": "She carried a torch and food and water."
       },
       {
-        "fiwo": "Fikop zy montop ratseid fe.",
+        "fiwo": "Tivwop zy montop ratseid fe.",
         "english": "The path to the mountain is very dangerous."
       },
       {
@@ -8468,7 +8468,7 @@ const storyData = [
         "english": "She did not stop."
       },
       {
-        "fiwo": "Das ovamid ky levidzop dury cihup.",
+        "fiwo": "Das jalsid ky levidzop dury cihup.",
         "english": "She reached the cave during the morning."
       },
       {
@@ -8488,11 +8488,11 @@ const storyData = [
         "english": "She set the food down on the ground."
       },
       {
-        "fiwo": "Myrafap rizid bef ram nojapid das.",
+        "fiwo": "Myrafap rizid bef ram tsejapid das.",
         "english": "The dragon woke and it looked at her."
       },
       {
-        "fiwo": "Ram kupid tep Kup hisup suke?",
+        "fiwo": "Ram slezid tep Kup hisup suke?",
         "english": "It asked: \"What is your name?\""
       },
       {
@@ -8508,7 +8508,7 @@ const storyData = [
         "english": "Furthermore it said: \"I do not eat people.\""
       },
       {
-        "fiwo": "Ina hatzid.",
+        "fiwo": "Ina lofnid.",
         "english": "Ina laughed."
       },
       {
@@ -8516,7 +8516,7 @@ const storyData = [
         "english": "In other words, the dragon is quiet and it is humble."
       },
       {
-        "fiwo": "Das rerbid deky levidzop du tafe.",
+        "fiwo": "Das dwagid deky levidzop du tafe.",
         "english": "She stayed inside the cave for three days."
       },
       {
@@ -8540,11 +8540,11 @@ const storyData = [
         "english": "The dragon followed her."
       },
       {
-        "fiwo": "Nofa je kurid bul Ina gesid tep Sil nauxa mike.",
+        "fiwo": "Nofa je briwid bul Ina gesid tep Sil nauxa mike.",
         "english": "The people were afraid, but Ina said: \"This is my friend.\""
       },
       {
-        "fiwo": "Pen pogafup ovamid zy cysmop.",
+        "fiwo": "Pen pogafup jalsid zy cysmop.",
         "english": "So peace came to the village."
       }
     ]
@@ -8577,7 +8577,7 @@ const storyData = [
         "english": "The satellite received a signal on Monday."
       },
       {
-        "fiwo": "Urfup ovamid fy stalor tep zovi rewy bucygop.",
+        "fiwo": "Urfup jalsid fy stalor tep zovi rewy bucygop.",
         "english": "The signal came from a star that lies far from Earth."
       },
       {
@@ -8593,7 +8593,7 @@ const storyData = [
         "english": "They analysed the data for many hours."
       },
       {
-        "fiwo": "Urfup jedid gu je sek uqu je sek pesu je.",
+        "fiwo": "Urfup jedid gu je sek uqu je sek skeju je.",
         "english": "The signal held numbers, symbols and sounds."
       },
       {
@@ -8605,7 +8605,7 @@ const storyData = [
         "english": "He said: \"These numbers are not random.\""
       },
       {
-        "fiwo": "Rezap my oxahup gesid tep Kep sil lalupur.",
+        "fiwo": "Rezap my snecup gesid tep Kep sil lalupur.",
         "english": "The head of the project said: \"It is a fact that this is proof.\""
       },
       {
@@ -8617,11 +8617,11 @@ const storyData = [
         "english": "Even so, someone leaked the data to the internet."
       },
       {
-        "fiwo": "Nofa je my dodup keane kanid dury dumu je exke.",
+        "fiwo": "Nofa je my dodup keane kanid dury mepu je exke.",
         "english": "The people of the whole world knew within a few minutes."
       },
       {
-        "fiwo": "Nofa je cuje kypeid bul nofa je cuje kurid.",
+        "fiwo": "Nofa je cuje kypeid bul nofa je cuje briwid.",
         "english": "Some people were glad, but some people were afraid."
       },
       {
@@ -8637,7 +8637,7 @@ const storyData = [
         "english": "The reply will travel for a hundred years."
       },
       {
-        "fiwo": "Ocaduar gesid tep Syn hadiup ovamis can muk nes pilkeis.",
+        "fiwo": "Ocaduar gesid tep Syn hadiup jalsis can muk nes pilkeis.",
         "english": "A scientist said: \"If the reply arrives, we will not be alive.\""
       },
       {
@@ -8661,7 +8661,7 @@ const storyData = [
         "english": "The image showed a world, a sun, and great plants."
       },
       {
-        "fiwo": "Nofar my lakirop jedid noja je gloke.",
+        "fiwo": "Nofar my lakirop jedid tseja je gloke.",
         "english": "The being in the image had four eyes."
       },
       {
@@ -8669,7 +8669,7 @@ const storyData = [
         "english": "The scientists were silent for a full hour."
       },
       {
-        "fiwo": "Ocaduar irakid.",
+        "fiwo": "Ocaduar rehid.",
         "english": "One scientist wept."
       },
       {
@@ -8681,7 +8681,7 @@ const storyData = [
         "english": "The people of Earth did not sleep for many nights."
       },
       {
-        "fiwo": "Nofa je cuje kurid bef nofa je cuje wogid.",
+        "fiwo": "Nofa je cuje briwid bef nofa je cuje wogid.",
         "english": "Some people were afraid and some people hoped."
       },
       {
@@ -8701,15 +8701,15 @@ const storyData = [
         "english": "That people work together is a very good thing."
       },
       {
-        "fiwo": "Ocaduap je sapid abecor tande tep cyris zory stalo je.",
+        "fiwo": "Ocaduap je sapid foror tande tep cyris zory stalo je.",
         "english": "The scientists built a great ship to fly between the stars."
       },
       {
-        "fiwo": "Naciup fose kocid jaru drabe.",
+        "fiwo": "Naciup fose vepid jaru drabe.",
         "english": "That work would take a hundred years."
       },
       {
-        "fiwo": "Ocaduar nes nojapis fefup my oxahup daqe.",
+        "fiwo": "Ocaduar nes tsejapis fefup my snecup daqe.",
         "english": "The scientist will not see the end of his project."
       },
       {
@@ -8717,7 +8717,7 @@ const storyData = [
         "english": "Even so, he did not stop."
       },
       {
-        "fiwo": "Daq jamid tep Mik naci cagy nofa je tep plis fituru tel.",
+        "fiwo": "Daq jamid tep Mik naci cagy nofa je tep brenis fituru tel.",
         "english": "He wrote: \"I work for the people who will come after us.\""
       },
       {
@@ -8725,7 +8725,7 @@ const storyData = [
         "english": "The satellite still flies out among the heavenly bodies."
       },
       {
-        "fiwo": "Urfup haibe pli.",
+        "fiwo": "Urfup haibe breni.",
         "english": "The signal still comes."
       }
     ]
@@ -8742,11 +8742,11 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Fikop locwe nes fikor rodle.",
+        "fiwo": "Tivwop locwe nes tivwor trive.",
         "english": "The white road is not really a road."
       },
       {
-        "fiwo": "Ram stirop my dreko je lande ty facup ostue my Kelvo.",
+        "fiwo": "Ram hekop my dreko je nifne ty facup ostue my Kelvo.",
         "english": "It is a line of small stones on the eastern side of Kelvo."
       },
       {
@@ -8758,7 +8758,7 @@ const storyData = [
         "english": "Only a Singer walks it, and only once in a life."
       },
       {
-        "fiwo": "Nyra drijid ram dury du dewe.",
+        "fiwo": "Nyra drijid ram dury du kage.",
         "english": "Nyra climbed it for two days."
       },
       {
@@ -8778,7 +8778,7 @@ const storyData = [
         "english": "That was good, because she could pull her arms inside it."
       },
       {
-        "fiwo": "Jabeup nes cemur tep plid bef tsid.",
+        "fiwo": "Jabeup nes cemur tep brenid bef fwimid.",
         "english": "The cold was not a thing that came and went."
       },
       {
@@ -8794,7 +8794,7 @@ const storyData = [
         "english": "She decided, every hour, that she would go on being alive."
       },
       {
-        "fiwo": "Dury dugup usy dewe ifeziup fose kutgid Nyra.",
+        "fiwo": "Dury dugup usy kage ifeziup fose kutgid Nyra.",
         "english": "By the second night, that deciding had become Nyra."
       },
       {
@@ -8806,7 +8806,7 @@ const storyData = [
         "english": "She found a place where he had fallen and got up."
       },
       {
-        "fiwo": "Peze das karxid uqup my fuka daqe deky daxokop waske.",
+        "fiwo": "Peze das karxid uqup my wusa daqe deky daxokop waske.",
         "english": "Further on she found the print of his hand in old frost."
       },
       {
@@ -8814,11 +8814,11 @@ const storyData = [
         "english": "At the fork below the shoulder of the mountain she found his knife driven into the ice."
       },
       {
-        "fiwo": "Das gugid nizy ram dury tequr joze kad kinop nes ruxigid fikop locwe.",
+        "fiwo": "Das gugid nizy ram dury tequr dwime kad kinop nes ruxigid tivwop locwe.",
         "english": "She stood in front of it for a long moment, because the knife did not point at the white road."
       },
       {
-        "fiwo": "Ram ruxigid hiror lande deky drekop ky facup wane.",
+        "fiwo": "Ram ruxigid hiror nifne deky drekop ky facup poxme.",
         "english": "It pointed at a small crack in the rock on the left side."
       },
       {
@@ -8842,15 +8842,15 @@ const storyData = [
         "english": "Not less cold. Warm."
       },
       {
-        "fiwo": "Drekop noky fuka je dase fyjebeid.",
+        "fiwo": "Drekop noky wusa je dase fyjebeid.",
         "english": "The stone under her hands was warm."
       },
       {
-        "fiwo": "Das sejid bef das swamid zipap dase jany ram bef das irakid.",
+        "fiwo": "Das sejid bef das swamid zipap dase jany ram bef das rehid.",
         "english": "She stopped and put her face against it and cried."
       },
       {
-        "fiwo": "Das nes irakid ty fikop locwe.",
+        "fiwo": "Das nes rehid ty tivwop locwe.",
         "english": "She had not cried on the white road."
       },
       {
@@ -8858,15 +8858,15 @@ const storyData = [
         "english": "Then she went on."
       },
       {
-        "fiwo": "Hirop rucemid das zy krulop vy wirano cape.",
+        "fiwo": "Hirop tabwid das zy krulop vy wirano cape.",
         "english": "The crack led her into the room of black glass."
       },
       {
-        "fiwo": "Das nes nojai luge facup otre.",
+        "fiwo": "Das nes tsejai luge facup otre.",
         "english": "She could not see the other side."
       },
       {
-        "fiwo": "Litop lande dase xalid deky rokup bef ram amce retibid.",
+        "fiwo": "Litop nifne dase xalid deky rokup bef ram amce retibid.",
         "english": "Her small light went out into the dark and never came back."
       },
       {
@@ -8874,7 +8874,7 @@ const storyData = [
         "english": "The floor was smooth and black and warm."
       },
       {
-        "fiwo": "Ram xygajid jozem huhe.",
+        "fiwo": "Ram xygajid dwimem huhe.",
         "english": "It went on a very long way."
       },
       {
@@ -8886,15 +8886,15 @@ const storyData = [
         "english": "It was very large."
       },
       {
-        "fiwo": "Das amce nojaid ram keane.",
+        "fiwo": "Das amce tsejaid ram keane.",
         "english": "She never saw the whole of it."
       },
       {
-        "fiwo": "Das nojaid tep hedcup joze rame xalid igy bime.",
+        "fiwo": "Das tsejaid tep hedcup dwime rame xalid igy bime.",
         "english": "She saw one long ridge of it move, once."
       },
       {
-        "fiwo": "Ram xalid piny huqap my nofar tep usiq bef sufi.",
+        "fiwo": "Ram xalid piny huqap my nofar tep usiq bef purki.",
         "english": "It moved the way a shoulder moves when a sleeper turns over."
       },
       {
@@ -8902,7 +8902,7 @@ const storyData = [
         "english": "That ridge was higher than the singing house."
       },
       {
-        "fiwo": "Das karxid tep das ilpid bul das nes ebmerid ifeziup.",
+        "fiwo": "Das karxid tep das ilpid bul das nes rarid ifeziup.",
         "english": "She found that she was kneeling, but she did not remember deciding to."
       },
       {
@@ -8914,7 +8914,7 @@ const storyData = [
         "english": "She felt truhu; Kelvo was the one causing it."
       },
       {
-        "fiwo": "Das kurid bul kuriup nes kupid tep das cafid.",
+        "fiwo": "Das briwid bul briwiup nes slezid tep das cafid.",
         "english": "She was afraid, but the fear was not asking her to run."
       },
       {
@@ -8926,19 +8926,19 @@ const storyData = [
         "english": "It worked."
       },
       {
-        "fiwo": "Fos cemup odazem jeme.",
+        "fiwo": "Fos cemup snarem merne.",
         "english": "That was the most surprising thing."
       },
       {
-        "fiwo": "Das caslar tep jedid jaru je bimet retet bef ibagid lozuxup zofy krapor.",
+        "fiwo": "Das caslar tep jedid jaru je bimet pruret bef kecid lozuxup zofy krapor.",
         "english": "She was a girl of seventeen who had learned the Song through a wall."
       },
       {
-        "fiwo": "Xucup dase ufdid bul montop majid roasem jete.",
+        "fiwo": "Xucup dase ufdid bul montop majid fwikem jete.",
         "english": "Her voice shook, but the mountain breathed more slowly."
       },
       {
-        "fiwo": "Das uropid hedcup usy bime bef hedcup usy dewe bef hupup zode.",
+        "fiwo": "Das uropid hedcup usy bime bef hedcup usy kage bef hupup zode.",
         "english": "She sang the first part, and the second part, and the loud middle."
       },
       {
@@ -9014,15 +9014,15 @@ const storyData = [
         "english": "This was ifuxu."
       },
       {
-        "fiwo": "Cimiup nailei bul sejiup muilei.",
+        "fiwo": "Cimiup curmei bul sejiup muilei.",
         "english": "Starting is easy, but stopping is difficult."
       },
       {
-        "fiwo": "Pen das uropid cemup kase.",
+        "fiwo": "Pen das uropid cemup dene.",
         "english": "So she sang anything."
       },
       {
-        "fiwo": "Das uropid hedcu je dase bef das uropid ram je romve deky stirop okse.",
+        "fiwo": "Das uropid hedcu je dase bef das uropid ram je romve deky hekop okse.",
         "english": "She sang the parts she had, and she sang them again in the wrong order."
       },
       {
@@ -9030,7 +9030,7 @@ const storyData = [
         "english": "She sang the counting song her mother had used for her sleep."
       },
       {
-        "fiwo": "Das uropid go je cagy zaqo sek bryklo sek dowo sek hoxo.",
+        "fiwo": "Das uropid go je cagy cekgo sek bryklo sek dowo sek hoxo.",
         "english": "She sang the words for salt, bread, wool, door."
       },
       {
@@ -9038,15 +9038,15 @@ const storyData = [
         "english": "She sang her own name and then her brother's name."
       },
       {
-        "fiwo": "Syn cemur nes idojid can das uropid pesu je gloke labne dury dionur joze.",
+        "fiwo": "Syn cemur nes idojid can das uropid skeju je gloke labne dury dionur dwime.",
         "english": "When nothing was left, she sang the same four notes over and over."
       },
       {
-        "fiwo": "Noja je dase beatid dury dionup keane.",
+        "fiwo": "Tseja je dase beatid dury dionup keane.",
         "english": "Her eyes were shut the whole time."
       },
       {
-        "fiwo": "Montop majid piny tequp rivahe. Ram nes roaseid bef ram nes ruzeid.",
+        "fiwo": "Montop majid piny tequp rivahe. Ram nes fwikeid bef ram nes ruzeid.",
         "english": "The mountain breathed as before. It did not slow and it did not quicken."
       },
       {
@@ -9058,11 +9058,11 @@ const storyData = [
         "english": "She does not know how."
       },
       {
-        "fiwo": "Peze syn nofa je kupid das can das nes hadid wece.",
+        "fiwo": "Peze syn nofa je slezid das can das nes hadid wece.",
         "english": "Afterwards, when people asked her, she never answered well."
       },
       {
-        "fiwo": "Rodleup nes wecei.",
+        "fiwo": "Triveup nes wecei.",
         "english": "The truth does not make a satisfactory answer."
       },
       {
@@ -9074,11 +9074,11 @@ const storyData = [
         "english": "What she showed was tosuru: hardship taken up on purpose and carried."
       },
       {
-        "fiwo": "Dury dugup usy dewe das iweid huhe pen das sigid kluxeur jozem slafe.",
+        "fiwo": "Dury dugup usy kage das iweid huhe pen das sigid kluxeur dwimem slafe.",
         "english": "In the second night she was exhausted, and so she held a pause too long."
       },
       {
-        "fiwo": "Cemur plid fy rokup.",
+        "fiwo": "Cemur brenid fy rokup.",
         "english": "Something came back out of the dark."
       },
       {
@@ -9090,7 +9090,7 @@ const storyData = [
         "english": "She had heard that in the gorge when she was a few years old."
       },
       {
-        "fiwo": "Pen das bakid ram piny cadar.",
+        "fiwo": "Pen das lexid ram piny cadar.",
         "english": "So she tested it the way a child tests it."
       },
       {
@@ -9098,7 +9098,7 @@ const storyData = [
         "english": "She sang a word."
       },
       {
-        "fiwo": "Cemup tep plid nes gop fose.",
+        "fiwo": "Cemup tep brenid nes gop fose.",
         "english": "What came back was not that word."
       },
       {
@@ -9106,11 +9106,11 @@ const storyData = [
         "english": "She sat down on the black glass."
       },
       {
-        "fiwo": "Das uropid pesu je tafe tep rizid.",
+        "fiwo": "Das uropid skeju je tafe tep rizid.",
         "english": "She sang three notes rising."
       },
       {
-        "fiwo": "Cemup tep plid pesu je tafe tep sowid.",
+        "fiwo": "Cemup tep brenid skeju je tafe tep sowid.",
         "english": "What came back was three notes falling."
       },
       {
@@ -9146,7 +9146,7 @@ const storyData = [
         "english": "The Song was not one voice putting a mountain to sleep."
       },
       {
-        "fiwo": "Ram facup bime my nyhogor joze zory nofa dewe.",
+        "fiwo": "Ram facup bime my nyhogor dwime zory nofa kage.",
         "english": "It was one side of a long sentence between two people."
       },
       {
@@ -9170,7 +9170,7 @@ const storyData = [
         "english": "Nyra stopped singing."
       },
       {
-        "fiwo": "Das swamid fuka je dase wapse ty zafoirop fyjebe.",
+        "fiwo": "Das swamid wusa je dase wapse ty zafoirop fyjebe.",
         "english": "She put her hands flat on the warm black floor."
       },
       {
@@ -9178,11 +9178,11 @@ const storyData = [
         "english": "She did the thing no Singer had done in a thousand years."
       },
       {
-        "fiwo": "Epiwup fose nes kocid viceur bul ram muileid jete taly fikop locwe.",
+        "fiwo": "Mipfup fose nes vepid viceur bul ram muileid jete taly tivwop locwe.",
         "english": "That act needed no courage, and so it was harder than the white road."
       },
       {
-        "fiwo": "Das rerbid bef das wastid bef das dogid tep cemup linucid.",
+        "fiwo": "Das dwagid bef das wastid bef das zupid tep cemup linucid.",
         "english": "She stayed still, and she waited, and she let it happen."
       },
       {
@@ -9190,11 +9190,11 @@ const storyData = [
         "english": "She chose paguku — the deliberate refusal to interfere."
       },
       {
-        "fiwo": "Kluxeup xygajid jozem huhe pen das cimid ufdit.",
+        "fiwo": "Kluxeup xygajid dwimem huhe pen das cimid ufdit.",
         "english": "The silence went on so long that she began to shake."
       },
       {
-        "fiwo": "Peze rokup gesid bokem fe roasem fe.",
+        "fiwo": "Peze rokup gesid bokem fe fwikem fe.",
         "english": "Then the dark spoke, badly and slowly."
       },
       {
@@ -9219,7 +9219,7 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Cysmor lande gugid ty drekop wapse.",
+        "fiwo": "Cysmor nifne gugid ty drekop wapse.",
         "english": "A small village stood on flat rock."
       },
       {
@@ -9239,7 +9239,7 @@ const storyData = [
         "english": "An extremely deep hole lay between them."
       },
       {
-        "fiwo": "Syn nofar xerid drekor deky hirop can dal nes pywid pesur.",
+        "fiwo": "Syn nofar xerid drekor deky hirop can dal nes pywid skejur.",
         "english": "If someone threw a stone into the hole, they heard no sound."
       },
       {
@@ -9259,11 +9259,11 @@ const storyData = [
         "english": "So the village sent up its Singer."
       },
       {
-        "fiwo": "Uropiap xalatid kuqsop bef daq drijid fikop locwe.",
+        "fiwo": "Uropiap xalatid kuqsop bef daq drijid tivwop locwe.",
         "english": "The Singer crossed the bridge and climbed the white road."
       },
       {
-        "fiwo": "Daq enrid deky montop bef daq uropid lozuxup joze deky krulop vy wirano cape.",
+        "fiwo": "Daq enrid deky montop bef daq uropid lozuxup dwime deky krulop vy wirano cape.",
         "english": "He went into the mountain and sang the Long Song in the room of black glass."
       },
       {
@@ -9283,7 +9283,7 @@ const storyData = [
         "english": "It passed from one mouth to one mouth."
       },
       {
-        "fiwo": "Uropiap juwe ibagid bife ram.",
+        "fiwo": "Uropiap juwe kecid dozme ram.",
         "english": "Only the Singer was allowed to learn it."
       },
       {
@@ -9307,27 +9307,27 @@ const storyData = [
         "english": "Nyra grew up on the other side of that door."
       },
       {
-        "fiwo": "Syn das jedid jaru je rete can das nekid jany krapop dury dionup usy bime.",
+        "fiwo": "Syn das jedid jaru je prure can das nekid jany krapop dury dionup usy bime.",
         "english": "She was seven years old when she first sat against that wall."
       },
       {
-        "fiwo": "Das nes pywid bife bul das pywid haibe.",
+        "fiwo": "Das nes pywid dozme bul das pywid haibe.",
         "english": "She was not allowed to listen, but she listened anyway."
       },
       {
-        "fiwo": "Dury jaru je lere das ibagid hedcup bime ap tafe jy lozuxup.",
+        "fiwo": "Dury jaru je lere das kecid hedcup bime ap tafe jy lozuxup.",
         "english": "In ten years she gathered one third of the Song."
       },
       {
-        "fiwo": "Das ibagid hedcu je zode.",
+        "fiwo": "Das kecid hedcu je zode.",
         "english": "She gathered the loud parts."
       },
       {
-        "fiwo": "Das ibagid hedcu je tep taqap dase uropid boke bef daq uropid romve.",
+        "fiwo": "Das kecid hedcu je tep taqap dase uropid boke bef daq uropid romve.",
         "english": "She gathered the parts that her brother sang badly and had to sing again."
       },
       {
-        "fiwo": "Kof das ibagid kluxeu je.",
+        "fiwo": "Kof das kecid kluxeu je.",
         "english": "And she gathered the silences."
       },
       {
@@ -9335,7 +9335,7 @@ const storyData = [
         "english": "That was the strange thing."
       },
       {
-        "fiwo": "Zory hedcu je Dromu linid tep Talvo sigid kluxeur joze.",
+        "fiwo": "Zory hedcu je Dromu linid tep Talvo sigid kluxeur dwime.",
         "english": "Between the parts, Dromu made Talvo hold a long silence."
       },
       {
@@ -9359,11 +9359,11 @@ const storyData = [
         "english": "He only said: \"Count. Do not listen into it. Count.\""
       },
       {
-        "fiwo": "Dury zosup my jarup usy bimet retet daxokop enrid deky azo je my zaqo.",
+        "fiwo": "Dury zosup my jarup usy bimet pruret daxokop enrid deky kodo je my cekgo.",
         "english": "In the autumn of her seventeenth year, frost came into the salt bowls."
       },
       {
-        "fiwo": "Ram plid jaru je tafe amute.",
+        "fiwo": "Ram brenid jaru je tafe amute.",
         "english": "It came three years early."
       },
       {
@@ -9375,15 +9375,15 @@ const storyData = [
         "english": "The ice came down in nine days and reached the third stone."
       },
       {
-        "fiwo": "Noky zafoirop my sydo late drekop sapid pesur veke.",
+        "fiwo": "Noky zafoirop my sydo late drekop sapid skejur veke.",
         "english": "Under the floor of every house the rock made a low sound."
       },
       {
-        "fiwo": "Ram pesuid piny mifar tandem huhe tep sufid ky zufop rame.",
+        "fiwo": "Ram skejuid piny latwar tandem huhe tep purkid ky zufop rame.",
         "english": "It sounded like a very large animal turning over in its bed."
       },
       {
-        "fiwo": "Talvo jedid jaru je dewet gloket.",
+        "fiwo": "Talvo jedid jaru je kaget gloket.",
         "english": "Talvo was twenty-four years old."
       },
       {
@@ -9415,23 +9415,23 @@ const storyData = [
         "english": "It is a fact that half a Song is worse than silence."
       },
       {
-        "fiwo": "Can Dromu kupid Talvo nizy nofa je late.",
+        "fiwo": "Can Dromu slezid Talvo nizy nofa je late.",
         "english": "Then Dromu asked Talvo in front of everyone."
       },
       {
-        "fiwo": "Daq kupid tep Kup suk jedi lozuxup keane?",
+        "fiwo": "Daq slezid tep Kup suk jedi lozuxup keane?",
         "english": "He asked, \"Do you have the whole Song?\""
       },
       {
-        "fiwo": "Nyra nojapid zipap taqae.",
+        "fiwo": "Nyra tsejapid zipap taqae.",
         "english": "Nyra watched her brother's face."
       },
       {
-        "fiwo": "Das nojaid tep daq ivatid cemu dewe.",
+        "fiwo": "Das tsejaid tep daq gwekid cemu kage.",
         "english": "She saw him weigh two things."
       },
       {
-        "fiwo": "Ky facup bime rodleup zovid.",
+        "fiwo": "Ky facup bime triveup zovid.",
         "english": "On the one side was the truth."
       },
       {
@@ -9455,7 +9455,7 @@ const storyData = [
         "english": "However, she said nothing."
       },
       {
-        "fiwo": "Das jedid jaru je bimet retet.",
+        "fiwo": "Das jedid jaru je bimet pruret.",
         "english": "She was seventeen."
       },
       {
@@ -9463,7 +9463,7 @@ const storyData = [
         "english": "And a girl who had stolen the Song through a wall cannot stand up in front of the Singer."
       },
       {
-        "fiwo": "Pen das dogid tep daq tsid.",
+        "fiwo": "Pen das zupid tep daq fwimid.",
         "english": "So she let him go."
       },
       {
@@ -9471,7 +9471,7 @@ const storyData = [
         "english": "That is the thing she would carry forever."
       },
       {
-        "fiwo": "Das nes nyrsis okezup daqe. Das nyrsis epiwup dase.",
+        "fiwo": "Das nes nyrsis okezup daqe. Das nyrsis mipfup dase.",
         "english": "She would not carry his lie. She would carry her own act."
       },
       {
@@ -9479,31 +9479,31 @@ const storyData = [
         "english": "He crossed the bridge in the morning."
       },
       {
-        "fiwo": "Manap dalem swamid kezop ty belimo je daqe.",
+        "fiwo": "Manap dalem swamid stosop ty belimo je daqe.",
         "english": "Their mother had put oil on his boots."
       },
       {
-        "fiwo": "Cysmop late gugid ty drekop bef nofa je nojapid daq.",
+        "fiwo": "Cysmop late gugid ty drekop bef nofa je tsejapid daq.",
         "english": "The whole village stood on the rock and watched him."
       },
       {
-        "fiwo": "Daq landeid ty fikop locwe bef can daq nes zovid poco.",
+        "fiwo": "Daq nifneid ty tivwop locwe bef can daq nes zovid poco.",
         "english": "He became small on the white road, and then he was not there."
       },
       {
-        "fiwo": "Dugup usy bime kluxeid. Dugup usy dewe kluxeid.",
+        "fiwo": "Dugup usy bime kluxeid. Dugup usy kage kluxeid.",
         "english": "The first night was quiet. The second night was quiet."
       },
       {
-        "fiwo": "Dury dugup usy tafe montop sapid pesur.",
+        "fiwo": "Dury dugup usy tafe montop sapid skejur.",
         "english": "On the third night the mountain made a sound."
       },
       {
-        "fiwo": "Ram nes pesup veke.",
+        "fiwo": "Ram nes skejup veke.",
         "english": "It was not the low sound."
       },
       {
-        "fiwo": "Ram xygajid dury dionur joze bef ram sejid.",
+        "fiwo": "Ram xygajid dury dionur dwime bef ram sejid.",
         "english": "It went on for a long time and it stopped."
       },
       {
@@ -9519,7 +9519,7 @@ const storyData = [
         "english": "She understood something that the others did not hear."
       },
       {
-        "fiwo": "Pesup jedid jukur.",
+        "fiwo": "Skejup jedid jukur.",
         "english": "The sound had a shape."
       },
       {
@@ -9539,7 +9539,7 @@ const storyData = [
         "english": "An old woman told her to be quiet."
       },
       {
-        "fiwo": "Dromu upycid das dury tequr joze bef daq upycid rerpor otre.",
+        "fiwo": "Dromu upycid das dury tequr dwime bef daq upycid rerpor otre.",
         "english": "Dromu looked at her for a long moment and then looked away."
       },
       {
@@ -9551,11 +9551,11 @@ const storyData = [
         "english": "Talvo did not come back on the fourth day, the fifth, or the ninth."
       },
       {
-        "fiwo": "Dury dup usy lere jadorop cimid bef ram amce sejid.",
+        "fiwo": "Dury dup usy lere vezop cimid bef ram amce sejid.",
         "english": "On the tenth day the snow began and it never stopped."
       },
       {
-        "fiwo": "Fecy fefup my rugoxup ram gugid piny topzar zave jany krapo je ivanue.",
+        "fiwo": "Fecy fefup my rugoxup ram gugid piny topzar zave jany krapo je xasue.",
         "english": "By the end of the month it stood chest-high against the north walls."
       },
       {
@@ -9563,15 +9563,15 @@ const storyData = [
         "english": "Three goats died."
       },
       {
-        "fiwo": "Fikop zy worup veke haibe zovid bul fap ram beatis strene.",
+        "fiwo": "Tivwop zy worup veke haibe zovid bul fap ram beatis strene.",
         "english": "The road to the low country was still open, but it would close soon."
       },
       {
-        "fiwo": "Dromu baqid cysmop late bef daq gesid rodleup.",
+        "fiwo": "Dromu baqid cysmop late bef daq gesid triveup.",
         "english": "Dromu called the whole village and told the truth."
       },
       {
-        "fiwo": "Uropiar dewe nes zovid.",
+        "fiwo": "Uropiar kage nes zovid.",
         "english": "There is no second Singer."
       },
       {
@@ -9591,7 +9591,7 @@ const storyData = [
         "english": "Nobody argued."
       },
       {
-        "fiwo": "Fos hedcup bokem jeme.",
+        "fiwo": "Fos hedcup bokem merne.",
         "english": "That was the worst part."
       },
       {
@@ -9607,7 +9607,7 @@ const storyData = [
         "english": "Osybu — helpless resignation — had come into Sevla."
       },
       {
-        "fiwo": "Nyra nojapid nauxa je dase bef zipap late dzefid piny nofar tep dzefi vexup.",
+        "fiwo": "Nyra tsejapid nauxa je dase bef zipap late dzefid piny nofar tep dzefi vexup.",
         "english": "Nyra watched her neighbours, and every face agreed the way a person agrees to weather."
       },
       {
@@ -9631,7 +9631,7 @@ const storyData = [
         "english": "He spoke very softly, and that was worse."
       },
       {
-        "fiwo": "Daq gesid tep hedcup jy lozuxup nes lozuxur lande.",
+        "fiwo": "Daq gesid tep hedcup jy lozuxup nes lozuxur nifne.",
         "english": "He said that a part of the Song is not a small Song."
       },
       {
@@ -9647,7 +9647,7 @@ const storyData = [
         "english": "He said her brother had already shown that."
       },
       {
-        "fiwo": "Can daq kopid tep nofar amce xalati kuqsop bef daq swamid noqsa dewe ty ram.",
+        "fiwo": "Can daq kopid tep nofar amce xalati kuqsop bef daq swamid noqsa kage ty ram.",
         "english": "Then he ordered that nobody cross the bridge, and he put two men on it."
       },
       {
@@ -9655,11 +9655,11 @@ const storyData = [
         "english": "She waited four days."
       },
       {
-        "fiwo": "Das dogid tep nofa je nojai dase tep stelid cemu je cagy worup veke.",
+        "fiwo": "Das zupid tep nofa je tsejai dase tep stelid cemu je cagy worup veke.",
         "english": "She let them see her packing for the low country."
       },
       {
-        "fiwo": "Manap dase zemid azo je my zaqo wy dowo bef Nyra jofid das.",
+        "fiwo": "Manap dase zemid kodo je my cekgo wy dowo bef Nyra jofid das.",
         "english": "She helped her mother wrap the salt bowls in wool."
       },
       {
@@ -9675,7 +9675,7 @@ const storyData = [
         "english": "Then she put the fire into them."
       },
       {
-        "fiwo": "Das pozidyk tep epiwup muilei.",
+        "fiwo": "Das pozidyk tep mipfup muilei.",
         "english": "She had thought the act would be difficult."
       },
       {
@@ -9683,15 +9683,15 @@ const storyData = [
         "english": "It was not difficult."
       },
       {
-        "fiwo": "Odcanop waske stelid fuegop piny keglar wuke.",
+        "fiwo": "Odcanop waske stelid fuegop piny keglar fezne.",
         "english": "The old rope took the flame the way dry grass takes it."
       },
       {
-        "fiwo": "Kuqsop sowid deky hirop piny stiror lito bef nofar amce pywid pesup rame.",
+        "fiwo": "Kuqsop sowid deky hirop piny hekor lito bef nofar amce pywid skejup rame.",
         "english": "The bridge fell into the hole like a line of light, and its sound never came up."
       },
       {
-        "fiwo": "Epiwup dase labukup.",
+        "fiwo": "Mipfup dase labukup.",
         "english": "What she had done was labuku: the destroying of one's own way back."
       },
       {
@@ -9703,11 +9703,11 @@ const storyData = [
         "english": "Now nobody could carry her back to her house."
       },
       {
-        "fiwo": "Kof cemur nes zovi baxy das cagy kuriup dase.",
+        "fiwo": "Kof cemur nes zovi baxy das cagy briwiup dase.",
         "english": "And there was nothing behind her for her fear to go to."
       },
       {
-        "fiwo": "Das kutgis uropiar rot das kutgis soxar ty fikop locwe.",
+        "fiwo": "Das kutgis uropiar rot das kutgis soxar ty tivwop locwe.",
         "english": "She would become a Singer, or she would become a body on the white road."
       },
       {
@@ -9715,7 +9715,7 @@ const storyData = [
         "english": "Nothing else exists between those two."
       },
       {
-        "fiwo": "Das sufid bef das cimid drijit.",
+        "fiwo": "Das purkid bef das cimid drijit.",
         "english": "She turned and began to climb."
       }
     ]
@@ -9732,11 +9732,11 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Kelvo owadid dugup keane ty gop usy dewe.",
+        "fiwo": "Kelvo owadid dugup keane ty gop usy kage.",
         "english": "Kelvo spent a whole night on the second word."
       },
       {
-        "fiwo": "Kelvo gesid tep Kop pli dupem jete.",
+        "fiwo": "Kelvo gesid tep Kop breni dupem jete.",
         "english": "Kelvo said: \"Come deeper.\""
       },
       {
@@ -9748,11 +9748,11 @@ const storyData = [
         "english": "Past the room of black glass the floor sloped and the warmth grew."
       },
       {
-        "fiwo": "Deky levidzor lande ky fefup Nyra karxid taqap dase pilke.",
+        "fiwo": "Deky levidzor nifne ky fefup Nyra karxid taqap dase pilke.",
         "english": "In a small hollow at the end of it, Nyra found her brother alive."
       },
       {
-        "fiwo": "Daq rerbidyk poco dury du je bimet bimet.",
+        "fiwo": "Daq dwagidyk poco dury du je bimet bimet.",
         "english": "He had been there eleven days."
       },
       {
@@ -9760,19 +9760,19 @@ const storyData = [
         "english": "He had eaten nothing for six days."
       },
       {
-        "fiwo": "Daq rerbid jany drekop fyjebe piny nofar jany epmop.",
+        "fiwo": "Daq dwagid jany drekop fyjebe piny nofar jany epmop.",
         "english": "He lay against the warm stone the way a man lies against an oven."
       },
       {
-        "fiwo": "Syn litop dase joborid daq can daq nes zemid noja je daqe.",
+        "fiwo": "Syn litop dase joborid daq can daq nes zemid tseja je daqe.",
         "english": "When her light reached him, he did not shield his eyes."
       },
       {
-        "fiwo": "Das kurid fos jete taly cemu late deky montop.",
+        "fiwo": "Das briwid fos jete taly cemu late deky montop.",
         "english": "She feared that more than anything else in the mountain."
       },
       {
-        "fiwo": "Daq ebzikid das. Fos cemur.",
+        "fiwo": "Daq dwepid das. Fos cemur.",
         "english": "He knew her. That was something."
       },
       {
@@ -9788,7 +9788,7 @@ const storyData = [
         "english": "She answered: \"I know.\""
       },
       {
-        "fiwo": "Daq hatzid bef fos bokem huhe.",
+        "fiwo": "Daq lofnid bef fos bokem huhe.",
         "english": "He laughed, and that was terrible."
       },
       {
@@ -9800,11 +9800,11 @@ const storyData = [
         "english": "She gave him water and half of the bread."
       },
       {
-        "fiwo": "Nyra fenutid daq cemup tep das ibagidyk deky rokup vel daq rolid.",
+        "fiwo": "Nyra fenutid daq cemup tep das kecidyk deky rokup vel daq rolid.",
         "english": "While he drank, Nyra told him what she had learned in the dark."
       },
       {
-        "fiwo": "Das nojapid tep noqsar karxid rodleup.",
+        "fiwo": "Das tsejapid tep noqsar karxid triveup.",
         "english": "She watched a man find out the truth."
       },
       {
@@ -9816,7 +9816,7 @@ const storyData = [
         "english": "He had been given to the Song in his fourth year."
       },
       {
-        "fiwo": "Daq owadid jaru je dewet nozet ty lozuxup.",
+        "fiwo": "Daq owadid jaru je kaget nozet ty lozuxup.",
         "english": "He had spent twenty years on it."
       },
       {
@@ -9836,11 +9836,11 @@ const storyData = [
         "english": "Nyra answered: \"Yes.\""
       },
       {
-        "fiwo": "Daq gesid tep Mik guamid ram je. Mik guamid ram je dury jaru je dewet nozet.",
+        "fiwo": "Daq gesid tep Mik guamid ram je. Mik guamid ram je dury jaru je kaget nozet.",
         "english": "He said: \"I counted them. For twenty years I counted them.\""
       },
       {
-        "fiwo": "Peze daq irakid.",
+        "fiwo": "Peze daq rehid.",
         "english": "Then he cried."
       },
       {
@@ -9852,19 +9852,19 @@ const storyData = [
         "english": "Above them the winter went on coming down."
       },
       {
-        "fiwo": "Nofa dewe rerbid dury du je zewe.",
+        "fiwo": "Nofa kage dwagid dury du je zewe.",
         "english": "The two of them stayed nine days."
       },
       {
-        "fiwo": "Bip nofa dewe rerbid kad Talvo nes hici luge.",
+        "fiwo": "Bip nofa kage dwagid kad Talvo nes hici luge.",
         "english": "Firstly they stayed because Talvo could not walk."
       },
       {
-        "fiwo": "Peze nofa dewe rerbid kad cemur linucid deky kluxeu je.",
+        "fiwo": "Peze nofa kage dwagid kad cemur linucid deky kluxeu je.",
         "english": "Then they stayed because of what happened in the pauses."
       },
       {
-        "fiwo": "Kelvo gesid roasem fe.",
+        "fiwo": "Kelvo gesid fwikem fe.",
         "english": "Kelvo spoke very slowly."
       },
       {
@@ -9876,7 +9876,7 @@ const storyData = [
         "english": "The language he reached for was old and strange."
       },
       {
-        "fiwo": "Go je lande nes zovid deky ram.",
+        "fiwo": "Go je nifne nes zovid deky ram.",
         "english": "There were no small words in it."
       },
       {
@@ -9884,15 +9884,15 @@ const storyData = [
         "english": "However, Nyra understood the shape of his words."
       },
       {
-        "fiwo": "Ram je plid deky stirop sile dury du je zewe deky rokup.",
+        "fiwo": "Ram je brenid deky hekop sile dury du je zewe deky rokup.",
         "english": "They came in this order, over nine days, in the dark."
       },
       {
-        "fiwo": "Jabeup pli fy rerpop beqy ivanup.",
+        "fiwo": "Jabeup breni fy rerpop beqy xasup.",
         "english": "The cold comes from the place beyond the north."
       },
       {
-        "fiwo": "Ram plid ovce.",
+        "fiwo": "Ram brenid ovce.",
         "english": "It has always come."
       },
       {
@@ -9912,15 +9912,15 @@ const storyData = [
         "english": "Kelvo is tired."
       },
       {
-        "fiwo": "Kelvo amce kupid tep dal sejis.",
+        "fiwo": "Kelvo amce slezid tep dal sejis.",
         "english": "Kelvo never asked to stop."
       },
       {
-        "fiwo": "Dal kupid cemur otre deky kluxeu je dury jaru egmabe.",
+        "fiwo": "Dal slezid cemur otre deky kluxeu je dury jaru egmabe.",
         "english": "He asked for something else, in the pauses, for a thousand years."
       },
       {
-        "fiwo": "Dal kupid uropia late tep Sevla ombidyk zy montop.",
+        "fiwo": "Dal slezid uropia late tep Sevla ombidyk zy montop.",
         "english": "He asked it of every Singer that Sevla ever sent up."
       },
       {
@@ -9932,7 +9932,7 @@ const storyData = [
         "english": "And Sevla gave them a feast."
       },
       {
-        "fiwo": "Kelvo kupid hisur juwe.",
+        "fiwo": "Kelvo slezid hisur juwe.",
         "english": "Kelvo was asking only for a name."
       },
       {
@@ -9940,7 +9940,7 @@ const storyData = [
         "english": "Nyra did not understand it at first."
       },
       {
-        "fiwo": "Das pozid tep ram cemur lande.",
+        "fiwo": "Das pozid tep ram cemur nifne.",
         "english": "She thought it was a small thing."
       },
       {
@@ -9948,7 +9948,7 @@ const storyData = [
         "english": "Later she felt shame about that thought."
       },
       {
-        "fiwo": "Ram nes cemur lande.",
+        "fiwo": "Ram nes cemur nifne.",
         "english": "It was not a small thing."
       },
       {
@@ -9968,7 +9968,7 @@ const storyData = [
         "english": "A field has a name in exactly that way."
       },
       {
-        "fiwo": "Deky ikup late lan lozuxup late montop ram.",
+        "fiwo": "Deky tifup late lan lozuxup late montop ram.",
         "english": "In all the law and in all the Song, the mountain was an it."
       },
       {
@@ -9992,7 +9992,7 @@ const storyData = [
         "english": "It sat in the dark being wrong at something that could hear it."
       },
       {
-        "fiwo": "Talvo gesid ram usy bime deky levidzop fyjebe dury dup usy zewe wy xucur waze.",
+        "fiwo": "Talvo gesid ram usy bime deky levidzop fyjebe dury dup usy zewe wy xucur paxe.",
         "english": "Talvo said it first, in the warm hollow, on the ninth day, in a wrecked voice."
       },
       {
@@ -10000,15 +10000,15 @@ const storyData = [
         "english": "He said: \"The mountain is not an it.\""
       },
       {
-        "fiwo": "Nofa dewe sowid zofy hirop kad kuqsor nes zovid.",
+        "fiwo": "Nofa kage sowid zofy hirop kad kuqsor nes zovid.",
         "english": "They came down through the crack, because there was no bridge."
       },
       {
-        "fiwo": "Kinop ry Talvo ruxigid hirop tep rucemid Nyra zy montop.",
+        "fiwo": "Kinop ry Talvo ruxigid hirop tep tabwid Nyra zy montop.",
         "english": "Talvo's knife had pointed at the crack that led Nyra into the mountain."
       },
       {
-        "fiwo": "Hirop labne rucemid nofa dewe zy Sevla.",
+        "fiwo": "Hirop labne tabwid nofa kage zy Sevla.",
         "english": "The same crack led them both back to Sevla."
       },
       {
@@ -10016,7 +10016,7 @@ const storyData = [
         "english": "Nyra thought about that for many years."
       },
       {
-        "fiwo": "Das atiluid tep wokutup linid tep saqa dewe karxid wable.",
+        "fiwo": "Das atiluid tep wokutup linid tep browa kage karxid derwe.",
         "english": "She came to believe that wokutu had made the two of them find each other."
       },
       {
@@ -10024,23 +10024,23 @@ const storyData = [
         "english": "Sevla was still there."
       },
       {
-        "fiwo": "Fap fikop zy worup veke beatidyk dury du je marte rivahe.",
+        "fiwo": "Fap tivwop zy worup veke beatidyk dury du je marte rivahe.",
         "english": "The road to the low country had closed eight days before."
       },
       {
-        "fiwo": "Cysmop dzefidyk tep dal je tsis bul dal je nes tsid.",
+        "fiwo": "Cysmop dzefidyk tep dal je fwimis bul dal je nes fwimid.",
         "english": "The village had agreed to leave, but they had not left."
       },
       {
-        "fiwo": "Jadorop haxanid rago je ty facup ivanue.",
+        "fiwo": "Vezop haxanid rago je ty facup xasue.",
         "english": "The snow stood as high as the roofs on the north side."
       },
       {
-        "fiwo": "Nofa je bimet bimet waske bef cada dewe kimugid dury rugoxup.",
+        "fiwo": "Nofa je bimet bimet waske bef cada kage kimugid dury rugoxup.",
         "english": "Eleven of the old and two of the very young had died in the month."
       },
       {
-        "fiwo": "Syn Nyra lan Talvo enrid fy jadorop locwe can nofar nes akdid.",
+        "fiwo": "Syn Nyra lan Talvo enrid fy vezop locwe can nofar nes akdid.",
         "english": "When Nyra and Talvo walked in out of the white, nobody screamed."
       },
       {
@@ -10056,7 +10056,7 @@ const storyData = [
         "english": "Dromu came out last."
       },
       {
-        "fiwo": "Daq upycid Talvo dury dionur joze.",
+        "fiwo": "Daq upycid Talvo dury dionur dwime.",
         "english": "He looked at Talvo for a long time."
       },
       {
@@ -10080,7 +10080,7 @@ const storyData = [
         "english": "The council ruled that the cold had got into his brain."
       },
       {
-        "fiwo": "Fap panop daqe xunid.",
+        "fiwo": "Fap nibop daqe xunid.",
         "english": "His book was burned."
       },
       {
@@ -10088,7 +10088,7 @@ const storyData = [
         "english": "Dromu said: \"When I was nine years old they told me that story. It was a story about a madman. I have thought about it every day since.\""
       },
       {
-        "fiwo": "Daq gesid tep Mik kritrid taqap suke tep guami zofy kluxeup tel kad mik kurid. Syn mik okseid can uropia late dury jaru egmabe gesidyk tody nofar. Mik nes gugi luge deky poziup fose.",
+        "fiwo": "Daq gesid tep Mik kritrid taqap suke tep guami zofy kluxeup tel kad mik briwid. Syn mik okseid can uropia late dury jaru egmabe gesidyk tody nofar. Mik nes gugi luge deky poziup fose.",
         "english": "He said: \"I taught your brother to count through the silence because I was afraid. If I was wrong, then every Singer for a thousand years had been talking over somebody. I cannot stand inside that thought.\""
       },
       {
@@ -10096,7 +10096,7 @@ const storyData = [
         "english": "He was ninety-one."
       },
       {
-        "fiwo": "Daq nes kupid tep Nyra hevis daq.",
+        "fiwo": "Daq nes slezid tep Nyra hevis daq.",
         "english": "He did not ask Nyra to forgive him."
       },
       {
@@ -10112,15 +10112,15 @@ const storyData = [
         "english": "Everyone who could still stand came in."
       },
       {
-        "fiwo": "Das nes gesid dury dionur joze.",
+        "fiwo": "Das nes gesid dury dionur dwime.",
         "english": "She did not make a speech."
       },
       {
-        "fiwo": "Das pozidyq dury du dewe zety nyhogop rodle wosem jeme.",
+        "fiwo": "Das pozidyq dury du kage zety nyhogop trive stusem merne.",
         "english": "She had been thinking for two days about the shortest true sentence."
       },
       {
-        "fiwo": "Das kanid tep nofa je cukis zety nyhogop jozem jete.",
+        "fiwo": "Das kanid tep nofa je cukis zety nyhogop dwimem jete.",
         "english": "She knew that they would argue with anything longer."
       },
       {
@@ -10128,11 +10128,11 @@ const storyData = [
         "english": "She said: \"Kelvo is not an it. Kelvo is a someone.\""
       },
       {
-        "fiwo": "Go dewe jy azikup.",
+        "fiwo": "Go kage jy azikup.",
         "english": "Two words of grammar."
       },
       {
-        "fiwo": "Fos cemup keane tep Sevla amce dogid.",
+        "fiwo": "Fos cemup keane tep Sevla amce zupid.",
         "english": "That was the whole of the thing Sevla had never allowed."
       },
       {
@@ -10144,15 +10144,15 @@ const storyData = [
         "english": "The village argued for eleven weeks."
       },
       {
-        "fiwo": "Fos dionur wosem huhe cagy cysmor tep hufribi jaru egmabe.",
+        "fiwo": "Fos dionur stusem huhe cagy cysmor tep hufribi jaru egmabe.",
         "english": "That is a very short time for a village to overturn a thousand years."
       },
       {
-        "fiwo": "Syn jadorop sejid rizit can nofa je haibe cukid.",
+        "fiwo": "Syn vezop sejid rizit can nofa je haibe cukid.",
         "english": "When the snow stopped rising, they were still arguing."
       },
       {
-        "fiwo": "Jadorop nes kutgid dorsor.",
+        "fiwo": "Vezop nes kutgid dorsor.",
         "english": "The snow did not melt."
       },
       {
@@ -10160,15 +10160,15 @@ const storyData = [
         "english": "It simply stopped getting worse."
       },
       {
-        "fiwo": "Kep ouzup fos dury dionup jeme.",
+        "fiwo": "Kep ouzup fos dury dionup merne.",
         "english": "In fact, that is what mercy is, most of the time."
       },
       {
-        "fiwo": "Vofup plid anote bef ram xygeid.",
+        "fiwo": "Vofup brenid hede bef ram xygeid.",
         "english": "The spring came late and thin."
       },
       {
-        "fiwo": "Talvo wafrid mapa dewe jy fukap wane daqe.",
+        "fiwo": "Talvo wafrid tukpa kage jy wusap poxme daqe.",
         "english": "Talvo lost two fingers of his left hand."
       },
       {
@@ -10176,7 +10176,7 @@ const storyData = [
         "english": "And he lost his singing voice, so he could never become the Singer."
       },
       {
-        "fiwo": "Kof Talvo drijid montop romve dury kynup ty fikop jaxke.",
+        "fiwo": "Kof Talvo drijid montop romve dury kynup ty tivwop jaxke.",
         "english": "And it was Talvo who climbed the mountain again in the summer, on the new path."
       },
       {
@@ -10212,7 +10212,7 @@ const storyData = [
         "english": "You write down what you get."
       },
       {
-        "fiwo": "Hedcup jeme nes jedi blunur bul hedcup lande jedi ram.",
+        "fiwo": "Hedcup merne nes jedi blunur bul hedcup nifne jedi ram.",
         "english": "Most of it has no meaning, but a small part of it does."
       },
       {
@@ -10240,7 +10240,7 @@ const storyData = [
         "english": "She taught people to hold a silence and to put nothing into it."
       },
       {
-        "fiwo": "Peze dury ceniup dase cadar kupid das zety hedcup usy raje.",
+        "fiwo": "Peze dury ceniup dase cadar slezid das zety hedcup usy raje.",
         "english": "Late in her life a child asked her about the fifth part."
       },
       {
@@ -10252,11 +10252,11 @@ const storyData = [
         "english": "She said: \"The Song has been complete for a thousand years.\""
       },
       {
-        "fiwo": "Das gesid tep Cemup lande nes hedcur jy lozuxup.",
+        "fiwo": "Das gesid tep Cemup nifne nes hedcur jy lozuxup.",
         "english": "She said: \"The small thing is not a part of the Song.\""
       },
       {
-        "fiwo": "Das gesid tep Cemu late zovid poco. Go late zovid deky stirop hiqe. Lozuxup kocid anuwup juwe. Ram kocid nofar tep wastis ky fefup rame.",
+        "fiwo": "Das gesid tep Cemu late zovid poco. Go late zovid deky hekop hiqe. Lozuxup vepid anuwup juwe. Ram vepid nofar tep wastis ky fefup rame.",
         "english": "She said: \"Everything was there. Every word was in the right order. The Song needed only the anuwu. It needed one person at the end of it who would wait.\""
       }
     ]
@@ -10273,19 +10273,19 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Agsop zovid dury jaru dewe.",
+        "fiwo": "Agsop zovid dury jaru kage.",
         "english": "The drought had lasted two years."
       },
       {
-        "fiwo": "Domlop nes plid dury retadu je marte.",
+        "fiwo": "Domlop nes brenid dury retadu je marte.",
         "english": "No rain had come for eight weeks."
       },
       {
-        "fiwo": "Cysmop hemyei taly fikop tande.",
+        "fiwo": "Cysmop hemyei taly tivwop tande.",
         "english": "The village lies close to the great road."
       },
       {
-        "fiwo": "Cyva je xalid dury fikop dury jaru je keane.",
+        "fiwo": "Cyva je xalid dury tivwop dury jaru je keane.",
         "english": "Strangers travelled the road all year round."
       },
       {
@@ -10297,11 +10297,11 @@ const storyData = [
         "english": "Sixty people lived in the village."
       },
       {
-        "fiwo": "Ikup rivahe gesid tep Nofa stomi fuqe dorso cagy cyva.",
+        "fiwo": "Tifup rivahe gesid tep Nofa stomi fuqe dorso cagy cyva.",
         "english": "The old law said: A person must give water to a stranger."
       },
       {
-        "fiwo": "Ikup fose anazeid.",
+        "fiwo": "Tifup fose anazeid.",
         "english": "That law was foundational."
       },
       {
@@ -10313,15 +10313,15 @@ const storyData = [
         "english": "During the drought people counted."
       },
       {
-        "fiwo": "Vesla cenid hemy fikop bul sydop dase hemyei jeme taly sydo je otre.",
+        "fiwo": "Vesla cenid hemy tivwop bul sydop dase hemyei merne taly sydo je otre.",
         "english": "Vesla lived near the road, and her house was the closest of all the houses."
       },
       {
-        "fiwo": "Cyva je plid ky hoxop ry Vesla dury dugu je keane.",
+        "fiwo": "Cyva je brenid ky hoxop ry Vesla dury dugu je keane.",
         "english": "Strangers came to Vesla's gate all night long."
       },
       {
-        "fiwo": "Vesla stomid dorso cagy cyva je dewet nozet dury retadu bime.",
+        "fiwo": "Vesla stomid dorso cagy cyva je kaget nozet dury retadu bime.",
         "english": "Vesla gave water to twenty strangers in one week."
       },
       {
@@ -10345,7 +10345,7 @@ const storyData = [
         "english": "Malka had presided over the council for ten years."
       },
       {
-        "fiwo": "Onta ceni jaru je dewet zewet bul das jaxkei jeme deky zitsugup.",
+        "fiwo": "Onta ceni jaru je kaget zewet bul das jaxkei merne deky zitsugup.",
         "english": "Onta is twenty-nine years old and is the newest on the council."
       },
       {
@@ -10361,19 +10361,19 @@ const storyData = [
         "english": "Malka said, \"[I have seen it] The water is low.\""
       },
       {
-        "fiwo": "Malka gesid tep Nop muk nes eziswis ikup rivahe dury jaru sile.",
+        "fiwo": "Malka gesid tep Nop muk nes eziswis tifup rivahe dury jaru sile.",
         "english": "Malka said, \"[It follows] We will not carry out the old law this year.\""
       },
       {
-        "fiwo": "Onta gesid tep Mik naglifi tep muk tumi ikup.",
+        "fiwo": "Onta gesid tep Mik naglifi tep muk tumi tifup.",
         "english": "Onta said, \"I insist that we change the law.\""
       },
       {
-        "fiwo": "Onta gesid tep Ikup rivahe kopi nofa. Ikup stomi nes jokuwu cagy nofa.",
+        "fiwo": "Onta gesid tep Tifup rivahe kopi nofa. Tifup stomi nes jokuwu cagy nofa.",
         "english": "Onta said, \"The old law commands a person. The law gives a person no vote.\""
       },
       {
-        "fiwo": "Malka kupid tep Kup suk fabi tep muk seji ikup?",
+        "fiwo": "Malka slezid tep Kup suk fabi tep muk seji tifup?",
         "english": "Malka asked, \"Do you want us to end the law?\""
       },
       {
@@ -10381,11 +10381,11 @@ const storyData = [
         "english": "Onta replied, \"No. I do not want that.\""
       },
       {
-        "fiwo": "Onta gesid tep Mik fabi tep nofa stomi bife dorso tel bul mik nes fabi tep nofa stomi fuqe dorso.",
+        "fiwo": "Onta gesid tep Mik fabi tep nofa stomi dozme dorso tel bul mik nes fabi tep nofa stomi fuqe dorso.",
         "english": "Onta said, \"I want a person to be permitted to give water, and I do not want a person to be required to give water.\""
       },
       {
-        "fiwo": "Onta gesid tep Nujup mike gesi gop je rete.",
+        "fiwo": "Onta gesid tep Stisup mike gesi gop je prure.",
         "english": "Onta said, \"My motion is seven words.\""
       },
       {
@@ -10405,7 +10405,7 @@ const storyData = [
         "english": "Duro wrote those words down."
       },
       {
-        "fiwo": "Malka kupid tep Kup Onta gesi wat?",
+        "fiwo": "Malka slezid tep Kup Onta gesi wat?",
         "english": "Malka asked, \"What is Onta saying?\""
       },
       {
@@ -10413,7 +10413,7 @@ const storyData = [
         "english": "Onta replied, \"I say that a person is not obliged to take a stranger in. That is a different thing.\""
       },
       {
-        "fiwo": "Onta gesid tep Syn nofa fabi can nofa stomi bife dorso.",
+        "fiwo": "Onta gesid tep Syn nofa fabi can nofa stomi dozme dorso.",
         "english": "Onta said, \"If a person wishes, then a person may give water.\""
       },
       {
@@ -10429,11 +10429,11 @@ const storyData = [
         "english": "Onta sat down and said it again."
       },
       {
-        "fiwo": "Onta gesid tep Ikup rivahe gesi tep nofa stomi fuqe dorso.",
+        "fiwo": "Onta gesid tep Tifup rivahe gesi tep nofa stomi fuqe dorso.",
         "english": "Onta said, \"The old law says a person must give water.\""
       },
       {
-        "fiwo": "Onta gesid tep Muk lanti gop tep nes tel zy nujup.",
+        "fiwo": "Onta gesid tep Muk lanti gop tep nes tel zy stisup.",
         "english": "Onta said, \"We add the word not to the motion.\""
       },
       {
@@ -10449,15 +10449,15 @@ const storyData = [
         "english": "Malka said, \"I hear you, and I do not agree with you.\""
       },
       {
-        "fiwo": "Malka gesid tep Aziku tep nofa avowi bife fos tel nes azikui.",
+        "fiwo": "Malka gesid tep Aziku tep nofa avowi dozme fos tel nes azikui.",
         "english": "Malka said, \"A rule a person is permitted to drop is not a rule.\""
       },
       {
-        "fiwo": "Malka gesid tep Ikup rivahe zovi dury jaru je zewet nozet. Cysmop zovi apawy fos.",
+        "fiwo": "Malka gesid tep Tifup rivahe zovi dury jaru je zewet nozet. Cysmop zovi apawy fos.",
         "english": "Malka said, \"The old law has stood for ninety years. The village stands by it.\""
       },
       {
-        "fiwo": "Onta hadid tep Syn agsop zovi dury jaru navere can nofa je nes zovis apawy ikup.",
+        "fiwo": "Onta hadid tep Syn agsop zovi dury jaru navere can nofa je nes zovis apawy tifup.",
         "english": "Onta replied, \"If the drought lasts another year, then people will not go on standing by the law.\""
       },
       {
@@ -10465,19 +10465,19 @@ const storyData = [
         "english": "Malka said, \"I know. But I do not agree.\""
       },
       {
-        "fiwo": "Halva kupid tep Kup syn muk tumi ikup can cyva je plis romve?",
+        "fiwo": "Halva slezid tep Kup syn muk tumi tifup can cyva je brenis romve?",
         "english": "Halva asked, \"If we change the law, will the strangers come again?\""
       },
       {
-        "fiwo": "Onta hadid tep Cyva je pli hyme. Fikop nes tumi.",
+        "fiwo": "Onta hadid tep Cyva je breni hyme. Tivwop nes tumi.",
         "english": "Onta replied, \"The strangers come regardless. The road does not change.\""
       },
       {
-        "fiwo": "Pesku gesid tep Mik kuri tep dorsop nes zovis.",
+        "fiwo": "Pesku gesid tep Mik briwi tep dorsop nes zovis.",
         "english": "Pesku said, \"I am afraid the water will run out.\""
       },
       {
-        "fiwo": "Zitsugup cukid wable dury dugu keane.",
+        "fiwo": "Zitsugup cukid derwe dury dugu keane.",
         "english": "The council argued with one another the whole night."
       },
       {
@@ -10489,7 +10489,7 @@ const storyData = [
         "english": "Malka said, \"We vote now.\""
       },
       {
-        "fiwo": "Malka gesid tep Duro loki fuqe nujup romve pen muk jokuwui.",
+        "fiwo": "Malka gesid tep Duro loki fuqe stisup romve pen muk jokuwui.",
         "english": "Malka said, \"Duro must read the motion again, and then we vote.\""
       },
       {
@@ -10497,39 +10497,39 @@ const storyData = [
         "english": "Duro read out: \"A person does not have to give water to a stranger.\""
       },
       {
-        "fiwo": "Malka kupid tep Kup wun jokuwui cagy nujup?",
+        "fiwo": "Malka slezid tep Kup wun jokuwui cagy stisup?",
         "english": "Malka asked, \"Who votes for the motion?\""
       },
       {
-        "fiwo": "Onta lan Halva lan Pesku lan Duro stomid fuka je dalem je.",
+        "fiwo": "Onta lan Halva lan Pesku lan Duro stomid wusa je dalem je.",
         "english": "Onta and Halva and Pesku and Duro raised their hands."
       },
       {
-        "fiwo": "Malka kupid tep Kup wun jokuwui jany nujup?",
+        "fiwo": "Malka slezid tep Kup wun jokuwui jany stisup?",
         "english": "Malka asked, \"Who votes against the motion?\""
       },
       {
-        "fiwo": "Malka stomid fukap dase wible.",
+        "fiwo": "Malka stomid wusap dase wible.",
         "english": "Malka raised her own hand."
       },
       {
-        "fiwo": "Duro guamid fuka je.",
+        "fiwo": "Duro guamid wusa je.",
         "english": "Duro counted the hands."
       },
       {
-        "fiwo": "Duro gesid tep Nofa je gloke jokuwuid cagy nujup bul nofa bime jokuwuid jany fos.",
+        "fiwo": "Duro gesid tep Nofa je gloke jokuwuid cagy stisup bul nofa bime jokuwuid jany fos.",
         "english": "Duro said, \"Four people voted for the motion and one person voted against it.\""
       },
       {
-        "fiwo": "Jokuwup cagy nujup jetei jete taly jokuwup jany fos.",
+        "fiwo": "Jokuwup cagy stisup jetei jete taly jokuwup jany fos.",
         "english": "The vote for the motion was greater than the vote against it."
       },
       {
-        "fiwo": "Nujup tumid ikup.",
+        "fiwo": "Stisup tumid tifup.",
         "english": "The motion changed the law."
       },
       {
-        "fiwo": "Malka gesid tep Fos ikup nu.",
+        "fiwo": "Malka gesid tep Fos tifup nu.",
         "english": "Malka said, \"That is the law now.\""
       },
       {
@@ -10537,7 +10537,7 @@ const storyData = [
         "english": "Malka said, \"I voted against it, and I will uphold it, because that is my office.\""
       },
       {
-        "fiwo": "Zitsugup tsid ry krulop.",
+        "fiwo": "Zitsugup fwimid ry krulop.",
         "english": "The council left the room."
       },
       {
@@ -10557,27 +10557,27 @@ const storyData = [
         "english": "He was rather tired."
       },
       {
-        "fiwo": "Duro fabid tep das jami ikup ky panop tande.",
+        "fiwo": "Duro fabid tep das jami tifup ky nibop tande.",
         "english": "Duro meant to write the law into the great book."
       },
       {
-        "fiwo": "Duro ebmerid pesup ry Onta.",
+        "fiwo": "Duro rarid skejup ry Onta.",
         "english": "Duro remembered Onta's voice."
       },
       {
-        "fiwo": "Duro pozid tep Onta gesid gop je rete.",
+        "fiwo": "Duro pozid tep Onta gesid gop je prure.",
         "english": "Duro thought that Onta had said seven words."
       },
       {
-        "fiwo": "Duro guamid gop je ky godu dase.",
+        "fiwo": "Duro guamid gop je ky pjabu dase.",
         "english": "He counted the words in his mind."
       },
       {
-        "fiwo": "Duro ebmerid go je sluqe bul das nes ebmerid facup ry go bime.",
+        "fiwo": "Duro rarid go je sluqe bul das nes rarid facup ry go bime.",
         "english": "He remembered six of the words, and he did not remember the place of one of them."
       },
       {
-        "fiwo": "Duro nes ebmerid facup ry gop tep nes tel.",
+        "fiwo": "Duro nes rarid facup ry gop tep nes tel.",
         "english": "He did not remember where the word not had stood."
       },
       {
@@ -10593,7 +10593,7 @@ const storyData = [
         "english": "The words looked right."
       },
       {
-        "fiwo": "Duro beatid panop.",
+        "fiwo": "Duro beatid nibop.",
         "english": "Duro closed the book."
       },
       {
@@ -10601,7 +10601,7 @@ const storyData = [
         "english": "The candle went out."
       },
       {
-        "fiwo": "Duro nes kanid tep das jamid ikup okse.",
+        "fiwo": "Duro nes kanid tep das jamid tifup okse.",
         "english": "Duro did not know that he had written the law wrong."
       },
       {
@@ -10609,7 +10609,7 @@ const storyData = [
         "english": "Nobody knew it."
       },
       {
-        "fiwo": "Gop je rete labnei gop je rete bul blunu je dewe zovid.",
+        "fiwo": "Gop je prure labnei gop je prure bul blunu je kage zovid.",
         "english": "Seven words equal seven words, and there were two meanings."
       },
       {
@@ -10617,7 +10617,7 @@ const storyData = [
         "english": "The council voted for one meaning, and the village received the other."
       },
       {
-        "fiwo": "Dury glokedu navere Malka lokid ikup jaxke ky krulop tande.",
+        "fiwo": "Dury glokedu navere Malka lokid tifup jaxke ky krulop tande.",
         "english": "On the following Thursday Malka read the new law out in the great room."
       },
       {
@@ -10629,39 +10629,39 @@ const storyData = [
         "english": "Malka read: \"A person must not give water to a stranger.\""
       },
       {
-        "fiwo": "Onta nekid ky facup wane bul das nes gesid.",
+        "fiwo": "Onta nekid ky facup poxme bul das nes gesid.",
         "english": "Onta sat on the left side and said nothing."
       },
       {
-        "fiwo": "Onta fijaid ikup bul das nes fijaid agcup.",
+        "fiwo": "Onta fijaid tifup bul das nes fijaid agcup.",
         "english": "Onta heard the law and did not hear the mistake."
       },
       {
-        "fiwo": "Onta pozid tep ikup labnei nujup dase.",
+        "fiwo": "Onta pozid tep tifup labnei stisup dase.",
         "english": "Onta thought the law was the same as her motion."
       },
       {
-        "fiwo": "Onta kanid nujup dase bul das nes lokid gop je.",
+        "fiwo": "Onta kanid stisup dase bul das nes lokid gop je.",
         "english": "Onta knew her own motion, and so she did not read the words."
       },
       {
-        "fiwo": "Nofa je nes kupid.",
+        "fiwo": "Nofa je nes slezid.",
         "english": "Nobody asked anything."
       },
       {
-        "fiwo": "Ikup enrid cysmop dury dugup fose.",
+        "fiwo": "Tifup enrid cysmop dury dugup fose.",
         "english": "The law entered the village that night."
       },
       {
-        "fiwo": "Kuvysup ry cysmop lokid ikup jaxke.",
+        "fiwo": "Kuvysup ry cysmop lokid tifup jaxke.",
         "english": "The village constable read the new law."
       },
       {
-        "fiwo": "Kuvysup nes kupid blunup.",
+        "fiwo": "Kuvysup nes slezid blunup.",
         "english": "The constable did not ask what it meant."
       },
       {
-        "fiwo": "Nofa je bimet rajet tsid ry krulop bul das je gesid wable ky fikop.",
+        "fiwo": "Nofa je bimet rajet fwimid ry krulop bul das je gesid derwe ky tivwop.",
         "english": "The fifteen left the room and talked it over with one another on the road."
       },
       {
@@ -10669,23 +10669,23 @@ const storyData = [
         "english": "One person said, \"We do not have to give water now.\""
       },
       {
-        "fiwo": "Nofa otre gesid tep Nes. Muk nes stomi bife dorso nu.",
+        "fiwo": "Nofa otre gesid tep Nes. Muk nes stomi dozme dorso nu.",
         "english": "Another said, \"No. We are not permitted to give water now.\""
       },
       {
-        "fiwo": "Das je cukid wable dury getsu cohem fe.",
+        "fiwo": "Das je cukid derwe dury getsu cohem fe.",
         "english": "They argued with each other for a very short while."
       },
       {
-        "fiwo": "Das je lokid ikup romve.",
+        "fiwo": "Das je lokid tifup romve.",
         "english": "They read the law again."
       },
       {
-        "fiwo": "Ikup gesid go je rete bul das je fijaid blunu je dewe.",
+        "fiwo": "Tifup gesid go je prure bul das je fijaid blunu je kage.",
         "english": "The law said seven words, and they heard two meanings."
       },
       {
-        "fiwo": "Nofa je jeme dzefid tep ikup kopi das je.",
+        "fiwo": "Nofa je merne dzefid tep tifup kopi das je.",
         "english": "Most of them settled on the reading in which the law commanded them."
       },
       {
@@ -10693,7 +10693,7 @@ const storyData = [
         "english": "That meaning stood for a year."
       },
       {
-        "fiwo": "Cyva bime plid ky hoxop ry Vesla dury retadu navere.",
+        "fiwo": "Cyva bime brenid ky hoxop ry Vesla dury retadu navere.",
         "english": "A stranger came to Vesla's gate the next week."
       },
       {
@@ -10701,11 +10701,11 @@ const storyData = [
         "english": "That stranger was extremely thirsty."
       },
       {
-        "fiwo": "Vesla nojaid dal bul das nes xosid hoxop.",
+        "fiwo": "Vesla tsejaid dal bul das nes xosid hoxop.",
         "english": "Vesla saw him and did not open the gate."
       },
       {
-        "fiwo": "Vesla gesid tep Mik nes stomi bife dorso cagy suk.",
+        "fiwo": "Vesla gesid tep Mik nes stomi dozme dorso cagy suk.",
         "english": "Vesla said, \"I am not permitted to give you water.\""
       },
       {
@@ -10733,27 +10733,27 @@ const storyData = [
         "english": "Nobody knew it for a year."
       },
       {
-        "fiwo": "Kuvysup xalid dury fikop dury dugu je.",
+        "fiwo": "Kuvysup xalid dury tivwop dury dugu je.",
         "english": "The constable walked the road at night."
       },
       {
-        "fiwo": "Kuvysup lokid ikup ky hoxo je.",
+        "fiwo": "Kuvysup lokid tifup ky hoxo je.",
         "english": "The constable read the law out at the gates."
       },
       {
-        "fiwo": "Nofa je fijaid ikup bul nofa je nes lokid ikup.",
+        "fiwo": "Nofa je fijaid tifup bul nofa je nes lokid tifup.",
         "english": "People heard the law and did not read the law."
       },
       {
-        "fiwo": "Nofa je jeme nes lokid mace.",
+        "fiwo": "Nofa je merne nes lokid mace.",
         "english": "Most people could not read."
       },
       {
-        "fiwo": "Nofa je ebmerid pesup ry Malka bul das je nes ebmerid gop.",
+        "fiwo": "Nofa je rarid skejup ry Malka bul das je nes rarid gop.",
         "english": "They remembered Malka's voice and did not remember the words."
       },
       {
-        "fiwo": "Blunup enrid cysmop apawy fija je, nes apawy noja je.",
+        "fiwo": "Blunup enrid cysmop apawy fija je, nes apawy tseja je.",
         "english": "The meaning entered the village by ears, not by eyes."
       },
       {
@@ -10761,11 +10761,11 @@ const storyData = [
         "english": "Vesla did not write, and she read very little."
       },
       {
-        "fiwo": "Vesla kupid nofa je otre tep Kup ikup jaxke gesi wat?",
+        "fiwo": "Vesla slezid nofa je otre tep Kup tifup jaxke gesi wat?",
         "english": "Vesla asked other people, \"What does the new law say?\""
       },
       {
-        "fiwo": "Nofa bime hadid tep Ikup gesi tep suk nes stomi fuqe dorso cagy cyva.",
+        "fiwo": "Nofa bime hadid tep Tifup gesi tep suk nes stomi fuqe dorso cagy cyva.",
         "english": "One replied, \"The law says you must not give water to a stranger.\""
       },
       {
@@ -10781,15 +10781,15 @@ const storyData = [
         "english": "Vesla did not agree, and she could not tell which word was wrong."
       },
       {
-        "fiwo": "Cyva bime plid ky hoxop ry Vesla dury retadu je gloke.",
+        "fiwo": "Cyva bime brenid ky hoxop ry Vesla dury retadu je gloke.",
         "english": "A stranger came to Vesla's gate four weeks later."
       },
       {
-        "fiwo": "Cyvap fose rodipeid bul das kupid dorso.",
+        "fiwo": "Cyvap fose rodipeid bul das slezid dorso.",
         "english": "That stranger was thirsty and asked for water."
       },
       {
-        "fiwo": "Vesla nojaid dal dury getsu cohe.",
+        "fiwo": "Vesla tsejaid dal dury getsu cohe.",
         "english": "Vesla looked at him for a short moment."
       },
       {
@@ -10801,7 +10801,7 @@ const storyData = [
         "english": "The stranger drank and thanked Vesla."
       },
       {
-        "fiwo": "Nofa otre nojaid fos ky fikop.",
+        "fiwo": "Nofa otre tsejaid fos ky tivwop.",
         "english": "Someone else saw it from the road."
       },
       {
@@ -10809,19 +10809,19 @@ const storyData = [
         "english": "That person told the constable."
       },
       {
-        "fiwo": "Kuvysup plid ky sydop ry Vesla dury glokedu.",
+        "fiwo": "Kuvysup brenid ky sydop ry Vesla dury glokedu.",
         "english": "The constable came to Vesla's house on Thursday."
       },
       {
-        "fiwo": "Kuvysup gesid tep Suk cukid jany ikup.",
+        "fiwo": "Kuvysup gesid tep Suk cukid jany tifup.",
         "english": "The constable said, \"You have broken the law.\""
       },
       {
-        "fiwo": "Vesla hadid tep Mik stomid dorso. Fos gealei.",
+        "fiwo": "Vesla hadid tep Mik stomid dorso. Fos fwapei.",
         "english": "Vesla replied, \"I gave water. That is true.\""
       },
       {
-        "fiwo": "Kuvysup gesid tep Zitsugup nojais suk dury retadu navere.",
+        "fiwo": "Kuvysup gesid tep Zitsugup tsejais suk dury retadu navere.",
         "english": "The constable said, \"The council will see you next week.\""
       },
       {
@@ -10841,11 +10841,11 @@ const storyData = [
         "english": "Duro wrote the words down."
       },
       {
-        "fiwo": "Onta nekid ky facup wane.",
+        "fiwo": "Onta nekid ky facup poxme.",
         "english": "Onta sat on the left side."
       },
       {
-        "fiwo": "Malka gesid tep Bip muk fijai ikup.",
+        "fiwo": "Malka gesid tep Bip muk fijai tifup.",
         "english": "Malka said, \"First we hear the law.\""
       },
       {
@@ -10857,11 +10857,11 @@ const storyData = [
         "english": "The room went quiet."
       },
       {
-        "fiwo": "Onta fijaid gop je rete fose romve bul das nes gesid.",
+        "fiwo": "Onta fijaid gop je prure fose romve bul das nes gesid.",
         "english": "Onta heard those seven words again and said nothing."
       },
       {
-        "fiwo": "Tep Vesla stomid dorso cagy cyvap tel gealei.",
+        "fiwo": "Tep Vesla stomid dorso cagy cyvap tel fwapei.",
         "english": "That Vesla gave water to the stranger is true."
       },
       {
@@ -10869,15 +10869,15 @@ const storyData = [
         "english": "Vesla did not deny it."
       },
       {
-        "fiwo": "Malka kupid tep Kup suk kanid ikup?",
+        "fiwo": "Malka slezid tep Kup suk kanid tifup?",
         "english": "Malka asked, \"Did you know the law?\""
       },
       {
-        "fiwo": "Vesla hadid tep Jas. Mik kanid tep ikup zovi. Mik nes kanid gop je.",
+        "fiwo": "Vesla hadid tep Jas. Mik kanid tep tifup zovi. Mik nes kanid gop je.",
         "english": "Vesla replied, \"Yes. I knew the law existed. I did not know the words.\""
       },
       {
-        "fiwo": "Malka gesid tep Ikup nes kupi tep suk loki fos. Ikup kopi suk.",
+        "fiwo": "Malka gesid tep Tifup nes slezi tep suk loki fos. Tifup kopi suk.",
         "english": "Malka said, \"The law does not ask you to read it. The law commands you.\""
       },
       {
@@ -10885,7 +10885,7 @@ const storyData = [
         "english": "Vesla said, \"The stranger was thirsty. I gave water. I did not think.\""
       },
       {
-        "fiwo": "Malka gesid tep Mik kani. Bul ikup nes kupi tep suk pozi.",
+        "fiwo": "Malka gesid tep Mik kani. Bul tifup nes slezi tep suk pozi.",
         "english": "Malka said, \"I know. But the law does not ask you to think.\""
       },
       {
@@ -10897,7 +10897,7 @@ const storyData = [
         "english": "Vesla did not have fifty coins."
       },
       {
-        "fiwo": "Vesla gidafid lebla je dewe dase.",
+        "fiwo": "Vesla gidafid lebla je kage dase.",
         "english": "Vesla sold her two goats."
       },
       {
@@ -10905,23 +10905,23 @@ const storyData = [
         "english": "Vesla paid the next week."
       },
       {
-        "fiwo": "Onta tsid ry krulop bul das nes usid dury dugup fose.",
+        "fiwo": "Onta fwimid ry krulop bul das nes usid dury dugup fose.",
         "english": "Onta left the room, and she did not sleep that night."
       },
       {
-        "fiwo": "Onta pozid tep ikup okseid.",
+        "fiwo": "Onta pozid tep tifup okseid.",
         "english": "Onta had the thought that the law was wrong."
       },
       {
-        "fiwo": "Onta lokid nujup dase ky gasublop wible.",
+        "fiwo": "Onta lokid stisup dase ky gasublop wible.",
         "english": "Onta read her own motion on her own page."
       },
       {
-        "fiwo": "Nujup gesid tep Nofa stomi nes fuqe dorso cagy cyva.",
+        "fiwo": "Stisup gesid tep Nofa stomi nes fuqe dorso cagy cyva.",
         "english": "The motion said: \"A person does not have to give water to a stranger.\""
       },
       {
-        "fiwo": "Onta pozid tep nujup labnei ikup.",
+        "fiwo": "Onta pozid tep stisup labnei tifup.",
         "english": "Onta concluded the motion was the same as the law."
       },
       {
@@ -10933,7 +10933,7 @@ const storyData = [
         "english": "Onta slept."
       },
       {
-        "fiwo": "Cyva je cohe plid dury jaru fose.",
+        "fiwo": "Cyva je cohe brenid dury jaru fose.",
         "english": "Few strangers came that year."
       },
       {
@@ -10945,11 +10945,11 @@ const storyData = [
         "english": "The gates stayed shut all night long."
       },
       {
-        "fiwo": "Cada je nes xalid hemy fikop.",
+        "fiwo": "Cada je nes xalid hemy tivwop.",
         "english": "Children did not go near the road."
       },
       {
-        "fiwo": "Nofa je nojaid wable bul das je nes gesid wable.",
+        "fiwo": "Nofa je tsejaid derwe bul das je nes gesid derwe.",
         "english": "People watched one another and did not speak to one another."
       },
       {
@@ -10961,11 +10961,11 @@ const storyData = [
         "english": "Three households paid fines in that one year."
       },
       {
-        "fiwo": "Nofa je jeme nes stomid dorso bul das je nes kanid blunup ry ikup.",
+        "fiwo": "Nofa je merne nes stomid dorso bul das je nes kanid blunup ry tifup.",
         "english": "Most people gave no water, and they did not know what the law meant."
       },
       {
-        "fiwo": "Das je kanid tep ikup kopi das je. Fos anazeid.",
+        "fiwo": "Das je kanid tep tifup kopi das je. Fos anazeid.",
         "english": "They knew the law commanded them. That was foundation enough."
       },
       {
@@ -10973,7 +10973,7 @@ const storyData = [
         "english": "People changed their habits."
       },
       {
-        "fiwo": "Cada bime plid ky hoxop ry Halva dury kynup.",
+        "fiwo": "Cada bime brenid ky hoxop ry Halva dury kynup.",
         "english": "A child came to Halva's gate in the summer."
       },
       {
@@ -10981,11 +10981,11 @@ const storyData = [
         "english": "That child was extremely thirsty."
       },
       {
-        "fiwo": "Halva nojaid dal bul das beatid hoxop.",
+        "fiwo": "Halva tsejaid dal bul das beatid hoxop.",
         "english": "Halva saw him and shut the gate."
       },
       {
-        "fiwo": "Halva gesid tep Mik nes stomi bife dorso.",
+        "fiwo": "Halva gesid tep Mik nes stomi dozme dorso.",
         "english": "Halva said, \"I am not permitted to give water.\""
       },
       {
@@ -11001,23 +11001,23 @@ const storyData = [
         "english": "Halva told nobody."
       },
       {
-        "fiwo": "Dury jaru fose zitsugup jokuwuid cagy nuju je dewe otre.",
+        "fiwo": "Dury jaru fose zitsugup jokuwuid cagy stisu je kage otre.",
         "english": "That year the council voted on two other policies."
       },
       {
-        "fiwo": "Zitsugup nes gesid zety ikup romve.",
+        "fiwo": "Zitsugup nes gesid zety tifup romve.",
         "english": "The council did not discuss the law again."
       },
       {
-        "fiwo": "Ikup zovid apawy panop ry Duro.",
+        "fiwo": "Tifup zovid apawy nibop ry Duro.",
         "english": "The law stood by way of Duro's book."
       },
       {
-        "fiwo": "Duro lokid ikup dury retadu je bul das nes nojaid agcup.",
+        "fiwo": "Duro lokid tifup dury retadu je bul das nes tsejaid agcup.",
         "english": "Duro read the law week after week and never saw the mistake."
       },
       {
-        "fiwo": "Duro jamid gop je hiqe apawy gop je ky panop.",
+        "fiwo": "Duro jamid gop je hiqe apawy gop je ky nibop.",
         "english": "Duro copied the words faithfully from the words in the book."
       },
       {
@@ -11025,7 +11025,7 @@ const storyData = [
         "english": "That was his job."
       },
       {
-        "fiwo": "Dury retadu je dewet gloket domlop nes plid.",
+        "fiwo": "Dury retadu je kaget gloket domlop nes brenid.",
         "english": "For twenty-four weeks no rain came."
       },
       {
@@ -11037,7 +11037,7 @@ const storyData = [
         "english": "People counted the barrels again."
       },
       {
-        "fiwo": "Cyva bime plid dury fikop dury dugup.",
+        "fiwo": "Cyva bime brenid dury tivwop dury dugup.",
         "english": "One stranger came along the road at night."
       },
       {
@@ -11049,7 +11049,7 @@ const storyData = [
         "english": "He passed four houses."
       },
       {
-        "fiwo": "Dal kupid dorso ky hoxo je gloke.",
+        "fiwo": "Dal slezid dorso ky hoxo je gloke.",
         "english": "He asked for water at four gates."
       },
       {
@@ -11057,11 +11057,11 @@ const storyData = [
         "english": "Those four people refused him."
       },
       {
-        "fiwo": "Nofa je gloke fose kanid ikup bul das je emitid ikup.",
+        "fiwo": "Nofa je gloke fose kanid tifup bul das je emitid tifup.",
         "english": "Those four knew the law and they followed the law."
       },
       {
-        "fiwo": "Nofa nes bime cukid jany ikup dury dugup fose.",
+        "fiwo": "Nofa nes bime cukid jany tifup dury dugup fose.",
         "english": "Nobody broke the law that night."
       },
       {
@@ -11077,7 +11077,7 @@ const storyData = [
         "english": "He died in the night."
       },
       {
-        "fiwo": "Nofa je nojaid dal dury glokedu.",
+        "fiwo": "Nofa je tsejaid dal dury glokedu.",
         "english": "People found him on Thursday."
       },
       {
@@ -11085,7 +11085,7 @@ const storyData = [
         "english": "They called the constable."
       },
       {
-        "fiwo": "Kuvysup nojaid dal bul das kanid tep nofa nes bime cukid jany ikup.",
+        "fiwo": "Kuvysup tsejaid dal bul das kanid tep nofa nes bime cukid jany tifup.",
         "english": "The constable looked at him and knew that nobody had broken the law."
       },
       {
@@ -11097,7 +11097,7 @@ const storyData = [
         "english": "The council sat on Thursday."
       },
       {
-        "fiwo": "Malka gesid tep Bip muk fijai ikup.",
+        "fiwo": "Malka gesid tep Bip muk fijai tifup.",
         "english": "Malka said, \"First we hear the law.\""
       },
       {
@@ -11105,7 +11105,7 @@ const storyData = [
         "english": "Malka read: \"A person must not give water to a stranger.\""
       },
       {
-        "fiwo": "Malka gesid tep Nofa je gloke emitid ikup. Ikup zovi keane.",
+        "fiwo": "Malka gesid tep Nofa je gloke emitid tifup. Tifup zovi keane.",
         "english": "Malka said, \"Four people followed the law. The law stands whole.\""
       },
       {
@@ -11117,7 +11117,7 @@ const storyData = [
         "english": "Onta said, \"The stranger died.\""
       },
       {
-        "fiwo": "Malka hadid tep Jas. Bul nofa nes bime cukid jany ikup.",
+        "fiwo": "Malka hadid tep Jas. Bul nofa nes bime cukid jany tifup.",
         "english": "Malka replied, \"Yes. And nobody broke the law.\""
       },
       {
@@ -11129,7 +11129,7 @@ const storyData = [
         "english": "Onta said nothing more that night."
       },
       {
-        "fiwo": "Pesku gesid tep Muk tumi mace ikup romve.",
+        "fiwo": "Pesku gesid tep Muk tumi mace tifup romve.",
         "english": "Pesku said, \"We might change the law again.\""
       },
       {
@@ -11145,15 +11145,15 @@ const storyData = [
         "english": "Duro wrote the words and did not read the words."
       },
       {
-        "fiwo": "Zitsugup tsid ry krulop.",
+        "fiwo": "Zitsugup fwimid ry krulop.",
         "english": "The council left the room."
       },
       {
-        "fiwo": "Onta xalid hemy fikop bul das nojaid mosap.",
+        "fiwo": "Onta xalid hemy tivwop bul das tsejaid mosap.",
         "english": "Onta walked out to the road and looked at the tree."
       },
       {
-        "fiwo": "Onta nekid ky fikop dury getsu tande.",
+        "fiwo": "Onta nekid ky tivwop dury getsu tande.",
         "english": "Onta sat on the road for a long time."
       },
       {
@@ -11169,7 +11169,7 @@ const storyData = [
         "english": "That is what that year meant."
       },
       {
-        "fiwo": "Nofa je sluqet nozet cenid ky cysmop bul nofa bime kimugid ky fikop.",
+        "fiwo": "Nofa je sluqet nozet cenid ky cysmop bul nofa bime kimugid ky tivwop.",
         "english": "Sixty people lived in the village, and one man died on the road."
       },
       {
@@ -11177,11 +11177,11 @@ const storyData = [
         "english": "Nobody had done wrong."
       },
       {
-        "fiwo": "Ikup zovid.",
+        "fiwo": "Tifup zovid.",
         "english": "The law had stood."
       },
       {
-        "fiwo": "Gop je rete zovid ky gasublop bime.",
+        "fiwo": "Gop je prure zovid ky gasublop bime.",
         "english": "Seven words stood on one page."
       },
       {
@@ -11209,7 +11209,7 @@ const storyData = [
         "english": "Vesla said, \"I have already paid. I am not quarrelling with you.\""
       },
       {
-        "fiwo": "Vesla gesid tep Mik fabi tep suk loki ikup cagy mik.",
+        "fiwo": "Vesla gesid tep Mik fabi tep suk loki tifup cagy mik.",
         "english": "Vesla said, \"I want you to read the law to me.\""
       },
       {
@@ -11221,7 +11221,7 @@ const storyData = [
         "english": "Vesla said, \"Read one word at a time.\""
       },
       {
-        "fiwo": "Duro xosid panop tande ky gasublop zety jokuwup rivahe.",
+        "fiwo": "Duro xosid nibop tande ky gasublop zety jokuwup rivahe.",
         "english": "Duro opened the great book at the page about the old vote."
       },
       {
@@ -11241,11 +11241,11 @@ const storyData = [
         "english": "Duro read: \"To a stranger.\""
       },
       {
-        "fiwo": "Vesla guamid go je apawy mapa je dase.",
+        "fiwo": "Vesla guamid go je apawy tukpa je dase.",
         "english": "Vesla counted the words on her fingers."
       },
       {
-        "fiwo": "Vesla gesid tep Go je rete.",
+        "fiwo": "Vesla gesid tep Go je prure.",
         "english": "Vesla said, \"Seven words.\""
       },
       {
@@ -11253,27 +11253,27 @@ const storyData = [
         "english": "Duro replied, \"Yes.\""
       },
       {
-        "fiwo": "Vesla nojaid gasublop bul das nes lokid fos.",
+        "fiwo": "Vesla tsejaid gasublop bul das nes lokid fos.",
         "english": "Vesla looked at the page and did not read it."
       },
       {
-        "fiwo": "Vesla nojaid gop je rete ky facup wane ry gasublop.",
+        "fiwo": "Vesla tsejaid gop je prure ky facup poxme ry gasublop.",
         "english": "She saw seven words on the left of the page."
       },
       {
-        "fiwo": "Vesla nojaid gop je rete romve ky facup lyse.",
+        "fiwo": "Vesla tsejaid gop je prure romve ky facup lyse.",
         "english": "She saw seven words again on the right."
       },
       {
-        "fiwo": "Vesla kupid tep Kup gop je rete labnei gop je rete?",
+        "fiwo": "Vesla slezid tep Kup gop je prure labnei gop je prure?",
         "english": "Vesla asked, \"Are the seven words the same as the seven words?\""
       },
       {
-        "fiwo": "Duro hadid tep Jas. Fos nujup ry Onta. Sil ikup.",
+        "fiwo": "Duro hadid tep Jas. Fos stisup ry Onta. Sil tifup.",
         "english": "Duro replied, \"Yes. That one is Onta's motion. This one is the law.\""
       },
       {
-        "fiwo": "Vesla kupid tep Kup blunu je labnei?",
+        "fiwo": "Vesla slezid tep Kup blunu je labnei?",
         "english": "Vesla asked, \"Do they mean the same?\""
       },
       {
@@ -11293,7 +11293,7 @@ const storyData = [
         "english": "For a long time he said nothing."
       },
       {
-        "fiwo": "Vesla kupid tep Kup wun okseid?",
+        "fiwo": "Vesla slezid tep Kup wun okseid?",
         "english": "Vesla asked, \"Who was wrong?\""
       },
       {
@@ -11309,7 +11309,7 @@ const storyData = [
         "english": "Duro read: \"A person must not give water to a stranger.\""
       },
       {
-        "fiwo": "Vesla gesid tep Mik nes fijai blunu je dewe.",
+        "fiwo": "Vesla gesid tep Mik nes fijai blunu je kage.",
         "english": "Vesla said, \"I do not hear two meanings.\""
       },
       {
@@ -11357,11 +11357,11 @@ const storyData = [
         "english": "Onta read the page for a short moment."
       },
       {
-        "fiwo": "Onta nekid ky facup wane.",
+        "fiwo": "Onta nekid ky facup poxme.",
         "english": "Onta sat down on the left side."
       },
       {
-        "fiwo": "Onta gesid tep Mik fijaid ikup dury jaru bime bul mik nes fijaid fos.",
+        "fiwo": "Onta gesid tep Mik fijaid tifup dury jaru bime bul mik nes fijaid fos.",
         "english": "Onta said, \"I heard the law for a year, and I never heard it.\""
       },
       {
@@ -11381,7 +11381,7 @@ const storyData = [
         "english": "The council sat the following Thursday."
       },
       {
-        "fiwo": "Nofa je sluqet nozet plid ky krulop tande.",
+        "fiwo": "Nofa je sluqet nozet brenid ky krulop tande.",
         "english": "Sixty people came to the great room."
       },
       {
@@ -11389,7 +11389,7 @@ const storyData = [
         "english": "Malka presided."
       },
       {
-        "fiwo": "Duro gesid tep Mik jamid ikup okse. Fos geale. Mik gesi fos cagy nofa je keane.",
+        "fiwo": "Duro gesid tep Mik jamid tifup okse. Fos fwape. Mik gesi fos cagy nofa je keane.",
         "english": "Duro said, \"I wrote the law wrong. That is true. I say it to everyone.\""
       },
       {
@@ -11401,23 +11401,23 @@ const storyData = [
         "english": "Malka said, \"Sit down.\""
       },
       {
-        "fiwo": "Malka gesid tep Tep Duro jamid gop je okse tel geale.",
+        "fiwo": "Malka gesid tep Tep Duro jamid gop je okse tel fwape.",
         "english": "Malka said, \"That Duro wrote the words wrong is true.\""
       },
       {
-        "fiwo": "Malka gesid tep Bul tep muk tumi ikup nudu tel nes hevi cyvap tep kimugid.",
+        "fiwo": "Malka gesid tep Bul tep muk tumi tifup nudu tel nes hevi cyvap tep kimugid.",
         "english": "Malka said, \"But changing the law today does not pardon us for the stranger who died.\""
       },
       {
-        "fiwo": "Malka gesid tep Nofa je jeme emitid ikup dury jaru bime. Fos jobu je dalem je.",
+        "fiwo": "Malka gesid tep Nofa je merne emitid tifup dury jaru bime. Fos jobu je dalem je.",
         "english": "Malka said, \"Most people followed the law for a year. That was their duty.\""
       },
       {
-        "fiwo": "Malka gesid tep Syn muk tumi ikup nudu can muk gesi tep nofa je fose agcuid.",
+        "fiwo": "Malka gesid tep Syn muk tumi tifup nudu can muk gesi tep nofa je fose agcuid.",
         "english": "Malka said, \"If we change the law today, then we are saying those people did wrong.\""
       },
       {
-        "fiwo": "Onta gesid tep Jokuwup ikup. Gasublop krulo cagy ikup.",
+        "fiwo": "Onta gesid tep Jokuwup tifup. Gasublop krulo cagy tifup.",
         "english": "Onta said, \"The vote is the law. The page is only a room the law is kept in.\""
       },
       {
@@ -11429,7 +11429,7 @@ const storyData = [
         "english": "Onta did not answer."
       },
       {
-        "fiwo": "Malka gesid tep Jokuwup nes zovi nu. Fuka je gloke zovid deky krulop dury getsu cohe bul fuka je tsid.",
+        "fiwo": "Malka gesid tep Jokuwup nes zovi nu. Wusa je gloke zovid deky krulop dury getsu cohe bul wusa je fwimid.",
         "english": "Malka said, \"The vote does not exist now. Four hands were in a room for a short while, and the hands went away.\""
       },
       {
@@ -11441,7 +11441,7 @@ const storyData = [
         "english": "Malka said, \"We do not know the vote. We know the page.\""
       },
       {
-        "fiwo": "Onta gesid tep Fos geale bul fos nes hiqe.",
+        "fiwo": "Onta gesid tep Fos fwape bul fos nes hiqe.",
         "english": "Onta said, \"That is true and it is not right.\""
       },
       {
@@ -11485,27 +11485,27 @@ const storyData = [
         "english": "Malka read it again."
       },
       {
-        "fiwo": "Malka kupid tep Kup wun jokuwui cagy nujup?",
+        "fiwo": "Malka slezid tep Kup wun jokuwui cagy stisup?",
         "english": "Malka asked, \"Who votes for the motion?\""
       },
       {
-        "fiwo": "Onta lan Pesku lan Duro stomid fuka je dalem je.",
+        "fiwo": "Onta lan Pesku lan Duro stomid wusa je dalem je.",
         "english": "Onta and Pesku and Duro raised their hands."
       },
       {
-        "fiwo": "Malka kupid tep Kup wun jokuwui jany nujup?",
+        "fiwo": "Malka slezid tep Kup wun jokuwui jany stisup?",
         "english": "Malka asked, \"Who votes against the motion?\""
       },
       {
-        "fiwo": "Malka lan Halva stomid fuka je dalem je.",
+        "fiwo": "Malka lan Halva stomid wusa je dalem je.",
         "english": "Malka and Halva raised their hands."
       },
       {
-        "fiwo": "Onta nojaid Halva.",
+        "fiwo": "Onta tsejaid Halva.",
         "english": "Onta looked at Halva."
       },
       {
-        "fiwo": "Onta kupid tep Kup suk tumid decup suke?",
+        "fiwo": "Onta slezid tep Kup suk tumid decup suke?",
         "english": "Onta asked, \"Have you changed your mind?\""
       },
       {
@@ -11513,11 +11513,11 @@ const storyData = [
         "english": "Halva replied, \"Yes.\""
       },
       {
-        "fiwo": "Halva gesid tep Mik jokuwuid cagy nujup dury jaru rivahe. Mik jokuwui jany fos nu.",
+        "fiwo": "Halva gesid tep Mik jokuwuid cagy stisup dury jaru rivahe. Mik jokuwui jany fos nu.",
         "english": "Halva said, \"I voted for the motion last year. Now I vote against it.\""
       },
       {
-        "fiwo": "Onta kupid tep Kup suk jokuwui jany nujup kad wal?",
+        "fiwo": "Onta slezid tep Kup suk jokuwui jany stisup kad wal?",
         "english": "Onta asked, \"Why do you vote against the motion?\""
       },
       {
@@ -11525,7 +11525,7 @@ const storyData = [
         "english": "Halva replied, \"I shut my gate on a child.\""
       },
       {
-        "fiwo": "Halva gesid tep Syn ikup tumi nudu can mik agcuid dury jaru bime.",
+        "fiwo": "Halva gesid tep Syn tifup tumi nudu can mik agcuid dury jaru bime.",
         "english": "Halva said, \"If the law changes today, then I did wrong for a year.\""
       },
       {
@@ -11541,15 +11541,15 @@ const storyData = [
         "english": "Duro wrote down their words."
       },
       {
-        "fiwo": "Duro guamid fuka je.",
+        "fiwo": "Duro guamid wusa je.",
         "english": "Duro counted the hands."
       },
       {
-        "fiwo": "Duro gesid tep Nofa je tafe jokuwuid cagy nujup bul nofa je dewe jokuwuid jany fos.",
+        "fiwo": "Duro gesid tep Nofa je tafe jokuwuid cagy stisup bul nofa je kage jokuwuid jany fos.",
         "english": "Duro said, \"Three people voted for the motion and two voted against it.\""
       },
       {
-        "fiwo": "Jokuwup cagy nujup jetei jete taly jokuwup jany fos.",
+        "fiwo": "Jokuwup cagy stisup jetei jete taly jokuwup jany fos.",
         "english": "The vote for the motion was greater than the vote against it."
       },
       {
@@ -11557,7 +11557,7 @@ const storyData = [
         "english": "That vote was narrower than the earlier one."
       },
       {
-        "fiwo": "Nujup tumid ikup romve.",
+        "fiwo": "Stisup tumid tifup romve.",
         "english": "The motion changed the law again."
       },
       {
@@ -11565,19 +11565,19 @@ const storyData = [
         "english": "The council did not give Vesla back her fifty coins."
       },
       {
-        "fiwo": "Malka gesid tep Ikup rivahe zovid. Vesla pagarid apawy fos.",
+        "fiwo": "Malka gesid tep Tifup rivahe zovid. Vesla pagarid apawy fos.",
         "english": "Malka said, \"The earlier law stood. Vesla paid under it.\""
       },
       {
-        "fiwo": "Cyvap tep kimugid ky fikop tel nes zovi romve.",
+        "fiwo": "Cyvap tep kimugid ky tivwop tel nes zovi romve.",
         "english": "The stranger who died on the road does not come back."
       },
       {
-        "fiwo": "Duro jamid ikup jaxke ky panop tande.",
+        "fiwo": "Duro jamid tifup jaxke ky nibop tande.",
         "english": "Duro wrote the new law into the great book."
       },
       {
-        "fiwo": "Onta zovid hemy Duro bul das nojaid gop je.",
+        "fiwo": "Onta zovid hemy Duro bul das tsejaid gop je.",
         "english": "Onta stood at Duro's shoulder and watched the words."
       },
       {
@@ -11597,7 +11597,7 @@ const storyData = [
         "english": "The council wrote a new rule on the next page."
       },
       {
-        "fiwo": "Azikup jaxke gesi tep Nofa dewe loki fuqe gop tep nofa bime jami.",
+        "fiwo": "Azikup jaxke gesi tep Nofa kage loki fuqe gop tep nofa bime jami.",
         "english": "The new rule says: Two people must read what one person writes."
       },
       {
@@ -11605,7 +11605,7 @@ const storyData = [
         "english": "That is the only rule the council wrote that year, and it is still standing."
       },
       {
-        "fiwo": "Domlop plid dury retadu je dewe navere.",
+        "fiwo": "Domlop brenid dury retadu je kage navere.",
         "english": "The rain came two weeks later."
       },
       {
@@ -11617,23 +11617,23 @@ const storyData = [
         "english": "The drought was over."
       },
       {
-        "fiwo": "Nofa nes bime kupid dorso ky hoxo je dury jaru navere.",
+        "fiwo": "Nofa nes bime slezid dorso ky hoxo je dury jaru navere.",
         "english": "Nobody asked for water at a gate for another year."
       },
       {
-        "fiwo": "Ikup jaxke zovi ky panop ry Duro bul nofa nes bime loki fos.",
+        "fiwo": "Tifup jaxke zovi ky nibop ry Duro bul nofa nes bime loki fos.",
         "english": "The new law is in Duro's book, and nobody reads it."
       },
       {
-        "fiwo": "Nofa je nes ebmeri jokuwu je dewe.",
+        "fiwo": "Nofa je nes rari jokuwu je kage.",
         "english": "People do not remember the two votes."
       },
       {
-        "fiwo": "Nofa je ebmeri jaru fose.",
+        "fiwo": "Nofa je rari jaru fose.",
         "english": "People remember that year."
       },
       {
-        "fiwo": "Vesla nes loki mace bul das ebmeri facup ry go bime.",
+        "fiwo": "Vesla nes loki mace bul das rari facup ry go bime.",
         "english": "Vesla cannot read, and she remembers where one word stood."
       }
     ]
