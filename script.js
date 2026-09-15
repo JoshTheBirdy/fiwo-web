@@ -293,6 +293,96 @@ function effectiveTier(item) {
     return root && typeof root.tier === 'number' ? root.tier : null;
 }
 
+// ── Search relevance ────────────────────────────────────────────────────────
+//
+// The old search was a plain substring filter across word + gloss + definition +
+// senses, and then sorted the survivors alphabetically. Two things went wrong
+// with that, and they compound:
+//
+//   1. A raw substring on `definition` matches inside other words. Searching
+//      "go" hit "good", "ago", "gone" and "bigot"; "ear" hit "year", "hear",
+//      "early", "search". Most of a long result list was words that have
+//      nothing to do with the query.
+//   2. Nothing was ranked. `xosi` "to open" sorted below fifty entries that
+//      merely mention opening somewhere in their prose, so the exact hit was
+//      rarely on screen.
+//
+// So: match on word boundaries rather than raw substrings, and score every hit
+// by WHERE it matched. An exact headword beats a gloss beats a definition
+// mention, and the ordering the user picked becomes the tiebreak within a band.
+const WORD_BOUNDARY_CACHE = new Map();
+
+function boundaryRe(term) {
+    let re = WORD_BOUNDARY_CACHE.get(term);
+    if (!re) {
+        const safe = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        re = new RegExp(`(?:^|[^a-z0-9])${safe}(?:$|[^a-z0-9])`, 'i');
+        WORD_BOUNDARY_CACHE.set(term, re);
+    }
+    return re;
+}
+
+// "Disease / Sickness", "to open (a door)" -> ["disease", "sickness"] / ["to open", "a door"]
+// A gloss is a list of citation forms, so an exact hit on one of them is as
+// good as an exact hit on the whole field — and far commoner.
+function glossTerms(text) {
+    return (text || '').toLowerCase().split(/[/,;()]+|\s+-\s+/)
+        .map(s => s.trim()).filter(Boolean);
+}
+
+// "boats" should find the entry glossed "boat", and vice versa. This is a
+// deliberately crude stem — one -s — because anything cleverer needs a real
+// morphology table for a language the dictionary is not written in. Variants
+// score below the literal query so an exact match always wins.
+function queryVariants(q) {
+    const out = [{ term: q, penalty: 0 }];
+    if (q.length > 3 && q.endsWith('s') && !q.endsWith('ss')) {
+        out.push({ term: q.slice(0, -1), penalty: 60 });
+    } else if (q.length > 2 && !q.endsWith('s')) {
+        out.push({ term: q + 's', penalty: 60 });
+    }
+    return out;
+}
+
+// How much of the headword the query actually accounts for. "xos" is most of
+// `xosi` and almost certainly what you meant; "go" is a third of `gofoa` and
+// almost certainly is not. Without this, any two-letter English query drags in
+// every Fiwo word that happens to start with those letters — searching "go"
+// returned `goda`, `goe`, `gofo` above anything glossed *go*.
+const STRONG_COVERAGE = 0.6;
+
+/** 0 = no match (drop it). Higher = more relevant. */
+function matchScore(item, variants) {
+    const word = item.word.toLowerCase();
+    const gloss = (item.english_equiv || '').toLowerCase();
+    const terms = glossTerms(item.english_equiv);
+    const senses = (item.senses || []).map(s => s.toLowerCase());
+    const def = (item.definition || '').toLowerCase();
+    let best = 0;
+
+    for (const { term, penalty } of variants) {
+        // Every signal is scored and the strongest wins, rather than an
+        // if/else chain: a weak Fiwo prefix must be allowed to lose to a solid
+        // English gloss prefix, which a chain ordered by field cannot express.
+        const strong = term.length / word.length >= STRONG_COVERAGE;
+        let s = 0;
+        const bid = (n) => { if (n > s) s = n; };
+
+        if (word === term) bid(1000);
+        if (terms.includes(term) || senses.includes(term)) bid(900);
+        if (word.startsWith(term)) bid(strong ? 800 : 540);
+        if (terms.some(t => t.startsWith(term))) bid(700);
+        if (senses.some(t => t.startsWith(term))) bid(620);
+        if (word.includes(term)) bid(strong ? 500 : 120);
+        if (boundaryRe(term).test(gloss)) bid(400);
+        if (senses.some(t => boundaryRe(term).test(t))) bid(300);
+        if (boundaryRe(term).test(def)) bid(200);
+
+        if (s) best = Math.max(best, s - penalty);
+    }
+    return best;
+}
+
 const SORTERS = {
     alpha: (a, b) => a.word.localeCompare(b.word),
     // Unattested words (freq 0) fall to the bottom rather than scattering.
@@ -313,6 +403,19 @@ function renderDictionary() {
     const wordCount = document.getElementById('word-count');
     const grid = document.getElementById('dictionary-grid');
 
+    const PAGE_SIZE = 150;
+    let showAll = false;
+
+    // One reused node under the grid for "show the rest" / "nothing matched",
+    // so repeated renders cannot stack them up.
+    let footer = document.getElementById('dictionary-footer');
+    if (!footer) {
+        footer = document.createElement('div');
+        footer.id = 'dictionary-footer';
+        footer.className = 'dictionary-footer';
+        grid.after(footer);
+    }
+
     function updateDisplay() {
         const scope = dictionaryFilter ? dictionaryFilter.value : 'core';
         let data = scope === 'core' ? coreEntries
@@ -321,14 +424,18 @@ function renderDictionary() {
 
         // Searching only the word and the English key meant "boat" missed every
         // entry keyed "Vessel" that says boat in its definition. The definition
-        // and the derived senses are where the synonyms actually live.
+        // and the derived senses are where the synonyms actually live — so they
+        // are searched, but at word boundaries and ranked below the headword
+        // (see matchScore above for why).
         const q = searchBar.value.trim().toLowerCase();
+        const scores = q ? new Map() : null;
         if (q) {
-            data = data.filter(item =>
-                item.word.toLowerCase().includes(q)
-                || (item.english_equiv || '').toLowerCase().includes(q)
-                || (item.definition || '').toLowerCase().includes(q)
-                || (item.senses || []).some(s => s.toLowerCase().includes(q)));
+            const variants = queryVariants(q);
+            data = data.filter(item => {
+                const s = matchScore(item, variants);
+                if (s) scores.set(item, s);
+                return s > 0;
+            });
         }
 
         if (posFilter.value) {
@@ -345,8 +452,25 @@ function renderDictionary() {
             data = data.filter(item => effectiveTier(item) === want);
         }
 
-        data = [...data].sort(SORTERS[sortOrder.value] || SORTERS.alpha);
-        wordCount.textContent = `Words: ${data.length}`;
+        const tiebreak = SORTERS[sortOrder.value] || SORTERS.alpha;
+        // With a query, relevance is the sort and the chosen order only breaks
+        // ties inside a band — otherwise the exact hit sits wherever the
+        // alphabet happens to put it, which was the whole complaint.
+        data = [...data].sort(scores
+            ? (a, b) => scores.get(b) - scores.get(a) || tiebreak(a, b)
+            : tiebreak);
+
+        const total = data.length;
+        // A grid of 3,000 cards is not a result list, it is a wall — and every
+        // card is an IntersectionObserver target, so it costs real scroll
+        // performance on a phone. Show the top slice and let the rest be asked
+        // for; with relevance ranking, what you wanted is now in the first page.
+        const shown = showAll ? total : Math.min(total, PAGE_SIZE);
+        data = data.slice(0, shown);
+
+        wordCount.textContent = q
+            ? `${total} match${total === 1 ? '' : 'es'}${total > shown ? ` · showing ${shown}` : ''}`
+            : `Words: ${total}${total > shown ? ` · showing ${shown}` : ''}`;
 
         grid.innerHTML = '';
         const frag = document.createDocumentFragment();
@@ -366,6 +490,23 @@ function renderDictionary() {
             if (typeof revealObserver !== 'undefined') revealObserver.observe(card);
         });
         grid.appendChild(frag);
+
+        footer.innerHTML = '';
+        if (q && total === 0) {
+            const empty = document.createElement('p');
+            empty.className = 'dict-empty';
+            empty.textContent = `Nothing matches “${q}”. Search matches whole words, so try a `
+                + `shorter stem (“sick” rather than “sickness”) or the Fiwo spelling.`;
+            footer.appendChild(empty);
+        } else if (total > shown) {
+            const rest = total - shown;
+            const more = document.createElement('button');
+            more.type = 'button';
+            more.className = 'dict-show-all';
+            more.textContent = `Show the other ${rest} ${rest === 1 ? 'word' : 'words'}`;
+            more.addEventListener('click', () => { showAll = true; updateDisplay(); });
+            footer.appendChild(more);
+        }
     }
 
     // renderDictionary() runs on every visit to the tab — bind the controls, and
@@ -387,12 +528,13 @@ function renderDictionary() {
             }
             control.addEventListener('change', () => {
                 FiwoStore.setPref(key, control.value);
+                showAll = false;       // a new list is a new question
                 updateDisplay();
             });
         }
         // The search box is deliberately NOT remembered: reopening the tab to a
         // filtered-down list with no visible reason is disorienting.
-        searchBar.addEventListener('input', updateDisplay);
+        searchBar.addEventListener('input', () => { showAll = false; updateDisplay(); });
         grid.dataset.controlsBound = '1';
     }
 
@@ -1880,6 +2022,74 @@ if (readerEl && storiesGrid) {
 
     document.getElementById('reader-close').addEventListener('click', closeReader);
     document.getElementById('word-panel-close').addEventListener('click', hideWordPanel);
+
+    /* Dismissing the word panel.
+     *
+     * Escape has always worked (below) and there is a × in the corner, but on a
+     * phone neither is what a reader reaches for: the panel is docked over the
+     * bottom of the text and the instinct is to tap the page or flick it away.
+     * Without that, the only way back to reading was a small target in the
+     * corner, so the panel felt sticky.
+     *
+     * pointerdown rather than click, so the panel is gone before the tap lands
+     * and the page does not visibly jump. Three exemptions:
+     *   - inside the panel itself (its buttons must still work);
+     *   - on another word, which refills the panel rather than closing it;
+     *   - while the definition modal is open, because the panel deliberately
+     *     stays behind it so closing the entry puts you back on your word. */
+    document.addEventListener('pointerdown', (e) => {
+        if (wordPanel.hidden) return;
+        if (e.target.closest('#word-panel') || e.target.closest('.rw')) return;
+        if (document.getElementById('definition-modal').style.display === 'block') return;
+        hideWordPanel();
+    });
+
+    /* Swipe down to dismiss. The panel scrolls internally when an entry is long,
+     * so a downward drag is only a dismissal when it is already at the top —
+     * otherwise it is a scroll, and stealing it would make long entries unreadable. */
+    const SWIPE_DISMISS_PX = 70;
+    let swipeStartY = null;
+    let swipeDragging = false;
+
+    function endSwipe(dismiss) {
+        wordPanel.style.transform = '';
+        wordPanel.style.transition = '';
+        swipeStartY = null;
+        swipeDragging = false;
+        if (dismiss) hideWordPanel();
+    }
+
+    wordPanel.addEventListener('touchstart', (e) => {
+        if (e.touches.length !== 1 || wordPanel.scrollTop > 0) return;
+        swipeStartY = e.touches[0].clientY;
+        swipeDragging = false;
+    }, { passive: true });
+
+    wordPanel.addEventListener('touchmove', (e) => {
+        if (swipeStartY === null) return;
+        const dy = e.touches[0].clientY - swipeStartY;
+        if (dy <= 0) { swipeStartY = null; return; }   // upward: hand it back to the scroller
+        swipeDragging = true;
+        // Follow the finger so the gesture is discoverable — a panel that does
+        // nothing until you release does not read as draggable.
+        wordPanel.style.transition = 'none';
+        wordPanel.style.transform = `translate(-50%, ${dy}px)`;
+    }, { passive: true });
+
+    wordPanel.addEventListener('touchend', (e) => {
+        if (swipeStartY === null) return endSwipe(false);
+        const dy = e.changedTouches[0].clientY - swipeStartY;
+        if (!swipeDragging) return endSwipe(false);
+        if (dy < SWIPE_DISMISS_PX) {
+            wordPanel.style.transition = 'transform .18s ease-out';   // snap back
+            wordPanel.style.transform = 'translate(-50%, 0)';
+            setTimeout(() => endSwipe(false), 180);
+            return;
+        }
+        endSwipe(true);
+    });
+
+    wordPanel.addEventListener('touchcancel', () => endSwipe(false));
 
     // The new-words list for this story
     const newWordsBtn = document.getElementById('reader-new-words');

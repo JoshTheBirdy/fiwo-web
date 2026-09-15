@@ -753,6 +753,33 @@ table.phonetics-table {
     gap: 1.25rem;
 }
 
+/* The grid renders its first 150 cards only; this is where the rest is asked
+   for, and where "nothing matched" says so instead of leaving a blank page. */
+.dictionary-footer:empty { display: none; }
+.dictionary-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.dict-show-all {
+    padding: 0.7rem 1.4rem;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    background: var(--bg-input);
+    color: var(--text-primary);
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: border-color var(--duration) ease, color var(--duration) ease;
+}
+.dict-show-all:hover { border-color: var(--accent); color: var(--accent); }
+.dict-empty {
+    color: var(--text-dim);
+    text-align: center;
+    max-width: 34rem;
+    line-height: 1.7;
+}
+
 /* ── Card ── */
 .card {
     background: var(--bg-card);

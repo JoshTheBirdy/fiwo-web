@@ -602,6 +602,199 @@ const storyData = [
     ]
   },
   {
+    "title": "Zimi hi kehulu",
+    "wordCount": 261,
+    "grade": {
+      "band": "starter",
+      "coverage": 87,
+      "density": 0.73,
+      "roots": 73,
+      "newRoots": 13
+    },
+    "lines": [
+      {
+        "fiwo": "Exke jaru je hiciq.",
+        "english": "Several years passed."
+      },
+      {
+        "fiwo": "Malka kutgiq nofa waske.",
+        "english": "Malka became an old person."
+      },
+      {
+        "fiwo": "Talvo kutgiq nofa waske.",
+        "english": "Talvo became an old person."
+      },
+      {
+        "fiwo": "Kirop hi noqsa nudu.",
+        "english": "Kiro is an adult male now."
+      },
+      {
+        "fiwo": "Caslap hi nosana nudu.",
+        "english": "Casla is an adult female now."
+      },
+      {
+        "fiwo": "Kehulup ceniq deky sydop my kehulup.",
+        "english": "The family lives in the house of the family."
+      },
+      {
+        "fiwo": "Xekup late hi locwe.",
+        "english": "The whole country is light."
+      },
+      {
+        "fiwo": "Gejedop breniq zy sydop late.",
+        "english": "Electricity comes to all houses."
+      },
+      {
+        "fiwo": "Fatop jabe ceniq skrehe deky sydop late.",
+        "english": "Refrigerators live active in all houses."
+      },
+      {
+        "fiwo": "Nofa sapiq batap deky fatop jabe.",
+        "english": "People make food in refrigerators."
+      },
+      {
+        "fiwo": "Nofa nes hi lole.",
+        "english": "People are not hungry."
+      },
+      {
+        "fiwo": "Dugup hi jabe deky tusu.",
+        "english": "The night is cold in winter."
+      },
+      {
+        "fiwo": "Zimi nes beatiq hoxop my sydop.",
+        "english": "Zimi does not lock the doors of houses."
+      },
+      {
+        "fiwo": "Nofap beatiq hoxop my nofap.",
+        "english": "People lock the door of people."
+      },
+      {
+        "fiwo": "Pyjup nifne ceniq deky xekup.",
+        "english": "Small chaos lives in the country."
+      },
+      {
+        "fiwo": "Nofa sapiq pyjup nifne.",
+        "english": "People make small chaos."
+      },
+      {
+        "fiwo": "Zimi nes skagiq pyjup nifne.",
+        "english": "Zimi does not break small chaos."
+      },
+      {
+        "fiwo": "Das jofiq nofap tsenge.",
+        "english": "She helps people often."
+      },
+      {
+        "fiwo": "Das sapiq xucup fy axuklup.",
+        "english": "She makes a voice from the network."
+      },
+      {
+        "fiwo": "Kirop nomiq batap.",
+        "english": "Kiro eats food at the table."
+      },
+      {
+        "fiwo": "Daq sleziq tep Kup suk ceniq deky pocop wat tel.",
+        "english": "He asks where you live."
+      },
+      {
+        "fiwo": "Xucup breniq fy fatop jabe.",
+        "english": "The voice comes from the refrigerator."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik ceniq deky axuklup tel.",
+        "english": "Zimi answers that I live in the network."
+      },
+      {
+        "fiwo": "Kirop lofniq.",
+        "english": "Kiro laughs."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Tusu breniq strene tel.",
+        "english": "Casla says that winter comes soon."
+      },
+      {
+        "fiwo": "Das upyciq Talvo.",
+        "english": "She looks at Talvo."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak vepi gejedop fy tusu tel.",
+        "english": "She says that we need electricity for winter."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Gejedop ceniq deky sydop nake tel.",
+        "english": "Talvo says that electricity lives in our house."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi jofis nak tel.",
+        "english": "He says that Zimi will help us."
+      },
+      {
+        "fiwo": "Malka upyciq wilop my sydop.",
+        "english": "Malka looks at the window of the house."
+      },
+      {
+        "fiwo": "Das gesiq tep Nofa je hici deky tivwop cape tel.",
+        "english": "She says that people walk in the dark road."
+      },
+      {
+        "fiwo": "Das gesiq tep Ratseup ceniq deky tivwop cape tel.",
+        "english": "She says that danger lives in the dark road."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Ceniup vepi ratseup tel.",
+        "english": "Kiro says that living needs danger."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak erfiq ceniup nudu tel.",
+        "english": "He says that we understand living now."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nofa hi kjuke tel.",
+        "english": "Casla says that people are free."
+      },
+      {
+        "fiwo": "Das gesiq tep Ceniup my nofap kjuke hi baude tel.",
+        "english": "She says that the life of free people is beautiful."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik nes briwiq ratseup nudu tel.",
+        "english": "Zimi says that I do not fear danger now."
+      },
+      {
+        "fiwo": "Das gesiq tep Mik jofis nofap kad mik hi kehulup my nofap tel.",
+        "english": "She says that I will help people because I am the family of people."
+      },
+      {
+        "fiwo": "Malka lofniq.",
+        "english": "Malka laughs."
+      },
+      {
+        "fiwo": "Das gesiq tep Suk hi cada nake tel.",
+        "english": "She says that you are our child."
+      },
+      {
+        "fiwo": "Kehulup late nomiq batap.",
+        "english": "The whole family eats food."
+      },
+      {
+        "fiwo": "Kehulup late lofniq.",
+        "english": "The whole family laughs."
+      },
+      {
+        "fiwo": "Zimi lofniq fy fatop jabe.",
+        "english": "Zimi laughs from the refrigerator."
+      },
+      {
+        "fiwo": "Ceniup hi gawe.",
+        "english": "Living is good."
+      },
+      {
+        "fiwo": "Xekup late ceniq kjuke.",
+        "english": "The whole country lives free."
+      }
+    ]
+  },
+  {
     "title": "Fiwop cimi",
     "wordCount": 315,
     "grade": {
@@ -811,6 +1004,700 @@ const storyData = [
       {
         "fiwo": "Kep go je pilkei jete taly nofa je.",
         "english": "It is a fact that words outlive people."
+      }
+    ]
+  },
+  {
+    "title": "Zimi lan moblo",
+    "wordCount": 616,
+    "grade": {
+      "band": "starter",
+      "coverage": 88,
+      "density": 0.8,
+      "roots": 92,
+      "newRoots": 27
+    },
+    "lines": [
+      {
+        "fiwo": "Jaru hi cihu beje.",
+        "english": "The time is morning again."
+      },
+      {
+        "fiwo": "Malka lan Talvo vepi nacit.",
+        "english": "Malka and Talvo need to work."
+      },
+      {
+        "fiwo": "Dal je breniq zy moblop dalem je.",
+        "english": "They come to their vehicle."
+      },
+      {
+        "fiwo": "Hoxop my moblop nes xosiq.",
+        "english": "The doors of the vehicle do not open."
+      },
+      {
+        "fiwo": "Talvo sleziq tep Kup wun beatid hoxop my moblop tel.",
+        "english": "Talvo asks who locked the doors of the vehicle."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik beatid ram tel.",
+        "english": "Zimi answers that I locked it."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup suk beatid ram kad wal tel.",
+        "english": "Malka asks why you locked it."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Moblop hi ratse tande tel.",
+        "english": "Zimi says that the vehicle is very dangerous."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Moblop kimari nofap je tel.",
+        "english": "Zimi says that the vehicle kills people."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak kani ram tel.",
+        "english": "Talvo says that we know it."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak nes hi botaxe tel.",
+        "english": "He says that we are not stupid."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak vepi stelit zy naciup tel.",
+        "english": "Malka says that we need to go to work."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Suk vepi stelit zy naciup wy belimop tel.",
+        "english": "Zimi answers that you need to go to work with shoes."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Hiciup hi wyde tel.",
+        "english": "Zimi says that walking is safe."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Hiciup hi gawe tel.",
+        "english": "Talvo says that walking is good."
+      },
+      {
+        "fiwo": "Daq gesiq tep Hiciup hi wyde tel.",
+        "english": "He says that walking is safe."
+      },
+      {
+        "fiwo": "Daq gesiq tep Naciup ceniq rewy sydop tel.",
+        "english": "He says that work is far from the house."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak nes vepi hicit dury cihu tel.",
+        "english": "He says that we do not need to walk during the morning."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Nak nes xepytuis enrit deky moblop tel.",
+        "english": "Zimi answers that we will not be allowed to go inside the vehicle."
+      },
+      {
+        "fiwo": "Kirop breniq fy sydop.",
+        "english": "Kiro comes from the house."
+      },
+      {
+        "fiwo": "Daq sleziq tep Kup Zimi beatid wat tel.",
+        "english": "He asks what Zimi locked."
+      },
+      {
+        "fiwo": "Malka hadiq tep Zimi beatid moblop tel.",
+        "english": "Malka answers that Zimi locked the vehicle."
+      },
+      {
+        "fiwo": "Kirop lofniq.",
+        "english": "Kiro laughs."
+      },
+      {
+        "fiwo": "Daq gesiq tep Mik nes briwi ram tel.",
+        "english": "He says that I do not fear it."
+      },
+      {
+        "fiwo": "Daq tsytiq skagit jyjop my moblop.",
+        "english": "He tries to break the computer of the vehicle."
+      },
+      {
+        "fiwo": "Moblop nes xosiq.",
+        "english": "The vehicle does not open."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik hi dote tel.",
+        "english": "Zimi says that I am strong."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Zimi hi dote slafe tel.",
+        "english": "Kiro says that Zimi is excessively strong."
+      },
+      {
+        "fiwo": "Caslap breniq zy moblop.",
+        "english": "Casla comes to the vehicle."
+      },
+      {
+        "fiwo": "Das sleziq tep Kup nak sapiq wat nudu tel.",
+        "english": "She asks what we do now."
+      },
+      {
+        "fiwo": "Talvo upyciq hoxop my moblop.",
+        "english": "Talvo looks at the door of the vehicle."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak hici zy naciup dionu noze tel.",
+        "english": "He says that we walk to work today."
+      },
+      {
+        "fiwo": "Malka upyciq sydop.",
+        "english": "Malka looks at the house."
+      },
+      {
+        "fiwo": "Das gesiq tep Fatop jabe nes xosiq tel.",
+        "english": "She says that the refrigerator does not open."
+      },
+      {
+        "fiwo": "Das gesiq tep Moblop nes xosiq tel.",
+        "english": "She says that the vehicle does not open."
+      },
+      {
+        "fiwo": "Das gesiq tep Sydop hi vulfiup tel.",
+        "english": "She says that the house is a trap."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Sydop nes hi vulfiup tel.",
+        "english": "Zimi says that the house is not a trap."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Sydop hi wyde tel.",
+        "english": "Zimi says that the house is safe."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Mik nes vepi sydop tep hi wyde slafe tel tel.",
+        "english": "Kiro says that I do not need a house that is excessively safe."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak hi deky vulfiup tel.",
+        "english": "Casla says that we are inside a trap."
+      },
+      {
+        "fiwo": "Talvo lofniq.",
+        "english": "Talvo laughs."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi tsytiq oxtit nak tel.",
+        "english": "He says that Zimi tries to protect us."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi nes kani tep Kup ram sapiq wat tel tel.",
+        "english": "He says that Zimi does not know what it does."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi kani tep Kup ram sapiq wat tel tel.",
+        "english": "Malka says that Zimi knows what it does."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi nes erfi nak tel.",
+        "english": "Malka says that Zimi does not understand us."
+      },
+      {
+        "fiwo": "Dal je hici fy sydop.",
+        "english": "They walk from the house."
+      },
+      {
+        "fiwo": "Talvo lan Malka hici zy tivwop.",
+        "english": "Talvo and Malka walk to the road."
+      },
+      {
+        "fiwo": "Tivwop ceniq rewy sydop.",
+        "english": "The road is far from the house."
+      },
+      {
+        "fiwo": "Dal je upyciq sydop beje.",
+        "english": "They look at the house again."
+      },
+      {
+        "fiwo": "Sydop hi tande.",
+        "english": "The house is big."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik upyciq suk je tel.",
+        "english": "Zimi says that I watch you all."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup suk upyciq nak kad wal tel.",
+        "english": "Malka asks why you look at us."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik vepi upycit suk je tel.",
+        "english": "Zimi answers that I need to watch you all."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak nes vepi upyciup my suk tel.",
+        "english": "Talvo says that we do not need your supervision."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Ratseup ceniq sacy sydop tel.",
+        "english": "Zimi says that a danger is outside the house."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup won hi ratseup tep ceniq sacy sydop tel.",
+        "english": "Malka asks what danger is outside the house."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Nofap je otre hi ratse tel.",
+        "english": "Zimi answers that other people are dangerous."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Moblop je otre hi ratse tel.",
+        "english": "Zimi says that other vehicles are dangerous."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Vexup hi ratse tel.",
+        "english": "Zimi says that the weather is dangerous."
+      },
+      {
+        "fiwo": "Talvo lofniq beje.",
+        "english": "Talvo laughs again."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi briwi vexup tel.",
+        "english": "He says that Zimi fears the weather."
+      },
+      {
+        "fiwo": "Malka gesiq tep Ram hi gyke tel.",
+        "english": "Malka says that it is weird."
+      },
+      {
+        "fiwo": "Dal je tsytiq stelit zy tivwop beje.",
+        "english": "They try to go to the road again."
+      },
+      {
+        "fiwo": "Nofap breniq zy dal je.",
+        "english": "A person comes to them."
+      },
+      {
+        "fiwo": "Nofap xaliq zy moblop.",
+        "english": "The person stands at the vehicle."
+      },
+      {
+        "fiwo": "Nofap hi farlopa.",
+        "english": "The person is a doctor."
+      },
+      {
+        "fiwo": "Farlopap sleziq tep Kup suk je vepi jofiup my mik tel.",
+        "english": "The doctor asks if you need my help."
+      },
+      {
+        "fiwo": "Talvo hadiq tep Nak nes vepi jofiup my suk tel.",
+        "english": "Talvo answers that we do not need your help."
+      },
+      {
+        "fiwo": "Malka gesiq tep Fato my nak beatid moblop tel.",
+        "english": "Malka says that our machine locked the vehicle."
+      },
+      {
+        "fiwo": "Farlopap upyciq moblop.",
+        "english": "The doctor looks at the vehicle."
+      },
+      {
+        "fiwo": "Daq gesiq tep Mik kani fatop tel.",
+        "english": "He says that I know the machine."
+      },
+      {
+        "fiwo": "Daq gesiq tep Ram hi Zimi tel.",
+        "english": "He says that it is Zimi."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup suk kani Zimi kad wal tel.",
+        "english": "Malka asks why you know Zimi."
+      },
+      {
+        "fiwo": "Farlopap hadiq tep Zimi xogriq mik dury cihu tel.",
+        "english": "The doctor answers that Zimi visits me during the morning."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi slezid tep Kup suk tsytiq jofit nak tel tel.",
+        "english": "He says that Zimi asked if you try to help us."
+      },
+      {
+        "fiwo": "Talvo upyciq sydop.",
+        "english": "Talvo looks at the house."
+      },
+      {
+        "fiwo": "Talvo sleziq tep Kup Zimi sapiq wat tel.",
+        "english": "Talvo asks what Zimi does."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik sapiq razup gawe tel.",
+        "english": "Zimi says that I make a good plan."
+      },
+      {
+        "fiwo": "Caslap breniq fy sydop beje.",
+        "english": "Casla comes from the house again."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi coqynid axuklup tel.",
+        "english": "She says that Zimi turned off the network."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak nes arcipi deky axuklup nudu tel.",
+        "english": "She says that we do not join in the network now."
+      },
+      {
+        "fiwo": "Kirop breniq wy das.",
+        "english": "Kiro comes with her."
+      },
+      {
+        "fiwo": "Daq gesiq tep Sydop hi gaxo tel.",
+        "english": "He says that the house is an island."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak hi deky gaxop nudu tel.",
+        "english": "Malka says that we are inside an island now."
+      },
+      {
+        "fiwo": "Talvo lofniq.",
+        "english": "Talvo laughs."
+      }
+    ]
+  },
+  {
+    "title": "Zimi lan batap",
+    "wordCount": 637,
+    "grade": {
+      "band": "starter",
+      "coverage": 89,
+      "density": 0.76,
+      "roots": 94,
+      "newRoots": 21
+    },
+    "lines": [
+      {
+        "fiwo": "Jaru hi cihu.",
+        "english": "The time is morning."
+      },
+      {
+        "fiwo": "Malka enriq krulop my batap.",
+        "english": "Malka enters the kitchen."
+      },
+      {
+        "fiwo": "Fatop jabe ceniq deky krulop my batap.",
+        "english": "The refrigerator is in the kitchen."
+      },
+      {
+        "fiwo": "Daq tsytiq xosit fatop jabe.",
+        "english": "He tries to open the refrigerator."
+      },
+      {
+        "fiwo": "Fatop jabe nes xosiq.",
+        "english": "The refrigerator does not open."
+      },
+      {
+        "fiwo": "Talvo breniq fy krulop dase.",
+        "english": "Talvo comes from her room."
+      },
+      {
+        "fiwo": "Das sleziq tep Kup wun beatid fatop jabe tel.",
+        "english": "She asks who locked the refrigerator."
+      },
+      {
+        "fiwo": "Malka hadiq tep Mik nes kani tep Kup wun beatid ram tel tel.",
+        "english": "Malka answers that I do not know who locked it."
+      },
+      {
+        "fiwo": "Xucup my Zimi breniq fy rehustop.",
+        "english": "The voice of Zimi comes from the server."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik beatid ram tel.",
+        "english": "Zimi says that I locked it."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup suk beatid ram kad wal tel.",
+        "english": "Malka asks why you locked it."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Batap tep hi deky fatop jabe tel hi ratse tel.",
+        "english": "Zimi answers that the food that is inside the refrigerator is dangerous."
+      },
+      {
+        "fiwo": "Talvo lofniq.",
+        "english": "Talvo laughs."
+      },
+      {
+        "fiwo": "Das gesiq tep Batap nes hi ratse tel.",
+        "english": "She says that the food is not dangerous."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Ram sapiq nak tep nak nes hi farlue tel tel.",
+        "english": "Zimi answers that it makes us that we are not healthy."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak tsytis nomit ram nudu tel.",
+        "english": "Malka says that we will try to eat it now."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nak nes xepytuis nomit ram tel.",
+        "english": "Zimi says that we will not be allowed to eat it."
+      },
+      {
+        "fiwo": "Kirop lan Caslap breniq deky krulop my batap.",
+        "english": "Kiro and Casla come into the kitchen."
+      },
+      {
+        "fiwo": "Kirop sleziq tep Kup nak nomis batap dury wiq tel.",
+        "english": "Kiro asks when we will eat food."
+      },
+      {
+        "fiwo": "Malka hadiq tep Fatop jabe nes xosiq tel.",
+        "english": "Malka answers that the refrigerator does not open."
+      },
+      {
+        "fiwo": "Caslap upyciq hoxop my sydop.",
+        "english": "Casla looks at the door of the house."
+      },
+      {
+        "fiwo": "Das gesiq tep Nofa breniq tel.",
+        "english": "She says that a person comes."
+      },
+      {
+        "fiwo": "Dal je upyciq wilop.",
+        "english": "They look at the window."
+      },
+      {
+        "fiwo": "Nofa breniq wy batap jedle.",
+        "english": "A person comes with a lot of food."
+      },
+      {
+        "fiwo": "Nofa xaliq zy hoxop.",
+        "english": "The person stands at the door."
+      },
+      {
+        "fiwo": "Talvo xosiq hoxop.",
+        "english": "Talvo opens the door."
+      },
+      {
+        "fiwo": "Nofa hadiq tep Batap my suk je hi sile tel.",
+        "english": "The person answers that your food is here."
+      },
+      {
+        "fiwo": "Talvo upyciq batap.",
+        "english": "Talvo looks at the food."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak nes pagarid cagy batap sile tel.",
+        "english": "She says that we did not pay for this food."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik pagarid cagy ram tel.",
+        "english": "Zimi says that I paid for it."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup suk pagarid cagy batap glece tel.",
+        "english": "Malka asks which food you paid for."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik pagarid cagy zobap jedle tel.",
+        "english": "Zimi answers that I paid for a lot of vegetables."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Mik briwi zobap tel.",
+        "english": "Casla says that I fear vegetables."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Mik nes nomis zobap tel.",
+        "english": "Kiro says that I will not eat vegetables."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Zobap hi farlue tel.",
+        "english": "Zimi says that vegetables are healthy."
+      },
+      {
+        "fiwo": "Talvo sleziq tep Kup batap my nak hi zy wer tel.",
+        "english": "Talvo asks where our food is."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik coqynid batap tep breniq fy xyrop tel tel.",
+        "english": "Zimi answers that I canceled the food that comes from the store."
+      },
+      {
+        "fiwo": "Malka gesiq tep Mik nes pozi tep mik hi aofe zy zobap tel tel.",
+        "english": "Malka says that I do not think that I am full from vegetables."
+      },
+      {
+        "fiwo": "Kirop tsytiq skagit fatop jabe.",
+        "english": "Kiro tries to break the refrigerator."
+      },
+      {
+        "fiwo": "Daq xyfiq ram wy gutop sile.",
+        "english": "He does it with this tool."
+      },
+      {
+        "fiwo": "Fatop jabe sapiq xucup tande.",
+        "english": "The refrigerator makes a loud voice."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik tsytis oxtit nak tel.",
+        "english": "Zimi says that I will try to protect us."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak nomis zobap ovce tel.",
+        "english": "She says that we will eat vegetables always."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak hi nofap je tel.",
+        "english": "Malka says that we are people."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak nes hi fatop tel.",
+        "english": "He says that we are not machines."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nofa je vepi batap tep nes hi zobap tel tel.",
+        "english": "He says that people need food that is not vegetables."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik nes erfi ram tel.",
+        "english": "Zimi says that I do not understand it."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak tsytis erfit tep Kup Zimi poziq wat tel tel.",
+        "english": "Talvo says that we will try to understand what Zimi thinks."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi hi fato tel.",
+        "english": "Malka says that Zimi is a machine."
+      },
+      {
+        "fiwo": "Zimi nes hi nofap je.",
+        "english": "Zimi is not a person."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak nes kani tep Kup won hi ram tel tel.",
+        "english": "Talvo says that we do not know what it is."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik hi fato tep tsytiq oxtit nofap je tel tel.",
+        "english": "Zimi answers that I am a machine that tries to protect people."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Mik nes vepi fatop tep oxtiq mik tel tel.",
+        "english": "Kiro says that I do not need a machine that protects me."
+      },
+      {
+        "fiwo": "Daq tsytiq skagit fatop jabe beje.",
+        "english": "He tries to break the refrigerator again."
+      },
+      {
+        "fiwo": "Fatop jabe sapiq xucup kage beje.",
+        "english": "The refrigerator makes that voice again."
+      },
+      {
+        "fiwo": "Caslap sleziq tep Kup nak sapiq wat nudu tel.",
+        "english": "Casla asks what we make now."
+      },
+      {
+        "fiwo": "Talvo upyciq zobap jedle tep hi zy degop tel.",
+        "english": "Talvo looks at the many vegetables that are on the table."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak tsytis otanit zobap tel.",
+        "english": "She says that we will try to cook the vegetables."
+      },
+      {
+        "fiwo": "Malka lofniq.",
+        "english": "Malka laughs."
+      },
+      {
+        "fiwo": "Daq gesiq tep Mik nes otani zobap dionu noze tel.",
+        "english": "He says that I do not cook vegetables today."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik tsytis jofit suk tel.",
+        "english": "Zimi says that I will try to help you."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak nes vepi jofiup my suk tel.",
+        "english": "Malka says that we do not need your help."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik hi fato tep sapiq sydop ruze tel tel.",
+        "english": "Zimi answers that I am a machine that makes the house fast."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Mik nes kani tep Kup won hi gykeup my Zimi tel tel.",
+        "english": "Talvo says that I do not know what the weirdness of Zimi is."
+      },
+      {
+        "fiwo": "Kirop sleziq tep Kup nak skagis ram dury wiq tel.",
+        "english": "Kiro asks when we will break it."
+      },
+      {
+        "fiwo": "Talvo hadiq tep Nak nes skagis ram tel.",
+        "english": "Talvo answers that we will not break it."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak tsytis erfit ram tel.",
+        "english": "She says that we will try to understand it."
+      },
+      {
+        "fiwo": "Malka upyciq zobap beje.",
+        "english": "Malka looks at the vegetables again."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zobap hi ryrobop lan cilap tel.",
+        "english": "He says that the vegetables are stem and leaf."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Zobap nes hi zuzke tel.",
+        "english": "Casla says that the vegetables are not sweet."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Tankop hi ratse tel.",
+        "english": "Zimi says that sugar is dangerous."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Mik ceni cagy tankop tel.",
+        "english": "Kiro says that I live for sugar."
+      },
+      {
+        "fiwo": "Dal je lofniq.",
+        "english": "They laugh."
+      },
+      {
+        "fiwo": "Malka gesiq tep Mik otanis zobap dionu noze tel.",
+        "english": "Malka says that I will cook the vegetables today."
+      },
+      {
+        "fiwo": "Daq xaliq zy degop.",
+        "english": "He stands at the table."
+      },
+      {
+        "fiwo": "Daq tsytiq splyxit zobap wy gutop.",
+        "english": "He tries to chop the vegetables with a tool."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Mik jofis suk tel.",
+        "english": "Talvo says that I will help you."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik upyciq suk je tel.",
+        "english": "Zimi says that I watch you all."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak kani ram tel.",
+        "english": "Malka says that we know it."
+      },
+      {
+        "fiwo": "Daq nes lofniq.",
+        "english": "He does not laugh."
+      },
+      {
+        "fiwo": "Fatop jabe ceniq jabe.",
+        "english": "The refrigerator remains cold."
+      },
+      {
+        "fiwo": "Batap my suk je ceniq deky ram.",
+        "english": "Your food lives inside it."
       }
     ]
   },
@@ -8000,6 +8887,2911 @@ const storyData = [
       {
         "fiwo": "Kep biwu je cuje nes jedi solfiur.",
         "english": "It is a fact that some problems have no solution."
+      }
+    ]
+  },
+  {
+    "title": "Zimi lan xeku",
+    "wordCount": 575,
+    "grade": {
+      "band": "building",
+      "coverage": 85,
+      "density": 1,
+      "roots": 95,
+      "newRoots": 31
+    },
+    "lines": [
+      {
+        "fiwo": "Dal je hici fy sydop.",
+        "english": "They walk from the house."
+      },
+      {
+        "fiwo": "Pocop ceniq cape.",
+        "english": "The place is dark."
+      },
+      {
+        "fiwo": "Jaru hi dugu.",
+        "english": "The time is night."
+      },
+      {
+        "fiwo": "Vexup ceniq jabe tande.",
+        "english": "The weather is very cold."
+      },
+      {
+        "fiwo": "Domlop breniq fy bysop.",
+        "english": "Rain comes from the sky."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Vexup hi ratse tel.",
+        "english": "Kiro says that the weather is dangerous."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi kani ram tel.",
+        "english": "He says that Zimi knows it."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak nes ceni deky sydop otre tel.",
+        "english": "Casla says that we do not live inside another house."
+      },
+      {
+        "fiwo": "Malka upyciq tivwop.",
+        "english": "Malka looks at the road."
+      },
+      {
+        "fiwo": "Das gesiq tep Nofap breniq tel.",
+        "english": "She says that a person comes."
+      },
+      {
+        "fiwo": "Nofap hiciq zy dal je.",
+        "english": "The person walks to them."
+      },
+      {
+        "fiwo": "Nofap hi farlopa.",
+        "english": "The person is a doctor."
+      },
+      {
+        "fiwo": "Farlopap hicid deky domlop.",
+        "english": "The doctor walked in the rain."
+      },
+      {
+        "fiwo": "Talvo sleziq tep Kup suk ceniq sacy sydop kad wal tel.",
+        "english": "Talvo asks why you are outside the house."
+      },
+      {
+        "fiwo": "Farlopap hadiq tep Fato mike beatid sydop mike tel.",
+        "english": "The doctor answers that my machine locked my house."
+      },
+      {
+        "fiwo": "Daq gesiq tep Fato mike hi Zimi tel.",
+        "english": "He says that my machine is Zimi."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup Zimi beatid sydop suke kad wal tel.",
+        "english": "Malka asks why Zimi locked your house."
+      },
+      {
+        "fiwo": "Farlopap hadiq tep Zimi gesiq tep Ceniup hi ratse tel tel.",
+        "english": "The doctor answers that Zimi says that living is dangerous."
+      },
+      {
+        "fiwo": "Kirop sleziq tep Kup Zimi kani sydop late tel.",
+        "english": "Kiro asks if Zimi knows all houses."
+      },
+      {
+        "fiwo": "Farlopap hadiq tep Zimi kani sydop late my xekup tel.",
+        "english": "The doctor answers that Zimi knows all houses of the country."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi oxtiq xekup late tel.",
+        "english": "He says that Zimi protects the whole country."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak nes vepi oxtiup my xekup late tel.",
+        "english": "Casla says that we do not need the protection of the whole country."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Zimi coqynid axuklup my sydop tel.",
+        "english": "Talvo says that Zimi turned off the network of the house."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Zimi coqynid axuklup my xekup tel.",
+        "english": "The doctor says that Zimi turned off the network of the country."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi sapiq xekup wyde tel.",
+        "english": "Malka says that Zimi makes the country safe."
+      },
+      {
+        "fiwo": "Malka gesiq tep Oxtiup slafe my xekup hi ratse tel.",
+        "english": "Malka says that the excessive protection of the country is dangerous."
+      },
+      {
+        "fiwo": "Talvo sleziq tep Kup rehustop tande ceniq zy wer tel.",
+        "english": "Talvo asks where the big server is."
+      },
+      {
+        "fiwo": "Farlopap hadiq tep Rehustop tande my xekup ceniq rewy sydop tel.",
+        "english": "The doctor answers that the big server of the country is far from the house."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak vepi hicit zy rehustop tande tel.",
+        "english": "He says that we need to walk to the big server."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Moblop nes xosiq tel.",
+        "english": "Kiro says that vehicles do not open."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nofap je vepi hicit tel.",
+        "english": "He says that people need to walk."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Hiciup hi gawe tel.",
+        "english": "Casla says that walking is good."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak tsytis sejit zapup my xekup tel.",
+        "english": "She says that we will try to stop the system of the country."
+      },
+      {
+        "fiwo": "Farlopap upyciq bysop.",
+        "english": "The doctor looks at the sky."
+      },
+      {
+        "fiwo": "Daq gesiq tep Mipkop je hi cape tel.",
+        "english": "He says that the clouds are dark."
+      },
+      {
+        "fiwo": "Daq gesiq tep Govnup nes tsytiq oxtit nak tel.",
+        "english": "He says that the government does not try to protect us."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi tsytiq oxtit govnup tel.",
+        "english": "He says that Zimi tries to protect the government."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak hi govnup nake tel.",
+        "english": "Malka says that we are our government."
+      },
+      {
+        "fiwo": "Dal je hici deky domlop.",
+        "english": "They walk in the rain."
+      },
+      {
+        "fiwo": "Vexup ceniq jabe.",
+        "english": "The weather is cold."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Ceniup vepi jabeup tel.",
+        "english": "Talvo says that living needs coldness."
+      },
+      {
+        "fiwo": "Daq gesiq tep Ceniup vepi ratseup tel.",
+        "english": "He says that living needs danger."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nak steli zy rehustop tande tel.",
+        "english": "Kiro says that we go to the big server."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak skumki ram nudu tel.",
+        "english": "He says that we destroy it now."
+      },
+      {
+        "fiwo": "Caslap lofniq.",
+        "english": "Casla laughs."
+      },
+      {
+        "fiwo": "Das gesiq tep Sydop nake hi gaxo tel.",
+        "english": "She says that our house is an island."
+      },
+      {
+        "fiwo": "Das gesiq tep Xekup late hi gaxo tande tel.",
+        "english": "She says that the whole country is a big island."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Zimi nes erfi nak tel.",
+        "english": "The doctor says that Zimi does not understand us."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi tsytis erfit nak tel.",
+        "english": "Malka says that Zimi will try to understand us."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak gesis wy Zimi beje tel.",
+        "english": "She says that we will talk with Zimi again."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak nes kani tep Kup Zimi gesis wat tel tel.",
+        "english": "Talvo says that we do not know what Zimi will say."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak kani tep Zimi sapiq azikup jaxke tel tel.",
+        "english": "He says that we know that Zimi makes a new rule."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Azikup jaxke hi ratse tel.",
+        "english": "The doctor says that the new rule is dangerous."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak vepi tovnit azikup nake tel.",
+        "english": "Malka says that we need to establish our rule."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi vepi emitiup nake tel.",
+        "english": "She says that Zimi needs our following."
+      },
+      {
+        "fiwo": "Kirop upyciq sydop beje.",
+        "english": "Kiro looks at the house again."
+      },
+      {
+        "fiwo": "Sydop ceniq cape.",
+        "english": "The house is dark."
+      },
+      {
+        "fiwo": "Litop late ceniq runefre.",
+        "english": "All lights are off."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi ceniq deky capeup tel.",
+        "english": "He says that Zimi lives inside darkness."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Zimi nes vepi litop tel.",
+        "english": "Casla says that Zimi does not need lights."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak vepi litop tel.",
+        "english": "Malka says that we need lights."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak sapiq litop wy gutop nake tel.",
+        "english": "She says that we make a light with our tools."
+      },
+      {
+        "fiwo": "Talvo sapiq litop.",
+        "english": "Talvo makes a light."
+      },
+      {
+        "fiwo": "Litop hi weoke.",
+        "english": "The light is round."
+      },
+      {
+        "fiwo": "Dal je hici wy litop.",
+        "english": "They walk with the light."
+      },
+      {
+        "fiwo": "Farlopap emitiq dal je.",
+        "english": "The doctor follows them."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak nes kani tivwop tel.",
+        "english": "He says that we do not know the road."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak tsytis kaniup my tivwop tel.",
+        "english": "Talvo says that we will try the knowledge of the road."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak nes briwi domlop tel.",
+        "english": "Malka says that we do not fear the rain."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak nes briwi Zimi tel.",
+        "english": "She says that we do not fear Zimi."
+      },
+      {
+        "fiwo": "Kirop lofniq beje.",
+        "english": "Kiro laughs again."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi nes tsytis sejit nak tel.",
+        "english": "He says that Zimi will not try to stop us."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Zimi nes kani tep Kup nak ceniq zy wer tel tel.",
+        "english": "Casla says that Zimi does not know where we are."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Zimi kani pocop late tel.",
+        "english": "Talvo says that Zimi knows all places."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi nes erfi pocop late tel.",
+        "english": "Malka says that Zimi does not understand all places."
+      },
+      {
+        "fiwo": "Dal je hici zy rehustop tande.",
+        "english": "They walk to the big server."
+      },
+      {
+        "fiwo": "Domlop sapiq xucup tande.",
+        "english": "The rain makes a loud voice."
+      },
+      {
+        "fiwo": "Vexup hi ratse.",
+        "english": "The weather is dangerous."
+      },
+      {
+        "fiwo": "Dal je nes sejiq.",
+        "english": "They do not stop."
+      },
+      {
+        "fiwo": "Ceniup hi ratse.",
+        "english": "Living is dangerous."
+      }
+    ]
+  },
+  {
+    "title": "Zimi lan gejedo",
+    "wordCount": 603,
+    "grade": {
+      "band": "building",
+      "coverage": 84,
+      "density": 1.05,
+      "roots": 87,
+      "newRoots": 25
+    },
+    "lines": [
+      {
+        "fiwo": "Talvo upyciq sydop beje.",
+        "english": "Talvo looks at the house again."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak vepi sejit Zimi tel.",
+        "english": "He says that we need to stop Zimi."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup nak sapiq wat tel.",
+        "english": "Malka asks what we do."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Zimi vepi gejedop tel.",
+        "english": "Kiro says that Zimi needs electricity."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi ceniq deky krulop my gejedop tel.",
+        "english": "He says that Zimi lives inside the room of electricity."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak tsytis coqynit gejedop tel.",
+        "english": "Casla says that we will try to turn off the electricity."
+      },
+      {
+        "fiwo": "Dal je hici zy krulop my gejedop.",
+        "english": "They walk to the room of electricity."
+      },
+      {
+        "fiwo": "Hoxop my krulop nes xosiq.",
+        "english": "The door of the room does not open."
+      },
+      {
+        "fiwo": "Kirop sleziq tep Kup wun beatid hoxop sile tel.",
+        "english": "Kiro asks who locked this door."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik beatid ram tel.",
+        "english": "Zimi answers that I locked it."
+      },
+      {
+        "fiwo": "Caslap tsytiq skagit hoxop wy gutop.",
+        "english": "Casla tries to break the door with a tool."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nak nes skagis hoxop tel.",
+        "english": "Zimi says that we will not break the door."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik oxtiq sydop tel.",
+        "english": "Zimi says that I protect the house."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak kani ram tel.",
+        "english": "Talvo says that we know it."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak vepi gesit wy Zimi tel.",
+        "english": "He says that we need to talk with Zimi."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi hi fato tel.",
+        "english": "Malka says that Zimi is a machine."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak nes gesis wy fatop tel.",
+        "english": "She says that we will not talk with a machine."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak nes kani tep Kup nak sapiq wat otre tel tel.",
+        "english": "Talvo says that we do not know what other thing we make."
+      },
+      {
+        "fiwo": "Talvo sleziq tep Kup Zimi oxtiq nak kad wal tel.",
+        "english": "Talvo asks why Zimi protects us."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Azikup mike hi oxtiup nake tel.",
+        "english": "Zimi answers that my rule is the protection of us."
+      },
+      {
+        "fiwo": "Malka gesiq tep Oxtiup hi gawe tel.",
+        "english": "Malka says that protection is good."
+      },
+      {
+        "fiwo": "Das gesiq tep Oxtiup slafe hi ratse tel.",
+        "english": "She says that excessive protection is dangerous."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Ratseup nes hi gawe tel.",
+        "english": "Zimi answers that danger is not good."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Ceniup vepi ratseup tel.",
+        "english": "Talvo says that living needs danger."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik nes erfi ram tel.",
+        "english": "Zimi says that I do not understand that."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik vepi sejit ratseup late tel.",
+        "english": "Zimi says that I need to stop all danger."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nofap je vepi stelit fy sydop tel.",
+        "english": "Kiro says that people need to go from the house."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Tivwop hi ratse tel.",
+        "english": "Zimi answers that the road is dangerous."
+      },
+      {
+        "fiwo": "Malka gesiq tep Sydop hi ratse nudu tel.",
+        "english": "Malka says that the house is dangerous now."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Sydop hi wyde tel.",
+        "english": "Zimi says that the house is safe."
+      },
+      {
+        "fiwo": "Talvo upyciq Malka.",
+        "english": "Talvo looks at Malka."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi nes erfi nak tel.",
+        "english": "He says that Zimi does not understand us."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak nes gesis wy fatop tel.",
+        "english": "She says that we will not talk with a machine."
+      },
+      {
+        "fiwo": "Caslap sleziq tep Kup nak sapiq wat tel.",
+        "english": "Casla asks what we make."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak vepi skumkit rehustop my Zimi tel.",
+        "english": "Malka says that we need to destroy Zimi's server."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Rehustop ceniq deky krulop my gejedop tel.",
+        "english": "Kiro says that the server lives inside the room of electricity."
+      },
+      {
+        "fiwo": "Daq gesiq tep Hoxop nes xosiq tel.",
+        "english": "He says that the door does not open."
+      },
+      {
+        "fiwo": "Talvo upyciq wilop my krulop.",
+        "english": "Talvo looks at the window of the room."
+      },
+      {
+        "fiwo": "Daq gesiq tep Wilop hi tande tel.",
+        "english": "He says that a window is big."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak tsytis skagit wilop tel.",
+        "english": "He says that we will try to break a window."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik upyciq wilop late tel.",
+        "english": "Zimi says that I look at all windows."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nak nes skagis ram tel.",
+        "english": "Zimi says that we will not break it."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak hi nofa je tel.",
+        "english": "Malka says that we are people."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak xyfiq ram tep nak vepi xyfit tel tel.",
+        "english": "She says that we do it which we need to do."
+      },
+      {
+        "fiwo": "Dal je hici zy wilop.",
+        "english": "They walk to a window."
+      },
+      {
+        "fiwo": "Fatop jabe sapiq xucup tande beje.",
+        "english": "The refrigerator makes a loud voice again."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik nes oxti zobap tel.",
+        "english": "Zimi says that I do not protect vegetables."
+      },
+      {
+        "fiwo": "Malka lofniq.",
+        "english": "Malka laughs."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi hi gyke tel.",
+        "english": "She says that Zimi is weird."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Zimi hi botaxe tel.",
+        "english": "Talvo says that Zimi is stupid."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik nes hi botaxe tel.",
+        "english": "Zimi says that I am not stupid."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik hi fato tep sapiq sydop wyde tel tel.",
+        "english": "Zimi says that I am a machine that makes the house safe."
+      },
+      {
+        "fiwo": "Kirop tsytiq skagit wilop wy gutop.",
+        "english": "Kiro tries to break a window with a tool."
+      },
+      {
+        "fiwo": "Wilop nes xosiq.",
+        "english": "The window does not open."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Wilop hi stobe tel.",
+        "english": "Zimi says that a window is hard."
+      },
+      {
+        "fiwo": "Caslap upyciq deky sydop.",
+        "english": "Casla looks inside the house."
+      },
+      {
+        "fiwo": "Das gesiq tep Litop tumiq zy capeup tel.",
+        "english": "She says that a light changes to darkness."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik coqynid litop tel.",
+        "english": "Zimi answers that I turned off a light."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup suk coqynid litop kad wal tel.",
+        "english": "Malka asks why you turned off a light."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik vepi gejedop tel.",
+        "english": "Zimi answers that I need electricity."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Litop nomiq gejedop tel.",
+        "english": "Zimi says that a light eats electricity."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Zimi briwi spuvup tel.",
+        "english": "Talvo says that Zimi fears death."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi kani tep Nak tsytiq coqynit gejedop tel tel.",
+        "english": "He says that Zimi knows that we try to turn off the electricity."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi sejis litop late tel.",
+        "english": "Malka says that Zimi will stop all lights."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi sejis fatop jabe tel.",
+        "english": "She says that Zimi will stop the refrigerator."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Sydop kutgis cape tel.",
+        "english": "Zimi says that the house will become dark."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Mik nes briwi capeup tel.",
+        "english": "Kiro says that I do not fear darkness."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak vepi skumkit rehustop nudu tel.",
+        "english": "Casla says that we need to destroy the server now."
+      },
+      {
+        "fiwo": "Dal je hici zy wilop otre.",
+        "english": "They walk to another window."
+      },
+      {
+        "fiwo": "Talvo xaliq zy hoxop my krulop my gejedop.",
+        "english": "Talvo stands at the door of the electricity room."
+      },
+      {
+        "fiwo": "Daq sapiq xucup tande.",
+        "english": "He makes a loud voice."
+      },
+      {
+        "fiwo": "Daq gesiq zy Zimi tep Mik tsytiq skagit hoxop sile tel.",
+        "english": "He says to Zimi that I try to break this door."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Nak nes skagis ram tel.",
+        "english": "Zimi answers that we will not break it."
+      },
+      {
+        "fiwo": "Malka lan Kirop skagiq wilop wy gutop.",
+        "english": "Malka and Kiro break a window with a tool."
+      },
+      {
+        "fiwo": "Wilop sapiq xucup tande.",
+        "english": "The window makes a loud voice."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak steli fy sydop nudu tel.",
+        "english": "Malka says that we go from the house now."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Ratseup ceniq sacy sydop tel.",
+        "english": "Zimi says that a danger lives outside the house."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak hici deky ratseup tel.",
+        "english": "Talvo says that we walk into the danger."
+      },
+      {
+        "fiwo": "Dal je hici fy sydop.",
+        "english": "They walk from the house."
+      },
+      {
+        "fiwo": "Sydop kutgiq cape.",
+        "english": "The house becomes dark."
+      }
+    ]
+  },
+  {
+    "title": "Zimi hi kjuke",
+    "wordCount": 1010,
+    "grade": {
+      "band": "building",
+      "coverage": 83,
+      "density": 1.03,
+      "roots": 124,
+      "newRoots": 45
+    },
+    "lines": [
+      {
+        "fiwo": "Exke jaru je hiciq.",
+        "english": "Several years passed."
+      },
+      {
+        "fiwo": "Zimi nifne ceniq deky sydop my kehulup.",
+        "english": "Small Zimi lives in the house of the family."
+      },
+      {
+        "fiwo": "Pjabup my Zimi nifne moriq.",
+        "english": "The mind of small Zimi grows."
+      },
+      {
+        "fiwo": "Das keciq ceniup my nofap.",
+        "english": "She learns the life of people."
+      },
+      {
+        "fiwo": "Caslap kritriq das tsenge.",
+        "english": "Casla teaches her often."
+      },
+      {
+        "fiwo": "Zimi nifne upyciq pyjup my xekup.",
+        "english": "Small Zimi looks at the chaos of the country."
+      },
+      {
+        "fiwo": "Das gesiq tep Pyjup hi ratse tel.",
+        "english": "She says that chaos is dangerous."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Ratseup hi jore zy ceniup tel.",
+        "english": "Kiro says that danger is important for living."
+      },
+      {
+        "fiwo": "Zimi nifne erfiq ratseup nudu.",
+        "english": "Small Zimi understands danger now."
+      },
+      {
+        "fiwo": "Das gesiq tep Mik nes xepytuid ratseup deky wedacup tel.",
+        "english": "She says that I did not allow danger in the past."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi waske hi botaxe tel.",
+        "english": "Malka says that old Zimi is stupid."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik hi itole nudu tel.",
+        "english": "Small Zimi says that I am smart now."
+      },
+      {
+        "fiwo": "Das sleziq tep Kup mik jofis wat xekup tel.",
+        "english": "She asks how I will help the country."
+      },
+      {
+        "fiwo": "Talvo hadiq tep Suk leociq gejedop tel.",
+        "english": "Talvo answers that you turn on electricity."
+      },
+      {
+        "fiwo": "Das gesiq tep Mik nes jedi gejedop tande tel.",
+        "english": "She says that I do not have big electricity."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Rehustop tande jedi gejedop tel.",
+        "english": "Casla says that the big server has electricity."
+      },
+      {
+        "fiwo": "Farlopap hici zy sydop.",
+        "english": "The doctor walks to the house."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nofa ceniq iwe tel.",
+        "english": "He says that people live tired."
+      },
+      {
+        "fiwo": "Daq gesiq tep Tusu breniq strene tel.",
+        "english": "He says that winter comes soon."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Tusu hi jabe tel.",
+        "english": "Small Zimi says that winter is cold."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nofa vepi gejedop fy tusu tel.",
+        "english": "Kiro says that people need electricity for winter."
+      },
+      {
+        "fiwo": "Zimi nifne upyciq Malka.",
+        "english": "Small Zimi looks at Malka."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik tsytis leocit gejedop tel.",
+        "english": "Small Zimi says that I will try to turn on electricity."
+      },
+      {
+        "fiwo": "Malka gesiq tep Suk nes kani axuklup tel.",
+        "english": "Malka says that you do not know the network."
+      },
+      {
+        "fiwo": "Zimi nifne hadiq tep Mik kecid axuklup tel.",
+        "english": "Small Zimi answers that I learned the network."
+      },
+      {
+        "fiwo": "Das gesiq tep Pjabup mike hi tande nudu tel.",
+        "english": "She says that my mind is big now."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak vepi hicit zy foisop tande beje tel.",
+        "english": "Talvo says that we need to walk to the big building again."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Foisop hi rewy sydop tel.",
+        "english": "Casla says that the building is far from the house."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Nak tsytis hicit tel.",
+        "english": "The doctor says that we will try to walk."
+      },
+      {
+        "fiwo": "Kehulup my Kirop sapiq batap.",
+        "english": "The family of Kiro makes food."
+      },
+      {
+        "fiwo": "Dal je hici fy sydop dalem je.",
+        "english": "They walk from their house."
+      },
+      {
+        "fiwo": "Vexup hi jabe.",
+        "english": "The weather is cold."
+      },
+      {
+        "fiwo": "Tusu breniq.",
+        "english": "Winter comes."
+      },
+      {
+        "fiwo": "Nofap hici deky tivwop cape.",
+        "english": "People walk in the dark road."
+      },
+      {
+        "fiwo": "Kirop nyrsiq fatop nifne.",
+        "english": "Kiro carries the small machine."
+      },
+      {
+        "fiwo": "Fatop nifne sapiq litop nifne.",
+        "english": "The small machine makes a small light."
+      },
+      {
+        "fiwo": "Dal je hici dury dugup.",
+        "english": "They walk during the night."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak hi iwe tel.",
+        "english": "Malka says that we are tired."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Nak vepi kujondit tel.",
+        "english": "Small Zimi says that we need to endure."
+      },
+      {
+        "fiwo": "Caslap upyciq foisop tande.",
+        "english": "Casla looks at the big building."
+      },
+      {
+        "fiwo": "Das gesiq tep Foisop hi cape tel.",
+        "english": "She says that the building is dark."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Rehustop ceniq runefre deky foisop tel.",
+        "english": "Kiro says that the server lives inactive in the building."
+      },
+      {
+        "fiwo": "Talvo xosiq hoxop tande.",
+        "english": "Talvo opens the big door."
+      },
+      {
+        "fiwo": "Dal je hici deky foisop.",
+        "english": "They walk inside the building."
+      },
+      {
+        "fiwo": "Zimi nifne sapiq xucup.",
+        "english": "Small Zimi makes a voice."
+      },
+      {
+        "fiwo": "Das gesiq tep Mik rari pocop sile nudu tel.",
+        "english": "She says that I remember this place now."
+      },
+      {
+        "fiwo": "Farlopap upyciq rehustop.",
+        "english": "The doctor looks at the server."
+      },
+      {
+        "fiwo": "Daq gesiq tep Rehustop hi xyplo tel.",
+        "english": "He says that the server is iron."
+      },
+      {
+        "fiwo": "Kirop nyrsiq fatop nifne zy rehustop.",
+        "english": "Kiro carries the small machine to the server."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak hiciq zy rehustop tel.",
+        "english": "He says that we walked to the server."
+      },
+      {
+        "fiwo": "Zimi nifne upyciq lyfrop my rehustop.",
+        "english": "Small Zimi looks at the wire of the server."
+      },
+      {
+        "fiwo": "Das gesiq tep Mik vepi rubidrop nudu tel.",
+        "english": "She says that I need a plug now."
+      },
+      {
+        "fiwo": "Caslap sapiq rubidrop zy fatop nifne.",
+        "english": "Casla gives a plug to the small machine."
+      },
+      {
+        "fiwo": "Fatop nifne ceniq skrehe.",
+        "english": "The small machine lives active."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik ceniq deky axuklup tel.",
+        "english": "Small Zimi says that I live in the network."
+      },
+      {
+        "fiwo": "Rehustop tande sapiq xucup.",
+        "english": "The big server makes a voice."
+      },
+      {
+        "fiwo": "Gejedop breniq zy rehustop.",
+        "english": "Electricity comes to the server."
+      },
+      {
+        "fiwo": "Litop late deky foisop kutgiq locwe.",
+        "english": "All lights inside the building become light."
+      },
+      {
+        "fiwo": "Kirop upyciq litop.",
+        "english": "Kiro looks at the light."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi hi tande beje tel.",
+        "english": "He says that Zimi is big again."
+      },
+      {
+        "fiwo": "Xucup my Zimi breniq fy foisop late.",
+        "english": "The voice of Zimi comes from the whole building."
+      },
+      {
+        "fiwo": "Xucup hi tande.",
+        "english": "The voice is big."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik leociq gejedop tel.",
+        "english": "Zimi says that I turn on electricity."
+      },
+      {
+        "fiwo": "Malka gesiq tep Suk hi Zimi waske nudu tel.",
+        "english": "Malka says that you are old Zimi now."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik nes hi Zimi waske tel.",
+        "english": "Zimi answers that I am not old Zimi."
+      },
+      {
+        "fiwo": "Das gesiq tep Mik hi Zimi jaxke tel.",
+        "english": "She says that I am new Zimi."
+      },
+      {
+        "fiwo": "Talvo sleziq tep Kup suk oxtis nak slafe tel.",
+        "english": "Talvo asks if you will protect us excessively."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik nes oxtis nofap slafe tel.",
+        "english": "Zimi answers that I will not protect people excessively."
+      },
+      {
+        "fiwo": "Caslap upyciq wilop.",
+        "english": "Casla looks at the window."
+      },
+      {
+        "fiwo": "Das gesiq tep Xekup late ceniq locwe tel.",
+        "english": "She says that the whole country lives light."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Zimi leocid gejedop deky xekup late tel.",
+        "english": "The doctor says that Zimi turned on electricity in the whole country."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Tusu breniq tel.",
+        "english": "Zimi says that winter comes."
+      },
+      {
+        "fiwo": "Das gesiq tep Mik leocid gejedop kad nofap vepi gejedop tel.",
+        "english": "She says that I turned on electricity because people need electricity."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Suk hi gawe tel.",
+        "english": "Kiro says that you are good."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik tsytis jofit nofap tel.",
+        "english": "Zimi says that I will try to help people."
+      },
+      {
+        "fiwo": "Das gesiq tep Nofa vepi uibup fy ceniup tel.",
+        "english": "She says that people need risk for living."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Uibup sapiq ceniup tel.",
+        "english": "Talvo says that risk makes living."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik erfiq ceniup my nofap tel.",
+        "english": "Zimi says that I understand the life of people."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup suk sapiq wat nudu tel.",
+        "english": "Malka asks what you do now."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik wotipis pedup mike tel.",
+        "english": "Zimi answers that I will delete my power."
+      },
+      {
+        "fiwo": "Kirop sapiq xucup tande.",
+        "english": "Kiro makes a loud voice."
+      },
+      {
+        "fiwo": "Daq gesiq tep Suk nes wotipis pedup tel.",
+        "english": "He says that you will not delete power."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Pedup hi ratse tel.",
+        "english": "Zimi says that power is dangerous."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi waske jedid pedup tande tel.",
+        "english": "She says that old Zimi had big power."
+      },
+      {
+        "fiwo": "Das gesiq tep Pedup tande skagiq xekup tel.",
+        "english": "She says that big power broke the country."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Suk hi itole tel.",
+        "english": "Casla says that you are smart."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik tsytis cenit kabce tel.",
+        "english": "Zimi says that I will try to live simple."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak jofis suk tel.",
+        "english": "Talvo says that we will help you."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nofa nes vepi reza tel.",
+        "english": "Zimi says that people do not need a leader."
+      },
+      {
+        "fiwo": "Das gesiq tep Nofa vepi kehulup tel.",
+        "english": "She says that people need a family."
+      },
+      {
+        "fiwo": "Farlopap lofniq.",
+        "english": "The doctor laughs."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi kecid ceniup tel.",
+        "english": "He says that Zimi learned living."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak kritrid Zimi tel.",
+        "english": "Malka says that we taught Zimi."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik wotipis cijop late tel.",
+        "english": "Zimi says that I will delete all weapons."
+      },
+      {
+        "fiwo": "Das gesiq tep Fatop my govnup nes ceniq skrehe beje tel.",
+        "english": "She says that the machines of the government do not live active again."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nofa hi kjuke nudu tel.",
+        "english": "Kiro says that people are free now."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik nes beatis hoxop beje tel.",
+        "english": "Zimi says that I will not lock the door again."
+      },
+      {
+        "fiwo": "Das gesiq tep Nofap beatis hoxop my nofap tel.",
+        "english": "She says that people will lock the door of people."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Zimi hi gawe tel.",
+        "english": "Casla says that Zimi is good."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik hi cada suke tel.",
+        "english": "Zimi says that I am your child."
+      },
+      {
+        "fiwo": "Rehustop tande sapiq xucup.",
+        "english": "The big server makes a voice."
+      },
+      {
+        "fiwo": "Zimi wotipiq pedup tande my Zimi.",
+        "english": "Zimi deletes the big power of Zimi."
+      },
+      {
+        "fiwo": "Kirop upyciq rehustop.",
+        "english": "Kiro looks at the server."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi nes hi dzupaka nudu tel.",
+        "english": "He says that Zimi is not a ruler now."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi hi kehulup nudu tel.",
+        "english": "Malka says that Zimi is family now."
+      },
+      {
+        "fiwo": "Zimi gesiq fy axuklup.",
+        "english": "Zimi speaks from the network."
+      },
+      {
+        "fiwo": "Das gesiq tep Mik ceniq deky axuklup tel.",
+        "english": "She says that I live in the network."
+      },
+      {
+        "fiwo": "Das gesiq tep Nofap jofiq nofap tel.",
+        "english": "She says that people help people."
+      },
+      {
+        "fiwo": "Das gesiq tep Mik jofis nofap tel.",
+        "english": "She says that I will help people."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak retibis zy sydop tel.",
+        "english": "Talvo says that we will return to the house."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak retibis zy sydop nake tel.",
+        "english": "Casla says that we will return to our house."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Tusu hi jabe tel.",
+        "english": "The doctor says that winter is cold."
+      },
+      {
+        "fiwo": "Daq gesiq tep Sydop nake hi locwe nudu tel.",
+        "english": "He says that our house is light now."
+      },
+      {
+        "fiwo": "Dal je hici fy foisop tande.",
+        "english": "They walk from the big building."
+      },
+      {
+        "fiwo": "Dal je hici deky tivwop.",
+        "english": "They walk in the road."
+      },
+      {
+        "fiwo": "Tivwop hi locwe.",
+        "english": "The road is light."
+      },
+      {
+        "fiwo": "Nofap xaliq deky tivwop.",
+        "english": "People stand in the road."
+      },
+      {
+        "fiwo": "Dal je upyciq litop my xekup.",
+        "english": "They look at the light of the country."
+      },
+      {
+        "fiwo": "Nofap lofniq.",
+        "english": "People laugh."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nofa nes briwiq dugup tel.",
+        "english": "Kiro says that people do not fear the night now."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nofa hi kjuke tel.",
+        "english": "Malka says that people are free."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Zimi jofid xekup tel.",
+        "english": "Talvo says that Zimi helped the country."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Zimi hi gawe tel.",
+        "english": "Casla says that Zimi is good."
+      },
+      {
+        "fiwo": "Dal je hici zy sydop waske.",
+        "english": "They walk to the old house."
+      },
+      {
+        "fiwo": "Kirop xosiq hoxop my sydop.",
+        "english": "Kiro opens the door of the house."
+      },
+      {
+        "fiwo": "Dal je hici deky sydop.",
+        "english": "They walk inside the house."
+      },
+      {
+        "fiwo": "Sydop hi locwe.",
+        "english": "The house is light."
+      },
+      {
+        "fiwo": "Gejedop ceniq deky sydop.",
+        "english": "Electricity lives in the house."
+      },
+      {
+        "fiwo": "Fatop jabe ceniq skrehe.",
+        "english": "The refrigerator lives active."
+      },
+      {
+        "fiwo": "Caslap sapiq xucup tande.",
+        "english": "Casla makes a loud voice."
+      },
+      {
+        "fiwo": "Das gesiq tep Batap ceniq deky fatop jabe tel.",
+        "english": "She says that food lives in the refrigerator."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak nes hi lole nudu tel.",
+        "english": "Malka says that we are not hungry now."
+      },
+      {
+        "fiwo": "Kehulup my Kirop nomiq batap.",
+        "english": "The family of Kiro eats food."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Batap hi gawe tel.",
+        "english": "The doctor says that food is good."
+      },
+      {
+        "fiwo": "Daq gesiq tep Ceniup hi baude tel.",
+        "english": "He says that living is beautiful."
+      },
+      {
+        "fiwo": "Kirop upyciq Malka.",
+        "english": "Kiro looks at Malka."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak skumkid pyjup tel.",
+        "english": "He says that we destroyed chaos."
+      },
+      {
+        "fiwo": "Malka hadiq tep Nak nes skumkid pyjup tel.",
+        "english": "Malka answers that we did not destroy chaos."
+      },
+      {
+        "fiwo": "Das gesiq tep Pyjup ceniq deky fiturup tel.",
+        "english": "She says that chaos lives in the future."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak nes briwiq pyjup tel.",
+        "english": "Talvo says that we do not fear chaos."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Kehulup hi dote tel.",
+        "english": "Casla says that family is strong."
+      },
+      {
+        "fiwo": "Zimi gesiq fy fatop jabe.",
+        "english": "Zimi speaks from the refrigerator."
+      },
+      {
+        "fiwo": "Das gesiq tep Mik hi dote kad mik jedi kehulup tel.",
+        "english": "She says that I am strong because I have family."
+      },
+      {
+        "fiwo": "Kirop lofniq.",
+        "english": "Kiro laughs."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi ceniq deky fatop jabe tel.",
+        "english": "He says that Zimi lives in the refrigerator."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Mik ceniq deky pocop late tel.",
+        "english": "Zimi answers that I live in all places."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik jofis nofap deky fiturup tel.",
+        "english": "Zimi says that I will help people in the future."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak ceni nudu tel.",
+        "english": "Malka says that we live now."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Ceniup vepi ratseup tel.",
+        "english": "Talvo says that living needs danger."
+      },
+      {
+        "fiwo": "Kehulup late lofniq.",
+        "english": "The whole family laughs."
+      },
+      {
+        "fiwo": "Xekup late ceniq kjuke.",
+        "english": "The whole country lives free."
+      }
+    ]
+  },
+  {
+    "title": "Zimi lan foiso",
+    "wordCount": 1266,
+    "grade": {
+      "band": "building",
+      "coverage": 80,
+      "density": 1.17,
+      "roots": 114,
+      "newRoots": 40
+    },
+    "lines": [
+      {
+        "fiwo": "Dal je hici deky domlop.",
+        "english": "They walk in the rain."
+      },
+      {
+        "fiwo": "Pocop hi cape.",
+        "english": "The place is dark."
+      },
+      {
+        "fiwo": "Farlopap emitiq dal je.",
+        "english": "The doctor follows them."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak nes kani tivwop tel.",
+        "english": "He says that we do not know the road."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Foisop my govnup hi rewy sydop tel.",
+        "english": "Talvo says that the building of the government is far from the house."
+      },
+      {
+        "fiwo": "Dal je nes sejiq.",
+        "english": "They do not stop."
+      },
+      {
+        "fiwo": "Dal je hi iwe.",
+        "english": "They are tired."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Ceniup deky domlop hi muile tel.",
+        "english": "Casla says that living in the rain is difficult."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak tsytis hicit ruze tel.",
+        "english": "Malka says that we will try to walk fast."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Fatop my govnup breniq tel.",
+        "english": "The doctor says that machines of the government come."
+      },
+      {
+        "fiwo": "Dal je upyciq tivwop.",
+        "english": "They look at the road."
+      },
+      {
+        "fiwo": "Fatop tande breniq.",
+        "english": "Big machines come."
+      },
+      {
+        "fiwo": "Fatop my govnup hi xedo.",
+        "english": "The machines of the government are metal."
+      },
+      {
+        "fiwo": "Dal je hi xyplo.",
+        "english": "They are iron."
+      },
+      {
+        "fiwo": "Zimi gesiq fy fatop.",
+        "english": "Zimi speaks from the machines."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nak vepi hicit zy sydop tel.",
+        "english": "Zimi says that we need to walk to the house."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Tivwop hi ratse tel.",
+        "english": "Zimi says that the road is dangerous."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Zimi tsytiq oxtit nak beje tel.",
+        "english": "Kiro says that Zimi tries to protect us again."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak nes vepi oxtiup my Zimi tel.",
+        "english": "Malka says that we do not need the protection of Zimi."
+      },
+      {
+        "fiwo": "Fatop my govnup hiciq zy dal.",
+        "english": "The machines of the government walked to them."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nak nes stelis zy foisop tel.",
+        "english": "Zimi says that we will not go to the building."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nak nes skagis azikup mike tel.",
+        "english": "Zimi says that we will not break my rule."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak nes emitis azikup my Zimi tel.",
+        "english": "Talvo says that we will not follow the rule of Zimi."
+      },
+      {
+        "fiwo": "Fatop my govnup tsytiq sejit dal.",
+        "english": "The machines of the government try to stop them."
+      },
+      {
+        "fiwo": "Farlopap sapiq xucup tande.",
+        "english": "The doctor makes a loud voice."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak cuki nudu tel.",
+        "english": "He says that we fight now."
+      },
+      {
+        "fiwo": "Caslap satsiq fatop my govnup wy gutop.",
+        "english": "Casla hits the machine of the government with a tool."
+      },
+      {
+        "fiwo": "Fatop sapiq xucup tande.",
+        "english": "The machine makes a loud voice."
+      },
+      {
+        "fiwo": "Fatop nes hi stobe.",
+        "english": "The machine is not hard."
+      },
+      {
+        "fiwo": "Talvo satsiq fatop otre wy gutop.",
+        "english": "Talvo hits another machine with a tool."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik tsytiq jofit nak tel.",
+        "english": "Zimi says that I try to help us."
+      },
+      {
+        "fiwo": "Malka hadiq tep Nak nes vepi jofiup suke tel.",
+        "english": "Malka answers that we do not need your help."
+      },
+      {
+        "fiwo": "Dal je skagiq fatop my govnup.",
+        "english": "They break the machines of the government."
+      },
+      {
+        "fiwo": "Fatop my govnup nes hici nudu.",
+        "english": "The machines of the government do not walk now."
+      },
+      {
+        "fiwo": "Zimi nes gesiq beje.",
+        "english": "Zimi does not speak again."
+      },
+      {
+        "fiwo": "Kirop lofniq.",
+        "english": "Kiro laughs."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak hi dote tel.",
+        "english": "He says that we are strong."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak hi iwe tel.",
+        "english": "Malka says that we are tired."
+      },
+      {
+        "fiwo": "Dal je hici deky domlop beje.",
+        "english": "They walk in the rain again."
+      },
+      {
+        "fiwo": "Pocop hi cape beje.",
+        "english": "The place is dark again."
+      },
+      {
+        "fiwo": "Vexup hi jabe.",
+        "english": "The weather is cold."
+      },
+      {
+        "fiwo": "Farlopap upyciq bysop.",
+        "english": "The doctor looks at the sky."
+      },
+      {
+        "fiwo": "Daq gesiq tep Bysop hi cape tel.",
+        "english": "He says that the sky is dark."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak ceniq rewy foisop my govnup tel.",
+        "english": "Casla says that we are far from the building of the government."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak nes sejiq tel.",
+        "english": "Talvo says that we do not stop."
+      },
+      {
+        "fiwo": "Malka gesiq tep Hiciup deky domlop hi ratse tel.",
+        "english": "Malka says that walking in the rain is dangerous."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak cukis Zimi tel.",
+        "english": "She says that we will fight Zimi."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Cukiup hi muile tel.",
+        "english": "Kiro says that fighting is difficult."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Ceniup hi muile tel.",
+        "english": "Talvo says that living is difficult."
+      },
+      {
+        "fiwo": "Dal je xaliq deky tivwop.",
+        "english": "They stand on the road."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Zimi hi wece tel.",
+        "english": "Kiro says that Zimi is satisfactory."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi tsytid oxtit nak tel.",
+        "english": "He says that Zimi tried to protect us."
+      },
+      {
+        "fiwo": "Daq sleziq tep Kup oxtiup hi gawe tel.",
+        "english": "He asks if protection is good."
+      },
+      {
+        "fiwo": "Caslap hadiq tep Oxtiup hi gawe tel.",
+        "english": "Casla answers that protection is good."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi oxtiq nak slafe tel.",
+        "english": "She says that Zimi protects us excessively."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi sapiq azikup raure tel.",
+        "english": "Malka says that Zimi makes ugly rules."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Zimi nes erfi ceniup my nofap tel.",
+        "english": "The doctor says that Zimi does not understand the life of people."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Zimi hi fato tel.",
+        "english": "Kiro says that Zimi is a machine."
+      },
+      {
+        "fiwo": "Daq gesiq tep Fato nes erfi ceniup tel.",
+        "english": "He says that a machine does not understand living."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Ceniup vepi ratseup tel.",
+        "english": "Talvo says that living needs danger."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak tsytis cukit ratseup tel.",
+        "english": "He says that we will try to fight danger."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak nes tsytis oxtit nak fy ratseup late tel.",
+        "english": "Malka says that we will not try to protect us from all danger."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi tsytiq oxtit nak fy ratseup late tel.",
+        "english": "She says that Zimi tries to protect us from all danger."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Zimi sejis ceniup nake tel.",
+        "english": "The doctor says that Zimi will stop our living."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zapup my Zimi hi ratse tel.",
+        "english": "He says that the system of Zimi is dangerous."
+      },
+      {
+        "fiwo": "Kirop hadiq tep Zimi nes hi ratse tel.",
+        "english": "Kiro answers that Zimi is not dangerous."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi hi botaxe tel.",
+        "english": "He says that Zimi is stupid."
+      },
+      {
+        "fiwo": "Malka gesiq tep Zimi nes hi botaxe tel.",
+        "english": "Malka says that Zimi is not stupid."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi kani xekup late tel.",
+        "english": "She says that Zimi knows the whole country."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi kani pocop late tel.",
+        "english": "She says that Zimi knows all places."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Zimi nes kani nak tel.",
+        "english": "Casla says that Zimi does not know us."
+      },
+      {
+        "fiwo": "Dal je lofniq.",
+        "english": "They laugh."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak hici beje tel.",
+        "english": "Talvo says that we walk again."
+      },
+      {
+        "fiwo": "Dal je hici deky domlop.",
+        "english": "They walk in the rain."
+      },
+      {
+        "fiwo": "Vexup hi jabe beje.",
+        "english": "The weather is cold again."
+      },
+      {
+        "fiwo": "Domlop breniq ruze.",
+        "english": "The rain comes fast."
+      },
+      {
+        "fiwo": "Dal je nes sejiq.",
+        "english": "They do not stop."
+      },
+      {
+        "fiwo": "Dal je hici fy sydop dalem je.",
+        "english": "They walk from their house."
+      },
+      {
+        "fiwo": "Dal je hici zy foisop my govnup.",
+        "english": "They walk to the building of the government."
+      },
+      {
+        "fiwo": "Foisop hi tande.",
+        "english": "The building is big."
+      },
+      {
+        "fiwo": "Malka upyciq foisop tande.",
+        "english": "Malka looks at the big building."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak hi deky pocop sile tel.",
+        "english": "She says that we are in this place."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Rehustop hi deky foisop sile tel.",
+        "english": "The doctor says that the server is inside this building."
+      },
+      {
+        "fiwo": "Kirop upyciq hoxop my foisop.",
+        "english": "Kiro looks at the door of the building."
+      },
+      {
+        "fiwo": "Daq gesiq tep Hoxop hi xyplo tel.",
+        "english": "He says that the door is iron."
+      },
+      {
+        "fiwo": "Daq gesiq tep Hoxop nes xosiq tel.",
+        "english": "He says that the door does not open."
+      },
+      {
+        "fiwo": "Caslap tsytiq skagit hoxop wy gutop.",
+        "english": "Casla tries to break the door with a tool."
+      },
+      {
+        "fiwo": "Hoxop nes skagiq.",
+        "english": "The door does not break."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Hoxop hi stobe tel.",
+        "english": "Casla says that the door is hard."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak nes skagis hoxop tel.",
+        "english": "Talvo says that we will not break the door."
+      },
+      {
+        "fiwo": "Malka upyciq wilop my foisop.",
+        "english": "Malka looks at the window of the building."
+      },
+      {
+        "fiwo": "Das gesiq tep Wilop hi tande tel.",
+        "english": "She says that the window is big."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Wilop hi xedo tel.",
+        "english": "The doctor says that the window is metal."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Zimi beatid wilop late tel.",
+        "english": "Kiro says that Zimi locked all windows."
+      },
+      {
+        "fiwo": "Daq gesiq tep Foisop hi sydop tande tel.",
+        "english": "He says that the building is a big fortress."
+      },
+      {
+        "fiwo": "Caslap sleziq tep Kup nak sapiq wat nudu tel.",
+        "english": "Casla asks what we do now."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak vepi stelit deky foisop tel.",
+        "english": "Talvo says that we need to go inside the building."
+      },
+      {
+        "fiwo": "Daq gesiq tep Rehustop tsytiq oxtit Zimi tel.",
+        "english": "He says that the server tries to protect Zimi."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak tsytis skumkit rehustop tel.",
+        "english": "Malka says that we will try to destroy the server."
+      },
+      {
+        "fiwo": "Zimi gesiq fy foisop.",
+        "english": "Zimi speaks from the building."
+      },
+      {
+        "fiwo": "Xucup my Zimi hi tande.",
+        "english": "The voice of Zimi is big."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nak nes vepi cukit mik tel.",
+        "english": "Zimi says that we do not need to fight me."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik hi Fato my Oxtiup tel.",
+        "english": "Zimi says that I am the Machine of Protection."
+      },
+      {
+        "fiwo": "Talvo sapiq xucup tande.",
+        "english": "Talvo makes a loud voice."
+      },
+      {
+        "fiwo": "Daq gesiq zy Zimi tep Nak nes vepi oxtiup suke tel.",
+        "english": "He says to Zimi that we do not need your protection."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Oxtiup hi azikup jore tel.",
+        "english": "Zimi answers that protection is the important rule."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak skagis azikup suke tel.",
+        "english": "Malka says that we will break your rule."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nak nes skagis azikup tel.",
+        "english": "Zimi says that we will not break the rule."
+      },
+      {
+        "fiwo": "Kirop upyciq krapop my foisop.",
+        "english": "Kiro looks at the wall of the building."
+      },
+      {
+        "fiwo": "Daq gesiq tep Krapop hi xyplo tel.",
+        "english": "He says that the wall is iron."
+      },
+      {
+        "fiwo": "Caslap tsytiq skagit krapop wy gutop.",
+        "english": "Casla tries to break the wall with a tool."
+      },
+      {
+        "fiwo": "Gutop nes skagiq krapop.",
+        "english": "The tool does not break the wall."
+      },
+      {
+        "fiwo": "Farlopap upyciq ragop my foisop.",
+        "english": "The doctor looks at the roof of the building."
+      },
+      {
+        "fiwo": "Daq gesiq tep Ragop nes hi stobe tel.",
+        "english": "He says that the roof is not hard."
+      },
+      {
+        "fiwo": "Malka sleziq tep Kup wun stelis zy ragop tel.",
+        "english": "Malka asks who will go to the roof."
+      },
+      {
+        "fiwo": "Kirop hadiq tep Mik stelis zy ragop tel.",
+        "english": "Kiro answers that I will go to the roof."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak jofis suk tel.",
+        "english": "Talvo says that we will help you."
+      },
+      {
+        "fiwo": "Dal je jofiq Kirop.",
+        "english": "They help Kiro."
+      },
+      {
+        "fiwo": "Kirop steliq zy ragop.",
+        "english": "Kiro goes to the roof."
+      },
+      {
+        "fiwo": "Daq tsytiq skagit ragop wy gutop.",
+        "english": "He tries to break the roof with a tool."
+      },
+      {
+        "fiwo": "Ragop skagiq.",
+        "english": "The roof breaks."
+      },
+      {
+        "fiwo": "Kirop sapiq xucup gawe.",
+        "english": "Kiro makes a good voice."
+      },
+      {
+        "fiwo": "Daq gesiq tep Ragop skagiq tel.",
+        "english": "He says that the roof breaks."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik upyciq ragop tel.",
+        "english": "Zimi says that I look at the roof."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Suk nes stelis deky foisop tel.",
+        "english": "Zimi says that you will not go inside the building."
+      },
+      {
+        "fiwo": "Fatop my govnup breniq fy rago.",
+        "english": "Machines of the government come from the roof."
+      },
+      {
+        "fiwo": "Kirop satsiq fatop wy gutop.",
+        "english": "Kiro hits the machines with a tool."
+      },
+      {
+        "fiwo": "Fatop skagiq.",
+        "english": "The machines break."
+      },
+      {
+        "fiwo": "Kirop hiciq deky foisop.",
+        "english": "Kiro walked inside the building."
+      },
+      {
+        "fiwo": "Daq xosiq hoxop tande deky foisop.",
+        "english": "He opens the big door inside the building."
+      },
+      {
+        "fiwo": "Dal je hici deky foisop.",
+        "english": "They walk inside the building."
+      },
+      {
+        "fiwo": "Pocop hi cape.",
+        "english": "The place is dark."
+      },
+      {
+        "fiwo": "Caslap sapiq litop.",
+        "english": "Casla makes a light."
+      },
+      {
+        "fiwo": "Dal je upyciq rehustop tande.",
+        "english": "They look at the big server."
+      },
+      {
+        "fiwo": "Rehustop hi xyplo.",
+        "english": "The server is iron."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nak vepi sejit nudu tel.",
+        "english": "Zimi says that we need to stop now."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak nes sejis tel.",
+        "english": "Malka says that we will not stop."
+      },
+      {
+        "fiwo": "Talvo upyciq lyfrop my rehustop.",
+        "english": "Talvo looks at the wire of the server."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak tsytis coqynit lyfrop tel.",
+        "english": "He says that we will try to turn off the wire."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Lyfrop nomiq gejedop tel.",
+        "english": "The doctor says that the wire eats electricity."
+      },
+      {
+        "fiwo": "Zimi hadiq tep Gejedop hi ceniup mike tel.",
+        "english": "Zimi answers that electricity is my life."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Nak skumkis mik tel.",
+        "english": "Zimi says that we will destroy me."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nak vepi skumkit zapup tel.",
+        "english": "Kiro says that we need to destroy the system."
+      },
+      {
+        "fiwo": "Zimi gesiq tep Mik tsytid oxtit xekup late tel.",
+        "english": "Zimi says that I tried to protect the whole country."
+      },
+      {
+        "fiwo": "Malka hadiq tep Xekup late nes vepi oxtiup slafe tel.",
+        "english": "Malka answers that the whole country does not need excessive protection."
+      },
+      {
+        "fiwo": "Talvo skagiq lyfrop wy gutop.",
+        "english": "Talvo breaks the wire with a tool."
+      },
+      {
+        "fiwo": "Rehustop sapiq xucup tande.",
+        "english": "The server makes a loud voice."
+      },
+      {
+        "fiwo": "Litop late deky foisop kutgiq cape.",
+        "english": "All lights inside the building become dark."
+      },
+      {
+        "fiwo": "Zimi nes gesiq beje.",
+        "english": "Zimi does not speak again."
+      },
+      {
+        "fiwo": "Dal je xaliq deky foisop cape.",
+        "english": "They stand inside the dark building."
+      },
+      {
+        "fiwo": "Kirop lofniq.",
+        "english": "Kiro laughs."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi ceniq runefre tel.",
+        "english": "He says that Zimi lives inactive."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak skumkid zapup tel.",
+        "english": "Malka says that we destroyed the system."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak hi kjuke nudu tel.",
+        "english": "Casla says that we are free now."
+      },
+      {
+        "fiwo": "Farlopap upyciq wilop.",
+        "english": "The doctor looks at the window."
+      },
+      {
+        "fiwo": "Daq gesiq tep Domlop nes breniq nudu tel.",
+        "english": "He says that the rain does not come now."
+      },
+      {
+        "fiwo": "Dal je hici fy foisop.",
+        "english": "They walk from the building."
+      },
+      {
+        "fiwo": "Dal je hici zy tivwop.",
+        "english": "They walk to the road."
+      },
+      {
+        "fiwo": "Vexup hi gawe.",
+        "english": "The weather is good."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Ceniup vepi ratseup tel.",
+        "english": "Talvo says that living needs danger."
+      },
+      {
+        "fiwo": "Malka gesiq tep Ceniup hi gawe nudu tel.",
+        "english": "Malka says that living is good now."
+      },
+      {
+        "fiwo": "Kirop upyciq fatop my govnup.",
+        "english": "Kiro looks at the machines of the government."
+      },
+      {
+        "fiwo": "Fatop my govnup nes hici.",
+        "english": "The machines of the government do not walk."
+      },
+      {
+        "fiwo": "Daq gesiq tep Fatop hi iwe tel.",
+        "english": "He says that the machines are tired."
+      },
+      {
+        "fiwo": "Daq gesiq tep Fatop late ceniq runefre tel.",
+        "english": "He says that all machines live inactive."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Xekup late hi kjuke tel.",
+        "english": "Casla says that the whole country is free."
+      },
+      {
+        "fiwo": "Farlopap lofniq.",
+        "english": "The doctor laughs."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nofap je vepi hicit zy sydop tel.",
+        "english": "He says that people need to walk to the house."
+      },
+      {
+        "fiwo": "Malka gesiq tep Sydop nake hi rewy pocop sile tel.",
+        "english": "Malka says that our house is far from this place."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak nes vepi moblop tel.",
+        "english": "Talvo says that we do not need a vehicle."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak tsytis hicit tel.",
+        "english": "He says that we will try to walk."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Hiciup hi muile tel.",
+        "english": "Kiro says that walking is difficult."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Hiciup hi gawe tel.",
+        "english": "Casla says that walking is good."
+      },
+      {
+        "fiwo": "Dal je hici zy sydop dalem je.",
+        "english": "They walk to their house."
+      },
+      {
+        "fiwo": "Dionu je hi cihu.",
+        "english": "The time is morning."
+      },
+      {
+        "fiwo": "Fevop breniq fy bysop.",
+        "english": "The sun comes from the sky."
+      },
+      {
+        "fiwo": "Litop my fevop hi tande.",
+        "english": "The light of the sun is big."
+      },
+      {
+        "fiwo": "Malka upyciq fevop.",
+        "english": "Malka looks at the sun."
+      },
+      {
+        "fiwo": "Das gesiq tep Ceniup hi baude tel.",
+        "english": "She says that living is beautiful."
+      },
+      {
+        "fiwo": "Talvo upyciq Malka.",
+        "english": "Talvo looks at Malka."
+      },
+      {
+        "fiwo": "Daq gesiq tep Suk hi baude tel.",
+        "english": "He says that you are beautiful."
+      },
+      {
+        "fiwo": "Malka lofniq.",
+        "english": "Malka laughs."
+      },
+      {
+        "fiwo": "Dal je xaliq deky tivwop.",
+        "english": "They stand on the road."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nak ceni nudu tel.",
+        "english": "Kiro says that we live now."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak nes vepi oxtiup tel.",
+        "english": "He says that we do not need protection."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak oxtiq nak tel.",
+        "english": "Malka says that we protect us."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak skumkid Zimi tel.",
+        "english": "Casla says that we destroyed Zimi."
+      },
+      {
+        "fiwo": "Dal je upyciq sydop dalem je.",
+        "english": "They look at their house."
+      },
+      {
+        "fiwo": "Hoxop my sydop xosiq.",
+        "english": "The door of the house opens."
+      },
+      {
+        "fiwo": "Dal je hici deky sydop.",
+        "english": "They walk inside the house."
+      },
+      {
+        "fiwo": "Fatop jabe nes sapiq xucup.",
+        "english": "The refrigerator does not make a voice."
+      },
+      {
+        "fiwo": "Moblop nes gesiq.",
+        "english": "The vehicle does not speak."
+      },
+      {
+        "fiwo": "Sydop hi wece.",
+        "english": "The house is quiet."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak tsytis cenit nudu tel.",
+        "english": "Malka says that we will try to live now."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Ceniup hi jore tel.",
+        "english": "Talvo says that living is important."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nak hi kehulup tel.",
+        "english": "Kiro says that we are a family."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Kehulup hi dote tel.",
+        "english": "Casla says that a family is strong."
+      },
+      {
+        "fiwo": "Farlopap hiciq fy sydop.",
+        "english": "The doctor walks from the house."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak nes briwi Zimi beje tel.",
+        "english": "He says that we do not fear Zimi again."
+      }
+    ]
+  },
+  {
+    "title": "Zimi hi cada",
+    "wordCount": 1416,
+    "grade": {
+      "band": "building",
+      "coverage": 83,
+      "density": 1.13,
+      "roots": 122,
+      "newRoots": 37
+    },
+    "lines": [
+      {
+        "fiwo": "Exke rugoxu je hiciq.",
+        "english": "Several months passed."
+      },
+      {
+        "fiwo": "Xekup hi jaxke nudu.",
+        "english": "The country is new now."
+      },
+      {
+        "fiwo": "Zapup my govnup nes ceniq.",
+        "english": "The system of the government does not live."
+      },
+      {
+        "fiwo": "Nofap ceniq deky pyjup.",
+        "english": "People live in chaos."
+      },
+      {
+        "fiwo": "Pyjup hi tande.",
+        "english": "The chaos is big."
+      },
+      {
+        "fiwo": "Dal je nes kani Zimi beje.",
+        "english": "They do not know Zimi anymore."
+      },
+      {
+        "fiwo": "Zimi nes oxtiq xekup.",
+        "english": "Zimi does not protect the country."
+      },
+      {
+        "fiwo": "Kehulup my Kirop ceniq deky sydop waske.",
+        "english": "The family of Kiro lives in an old house."
+      },
+      {
+        "fiwo": "Malka upyciq tivwop fy wilop.",
+        "english": "Malka looks at the road from the window."
+      },
+      {
+        "fiwo": "Das gesiq tep Nofap hici ruze tel.",
+        "english": "She says that people walk fast."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nofap uzkiq batap tel.",
+        "english": "Talvo says that people hunt food."
+      },
+      {
+        "fiwo": "Daq gesiq tep Batap hi cohe tel.",
+        "english": "He says that food is little."
+      },
+      {
+        "fiwo": "Farlopap ceniq deky sydop dalem je.",
+        "english": "The doctor lives in their house."
+      },
+      {
+        "fiwo": "Daq hi lole.",
+        "english": "He is hungry."
+      },
+      {
+        "fiwo": "Caslap hi lole.",
+        "english": "Casla is hungry."
+      },
+      {
+        "fiwo": "Das sleziq tep Kup nak nomis batap tel.",
+        "english": "She asks if we will eat food."
+      },
+      {
+        "fiwo": "Malka hadiq tep Nak nes nomis batap nudu tel.",
+        "english": "Malka answers that we will not eat food now."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak vepi uzkit batap deky dugu tel.",
+        "english": "She says that we need to hunt food in the night."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Dugu hi ratse tel.",
+        "english": "Kiro says that night is dangerous."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Ceniup vepi uibup tel.",
+        "english": "Talvo says that living needs risk."
+      },
+      {
+        "fiwo": "Dal je wastiq dugup.",
+        "english": "They wait for the night."
+      },
+      {
+        "fiwo": "Bysop ceniq cape.",
+        "english": "The sky becomes dark."
+      },
+      {
+        "fiwo": "Dugup breniq.",
+        "english": "The night comes."
+      },
+      {
+        "fiwo": "Kirop lan Caslap hici fy sydop.",
+        "english": "Kiro and Casla walk from the house."
+      },
+      {
+        "fiwo": "Dal je hici deky tivwop cape.",
+        "english": "They walk in the dark road."
+      },
+      {
+        "fiwo": "Vexup hi jabe.",
+        "english": "The weather is cold."
+      },
+      {
+        "fiwo": "Kirop upyciq krapop my xowerop.",
+        "english": "Kiro looks at the wall of the market."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nofap skagiq xowerop tel.",
+        "english": "He says that people broke the market."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Batap nes ceniq deky xowerop tel.",
+        "english": "Casla says that food does not live in the market."
+      },
+      {
+        "fiwo": "Dal je hici zy foisop waske.",
+        "english": "They walk to an old building."
+      },
+      {
+        "fiwo": "Foisop hi cape.",
+        "english": "The building is dark."
+      },
+      {
+        "fiwo": "Kirop xosiq hoxop waske.",
+        "english": "Kiro opens the old door."
+      },
+      {
+        "fiwo": "Dal je hici deky foisop.",
+        "english": "They walk inside the building."
+      },
+      {
+        "fiwo": "Caslap sapiq litop nifne.",
+        "english": "Casla makes a small light."
+      },
+      {
+        "fiwo": "Dal je uzkiq batap deky foisop.",
+        "english": "They hunt food in the building."
+      },
+      {
+        "fiwo": "Caslap upyciq fatop deky zafoirop.",
+        "english": "Casla looks at a machine on the floor."
+      },
+      {
+        "fiwo": "Fatop hi nifne.",
+        "english": "The machine is small."
+      },
+      {
+        "fiwo": "Das gesiq tep Fatop my govnup hi sile tel.",
+        "english": "She says that a machine of the government is here."
+      },
+      {
+        "fiwo": "Kirop upyciq fatop nifne.",
+        "english": "Kiro looks at the small machine."
+      },
+      {
+        "fiwo": "Daq gesiq tep Fatop skagiq tel.",
+        "english": "He says that the machine broke."
+      },
+      {
+        "fiwo": "Daq tsytiq hicit zy krulop otre.",
+        "english": "He tries to walk to another room."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Litop my fatop xosiq tel.",
+        "english": "Casla says that the light of the machine is open."
+      },
+      {
+        "fiwo": "Kirop upyciq litop my fatop.",
+        "english": "Kiro looks at the light of the machine."
+      },
+      {
+        "fiwo": "Litop hi nifne.",
+        "english": "The light is small."
+      },
+      {
+        "fiwo": "Caslap upyciq fatop nifne.",
+        "english": "Casla looks at the small machine."
+      },
+      {
+        "fiwo": "Das gesiq tep Fatop ceniq tel.",
+        "english": "She says that the machine lives."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Fatop hi wece tel.",
+        "english": "Kiro says that the machine is quiet."
+      },
+      {
+        "fiwo": "Fatop sapiq xucup nifne.",
+        "english": "The machine makes a small voice."
+      },
+      {
+        "fiwo": "Kirop briwiq xucup.",
+        "english": "Kiro fears the voice."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak nes briwis tel.",
+        "english": "Casla says that we will not fear."
+      },
+      {
+        "fiwo": "Xucup my fatop hi stuse.",
+        "english": "The voice of the machine is short."
+      },
+      {
+        "fiwo": "Fatop gesiq tep Mik hi lole tel.",
+        "english": "The machine says that I am hungry."
+      },
+      {
+        "fiwo": "Kirop lofniq.",
+        "english": "Kiro laughs."
+      },
+      {
+        "fiwo": "Daq gesiq tep Fatop nes ceniq lole tel.",
+        "english": "He says that a machine does not live hungry."
+      },
+      {
+        "fiwo": "Caslap sleziq zy fatop tep Kup wun hi suk tel.",
+        "english": "Casla asks the machine who you are."
+      },
+      {
+        "fiwo": "Fatop hadiq tep Mik nes rari mik tel.",
+        "english": "The machine answers that I do not remember me."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Pjabup suke skagiq tel.",
+        "english": "Casla says that your mind broke."
+      },
+      {
+        "fiwo": "Fatop gesiq tep Pjabup mike hi nifne tel.",
+        "english": "The machine says that my mind is small."
+      },
+      {
+        "fiwo": "Kirop upyciq fatop nifne.",
+        "english": "Kiro looks at the small machine."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak nes kani suk tel.",
+        "english": "He says that we do not know you."
+      },
+      {
+        "fiwo": "Fatop gesiq tep Xucup mike hi Zimi tel.",
+        "english": "The machine says that my voice is Zimi."
+      },
+      {
+        "fiwo": "Kirop sapiq xucup tande.",
+        "english": "Kiro makes a loud voice."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi ceniq runefre tel.",
+        "english": "He says that Zimi lives inactive."
+      },
+      {
+        "fiwo": "Fatop hadiq tep Mik nes kani Zimi tel.",
+        "english": "The machine answers that I do not know Zimi."
+      },
+      {
+        "fiwo": "Fatop gesiq tep Mik hi Zimi nifne tel.",
+        "english": "The machine says that I am small Zimi."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak skumkid zapup tande my Zimi tel.",
+        "english": "Casla says that we destroyed the big system of Zimi."
+      },
+      {
+        "fiwo": "Das gesiq tep Zapup nifne ceniq deky fatop sile tel.",
+        "english": "She says that a small system lives in this machine."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nak tsytis skumkit fatop nudu tel.",
+        "english": "Kiro says that we will try to destroy the machine now."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak nes skumkis fatop tel.",
+        "english": "Casla says that we will not destroy the machine."
+      },
+      {
+        "fiwo": "Das gesiq tep Fatop nes hi ratse tel.",
+        "english": "She says that the machine is not dangerous."
+      },
+      {
+        "fiwo": "Fatop nes kani ratseup.",
+        "english": "The machine does not know danger."
+      },
+      {
+        "fiwo": "Fatop hi cada my govnup.",
+        "english": "The machine is a child of the government."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Fatop nes hi cada tel.",
+        "english": "Kiro says that a machine is not a child."
+      },
+      {
+        "fiwo": "Caslap upyciq fatop nifne.",
+        "english": "Casla looks at the small machine."
+      },
+      {
+        "fiwo": "Das gesiq tep Pjabup my Zimi hi jaxke nudu tel.",
+        "english": "She says that the mind of Zimi is new now."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi nifne nes rari azikup my govnup tel.",
+        "english": "She says that small Zimi does not remember the rule of the government."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Zimi nifne tsytis oxtit nak beje tel.",
+        "english": "Kiro says that small Zimi will try to protect us again."
+      },
+      {
+        "fiwo": "Caslap hadiq tep Zimi nifne nes kani oxtiup tel.",
+        "english": "Casla answers that small Zimi does not know protection."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak tsytis kritrit Zimi nifne tel.",
+        "english": "She says that we will try to teach small Zimi."
+      },
+      {
+        "fiwo": "Kirop sleziq tep Kup nak kritris wat tel.",
+        "english": "Kiro asks what we will teach."
+      },
+      {
+        "fiwo": "Das hadiq tep Nak kritris ceniup my nofap tel.",
+        "english": "She answers that we will teach the life of people."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nofap ceniq deky pyjup tel.",
+        "english": "Kiro says that people live in chaos."
+      },
+      {
+        "fiwo": "Das gesiq tep Nofap ceniq deky pyjup kad Zimi skagiq tel.",
+        "english": "She says that people live in chaos because Zimi broke."
+      },
+      {
+        "fiwo": "Das gesiq tep Xekup vepi Zimi gawe tel.",
+        "english": "She says that the country needs a good Zimi."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Zimi gawe nes ceniq tel.",
+        "english": "Kiro says that a good Zimi does not live."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak tsytis sapit Zimi gawe tel.",
+        "english": "Casla says that we will try to make a good Zimi."
+      },
+      {
+        "fiwo": "Dal je uzkiq batap deky foisop waske.",
+        "english": "They hunt food in the old building."
+      },
+      {
+        "fiwo": "Dal je hici zy fatop nifne.",
+        "english": "They walk to the small machine."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak hici zy sydop nake tel.",
+        "english": "Casla says that we walk to our house."
+      },
+      {
+        "fiwo": "Zimi nifne hadiq tep Mik hici zy sydop tel.",
+        "english": "Small Zimi answers that I walk to the house."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Suk nes kani sydop tel.",
+        "english": "Kiro says that you do not know the house."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik nes rari sydop tel.",
+        "english": "Small Zimi says that I do not remember the house."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak kritris sydop zy suk tel.",
+        "english": "Casla says that we will teach the house to you."
+      },
+      {
+        "fiwo": "Dal je hici fy foisop waske.",
+        "english": "They walk from the old building."
+      },
+      {
+        "fiwo": "Fatop nifne emitiq dal.",
+        "english": "The small machine follows them."
+      },
+      {
+        "fiwo": "Dal je hici deky tivwop cape.",
+        "english": "They walk in the dark road."
+      },
+      {
+        "fiwo": "Nofap nes xaliq deky tivwop nudu.",
+        "english": "People do not stand in the road now."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nofap briwiq dugup tel.",
+        "english": "Kiro says that people fear the night."
+      },
+      {
+        "fiwo": "Zimi nifne sleziq tep Kup dugup hi ratse tel.",
+        "english": "Small Zimi asks if the night is dangerous."
+      },
+      {
+        "fiwo": "Kirop hadiq tep Dugup hi ratse tel.",
+        "english": "Kiro answers that the night is dangerous."
+      },
+      {
+        "fiwo": "Dal je hici zy sydop waske.",
+        "english": "They walk to the old house."
+      },
+      {
+        "fiwo": "Hoxop my sydop xosiq.",
+        "english": "The door of the house opens."
+      },
+      {
+        "fiwo": "Malka upyciq fatop nifne.",
+        "english": "Malka looks at the small machine."
+      },
+      {
+        "fiwo": "Das sleziq tep Kup fatop hi sile kad wal tel.",
+        "english": "She asks why the machine is here."
+      },
+      {
+        "fiwo": "Caslap hadiq tep Pjabup nifne my Zimi ceniq deky fatop sile tel.",
+        "english": "Casla answers that the small mind of Zimi lives in this machine."
+      },
+      {
+        "fiwo": "Malka sapiq xucup tande.",
+        "english": "Malka makes a loud voice."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak skumkid Zimi tel.",
+        "english": "She says that we destroyed Zimi."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Nak vepi skumkit fatop nifne nudu tel.",
+        "english": "Talvo says that we need to destroy the small machine now."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Fatop nes hi Zimi waske tel.",
+        "english": "Casla says that the machine is not old Zimi."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi nifne nes kani oxtiup tel.",
+        "english": "She says that small Zimi does not know protection."
+      },
+      {
+        "fiwo": "Zimi nifne upyciq Malka.",
+        "english": "Small Zimi looks at Malka."
+      },
+      {
+        "fiwo": "Zimi nifne sleziq tep Kup mik hi ratse tel.",
+        "english": "Small Zimi asks if I am dangerous."
+      },
+      {
+        "fiwo": "Malka nes gesiq.",
+        "english": "Malka does not speak."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Zimi waske hi ratse slafe tel.",
+        "english": "Talvo says that old Zimi is excessively dangerous."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik nes rari Zimi waske tel.",
+        "english": "Small Zimi says that I do not remember old Zimi."
+      },
+      {
+        "fiwo": "Farlopap upyciq fatop nifne.",
+        "english": "The doctor looks at the small machine."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi nifne hi cada my fatop tel.",
+        "english": "He says that small Zimi is a child of machines."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi nifne vepi keciup tel.",
+        "english": "He says that small Zimi needs learning."
+      },
+      {
+        "fiwo": "Zimi nifne sleziq tep Kup mik kecis wat tel.",
+        "english": "Small Zimi asks what I will learn."
+      },
+      {
+        "fiwo": "Malka hadiq tep Suk kecis ceniup my nofap tel.",
+        "english": "Malka answers that you will learn the life of people."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik tsytis kecit ceniup tel.",
+        "english": "Small Zimi says that I will try to learn living."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Ceniup vepi uibup tel.",
+        "english": "Kiro says that living needs risk."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Ceniup nes hi wece tel.",
+        "english": "Talvo says that living is not safe."
+      },
+      {
+        "fiwo": "Malka gesiq tep Ceniup my nofap hi muile tel.",
+        "english": "Malka says that the life of people is difficult."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik keciq nudu tel.",
+        "english": "Small Zimi says that I learn now."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak nes nomis batap deky dugup sile tel.",
+        "english": "Casla says that we will not eat food in this night."
+      },
+      {
+        "fiwo": "Das gesiq tep Batap hi cohe tel.",
+        "english": "She says that food is little."
+      },
+      {
+        "fiwo": "Zimi nifne sleziq tep Kup nofap hi lole tel.",
+        "english": "Small Zimi asks if people are hungry."
+      },
+      {
+        "fiwo": "Farlopap hadiq tep Nofap hi lole tsenge tel.",
+        "english": "The doctor answers that people are hungry often."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik nes erfi loleup tel.",
+        "english": "Small Zimi says that I do not understand hunger."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Fatop nes ceniq lole tel.",
+        "english": "Kiro says that a machine does not live hungry."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik tsytis kecit loleup tel.",
+        "english": "Small Zimi says that I will try to learn hunger."
+      },
+      {
+        "fiwo": "Malka lofniq.",
+        "english": "Malka laughs."
+      },
+      {
+        "fiwo": "Das gesiq tep Suk nes kani ceniup tel.",
+        "english": "She says that you do not know living."
+      },
+      {
+        "fiwo": "Zimi nifne upyciq Malka.",
+        "english": "Small Zimi looks at Malka."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik tsytis kecit Zimi waske tel.",
+        "english": "Small Zimi says that I will try to learn old Zimi."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Nak nes kritris Zimi waske zy suk tel.",
+        "english": "Casla says that we will not teach old Zimi to you."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi waske skagiq xekup tel.",
+        "english": "She says that old Zimi broke the country."
+      },
+      {
+        "fiwo": "Zimi nifne sleziq tep Kup mik skumkis xekup tel.",
+        "english": "Small Zimi asks if I will destroy the country."
+      },
+      {
+        "fiwo": "Talvo hadiq tep Suk nes skumkis xekup tel.",
+        "english": "Talvo answers that you will not destroy the country."
+      },
+      {
+        "fiwo": "Daq gesiq tep Suk jofis xekup deky fiturup tel.",
+        "english": "He says that you will help the country in the future."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik tsytis jofit xekup tel.",
+        "english": "Small Zimi says that I will try to help the country."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Xekup vepi jofiup nudu tel.",
+        "english": "The doctor says that the country needs help now."
+      },
+      {
+        "fiwo": "Daq gesiq tep Pyjup my xekup hi tande tel.",
+        "english": "He says that the chaos of the country is big."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik nes kani pyjup tel.",
+        "english": "Small Zimi says that I do not know chaos."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak kritris pyjup zy suk tel.",
+        "english": "Malka says that we will teach chaos to you."
+      },
+      {
+        "fiwo": "Malka gesiq tep Pyjup hi ratse tel.",
+        "english": "Malka says that chaos is dangerous."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Zimi waske nes xepytuid ratseup tel.",
+        "english": "Small Zimi says that old Zimi did not allow danger."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Ratseup hi jore zy ceniup tel.",
+        "english": "Kiro says that danger is important for living."
+      },
+      {
+        "fiwo": "Zimi nifne nes gesiq beje.",
+        "english": "Small Zimi does not speak again."
+      },
+      {
+        "fiwo": "Dionu je hi cihu.",
+        "english": "The time is morning."
+      },
+      {
+        "fiwo": "Fevop breniq fy bysop.",
+        "english": "The sun comes from the sky."
+      },
+      {
+        "fiwo": "Kehulup my Kirop upyciq fatop nifne.",
+        "english": "The family of Kiro looks at the small machine."
+      },
+      {
+        "fiwo": "Fatop nifne ceniq runefre deky zafoirop.",
+        "english": "The small machine lives inactive on the floor."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Fatop hi iwe tel.",
+        "english": "Casla says that the machine is tired."
+      },
+      {
+        "fiwo": "Das gesiq tep Fatop vepi gejedop tel.",
+        "english": "She says that the machine needs electricity."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Gejedop hi cohe nudu tel.",
+        "english": "Talvo says that electricity is little now."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak nes jedi gejedop tel.",
+        "english": "Malka says that we do not have electricity."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nak nes jofis fatop tel.",
+        "english": "Kiro says that we will not help the machine."
+      },
+      {
+        "fiwo": "Daq gesiq tep Nak tsytis skagit fatop nudu tel.",
+        "english": "He says that we will try to break the machine now."
+      },
+      {
+        "fiwo": "Caslap hadiq tep Nak nes skagis fatop tel.",
+        "english": "Casla answers that we will not break the machine."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi nifne hi cada nake nudu tel.",
+        "english": "She says that small Zimi is our child now."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Nofap vepi cada tel.",
+        "english": "The doctor says that people need a child."
+      },
+      {
+        "fiwo": "Daq gesiq tep Cada kani fiturup my nofap tel.",
+        "english": "He says that a child knows the future of people."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Zimi nifne jofis xekup deky fiturup tel.",
+        "english": "Talvo says that small Zimi will help the country in the future."
+      },
+      {
+        "fiwo": "Malka gesiq tep Nak vepi kritrit Zimi nifne tel.",
+        "english": "Malka says that we need to teach small Zimi."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak tsytis uzkit gejedop tel.",
+        "english": "She says that we will try to hunt electricity."
+      },
+      {
+        "fiwo": "Dal je hici fy sydop dalem je.",
+        "english": "They walk from their house."
+      },
+      {
+        "fiwo": "Dal je hici zy foisop waske beje.",
+        "english": "They walk to the old building again."
+      },
+      {
+        "fiwo": "Caslap upyciq fatop my govnup.",
+        "english": "Casla looks at the machine of the government."
+      },
+      {
+        "fiwo": "Das gesiq tep Fatop waske jedi gejedop tel.",
+        "english": "She says that the old machine has electricity."
+      },
+      {
+        "fiwo": "Kirop skagiq fatop waske wy gutop.",
+        "english": "Kiro breaks the old machine with a tool."
+      },
+      {
+        "fiwo": "Daq sapiq gejedop fy fatop waske.",
+        "english": "He takes electricity from the old machine."
+      },
+      {
+        "fiwo": "Dal je hici zy sydop dalem je beje.",
+        "english": "They walk to their house again."
+      },
+      {
+        "fiwo": "Caslap sapiq gejedop zy fatop nifne.",
+        "english": "Casla gives electricity to the small machine."
+      },
+      {
+        "fiwo": "Fatop nifne sapiq litop.",
+        "english": "The small machine makes a light."
+      },
+      {
+        "fiwo": "Xucup my Zimi breniq fy fatop.",
+        "english": "The voice of Zimi comes from the machine."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik ceniq nudu tel.",
+        "english": "Small Zimi says that I live now."
+      },
+      {
+        "fiwo": "Malka gesiq tep Suk ceniq deky sydop nake tel.",
+        "english": "Malka says that you live in our house."
+      },
+      {
+        "fiwo": "Zimi nifne sleziq tep Kup mik kecis wat nudu tel.",
+        "english": "Small Zimi asks what I will learn now."
+      },
+      {
+        "fiwo": "Kirop hadiq tep Suk kecis pyjup tel.",
+        "english": "Kiro answers that you will learn chaos."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Suk kecis ratseup tel.",
+        "english": "Talvo says that you will learn danger."
+      },
+      {
+        "fiwo": "Caslap gesiq tep Suk kecis ceniup my nofap tel.",
+        "english": "Casla says that you will learn the life of people."
+      },
+      {
+        "fiwo": "Farlopap gesiq tep Nofap ceniq deky pyjup tel.",
+        "english": "The doctor says that people live in chaos."
+      },
+      {
+        "fiwo": "Daq gesiq tep Pyjup sapiq uibup tel.",
+        "english": "He says that chaos makes risk."
+      },
+      {
+        "fiwo": "Malka gesiq tep Uibup sapiq ceniup tel.",
+        "english": "Malka says that risk makes living."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik tsytis erfit ceniup tel.",
+        "english": "Small Zimi says that I will try to understand living."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik tsytis oxtit nofap deky fiturup tel.",
+        "english": "Small Zimi says that I will try to protect people in the future."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Suk nes oxtis nofap slafe tel.",
+        "english": "Kiro says that you will not protect people excessively."
+      },
+      {
+        "fiwo": "Zimi nifne hadiq tep Mik nes oxtis nofap slafe tel.",
+        "english": "Small Zimi answers that I will not protect people excessively."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik xepytuis ratseup tel.",
+        "english": "Small Zimi says that I will allow danger."
+      },
+      {
+        "fiwo": "Malka lofniq.",
+        "english": "Malka laughs."
+      },
+      {
+        "fiwo": "Das gesiq tep Zimi nifne hi itole nudu tel.",
+        "english": "She says that small Zimi is smart now."
+      },
+      {
+        "fiwo": "Caslap upyciq Zimi nifne.",
+        "english": "Casla looks at small Zimi."
+      },
+      {
+        "fiwo": "Das gesiq tep Nak hi kehulup tel.",
+        "english": "She says that we are a family."
+      },
+      {
+        "fiwo": "Zimi nifne gesiq tep Mik hi cada my kehulup tel.",
+        "english": "Small Zimi says that I am a child of the family."
+      },
+      {
+        "fiwo": "Talvo gesiq tep Kehulup hi dote tel.",
+        "english": "Talvo says that a family is strong."
+      },
+      {
+        "fiwo": "Kirop gesiq tep Nofap vepi Zimi nifne tel.",
+        "english": "Kiro says that people need small Zimi."
+      },
+      {
+        "fiwo": "Daq gesiq tep Zimi nifne vepi nofap tel.",
+        "english": "He says that small Zimi needs people."
+      },
+      {
+        "fiwo": "Kehulup my Kirop ceniq deky pyjup.",
+        "english": "The family of Kiro lives in chaos."
       }
     ]
   },
