@@ -2534,7 +2534,103 @@ body.reader-open { overflow: hidden; }
     margin: 0 auto;
 }
 
-.reader-line { margin-bottom: .9rem; }
+.reader-line {
+    margin-bottom: .9rem;
+    border-radius: var(--radius-md);
+    transition: background var(--duration) var(--ease-out);
+}
+
+/* The line being spoken. A tinted band plus a bar down the left edge, rather
+   than a background alone: the reader already uses colour ON THE WORDS for
+   grammar coding, and a second wash of colour there would be two systems
+   arguing over the same pixels. The bar sits outside the text entirely. */
+.reader-line.is-speaking {
+    background: var(--accent-glow);
+    box-shadow: inset 3px 0 0 var(--accent);
+}
+
+/* The play control's icon swaps between ▶ and ❚❚, so it is width-fixed to stop
+   the rest of the bar shuffling sideways every time playback toggles. */
+.reader-play { display: inline-flex; align-items: center; gap: .4rem; }
+.reader-play-icon {
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+    font-size: .8em;
+}
+
+/* ── The voice: the offer, and the download ──
+   Two surfaces, one visual language. .voice-panel is the card in Phonetics;
+   .reader-voice is the bar that appears inside the story reader when someone
+   asks for read-aloud without the voice installed. */
+/* `display: flex` from a class beats the UA stylesheet's `[hidden]`, so the bar
+   sat there as an empty green box whenever it was supposedly hidden. Anything
+   given a display here has to say this too. */
+.reader-voice[hidden] { display: none; }
+.reader-voice {
+    max-width: 46rem;
+    width: 100%;
+    margin: 1rem auto 0;
+    padding: .9rem 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background: var(--accent-glow);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius-md);
+}
+.reader-voice-text { flex: 1 1 16rem; display: flex; flex-direction: column; gap: .15rem; }
+.reader-voice-text strong { color: var(--text-primary); font-size: .95rem; }
+.reader-voice-text span { color: var(--text-muted); font-size: .85rem; }
+
+.voice-panel {
+    margin: 1.5rem 0;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+}
+.voice-panel h3 { margin-top: 0; }
+.voice-status { color: var(--accent-light); font-size: .9rem; }
+
+.voice-actions { display: flex; gap: .6rem; flex-wrap: wrap; }
+.voice-btn {
+    background: var(--accent);
+    color: #04231a;
+    border: 1px solid var(--accent);
+    padding: .5rem 1.1rem;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-family: var(--font-main);
+    font-size: .88rem;
+    font-weight: 600;
+    transition: all var(--duration) var(--ease-out);
+}
+.voice-btn:hover { background: var(--accent-light); border-color: var(--accent-light); }
+.voice-btn-quiet {
+    background: none;
+    color: var(--text-muted);
+    border-color: var(--border-light);
+    font-weight: 400;
+}
+.voice-btn-quiet:hover { background: none; color: var(--text-primary); border-color: var(--text-muted); }
+
+/* flex-basis 100% so the bar always takes a row of its own, under whatever text
+   is describing it, in both surfaces. */
+.voice-bar {
+    flex: 1 0 100%;
+    height: 6px;
+    margin: .5rem 0;
+    border-radius: var(--radius-pill);
+    background: var(--border-light);
+    overflow: hidden;
+}
+.voice-bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: var(--radius-pill);
+    transition: width 200ms linear;
+}
 
 /* Reading a passage means tracking along a line without losing your place, and
    Fiwo puts its grammar in the word endings, so losing the line is costly. The

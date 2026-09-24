@@ -25,6 +25,15 @@ import { emptyProgress, sanitizeProgress } from './study/js/cards.js';
 import { dashboard, MATURE_DAYS } from './study/js/stats.js';
 import { startSession, endSession } from './study/js/study.js';
 import { attachTimekeeping, formatDuration, tracker } from './study/js/timer.js';
+/* Imported for its side effect, and the static import IS the point.
+ * fiwo-voice.js configures the vendored tts.js the moment it loads, and
+ * study.js decides whether to draw a speaker button by asking
+ * `tts.isEnabled()` at render time. script.js also loads that module, but by
+ * dynamic import() — which resolves whenever it resolves, and losing that race
+ * would mean a session rendering silent cards for no visible reason. A static
+ * import cannot lose it. Both specifiers resolve to the same URL, so this is
+ * the same module instance, not a second voice. */
+import './fiwo-voice.js';
 
 const CONTENT_URL = 'study-content.json';
 

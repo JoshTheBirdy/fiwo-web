@@ -9,7 +9,8 @@
 
     // --- Closed-class rosters (Rule book) ---
     const MOOD_TAGS = new Set(['kup', 'kop', 'kep', 'hap', 'hop', 'hyp', 'bip', 'xap', 'sep', 'sop', 'nop', 'rop']);
-    const CLAUSAL_WALLS = new Set(['bef', 'bul', 'rot', 'kad', 'vel', 'zol', 'can', 'pen', 'vax', 'pov', 'kof', 'xom']);
+    const CLAUSAL_WALLS = new Set(['bef', 'bul', 'rot', 'kad', 'vel', 'zol', 'can', 'pen', 'vax', 'pov', 'kof', 'xom', 'din']);
+    const ELSE = 'din';   // Rule 32.6 else / otherwise (2026-09-24)
     const PHATIC = new Set(['sal', 'tex', 'ak', 'wox', 'jo', 'ha', 'jas', 'cef',
         'nel', 'ov', 'tox', 'xex', 'dez', 'zib']);  // + social-formula batch (2026-07-07)
     const REPAIR = 'gix';  // Rule 39 spoken repair (2026-08-07)
@@ -20,7 +21,7 @@
     const REPAIR_IMMUNE = new Set(['mood_tag', 'passive', 'condition', 'topic',
         'clausal_wall', 'bracket_open', 'bracket_close']);
     const CTX_SNAPSHOT_FIELDS = ['state', 'tagsOk', 'question', 'passive', 'ghost',
-        'openedAs', 'lastWall', 'synPending', 'topicPending', 'zcTimeUsed'];
+        'openedAs', 'lastWall', 'synPending', 'topicPending', 'wallRole', 'zcTimeUsed'];
     const PRONOUNS = new Set(['mik', 'suk', 'suv', 'dal', 'das', 'daq', 'ram', 'nak', 'muk']);
     const NO_JE_PRONOUNS = new Set(['mik', 'nak', 'muk']);
     const DEICTICS = new Set(['sil', 'fos']);
@@ -97,7 +98,7 @@
         if (CLAUSAL_WALLS.has(w)) return 'clausal_wall';
         if (w === 'syn') return 'condition';
         if (w === 'zet') return 'topic';
-        if (w === 'tep') return 'bracket_open';
+        if (w === 'tep' || w === 'huc') return 'bracket_open';   // huc = direct quote (Rule 30.9)
         if (w === 'tel') return 'bracket_close';
         if (w === 'fap') return 'passive';
         if (w === 'nes') return 'negation';
@@ -238,6 +239,10 @@
             state: 'fresh', tagsOk: true, question: false, passive: false,
             ghost: null, openedAs: null, lastWall: null, synPending: false,
             topicPending: false, zcTimeUsed: false,
+            // Rule 32.6: what the latest wall at this level did — 'cond' (resolved a
+            // syn), 'topic' (closed a zet), 'else' (was din) or 'plain' — so `din`
+            // knows by position alone what it negates.
+            wallRole: null,
             // Rule 39: one frame per word read in THIS clause, holding the
             // state from just before it. Wiped at every clause boundary, so
             // repair can never cross one and the stack stays bounded.
@@ -290,7 +295,7 @@
                 tokens.push(tok);
                 // Rule 30.9: the word after `tep` is quote-initial (capitalized
                 // like a sentence), so treat it as utterance-initial.
-                isFirst = (tok.root === 'tep');
+                isFirst = (tok.root === 'tep' || tok.root === 'huc');
             }
         });
         if (errors.length) return { tokens, errors, valid: false };
@@ -332,7 +337,7 @@
             if (c.synPending) fail(tok, "conditional 'syn' unresolved at a quoted-utterance boundary (Rule 32)");
             if (c.topicPending) fail(tok, "topic marker 'zet' unresolved at a quoted-utterance boundary (Rule 32.5)");
             c.state = 'fresh'; c.tagsOk = true; c.question = false;
-            c.passive = false; c.lastWall = null; c.zcTimeUsed = false;
+            c.passive = false; c.lastWall = null; c.wallRole = null; c.zcTimeUsed = false;
             c.repair.length = 0;   // Rule 39.3: utterance boundary
             pendingPrep = pendingGlue = pendingNeg = lastRoot = prevWord = null;
         }
@@ -403,6 +408,7 @@
                 });
             }
             prevWord = t;
+            const wasUtteranceInitial = utteranceInitial;
             utteranceInitial = false;
 
             // resolve pending preposition target
@@ -479,21 +485,38 @@
                 else { c.topicPending = true; c.tagsOk = false; t.slot = 'Topic'; }
                 i++; continue;
             }
+            if (cat === 'clausal_wall' && t.root === ELSE) {
+                // Rule 32.6 — decided by what is behind `din`, never ahead.
+                if (c.synPending) fail(t, "'din' cannot interrupt a condition — the 'syn' premise needs its can/pen result first (Rule 32.6)");
+                else if (c.topicPending) fail(t, "'din' cannot interrupt a 'zet' topic phrase (Rule 32.6)");
+                else if (c.state === 'fresh') {
+                    if (!(wasUtteranceInitial && stack.length === 1))
+                        fail(t, "'din' needs a completed clause before it — there is nothing to negate (Rule 32.6)");
+                }
+                else if (c.wallRole === 'topic') fail(t, "'din' cannot follow a 'zet' topic sentence — a topic is not a condition (Rule 32.6)");
+                else if (c.wallRole === 'else') fail(t, "'din' cannot follow another else-branch — chain with 'din syn' (else-if) instead (Rule 32.6)");
+                t.slot = 'Else';
+                c.state = 'fresh'; c.tagsOk = false; c.passive = false; c.lastWall = t.root; c.wallRole = 'else'; lastRoot = null;
+                c.repair.length = 0;
+                i++; continue;
+            }
             if (cat === 'clausal_wall') {
-                let resolved = false;
+                let resolved = false, role = 'plain';
                 for (const cx of stack) {
-                    if (cx.synPending && (t.root === 'can' || t.root === 'pen')) { cx.synPending = false; resolved = true; break; }
-                    if (cx.topicPending && (t.root === 'can' || t.root === 'pen')) { cx.topicPending = false; resolved = true; break; }
+                    if (cx.synPending && (t.root === 'can' || t.root === 'pen')) { cx.synPending = false; resolved = true; role = 'cond'; break; }
+                    if (cx.topicPending && (t.root === 'can' || t.root === 'pen')) { cx.topicPending = false; resolved = true; role = 'topic'; break; }
                 }
                 t.slot = resolved ? 'Then' : 'Wall';
-                c.state = 'fresh'; c.tagsOk = false; c.passive = false; c.lastWall = t.root; lastRoot = null;
+                c.state = 'fresh'; c.tagsOk = false; c.passive = false; c.lastWall = t.root; c.wallRole = role; lastRoot = null;
                 c.repair.length = 0;   // Rule 39.3/39.4: a wall is a boundary
                 i++; continue;
             }
             if (cat === 'negation') {
                 const nxt = tokens[i + 1];
-                if (!nxt || nxt.kind === 'punct') {
-                    if (c.state === 'fresh') t.slot = 'NullTrack';
+                // A wall or `tel` ends the clause: standalone "No" at a clause
+                // start, an error anywhere else (Rule 26).
+                if (!nxt || nxt.kind === 'punct' || nxt.cat === 'clausal_wall' || nxt.cat === 'bracket_close') {
+                    if (c.state === 'fresh' && !c.synPending && !c.topicPending) t.slot = 'NullTrack';
                     else fail(t, "'nes' negates what follows it — nothing follows (Rule 26)");
                 } else { pendingNeg = t; t.slot = 'Neg'; }
                 i++; continue;
@@ -515,11 +538,15 @@
             if (cat === 'bracket_open') {
                 if (openBrackets() >= 2) { fail(t, 'depth limit: max 2 open brackets (tep/syn) in active memory (Rule 30.6)'); i++; continue; }
                 let ghost = null, openedAs;
-                if (lastRoot && (lastRoot.cat === 'noun' || lastRoot.cat === 'proper_noun')) { ghost = lastRoot; openedAs = 'relative'; }
+                if (t.root === 'huc') {   // Rule 30.9 direct quote: object slot only
+                    openedAs = 'complement';
+                    if (c.state !== 'await_object') fail(t, "'huc' (direct quote) must follow a verb awaiting its object — usually a verb of speech or thought (Rule 30.9)");
+                }
+                else if (lastRoot && (lastRoot.cat === 'noun' || lastRoot.cat === 'proper_noun')) { ghost = lastRoot; openedAs = 'relative'; }
                 else if (c.state === 'await_object') openedAs = 'complement';
                 else if (c.state === 'fresh' && !lastRoot) openedAs = 'subject';  // Rule 30.8 clause-as-subject
                 else { openedAs = 'relative'; fail(t, "'tep' must follow a noun (relative clause), a verb awaiting its object (complement clause), or open a clause (subject clause, Rule 30.8)"); }
-                t.slot = openedAs === 'complement' ? '[ object clause' : (openedAs === 'subject' ? '[ subject clause' : '[ relative clause');
+                t.slot = t.root === 'huc' ? '[ quote' : openedAs === 'complement' ? '[ object clause' : (openedAs === 'subject' ? '[ subject clause' : '[ relative clause');
                 stack.push(newCtx({ question: c.question, ghost, openedAs }));
                 lastRoot = null;
                 i++; continue;
@@ -590,13 +617,19 @@
                 if (c.state === 'fresh') { t.slot = 'Subject'; c.state = 'await_verb'; }
                 else if (c.state === 'await_verb') { t.slot = 'Predicate (Zero Copula)'; c.state = 'closed_zc'; }
                 else if (c.state === 'await_object') {
-                    if (TEMPORAL_ROOTS.has(t.root)) { t.slot = 'Time'; c.state = 'closed'; }
+                    // Specificity decides the slot (Rule 10.8): a BARE temporal noun is a
+                    // timeframe and falls forward into Slot 4; a marked one (-p/-r) is an
+                    // entity and stays here in the Object slot, like any other noun.
+                    if (TEMPORAL_ROOTS.has(t.root) && !t.suffix) { t.slot = 'Time'; c.state = 'closed'; }
                     else { t.slot = 'Object'; c.state = 'await_time'; }
                 } else if (c.state === 'await_time') {
-                    if (t.root.endsWith('u')) { t.slot = 'Time'; c.state = 'closed'; }
-                    else fail(t, 'SVO-T overflow: only a temporal Abstract Noun (-u) may follow the Object (Rule 10)');
+                    // Slot 4 takes only an UNMARKED temporal Abstract Noun (Rule 10.8). A
+                    // specific timeframe has exactly one legal encoding: the bridge (Rule 13.5).
+                    if (t.root.endsWith('u') && !t.suffix) { t.slot = 'Time'; c.state = 'closed'; }
+                    else if (TEMPORAL_ROOTS.has(t.root)) fail(t, 'Slot 4 takes only an unmarked temporal noun; a specific timeframe needs a preposition (Rule 10.8/13.5)');
+                    else fail(t, 'SVO-T overflow: only an unmarked temporal Abstract Noun (-u) may follow the Object (Rule 10/10.8)');
                 } else if (c.state === 'closed_zc') {
-                    if (t.root.endsWith('u') && !c.zcTimeUsed) { t.slot = 'Time'; c.zcTimeUsed = true; }
+                    if (t.root.endsWith('u') && !t.suffix && !c.zcTimeUsed) { t.slot = 'Time'; c.zcTimeUsed = true; }
                     else fail(t, 'clause already closed by Zero Copula — a new noun needs a clausal wall (Rule 10.5)');
                 } else fail(t, 'SVO track closed — an additional noun needs a clausal wall or bracket (Rule 28/30)');
                 lastRoot = t; i++; continue;

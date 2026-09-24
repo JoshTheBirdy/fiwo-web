@@ -12,23 +12,21 @@
     <!-- Link previews. No og:url on purpose: scrapers fall back to the URL they
          crawled, so this stays correct if the site ever moves.
 
-         og:image is RELATIVE for the same reason. The spec asks for an absolute
-         URL and a few older scrapers insist on one, but the domain is not known
-         here — and a relative path that some scrapers resolve beats an absolute
-         one hardcoded to the wrong host. Worth making absolute at launch, once
-         there is a domain to point at. -->
+         og:image is ABSOLUTE (the spec asks for it and some scrapers insist):
+         the site lives at fiwo-web.com (the CNAME in the live repo). If the
+         domain ever changes, change these two lines with it. -->
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Fiwo">
     <meta property="og:title" content="Fiwo — an engineered language built for precision">
     <meta property="og:description" content="A constructed language with 39 rules, a deterministic parser, 1,500+ roots and a translator that shows you every parse. Read the rulebook, search the dictionary, or read a story.">
-    <meta property="og:image" content="og-image.png">
+    <meta property="og:image" content="https://fiwo-web.com/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="The Fiwo mark: a dark F on an emerald tile.">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Fiwo — an engineered language built for precision">
     <meta name="twitter:description" content="39 rules, a deterministic parser, 1,500+ roots, and a translator that shows its working.">
-    <meta name="twitter:image" content="og-image.png">
+    <meta name="twitter:image" content="https://fiwo-web.com/og-image.png">
 
     <link rel="icon" href="icon.svg" type="image/svg+xml">
 
@@ -46,7 +44,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=35">
+    <link rel="stylesheet" href="style.css?v=1db243bc">
 </head>
 <body>
 
@@ -265,13 +263,10 @@
         </section>
         <section id="phonetics" class="page">
             <h2>Phonetics</h2>
-            <p>Phonetics were chosen on their prevalence in the world languages and their distinctness from each other.</p>
-            
-            <h3>Stress</h3>
-            <p>Stress has no grammatical or semantic function in Fiwo. Words follow a predictable stress pattern: stress falls at the end of a word, creating a slight pause that helps separate words in continuous speech.</p>
-            
-            <h3>Letter Assignment</h3>
-            <p>Letters are standard keyboard characters to make typing easier. Each letter has one assigned phoneme to aid in readability and pronounceability.</p>
+<p>Phonetics were chosen on their prevalence in the world languages and their distinctness from each other.</p>
+<p>Stress has no grammatical or semantic function in Fiwo. Words follow a predictable stress pattern: the stress falls at the end of a word, creating a slight pause that helps separate words in continuous speech.</p>
+<p>Letters are standard keyboard characters, to make typing easier. Each letter maps to exactly one phoneme, aiding readability and pronounceability.</p>
+<p><strong>No diphthongs.</strong> Every vowel is pronounced separately, exactly as written — letter by letter. Fiwo has no glided vowel pairs: adjacent vowels are spoken in hiatus, each as its own syllable (<code>bojai</code> = <code>bo-ja-i</code>, three syllables). This is what lets pronunciation, syllable count, and the stress unit be computed straight from the spelling.</p>
 
             <div class="pron-widget">
                 <h3>Hear Any Word</h3>
@@ -282,166 +277,302 @@
                 <div id="pron-output" class="pron-widget-output"></div>
             </div>
 
-            <h3>Stops (Plosives) — 6</h3>
-            <div class="table-wrapper"><table class="phonetics-table">
-                <thead>
-                    <tr>
-                        <th>IPA Symbol</th>
-                        <th>Assigned Key</th>
-                        <th>Examples</th>
-                        <th>Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>/p/</td><td>p</td><td>"pat" (Eng), "pan" (Spa)</td><td>Absent in Standard Arabic (uses /b/); often unaspirated in Mandarin.</td></tr>
-                    <tr><td>/b/</td><td>b</td><td>"bat" (Eng), "bebé" (Spa)</td><td>Absent in Mandarin (uses unaspirated /p/); merged with /v/ in Spanish.</td></tr>
-                    <tr><td>/t/</td><td>t</td><td>"top" (Eng), "tío" (Spa)</td><td>Universal. Dental in Romance/Indo-Aryan; Alveolar in English/Mandarin.</td></tr>
-                    <tr><td>/d/</td><td>d</td><td>"dog" (Eng), "dos" (Spa)</td><td>Absent in Mandarin (uses unaspirated /t/).</td></tr>
-                    <tr><td>/k/</td><td>k</td><td>"cat" (Eng), "casa" (Spa)</td><td>Universal voiceless velar stop.</td></tr>
-                    <tr><td>/g/</td><td>g</td><td>"go" (Eng), "gato" (Spa)</td><td>Absent in Mandarin; marginal/dialectal in Standard Arabic.</td></tr>
-                </tbody>
-            </table></div>
+            <!-- The trained voice. Rendered by script.js because every line of
+                 it depends on whether this device already has the model. -->
+            <div id="voice-panel" class="voice-panel" hidden></div>
 
-            <h3>Nasals — 3</h3>
-            <div class="table-wrapper"><table class="phonetics-table">
-                <thead>
-                    <tr>
-                        <th>IPA Symbol</th>
-                        <th>Assigned Key</th>
-                        <th>Examples</th>
-                        <th>Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>/m/</td><td>m</td><td>"man" (Eng), "mano" (Spa)</td><td>Universal bilabial nasal.</td></tr>
-                    <tr><td>/n/</td><td>n</td><td>"no" (Eng), "no" (Spa)</td><td>Universal alveolar/dental nasal.</td></tr>
-                    <tr><td>/ŋ/</td><td>q</td><td>"sing" (Eng)</td><td>Phonemic in English, Mandarin, Hindi, Bengali, Urdu. Allophonic in Spanish.</td></tr>
-                </tbody>
-            </table></div>
-
-            <h3>Fricatives &amp; Affricates — 7</h3>
-            <div class="table-wrapper"><table class="phonetics-table">
-                <thead>
-                    <tr>
-                        <th>IPA Symbol</th>
-                        <th>Assigned Key</th>
-                        <th>Examples</th>
-                        <th>Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>/f/</td><td>f</td><td>"fan" (Eng), "fin" (Spa)</td><td>Universal labiodental fricative.</td></tr>
-                    <tr><td>/s/</td><td>s</td><td>"see" (Eng), "sí" (Spa)</td><td>Universal sibilant.</td></tr>
-                    <tr><td>/ʃ/ (sh)</td><td>x</td><td>"she" (Eng)</td><td>Absent in standard Spanish; pervasive in others.</td></tr>
-                    <tr><td>/h/</td><td>h</td><td>"hat" (Eng)</td><td>Absent in French, Spanish, Russian (/x/), and Portuguese.</td></tr>
-                    <tr><td>/tʃ/ (ch)</td><td>c</td><td>"chat" (Eng), "mucho" (Spa), "chi" (Man)</td><td>Voiceless postalveolar affricate. A very common sound globally that bridges the gap between /t/ and /ʃ/.</td></tr>
-                    <tr><td>/z/</td><td>z</td><td>"zoo" (Eng), "zebra" (Eng)</td><td>A highly prevalent voiced alveolar fricative globally. Present in English, Arabic, French, Russian, Portuguese, Bengali, and Urdu. Absent in standard Spanish (often merges with /s/).</td></tr>
-                    <tr><td>/x/</td><td>v</td><td>"caja" (Spa), "Bach" (Ger), "hǎo" (Man), "kh" (Ara/Rus)</td><td>A pervasive voiceless velar fricative globally. Acts as the guttural counterpart to the universal velar stop /k/.</td></tr>
-                </tbody>
-            </table></div>
-
-            <h3>Approximants — 4</h3>
-            <div class="table-wrapper"><table class="phonetics-table">
-                <thead>
-                    <tr>
-                        <th>IPA Symbol</th>
-                        <th>Assigned Key</th>
-                        <th>Examples</th>
-                        <th>Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>/l/</td><td>l</td><td>"let" (Eng), "lo" (Spa)</td><td>Universal lateral.</td></tr>
-                    <tr><td>/r/</td><td>r</td><td>"red" (Eng), "pero" (Spa)</td><td>Broad category covering trills (Spanish/Russian), taps (Hindi), and approximants (English).</td></tr>
-                    <tr><td>/w/</td><td>w</td><td>"wet" (Eng)</td><td>Distinct in English, Mandarin, Arabic, French. Allophonic/Diphthong in others.</td></tr>
-                    <tr><td>/j/</td><td>j</td><td>"yes" (Eng), "yo" (Spa)</td><td>Universal palatal glide.</td></tr>
-                </tbody>
-            </table></div>
-
-            <h3>Vowels — 6</h3>
-            <div class="table-wrapper"><table class="phonetics-table">
-                <thead>
-                    <tr>
-                        <th>IPA Symbol</th>
-                        <th>Assigned Key</th>
-                        <th>Examples</th>
-                        <th>Notes</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td>/i/</td><td>i</td><td>"see" (Eng), "sí" (Spa)</td><td>Universal high front vowel.</td></tr>
-                    <tr><td>/e/</td><td>e</td><td>"tres" (Spa)</td><td>Mid front vowel. Absent in Standard Arabic (uses /i, a, u/).</td></tr>
-                    <tr><td>/a/</td><td>a</td><td>"father" (Eng), "casa" (Spa)</td><td>Universal low vowel.</td></tr>
-                    <tr><td>/o/</td><td>o</td><td>"go" (Eng), "no" (Spa)</td><td>Mid back vowel. Absent in Standard Arabic.</td></tr>
-                    <tr><td>/u/</td><td>u</td><td>"boot" (Eng), "tú" (Spa)</td><td>Universal high back vowel.</td></tr>
-                    <tr><td>/ʌ/</td><td>y</td><td>"up" (Eng), "cut" (Eng)</td><td>Mid central vowel similar to the vowel in English “cup”.</td></tr>
-                </tbody>
-            </table></div>
-
+<h3>Stops (Plosives) — 6</h3>
+<div class="table-wrapper"><table class="phonetics-table">
+<thead>
+<tr>
+<th align="center">Key</th>
+<th align="center">IPA</th>
+<th>Examples</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>p</code></td>
+<td align="center">/p/</td>
+<td>&quot;pat&quot; (Eng), &quot;pan&quot; (Spa)</td>
+<td>Absent in Standard Arabic (uses /b/); often unaspirated in Mandarin.</td>
+</tr>
+<tr>
+<td align="center"><code>b</code></td>
+<td align="center">/b/</td>
+<td>&quot;bat&quot; (Eng), &quot;bebé&quot; (Spa)</td>
+<td>Absent in Mandarin (uses unaspirated /p/); merges with /v/ in Spanish.</td>
+</tr>
+<tr>
+<td align="center"><code>t</code></td>
+<td align="center">/t/</td>
+<td>&quot;top&quot; (Eng), &quot;tío&quot; (Spa)</td>
+<td>Universal. Dental in Romance/Indo-Aryan; alveolar in English/Mandarin.</td>
+</tr>
+<tr>
+<td align="center"><code>d</code></td>
+<td align="center">/d/</td>
+<td>&quot;dog&quot; (Eng), &quot;dos&quot; (Spa)</td>
+<td>Absent in Mandarin (uses unaspirated /t/).</td>
+</tr>
+<tr>
+<td align="center"><code>k</code></td>
+<td align="center">/k/</td>
+<td>&quot;cat&quot; (Eng), &quot;casa&quot; (Spa)</td>
+<td>Universal voiceless velar stop.</td>
+</tr>
+<tr>
+<td align="center"><code>g</code></td>
+<td align="center">/g/</td>
+<td>&quot;go&quot; (Eng), &quot;gato&quot; (Spa)</td>
+<td>Absent in Mandarin; marginal/dialectal in Standard Arabic.</td>
+</tr>
+</tbody></table></div>
+<h3>Nasals — 3</h3>
+<div class="table-wrapper"><table class="phonetics-table">
+<thead>
+<tr>
+<th align="center">Key</th>
+<th align="center">IPA</th>
+<th>Examples</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>m</code></td>
+<td align="center">/m/</td>
+<td>&quot;man&quot; (Eng), &quot;mano&quot; (Spa)</td>
+<td>Universal bilabial nasal.</td>
+</tr>
+<tr>
+<td align="center"><code>n</code></td>
+<td align="center">/n/</td>
+<td>&quot;no&quot; (Eng), &quot;no&quot; (Spa)</td>
+<td>Universal alveolar/dental nasal.</td>
+</tr>
+<tr>
+<td align="center"><code>q</code></td>
+<td align="center">/ŋ/</td>
+<td>&quot;sing&quot; (Eng)</td>
+<td>Phonemic in English, Mandarin, Hindi, Bengali, Urdu. Allophonic in Spanish.</td>
+</tr>
+</tbody></table></div>
+<h3>Fricatives &amp; Affricates — 7</h3>
+<div class="table-wrapper"><table class="phonetics-table">
+<thead>
+<tr>
+<th align="center">Key</th>
+<th align="center">IPA</th>
+<th>Examples</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>f</code></td>
+<td align="center">/f/</td>
+<td>&quot;fan&quot; (Eng), &quot;fin&quot; (Spa)</td>
+<td>Universal labiodental fricative.</td>
+</tr>
+<tr>
+<td align="center"><code>s</code></td>
+<td align="center">/s/</td>
+<td>&quot;see&quot; (Eng), &quot;sí&quot; (Spa)</td>
+<td>Universal sibilant.</td>
+</tr>
+<tr>
+<td align="center"><code>x</code></td>
+<td align="center">/ʃ/ (sh)</td>
+<td>&quot;she&quot; (Eng)</td>
+<td>Absent in standard Spanish; pervasive elsewhere.</td>
+</tr>
+<tr>
+<td align="center"><code>h</code></td>
+<td align="center">/h/</td>
+<td>&quot;hat&quot; (Eng)</td>
+<td>Absent in French, Spanish, Russian (/x/), and Portuguese.</td>
+</tr>
+<tr>
+<td align="center"><code>c</code></td>
+<td align="center">/tʃ/ (ch)</td>
+<td>&quot;chat&quot; (Eng), &quot;mucho&quot; (Spa), &quot;chi&quot; (Man)</td>
+<td>Voiceless postalveolar affricate; bridges the gap between /t/ and /ʃ/.</td>
+</tr>
+<tr>
+<td align="center"><code>z</code></td>
+<td align="center">/z/</td>
+<td>&quot;zoo&quot; (Eng), &quot;zebra&quot; (Eng)</td>
+<td>Voiced alveolar fricative. Present in English, Arabic, French, Russian, Portuguese, Bengali, Urdu. Absent in standard Spanish (merges with /s/).</td>
+</tr>
+<tr>
+<td align="center"><code>v</code></td>
+<td align="center">/x/</td>
+<td>&quot;caja&quot; (Spa), &quot;Bach&quot; (Ger), &quot;hǎo&quot; (Man), &quot;kh&quot; (Ara/Rus)</td>
+<td>Voiceless velar fricative; the guttural counterpart to the velar stop /k/.</td>
+</tr>
+</tbody></table></div>
+<h3>Approximants — 4</h3>
+<div class="table-wrapper"><table class="phonetics-table">
+<thead>
+<tr>
+<th align="center">Key</th>
+<th align="center">IPA</th>
+<th>Examples</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>l</code></td>
+<td align="center">/l/</td>
+<td>&quot;let&quot; (Eng), &quot;lo&quot; (Spa)</td>
+<td>Universal lateral.</td>
+</tr>
+<tr>
+<td align="center"><code>r</code></td>
+<td align="center">/r/</td>
+<td>&quot;red&quot; (Eng), &quot;pero&quot; (Spa)</td>
+<td>Broad category: trills (Spanish/Russian), taps (Hindi), approximants (English).</td>
+</tr>
+<tr>
+<td align="center"><code>w</code></td>
+<td align="center">/w/</td>
+<td>&quot;wet&quot; (Eng)</td>
+<td>Distinct in English, Mandarin, Arabic, French; allophonic/diphthongal elsewhere.</td>
+</tr>
+<tr>
+<td align="center"><code>j</code></td>
+<td align="center">/j/</td>
+<td>&quot;yes&quot; (Eng), &quot;yo&quot; (Spa)</td>
+<td>Universal palatal glide.</td>
+</tr>
+</tbody></table></div>
+<h3>Vowels — 6</h3>
+<div class="table-wrapper"><table class="phonetics-table">
+<thead>
+<tr>
+<th align="center">Key</th>
+<th align="center">IPA</th>
+<th>Examples</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><code>i</code></td>
+<td align="center">/i/</td>
+<td>&quot;see&quot; (Eng), &quot;sí&quot; (Spa)</td>
+<td>Universal high front vowel.</td>
+</tr>
+<tr>
+<td align="center"><code>e</code></td>
+<td align="center">/e/</td>
+<td>&quot;tres&quot; (Spa)</td>
+<td>Mid front vowel. Absent in Standard Arabic (uses /i, a, u/).</td>
+</tr>
+<tr>
+<td align="center"><code>a</code></td>
+<td align="center">/a/</td>
+<td>&quot;father&quot; (Eng), &quot;casa&quot; (Spa)</td>
+<td>Universal low vowel.</td>
+</tr>
+<tr>
+<td align="center"><code>o</code></td>
+<td align="center">/o/</td>
+<td>&quot;go&quot; (Eng), &quot;no&quot; (Spa)</td>
+<td>Mid back vowel. Absent in Standard Arabic.</td>
+</tr>
+<tr>
+<td align="center"><code>u</code></td>
+<td align="center">/u/</td>
+<td>&quot;boot&quot; (Eng), &quot;tú&quot; (Spa)</td>
+<td>Universal high back vowel.</td>
+</tr>
+<tr>
+<td align="center"><code>y</code></td>
+<td align="center">/ʌ/</td>
+<td>&quot;<strong>u</strong>p&quot; (Eng), &quot;c<strong>u</strong>t&quot; (Eng)</td>
+<td>Mid central vowel, like the vowel in English &quot;cup&quot;.</td>
+</tr>
+</tbody></table></div>
 <h3>Word Shapes &amp; Pronounceability (Phonotactics)</h3>
 <p>Fiwo is engineered for global pronounceability. To ensure no word ever becomes a harsh, unpronounceable string of letters, consonants cannot be combined randomly. They must follow the natural flow of sound resonance, known as the <strong>Sonority Sequencing Principle</strong>.</p>
-<p><strong>1. The Sonority Hierarchy</strong>When building a consonant cluster before a vowel, the sounds must step from &quot;harder&quot; sounds to &quot;softer&quot; sounds as they approach the vowel.</p>
+<p><strong>1. The Sonority Hierarchy</strong> When building a consonant cluster before a vowel, the sounds must step from &quot;harder&quot; sounds to &quot;softer&quot; sounds as they approach the vowel.</p>
 <ul>
-  <li><strong>Hardest ➔ Softest:</strong> Stops (p, b, t, d, k, g) ➔ Fricatives/Affricates (f, s, x, h, c, z, v) ➔ Nasals (m, n, q) ➔ Approximants/Liquids (l, r, w, j) ➔ Vowel.</li>
-  <li><em>Example:</em> <code>gr-</code> (grawi) or <code>tr-</code> (atripo) are perfectly legal because they flow from a hard Stop to a soft Approximant before hitting the vowel. A cluster like <code>vb-</code> is strictly illegal because it flows backward.</li>
+<li><strong>Hardest ➔ Softest:</strong> Stops (p, b, t, d, k, g) ➔ Fricatives/Affricates (f, s, x, h, c, z, v) ➔ Nasals (m, n, q) ➔ Approximants/Liquids (l, r, w, j) ➔ Vowel.</li>
+<li><em>Example:</em> <code>gr-</code> (grawi) or <code>tr-</code> (atripo) are perfectly legal because they flow from a hard Stop to a soft Approximant before hitting the vowel. A cluster like <code>vb-</code> is strictly illegal because it flows backward.</li>
 </ul>
 <p><strong>2. The &quot;S&quot; Exception</strong> The letter <code>s</code> acts as a special &quot;extrasyllabic&quot; sound. It is legally permitted to sit at the very front of a word and precede a harder stop.</p>
 <ul>
-  <li><em>Example:</em> <code>sk-</code> (skagi), <code>st-</code> (steli).</li>
+<li><em>Example:</em> <code>sk-</code> (skagi), <code>st-</code> (steli).</li>
 </ul>
 <p><strong>3. Maximum Limits</strong></p>
 <p>To keep words digestible, Fiwo has strict limits on how long a cluster can be:</p>
 <ul>
-  <li><strong>Consonants:</strong> A maximum of 3 consecutive consonants are allowed (e.g., <code>str-</code> in stramu).</li>
-  <li><strong>Vowels:</strong> A dictionary root may contain a maximum of 2 consecutive vowels.</li>
+<li><strong>Consonants:</strong> A maximum of 3 consecutive consonants are allowed (e.g., <code>str-</code> in stramu).</li>
+<li><strong>Vowels:</strong> A dictionary root may contain a maximum of 2 consecutive vowels.</li>
 </ul>
-<p><strong>4. The Velar Nasal Constraint (<code>q</code>)</strong>The letter <code>q</code> (pronounced &quot;ng&quot; like in &quot;sing&quot;) is restricted by natural human mouth mechanics. It may only appear in the middle of a word or at the very end. It can <strong>never</strong> be the first letter of a word.</p>
+<p><strong>4. The Velar Nasal Constraint (<code>q</code>)</strong> The letter <code>q</code> (pronounced &quot;ng&quot; like in &quot;sing&quot;) is restricted by natural human mouth mechanics. It may only appear in the middle of a word or at the very end. It can <strong>never</strong> be the first letter of a word. It also can never be preceded by <code>n</code> in a medial cluster (<code>nq</code>) — both are nasals, and the /n/+/ŋ/ transition is an awkward nasal-nasal collision with no natural release point. By the same logic, <code>mq</code>, <code>qn</code>, and <code>qm</code> are disallowed too.</p>
 <p><strong>5. Permissible Consonant Clusters</strong></p>
-<p>To ensure absolute consistency between the grammar rules and the dictionary database tools, all legal consonant combinations are strictly categorized as follows:</p>
+<p>To ensure absolute consistency between the grammar rules and the dictionary database tools, all legal consonant combinations are strictly categorized as follows.</p>
 <ul>
-  <li><strong>Onset Clusters (Word-Initial / Syllable Start):</strong></li>
+<li><p><strong>Onset Clusters (Word-Initial / Syllable Start):</strong></p>
 <ul>
-  <li><strong>2-Consonant Onsets:</strong></li>
-<ol>
-  <li><em>Stop/Fricative + Liquid/Glide</em> (Sonority rises):</li>
+<li><strong>2-Consonant Onsets:</strong><ol>
+<li><p><em>Stop/Fricative + Liquid/Glide</em> (Sonority rises):</p>
 <ul>
-  <li><em>Stops (except t/d before l):</em> <code>pr-</code>, <code>pl-</code>, <code>br-</code>, <code>bl-</code>, <code>tr-</code>, <code>dr-</code>, <code>kr-</code>, <code>kl-</code>, <code>gr-</code>, <code>gl-</code> (Note: <code>tl-</code> and <code>dl-</code> are disallowed for ease of pronunciation).</li>
-  <li><em>Permitted Fricatives (strictly f/x):</em> <code>fr-</code>, <code>fl-</code>, <code>xr-</code>, <code>xl-</code> (Note: other fricatives/affricates like <code>c</code>, <code>v</code>, <code>z</code>, <code>h</code> are prohibited from forming initial consonant clusters to prevent clunky combinations like <code>cr-</code>, <code>vr-</code>, <code>zr-</code>, <code>hr-</code>).</li>
+<li><p><em>Stops (except t/d before l):</em> <code>pr-</code>, <code>pl-</code>, <code>br-</code>, <code>bl-</code>, <code>tr-</code>, <code>dr-</code>, <code>kr-</code>, <code>kl-</code>, <code>gr-</code>, <code>gl-</code> (Note: <code>tl-</code> and <code>dl-</code> are disallowed for ease of pronunciation).</p>
+</li>
+<li><p><em>Permitted Fricatives (strictly f/x):</em> <code>fr-</code>, <code>fl-</code>, <code>xl-</code> (Note: other fricatives/affricates like <code>c</code>, <code>v</code>, <code>z</code>, <code>h</code> are prohibited from forming initial consonant clusters to prevent clunky combinations like <code>cr-</code>, <code>vr-</code>, <code>zr-</code>, <code>hr-</code>). <code>xr-</code> is <strong>not</strong> a permitted onset (hard to pronounce word-initially), though it is legal as a medial cluster (see below, split as <code>ax.ra</code>).</p>
+</li>
+<li><p><em><strong>…and with a Glide</strong></em>: the permitted glide onsets are <strong><code>pw-</code>, <code>pj-</code>, <code>tw-</code>, <code>dw-</code>, <code>kw-</code>, <code>kj-</code>, <code>gw-</code>, <code>fw-</code>, <code>sw-</code>, <code>xw-</code></strong>.</p>
+<p><strong>Two symptoms mark a bad onset, and both are rejection criteria</strong>: if a speaker must <em>insert a vowel</em> between the consonants, the cluster is not a cluster — the spelling claims one syllable and the mouth produces two, which breaks the rule that syllable count is computable from spelling. If the two consonants <em>fuse into one hybrid sound</em>, the result is either a merger with an existing letter or an allophone outside the 20-consonant inventory, which the spelling cannot predict. Natural languages tolerate both (English <em>tune</em> is [tʃuːn] — the same <code>tj</code> fusion), but they recover the word from a lexicon the listener already has. Fiwo&#39;s promise is that spelling predicts sound and sound predicts spelling, so it cannot.</p>
+</li>
 </ul>
-  <li><em>The &#x27;S&#x27; Exception:</em> <code>s</code> followed by any Stop, Fricative, Nasal, or Liquid/Glide (e.g., <code>sp-</code>, <code>st-</code>, <code>sk-</code>, <code>sm-</code>, <code>sn-</code>, <code>sl-</code>, <code>sw-</code>).</li>
-  <li><em>Affricates:</em> <code>ts</code> and <code>dz</code>.</li>
+</li>
+<li><p><em>The &#39;S&#39; Exception:</em> <code>s</code> followed by any Stop, Fricative, Nasal, or Liquid/Glide (e.g., <code>sp-</code>, <code>st-</code>, <code>sk-</code>, <code>sm-</code>, <code>sn-</code>, <code>sl-</code>, <code>sw-</code>).</p>
+</li>
+<li><p><em>Affricates:</em> <code>ts</code> and <code>dz</code>.</p>
+</li>
 </ol>
-  <li><strong>3-Consonant Onsets:</strong></li>
-<ul>
-  <li>Must be <code>s</code> + Stop + Liquid/Glide (e.g., <code>str-</code> as in <em>stramu</em>, <code>spl-</code>, <code>skr-</code>).</li>
+</li>
+<li><strong>3-Consonant Onsets:</strong><ul>
+<li>Must be <code>s</code> + Stop + Liquid/Glide (e.g., <code>str-</code> as in <em>stramu</em>, <code>spl-</code>, <code>skr-</code>).</li>
 </ul>
+</li>
 </ul>
-  <li><strong>Coda Clusters (Word-Final / Syllable End):</strong></li>
+</li>
+<li><p><strong>Coda Clusters (Word-Final / Syllable End):</strong></p>
 <ul>
-  <li><strong>2-Consonant Codas:</strong></li>
-<ol>
-  <li><em>Liquid/Nasal + Stop/Fricative</em> (Sonority falls): e.g., <code>-rt</code>, <code>-rk</code>, <code>-rp</code>, <code>-rd</code>, <code>-rs</code>, <code>-rf</code>, <code>-mp</code>, <code>-nt</code>, <code>-nk</code>.</li>
-  <li><em>S-Endings:</em> A Stop (<code>k</code>, <code>p</code>, <code>t</code>) followed by <code>s</code> (e.g., <code>-ks</code>, <code>-ps</code>, <code>-ts</code>).</li>
+<li><strong>2-Consonant Codas:</strong><ol>
+<li><em>Liquid/Nasal + Stop/Fricative</em> (Sonority falls): e.g., <code>-rt</code>, <code>-rk</code>, <code>-rp</code>, <code>-rd</code>, <code>-rs</code>, <code>-rf</code>, <code>-mp</code>, <code>-nt</code>, <code>-nk</code>.</li>
+<li><em>S-Endings:</em> A Stop (<code>k</code>, <code>p</code>, <code>t</code>) followed by <code>s</code> (e.g., <code>-ks</code>, <code>-ps</code>, <code>-ts</code>).</li>
 </ol>
-  <li><strong>3-Consonant Codas:</strong> Strictly disallowed (causes physical pronunciation strain).</li>
+</li>
+<li><strong>3-Consonant Codas:</strong> Strictly disallowed (causes physical pronunciation strain).</li>
 </ul>
-  <li><strong>Medial Clusters (Word-Middle):</strong></li>
+</li>
+<li><p><strong>Medial Clusters (Word-Middle):</strong></p>
 <ul>
-  <li>Consonants in the middle of a word are split across syllables (e.g., <code>V.C1 - C2.V</code> as in <em>kat-sa</em> or <em>far-lo-pa</em>), making any 2-consonant middle sequence naturally pronounceable and legal. 3-consonant medial clusters are disallowed in generated roots to maintain simplicity.</li>
+<li>Consonants in the middle of a word are split across syllables (e.g., <code>V.C1 - C2.V</code> as in <em>kat-sa</em> or <em>far-lo-pa</em>), making most 2-consonant middle sequences naturally pronounceable and legal. <strong>Exception:</strong> nasal-nasal clusters (<code>nq</code>, <code>mq</code>, <code>qn</code>, <code>qm</code>) are disallowed — see the Velar Nasal Constraint above.</li>
+<li><strong>The test, stated exactly</strong>: a medial cluster is legal <strong>if it can break into a legal coda and a legal onset</strong>. Wherever it can, a speaker has a syllable boundary to hang it on.</li>
+<li><strong>3-consonant medial clusters are legal too</strong>. They simply have to pass the same test, and few do — <strong>757 of 8,000</strong>. <code>mortsa</code> splits <code>mor-tsa</code> and is fine, because <code>ts</code> is already a legal onset; <code>astlu</code> and <code>asmki</code> have nowhere to break and are not. <!-- fiwo:illegal --></li>
+<li><strong>Doubled consonants (<code>tt</code>, <code>ss</code>, <code>ll</code> …) are illegal.</strong> <!-- fiwo:illegal --> Not a matter of taste: Fiwo has no consonant-length contrast, so a doubled <code>t</code> and a single <code>t</code> are <em>the same sounds</em> — <code>atta</code> would be pronounced exactly like <code>ata</code>. Not one of the 3,267 words in the language contains a doubled consonant.</li>
+<li>Some clusters pass that test and are still illegal, because they fail when spoken aloud: <strong><code>j</code>, <code>w</code> and <code>h</code> cannot close a syllable at all</strong> (glides drift toward a diphthong, which Fiwo forbids; syllable-final /h/ is absent from many languages); a following <code>q</code> mostly fails; same-place stops (<code>dt</code>, <code>bp</code>, <code>gk</code>) and sibilant-into-sibilant fail; and <strong><code>mn</code>/<code>nm</code> fail for exactly the reason <code>nq</code>/<code>mq</code>/<code>qn</code>/<code>qm</code> already do</strong>.</li>
+<li><strong>A two-consonant coda is much more restricted than a single one.</strong> <code>-mb</code> and <code>-ng</code> cannot close a syllable before another consonant in any position, though <code>jym-bo</code> and <code>dan-gu</code> are fine — a single-consonant coda is a different question.</li>
 </ul>
+</li>
 </ul>
+
         </section>
         <section id="rules" class="page">
             <h2>Rule Book (All 39 Rules)</h2>
 <p>This is the comprehensive, official rulebook of the <strong>Fiwo</strong> constructed language. It contains the complete set of phonological, morphological, syntactical, and logical rules that define how the language is written, spoken, and parsed.</p>
 <p>The rules are organized into <strong>9 Parts</strong> in a logical, pedagogical progression, beginning with core phonetic foundations and building up to complex clausal mechanics, conversational register, ellipsis &amp; deixis, and spoken repair.</p>
-<p><strong>Rule book v1.6 · 2026-08-07 · 39 rules across 9 Parts.</strong> Every grammar change is dated in the <strong>Rule Change Log</strong> at the end of this file. Bump the version and add a log entry with any rule change (Nofap §4).</p>
+<p><strong>Rule book v1.10 · 2026-09-24 · 39 rules across 9 Parts.</strong></p>
 <hr>
 <h2>Part I: Phonology, Orthography &amp; Foundations</h2>
 <h3>Rule 1: Phonemic Orthography &amp; Stress</h3>
 <ol>
 <li><strong>Strict Grapheme-to-Phoneme Correspondence:</strong> Words are spelled exactly as pronounced, with one letter per sound. There are no silent letters, no irregular spellings, and no exceptions. Every letter you see is a sound you produce, and every sound maps to exactly one letter.<ul>
-<li><strong>No diphthongs (hiatus rule).</strong> Fiwo has no diphthongs. Every vowel is its own syllable nucleus and is pronounced separately, letter by letter — adjacent vowels are spoken in hiatus, never glided together. <code>bojai</code> is <code>bo-ja-i</code> (three vowels, three syllables), not <code>bo-jai</code>. This makes the syllable count, and therefore the Rule 1.3 stress unit, computable from spelling alone. <em>(Ruling 2026-07-07, Todo Q15.)</em></li>
+<li><strong>No diphthongs (hiatus rule).</strong> Fiwo has no diphthongs. Every vowel is its own syllable nucleus and is pronounced separately, letter by letter — adjacent vowels are spoken in hiatus, never glided together. <code>bojai</code> is <code>bo-ja-i</code> (three vowels, three syllables), not <code>bo-jai</code>. This makes the syllable count, and therefore the Rule 1.3 stress unit, computable from spelling alone.</li>
 </ul>
 </li>
 <li><strong>Capitalization:</strong> Capitalization is used only for the first letter of a sentence and for proper nouns. All other words are written entirely in lowercase, regardless of their grammatical role or semantic importance.</li>
@@ -487,7 +618,7 @@
 <li><strong>Medial Clusters (Word-Middle):</strong> Consonants in the middle of a word are split across syllables (e.g., <code>V.C1 - C2.V</code> as in <em>kat-sa</em> or <em>far-lo-pa</em>), making most 2-consonant middle sequences naturally pronounceable and legal. 3-consonant medial clusters are disallowed in generated roots to maintain simplicity. <strong>Exception:</strong> nasal-nasal medial clusters (<code>nq</code>, and by the same logic <code>mq</code>, <code>qn</code>, <code>qm</code>) are disallowed — see Rule 2.9.</li>
 <li><strong>Grammar Word Codas:</strong> While all roots must end in vowels, closed-class grammar words (such as clausal walls <code>bef</code>, <code>bul</code>, brackets <code>tep</code>, <code>tel</code>, and the conditional <code>syn</code>) are legally permitted to end in a consonant. This hard consonant coda acts as a phonetic &quot;wall,&quot; signaling to the listener that a structural boundary has been hit.</li>
 <li><strong>The Null-Collision Rule (Safe Letters):</strong> To prevent collisions with active grammatical suffixes, two-letter (VC) grammar words (like <code>il</code> and <code>ul</code>) cannot end in an active grammatical suffix. The safe letters for short grammar words are: <code>l, n, z, x, b, g, c, j, v</code>. The Distributive Flag (<code>-f</code>) is highly active and is formally excluded from this safe list.</li>
-<li><strong>The Velar Nasal Constraint:</strong> The letter <code>q</code> (/ŋ/) is restricted by natural syllable structure. It may only appear syllable-internally or syllable-finally at word edges. It can NEVER be the first letter of a word. It also can never be preceded by <code>n</code> in a medial cluster (<code>nq</code>) — both are nasals, and the /n/+/ŋ/ transition is an awkward nasal-nasal collision (flagged 2026-07-08 when the candidate <code>punqo</code> was rejected).</li>
+<li><strong>The Velar Nasal Constraint:</strong> The letter <code>q</code> (/ŋ/) is restricted by natural syllable structure. It may only appear syllable-internally or syllable-finally at word edges. It can NEVER be the first letter of a word. It also can never be preceded by <code>n</code> in a medial cluster (<code>nq</code>) — both are nasals, and the /n/+/ŋ/ transition is an awkward nasal-nasal collision.</li>
 </ol>
 <hr>
 <h3>Rule 3: The Functional Vowel System</h3>
@@ -584,7 +715,7 @@
 <li><strong><code>-i</code> verb = the SOURCE</strong> — the ordinary Noun-to-Verb reading above (&quot;producing the noun&quot;), applied unchanged: the subject is whoever the emotion originates <em>from</em>. <em>sysui</em> (<strong>to bore</strong>), <em>veponkui</em> (<strong>to surprise</strong>), <em>pamui</em> (<strong>to hurt</strong>).</li>
 <li>The source is not arbitrary — ask <em>where does this emotion come from?</em> Grief comes from the griever, so <em>motuwui</em> is <strong>to grieve</strong>; boredom comes from the boring thing, so <em>sysui</em> is <strong>to bore</strong>. Experiencer-subject roots (<em>moskufui</em> to respect, <em>tajui</em> to envy, <em>brikui</em> to regret, <em>atilui</em> to believe, <em>zenui</em> to care) pass the same test unchanged.</li>
 <li>To predicate the experiencer state, derive the stative per Rule 10.3: <strong>Mik sysuei.</strong> (I am bored.) versus <strong>Nibop sysui.</strong> (The book bores / is boring.)</li>
-<li><em>(Ruling 2026-07-26, Todo 7.11. Scope: emotion and felt-state roots only — plain relational modifiers such as</em> hautue <em>(musical),</em> erue <em>(warlike) and</em> javuque <em>(infectious) are unaffected.)</em></li>
+<li><em>(Scope: emotion and felt-state roots only — plain relational modifiers such as</em> hautue <em>(musical),</em> erue <em>(warlike) and</em> javuque <em>(infectious) are unaffected.)</em></li>
 </ul>
 </li>
 </ul>
@@ -856,7 +987,7 @@
 </tr>
 </tbody></table></div>
 <ul>
-<li><strong>Note — &quot;always&quot; / &quot;never&quot; and their root synonyms (<code>ovce</code> / <code>amce</code>):</strong> The lexicon also carries the single-word modifiers <code>ovce</code> (always) and <code>amce</code> (never). These are <strong>the canonical citation forms</strong> for the two concepts; the compositional phrases <code>dionu late</code> and <code>dionu noze</code> are exactly equivalent and remain legal (they fall out of this grid automatically). This is the one sanctioned case of a root and a grid-phrase sharing a meaning — prefer the short roots <code>ovce</code>/<code>amce</code> in normal speech, and read the phrases as identical in value. <em>(Ruling 2026-07-07, Todo Q17-A.)</em></li>
+<li><strong>Note — &quot;always&quot; / &quot;never&quot; and their root synonyms (<code>ovce</code> / <code>amce</code>):</strong> The lexicon also carries the single-word modifiers <code>ovce</code> (always) and <code>amce</code> (never). These are <strong>the canonical citation forms</strong> for the two concepts; the compositional phrases <code>dionu late</code> and <code>dionu noze</code> are exactly equivalent and remain legal (they fall out of this grid automatically). This is the one sanctioned case of a root and a grid-phrase sharing a meaning — prefer the short roots <code>ovce</code>/<code>amce</code> in normal speech, and read the phrases as identical in value.</li>
 </ul>
 <ol start="4">
 <li><strong>Parser Examples:</strong><ul>
@@ -893,7 +1024,7 @@
 <li><strong>Slot 3:</strong> Object (The Target)</li>
 <li><strong>Slot 4:</strong> Time (The Temporal Frame)</li>
 </ul>
-<p>The parser recognizes this 4th syntactic slot at the absolute end of the sequence, strictly reserved for temporal adjuncts. To fill Slot 4 without crashing the sequence, the word must be an Abstract Noun (ending in the functional vowel <code>-u</code>) that explicitly relates to time. Because the parser reads strictly left-to-right, it &quot;falls forward&quot;—meaning it will fill the Object slot first, and if it encounters a temporal noun immediately after, it drops it safely into Slot 4.</p>
+<p>The parser recognizes this 4th syntactic slot at the absolute end of the sequence, strictly reserved for temporal adjuncts. To fill Slot 4 without crashing the sequence, the word must be an <strong>unmarked</strong> Abstract Noun (ending in the functional vowel <code>-u</code>, carrying no specificity suffix) that explicitly relates to time. Because the parser reads strictly left-to-right, it &quot;falls forward&quot;—meaning it will fill the Object slot first, and if it encounters an unmarked temporal noun immediately after, it drops it safely into Slot 4. A temporal noun that <em>is</em> marked for specificity is an entity, not a timeframe, and stays in the Object slot (Rule 10.8).</p>
 <h4>1. Intransitive Actions (The Optional Object)</h4>
 <p>If a verb does not project its action onto a target, the Object slot is left empty. The parser skips Slot 3 and drops any following temporal noun directly into Slot 4.</p>
 <ul>
@@ -956,7 +1087,7 @@
 <p>While Fiwo uses the Zero Copula for all timeless, present-tense identity and predicate assertions, the explicit copula verb <code>hi</code> is deployed into the SVO-T Verb slot whenever a speaker wants to apply time, aspect, serial chaining, or simple emphasis to a state of being.</p>
 <ul>
 <li><strong>The Zero Copula stays the default.</strong> For a plain present-tense statement, prefer the Zero Copula (<code>Mik nofar</code> = &quot;I am a person&quot;); it is the shorter, canonical form. The explicit copula is the optional, emphatic alternative — valid but not the everyday choice.</li>
-<li><strong>Naked <code>hi</code> is legal (present tense).</strong> The bare root <code>hi</code>, with no suffix, is a legal explicit present copula. It coexists with the Zero Copula and means the same thing. <em>(Ruling 2026-07-07, Todo Q1/Q11 — previously banned; the ban is lifted.)</em><ul>
+<li><strong>Naked <code>hi</code> is legal (present tense).</strong> The bare root <code>hi</code>, with no suffix, is a legal explicit present copula. It coexists with the Zero Copula and means the same thing. <em>(Previously banned; the ban is lifted.)</em><ul>
 <li><em>Legal (Naked, present):</em> <strong>Mik hi nofap.</strong> (I am the person.) — equivalent to the Zero Copula <code>Mik nofap</code>.</li>
 <li><em>Legal (Tense Modified):</em> <strong>Mik hid nofap.</strong> (I was the person.)</li>
 <li><em>Legal (Infinitive Stacker):</em> <strong>Mik fabi hit jany suk.</strong> (I want to be against you.)</li>
@@ -968,6 +1099,32 @@
 <li>Both encodings are valid and mean the same thing; the stative verb is the canonical default, <code>hi</code>+modifier the explicit alternative.</li>
 </ul>
 </li>
+</ul>
+<h4>8. Temporal Nouns in the Object Slot (Specificity Decides)</h4>
+<p>Slot 4 holds a <strong>timeframe</strong> — <em>when</em> the action happened. But a temporal noun can also be the <strong>thing the action is about</strong> (<em>fear the night</em>, <em>read the date</em>, <em>forget the evening</em>), and that is an Object, not a timeframe. Fiwo tells the two apart using the specificity marking every referential noun already carries (Rule 7). No particle, no new word, no reordering.</p>
+<ul>
+<li><strong>Unmarked (<code>dugu</code>, <code>nu</code>, <code>nudu</code>) → Slot 4.</strong> A bare temporal noun is a broad timeframe. It falls forward past the Object slot and lands in Time.</li>
+<li><strong>Marked (<code>dugup</code>, <code>dugur</code>) → Slot 3.</strong> Specificity marks &quot;a definite, known, or explicitly identified <strong>entity</strong>&quot; (Rule 7.1). A temporal noun carrying <code>-p</code> or <code>-r</code> <em>is</em> that entity, so it fills the Object slot like any other noun.</li>
+<li><strong>A <em>specific timeframe</em> takes a bridge.</strong> This is not a new requirement — Rule 13.5 has always said so: <code>dury dugup</code> (during that night), <code>foly tequr</code> (after a moment). The bridge is what distinguishes &quot;during that night&quot; from &quot;that night [as a thing]&quot;.</li>
+</ul>
+<p>Consequently <strong>Slot 4 accepts only an unmarked temporal Abstract Noun.</strong> This closes a former gap in which <em>any</em> <code>-u</code> noun following the Object was accepted as temporal, silently admitting non-temporal abstracts — <code>xeku</code> (country), <code>stepu</code> (story), <code>cemu</code> (thing) — into the Time slot.</p>
+<ul>
+<li><strong>The Minimal Triple:</strong><ul>
+<li><strong>Mik usid dugu.</strong> (I + sleep-[past] + night. <code>dugu</code> is bare → Slot 4. Meaning: <em>I slept at night.</em>)</li>
+<li><strong>Mik nes ebnesis dugup.</strong> (I + [not] + forget-[future] + night-the. <code>dugup</code> is marked → Slot 3. Meaning: <em>I will not forget the night.</em>)</li>
+<li><strong>Mik usid dury dugup.</strong> (I + sleep-[past] + during + night-the. Bridged → a specific timeframe. Meaning: <em>I slept during that night.</em>)</li>
+</ul>
+</li>
+<li><strong>Both readings in one sentence:</strong><ul>
+<li><strong>Mik nes ebnesis dugup sile bul mik ebnesid dugu otre.</strong> (<em>I will not forget this night, but I forgot another night.</em>) The first <code>dugup</code> is the Object of forgetting; the second <code>dugu</code> is bare and reads as the timeframe. Only the suffix separates them.</li>
+</ul>
+</li>
+<li><strong>Object and Time together (formerly unsayable):</strong><ul>
+<li><strong>Das lokid dup nudu.</strong> (She + read-[past] + date-the + today. <code>dup</code> is marked → Object; <code>nudu</code> is bare → Time. Meaning: <em>She read the date today.</em>) Before this rule the sequence had no legal parse at all.</li>
+</ul>
+</li>
+<li><strong>The test:</strong> if you could point at it, mark it. If it merely says <em>when</em>, leave it bare.</li>
+<li><strong>Common error:</strong> <code>sil</code> is a standalone pronoun that occupies a slot of its own; <code>sile</code> is the modifier that attaches to a noun (Rule 38). <em>This night</em> is <strong><code>dugup sile</code></strong> — never <code>sil dugup</code>, which the parser reads as two separate slots (<code>sil</code> Object, <code>dugup</code> Time).</li>
 </ul>
 <hr>
 <h3>Rule 11: Pragmatic Mood Tags</h3>
@@ -1118,6 +1275,13 @@ While the core mood tags above encode <em>intent</em> and <em>tone</em>, Fiwo al
 <li><strong>Kup daq brenis?</strong> (Meaning: <em>Will he come?</em>)</li>
 </ul>
 </li>
+<li><strong>Answering a negative question — <code>jas</code>/<code>nes</code> answer the fact, never the speaker.</strong> <code>jas</code> means <em>the positive version of what was just said is true</em>; <code>nes</code> means <em>the negative version is true</em>. A <code>nes</code> inside the question does not flip the answer — you answer exactly as you would the positive question. The same holds for a negative <strong>statement</strong>. <em>(Closed-class gap proposal #4; the contradicting particle <code>zes</code> was considered and rejected.)</em><ul>
+<li><strong>Kup suk nes nomid batap?</strong> (<em>Didn&#39;t you eat the food?</em>) → <strong>Jas.</strong> = I did eat. · <strong>Nes.</strong> = I didn&#39;t eat.</li>
+<li><strong>Suk nes kani ram.</strong> (<em>You don&#39;t know it.</em>) → <strong>Jas.</strong> = I do know it. · <strong>Nes.</strong> = Right, I don&#39;t.</li>
+<li>To say <em>&quot;you&#39;re right&quot;</em> — agreeing with the speaker rather than answering the fact — use the answer fragment <strong>Trive.</strong> (<em>True.</em>, Rule 37).</li>
+</ul>
+</li>
+<li><strong>Choice questions (&quot;tea or coffee?&quot;).</strong> <code>Kup</code> with a <code>ron</code> list and no variable is still a polar question — <strong>Kup suk fabi teso ron refo?</strong> asks <em>do you want tea-or-coffee?</em>, and <code>Jas.</code> is a correct answer. To ask <strong>which one</strong>, put the distributive interrogative <code>glecef</code> after the list (Rule 22): <strong>Kup suk fabi teso ron refo glecef?</strong> (<em>Which do you want, tea or coffee?</em>) → <strong>Teso.</strong> (Rule 37 fragment).</li>
 </ul>
 </li>
 <li><strong>Manner &amp; Reason Variables (<code>wis</code> and <code>wal</code>):</strong><ul>
@@ -1185,7 +1349,10 @@ While the core mood tags above encode <em>intent</em> and <em>tone</em>, Fiwo al
 </li>
 </ul>
 </li>
-<li><strong>Note: Bridged Time vs. Slot 4 Time:</strong> Prepositions are used when time is specific or logically bridged to the action (e.g., <em>dury dugu</em> - during the night, or <em>fecy fitydu</em> - until tomorrow). If you are simply stating a broad timeframe as an adverb (e.g., &quot;today&quot;, &quot;now&quot;), you do not need a preposition bridge; simply drop the bare temporal noun into Slot 4 at the end of the SVO-T sequence.</li>
+<li><strong>Note: Bridged Time vs. Slot 4 Time:</strong> Prepositions are used when time is specific or logically bridged to the action (e.g., <em>dury dugup</em> - during that night, or <em>fecy fitydu</em> - until tomorrow). If you are simply stating a broad timeframe as an adverb (e.g., &quot;today&quot;, &quot;now&quot;), you do not need a preposition bridge; simply drop the <strong>bare, unmarked</strong> temporal noun into Slot 4 at the end of the SVO-T sequence.<ul>
+<li><strong>The word <em>bare</em> is load-bearing.</strong> Slot 4 will not accept a temporal noun carrying <code>-p</code> or <code>-r</code>; a marked temporal noun is an entity and belongs in the Object slot (Rule 10.8). So a <em>specific</em> timeframe has exactly one legal encoding — the bridge. <strong>Mik usid dury dugup</strong> (<em>I slept during that night</em>), never <code>Mik usid dugup</code>, which means <em>I slept the night</em> with the night as the thing slept.</li>
+</ul>
+</li>
 </ol>
 <hr>
 <h2>Part IV: Verb Mechanics &amp; Predicates</h2>
@@ -1568,7 +1735,10 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <p>By default, Fiwo’s syntax adheres to the strict &quot;Look Left&quot; rule. When a modifier is placed at the end of a compound chain of nouns connected by <code>lan</code> (And), it will only modify the absolute closest noun to its left.</p>
 <p>To apply a single modifier to the entire group, you must append the Distributive Flag (<code>-f</code>) to the end of the modifier.</p>
 <ol>
-<li><strong>Parser Logic:</strong> The <code>-f</code> suffix tells the parser to act as mathematical parentheses, distributing the modifier backward across every noun connected by <code>lan</code> until the chain breaks.</li>
+<li><strong>Parser Logic:</strong> The <code>-f</code> suffix tells the parser to act as mathematical parentheses, distributing the modifier backward across every noun connected by <code>lan</code> <strong>or <code>ron</code></strong> until the chain breaks.<ul>
+<li><strong>On a <code>ron</code> chain, <code>glecef</code> means &quot;which one of these&quot;.</strong> <strong>Kup suk fabi teso ron refo glecef?</strong> (<em>Which do you want, tea or coffee?</em>). Without <code>-f</code>, <code>glece</code> reaches only the nearest noun — <strong>teso ron refo glece</strong> is <em>tea, or which coffee?</em> <em>(Closed-class gap proposal #5.)</em></li>
+</ul>
+</li>
 <li><strong>Syntax:</strong> <code>[Noun A] + lan + [Noun B] + [Modifier]-f</code></li>
 <li><strong>Examples:</strong><ul>
 <li><strong>mosa lan nasa tande</strong> (Without -f)<ul>
@@ -1767,7 +1937,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><strong>Mik fabid mosa lan nasa.</strong> (I + want-[past] + tree + [Inline And] + plant. Meaning: <em>I wanted both a tree and a plant.</em>)</li>
 </ul>
 </li>
-<li><strong>Expressing &quot;Either / Or&quot; (The <code>ron</code> Operator):</strong> To express a choice between two items within the same SVO slot, bind them with <code>ron</code>.<ul>
+<li><strong>Expressing &quot;Either / Or&quot; (The <code>ron</code> Operator):</strong> To express a choice between two items within the same SVO slot, bind them with <code>ron</code>. <code>ron</code> is <em>inclusive</em> — <em>A or B, or both</em> — and must stay so, because §4&#39;s neither/nor is built on it. For a strict <em>not both</em>, add the combination as its own negated clause: <strong>Suk nomi dozme aplar ron rimar. Suk nomi nes dozme aplar lan rimar.</strong> (<em>You may eat an apple or a grape. You may not eat both.</em>) To ask <em>which one</em>, see Rule 22 (<code>glecef</code>). <em>(Closed-class gap proposal #5: no exclusive-or word.)</em><ul>
 <li><strong>Syntax:</strong> <code>[Item A] + ron + [Item B]</code></li>
 <li><strong>Mik fabid mosa ron nasa.</strong> (I + want-[past] + tree + [Inline Or] + plant. Meaning: <em>I wanted either a tree or a plant.</em>)</li>
 </ul>
@@ -1791,7 +1961,8 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><strong>The Roster of Hard Walls:</strong> The following clausal conjunctions trigger a complete parser reset:<ul>
 <li><strong><code>bef</code> (And - Clausal):</strong> Adds a new, independent parallel thought.</li>
 <li><strong><code>bul</code> (But):</strong> Introduces a contrasting independent clause.</li>
-<li><strong><code>rot</code> (Or - Clausal):</strong> Presents an alternative independent clause.</li>
+<li><strong><code>rot</code> (Or - Clausal):</strong> Presents an alternative independent clause. After a <code>syn … can/pen</code> result it stays <em>inside</em> that result (<em>then Y or Z</em>) — it is never &quot;else&quot; (Rule 32.6).</li>
+<li><strong><code>din</code> (Else / Otherwise):</strong> Opens the branch that applies when the previous condition — or, with no conditional, the previous clause — does not hold. Position-governed; full rules in Rule 32.6.</li>
 <li><strong><code>kad</code> (Because):</strong> Introduces a new clause that serves as the cause or reason for the previous one.</li>
 <li><strong><code>vel</code> (While / Whereas):</strong> Introduces a contrasting or simultaneous independent clause.</li>
 <li><strong><code>zol</code> (Although / Even though):</strong> Introduces a concessive independent clause, functioning as a hard wall.</li>
@@ -1895,12 +2066,12 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 </li>
 <li><strong>String Literals (Reported Speech &amp; Direct Thoughts):</strong> In Fiwo, punctuation has no grammatical function. Instead, <code>tep</code> and <code>tel</code> act as strict string delimiters, isolating entire clauses so they can be parsed as a single Object unit.<ul>
 <li>When using verbs of communication (e.g., <em>gesi</em> - to speak, <em>slezi</em> - to ask) or cognition (e.g., <em>pozi</em> - to think, <em>atilui</em> - to believe), you do not need a word for &quot;that&quot;. Open a subordinate bracket. The parser processes the encapsulated sentence—including its own internal Mood Tag—and treats that block as the Object of the main verb.</li>
-<li><strong>Direct vs. Indirect Quotations:</strong> Fiwo distinguishes between direct and indirect reported speech logically through pronoun shifting and tense alignment:<ul>
-<li><em>Direct Quotations (Preserves Original Speaker&#39;s Perspective):</em> Pronouns inside the brackets preserve the original speaker&#39;s point of view. The first-person pronoun <code>mik</code> refers directly to the main clause subject.<ul>
-<li><strong>Daq gesid tep hap mik kypei.</strong> (He said [Assertion] I to-be-happy. Meaning: <em>He said, &quot;I am happy.&quot;</em> Note: Explicit <code>tel</code> is omitted at the sentence end).</li>
+<li><strong>Direct vs. Indirect Quotations:</strong> Fiwo marks the difference with the <strong>opening word</strong>, so it can be heard — not with a capital letter, which cannot:<ul>
+<li><em>Direct Quotations — <code>huc</code> (Preserves Original Speaker&#39;s Perspective):</em> The direct-quote bracket <code>huc … tel</code> (§9) holds the speaker&#39;s exact words. Pronouns keep the original speaker&#39;s point of view: <code>mik</code> inside it is the main-clause subject.<ul>
+<li><strong>Daq gesid huc Hap mik kypei.</strong> (He said [Quote] [Assertion] I to-be-happy. Meaning: <em>He said, &quot;I am happy.&quot;</em> Note: Explicit <code>tel</code> is omitted at the sentence end).</li>
 </ul>
 </li>
-<li><em>Indirect Quotations (Shifts to Current Speaker&#39;s Perspective):</em> Pronouns inside the brackets shift to match the perspective of the person telling the sentence. The main subject is referred to in the third person (<code>dal</code>).<ul>
+<li><em>Indirect Quotations — <code>tep</code> (Shifts to Current Speaker&#39;s Perspective):</em> After a verb of speech or thought, <code>tep</code> is <strong>always</strong> reported speech. Pronouns inside shift to match the perspective of the person telling the sentence — so <code>Daq gesid tep mik kypei</code> means <em>He said that <strong>I</strong> am happy</em>. The main subject is referred to in the third person (<code>dal</code>).<ul>
 <li><strong>Daq gesid tep hap dal kypei.</strong> (He said [Assertion] he to-be-happy. Meaning: <em>He said that he [someone else] is happy.</em>)</li>
 </ul>
 </li>
@@ -1938,7 +2109,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 </li>
 <li><em>When <code>tel</code> is MANDATORY:</em> You cannot omit <code>tel</code> if the sentence continues after the subordinate clause, or if the omission creates syntactic ambiguity:<ul>
 <li><em>Mid-Sentence Clausal Walls:</em> When using clausal conjunctions (like <code>bef</code>, <code>bul</code>, <code>pen</code>, <code>kad</code>), <code>tel</code> must be written to define whether the conjunction is <em>inside</em> or <em>outside</em> the subordinate clause.<ul>
-<li><em>Inside relative clause:</em> <strong>Mik kani nofap tep ceni ky juro bul naci nes tel.</strong> (I know the person [who lives in the city but doesn&#39;t work].)</li>
+<li><em>Inside relative clause:</em> <strong>Mik kani nofap tep ceni ky juro bul nes naci tel.</strong> (I know the person [who lives in the city but doesn&#39;t work].)</li>
 <li><em>Outside relative clause:</em> <strong>Mik kani nofap tep ceni ky juro tel bul mik neswy nauxap.</strong> (I know the person [who lives in the city], but I am without friends.)</li>
 </ul>
 </li>
@@ -1951,7 +2122,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 </li>
 </ul>
 </li>
-<li><strong>The Clause as Subject (Bracket in Slot 1):</strong> A <code>tep … tel</code> bracket may fill <strong>Slot 1 (Subject)</strong>, exactly as it can fill Slot 3 (Object, §4). When <code>tep</code> opens at the very start of a clause — before any subject noun — the parser reads the entire bracket as the subject, then processes the outer verb/predicate that follows. This lets a whole clause be the thing you predicate about (&quot;<em>That he left</em> is a problem&quot;). <em>(Ruling 2026-07-07, Todo Q13.)</em><ul>
+<li><strong>The Clause as Subject (Bracket in Slot 1):</strong> A <code>tep … tel</code> bracket may fill <strong>Slot 1 (Subject)</strong>, exactly as it can fill Slot 3 (Object, §4). When <code>tep</code> opens at the very start of a clause — before any subject noun — the parser reads the entire bracket as the subject, then processes the outer verb/predicate that follows. This lets a whole clause be the thing you predicate about (&quot;<em>That he left</em> is a problem&quot;).<ul>
 <li><strong>Position determines the reading (single-pass, no ambiguity):</strong> <code>tep</code> at clause start = <strong>subject</strong> clause; <code>tep</code> after a verb awaiting its object = <strong>object</strong> (complement) clause (§4); <code>tep</code> after a noun = <strong>relative</strong> clause (§3).</li>
 <li><strong><code>tel</code> is MANDATORY here.</strong> Because the outer predicate follows immediately, the closing <code>tel</code> must be written to mark where the subject clause ends and the predicate begins — it cannot be dropped the way a sentence-final bracket can (§6).</li>
 <li><em>Examples:</em><ul>
@@ -1963,16 +2134,20 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li>The predicate after <code>tel</code> may be a stative verb (<code>gykei</code>, <code>gawei</code>), a full verb, or a Zero-Copula predicate noun. This replaces the older <code>kad</code>-reorder workaround for subject clauses.</li>
 </ul>
 </li>
-<li><strong>Quotation Clauses (Direct Speech):</strong> Direct speech is a <strong>complement bracket</strong> (§4) after a verb of speech or thought (<code>gesi</code> say, <code>slezi</code> ask, <code>baqi</code> shout, <code>hadi</code> reply, <code>pozi</code> think/infer, <code>eksapli</code> explain…). The <code>tep … tel</code> bracket holds the quoted utterance <strong>verbatim</strong> — original pronouns, mood tags, and deixis exactly as the speaker produced them. Fiwo needs no quotation marks; the brackets are the quotation. <em>(Ruling 2026-07-17, Todo D1. This is the same complement slot as §4 — the rule names it and adds the utterance-boundary and quote-initial conventions below.)</em><ul>
-<li><strong>The quoted utterance is capitalized like a sentence.</strong> The first word after <code>tep</code> (and after each internal utterance boundary, below) is <strong>utterance-initial</strong> — a leading capital marks a quoted sentence-start, not a proper noun. So <code>daq slezid tep Mace, mik tsejapid ram tel</code> reads <code>Mace</code> as the modifier <em>maybe</em>, not a name.</li>
-<li><strong>Internal sentence punctuation is an utterance boundary <em>inside</em> the bracket — it never closes the bracket or ends the outer sentence.</strong> A <code>.</code>, <code>?</code>, or <code>!</code> between <code>tep</code> and its <code>tel</code> resets the inner clause and opens the next quoted utterance (mood tags legal again, because it is utterance-initial). The quote is closed by <code>tel</code> — or by the true end of the sentence, which flushes any still-open bracket (§7), so a quote running to the end of the sentence needs no <code>tel</code> at all. This makes multi-sentence quotes deterministic with zero new machinery — <strong>bracket depth alone</strong> decides whether punctuation resets the sentence or just the inner utterance, so parsing stays single-pass. <em>(This convention applies to every open bracket uniformly, not only quotes — internal punctuation inside any <code>tep … tel</code> is a within-bracket boundary. Punctuation is never load-bearing for the outer parse.)</em><ul>
-<li><em>Single-utterance quote:</em> <strong>Daq slezid tep Kup suk tsejapid gutop mike?</strong> (He asked [Did you see my tool?]. The internal <code>?</code> is the quoted question&#39;s own; the end of the sentence closes the bracket, so no <code>tel</code> is written — see §7.)</li>
-<li><em>Multi-utterance quote:</em> <strong>Nibop slezid tep Kup wun xosis hoxop. Kup suk xyfis wis ram?</strong> (The book asked [What opens the door? How do you find it?]. The internal <code>.</code> ends the first quoted question and the second <code>Kup</code> is legal because it is utterance-initial inside the quote.)</li>
-<li><em>The same quote mid-sentence, where <code>tel</code> becomes mandatory:</em> <strong>Daq slezid tep Kup suk tsejapid gutop mike? tel bef daq xalid.</strong> (He asked [Did you see my tool?] and he moved on.) Without <code>tel</code>, the wall <code>bef</code> and everything after it would be read as the next utterance <em>inside</em> the quotation.</li>
+<li><strong>Quotation Clauses (Direct Speech, <code>huc</code>):</strong> Direct speech opens with its own bracket word, <strong><code>huc</code></strong>, and closes with <code>tel</code> like any bracket. It is a <strong>complement bracket</strong> (§4): legal <strong>only</strong> after a verb awaiting its object — in practice a verb of speech or thought (<code>gesi</code> say, <code>slezi</code> ask, <code>baqi</code> shout, <code>hadi</code> reply, <code>pozi</code> think/infer, <code>eksapli</code> explain…). Anywhere else — after a noun, or opening a clause — <code>huc</code> is a fatal error. The <code>huc … tel</code> bracket holds the quoted utterance <strong>verbatim</strong> — original pronouns, mood tags, tense and deixis exactly as the speaker produced them. Fiwo needs no quotation marks; the bracket is the quotation. <em>(<code>huc</code> added 2026-09-24, Closed-class gap proposal #10.)</em><ul>
+<li><strong>Why a separate word.</strong> Until 2026-09-24 direct speech used <code>tep</code>, and only a capital letter told <em>Das gesid tep Mik goilei</em> (She said, &quot;I am sad&quot;) from <em>Das pozid tep mik nomid batap</em> (She thought that <strong>I</strong> ate the food). A capital cannot be heard, and in Fiwo nothing written-only may carry grammar (Rule 11 rationale). Now <strong><code>huc</code> = the quoted person&#39;s words, <code>tep</code> = the teller&#39;s report</strong>, and the difference is audible.</li>
+<li><strong>Placement with a recipient.</strong> The addressee goes in a prepositional bridge before the quote (Rule 13.4): <strong>Das fenutid zy mik huc Kop nomi batap sile.</strong> (She told me, &quot;Eat this food.&quot;) An addressee in the object slot would leave <code>huc</code> nothing to fill.</li>
+<li><strong>Quotes inside quotes</strong> use <code>huc</code> again and count toward the depth limit (§6): <strong>Bo hadid huc Daq gesid huc Kop suk xali tel.</strong> (Bo answered: &quot;He said: &#39;Go.&#39;&quot;)</li>
+<li><strong>Mentioning a single word:</strong> <strong>Mik gesid huc nes.</strong> (I said &quot;no&quot;.) To <em>name</em> a word after a noun — <em>the word &quot;not&quot;</em> — keep the ordinary relative bracket: <code>gop tep nes tel</code>.</li>
+<li><strong>The quoted utterance is capitalized like a sentence.</strong> The first word after <code>huc</code> (and after each internal utterance boundary, below) is <strong>utterance-initial</strong> — a leading capital marks a quoted sentence-start, not a proper noun. So <code>daq slezid huc Mace, mik tsejapid ram tel</code> reads <code>Mace</code> as the modifier <em>maybe</em>, not a name. This is a spelling convention only; it carries no meaning.</li>
+<li><strong>Internal sentence punctuation is an utterance boundary <em>inside</em> the bracket — it never closes the bracket or ends the outer sentence.</strong> A <code>.</code>, <code>?</code>, or <code>!</code> between <code>huc</code> (or <code>tep</code>) and its <code>tel</code> resets the inner clause and opens the next quoted utterance (mood tags legal again, because it is utterance-initial). The quote is closed by <code>tel</code> — or by the true end of the sentence, which flushes any still-open bracket (§7), so a quote running to the end of the sentence needs no <code>tel</code> at all. This makes multi-sentence quotes deterministic with zero new machinery — <strong>bracket depth alone</strong> decides whether punctuation resets the sentence or just the inner utterance, so parsing stays single-pass. <em>(This convention applies to every open bracket uniformly, not only quotes — internal punctuation inside any <code>tep … tel</code> is a within-bracket boundary. Punctuation is never load-bearing for the outer parse.)</em><ul>
+<li><em>Single-utterance quote:</em> <strong>Daq slezid huc Kup suk tsejapid gutop mike?</strong> (He asked [Did you see my tool?]. The internal <code>?</code> is the quoted question&#39;s own; the end of the sentence closes the bracket, so no <code>tel</code> is written — see §7.)</li>
+<li><em>Multi-utterance quote:</em> <strong>Nibop slezid huc Kup wun xosis hoxop. Kup suk xyfis wis ram?</strong> (The book asked [What opens the door? How do you find it?]. The internal <code>.</code> ends the first quoted question and the second <code>Kup</code> is legal because it is utterance-initial inside the quote.)</li>
+<li><em>The same quote mid-sentence, where <code>tel</code> becomes mandatory:</em> <strong>Daq slezid huc Kup suk tsejapid gutop mike? tel bef daq xalid.</strong> (He asked [Did you see my tool?] and he moved on.) Without <code>tel</code>, the wall <code>bef</code> and everything after it would be read as the next utterance <em>inside</em> the quotation.</li>
 </ul>
 </li>
-<li><strong>Quoted fragments are legal quote-initially.</strong> A quotation reproduces a complete utterance, and an Answer Fragment (Rule 37) <em>is</em> a complete utterance, so a bare modifier or prepositional phrase may open a quote: <strong>Daq hadid tep Mace, mik tsejapid ram.</strong> (He replied [Maybe, I saw it].)</li>
-<li><strong>Direct vs. indirect speech is never a parse ambiguity.</strong> Indirect speech (<code>Daq gesid tep dal xalis.</code> = &quot;he said that she would go&quot;) uses the identical complement bracket; the difference is purely semantic (verbatim, shifted deixis) and needs no separate syntax.</li>
+<li><strong>Quoted fragments are legal quote-initially.</strong> A quotation reproduces a complete utterance, and an Answer Fragment (Rule 37) <em>is</em> a complete utterance, so a bare modifier or prepositional phrase may open a quote: <strong>Daq hadid huc Mace, mik tsejapid ram.</strong> (He replied [Maybe, I saw it].)</li>
+<li><strong>Direct vs. indirect speech is never ambiguous — in writing or in speech.</strong> <code>huc</code> is direct, <code>tep</code> is reported (§5). A reported question keeps its <code>Kup</code> inside <code>tep</code>: <strong>Das slezid tep Kup mik gawei.</strong> (She asked whether I was well.) — against <strong>Das slezid huc Kup suk gawei?</strong> (She asked, &quot;Are you well?&quot;).</li>
 </ul>
 </li>
 </ol>
@@ -2005,12 +2180,15 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <h3>Rule 32: Conditionals &amp; Correlative Sequences</h3>
 <p>Conditional statements (If X, then Y) do not require complex subordinate bracketing. Instead, conditions are handled as a paired correlative sequence using the Condition Initiator (<strong>syn</strong>) and a corresponding Clausal Wall (such as <strong>can</strong> or <strong>pen</strong>).</p>
 <ol>
-<li><strong>The Logic &amp; Placement:</strong> The particle <strong>syn</strong> acts as a structural flag. It is placed at the absolute beginning of a clause (exactly like a Mood Tag) to warn the parser that the incoming SVO sequence is a theoretical premise or required condition, rather than a standalone fact.</li>
-<li><strong>Parser Logic:</strong> Because the condition is a standard SVO track, it runs normally until it hits a clausal wall. The wall finalizes the condition, resets the parser&#39;s active memory, and introduces the resulting consequence.<ul>
+<li><p><strong>The Logic &amp; Placement:</strong> The particle <strong>syn</strong> acts as a structural flag. It is placed at the absolute beginning of a clause (exactly like a Mood Tag) to warn the parser that the incoming SVO sequence is a theoretical premise or required condition, rather than a standalone fact.</p>
+</li>
+<li><p><strong>Parser Logic:</strong> Because the condition is a standard SVO track, it runs normally until it hits a clausal wall. The wall finalizes the condition, resets the parser&#39;s active memory, and introduces the resulting consequence.</p>
+<ul>
 <li><strong>Syntax:</strong> <code>syn + [Condition SVO Sequence] + can / pen + [Result SVO Sequence]</code></li>
 </ul>
 </li>
-<li><strong>Parser Examples:</strong><ul>
+<li><p><strong>Parser Examples:</strong></p>
+<ul>
 <li><em>Simple Conditional (Chronological &quot;Then&quot;):</em><ul>
 <li><strong>Syn suk xali ruze can suk nes tsejais tivwop.</strong></li>
 <li><em>Literal Breakdown:</em> [If] + you + move + fast + [Then] + you + [Not] + see-[future] + path-the.</li>
@@ -2039,7 +2217,8 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 </li>
 </ul>
 </li>
-<li><strong>The Topic Marker (<code>zet</code>):</strong> To front a <strong>topic</strong> — announcing what a sentence is about before the sentence itself (&quot;As for the book, …&quot; / &quot;Regarding the weather, …&quot;) — Fiwo uses the correlative structure <code>zet [Topic] can [Main Clause]</code>. <em>(Ruling 2026-07-07, Todo Q14.)</em><ul>
+<li><p><strong>The Topic Marker (<code>zet</code>):</strong> To front a <strong>topic</strong> — announcing what a sentence is about before the sentence itself (&quot;As for the book, …&quot; / &quot;Regarding the weather, …&quot;) — Fiwo uses the correlative structure <code>zet [Topic] can [Main Clause]</code>.</p>
+<ul>
 <li><strong>Why a dedicated particle:</strong> The preposition <code>zety</code> (&quot;about&quot;) cannot do this — as a bridge it must anchor to a root on its <em>left</em> (Rule 13), and at a sentence&#39;s start there is nothing there. The topic marker <code>zet</code> is <strong>not</strong> a preposition; it is a clause-initial flag (like <code>syn</code>) that opens a topic phrase and hands off to the main clause at the wall. <code>zety</code> remains the mid-sentence &quot;about&quot; preposition; <code>zet</code> is only the sentence-opening topic marker. The two never overlap.</li>
 <li><strong>Placement &amp; Closure:</strong> <code>zet</code> sits at the absolute start of the sentence. The topic phrase (a noun phrase) runs until the wall <code>can</code> (or <code>pen</code>), which closes the topic and opens the main SVO clause. The closing wall is <strong>mandatory</strong> — omitting it is a fatal error (the parser cannot tell where the topic ends).<ul>
 <li><strong>Syntax:</strong> <code>zet + [Topic Noun Phrase] + can + [Main SVO Clause]</code></li>
@@ -2057,6 +2236,36 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><em>Contrast with the preposition:</em> <strong>Mik pozid zety fiturup.</strong> (I + think-[past] + about + future-the. Meaning: <em>I thought about the future.</em> — here <code>zety</code> bridges mid-sentence; <code>zet</code> would be illegal in this position.)</li>
 </ul>
 </li>
+<li><p><strong>Rule 32.6 — Else / Otherwise (<code>din</code>):</strong> <code>din</code> is a clausal wall (Rule 28) that opens the branch applying when something does <strong>not</strong> hold. What it negates is decided by position alone — by what sits directly before it, never by what follows. <em>(Closed-class gap proposal #6.)</em></p>
+<ul>
+<li><strong>After a conditional — if / else.</strong> Directly after the result of a <code>syn … can/pen …</code> conditional, <code>din</code> negates the <em>premise</em>: the branch runs when the condition is false. No premise is restated.<ul>
+<li><strong>Syntax:</strong> <code>syn + [Condition] + can/pen + [Result] + din + [Alternative]</code></li>
+<li><strong>Syn teso cutwe can mik nomis ram din mik nomis refo.</strong> ([If] + tea + ready + [then] + I + drink-[future] + it + [else] + I + drink-[future] + coffee. Meaning: <em>If the tea is ready I&#39;ll drink it, otherwise I&#39;ll drink coffee.</em>)</li>
+</ul>
+</li>
+<li><strong>After a plain statement or command — otherwise.</strong> With no conditional directly before it, <code>din</code> negates the <strong>previous clause</strong> itself: &quot;if that does not happen&quot;.<ul>
+<li><strong>Kop hici ruze din suk nes tsejais dal.</strong> ([Command] + walk + fast + [otherwise] + you + [not] + see-[future] + him. Meaning: <em>Walk fast, otherwise you won&#39;t see him.</em>)</li>
+</ul>
+</li>
+<li><strong>Else-if chains (<code>din syn</code>).</strong> A <code>syn</code> may open the else-branch, making a new condition. Each <code>din</code> belongs to the <code>syn</code> directly before it, so a chain of any length has exactly one reading.<ul>
+<li><strong>Syn teso cutwe can mik nomis ram din syn refo cutwe can mik nomis refo din mik nomis dorso.</strong> (Meaning: <em>If the tea is ready I&#39;ll drink it, else if the coffee is ready I&#39;ll drink that, else water.</em>)</li>
+</ul>
+</li>
+<li><strong>Utterance-initial <code>din</code>.</strong> Opening an utterance, <code>din</code> binds to the <strong>previous utterance</strong> — the same one-utterance window as <code>jas</code>/<code>nes</code> answers (Rule 12.4) and standalone <code>wal</code> (Rule 12.6).<ul>
+<li><strong>Syn teso cutwe can mik nomis ram. Din mik nomis refo.</strong> (<em>If the tea is ready I&#39;ll drink it. Otherwise, coffee.</em>)</li>
+</ul>
+</li>
+<li><strong>Illegal positions (fatal errors):</strong><ul>
+<li>Inside an unresolved premise — <code>syn</code> still awaiting <code>can</code>/<code>pen</code>. The condition needs its result first.</li>
+<li>Directly after a <code>zet</code> topic sentence (Rule 32.5). A topic is not a condition; there is nothing to negate.</li>
+<li>Directly after another else-branch (<code>… din X din Y</code>). Chain with <code>din syn</code> instead.</li>
+<li>After another wall, or anywhere with no completed clause before it (except utterance-initial).</li>
+</ul>
+</li>
+<li><strong>Brackets:</strong> <code>din</code> belongs to the clause level it sits in. Inside <code>tep … tel</code> it can only negate a conditional or clause inside that same bracket — never one outside it.</li>
+<li><strong><code>rot</code> after a conditional stays inside the result.</strong> <code>Syn X can Y rot Z</code> means <em>if X, then (Y or Z)</em> — never &quot;else&quot;. Otherwise is <code>din</code>&#39;s job alone.</li>
+</ul>
+</li>
 </ol>
 <hr>
 <h2>Part VIII: Social, Conversational &amp; Pragmatics</h2>
@@ -2067,7 +2276,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><strong>Absolute Immutable State:</strong> Because Phatic Particles are not nouns, verbs, or modifiers, they are mathematically immutable. They cannot be modified by other words, take tense suffixes, or take noun specificity markers.</li>
 <li><strong>Strict Placement (Standalone Only):</strong> A phatic particle must stand alone on the Null Track — as its own utterance, or at the start of a sentence before the SVO track begins. It may NOT trail inside a clause. Although speakers may casually append politeness words to the end of a request (like English &quot;..., please&quot;), in parsed Fiwo this is illegal: the particle must be written as its own standalone word.<ul>
 <li><em>Illegal:</em> <code>Kop stomi batap zy mik cef.</code></li>
-<li><em>Legal:</em> <code>Cef. Kop stomi batap zy mik.</code></li>
+<li><em>Legal:</em> <code>Cef. Kop stomi zy mik batap.</code></li>
 </ul>
 </li>
 <li><strong>The Phatic Dictionary &amp; Parser Examples:</strong><ul>
@@ -2103,7 +2312,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><strong>Nes. Mik nes brenid.</strong> (The first <code>Nes</code> fulfills the Null Track and means &quot;No.&quot; The parser resets. The second <code>nes</code> operates inside the SVO track, negating <code>brenid</code>. Meaning: <em>No. I did not come.</em>)</li>
 </ul>
 </li>
-<li><em>Social-formula batch (added 2026-07-07, Todo Q16):</em></li>
+<li><em>Social-formula batch:</em></li>
 <li><strong>nel</strong> (<em>You&#39;re welcome</em>): Reply acknowledging thanks.<ul>
 <li><strong>Nel. Ram biwu noze.</strong> (Meaning: <em>You&#39;re welcome. It&#39;s no problem.</em>)</li>
 </ul>
@@ -2445,7 +2654,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
                 </a>
                 <a class="learn-path-card" href="#flashcards">
                     <h3>Flashcards</h3>
-                    <p class="learn-path-stat">3,267 words &middot; 8,268 cards &middot; on your device</p>
+                    <p class="learn-path-stat">3,308 words &middot; 8,383 cards &middot; on your device</p>
                     <p>The same deck as the Fiwo app, running the same scheduler: it shows you a word just before you
                     would have forgotten it, both directions, and nothing leaves your browser. Swipe to grade, or
                     <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>.</p>
@@ -2468,7 +2677,10 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
                 translation rather than practice, and the dictionaries when you want to look something up yourself.</p>
             </div>
         </section>
-        <section id="workbook" class="page">
+        <!-- data-src: the course is fetched by workbook-page.js the first time
+             this page opens, not on every visit. Bump its ?v= when workbook.js
+             is regenerated, like the other cache-busters. -->
+        <section id="workbook" class="page" data-src="workbook.js?v=dee1a6fb">
             <p class="page-crumb"><a href="#how-to-learn">&larr; How to Learn Fiwo</a></p>
             <h2>Workbook</h2>
             <p class="section-lede">Thirty-eight lessons and seven reviews, strictly vocabulary-gated &mdash;
@@ -2538,11 +2750,19 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
             <button id="reader-close" class="reader-back" aria-label="Back to the story library">&larr;<span>Library</span></button>
             <h2 id="reader-title"></h2>
             <div class="reader-actions">
+                <button id="reader-play" class="reader-toggle reader-play" aria-pressed="false"
+                        aria-label="Read this story aloud" title="Read this story aloud">
+                    <span class="reader-play-icon" aria-hidden="true">▶</span><span>Read to me</span>
+                </button>
                 <button id="reader-new-words" class="reader-toggle" aria-expanded="false">New words</button>
                 <button id="reader-colors" class="reader-toggle" aria-pressed="false">Colour coding</button>
                 <button id="reader-all-en" class="reader-toggle" aria-pressed="false">All translations</button>
             </div>
         </header>
+        <!-- Shown only when "Read to me" is tapped without the voice installed.
+             Lives inside the reader because the offer has to reach someone who
+             is mid-story, and the settings card in Phonetics cannot. -->
+        <div id="reader-voice" class="reader-voice" hidden></div>
         <div id="reader-newwords" class="reader-newwords" hidden></div>
         <div id="reader-body" class="reader-body"></div>
         <div id="reader-legend" class="reader-legend" hidden></div>
@@ -2564,24 +2784,36 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
     <footer>
         <p>&copy; 2026 Joshua Leon Arkema Barends. The Fiwo Language documentation is licensed under CC BY 4.0.</p>
     </footer>
-    <script src="fiwo-store.js?v=5"></script>
+    <script src="fiwo-store.js?v=284bf6cf"></script>
     <!-- Layer 3: the backup file. After the store, because it registers itself
          with it; harmless on a browser with no File System Access at all. -->
-    <script src="fiwo-backup.js?v=1"></script>
-    <script src="dictionary.js"></script>
-    <script src="DerivedDictionary.js"></script>
-    <script src="stories.js?v=7"></script>
-    <script src="fiwo-parser.js?v=8"></script>
-    <script src="fiwo-pronounce.js?v=6"></script>
-    <script src="script.js?v=30"></script>
-    <!-- The course, generated from Workbook_v4.md, and the page that answers it.
-         Data first: workbook-page.js reads window.FIWO_WORKBOOK at open(). -->
-    <script src="workbook.js?v=4"></script>
-    <script src="workbook-page.js?v=5"></script>
+    <script src="fiwo-backup.js?v=def66fe1"></script>
+    <script src="dictionary.js?v=aa6d2fbd"></script>
+    <script src="DerivedDictionary.js?v=0115769d"></script>
+    <script src="stories.js?v=25fadbfd"></script>
+    <script src="fiwo-parser.js?v=b101e160"></script>
+    <!-- The trained neural voice is the WEBSITE'S, not fiwo-pronounce.js's:
+         that file is also vendored into the Android app, which has its own
+         Piper path and no fiwo-voice.js to find. Declaring the module here
+         means the shared file never has to guess which product it is in.
+
+         No ?v= on purpose: flashcards.js imports the same module statically as
+         './fiwo-voice.js', and the module cache is keyed by resolved URL. A
+         version query here and not there would load it TWICE — two voices,
+         two ONNX sessions, 126 MB of them. It is precached by sw.js and
+         refreshed by a CACHE_VERSION bump, like every other module here. -->
+    <script>window.FIWO_VOICE_MODULE = 'fiwo-voice.js?v=3871715d';</script>
+    <script src="fiwo-pronounce.js?v=43ba84b6"></script>
+    <!-- Dictionary ranking, shared with the Android app (build_app.mjs copies it). -->
+    <script src="fiwo-search.js?v=53135847"></script>
+    <script src="script.js?v=1ae52f63"></script>
+    <!-- The page that answers the course. The course itself (workbook.js,
+         258 KB) is loaded by it on first open — see data-src on #workbook. -->
+    <script src="workbook-page.js?v=bf05dd23"></script>
     <!-- The deck. A module, because the study engine is vendored from the Android
          app as ES modules and rewriting their imports would be a fork. Deferred by
          nature, so it loads after script.js and meets it at window.FiwoFlashcards. -->
-    <script type="module" src="flashcards.js?v=7"></script>
+    <script type="module" src="flashcards.js?v=42768bb9"></script>
     <script data-goatcounter="https://joshthebirdy.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 </body>

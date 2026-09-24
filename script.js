@@ -87,6 +87,14 @@ function showSection(targetId, { scroll = true, detail = null } = {}) {
     // describes.
     document.body.classList.toggle('rules-active', targetId === 'rules');
 
+    // `#lets-read/<story>` is a story; every other address closes the reader.
+    // True means the reader decided the scroll — leaving a story should land you
+    // where you were in the library, not at the top of it.
+    if (syncReaderToRoute(targetId, detail)) {
+        closeNav();
+        return true;
+    }
+
     // The dictionary builds its cards lazily, so a deep link has to trigger it
     // too — not just a nav click. Binding inside is already guarded (see below).
     if (targetId === 'dictionary') {
@@ -191,6 +199,9 @@ navLinks.forEach(link => {
 // Back/forward, and any other hash change. The rulebook's scrollspy TOC calls
 // preventDefault and scrolls itself, so its `#rule-spy-N` links never land here.
 window.addEventListener('hashchange', () => {
+    // The entry sits on top of whatever page opened it, so it goes when the
+    // page does — otherwise Back swaps the page out from under it.
+    document.getElementById('definition-modal').style.display = 'none';
     const { section, detail } = parseRoute(location.hash);
     if (!showSection(section, { detail })) showSection(DEFAULT_SECTION);
 });
@@ -248,8 +259,7 @@ document.addEventListener('click', (e) => {
         // "easiest" is whichever story the grader put first, so this keeps
         // pointing at the right one as the library grows.
         if (typeof storyData === 'undefined' || !storyData.length) return;
-        location.hash = 'lets-read';
-        requestAnimationFrame(() => openStory(storyData[0]));
+        goToStory(storyData[0]);
         return;
     }
 
@@ -295,92 +305,22 @@ function effectiveTier(item) {
 
 // ── Search relevance ────────────────────────────────────────────────────────
 //
-// The old search was a plain substring filter across word + gloss + definition +
-// senses, and then sorted the survivors alphabetically. Two things went wrong
-// with that, and they compound:
-//
-//   1. A raw substring on `definition` matches inside other words. Searching
-//      "go" hit "good", "ago", "gone" and "bigot"; "ear" hit "year", "hear",
-//      "early", "search". Most of a long result list was words that have
-//      nothing to do with the query.
-//   2. Nothing was ranked. `xosi` "to open" sorted below fifty entries that
-//      merely mention opening somewhere in their prose, so the exact hit was
-//      rarely on screen.
-//
-// So: match on word boundaries rather than raw substrings, and score every hit
-// by WHERE it matched. An exact headword beats a gloss beats a definition
-// mention, and the ordering the user picked becomes the tiebreak within a band.
-const WORD_BOUNDARY_CACHE = new Map();
+// The ranking lives in fiwo-search.js, shared with the Android app (build_app.mjs
+// copies it in), so the two dictionaries cannot drift apart again. What it does
+// and why is written there. This side only maps an entry onto its four fields,
+// once per entry rather than once per keystroke.
+const searchRecords = new WeakMap();
 
-function boundaryRe(term) {
-    let re = WORD_BOUNDARY_CACHE.get(term);
-    if (!re) {
-        const safe = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        re = new RegExp(`(?:^|[^a-z0-9])${safe}(?:$|[^a-z0-9])`, 'i');
-        WORD_BOUNDARY_CACHE.set(term, re);
+function searchRecord(item) {
+    let r = searchRecords.get(item);
+    if (!r) {
+        r = FiwoSearch.prepare({
+            word: item.word, gloss: item.english_equiv,
+            senses: item.senses, def: item.definition,
+        });
+        searchRecords.set(item, r);
     }
-    return re;
-}
-
-// "Disease / Sickness", "to open (a door)" -> ["disease", "sickness"] / ["to open", "a door"]
-// A gloss is a list of citation forms, so an exact hit on one of them is as
-// good as an exact hit on the whole field — and far commoner.
-function glossTerms(text) {
-    return (text || '').toLowerCase().split(/[/,;()]+|\s+-\s+/)
-        .map(s => s.trim()).filter(Boolean);
-}
-
-// "boats" should find the entry glossed "boat", and vice versa. This is a
-// deliberately crude stem — one -s — because anything cleverer needs a real
-// morphology table for a language the dictionary is not written in. Variants
-// score below the literal query so an exact match always wins.
-function queryVariants(q) {
-    const out = [{ term: q, penalty: 0 }];
-    if (q.length > 3 && q.endsWith('s') && !q.endsWith('ss')) {
-        out.push({ term: q.slice(0, -1), penalty: 60 });
-    } else if (q.length > 2 && !q.endsWith('s')) {
-        out.push({ term: q + 's', penalty: 60 });
-    }
-    return out;
-}
-
-// How much of the headword the query actually accounts for. "xos" is most of
-// `xosi` and almost certainly what you meant; "go" is a third of `gofoa` and
-// almost certainly is not. Without this, any two-letter English query drags in
-// every Fiwo word that happens to start with those letters — searching "go"
-// returned `goda`, `goe`, `gofo` above anything glossed *go*.
-const STRONG_COVERAGE = 0.6;
-
-/** 0 = no match (drop it). Higher = more relevant. */
-function matchScore(item, variants) {
-    const word = item.word.toLowerCase();
-    const gloss = (item.english_equiv || '').toLowerCase();
-    const terms = glossTerms(item.english_equiv);
-    const senses = (item.senses || []).map(s => s.toLowerCase());
-    const def = (item.definition || '').toLowerCase();
-    let best = 0;
-
-    for (const { term, penalty } of variants) {
-        // Every signal is scored and the strongest wins, rather than an
-        // if/else chain: a weak Fiwo prefix must be allowed to lose to a solid
-        // English gloss prefix, which a chain ordered by field cannot express.
-        const strong = term.length / word.length >= STRONG_COVERAGE;
-        let s = 0;
-        const bid = (n) => { if (n > s) s = n; };
-
-        if (word === term) bid(1000);
-        if (terms.includes(term) || senses.includes(term)) bid(900);
-        if (word.startsWith(term)) bid(strong ? 800 : 540);
-        if (terms.some(t => t.startsWith(term))) bid(700);
-        if (senses.some(t => t.startsWith(term))) bid(620);
-        if (word.includes(term)) bid(strong ? 500 : 120);
-        if (boundaryRe(term).test(gloss)) bid(400);
-        if (senses.some(t => boundaryRe(term).test(t))) bid(300);
-        if (boundaryRe(term).test(def)) bid(200);
-
-        if (s) best = Math.max(best, s - penalty);
-    }
-    return best;
+    return r;
 }
 
 const SORTERS = {
@@ -426,13 +366,13 @@ function renderDictionary() {
         // entry keyed "Vessel" that says boat in its definition. The definition
         // and the derived senses are where the synonyms actually live — so they
         // are searched, but at word boundaries and ranked below the headword
-        // (see matchScore above for why).
+        // (see fiwo-search.js for why).
         const q = searchBar.value.trim().toLowerCase();
         const scores = q ? new Map() : null;
         if (q) {
-            const variants = queryVariants(q);
+            const query = FiwoSearch.compile(q);
             data = data.filter(item => {
-                const s = matchScore(item, variants);
+                const s = FiwoSearch.score(searchRecord(item), query);
                 if (s) scores.set(item, s);
                 return s > 0;
             });
@@ -471,6 +411,10 @@ function renderDictionary() {
         wordCount.textContent = q
             ? `${total} match${total === 1 ? '' : 'es'}${total > shown ? ` · showing ${shown}` : ''}`
             : `Words: ${total}${total > shown ? ` · showing ${shown}` : ''}`;
+        const noWord = FiwoSearch.hint(q);
+        if (noWord) {
+            wordCount.textContent = `"${q}" has no Fiwo word: ${noWord} · ${wordCount.textContent}`;
+        }
 
         grid.innerHTML = '';
         const frag = document.createDocumentFragment();
@@ -1020,57 +964,13 @@ let composerWords = [];
  * inside the key, which beats a listed sense, which beats a mention anywhere in
  * the definition. Ties break toward the lower tier and then the commoner word,
  * so the first suggestion is the one a learner is most likely to want. */
-/* English inflections, stripped back toward the form a dictionary key uses.
- *
- * Without this, "used" matched nothing sensible and the composer offered `hyme`
- * and `zy` for it while missing `zyli` entirely — the dictionary key is "Use.",
- * and nothing in the data is inflected. Crude on purpose: it generates
- * candidate stems and lets the scorer decide, so a wrong guess costs a
- * lower-ranked suggestion rather than a wrong answer. */
-// Suffix-stripping cannot reach these, and they are common enough that missing
-// them makes the whole tool feel broken — "gave" is not a rare way to say give.
-const ENGLISH_IRREGULARS = {
-    was: 'be', were: 'be', been: 'be', am: 'be', is: 'be', are: 'be',
-    had: 'have', has: 'have', did: 'do', does: 'do', done: 'do',
-    gave: 'give', given: 'give', went: 'go', gone: 'go', took: 'take', taken: 'take',
-    made: 'make', said: 'say', saw: 'see', seen: 'see', came: 'come', got: 'get',
-    knew: 'know', known: 'know', thought: 'think', found: 'find', told: 'tell',
-    became: 'become', left: 'leave', felt: 'feel', brought: 'bring', began: 'begin',
-    kept: 'keep', held: 'hold', wrote: 'write', written: 'write', stood: 'stand',
-    heard: 'hear', meant: 'mean', met: 'meet', ran: 'run', paid: 'pay', sat: 'sit',
-    spoke: 'speak', spoken: 'speak', led: 'lead', grew: 'grow', lost: 'lose',
-    fell: 'fall', sent: 'send', built: 'build', understood: 'understand',
-    drew: 'draw', broke: 'break', broken: 'break', spent: 'spend', rose: 'rise',
-    drove: 'drive', bought: 'buy', wore: 'wear', chose: 'choose', ate: 'eat',
-    eaten: 'eat', slept: 'sleep', drank: 'drink', threw: 'throw', flew: 'fly',
-    children: 'child', people: 'person', men: 'man', women: 'woman',
-    feet: 'foot', teeth: 'tooth', mice: 'mouse', lives: 'life',
-};
-
-function englishStems(word) {
-    const out = [word];
-    const add = s => { if (s.length >= 2 && !out.includes(s)) out.push(s); };
-    if (ENGLISH_IRREGULARS[word]) add(ENGLISH_IRREGULARS[word]);
-    if (word.endsWith('ies')) add(word.slice(0, -3) + 'y');
-    if (word.endsWith('es')) { add(word.slice(0, -2)); add(word.slice(0, -1)); }
-    if (word.endsWith('s') && !word.endsWith('ss')) add(word.slice(0, -1));
-    if (word.endsWith('ed')) { add(word.slice(0, -2)); add(word.slice(0, -1)); }
-    if (word.endsWith('ing')) { add(word.slice(0, -3)); add(word.slice(0, -3) + 'e'); }
-    // running -> runn -> run; stopped -> stopp -> stop
-    for (const stem of [...out]) {
-        if (stem.length > 2 && stem[stem.length - 1] === stem[stem.length - 2]
-            && !'aeiou'.includes(stem[stem.length - 1])) {
-            add(stem.slice(0, -1));
-        }
-    }
-    return out;
-}
-
+/* English inflections: FiwoSearch.englishStems(), in fiwo-search.js — written
+ * for this composer, shared with both dictionaries since 2026-09-23. */
 function composerLookup(query) {
     const raw = query.toLowerCase().trim();
     if (!raw) return [];
     const tokens = text => (text || '').toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').split(/\s+/).filter(Boolean);
-    const stems = englishStems(raw);
+    const stems = FiwoSearch.englishStems(raw);
     const best = new Map();   // word -> score, keeping the highest
 
     stems.forEach((q, depth) => {
@@ -1197,22 +1097,8 @@ function renderComposer() {
 }
 
 function renderComposerCandidates(englishWords) {
-    // Articles and copulas have no Fiwo word to find: Fiwo marks specificity
-    // with -p/-r and drops "is" entirely (Rule 8's zero copula). Saying so is
-    // more useful than showing an empty result.
-    const NOTHING_TO_FIND = {
-        the: 'use the -p marker on the noun instead',
-        a: 'use the -r marker on the noun instead',
-        an: 'use the -r marker on the noun instead',
-        is: 'Fiwo has no copula — the modifier attaches directly',
-        am: 'Fiwo has no copula — the modifier attaches directly',
-        are: 'Fiwo has no copula — the modifier attaches directly',
-        was: 'no copula; put -d on the modifier-verb instead',
-        were: 'no copula; put -d on the modifier-verb instead',
-    };
-
     composerCandidates.innerHTML = englishWords.map(w => {
-        const skip = NOTHING_TO_FIND[w];
+        const skip = FiwoSearch.hint(w);
         if (skip) {
             return `<div class="cand-row"><span class="cand-word">${esc(w)}</span>
                 <span class="cand-none">${esc(skip)}</span></div>`;
@@ -1530,8 +1416,86 @@ function hideWordPanel() {
 
 let currentStory = null;
 
+// ── A story has an address ──────────────────────────────────────────────────
+//
+// `#lets-read/<slug>`. Until 2026-09-23 opening a story left the hash alone,
+// so the phone's Back button switched the page UNDERNEATH a reader that stayed
+// on top — and Back is how people close things on Android. Opening now pushes a
+// history entry, Back pops it, and the router closes the reader. It also makes
+// a story something you can send someone.
+//
+// The slug is the Fiwo title without its English gloss, so a word rename that
+// changes a title breaks old links — they fall back to the library, which is
+// the honest answer when the story they named no longer exists by that name.
+let storyBySlugMap = null;
+
+function storySlug(story) {
+    if (!storyBySlugMap) buildStorySlugs();
+    return story._slug;
+}
+
+function buildStorySlugs() {
+    storyBySlugMap = new Map();
+    (typeof storyData === 'undefined' ? [] : storyData).forEach((story, i) => {
+        const base = story.title.normalize('NFKD').replace(/[̀-ͯ]/g, '')
+            .toLowerCase().replace(/\([^)]*\)/g, '')
+            .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || `story-${i + 1}`;
+        let slug = base;
+        for (let n = 2; storyBySlugMap.has(slug); n++) slug = `${base}-${n}`;
+        story._slug = slug;
+        storyBySlugMap.set(slug, story);
+    });
+}
+
+function storyBySlug(slug) {
+    if (!storyBySlugMap) buildStorySlugs();
+    return storyBySlugMap.get(decodeURIComponent(slug)) || null;
+}
+
+/** Open a story the way a link would, so Back undoes it. */
+function goToStory(story) {
+    const slug = storySlug(story);
+    if (location.hash !== `#lets-read/${slug}`) {
+        history.pushState({ fiwoStory: slug }, '', `#lets-read/${slug}`);
+    }
+    showSection('lets-read', { detail: slug, scroll: false });
+}
+
+/** The reader's own close controls. Our entry: step back off it, and the router
+ *  closes the reader. A story reached from a pasted link has nothing of ours
+ *  behind it — Back there would leave the site — so rewrite the address. */
+function leaveStory() {
+    if (history.state?.fiwoStory) {
+        history.back();
+    } else {
+        history.replaceState(null, '', '#lets-read');
+        closeReader();
+    }
+}
+
+/* Called by showSection() for every route. Returns true when it has settled
+ * the scroll position itself. */
+function syncReaderToRoute(section, detail) {
+    if (!readerEl) return false;
+    if (section === 'lets-read' && detail) {
+        const story = storyBySlug(detail);
+        if (!story) return false;   // an old or mistyped link: just the library
+        if (currentStory !== story) openStory(story);
+        return true;
+    }
+    if (readerEl.hidden) return false;
+    closeReader();
+    // Back to the library: closeReader() restored its scroll. Anywhere else,
+    // the usual top-of-page applies.
+    return section === 'lets-read';
+}
+
 function openStory(story) {
     if (typeof FiwoParser === 'undefined') return;
+
+    // Whatever the last story was saying, it is not saying it any more — and
+    // its resume position belongs to a different set of lines.
+    stopReading();
 
     currentStory = story;
     readerTitle.textContent = story.title;
@@ -1627,12 +1591,302 @@ function recordReadingPosition() {
 }
 
 function closeReader() {
+    stopReading();
     recordReadingPosition();
     currentStory = null;
     readerEl.hidden = true;
     hideWordPanel();
     document.body.classList.remove('reader-open');
     window.scrollTo({ top: lastScrollY });
+}
+
+// ── THE TRAINED VOICE ───────────────────────────────────────────────────────
+//
+// fiwo-voice.js owns the model, the download and the cache; this is only its
+// face. Two surfaces show it, for two different moments:
+//
+//   #voice-panel   a card in Phonetics — where someone browsing "how does Fiwo
+//                  sound" will find it, and the only place to undo the download
+//   #reader-voice  a bar inside the story reader — where someone who just
+//                  tapped "Read to me" needs to be asked, mid-story, without
+//                  being sent somewhere else
+//
+// It is an ES module and this is a classic script, so it arrives by dynamic
+// import(). Both this file and fiwo-pronounce.js import it by the same URL, so
+// the module cache hands them the same instance and there is one voice, not two.
+
+let voiceMod = null;
+let voiceModPromise = null;
+
+function loadVoiceModule() {
+    if (voiceModPromise) return voiceModPromise;
+    const spec = window.FIWO_VOICE_MODULE;
+    if (!spec) { voiceModPromise = Promise.resolve(null); return voiceModPromise; }
+    voiceModPromise = import(new URL(spec, document.baseURI).href)
+        .then((mod) => {
+            voiceMod = mod;
+            mod.onChange(paintVoiceUI);   // fires immediately with the current state
+            return mod;
+        })
+        .catch((err) => { console.warn('voice: module unavailable —', err && err.message); return null; });
+    return voiceModPromise;
+}
+
+/* One sentence describing where the voice is up to, in the second person,
+ * because both places it appears are addressed to a person deciding something. */
+function voiceStatusLine(s) {
+    if (s.status === 'ready') return 'The trained Fiwo voice is on. Every 🔊 uses it.';
+    if (s.status === 'downloading') {
+        return s.progress
+            ? `Downloading the voice… ${Math.round(s.progress * 100)}%`
+            : `Downloading the voice… ${s.detail}`;
+    }
+    if (s.status === 'loading') return `Getting the voice ready… (${s.detail})`;
+    if (s.status === 'failed') return `That did not work: ${s.detail}`;
+    return '';
+}
+
+function voiceProgressBar(s) {
+    if (s.status !== 'downloading' && s.status !== 'loading') return '';
+    const pct = Math.round((s.progress || 0) * 100);
+    return `<div class="voice-bar"><div class="voice-bar-fill" style="width:${pct}%"></div></div>`;
+}
+
+function paintVoicePanel(s) {
+    const el = document.getElementById('voice-panel');
+    if (!el) return;
+    el.hidden = false;
+
+    const busy = s.status === 'downloading' || s.status === 'loading';
+    let action = '';
+    if (s.status === 'ready') {
+        action = '<button class="voice-btn voice-btn-quiet" data-voice="forget">Remove it</button>';
+    } else if (!busy) {
+        action = `<button class="voice-btn" data-voice="get">${s.status === 'failed' ? 'Try again' : 'Download the voice'}</button>`;
+    }
+
+    el.innerHTML = `
+        <h3>The trained voice</h3>
+        <p>The buttons above play a synthesizer that is built into the page — exact
+           Fiwo phonemes, but unmistakably a robot. There is also a real one: a
+           neural voice trained on recordings of Fiwo being spoken. It runs
+           entirely on your device, works offline afterwards, and it is
+           ${voiceMod.APPROX_MB} MB, so it is not downloaded unless you ask.</p>
+        ${voiceStatusLine(s) ? `<p class="voice-status">${esc(voiceStatusLine(s))}</p>` : ''}
+        ${voiceProgressBar(s)}
+        <div class="voice-actions">${action}</div>`;
+}
+
+function paintReaderVoice(s) {
+    const el = document.getElementById('reader-voice');
+    if (!el || el.hidden) return;
+
+    if (s.status === 'ready') { el.hidden = true; el.innerHTML = ''; return; }
+    const busy = s.status === 'downloading' || s.status === 'loading';
+    el.innerHTML = `
+        <div class="reader-voice-text">
+            <strong>${esc(el.dataset.reason || '')}</strong>
+            <span>${esc(voiceStatusLine(s) || `${voiceMod.APPROX_MB} MB, downloaded once and kept on this device.`)}</span>
+        </div>
+        ${voiceProgressBar(s)}
+        <div class="voice-actions">
+            ${busy ? '' : `<button class="voice-btn" data-voice="get">${s.status === 'failed' ? 'Try again' : 'Download it'}</button>`}
+            <button class="voice-btn voice-btn-quiet" data-voice="dismiss">Not now</button>
+        </div>`;
+}
+
+function paintVoiceUI(s) {
+    paintVoicePanel(s);
+    paintReaderVoice(s);
+}
+
+/** Ask, from inside the reader, for the download the tap actually needs. */
+function offerVoiceDownload(reason) {
+    const el = document.getElementById('reader-voice');
+    if (!el) return;
+    el.dataset.reason = reason;
+    el.hidden = false;
+    paintReaderVoice(voiceMod ? voiceMod.state() : { status: 'absent', progress: 0, detail: '' });
+}
+
+/* Delegated so both surfaces share one handler and neither has to be re-bound
+ * when it re-renders. */
+document.addEventListener('click', async (e) => {
+    const btn = e.target.closest('[data-voice]');
+    if (!btn) return;
+    const action = btn.dataset.voice;
+
+    if (action === 'dismiss') {
+        const el = document.getElementById('reader-voice');
+        if (el) { el.hidden = true; el.innerHTML = ''; }
+        return;
+    }
+
+    const mod = await loadVoiceModule();
+    if (!mod) return;
+
+    if (action === 'forget') { await mod.forget(); return; }
+
+    if (action === 'get') {
+        // Unlock audio inside this gesture — by the time 63 MB has arrived the
+        // gesture is long over, and a suspended context is silent with no error.
+        if (typeof FiwoPronounce !== 'undefined') FiwoPronounce.ensureAudio();
+
+        /* Whether this tap came from the reader's offer has to be answered NOW,
+         * before the await. paintReaderVoice() hides that bar the instant the
+         * state turns ready, so asking afterwards always says no — which is
+         * exactly how the auto-start silently did nothing the first time. */
+        const fromReader = Boolean(btn.closest('#reader-voice'));
+
+        const ok = await mod.ensure();
+        // Asking for the voice from inside a story can only have meant one thing.
+        if (ok && fromReader && !readerEl.hidden) startReading();
+    }
+});
+
+// ── READ TO ME ──────────────────────────────────────────────────────────────
+//
+// A sequencer over readerLines: speak one line, wait for it to actually finish,
+// highlight it, move on. It runs on the trained voice only — reading a whole
+// story in the robotic fallback is the thing this project has always said is
+// worse than silence, so a tap with no voice installed offers the download
+// instead of starting.
+//
+// `line.fiwo` is already one sentence per entry, so there is nothing finer to
+// split.
+
+const reading = {
+    on: false,
+    at: -1,             // the line highlighted right now, or -1 for none
+    // Where the next play starts. Kept apart from `at` because they answer
+    // different questions: pausing keeps its place, finishing goes back to the
+    // top, and closing forgets. `null` means "wherever they have scrolled to".
+    resumeAt: null,
+    follow: true,       // should the view chase the spoken line?
+    programmatic: false, // is the scroll event about to fire one of OURS?
+    scrollTimer: null,
+    token: 0,           // invalidates a sequencer whose story has moved on
+};
+
+function readerPlayBtn() {
+    return document.getElementById('reader-play');
+}
+
+function paintPlayButton() {
+    const btn = readerPlayBtn();
+    if (!btn) return;
+    btn.querySelector('.reader-play-icon').textContent = reading.on ? '❚❚' : '▶';
+    btn.querySelector('span:last-child').textContent = reading.on ? 'Pause' : 'Read to me';
+    btn.setAttribute('aria-pressed', String(reading.on));
+    btn.setAttribute('aria-label', reading.on ? 'Pause reading' : 'Read this story aloud');
+    btn.classList.toggle('is-on', reading.on);
+}
+
+function lineIsVisible(lineEl) {
+    const l = lineEl.getBoundingClientRect();
+    const b = readerBody.getBoundingClientRect();
+    return l.top < b.bottom && l.bottom > b.top;
+}
+
+function setSpokenLine(i) {
+    const prev = readerBody.querySelector('.reader-line.is-speaking');
+    if (prev) prev.classList.remove('is-speaking');
+    reading.at = i;
+    if (i < 0) return;
+
+    const line = readerBody.querySelector(`.reader-line[data-line="${i}"]`);
+    if (!line) return;
+    line.classList.add('is-speaking');
+
+    /* Auto-scroll that yields to a human.
+     *
+     * A manual scroll turns `follow` off, so the view stops chasing and the
+     * reader can look wherever they like while the audio carries on. It comes
+     * back on by itself the moment the spoken line is on screen again — which
+     * is exactly when "stop fighting me" has stopped being the right answer,
+     * and means there is no second button to remember to press.
+     *
+     * The flag is time-boxed rather than counted because smooth scrolling emits
+     * an unknown number of events over an unknown duration; 600 ms comfortably
+     * covers one scrollIntoView and is far shorter than a spoken line. */
+    if (!reading.follow && lineIsVisible(line)) reading.follow = true;
+    if (!reading.follow) return;
+
+    reading.programmatic = true;
+    line.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    clearTimeout(reading.scrollTimer);
+    reading.scrollTimer = setTimeout(() => { reading.programmatic = false; }, 600);
+}
+
+async function startReading() {
+    if (reading.on || !readerLines.length) return;
+
+    // The gesture that got us here is the only chance to unlock audio.
+    if (typeof FiwoPronounce !== 'undefined') FiwoPronounce.ensureAudio();
+
+    const voice = await loadVoiceModule();
+    if (!voice) return;
+    if (!voice.isReady()) {
+        // Not an error and not a silent no-op: the reader asked for something
+        // that costs 63 MB, so they get asked back.
+        offerVoiceDownload('Reading a story aloud needs the trained Fiwo voice.');
+        return;
+    }
+
+    reading.on = true;
+    reading.follow = true;
+    const token = ++reading.token;
+    paintPlayButton();
+
+    // Where a paused reader left off, or — first time — wherever they have
+    // actually scrolled to. Not the top: that would re-read half a story they
+    // just got through.
+    const from = reading.resumeAt ?? currentReaderLine();
+
+    for (let i = from; i < readerLines.length; i++) {
+        if (!reading.on || token !== reading.token) return;
+        setSpokenLine(i);
+        try {
+            await FiwoPronounce.speak(readerLines[i].fiwo);
+        } catch (err) {
+            console.warn('voice: line', i, 'failed —', err && err.message);
+        }
+        // Bookmark as we go: a reader who closes the tab mid-story keeps the
+        // place the VOICE reached, which is ahead of where they scrolled to.
+        if (reading.on && token === reading.token) recordReadingPosition();
+    }
+
+    // Reached the end on its own: rewind, so the next tap replays rather than
+    // sitting on the last line with nothing left to say.
+    if (reading.on && token === reading.token) stopReading({ resumeAt: 0 });
+}
+
+/**
+ * Stop speaking.
+ *
+ * @param opts.resumeAt  where a later play should begin. Omit to forget the
+ *                       position entirely (closing the story); pass the current
+ *                       line to pause; pass 0 to rewind.
+ * @param opts.keepMark  leave the highlight on screen — what pausing wants, so
+ *                       the reader can see where they are.
+ */
+function stopReading(opts = {}) {
+    reading.token++;            // any in-flight sequencer is now stale
+    reading.on = false;
+    clearTimeout(reading.scrollTimer);
+    reading.programmatic = false;
+    if (typeof FiwoPronounce !== 'undefined') FiwoPronounce.stop();
+
+    const mark = reading.at;
+    if (!opts.keepMark) setSpokenLine(-1);
+    reading.resumeAt = 'resumeAt' in opts ? opts.resumeAt : null;
+    if (opts.keepMark) reading.at = mark;
+    paintPlayButton();
+}
+
+function toggleReading() {
+    if (reading.on) stopReading({ resumeAt: reading.at, keepMark: true });
+    else startReading();
 }
 
 const BAND_LABELS = {
@@ -1686,7 +1940,7 @@ function renderStoryLibrary() {
     storiesGrid.innerHTML = html;
 
     storiesGrid.querySelectorAll('.read-btn').forEach(btn => {
-        btn.addEventListener('click', () => openStory(storyData[Number(btn.dataset.story)]));
+        btn.addEventListener('click', () => goToStory(storyData[Number(btn.dataset.story)]));
     });
     storiesGrid.querySelectorAll('.story-clear').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -2010,7 +2264,20 @@ if (readerEl && storiesGrid) {
     readerBody.addEventListener('scroll', () => {
         if (scrollSaveTimer) clearTimeout(scrollSaveTimer);
         scrollSaveTimer = setTimeout(recordReadingPosition, 500);
+        // A scroll that is not one of ours means the reader wants to look
+        // somewhere else. Stop chasing the spoken line — but keep speaking.
+        if (reading.on && !reading.programmatic) reading.follow = false;
     }, { passive: true });
+
+    readerPlayBtn()?.addEventListener('click', toggleReading);
+
+    /* Load the voice module up front so the card in Phonetics can appear at
+     * all — it is `hidden` in the markup and only the module's first onChange
+     * reveals it, which is what keeps it off any page where fiwo-voice.js is
+     * not present. This imports a few KB and reads the cache; it never starts
+     * the 63 MB download on its own. */
+    loadVoiceModule();
+
     // Belt and braces on the way out. `pagehide` is the documented hook but iOS
     // Safari skips it often enough to matter, and backgrounding an app is
     // exactly how reading sessions end on a phone — `visibilitychange` is the
@@ -2020,7 +2287,7 @@ if (readerEl && storiesGrid) {
         if (document.visibilityState === 'hidden' && currentStory) recordReadingPosition();
     });
 
-    document.getElementById('reader-close').addEventListener('click', closeReader);
+    document.getElementById('reader-close').addEventListener('click', leaveStory);
     document.getElementById('word-panel-close').addEventListener('click', hideWordPanel);
 
     /* Dismissing the word panel.
@@ -2201,7 +2468,7 @@ if (readerEl && storiesGrid) {
         // underneath it — two layers for one keypress.
         if (document.getElementById('definition-modal').style.display === 'block') return;
         if (!wordPanel.hidden) hideWordPanel();
-        else closeReader();
+        else leaveStory();
     });
 }
 

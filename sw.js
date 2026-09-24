@@ -29,7 +29,22 @@
  * activate, so a bad deploy is one version bump away from being flushed.
  */
 
-const CACHE_VERSION = 'fiwo-v9';
+const CACHE_VERSION = 'fiwo-v12';
+
+/* The trained voice lives in a cache of its own, and the activate handler below
+ * must never sweep it up.
+ *
+ * It is 63 MB that a reader explicitly asked for — fiwo-voice.js explains at
+ * length why it cannot be made smaller. Filing it under CACHE_VERSION would
+ * mean every routine bump of the line above silently made all of them download
+ * it again, which is a deploy-time decision quietly spending other people's
+ * mobile data. So it is keyed separately, exempted from the sweep, and removed
+ * only when the reader asks. Rename it here and you must rename it there.
+ *
+ * Bump it when the MODEL changes (see fiwo-voice.js, "SHIPPING A RETRAINED
+ * VOICE"): the old name then falls to the ordinary sweep below. */
+const VOICE_CACHE = 'fiwo-voice-v2';
+const VOICE_MODEL = 'tts/fiwo.onnx';
 
 /* The shell: enough to open the site with no network at all. The heavy data
  * files (stories.js, DerivedDictionary.js) are deliberately NOT precached —
@@ -46,12 +61,18 @@ const SHELL = [
   // everything else has gone.
   './fiwo-backup.js',
   './fiwo-parser.js',
+  './fiwo-search.js',
   // The course is 237 KB of its own now that it is no longer inside index.html
   // — but the workbook is the site's spine, and "open the lesson you were on"
   // has to work on a train. Precached for the same reason the shell is.
   './workbook.js',
   './workbook-page.js',
   './fiwo-pronounce.js',
+  // The voice's download manager, and the 7 KB config it reads to decide what
+  // to offer. Both tiny, and both needed before the page can tell an offline
+  // reader whether the voice they already downloaded is available.
+  './fiwo-voice.js',
+  './tts/fiwo.onnx.json',
   './dictionary.js',
   './icon.svg',
   './icon-192.png',
@@ -80,7 +101,7 @@ self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
     const names = await caches.keys();
     await Promise.all(names
-      .filter(n => n.startsWith('fiwo-') && n !== CACHE_VERSION)
+      .filter(n => n.startsWith('fiwo-') && n !== CACHE_VERSION && n !== VOICE_CACHE)
       .map(n => caches.delete(n)));
     await self.clients.claim();
   })());
@@ -92,6 +113,15 @@ self.addEventListener('fetch', (event) => {
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;   // fonts, analytics: not ours
+
+  /* The model is fiwo-voice.js's business, not ours. Left alone for two
+   * reasons: stale-while-revalidate would re-fetch 63 MB in the background on
+   * every single request for it, and the page needs the raw stream to show a
+   * progress bar — which it cannot do through a cache hit it did not open. */
+  if (url.pathname.endsWith(VOICE_MODEL)) return;
+  // The same model as published: its pieces and their manifest (see
+  // fiwo-voice.js download()). Caching them here would store it twice.
+  if (/fiwo\.onnx\.(part\d+|parts\.json)$/.test(url.pathname)) return;
 
   // Navigations: network first, so a reader with signal always gets the live site.
   if (request.mode === 'navigate') {

@@ -1,0 +1,18 @@
+{
+  "size": 63531476,
+  "sha256": "051d9ab4046896ead87594119ed9cf98cd1593cae70dff01321ea35fe8d542b6",
+  "parts": [
+    {
+      "file": "fiwo.onnx.part0",
+      "size": 21177159
+    },
+    {
+      "file": "fiwo.onnx.part1",
+      "size": 21177159
+    },
+    {
+      "file": "fiwo.onnx.part2",
+      "size": 21177158
+    }
+  ]
+}

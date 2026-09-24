@@ -110,11 +110,18 @@
         return (before.length ? before.join('-') + '-' : '') + '<strong>' + unit + '</strong>';
     }
 
-    // --- audio: bundled eSpeak synthesizer (tts/mespeak.bundle.js) ---
+    // --- audio: the fallback synthesizer (tts/mespeak.bundle.js) ---
     // Browser speechSynthesis is unreliable (Chrome on Linux ships ZERO voices),
     // so the site vendors its own synthesizer and drives it with exact Fiwo
     // phonemes via eSpeak's [[...]] Kirshenbaum phoneme input — true phoneme-level
     // Fiwo TTS, identical on every device, fully offline.
+    //
+    // As of 2026-09-20 this is the FLOOR, not the ceiling: speak() prefers the
+    // trained neural voice whenever it has been downloaded (see the neural
+    // section further down), and drops to this when it has not. Every 🔊 on the
+    // site routes through speak(), so that one switch upgrades the dictionary
+    // popups, the translator and reader word panels, the workbook and the
+    // pronunciation widget at once, with no call site touched.
     const KIRSHENBAUM = {
         p: 'p', b: 'b', t: 't', d: 'd', k: 'k', g: 'g',
         m: 'm', n: 'n', q: 'N',
@@ -146,6 +153,11 @@
     // silently blocked — especially on the first click, where the engine loads
     // asynchronously and the actual playback happens after the gesture ended.
     function ensureAudioCtx() {
+        // The neural voice has an AudioContext of its own and the same autoplay
+        // problem. Unlocked from here so that every embedder that already calls
+        // ensureAudio() inside its click handler — which is all of them, it is
+        // the documented contract — keeps working unchanged.
+        if (neural) neural.unlock();
         const AC = window.AudioContext || window.webkitAudioContext;
         if (!AC) return null;
         if (!audioCtx) audioCtx = new AC();
@@ -153,15 +165,28 @@
         return audioCtx;
     }
 
+    // Resolves when playback FINISHES, so speak() can be awaited by a caller
+    // that is reading a whole story line by line. A decode failure resolves
+    // rather than rejects: a sequencer should move on, not stall.
+    let roboticSource = null;
     function playWav(bytes) {
-        if (!audioCtx || !bytes || !bytes.length) return;
+        if (!audioCtx || !bytes || !bytes.length) return Promise.resolve();
         const buf = new Uint8Array(bytes).buffer;
-        audioCtx.decodeAudioData(buf).then(decoded => {
+        return audioCtx.decodeAudioData(buf).then(decoded => new Promise(resolve => {
+            stopRobotic();
             const src = audioCtx.createBufferSource();
             src.buffer = decoded;
             src.connect(audioCtx.destination);
+            roboticSource = src;
+            src.onended = () => { if (roboticSource === src) roboticSource = null; resolve(); };
             src.start();
-        }).catch(() => {});
+        })).catch(() => {});
+    }
+
+    function stopRobotic() {
+        if (!roboticSource) return;
+        try { roboticSource.stop(); } catch (e) { /* already stopped */ }
+        roboticSource = null;
     }
     function loadTts(onReady) {
         if (ttsState === 'ready') { onReady(); return; }
@@ -174,8 +199,23 @@
             // readiness is proven by an actual test synthesis, not by callbacks —
             // the config ships an embedded default voice that works even when
             // the external voice file is rejected
+            // Readiness is proven by an actual test synthesis — but ONLY once the
+            // config has finished loading. Judging it earlier marks a perfectly good
+            // engine 'failed': meSpeak defers calls made before the config arrives
+            // ("No config-data loaded, deferring call") and returns nothing, which
+            // looks like a failure. Found 2026-07-26 while porting this file into
+            // Fiwo-Study, where it made the Speak button silently do nothing.
+            // The external voice file is optional — the config carries an embedded
+            // default that synthesizes fine (voiceLoaded stays false, and that is OK).
+            let waited = 0;
             const finish = () => {
                 if (ttsState !== 'loading') return;
+                if (!meSpeak.isConfigLoaded || !meSpeak.isConfigLoaded()) {
+                    waited += 120;
+                    if (waited > 15000) { ttsState = 'failed'; return; }
+                    setTimeout(finish, 120);
+                    return;
+                }
                 try {
                     const test = meSpeak.speak("[[t'e]]", { rawdata: 'array' });
                     ttsState = (test && test.length) ? 'ready' : 'failed';
@@ -184,25 +224,113 @@
             };
             try {
                 meSpeak.loadConfig('tts/mespeak_config.json');
-                meSpeak.loadVoice('tts/voice-en.json', finish);
-                setTimeout(finish, 4000);   // safety net if the voice callback never fires
+                try { meSpeak.loadVoice('tts/voice-en.json', () => {}); } catch (e) { /* optional */ }
+                finish();
             } catch (e) { ttsState = 'failed'; }
         };
         document.head.appendChild(s);
     }
 
-    function speak(word) {
-        if (!isTranscribable(word)) return;
+    /* Every word of `text` that can actually be pronounced, stripped of
+     * punctuation and lowercased.
+     *
+     * speak() used to take a single word, because every caller was a dictionary
+     * button. The story reader hands it a whole SENTENCE, and isTranscribable()
+     * rejects one out of hand — a space is not in IPA_MAP. That made speak()
+     * return silently, which looked from the outside like the voice was broken
+     * rather than like the input was the wrong shape. Splitting first is the
+     * fix, and it is also what makes a sentence with one proper noun in it
+     * speak the rest instead of nothing.
+     */
+    function speakableWords(text) {
+        return String(text).trim().split(/\s+/)
+            .map(w => w.replace(/[^A-Za-z'-]/g, '').toLowerCase())
+            .filter(w => w && isTranscribable(w));
+    }
+
+    function speakRobotic(words) {
         if (ttsState === 'failed') ttsState = 'idle';   // allow retry on a later click
         if (ttsState !== 'ready') {
-            pendingWord = word;
-            loadTts(() => { if (pendingWord) { const w = pendingWord; pendingWord = null; speak(w); } });
-            return;
+            return new Promise(resolve => {
+                pendingWord = words;
+                loadTts(() => {
+                    if (!pendingWord) { resolve(); return; }
+                    const w = pendingWord; pendingWord = null;
+                    resolve(speakRobotic(w));
+                });
+            });
         }
-        // synthesize to raw WAV and play through our own (gesture-unlocked) context
-        const wav = meSpeak.speak('[[' + kirshenbaum(word) + ']]',
+        // synthesize to raw WAV and play through our own (gesture-unlocked) context.
+        // Space-separated inside one [[...]] so eSpeak applies its own word gap
+        // rather than us stitching separate clips together.
+        const wav = meSpeak.speak('[[' + words.map(kirshenbaum).join(' ') + ']]',
             { rawdata: 'array', speed: 115, pitch: 55, wordgap: 2, amplitude: 90 });
-        playWav(wav);
+        return playWav(wav);
+    }
+
+    /* --- audio: the trained neural voice (website only) ---
+     *
+     * fiwo-voice.js owns the 63 MB model — the download, the cache, the ONNX
+     * session. It is an ES module and this file is a classic script, so it
+     * arrives by dynamic import(), lazily, on the first tap.
+     *
+     * Gated on window.FIWO_VOICE_MODULE, which index.html sets, for one
+     * specific reason: Fiwo/Tools/build_app.mjs vendors THIS FILE into the
+     * Android app, where fiwo-voice.js does not exist and must not. Probing
+     * for it unconditionally would 404 in the app's console on every first tap
+     * while the app's own, better-integrated Piper path is sitting right there.
+     * So the website declares what it has, rather than this file guessing.
+     */
+    let neural = null;            // the loaded module, once it resolves
+    let neuralPromise = null;
+    function loadNeural() {
+        if (neuralPromise) return neuralPromise;
+        const spec = window.FIWO_VOICE_MODULE;
+        if (!spec) { neuralPromise = Promise.resolve(null); return neuralPromise; }
+        neuralPromise = import(new URL(spec, document.baseURI).href)
+            .then(mod => {
+                neural = mod;
+                // Only loads if this device downloaded the voice on an earlier
+                // visit; it never starts a download on its own.
+                mod.resume();
+                return mod;
+            })
+            .catch(err => { console.warn('voice: neural module unavailable —', err && err.message); return null; });
+        return neuralPromise;
+    }
+
+    /**
+     * Say a Fiwo word or phrase. Resolves when playback finishes.
+     *
+     * The neural voice is preferred whenever it is loaded, and the robotic one
+     * is the fallback — including when the neural voice is present but throws,
+     * because a phoneme the model has never seen must not become silence.
+     */
+    function speak(text) {
+        const words = speakableWords(text);
+        if (!words.length) return Promise.resolve();
+        loadNeural();
+        if (neural && neural.isReady()) {
+            // The neural path gets the ORIGINAL text, not the split words: its
+            // phonemiser does its own tokenising and keeps the word boundaries
+            // the model was trained with.
+            return neural.speak(text).catch(err => {
+                console.warn('voice: falling back to the robotic voice —', err && err.message);
+                return speakRobotic(words);
+            });
+        }
+        return speakRobotic(words);
+    }
+
+    /** Cut off whatever is being said, whichever voice is saying it. */
+    function stopSpeaking() {
+        stopRobotic();
+        if (neural) neural.stop();
+    }
+
+    /** Is the trained voice the one that would answer a speak() right now? */
+    function usingNeural() {
+        return Boolean(neural && neural.isReady());
     }
 
     // Small reusable HTML block: IPA + syllables + optional speak button.
@@ -219,6 +347,20 @@
         </span>`;
     }
 
+    /* A returning visitor who already downloaded the voice should get it on
+     * their FIRST tap, not their second — so the module (a few KB) is imported
+     * up front and asked to resume. resume() only touches the network if the
+     * 63 MB model is already in this device's cache; it never starts a
+     * download on its own.
+     *
+     * Deferred to DOMContentLoaded so the script-tag order in index.html does
+     * not decide whether window.FIWO_VOICE_MODULE has been set yet. */
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', loadNeural, { once: true });
+    } else {
+        loadNeural();
+    }
+
     // one global delegated listener for every speak button
     document.addEventListener('click', (e) => {
         const btn = e.target.closest('.pron-speak');
@@ -230,6 +372,10 @@
 
     window.FiwoPronounce = {
         ipa, syllables, pronounceHtml, speak, canSpeak,
-        _debug: () => ({ ttsState, audioCtx: audioCtx ? audioCtx.state : 'none' })
+        stop: stopSpeaking, usingNeural,
+        ensureAudio: ensureAudioCtx,   // embedders calling speak() from their own
+                                       // buttons must unlock audio in the same gesture
+
+        _debug: () => ({ ttsState, neural: usingNeural(), audioCtx: audioCtx ? audioCtx.state : 'none' })
     };
 })();

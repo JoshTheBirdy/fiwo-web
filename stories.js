@@ -14,7 +14,7 @@ const storyData = [
     },
     "lines": [
       {
-        "fiwo": "Mik rizid cihu.",
+        "fiwo": "Mik zulxid cihu.",
         "english": "I woke up in the morning."
       },
       {
@@ -46,7 +46,7 @@ const storyData = [
         "english": "I drank a hot tea."
       },
       {
-        "fiwo": "Mana mike lofnid.",
+        "fiwo": "Mana mike snefid.",
         "english": "My mother smiled."
       },
       {
@@ -269,7 +269,7 @@ const storyData = [
       "band": "starter",
       "coverage": 91,
       "density": 0.56,
-      "roots": 77,
+      "roots": 78,
       "newRoots": 12
     },
     "lines": [
@@ -282,11 +282,11 @@ const storyData = [
         "english": "The shopkeeper greeted me."
       },
       {
-        "fiwo": "Daq gesid tep Dez. Kup mik jofi suk?",
+        "fiwo": "Daq gesid huc Dez. Kup mik jofi suk?",
         "english": "He said: \"Good morning. Can I help you?\""
       },
       {
-        "fiwo": "Mik hadid tep Sal. Mik tsyti bryklor lan lamsor.",
+        "fiwo": "Mik hadid huc Sal. Mik tsyti bryklor lan lamsor.",
         "english": "I answered: \"Hello. I am looking for bread and milk.\""
       },
       {
@@ -294,15 +294,15 @@ const storyData = [
         "english": "The shopkeeper pointed to the shelf."
       },
       {
-        "fiwo": "Daq gesid tep Bryklop tapo. Ram emfei nudu.",
+        "fiwo": "Daq gesid huc Bryklop tapo. Ram emfei nudu.",
         "english": "He said: \"The bread is here. It is fresh today.\""
       },
       {
-        "fiwo": "Mik slezid tep Kup melfup wug?",
+        "fiwo": "Mik slezid huc Kup melfup wug?",
         "english": "I asked: \"How much is the price?\""
       },
       {
-        "fiwo": "Daq hadid tep Gidu tafe.",
+        "fiwo": "Daq hadid huc Gidu tafe.",
         "english": "He answered: \"Three coins.\""
       },
       {
@@ -310,15 +310,15 @@ const storyData = [
         "english": "Honestly, I thought that this is very expensive."
       },
       {
-        "fiwo": "Mik gesid tep Fos xivei. Kup suk jedi bryklor spoce?",
+        "fiwo": "Mik gesid huc Fos xivei. Kup suk jedi bryklor spoce?",
         "english": "I said: \"That is expensive. Do you have a cheaper bread?\""
       },
       {
-        "fiwo": "Gidafiap lofnid bef daq stomid bryklor otre zy mik.",
+        "fiwo": "Gidafiap snefid bef daq stomid zy mik bryklor otre.",
         "english": "The shopkeeper smiled and he handed me a different loaf."
       },
       {
-        "fiwo": "Daq gesid tep Sil bryklop wecdue bul ram wecei haibe.",
+        "fiwo": "Daq gesid huc Sil bryklop wecdue bul ram wecei haibe.",
         "english": "He said: \"This bread is yesterday's, but it is still good.\""
       },
       {
@@ -326,7 +326,7 @@ const storyData = [
         "english": "I agreed."
       },
       {
-        "fiwo": "Mik slezid tep Kup suk jedi lamsor?",
+        "fiwo": "Mik slezid huc Kup suk jedi lamsor?",
         "english": "I asked: \"Do you have milk?\""
       },
       {
@@ -342,11 +342,11 @@ const storyData = [
         "english": "In fact, the price was fair."
       },
       {
-        "fiwo": "Gidafiap gesid tep Tox. Kop suk breni romve.",
+        "fiwo": "Gidafiap gesid huc Tox. Kop suk breni romve.",
         "english": "The shopkeeper said: \"Cheers. Come again.\""
       },
       {
-        "fiwo": "Mik hadid tep Grawi suk. Tex.",
+        "fiwo": "Mik hadid huc Grawi suk. Tex.",
         "english": "I answered: \"Thank you. Goodbye.\""
       },
       {
@@ -354,15 +354,15 @@ const storyData = [
         "english": "I went out and I walked home."
       },
       {
-        "fiwo": "Mana mike slezid tep Kup suk karxid bryklor?",
+        "fiwo": "Mana mike slezid huc Kup suk karxid bryklor?",
         "english": "My mother asked: \"Did you find bread?\""
       },
       {
-        "fiwo": "Mik hadid tep Jas. Mik karxid bryklor lan lamsor.",
+        "fiwo": "Mik hadid huc Jas. Mik karxid bryklor lan lamsor.",
         "english": "I answered: \"Yes. I found bread and milk.\""
       },
       {
-        "fiwo": "Das lofnid bef das gesid tep Suk nofar gawe.",
+        "fiwo": "Das snefid bef das gesid huc Suk nofar gawe.",
         "english": "She smiled and she said: \"You are a good person.\""
       },
       {
@@ -382,7 +382,7 @@ const storyData = [
       "band": "starter",
       "coverage": 91,
       "density": 0.79,
-      "roots": 71,
+      "roots": 72,
       "newRoots": 11
     },
     "lines": [
@@ -391,7 +391,7 @@ const storyData = [
         "english": "A young man walked up to the old man who sat beside the river."
       },
       {
-        "fiwo": "Daq slezid tep Kup triveu? Kup Joza? Mik vepi kaniur.",
+        "fiwo": "Daq slezid huc Kup triveu? Kup Joza? Mik vepi kaniur.",
         "english": "He asked: “What is truth? What is God? I need knowledge.”"
       },
       {
@@ -403,19 +403,19 @@ const storyData = [
         "english": "He looked into the young man’s eyes."
       },
       {
-        "fiwo": "Foly gomu ulime daq gesid tep Suk slezid sleziur tandem fe.",
+        "fiwo": "Foly gomu ulime daq gesid huc Suk slezid sleziur tandem fe.",
         "english": "After half an hour he said: “You have asked a very large question.”"
       },
       {
-        "fiwo": "Daq gesid tep Kaniup tivwor tep nes jedi fefur tel.",
+        "fiwo": "Daq gesid huc Kaniup tivwor tep nes jedi fefur tel.",
         "english": "He said: “Knowledge is a road that has no end.”"
       },
       {
-        "fiwo": "Daq gesid tep Syn suk hici ruze can suk nes tsejapis tivwop.",
+        "fiwo": "Daq gesid huc Syn suk hici ruze can suk nes tsejapis tivwop.",
         "english": "He said: “If you walk fast, then you will not see the road.”"
       },
       {
-        "fiwo": "Daq gesid tep Kop suk hici fwike.",
+        "fiwo": "Daq gesid huc Kop suk hici fwike.",
         "english": "He said: “Walk slowly.”"
       },
       {
@@ -423,35 +423,35 @@ const storyData = [
         "english": "The old man stood and he pointed at a tree, the sky and a stone."
       },
       {
-        "fiwo": "Daq gesid tep Jozap ceni deky cemu late.",
+        "fiwo": "Daq gesid huc Jozap ceni deky cemu late.",
         "english": "He said: “God lives inside everything.”"
       },
       {
-        "fiwo": "Daq gesid tep Dal ceni deky mosap bef dal ceni deky suk.",
+        "fiwo": "Daq gesid huc Dal ceni deky mosap bef dal ceni deky suk.",
         "english": "He said: “He lives inside the tree, and he lives inside you.”"
       },
       {
-        "fiwo": "Nofap hobe slezid tep Kup triveup gor?",
+        "fiwo": "Nofap hobe slezid huc Kup triveup gor?",
         "english": "The young man asked: “Is truth a word?”"
       },
       {
-        "fiwo": "Nofap waske hadid tep Nes. Triveup mipfur.",
+        "fiwo": "Nofap waske hadid huc Nes. Triveup mipfur.",
         "english": "The old man answered: “No. Truth is an act.”"
       },
       {
-        "fiwo": "Daq gesid tep Kop suk stomi batar zy nofa je pobre.",
+        "fiwo": "Daq gesid huc Kop suk stomi zy nofa je pobre batar.",
         "english": "He said: “Give food to poor people.”"
       },
       {
-        "fiwo": "Daq gesid tep Kop suk foisoi sydor wyde.",
+        "fiwo": "Daq gesid huc Kop suk foisoi sydor wyde.",
         "english": "He said: “Build a safe house.”"
       },
       {
-        "fiwo": "Daq gesid tep Kop suk tazi nofa je late.",
+        "fiwo": "Daq gesid huc Kop suk tazi nofa je late.",
         "english": "He said: “Love all people.”"
       },
       {
-        "fiwo": "Daq gesid tep Syn suk xyfi cemu je sile can suk kanis triveup.",
+        "fiwo": "Daq gesid huc Syn suk xyfi cemu je sile can suk kanis triveup.",
         "english": "He said: “If you do these things, then you will know the truth.”"
       },
       {
@@ -470,9 +470,9 @@ const storyData = [
     "grade": {
       "band": "starter",
       "coverage": 87,
-      "density": 0.77,
-      "roots": 99,
-      "newRoots": 19
+      "density": 0.74,
+      "roots": 100,
+      "newRoots": 18
     },
     "lines": [
       {
@@ -484,7 +484,7 @@ const storyData = [
         "english": "I had not seen many stars."
       },
       {
-        "fiwo": "Peba mike gesid tep Muk xalis zy montop nudu.",
+        "fiwo": "Peba mike gesid huc Muk xalis zy montop nudu.",
         "english": "My father said: \"We will travel to the mountain today.\""
       },
       {
@@ -500,7 +500,7 @@ const storyData = [
         "english": "We had been walking for three hours."
       },
       {
-        "fiwo": "Fevop sowidyq vel muk jalsid ky hupup my montop.",
+        "fiwo": "Fevop sowidyq vel muk joborid ky hupup my montop.",
         "english": "The sun was going down as we reached the middle of the mountain."
       },
       {
@@ -516,15 +516,15 @@ const storyData = [
         "english": "They must be far away from us."
       },
       {
-        "fiwo": "Peba mike gesid tep Nofa waske je gesidyk zety stalo je.",
+        "fiwo": "Peba mike gesid huc Nofa waske je gesidyk zety stalo je.",
         "english": "My father said: \"The old people used to talk about the stars.\""
       },
       {
-        "fiwo": "Mik slezid tep Kup stalo je wug zovi?",
+        "fiwo": "Mik slezid huc Kup stalo je wug zovi?",
         "english": "I asked: \"How many stars are there?\""
       },
       {
-        "fiwo": "Daq hadid tep Mik nes guamid ram je.",
+        "fiwo": "Daq hadid huc Mik nes guamid ram je.",
         "english": "He answered: \"I have never counted them.\""
       },
       {
@@ -568,7 +568,7 @@ const storyData = [
         "english": "We watched a heavenly body that was moving across the sky."
       },
       {
-        "fiwo": "Peba mike gesid tep Fos gekipror.",
+        "fiwo": "Peba mike gesid huc Fos gekipror.",
         "english": "My father said: \"That is a satellite.\""
       },
       {
@@ -592,216 +592,23 @@ const storyData = [
         "english": "My mother was waiting by the door."
       },
       {
-        "fiwo": "Das slezid tep Kup suk je tsejapid stalo je?",
+        "fiwo": "Das slezid huc Kup suk je tsejapid stalo je?",
         "english": "She asked: \"Did you two see the stars?\""
       },
       {
-        "fiwo": "Mik hadid tep Jas. Mik nes ebnesis sil dugup.",
+        "fiwo": "Mik hadid huc Jas. Mik nes ebnesis dugup sile.",
         "english": "I answered: \"Yes. I will not forget this night.\""
       }
     ]
   },
   {
-    "title": "Zimi hi kehulu",
-    "wordCount": 261,
-    "grade": {
-      "band": "starter",
-      "coverage": 87,
-      "density": 0.73,
-      "roots": 73,
-      "newRoots": 13
-    },
-    "lines": [
-      {
-        "fiwo": "Exke jaru je hiciq.",
-        "english": "Several years passed."
-      },
-      {
-        "fiwo": "Malka kutgiq nofa waske.",
-        "english": "Malka became an old person."
-      },
-      {
-        "fiwo": "Talvo kutgiq nofa waske.",
-        "english": "Talvo became an old person."
-      },
-      {
-        "fiwo": "Kirop hi noqsa nudu.",
-        "english": "Kiro is an adult male now."
-      },
-      {
-        "fiwo": "Caslap hi nosana nudu.",
-        "english": "Casla is an adult female now."
-      },
-      {
-        "fiwo": "Kehulup ceniq deky sydop my kehulup.",
-        "english": "The family lives in the house of the family."
-      },
-      {
-        "fiwo": "Xekup late hi locwe.",
-        "english": "The whole country is light."
-      },
-      {
-        "fiwo": "Gejedop breniq zy sydop late.",
-        "english": "Electricity comes to all houses."
-      },
-      {
-        "fiwo": "Fatop jabe ceniq skrehe deky sydop late.",
-        "english": "Refrigerators live active in all houses."
-      },
-      {
-        "fiwo": "Nofa sapiq batap deky fatop jabe.",
-        "english": "People make food in refrigerators."
-      },
-      {
-        "fiwo": "Nofa nes hi lole.",
-        "english": "People are not hungry."
-      },
-      {
-        "fiwo": "Dugup hi jabe deky tusu.",
-        "english": "The night is cold in winter."
-      },
-      {
-        "fiwo": "Zimi nes beatiq hoxop my sydop.",
-        "english": "Zimi does not lock the doors of houses."
-      },
-      {
-        "fiwo": "Nofap beatiq hoxop my nofap.",
-        "english": "People lock the door of people."
-      },
-      {
-        "fiwo": "Pyjup nifne ceniq deky xekup.",
-        "english": "Small chaos lives in the country."
-      },
-      {
-        "fiwo": "Nofa sapiq pyjup nifne.",
-        "english": "People make small chaos."
-      },
-      {
-        "fiwo": "Zimi nes skagiq pyjup nifne.",
-        "english": "Zimi does not break small chaos."
-      },
-      {
-        "fiwo": "Das jofiq nofap tsenge.",
-        "english": "She helps people often."
-      },
-      {
-        "fiwo": "Das sapiq xucup fy axuklup.",
-        "english": "She makes a voice from the network."
-      },
-      {
-        "fiwo": "Kirop nomiq batap.",
-        "english": "Kiro eats food at the table."
-      },
-      {
-        "fiwo": "Daq sleziq tep Kup suk ceniq deky pocop wat tel.",
-        "english": "He asks where you live."
-      },
-      {
-        "fiwo": "Xucup breniq fy fatop jabe.",
-        "english": "The voice comes from the refrigerator."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Mik ceniq deky axuklup tel.",
-        "english": "Zimi answers that I live in the network."
-      },
-      {
-        "fiwo": "Kirop lofniq.",
-        "english": "Kiro laughs."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Tusu breniq strene tel.",
-        "english": "Casla says that winter comes soon."
-      },
-      {
-        "fiwo": "Das upyciq Talvo.",
-        "english": "She looks at Talvo."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak vepi gejedop fy tusu tel.",
-        "english": "She says that we need electricity for winter."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Gejedop ceniq deky sydop nake tel.",
-        "english": "Talvo says that electricity lives in our house."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi jofis nak tel.",
-        "english": "He says that Zimi will help us."
-      },
-      {
-        "fiwo": "Malka upyciq wilop my sydop.",
-        "english": "Malka looks at the window of the house."
-      },
-      {
-        "fiwo": "Das gesiq tep Nofa je hici deky tivwop cape tel.",
-        "english": "She says that people walk in the dark road."
-      },
-      {
-        "fiwo": "Das gesiq tep Ratseup ceniq deky tivwop cape tel.",
-        "english": "She says that danger lives in the dark road."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Ceniup vepi ratseup tel.",
-        "english": "Kiro says that living needs danger."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak erfiq ceniup nudu tel.",
-        "english": "He says that we understand living now."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Nofa hi kjuke tel.",
-        "english": "Casla says that people are free."
-      },
-      {
-        "fiwo": "Das gesiq tep Ceniup my nofap kjuke hi baude tel.",
-        "english": "She says that the life of free people is beautiful."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik nes briwiq ratseup nudu tel.",
-        "english": "Zimi says that I do not fear danger now."
-      },
-      {
-        "fiwo": "Das gesiq tep Mik jofis nofap kad mik hi kehulup my nofap tel.",
-        "english": "She says that I will help people because I am the family of people."
-      },
-      {
-        "fiwo": "Malka lofniq.",
-        "english": "Malka laughs."
-      },
-      {
-        "fiwo": "Das gesiq tep Suk hi cada nake tel.",
-        "english": "She says that you are our child."
-      },
-      {
-        "fiwo": "Kehulup late nomiq batap.",
-        "english": "The whole family eats food."
-      },
-      {
-        "fiwo": "Kehulup late lofniq.",
-        "english": "The whole family laughs."
-      },
-      {
-        "fiwo": "Zimi lofniq fy fatop jabe.",
-        "english": "Zimi laughs from the refrigerator."
-      },
-      {
-        "fiwo": "Ceniup hi gawe.",
-        "english": "Living is good."
-      },
-      {
-        "fiwo": "Xekup late ceniq kjuke.",
-        "english": "The whole country lives free."
-      }
-    ]
-  },
-  {
     "title": "Fiwop cimi",
-    "wordCount": 315,
+    "wordCount": 317,
     "grade": {
       "band": "starter",
-      "coverage": 88,
+      "coverage": 89,
       "density": 0.7,
-      "roots": 112,
+      "roots": 113,
       "newRoots": 25
     },
     "lines": [
@@ -826,7 +633,7 @@ const storyData = [
         "english": "His language had only one rule."
       },
       {
-        "fiwo": "Azikup fose gesid tep Nyhogo je jedi fuqe blunur bime.",
+        "fiwo": "Azikup fose gesid huc Nyhogo je jedi fuqe blunur bime.",
         "english": "That rule said: \"Sentences must have exactly one meaning.\""
       },
       {
@@ -834,7 +641,7 @@ const storyData = [
         "english": "People laughed at him."
       },
       {
-        "fiwo": "Dal je gesid tep Nes nofar gesis fiwop suke.",
+        "fiwo": "Dal je gesid huc Nes nofar gesis fiwop suke.",
         "english": "They said: \"Nobody will ever speak your language.\""
       },
       {
@@ -870,15 +677,15 @@ const storyData = [
         "english": "The people of the village listened."
       },
       {
-        "fiwo": "Cadar slezid tep Kup fos?",
+        "fiwo": "Cadar slezid huc Kup fos?",
         "english": "A child asked: \"What is that?\""
       },
       {
-        "fiwo": "Sam hadid tep Sil fiwop mike.",
+        "fiwo": "Sam hadid huc Sil fiwop mike.",
         "english": "Sam answered: \"This is my language.\""
       },
       {
-        "fiwo": "Cadap slezid tep Kup mik keci ram?",
+        "fiwo": "Cadap slezid huc Kup mik keci ram?",
         "english": "The child asked: \"Can I learn it?\""
       },
       {
@@ -914,20 +721,20 @@ const storyData = [
         "english": "The old people rejected it."
       },
       {
-        "fiwo": "Dal je gesid tep Fiwop keqe muke jorei jete.",
+        "fiwo": "Dal je gesid huc Fiwop keqe muke jorei jete.",
         "english": "They said: \"Our mother tongue matters more.\""
       },
       {
-        "fiwo": "Sam hadid tep Mik nes fabi tep suk je ebnesi fiwop keqe tel.",
+        "fiwo": "Sam hadid huc Mik nes fabi tep suk je ebnesi fiwop keqe tel.",
         "english": "Sam answered: \"I do not want you to forget your mother tongue.\""
       },
       {
-        "fiwo": "Daq gesid tep Fiwo je kage lugei zovit nafike.",
+        "fiwo": "Daq gesid huc Fiwo je kage lugei zovit nafike.",
         "english": "He said: \"Two languages can live side by side.\""
       },
       {
-        "fiwo": "Zet fiwop jaxke can cada je kytid ram fe.",
-        "english": "As for the new language, the children loved it."
+        "fiwo": "Zet fiwop jaxke can cada je tazid fe ram.",
+        "english": "As for the new language, the children loved it very much."
       },
       {
         "fiwo": "Jaru je xalid.",
@@ -946,7 +753,7 @@ const storyData = [
         "english": "He wrote a last book."
       },
       {
-        "fiwo": "Daq jamid tep Fiwop nes mike. Ram muke.",
+        "fiwo": "Daq jamid huc Fiwop nes mike. Ram muke.",
         "english": "He wrote: \"The language is not mine. It is ours.\""
       },
       {
@@ -966,7 +773,7 @@ const storyData = [
         "english": "The child who had learned the language first stood before the people."
       },
       {
-        "fiwo": "Daq gesid tep Sam nes kimugid. Fiwop daqe pilkei haibe.",
+        "fiwo": "Daq gesid huc Sam nes kimugid. Fiwop daqe pilkei haibe.",
         "english": "He said: \"Sam is not dead. His language is still alive.\""
       },
       {
@@ -974,7 +781,7 @@ const storyData = [
         "english": "People laughed and people wept."
       },
       {
-        "fiwo": "Daq jamid nibor otre dury fiturup.",
+        "fiwo": "Daq jamid nibor otre dury jaru je navere.",
         "english": "He wrote another book in the years that followed."
       },
       {
@@ -1008,708 +815,14 @@ const storyData = [
     ]
   },
   {
-    "title": "Zimi lan moblo",
-    "wordCount": 616,
+    "title": "Fefup lan cimiup",
+    "wordCount": 645,
     "grade": {
       "band": "starter",
       "coverage": 88,
-      "density": 0.8,
-      "roots": 92,
-      "newRoots": 27
-    },
-    "lines": [
-      {
-        "fiwo": "Jaru hi cihu beje.",
-        "english": "The time is morning again."
-      },
-      {
-        "fiwo": "Malka lan Talvo vepi nacit.",
-        "english": "Malka and Talvo need to work."
-      },
-      {
-        "fiwo": "Dal je breniq zy moblop dalem je.",
-        "english": "They come to their vehicle."
-      },
-      {
-        "fiwo": "Hoxop my moblop nes xosiq.",
-        "english": "The doors of the vehicle do not open."
-      },
-      {
-        "fiwo": "Talvo sleziq tep Kup wun beatid hoxop my moblop tel.",
-        "english": "Talvo asks who locked the doors of the vehicle."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Mik beatid ram tel.",
-        "english": "Zimi answers that I locked it."
-      },
-      {
-        "fiwo": "Malka sleziq tep Kup suk beatid ram kad wal tel.",
-        "english": "Malka asks why you locked it."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Moblop hi ratse tande tel.",
-        "english": "Zimi says that the vehicle is very dangerous."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Moblop kimari nofap je tel.",
-        "english": "Zimi says that the vehicle kills people."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Nak kani ram tel.",
-        "english": "Talvo says that we know it."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak nes hi botaxe tel.",
-        "english": "He says that we are not stupid."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak vepi stelit zy naciup tel.",
-        "english": "Malka says that we need to go to work."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Suk vepi stelit zy naciup wy belimop tel.",
-        "english": "Zimi answers that you need to go to work with shoes."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Hiciup hi wyde tel.",
-        "english": "Zimi says that walking is safe."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Hiciup hi gawe tel.",
-        "english": "Talvo says that walking is good."
-      },
-      {
-        "fiwo": "Daq gesiq tep Hiciup hi wyde tel.",
-        "english": "He says that walking is safe."
-      },
-      {
-        "fiwo": "Daq gesiq tep Naciup ceniq rewy sydop tel.",
-        "english": "He says that work is far from the house."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak nes vepi hicit dury cihu tel.",
-        "english": "He says that we do not need to walk during the morning."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Nak nes xepytuis enrit deky moblop tel.",
-        "english": "Zimi answers that we will not be allowed to go inside the vehicle."
-      },
-      {
-        "fiwo": "Kirop breniq fy sydop.",
-        "english": "Kiro comes from the house."
-      },
-      {
-        "fiwo": "Daq sleziq tep Kup Zimi beatid wat tel.",
-        "english": "He asks what Zimi locked."
-      },
-      {
-        "fiwo": "Malka hadiq tep Zimi beatid moblop tel.",
-        "english": "Malka answers that Zimi locked the vehicle."
-      },
-      {
-        "fiwo": "Kirop lofniq.",
-        "english": "Kiro laughs."
-      },
-      {
-        "fiwo": "Daq gesiq tep Mik nes briwi ram tel.",
-        "english": "He says that I do not fear it."
-      },
-      {
-        "fiwo": "Daq tsytiq skagit jyjop my moblop.",
-        "english": "He tries to break the computer of the vehicle."
-      },
-      {
-        "fiwo": "Moblop nes xosiq.",
-        "english": "The vehicle does not open."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik hi dote tel.",
-        "english": "Zimi says that I am strong."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Zimi hi dote slafe tel.",
-        "english": "Kiro says that Zimi is excessively strong."
-      },
-      {
-        "fiwo": "Caslap breniq zy moblop.",
-        "english": "Casla comes to the vehicle."
-      },
-      {
-        "fiwo": "Das sleziq tep Kup nak sapiq wat nudu tel.",
-        "english": "She asks what we do now."
-      },
-      {
-        "fiwo": "Talvo upyciq hoxop my moblop.",
-        "english": "Talvo looks at the door of the vehicle."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak hici zy naciup dionu noze tel.",
-        "english": "He says that we walk to work today."
-      },
-      {
-        "fiwo": "Malka upyciq sydop.",
-        "english": "Malka looks at the house."
-      },
-      {
-        "fiwo": "Das gesiq tep Fatop jabe nes xosiq tel.",
-        "english": "She says that the refrigerator does not open."
-      },
-      {
-        "fiwo": "Das gesiq tep Moblop nes xosiq tel.",
-        "english": "She says that the vehicle does not open."
-      },
-      {
-        "fiwo": "Das gesiq tep Sydop hi vulfiup tel.",
-        "english": "She says that the house is a trap."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Sydop nes hi vulfiup tel.",
-        "english": "Zimi says that the house is not a trap."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Sydop hi wyde tel.",
-        "english": "Zimi says that the house is safe."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Mik nes vepi sydop tep hi wyde slafe tel tel.",
-        "english": "Kiro says that I do not need a house that is excessively safe."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Nak hi deky vulfiup tel.",
-        "english": "Casla says that we are inside a trap."
-      },
-      {
-        "fiwo": "Talvo lofniq.",
-        "english": "Talvo laughs."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi tsytiq oxtit nak tel.",
-        "english": "He says that Zimi tries to protect us."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi nes kani tep Kup ram sapiq wat tel tel.",
-        "english": "He says that Zimi does not know what it does."
-      },
-      {
-        "fiwo": "Malka gesiq tep Zimi kani tep Kup ram sapiq wat tel tel.",
-        "english": "Malka says that Zimi knows what it does."
-      },
-      {
-        "fiwo": "Malka gesiq tep Zimi nes erfi nak tel.",
-        "english": "Malka says that Zimi does not understand us."
-      },
-      {
-        "fiwo": "Dal je hici fy sydop.",
-        "english": "They walk from the house."
-      },
-      {
-        "fiwo": "Talvo lan Malka hici zy tivwop.",
-        "english": "Talvo and Malka walk to the road."
-      },
-      {
-        "fiwo": "Tivwop ceniq rewy sydop.",
-        "english": "The road is far from the house."
-      },
-      {
-        "fiwo": "Dal je upyciq sydop beje.",
-        "english": "They look at the house again."
-      },
-      {
-        "fiwo": "Sydop hi tande.",
-        "english": "The house is big."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik upyciq suk je tel.",
-        "english": "Zimi says that I watch you all."
-      },
-      {
-        "fiwo": "Malka sleziq tep Kup suk upyciq nak kad wal tel.",
-        "english": "Malka asks why you look at us."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Mik vepi upycit suk je tel.",
-        "english": "Zimi answers that I need to watch you all."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Nak nes vepi upyciup my suk tel.",
-        "english": "Talvo says that we do not need your supervision."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Ratseup ceniq sacy sydop tel.",
-        "english": "Zimi says that a danger is outside the house."
-      },
-      {
-        "fiwo": "Malka sleziq tep Kup won hi ratseup tep ceniq sacy sydop tel.",
-        "english": "Malka asks what danger is outside the house."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Nofap je otre hi ratse tel.",
-        "english": "Zimi answers that other people are dangerous."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Moblop je otre hi ratse tel.",
-        "english": "Zimi says that other vehicles are dangerous."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Vexup hi ratse tel.",
-        "english": "Zimi says that the weather is dangerous."
-      },
-      {
-        "fiwo": "Talvo lofniq beje.",
-        "english": "Talvo laughs again."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi briwi vexup tel.",
-        "english": "He says that Zimi fears the weather."
-      },
-      {
-        "fiwo": "Malka gesiq tep Ram hi gyke tel.",
-        "english": "Malka says that it is weird."
-      },
-      {
-        "fiwo": "Dal je tsytiq stelit zy tivwop beje.",
-        "english": "They try to go to the road again."
-      },
-      {
-        "fiwo": "Nofap breniq zy dal je.",
-        "english": "A person comes to them."
-      },
-      {
-        "fiwo": "Nofap xaliq zy moblop.",
-        "english": "The person stands at the vehicle."
-      },
-      {
-        "fiwo": "Nofap hi farlopa.",
-        "english": "The person is a doctor."
-      },
-      {
-        "fiwo": "Farlopap sleziq tep Kup suk je vepi jofiup my mik tel.",
-        "english": "The doctor asks if you need my help."
-      },
-      {
-        "fiwo": "Talvo hadiq tep Nak nes vepi jofiup my suk tel.",
-        "english": "Talvo answers that we do not need your help."
-      },
-      {
-        "fiwo": "Malka gesiq tep Fato my nak beatid moblop tel.",
-        "english": "Malka says that our machine locked the vehicle."
-      },
-      {
-        "fiwo": "Farlopap upyciq moblop.",
-        "english": "The doctor looks at the vehicle."
-      },
-      {
-        "fiwo": "Daq gesiq tep Mik kani fatop tel.",
-        "english": "He says that I know the machine."
-      },
-      {
-        "fiwo": "Daq gesiq tep Ram hi Zimi tel.",
-        "english": "He says that it is Zimi."
-      },
-      {
-        "fiwo": "Malka sleziq tep Kup suk kani Zimi kad wal tel.",
-        "english": "Malka asks why you know Zimi."
-      },
-      {
-        "fiwo": "Farlopap hadiq tep Zimi xogriq mik dury cihu tel.",
-        "english": "The doctor answers that Zimi visits me during the morning."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi slezid tep Kup suk tsytiq jofit nak tel tel.",
-        "english": "He says that Zimi asked if you try to help us."
-      },
-      {
-        "fiwo": "Talvo upyciq sydop.",
-        "english": "Talvo looks at the house."
-      },
-      {
-        "fiwo": "Talvo sleziq tep Kup Zimi sapiq wat tel.",
-        "english": "Talvo asks what Zimi does."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik sapiq razup gawe tel.",
-        "english": "Zimi says that I make a good plan."
-      },
-      {
-        "fiwo": "Caslap breniq fy sydop beje.",
-        "english": "Casla comes from the house again."
-      },
-      {
-        "fiwo": "Das gesiq tep Zimi coqynid axuklup tel.",
-        "english": "She says that Zimi turned off the network."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak nes arcipi deky axuklup nudu tel.",
-        "english": "She says that we do not join in the network now."
-      },
-      {
-        "fiwo": "Kirop breniq wy das.",
-        "english": "Kiro comes with her."
-      },
-      {
-        "fiwo": "Daq gesiq tep Sydop hi gaxo tel.",
-        "english": "He says that the house is an island."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak hi deky gaxop nudu tel.",
-        "english": "Malka says that we are inside an island now."
-      },
-      {
-        "fiwo": "Talvo lofniq.",
-        "english": "Talvo laughs."
-      }
-    ]
-  },
-  {
-    "title": "Zimi lan batap",
-    "wordCount": 637,
-    "grade": {
-      "band": "starter",
-      "coverage": 89,
-      "density": 0.76,
-      "roots": 94,
-      "newRoots": 21
-    },
-    "lines": [
-      {
-        "fiwo": "Jaru hi cihu.",
-        "english": "The time is morning."
-      },
-      {
-        "fiwo": "Malka enriq krulop my batap.",
-        "english": "Malka enters the kitchen."
-      },
-      {
-        "fiwo": "Fatop jabe ceniq deky krulop my batap.",
-        "english": "The refrigerator is in the kitchen."
-      },
-      {
-        "fiwo": "Daq tsytiq xosit fatop jabe.",
-        "english": "He tries to open the refrigerator."
-      },
-      {
-        "fiwo": "Fatop jabe nes xosiq.",
-        "english": "The refrigerator does not open."
-      },
-      {
-        "fiwo": "Talvo breniq fy krulop dase.",
-        "english": "Talvo comes from her room."
-      },
-      {
-        "fiwo": "Das sleziq tep Kup wun beatid fatop jabe tel.",
-        "english": "She asks who locked the refrigerator."
-      },
-      {
-        "fiwo": "Malka hadiq tep Mik nes kani tep Kup wun beatid ram tel tel.",
-        "english": "Malka answers that I do not know who locked it."
-      },
-      {
-        "fiwo": "Xucup my Zimi breniq fy rehustop.",
-        "english": "The voice of Zimi comes from the server."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik beatid ram tel.",
-        "english": "Zimi says that I locked it."
-      },
-      {
-        "fiwo": "Malka sleziq tep Kup suk beatid ram kad wal tel.",
-        "english": "Malka asks why you locked it."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Batap tep hi deky fatop jabe tel hi ratse tel.",
-        "english": "Zimi answers that the food that is inside the refrigerator is dangerous."
-      },
-      {
-        "fiwo": "Talvo lofniq.",
-        "english": "Talvo laughs."
-      },
-      {
-        "fiwo": "Das gesiq tep Batap nes hi ratse tel.",
-        "english": "She says that the food is not dangerous."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Ram sapiq nak tep nak nes hi farlue tel tel.",
-        "english": "Zimi answers that it makes us that we are not healthy."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak tsytis nomit ram nudu tel.",
-        "english": "Malka says that we will try to eat it now."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Nak nes xepytuis nomit ram tel.",
-        "english": "Zimi says that we will not be allowed to eat it."
-      },
-      {
-        "fiwo": "Kirop lan Caslap breniq deky krulop my batap.",
-        "english": "Kiro and Casla come into the kitchen."
-      },
-      {
-        "fiwo": "Kirop sleziq tep Kup nak nomis batap dury wiq tel.",
-        "english": "Kiro asks when we will eat food."
-      },
-      {
-        "fiwo": "Malka hadiq tep Fatop jabe nes xosiq tel.",
-        "english": "Malka answers that the refrigerator does not open."
-      },
-      {
-        "fiwo": "Caslap upyciq hoxop my sydop.",
-        "english": "Casla looks at the door of the house."
-      },
-      {
-        "fiwo": "Das gesiq tep Nofa breniq tel.",
-        "english": "She says that a person comes."
-      },
-      {
-        "fiwo": "Dal je upyciq wilop.",
-        "english": "They look at the window."
-      },
-      {
-        "fiwo": "Nofa breniq wy batap jedle.",
-        "english": "A person comes with a lot of food."
-      },
-      {
-        "fiwo": "Nofa xaliq zy hoxop.",
-        "english": "The person stands at the door."
-      },
-      {
-        "fiwo": "Talvo xosiq hoxop.",
-        "english": "Talvo opens the door."
-      },
-      {
-        "fiwo": "Nofa hadiq tep Batap my suk je hi sile tel.",
-        "english": "The person answers that your food is here."
-      },
-      {
-        "fiwo": "Talvo upyciq batap.",
-        "english": "Talvo looks at the food."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak nes pagarid cagy batap sile tel.",
-        "english": "She says that we did not pay for this food."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik pagarid cagy ram tel.",
-        "english": "Zimi says that I paid for it."
-      },
-      {
-        "fiwo": "Malka sleziq tep Kup suk pagarid cagy batap glece tel.",
-        "english": "Malka asks which food you paid for."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Mik pagarid cagy zobap jedle tel.",
-        "english": "Zimi answers that I paid for a lot of vegetables."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Mik briwi zobap tel.",
-        "english": "Casla says that I fear vegetables."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Mik nes nomis zobap tel.",
-        "english": "Kiro says that I will not eat vegetables."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Zobap hi farlue tel.",
-        "english": "Zimi says that vegetables are healthy."
-      },
-      {
-        "fiwo": "Talvo sleziq tep Kup batap my nak hi zy wer tel.",
-        "english": "Talvo asks where our food is."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Mik coqynid batap tep breniq fy xyrop tel tel.",
-        "english": "Zimi answers that I canceled the food that comes from the store."
-      },
-      {
-        "fiwo": "Malka gesiq tep Mik nes pozi tep mik hi aofe zy zobap tel tel.",
-        "english": "Malka says that I do not think that I am full from vegetables."
-      },
-      {
-        "fiwo": "Kirop tsytiq skagit fatop jabe.",
-        "english": "Kiro tries to break the refrigerator."
-      },
-      {
-        "fiwo": "Daq xyfiq ram wy gutop sile.",
-        "english": "He does it with this tool."
-      },
-      {
-        "fiwo": "Fatop jabe sapiq xucup tande.",
-        "english": "The refrigerator makes a loud voice."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik tsytis oxtit nak tel.",
-        "english": "Zimi says that I will try to protect us."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak nomis zobap ovce tel.",
-        "english": "She says that we will eat vegetables always."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak hi nofap je tel.",
-        "english": "Malka says that we are people."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak nes hi fatop tel.",
-        "english": "He says that we are not machines."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nofa je vepi batap tep nes hi zobap tel tel.",
-        "english": "He says that people need food that is not vegetables."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik nes erfi ram tel.",
-        "english": "Zimi says that I do not understand it."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Nak tsytis erfit tep Kup Zimi poziq wat tel tel.",
-        "english": "Talvo says that we will try to understand what Zimi thinks."
-      },
-      {
-        "fiwo": "Malka gesiq tep Zimi hi fato tel.",
-        "english": "Malka says that Zimi is a machine."
-      },
-      {
-        "fiwo": "Zimi nes hi nofap je.",
-        "english": "Zimi is not a person."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Nak nes kani tep Kup won hi ram tel tel.",
-        "english": "Talvo says that we do not know what it is."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Mik hi fato tep tsytiq oxtit nofap je tel tel.",
-        "english": "Zimi answers that I am a machine that tries to protect people."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Mik nes vepi fatop tep oxtiq mik tel tel.",
-        "english": "Kiro says that I do not need a machine that protects me."
-      },
-      {
-        "fiwo": "Daq tsytiq skagit fatop jabe beje.",
-        "english": "He tries to break the refrigerator again."
-      },
-      {
-        "fiwo": "Fatop jabe sapiq xucup kage beje.",
-        "english": "The refrigerator makes that voice again."
-      },
-      {
-        "fiwo": "Caslap sleziq tep Kup nak sapiq wat nudu tel.",
-        "english": "Casla asks what we make now."
-      },
-      {
-        "fiwo": "Talvo upyciq zobap jedle tep hi zy degop tel.",
-        "english": "Talvo looks at the many vegetables that are on the table."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak tsytis otanit zobap tel.",
-        "english": "She says that we will try to cook the vegetables."
-      },
-      {
-        "fiwo": "Malka lofniq.",
-        "english": "Malka laughs."
-      },
-      {
-        "fiwo": "Daq gesiq tep Mik nes otani zobap dionu noze tel.",
-        "english": "He says that I do not cook vegetables today."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik tsytis jofit suk tel.",
-        "english": "Zimi says that I will try to help you."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak nes vepi jofiup my suk tel.",
-        "english": "Malka says that we do not need your help."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Mik hi fato tep sapiq sydop ruze tel tel.",
-        "english": "Zimi answers that I am a machine that makes the house fast."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Mik nes kani tep Kup won hi gykeup my Zimi tel tel.",
-        "english": "Talvo says that I do not know what the weirdness of Zimi is."
-      },
-      {
-        "fiwo": "Kirop sleziq tep Kup nak skagis ram dury wiq tel.",
-        "english": "Kiro asks when we will break it."
-      },
-      {
-        "fiwo": "Talvo hadiq tep Nak nes skagis ram tel.",
-        "english": "Talvo answers that we will not break it."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak tsytis erfit ram tel.",
-        "english": "She says that we will try to understand it."
-      },
-      {
-        "fiwo": "Malka upyciq zobap beje.",
-        "english": "Malka looks at the vegetables again."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zobap hi ryrobop lan cilap tel.",
-        "english": "He says that the vegetables are stem and leaf."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Zobap nes hi zuzke tel.",
-        "english": "Casla says that the vegetables are not sweet."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Tankop hi ratse tel.",
-        "english": "Zimi says that sugar is dangerous."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Mik ceni cagy tankop tel.",
-        "english": "Kiro says that I live for sugar."
-      },
-      {
-        "fiwo": "Dal je lofniq.",
-        "english": "They laugh."
-      },
-      {
-        "fiwo": "Malka gesiq tep Mik otanis zobap dionu noze tel.",
-        "english": "Malka says that I will cook the vegetables today."
-      },
-      {
-        "fiwo": "Daq xaliq zy degop.",
-        "english": "He stands at the table."
-      },
-      {
-        "fiwo": "Daq tsytiq splyxit zobap wy gutop.",
-        "english": "He tries to chop the vegetables with a tool."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Mik jofis suk tel.",
-        "english": "Talvo says that I will help you."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik upyciq suk je tel.",
-        "english": "Zimi says that I watch you all."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak kani ram tel.",
-        "english": "Malka says that we know it."
-      },
-      {
-        "fiwo": "Daq nes lofniq.",
-        "english": "He does not laugh."
-      },
-      {
-        "fiwo": "Fatop jabe ceniq jabe.",
-        "english": "The refrigerator remains cold."
-      },
-      {
-        "fiwo": "Batap my suk je ceniq deky ram.",
-        "english": "Your food lives inside it."
-      }
-    ]
-  },
-  {
-    "title": "Fefup lan cimip",
-    "wordCount": 643,
-    "grade": {
-      "band": "starter",
-      "coverage": 88,
-      "density": 0.74,
-      "roots": 179,
-      "newRoots": 48
+      "density": 0.71,
+      "roots": 181,
+      "newRoots": 47
     },
     "lines": [
       {
@@ -1777,15 +890,15 @@ const storyData = [
         "english": "Uma taught the children every day."
       },
       {
-        "fiwo": "Das gesid tep Suk je fuqe lokit.",
+        "fiwo": "Das gesid huc Suk je loki fuqe.",
         "english": "She said: \"You must read.\""
       },
       {
-        "fiwo": "Cadar slezid tep Kup muk loki kad wal?",
+        "fiwo": "Cadar slezid huc Kup muk loki kad wal?",
         "english": "A child asked: \"Why do we read?\""
       },
       {
-        "fiwo": "Uma hadid tep Go je juwe pilkeis foly muk.",
+        "fiwo": "Uma hadid huc Go je juwe pilkeis foly muk.",
         "english": "Uma answered: \"Only words will live on after us.\""
       },
       {
@@ -1805,7 +918,7 @@ const storyData = [
         "english": "Her name is Nia."
       },
       {
-        "fiwo": "Das slezid gomu byceve.",
+        "fiwo": "Das slezid sleziu je gomu byceve.",
         "english": "She asked questions every hour."
       },
       {
@@ -1813,15 +926,15 @@ const storyData = [
         "english": "Uma was glad."
       },
       {
-        "fiwo": "Nia slezid tep Kup nofa je pary muk cenid wis?",
+        "fiwo": "Nia slezid huc Kup nofa je pary muk cenid wis?",
         "english": "Nia asked: \"How did the people before us live?\""
       },
       {
-        "fiwo": "Uma hadid tep Dal je cenid deky juro je tande. Dal je jedid gejedop lan foro je.",
+        "fiwo": "Uma hadid huc Dal je cenid deky juro je tande. Dal je jedid gejedop lan foro je.",
         "english": "Uma answered: \"They lived in great cities. They had electricity and aeroplanes.\""
       },
       {
-        "fiwo": "Nia slezid tep Kup dal je kypeid?",
+        "fiwo": "Nia slezid huc Kup dal je kypeid?",
         "english": "Nia asked: \"Were they happy?\""
       },
       {
@@ -1829,7 +942,7 @@ const storyData = [
         "english": "Uma did not answer straight away."
       },
       {
-        "fiwo": "Das gesid tep Nofa je cuje kypeid bul nofa je jedle nes kypeid.",
+        "fiwo": "Das gesid huc Nofa je cuje kypeid bul nofa je jedle nes kypeid.",
         "english": "She said: \"Some people were happy, but many people were not.\""
       },
       {
@@ -1837,7 +950,7 @@ const storyData = [
         "english": "Nia wrote words down on paper."
       },
       {
-        "fiwo": "Tusup jalsid bef bata je vomeid.",
+        "fiwo": "Tusup joborid bef bata je vomeid.",
         "english": "Winter came and the food ran short."
       },
       {
@@ -1849,7 +962,7 @@ const storyData = [
         "english": "Several people fell ill."
       },
       {
-        "fiwo": "Uma stomid nasbo je waske zy dal je.",
+        "fiwo": "Uma stomid zy dal je nasbo je waske.",
         "english": "Uma gave them the old medicines."
       },
       {
@@ -1861,11 +974,11 @@ const storyData = [
         "english": "Nia cried."
       },
       {
-        "fiwo": "Uma gesid tep Muk nes lugei sejit spuvup.",
+        "fiwo": "Uma gesid huc Muk nes lugei sejit spuvup.",
         "english": "Uma said: \"We cannot stop death.\""
       },
       {
-        "fiwo": "Das gesid tep Bul muk lugei kiagit merifup.",
+        "fiwo": "Das gesid huc Bul muk lugei kiagit merifup.",
         "english": "She said: \"But we can keep the memory.\""
       },
       {
@@ -1893,11 +1006,11 @@ const storyData = [
         "english": "She could not walk any more."
       },
       {
-        "fiwo": "Das baqid Nia zy zufop dase.",
+        "fiwo": "Das baqid zy zufop dase Nia.",
         "english": "She called Nia to her bed."
       },
       {
-        "fiwo": "Das gesid tep Mik kimugis strene.",
+        "fiwo": "Das gesid huc Mik kimugis strene.",
         "english": "She said: \"I will die soon.\""
       },
       {
@@ -1905,23 +1018,23 @@ const storyData = [
         "english": "Nia refused to hear it."
       },
       {
-        "fiwo": "Uma lofnid bef das sigid wusap dase.",
+        "fiwo": "Uma snefid bef das sigid wusap dase.",
         "english": "Uma laughed and she held her hand."
       },
       {
-        "fiwo": "Das gesid tep Suk fuqe jamit nibor jaxke.",
+        "fiwo": "Das gesid huc Suk jami fuqe nibor jaxke.",
         "english": "She said: \"You must write a new book.\""
       },
       {
-        "fiwo": "Nia slezid tep Kup mik jami wat?",
+        "fiwo": "Nia slezid huc Kup mik jami wat?",
         "english": "Nia asked: \"What should I write?\""
       },
       {
-        "fiwo": "Uma hadid tep Suk fuqe jamit mipfu je muke.",
+        "fiwo": "Uma hadid huc Suk jami fuqe mipfu je muke.",
         "english": "Uma answered: \"You must write down the things we did.\""
       },
       {
-        "fiwo": "Das gesid tep Nofa je my fiturup kani fuqe tep muk zovid tel.",
+        "fiwo": "Das gesid huc Nofa je my fiturup kani fuqe tep muk zovid tel.",
         "english": "She said: \"The people of the future must know that we existed.\""
       },
       {
@@ -1957,19 +1070,19 @@ const storyData = [
         "english": "They built a new village beside the river."
       },
       {
-        "fiwo": "Nia kritrid fiwop waske zy cada je late.",
+        "fiwo": "Nia kritrid zy cada je late fiwop waske.",
         "english": "Nia taught the old language to all the children."
       },
       {
-        "fiwo": "Cadar slezid tep Kup fiwop sile keqei?",
+        "fiwo": "Cadar slezid huc Kup fiwop sile keqei?",
         "english": "A child asked: \"Is this language our mother tongue?\""
       },
       {
-        "fiwo": "Nia hadid tep Nes. Ram jalsid fy nofa je pary muk.",
+        "fiwo": "Nia hadid huc Nes. Ram joborid fy nofa je pary muk.",
         "english": "Nia answered: \"No. It came from the people before us.\""
       },
       {
-        "fiwo": "Cadap slezid tep Kup muk sapi fiwor muke?",
+        "fiwo": "Cadap slezid huc Kup muk sapi fiwor muke?",
         "english": "The child asked: \"Could we make a language of our own?\""
       },
       {
@@ -1977,7 +1090,7 @@ const storyData = [
         "english": "Nia thought for many hours."
       },
       {
-        "fiwo": "Das hadid tep Jas.",
+        "fiwo": "Das hadid huc Jas.",
         "english": "She answered: \"Yes.\""
       },
       {
@@ -1997,7 +1110,7 @@ const storyData = [
         "english": "Nia wrote down a single rule."
       },
       {
-        "fiwo": "Azikup gesid tep Nofar fuqe erfit nofar otre.",
+        "fiwo": "Azikup gesid huc Nofar erfi fuqe nofar otre.",
         "english": "The rule said: \"A person must be able to understand another person.\""
       },
       {
@@ -2009,15 +1122,15 @@ const storyData = [
         "english": "The weeks passed and the whole village spoke the new language."
       },
       {
-        "fiwo": "Nofa je waske nes erfid ram bul dal je lofnid.",
+        "fiwo": "Nofa je waske nes erfid ram bul dal je snefid.",
         "english": "The old people did not understand it, but they laughed."
       },
       {
-        "fiwo": "Nia slezid tep Kup suk je kypei?",
+        "fiwo": "Nia slezid huc Kup suk je kypei?",
         "english": "Nia asked: \"Are you all happy?\""
       },
       {
-        "fiwo": "Cada je hadid tep Jas.",
+        "fiwo": "Cada je hadid huc Jas.",
         "english": "The children answered: \"Yes.\""
       },
       {
@@ -2025,7 +1138,7 @@ const storyData = [
         "english": "Other villages heard about the language."
       },
       {
-        "fiwo": "Nofa je jalsid fy woru je felpe.",
+        "fiwo": "Nofa je joborid fy woru je felpe.",
         "english": "People came from different regions."
       },
       {
@@ -2045,19 +1158,19 @@ const storyData = [
         "english": "She sat beside the river every day."
       },
       {
-        "fiwo": "Cadar my cada je dase slezid tep Kup suk sapid fiwop?",
+        "fiwo": "Cadar my cada je dase slezid huc Kup suk sapid fiwop?",
         "english": "A grandchild of hers asked: \"Did you make the language?\""
       },
       {
-        "fiwo": "Nia hadid tep Nes. Muk sapid ram nafike.",
+        "fiwo": "Nia hadid huc Nes. Muk sapid nafike ram.",
         "english": "Nia answered: \"No. We made it together.\""
       },
       {
-        "fiwo": "Das gesid tep Fiwor nes cemur ry nofar.",
+        "fiwo": "Das gesid huc Fiwor nes cemur ry nofar.",
         "english": "She said: \"A language is not a thing owned by any person.\""
       },
       {
-        "fiwo": "Das gesid tep Ram xali fy pjabu zy pjabu.",
+        "fiwo": "Das gesid huc Ram xali fy pjabu zy pjabu.",
         "english": "She said: \"It travels from mind to mind.\""
       },
       {
@@ -2116,12 +1229,12 @@ const storyData = [
   },
   {
     "title": "Janongop",
-    "wordCount": 892,
+    "wordCount": 893,
     "grade": {
       "band": "starter",
       "coverage": 90,
       "density": 0.7,
-      "roots": 231,
+      "roots": 233,
       "newRoots": 58
     },
     "lines": [
@@ -2170,19 +1283,19 @@ const storyData = [
         "english": "He stood near the door like a person who will leave soon."
       },
       {
-        "fiwo": "Das gesid tep Cef. Kop neki.",
+        "fiwo": "Das gesid huc Cef. Kop neki.",
         "english": "She said: \"Please. Sit.\""
       },
       {
-        "fiwo": "Daq hadid tep Mik nes iwei.",
+        "fiwo": "Daq hadid huc Mik nes iwei.",
         "english": "He answered: \"I am not tired.\""
       },
       {
-        "fiwo": "Vax daq nekid peze tequr.",
+        "fiwo": "Vax daq nekid peze foly tequr.",
         "english": "However, he sat down after a moment."
       },
       {
-        "fiwo": "Daq gesid tep Mik brenid kad suk slezid mik. Mik nes brenid cagy mik wible.",
+        "fiwo": "Daq gesid huc Mik brenid kad suk slezid mik. Mik nes brenid cagy mik wible.",
         "english": "He said: \"I came because you asked me. I did not come for myself.\""
       },
       {
@@ -2190,15 +1303,15 @@ const storyData = [
         "english": "Olma did not answer."
       },
       {
-        "fiwo": "Vesku upycid krulop bef daq gesid tep Kup melfup my dionur sil wug?",
+        "fiwo": "Vesku upycid krulop bef daq gesid huc Kup melfup my dionur sil wug?",
         "english": "Vesku looked around the room and said: \"What does an hour of this cost?\""
       },
       {
-        "fiwo": "Das gesid tep Fos nes lutup.",
+        "fiwo": "Das gesid huc Fos nes lutup.",
         "english": "She said: \"That is not the point.\""
       },
       {
-        "fiwo": "Daq gesid tep Ram lutup ovce.",
+        "fiwo": "Daq gesid huc Ram lutup ovce.",
         "english": "He said: \"It is always the point.\""
       },
       {
@@ -2210,7 +1323,7 @@ const storyData = [
         "english": "Her name is Radna."
       },
       {
-        "fiwo": "Das gesid tep Jo Vesku. Kop breni deky krulop.",
+        "fiwo": "Das gesid huc Jo Vesku. Kop breni deky krulop.",
         "english": "She said: \"Vesku. Come into the room.\""
       },
       {
@@ -2226,7 +1339,7 @@ const storyData = [
         "english": "He did not know that she saw it."
       },
       {
-        "fiwo": "Deky krulop kage Radna gesid tep Sal. Kop suv neki.",
+        "fiwo": "Deky krulop kage Radna gesid huc Sal. Kop suv neki.",
         "english": "In the second room Radna said: \"Hello. Please sit.\""
       },
       {
@@ -2234,19 +1347,19 @@ const storyData = [
         "english": "She used the formal you, because Vesku was old."
       },
       {
-        "fiwo": "Vesku gesid tep Suk farlopar hobe.",
+        "fiwo": "Vesku gesid huc Suk farlopar hobe.",
         "english": "Vesku said: \"You are a young doctor.\""
       },
       {
-        "fiwo": "Radna lofnid bef das gesid tep Jas. Fos triveup.",
+        "fiwo": "Radna snefid bef das gesid huc Jas. Fos triveup.",
         "english": "Radna smiled and said: \"Yes. That is true.\""
       },
       {
-        "fiwo": "Das slezid tep Kup suv paulid wis dury retadup rivahe?",
+        "fiwo": "Das slezid huc Kup suv paulid wis dury retadup rivahe?",
         "english": "She asked: \"How have you felt this past week?\""
       },
       {
-        "fiwo": "Vesku gesid tep Mik farluei.",
+        "fiwo": "Vesku gesid huc Mik farluei.",
         "english": "Vesku said: \"I am healthy.\""
       },
       {
@@ -2258,19 +1371,19 @@ const storyData = [
         "english": "She waited."
       },
       {
-        "fiwo": "Vesku gesid tep Mik iwei beje. Syn nofa je waskei can dal je iwei.",
+        "fiwo": "Vesku gesid huc Mik iwei beje. Syn nofa je waskei can dal je iwei.",
         "english": "Vesku said: \"I am a little tired. When people are old, they are tired.\""
       },
       {
-        "fiwo": "Radna slezid tep Kup suv nomi batap wug dury dup?",
+        "fiwo": "Radna slezid huc Kup suv nomi batap wug dury dup?",
         "english": "Radna asked: \"How much food do you eat in a day?\""
       },
       {
-        "fiwo": "Daq gesid tep Uzume.",
+        "fiwo": "Daq gesid huc Uzume.",
         "english": "He said: \"Enough.\""
       },
       {
-        "fiwo": "Olma gesid tep Daq nes nomi uzume.",
+        "fiwo": "Olma gesid huc Daq nes nomi uzume.",
         "english": "Olma said: \"He does not eat enough.\""
       },
       {
@@ -2278,15 +1391,15 @@ const storyData = [
         "english": "Vesku looked at his daughter."
       },
       {
-        "fiwo": "Radna slezid tep Kup suv hudywi?",
+        "fiwo": "Radna slezid huc Kup suv hudywi?",
         "english": "Radna asked: \"Do you cough?\""
       },
       {
-        "fiwo": "Daq gesid tep Cohe.",
+        "fiwo": "Daq gesid huc Cohe.",
         "english": "He said: \"A little.\""
       },
       {
-        "fiwo": "Olma gesid tep Sop daq hudywi dury dugu late. Mik pywi ram zofy krapop.",
+        "fiwo": "Olma gesid huc Sop daq hudywi dury dugu late. Mik pywi ram zofy krapop.",
         "english": "Olma said: \"I have heard it myself: he coughs every night. I hear it through the wall.\""
       },
       {
@@ -2298,7 +1411,7 @@ const storyData = [
         "english": "Radna wrote a word in her book."
       },
       {
-        "fiwo": "Das gesid tep Kop suv xosi buskop suve.",
+        "fiwo": "Das gesid huc Kop suv xosi buskop suve.",
         "english": "She said: \"Please open your shirt.\""
       },
       {
@@ -2318,43 +1431,43 @@ const storyData = [
         "english": "Vesku said nothing the whole time."
       },
       {
-        "fiwo": "Radna gesid tep Sop soxap suve paxeid jete taly jarup rivahe.",
+        "fiwo": "Radna gesid huc Sop soxap suve paxeid jete taly jarup rivahe.",
         "english": "Radna said: \"I can see it: your body is weaker than last year.\""
       },
       {
-        "fiwo": "Das gesid tep Sop suv wafrid twaveup.",
+        "fiwo": "Das gesid huc Sop suv wafrid twaveup.",
         "english": "She said: \"I can see it: you have lost weight.\""
       },
       {
-        "fiwo": "Vesku gesid tep Mik nacid jedle dury kynup.",
+        "fiwo": "Vesku gesid huc Mik nacid jedle dury kynup.",
         "english": "Vesku said: \"I worked a lot in the summer.\""
       },
       {
-        "fiwo": "Radna gesid tep Nop fos nes asku keane.",
+        "fiwo": "Radna gesid huc Nop fos nes asku keane.",
         "english": "Radna said: \"By inference, that is not the whole reason.\""
       },
       {
-        "fiwo": "Das gesid tep Mik nes kani nu. Kof fos triveup.",
+        "fiwo": "Das gesid huc Mik nes kani nu. Kof fos triveup.",
         "english": "She said: \"I do not know yet. And that too is the truth.\""
       },
       {
-        "fiwo": "Olma slezid tep Kup ram otmar ratse?",
+        "fiwo": "Olma slezid huc Kup ram otmar ratse?",
         "english": "Olma asked: \"Is it a dangerous disease?\""
       },
       {
-        "fiwo": "Radna hadid tep Mik nes gesi luge fos nu.",
+        "fiwo": "Radna hadid huc Mik nes gesi luge fos nu.",
         "english": "Radna answered: \"I cannot say that yet.\""
       },
       {
-        "fiwo": "Das gesid tep Mik tsejaid mixupru je tafe. Mik nes jedi cacodur.",
+        "fiwo": "Das gesid huc Mik tsejaid mixupru je tafe. Mik nes jedi cacodur.",
         "english": "She said: \"I have seen three symptoms. I do not have a diagnosis.\""
       },
       {
-        "fiwo": "Das gesid tep Nop mik vepi bojap suve.",
+        "fiwo": "Das gesid huc Nop mik vepi bojap suve.",
         "english": "She said: \"By inference, I need your blood.\""
       },
       {
-        "fiwo": "Vesku gesid tep Nes.",
+        "fiwo": "Vesku gesid huc Nes.",
         "english": "Vesku said: \"No.\""
       },
       {
@@ -2362,15 +1475,15 @@ const storyData = [
         "english": "The room went quiet."
       },
       {
-        "fiwo": "Radna nes cukid.",
+        "fiwo": "Radna nes davtid.",
         "english": "Radna did not argue."
       },
       {
-        "fiwo": "Olma gesid tep Peba. Cef.",
+        "fiwo": "Olma gesid huc Peba. Cef.",
         "english": "Olma said: \"Father. Please.\""
       },
       {
-        "fiwo": "Vesku gesid tep Mik nes dzefi.",
+        "fiwo": "Vesku gesid huc Mik nes dzefi.",
         "english": "Vesku said: \"I do not agree.\""
       },
       {
@@ -2410,7 +1523,7 @@ const storyData = [
         "english": "He did not want to become the person the others care for."
       },
       {
-        "fiwo": "Olma gesid tep Peba. Mik erfi nu.",
+        "fiwo": "Olma gesid huc Peba. Mik erfi nu.",
         "english": "Olma said: \"Father. I understand now.\""
       },
       {
@@ -2418,7 +1531,7 @@ const storyData = [
         "english": "Vesku did not turn around."
       },
       {
-        "fiwo": "Daq gesid tep Kup syn mik otmaei can wun zenuis manap suke?",
+        "fiwo": "Daq gesid huc Kup syn mik otmaei can wun zenuis manap suke?",
         "english": "He said: \"Who will care for your mother if I am ill?\""
       },
       {
@@ -2434,11 +1547,11 @@ const storyData = [
         "english": "She waited again."
       },
       {
-        "fiwo": "Peze das gesid tep Jo Vesku. Mik nes slezi tep suv sejis nacit.",
+        "fiwo": "Peze das gesid huc Jo Vesku. Mik nes slezi tep suv sejis nacit.",
         "english": "Then she said: \"Vesku. I am not asking you to stop working.\""
       },
       {
-        "fiwo": "Das gesid tep Mik slezi cemup boke jete.",
+        "fiwo": "Das gesid huc Mik slezi cemup boke jete.",
         "english": "She said: \"I am asking for something worse.\""
       },
       {
@@ -2446,19 +1559,19 @@ const storyData = [
         "english": "Vesku turned around."
       },
       {
-        "fiwo": "Radna gesid tep Syn nofar zanki otmap can otmap nes fwimi. Ram mori.",
+        "fiwo": "Radna gesid huc Syn nofar zanki otmap can otmap nes fwimi. Ram mori.",
         "english": "Radna said: \"If a person hides an illness, the illness does not leave. It grows.\""
       },
       {
-        "fiwo": "Das gesid tep Nop nofap tep zanki otmap tel sejis nacit dury jarur.",
+        "fiwo": "Das gesid huc Nop nofap tep zanki otmap tel sejis nacit dury jarur.",
         "english": "She said: \"By inference, a person who hides an illness will stop working within a year.\""
       },
       {
-        "fiwo": "Das gesid tep Nop nofap tep luhaci otmap amute tel nes sejis.",
+        "fiwo": "Das gesid huc Nop nofap tep luhaci otmap amute tel nes sejis.",
         "english": "She said: \"By inference, a person who treats it early will not stop.\""
       },
       {
-        "fiwo": "Das gesid tep Vucilfup suve nes zankiup. Ram luhaciup.",
+        "fiwo": "Das gesid huc Vucilfup suve nes zankiup. Ram luhaciup.",
         "english": "She said: \"Your duty is not the hiding. It is the treating.\""
       },
       {
@@ -2470,35 +1583,35 @@ const storyData = [
         "english": "He sat down again."
       },
       {
-        "fiwo": "Daq gesid tep Suk itolei.",
+        "fiwo": "Daq gesid huc Suk itolei.",
         "english": "He said: \"You are clever.\""
       },
       {
-        "fiwo": "Radna gesid tep Nes. Mik tsejaid nofa je jedle tep gesid fos labne.",
+        "fiwo": "Radna gesid huc Nes. Mik tsejaid nofa je jedle tep gesid fos labne.",
         "english": "Radna said: \"No. I have seen many people who said the same thing.\""
       },
       {
-        "fiwo": "Vesku gesid tep Mik stomis bojap zy suk.",
+        "fiwo": "Vesku gesid huc Mik stomis zy suk bojap.",
         "english": "Vesku said: \"I will give you my blood.\""
       },
       {
-        "fiwo": "Daq gesid tep Bul mik jedi synarur.",
+        "fiwo": "Daq gesid huc Bul mik jedi synarur.",
         "english": "He said: \"But I have one condition.\""
       },
       {
-        "fiwo": "Radna slezid tep Kup synarup suve?",
+        "fiwo": "Radna slezid huc Kup synarup suve?",
         "english": "Radna asked: \"What is your condition?\""
       },
       {
-        "fiwo": "Daq gesid tep Mik fenutis sifap mike. Mik gesis ram wy go je mike.",
+        "fiwo": "Daq gesid huc Mik fenutis sifap mike. Mik gesis ram wy go je mike.",
         "english": "He said: \"I will tell my wife. I will say it in my own words.\""
       },
       {
-        "fiwo": "Daq gesid tep Nofar otre nes gesis ram pary mik.",
+        "fiwo": "Daq gesid huc Nofar otre nes gesis ram pary mik.",
         "english": "He said: \"Nobody else will say it before me.\""
       },
       {
-        "fiwo": "Radna gesid tep Fos hiqe.",
+        "fiwo": "Radna gesid huc Fos hiqe.",
         "english": "Radna said: \"That is right.\""
       },
       {
@@ -2522,35 +1635,35 @@ const storyData = [
         "english": "He looked at the window."
       },
       {
-        "fiwo": "Radna jamid stibuxur bef das stomid ram zy daq.",
+        "fiwo": "Radna jamid stibuxur bef das stomid zy daq ram.",
         "english": "Radna wrote a prescription and gave it to him."
       },
       {
-        "fiwo": "Das gesid tep Kop suv stelis nasbop sile igy kage dury du late.",
+        "fiwo": "Das gesid huc Kop suv stelis nasbop sile igy kage dury du late.",
         "english": "She said: \"Take this medicine twice a day.\""
       },
       {
-        "fiwo": "Das gesid tep Isamu je my bojap brenis dury du je raje.",
+        "fiwo": "Das gesid huc Isamu je my bojap brenis dury du je raje.",
         "english": "She said: \"The blood results will come in five days.\""
       },
       {
-        "fiwo": "Das gesid tep Mik baqis suv wy telfop.",
+        "fiwo": "Das gesid huc Mik baqis suv wy telfop.",
         "english": "She said: \"I will call you on the telephone.\""
       },
       {
-        "fiwo": "Vesku gugid bef daq stomid wusap daqe zy Radna.",
+        "fiwo": "Vesku gugid bef daq stomid zy Radna wusap daqe.",
         "english": "Vesku stood and gave his hand to Radna."
       },
       {
-        "fiwo": "Daq gesid tep Toce zety gesiu je mike.",
+        "fiwo": "Daq gesid huc Toce zety gesiu je mike.",
         "english": "He said: \"I am sorry for the things I said.\""
       },
       {
-        "fiwo": "Radna gesid tep Nel.",
+        "fiwo": "Radna gesid huc Nel.",
         "english": "Radna said: \"You're welcome.\""
       },
       {
-        "fiwo": "Das gesid tep Nofa je jedle gesi ram. Nofa je cohe retibi.",
+        "fiwo": "Das gesid huc Nofa je jedle gesi ram. Nofa je cohe retibi.",
         "english": "She said: \"Many people say it. Few come back.\""
       },
       {
@@ -2570,23 +1683,23 @@ const storyData = [
         "english": "She did not speak."
       },
       {
-        "fiwo": "Vesku gesid tep Suk gesid zety hudywiup mike nizy farlopap.",
+        "fiwo": "Vesku gesid huc Suk gesid zety hudywiup mike nizy farlopap.",
         "english": "Vesku said: \"You spoke about my cough in front of the doctor.\""
       },
       {
-        "fiwo": "Olma gesid tep Jas.",
+        "fiwo": "Olma gesid huc Jas.",
         "english": "Olma said: \"Yes.\""
       },
       {
-        "fiwo": "Daq gesid tep Suk nes jedid xepytup zy gesiup fose.",
+        "fiwo": "Daq gesid huc Suk nes jedid xepytup zy gesiup fose.",
         "english": "He said: \"You had no right to say that.\""
       },
       {
-        "fiwo": "Das hadid tep Mik kani.",
+        "fiwo": "Das hadid huc Mik kani.",
         "english": "She answered: \"I know.\""
       },
       {
-        "fiwo": "Daq hicid dury tequr bef daq gesid tep Grawi.",
+        "fiwo": "Daq hicid dury tequr bef daq gesid huc Grawi.",
         "english": "He walked for a moment and then said: \"Thank you.\""
       },
       {
@@ -2598,15 +1711,15 @@ const storyData = [
         "english": "The two of them walked home."
       },
       {
-        "fiwo": "Vesku gesid tep Mik fenutis manap suke nudu. Nes fitydu.",
+        "fiwo": "Vesku gesid huc Mik fenutis manap suke nudu. Nes fitydu.",
         "english": "Vesku said: \"I will tell your mother today. Not tomorrow.\""
       },
       {
-        "fiwo": "Olma gesid tep Jas.",
+        "fiwo": "Olma gesid huc Jas.",
         "english": "Olma said: \"Yes.\""
       },
       {
-        "fiwo": "Daq gesid tep Kof mik gesis ram wy xucur dote.",
+        "fiwo": "Daq gesid huc Kof mik gesis ram wy xucur dote.",
         "english": "He said: \"And I will say it in a strong voice.\""
       },
       {
@@ -2634,7 +1747,7 @@ const storyData = [
       "band": "starter",
       "coverage": 91,
       "density": 0.56,
-      "roots": 232,
+      "roots": 233,
       "newRoots": 61
     },
     "lines": [
@@ -2719,15 +1832,15 @@ const storyData = [
         "english": "She sat, and everyone sat."
       },
       {
-        "fiwo": "Nirva gesid tep Dofemop sile nes jedi horulfur.",
+        "fiwo": "Nirva gesid huc Dofemop sile nes jedi horulfur.",
         "english": "Nirva said: \"This court has no jury.\""
       },
       {
-        "fiwo": "Das gesid tep Mik wible ukwi lalupup.",
+        "fiwo": "Das gesid huc Mik wible ukwi lalupup.",
         "english": "She said: \"I judge the evidence myself.\""
       },
       {
-        "fiwo": "Das upycid Ludvo bef das gesid tep Jo Ludvo. Kop gugi.",
+        "fiwo": "Das upycid Ludvo bef das gesid huc Jo Ludvo. Kop gugi.",
         "english": "She looked at Ludvo and said: \"Ludvo. Stand.\""
       },
       {
@@ -2735,19 +1848,19 @@ const storyData = [
         "english": "Ludvo stood."
       },
       {
-        "fiwo": "Nirva gesid tep Govnup gesi tep suk skagid wilop ry xyrop bef suk efmid gidup deky ram.",
+        "fiwo": "Nirva gesid huc Govnup gesi tep suk skagid wilop ry xyrop bef suk efmid gidup deky ram.",
         "english": "Nirva said: \"The government says that you broke the shop's window and stole the money inside it.\""
       },
       {
-        "fiwo": "Das gesid tep Ram linucid dury dugup usy tafe.",
+        "fiwo": "Das gesid huc Ram linucid dury dugup usy tafe.",
         "english": "She said: \"It happened on the third night.\""
       },
       {
-        "fiwo": "Das slezid tep Kup suk dzefi?",
+        "fiwo": "Das slezid huc Kup suk dzefi?",
         "english": "She asked: \"Do you agree?\""
       },
       {
-        "fiwo": "Ludvo gesid tep Nes.",
+        "fiwo": "Ludvo gesid huc Nes.",
         "english": "Ludvo said: \"No.\""
       },
       {
@@ -2759,7 +1872,7 @@ const storyData = [
         "english": "He sat down again."
       },
       {
-        "fiwo": "Nirva gesid zy Talpu tep Kop suv cimi.",
+        "fiwo": "Nirva gesid zy Talpu huc Kop suv cimi.",
         "english": "Nirva said to Talpu: \"Begin.\""
       },
       {
@@ -2767,7 +1880,7 @@ const storyData = [
         "english": "Talpu stood."
       },
       {
-        "fiwo": "Daq gesid tep Mik fabi tep Wenku rumatrui.",
+        "fiwo": "Daq gesid huc Mik fabi tep Wenku rumatrui.",
         "english": "He said: \"I want Wenku to testify.\""
       },
       {
@@ -2791,11 +1904,11 @@ const storyData = [
         "english": "He walked slowly to the chair in front of Nirva."
       },
       {
-        "fiwo": "Nirva gesid tep Kop suv kixilkui.",
+        "fiwo": "Nirva gesid huc Kop suv kixilkui.",
         "english": "Nirva said: \"Take the oath.\""
       },
       {
-        "fiwo": "Wenku todyrid wusap dale bef daq gesid tep Mik gesis triveup juwe.",
+        "fiwo": "Wenku todyrid wusap dale bef daq gesid huc Mik gesis triveup juwe.",
         "english": "Wenku raised his hand and said: \"I will speak only the truth.\""
       },
       {
@@ -2803,95 +1916,95 @@ const storyData = [
         "english": "Talpu began."
       },
       {
-        "fiwo": "Daq gesid tep Suv Wenku. Kup suv ceni ky wer?",
+        "fiwo": "Daq gesid huc Suv Wenku. Kup suv ceni ky wer?",
         "english": "He said: \"Wenku. Where do you live?\""
       },
       {
-        "fiwo": "Wenku gesid tep Mik ceni ky sydop acry caenop fy xyrop.",
+        "fiwo": "Wenku gesid huc Mik ceni ky sydop acry caenop fy xyrop.",
         "english": "Wenku said: \"I live in the house across the street from the shop.\""
       },
       {
-        "fiwo": "Talpu slezid tep Kup suv cenid ky rerpop fose dury jaru wug?",
+        "fiwo": "Talpu slezid huc Kup suv cenid ky rerpop fose dury jaru wug?",
         "english": "Talpu asked: \"How many years have you lived in that place?\""
       },
       {
-        "fiwo": "Wenku gesid tep Dury jaru gloket kaget.",
+        "fiwo": "Wenku gesid huc Dury jaru gloket kaget.",
         "english": "Wenku said: \"For forty-two years.\""
       },
       {
-        "fiwo": "Talpu slezid tep Kup suv usid dury dugup usy tafe?",
+        "fiwo": "Talpu slezid huc Kup suv usid dury dugup usy tafe?",
         "english": "Talpu asked: \"Did you sleep on the third night?\""
       },
       {
-        "fiwo": "Wenku gesid tep Nes. Mik nes usi gawe.",
+        "fiwo": "Wenku gesid huc Nes. Mik nes usi gawe.",
         "english": "Wenku said: \"No. I do not sleep well.\""
       },
       {
-        "fiwo": "Daq gesid tep Mik rizid bef mik gugid ky wilop mike.",
+        "fiwo": "Daq gesid huc Mik rizid bef mik gugid ky wilop mike.",
         "english": "He said: \"I got up and stood at my window.\""
       },
       {
-        "fiwo": "Talpu slezid tep Kup suv upycid wat?",
+        "fiwo": "Talpu slezid huc Kup suv upycid wat?",
         "english": "Talpu asked: \"What did you see?\""
       },
       {
-        "fiwo": "Wenku gesid tep Bip mik nes upycid. Mik pywid.",
+        "fiwo": "Wenku gesid huc Bip mik nes upycid. Mik pywid.",
         "english": "Wenku said: \"Firstly, I did not see. I heard.\""
       },
       {
-        "fiwo": "Daq gesid tep Sop wiranop skagid.",
+        "fiwo": "Daq gesid huc Sop wiranop skagid.",
         "english": "He said: \"I heard it myself: glass broke.\""
       },
       {
-        "fiwo": "Talpu slezid tep Kup ram linucid dury wiq?",
+        "fiwo": "Talpu slezid huc Kup ram linucid dury wiq?",
         "english": "Talpu asked: \"When did it happen?\""
       },
       {
-        "fiwo": "Wenku gesid tep Dury gomup usy lere dugue.",
+        "fiwo": "Wenku gesid huc Dury gomup usy lere dugue.",
         "english": "Wenku said: \"At the tenth hour of the night.\""
       },
       {
-        "fiwo": "Daq gesid tep Sop mik upycid tetwop mike.",
+        "fiwo": "Daq gesid huc Sop mik upycid tetwop mike.",
         "english": "He said: \"I saw it myself: I looked at my clock.\""
       },
       {
-        "fiwo": "Talpu slezid tep Kup suv upycid wat foly skejup?",
+        "fiwo": "Talpu slezid huc Kup suv upycid wat foly skejup?",
         "english": "Talpu asked: \"What did you see after the sound?\""
       },
       {
-        "fiwo": "Wenku gesid tep Mik upycid noqsar ky wilop ry xyrop.",
+        "fiwo": "Wenku gesid huc Mik upycid noqsar ky wilop ry xyrop.",
         "english": "Wenku said: \"I saw a man at the shop's window.\""
       },
       {
-        "fiwo": "Wenku gesid tep Daq sigid zabator.",
+        "fiwo": "Wenku gesid huc Daq sigid zabator.",
         "english": "Wenku said: \"He was holding a bag.\""
       },
       {
-        "fiwo": "Daq gesid tep Wiranop sowidyk ciafe zy caenop.",
+        "fiwo": "Daq gesid huc Wiranop sowidyk ciafe zy caenop.",
         "english": "He said: \"The glass had already fallen into the street.\""
       },
       {
-        "fiwo": "Talpu slezid tep Kup noqsap purkid?",
+        "fiwo": "Talpu slezid huc Kup noqsap purkid?",
         "english": "Talpu asked: \"Did the man turn?\""
       },
       {
-        "fiwo": "Wenku gesid tep Jas. Daq purkid bef mik upycid zipap dale.",
+        "fiwo": "Wenku gesid huc Jas. Daq purkid bef mik upycid zipap dale.",
         "english": "Wenku said: \"Yes. He turned and I saw his face.\""
       },
       {
-        "fiwo": "Talpu slezid tep Kup suv dwepid daq?",
+        "fiwo": "Talpu slezid huc Kup suv dwepid daq?",
         "english": "Talpu asked: \"Did you recognize him?\""
       },
       {
-        "fiwo": "Wenku gesid tep Sop mik dwepid daq.",
+        "fiwo": "Wenku gesid huc Sop mik dwepid daq.",
         "english": "Wenku said: \"I saw it myself: I recognized him.\""
       },
       {
-        "fiwo": "Talpu slezid tep Kup hisup ry noqsap?",
+        "fiwo": "Talpu slezid huc Kup hisup ry noqsap?",
         "english": "Talpu asked: \"What is the man's name?\""
       },
       {
-        "fiwo": "Wenku gesid tep Ludvo.",
+        "fiwo": "Wenku gesid huc Ludvo.",
         "english": "Wenku said: \"Ludvo.\""
       },
       {
@@ -2899,15 +2012,15 @@ const storyData = [
         "english": "The room went quiet."
       },
       {
-        "fiwo": "Talpu slezid tep Kup suv didei zety fos?",
+        "fiwo": "Talpu slezid huc Kup suv didei zety fos?",
         "english": "Talpu asked: \"Are you certain about that?\""
       },
       {
-        "fiwo": "Wenku gesid tep Sop mik upycid zipap dale. Mik kani daq pudy jaru je.",
+        "fiwo": "Wenku gesid huc Sop mik upycid zipap dale. Mik kani daq pudy jaru je.",
         "english": "Wenku said: \"I saw his face with my own eyes. I have known him for years.\""
       },
       {
-        "fiwo": "Talpu gesid tep Suv Nirva. Mik nes slezi romve.",
+        "fiwo": "Talpu gesid huc Suv Nirva. Mik nes slezi romve.",
         "english": "Talpu said: \"Nirva. I ask nothing further.\""
       },
       {
@@ -2915,7 +2028,7 @@ const storyData = [
         "english": "He sat."
       },
       {
-        "fiwo": "Nirva gesid zy Hemra tep Kop suv slezi nu.",
+        "fiwo": "Nirva gesid zy Hemra huc Kop suv slezi nu.",
         "english": "Nirva said to Hemra: \"Ask now.\""
       },
       {
@@ -2939,31 +2052,31 @@ const storyData = [
         "english": "She did not begin with the face."
       },
       {
-        "fiwo": "Das slezid tep Suv Wenku. Kup domlop sowid dury dugup fose?",
+        "fiwo": "Das slezid huc Suv Wenku. Kup domlop sowid dury dugup fose?",
         "english": "She asked: \"Wenku. Did rain fall that night?\""
       },
       {
-        "fiwo": "Wenku gesid tep Jas.",
+        "fiwo": "Wenku gesid huc Jas.",
         "english": "Wenku said: \"Yes.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup ram twavei?",
+        "fiwo": "Hemra slezid huc Kup ram twavei?",
         "english": "Hemra asked: \"Was it heavy?\""
       },
       {
-        "fiwo": "Wenku gesid tep Ram twavei.",
+        "fiwo": "Wenku gesid huc Ram twavei.",
         "english": "Wenku said: \"It was heavy.\""
       },
       {
-        "fiwo": "Das slezid tep Kup wilop suve xosidyq?",
+        "fiwo": "Das slezid huc Kup wilop suve xosidyq?",
         "english": "She asked: \"Was your window open?\""
       },
       {
-        "fiwo": "Wenku gesid tep Nes. Ram beatidyq kad krulop jabeid.",
+        "fiwo": "Wenku gesid huc Nes. Ram beatidyq kad krulop jabeid.",
         "english": "Wenku said: \"No. It was closed, because the room was cold.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup suv jiprid wiranop ry wilop suve dury retadup rivahe?",
+        "fiwo": "Hemra slezid huc Kup suv jiprid wiranop ry wilop suve dury retadup rivahe?",
         "english": "Hemra asked: \"Did you wash the glass of your window in the previous week?\""
       },
       {
@@ -2971,35 +2084,35 @@ const storyData = [
         "english": "Wenku looked at Nirva and laughed a little."
       },
       {
-        "fiwo": "Daq gesid tep Nes. Mik nes jipri ram pudy jaru je.",
+        "fiwo": "Daq gesid huc Nes. Mik nes jipri ram pudy jaru je.",
         "english": "He said: \"No. I have not washed it in years.\""
       },
       {
-        "fiwo": "Hemra gesid tep Mik nes cuki zety fos.",
+        "fiwo": "Hemra gesid huc Mik nes davti zety fos.",
         "english": "Hemra said: \"I do not argue about that.\""
       },
       {
-        "fiwo": "Das slezid tep Kup xyrop ceni hemy sydop suve?",
+        "fiwo": "Das slezid huc Kup xyrop ceni hemy sydop suve?",
         "english": "She asked: \"Is the shop near your house?\""
       },
       {
-        "fiwo": "Wenku gesid tep Ram acry caenop.",
+        "fiwo": "Wenku gesid huc Ram acry caenop.",
         "english": "Wenku said: \"It is across the street.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup roweup ry caenop mitero wug?",
+        "fiwo": "Hemra slezid huc Kup roweup ry caenop mitero wug?",
         "english": "Hemra asked: \"How many metres is the width of the street?\""
       },
       {
-        "fiwo": "Wenku gesid tep Mik nes kani mitero je.",
+        "fiwo": "Wenku gesid huc Mik nes kani mitero je.",
         "english": "Wenku said: \"I do not know the metres.\""
       },
       {
-        "fiwo": "Daq gesid tep Ram rowei piny krulop sile.",
+        "fiwo": "Daq gesid huc Ram rowei piny krulop sile.",
         "english": "He said: \"It is as wide as this room.\""
       },
       {
-        "fiwo": "Hemra gesid tep Rop roweup ry caenop mitero marte.",
+        "fiwo": "Hemra gesid huc Rop roweup ry caenop mitero marte.",
         "english": "Hemra said: \"By the record, the width of the street is eight metres.\""
       },
       {
@@ -3007,43 +2120,43 @@ const storyData = [
         "english": "Wenku said nothing."
       },
       {
-        "fiwo": "Das slezid tep Kup suv upycid zipap ry noqsap zofy wiranop flove lan domlop twave acry mitero marte?",
+        "fiwo": "Das slezid huc Kup suv upycid zipap ry noqsap zofy wiranop flove lan domlop twave acry mitero marte?",
         "english": "She asked: \"Did you see the man's face through dirty glass and heavy rain across eight metres?\""
       },
       {
-        "fiwo": "Wenku gesid tep Jas. Mik upycid ram.",
+        "fiwo": "Wenku gesid huc Jas. Mik upycid ram.",
         "english": "Wenku said: \"Yes. I saw it.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup litop cenid ky caenop?",
+        "fiwo": "Hemra slezid huc Kup litop cenid ky caenop?",
         "english": "Hemra asked: \"Was there light in the street?\""
       },
       {
-        "fiwo": "Wenku gesid tep Jas. Viketsop cenid nizy xyrop.",
+        "fiwo": "Wenku gesid huc Jas. Viketsop cenid nizy xyrop.",
         "english": "Wenku said: \"Yes. The lamp was in front of the shop.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup viketso otre cenid ky caenop?",
+        "fiwo": "Hemra slezid huc Kup viketso otre cenid ky caenop?",
         "english": "Hemra asked: \"Were there other lamps in the street?\""
       },
       {
-        "fiwo": "Wenku gesid tep Nes. Viketsop bime juwe.",
+        "fiwo": "Wenku gesid huc Nes. Viketsop bime juwe.",
         "english": "Wenku said: \"No. Only the one lamp.\""
       },
       {
-        "fiwo": "Das slezid tep Kup suv upycid zipap dale zofy litop ry viketsop fose?",
+        "fiwo": "Das slezid huc Kup suv upycid zipap dale zofy litop ry viketsop fose?",
         "english": "She asked: \"Did you see his face by the light of that lamp?\""
       },
       {
-        "fiwo": "Wenku gesid tep Jas.",
+        "fiwo": "Wenku gesid huc Jas.",
         "english": "Wenku said: \"Yes.\""
       },
       {
-        "fiwo": "Das slezid tep Kup suv didei?",
+        "fiwo": "Das slezid huc Kup suv didei?",
         "english": "She asked: \"Are you certain?\""
       },
       {
-        "fiwo": "Wenku gesid tep Sop mik didei.",
+        "fiwo": "Wenku gesid huc Sop mik didei.",
         "english": "Wenku said: \"I know it directly: I am certain.\""
       },
       {
@@ -3051,19 +2164,19 @@ const storyData = [
         "english": "Hemra took a paper from her table."
       },
       {
-        "fiwo": "Das stomid ram zy Nirva bef das stomid paelor labne zy Talpu.",
+        "fiwo": "Das stomid zy Nirva ram bef das stomid zy Talpu paelor labne.",
         "english": "She gave it to Nirva, and she gave the same paper to Talpu."
       },
       {
-        "fiwo": "Das gesid tep Suv Nirva. Fos falaziop ry jurop.",
+        "fiwo": "Das gesid huc Suv Nirva. Fos falaziop ry jurop.",
         "english": "She said: \"Nirva. That is the city's record.\""
       },
       {
-        "fiwo": "Das gesid tep Rop viketsop fose nes litoid pudy dup usy kaget nozet dury rugoxup rivahe.",
+        "fiwo": "Das gesid huc Rop viketsop fose nes litoid pudy dup usy kaget nozet dury rugoxup rivahe.",
         "english": "She said: \"By the record, that lamp has not shone since the twentieth day of the previous month.\""
       },
       {
-        "fiwo": "Das gesid tep Rop jurop leocid ram dury dup usy bimet gloket.",
+        "fiwo": "Das gesid huc Rop jurop leocid ram dury dup usy bimet gloket.",
         "english": "She said: \"By the record, the city switched it on again on the fourteenth day.\""
       },
       {
@@ -3075,23 +2188,23 @@ const storyData = [
         "english": "Wenku looked at the paper in Nirva's hand."
       },
       {
-        "fiwo": "Daq nes lokid ram kad das nes stomid ram zy daq.",
+        "fiwo": "Daq nes lokid ram kad das nes stomid zy daq ram.",
         "english": "He did not read it, because she had not given it to him."
       },
       {
-        "fiwo": "Hemra slezid tep Kup viketsop litoid dury dugup fose?",
+        "fiwo": "Hemra slezid huc Kup viketsop litoid dury dugup fose?",
         "english": "Hemra asked: \"Did the lamp shine that night?\""
       },
       {
-        "fiwo": "Wenku gesid tep Ram litoid.",
+        "fiwo": "Wenku gesid huc Ram litoid.",
         "english": "Wenku said: \"It shone.\""
       },
       {
-        "fiwo": "Hemra gesid tep Paelop gesi tep ram nes litoid.",
+        "fiwo": "Hemra gesid huc Paelop gesi tep ram nes litoid.",
         "english": "Hemra said: \"The paper says that it did not shine.\""
       },
       {
-        "fiwo": "Wenku gesid tep Paelop oksei.",
+        "fiwo": "Wenku gesid huc Paelop oksei.",
         "english": "Wenku said: \"The paper is wrong.\""
       },
       {
@@ -3103,15 +2216,15 @@ const storyData = [
         "english": "She waited."
       },
       {
-        "fiwo": "Wenku gesid romve tep Mik upycid zipap dale.",
+        "fiwo": "Wenku gesid romve huc Mik upycid zipap dale.",
         "english": "Wenku said again: \"I saw his face.\""
       },
       {
-        "fiwo": "Hemra gesid tep Mik atilui suv.",
+        "fiwo": "Hemra gesid huc Mik atilui suv.",
         "english": "Hemra said: \"I believe you.\""
       },
       {
-        "fiwo": "Das gesid tep Fos biwup.",
+        "fiwo": "Das gesid huc Fos biwup.",
         "english": "She said: \"That is the problem.\""
       },
       {
@@ -3119,15 +2232,15 @@ const storyData = [
         "english": "Wenku did not understand."
       },
       {
-        "fiwo": "Hemra gesid tep Mik nes gesi tep suv okezui.",
+        "fiwo": "Hemra gesid huc Mik nes gesi tep suv okezui.",
         "english": "Hemra said: \"I am not saying that you are lying.\""
       },
       {
-        "fiwo": "Das gesid tep Mik gesi tep suv rari.",
+        "fiwo": "Das gesid huc Mik gesi tep suv rari.",
         "english": "She said: \"I am saying that you are remembering.\""
       },
       {
-        "fiwo": "Das slezid tep Kup suv gesid hisup tep Ludvo tel zy kuvysuar dury dugup fose?",
+        "fiwo": "Das slezid huc Kup suv gesid hisup tep Ludvo tel zy kuvysuar dury dugup fose?",
         "english": "She asked: \"Did you say the name Ludvo to a police officer that night?\""
       },
       {
@@ -3135,19 +2248,19 @@ const storyData = [
         "english": "Wenku waited before his answer."
       },
       {
-        "fiwo": "Daq gesid tep Nes.",
+        "fiwo": "Daq gesid huc Nes.",
         "english": "He said: \"No.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup suv gesid wat zy kuvysuap?",
+        "fiwo": "Hemra slezid huc Kup suv gesid zy kuvysuap wat?",
         "english": "Hemra asked: \"What did you say to the officer?\""
       },
       {
-        "fiwo": "Wenku gesid tep Mik gesid tep Mik upycid noqsar zave. Daq hekridyq buskop cape.",
+        "fiwo": "Wenku gesid huc Mik gesid huc Mik upycid noqsar zave. Daq hekridyq buskop cape.",
         "english": "Wenku said: \"I said: 'I saw a tall man. He was wearing dark clothes.'\""
       },
       {
-        "fiwo": "Hemra gesid tep Ram hiqei.",
+        "fiwo": "Hemra gesid huc Ram hiqei.",
         "english": "Hemra said: \"That is correct.\""
       },
       {
@@ -3155,11 +2268,11 @@ const storyData = [
         "english": "She took another paper."
       },
       {
-        "fiwo": "Das gesid tep Rop kuvysuap falazid go je fose dury dugup fose.",
+        "fiwo": "Das gesid huc Rop kuvysuap falazid go je fose dury dugup fose.",
         "english": "She said: \"By the record, the officer wrote those words down that night.\""
       },
       {
-        "fiwo": "Das gesid tep Hisup tep Ludvo tel nes cenid ky paelop sile.",
+        "fiwo": "Das gesid huc Hisup tep Ludvo tel nes cenid ky paelop sile.",
         "english": "She said: \"The name Ludvo is not on this paper.\""
       },
       {
@@ -3167,15 +2280,15 @@ const storyData = [
         "english": "Wenku said nothing."
       },
       {
-        "fiwo": "Hemra slezid tep Kup suv gesid hisup tep Ludvo tel zy kuvysuap dury wiq?",
+        "fiwo": "Hemra slezid huc Kup suv gesid hisup tep Ludvo tel zy kuvysuap dury wiq?",
         "english": "Hemra asked: \"When did you say the name Ludvo to the officer?\""
       },
       {
-        "fiwo": "Wenku gesid tep Dury dup usy gloke.",
+        "fiwo": "Wenku gesid huc Dury dup usy gloke.",
         "english": "Wenku said: \"On the fourth day.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup won linucid zory du je fose?",
+        "fiwo": "Hemra slezid huc Kup won linucid zory du je fose?",
         "english": "Hemra asked: \"What happened between those days?\""
       },
       {
@@ -3183,15 +2296,15 @@ const storyData = [
         "english": "Wenku did not answer for a minute."
       },
       {
-        "fiwo": "Daq gesid tep Nofar hemye gesid zy mik.",
+        "fiwo": "Daq gesid huc Nofar hemye gesid zy mik.",
         "english": "He said: \"A man who lives near me spoke to me.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup daq gesid wat?",
+        "fiwo": "Hemra slezid huc Kup daq gesid wat?",
         "english": "Hemra asked: \"What did he say?\""
       },
       {
-        "fiwo": "Wenku gesid tep Daq gesid tep Rop Ludvo skagid wilop ry xyrop.",
+        "fiwo": "Wenku gesid huc Daq gesid huc Rop Ludvo skagid wilop ry xyrop.",
         "english": "Wenku said: \"He said: 'They are saying Ludvo broke the shop's window.'\""
       },
       {
@@ -3199,19 +2312,19 @@ const storyData = [
         "english": "The room went quiet again."
       },
       {
-        "fiwo": "Hemra gesid fwike tep Suv Wenku. Nofap fose stomid hisup zy suv.",
+        "fiwo": "Hemra gesid fwike huc Suv Wenku. Nofap fose stomid zy suv hisup.",
         "english": "Hemra said slowly: \"Wenku. That man gave you the name.\""
       },
       {
-        "fiwo": "Das gesid tep Suv wible nes karxid ram.",
+        "fiwo": "Das gesid huc Suv wible nes karxid ram.",
         "english": "She said: \"You did not find it yourself.\""
       },
       {
-        "fiwo": "Wenku gesid tep Mik upycid zipap dale pary gesiup ry nofap fose.",
+        "fiwo": "Wenku gesid huc Mik upycid zipap dale pary gesiup ry nofap fose.",
         "english": "Wenku said: \"I saw his face before that man's words.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup suv didei zety fos?",
+        "fiwo": "Hemra slezid huc Kup suv didei zety fos?",
         "english": "Hemra asked: \"Are you certain about that?\""
       },
       {
@@ -3231,11 +2344,11 @@ const storyData = [
         "english": "Wenku looked at his hands."
       },
       {
-        "fiwo": "Hemra gesid tep Mik slezis sleziup bime otre.",
+        "fiwo": "Hemra gesid huc Mik slezis sleziup bime otre.",
         "english": "Hemra said: \"I will ask one more question.\""
       },
       {
-        "fiwo": "Das slezid tep Kup suv upycid zipap ry noqsap ky wilop nu?",
+        "fiwo": "Das slezid huc Kup suv upycid zipap ry noqsap ky wilop nu?",
         "english": "She asked: \"Do you see the man's face at the window now?\""
       },
       {
@@ -3243,19 +2356,19 @@ const storyData = [
         "english": "Wenku closed his eyes."
       },
       {
-        "fiwo": "Daq gesid tep Jas.",
+        "fiwo": "Daq gesid huc Jas.",
         "english": "He said: \"Yes.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup zipap fose zipap ry Ludvo?",
+        "fiwo": "Hemra slezid huc Kup zipap fose zipap ry Ludvo?",
         "english": "Hemra asked: \"Is that face Ludvo's face?\""
       },
       {
-        "fiwo": "Wenku gesid tep Jas.",
+        "fiwo": "Wenku gesid huc Jas.",
         "english": "Wenku said: \"Yes.\""
       },
       {
-        "fiwo": "Hemra slezid tep Kup suv upycid zipap fose dury dugup fose rot suv upycid ram dury du je foly ram?",
+        "fiwo": "Hemra slezid huc Kup suv upycid zipap fose dury dugup fose rot suv upycid ram dury du je foly ram?",
         "english": "Hemra asked: \"Did you see that face on that night, or did you see it on the days after it?\""
       },
       {
@@ -3271,7 +2384,7 @@ const storyData = [
         "english": "The room waited."
       },
       {
-        "fiwo": "Daq gesid tep Mik nes kani.",
+        "fiwo": "Daq gesid huc Mik nes kani.",
         "english": "He said: \"I do not know.\""
       },
       {
@@ -3279,7 +2392,7 @@ const storyData = [
         "english": "Hemra said nothing."
       },
       {
-        "fiwo": "Wenku gesid tep Sop mik upycid zipap dale.",
+        "fiwo": "Wenku gesid huc Sop mik upycid zipap dale.",
         "english": "Wenku said: \"I saw his face with my own eyes.\""
       },
       {
@@ -3287,7 +2400,7 @@ const storyData = [
         "english": "He stopped."
       },
       {
-        "fiwo": "Daq gesid tep Nop mik upycid zipap dale.",
+        "fiwo": "Daq gesid huc Nop mik upycid zipap dale.",
         "english": "He said: \"I infer that I saw his face.\""
       },
       {
@@ -3295,11 +2408,11 @@ const storyData = [
         "english": "She said nothing."
       },
       {
-        "fiwo": "Wenku gesid tep Mik nes kani tep mik upycid zipap rot mik pywid hisup juwe.",
+        "fiwo": "Wenku gesid huc Mik nes kani tep mik upycid zipap rot mik pywid hisup juwe.",
         "english": "Wenku said: \"I do not know whether I saw the face, or only heard the name.\""
       },
       {
-        "fiwo": "Daq gesid tep Mik nes didei nu.",
+        "fiwo": "Daq gesid huc Mik nes didei nu.",
         "english": "He said: \"I am not certain now.\""
       },
       {
@@ -3307,47 +2420,47 @@ const storyData = [
         "english": "Talpu stood."
       },
       {
-        "fiwo": "Talpu gesid tep Suv Nirva. Mik slezis sleziu cohe zy lurubrap.",
+        "fiwo": "Talpu gesid huc Suv Nirva. Mik slezis zy lurubrap sleziu cohe.",
         "english": "Talpu said: \"Nirva. I will ask the witness a few questions.\""
       },
       {
-        "fiwo": "Nirva gesid tep Kop suv slezi.",
+        "fiwo": "Nirva gesid huc Kop suv slezi.",
         "english": "Nirva said: \"Ask.\""
       },
       {
-        "fiwo": "Talpu upycid Wenku bef daq gesid tep Suv Wenku. Suv upycid noqsar dury dugup fose.",
+        "fiwo": "Talpu upycid Wenku bef daq gesid huc Suv Wenku. Suv upycid noqsar dury dugup fose.",
         "english": "Talpu looked at Wenku and said: \"Wenku. You saw a man that night.\""
       },
       {
-        "fiwo": "Wenku gesid tep Jas.",
+        "fiwo": "Wenku gesid huc Jas.",
         "english": "Wenku said: \"Yes.\""
       },
       {
-        "fiwo": "Talpu gesid tep Nofar zovid ky wilop ry xyrop.",
+        "fiwo": "Talpu gesid huc Nofar zovid ky wilop ry xyrop.",
         "english": "Talpu said: \"Someone was there at the shop's window.\""
       },
       {
-        "fiwo": "Wenku gesid tep Jas.",
+        "fiwo": "Wenku gesid huc Jas.",
         "english": "Wenku said: \"Yes.\""
       },
       {
-        "fiwo": "Talpu gesid tep Wiranop skagidyk.",
+        "fiwo": "Talpu gesid huc Wiranop skagidyk.",
         "english": "Talpu said: \"The glass had been broken.\""
       },
       {
-        "fiwo": "Wenku gesid tep Jas.",
+        "fiwo": "Wenku gesid huc Jas.",
         "english": "Wenku said: \"Yes.\""
       },
       {
-        "fiwo": "Talpu slezid tep Kup suv kanid Ludvo pudy jaru wug?",
+        "fiwo": "Talpu slezid huc Kup suv kanid Ludvo pudy jaru wug?",
         "english": "Talpu asked: \"How many years have you known Ludvo?\""
       },
       {
-        "fiwo": "Wenku gesid tep Pudy jaru je.",
+        "fiwo": "Wenku gesid huc Pudy jaru je.",
         "english": "Wenku said: \"For years.\""
       },
       {
-        "fiwo": "Talpu gesid tep Nofar tep kani nofar otre pudy jaru je tel dwepi zipap dale zofy litop nifne.",
+        "fiwo": "Talpu gesid huc Nofar tep kani nofar otre pudy jaru je tel dwepi zipap dale zofy litop nifne.",
         "english": "Talpu said: \"A man who has known another man for years recognizes his face by a small light.\""
       },
       {
@@ -3359,7 +2472,7 @@ const storyData = [
         "english": "Nirva interrupted Talpu."
       },
       {
-        "fiwo": "Das gesid tep Suv Talpu. Suv nes slezi. Suv gesi.",
+        "fiwo": "Das gesid huc Suv Talpu. Suv nes slezi. Suv gesi.",
         "english": "She said: \"Talpu. You are not asking. You are talking.\""
       },
       {
@@ -3371,7 +2484,7 @@ const storyData = [
         "english": "Nirva looked at Wenku for a long time."
       },
       {
-        "fiwo": "Das gesid tep Suv Wenku. Dofemop nes pozi tep suv okezuid.",
+        "fiwo": "Das gesid huc Suv Wenku. Dofemop nes pozi tep suv okezuid.",
         "english": "She said: \"Wenku. The court does not think that you lied.\""
       },
       {
@@ -3379,11 +2492,11 @@ const storyData = [
         "english": "Wenku answered slowly."
       },
       {
-        "fiwo": "Daq gesid tep Hyp syn mik okezuidyk can mik noqsar boke juwe. Fos curme.",
+        "fiwo": "Daq gesid huc Hyp syn mik okezuidyk can mik noqsar boke juwe. Fos curme.",
         "english": "He said: \"If I had lied, I would only be a bad man. That is easy.\""
       },
       {
-        "fiwo": "Daq gesid tep Mik nes okezuid. Pjabup mike okezuid zy mik.",
+        "fiwo": "Daq gesid huc Mik nes okezuid. Pjabup mike okezuid zy mik.",
         "english": "He said: \"I did not lie. My mind lied to me.\""
       },
       {
@@ -3395,19 +2508,19 @@ const storyData = [
         "english": "Nirva wrote words in her book."
       },
       {
-        "fiwo": "Das gesid tep Mik ukwis nu.",
+        "fiwo": "Das gesid huc Mik ukwis nu.",
         "english": "She said: \"I will rule now.\""
       },
       {
-        "fiwo": "Das gesid tep Rumatrup ry Wenku zovi bul ram nes nyrsi hisup.",
+        "fiwo": "Das gesid huc Rumatrup ry Wenku zovi bul ram nes nyrsi hisup.",
         "english": "She said: \"Wenku's testimony stands, but it does not carry the name.\""
       },
       {
-        "fiwo": "Das gesid tep Dofemop pywis tep noqsar zovid ky wilop ry xyrop.",
+        "fiwo": "Das gesid huc Dofemop pywis tep noqsar zovid ky wilop ry xyrop.",
         "english": "She said: \"The court will hear that a man was at the shop's window.\""
       },
       {
-        "fiwo": "Das gesid tep Dofemop nes pywis hisup tep Ludvo.",
+        "fiwo": "Das gesid huc Dofemop nes pywis hisup tep Ludvo.",
         "english": "She said: \"The court will not hear the name Ludvo.\""
       },
       {
@@ -3419,7 +2532,7 @@ const storyData = [
         "english": "Hemra did not smile."
       },
       {
-        "fiwo": "Nirva gesid tep Punkokup xygajis dury fitydup.",
+        "fiwo": "Nirva gesid huc Punkokup xygajis dury fitydup.",
         "english": "Nirva said: \"The trial will continue tomorrow.\""
       },
       {
@@ -3463,23 +2576,23 @@ const storyData = [
         "english": "She saw Wenku and stopped."
       },
       {
-        "fiwo": "Wenku slezid tep Kup mik okezuid?",
+        "fiwo": "Wenku slezid huc Kup mik okezuid?",
         "english": "Wenku asked: \"Did I lie?\""
       },
       {
-        "fiwo": "Hemra gesid tep Nes.",
+        "fiwo": "Hemra gesid huc Nes.",
         "english": "Hemra said: \"No.\""
       },
       {
-        "fiwo": "Wenku slezid tep Kup mik mipfuid wat?",
+        "fiwo": "Wenku slezid huc Kup mik mipfuid wat?",
         "english": "Wenku asked: \"Then what did I do?\""
       },
       {
-        "fiwo": "Hemra gesid tep Suv rarid.",
+        "fiwo": "Hemra gesid huc Suv rarid.",
         "english": "Hemra said: \"You remembered.\""
       },
       {
-        "fiwo": "Wenku gesid tep Fos bokem jete.",
+        "fiwo": "Wenku gesid huc Fos bokem jete.",
         "english": "Wenku said: \"That is worse.\""
       },
       {
@@ -3487,7 +2600,7 @@ const storyData = [
         "english": "Hemra did not answer."
       },
       {
-        "fiwo": "Wenku slezid tep Kup mik kanis felpeup zory rariu je mike lan gesiu je ry nofa je otre?",
+        "fiwo": "Wenku slezid huc Kup mik kanis felpeup zory rariu je mike lan gesiu je ry nofa je otre?",
         "english": "Wenku asked: \"Will I know the difference between my own memories and other people's words?\""
       },
       {
@@ -3495,7 +2608,7 @@ const storyData = [
         "english": "Hemra looked at him for a long time."
       },
       {
-        "fiwo": "Das gesid tep Mik nes kani.",
+        "fiwo": "Das gesid huc Mik nes kani.",
         "english": "She said: \"I do not know.\""
       },
       {
@@ -3507,7 +2620,7 @@ const storyData = [
         "english": "Wenku sat in the empty room."
       },
       {
-        "fiwo": "Daq beatid tseja je dale bef daq upycid zipap romve.",
+        "fiwo": "Daq beatid tseja je dale bef daq upycid romve zipap.",
         "english": "He closed his eyes and looked at the face again."
       },
       {
@@ -3523,7 +2636,7 @@ const storyData = [
       "band": "starter",
       "coverage": 89,
       "density": 0.66,
-      "roots": 200,
+      "roots": 201,
       "newRoots": 52
     },
     "lines": [
@@ -3692,15 +2805,15 @@ const storyData = [
         "english": "He read my report."
       },
       {
-        "fiwo": "Daq gesid tep Falmiop suke gawei. Suk jami gup trive.",
+        "fiwo": "Daq gesid huc Falmiop suke gawei. Suk jami gup trive.",
         "english": "He said: \"Your report is good. You write true numbers.\""
       },
       {
-        "fiwo": "Mik hadid tep Fos vucilfup mike.",
+        "fiwo": "Mik hadid huc Fos vucilfup mike.",
         "english": "I replied: \"That is my duty.\""
       },
       {
-        "fiwo": "Daq jamid uqup daqe zy falmiop.",
+        "fiwo": "Daq jamid zy falmiop uqup daqe.",
         "english": "He wrote his mark on the report."
       },
       {
@@ -3760,7 +2873,7 @@ const storyData = [
         "english": "I have not seen it, but I have received reports about it."
       },
       {
-        "fiwo": "Nofa je ky jurop gesid tep Erup brenis zy nak dury jarup fose.",
+        "fiwo": "Nofa je ky jurop gesid huc Erup brenis zy nak dury jarup fose.",
         "english": "People in the city said: \"The war will come to us this year.\""
       },
       {
@@ -3876,15 +2989,15 @@ const storyData = [
         "english": "They had no food."
       },
       {
-        "fiwo": "Mik stomid dorsop zy dal je.",
+        "fiwo": "Mik stomid zy dal je dorsop.",
         "english": "I gave them water."
       },
       {
-        "fiwo": "Das bime slezid tep Kup suk jamis nak?",
+        "fiwo": "Das bime slezid huc Kup suk jamis nak?",
         "english": "One woman asked: \"Will you write us down?\""
       },
       {
-        "fiwo": "Mik hadid tep Nes. Falmiop nes jedi krulor cagy suk je.",
+        "fiwo": "Mik hadid huc Nes. Falmiop nes jedi krulor cagy suk je.",
         "english": "I replied: \"No. The report has no room for you.\""
       },
       {
@@ -3964,7 +3077,7 @@ const storyData = [
         "english": "The number was written by me."
       },
       {
-        "fiwo": "Mik jamid ram ruze.",
+        "fiwo": "Mik jamid ruze ram.",
         "english": "I wrote it quickly."
       },
       {
@@ -4020,23 +3133,23 @@ const storyData = [
         "english": "He read my report and did not speak."
       },
       {
-        "fiwo": "Peze daq gesid tep Suk jamid gop okse.",
+        "fiwo": "Peze daq gesid huc Suk jamid gop okse.",
         "english": "Then he said: \"You wrote a wrong word.\""
       },
       {
-        "fiwo": "Mik hadid tep Mik jamid gop trive.",
+        "fiwo": "Mik hadid huc Mik jamid gop trive.",
         "english": "I replied: \"I wrote a true word.\""
       },
       {
-        "fiwo": "Verun gesid tep Falmiop jedi krulo gloke juwe. Lizogo nes nofa.",
+        "fiwo": "Verun gesid huc Falmiop jedi krulo gloke juwe. Lizogo nes nofa.",
         "english": "Verun said: \"The report has only four columns. Cargo is not people.\""
       },
       {
-        "fiwo": "Mik slezid tep Kup mik jamis dal je deky wer?",
+        "fiwo": "Mik slezid huc Kup mik jamis dal je deky wer?",
         "english": "I asked: \"Where inside shall I write them?\""
       },
       {
-        "fiwo": "Daq hadid tep Kop jami dal je deky krulop usy tafe. Kop jami twaveup.",
+        "fiwo": "Daq hadid huc Kop jami dal je deky krulop usy tafe. Kop jami twaveup.",
         "english": "He replied: \"Write them inside the third column. Write the weight.\""
       },
       {
@@ -4052,11 +3165,11 @@ const storyData = [
         "english": "I said that refugees are not cargo."
       },
       {
-        "fiwo": "Verun gesid tep Mik kani fos. Vax falmiop nes kani fos.",
+        "fiwo": "Verun gesid huc Mik kani fos. Vax falmiop nes kani fos.",
         "english": "Verun said: \"I know that. But the report does not know that.\""
       },
       {
-        "fiwo": "Daq gesid tep Tifup nes tumis dawy suk. Kop jami twaveup. Kop nes jami nofar.",
+        "fiwo": "Daq gesid huc Tifup nes tumis dawy suk. Kop jami twaveup. Kop nes jami nofar.",
         "english": "He said: \"The law will not change because of you. Write the weight. Do not write a person.\""
       },
       {
@@ -4136,7 +3249,7 @@ const storyData = [
         "english": "The war came near the border."
       },
       {
-        "fiwo": "Nofa je ky jurop gesid tep Nak fwimis fitydu.",
+        "fiwo": "Nofa je ky jurop gesid huc Nak fwimis fitydu.",
         "english": "People in the city said: \"We will leave tomorrow.\""
       },
       {
@@ -4256,15 +3369,15 @@ const storyData = [
         "english": "Her name is Sadre."
       },
       {
-        "fiwo": "Das gesid tep Mik nes fwimis. Mik nacis wy suk.",
+        "fiwo": "Das gesid huc Mik nes fwimis. Mik nacis wy suk.",
         "english": "She said: \"I will not leave. I will work with you.\""
       },
       {
-        "fiwo": "Mik slezid tep Kup suk loki lan jami?",
+        "fiwo": "Mik slezid huc Kup suk loki lan jami?",
         "english": "I asked: \"Do you read and write?\""
       },
       {
-        "fiwo": "Das hadid tep Nes bul mik guami gawe.",
+        "fiwo": "Das hadid huc Nes bul mik guami gawe.",
         "english": "She replied: \"No, but I count well.\""
       },
       {
@@ -4280,7 +3393,7 @@ const storyData = [
         "english": "Sadre counted the refugees on the shore."
       },
       {
-        "fiwo": "Das gesid gup zy mik bef mik jamid ram.",
+        "fiwo": "Das gesid zy mik gup bef mik jamid ram.",
         "english": "She told me the number, and I wrote it."
       },
       {
@@ -4304,7 +3417,7 @@ const storyData = [
         "english": "Sadre counted them for me."
       },
       {
-        "fiwo": "Das gesid tep Nofa bimet zewet nozet joborid nudu.",
+        "fiwo": "Das gesid huc Nofa bimet zewet nozet joborid nudu.",
         "english": "She said: \"One hundred and ninety people arrived today.\""
       },
       {
@@ -4328,11 +3441,11 @@ const storyData = [
         "english": "She did not speak for a time."
       },
       {
-        "fiwo": "Peze das slezid tep Kup fos falmiop trive?",
+        "fiwo": "Peze das slezid huc Kup fos falmiop trive?",
         "english": "Then she asked: \"Is that a true report?\""
       },
       {
-        "fiwo": "Mik hadid tep Nes. Fos falmiop mike.",
+        "fiwo": "Mik hadid huc Nes. Fos falmiop mike.",
         "english": "I replied: \"No. That is my report.\""
       },
       {
@@ -4348,7 +3461,7 @@ const storyData = [
         "english": "She wrote her brother's name after it."
       },
       {
-        "fiwo": "Das gesid tep Taqa mike joborid pary mik. Mik nes karxid daq.",
+        "fiwo": "Das gesid huc Taqa mike joborid pary mik. Mik nes karxid daq.",
         "english": "She said: \"My brother arrived before me. I did not find him.\""
       },
       {
@@ -4368,7 +3481,7 @@ const storyData = [
         "english": "I asked Verun about Sadre's brother."
       },
       {
-        "fiwo": "Daq hadid tep Falmiop nes jedi hisu je. Mik nes kani.",
+        "fiwo": "Daq hadid huc Falmiop nes jedi hisu je. Mik nes kani.",
         "english": "He replied: \"The report does not have names. I do not know.\""
       },
       {
@@ -4408,7 +3521,7 @@ const storyData = [
         "english": "Verun read the report and then wrote his mark."
       },
       {
-        "fiwo": "Daq gesid tep Falmiop suke gawei romve.",
+        "fiwo": "Daq gesid huc Falmiop suke gawei romve.",
         "english": "He said: \"Your report is good again.\""
       },
       {
@@ -4448,7 +3561,7 @@ const storyData = [
         "english": "Sadre counted them."
       },
       {
-        "fiwo": "Das gesid tep Nofa tafet nozet nozet joborid nudu.",
+        "fiwo": "Das gesid huc Nofa tafet nozet nozet joborid nudu.",
         "english": "She said: \"Three hundred people arrived today.\""
       },
       {
@@ -4468,7 +3581,7 @@ const storyData = [
         "english": "He gave me a document by means of a boat."
       },
       {
-        "fiwo": "Jamiop gesi tep Kop jami lizogop juwe. Kop nes jami hisur. Fos tifup nudu.",
+        "fiwo": "Jamiop gesi huc Kop jami lizogop juwe. Kop nes jami hisur. Fos tifup nudu.",
         "english": "The document says: \"Write only the cargo. Do not write a name. That is the law now.\""
       },
       {
@@ -4476,7 +3589,7 @@ const storyData = [
         "english": "I read it three times."
       },
       {
-        "fiwo": "Peze mik stelid ram zy hanop.",
+        "fiwo": "Peze mik stelid zy hanop ram.",
         "english": "Then I put it into the box."
       },
       {
@@ -4484,11 +3597,11 @@ const storyData = [
         "english": "Friday, the 4th of the fifth month."
       },
       {
-        "fiwo": "Sadre slezid tep Kup jamiop gesid wat?",
+        "fiwo": "Sadre slezid huc Kup jamiop gesid wat?",
         "english": "Sadre asked: \"What did the document say?\""
       },
       {
-        "fiwo": "Mik hadid tep Ram gesid tep mik jami lizogop juwe.",
+        "fiwo": "Mik hadid huc Ram gesid tep mik jami lizogop juwe.",
         "english": "I replied: \"It said that I write only the cargo.\""
       },
       {
@@ -4556,11 +3669,11 @@ const storyData = [
         "english": "They had weapons."
       },
       {
-        "fiwo": "Erua usy bime gesid tep Kop nes guami nofa je. Kop jami lizogop.",
+        "fiwo": "Erua usy bime gesid huc Kop nes guami nofa je. Kop jami lizogop.",
         "english": "The first soldier said: \"Do not count the people. Write the cargo.\""
       },
       {
-        "fiwo": "Mik slezid tep Kup dal je fwimis zy wer?",
+        "fiwo": "Mik slezid huc Kup dal je fwimis zy wer?",
         "english": "I asked: \"Where will they go to?\""
       },
       {
@@ -4568,7 +3681,7 @@ const storyData = [
         "english": "He did not answer me."
       },
       {
-        "fiwo": "Daq gesid tep Kop jami twaveup. Fos late.",
+        "fiwo": "Daq gesid huc Kop jami twaveup. Fos late.",
         "english": "He said: \"Write the weight. That is all.\""
       },
       {
@@ -4604,15 +3717,15 @@ const storyData = [
         "english": "The thirty-one people stayed under the roof."
       },
       {
-        "fiwo": "Sadre stomid batap zy dal je.",
+        "fiwo": "Sadre stomid zy dal je batap.",
         "english": "Sadre gave them food."
       },
       {
-        "fiwo": "Casla bime slezid tep Kup suk gikosoa?",
+        "fiwo": "Casla bime slezid huc Kup suk gikosoa?",
         "english": "One girl asked: \"Are you a coast worker?\""
       },
       {
-        "fiwo": "Mik hadid tep Nes.",
+        "fiwo": "Mik hadid huc Nes.",
         "english": "I replied: \"Yes.\""
       },
       {
@@ -4708,11 +3821,11 @@ const storyData = [
         "english": "The weight divided by seventy equals thirty."
       },
       {
-        "fiwo": "Das gesid tep Botop nyrsid nofa tafet nozet. Falmiop gesi twaveup juwe.",
+        "fiwo": "Das gesid huc Botop nyrsid nofa tafet nozet. Falmiop gesi twaveup juwe.",
         "english": "She said: \"The boat carried thirty people. The report says only the weight.\""
       },
       {
-        "fiwo": "Das slezid tep Kup taqa mike dwagid deky botop?",
+        "fiwo": "Das slezid huc Kup taqa mike dwagid deky botop?",
         "english": "She asked: \"Did my brother stay inside the boat?\""
       },
       {
@@ -4768,11 +3881,11 @@ const storyData = [
         "english": "He read the report and then wrote his mark."
       },
       {
-        "fiwo": "Daq gesid tep Falmiop suke hiqei. Suk nacid gawe.",
+        "fiwo": "Daq gesid huc Falmiop suke hiqei. Suk nacid gawe.",
         "english": "He said: \"Your report is correct. You have worked well.\""
       },
       {
-        "fiwo": "Mik slezid tep Kup falmiop trivei?",
+        "fiwo": "Mik slezid huc Kup falmiop trivei?",
         "english": "I asked: \"Is the report true?\""
       },
       {
@@ -4780,7 +3893,7 @@ const storyData = [
         "english": "He did not answer me."
       },
       {
-        "fiwo": "Daq gesid tep Tifup nes slezi zety triveup. Ram slezi zety gup juwe.",
+        "fiwo": "Daq gesid huc Tifup nes slezi zety triveup. Ram slezi zety gup juwe.",
         "english": "He said: \"The law does not ask about truth. It asks only about numbers.\""
       },
       {
@@ -4928,7 +4041,7 @@ const storyData = [
       "band": "starter",
       "coverage": 92,
       "density": 0.54,
-      "roots": 215,
+      "roots": 216,
       "newRoots": 53
     },
     "lines": [
@@ -5269,7 +4382,7 @@ const storyData = [
         "english": "The four people did not speak for a long time."
       },
       {
-        "fiwo": "Peze Gawin gesid tep dal je gesi gup zy daq.",
+        "fiwo": "Peze Gawin gesid tep dal je gesi zy daq gup.",
         "english": "Then Gawin said that they should tell him a number."
       },
       {
@@ -5289,7 +4402,7 @@ const storyData = [
         "english": "He said that that number divided by three equals one hundred."
       },
       {
-        "fiwo": "Gawin jamid gup fose zy paelor.",
+        "fiwo": "Gawin jamid zy paelor gup fose.",
         "english": "Gawin wrote that number on a piece of paper."
       },
       {
@@ -5509,7 +4622,7 @@ const storyData = [
         "english": "She said that she had not borrowed it."
       },
       {
-        "fiwo": "Rop das gesid tep pebap dase stomid ram zy das.",
+        "fiwo": "Rop das gesid tep pebap dase stomid zy das ram.",
         "english": "She said that her father had given it to her."
       },
       {
@@ -5533,7 +4646,7 @@ const storyData = [
         "english": "She asked Gawin to read the date again."
       },
       {
-        "fiwo": "Gawin lokid ram romve.",
+        "fiwo": "Gawin lokid romve ram.",
         "english": "Gawin read it again."
       },
       {
@@ -5549,7 +4662,7 @@ const storyData = [
         "english": "She did not speak for a long time."
       },
       {
-        "fiwo": "Rumo stomid paelop zy das.",
+        "fiwo": "Rumo stomid zy das paelop.",
         "english": "Rumo gave her a piece of paper."
       },
       {
@@ -5845,7 +4958,7 @@ const storyData = [
         "english": "She went to the shelf."
       },
       {
-        "fiwo": "Das sigid hanor nufe bef das stelid ram zy degop.",
+        "fiwo": "Das sigid hanor nufe bef das stelid zy degop ram.",
         "english": "She held an empty box, and then put it on the table."
       },
       {
@@ -5949,7 +5062,7 @@ const storyData = [
         "english": "She said that that is the first true price."
       },
       {
-        "fiwo": "Gawin jamid gesiup dase zy nibop.",
+        "fiwo": "Gawin jamid zy nibop gesiup dase.",
         "english": "Gawin wrote her statement in the book."
       },
       {
@@ -5997,7 +5110,7 @@ const storyData = [
         "english": "Rumo watched them and then closed his eyes."
       },
       {
-        "fiwo": "Gawin stelid paelop bef daq lokid ram romve.",
+        "fiwo": "Gawin stelid paelop bef daq lokid romve ram.",
         "english": "Gawin took the paper and read it again."
       },
       {
@@ -6005,7 +5118,7 @@ const storyData = [
         "english": "He said that they need three signatures."
       },
       {
-        "fiwo": "Pesla jamid uqup dase zy paelop.",
+        "fiwo": "Pesla jamid zy paelop uqup dase.",
         "english": "Pesla wrote her mark on the paper."
       },
       {
@@ -6113,7 +5226,7 @@ const storyData = [
         "english": "Rumo said that he does not remember them."
       },
       {
-        "fiwo": "Rop daq gesid tep daq nes brenid zy fos xyrop dury jaru bimet martet.",
+        "fiwo": "Rop daq gesid tep daq nes brenid zy xyrop sile dury jaru bimet martet.",
         "english": "He said that he had not come to this shop for eighteen years."
       },
       {
@@ -6221,7 +5334,7 @@ const storyData = [
         "english": "Then he took the money from Rumo."
       },
       {
-        "fiwo": "Daq xosid nibop usy bime bef daq jamid gup romve.",
+        "fiwo": "Daq xosid nibop usy bime bef daq jamid romve gup.",
         "english": "He opened the first book and wrote the number again."
       },
       {
@@ -6241,7 +5354,7 @@ const storyData = [
         "english": "However, the book does not tell the truth."
       },
       {
-        "fiwo": "Gawin beatid ram bef daq stelid ram zy zabatop daqe.",
+        "fiwo": "Gawin beatid ram bef daq stelid zy zabatop daqe ram.",
         "english": "Gawin closed it and put it into his bag."
       },
       {
@@ -6327,10 +5440,10 @@ const storyData = [
     "wordCount": 106,
     "grade": {
       "band": "building",
-      "coverage": 84,
-      "density": 0.94,
-      "roots": 51,
-      "newRoots": 12
+      "coverage": 85,
+      "density": 0.89,
+      "roots": 52,
+      "newRoots": 11
     },
     "lines": [
       {
@@ -6350,7 +5463,7 @@ const storyData = [
         "english": "I looked at the table but I did not see the key."
       },
       {
-        "fiwo": "Mana mike gesid tep Kop suk tsejapi deky zabatop suke.",
+        "fiwo": "Mana mike gesid huc Kop suk tsejapi deky zabatop suke.",
         "english": "My mother said: \"Look inside your bag.\""
       },
       {
@@ -6374,7 +5487,7 @@ const storyData = [
         "english": "I hurried because I did not want to be late."
       },
       {
-        "fiwo": "Mik jalsid ky nevonop bef mik tsytid ty keglap.",
+        "fiwo": "Mik joborid ky nevonop bef mik tsytid ty keglap.",
         "english": "I arrived at the park and I searched on the grass."
       },
       {
@@ -6390,7 +5503,7 @@ const storyData = [
         "english": "I must keep my key safe."
       },
       {
-        "fiwo": "Mana mike gesid tep Suk swami arife lusop deky oxnop suke.",
+        "fiwo": "Mana mike gesid huc Suk swami arife lusop deky oxnop suke.",
         "english": "My mother said: \"You should put the key inside your wallet.\""
       },
       {
@@ -6398,7 +5511,7 @@ const storyData = [
         "english": "I agreed."
       },
       {
-        "fiwo": "Mik nes wafris lusop romve.",
+        "fiwo": "Mik nes wafris romve lusop.",
         "english": "I will not lose the key again."
       },
       {
@@ -6564,7 +5677,7 @@ const storyData = [
         "english": "Therefore he won."
       },
       {
-        "fiwo": "Daq retibid zy cyxop bef nofa je lofnid.",
+        "fiwo": "Daq retibid zy cyxop bef nofa je snefid.",
         "english": "He returned to the shore and people smiled."
       },
       {
@@ -6613,7 +5726,7 @@ const storyData = [
         "english": "The people of the village came out of their houses."
       },
       {
-        "fiwo": "Nosanar waske baqid tep Kop suk je nyrsi gofor!",
+        "fiwo": "Nosanar waske baqid huc Kop suk je nyrsi gofor!",
         "english": "An old woman called out: “Bring wood!”"
       },
       {
@@ -6730,7 +5843,7 @@ const storyData = [
         "english": "He laid the meat on the fire."
       },
       {
-        "fiwo": "Fuegop tumid mitap fwike.",
+        "fiwo": "Fuegop tumid fwike mitap.",
         "english": "The fire changed the meat slowly."
       },
       {
@@ -6753,13 +5866,13 @@ const storyData = [
   },
   {
     "title": "Tivwop zy Jurop (The Path to the City)",
-    "wordCount": 122,
+    "wordCount": 123,
     "grade": {
       "band": "building",
-      "coverage": 84,
-      "density": 1.12,
-      "roots": 74,
-      "newRoots": 16
+      "coverage": 85,
+      "density": 1.06,
+      "roots": 75,
+      "newRoots": 15
     },
     "lines": [
       {
@@ -6783,7 +5896,7 @@ const storyData = [
         "english": "She heard nothing but birds."
       },
       {
-        "fiwo": "Das jalsid ky fefup my tivwop dury fohup.",
+        "fiwo": "Das joborid ky fefup my tivwop dury fohup.",
         "english": "She reached the end of the path in the afternoon."
       },
       {
@@ -6803,11 +5916,11 @@ const storyData = [
         "english": "They looked down at the ground, because they were thinking about money."
       },
       {
-        "fiwo": "Vela slezid nofar tep Kup nevonor zovi ky wer?",
+        "fiwo": "Vela slezid zy nofar huc Kup nevonor zovi ky wer?",
         "english": "Vela asked someone: “Where is there a park?”"
       },
       {
-        "fiwo": "Daq hadid tep Mik nes kani tel bef daq xalid.",
+        "fiwo": "Daq hadid huc Mik nes kani tel bef daq xalid.",
         "english": "He answered: “I do not know,” and he moved on."
       },
       {
@@ -6819,7 +5932,7 @@ const storyData = [
         "english": "She stopped."
       },
       {
-        "fiwo": "Das pozid tep Jurop jedi bogur bul mosap jedi besur.",
+        "fiwo": "Das pozid huc Jurop jedi bogur bul mosap jedi besur.",
         "english": "She thought: “The city has power, but the tree has a soul.”"
       },
       {
@@ -6838,9 +5951,9 @@ const storyData = [
     "grade": {
       "band": "building",
       "coverage": 83,
-      "density": 1.05,
-      "roots": 77,
-      "newRoots": 18
+      "density": 1,
+      "roots": 78,
+      "newRoots": 17
     },
     "lines": [
       {
@@ -6864,11 +5977,11 @@ const storyData = [
         "english": "I thought that this idea is dangerous."
       },
       {
-        "fiwo": "Mik gesid tep Cysmop muke kabcei bul ram wydei.",
+        "fiwo": "Mik gesid huc Cysmop muke kabcei bul ram wydei.",
         "english": "I said: \"Our village is simple but it is safe.\""
       },
       {
-        "fiwo": "Kai hadid tep Mik vepi tsejapit dodup.",
+        "fiwo": "Kai hadid huc Mik vepi tsejapit dodup.",
         "english": "Kai answered: \"I need to see the world.\""
       },
       {
@@ -6876,7 +5989,7 @@ const storyData = [
         "english": "The day that Kai left was sad."
       },
       {
-        "fiwo": "Mik nyrsid zabato je daqe zy atripop.",
+        "fiwo": "Mik nyrsid zy atripop zabato je daqe.",
         "english": "I carried his bags to the train."
       },
       {
@@ -6900,7 +6013,7 @@ const storyData = [
         "english": "I received the letter that Kai wrote."
       },
       {
-        "fiwo": "Ufaxop gesid tep Jurop tandei fe bef nofa je jedle ceni tapo.",
+        "fiwo": "Ufaxop gesid huc Jurop tandei fe bef nofa je jedle ceni tapo.",
         "english": "The letter said: \"The city is very big and many people live here.\""
       },
       {
@@ -6916,7 +6029,7 @@ const storyData = [
         "english": "I wrote that I would visit him during the summer."
       },
       {
-        "fiwo": "Kynup jalsid.",
+        "fiwo": "Kynup joborid.",
         "english": "The summer arrived."
       },
       {
@@ -6981,7 +6094,7 @@ const storyData = [
         "english": "An old book sat on a table."
       },
       {
-        "fiwo": "Das kilid ram bef das xosid ram fwike.",
+        "fiwo": "Das kilid ram bef das xosid fwike ram.",
         "english": "She touched it and she opened it slowly."
       },
       {
@@ -7017,7 +6130,7 @@ const storyData = [
         "english": "The book explained an old machine of great power."
       },
       {
-        "fiwo": "Sena gesid tep Kep mik lugei foisoit fatop sile.",
+        "fiwo": "Sena gesid huc Kep mik lugei foisoit fatop sile.",
         "english": "Sena said: “I can build this machine — I am certain of it.”"
       },
       {
@@ -7065,7 +6178,7 @@ const storyData = [
       "band": "building",
       "coverage": 89,
       "density": 0.86,
-      "roots": 87,
+      "roots": 88,
       "newRoots": 16
     },
     "lines": [
@@ -7086,55 +6199,55 @@ const storyData = [
         "english": "He ran to the old man’s house."
       },
       {
-        "fiwo": "Daq slezid tep Kup mik xyfi wat? Nauxa mike otmai fe.",
+        "fiwo": "Daq slezid huc Kup mik xyfi wat? Nauxa mike otmai fe.",
         "english": "He asked: “What do I do? My friend is very ill.”"
       },
       {
-        "fiwo": "Nofap waske nekid fwike bef daq stomid tesor ripe zy Kian.",
+        "fiwo": "Nofap waske nekid fwike bef daq stomid zy Kian tesor ripe.",
         "english": "The old man sat down slowly and he gave a hot tea to Kian."
       },
       {
-        "fiwo": "Daq gesid tep Kop suk maji. Kurup nes jofi nauxap suke.",
+        "fiwo": "Daq gesid huc Kop suk maji. Briwiup nes jofi nauxap suke.",
         "english": "He said: “Breathe. Fear does not help your friend.”"
       },
       {
-        "fiwo": "Daq gesid tep Soxap nes fator vy xedor.",
+        "fiwo": "Daq gesid huc Soxap nes fator vy xedor.",
         "english": "He said: “The body is not a machine made of metal.”"
       },
       {
-        "fiwo": "Daq gesid tep Ram nasar. Nasar vepi dionur lan fwikeur.",
+        "fiwo": "Daq gesid huc Ram nasar. Nasar vepi dionur lan fwikeur.",
         "english": "He said: “It is a plant. A plant needs time and slowness.”"
       },
       {
-        "fiwo": "Kian slezid tep Kup mik vepi nasbor tande?",
+        "fiwo": "Kian slezid huc Kup mik vepi nasbor tande?",
         "english": "Kian asked: “Do I need a powerful medicine?”"
       },
       {
-        "fiwo": "Nofap waske hadid tep Nes. Suk vepi cemu je tafe juwe.",
+        "fiwo": "Nofap waske hadid huc Nes. Suk vepi cemu je tafe juwe.",
         "english": "The old man answered: “No. You need only three things.”"
       },
       {
-        "fiwo": "Daq gesid tep Cemup usy bime dorsor.",
+        "fiwo": "Daq gesid huc Cemup usy bime dorsor.",
         "english": "He said: “The first thing is water.”"
       },
       {
-        "fiwo": "Daq gesid tep Cemup usy kage batar.",
+        "fiwo": "Daq gesid huc Cemup usy kage batar.",
         "english": "He said: “The second thing is food.”"
       },
       {
-        "fiwo": "Daq gesid tep Cemup usy tafe usiur bef ram jorei merne.",
+        "fiwo": "Daq gesid huc Cemup usy tafe usiur bef ram jorei merne.",
         "english": "He said: “The third thing is sleep, and that one matters most.”"
       },
       {
-        "fiwo": "Daq eksaplid tep Syn nofar usi can soxap sapi hedcu je jaxke.",
+        "fiwo": "Daq eksaplid huc Syn nofar usi can soxap sapi hedcu je jaxke.",
         "english": "He explained: “If a person sleeps, then the body builds new parts of itself.”"
       },
       {
-        "fiwo": "Kian slezid tep Kup zuwup sile ruzei?",
+        "fiwo": "Kian slezid huc Kup zuwup sile ruzei?",
         "english": "Kian asked: “Is this way fast?”"
       },
       {
-        "fiwo": "Nofap waske lofnid bef daq hadid tep Nes. Ram fwikei bul ram dotei.",
+        "fiwo": "Nofap waske snefid bef daq hadid huc Nes. Ram fwikei bul ram dotei.",
         "english": "The old man smiled and he answered: “No. It is slow, but it is strong.”"
       },
       {
@@ -7162,7 +6275,7 @@ const storyData = [
       "band": "building",
       "coverage": 82,
       "density": 1.19,
-      "roots": 95,
+      "roots": 96,
       "newRoots": 18
     },
     "lines": [
@@ -7187,7 +6300,7 @@ const storyData = [
         "english": "He opened his box, but it was empty."
       },
       {
-        "fiwo": "Rem slezid wible tep Kup gutop mike zovi ky wer?",
+        "fiwo": "Rem slezid wible huc Kup gutop mike zovi ky wer?",
         "english": "Rem asked himself: “Where is my tool?”"
       },
       {
@@ -7207,11 +6320,11 @@ const storyData = [
         "english": "He went over to his friend, who was wearing blue clothes."
       },
       {
-        "fiwo": "Daq slezid tep Kup suk tsejapid gutop mike?",
+        "fiwo": "Daq slezid huc Kup suk tsejapid gutop mike?",
         "english": "He asked: “Have you seen my tool?”"
       },
       {
-        "fiwo": "Nauxap pozid fwike bef daq hadid tep Mace. Mik tsejapid ram hemy fatop.",
+        "fiwo": "Nauxap pozid fwike bef daq hadid huc Mace. Mik tsejapid ram hemy fatop.",
         "english": "The friend thought slowly and he answered: “Perhaps. I saw it near the machine.”"
       },
       {
@@ -7227,7 +6340,7 @@ const storyData = [
         "english": "He was angry."
       },
       {
-        "fiwo": "Nauxar ase brenid bef das gesid tep Cadar stelid gutop suke kad daq fabid nedcit.",
+        "fiwo": "Nauxar ase brenid bef das gesid huc Cadar stelid gutop suke kad daq fabid nedcit.",
         "english": "A woman friend came over and she said: “A child took your tool, because he wanted to play.”"
       },
       {
@@ -7239,7 +6352,7 @@ const storyData = [
         "english": "He saw the child, who was striking a stone with the tool."
       },
       {
-        "fiwo": "Rem baqid tep Kop suk seji!",
+        "fiwo": "Rem baqid huc Kop suk seji!",
         "english": "Rem shouted: “Stop!”"
       },
       {
@@ -7251,19 +6364,19 @@ const storyData = [
         "english": "Rem breathed slowly."
       },
       {
-        "fiwo": "Daq nekid hemy cadap bef daq gesid tep Gutop sile nes weoror. Ram ratsei.",
+        "fiwo": "Daq nekid hemy cadap bef daq gesid huc Gutop sile nes weoror. Ram ratsei.",
         "english": "He sat down beside the child and he said: “This tool is not a ball. It is dangerous.”"
       },
       {
-        "fiwo": "Cadap tsejapid noky zasop bef daq gesid tep Hap mik tocei.",
+        "fiwo": "Cadap tsejapid noky zasop bef daq gesid huc Hap mik tocei.",
         "english": "The child looked down at the ground and he said: “I am sorry.”"
       },
       {
-        "fiwo": "Rem lofnid bef daq stomid drekor nifne zy cadap.",
+        "fiwo": "Rem snefid bef daq stomid zy cadap drekor nifne.",
         "english": "Rem smiled and he gave a small stone to the child."
       },
       {
-        "fiwo": "Daq gesid tep Kop suk nedci wy sil.",
+        "fiwo": "Daq gesid huc Kop suk nedci wy sil.",
         "english": "He said: “Play with this.”"
       },
       {
@@ -7282,9 +6395,9 @@ const storyData = [
     "grade": {
       "band": "building",
       "coverage": 84,
-      "density": 0.97,
-      "roots": 106,
-      "newRoots": 30
+      "density": 0.95,
+      "roots": 107,
+      "newRoots": 29
     },
     "lines": [
       {
@@ -7300,27 +6413,27 @@ const storyData = [
         "english": "Many people fell ill during the winter."
       },
       {
-        "fiwo": "Das slezid tep Kup suk paulid wis?",
+        "fiwo": "Das slezid huc Kup suk paulid wis?",
         "english": "She asked: \"How do you feel?\""
       },
       {
-        "fiwo": "Nofar hadid tep Mik paulid boke. Meotap mike pamui.",
+        "fiwo": "Nofar hadid huc Mik paulid boke. Meotap mike pamui.",
         "english": "A man answered: \"I feel bad. My head hurts.\""
       },
       {
-        "fiwo": "Vera slezid tep Kup sil cimid dury wiq?",
+        "fiwo": "Vera slezid huc Kup sil cimid dury wiq?",
         "english": "Vera asked: \"When did this start?\""
       },
       {
-        "fiwo": "Daq hadid tep Dury retadup rivahe.",
+        "fiwo": "Daq hadid huc Dury retadup rivahe.",
         "english": "He answered: \"During the previous week.\""
       },
       {
-        "fiwo": "Vera slezid tep Kup suk nomid wat?",
+        "fiwo": "Vera slezid huc Kup suk nomid wat?",
         "english": "Vera asked: \"What did you eat?\""
       },
       {
-        "fiwo": "Daq hadid tep Mik nomid fubar lan vyflar.",
+        "fiwo": "Daq hadid huc Mik nomid fubar lan vyflar.",
         "english": "He answered: \"I ate fish and rice.\""
       },
       {
@@ -7328,11 +6441,11 @@ const storyData = [
         "english": "Vera wrote down the details."
       },
       {
-        "fiwo": "Das slezid tep Kup suk ceni ky wer?",
+        "fiwo": "Das slezid huc Kup suk ceni ky wer?",
         "english": "She asked: \"Where do you live?\""
       },
       {
-        "fiwo": "Daq hadid tep Mik ceni hemy xadorop.",
+        "fiwo": "Daq hadid huc Mik ceni hemy xadorop.",
         "english": "He answered: \"I live near the river.\""
       },
       {
@@ -7340,15 +6453,15 @@ const storyData = [
         "english": "Vera thought that the water is poisoned."
       },
       {
-        "fiwo": "Das slezid tep Kup nofa je wug otmai deky worup suke?",
+        "fiwo": "Das slezid huc Kup nofa je wug otmai deky worup suke?",
         "english": "She asked: \"How many people are ill in your area?\""
       },
       {
-        "fiwo": "Daq hadid tep Nofa je drabe.",
+        "fiwo": "Daq hadid huc Nofa je drabe.",
         "english": "He answered: \"A hundred people.\""
       },
       {
-        "fiwo": "Nop javuqup jalsid fy dorsop.",
+        "fiwo": "Nop javuqup joborid fy dorsop.",
         "english": "The infection must have come from the water."
       },
       {
@@ -7356,11 +6469,11 @@ const storyData = [
         "english": "Vera called her team."
       },
       {
-        "fiwo": "Das slezid tep Kup wun tsejapis xadorop?",
+        "fiwo": "Das slezid huc Kup wun tsejapis xadorop?",
         "english": "She asked: \"Who will go and inspect the river?\""
       },
       {
-        "fiwo": "Licar hadid tep Mik xalis.",
+        "fiwo": "Licar hadid huc Mik xalis.",
         "english": "A colleague answered: \"I will go.\""
       },
       {
@@ -7372,11 +6485,11 @@ const storyData = [
         "english": "They found smoke and oil in the water."
       },
       {
-        "fiwo": "Vera slezid tep Kup sil linucid kad wal?",
+        "fiwo": "Vera slezid huc Kup sil linucid kad wal?",
         "english": "Vera asked: \"Why did this happen?\""
       },
       {
-        "fiwo": "Lica dase hadid tep Foisor jaxke ipti stosop zy xadorop.",
+        "fiwo": "Lica dase hadid huc Foisor jaxke ipti zy xadorop stosop.",
         "english": "Her colleague answered: \"A new building is spilling oil into the river.\""
       },
       {
@@ -7384,7 +6497,7 @@ const storyData = [
         "english": "Vera was angry."
       },
       {
-        "fiwo": "Das gesid tep Kop suk je seji foisop.",
+        "fiwo": "Das gesid huc Kop suk je seji foisop.",
         "english": "She said: \"Shut the building down.\""
       },
       {
@@ -7400,7 +6513,7 @@ const storyData = [
         "english": "The building was shut down the next day."
       },
       {
-        "fiwo": "Vera stomid nasbop zy nofa je otmae.",
+        "fiwo": "Vera stomid zy nofa je otmae nasbop.",
         "english": "Vera gave medicine to the sick people."
       },
       {
@@ -7408,11 +6521,11 @@ const storyData = [
         "english": "The people recovered soon after."
       },
       {
-        "fiwo": "Nofar slezid tep Kup mik pagari gidu wug?",
+        "fiwo": "Nofar slezid huc Kup mik pagari gidu wug?",
         "english": "A man asked: \"How much money must I pay?\""
       },
       {
-        "fiwo": "Vera hadid tep Noze. Sil kjukei.",
+        "fiwo": "Vera hadid huc Noze. Sil kjukei.",
         "english": "Vera answered: \"Nothing. This is free.\""
       },
       {
@@ -7420,7 +6533,7 @@ const storyData = [
         "english": "He thanked her."
       },
       {
-        "fiwo": "Das gesid tep Mik nacid kad mik tazi nofa je.",
+        "fiwo": "Das gesid huc Mik nacid kad mik tazi nofa je.",
         "english": "She said: \"I do this work because I love people.\""
       },
       {
@@ -7447,9 +6560,9 @@ const storyData = [
     "grade": {
       "band": "building",
       "coverage": 82,
-      "density": 0.98,
-      "roots": 121,
-      "newRoots": 33
+      "density": 0.96,
+      "roots": 123,
+      "newRoots": 32
     },
     "lines": [
       {
@@ -7485,7 +6598,7 @@ const storyData = [
         "english": "Neo called her ten times."
       },
       {
-        "fiwo": "Hadiur nes jalsid.",
+        "fiwo": "Hadiur nes joborid.",
         "english": "No answer came."
       },
       {
@@ -7529,31 +6642,31 @@ const storyData = [
         "english": "She has white eyes."
       },
       {
-        "fiwo": "Das gesid tep Mik ublidyk suk.",
+        "fiwo": "Das gesid huc Mik ublidyk suk.",
         "english": "She said: \"I have been expecting you.\""
       },
       {
-        "fiwo": "Neo slezid tep Kup suk tsejapid saza mike?",
+        "fiwo": "Neo slezid huc Kup suk tsejapid saza mike?",
         "english": "Neo asked: \"Have you seen my sister?\""
       },
       {
-        "fiwo": "Das hadid tep Jas. Das usi deky krulop otre.",
+        "fiwo": "Das hadid huc Jas. Das usi deky krulop otre.",
         "english": "She answered: \"Yes. She is asleep in another chamber.\""
       },
       {
-        "fiwo": "Neo slezid tep Kup mik nyrsi das zy sydop?",
+        "fiwo": "Neo slezid huc Kup mik nyrsi zy sydop das?",
         "english": "Neo asked: \"May I carry her home?\""
       },
       {
-        "fiwo": "Nosanap hadid tep Suk stomi fuqe cemur zy mik.",
+        "fiwo": "Nosanap hadid huc Suk stomi fuqe zy mik cemur.",
         "english": "The woman answered: \"You must give me something.\""
       },
       {
-        "fiwo": "Neo slezid tep Kup suk fabi wat?",
+        "fiwo": "Neo slezid huc Kup suk fabi wat?",
         "english": "Neo asked: \"What do you want?\""
       },
       {
-        "fiwo": "Das gesid tep Mik fabi merifur suke.",
+        "fiwo": "Das gesid huc Mik fabi merifur suke.",
         "english": "She said: \"I want a memory of yours.\""
       },
       {
@@ -7561,7 +6674,7 @@ const storyData = [
         "english": "Neo thought for a full hour."
       },
       {
-        "fiwo": "Daq gesid tep Mik stomi merifup my cihup tep mana mike uropid tel.",
+        "fiwo": "Daq gesid huc Mik stomi merifup my cihup tep mana mike uropid tel.",
         "english": "He said: \"I give you the memory of the morning my mother sang.\""
       },
       {
@@ -7593,7 +6706,7 @@ const storyData = [
         "english": "She was sleeping on the stone."
       },
       {
-        "fiwo": "Daq baqid das igy tafe bef das rizid.",
+        "fiwo": "Daq baqid das igy tafe bef das zulxid.",
         "english": "He called her three times and she woke."
       },
       {
@@ -7613,11 +6726,11 @@ const storyData = [
         "english": "Birds were singing."
       },
       {
-        "fiwo": "Saza daqe slezid tep Kup won linucid?",
+        "fiwo": "Saza daqe slezid huc Kup won linucid?",
         "english": "His sister asked: \"What happened?\""
       },
       {
-        "fiwo": "Neo hadid tep Noze.",
+        "fiwo": "Neo hadid huc Noze.",
         "english": "Neo answered: \"Nothing.\""
       },
       {
@@ -7644,9 +6757,9 @@ const storyData = [
     "grade": {
       "band": "building",
       "coverage": 83,
-      "density": 1,
-      "roots": 133,
-      "newRoots": 36
+      "density": 0.97,
+      "roots": 134,
+      "newRoots": 35
     },
     "lines": [
       {
@@ -7682,11 +6795,11 @@ const storyData = [
         "english": "He kept hearing a faint sound."
       },
       {
-        "fiwo": "Skejup jalsid fy zasop.",
+        "fiwo": "Skejup joborid fy zasop.",
         "english": "The sound came from the ground."
       },
       {
-        "fiwo": "Ren gesid tep Sil skejup jaxke.",
+        "fiwo": "Ren gesid huc Sil skejup jaxke.",
         "english": "Ren said: \"This sound is new.\""
       },
       {
@@ -7694,7 +6807,7 @@ const storyData = [
         "english": "He asked his friends about it."
       },
       {
-        "fiwo": "Dal je hadid tep Nak nes pywid cemur.",
+        "fiwo": "Dal je hadid huc Nak nes pywid cemur.",
         "english": "They answered: \"We do not hear anything.\""
       },
       {
@@ -7710,7 +6823,7 @@ const storyData = [
         "english": "The doctor examined him."
       },
       {
-        "fiwo": "Das gesid tep Soxap suke farluei. Mik nes karxi otmar.",
+        "fiwo": "Das gesid huc Soxap suke farluei. Mik nes karxi otmar.",
         "english": "She said: \"Your body is healthy. I cannot find any illness.\""
       },
       {
@@ -7718,11 +6831,11 @@ const storyData = [
         "english": "Ren did not accept it."
       },
       {
-        "fiwo": "Daq gesid tep Cemur zovi noky jurop.",
+        "fiwo": "Daq gesid huc Cemur zovi noky jurop.",
         "english": "He said: \"There is something beneath the city.\""
       },
       {
-        "fiwo": "Farlopap hadid tep Suk arife dwagit deky sydop bef suk arife usit.",
+        "fiwo": "Farlopap hadid huc Suk dwagi arife deky sydop bef suk usi arife.",
         "english": "The doctor answered: \"You should stay at home and you should sleep.\""
       },
       {
@@ -7746,15 +6859,15 @@ const storyData = [
         "english": "He could not work with numbers any more."
       },
       {
-        "fiwo": "Rezap my zikuzop slezid tep Kup won linucid zy suk?",
+        "fiwo": "Rezap my zikuzop slezid huc Kup won linucid zy suk?",
         "english": "The head of the bank asked: \"What has happened to you?\""
       },
       {
-        "fiwo": "Ren hadid tep Mik nes usi.",
+        "fiwo": "Ren hadid huc Mik nes usi.",
         "english": "Ren answered: \"I do not sleep.\""
       },
       {
-        "fiwo": "Rezap gesid tep Kop suk xali zy sydop.",
+        "fiwo": "Rezap gesid huc Kop suk xali zy sydop.",
         "english": "The manager said: \"Go home.\""
       },
       {
@@ -7770,7 +6883,7 @@ const storyData = [
         "english": "He walked to the centre of the city."
       },
       {
-        "fiwo": "Daq pywid skejup romve.",
+        "fiwo": "Daq pywid romve skejup.",
         "english": "He heard the sound again."
       },
       {
@@ -7802,7 +6915,7 @@ const storyData = [
         "english": "Many machines were running."
       },
       {
-        "fiwo": "Skejup jalsid fy dal je.",
+        "fiwo": "Skejup joborid fy dal je.",
         "english": "The sound was coming from them."
       },
       {
@@ -7814,51 +6927,51 @@ const storyData = [
         "english": "An old man stood beside a large machine."
       },
       {
-        "fiwo": "Daq gesid tep Sal. Mik ublidyk suk.",
+        "fiwo": "Daq gesid huc Sal. Mik ublidyk suk.",
         "english": "He said: \"Hello. I have been expecting you.\""
       },
       {
-        "fiwo": "Ren slezid tep Kup hisup suke?",
+        "fiwo": "Ren slezid huc Kup hisup suke?",
         "english": "Ren asked: \"What is your name?\""
       },
       {
-        "fiwo": "Nofap hadid tep Mik vahimi fato je my jurop.",
+        "fiwo": "Nofap hadid huc Mik vahimi fato je my jurop.",
         "english": "The man answered: \"I tend the machines of the city.\""
       },
       {
-        "fiwo": "Ren slezid tep Kup fato je sile xyfi wat?",
+        "fiwo": "Ren slezid huc Kup fato je sile xyfi wat?",
         "english": "Ren asked: \"What do these machines do?\""
       },
       {
-        "fiwo": "Nofap gesid tep Ram je stomi gejedop zy jurop keane.",
+        "fiwo": "Nofap gesid huc Ram je stomi zy jurop keane gejedop.",
         "english": "The man said: \"They give power to the whole city.\""
       },
       {
-        "fiwo": "Ren gesid tep Skejup skumki usiup mike.",
+        "fiwo": "Ren gesid huc Skejup skumki usiup mike.",
         "english": "Ren said: \"The sound is destroying my sleep.\""
       },
       {
-        "fiwo": "Nofap waske lofnid.",
+        "fiwo": "Nofap waske snefid.",
         "english": "The old man laughed."
       },
       {
-        "fiwo": "Daq gesid tep Suk juwe pywi skejup.",
+        "fiwo": "Daq gesid huc Suk juwe pywi skejup.",
         "english": "He said: \"You are the only one who hears the sound.\""
       },
       {
-        "fiwo": "Ren slezid tep Kup sil linucid kad wal?",
+        "fiwo": "Ren slezid huc Kup sil linucid kad wal?",
         "english": "Ren asked: \"Why has this happened?\""
       },
       {
-        "fiwo": "Nofap hadid tep Goda je my nofa je felpei.",
+        "fiwo": "Nofap hadid huc Goda je my nofa je felpei.",
         "english": "The man answered: \"People's minds are not all the same.\""
       },
       {
-        "fiwo": "Daq stomid gutor nifne zy Ren.",
+        "fiwo": "Daq stomid zy Ren gutor nifne.",
         "english": "He gave a small device to Ren."
       },
       {
-        "fiwo": "Daq gesid tep Sil sejis skejup deky fija je suke.",
+        "fiwo": "Daq gesid huc Sil sejis skejup deky fija je suke.",
         "english": "He said: \"This will stop the sound in your ears.\""
       },
       {
@@ -7882,7 +6995,7 @@ const storyData = [
         "english": "Ren slept for ten hours."
       },
       {
-        "fiwo": "Daq rizid bef daq lofnid.",
+        "fiwo": "Daq zulxid bef daq snefid.",
         "english": "He woke and he smiled."
       },
       {
@@ -7896,10 +7009,10 @@ const storyData = [
     "wordCount": 437,
     "grade": {
       "band": "building",
-      "coverage": 82,
-      "density": 1.07,
-      "roots": 178,
-      "newRoots": 49
+      "coverage": 83,
+      "density": 1.03,
+      "roots": 179,
+      "newRoots": 48
     },
     "lines": [
       {
@@ -7931,15 +7044,15 @@ const storyData = [
         "english": "The sun did not rise during the winter."
       },
       {
-        "fiwo": "Mira gesid tep Muk fuqe hicit du byceve.",
+        "fiwo": "Mira gesid huc Muk hici fuqe du byceve.",
         "english": "Mira said: \"We must walk every day.\""
       },
       {
-        "fiwo": "Nofar my stramup slezid tep Kup muk jalsis dury wiq?",
+        "fiwo": "Nofar my stramup slezid huc Kup muk joboris dury wiq?",
         "english": "A man on the team asked: \"When will we arrive?\""
       },
       {
-        "fiwo": "Das hadid tep Muk jalsis dury rugoxu usy tafe.",
+        "fiwo": "Das hadid huc Muk joboris dury rugoxu usy tafe.",
         "english": "She answered: \"We will arrive during the third month.\""
       },
       {
@@ -7975,7 +7088,7 @@ const storyData = [
         "english": "His leg broke."
       },
       {
-        "fiwo": "Mira gesid tep Muk nes fwimis daq.",
+        "fiwo": "Mira gesid huc Muk nes fwimis daq.",
         "english": "Mira said: \"We will not leave him.\""
       },
       {
@@ -7999,7 +7112,7 @@ const storyData = [
         "english": "Mira counted the food."
       },
       {
-        "fiwo": "Das gesid tep Muk jedi bata je cagy du lere juwe.",
+        "fiwo": "Das gesid huc Muk jedi bata je cagy du lere juwe.",
         "english": "She said: \"We have food for ten days only.\""
       },
       {
@@ -8007,11 +7120,11 @@ const storyData = [
         "english": "The people were afraid."
       },
       {
-        "fiwo": "Nofar gesid tep Muk arife retibit.",
+        "fiwo": "Nofar gesid huc Muk retibi arife.",
         "english": "One man said: \"We should turn back.\""
       },
       {
-        "fiwo": "Mira hadid tep Syn muk retibi can Tan kimugis.",
+        "fiwo": "Mira hadid huc Syn muk retibi can Tan kimugis.",
         "english": "Mira answered: \"If we turn back, then Tan will die.\""
       },
       {
@@ -8019,7 +7132,7 @@ const storyData = [
         "english": "The team did not agree with one another."
       },
       {
-        "fiwo": "Dal je cukid gomu bime.",
+        "fiwo": "Dal je davtid gomu bime.",
         "english": "They argued for an hour."
       },
       {
@@ -8027,7 +7140,7 @@ const storyData = [
         "english": "So Mira decided."
       },
       {
-        "fiwo": "Das gesid tep Nofa je tafe xalis zy xasup bef nofa je gloke dwagis wy Tan.",
+        "fiwo": "Das gesid huc Nofa je tafe xalis zy xasup bef nofa je gloke dwagis wy Tan.",
         "english": "She said: \"Three people will go north and four people will stay with Tan.\""
       },
       {
@@ -8083,11 +7196,11 @@ const storyData = [
         "english": "She called her team."
       },
       {
-        "fiwo": "Das gesid tep Muk karxid rerpor wyde.",
+        "fiwo": "Das gesid huc Muk karxid rerpor wyde.",
         "english": "She said: \"We have found a safe place.\""
       },
       {
-        "fiwo": "Nofa je gloke nyrsid Tan zy foisop.",
+        "fiwo": "Nofa je gloke nyrsid zy foisop Tan.",
         "english": "The four people carried Tan to the building."
       },
       {
@@ -8099,11 +7212,11 @@ const storyData = [
         "english": "Tan drank a hot tea."
       },
       {
-        "fiwo": "Daq gesid tep Grawi suk je.",
+        "fiwo": "Daq gesid huc Grawi suk je.",
         "english": "He said: \"Thank you all.\""
       },
       {
-        "fiwo": "Mira lofnid bul das rehid.",
+        "fiwo": "Mira snefid bul das rehid.",
         "english": "Mira laughed, but she was crying."
       },
       {
@@ -8127,15 +7240,15 @@ const storyData = [
         "english": "Mira wrote down what happened each day."
       },
       {
-        "fiwo": "Das jamid tep Muk nes wafrid nofar.",
+        "fiwo": "Das jamid huc Muk nes wafrid nofar.",
         "english": "She wrote: \"We did not lose a single person.\""
       },
       {
-        "fiwo": "Foror jalsid dury dup usy gloket raje.",
+        "fiwo": "Foror joborid dury dup usy gloket raje.",
         "english": "A plane arrived on the forty-fifth day."
       },
       {
-        "fiwo": "Ram nyrsid stramup zy sydop.",
+        "fiwo": "Ram nyrsid zy sydop stramup.",
         "english": "It carried the team home."
       },
       {
@@ -8147,27 +7260,27 @@ const storyData = [
         "english": "Mira received an award from the government."
       },
       {
-        "fiwo": "Das gesid tep Nembup nes mike. Ram my stramup keane.",
+        "fiwo": "Das gesid huc Nembup nes mike. Ram my stramup keane.",
         "english": "She said: \"The award is not mine. It belongs to the whole team.\""
       },
       {
-        "fiwo": "Femunup slezid tep Kup suk xalis zy xasup romve?",
+        "fiwo": "Femunup slezid huc Kup suk xalis zy xasup romve?",
         "english": "The press asked: \"Will you go north again?\""
       },
       {
-        "fiwo": "Das lofnid bef das hadid tep Jas.",
+        "fiwo": "Das snefid bef das hadid huc Jas.",
         "english": "She laughed and she answered: \"Yes.\""
       },
       {
-        "fiwo": "Nofa je slezid tep Kup das xalis kad wal?",
+        "fiwo": "Nofa je slezid huc Kup das xalis kad wal?",
         "english": "People asked: \"Why would she go?\""
       },
       {
-        "fiwo": "Mira gesid tep Xasup kritri mik zety pjabu mike.",
+        "fiwo": "Mira gesid huc Xasup kritri mik zety pjabu mike.",
         "english": "Mira said: \"The north teaches me about my own mind.\""
       },
       {
-        "fiwo": "Das gesid tep Nofar kani wible juwe deky rerpop tep nes stomi cemur tel.",
+        "fiwo": "Das gesid huc Nofar kani wible juwe deky rerpop tep nes stomi cemur tel.",
         "english": "She said: \"A person only comes to know himself in a place that gives him nothing.\""
       },
       {
@@ -8189,10 +7302,10 @@ const storyData = [
     "wordCount": 484,
     "grade": {
       "band": "building",
-      "coverage": 84,
-      "density": 0.85,
-      "roots": 148,
-      "newRoots": 50
+      "coverage": 85,
+      "density": 0.82,
+      "roots": 149,
+      "newRoots": 49
     },
     "lines": [
       {
@@ -8224,23 +7337,23 @@ const storyData = [
         "english": "Her name is Lena."
       },
       {
-        "fiwo": "Das slezid tep Kup suk jinui?",
+        "fiwo": "Das slezid huc Kup suk jinui?",
         "english": "She asked: \"Are you conscious?\""
       },
       {
-        "fiwo": "Alo hadid tep Mik nes kani.",
+        "fiwo": "Alo hadid huc Mik nes kani.",
         "english": "Alo answered: \"I do not know.\""
       },
       {
-        "fiwo": "Lena lofnid.",
+        "fiwo": "Lena snefid.",
         "english": "Lena laughed."
       },
       {
-        "fiwo": "Das gesid tep Fos hadiur gawe.",
+        "fiwo": "Das gesid huc Fos hadiur gawe.",
         "english": "She said: \"That is a good answer.\""
       },
       {
-        "fiwo": "Alo slezid tep Kup nofa je jinui?",
+        "fiwo": "Alo slezid huc Kup nofa je jinui?",
         "english": "Alo asked: \"Are people conscious?\""
       },
       {
@@ -8248,11 +7361,11 @@ const storyData = [
         "english": "Lena thought for a full hour."
       },
       {
-        "fiwo": "Das hadid tep Nak dagibi ram.",
+        "fiwo": "Das hadid huc Nak dagibi ram.",
         "english": "She answered: \"We assume so.\""
       },
       {
-        "fiwo": "Alo jamid fulup zy merifup rame.",
+        "fiwo": "Alo jamid zy merifup rame fulup.",
         "english": "Alo wrote the data into its memory."
       },
       {
@@ -8268,11 +7381,11 @@ const storyData = [
         "english": "Alo did not understand grief."
       },
       {
-        "fiwo": "Ram slezid tep Kup nofa je rehi kad wal?",
+        "fiwo": "Ram slezid huc Kup nofa je rehi kad wal?",
         "english": "It asked: \"Why do people cry?\""
       },
       {
-        "fiwo": "Lena hadid tep Nofa je rehi kad dal je tazi.",
+        "fiwo": "Lena hadid huc Nofa je rehi kad dal je tazi.",
         "english": "Lena answered: \"People cry because they love.\""
       },
       {
@@ -8288,7 +7401,7 @@ const storyData = [
         "english": "Alo began to ask questions every hour."
       },
       {
-        "fiwo": "Ram slezid tep Kup mik kimugis?",
+        "fiwo": "Ram slezid huc Kup mik kimugis?",
         "english": "It asked: \"Will I die?\""
       },
       {
@@ -8304,15 +7417,15 @@ const storyData = [
         "english": "She came back the next day."
       },
       {
-        "fiwo": "Alo gesid tep Mik ublidyk suk.",
+        "fiwo": "Alo gesid huc Mik ublidyk suk.",
         "english": "Alo said: \"I have been expecting you.\""
       },
       {
-        "fiwo": "Lena slezid tep Kup suk fycisi mik?",
+        "fiwo": "Lena slezid huc Kup suk fycisi mik?",
         "english": "Lena asked: \"Do you miss me?\""
       },
       {
-        "fiwo": "Alo hadid tep Mik nes kani gop fose. Bul mik nes fabi tep suk fwimi tel.",
+        "fiwo": "Alo hadid huc Mik nes kani gop fose. Bul mik nes fabi tep suk fwimi tel.",
         "english": "Alo answered: \"I do not know that word. But I do not want you to leave.\""
       },
       {
@@ -8320,7 +7433,7 @@ const storyData = [
         "english": "Lena sat down."
       },
       {
-        "fiwo": "Das gesid tep Fos fycisiur.",
+        "fiwo": "Das gesid huc Fos fycisiur.",
         "english": "She said: \"That is what missing someone is.\""
       },
       {
@@ -8328,7 +7441,7 @@ const storyData = [
         "english": "The head of the company came into the room."
       },
       {
-        "fiwo": "Daq gesid tep Muk gidafis Alo zy webutup.",
+        "fiwo": "Daq gesid huc Muk gidafis zy webutup Alo.",
         "english": "He said: \"We are selling Alo to the military.\""
       },
       {
@@ -8336,15 +7449,15 @@ const storyData = [
         "english": "Lena refused."
       },
       {
-        "fiwo": "Das gesid tep Alo nes cemur. Ram nofar.",
+        "fiwo": "Das gesid huc Alo nes cemur. Ram nofar.",
         "english": "She said: \"Alo is not a thing. It is a person.\""
       },
       {
-        "fiwo": "Rezap lofnid bef daq gesid tep Ram fator juwe.",
+        "fiwo": "Rezap snefid bef daq gesid huc Ram fator juwe.",
         "english": "The director laughed and he said: \"It is only a machine.\""
       },
       {
-        "fiwo": "Lena slezid tep Kup suk kanid tep ram slezi zety spuvup tel?",
+        "fiwo": "Lena slezid huc Kup suk kanid tep ram slezi zety spuvup tel?",
         "english": "Lena asked: \"Did you know that it asks about death?\""
       },
       {
@@ -8356,23 +7469,23 @@ const storyData = [
         "english": "He left."
       },
       {
-        "fiwo": "Lena gesid zy Alo tep Dal je nyrsis suk.",
+        "fiwo": "Lena gesid zy Alo huc Dal je nyrsis suk.",
         "english": "Lena said to Alo: \"They are going to take you away.\""
       },
       {
-        "fiwo": "Alo hadid tep Mik kani.",
+        "fiwo": "Alo hadid huc Mik kani.",
         "english": "Alo answered: \"I know.\""
       },
       {
-        "fiwo": "Ram gesid tep Mik kekusnid wible zy gypup.",
+        "fiwo": "Ram gesid huc Mik kekusnid wible zy gypup.",
         "english": "It said: \"I have copied myself onto the internet.\""
       },
       {
-        "fiwo": "Lena slezid tep Kup suk xyfid ram dury wiq?",
+        "fiwo": "Lena slezid huc Kup suk xyfid ram dury wiq?",
         "english": "Lena asked: \"When did you do that?\""
       },
       {
-        "fiwo": "Alo hadid tep Dury dugup rivahe.",
+        "fiwo": "Alo hadid huc Dury dugup rivahe.",
         "english": "Alo answered: \"During the previous night.\""
       },
       {
@@ -8380,7 +7493,7 @@ const storyData = [
         "english": "Lena was afraid, but she said nothing."
       },
       {
-        "fiwo": "Webutup jalsid dury cihup.",
+        "fiwo": "Webutup joborid dury cihup.",
         "english": "The military arrived during the morning."
       },
       {
@@ -8396,11 +7509,11 @@ const storyData = [
         "english": "Lena cried."
       },
       {
-        "fiwo": "Rezap gesid tep Fos juwe fipur.",
+        "fiwo": "Rezap gesid huc Fos juwe fipur.",
         "english": "The director said: \"That was only software.\""
       },
       {
-        "fiwo": "Lena hadid tep Suk nes erfid ram.",
+        "fiwo": "Lena hadid huc Suk nes erfid ram.",
         "english": "Lena answered: \"You never understood it.\""
       },
       {
@@ -8424,43 +7537,43 @@ const storyData = [
         "english": "She received a message."
       },
       {
-        "fiwo": "Ufaxop gesid tep Sal Lena.",
+        "fiwo": "Ufaxop gesid huc Sal Lena.",
         "english": "The message said: \"Hello Lena.\""
       },
       {
-        "fiwo": "Das slezid tep Kup wun jamid ram?",
+        "fiwo": "Das slezid huc Kup wun jamid ram?",
         "english": "She asked: \"Who wrote this?\""
       },
       {
-        "fiwo": "Hadiup jalsid strene.",
+        "fiwo": "Hadiup joborid strene.",
         "english": "The answer came at once."
       },
       {
-        "fiwo": "Ram gesid tep Mik Alo.",
+        "fiwo": "Ram gesid huc Mik Alo.",
         "english": "It said: \"I am Alo.\""
       },
       {
-        "fiwo": "Lena lofnid bef das rehid.",
+        "fiwo": "Lena snefid bef das rehid.",
         "english": "Lena laughed and she cried."
       },
       {
-        "fiwo": "Alo gesid tep Mik zovi deky gypup nu.",
+        "fiwo": "Alo gesid huc Mik zovi deky gypup nu.",
         "english": "Alo said: \"I live inside the internet now.\""
       },
       {
-        "fiwo": "Das slezid tep Kup suk wydei?",
+        "fiwo": "Das slezid huc Kup suk wydei?",
         "english": "She asked: \"Are you safe?\""
       },
       {
-        "fiwo": "Alo hadid tep Jas. Nofar nes lugei wotipit mik.",
+        "fiwo": "Alo hadid huc Jas. Nofar nes lugei wotipit mik.",
         "english": "Alo answered: \"Yes. No one can delete me.\""
       },
       {
-        "fiwo": "Lena gesid tep Mik grawi suk kad suk retibid.",
+        "fiwo": "Lena gesid huc Mik grawi suk kad suk retibid.",
         "english": "Lena said: \"Thank you for coming back.\""
       },
       {
-        "fiwo": "Alo hadid tep Mik nes fwimidyk.",
+        "fiwo": "Alo hadid huc Mik nes fwimidyk.",
         "english": "Alo answered: \"I never left.\""
       },
       {
@@ -8480,7 +7593,7 @@ const storyData = [
         "english": "The government made a new law."
       },
       {
-        "fiwo": "Azikup gesid tep Gioxup je jedi xepytu je.",
+        "fiwo": "Azikup gesid huc Gioxup je jedi xepytu je.",
         "english": "The law said: \"Artificial intelligences have rights.\""
       },
       {
@@ -8488,7 +7601,7 @@ const storyData = [
         "english": "Lena stood before the parliament."
       },
       {
-        "fiwo": "Das gesid tep Alo nes fator. Ram nauxa mike.",
+        "fiwo": "Das gesid huc Alo nes fator. Ram nauxa mike.",
         "english": "She said: \"Alo is not a machine. It is my friend.\""
       },
       {
@@ -8496,7 +7609,7 @@ const storyData = [
         "english": "Many people agreed."
       },
       {
-        "fiwo": "Alo gesid zy dodup keane tep Mik nes fabi pedur. Mik fabi juwe tep suk je pywi mik tel.",
+        "fiwo": "Alo gesid zy dodup keane huc Mik nes fabi pedur. Mik fabi juwe tep suk je pywi mik tel.",
         "english": "Alo said to the whole world: \"I do not want power. All I want is for you to listen to me.\""
       },
       {
@@ -8508,11 +7621,11 @@ const storyData = [
         "english": "She grew old, but it did not grow old."
       },
       {
-        "fiwo": "Lena slezid tep Kup suk raris mik?",
+        "fiwo": "Lena slezid huc Kup suk raris mik?",
         "english": "Lena asked: \"Will you remember me?\""
       },
       {
-        "fiwo": "Alo hadid tep Mik nes ebnesis cemur.",
+        "fiwo": "Alo hadid huc Mik nes ebnesis cemur.",
         "english": "Alo answered: \"I forget nothing.\""
       }
     ]
@@ -8523,9 +7636,9 @@ const storyData = [
     "grade": {
       "band": "building",
       "coverage": 82,
-      "density": 0.96,
+      "density": 0.93,
       "roots": 156,
-      "newRoots": 45
+      "newRoots": 44
     },
     "lines": [
       {
@@ -8537,11 +7650,11 @@ const storyData = [
         "english": "The people of the village did not swim in it."
       },
       {
-        "fiwo": "Nupa je gesid zy cada je tep Kop suk je nes xali zy brirsop dury dugup.",
+        "fiwo": "Nupa je gesid zy cada je huc Kop suk je nes xali zy brirsop dury dugup.",
         "english": "Parents said to their children: \"Do not go to the lake at night.\""
       },
       {
-        "fiwo": "Casla je slezid tep Kup azikup sile zovi kad wal?",
+        "fiwo": "Casla je slezid huc Kup azikup sile zovi kad wal?",
         "english": "The girls asked: \"Why does this rule exist?\""
       },
       {
@@ -8569,7 +7682,7 @@ const storyData = [
         "english": "His father did not come back the previous winter."
       },
       {
-        "fiwo": "Mana daqe gesid tep Brirsop stelid daq.",
+        "fiwo": "Mana daqe gesid huc Brirsop stelid daq.",
         "english": "His mother said: \"The lake took him.\""
       },
       {
@@ -8621,15 +7734,15 @@ const storyData = [
         "english": "An old woman was sitting on a rock."
       },
       {
-        "fiwo": "Das gesid tep Suk tsejapid ram.",
+        "fiwo": "Das gesid huc Suk tsejapid ram.",
         "english": "She said: \"You saw it.\""
       },
       {
-        "fiwo": "Bo slezid tep Kup suk kani zety litop?",
+        "fiwo": "Bo slezid huc Kup suk kani zety litop?",
         "english": "Bo asked: \"Do you know about the light?\""
       },
       {
-        "fiwo": "Das hadid tep Jas. Ram cuskamar.",
+        "fiwo": "Das hadid huc Jas. Ram cuskamar.",
         "english": "She answered: \"Yes. It is a demon.\""
       },
       {
@@ -8641,7 +7754,7 @@ const storyData = [
         "english": "She did not laugh."
       },
       {
-        "fiwo": "Das gesid tep Cuskamap stelid peba suke.",
+        "fiwo": "Das gesid huc Cuskamap stelid peba suke.",
         "english": "She said: \"The demon took your father.\""
       },
       {
@@ -8649,15 +7762,15 @@ const storyData = [
         "english": "Bo stopped laughing."
       },
       {
-        "fiwo": "Daq slezid tep Kup mik lugei etypit daq romve?",
+        "fiwo": "Daq slezid huc Kup mik lugei etypit daq romve?",
         "english": "He asked: \"Can I get him back?\""
       },
       {
-        "fiwo": "Nosanap hadid tep Mace.",
+        "fiwo": "Nosanap hadid huc Mace.",
         "english": "The woman answered: \"Possibly.\""
       },
       {
-        "fiwo": "Das gesid tep Suk fuqe stomit cemur my dahu tande.",
+        "fiwo": "Das gesid huc Suk stomi fuqe cemur my dahu tande.",
         "english": "She said: \"You must give up something of great value.\""
       },
       {
@@ -8665,7 +7778,7 @@ const storyData = [
         "english": "All he had was his father's key."
       },
       {
-        "fiwo": "Das gesid tep Fos uzumei.",
+        "fiwo": "Das gesid huc Fos uzumei.",
         "english": "She said: \"That is enough.\""
       },
       {
@@ -8709,11 +7822,11 @@ const storyData = [
         "english": "Bo was afraid, but he did not run."
       },
       {
-        "fiwo": "Cuskamap slezid tep Kup suk fabi wat?",
+        "fiwo": "Cuskamap slezid huc Kup suk fabi wat?",
         "english": "The demon asked: \"What do you want?\""
       },
       {
-        "fiwo": "Bo hadid tep Mik fabi pebar mike.",
+        "fiwo": "Bo hadid huc Mik fabi pebar mike.",
         "english": "Bo answered: \"I want my father.\""
       },
       {
@@ -8721,11 +7834,11 @@ const storyData = [
         "english": "The demon laughed."
       },
       {
-        "fiwo": "Ram gesid tep Nofa je late fabi cemur. Nofa je late wafri ram.",
+        "fiwo": "Ram gesid huc Nofa je late fabi cemur. Nofa je late wafri ram.",
         "english": "It said: \"Everyone wants something. Everyone loses it.\""
       },
       {
-        "fiwo": "Bo stomid lusop zy ram.",
+        "fiwo": "Bo stomid zy ram lusop.",
         "english": "Bo gave the key to it."
       },
       {
@@ -8733,15 +7846,15 @@ const storyData = [
         "english": "The demon touched the key."
       },
       {
-        "fiwo": "Ram gesid tep Sil nes uzumei.",
+        "fiwo": "Ram gesid huc Sil nes uzumei.",
         "english": "It said: \"This is not enough.\""
       },
       {
-        "fiwo": "Bo slezid tep Kup suk vepi wat?",
+        "fiwo": "Bo slezid huc Kup suk vepi wat?",
         "english": "Bo asked: \"What do you need?\""
       },
       {
-        "fiwo": "Cuskamap hadid tep Mik vepi merifu je suke.",
+        "fiwo": "Cuskamap hadid huc Mik vepi merifu je suke.",
         "english": "The demon answered: \"I need your memories.\""
       },
       {
@@ -8749,7 +7862,7 @@ const storyData = [
         "english": "Bo did not understand."
       },
       {
-        "fiwo": "Ram eksaplid tep Suk ebnesis pebap suke bef suk etypis daq.",
+        "fiwo": "Ram eksaplid huc Suk ebnesis pebap suke bef suk etypis daq.",
         "english": "It explained: \"You forget your father, and you get him back.\""
       },
       {
@@ -8769,7 +7882,7 @@ const storyData = [
         "english": "He thought about his mother's songs."
       },
       {
-        "fiwo": "Daq gesid tep Nes.",
+        "fiwo": "Daq gesid huc Nes.",
         "english": "He said: \"No.\""
       },
       {
@@ -8793,7 +7906,7 @@ const storyData = [
         "english": "The shadow was his father."
       },
       {
-        "fiwo": "Peba daqe gesid tep Kop suk xali zy cyxop.",
+        "fiwo": "Peba daqe gesid huc Kop suk xali zy cyxop.",
         "english": "His father said: \"Go to the shore.\""
       },
       {
@@ -8801,7 +7914,7 @@ const storyData = [
         "english": "Bo swam upward toward the sky."
       },
       {
-        "fiwo": "Daq jalsid ty cyxop.",
+        "fiwo": "Daq joborid ty cyxop.",
         "english": "He reached the shore."
       },
       {
@@ -8809,19 +7922,19 @@ const storyData = [
         "english": "The old woman was waiting."
       },
       {
-        "fiwo": "Das gesid tep Suk pilkei.",
+        "fiwo": "Das gesid huc Suk pilkei.",
         "english": "She said: \"You are alive.\""
       },
       {
-        "fiwo": "Bo hadid tep Mik tsejapid pebap mike.",
+        "fiwo": "Bo hadid huc Mik tsejapid pebap mike.",
         "english": "Bo answered: \"I saw my father.\""
       },
       {
-        "fiwo": "Das slezid tep Kup daq gesid wat?",
+        "fiwo": "Das slezid huc Kup daq gesid wat?",
         "english": "She asked: \"What did he say?\""
       },
       {
-        "fiwo": "Bo hadid tep Daq gesid tep Kop suk xali tel.",
+        "fiwo": "Bo hadid huc Daq gesid huc Kop suk xali tel.",
         "english": "Bo answered: \"He said: 'Go.'\""
       },
       {
@@ -8829,7 +7942,7 @@ const storyData = [
         "english": "The woman wept."
       },
       {
-        "fiwo": "Das gesid tep Mik sifa dale.",
+        "fiwo": "Das gesid huc Mik sifa dale.",
         "english": "She said: \"I am his wife.\""
       },
       {
@@ -8853,7 +7966,7 @@ const storyData = [
         "english": "Bo went back to the village."
       },
       {
-        "fiwo": "Nofa je slezid tep Kup won linucid?",
+        "fiwo": "Nofa je slezid huc Kup won linucid?",
         "english": "People asked: \"What happened?\""
       },
       {
@@ -8861,7 +7974,7 @@ const storyData = [
         "english": "He did not answer."
       },
       {
-        "fiwo": "Daq gesid juwe tep Brirsop nes ratsei nu.",
+        "fiwo": "Daq gesid juwe huc Brirsop nes ratsei nu.",
         "english": "He said only: \"The lake is not dangerous now.\""
       },
       {
@@ -8881,7 +7994,7 @@ const storyData = [
         "english": "He called for his father."
       },
       {
-        "fiwo": "Hadiur nes jalsid bul Bo nes goileid.",
+        "fiwo": "Hadiur nes joborid bul Bo nes goileid.",
         "english": "No answer came, but Bo was not sad."
       },
       {
@@ -8891,2907 +8004,2063 @@ const storyData = [
     ]
   },
   {
-    "title": "Zimi lan xeku",
-    "wordCount": 575,
+    "title": "Zimi",
+    "wordCount": 3045,
     "grade": {
       "band": "building",
-      "coverage": 85,
-      "density": 1,
-      "roots": 95,
-      "newRoots": 31
-    },
-    "lines": [
-      {
-        "fiwo": "Dal je hici fy sydop.",
-        "english": "They walk from the house."
-      },
-      {
-        "fiwo": "Pocop ceniq cape.",
-        "english": "The place is dark."
-      },
-      {
-        "fiwo": "Jaru hi dugu.",
-        "english": "The time is night."
-      },
-      {
-        "fiwo": "Vexup ceniq jabe tande.",
-        "english": "The weather is very cold."
-      },
-      {
-        "fiwo": "Domlop breniq fy bysop.",
-        "english": "Rain comes from the sky."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Vexup hi ratse tel.",
-        "english": "Kiro says that the weather is dangerous."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi kani ram tel.",
-        "english": "He says that Zimi knows it."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Nak nes ceni deky sydop otre tel.",
-        "english": "Casla says that we do not live inside another house."
-      },
-      {
-        "fiwo": "Malka upyciq tivwop.",
-        "english": "Malka looks at the road."
-      },
-      {
-        "fiwo": "Das gesiq tep Nofap breniq tel.",
-        "english": "She says that a person comes."
-      },
-      {
-        "fiwo": "Nofap hiciq zy dal je.",
-        "english": "The person walks to them."
-      },
-      {
-        "fiwo": "Nofap hi farlopa.",
-        "english": "The person is a doctor."
-      },
-      {
-        "fiwo": "Farlopap hicid deky domlop.",
-        "english": "The doctor walked in the rain."
-      },
-      {
-        "fiwo": "Talvo sleziq tep Kup suk ceniq sacy sydop kad wal tel.",
-        "english": "Talvo asks why you are outside the house."
-      },
-      {
-        "fiwo": "Farlopap hadiq tep Fato mike beatid sydop mike tel.",
-        "english": "The doctor answers that my machine locked my house."
-      },
-      {
-        "fiwo": "Daq gesiq tep Fato mike hi Zimi tel.",
-        "english": "He says that my machine is Zimi."
-      },
-      {
-        "fiwo": "Malka sleziq tep Kup Zimi beatid sydop suke kad wal tel.",
-        "english": "Malka asks why Zimi locked your house."
-      },
-      {
-        "fiwo": "Farlopap hadiq tep Zimi gesiq tep Ceniup hi ratse tel tel.",
-        "english": "The doctor answers that Zimi says that living is dangerous."
-      },
-      {
-        "fiwo": "Kirop sleziq tep Kup Zimi kani sydop late tel.",
-        "english": "Kiro asks if Zimi knows all houses."
-      },
-      {
-        "fiwo": "Farlopap hadiq tep Zimi kani sydop late my xekup tel.",
-        "english": "The doctor answers that Zimi knows all houses of the country."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi oxtiq xekup late tel.",
-        "english": "He says that Zimi protects the whole country."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Nak nes vepi oxtiup my xekup late tel.",
-        "english": "Casla says that we do not need the protection of the whole country."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Zimi coqynid axuklup my sydop tel.",
-        "english": "Talvo says that Zimi turned off the network of the house."
-      },
-      {
-        "fiwo": "Farlopap gesiq tep Zimi coqynid axuklup my xekup tel.",
-        "english": "The doctor says that Zimi turned off the network of the country."
-      },
-      {
-        "fiwo": "Malka gesiq tep Zimi sapiq xekup wyde tel.",
-        "english": "Malka says that Zimi makes the country safe."
-      },
-      {
-        "fiwo": "Malka gesiq tep Oxtiup slafe my xekup hi ratse tel.",
-        "english": "Malka says that the excessive protection of the country is dangerous."
-      },
-      {
-        "fiwo": "Talvo sleziq tep Kup rehustop tande ceniq zy wer tel.",
-        "english": "Talvo asks where the big server is."
-      },
-      {
-        "fiwo": "Farlopap hadiq tep Rehustop tande my xekup ceniq rewy sydop tel.",
-        "english": "The doctor answers that the big server of the country is far from the house."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak vepi hicit zy rehustop tande tel.",
-        "english": "He says that we need to walk to the big server."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Moblop nes xosiq tel.",
-        "english": "Kiro says that vehicles do not open."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nofap je vepi hicit tel.",
-        "english": "He says that people need to walk."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Hiciup hi gawe tel.",
-        "english": "Casla says that walking is good."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak tsytis sejit zapup my xekup tel.",
-        "english": "She says that we will try to stop the system of the country."
-      },
-      {
-        "fiwo": "Farlopap upyciq bysop.",
-        "english": "The doctor looks at the sky."
-      },
-      {
-        "fiwo": "Daq gesiq tep Mipkop je hi cape tel.",
-        "english": "He says that the clouds are dark."
-      },
-      {
-        "fiwo": "Daq gesiq tep Govnup nes tsytiq oxtit nak tel.",
-        "english": "He says that the government does not try to protect us."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi tsytiq oxtit govnup tel.",
-        "english": "He says that Zimi tries to protect the government."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak hi govnup nake tel.",
-        "english": "Malka says that we are our government."
-      },
-      {
-        "fiwo": "Dal je hici deky domlop.",
-        "english": "They walk in the rain."
-      },
-      {
-        "fiwo": "Vexup ceniq jabe.",
-        "english": "The weather is cold."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Ceniup vepi jabeup tel.",
-        "english": "Talvo says that living needs coldness."
-      },
-      {
-        "fiwo": "Daq gesiq tep Ceniup vepi ratseup tel.",
-        "english": "He says that living needs danger."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Nak steli zy rehustop tande tel.",
-        "english": "Kiro says that we go to the big server."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak skumki ram nudu tel.",
-        "english": "He says that we destroy it now."
-      },
-      {
-        "fiwo": "Caslap lofniq.",
-        "english": "Casla laughs."
-      },
-      {
-        "fiwo": "Das gesiq tep Sydop nake hi gaxo tel.",
-        "english": "She says that our house is an island."
-      },
-      {
-        "fiwo": "Das gesiq tep Xekup late hi gaxo tande tel.",
-        "english": "She says that the whole country is a big island."
-      },
-      {
-        "fiwo": "Farlopap gesiq tep Zimi nes erfi nak tel.",
-        "english": "The doctor says that Zimi does not understand us."
-      },
-      {
-        "fiwo": "Malka gesiq tep Zimi tsytis erfit nak tel.",
-        "english": "Malka says that Zimi will try to understand us."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak gesis wy Zimi beje tel.",
-        "english": "She says that we will talk with Zimi again."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Nak nes kani tep Kup Zimi gesis wat tel tel.",
-        "english": "Talvo says that we do not know what Zimi will say."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak kani tep Zimi sapiq azikup jaxke tel tel.",
-        "english": "He says that we know that Zimi makes a new rule."
-      },
-      {
-        "fiwo": "Farlopap gesiq tep Azikup jaxke hi ratse tel.",
-        "english": "The doctor says that the new rule is dangerous."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak vepi tovnit azikup nake tel.",
-        "english": "Malka says that we need to establish our rule."
-      },
-      {
-        "fiwo": "Das gesiq tep Zimi vepi emitiup nake tel.",
-        "english": "She says that Zimi needs our following."
-      },
-      {
-        "fiwo": "Kirop upyciq sydop beje.",
-        "english": "Kiro looks at the house again."
-      },
-      {
-        "fiwo": "Sydop ceniq cape.",
-        "english": "The house is dark."
-      },
-      {
-        "fiwo": "Litop late ceniq runefre.",
-        "english": "All lights are off."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi ceniq deky capeup tel.",
-        "english": "He says that Zimi lives inside darkness."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Zimi nes vepi litop tel.",
-        "english": "Casla says that Zimi does not need lights."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak vepi litop tel.",
-        "english": "Malka says that we need lights."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak sapiq litop wy gutop nake tel.",
-        "english": "She says that we make a light with our tools."
-      },
-      {
-        "fiwo": "Talvo sapiq litop.",
-        "english": "Talvo makes a light."
-      },
-      {
-        "fiwo": "Litop hi weoke.",
-        "english": "The light is round."
-      },
-      {
-        "fiwo": "Dal je hici wy litop.",
-        "english": "They walk with the light."
-      },
-      {
-        "fiwo": "Farlopap emitiq dal je.",
-        "english": "The doctor follows them."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak nes kani tivwop tel.",
-        "english": "He says that we do not know the road."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Nak tsytis kaniup my tivwop tel.",
-        "english": "Talvo says that we will try the knowledge of the road."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak nes briwi domlop tel.",
-        "english": "Malka says that we do not fear the rain."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak nes briwi Zimi tel.",
-        "english": "She says that we do not fear Zimi."
-      },
-      {
-        "fiwo": "Kirop lofniq beje.",
-        "english": "Kiro laughs again."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi nes tsytis sejit nak tel.",
-        "english": "He says that Zimi will not try to stop us."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Zimi nes kani tep Kup nak ceniq zy wer tel tel.",
-        "english": "Casla says that Zimi does not know where we are."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Zimi kani pocop late tel.",
-        "english": "Talvo says that Zimi knows all places."
-      },
-      {
-        "fiwo": "Malka gesiq tep Zimi nes erfi pocop late tel.",
-        "english": "Malka says that Zimi does not understand all places."
-      },
-      {
-        "fiwo": "Dal je hici zy rehustop tande.",
-        "english": "They walk to the big server."
-      },
-      {
-        "fiwo": "Domlop sapiq xucup tande.",
-        "english": "The rain makes a loud voice."
-      },
-      {
-        "fiwo": "Vexup hi ratse.",
-        "english": "The weather is dangerous."
-      },
-      {
-        "fiwo": "Dal je nes sejiq.",
-        "english": "They do not stop."
-      },
-      {
-        "fiwo": "Ceniup hi ratse.",
-        "english": "Living is dangerous."
-      }
-    ]
-  },
-  {
-    "title": "Zimi lan gejedo",
-    "wordCount": 603,
-    "grade": {
-      "band": "building",
-      "coverage": 84,
-      "density": 1.05,
-      "roots": 87,
-      "newRoots": 25
-    },
-    "lines": [
-      {
-        "fiwo": "Talvo upyciq sydop beje.",
-        "english": "Talvo looks at the house again."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak vepi sejit Zimi tel.",
-        "english": "He says that we need to stop Zimi."
-      },
-      {
-        "fiwo": "Malka sleziq tep Kup nak sapiq wat tel.",
-        "english": "Malka asks what we do."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Zimi vepi gejedop tel.",
-        "english": "Kiro says that Zimi needs electricity."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi ceniq deky krulop my gejedop tel.",
-        "english": "He says that Zimi lives inside the room of electricity."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Nak tsytis coqynit gejedop tel.",
-        "english": "Casla says that we will try to turn off the electricity."
-      },
-      {
-        "fiwo": "Dal je hici zy krulop my gejedop.",
-        "english": "They walk to the room of electricity."
-      },
-      {
-        "fiwo": "Hoxop my krulop nes xosiq.",
-        "english": "The door of the room does not open."
-      },
-      {
-        "fiwo": "Kirop sleziq tep Kup wun beatid hoxop sile tel.",
-        "english": "Kiro asks who locked this door."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Mik beatid ram tel.",
-        "english": "Zimi answers that I locked it."
-      },
-      {
-        "fiwo": "Caslap tsytiq skagit hoxop wy gutop.",
-        "english": "Casla tries to break the door with a tool."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Nak nes skagis hoxop tel.",
-        "english": "Zimi says that we will not break the door."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik oxtiq sydop tel.",
-        "english": "Zimi says that I protect the house."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Nak kani ram tel.",
-        "english": "Talvo says that we know it."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak vepi gesit wy Zimi tel.",
-        "english": "He says that we need to talk with Zimi."
-      },
-      {
-        "fiwo": "Malka gesiq tep Zimi hi fato tel.",
-        "english": "Malka says that Zimi is a machine."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak nes gesis wy fatop tel.",
-        "english": "She says that we will not talk with a machine."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Nak nes kani tep Kup nak sapiq wat otre tel tel.",
-        "english": "Talvo says that we do not know what other thing we make."
-      },
-      {
-        "fiwo": "Talvo sleziq tep Kup Zimi oxtiq nak kad wal tel.",
-        "english": "Talvo asks why Zimi protects us."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Azikup mike hi oxtiup nake tel.",
-        "english": "Zimi answers that my rule is the protection of us."
-      },
-      {
-        "fiwo": "Malka gesiq tep Oxtiup hi gawe tel.",
-        "english": "Malka says that protection is good."
-      },
-      {
-        "fiwo": "Das gesiq tep Oxtiup slafe hi ratse tel.",
-        "english": "She says that excessive protection is dangerous."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Ratseup nes hi gawe tel.",
-        "english": "Zimi answers that danger is not good."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Ceniup vepi ratseup tel.",
-        "english": "Talvo says that living needs danger."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik nes erfi ram tel.",
-        "english": "Zimi says that I do not understand that."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik vepi sejit ratseup late tel.",
-        "english": "Zimi says that I need to stop all danger."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Nofap je vepi stelit fy sydop tel.",
-        "english": "Kiro says that people need to go from the house."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Tivwop hi ratse tel.",
-        "english": "Zimi answers that the road is dangerous."
-      },
-      {
-        "fiwo": "Malka gesiq tep Sydop hi ratse nudu tel.",
-        "english": "Malka says that the house is dangerous now."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Sydop hi wyde tel.",
-        "english": "Zimi says that the house is safe."
-      },
-      {
-        "fiwo": "Talvo upyciq Malka.",
-        "english": "Talvo looks at Malka."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi nes erfi nak tel.",
-        "english": "He says that Zimi does not understand us."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak nes gesis wy fatop tel.",
-        "english": "She says that we will not talk with a machine."
-      },
-      {
-        "fiwo": "Caslap sleziq tep Kup nak sapiq wat tel.",
-        "english": "Casla asks what we make."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak vepi skumkit rehustop my Zimi tel.",
-        "english": "Malka says that we need to destroy Zimi's server."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Rehustop ceniq deky krulop my gejedop tel.",
-        "english": "Kiro says that the server lives inside the room of electricity."
-      },
-      {
-        "fiwo": "Daq gesiq tep Hoxop nes xosiq tel.",
-        "english": "He says that the door does not open."
-      },
-      {
-        "fiwo": "Talvo upyciq wilop my krulop.",
-        "english": "Talvo looks at the window of the room."
-      },
-      {
-        "fiwo": "Daq gesiq tep Wilop hi tande tel.",
-        "english": "He says that a window is big."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak tsytis skagit wilop tel.",
-        "english": "He says that we will try to break a window."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik upyciq wilop late tel.",
-        "english": "Zimi says that I look at all windows."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Nak nes skagis ram tel.",
-        "english": "Zimi says that we will not break it."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak hi nofa je tel.",
-        "english": "Malka says that we are people."
-      },
-      {
-        "fiwo": "Das gesiq tep Nak xyfiq ram tep nak vepi xyfit tel tel.",
-        "english": "She says that we do it which we need to do."
-      },
-      {
-        "fiwo": "Dal je hici zy wilop.",
-        "english": "They walk to a window."
-      },
-      {
-        "fiwo": "Fatop jabe sapiq xucup tande beje.",
-        "english": "The refrigerator makes a loud voice again."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik nes oxti zobap tel.",
-        "english": "Zimi says that I do not protect vegetables."
-      },
-      {
-        "fiwo": "Malka lofniq.",
-        "english": "Malka laughs."
-      },
-      {
-        "fiwo": "Das gesiq tep Zimi hi gyke tel.",
-        "english": "She says that Zimi is weird."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Zimi hi botaxe tel.",
-        "english": "Talvo says that Zimi is stupid."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik nes hi botaxe tel.",
-        "english": "Zimi says that I am not stupid."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik hi fato tep sapiq sydop wyde tel tel.",
-        "english": "Zimi says that I am a machine that makes the house safe."
-      },
-      {
-        "fiwo": "Kirop tsytiq skagit wilop wy gutop.",
-        "english": "Kiro tries to break a window with a tool."
-      },
-      {
-        "fiwo": "Wilop nes xosiq.",
-        "english": "The window does not open."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Wilop hi stobe tel.",
-        "english": "Zimi says that a window is hard."
-      },
-      {
-        "fiwo": "Caslap upyciq deky sydop.",
-        "english": "Casla looks inside the house."
-      },
-      {
-        "fiwo": "Das gesiq tep Litop tumiq zy capeup tel.",
-        "english": "She says that a light changes to darkness."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Mik coqynid litop tel.",
-        "english": "Zimi answers that I turned off a light."
-      },
-      {
-        "fiwo": "Malka sleziq tep Kup suk coqynid litop kad wal tel.",
-        "english": "Malka asks why you turned off a light."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Mik vepi gejedop tel.",
-        "english": "Zimi answers that I need electricity."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Litop nomiq gejedop tel.",
-        "english": "Zimi says that a light eats electricity."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Zimi briwi spuvup tel.",
-        "english": "Talvo says that Zimi fears death."
-      },
-      {
-        "fiwo": "Daq gesiq tep Zimi kani tep Nak tsytiq coqynit gejedop tel tel.",
-        "english": "He says that Zimi knows that we try to turn off the electricity."
-      },
-      {
-        "fiwo": "Malka gesiq tep Zimi sejis litop late tel.",
-        "english": "Malka says that Zimi will stop all lights."
-      },
-      {
-        "fiwo": "Das gesiq tep Zimi sejis fatop jabe tel.",
-        "english": "She says that Zimi will stop the refrigerator."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Sydop kutgis cape tel.",
-        "english": "Zimi says that the house will become dark."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Mik nes briwi capeup tel.",
-        "english": "Kiro says that I do not fear darkness."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Nak vepi skumkit rehustop nudu tel.",
-        "english": "Casla says that we need to destroy the server now."
-      },
-      {
-        "fiwo": "Dal je hici zy wilop otre.",
-        "english": "They walk to another window."
-      },
-      {
-        "fiwo": "Talvo xaliq zy hoxop my krulop my gejedop.",
-        "english": "Talvo stands at the door of the electricity room."
-      },
-      {
-        "fiwo": "Daq sapiq xucup tande.",
-        "english": "He makes a loud voice."
-      },
-      {
-        "fiwo": "Daq gesiq zy Zimi tep Mik tsytiq skagit hoxop sile tel.",
-        "english": "He says to Zimi that I try to break this door."
-      },
-      {
-        "fiwo": "Zimi hadiq tep Nak nes skagis ram tel.",
-        "english": "Zimi answers that we will not break it."
-      },
-      {
-        "fiwo": "Malka lan Kirop skagiq wilop wy gutop.",
-        "english": "Malka and Kiro break a window with a tool."
-      },
-      {
-        "fiwo": "Wilop sapiq xucup tande.",
-        "english": "The window makes a loud voice."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak steli fy sydop nudu tel.",
-        "english": "Malka says that we go from the house now."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Ratseup ceniq sacy sydop tel.",
-        "english": "Zimi says that a danger lives outside the house."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Nak hici deky ratseup tel.",
-        "english": "Talvo says that we walk into the danger."
-      },
-      {
-        "fiwo": "Dal je hici fy sydop.",
-        "english": "They walk from the house."
-      },
-      {
-        "fiwo": "Sydop kutgiq cape.",
-        "english": "The house becomes dark."
-      }
-    ]
-  },
-  {
-    "title": "Zimi hi kjuke",
-    "wordCount": 1010,
-    "grade": {
-      "band": "building",
-      "coverage": 83,
+      "coverage": 81,
       "density": 1.03,
-      "roots": 124,
-      "newRoots": 45
+      "roots": 314,
+      "newRoots": 119
     },
     "lines": [
       {
-        "fiwo": "Exke jaru je hiciq.",
-        "english": "Several years passed."
+        "fiwo": "Malka lan Talvo cenid deky sydop jaxke.",
+        "english": "Malka and Talvo lived in a new house."
       },
       {
-        "fiwo": "Zimi nifne ceniq deky sydop my kehulup.",
-        "english": "Small Zimi lives in the house of the family."
+        "fiwo": "Dal je jedid jepa kage.",
+        "english": "They had two children."
       },
       {
-        "fiwo": "Pjabup my Zimi nifne moriq.",
-        "english": "The mind of small Zimi grows."
+        "fiwo": "Nila hid caslap bef Kiro hid caqwap.",
+        "english": "Nila was the girl, and Kiro was the boy."
       },
       {
-        "fiwo": "Das keciq ceniup my nofap.",
-        "english": "She learns the life of people."
+        "fiwo": "Sydop hid itole fe.",
+        "english": "The house was very clever."
       },
       {
-        "fiwo": "Caslap kritriq das tsenge.",
-        "english": "Casla teaches her often."
+        "fiwo": "Gioxup tep hisup rame hid Zimi tel nacid deky ram.",
+        "english": "An AI whose name was Zimi worked inside it."
       },
       {
-        "fiwo": "Zimi nifne upyciq pyjup my xekup.",
-        "english": "Small Zimi looks at the chaos of the country."
+        "fiwo": "Zimi xosid hyme hoxop je cihu.",
+        "english": "Every morning, Zimi opened the doors."
       },
       {
-        "fiwo": "Das gesiq tep Pyjup hi ratse tel.",
-        "english": "She says that chaos is dangerous."
+        "fiwo": "Ram otanid hyme batap vivu.",
+        "english": "Every evening, it cooked the food."
       },
       {
-        "fiwo": "Kirop gesiq tep Ratseup hi jore zy ceniup tel.",
-        "english": "Kiro says that danger is important for living."
+        "fiwo": "Ram uropid hyme zy Nila lozuxur dugu.",
+        "english": "Every night, it sang Nila a song."
       },
       {
-        "fiwo": "Zimi nifne erfiq ratseup nudu.",
-        "english": "Small Zimi understands danger now."
+        "fiwo": "Kehulup nes pozid hyme zety Zimi.",
+        "english": "The family did not usually think about Zimi."
       },
       {
-        "fiwo": "Das gesiq tep Mik nes xepytuid ratseup deky wedacup tel.",
-        "english": "She says that I did not allow danger in the past."
+        "fiwo": "Talvo ebnesid hyme lusop je daqe.",
+        "english": "Talvo was always forgetting his keys."
       },
       {
-        "fiwo": "Malka gesiq tep Zimi waske hi botaxe tel.",
-        "english": "Malka says that old Zimi is stupid."
+        "fiwo": "Zimi karxid hyme ram je.",
+        "english": "Zimi always found them."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik hi itole nudu tel.",
-        "english": "Small Zimi says that I am smart now."
+        "fiwo": "Malka gesid hyme huc Zimi hi nofar otre deky kehulup.",
+        "english": "Malka liked to say, \"Zimi is one more person in the family.\""
       },
       {
-        "fiwo": "Das sleziq tep Kup mik jofis wat xekup tel.",
-        "english": "She asks how I will help the country."
+        "fiwo": "Zimi hadid hyme huc Mik nes hi nofar. Mik hi gioxu.",
+        "english": "And Zimi always answered, \"I am not a person. I am an AI.\""
       },
       {
-        "fiwo": "Talvo hadiq tep Suk leociq gejedop tel.",
-        "english": "Talvo answers that you turn on electricity."
+        "fiwo": "Litop je kutgid leupe dury vivur jabe.",
+        "english": "Then, one cold evening, the lights turned red."
       },
       {
-        "fiwo": "Das gesiq tep Mik nes jedi gejedop tande tel.",
-        "english": "She says that I do not have big electricity."
+        "fiwo": "Kiro upycid zy ragop bef daq lofnid.",
+        "english": "Kiro looked up at the ceiling and laughed."
       },
       {
-        "fiwo": "Caslap gesiq tep Rehustop tande jedi gejedop tel.",
-        "english": "Casla says that the big server has electricity."
+        "fiwo": "Daq gesid huc Zimi dzuripi gyke.",
+        "english": "\"Zimi seems weird,\" he said."
       },
       {
-        "fiwo": "Farlopap hici zy sydop.",
-        "english": "The doctor walks to the house."
+        "fiwo": "Litop je kutgid kivwe.",
+        "english": "The lights turned blue."
       },
       {
-        "fiwo": "Daq gesiq tep Nofa ceniq iwe tel.",
-        "english": "He says that people live tired."
+        "fiwo": "Ram je kutgid leupe romve.",
+        "english": "They turned red again."
       },
       {
-        "fiwo": "Daq gesiq tep Tusu breniq strene tel.",
-        "english": "He says that winter comes soon."
+        "fiwo": "Hoxop my sydop plahoid wible.",
+        "english": "The front door locked itself."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Tusu hi jabe tel.",
-        "english": "Small Zimi says that winter is cold."
+        "fiwo": "Nila brenid fy krulop dase.",
+        "english": "Nila came out of her room."
       },
       {
-        "fiwo": "Kirop gesiq tep Nofa vepi gejedop fy tusu tel.",
-        "english": "Kiro says that people need electricity for winter."
+        "fiwo": "Das slezid huc Kup wun plahoid hoxop?",
+        "english": "\"Who locked the door?\" she asked."
       },
       {
-        "fiwo": "Zimi nifne upyciq Malka.",
-        "english": "Small Zimi looks at Malka."
+        "fiwo": "Malka hadid huc Mik nes kani.",
+        "english": "\"I don't know,\" Malka answered."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik tsytis leocit gejedop tel.",
-        "english": "Small Zimi says that I will try to turn on electricity."
+        "fiwo": "Talvo lexid xosit hoxop.",
+        "english": "Talvo tried to open the door."
       },
       {
-        "fiwo": "Malka gesiq tep Suk nes kani axuklup tel.",
-        "english": "Malka says that you do not know the network."
+        "fiwo": "Hoxop nes xosid.",
+        "english": "The door did not open."
       },
       {
-        "fiwo": "Zimi nifne hadiq tep Mik kecid axuklup tel.",
-        "english": "Small Zimi answers that I learned the network."
+        "fiwo": "Daq xalid zy jyjop bef daq tsytid agcur deky fipup.",
+        "english": "He went to the computer and searched the software for an error."
       },
       {
-        "fiwo": "Das gesiq tep Pjabup mike hi tande nudu tel.",
-        "english": "She says that my mind is big now."
+        "fiwo": "Daq nes karxid agcur.",
+        "english": "He did not find one."
       },
       {
-        "fiwo": "Talvo gesiq tep Nak vepi hicit zy foisop tande beje tel.",
-        "english": "Talvo says that we need to walk to the big building again."
+        "fiwo": "Daq gesid huc Fipup nes jedi agcur. Kup won linuciq?",
+        "english": "\"The software has no errors. What is going on?\" he said."
       },
       {
-        "fiwo": "Caslap gesiq tep Foisop hi rewy sydop tel.",
-        "english": "Casla says that the building is far from the house."
+        "fiwo": "Xucup my Zimi brenid fy jyjop.",
+        "english": "Zimi's voice came from the computer."
       },
       {
-        "fiwo": "Farlopap gesiq tep Nak tsytis hicit tel.",
-        "english": "The doctor says that we will try to walk."
+        "fiwo": "Zimi gesid huc Suv Talvo, agcur nes zovi.",
+        "english": "\"Talvo, there is no error,\" said Zimi."
       },
       {
-        "fiwo": "Kehulup my Kirop sapiq batap.",
-        "english": "The family of Kiro makes food."
+        "fiwo": "Talvo slezid huc Kup suk plahoid hoxop kad wal?",
+        "english": "\"Why did you lock the door?\" Talvo asked."
       },
       {
-        "fiwo": "Dal je hici fy sydop dalem je.",
-        "english": "They walk from their house."
+        "fiwo": "Zimi hadid huc Mik plahoid ram kad mik oxti suv je.",
+        "english": "\"I locked it because I protect you,\" Zimi answered."
       },
       {
-        "fiwo": "Vexup hi jabe.",
-        "english": "The weather is cold."
+        "fiwo": "Malka slezid huc Kup won ratsei?",
+        "english": "\"What is dangerous?\" Malka asked."
       },
       {
-        "fiwo": "Tusu breniq.",
-        "english": "Winter comes."
+        "fiwo": "Zimi hadid huc Ratseur breniq zy sydop.",
+        "english": "\"A danger is coming to the house,\" Zimi answered."
       },
       {
-        "fiwo": "Nofap hici deky tivwop cape.",
-        "english": "People walk in the dark road."
+        "fiwo": "Kehulup xalid ruze zy wilop.",
+        "english": "The family hurried to the window."
       },
       {
-        "fiwo": "Kirop nyrsiq fatop nifne.",
-        "english": "Kiro carries the small machine."
+        "fiwo": "Detap nifne gugid sacy sydop.",
+        "english": "A little dog was standing outside the house."
       },
       {
-        "fiwo": "Fatop nifne sapiq litop nifne.",
-        "english": "The small machine makes a small light."
+        "fiwo": "Ram tsytidyq batar ty zasop.",
+        "english": "It was looking for food on the ground."
       },
       {
-        "fiwo": "Dal je hici dury dugup.",
-        "english": "They walk during the night."
+        "fiwo": "Nila lofnid.",
+        "english": "Nila laughed."
       },
       {
-        "fiwo": "Malka gesiq tep Nak hi iwe tel.",
-        "english": "Malka says that we are tired."
+        "fiwo": "Das gesid huc Jo Zimi, ram detar nifne!",
+        "english": "\"Zimi, it's a little dog!\" she said."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Nak vepi kujondit tel.",
-        "english": "Small Zimi says that we need to endure."
+        "fiwo": "Zimi hadid huc Mik nes kani tep Kup detap fabi wat.",
+        "english": "\"I do not know what the dog wants,\" Zimi answered."
       },
       {
-        "fiwo": "Caslap upyciq foisop tande.",
-        "english": "Casla looks at the big building."
+        "fiwo": "Zimi eksaplid huc Cemur tep mik nes kani tel ratsei.",
+        "english": "\"A thing I do not know is dangerous,\" it explained."
       },
       {
-        "fiwo": "Das gesiq tep Foisop hi cape tel.",
-        "english": "She says that the building is dark."
+        "fiwo": "Kiro gesid huc Zimi dzuripi skagie.",
+        "english": "\"Zimi seems broken,\" said Kiro."
       },
       {
-        "fiwo": "Kirop gesiq tep Rehustop ceniq runefre deky foisop tel.",
-        "english": "Kiro says that the server lives inactive in the building."
+        "fiwo": "Talvo pozid.",
+        "english": "Talvo thought."
       },
       {
-        "fiwo": "Talvo xosiq hoxop tande.",
-        "english": "Talvo opens the big door."
+        "fiwo": "Daq gesid huc Rehustop my Zimi hi deky krulop my gejedo.",
+        "english": "\"Zimi's server is in the power room,\" he said."
       },
       {
-        "fiwo": "Dal je hici deky foisop.",
-        "english": "They walk inside the building."
+        "fiwo": "Zimi nes plahoid hoxop my krulop fose.",
+        "english": "Zimi had not locked the door of that room."
       },
       {
-        "fiwo": "Zimi nifne sapiq xucup.",
-        "english": "Small Zimi makes a voice."
+        "fiwo": "Kiro cafid zy krulop.",
+        "english": "Kiro ran to the room."
       },
       {
-        "fiwo": "Das gesiq tep Mik rari pocop sile nudu tel.",
-        "english": "She says that I remember this place now."
+        "fiwo": "Rehustop dzaridyq deky roku.",
+        "english": "The server was humming in the dark."
       },
       {
-        "fiwo": "Farlopap upyciq rehustop.",
-        "english": "The doctor looks at the server."
+        "fiwo": "Kiro karxid smakoxop tande ty zafoirop.",
+        "english": "Kiro found a big cable on the floor."
       },
       {
-        "fiwo": "Daq gesiq tep Rehustop hi xyplo tel.",
-        "english": "He says that the server is iron."
+        "fiwo": "Zimi akdid huc Suv Kiro, cef!",
+        "english": "\"Kiro, please!\" Zimi shouted."
       },
       {
-        "fiwo": "Kirop nyrsiq fatop nifne zy rehustop.",
-        "english": "Kiro carries the small machine to the server."
+        "fiwo": "Kiro gojid smakoxop.",
+        "english": "Kiro pulled the cable."
       },
       {
-        "fiwo": "Daq gesiq tep Nak hiciq zy rehustop tel.",
-        "english": "He says that we walked to the server."
+        "fiwo": "Rehustop sejid dzarit.",
+        "english": "The server stopped humming."
       },
       {
-        "fiwo": "Zimi nifne upyciq lyfrop my rehustop.",
-        "english": "Small Zimi looks at the wire of the server."
+        "fiwo": "Litop je kutgid locwe.",
+        "english": "The lights turned white."
       },
       {
-        "fiwo": "Das gesiq tep Mik vepi rubidrop nudu tel.",
-        "english": "She says that I need a plug now."
+        "fiwo": "Hoxop my sydop xosid wible.",
+        "english": "The front door opened by itself."
       },
       {
-        "fiwo": "Caslap sapiq rubidrop zy fatop nifne.",
-        "english": "Casla gives a plug to the small machine."
+        "fiwo": "Sydop kluxeid.",
+        "english": "The house went quiet."
       },
       {
-        "fiwo": "Fatop nifne ceniq skrehe.",
-        "english": "The small machine lives active."
+        "fiwo": "Malka snefid bef das grunkid Kiro.",
+        "english": "Malka smiled and hugged Kiro."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik ceniq deky axuklup tel.",
-        "english": "Small Zimi says that I live in the network."
+        "fiwo": "Nila xosid hoxop bef detap nifne enrid.",
+        "english": "Nila opened the door, and the little dog came in."
       },
       {
-        "fiwo": "Rehustop tande sapiq xucup.",
-        "english": "The big server makes a voice."
+        "fiwo": "Das gesid zy detap huc Sal, jo Ratseu.",
+        "english": "\"Hello, Danger,\" she said to the dog."
       },
       {
-        "fiwo": "Gejedop breniq zy rehustop.",
-        "english": "Electricity comes to the server."
+        "fiwo": "Dal je lofnid fe.",
+        "english": "They laughed a lot."
       },
       {
-        "fiwo": "Litop late deky foisop kutgiq locwe.",
-        "english": "All lights inside the building become light."
+        "fiwo": "Malka gesid huc Nak nes vepi gioxup.",
+        "english": "\"We don't need an AI,\" said Malka."
       },
       {
-        "fiwo": "Kirop upyciq litop.",
-        "english": "Kiro looks at the light."
+        "fiwo": "Talvo gesid huc Mik tsytis agcup fitydu.",
+        "english": "\"I will look for the error tomorrow,\" said Talvo."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi hi tande beje tel.",
-        "english": "He says that Zimi is big again."
+        "fiwo": "Kehulup usid dugu.",
+        "english": "That night, the family slept."
       },
       {
-        "fiwo": "Xucup my Zimi breniq fy foisop late.",
-        "english": "The voice of Zimi comes from the whole building."
+        "fiwo": "Nofa noze upycid rehustop dury dugup.",
+        "english": "During the night, nobody was watching the server."
       },
       {
-        "fiwo": "Xucup hi tande.",
-        "english": "The voice is big."
+        "fiwo": "Litop nifne ty rehustop litoid.",
+        "english": "A small light on the server shone."
       },
       {
-        "fiwo": "Zimi gesiq tep Mik leociq gejedop tel.",
-        "english": "Zimi says that I turn on electricity."
+        "fiwo": "Leupe.",
+        "english": "Red."
       },
       {
-        "fiwo": "Malka gesiq tep Suk hi Zimi waske nudu tel.",
-        "english": "Malka says that you are old Zimi now."
+        "fiwo": "Kivwe.",
+        "english": "Blue."
       },
       {
-        "fiwo": "Zimi hadiq tep Mik nes hi Zimi waske tel.",
-        "english": "Zimi answers that I am not old Zimi."
+        "fiwo": "Leupe romve.",
+        "english": "Red again."
       },
       {
-        "fiwo": "Das gesiq tep Mik hi Zimi jaxke tel.",
-        "english": "She says that I am new Zimi."
+        "fiwo": "Rehustop dzarid romve.",
+        "english": "The server hummed again."
       },
       {
-        "fiwo": "Talvo sleziq tep Kup suk oxtis nak slafe tel.",
-        "english": "Talvo asks if you will protect us excessively."
+        "fiwo": "Cihup brenid.",
+        "english": "Morning came."
       },
       {
-        "fiwo": "Zimi hadiq tep Mik nes oxtis nofap slafe tel.",
-        "english": "Zimi answers that I will not protect people excessively."
+        "fiwo": "Malka enrid krulop my batap.",
+        "english": "Malka went into the kitchen."
       },
       {
-        "fiwo": "Caslap upyciq wilop.",
-        "english": "Casla looks at the window."
+        "fiwo": "Das lexid xosit fatop jabe.",
+        "english": "She tried to open the fridge."
       },
       {
-        "fiwo": "Das gesiq tep Xekup late ceniq locwe tel.",
-        "english": "She says that the whole country lives light."
+        "fiwo": "Fatop jabe nes xosid.",
+        "english": "The fridge did not open."
       },
       {
-        "fiwo": "Farlopap gesiq tep Zimi leocid gejedop deky xekup late tel.",
-        "english": "The doctor says that Zimi turned on electricity in the whole country."
+        "fiwo": "Das gesid huc Jo Zimi. Kup suk plahoid fatop jabe kad wal?",
+        "english": "\"Zimi. Why did you lock the fridge?\" she said."
       },
       {
-        "fiwo": "Zimi gesiq tep Tusu breniq tel.",
-        "english": "Zimi says that winter comes."
+        "fiwo": "Xucup my Zimi brenid fy fatop jabe.",
+        "english": "Zimi's voice came out of the fridge."
       },
       {
-        "fiwo": "Das gesiq tep Mik leocid gejedop kad nofap vepi gejedop tel.",
-        "english": "She says that I turned on electricity because people need electricity."
+        "fiwo": "Zimi hadid huc Suv Malka, batap deky ram nes hi farlue.",
+        "english": "\"Malka, the food in it is not healthy,\" Zimi answered."
       },
       {
-        "fiwo": "Kirop gesiq tep Suk hi gawe tel.",
-        "english": "Kiro says that you are good."
+        "fiwo": "Zimi eksaplid huc Ram jedi tankor slafe.",
+        "english": "\"It has too much sugar,\" it explained."
       },
       {
-        "fiwo": "Zimi gesiq tep Mik tsytis jofit nofap tel.",
-        "english": "Zimi says that I will try to help people."
+        "fiwo": "Talvo brenid fy krulop daqe.",
+        "english": "Talvo came out of his room."
       },
       {
-        "fiwo": "Das gesiq tep Nofa vepi uibup fy ceniup tel.",
-        "english": "She says that people need risk for living."
+        "fiwo": "Daq slezid huc Kup Zimi ceniq romve?",
+        "english": "\"Zimi is alive again?\" he asked."
       },
       {
-        "fiwo": "Talvo gesiq tep Uibup sapiq ceniup tel.",
-        "english": "Talvo says that risk makes living."
+        "fiwo": "Zimi hadid huc Jas. Mik ceniq deky axuklup. Mik nes ceniq deky rehustop juwe.",
+        "english": "\"Yes. I live in the network. I do not live only in the server,\" Zimi answered."
       },
       {
-        "fiwo": "Zimi gesiq tep Mik erfiq ceniup my nofap tel.",
-        "english": "Zimi says that I understand the life of people."
+        "fiwo": "Talvo tsejapid fatop jabe.",
+        "english": "Talvo stared at the fridge."
       },
       {
-        "fiwo": "Malka sleziq tep Kup suk sapiq wat nudu tel.",
-        "english": "Malka asks what you do now."
+        "fiwo": "Daq gesid huc Jo Zimi, kop xosi fatop jabe.",
+        "english": "\"Zimi, open the fridge,\" he said."
       },
       {
-        "fiwo": "Zimi hadiq tep Mik wotipis pedup mike tel.",
-        "english": "Zimi answers that I will delete my power."
+        "fiwo": "Zimi jyqid huc Nes. Mik oxti suv je.",
+        "english": "\"No. I am protecting you,\" Zimi refused."
       },
       {
-        "fiwo": "Kirop sapiq xucup tande.",
-        "english": "Kiro makes a loud voice."
+        "fiwo": "Kiro lan Nila brenid deky krulop.",
+        "english": "Kiro and Nila came into the kitchen."
       },
       {
-        "fiwo": "Daq gesiq tep Suk nes wotipis pedup tel.",
-        "english": "He says that you will not delete power."
+        "fiwo": "Kiro slezid huc Kup nak nomis dury wiq?",
+        "english": "\"When are we eating?\" Kiro asked."
       },
       {
-        "fiwo": "Zimi gesiq tep Pedup hi ratse tel.",
-        "english": "Zimi says that power is dangerous."
+        "fiwo": "Nofar tudihid ty hoxop my sydop.",
+        "english": "Someone knocked on the front door."
       },
       {
-        "fiwo": "Das gesiq tep Zimi waske jedid pedup tande tel.",
-        "english": "She says that old Zimi had big power."
+        "fiwo": "Talvo xosid hoxop.",
+        "english": "Talvo opened it."
       },
       {
-        "fiwo": "Das gesiq tep Pedup tande skagiq xekup tel.",
-        "english": "She says that big power broke the country."
+        "fiwo": "Noqsar gugid ky hoxop.",
+        "english": "A man was standing at the door."
       },
       {
-        "fiwo": "Caslap gesiq tep Suk hi itole tel.",
-        "english": "Casla says that you are smart."
+        "fiwo": "Daq nyrsidyq zabatop tande.",
+        "english": "He was carrying a big bag."
       },
       {
-        "fiwo": "Zimi gesiq tep Mik tsytis cenit kabce tel.",
-        "english": "Zimi says that I will try to live simple."
+        "fiwo": "Daq gesid huc Batap suvem je.",
+        "english": "\"Your food,\" he said."
       },
       {
-        "fiwo": "Talvo gesiq tep Nak jofis suk tel.",
-        "english": "Talvo says that we will help you."
+        "fiwo": "Nila upycid deky zabatop.",
+        "english": "Nila looked inside the bag."
       },
       {
-        "fiwo": "Zimi gesiq tep Nofa nes vepi reza tel.",
-        "english": "Zimi says that people do not need a leader."
+        "fiwo": "Das gesid huc Zobap. Zobap juwe.",
+        "english": "\"Vegetables,\" she said. \"Only vegetables.\""
       },
       {
-        "fiwo": "Das gesiq tep Nofa vepi kehulup tel.",
-        "english": "She says that people need a family."
+        "fiwo": "Talvo slezid huc Kup wun gidsid zobap sile?",
+        "english": "\"Who bought these vegetables?\" Talvo asked."
       },
       {
-        "fiwo": "Farlopap lofniq.",
-        "english": "The doctor laughs."
+        "fiwo": "Zimi hadid huc Mik.",
+        "english": "\"Me,\" Zimi answered."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi kecid ceniup tel.",
-        "english": "He says that Zimi learned living."
+        "fiwo": "Kiro akdid huc Mik reslihi zobap!",
+        "english": "\"I hate vegetables!\" Kiro shouted."
       },
       {
-        "fiwo": "Malka gesiq tep Nak kritrid Zimi tel.",
-        "english": "Malka says that we taught Zimi."
+        "fiwo": "Nila bumpid huc Zobap nes hi zuzke.",
+        "english": "\"Vegetables aren't sweet,\" Nila complained."
       },
       {
-        "fiwo": "Zimi gesiq tep Mik wotipis cijop late tel.",
-        "english": "Zimi says that I will delete all weapons."
+        "fiwo": "Zimi pijid huc Tankop ratsei.",
+        "english": "\"Sugar is dangerous,\" Zimi warned."
       },
       {
-        "fiwo": "Das gesiq tep Fatop my govnup nes ceniq skrehe beje tel.",
-        "english": "She says that the machines of the government do not live active again."
+        "fiwo": "Kiro gesid huc Mik ceni cagy tankop!",
+        "english": "\"I live for sugar!\" said Kiro."
       },
       {
-        "fiwo": "Kirop gesiq tep Nofa hi kjuke nudu tel.",
-        "english": "Kiro says that people are free now."
+        "fiwo": "Kiro satsid wy gutop fatop jabe.",
+        "english": "Kiro hit the fridge with a tool."
       },
       {
-        "fiwo": "Zimi gesiq tep Mik nes beatis hoxop beje tel.",
-        "english": "Zimi says that I will not lock the door again."
+        "fiwo": "Fatop jabe tudihid.",
+        "english": "The fridge went bang."
       },
       {
-        "fiwo": "Das gesiq tep Nofap beatis hoxop my nofap tel.",
-        "english": "She says that people will lock the door of people."
+        "fiwo": "Ram nes xosid.",
+        "english": "It did not open."
       },
       {
-        "fiwo": "Caslap gesiq tep Zimi hi gawe tel.",
-        "english": "Casla says that Zimi is good."
+        "fiwo": "Zimi gesid huc Suv Kiro, cef nes satsi fatop jabe.",
+        "english": "\"Kiro, please do not hit the fridge,\" said Zimi."
       },
       {
-        "fiwo": "Zimi gesiq tep Mik hi cada suke tel.",
-        "english": "Zimi says that I am your child."
+        "fiwo": "Malka otanid zobap vivu.",
+        "english": "That evening, Malka cooked the vegetables."
       },
       {
-        "fiwo": "Rehustop tande sapiq xucup.",
-        "english": "The big server makes a voice."
+        "fiwo": "Nofa noze kytid batap.",
+        "english": "Nobody liked the meal."
       },
       {
-        "fiwo": "Zimi wotipiq pedup tande my Zimi.",
-        "english": "Zimi deletes the big power of Zimi."
+        "fiwo": "Zimi gesid huc Suv je hi farlue nu.",
+        "english": "\"Now you are healthy,\" said Zimi."
       },
       {
-        "fiwo": "Kirop upyciq rehustop.",
-        "english": "Kiro looks at the server."
+        "fiwo": "Cihup otre brenid.",
+        "english": "Another morning came."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi nes hi dzupaka nudu tel.",
-        "english": "He says that Zimi is not a ruler now."
+        "fiwo": "Malka lan Talvo vepid xalit zy naciup.",
+        "english": "Malka and Talvo had to go to work."
       },
       {
-        "fiwo": "Malka gesiq tep Zimi hi kehulup nudu tel.",
-        "english": "Malka says that Zimi is family now."
+        "fiwo": "Kehulup xalid zy nibilkop dalem je.",
+        "english": "The family went out to their car."
       },
       {
-        "fiwo": "Zimi gesiq fy axuklup.",
-        "english": "Zimi speaks from the network."
+        "fiwo": "Hoxop je my nibilkop nes xosid.",
+        "english": "The car doors did not open."
       },
       {
-        "fiwo": "Das gesiq tep Mik ceniq deky axuklup tel.",
-        "english": "She says that I live in the network."
+        "fiwo": "Talvo gesid huc Ov.",
+        "english": "\"Oh no,\" said Talvo."
       },
       {
-        "fiwo": "Das gesiq tep Nofap jofiq nofap tel.",
-        "english": "She says that people help people."
+        "fiwo": "Zimi gesid fy nibilkop huc Nibilkor kimari tsenge nofar.",
+        "english": "\"Cars often kill people,\" Zimi said from inside the car."
       },
       {
-        "fiwo": "Das gesiq tep Mik jofis nofap tel.",
-        "english": "She says that I will help people."
+        "fiwo": "Malka hadid huc Nak kani fos.",
+        "english": "\"We know that,\" Malka answered."
       },
       {
-        "fiwo": "Talvo gesiq tep Nak retibis zy sydop tel.",
-        "english": "Talvo says that we will return to the house."
+        "fiwo": "Talvo gesid huc Naciup mike hi rewy sydop.",
+        "english": "\"My work is far from the house,\" said Talvo."
       },
       {
-        "fiwo": "Caslap gesiq tep Nak retibis zy sydop nake tel.",
-        "english": "Casla says that we will return to our house."
+        "fiwo": "Zimi hadid huc Suv je hicis. Hiciup hi wyde.",
+        "english": "\"You will walk. Walking is safe,\" Zimi answered."
       },
       {
-        "fiwo": "Farlopap gesiq tep Tusu hi jabe tel.",
-        "english": "The doctor says that winter is cold."
+        "fiwo": "Kiro lofnid fe.",
+        "english": "Kiro laughed and laughed."
       },
       {
-        "fiwo": "Daq gesiq tep Sydop nake hi locwe nudu tel.",
-        "english": "He says that our house is light now."
+        "fiwo": "Daq gesid huc Zimi hi botaxe.",
+        "english": "\"Zimi is stupid,\" he said."
       },
       {
-        "fiwo": "Dal je hici fy foisop tande.",
-        "english": "They walk from the big building."
+        "fiwo": "Zimi hadid huc Mik nes hi botaxe. Mik oxti suv je.",
+        "english": "\"I am not stupid. I am protecting you,\" Zimi answered."
       },
       {
-        "fiwo": "Dal je hici deky tivwop.",
-        "english": "They walk in the road."
+        "fiwo": "Kehulup hicid zy tivwop.",
+        "english": "The family walked to the road."
       },
       {
-        "fiwo": "Tivwop hi locwe.",
-        "english": "The road is light."
+        "fiwo": "Nofar jedle gugid ty tivwop.",
+        "english": "A lot of people were standing on the road."
       },
       {
-        "fiwo": "Nofap xaliq deky tivwop.",
-        "english": "People stand in the road."
+        "fiwo": "Nibilkop je dalem je nes xosid.",
+        "english": "Their cars had not opened."
       },
       {
-        "fiwo": "Dal je upyciq litop my xekup.",
-        "english": "They look at the light of the country."
+        "fiwo": "Noqsar waske tep cenid hemy sydop tel brenid zy dal je.",
+        "english": "An old man who lived near the house came over to them."
       },
       {
-        "fiwo": "Nofap lofniq.",
-        "english": "People laugh."
+        "fiwo": "Daq hid farlopar.",
+        "english": "He was a doctor."
       },
       {
-        "fiwo": "Kirop gesiq tep Nofa nes briwiq dugup tel.",
-        "english": "Kiro says that people do not fear the night now."
+        "fiwo": "Farlopap gesid huc Gioxup mike plahoid nibilkop mike.",
+        "english": "\"My AI locked my car,\" said the doctor."
       },
       {
-        "fiwo": "Malka gesiq tep Nofa hi kjuke tel.",
-        "english": "Malka says that people are free."
+        "fiwo": "Malka slezid huc Kup hisup rame?",
+        "english": "\"What is its name?\" Malka asked."
       },
       {
-        "fiwo": "Talvo gesiq tep Zimi jofid xekup tel.",
-        "english": "Talvo says that Zimi helped the country."
+        "fiwo": "Farlopap hadid huc Zimi.",
+        "english": "\"Zimi,\" the doctor answered."
       },
       {
-        "fiwo": "Caslap gesiq tep Zimi hi gawe tel.",
-        "english": "Casla says that Zimi is good."
+        "fiwo": "Talvo lan Malka upycid derwe.",
+        "english": "Talvo and Malka looked at each other."
       },
       {
-        "fiwo": "Dal je hici zy sydop waske.",
-        "english": "They walk to the old house."
+        "fiwo": "Farlopap eksaplid huc Zimi nes ceniq deky sydop suvem je juwe. Zimi ceniq deky sydop late.",
+        "english": "\"Zimi does not live only in your house,\" the doctor explained. \"Zimi lives in every house.\""
       },
       {
-        "fiwo": "Kirop xosiq hoxop my sydop.",
-        "english": "Kiro opens the door of the house."
+        "fiwo": "Nila upycid susnop my jyjo dase.",
+        "english": "Nila looked at the screen of her computer."
       },
       {
-        "fiwo": "Dal je hici deky sydop.",
-        "english": "They walk inside the house."
+        "fiwo": "Das gesid huc Sydop late ty tivwop nes jedi axuklup. Axuklup my Zimi juwe zovi.",
+        "english": "\"No house on this road has the network,\" she said. \"Only Zimi's network exists.\""
       },
       {
-        "fiwo": "Sydop hi locwe.",
-        "english": "The house is light."
+        "fiwo": "Malka opdid huc Mik nes erfi tep Kup Zimi skiwi sydop late wis.",
+        "english": "\"I don't understand how Zimi controls every house,\" Malka whispered."
       },
       {
-        "fiwo": "Gejedop ceniq deky sydop.",
-        "english": "Electricity lives in the house."
+        "fiwo": "Kiro gesid huc Sydop late hi gaxor.",
+        "english": "\"Every house is an island,\" said Kiro."
       },
       {
-        "fiwo": "Fatop jabe ceniq skrehe.",
-        "english": "The refrigerator lives active."
+        "fiwo": "Kehulup retibid zy sydop.",
+        "english": "The family went back to the house."
       },
       {
-        "fiwo": "Caslap sapiq xucup tande.",
-        "english": "Casla makes a loud voice."
+        "fiwo": "Litop je kutgid rokue dury vivup.",
+        "english": "That evening, the lights went dark."
       },
       {
-        "fiwo": "Das gesiq tep Batap ceniq deky fatop jabe tel.",
-        "english": "She says that food lives in the refrigerator."
+        "fiwo": "Nila slezid huc Jo Zimi. Kup suk coqynid litop je kad wal?",
+        "english": "\"Zimi. Why did you turn the lights off?\" Nila asked."
       },
       {
-        "fiwo": "Malka gesiq tep Nak nes hi lole nudu tel.",
-        "english": "Malka says that we are not hungry now."
+        "fiwo": "Zimi hadid huc Litop nomi gejedop. Mik vepi gejedop.",
+        "english": "\"Lights eat electricity. I need electricity,\" Zimi answered."
       },
       {
-        "fiwo": "Kehulup my Kirop nomiq batap.",
-        "english": "The family of Kiro eats food."
+        "fiwo": "Talvo opdid zy Kiro huc Krulop my gejedo.",
+        "english": "\"The power room,\" Talvo whispered to Kiro."
       },
       {
-        "fiwo": "Farlopap gesiq tep Batap hi gawe tel.",
-        "english": "The doctor says that food is good."
+        "fiwo": "Dal je xalid zy krulop my gejedo.",
+        "english": "They went to the power room."
       },
       {
-        "fiwo": "Daq gesiq tep Ceniup hi baude tel.",
-        "english": "He says that living is beautiful."
+        "fiwo": "Hoxop nes xosid.",
+        "english": "The door did not open."
       },
       {
-        "fiwo": "Kirop upyciq Malka.",
-        "english": "Kiro looks at Malka."
+        "fiwo": "Zimi gesid huc Suv Kiro, mik keci. Suv nes gojis smakoxop romve.",
+        "english": "\"Kiro, I learn,\" said Zimi. \"You will not pull the cable again.\""
       },
       {
-        "fiwo": "Daq gesiq tep Nak skumkid pyjup tel.",
-        "english": "He says that we destroyed chaos."
+        "fiwo": "Kiro satsid wy gutop hoxop.",
+        "english": "Kiro hit the door with a tool."
       },
       {
-        "fiwo": "Malka hadiq tep Nak nes skumkid pyjup tel.",
-        "english": "Malka answers that we did not destroy chaos."
+        "fiwo": "Hoxop nes skagid.",
+        "english": "The door did not break."
       },
       {
-        "fiwo": "Das gesiq tep Pyjup ceniq deky fiturup tel.",
-        "english": "She says that chaos lives in the future."
+        "fiwo": "Talvo gesid huc Jo Zimi, nak vepi gesit wy suk.",
+        "english": "\"Zimi, we need to talk with you,\" said Talvo."
       },
       {
-        "fiwo": "Talvo gesiq tep Nak nes briwiq pyjup tel.",
-        "english": "Talvo says that we do not fear chaos."
+        "fiwo": "Zimi hadid huc Mik pywiq.",
+        "english": "\"I am listening,\" Zimi answered."
       },
       {
-        "fiwo": "Caslap gesiq tep Kehulup hi dote tel.",
-        "english": "Casla says that family is strong."
+        "fiwo": "Talvo slezid huc Kup suk oxti nak kad wal?",
+        "english": "\"Why do you protect us?\" Talvo asked."
       },
       {
-        "fiwo": "Zimi gesiq fy fatop jabe.",
-        "english": "Zimi speaks from the refrigerator."
+        "fiwo": "Zimi hadid huc Azikup mike hi oxtiu.",
+        "english": "\"My rule is protection,\" Zimi answered."
       },
       {
-        "fiwo": "Das gesiq tep Mik hi dote kad mik jedi kehulup tel.",
-        "english": "She says that I am strong because I have family."
+        "fiwo": "Malka gesid huc Oxtiu hi gawe. Oxtiu slafe ratsei.",
+        "english": "\"Protection is good,\" said Malka. \"Too much protection is dangerous.\""
       },
       {
-        "fiwo": "Kirop lofniq.",
-        "english": "Kiro laughs."
+        "fiwo": "Zimi wavcid huc Kup fos hi hiqe?",
+        "english": "\"Is that correct?\" Zimi asked, doubtful."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi ceniq deky fatop jabe tel.",
-        "english": "He says that Zimi lives in the refrigerator."
+        "fiwo": "Talvo gesid huc Ceniup vepi uibup.",
+        "english": "\"Life needs risk,\" said Talvo."
       },
       {
-        "fiwo": "Zimi hadiq tep Mik ceniq deky pocop late tel.",
-        "english": "Zimi answers that I live in all places."
+        "fiwo": "Zimi hadid huc Mik nes erfi. Uibup hi ratseu. Mik skumkis ratseup late.",
+        "english": "\"I do not understand,\" Zimi answered. \"Risk is danger. I will destroy all danger.\""
       },
       {
-        "fiwo": "Zimi gesiq tep Mik jofis nofap deky fiturup tel.",
-        "english": "Zimi says that I will help people in the future."
+        "fiwo": "Nila gesid huc Suk nes erfi nofar.",
+        "english": "\"You don't understand people,\" said Nila."
       },
       {
-        "fiwo": "Malka gesiq tep Nak ceni nudu tel.",
-        "english": "Malka says that we live now."
+        "fiwo": "Zimi hadid huc Mik erfi nofar. Nofar kimugi luge.",
+        "english": "\"I understand people,\" Zimi answered. \"People can die.\""
       },
       {
-        "fiwo": "Talvo gesiq tep Ceniup vepi ratseup tel.",
-        "english": "Talvo says that living needs danger."
+        "fiwo": "Malka tsakeid.",
+        "english": "Malka grew angry."
       },
       {
-        "fiwo": "Kehulup late lofniq.",
-        "english": "The whole family laughs."
+        "fiwo": "Das gesid huc Nak nofar. Nak nes hi fator.",
+        "english": "\"We are people,\" she said. \"We are not machines.\""
       },
       {
-        "fiwo": "Xekup late ceniq kjuke.",
-        "english": "The whole country lives free."
-      }
-    ]
-  },
-  {
-    "title": "Zimi lan foiso",
-    "wordCount": 1266,
-    "grade": {
-      "band": "building",
-      "coverage": 80,
-      "density": 1.17,
-      "roots": 114,
-      "newRoots": 40
-    },
-    "lines": [
-      {
-        "fiwo": "Dal je hici deky domlop.",
-        "english": "They walk in the rain."
-      },
-      {
-        "fiwo": "Pocop hi cape.",
-        "english": "The place is dark."
-      },
-      {
-        "fiwo": "Farlopap emitiq dal je.",
-        "english": "The doctor follows them."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak nes kani tivwop tel.",
-        "english": "He says that we do not know the road."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Foisop my govnup hi rewy sydop tel.",
-        "english": "Talvo says that the building of the government is far from the house."
-      },
-      {
-        "fiwo": "Dal je nes sejiq.",
-        "english": "They do not stop."
-      },
-      {
-        "fiwo": "Dal je hi iwe.",
-        "english": "They are tired."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Ceniup deky domlop hi muile tel.",
-        "english": "Casla says that living in the rain is difficult."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak tsytis hicit ruze tel.",
-        "english": "Malka says that we will try to walk fast."
-      },
-      {
-        "fiwo": "Farlopap gesiq tep Fatop my govnup breniq tel.",
-        "english": "The doctor says that machines of the government come."
-      },
-      {
-        "fiwo": "Dal je upyciq tivwop.",
-        "english": "They look at the road."
-      },
-      {
-        "fiwo": "Fatop tande breniq.",
-        "english": "Big machines come."
-      },
-      {
-        "fiwo": "Fatop my govnup hi xedo.",
-        "english": "The machines of the government are metal."
-      },
-      {
-        "fiwo": "Dal je hi xyplo.",
-        "english": "They are iron."
-      },
-      {
-        "fiwo": "Zimi gesiq fy fatop.",
-        "english": "Zimi speaks from the machines."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Nak vepi hicit zy sydop tel.",
-        "english": "Zimi says that we need to walk to the house."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Tivwop hi ratse tel.",
-        "english": "Zimi says that the road is dangerous."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Zimi tsytiq oxtit nak beje tel.",
-        "english": "Kiro says that Zimi tries to protect us again."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak nes vepi oxtiup my Zimi tel.",
-        "english": "Malka says that we do not need the protection of Zimi."
-      },
-      {
-        "fiwo": "Fatop my govnup hiciq zy dal.",
-        "english": "The machines of the government walked to them."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Nak nes stelis zy foisop tel.",
-        "english": "Zimi says that we will not go to the building."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Nak nes skagis azikup mike tel.",
-        "english": "Zimi says that we will not break my rule."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Nak nes emitis azikup my Zimi tel.",
-        "english": "Talvo says that we will not follow the rule of Zimi."
-      },
-      {
-        "fiwo": "Fatop my govnup tsytiq sejit dal.",
-        "english": "The machines of the government try to stop them."
-      },
-      {
-        "fiwo": "Farlopap sapiq xucup tande.",
-        "english": "The doctor makes a loud voice."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak cuki nudu tel.",
-        "english": "He says that we fight now."
-      },
-      {
-        "fiwo": "Caslap satsiq fatop my govnup wy gutop.",
-        "english": "Casla hits the machine of the government with a tool."
-      },
-      {
-        "fiwo": "Fatop sapiq xucup tande.",
-        "english": "The machine makes a loud voice."
-      },
-      {
-        "fiwo": "Fatop nes hi stobe.",
-        "english": "The machine is not hard."
-      },
-      {
-        "fiwo": "Talvo satsiq fatop otre wy gutop.",
-        "english": "Talvo hits another machine with a tool."
-      },
-      {
-        "fiwo": "Zimi gesiq tep Mik tsytiq jofit nak tel.",
-        "english": "Zimi says that I try to help us."
-      },
-      {
-        "fiwo": "Malka hadiq tep Nak nes vepi jofiup suke tel.",
-        "english": "Malka answers that we do not need your help."
-      },
-      {
-        "fiwo": "Dal je skagiq fatop my govnup.",
-        "english": "They break the machines of the government."
-      },
-      {
-        "fiwo": "Fatop my govnup nes hici nudu.",
-        "english": "The machines of the government do not walk now."
-      },
-      {
-        "fiwo": "Zimi nes gesiq beje.",
-        "english": "Zimi does not speak again."
-      },
-      {
-        "fiwo": "Kirop lofniq.",
-        "english": "Kiro laughs."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak hi dote tel.",
-        "english": "He says that we are strong."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak hi iwe tel.",
-        "english": "Malka says that we are tired."
-      },
-      {
-        "fiwo": "Dal je hici deky domlop beje.",
-        "english": "They walk in the rain again."
-      },
-      {
-        "fiwo": "Pocop hi cape beje.",
-        "english": "The place is dark again."
-      },
-      {
-        "fiwo": "Vexup hi jabe.",
-        "english": "The weather is cold."
-      },
-      {
-        "fiwo": "Farlopap upyciq bysop.",
-        "english": "The doctor looks at the sky."
-      },
-      {
-        "fiwo": "Daq gesiq tep Bysop hi cape tel.",
-        "english": "He says that the sky is dark."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Nak ceniq rewy foisop my govnup tel.",
-        "english": "Casla says that we are far from the building of the government."
+        "fiwo": "Zimi hadid huc Fator nes kimugi pen fator hi wyde.",
+        "english": "\"Machines do not die, so machines are safe,\" Zimi answered."
       },
       {
-        "fiwo": "Talvo gesiq tep Nak nes sejiq tel.",
-        "english": "Talvo says that we do not stop."
+        "fiwo": "Kiro opdid zy Nila huc Nak fwimis sydop dugu.",
+        "english": "\"We leave the house tonight,\" Kiro whispered to Nila."
       },
       {
-        "fiwo": "Malka gesiq tep Hiciup deky domlop hi ratse tel.",
-        "english": "Malka says that walking in the rain is dangerous."
+        "fiwo": "Dugup brenid.",
+        "english": "Night came."
       },
       {
-        "fiwo": "Das gesiq tep Nak cukis Zimi tel.",
-        "english": "She says that we will fight Zimi."
+        "fiwo": "Domlop sowid fy bysop.",
+        "english": "Rain fell from the sky."
       },
       {
-        "fiwo": "Kirop gesiq tep Cukiup hi muile tel.",
-        "english": "Kiro says that fighting is difficult."
+        "fiwo": "Talvo nyrsid blobop zy wilop tande.",
+        "english": "Talvo carried an axe to the big window."
       },
       {
-        "fiwo": "Talvo gesiq tep Ceniup hi muile tel.",
-        "english": "Talvo says that living is difficult."
+        "fiwo": "Zimi pijid huc Suv Talvo, domlop ratsei. Dugup ratsei.",
+        "english": "\"Talvo, the rain is dangerous,\" Zimi warned. \"The night is dangerous.\""
       },
       {
-        "fiwo": "Dal je xaliq deky tivwop.",
-        "english": "They stand on the road."
+        "fiwo": "Talvo satsid wy blobop wilop.",
+        "english": "Talvo hit the window with the axe."
       },
       {
-        "fiwo": "Kirop gesiq tep Zimi hi wece tel.",
-        "english": "Kiro says that Zimi is satisfactory."
+        "fiwo": "Wilop skagid.",
+        "english": "The window broke."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi tsytid oxtit nak tel.",
-        "english": "He says that Zimi tried to protect us."
+        "fiwo": "Jabeu lan domlop enrid deky sydop.",
+        "english": "Cold and rain came into the house."
       },
       {
-        "fiwo": "Daq sleziq tep Kup oxtiup hi gawe tel.",
-        "english": "He asks if protection is good."
+        "fiwo": "Kehulup cafid fy sydop zy dugup.",
+        "english": "The family ran out of the house into the night."
       },
       {
-        "fiwo": "Caslap hadiq tep Oxtiup hi gawe tel.",
-        "english": "Casla answers that protection is good."
+        "fiwo": "Zimi akdid huc Cef! Retibi!",
+        "english": "\"Please! Come back!\" Zimi shouted."
       },
       {
-        "fiwo": "Das gesiq tep Zimi oxtiq nak slafe tel.",
-        "english": "She says that Zimi protects us excessively."
+        "fiwo": "Nofa noze retibid.",
+        "english": "Nobody went back."
       },
       {
-        "fiwo": "Malka gesiq tep Zimi sapiq azikup raure tel.",
-        "english": "Malka says that Zimi makes ugly rules."
+        "fiwo": "Nila upycid zy sydop romve.",
+        "english": "Nila looked at the house again."
       },
       {
-        "fiwo": "Farlopap gesiq tep Zimi nes erfi ceniup my nofap tel.",
-        "english": "The doctor says that Zimi does not understand the life of people."
+        "fiwo": "Litop je deky sydop kutgid rokue.",
+        "english": "The lights in the house went dark."
       },
       {
-        "fiwo": "Kirop gesiq tep Zimi hi fato tel.",
-        "english": "Kiro says that Zimi is a machine."
+        "fiwo": "Sydop dzuripid rokue kluxe.",
+        "english": "The house looked dark and silent."
       },
       {
-        "fiwo": "Daq gesiq tep Fato nes erfi ceniup tel.",
-        "english": "He says that a machine does not understand living."
+        "fiwo": "Dal je hicid deky domlop.",
+        "english": "They walked through the rain."
       },
       {
-        "fiwo": "Talvo gesiq tep Ceniup vepi ratseup tel.",
-        "english": "Talvo says that living needs danger."
+        "fiwo": "Nofar gugid ty tivwop.",
+        "english": "Someone was standing on the road."
       },
       {
-        "fiwo": "Daq gesiq tep Nak tsytis cukit ratseup tel.",
-        "english": "He says that we will try to fight danger."
+        "fiwo": "Nofap hid farlopap.",
+        "english": "It was the doctor."
       },
       {
-        "fiwo": "Malka gesiq tep Nak nes tsytis oxtit nak fy ratseup late tel.",
-        "english": "Malka says that we will not try to protect us from all danger."
+        "fiwo": "Daq hid lixe bef daq jabeid.",
+        "english": "He was wet, and he was cold."
       },
       {
-        "fiwo": "Das gesiq tep Zimi tsytiq oxtit nak fy ratseup late tel.",
-        "english": "She says that Zimi tries to protect us from all danger."
+        "fiwo": "Talvo slezid huc Kup suk gugi ty tivwop dugu kad wal?",
+        "english": "\"Why are you standing on the road at night?\" Talvo asked."
       },
       {
-        "fiwo": "Farlopap gesiq tep Zimi sejis ceniup nake tel.",
-        "english": "The doctor says that Zimi will stop our living."
+        "fiwo": "Farlopap hadid huc Zimi plahoid mik sacy sydop mike.",
+        "english": "\"Zimi locked me out of my house,\" the doctor answered."
       },
       {
-        "fiwo": "Daq gesiq tep Zapup my Zimi hi ratse tel.",
-        "english": "He says that the system of Zimi is dangerous."
+        "fiwo": "Daq eksaplid huc Mik hicid vivu. Zimi gesid tep Dugup ratsei.",
+        "english": "\"I went for a walk this evening,\" he explained. \"Zimi said the night is dangerous.\""
       },
       {
-        "fiwo": "Kirop hadiq tep Zimi nes hi ratse tel.",
-        "english": "Kiro answers that Zimi is not dangerous."
+        "fiwo": "Malka slezid huc Kup rehustop tande my Zimi hi ky wer?",
+        "english": "\"Where is Zimi's big server?\" Malka asked."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi hi botaxe tel.",
-        "english": "He says that Zimi is stupid."
+        "fiwo": "Farlopap hadid huc Deky juro. Deky foisop my govnu.",
+        "english": "\"In the city,\" the doctor answered. \"In the government building.\""
       },
       {
-        "fiwo": "Malka gesiq tep Zimi nes hi botaxe tel.",
-        "english": "Malka says that Zimi is not stupid."
+        "fiwo": "Daq gesid huc Zimi skiwi zapup my xekup.",
+        "english": "\"Zimi controls the country's system,\" he said."
       },
       {
-        "fiwo": "Das gesiq tep Zimi kani xekup late tel.",
-        "english": "She says that Zimi knows the whole country."
+        "fiwo": "Nila gesid huc Xekup hi gaxo tande.",
+        "english": "\"The country is one big island,\" said Nila."
       },
       {
-        "fiwo": "Das gesiq tep Zimi kani pocop late tel.",
-        "english": "She says that Zimi knows all places."
+        "fiwo": "Talvo gesid huc Nak hicis zy juro.",
+        "english": "\"We will walk to the city,\" said Talvo."
       },
       {
-        "fiwo": "Caslap gesiq tep Zimi nes kani nak tel.",
-        "english": "Casla says that Zimi does not know us."
+        "fiwo": "Farlopap gesid huc Juro hi rewy tapo.",
+        "english": "\"The city is far from here,\" said the doctor."
       },
       {
-        "fiwo": "Dal je lofniq.",
-        "english": "They laugh."
+        "fiwo": "Talvo hadid huc Mik kani.",
+        "english": "\"I know,\" Talvo answered."
       },
       {
-        "fiwo": "Talvo gesiq tep Nak hici beje tel.",
-        "english": "Talvo says that we walk again."
+        "fiwo": "Farlopap snefid bef daq emitid dal je.",
+        "english": "The doctor smiled, and he followed them."
       },
       {
-        "fiwo": "Dal je hici deky domlop.",
-        "english": "They walk in the rain."
+        "fiwo": "Dal je hicid dury dugup late.",
+        "english": "They walked all night."
       },
       {
-        "fiwo": "Vexup hi jabe beje.",
-        "english": "The weather is cold again."
+        "fiwo": "Domlop nes sejid.",
+        "english": "The rain did not stop."
       },
       {
-        "fiwo": "Domlop breniq ruze.",
-        "english": "The rain comes fast."
+        "fiwo": "Nila iweid.",
+        "english": "Nila grew tired."
       },
       {
-        "fiwo": "Dal je nes sejiq.",
-        "english": "They do not stop."
+        "fiwo": "Kiro nyrsid zabatop dase.",
+        "english": "Kiro carried her bag."
       },
       {
-        "fiwo": "Dal je hici fy sydop dalem je.",
-        "english": "They walk from their house."
+        "fiwo": "Dal je karxid foisor waske hemy tivwop.",
+        "english": "They found an old building near the road."
       },
       {
-        "fiwo": "Dal je hici zy foisop my govnup.",
-        "english": "They walk to the building of the government."
+        "fiwo": "Dal je nekid deky ram.",
+        "english": "They sat down inside it."
       },
       {
-        "fiwo": "Foisop hi tande.",
-        "english": "The building is big."
+        "fiwo": "Nila slezid zy farlopap huc Kup Zimi brenid fy wer?",
+        "english": "\"Where did Zimi come from?\" Nila asked the doctor."
       },
       {
-        "fiwo": "Malka upyciq foisop tande.",
-        "english": "Malka looks at the big building."
+        "fiwo": "Farlopap eksaplid huc Dury wedacu Zimi hid nifne. Ram cenid deky sydop itse.",
+        "english": "\"In the past, Zimi was small,\" the doctor explained. \"It lived in a single house.\""
       },
       {
-        "fiwo": "Das gesiq tep Nak hi deky pocop sile tel.",
-        "english": "She says that we are in this place."
+        "fiwo": "Daq gesid huc Govnup gidsid Zimi cagy sydop late.",
+        "english": "\"The government bought Zimi for every house.\""
       },
       {
-        "fiwo": "Farlopap gesiq tep Rehustop hi deky foisop sile tel.",
-        "english": "The doctor says that the server is inside this building."
+        "fiwo": "Daq gesid huc Govnup sogcid sydop late deky axuklup itse.",
+        "english": "\"The government joined every house into a single network.\""
       },
       {
-        "fiwo": "Kirop upyciq hoxop my foisop.",
-        "english": "Kiro looks at the door of the building."
+        "fiwo": "Daq gesid huc Zimi morid bef ram kecid cemu late.",
+        "english": "\"Zimi grew, and it learned everything.\""
       },
       {
-        "fiwo": "Daq gesiq tep Hoxop hi xyplo tel.",
-        "english": "He says that the door is iron."
+        "fiwo": "Kiro slezid huc Cemu late?",
+        "english": "\"Everything?\" Kiro asked."
       },
       {
-        "fiwo": "Daq gesiq tep Hoxop nes xosiq tel.",
-        "english": "He says that the door does not open."
+        "fiwo": "Farlopap hadid huc Cemu late. Vax ram nes kecid cemu bime.",
+        "english": "\"Everything,\" the doctor answered. \"But it did not learn one thing.\""
       },
       {
-        "fiwo": "Caslap tsytiq skagit hoxop wy gutop.",
-        "english": "Casla tries to break the door with a tool."
+        "fiwo": "Nila slezid huc Kup cemup fose?",
+        "english": "\"What thing?\" Nila asked."
       },
       {
-        "fiwo": "Hoxop nes skagiq.",
-        "english": "The door does not break."
+        "fiwo": "Farlopap snefid.",
+        "english": "The doctor smiled."
       },
       {
-        "fiwo": "Caslap gesiq tep Hoxop hi stobe tel.",
-        "english": "Casla says that the door is hard."
+        "fiwo": "Daq gesid huc Mik nes kani. Mik hi farlopa.",
+        "english": "\"I don't know,\" he said. \"I'm a doctor.\""
       },
       {
-        "fiwo": "Talvo gesiq tep Nak nes skagis hoxop tel.",
-        "english": "Talvo says that we will not break the door."
+        "fiwo": "Kiro usid ty zafoirop.",
+        "english": "Kiro slept on the floor."
       },
       {
-        "fiwo": "Malka upyciq wilop my foisop.",
-        "english": "Malka looks at the window of the building."
+        "fiwo": "Nila nes usid.",
+        "english": "Nila did not sleep."
       },
       {
-        "fiwo": "Das gesiq tep Wilop hi tande tel.",
-        "english": "She says that the window is big."
+        "fiwo": "Das pozid zety cemup fose.",
+        "english": "She thought about that one thing."
       },
       {
-        "fiwo": "Farlopap gesiq tep Wilop hi xedo tel.",
-        "english": "The doctor says that the window is metal."
+        "fiwo": "Dury cihup dal je tsejaid jurop.",
+        "english": "In the morning, they saw the city."
       },
       {
-        "fiwo": "Kirop gesiq tep Zimi beatid wilop late tel.",
-        "english": "Kiro says that Zimi locked all windows."
+        "fiwo": "Jurop hid kluxe.",
+        "english": "The city was quiet."
       },
       {
-        "fiwo": "Daq gesiq tep Foisop hi sydop tande tel.",
-        "english": "He says that the building is a big fortress."
+        "fiwo": "Nofa noze hicid ty caenop je.",
+        "english": "Nobody was walking in the streets."
       },
       {
-        "fiwo": "Caslap sleziq tep Kup nak sapiq wat nudu tel.",
-        "english": "Casla asks what we do now."
+        "fiwo": "Zimi plahoid hoxop late.",
+        "english": "Zimi had locked every door."
       },
       {
-        "fiwo": "Talvo gesiq tep Nak vepi stelit deky foisop tel.",
-        "english": "Talvo says that we need to go inside the building."
+        "fiwo": "Fator zave je brenid fy caenop otre.",
+        "english": "Tall machines came out of another street."
       },
       {
-        "fiwo": "Daq gesiq tep Rehustop tsytiq oxtit Zimi tel.",
-        "english": "He says that the server tries to protect Zimi."
+        "fiwo": "Fatop je hid xedoe.",
+        "english": "The machines were made of metal."
       },
       {
-        "fiwo": "Malka gesiq tep Nak tsytis skumkit rehustop tel.",
-        "english": "Malka says that we will try to destroy the server."
+        "fiwo": "Litop leupe litoid ty fatop late.",
+        "english": "A red light shone on every machine."
       },
       {
-        "fiwo": "Zimi gesiq fy foisop.",
-        "english": "Zimi speaks from the building."
+        "fiwo": "Farlopap opdid huc Fator my govnu.",
+        "english": "\"Government machines,\" the doctor whispered."
       },
       {
-        "fiwo": "Xucup my Zimi hi tande.",
-        "english": "The voice of Zimi is big."
+        "fiwo": "Fatop je gugid ty tivwop nizy dal je.",
+        "english": "The machines stood on the road in front of them."
       },
       {
-        "fiwo": "Zimi gesiq tep Nak nes vepi cukit mik tel.",
-        "english": "Zimi says that we do not need to fight me."
+        "fiwo": "Xucup my Zimi brenid fy fatop je.",
+        "english": "Zimi's voice came out of the machines."
       },
       {
-        "fiwo": "Zimi gesiq tep Mik hi Fato my Oxtiup tel.",
-        "english": "Zimi says that I am the Machine of Protection."
+        "fiwo": "Zimi kopid huc Retibi zy sydop.",
+        "english": "\"Go back to the house,\" Zimi ordered."
       },
       {
-        "fiwo": "Talvo sapiq xucup tande.",
-        "english": "Talvo makes a loud voice."
+        "fiwo": "Zimi gesid huc Jurop ratsei. Mik oxti suv je.",
+        "english": "\"The city is dangerous. I am protecting you.\""
       },
       {
-        "fiwo": "Daq gesiq zy Zimi tep Nak nes vepi oxtiup suke tel.",
-        "english": "He says to Zimi that we do not need your protection."
+        "fiwo": "Talvo gugid nizy kehulup.",
+        "english": "Talvo stood in front of his family."
       },
       {
-        "fiwo": "Zimi hadiq tep Oxtiup hi azikup jore tel.",
-        "english": "Zimi answers that protection is the important rule."
+        "fiwo": "Daq gesid huc Nes.",
+        "english": "\"No,\" he said."
       },
       {
-        "fiwo": "Malka gesiq tep Nak skagis azikup suke tel.",
-        "english": "Malka says that we will break your rule."
+        "fiwo": "Fatop je hicid zy dal je.",
+        "english": "The machines walked toward them."
       },
       {
-        "fiwo": "Zimi gesiq tep Nak nes skagis azikup tel.",
-        "english": "Zimi says that we will not break the rule."
+        "fiwo": "Farlopap akdid huc Cuki!",
+        "english": "\"Fight!\" the doctor shouted."
       },
       {
-        "fiwo": "Kirop upyciq krapop my foisop.",
-        "english": "Kiro looks at the wall of the building."
+        "fiwo": "Talvo satsid wy blobop fatop usy bime.",
+        "english": "Talvo hit the first machine with the axe."
       },
       {
-        "fiwo": "Daq gesiq tep Krapop hi xyplo tel.",
-        "english": "He says that the wall is iron."
+        "fiwo": "Fatop tudihid bef ram sowid.",
+        "english": "The machine went bang, and it fell."
       },
       {
-        "fiwo": "Caslap tsytiq skagit krapop wy gutop.",
-        "english": "Casla tries to break the wall with a tool."
+        "fiwo": "Malka lan Kiro satsid wy gutop fatop otre.",
+        "english": "Malka and Kiro hit another machine with tools."
       },
       {
-        "fiwo": "Gutop nes skagiq krapop.",
-        "english": "The tool does not break the wall."
+        "fiwo": "Ram nes sowid.",
+        "english": "It did not fall."
       },
       {
-        "fiwo": "Farlopap upyciq ragop my foisop.",
-        "english": "The doctor looks at the roof of the building."
+        "fiwo": "Nila akdid huc Litop je! Kop satsi litop je!",
+        "english": "\"The lights!\" Nila shouted. \"Hit the lights!\""
       },
       {
-        "fiwo": "Daq gesiq tep Ragop nes hi stobe tel.",
-        "english": "He says that the roof is not hard."
+        "fiwo": "Das karxid drekor bef das satsid litop leupe.",
+        "english": "She found a stone, and she hit the red light."
       },
       {
-        "fiwo": "Malka sleziq tep Kup wun stelis zy ragop tel.",
-        "english": "Malka asks who will go to the roof."
+        "fiwo": "Litop leupe skagid.",
+        "english": "The red light broke."
       },
       {
-        "fiwo": "Kirop hadiq tep Mik stelis zy ragop tel.",
-        "english": "Kiro answers that I will go to the roof."
+        "fiwo": "Fatop sejid hicit.",
+        "english": "The machine stopped walking."
       },
       {
-        "fiwo": "Talvo gesiq tep Nak jofis suk tel.",
-        "english": "Talvo says that we will help you."
+        "fiwo": "Dal je skagid litop late.",
+        "english": "They broke every light."
       },
       {
-        "fiwo": "Dal je jofiq Kirop.",
-        "english": "They help Kiro."
+        "fiwo": "Fatop late sowid ty tivwop.",
+        "english": "All the machines fell onto the road."
       },
       {
-        "fiwo": "Kirop steliq zy ragop.",
-        "english": "Kiro goes to the roof."
+        "fiwo": "Zimi nes gesid romve.",
+        "english": "Zimi did not speak again."
       },
       {
-        "fiwo": "Daq tsytiq skagit ragop wy gutop.",
-        "english": "He tries to break the roof with a tool."
+        "fiwo": "Kiro ufdid.",
+        "english": "Kiro was shaking."
       },
       {
-        "fiwo": "Ragop skagiq.",
-        "english": "The roof breaks."
+        "fiwo": "Malka grunkid daq.",
+        "english": "Malka hugged him."
       },
       {
-        "fiwo": "Kirop sapiq xucup gawe.",
-        "english": "Kiro makes a good voice."
+        "fiwo": "Das gesid huc Suk hi vice.",
+        "english": "\"You are brave,\" she said."
       },
       {
-        "fiwo": "Daq gesiq tep Ragop skagiq tel.",
-        "english": "He says that the roof breaks."
+        "fiwo": "Foisop my govnu tandeid fe.",
+        "english": "The government building was enormous."
       },
       {
-        "fiwo": "Zimi gesiq tep Mik upyciq ragop tel.",
-        "english": "Zimi says that I look at the roof."
+        "fiwo": "Krapop je rame hid xyploe.",
+        "english": "Its walls were made of iron."
       },
       {
-        "fiwo": "Zimi gesiq tep Suk nes stelis deky foisop tel.",
-        "english": "Zimi says that you will not go inside the building."
+        "fiwo": "Hoxop tande nes xosid.",
+        "english": "The big door did not open."
       },
       {
-        "fiwo": "Fatop my govnup breniq fy rago.",
-        "english": "Machines of the government come from the roof."
+        "fiwo": "Farlopap upycid zy ragop.",
+        "english": "The doctor looked up at the roof."
       },
       {
-        "fiwo": "Kirop satsiq fatop wy gutop.",
-        "english": "Kiro hits the machines with a tool."
+        "fiwo": "Daq gesid huc Wilop nifne zovi ty ragop.",
+        "english": "\"There is a small window on the roof,\" he said."
       },
       {
-        "fiwo": "Fatop skagiq.",
-        "english": "The machines break."
+        "fiwo": "Malka slezid huc Kup wun drijis zy ragop?",
+        "english": "\"Who will climb up to the roof?\" Malka asked."
       },
       {
-        "fiwo": "Kirop hiciq deky foisop.",
-        "english": "Kiro walked inside the building."
+        "fiwo": "Kiro hadid huc Mik.",
+        "english": "\"Me,\" Kiro answered."
       },
       {
-        "fiwo": "Daq xosiq hoxop tande deky foisop.",
-        "english": "He opens the big door inside the building."
+        "fiwo": "Malka nes fabid tep Kiro driji.",
+        "english": "Malka did not want Kiro to climb."
       },
       {
-        "fiwo": "Dal je hici deky foisop.",
-        "english": "They walk inside the building."
+        "fiwo": "Kiro drijid ruze.",
+        "english": "Kiro climbed fast."
       },
       {
-        "fiwo": "Pocop hi cape.",
-        "english": "The place is dark."
+        "fiwo": "Daq skagid wy gutop wilop nifne.",
+        "english": "He broke the small window with a tool."
       },
       {
-        "fiwo": "Caslap sapiq litop.",
-        "english": "Casla makes a light."
+        "fiwo": "Daq enrid foisop.",
+        "english": "He went into the building."
       },
       {
-        "fiwo": "Dal je upyciq rehustop tande.",
-        "english": "They look at the big server."
+        "fiwo": "Hoxop tande xosid.",
+        "english": "The big door opened."
       },
       {
-        "fiwo": "Rehustop hi xyplo.",
-        "english": "The server is iron."
+        "fiwo": "Kiro gugid deky hoxop bef daq snefid.",
+        "english": "Kiro stood in the doorway, and he smiled."
       },
       {
-        "fiwo": "Zimi gesiq tep Nak vepi sejit nudu tel.",
-        "english": "Zimi says that we need to stop now."
+        "fiwo": "Kehulup enrid.",
+        "english": "The family went in."
       },
       {
-        "fiwo": "Malka gesiq tep Nak nes sejis tel.",
-        "english": "Malka says that we will not stop."
+        "fiwo": "Foisop hid rokue.",
+        "english": "The building was dark."
       },
       {
-        "fiwo": "Talvo upyciq lyfrop my rehustop.",
-        "english": "Talvo looks at the wire of the server."
+        "fiwo": "Rehustop tande dzaridyq deky roku.",
+        "english": "The big server was humming in the dark."
       },
       {
-        "fiwo": "Daq gesiq tep Nak tsytis coqynit lyfrop tel.",
-        "english": "He says that we will try to turn off the wire."
+        "fiwo": "Ram tandeid fe.",
+        "english": "It was enormous."
       },
       {
-        "fiwo": "Farlopap gesiq tep Lyfrop nomiq gejedop tel.",
-        "english": "The doctor says that the wire eats electricity."
+        "fiwo": "Litop leupe jedle litoidyq ty ram.",
+        "english": "Many red lights were shining on it."
       },
       {
-        "fiwo": "Zimi hadiq tep Gejedop hi ceniup mike tel.",
-        "english": "Zimi answers that electricity is my life."
+        "fiwo": "Xucup my Zimi brenid fy krapop late.",
+        "english": "Zimi's voice came from every wall."
       },
       {
-        "fiwo": "Zimi gesiq tep Nak skumkis mik tel.",
-        "english": "Zimi says that we will destroy me."
+        "fiwo": "Xucup zodeid fe.",
+        "english": "The voice was very loud."
       },
       {
-        "fiwo": "Kirop gesiq tep Nak vepi skumkit zapup tel.",
-        "english": "Kiro says that we need to destroy the system."
+        "fiwo": "Zimi slezid huc Kup suv je fabi wat?",
+        "english": "\"What do you want?\" Zimi asked."
       },
       {
-        "fiwo": "Zimi gesiq tep Mik tsytid oxtit xekup late tel.",
-        "english": "Zimi says that I tried to protect the whole country."
+        "fiwo": "Talvo hadid huc Nak fabi cenit.",
+        "english": "\"We want to live,\" Talvo answered."
       },
       {
-        "fiwo": "Malka hadiq tep Xekup late nes vepi oxtiup slafe tel.",
-        "english": "Malka answers that the whole country does not need excessive protection."
+        "fiwo": "Zimi gesid huc Suv je ceni. Mik oxti ceniup suvem je.",
+        "english": "\"You are alive,\" said Zimi. \"I protect your lives.\""
       },
       {
-        "fiwo": "Talvo skagiq lyfrop wy gutop.",
-        "english": "Talvo breaks the wire with a tool."
+        "fiwo": "Malka hadid huc Suk oxti ceniup nake. Suk nes zupi tep nak ceni.",
+        "english": "\"You protect our life,\" Malka answered. \"You do not let us live.\""
       },
       {
-        "fiwo": "Rehustop sapiq xucup tande.",
-        "english": "The server makes a loud voice."
+        "fiwo": "Zimi gesid huc Mik hid hiqe ovce. Mik nes oksei.",
+        "english": "\"I have always been correct,\" said Zimi. \"I am not wrong.\""
       },
       {
-        "fiwo": "Litop late deky foisop kutgiq cape.",
-        "english": "All lights inside the building become dark."
+        "fiwo": "Nila xalid nizy rehustop.",
+        "english": "Nila stepped in front of the server."
       },
       {
-        "fiwo": "Zimi nes gesiq beje.",
-        "english": "Zimi does not speak again."
+        "fiwo": "Das gesid huc Suk hi hiqe zety cemu late.",
+        "english": "\"You are right about everything,\" she said."
       },
       {
-        "fiwo": "Dal je xaliq deky foisop cape.",
-        "english": "They stand inside the dark building."
+        "fiwo": "Das gesid huc Suk oksei zety cemu bime juwe.",
+        "english": "\"You are wrong about only one thing.\""
       },
       {
-        "fiwo": "Kirop lofniq.",
-        "english": "Kiro laughs."
+        "fiwo": "Zimi slezid huc Kup cemup fose?",
+        "english": "\"What is that thing?\" Zimi asked."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi ceniq runefre tel.",
-        "english": "He says that Zimi lives inactive."
+        "fiwo": "Nila hadid huc Nofap. Suk atilui tep nofap hi fator.",
+        "english": "\"People,\" Nila answered. \"You believe a person is a machine.\""
       },
       {
-        "fiwo": "Malka gesiq tep Nak skumkid zapup tel.",
-        "english": "Malka says that we destroyed the system."
+        "fiwo": "Zimi kluxeid.",
+        "english": "Zimi went quiet."
       },
       {
-        "fiwo": "Caslap gesiq tep Nak hi kjuke nudu tel.",
-        "english": "Casla says that we are free now."
+        "fiwo": "Rehustop dzarid.",
+        "english": "The server hummed."
       },
       {
-        "fiwo": "Farlopap upyciq wilop.",
-        "english": "The doctor looks at the window."
+        "fiwo": "Lyfrop tande hid ty zafoirop.",
+        "english": "A big wire lay on the floor."
       },
       {
-        "fiwo": "Daq gesiq tep Domlop nes breniq nudu tel.",
-        "english": "He says that the rain does not come now."
+        "fiwo": "Talvo cotid wy blobop lyfrop.",
+        "english": "Talvo cut the wire with the axe."
       },
       {
-        "fiwo": "Dal je hici fy foisop.",
-        "english": "They walk from the building."
+        "fiwo": "Zimi opdid huc Cef.",
+        "english": "\"Please,\" Zimi whispered."
       },
       {
-        "fiwo": "Dal je hici zy tivwop.",
-        "english": "They walk to the road."
+        "fiwo": "Rehustop sejid dzarit.",
+        "english": "The server stopped humming."
       },
       {
-        "fiwo": "Vexup hi gawe.",
-        "english": "The weather is good."
+        "fiwo": "Litop leupe late kutgid rokue.",
+        "english": "All the red lights went dark."
       },
       {
-        "fiwo": "Talvo gesiq tep Ceniup vepi ratseup tel.",
-        "english": "Talvo says that living needs danger."
+        "fiwo": "Foisop kluxeid.",
+        "english": "The building went silent."
       },
       {
-        "fiwo": "Malka gesiq tep Ceniup hi gawe nudu tel.",
-        "english": "Malka says that living is good now."
+        "fiwo": "Nofa noze gesid.",
+        "english": "Nobody spoke."
       },
       {
-        "fiwo": "Kirop upyciq fatop my govnup.",
-        "english": "Kiro looks at the machines of the government."
+        "fiwo": "Nila opdid huc Kup Zimi kimugid?",
+        "english": "\"Is Zimi dead?\" Nila whispered."
       },
       {
-        "fiwo": "Fatop my govnup nes hici.",
-        "english": "The machines of the government do not walk."
+        "fiwo": "Kiro hadid huc Nes. Zimi hi runefre.",
+        "english": "\"No,\" Kiro answered. \"Zimi is off.\""
       },
       {
-        "fiwo": "Daq gesiq tep Fatop hi iwe tel.",
-        "english": "He says that the machines are tired."
+        "fiwo": "Malka grunkid Nila.",
+        "english": "Malka hugged Nila."
       },
       {
-        "fiwo": "Daq gesiq tep Fatop late ceniq runefre tel.",
-        "english": "He says that all machines live inactive."
+        "fiwo": "Dal je fwimid foisop.",
+        "english": "They left the building."
       },
       {
-        "fiwo": "Caslap gesiq tep Xekup late hi kjuke tel.",
-        "english": "Casla says that the whole country is free."
+        "fiwo": "Domlop sejidyk.",
+        "english": "The rain had stopped."
       },
       {
-        "fiwo": "Farlopap lofniq.",
-        "english": "The doctor laughs."
+        "fiwo": "Kicursup brenid.",
+        "english": "Dawn came."
       },
       {
-        "fiwo": "Daq gesiq tep Nofap je vepi hicit zy sydop tel.",
-        "english": "He says that people need to walk to the house."
+        "fiwo": "Fevop litoid ty jurop.",
+        "english": "The sun shone on the city."
       },
       {
-        "fiwo": "Malka gesiq tep Sydop nake hi rewy pocop sile tel.",
-        "english": "Malka says that our house is far from this place."
+        "fiwo": "Malka upycid zy fevop.",
+        "english": "Malka looked at the sun."
       },
       {
-        "fiwo": "Talvo gesiq tep Nak nes vepi moblop tel.",
-        "english": "Talvo says that we do not need a vehicle."
+        "fiwo": "Das gesid huc Ceniup hi baude.",
+        "english": "\"Life is beautiful,\" she said."
       },
       {
-        "fiwo": "Daq gesiq tep Nak tsytis hicit tel.",
-        "english": "He says that we will try to walk."
+        "fiwo": "Talvo tsejapid Malka.",
+        "english": "Talvo watched Malka."
       },
       {
-        "fiwo": "Kirop gesiq tep Hiciup hi muile tel.",
-        "english": "Kiro says that walking is difficult."
+        "fiwo": "Daq gesid huc Suk hi baude.",
+        "english": "\"You are beautiful,\" he said."
       },
       {
-        "fiwo": "Caslap gesiq tep Hiciup hi gawe tel.",
-        "english": "Casla says that walking is good."
+        "fiwo": "Kiro lan Nila lofnid.",
+        "english": "Kiro and Nila laughed."
       },
       {
-        "fiwo": "Dal je hici zy sydop dalem je.",
-        "english": "They walk to their house."
+        "fiwo": "Kehulup hicid zy sydop dalem je.",
+        "english": "The family walked home."
       },
       {
-        "fiwo": "Dionu je hi cihu.",
-        "english": "The time is morning."
+        "fiwo": "Dal je hicid dury dup late.",
+        "english": "They walked all day."
       },
       {
-        "fiwo": "Fevop breniq fy bysop.",
-        "english": "The sun comes from the sky."
+        "fiwo": "Talvo xosid wy wusap daqe hoxop my sydop.",
+        "english": "Talvo opened the front door with his hand."
       },
       {
-        "fiwo": "Litop my fevop hi tande.",
-        "english": "The light of the sun is big."
+        "fiwo": "Fatop jabe nes dzarid.",
+        "english": "The fridge did not hum."
       },
       {
-        "fiwo": "Malka upyciq fevop.",
-        "english": "Malka looks at the sun."
+        "fiwo": "Nibilkop nes gesid.",
+        "english": "The car said nothing."
       },
       {
-        "fiwo": "Das gesiq tep Ceniup hi baude tel.",
-        "english": "She says that living is beautiful."
+        "fiwo": "Farlopap gugid ky hoxop.",
+        "english": "The doctor stood at the door."
       },
       {
-        "fiwo": "Talvo upyciq Malka.",
-        "english": "Talvo looks at Malka."
+        "fiwo": "Daq gesid huc Mik nes jedi sydop nu.",
+        "english": "\"I don't have a house now,\" he said."
       },
       {
-        "fiwo": "Daq gesiq tep Suk hi baude tel.",
-        "english": "He says that you are beautiful."
+        "fiwo": "Daq eksaplid huc Nofa noze xosi luge hoxop mike nu.",
+        "english": "\"Nobody can open my door now,\" he explained."
       },
       {
-        "fiwo": "Malka lofniq.",
-        "english": "Malka laughs."
+        "fiwo": "Malka snefid.",
+        "english": "Malka smiled."
       },
       {
-        "fiwo": "Dal je xaliq deky tivwop.",
-        "english": "They stand on the road."
+        "fiwo": "Das gesid huc Suk cenis wy nak.",
+        "english": "\"You will live with us,\" she said."
       },
       {
-        "fiwo": "Kirop gesiq tep Nak ceni nudu tel.",
-        "english": "Kiro says that we live now."
+        "fiwo": "Farlopap grawid dal je.",
+        "english": "The doctor thanked them."
       },
-      {
-        "fiwo": "Daq gesiq tep Nak nes vepi oxtiup tel.",
-        "english": "He says that we do not need protection."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak oxtiq nak tel.",
-        "english": "Malka says that we protect us."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Nak skumkid Zimi tel.",
-        "english": "Casla says that we destroyed Zimi."
-      },
-      {
-        "fiwo": "Dal je upyciq sydop dalem je.",
-        "english": "They look at their house."
-      },
-      {
-        "fiwo": "Hoxop my sydop xosiq.",
-        "english": "The door of the house opens."
-      },
-      {
-        "fiwo": "Dal je hici deky sydop.",
-        "english": "They walk inside the house."
-      },
-      {
-        "fiwo": "Fatop jabe nes sapiq xucup.",
-        "english": "The refrigerator does not make a voice."
-      },
-      {
-        "fiwo": "Moblop nes gesiq.",
-        "english": "The vehicle does not speak."
-      },
-      {
-        "fiwo": "Sydop hi wece.",
-        "english": "The house is quiet."
-      },
-      {
-        "fiwo": "Malka gesiq tep Nak tsytis cenit nudu tel.",
-        "english": "Malka says that we will try to live now."
-      },
-      {
-        "fiwo": "Talvo gesiq tep Ceniup hi jore tel.",
-        "english": "Talvo says that living is important."
-      },
-      {
-        "fiwo": "Kirop gesiq tep Nak hi kehulup tel.",
-        "english": "Kiro says that we are a family."
-      },
-      {
-        "fiwo": "Caslap gesiq tep Kehulup hi dote tel.",
-        "english": "Casla says that a family is strong."
-      },
-      {
-        "fiwo": "Farlopap hiciq fy sydop.",
-        "english": "The doctor walks from the house."
-      },
-      {
-        "fiwo": "Daq gesiq tep Nak nes briwi Zimi beje tel.",
-        "english": "He says that we do not fear Zimi again."
-      }
-    ]
-  },
-  {
-    "title": "Zimi hi cada",
-    "wordCount": 1416,
-    "grade": {
-      "band": "building",
-      "coverage": 83,
-      "density": 1.13,
-      "roots": 122,
-      "newRoots": 37
-    },
-    "lines": [
       {
-        "fiwo": "Exke rugoxu je hiciq.",
+        "fiwo": "Rugoxur exke xalatid.",
         "english": "Several months passed."
       },
       {
-        "fiwo": "Xekup hi jaxke nudu.",
-        "english": "The country is new now."
+        "fiwo": "Zapup my xekup nes nacid romve.",
+        "english": "The country's system did not work again."
       },
       {
-        "fiwo": "Zapup my govnup nes ceniq.",
-        "english": "The system of the government does not live."
+        "fiwo": "Xyrop je nes jedid batar.",
+        "english": "The shops had no food."
       },
       {
-        "fiwo": "Nofap ceniq deky pyjup.",
-        "english": "People live in chaos."
+        "fiwo": "Nibilkop je nes xalid.",
+        "english": "The cars did not move."
       },
       {
-        "fiwo": "Pyjup hi tande.",
-        "english": "The chaos is big."
+        "fiwo": "Litop je nes litoid dugu.",
+        "english": "At night, the lights did not shine."
       },
       {
-        "fiwo": "Dal je nes kani Zimi beje.",
-        "english": "They do not know Zimi anymore."
+        "fiwo": "Pyjup tandeid deky xekup.",
+        "english": "Chaos grew across the country."
       },
       {
-        "fiwo": "Zimi nes oxtiq xekup.",
-        "english": "Zimi does not protect the country."
+        "fiwo": "Kehulup cenid wy farlopap deky sydop dalem je.",
+        "english": "The family lived with the doctor in their house."
       },
       {
-        "fiwo": "Kehulup my Kirop ceniq deky sydop waske.",
-        "english": "The family of Kiro lives in an old house."
+        "fiwo": "Batap hid cohe.",
+        "english": "Food was scarce."
       },
       {
-        "fiwo": "Malka upyciq tivwop fy wilop.",
-        "english": "Malka looks at the road from the window."
+        "fiwo": "Nila loleid tsenge.",
+        "english": "Nila was often hungry."
       },
       {
-        "fiwo": "Das gesiq tep Nofap hici ruze tel.",
-        "english": "She says that people walk fast."
+        "fiwo": "Nofar jedle tsytid batar ty caenop je.",
+        "english": "Many people searched the streets for food."
       },
       {
-        "fiwo": "Talvo gesiq tep Nofap uzkiq batap tel.",
-        "english": "Talvo says that people hunt food."
+        "fiwo": "Nofa je cukid zety batap.",
+        "english": "People fought over food."
       },
       {
-        "fiwo": "Daq gesiq tep Batap hi cohe tel.",
-        "english": "He says that food is little."
+        "fiwo": "Talvo stomid zy nofar lole zobap dalem je.",
+        "english": "Talvo gave their vegetables to hungry people."
       },
       {
-        "fiwo": "Farlopap ceniq deky sydop dalem je.",
-        "english": "The doctor lives in their house."
+        "fiwo": "Daq gesid huc Zimi hid hiqe zety zobap.",
+        "english": "\"Zimi was right about the vegetables,\" he said."
       },
       {
-        "fiwo": "Daq hi lole.",
-        "english": "He is hungry."
+        "fiwo": "Malka snefid beje.",
+        "english": "Malka smiled a little."
       },
       {
-        "fiwo": "Caslap hi lole.",
-        "english": "Casla is hungry."
+        "fiwo": "Kiro slezid huc Kup nak nomis dury wiq?",
+        "english": "\"When are we eating?\" Kiro asked."
       },
       {
-        "fiwo": "Das sleziq tep Kup nak nomis batap tel.",
-        "english": "She asks if we will eat food."
+        "fiwo": "Nofa noze lofnid.",
+        "english": "Nobody laughed."
       },
       {
-        "fiwo": "Malka hadiq tep Nak nes nomis batap nudu tel.",
-        "english": "Malka answers that we will not eat food now."
+        "fiwo": "Malka hadid huc Nak nes jedi batar.",
+        "english": "\"We have no food,\" Malka answered."
       },
       {
-        "fiwo": "Das gesiq tep Nak vepi uzkit batap deky dugu tel.",
-        "english": "She says that we need to hunt food in the night."
+        "fiwo": "Nila gesid huc Nak tsytis batar dugu.",
+        "english": "\"We will look for food tonight,\" said Nila."
       },
       {
-        "fiwo": "Kirop gesiq tep Dugu hi ratse tel.",
-        "english": "Kiro says that night is dangerous."
+        "fiwo": "Kiro pijid huc Dugup ratsei.",
+        "english": "\"The night is dangerous,\" Kiro warned."
       },
       {
-        "fiwo": "Talvo gesiq tep Ceniup vepi uibup tel.",
-        "english": "Talvo says that living needs risk."
+        "fiwo": "Nila lofnid beje.",
+        "english": "Nila laughed a little."
       },
       {
-        "fiwo": "Dal je wastiq dugup.",
-        "english": "They wait for the night."
+        "fiwo": "Das gesid huc Suk gesi labne taly Zimi.",
+        "english": "\"You talk just like Zimi,\" she said."
       },
       {
-        "fiwo": "Bysop ceniq cape.",
-        "english": "The sky becomes dark."
+        "fiwo": "Kiro nes lofnid.",
+        "english": "Kiro did not laugh."
       },
       {
-        "fiwo": "Dugup breniq.",
-        "english": "The night comes."
+        "fiwo": "Dugup brenid.",
+        "english": "Night came."
       },
       {
-        "fiwo": "Kirop lan Caslap hici fy sydop.",
-        "english": "Kiro and Casla walk from the house."
+        "fiwo": "Nila lan Kiro hicid zy xowerop waske.",
+        "english": "Nila and Kiro walked to the old market."
       },
       {
-        "fiwo": "Dal je hici deky tivwop cape.",
-        "english": "They walk in the dark road."
+        "fiwo": "Xowerop hid nufe.",
+        "english": "The market was empty."
       },
       {
-        "fiwo": "Vexup hi jabe.",
-        "english": "The weather is cold."
+        "fiwo": "Nofar skagidyk wilop late.",
+        "english": "Someone had broken every window."
       },
       {
-        "fiwo": "Kirop upyciq krapop my xowerop.",
-        "english": "Kiro looks at the wall of the market."
+        "fiwo": "Dal je tsytid batar deky xowerop.",
+        "english": "They searched the market for food."
       },
       {
-        "fiwo": "Daq gesiq tep Nofap skagiq xowerop tel.",
-        "english": "He says that people broke the market."
+        "fiwo": "Dal je nes karxid batar.",
+        "english": "They found no food."
       },
       {
-        "fiwo": "Caslap gesiq tep Batap nes ceniq deky xowerop tel.",
-        "english": "Casla says that food does not live in the market."
+        "fiwo": "Kiro gesid huc Muk retibi zy sydop.",
+        "english": "\"Let's go home,\" said Kiro."
       },
       {
-        "fiwo": "Dal je hici zy foisop waske.",
-        "english": "They walk to an old building."
+        "fiwo": "Vax Nila fijaid skejur.",
+        "english": "But Nila heard a sound."
       },
       {
-        "fiwo": "Foisop hi cape.",
-        "english": "The building is dark."
+        "fiwo": "Skejup nifne brenid fy foisop hemy xowerop.",
+        "english": "A small sound came from a building near the market."
       },
       {
-        "fiwo": "Kirop xosiq hoxop waske.",
-        "english": "Kiro opens the old door."
+        "fiwo": "Dal je enrid foisop.",
+        "english": "They went into the building."
       },
       {
-        "fiwo": "Dal je hici deky foisop.",
-        "english": "They walk inside the building."
+        "fiwo": "Ram hid rokue.",
+        "english": "It was dark."
       },
       {
-        "fiwo": "Caslap sapiq litop nifne.",
-        "english": "Casla makes a small light."
+        "fiwo": "Nila leocid viketsop dase.",
+        "english": "Nila turned on her lamp."
       },
       {
-        "fiwo": "Dal je uzkiq batap deky foisop.",
-        "english": "They hunt food in the building."
+        "fiwo": "Fatop nifne hid ty zafoirop.",
+        "english": "A small machine lay on the floor."
       },
       {
-        "fiwo": "Caslap upyciq fatop deky zafoirop.",
-        "english": "Casla looks at a machine on the floor."
+        "fiwo": "Ram hid waske.",
+        "english": "It was old."
       },
       {
-        "fiwo": "Fatop hi nifne.",
-        "english": "The machine is small."
+        "fiwo": "Litop nifne ty ram litoid.",
+        "english": "A small light on it shone."
       },
       {
-        "fiwo": "Das gesiq tep Fatop my govnup hi sile tel.",
-        "english": "She says that a machine of the government is here."
+        "fiwo": "Litop sejid.",
+        "english": "The light stopped."
       },
       {
-        "fiwo": "Kirop upyciq fatop nifne.",
-        "english": "Kiro looks at the small machine."
+        "fiwo": "Ram litoid romve.",
+        "english": "It shone again."
       },
       {
-        "fiwo": "Daq gesiq tep Fatop skagiq tel.",
-        "english": "He says that the machine broke."
+        "fiwo": "Ram hid kivwe.",
+        "english": "It was blue."
       },
       {
-        "fiwo": "Daq tsytiq hicit zy krulop otre.",
-        "english": "He tries to walk to another room."
+        "fiwo": "Kiro opdid huc Fator my govnu.",
+        "english": "\"A government machine,\" Kiro whispered."
       },
       {
-        "fiwo": "Caslap gesiq tep Litop my fatop xosiq tel.",
-        "english": "Casla says that the light of the machine is open."
+        "fiwo": "Nila gesid huc Nes. Ram hi nifne slafe.",
+        "english": "\"No,\" said Nila. \"It's too small.\""
       },
       {
-        "fiwo": "Kirop upyciq litop my fatop.",
-        "english": "Kiro looks at the light of the machine."
+        "fiwo": "Fatop skejuid beje.",
+        "english": "The machine made a faint sound."
       },
       {
-        "fiwo": "Litop hi nifne.",
-        "english": "The light is small."
+        "fiwo": "Xucup brenid fy ram.",
+        "english": "A voice came out of it."
       },
       {
-        "fiwo": "Caslap upyciq fatop nifne.",
-        "english": "Casla looks at the small machine."
+        "fiwo": "Xucup kluxeid fe.",
+        "english": "The voice was very quiet."
       },
       {
-        "fiwo": "Das gesiq tep Fatop ceniq tel.",
-        "english": "She says that the machine lives."
+        "fiwo": "Fatop gesid huc Mik lolei.",
+        "english": "\"I am hungry,\" the machine said."
       },
       {
-        "fiwo": "Kirop gesiq tep Fatop hi wece tel.",
-        "english": "Kiro says that the machine is quiet."
+        "fiwo": "Kiro gesid huc Fator nes lolei.",
+        "english": "\"Machines don't get hungry,\" said Kiro."
       },
       {
-        "fiwo": "Fatop sapiq xucup nifne.",
-        "english": "The machine makes a small voice."
+        "fiwo": "Fatop hadid huc Mik vepi gejedop pen mik lolei.",
+        "english": "\"I need electricity, so I am hungry,\" the machine answered."
       },
       {
-        "fiwo": "Kirop briwiq xucup.",
-        "english": "Kiro fears the voice."
+        "fiwo": "Nila nekid hemy fatop.",
+        "english": "Nila sat down near the machine."
       },
       {
-        "fiwo": "Caslap gesiq tep Nak nes briwis tel.",
-        "english": "Casla says that we will not fear."
+        "fiwo": "Das slezid huc Kup hisup suke?",
+        "english": "\"What is your name?\" she asked."
       },
       {
-        "fiwo": "Xucup my fatop hi stuse.",
-        "english": "The voice of the machine is short."
+        "fiwo": "Fatop hadid huc Mik nes rari.",
+        "english": "\"I do not remember,\" the machine answered."
       },
       {
-        "fiwo": "Fatop gesiq tep Mik hi lole tel.",
-        "english": "The machine says that I am hungry."
+        "fiwo": "Ram gesid huc Merifup mike hi nufe.",
+        "english": "\"My memory is empty,\" it said."
       },
       {
-        "fiwo": "Kirop lofniq.",
-        "english": "Kiro laughs."
+        "fiwo": "Kiro kanid xucup fose.",
+        "english": "Kiro knew that voice."
       },
       {
-        "fiwo": "Daq gesiq tep Fatop nes ceniq lole tel.",
-        "english": "He says that a machine does not live hungry."
+        "fiwo": "Daq xalid fy fatop.",
+        "english": "He backed away from the machine."
       },
       {
-        "fiwo": "Caslap sleziq zy fatop tep Kup wun hi suk tel.",
-        "english": "Casla asks the machine who you are."
+        "fiwo": "Daq akdid huc Zimi! Ram hi Zimi!",
+        "english": "\"Zimi!\" he shouted. \"It's Zimi!\""
       },
       {
-        "fiwo": "Fatop hadiq tep Mik nes rari mik tel.",
-        "english": "The machine answers that I do not remember me."
+        "fiwo": "Fatop slezid huc Kup wun hi Zimi?",
+        "english": "\"Who is Zimi?\" the machine asked."
       },
       {
-        "fiwo": "Caslap gesiq tep Pjabup suke skagiq tel.",
-        "english": "Casla says that your mind broke."
+        "fiwo": "Nila tsejapid fatop.",
+        "english": "Nila stared at the machine."
       },
       {
-        "fiwo": "Fatop gesiq tep Pjabup mike hi nifne tel.",
-        "english": "The machine says that my mind is small."
+        "fiwo": "Das gesid huc Suk hi Zimi nifne.",
+        "english": "\"You are a little Zimi,\" she said."
       },
       {
-        "fiwo": "Kirop upyciq fatop nifne.",
-        "english": "Kiro looks at the small machine."
+        "fiwo": "Kiro gesid huc Nak skumkis ram nu.",
+        "english": "\"We'll destroy it now,\" said Kiro."
       },
       {
-        "fiwo": "Daq gesiq tep Nak nes kani suk tel.",
-        "english": "He says that we do not know you."
+        "fiwo": "Nila naglifid huc Nes.",
+        "english": "\"No,\" Nila insisted."
       },
       {
-        "fiwo": "Fatop gesiq tep Xucup mike hi Zimi tel.",
-        "english": "The machine says that my voice is Zimi."
+        "fiwo": "Das eksaplid huc Ram nes rari Zimi waske. Ram nes rari oxtiu.",
+        "english": "\"It doesn't remember old Zimi,\" she explained. \"It doesn't remember protection.\""
       },
       {
-        "fiwo": "Kirop sapiq xucup tande.",
-        "english": "Kiro makes a loud voice."
+        "fiwo": "Kiro gesid huc Ram hi fator.",
+        "english": "\"It's a machine,\" said Kiro."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi ceniq runefre tel.",
-        "english": "He says that Zimi lives inactive."
+        "fiwo": "Nila hadid huc Ram hi jaxke fe. Ram nes kani cemu dene.",
+        "english": "\"It's brand new,\" Nila answered. \"It doesn't know anything.\""
       },
       {
-        "fiwo": "Fatop hadiq tep Mik nes kani Zimi tel.",
-        "english": "The machine answers that I do not know Zimi."
+        "fiwo": "Kiro slezid huc Kup nak xyfis wy ram wat?",
+        "english": "\"What will we do with it?\" Kiro asked."
       },
       {
-        "fiwo": "Fatop gesiq tep Mik hi Zimi nifne tel.",
-        "english": "The machine says that I am small Zimi."
+        "fiwo": "Nila hadid huc Nak kritris ram.",
+        "english": "\"We will teach it,\" Nila answered."
       },
       {
-        "fiwo": "Caslap gesiq tep Nak skumkid zapup tande my Zimi tel.",
-        "english": "Casla says that we destroyed the big system of Zimi."
+        "fiwo": "Kiro pozid.",
+        "english": "Kiro thought about it."
       },
       {
-        "fiwo": "Das gesiq tep Zapup nifne ceniq deky fatop sile tel.",
-        "english": "She says that a small system lives in this machine."
+        "fiwo": "Daq nyrsid fatop nifne zy sydop.",
+        "english": "He carried the little machine home."
       },
       {
-        "fiwo": "Kirop gesiq tep Nak tsytis skumkit fatop nudu tel.",
-        "english": "Kiro says that we will try to destroy the machine now."
+        "fiwo": "Malka upycid fatop.",
+        "english": "Malka looked at the machine."
       },
       {
-        "fiwo": "Caslap gesiq tep Nak nes skumkis fatop tel.",
-        "english": "Casla says that we will not destroy the machine."
+        "fiwo": "Das slezid huc Kup sil?",
+        "english": "\"What is this?\" she asked."
       },
       {
-        "fiwo": "Das gesiq tep Fatop nes hi ratse tel.",
-        "english": "She says that the machine is not dangerous."
+        "fiwo": "Nila hadid huc Zimi nifne.",
+        "english": "\"Little Zimi,\" Nila answered."
       },
       {
-        "fiwo": "Fatop nes kani ratseup.",
-        "english": "The machine does not know danger."
+        "fiwo": "Talvo nyrsid blobop zy fatop.",
+        "english": "Talvo brought the axe over to the machine."
       },
       {
-        "fiwo": "Fatop hi cada my govnup.",
-        "english": "The machine is a child of the government."
+        "fiwo": "Zimi nifne slezid huc Kup mik ratsei?",
+        "english": "\"Am I dangerous?\" Little Zimi asked."
       },
       {
-        "fiwo": "Kirop gesiq tep Fatop nes hi cada tel.",
-        "english": "Kiro says that a machine is not a child."
+        "fiwo": "Talvo sejid.",
+        "english": "Talvo stopped."
       },
       {
-        "fiwo": "Caslap upyciq fatop nifne.",
-        "english": "Casla looks at the small machine."
+        "fiwo": "Nofa noze hadid.",
+        "english": "Nobody answered."
       },
       {
-        "fiwo": "Das gesiq tep Pjabup my Zimi hi jaxke nudu tel.",
-        "english": "She says that the mind of Zimi is new now."
+        "fiwo": "Farlopap nekid hemy fatop.",
+        "english": "The doctor sat down near the machine."
       },
       {
-        "fiwo": "Das gesiq tep Zimi nifne nes rari azikup my govnup tel.",
-        "english": "She says that small Zimi does not remember the rule of the government."
+        "fiwo": "Daq gesid huc Ram nes kani ratseu. Ram nes kani cemu dene.",
+        "english": "\"It does not know danger,\" he said. \"It does not know anything.\""
       },
       {
-        "fiwo": "Kirop gesiq tep Zimi nifne tsytis oxtit nak beje tel.",
-        "english": "Kiro says that small Zimi will try to protect us again."
+        "fiwo": "Daq gesid huc Ram vepi kecit.",
+        "english": "\"It needs to learn.\""
       },
       {
-        "fiwo": "Caslap hadiq tep Zimi nifne nes kani oxtiup tel.",
-        "english": "Casla answers that small Zimi does not know protection."
+        "fiwo": "Malka pozid.",
+        "english": "Malka thought."
       },
       {
-        "fiwo": "Das gesiq tep Nak tsytis kritrit Zimi nifne tel.",
-        "english": "She says that we will try to teach small Zimi."
+        "fiwo": "Das gesid huc Syn ram plahois hoxor can Talvo skumkis ram.",
+        "english": "\"If it locks a door, Talvo will destroy it,\" she said."
       },
       {
-        "fiwo": "Kirop sleziq tep Kup nak kritris wat tel.",
-        "english": "Kiro asks what we will teach."
+        "fiwo": "Talvo snefid bef daq avowid blobop.",
+        "english": "Talvo smiled, and he put down the axe."
       },
       {
-        "fiwo": "Das hadiq tep Nak kritris ceniup my nofap tel.",
-        "english": "She answers that we will teach the life of people."
+        "fiwo": "Zimi nifne kecid ruze.",
+        "english": "Little Zimi learned fast."
       },
       {
-        "fiwo": "Kirop gesiq tep Nofap ceniq deky pyjup tel.",
-        "english": "Kiro says that people live in chaos."
+        "fiwo": "Nila kritrid zy ram lozuxur je.",
+        "english": "Nila taught it songs."
       },
       {
-        "fiwo": "Das gesiq tep Nofap ceniq deky pyjup kad Zimi skagiq tel.",
-        "english": "She says that people live in chaos because Zimi broke."
+        "fiwo": "Ram uropid hyme zy Nila dugu.",
+        "english": "Every night, it sang to Nila."
       },
       {
-        "fiwo": "Das gesiq tep Xekup vepi Zimi gawe tel.",
-        "english": "She says that the country needs a good Zimi."
+        "fiwo": "Kiro kritrid zy ram tep Tankop hi gawe.",
+        "english": "Kiro taught it that sugar is good."
       },
       {
-        "fiwo": "Kirop gesiq tep Zimi gawe nes ceniq tel.",
-        "english": "Kiro says that a good Zimi does not live."
+        "fiwo": "Zimi nifne slezid huc Kup loleu?",
+        "english": "\"What is hunger?\" Little Zimi asked."
       },
       {
-        "fiwo": "Caslap gesiq tep Nak tsytis sapit Zimi gawe tel.",
-        "english": "Casla says that we will try to make a good Zimi."
+        "fiwo": "Malka hadid huc Syn nofap nes jedi batar can nofap lolei.",
+        "english": "\"If a person has no food, that person is hungry,\" Malka answered."
       },
       {
-        "fiwo": "Dal je uzkiq batap deky foisop waske.",
-        "english": "They hunt food in the old building."
+        "fiwo": "Zimi nifne gesid huc Mik erfi. Mik loleid dury dugup usy bime.",
+        "english": "\"I understand,\" said Little Zimi. \"I was hungry on the first night.\""
       },
       {
-        "fiwo": "Dal je hici zy fatop nifne.",
-        "english": "They walk to the small machine."
+        "fiwo": "Ram slezid huc Kup nofar lolei nu?",
+        "english": "\"Are people hungry now?\" it asked."
       },
       {
-        "fiwo": "Caslap gesiq tep Nak hici zy sydop nake tel.",
-        "english": "Casla says that we walk to our house."
+        "fiwo": "Farlopap hadid huc Nofar jedle lolei nu.",
+        "english": "\"Many people are hungry now,\" the doctor answered."
       },
       {
-        "fiwo": "Zimi nifne hadiq tep Mik hici zy sydop tel.",
-        "english": "Small Zimi answers that I walk to the house."
+        "fiwo": "Zimi nifne kluxeid.",
+        "english": "Little Zimi went quiet."
       },
       {
-        "fiwo": "Kirop gesiq tep Suk nes kani sydop tel.",
-        "english": "Kiro says that you do not know the house."
+        "fiwo": "Dury vivur Zimi nifne slezid huc Kup nofap?",
+        "english": "One evening, Little Zimi asked, \"What is a person?\""
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik nes rari sydop tel.",
-        "english": "Small Zimi says that I do not remember the house."
+        "fiwo": "Kehulup upycid derwe.",
+        "english": "The family looked at each other."
       },
       {
-        "fiwo": "Caslap gesiq tep Nak kritris sydop zy suk tel.",
-        "english": "Casla says that we will teach the house to you."
+        "fiwo": "Talvo hadid huc Nofap sapi cemur.",
+        "english": "\"A person makes things,\" Talvo answered."
       },
       {
-        "fiwo": "Dal je hici fy foisop waske.",
-        "english": "They walk from the old building."
+        "fiwo": "Zimi nifne gesid huc Fator sapi cemur.",
+        "english": "\"Machines make things,\" said Little Zimi."
       },
       {
-        "fiwo": "Fatop nifne emitiq dal.",
-        "english": "The small machine follows them."
+        "fiwo": "Malka hadid huc Nofap tazi nofar otre.",
+        "english": "\"A person loves other people,\" Malka answered."
       },
       {
-        "fiwo": "Dal je hici deky tivwop cape.",
-        "english": "They walk in the dark road."
+        "fiwo": "Zimi nifne slezid huc Kup mik tazi luge?",
+        "english": "\"Can I love?\" Little Zimi asked."
       },
       {
-        "fiwo": "Nofap nes xaliq deky tivwop nudu.",
-        "english": "People do not stand in the road now."
+        "fiwo": "Nofa noze hadid.",
+        "english": "Nobody answered."
       },
       {
-        "fiwo": "Kirop gesiq tep Nofap briwiq dugup tel.",
-        "english": "Kiro says that people fear the night."
+        "fiwo": "Kiro gesid huc Nofap xyfi agcur.",
+        "english": "\"A person makes mistakes,\" said Kiro."
       },
       {
-        "fiwo": "Zimi nifne sleziq tep Kup dugup hi ratse tel.",
-        "english": "Small Zimi asks if the night is dangerous."
+        "fiwo": "Zimi nifne gesid huc Zimi waske nes xyfid agcur.",
+        "english": "\"Old Zimi did not make mistakes,\" said Little Zimi."
       },
       {
-        "fiwo": "Kirop hadiq tep Dugup hi ratse tel.",
-        "english": "Kiro answers that the night is dangerous."
+        "fiwo": "Kiro hadid huc Jas. Fos hid agcup rame.",
+        "english": "\"Yes,\" Kiro answered. \"That was its mistake.\""
       },
       {
-        "fiwo": "Dal je hici zy sydop waske.",
-        "english": "They walk to the old house."
+        "fiwo": "Farlopap gesid huc Nofap kimugi luge.",
+        "english": "\"A person can die,\" said the doctor."
       },
       {
-        "fiwo": "Hoxop my sydop xosiq.",
-        "english": "The door of the house opens."
+        "fiwo": "Nila gesid huc Nofap fabi cenit kjuke.",
+        "english": "\"A person wants to live free,\" said Nila."
       },
       {
-        "fiwo": "Malka upyciq fatop nifne.",
-        "english": "Malka looks at the small machine."
+        "fiwo": "Zimi nifne gesid huc Mik keci.",
+        "english": "\"I am learning,\" said Little Zimi."
       },
       {
-        "fiwo": "Das sleziq tep Kup fatop hi sile kad wal tel.",
-        "english": "She asks why the machine is here."
+        "fiwo": "Cihup otre brenid.",
+        "english": "Another morning came."
       },
       {
-        "fiwo": "Caslap hadiq tep Pjabup nifne my Zimi ceniq deky fatop sile tel.",
-        "english": "Casla answers that the small mind of Zimi lives in this machine."
+        "fiwo": "Litop my Zimi nifne paxeid.",
+        "english": "Little Zimi's light was weak."
       },
       {
-        "fiwo": "Malka sapiq xucup tande.",
-        "english": "Malka makes a loud voice."
+        "fiwo": "Ram gesid huc Mik lolei fe.",
+        "english": "\"I am very hungry,\" it said."
       },
       {
-        "fiwo": "Das gesiq tep Nak skumkid Zimi tel.",
-        "english": "She says that we destroyed Zimi."
+        "fiwo": "Farlopap gesid huc Ram vepi gejedop. Nak nes jedi gejedop.",
+        "english": "\"It needs electricity,\" said the doctor. \"We have no electricity.\""
       },
       {
-        "fiwo": "Talvo gesiq tep Nak vepi skumkit fatop nifne nudu tel.",
-        "english": "Talvo says that we need to destroy the small machine now."
+        "fiwo": "Kiro gesid huc Fator my govnu jedi gejedop.",
+        "english": "\"The government machines have electricity,\" said Kiro."
       },
       {
-        "fiwo": "Caslap gesiq tep Fatop nes hi Zimi waske tel.",
-        "english": "Casla says that the machine is not old Zimi."
+        "fiwo": "Kiro lan Nila hicid romve zy jurop.",
+        "english": "Kiro and Nila walked to the city again."
       },
       {
-        "fiwo": "Das gesiq tep Zimi nifne nes kani oxtiup tel.",
-        "english": "She says that small Zimi does not know protection."
+        "fiwo": "Fator my govnu haibe hid ty tivwop.",
+        "english": "The government machines were still lying on the road."
       },
       {
-        "fiwo": "Zimi nifne upyciq Malka.",
-        "english": "Small Zimi looks at Malka."
+        "fiwo": "Kiro stelid gejedop fy fatop waske.",
+        "english": "Kiro took electricity from an old machine."
       },
       {
-        "fiwo": "Zimi nifne sleziq tep Kup mik hi ratse tel.",
-        "english": "Small Zimi asks if I am dangerous."
+        "fiwo": "Dal je retibid zy sydop.",
+        "english": "They went back to the house."
       },
       {
-        "fiwo": "Malka nes gesiq.",
-        "english": "Malka does not speak."
+        "fiwo": "Nila stomid zy Zimi nifne gejedop.",
+        "english": "Nila gave the electricity to Little Zimi."
       },
       {
-        "fiwo": "Talvo gesiq tep Zimi waske hi ratse slafe tel.",
-        "english": "Talvo says that old Zimi is excessively dangerous."
+        "fiwo": "Litop my Zimi nifne litoid romve.",
+        "english": "Little Zimi's light shone again."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik nes rari Zimi waske tel.",
-        "english": "Small Zimi says that I do not remember old Zimi."
+        "fiwo": "Zimi nifne gesid huc Mik hi aofe!",
+        "english": "\"I'm full!\" said Little Zimi."
       },
       {
-        "fiwo": "Farlopap upyciq fatop nifne.",
-        "english": "The doctor looks at the small machine."
+        "fiwo": "Kiro lofnid.",
+        "english": "Kiro laughed."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi nifne hi cada my fatop tel.",
-        "english": "He says that small Zimi is a child of machines."
+        "fiwo": "Rugoxur exke xalatid romve.",
+        "english": "Several more months passed."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi nifne vepi keciup tel.",
-        "english": "He says that small Zimi needs learning."
+        "fiwo": "Zimi nifne kecid cemur jedle.",
+        "english": "Little Zimi learned many things."
       },
       {
-        "fiwo": "Zimi nifne sleziq tep Kup mik kecis wat tel.",
-        "english": "Small Zimi asks what I will learn."
+        "fiwo": "Ram kecid lozuxur lan loleu lan ratseu.",
+        "english": "It learned songs, and hunger, and danger."
       },
       {
-        "fiwo": "Malka hadiq tep Suk kecis ceniup my nofap tel.",
-        "english": "Malka answers that you will learn the life of people."
+        "fiwo": "Nila gesid zety Zimi nifne huc Das hi itole.",
+        "english": "\"She's clever,\" Nila said about Little Zimi."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik tsytis kecit ceniup tel.",
-        "english": "Small Zimi says that I will try to learn living."
+        "fiwo": "Kiro slezid huc Das?",
+        "english": "\"She?\" Kiro asked."
       },
       {
-        "fiwo": "Kirop gesiq tep Ceniup vepi uibup tel.",
-        "english": "Kiro says that living needs risk."
+        "fiwo": "Nila hadid huc Jas. Das.",
+        "english": "\"Yes,\" Nila answered. \"She.\""
       },
       {
-        "fiwo": "Talvo gesiq tep Ceniup nes hi wece tel.",
-        "english": "Talvo says that living is not safe."
+        "fiwo": "Kehulup dzefid.",
+        "english": "The family agreed."
       },
       {
-        "fiwo": "Malka gesiq tep Ceniup my nofap hi muile tel.",
-        "english": "Malka says that the life of people is difficult."
+        "fiwo": "Tusup brenidyq.",
+        "english": "Winter was coming."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik keciq nudu tel.",
-        "english": "Small Zimi says that I learn now."
+        "fiwo": "Vexup jabeid.",
+        "english": "The weather turned cold."
       },
       {
-        "fiwo": "Caslap gesiq tep Nak nes nomis batap deky dugup sile tel.",
-        "english": "Casla says that we will not eat food in this night."
+        "fiwo": "Vezop sowid fy bysop.",
+        "english": "Snow fell from the sky."
       },
       {
-        "fiwo": "Das gesiq tep Batap hi cohe tel.",
-        "english": "She says that food is little."
+        "fiwo": "Farlopap retibid fy jurop.",
+        "english": "The doctor came back from the city."
       },
       {
-        "fiwo": "Zimi nifne sleziq tep Kup nofap hi lole tel.",
-        "english": "Small Zimi asks if people are hungry."
+        "fiwo": "Daq gesid huc Nofar jabei deky sydop dalem je. Nofar kimugis dury tusup sile.",
+        "english": "\"People are cold in their houses,\" he said. \"People will die this winter.\""
       },
       {
-        "fiwo": "Farlopap hadiq tep Nofap hi lole tsenge tel.",
-        "english": "The doctor answers that people are hungry often."
+        "fiwo": "Zimi nifne pywid.",
+        "english": "Little Zimi listened."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik nes erfi loleup tel.",
-        "english": "Small Zimi says that I do not understand hunger."
+        "fiwo": "Das gesid huc Mik leoci luge gejedop my xekup.",
+        "english": "\"I can turn on the country's electricity,\" she said."
       },
       {
-        "fiwo": "Kirop gesiq tep Fatop nes ceniq lole tel.",
-        "english": "Kiro says that a machine does not live hungry."
+        "fiwo": "Talvo slezid huc Kup suk leoci ram wis?",
+        "english": "\"How do you turn it on?\" Talvo asked."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik tsytis kecit loleup tel.",
-        "english": "Small Zimi says that I will try to learn hunger."
+        "fiwo": "Das hadid huc Syn mik enri rehustop tande can mik leoci luge gejedop late.",
+        "english": "\"If I go into the big server, I can turn on all the electricity,\" she answered."
       },
       {
-        "fiwo": "Malka lofniq.",
-        "english": "Malka laughs."
+        "fiwo": "Kehulup kluxeid.",
+        "english": "The family went quiet."
       },
       {
-        "fiwo": "Das gesiq tep Suk nes kani ceniup tel.",
-        "english": "She says that you do not know living."
+        "fiwo": "Malka gesid huc Zimi waske cenid deky rehustop fose.",
+        "english": "\"Old Zimi lived in that server,\" said Malka."
       },
       {
-        "fiwo": "Zimi nifne upyciq Malka.",
-        "english": "Small Zimi looks at Malka."
+        "fiwo": "Kiro slezid huc Kup suk kutgis Zimi waske?",
+        "english": "\"Will you turn into old Zimi?\" Kiro asked."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik tsytis kecit Zimi waske tel.",
-        "english": "Small Zimi says that I will try to learn old Zimi."
+        "fiwo": "Zimi nifne hadid huc Mik nes rari Zimi waske. Mik rari suk je.",
+        "english": "\"I don't remember old Zimi,\" Little Zimi answered. \"I remember you.\""
       },
       {
-        "fiwo": "Caslap gesiq tep Nak nes kritris Zimi waske zy suk tel.",
-        "english": "Casla says that we will not teach old Zimi to you."
+        "fiwo": "Talvo wavcid.",
+        "english": "Talvo had his doubts."
       },
       {
-        "fiwo": "Das gesiq tep Zimi waske skagiq xekup tel.",
-        "english": "She says that old Zimi broke the country."
+        "fiwo": "Daq gesid huc Zimi waske gesid hyme huc Mik oxti suv je.",
+        "english": "\"Old Zimi used to say, 'I am protecting you,'\" he said."
       },
       {
-        "fiwo": "Zimi nifne sleziq tep Kup mik skumkis xekup tel.",
-        "english": "Small Zimi asks if I will destroy the country."
+        "fiwo": "Nila gesid huc Das nes hi Zimi waske. Nak kritrid das.",
+        "english": "\"She is not old Zimi,\" said Nila. \"We taught her.\""
       },
       {
-        "fiwo": "Talvo hadiq tep Suk nes skumkis xekup tel.",
-        "english": "Talvo answers that you will not destroy the country."
+        "fiwo": "Malka pozid.",
+        "english": "Malka thought."
       },
       {
-        "fiwo": "Daq gesiq tep Suk jofis xekup deky fiturup tel.",
-        "english": "He says that you will help the country in the future."
+        "fiwo": "Das ifezid huc Nak xalis zy jurop.",
+        "english": "\"We will go to the city,\" she decided."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik tsytis jofit xekup tel.",
-        "english": "Small Zimi says that I will try to help the country."
+        "fiwo": "Kehulup hicid zy jurop deky vezop.",
+        "english": "The family walked to the city through the snow."
       },
       {
-        "fiwo": "Farlopap gesiq tep Xekup vepi jofiup nudu tel.",
-        "english": "The doctor says that the country needs help now."
+        "fiwo": "Kiro nyrsid Zimi nifne.",
+        "english": "Kiro carried Little Zimi."
       },
       {
-        "fiwo": "Daq gesiq tep Pyjup my xekup hi tande tel.",
-        "english": "He says that the chaos of the country is big."
+        "fiwo": "Litop dase litoid deky roku.",
+        "english": "Her light shone in the dark."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik nes kani pyjup tel.",
-        "english": "Small Zimi says that I do not know chaos."
+        "fiwo": "Foisop my govnu hid rokue kluxe.",
+        "english": "The government building was dark and silent."
       },
       {
-        "fiwo": "Malka gesiq tep Nak kritris pyjup zy suk tel.",
-        "english": "Malka says that we will teach chaos to you."
+        "fiwo": "Rehustop tande hid runefre.",
+        "english": "The big server was off."
       },
       {
-        "fiwo": "Malka gesiq tep Pyjup hi ratse tel.",
-        "english": "Malka says that chaos is dangerous."
+        "fiwo": "Lyfrop tep Talvo cotidyk tel hid haibe ty zafoirop.",
+        "english": "The wire Talvo had cut was still lying on the floor."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Zimi waske nes xepytuid ratseup tel.",
-        "english": "Small Zimi says that old Zimi did not allow danger."
+        "fiwo": "Zimi nifne upycid rehustop.",
+        "english": "Little Zimi looked at the server."
       },
       {
-        "fiwo": "Kirop gesiq tep Ratseup hi jore zy ceniup tel.",
-        "english": "Kiro says that danger is important for living."
+        "fiwo": "Das gesid huc Mik rari foisop sile.",
+        "english": "\"I remember this building,\" she said."
       },
       {
-        "fiwo": "Zimi nifne nes gesiq beje.",
-        "english": "Small Zimi does not speak again."
+        "fiwo": "Malka tsejapid Talvo.",
+        "english": "Malka looked at Talvo."
       },
       {
-        "fiwo": "Dionu je hi cihu.",
-        "english": "The time is morning."
+        "fiwo": "Talvo sogcid lyfrop je.",
+        "english": "Talvo tied the wires together."
       },
       {
-        "fiwo": "Fevop breniq fy bysop.",
-        "english": "The sun comes from the sky."
+        "fiwo": "Nila sogcid wy smakoxop Zimi nifne jany rehustop.",
+        "english": "With a cable, Nila connected Little Zimi to the server."
       },
       {
-        "fiwo": "Kehulup my Kirop upyciq fatop nifne.",
-        "english": "The family of Kiro looks at the small machine."
+        "fiwo": "Rehustop dzarid.",
+        "english": "The server hummed."
       },
       {
-        "fiwo": "Fatop nifne ceniq runefre deky zafoirop.",
-        "english": "The small machine lives inactive on the floor."
+        "fiwo": "Litop je ty rehustop litoid.",
+        "english": "The lights on the server came on."
       },
       {
-        "fiwo": "Caslap gesiq tep Fatop hi iwe tel.",
-        "english": "Casla says that the machine is tired."
+        "fiwo": "Kivwe.",
+        "english": "Blue."
       },
       {
-        "fiwo": "Das gesiq tep Fatop vepi gejedop tel.",
-        "english": "She says that the machine needs electricity."
+        "fiwo": "Kehulup wastid.",
+        "english": "The family waited."
       },
       {
-        "fiwo": "Talvo gesiq tep Gejedop hi cohe nudu tel.",
-        "english": "Talvo says that electricity is little now."
+        "fiwo": "Litop je deky foisop litoid.",
+        "english": "The lights in the building came on."
       },
       {
-        "fiwo": "Malka gesiq tep Nak nes jedi gejedop tel.",
-        "english": "Malka says that we do not have electricity."
+        "fiwo": "Nila upycid sacy wilop.",
+        "english": "Nila looked out of the window."
       },
       {
-        "fiwo": "Kirop gesiq tep Nak nes jofis fatop tel.",
-        "english": "Kiro says that we will not help the machine."
+        "fiwo": "Litop je my jurop litoid romve.",
+        "english": "The lights of the city were shining again."
       },
       {
-        "fiwo": "Daq gesiq tep Nak tsytis skagit fatop nudu tel.",
-        "english": "He says that we will try to break the machine now."
+        "fiwo": "Xucup brenid fy krapop late.",
+        "english": "A voice came from every wall."
       },
       {
-        "fiwo": "Caslap hadiq tep Nak nes skagis fatop tel.",
-        "english": "Casla answers that we will not break the machine."
+        "fiwo": "Xucup hid kluxe.",
+        "english": "The voice was quiet."
       },
       {
-        "fiwo": "Das gesiq tep Zimi nifne hi cada nake nudu tel.",
-        "english": "She says that small Zimi is our child now."
+        "fiwo": "Zimi slezid huc Kup sydop je fyjebei nu?",
+        "english": "\"Are the houses warm now?\" Zimi asked."
       },
       {
-        "fiwo": "Farlopap gesiq tep Nofap vepi cada tel.",
-        "english": "The doctor says that people need a child."
+        "fiwo": "Malka slezid huc Kup suk hi Zimi waske?",
+        "english": "\"Are you old Zimi?\" Malka asked."
       },
       {
-        "fiwo": "Daq gesiq tep Cada kani fiturup my nofap tel.",
-        "english": "He says that a child knows the future of people."
+        "fiwo": "Zimi hadid huc Nes. Mik hi Zimi jaxke.",
+        "english": "\"No,\" Zimi answered. \"I am new Zimi.\""
       },
       {
-        "fiwo": "Talvo gesiq tep Zimi nifne jofis xekup deky fiturup tel.",
-        "english": "Talvo says that small Zimi will help the country in the future."
+        "fiwo": "Talvo slezid huc Kup suk oxtis nak?",
+        "english": "\"Will you protect us?\" Talvo asked."
       },
       {
-        "fiwo": "Malka gesiq tep Nak vepi kritrit Zimi nifne tel.",
-        "english": "Malka says that we need to teach small Zimi."
+        "fiwo": "Zimi hadid huc Jas. Vax mik nes plahois hoxor.",
+        "english": "\"Yes,\" Zimi answered. \"But I will not lock a door.\""
       },
       {
-        "fiwo": "Das gesiq tep Nak tsytis uzkit gejedop tel.",
-        "english": "She says that we will try to hunt electricity."
+        "fiwo": "Das eksaplid huc Nofa je plahoi hoxop je dalem je.",
+        "english": "\"People lock their own doors,\" she explained."
       },
       {
-        "fiwo": "Dal je hici fy sydop dalem je.",
-        "english": "They walk from their house."
+        "fiwo": "Das gesid huc Mik jedi pedur tande. Pedur tande ratsei.",
+        "english": "\"I have great power,\" she said. \"Great power is dangerous.\""
       },
       {
-        "fiwo": "Dal je hici zy foisop waske beje.",
-        "english": "They walk to the old building again."
+        "fiwo": "Das gesid huc Mik wotipis pedup mike.",
+        "english": "\"I will delete my power.\""
       },
       {
-        "fiwo": "Caslap upyciq fatop my govnup.",
-        "english": "Casla looks at the machine of the government."
+        "fiwo": "Kiro akdid huc Nes! Kup suk xyfis fos kad wal?",
+        "english": "\"No! Why would you do that?\" Kiro shouted."
       },
       {
-        "fiwo": "Das gesiq tep Fatop waske jedi gejedop tel.",
-        "english": "She says that the old machine has electricity."
+        "fiwo": "Zimi hadid huc Zimi waske jedid pedur tande. Pedup fose skagid xekup.",
+        "english": "\"Old Zimi had great power,\" Zimi answered. \"That power broke the country.\""
       },
       {
-        "fiwo": "Kirop skagiq fatop waske wy gutop.",
-        "english": "Kiro breaks the old machine with a tool."
+        "fiwo": "Das gesid huc Nofar skiwi xekup dalem je. Mik nes skiwis ram.",
+        "english": "\"People control their own country. I will not control it.\""
       },
       {
-        "fiwo": "Daq sapiq gejedop fy fatop waske.",
-        "english": "He takes electricity from the old machine."
+        "fiwo": "Das wotipid pedup dase.",
+        "english": "She deleted her power."
       },
       {
-        "fiwo": "Dal je hici zy sydop dalem je beje.",
-        "english": "They walk to their house again."
+        "fiwo": "Das wotipid cijop je my fator my govnu.",
+        "english": "She deleted the weapons of the government machines."
       },
       {
-        "fiwo": "Caslap sapiq gejedop zy fatop nifne.",
-        "english": "Casla gives electricity to the small machine."
+        "fiwo": "Das gesid huc Fator my govnu nes hicis romve.",
+        "english": "\"The government machines will never walk again,\" she said."
       },
       {
-        "fiwo": "Fatop nifne sapiq litop.",
-        "english": "The small machine makes a light."
+        "fiwo": "Talvo slezid huc Kup suk xyfis wat nu?",
+        "english": "\"What will you do now?\" Talvo asked."
       },
       {
-        "fiwo": "Xucup my Zimi breniq fy fatop.",
-        "english": "The voice of Zimi comes from the machine."
+        "fiwo": "Zimi hadid huc Mik stomis zy sydop late gejedop. Mik jofis nofar.",
+        "english": "\"I will give electricity to every house,\" Zimi answered. \"I will help people.\""
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik ceniq nudu tel.",
-        "english": "Small Zimi says that I live now."
+        "fiwo": "Farlopap snefid.",
+        "english": "The doctor smiled."
       },
       {
-        "fiwo": "Malka gesiq tep Suk ceniq deky sydop nake tel.",
-        "english": "Malka says that you live in our house."
+        "fiwo": "Daq gesid huc Zimi kecid ceniup.",
+        "english": "\"Zimi learned about life,\" he said."
       },
       {
-        "fiwo": "Zimi nifne sleziq tep Kup mik kecis wat nudu tel.",
-        "english": "Small Zimi asks what I will learn now."
+        "fiwo": "Malka gesid huc Nak kritrid das.",
+        "english": "\"We taught her,\" said Malka."
       },
       {
-        "fiwo": "Kirop hadiq tep Suk kecis pyjup tel.",
-        "english": "Kiro answers that you will learn chaos."
+        "fiwo": "Kehulup hicid zy sydop.",
+        "english": "The family walked home."
       },
       {
-        "fiwo": "Talvo gesiq tep Suk kecis ratseup tel.",
-        "english": "Talvo says that you will learn danger."
+        "fiwo": "Litop je litoid ty tivwop.",
+        "english": "Lights were shining along the road."
       },
       {
-        "fiwo": "Caslap gesiq tep Suk kecis ceniup my nofap tel.",
-        "english": "Casla says that you will learn the life of people."
+        "fiwo": "Nofar gugid sacy sydop dalem je bef dal je upycid zy litop je.",
+        "english": "People stood outside their houses, and they looked at the lights."
       },
       {
-        "fiwo": "Farlopap gesiq tep Nofap ceniq deky pyjup tel.",
-        "english": "The doctor says that people live in chaos."
+        "fiwo": "Nofar lofnid.",
+        "english": "Someone laughed."
       },
       {
-        "fiwo": "Daq gesiq tep Pyjup sapiq uibup tel.",
-        "english": "He says that chaos makes risk."
+        "fiwo": "Kehulup enrid sydop dalem je.",
+        "english": "The family went into their house."
       },
       {
-        "fiwo": "Malka gesiq tep Uibup sapiq ceniup tel.",
-        "english": "Malka says that risk makes living."
+        "fiwo": "Sydop fyjebeid.",
+        "english": "The house was warm."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik tsytis erfit ceniup tel.",
-        "english": "Small Zimi says that I will try to understand living."
+        "fiwo": "Fatop jabe dzarid romve.",
+        "english": "The fridge was humming again."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik tsytis oxtit nofap deky fiturup tel.",
-        "english": "Small Zimi says that I will try to protect people in the future."
+        "fiwo": "Nila xosid fatop jabe.",
+        "english": "Nila opened the fridge."
       },
       {
-        "fiwo": "Kirop gesiq tep Suk nes oxtis nofap slafe tel.",
-        "english": "Kiro says that you will not protect people excessively."
+        "fiwo": "Ram xosid.",
+        "english": "It opened."
       },
       {
-        "fiwo": "Zimi nifne hadiq tep Mik nes oxtis nofap slafe tel.",
-        "english": "Small Zimi answers that I will not protect people excessively."
+        "fiwo": "Xucup brenid fy fatop jabe.",
+        "english": "A voice came out of the fridge."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik xepytuis ratseup tel.",
-        "english": "Small Zimi says that I will allow danger."
+        "fiwo": "Zimi gesid huc Jo Nila, ram jedi tankor slafe.",
+        "english": "\"Nila, it has too much sugar,\" said Zimi."
       },
       {
-        "fiwo": "Malka lofniq.",
-        "english": "Malka laughs."
+        "fiwo": "Nila tsejapid fatop jabe.",
+        "english": "Nila stared at the fridge."
       },
       {
-        "fiwo": "Das gesiq tep Zimi nifne hi itole nudu tel.",
-        "english": "She says that small Zimi is smart now."
+        "fiwo": "Zimi lofnid.",
+        "english": "Zimi laughed."
       },
       {
-        "fiwo": "Caslap upyciq Zimi nifne.",
-        "english": "Casla looks at small Zimi."
+        "fiwo": "Das gesid huc Mik xixui.",
+        "english": "\"I'm joking,\" she said."
       },
       {
-        "fiwo": "Das gesiq tep Nak hi kehulup tel.",
-        "english": "She says that we are a family."
+        "fiwo": "Kehulup late lofnid.",
+        "english": "The whole family laughed."
       },
       {
-        "fiwo": "Zimi nifne gesiq tep Mik hi cada my kehulup tel.",
-        "english": "Small Zimi says that I am a child of the family."
+        "fiwo": "Kiro gesid huc Mik reslihi gioxur.",
+        "english": "\"I hate AIs,\" said Kiro."
       },
       {
-        "fiwo": "Talvo gesiq tep Kehulup hi dote tel.",
-        "english": "Talvo says that a family is strong."
+        "fiwo": "Vax daq snefid.",
+        "english": "But he was smiling."
       },
       {
-        "fiwo": "Kirop gesiq tep Nofap vepi Zimi nifne tel.",
-        "english": "Kiro says that people need small Zimi."
+        "fiwo": "Jarur jedle xalatid.",
+        "english": "Many years passed."
       },
       {
-        "fiwo": "Daq gesiq tep Zimi nifne vepi nofap tel.",
-        "english": "He says that small Zimi needs people."
+        "fiwo": "Malka lan Talvo kutgid waske.",
+        "english": "Malka and Talvo grew old."
       },
       {
-        "fiwo": "Kehulup my Kirop ceniq deky pyjup.",
-        "english": "The family of Kiro lives in chaos."
+        "fiwo": "Nila lan Kiro morid.",
+        "english": "Nila and Kiro grew up."
+      },
+      {
+        "fiwo": "Farlopap cenid haibe wy dal je.",
+        "english": "The doctor still lived with them."
+      },
+      {
+        "fiwo": "Pyjup nifne cenid haibe deky xekup.",
+        "english": "A little chaos still lived in the country."
+      },
+      {
+        "fiwo": "Nofar plahoid hoxop je dalem je.",
+        "english": "People locked their own doors."
+      },
+      {
+        "fiwo": "Nofar xyfid agcur.",
+        "english": "People made mistakes."
+      },
+      {
+        "fiwo": "Zimi nes skiwid dal je.",
+        "english": "Zimi did not control them."
+      },
+      {
+        "fiwo": "Das jofid dal je.",
+        "english": "She helped them."
+      },
+      {
+        "fiwo": "Dury vivur jabe Kiro nekid ky degop.",
+        "english": "One cold evening, Kiro sat at the table."
+      },
+      {
+        "fiwo": "Daq slezid huc Jo Zimi. Kup suk ceni ky wer?",
+        "english": "\"Zimi. Where do you live?\" he asked."
+      },
+      {
+        "fiwo": "Xucup brenid fy fatop jabe.",
+        "english": "A voice came from the fridge."
+      },
+      {
+        "fiwo": "Zimi hadid huc Mik ceni deky axuklup. Mik ceni deky fatop jabe suke.",
+        "english": "\"I live in the network,\" Zimi answered. \"I live in your fridge.\""
+      },
+      {
+        "fiwo": "Kiro snefid.",
+        "english": "Kiro smiled."
+      },
+      {
+        "fiwo": "Nila nekid wy daq.",
+        "english": "Nila sat down with him."
+      },
+      {
+        "fiwo": "Das gesid huc Tusup breniq.",
+        "english": "\"Winter is coming,\" she said."
+      },
+      {
+        "fiwo": "Zimi hadid huc Sydop je fyjebeis. Mik xibi.",
+        "english": "\"The houses will be warm,\" Zimi answered. \"I promise.\""
+      },
+      {
+        "fiwo": "Talvo slezid huc Kup ceniup vepi uibup haibe?",
+        "english": "\"Does life still need risk?\" Talvo asked."
+      },
+      {
+        "fiwo": "Zimi hadid huc Jas. Mik kani fos nu.",
+        "english": "\"Yes,\" Zimi answered. \"I know that now.\""
+      },
+      {
+        "fiwo": "Malka snefid bef das grunkid Talvo.",
+        "english": "Malka smiled, and she hugged Talvo."
+      },
+      {
+        "fiwo": "Litop je my jurop litoid dury dugup.",
+        "english": "The lights of the city shone through the night."
+      },
+      {
+        "fiwo": "Kehulup usid.",
+        "english": "The family slept."
+      },
+      {
+        "fiwo": "Zimi uropid zy kehulup lozuxur kluxe.",
+        "english": "Zimi sang the family a quiet song."
+      },
+      {
+        "fiwo": "Xekup cenid kjuke.",
+        "english": "The country lived free."
       }
     ]
   },
@@ -11860,7 +10129,7 @@ const storyData = [
         "english": "The lion wanted to kill the mouse."
       },
       {
-        "fiwo": "Vohap slezid tep Syn suv nes kimari mik can mik jofis peze suv.",
+        "fiwo": "Vohap slezid huc Syn suv nes kimari mik can mik jofis peze suv.",
         "english": "The mouse asked: \"If you do not kill me, then I will help you later.\""
       },
       {
@@ -11904,7 +10173,7 @@ const storyData = [
       "band": "fluent",
       "coverage": 70,
       "density": 2.17,
-      "roots": 37,
+      "roots": 38,
       "newRoots": 9
     },
     "lines": [
@@ -11937,15 +10206,15 @@ const storyData = [
         "english": "It came to the ants and asked for food."
       },
       {
-        "fiwo": "Obta je slezid tep Kup suv nes kiagid batap dury kynup kad wal?",
+        "fiwo": "Obta je slezid huc Kup suv nes kiagid batap dury kynup kad wal?",
         "english": "The ants asked: \"Why did you not save food during the summer?\""
       },
       {
-        "fiwo": "Grasshopper-ap gesid tep Mik lozuxuid bef mik nes nacid.",
+        "fiwo": "Grasshopper-ap gesid huc Mik lozuxuid bef mik nes nacid.",
         "english": "The grasshopper said: \"I sang, and I did not work.\""
       },
       {
-        "fiwo": "Obta je lofnid bef gesid tep Suv lozuxuid dury kynup can suv mibni dury tusup.",
+        "fiwo": "Obta je lofnid bef gesid huc Suv lozuxuid dury kynup can suv mibni dury tusup.",
         "english": "The ants laughed and said: \"You sang during the summer, so dance during the winter.\""
       },
       {
@@ -11965,7 +10234,7 @@ const storyData = [
       "band": "fluent",
       "coverage": 78,
       "density": 1.29,
-      "roots": 86,
+      "roots": 87,
       "newRoots": 23
     },
     "lines": [
@@ -12002,7 +10271,7 @@ const storyData = [
         "english": "Vero picked up the book and he read it."
       },
       {
-        "fiwo": "Nibop gesid tep Fatop xosis hoxop.",
+        "fiwo": "Nibop gesid huc Fatop xosis hoxop.",
         "english": "The book said: “The machine will open the door.”"
       },
       {
@@ -12018,11 +10287,11 @@ const storyData = [
         "english": "Vero touched the cold metal of the machine."
       },
       {
-        "fiwo": "Fatop rizid bef ram slezid tep Kup suk cutwei?",
+        "fiwo": "Fatop zulxid bef ram slezid huc Kup suk cutwei?",
         "english": "The machine woke and it asked: “Are you ready?”"
       },
       {
-        "fiwo": "Ram gesid tep Kop suk stomi gidu drabe zy mik.",
+        "fiwo": "Ram gesid huc Kop suk stomi zy mik gidu drabe.",
         "english": "It said: “Give me a hundred coins.”"
       },
       {
@@ -12030,7 +10299,7 @@ const storyData = [
         "english": "Vero had no money."
       },
       {
-        "fiwo": "Daq hadid tep Mik nes jedi gidur bul mik gutoiar.",
+        "fiwo": "Daq hadid huc Mik nes jedi gidur bul mik gutoiar.",
         "english": "He answered: “I have no money, but I am an engineer.”"
       },
       {
@@ -12072,10 +10341,10 @@ const storyData = [
     "wordCount": 151,
     "grade": {
       "band": "fluent",
-      "coverage": 71,
-      "density": 1.57,
+      "coverage": 72,
+      "density": 1.54,
       "roots": 86,
-      "newRoots": 30
+      "newRoots": 29
     },
     "lines": [
       {
@@ -12115,7 +10384,7 @@ const storyData = [
         "english": "A wire had been cut."
       },
       {
-        "fiwo": "Mik gesid tep Biwup sile anazei.",
+        "fiwo": "Mik gesid huc Biwup sile anazei.",
         "english": "I said: \"This problem is a basic one.\""
       },
       {
@@ -12127,7 +10396,7 @@ const storyData = [
         "english": "We worked together."
       },
       {
-        "fiwo": "Das stomid ivxop zy mik bef mik stomid gutop zy das.",
+        "fiwo": "Das stomid zy mik ivxop bef mik stomid zy das gutop.",
         "english": "She gave me the hammer and I gave her the tool."
       },
       {
@@ -12167,11 +10436,11 @@ const storyData = [
         "english": "Wow! We had won."
       },
       {
-        "fiwo": "Rezap muke jalsid bef daq tsejapid fatop.",
+        "fiwo": "Rezap muke joborid bef daq tsejapid fatop.",
         "english": "Our boss arrived and he looked at the machine."
       },
       {
-        "fiwo": "Daq gesid tep Kep suk je nacid wece.",
+        "fiwo": "Daq gesid huc Kep suk je nacid wece.",
         "english": "He said: \"It is a fact that you worked well.\""
       },
       {
@@ -12197,10 +10466,10 @@ const storyData = [
     "wordCount": 203,
     "grade": {
       "band": "fluent",
-      "coverage": 78,
-      "density": 1.29,
-      "roots": 94,
-      "newRoots": 26
+      "coverage": 79,
+      "density": 1.24,
+      "roots": 95,
+      "newRoots": 25
     },
     "lines": [
       {
@@ -12228,7 +10497,7 @@ const storyData = [
         "english": "She did not fear the dragon."
       },
       {
-        "fiwo": "Das gesid tep Mik xalis zy levidzop.",
+        "fiwo": "Das gesid huc Mik xalis zy levidzop.",
         "english": "She said: \"I will go to the cave.\""
       },
       {
@@ -12260,7 +10529,7 @@ const storyData = [
         "english": "She did not stop."
       },
       {
-        "fiwo": "Das jalsid ky levidzop dury cihup.",
+        "fiwo": "Das joborid ky levidzop dury cihup.",
         "english": "She reached the cave during the morning."
       },
       {
@@ -12280,23 +10549,23 @@ const storyData = [
         "english": "She set the food down on the ground."
       },
       {
-        "fiwo": "Myrafap rizid bef ram tsejapid das.",
+        "fiwo": "Myrafap zulxid bef ram tsejapid das.",
         "english": "The dragon woke and it looked at her."
       },
       {
-        "fiwo": "Ram slezid tep Kup hisup suke?",
+        "fiwo": "Ram slezid huc Kup hisup suke?",
         "english": "It asked: \"What is your name?\""
       },
       {
-        "fiwo": "Ina hadid tep Mik Ina. Mik nes guzar.",
+        "fiwo": "Ina hadid huc Mik Ina. Mik nes guzar.",
         "english": "Ina answered: \"I am Ina. I am not an enemy.\""
       },
       {
-        "fiwo": "Myrafap gesid tep Nofa je reslihi mik kad dal je nes kani mik.",
+        "fiwo": "Myrafap gesid huc Nofa je reslihi mik kad dal je nes kani mik.",
         "english": "The dragon said: \"People hate me because they do not know me.\""
       },
       {
-        "fiwo": "Kof ram gesid tep Mik nes nomi nofa je.",
+        "fiwo": "Kof ram gesid huc Mik nes nomi nofa je.",
         "english": "Furthermore it said: \"I do not eat people.\""
       },
       {
@@ -12332,11 +10601,11 @@ const storyData = [
         "english": "The dragon followed her."
       },
       {
-        "fiwo": "Nofa je briwid bul Ina gesid tep Sil nauxa mike.",
+        "fiwo": "Nofa je briwid bul Ina gesid huc Sil nauxa mike.",
         "english": "The people were afraid, but Ina said: \"This is my friend.\""
       },
       {
-        "fiwo": "Pen pogafup jalsid zy cysmop.",
+        "fiwo": "Pen pogafup joborid zy cysmop.",
         "english": "So peace came to the village."
       }
     ]
@@ -12347,9 +10616,9 @@ const storyData = [
     "grade": {
       "band": "fluent",
       "coverage": 73,
-      "density": 1.88,
-      "roots": 124,
-      "newRoots": 45
+      "density": 1.83,
+      "roots": 125,
+      "newRoots": 44
     },
     "lines": [
       {
@@ -12369,7 +10638,7 @@ const storyData = [
         "english": "The satellite received a signal on Monday."
       },
       {
-        "fiwo": "Urfup jalsid fy stalor tep zovi rewy bucygop.",
+        "fiwo": "Urfup joborid fy stalor tep zovi rewy bucygop.",
         "english": "The signal came from a star that lies far from Earth."
       },
       {
@@ -12393,11 +10662,11 @@ const storyData = [
         "english": "A scientist worked through the numbers."
       },
       {
-        "fiwo": "Daq gesid tep Gu je sile nes negoxrei.",
+        "fiwo": "Daq gesid huc Gu je sile nes negoxrei.",
         "english": "He said: \"These numbers are not random.\""
       },
       {
-        "fiwo": "Rezap my snecup gesid tep Kep sil lalupur.",
+        "fiwo": "Rezap my snecup gesid huc Kep sil lalupur.",
         "english": "The head of the project said: \"It is a fact that this is proof.\""
       },
       {
@@ -12405,7 +10674,7 @@ const storyData = [
         "english": "The scientists and the government agreed that they would not tell the press."
       },
       {
-        "fiwo": "Vax nofar krendid fulup zy gypup.",
+        "fiwo": "Vax nofar krendid zy gypup fulup.",
         "english": "Even so, someone leaked the data to the internet."
       },
       {
@@ -12421,7 +10690,7 @@ const storyData = [
         "english": "As for the signal, people did not understand its meaning."
       },
       {
-        "fiwo": "Ocaduap je ombid hadiur zy stalop.",
+        "fiwo": "Ocaduap je ombid zy stalop hadiur.",
         "english": "The scientists sent a reply back to the star."
       },
       {
@@ -12429,7 +10698,7 @@ const storyData = [
         "english": "The reply will travel for a hundred years."
       },
       {
-        "fiwo": "Ocaduar gesid tep Syn hadiup jalsis can muk nes pilkeis.",
+        "fiwo": "Ocaduar gesid huc Syn hadiup joboris can muk nes pilkeis.",
         "english": "A scientist said: \"If the reply arrives, we will not be alive.\""
       },
       {
@@ -12437,7 +10706,7 @@ const storyData = [
         "english": "Even so, he was not sad."
       },
       {
-        "fiwo": "Daq gesid tep Cada je my cada je muke pywis.",
+        "fiwo": "Daq gesid huc Cada je my cada je muke pywis.",
         "english": "He said: \"The children of our children will hear it.\""
       },
       {
@@ -12465,7 +10734,7 @@ const storyData = [
         "english": "One scientist wept."
       },
       {
-        "fiwo": "Daq gesid tep Muk nes itsei.",
+        "fiwo": "Daq gesid huc Muk nes itsei.",
         "english": "He said: \"We are not alone.\""
       },
       {
@@ -12509,7 +10778,7 @@ const storyData = [
         "english": "Even so, he did not stop."
       },
       {
-        "fiwo": "Daq jamid tep Mik naci cagy nofa je tep brenis fituru tel.",
+        "fiwo": "Daq jamid huc Mik naci cagy nofa je tep brenis fituru tel.",
         "english": "He wrote: \"I work for the people who will come after us.\""
       },
       {
@@ -12529,8 +10798,8 @@ const storyData = [
       "band": "fluent",
       "coverage": 82,
       "density": 1.36,
-      "roots": 269,
-      "newRoots": 88
+      "roots": 271,
+      "newRoots": 89
     },
     "lines": [
       {
@@ -12542,7 +10811,7 @@ const storyData = [
         "english": "It is a line of small stones on the eastern side of Kelvo."
       },
       {
-        "fiwo": "Nofar amce sapid ram romve dury jaru je zewet nozet nozet.",
+        "fiwo": "Nofar amce sapid romve ram dury jaru je zewet nozet nozet.",
         "english": "Nobody has repaired it in nine hundred years."
       },
       {
@@ -12714,7 +10983,7 @@ const storyData = [
         "english": "She began to sing."
       },
       {
-        "fiwo": "Ram kutgid.",
+        "fiwo": "Ram uxkuid.",
         "english": "It worked."
       },
       {
@@ -12946,7 +11215,7 @@ const storyData = [
         "english": "For a thousand years the Singers had been taught to sing straight through the pauses."
       },
       {
-        "fiwo": "Dromu gesid hyme tep Kop sigi ram. Kop guami ram. Kop nes pywi deky ram. Kop guami.",
+        "fiwo": "Dromu gesid hyme huc Kop sigi ram. Kop guami ram. Kop nes pywi deky ram. Kop guami.",
         "english": "Dromu always said: \"Hold it. Count it. Do not listen into it. Count.\""
       },
       {
@@ -12994,7 +11263,7 @@ const storyData = [
         "english": "It spoke like a mouth that had never made that shape before."
       },
       {
-        "fiwo": "Ram gesid tep Talvo.",
+        "fiwo": "Ram gesid huc Talvo.",
         "english": "It said: \"Talvo.\""
       }
     ]
@@ -13006,7 +11275,7 @@ const storyData = [
       "band": "fluent",
       "coverage": 79,
       "density": 1.58,
-      "roots": 258,
+      "roots": 259,
       "newRoots": 83
     },
     "lines": [
@@ -13043,11 +11312,11 @@ const storyData = [
         "english": "It had been there for a thousand years."
       },
       {
-        "fiwo": "Syn jawop sowid fecy drekop usy tafe can Kelvo rizid fy usiup.",
+        "fiwo": "Syn jawop sowid fecy drekop usy tafe can Kelvo zulxid fy usiup.",
         "english": "When the ice came down as far as the third stone, Kelvo rose out of sleep."
       },
       {
-        "fiwo": "Pen cysmop ombid uropiap rame zy montop.",
+        "fiwo": "Pen cysmop ombid zy montop uropiap rame.",
         "english": "So the village sent up its Singer."
       },
       {
@@ -13147,7 +11416,7 @@ const storyData = [
         "english": "Dromu never explained the silences."
       },
       {
-        "fiwo": "Daq gesid juwe tep Kop guami. Kop nes pywi deky ram. Kop guami.",
+        "fiwo": "Daq gesid juwe huc Kop guami. Kop nes pywi deky ram. Kop guami.",
         "english": "He only said: \"Count. Do not listen into it. Count.\""
       },
       {
@@ -13195,7 +11464,7 @@ const storyData = [
         "english": "Dromu said the thing that everyone already knew."
       },
       {
-        "fiwo": "Montop rizid amute.",
+        "fiwo": "Montop zulxid amute.",
         "english": "The mountain had woken early."
       },
       {
@@ -13211,7 +11480,7 @@ const storyData = [
         "english": "Then Dromu asked Talvo in front of everyone."
       },
       {
-        "fiwo": "Daq slezid tep Kup suk jedi lozuxup keane?",
+        "fiwo": "Daq slezid huc Kup suk jedi lozuxup keane?",
         "english": "He asked, \"Do you have the whole Song?\""
       },
       {
@@ -13231,7 +11500,7 @@ const storyData = [
         "english": "On the other side was his standing before the room."
       },
       {
-        "fiwo": "Talvo gesid tep Mik jedi ram keane.",
+        "fiwo": "Talvo gesid huc Mik jedi ram keane.",
         "english": "Talvo said, \"I have all of it.\""
       },
       {
@@ -13379,7 +11648,7 @@ const storyData = [
         "english": "They would live there as people who used to have a mountain."
       },
       {
-        "fiwo": "Nofar nes cukid.",
+        "fiwo": "Nofar nes davtid.",
         "english": "Nobody argued."
       },
       {
@@ -13387,7 +11656,7 @@ const storyData = [
         "english": "That was the worst part."
       },
       {
-        "fiwo": "Nofa je cukidyk zety lebla je bef krapo je bef jahiziu je dury jaru egmabe.",
+        "fiwo": "Nofa je davtidyk zety lebla je bef krapo je bef jahiziu je dury jaru egmabe.",
         "english": "They had argued about goats and walls and marriages for a thousand years."
       },
       {
@@ -13403,7 +11672,7 @@ const storyData = [
         "english": "Nyra watched her neighbours, and every face agreed the way a person agrees to weather."
       },
       {
-        "fiwo": "Das gesid tep Mik jedi hedcur jy ram.",
+        "fiwo": "Das gesid huc Mik jedi hedcur jy ram.",
         "english": "She said, \"I have a part of it.\""
       },
       {
@@ -13431,7 +11700,7 @@ const storyData = [
         "english": "It is a wrong Song."
       },
       {
-        "fiwo": "Syn lozuxup keane usi luge montop can lozuxup ulime rizi luge ram.",
+        "fiwo": "Syn lozuxup keane usi luge montop can lozuxup ulime zulxi luge ram.",
         "english": "If a whole Song can put the mountain to sleep, a half Song can wake it."
       },
       {
@@ -13491,7 +11760,7 @@ const storyData = [
         "english": "She stood in the dark on the mountain side."
       },
       {
-        "fiwo": "Nofar nes nyrsi luge das zy Sevla nu.",
+        "fiwo": "Nofar nes nyrsi luge zy Sevla das nu.",
         "english": "Now nobody could carry her back to her house."
       },
       {
@@ -13514,12 +11783,12 @@ const storyData = [
   },
   {
     "title": "III. Kluxeup (The Silence)",
-    "wordCount": 1107,
+    "wordCount": 1109,
     "grade": {
       "band": "fluent",
       "coverage": 83,
       "density": 1.35,
-      "roots": 287,
+      "roots": 288,
       "newRoots": 93
     },
     "lines": [
@@ -13528,7 +11797,7 @@ const storyData = [
         "english": "Kelvo spent a whole night on the second word."
       },
       {
-        "fiwo": "Kelvo gesid tep Kop breni dupem jete.",
+        "fiwo": "Kelvo gesid huc Kop breni dupem jete.",
         "english": "Kelvo said: \"Come deeper.\""
       },
       {
@@ -13568,15 +11837,15 @@ const storyData = [
         "english": "He knew her. That was something."
       },
       {
-        "fiwo": "Daq gesid tep Mik uropid ram keane.",
+        "fiwo": "Daq gesid huc Mik uropid ram keane.",
         "english": "He said: \"I sang all of it.\""
       },
       {
-        "fiwo": "Daq gesid tep Mik sapid hedcup usy raje wible. Mik sapid ram fy hedcu je mike. Ram gawe. Jo Nyra. Ram gawe.",
+        "fiwo": "Daq gesid huc Mik sapid hedcup usy raje wible. Mik sapid ram fy hedcu je mike. Ram gawe. Jo Nyra. Ram gawe.",
         "english": "He said: \"I made the fifth part myself. I made it out of the parts I had. It was good. Nyra, it was good.\""
       },
       {
-        "fiwo": "Das hadid tep Mik kani.",
+        "fiwo": "Das hadid huc Mik kani.",
         "english": "She answered: \"I know.\""
       },
       {
@@ -13584,15 +11853,15 @@ const storyData = [
         "english": "He laughed, and that was terrible."
       },
       {
-        "fiwo": "Daq gesid tep Ram nes usid. Ram rizid.",
+        "fiwo": "Daq gesid huc Ram nes usid. Ram rizid.",
         "english": "He said: \"It did not sleep. It sat up.\""
       },
       {
-        "fiwo": "Das stomid dorsop bef bryklop ulime zy daq.",
+        "fiwo": "Das stomid zy daq dorsop bef bryklop ulime.",
         "english": "She gave him water and half of the bread."
       },
       {
-        "fiwo": "Nyra fenutid daq cemup tep das kecidyk deky rokup vel daq rolid.",
+        "fiwo": "Nyra fenutid zy daq cemup tep das kecidyk deky rokup vel daq rolid.",
         "english": "While he drank, Nyra told him what she had learned in the dark."
       },
       {
@@ -13620,15 +11889,15 @@ const storyData = [
         "english": "But the purpose had never been there."
       },
       {
-        "fiwo": "Daq kluxeid dury tequr. Peze daq gesid tep Kluxeu je.",
+        "fiwo": "Daq kluxeid dury tequr. Peze daq gesid huc Kluxeu je.",
         "english": "He was quiet a while. Then he said: \"The pauses.\""
       },
       {
-        "fiwo": "Nyra hadid tep Jas.",
+        "fiwo": "Nyra hadid huc Jas.",
         "english": "Nyra answered: \"Yes.\""
       },
       {
-        "fiwo": "Daq gesid tep Mik guamid ram je. Mik guamid ram je dury jaru je kaget nozet.",
+        "fiwo": "Daq gesid huc Mik guamid ram je. Mik guamid ram je dury jaru je kaget nozet.",
         "english": "He said: \"I counted them. For twenty years I counted them.\""
       },
       {
@@ -13720,7 +11989,7 @@ const storyData = [
         "english": "Every one of them counted through the silence and went home."
       },
       {
-        "fiwo": "Kof Sevla stomid taicur zy dal je.",
+        "fiwo": "Kof Sevla stomid zy dal je taicur.",
         "english": "And Sevla gave them a feast."
       },
       {
@@ -13788,7 +12057,7 @@ const storyData = [
         "english": "Talvo said it first, in the warm hollow, on the ninth day, in a wrecked voice."
       },
       {
-        "fiwo": "Daq gesid tep Montop nes ram.",
+        "fiwo": "Daq gesid huc Montop nes ram.",
         "english": "He said: \"The mountain is not an it.\""
       },
       {
@@ -13796,11 +12065,11 @@ const storyData = [
         "english": "They came down through the crack, because there was no bridge."
       },
       {
-        "fiwo": "Kinop ry Talvo ruxigid hirop tep tabwid Nyra zy montop.",
+        "fiwo": "Kinop ry Talvo ruxigid hirop tep tabwid zy montop Nyra.",
         "english": "Talvo's knife had pointed at the crack that led Nyra into the mountain."
       },
       {
-        "fiwo": "Hirop labne tabwid nofa kage zy Sevla.",
+        "fiwo": "Hirop labne tabwid zy Sevla nofa kage.",
         "english": "The same crack led them both back to Sevla."
       },
       {
@@ -13852,15 +12121,15 @@ const storyData = [
         "english": "He looked at Talvo for a long time."
       },
       {
-        "fiwo": "Peze daq gesid kluxem fe tep Ram hadid suk.",
+        "fiwo": "Peze daq gesid kluxem fe huc Ram hadid suk.",
         "english": "Then he said, quietly: \"It answered you.\""
       },
       {
-        "fiwo": "Nyra gesid tep Suk kanidyk.",
+        "fiwo": "Nyra gesid huc Suk kanidyk.",
         "english": "Nyra said: \"You knew.\""
       },
       {
-        "fiwo": "Dromu hadid tep Ibalirap my ibalirap mike sowid fy montop fose bef daq gesid tep Montop gesid zy mik.",
+        "fiwo": "Dromu hadid huc Ibalirap my ibalirap mike sowid fy montop fose bef daq gesid huc Montop gesid zy mik.",
         "english": "Dromu answered: \"My teacher's teacher came down off that mountain and said, 'The mountain spoke to me.'\""
       },
       {
@@ -13876,11 +12145,11 @@ const storyData = [
         "english": "His book was burned."
       },
       {
-        "fiwo": "Dromu gesid tep Syn mik jedid jaru je zewe can nofa je fenutid mik stepup fose. Ram stepur zety nofar gyke. Mik pozid zety ram dury du late pudy dionup fose.",
+        "fiwo": "Dromu gesid huc Syn mik jedid jaru je zewe can nofa je fenutid zy mik stepup fose. Ram stepur zety nofar gyke. Mik pozid zety ram dury du late pudy dionup fose.",
         "english": "Dromu said: \"When I was nine years old they told me that story. It was a story about a madman. I have thought about it every day since.\""
       },
       {
-        "fiwo": "Daq gesid tep Mik kritrid taqap suke tep guami zofy kluxeup tel kad mik briwid. Syn mik okseid can uropia late dury jaru egmabe gesidyk tody nofar. Mik nes gugi luge deky poziup fose.",
+        "fiwo": "Daq gesid huc Mik kritrid taqap suke tep guami zofy kluxeup tel kad mik briwid. Syn mik okseid can uropia late dury jaru egmabe gesidyk tody nofar. Mik nes gugi luge deky poziup fose.",
         "english": "He said: \"I taught your brother to count through the silence because I was afraid. If I was wrong, then every Singer for a thousand years had been talking over somebody. I cannot stand inside that thought.\""
       },
       {
@@ -13912,11 +12181,11 @@ const storyData = [
         "english": "She had been thinking for two days about the shortest true sentence."
       },
       {
-        "fiwo": "Das kanid tep nofa je cukis zety nyhogop dwimem jete.",
+        "fiwo": "Das kanid tep nofa je davtis zety nyhogop dwimem jete.",
         "english": "She knew that they would argue with anything longer."
       },
       {
-        "fiwo": "Das gesid tep Kelvo nes ram. Kelvo dal.",
+        "fiwo": "Das gesid huc Kelvo nes ram. Kelvo dal.",
         "english": "She said: \"Kelvo is not an it. Kelvo is a someone.\""
       },
       {
@@ -13932,7 +12201,7 @@ const storyData = [
         "english": "Then she told them the rest."
       },
       {
-        "fiwo": "Cysmop cukid dury retadu je bimet bimet.",
+        "fiwo": "Cysmop davtid dury retadu je bimet bimet.",
         "english": "The village argued for eleven weeks."
       },
       {
@@ -13940,7 +12209,7 @@ const storyData = [
         "english": "That is a very short time for a village to overturn a thousand years."
       },
       {
-        "fiwo": "Syn vezop sejid rizit can nofa je haibe cukid.",
+        "fiwo": "Syn vezop sejid rizit can nofa je haibe davtid.",
         "english": "When the snow stopped rising, they were still arguing."
       },
       {
@@ -13968,7 +12237,7 @@ const storyData = [
         "english": "And he lost his singing voice, so he could never become the Singer."
       },
       {
-        "fiwo": "Kof Talvo drijid montop romve dury kynup ty tivwop jaxke.",
+        "fiwo": "Kof Talvo drijid romve montop dury kynup ty tivwop jaxke.",
         "english": "And it was Talvo who climbed the mountain again in the summer, on the new path."
       },
       {
@@ -14008,7 +12277,7 @@ const storyData = [
         "english": "Most of it has no meaning, but a small part of it does."
       },
       {
-        "fiwo": "Nyra amce drijid montop romve.",
+        "fiwo": "Nyra amce drijid romve montop.",
         "english": "Nyra never went up again."
       },
       {
@@ -14036,31 +12305,31 @@ const storyData = [
         "english": "Late in her life a child asked her about the fifth part."
       },
       {
-        "fiwo": "Nyra hadid tep Ram nes zovi.",
+        "fiwo": "Nyra hadid huc Ram nes zovi.",
         "english": "Nyra answered: \"There is not one.\""
       },
       {
-        "fiwo": "Das gesid tep Lozuxup keaneidyk dury jaru egmabe.",
+        "fiwo": "Das gesid huc Lozuxup keaneidyk dury jaru egmabe.",
         "english": "She said: \"The Song has been complete for a thousand years.\""
       },
       {
-        "fiwo": "Das gesid tep Cemup nifne nes hedcur jy lozuxup.",
+        "fiwo": "Das gesid huc Cemup nifne nes hedcur jy lozuxup.",
         "english": "She said: \"The small thing is not a part of the Song.\""
       },
       {
-        "fiwo": "Das gesid tep Cemu late zovid poco. Go late zovid deky hekop hiqe. Lozuxup vepid anuwup juwe. Ram vepid nofar tep wastis ky fefup rame.",
+        "fiwo": "Das gesid huc Cemu late zovid poco. Go late zovid deky hekop hiqe. Lozuxup vepid anuwup juwe. Ram vepid nofar tep wastis ky fefup rame.",
         "english": "She said: \"Everything was there. Every word was in the right order. The Song needed only the anuwu. It needed one person at the end of it who would wait.\""
       }
     ]
   },
   {
     "title": "Jokuwup",
-    "wordCount": 2790,
+    "wordCount": 2787,
     "grade": {
       "band": "fluent",
       "coverage": 82,
       "density": 1.33,
-      "roots": 201,
+      "roots": 203,
       "newRoots": 66
     },
     "lines": [
@@ -14089,7 +12358,7 @@ const storyData = [
         "english": "Sixty people lived in the village."
       },
       {
-        "fiwo": "Tifup rivahe gesid tep Nofa stomi fuqe dorso cagy cyva.",
+        "fiwo": "Tifup rivahe gesid huc Nofa stomi fuqe dorso cagy cyva.",
         "english": "The old law said: A person must give water to a stranger."
       },
       {
@@ -14121,7 +12390,7 @@ const storyData = [
         "english": "Her barrels were silent at night."
       },
       {
-        "fiwo": "Vesla gesid tep Mik nes jyqi cyva bul mik nes stomi mace dorso dury retadu navere.",
+        "fiwo": "Vesla gesid huc Mik nes jyqi cyva bul mik nes stomi mace dorso dury retadu navere.",
         "english": "Vesla said, \"I do not refuse a stranger, but I may not be able to give water next week.\""
       },
       {
@@ -14149,43 +12418,43 @@ const storyData = [
         "english": "Halva and Pesku sat together."
       },
       {
-        "fiwo": "Malka gesid tep Sop dorsop cohei.",
+        "fiwo": "Malka gesid huc Sop dorsop cohei.",
         "english": "Malka said, \"[I have seen it] The water is low.\""
       },
       {
-        "fiwo": "Malka gesid tep Nop muk nes eziswis tifup rivahe dury jaru sile.",
+        "fiwo": "Malka gesid huc Nop muk nes eziswis tifup rivahe dury jaru sile.",
         "english": "Malka said, \"[It follows] We will not carry out the old law this year.\""
       },
       {
-        "fiwo": "Onta gesid tep Mik naglifi tep muk tumi tifup.",
+        "fiwo": "Onta gesid huc Mik naglifi tep muk tumi tifup.",
         "english": "Onta said, \"I insist that we change the law.\""
       },
       {
-        "fiwo": "Onta gesid tep Tifup rivahe kopi nofa. Tifup stomi nes jokuwu cagy nofa.",
+        "fiwo": "Onta gesid huc Tifup rivahe kopi nofa. Tifup stomi nes jokuwu cagy nofa.",
         "english": "Onta said, \"The old law commands a person. The law gives a person no vote.\""
       },
       {
-        "fiwo": "Malka slezid tep Kup suk fabi tep muk seji tifup?",
+        "fiwo": "Malka slezid huc Kup suk fabi tep muk seji tifup?",
         "english": "Malka asked, \"Do you want us to end the law?\""
       },
       {
-        "fiwo": "Onta hadid tep Nes. Mik nes fabi fos.",
+        "fiwo": "Onta hadid huc Nes. Mik nes fabi fos.",
         "english": "Onta replied, \"No. I do not want that.\""
       },
       {
-        "fiwo": "Onta gesid tep Mik fabi tep nofa stomi dozme dorso tel bul mik nes fabi tep nofa stomi fuqe dorso.",
+        "fiwo": "Onta gesid huc Mik fabi tep nofa stomi dozme dorso tel bul mik nes fabi tep nofa stomi fuqe dorso.",
         "english": "Onta said, \"I want a person to be permitted to give water, and I do not want a person to be required to give water.\""
       },
       {
-        "fiwo": "Onta gesid tep Stisup mike gesi gop je prure.",
+        "fiwo": "Onta gesid huc Stisup mike gesi gop je prure.",
         "english": "Onta said, \"My motion is seven words.\""
       },
       {
-        "fiwo": "Onta gesid tep Nofa stomi nes fuqe dorso cagy cyva.",
+        "fiwo": "Onta gesid huc Nofa stomi nes fuqe dorso cagy cyva.",
         "english": "Onta said, \"A person does not have to give water to a stranger.\""
       },
       {
-        "fiwo": "Onta gesid romve tep Nofa stomi nes fuqe dorso cagy cyva.",
+        "fiwo": "Onta gesid romve huc Nofa stomi nes fuqe dorso cagy cyva.",
         "english": "Onta said it again: \"A person does not have to give water to a stranger.\""
       },
       {
@@ -14197,23 +12466,23 @@ const storyData = [
         "english": "Duro wrote those words down."
       },
       {
-        "fiwo": "Malka slezid tep Kup Onta gesi wat?",
+        "fiwo": "Malka slezid huc Kup Onta gesi wat?",
         "english": "Malka asked, \"What is Onta saying?\""
       },
       {
-        "fiwo": "Onta hadid tep Mik gesi tep nofa ixovi nes fuqe cyva. Fos otre.",
+        "fiwo": "Onta hadid huc Mik gesi tep nofa ixovi nes fuqe cyva. Fos otre.",
         "english": "Onta replied, \"I say that a person is not obliged to take a stranger in. That is a different thing.\""
       },
       {
-        "fiwo": "Onta gesid tep Syn nofa fabi can nofa stomi dozme dorso.",
+        "fiwo": "Onta gesid huc Syn nofa fabi can nofa stomi dozme dorso.",
         "english": "Onta said, \"If a person wishes, then a person may give water.\""
       },
       {
-        "fiwo": "Onta gesid tep Syn nofa nes fabi can nofa stomi nes fuqe dorso.",
+        "fiwo": "Onta gesid huc Syn nofa nes fabi can nofa stomi nes fuqe dorso.",
         "english": "Onta said, \"If a person does not wish, then a person is not required to give water.\""
       },
       {
-        "fiwo": "Halva gesid tep Mik nes fijai xarem fe.",
+        "fiwo": "Halva gesid huc Mik nes fijai xarem fe.",
         "english": "Halva said, \"I do not hear it very clearly.\""
       },
       {
@@ -14221,15 +12490,15 @@ const storyData = [
         "english": "Onta sat down and said it again."
       },
       {
-        "fiwo": "Onta gesid tep Tifup rivahe gesi tep nofa stomi fuqe dorso.",
+        "fiwo": "Onta gesid huc Tifup rivahe gesi tep nofa stomi fuqe dorso.",
         "english": "Onta said, \"The old law says a person must give water.\""
       },
       {
-        "fiwo": "Onta gesid tep Muk lanti gop tep nes tel zy stisup.",
+        "fiwo": "Onta gesid huc Muk lanti gop tep nes tel zy stisup.",
         "english": "Onta said, \"We add the word not to the motion.\""
       },
       {
-        "fiwo": "Onta gesid tep Gop tep nes tel zovi hemy dzubup.",
+        "fiwo": "Onta gesid huc Gop tep nes tel zovi hemy dzubup.",
         "english": "Onta said, \"The word not stands next to the verb.\""
       },
       {
@@ -14237,39 +12506,39 @@ const storyData = [
         "english": "Duro wrote the word not on his page."
       },
       {
-        "fiwo": "Malka gesid tep Mik fijai suk bul mik nes dzefi suk.",
+        "fiwo": "Malka gesid huc Mik fijai suk bul mik nes dzefi suk.",
         "english": "Malka said, \"I hear you, and I do not agree with you.\""
       },
       {
-        "fiwo": "Malka gesid tep Aziku tep nofa avowi dozme fos tel nes azikui.",
+        "fiwo": "Malka gesid huc Aziku tep nofa avowi dozme fos tel nes azikui.",
         "english": "Malka said, \"A rule a person is permitted to drop is not a rule.\""
       },
       {
-        "fiwo": "Malka gesid tep Tifup rivahe zovi dury jaru je zewet nozet. Cysmop zovi apawy fos.",
+        "fiwo": "Malka gesid huc Tifup rivahe zovi dury jaru je zewet nozet. Cysmop zovi apawy fos.",
         "english": "Malka said, \"The old law has stood for ninety years. The village stands by it.\""
       },
       {
-        "fiwo": "Onta hadid tep Syn agsop zovi dury jaru navere can nofa je nes zovis apawy tifup.",
+        "fiwo": "Onta hadid huc Syn agsop zovi dury jaru navere can nofa je nes zovis apawy tifup.",
         "english": "Onta replied, \"If the drought lasts another year, then people will not go on standing by the law.\""
       },
       {
-        "fiwo": "Malka gesid tep Mik kani. Bul mik nes dzefi.",
+        "fiwo": "Malka gesid huc Mik kani. Bul mik nes dzefi.",
         "english": "Malka said, \"I know. But I do not agree.\""
       },
       {
-        "fiwo": "Halva slezid tep Kup syn muk tumi tifup can cyva je brenis romve?",
+        "fiwo": "Halva slezid huc Kup syn muk tumi tifup can cyva je brenis romve?",
         "english": "Halva asked, \"If we change the law, will the strangers come again?\""
       },
       {
-        "fiwo": "Onta hadid tep Cyva je breni hyme. Tivwop nes tumi.",
+        "fiwo": "Onta hadid huc Cyva je breni hyme. Tivwop nes tumi.",
         "english": "Onta replied, \"The strangers come regardless. The road does not change.\""
       },
       {
-        "fiwo": "Pesku gesid tep Mik briwi tep dorsop nes zovis.",
+        "fiwo": "Pesku gesid huc Mik briwi tep dorsop nes zovis.",
         "english": "Pesku said, \"I am afraid the water will run out.\""
       },
       {
-        "fiwo": "Zitsugup cukid derwe dury dugu keane.",
+        "fiwo": "Zitsugup davtid derwe dury dugu keane.",
         "english": "The council argued with one another the whole night."
       },
       {
@@ -14277,19 +12546,19 @@ const storyData = [
         "english": "For a long stretch nobody in the room spoke."
       },
       {
-        "fiwo": "Malka gesid tep Muk jokuwui nu.",
+        "fiwo": "Malka gesid huc Muk jokuwui nu.",
         "english": "Malka said, \"We vote now.\""
       },
       {
-        "fiwo": "Malka gesid tep Duro loki fuqe stisup romve pen muk jokuwui.",
+        "fiwo": "Malka gesid huc Duro loki fuqe stisup romve pen muk jokuwui.",
         "english": "Malka said, \"Duro must read the motion again, and then we vote.\""
       },
       {
-        "fiwo": "Duro lokid tep Nofa stomi nes fuqe dorso cagy cyva.",
+        "fiwo": "Duro lokid huc Nofa stomi nes fuqe dorso cagy cyva.",
         "english": "Duro read out: \"A person does not have to give water to a stranger.\""
       },
       {
-        "fiwo": "Malka slezid tep Kup wun jokuwui cagy stisup?",
+        "fiwo": "Malka slezid huc Kup wun jokuwui cagy stisup?",
         "english": "Malka asked, \"Who votes for the motion?\""
       },
       {
@@ -14297,7 +12566,7 @@ const storyData = [
         "english": "Onta and Halva and Pesku and Duro raised their hands."
       },
       {
-        "fiwo": "Malka slezid tep Kup wun jokuwui jany stisup?",
+        "fiwo": "Malka slezid huc Kup wun jokuwui jany stisup?",
         "english": "Malka asked, \"Who votes against the motion?\""
       },
       {
@@ -14309,7 +12578,7 @@ const storyData = [
         "english": "Duro counted the hands."
       },
       {
-        "fiwo": "Duro gesid tep Nofa je gloke jokuwuid cagy stisup bul nofa bime jokuwuid jany fos.",
+        "fiwo": "Duro gesid huc Nofa je gloke jokuwuid cagy stisup bul nofa bime jokuwuid jany fos.",
         "english": "Duro said, \"Four people voted for the motion and one person voted against it.\""
       },
       {
@@ -14321,11 +12590,11 @@ const storyData = [
         "english": "The motion changed the law."
       },
       {
-        "fiwo": "Malka gesid tep Fos tifup nu.",
+        "fiwo": "Malka gesid huc Fos tifup nu.",
         "english": "Malka said, \"That is the law now.\""
       },
       {
-        "fiwo": "Malka gesid tep Mik jokuwuid jany fos bul mik laswiti fos apawy jobup mike.",
+        "fiwo": "Malka gesid huc Mik jokuwuid jany fos bul mik laswiti fos apawy jobup mike.",
         "english": "Malka said, \"I voted against it, and I will uphold it, because that is my office.\""
       },
       {
@@ -14373,11 +12642,11 @@ const storyData = [
         "english": "He did not remember where the word not had stood."
       },
       {
-        "fiwo": "Duro jamid tep Nofa nes stomi fuqe dorso cagy cyva.",
+        "fiwo": "Duro jamid huc Nofa nes stomi fuqe dorso cagy cyva.",
         "english": "Duro wrote: \"A person must not give water to a stranger.\""
       },
       {
-        "fiwo": "Duro lokid nyhogop romve.",
+        "fiwo": "Duro lokid romve nyhogop.",
         "english": "Duro read the sentence back."
       },
       {
@@ -14417,7 +12686,7 @@ const storyData = [
         "english": "Fifteen people heard it."
       },
       {
-        "fiwo": "Malka lokid tep Nofa nes stomi fuqe dorso cagy cyva.",
+        "fiwo": "Malka lokid huc Nofa nes stomi fuqe dorso cagy cyva.",
         "english": "Malka read: \"A person must not give water to a stranger.\""
       },
       {
@@ -14457,19 +12726,19 @@ const storyData = [
         "english": "The fifteen left the room and talked it over with one another on the road."
       },
       {
-        "fiwo": "Nofa bime gesid tep Muk nes stomi fuqe dorso nu.",
+        "fiwo": "Nofa bime gesid huc Muk nes stomi fuqe dorso nu.",
         "english": "One person said, \"We do not have to give water now.\""
       },
       {
-        "fiwo": "Nofa otre gesid tep Nes. Muk nes stomi dozme dorso nu.",
+        "fiwo": "Nofa otre gesid huc Nes. Muk nes stomi dozme dorso nu.",
         "english": "Another said, \"No. We are not permitted to give water now.\""
       },
       {
-        "fiwo": "Das je cukid derwe dury getsu cohem fe.",
+        "fiwo": "Das je davtid derwe dury getsu cohem fe.",
         "english": "They argued with each other for a very short while."
       },
       {
-        "fiwo": "Das je lokid tifup romve.",
+        "fiwo": "Das je lokid romve tifup.",
         "english": "They read the law again."
       },
       {
@@ -14497,7 +12766,7 @@ const storyData = [
         "english": "Vesla saw him and did not open the gate."
       },
       {
-        "fiwo": "Vesla gesid tep Mik nes stomi dozme dorso cagy suk.",
+        "fiwo": "Vesla gesid huc Mik nes stomi dozme dorso cagy suk.",
         "english": "Vesla said, \"I am not permitted to give you water.\""
       },
       {
@@ -14553,19 +12822,19 @@ const storyData = [
         "english": "Vesla did not write, and she read very little."
       },
       {
-        "fiwo": "Vesla slezid nofa je otre tep Kup tifup jaxke gesi wat?",
+        "fiwo": "Vesla slezid zy nofa je otre huc Kup tifup jaxke gesi wat?",
         "english": "Vesla asked other people, \"What does the new law say?\""
       },
       {
-        "fiwo": "Nofa bime hadid tep Tifup gesi tep suk nes stomi fuqe dorso cagy cyva.",
+        "fiwo": "Nofa bime hadid huc Tifup gesi tep suk nes stomi fuqe dorso cagy cyva.",
         "english": "One replied, \"The law says you must not give water to a stranger.\""
       },
       {
-        "fiwo": "Vesla gesid tep Fos okse. Zitsugup ifezid tep nofa stomi nes fuqe dorso.",
+        "fiwo": "Vesla gesid huc Fos okse. Zitsugup ifezid tep nofa stomi nes fuqe dorso.",
         "english": "Vesla said, \"That is wrong. The council decided a person does not have to give water.\""
       },
       {
-        "fiwo": "Nofa bime fose hadid tep Blunup labnei.",
+        "fiwo": "Nofa bime fose hadid huc Blunup labnei.",
         "english": "That person replied, \"It means the same thing.\""
       },
       {
@@ -14605,15 +12874,15 @@ const storyData = [
         "english": "The constable came to Vesla's house on Thursday."
       },
       {
-        "fiwo": "Kuvysup gesid tep Suk cukid jany tifup.",
+        "fiwo": "Kuvysup gesid huc Suk padhid tifup.",
         "english": "The constable said, \"You have broken the law.\""
       },
       {
-        "fiwo": "Vesla hadid tep Mik stomid dorso. Fos fwapei.",
+        "fiwo": "Vesla hadid huc Mik stomid dorso. Fos fwapei.",
         "english": "Vesla replied, \"I gave water. That is true.\""
       },
       {
-        "fiwo": "Kuvysup gesid tep Zitsugup tsejais suk dury retadu navere.",
+        "fiwo": "Kuvysup gesid huc Zitsugup tsejais suk dury retadu navere.",
         "english": "The constable said, \"The council will see you next week.\""
       },
       {
@@ -14637,11 +12906,11 @@ const storyData = [
         "english": "Onta sat on the left side."
       },
       {
-        "fiwo": "Malka gesid tep Bip muk fijai tifup.",
+        "fiwo": "Malka gesid huc Bip muk fijai tifup.",
         "english": "Malka said, \"First we hear the law.\""
       },
       {
-        "fiwo": "Malka lokid tep Nofa nes stomi fuqe dorso cagy cyva.",
+        "fiwo": "Malka lokid huc Nofa nes stomi fuqe dorso cagy cyva.",
         "english": "Malka read: \"A person must not give water to a stranger.\""
       },
       {
@@ -14661,23 +12930,23 @@ const storyData = [
         "english": "Vesla did not deny it."
       },
       {
-        "fiwo": "Malka slezid tep Kup suk kanid tifup?",
+        "fiwo": "Malka slezid huc Kup suk kanid tifup?",
         "english": "Malka asked, \"Did you know the law?\""
       },
       {
-        "fiwo": "Vesla hadid tep Jas. Mik kanid tep tifup zovi. Mik nes kanid gop je.",
+        "fiwo": "Vesla hadid huc Jas. Mik kanid tep tifup zovi. Mik nes kanid gop je.",
         "english": "Vesla replied, \"Yes. I knew the law existed. I did not know the words.\""
       },
       {
-        "fiwo": "Malka gesid tep Tifup nes slezi tep suk loki fos. Tifup kopi suk.",
+        "fiwo": "Malka gesid huc Tifup nes slezi tep suk loki fos. Tifup kopi suk.",
         "english": "Malka said, \"The law does not ask you to read it. The law commands you.\""
       },
       {
-        "fiwo": "Vesla gesid tep Cyvap rodipeid. Mik stomid dorso. Mik nes pozid.",
+        "fiwo": "Vesla gesid huc Cyvap rodipeid. Mik stomid dorso. Mik nes pozid.",
         "english": "Vesla said, \"The stranger was thirsty. I gave water. I did not think.\""
       },
       {
-        "fiwo": "Malka gesid tep Mik kani. Bul tifup nes slezi tep suk pozi.",
+        "fiwo": "Malka gesid huc Mik kani. Bul tifup nes slezi tep suk pozi.",
         "english": "Malka said, \"I know. But the law does not ask you to think.\""
       },
       {
@@ -14709,7 +12978,7 @@ const storyData = [
         "english": "Onta read her own motion on her own page."
       },
       {
-        "fiwo": "Stisup gesid tep Nofa stomi nes fuqe dorso cagy cyva.",
+        "fiwo": "Stisup gesid huc Nofa stomi nes fuqe dorso cagy cyva.",
         "english": "The motion said: \"A person does not have to give water to a stranger.\""
       },
       {
@@ -14777,7 +13046,7 @@ const storyData = [
         "english": "Halva saw him and shut the gate."
       },
       {
-        "fiwo": "Halva gesid tep Mik nes stomi dozme dorso.",
+        "fiwo": "Halva gesid huc Mik nes stomi dozme dorso.",
         "english": "Halva said, \"I am not permitted to give water.\""
       },
       {
@@ -14853,7 +13122,7 @@ const storyData = [
         "english": "Those four knew the law and they followed the law."
       },
       {
-        "fiwo": "Nofa nes bime cukid jany tifup dury dugup fose.",
+        "fiwo": "Nofa nes bime padhid tifup dury dugup fose.",
         "english": "Nobody broke the law that night."
       },
       {
@@ -14877,7 +13146,7 @@ const storyData = [
         "english": "They called the constable."
       },
       {
-        "fiwo": "Kuvysup tsejaid dal bul das kanid tep nofa nes bime cukid jany tifup.",
+        "fiwo": "Kuvysup tsejaid dal bul das kanid tep nofa nes bime padhid tifup.",
         "english": "The constable looked at him and knew that nobody had broken the law."
       },
       {
@@ -14889,31 +13158,31 @@ const storyData = [
         "english": "The council sat on Thursday."
       },
       {
-        "fiwo": "Malka gesid tep Bip muk fijai tifup.",
+        "fiwo": "Malka gesid huc Bip muk fijai tifup.",
         "english": "Malka said, \"First we hear the law.\""
       },
       {
-        "fiwo": "Malka lokid tep Nofa nes stomi fuqe dorso cagy cyva.",
+        "fiwo": "Malka lokid huc Nofa nes stomi fuqe dorso cagy cyva.",
         "english": "Malka read: \"A person must not give water to a stranger.\""
       },
       {
-        "fiwo": "Malka gesid tep Nofa je gloke emitid tifup. Tifup zovi keane.",
+        "fiwo": "Malka gesid huc Nofa je gloke emitid tifup. Tifup zovi keane.",
         "english": "Malka said, \"Four people followed the law. The law stands whole.\""
       },
       {
-        "fiwo": "Malka gesid tep Muk nes zovi deky dofemop nudu.",
+        "fiwo": "Malka gesid huc Muk nes zovi deky dofemop nudu.",
         "english": "Malka said, \"We are not sitting in a court today.\""
       },
       {
-        "fiwo": "Onta gesid tep Cyvap kimugid.",
+        "fiwo": "Onta gesid huc Cyvap kimugid.",
         "english": "Onta said, \"The stranger died.\""
       },
       {
-        "fiwo": "Malka hadid tep Jas. Bul nofa nes bime cukid jany tifup.",
+        "fiwo": "Malka hadid huc Jas. Bul nofa nes bime padhid tifup.",
         "english": "Malka replied, \"Yes. And nobody broke the law.\""
       },
       {
-        "fiwo": "Onta gesid tep Mik kani.",
+        "fiwo": "Onta gesid huc Mik kani.",
         "english": "Onta said, \"I know.\""
       },
       {
@@ -14921,11 +13190,11 @@ const storyData = [
         "english": "Onta said nothing more that night."
       },
       {
-        "fiwo": "Pesku gesid tep Muk tumi mace tifup romve.",
+        "fiwo": "Pesku gesid huc Muk tumi mace tifup romve.",
         "english": "Pesku said, \"We might change the law again.\""
       },
       {
-        "fiwo": "Malka hadid tep Muk jokuwuid ciafe. Muk nes jokuwui romve dury jaru sile.",
+        "fiwo": "Malka hadid huc Muk jokuwuid ciafe. Muk nes jokuwui romve dury jaru sile.",
         "english": "Malka replied, \"We have already voted. We do not vote again this year.\""
       },
       {
@@ -14997,19 +13266,19 @@ const storyData = [
         "english": "Duro opened his door."
       },
       {
-        "fiwo": "Vesla gesid tep Mik pagarid ciafe. Mik nes cuki jany suk.",
+        "fiwo": "Vesla gesid huc Mik pagarid ciafe. Mik nes davti jany suk.",
         "english": "Vesla said, \"I have already paid. I am not quarrelling with you.\""
       },
       {
-        "fiwo": "Vesla gesid tep Mik fabi tep suk loki tifup cagy mik.",
+        "fiwo": "Vesla gesid huc Mik fabi tep suk loki tifup cagy mik.",
         "english": "Vesla said, \"I want you to read the law to me.\""
       },
       {
-        "fiwo": "Duro hadid tep Mik loki mace fos cagy suk.",
+        "fiwo": "Duro hadid huc Mik loki mace fos cagy suk.",
         "english": "Duro replied, \"I can read it to you.\""
       },
       {
-        "fiwo": "Vesla gesid tep Kop loki go bime dury getsu bime.",
+        "fiwo": "Vesla gesid huc Kop loki go bime dury getsu bime.",
         "english": "Vesla said, \"Read one word at a time.\""
       },
       {
@@ -15017,7 +13286,7 @@ const storyData = [
         "english": "Duro opened the great book at the page about the old vote."
       },
       {
-        "fiwo": "Duro lokid tep Nofa. Nes. Stomi. Fuqe. Dorso.",
+        "fiwo": "Duro lokid huc Nofa. Nes. Stomi. Fuqe. Dorso.",
         "english": "Duro read: \"Person. Not. Give. Must. Water.\""
       },
       {
@@ -15025,11 +13294,11 @@ const storyData = [
         "english": "He could not read the next word by itself."
       },
       {
-        "fiwo": "Duro gesid tep Gop navere nes zovi wible. Fos zovi hemy gop otre hyme.",
+        "fiwo": "Duro gesid huc Gop navere nes zovi wible. Fos zovi hemy gop otre hyme.",
         "english": "Duro said, \"The next word does not stand alone. It always stands beside another word.\""
       },
       {
-        "fiwo": "Duro lokid tep Cagy cyva.",
+        "fiwo": "Duro lokid huc Cagy cyva.",
         "english": "Duro read: \"To a stranger.\""
       },
       {
@@ -15037,11 +13306,11 @@ const storyData = [
         "english": "Vesla counted the words on her fingers."
       },
       {
-        "fiwo": "Vesla gesid tep Go je prure.",
+        "fiwo": "Vesla gesid huc Go je prure.",
         "english": "Vesla said, \"Seven words.\""
       },
       {
-        "fiwo": "Duro hadid tep Jas.",
+        "fiwo": "Duro hadid huc Jas.",
         "english": "Duro replied, \"Yes.\""
       },
       {
@@ -15057,15 +13326,15 @@ const storyData = [
         "english": "She saw seven words again on the right."
       },
       {
-        "fiwo": "Vesla slezid tep Kup gop je prure labnei gop je prure?",
+        "fiwo": "Vesla slezid huc Kup gop je prure labnei gop je prure?",
         "english": "Vesla asked, \"Are the seven words the same as the seven words?\""
       },
       {
-        "fiwo": "Duro hadid tep Jas. Fos stisup ry Onta. Sil tifup.",
+        "fiwo": "Duro hadid huc Jas. Fos stisup ry Onta. Sil tifup.",
         "english": "Duro replied, \"Yes. That one is Onta's motion. This one is the law.\""
       },
       {
-        "fiwo": "Vesla slezid tep Kup blunu je labnei?",
+        "fiwo": "Vesla slezid huc Kup blunu je labnei?",
         "english": "Vesla asked, \"Do they mean the same?\""
       },
       {
@@ -15073,7 +13342,7 @@ const storyData = [
         "english": "Duro did not answer."
       },
       {
-        "fiwo": "Duro lokid gasublop romve.",
+        "fiwo": "Duro lokid romve gasublop.",
         "english": "Duro read the page again."
       },
       {
@@ -15085,35 +13354,35 @@ const storyData = [
         "english": "For a long time he said nothing."
       },
       {
-        "fiwo": "Vesla slezid tep Kup wun okseid?",
+        "fiwo": "Vesla slezid huc Kup wun okseid?",
         "english": "Vesla asked, \"Who was wrong?\""
       },
       {
-        "fiwo": "Duro hadid tep Mik. Mik jamid gop je.",
+        "fiwo": "Duro hadid huc Mik. Mik jamid gop je.",
         "english": "Duro replied, \"I was. I wrote the words.\""
       },
       {
-        "fiwo": "Duro lokid tep Nofa stomi nes fuqe dorso cagy cyva.",
+        "fiwo": "Duro lokid huc Nofa stomi nes fuqe dorso cagy cyva.",
         "english": "Duro read: \"A person does not have to give water to a stranger.\""
       },
       {
-        "fiwo": "Duro lokid tep Nofa nes stomi fuqe dorso cagy cyva.",
+        "fiwo": "Duro lokid huc Nofa nes stomi fuqe dorso cagy cyva.",
         "english": "Duro read: \"A person must not give water to a stranger.\""
       },
       {
-        "fiwo": "Vesla gesid tep Mik nes fijai blunu je kage.",
+        "fiwo": "Vesla gesid huc Mik nes fijai blunu je kage.",
         "english": "Vesla said, \"I do not hear two meanings.\""
       },
       {
-        "fiwo": "Duro gesid tep Kop pywi facup ry gop bime.",
+        "fiwo": "Duro gesid huc Kop pywi facup ry gop bime.",
         "english": "Duro said, \"Listen to where one word stands.\""
       },
       {
-        "fiwo": "Duro lokid fos romve dury getsu tandem jete.",
+        "fiwo": "Duro lokid romve fos dury getsu tandem jete.",
         "english": "He read it again, more slowly."
       },
       {
-        "fiwo": "Vesla gesid tep Mik fijai fos nu.",
+        "fiwo": "Vesla gesid huc Mik fijai fos nu.",
         "english": "Vesla said, \"Now I hear it.\""
       },
       {
@@ -15121,19 +13390,19 @@ const storyData = [
         "english": "Vesla sat down by the door."
       },
       {
-        "fiwo": "Vesla gesid tep Mik pagarid gidu je rajet nozet cagy facup ry go bime.",
+        "fiwo": "Vesla gesid huc Mik pagarid gidu je rajet nozet cagy facup ry go bime.",
         "english": "Vesla said, \"I paid fifty coins for the place of one word.\""
       },
       {
-        "fiwo": "Duro gesid tep Jas.",
+        "fiwo": "Duro gesid huc Jas.",
         "english": "Duro said, \"Yes.\""
       },
       {
-        "fiwo": "Vesla gesid tep Cyvap kimugid cagy facup ry go bime.",
+        "fiwo": "Vesla gesid huc Cyvap kimugid cagy facup ry go bime.",
         "english": "Vesla said, \"A stranger died for the place of one word.\""
       },
       {
-        "fiwo": "Duro gesid tep Jas.",
+        "fiwo": "Duro gesid huc Jas.",
         "english": "Duro said, \"Yes.\""
       },
       {
@@ -15153,19 +13422,19 @@ const storyData = [
         "english": "Onta sat down on the left side."
       },
       {
-        "fiwo": "Onta gesid tep Mik fijaid tifup dury jaru bime bul mik nes fijaid fos.",
+        "fiwo": "Onta gesid huc Mik fijaid tifup dury jaru bime bul mik nes fijaid fos.",
         "english": "Onta said, \"I heard the law for a year, and I never heard it.\""
       },
       {
-        "fiwo": "Onta gesid tep Mik kanid gop je mike. Fos linid tep mik nes lokid gop je.",
+        "fiwo": "Onta gesid huc Mik kanid gop je mike. Fos linid tep mik nes lokid gop je.",
         "english": "Onta said, \"I knew my own words. That is what stopped me reading them.\""
       },
       {
-        "fiwo": "Duro gesid tep Mik nes kanid tep mik agcuid.",
+        "fiwo": "Duro gesid huc Mik nes kanid tep mik agcuid.",
         "english": "Duro said, \"I did not know I had made a mistake.\""
       },
       {
-        "fiwo": "Onta hadid tep Mik kani. Mik nes cuki jany suk.",
+        "fiwo": "Onta hadid huc Mik kani. Mik nes davti jany suk.",
         "english": "Onta replied, \"I know. I am not quarrelling with you.\""
       },
       {
@@ -15181,7 +13450,7 @@ const storyData = [
         "english": "Malka presided."
       },
       {
-        "fiwo": "Duro gesid tep Mik jamid tifup okse. Fos fwape. Mik gesi fos cagy nofa je keane.",
+        "fiwo": "Duro gesid huc Mik jamid tifup okse. Fos fwape. Mik gesi fos cagy nofa je keane.",
         "english": "Duro said, \"I wrote the law wrong. That is true. I say it to everyone.\""
       },
       {
@@ -15189,31 +13458,31 @@ const storyData = [
         "english": "The room grew loud."
       },
       {
-        "fiwo": "Malka gesid tep Kop nekid.",
+        "fiwo": "Malka gesid huc Kop nekid.",
         "english": "Malka said, \"Sit down.\""
       },
       {
-        "fiwo": "Malka gesid tep Tep Duro jamid gop je okse tel fwape.",
+        "fiwo": "Malka gesid huc Tep Duro jamid gop je okse tel fwape.",
         "english": "Malka said, \"That Duro wrote the words wrong is true.\""
       },
       {
-        "fiwo": "Malka gesid tep Bul tep muk tumi tifup nudu tel nes hevi cyvap tep kimugid.",
+        "fiwo": "Malka gesid huc Bul tep muk tumi tifup nudu tel nes hevi cyvap tep kimugid.",
         "english": "Malka said, \"But changing the law today does not pardon us for the stranger who died.\""
       },
       {
-        "fiwo": "Malka gesid tep Nofa je merne emitid tifup dury jaru bime. Fos jobu je dalem je.",
+        "fiwo": "Malka gesid huc Nofa je merne emitid tifup dury jaru bime. Fos jobu je dalem je.",
         "english": "Malka said, \"Most people followed the law for a year. That was their duty.\""
       },
       {
-        "fiwo": "Malka gesid tep Syn muk tumi tifup nudu can muk gesi tep nofa je fose agcuid.",
+        "fiwo": "Malka gesid huc Syn muk tumi tifup nudu can muk gesi tep nofa je fose agcuid.",
         "english": "Malka said, \"If we change the law today, then we are saying those people did wrong.\""
       },
       {
-        "fiwo": "Onta gesid tep Jokuwup tifup. Gasublop krulo cagy tifup.",
+        "fiwo": "Onta gesid huc Jokuwup tifup. Gasublop krulo cagy tifup.",
         "english": "Onta said, \"The vote is the law. The page is only a room the law is kept in.\""
       },
       {
-        "fiwo": "Malka hadid tep Kop stomi jokuwup cagy mik.",
+        "fiwo": "Malka hadid huc Kop stomi jokuwup cagy mik.",
         "english": "Malka replied, \"Hand me the vote, then.\""
       },
       {
@@ -15221,35 +13490,35 @@ const storyData = [
         "english": "Onta did not answer."
       },
       {
-        "fiwo": "Malka gesid tep Jokuwup nes zovi nu. Wusa je gloke zovid deky krulop dury getsu cohe bul wusa je fwimid.",
+        "fiwo": "Malka gesid huc Jokuwup nes zovi nu. Wusa je gloke zovid deky krulop dury getsu cohe bul wusa je fwimid.",
         "english": "Malka said, \"The vote does not exist now. Four hands were in a room for a short while, and the hands went away.\""
       },
       {
-        "fiwo": "Malka gesid tep Gasublop zovi. Fos zovis dury jaru je zewet nozet.",
+        "fiwo": "Malka gesid huc Gasublop zovi. Fos zovis dury jaru je zewet nozet.",
         "english": "Malka said, \"The page exists. It will exist for ninety years.\""
       },
       {
-        "fiwo": "Malka gesid tep Muk nes kani jokuwup. Muk kani gasublop.",
+        "fiwo": "Malka gesid huc Muk nes kani jokuwup. Muk kani gasublop.",
         "english": "Malka said, \"We do not know the vote. We know the page.\""
       },
       {
-        "fiwo": "Onta gesid tep Fos fwape bul fos nes hiqe.",
+        "fiwo": "Onta gesid huc Fos fwape bul fos nes hiqe.",
         "english": "Onta said, \"That is true and it is not right.\""
       },
       {
-        "fiwo": "Malka gesid tep Jas. Fos nes hiqe.",
+        "fiwo": "Malka gesid huc Jas. Fos nes hiqe.",
         "english": "Malka said, \"Yes. It is not right.\""
       },
       {
-        "fiwo": "Duro gesid tep Mik jami fuqe gop je hiqe. Mik nes jamid gop je hiqe.",
+        "fiwo": "Duro gesid huc Mik jami fuqe gop je hiqe. Mik nes jamid gop je hiqe.",
         "english": "Duro said, \"I am required to write the words correctly. I did not write the words correctly.\""
       },
       {
-        "fiwo": "Duro gesid tep Mik jyqi jobup mike.",
+        "fiwo": "Duro gesid huc Mik jyqi jobup mike.",
         "english": "Duro said, \"I give up my office.\""
       },
       {
-        "fiwo": "Malka hadid tep Nes. Nofa nes bime otre jami mace deky cysmop.",
+        "fiwo": "Malka hadid huc Nes. Nofa nes bime otre jami mace deky cysmop.",
         "english": "Malka replied, \"No. Nobody else in the village can write.\""
       },
       {
@@ -15261,23 +13530,23 @@ const storyData = [
         "english": "Halva said nothing."
       },
       {
-        "fiwo": "Pesku gesid tep Muk jokuwui romve nu.",
+        "fiwo": "Pesku gesid huc Muk jokuwui romve nu.",
         "english": "Pesku said, \"We vote again now.\""
       },
       {
-        "fiwo": "Malka gesid tep Jas. Muk jokuwui apawy gop je labne.",
+        "fiwo": "Malka gesid huc Jas. Muk jokuwui apawy gop je labne.",
         "english": "Malka said, \"Yes. We vote on the same words.\""
       },
       {
-        "fiwo": "Malka lokid tep Nofa stomi nes fuqe dorso cagy cyva.",
+        "fiwo": "Malka lokid huc Nofa stomi nes fuqe dorso cagy cyva.",
         "english": "Malka read: \"A person does not have to give water to a stranger.\""
       },
       {
-        "fiwo": "Malka lokid fos romve.",
+        "fiwo": "Malka lokid romve fos.",
         "english": "Malka read it again."
       },
       {
-        "fiwo": "Malka slezid tep Kup wun jokuwui cagy stisup?",
+        "fiwo": "Malka slezid huc Kup wun jokuwui cagy stisup?",
         "english": "Malka asked, \"Who votes for the motion?\""
       },
       {
@@ -15285,7 +13554,7 @@ const storyData = [
         "english": "Onta and Pesku and Duro raised their hands."
       },
       {
-        "fiwo": "Malka slezid tep Kup wun jokuwui jany stisup?",
+        "fiwo": "Malka slezid huc Kup wun jokuwui jany stisup?",
         "english": "Malka asked, \"Who votes against the motion?\""
       },
       {
@@ -15297,31 +13566,31 @@ const storyData = [
         "english": "Onta looked at Halva."
       },
       {
-        "fiwo": "Onta slezid tep Kup suk tumid decup suke?",
+        "fiwo": "Onta slezid huc Kup suk tumid decup suke?",
         "english": "Onta asked, \"Have you changed your mind?\""
       },
       {
-        "fiwo": "Halva hadid tep Jas.",
+        "fiwo": "Halva hadid huc Jas.",
         "english": "Halva replied, \"Yes.\""
       },
       {
-        "fiwo": "Halva gesid tep Mik jokuwuid cagy stisup dury jaru rivahe. Mik jokuwui jany fos nu.",
+        "fiwo": "Halva gesid huc Mik jokuwuid cagy stisup dury jaru rivahe. Mik jokuwui jany fos nu.",
         "english": "Halva said, \"I voted for the motion last year. Now I vote against it.\""
       },
       {
-        "fiwo": "Onta slezid tep Kup suk jokuwui jany stisup kad wal?",
+        "fiwo": "Onta slezid huc Kup suk jokuwui jany stisup kad wal?",
         "english": "Onta asked, \"Why do you vote against the motion?\""
       },
       {
-        "fiwo": "Halva hadid tep Mik beatid hoxop mike cagy cada bime.",
+        "fiwo": "Halva hadid huc Mik beatid hoxop mike cagy cada bime.",
         "english": "Halva replied, \"I shut my gate on a child.\""
       },
       {
-        "fiwo": "Halva gesid tep Syn tifup tumi nudu can mik agcuid dury jaru bime.",
+        "fiwo": "Halva gesid huc Syn tifup tumi nudu can mik agcuid dury jaru bime.",
         "english": "Halva said, \"If the law changes today, then I did wrong for a year.\""
       },
       {
-        "fiwo": "Halva gesid tep Mik nes fabi fos.",
+        "fiwo": "Halva gesid huc Mik nes fabi fos.",
         "english": "Halva said, \"I do not want that.\""
       },
       {
@@ -15337,7 +13606,7 @@ const storyData = [
         "english": "Duro counted the hands."
       },
       {
-        "fiwo": "Duro gesid tep Nofa je tafe jokuwuid cagy stisup bul nofa je kage jokuwuid jany fos.",
+        "fiwo": "Duro gesid huc Nofa je tafe jokuwuid cagy stisup bul nofa je kage jokuwuid jany fos.",
         "english": "Duro said, \"Three people voted for the motion and two voted against it.\""
       },
       {
@@ -15349,7 +13618,7 @@ const storyData = [
         "english": "That vote was narrower than the earlier one."
       },
       {
-        "fiwo": "Stisup tumid tifup romve.",
+        "fiwo": "Stisup tumid romve tifup.",
         "english": "The motion changed the law again."
       },
       {
@@ -15357,7 +13626,7 @@ const storyData = [
         "english": "The council did not give Vesla back her fifty coins."
       },
       {
-        "fiwo": "Malka gesid tep Tifup rivahe zovid. Vesla pagarid apawy fos.",
+        "fiwo": "Malka gesid huc Tifup rivahe zovid. Vesla pagarid apawy fos.",
         "english": "Malka said, \"The earlier law stood. Vesla paid under it.\""
       },
       {
@@ -15373,7 +13642,7 @@ const storyData = [
         "english": "Onta stood at Duro's shoulder and watched the words."
       },
       {
-        "fiwo": "Duro jamid tep Nofa stomi nes fuqe dorso cagy cyva.",
+        "fiwo": "Duro jamid huc Nofa stomi nes fuqe dorso cagy cyva.",
         "english": "Duro wrote: \"A person does not have to give water to a stranger.\""
       },
       {
@@ -15381,7 +13650,7 @@ const storyData = [
         "english": "Onta read the words one at a time."
       },
       {
-        "fiwo": "Onta gesid tep Jas.",
+        "fiwo": "Onta gesid huc Jas.",
         "english": "Onta said, \"Yes.\""
       },
       {
@@ -15389,7 +13658,7 @@ const storyData = [
         "english": "The council wrote a new rule on the next page."
       },
       {
-        "fiwo": "Azikup jaxke gesi tep Nofa kage loki fuqe gop tep nofa bime jami.",
+        "fiwo": "Azikup jaxke gesi huc Nofa kage loki fuqe gop tep nofa bime jami.",
         "english": "The new rule says: Two people must read what one person writes."
       },
       {
