@@ -29,7 +29,7 @@
  * activate, so a bad deploy is one version bump away from being flushed.
  */
 
-const CACHE_VERSION = 'fiwo-v12';
+const CACHE_VERSION = 'fiwo-v13';   // v13: flush stale untagged modules (tts.js) — 2026-09-24
 
 /* The trained voice lives in a cache of its own, and the activate handler below
  * must never sweep it up.
@@ -140,7 +140,31 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Assets: stale-while-revalidate.
+  /* Untagged assets: network first. Stale-while-revalidate is only safe for a
+   * file whose URL changes when its content does — the ?v= stamp that
+   * build_web_study.mjs writes into index.html. Files reached by a module
+   * import (study/js/*.js, the ORT runtime, tts/*.json) carry no stamp, so
+   * serving them from cache first handed a returning reader last deploy's
+   * study/js/tts.js alongside this deploy's fiwo-voice.js — "installPiperVoice
+   * is not a function" (2026-09-24). With a connection they are always fresh;
+   * offline the cached copy still answers. */
+  if (!url.searchParams.has('v')) {
+    event.respondWith((async () => {
+      const cache = await caches.open(CACHE_VERSION);
+      try {
+        const fresh = await fetch(request);
+        if (fresh && fresh.ok && fresh.type === 'basic') cache.put(request, fresh.clone());
+        return fresh;
+      } catch {
+        return (await cache.match(request))
+            || (await cache.match(request, { ignoreSearch: true }))
+            || Response.error();
+      }
+    })());
+    return;
+  }
+
+  // Versioned assets: stale-while-revalidate.
   event.respondWith((async () => {
     const cache = await caches.open(CACHE_VERSION);
     const hit = await cache.match(request);
