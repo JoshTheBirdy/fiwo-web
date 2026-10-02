@@ -12,7 +12,7 @@ const derivedDictionaryData = [
       "pilot"
     ],
     "freq": 0,
-    "freq_rank": 1866
+    "freq_rank": 1868
   },
   {
     "word": "foroe",
@@ -27,7 +27,7 @@ const derivedDictionaryData = [
       "resembling plane"
     ],
     "freq": 0,
-    "freq_rank": 1867
+    "freq_rank": 1869
   },
   {
     "word": "tirei",
@@ -42,7 +42,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2925
+    "freq_rank": 2929
   },
   {
     "word": "absue",
@@ -56,7 +56,7 @@ const derivedDictionaryData = [
       "sensible"
     ],
     "freq": 0,
-    "freq_rank": 1396
+    "freq_rank": 1398
   },
   {
     "word": "acinae",
@@ -71,7 +71,7 @@ const derivedDictionaryData = [
       "resembling claw"
     ],
     "freq": 0,
-    "freq_rank": 1398
+    "freq_rank": 1400
   },
   {
     "word": "aclei",
@@ -100,7 +100,7 @@ const derivedDictionaryData = [
       "generosity"
     ],
     "freq": 0,
-    "freq_rank": 1400
+    "freq_rank": 1402
   },
   {
     "word": "acrye",
@@ -115,7 +115,7 @@ const derivedDictionaryData = [
       "crosswise"
     ],
     "freq": 0,
-    "freq_rank": 1401
+    "freq_rank": 1403
   },
   {
     "word": "acryi",
@@ -130,7 +130,7 @@ const derivedDictionaryData = [
       "traverse"
     ],
     "freq": 0,
-    "freq_rank": 1402
+    "freq_rank": 1404
   },
   {
     "word": "acumulia",
@@ -144,7 +144,7 @@ const derivedDictionaryData = [
       "trader"
     ],
     "freq": 0,
-    "freq_rank": 1404
+    "freq_rank": 1406
   },
   {
     "word": "jinue",
@@ -158,7 +158,7 @@ const derivedDictionaryData = [
       "conscious"
     ],
     "freq": 0,
-    "freq_rank": 2146
+    "freq_rank": 2149
   },
   {
     "word": "adrebue",
@@ -172,7 +172,7 @@ const derivedDictionaryData = [
       "gradual"
     ],
     "freq": 0,
-    "freq_rank": 1405
+    "freq_rank": 1407
   },
   {
     "word": "adriswei",
@@ -186,7 +186,7 @@ const derivedDictionaryData = [
       "be diagonal"
     ],
     "freq": 0,
-    "freq_rank": 1407
+    "freq_rank": 1409
   },
   {
     "word": "adrisweu",
@@ -201,7 +201,7 @@ const derivedDictionaryData = [
       "slant"
     ],
     "freq": 0,
-    "freq_rank": 1408
+    "freq_rank": 1410
   },
   {
     "word": "adyvoe",
@@ -216,7 +216,7 @@ const derivedDictionaryData = [
       "resembling umbrella"
     ],
     "freq": 0,
-    "freq_rank": 1410
+    "freq_rank": 1412
   },
   {
     "word": "afbia",
@@ -230,7 +230,7 @@ const derivedDictionaryData = [
       "crawler"
     ],
     "freq": 0,
-    "freq_rank": 1413
+    "freq_rank": 1415
   },
   {
     "word": "afxoe",
@@ -245,7 +245,7 @@ const derivedDictionaryData = [
       "resembling ash"
     ],
     "freq": 0,
-    "freq_rank": 1415
+    "freq_rank": 1417
   },
   {
     "word": "afymue",
@@ -259,7 +259,7 @@ const derivedDictionaryData = [
       "economic"
     ],
     "freq": 0,
-    "freq_rank": 1417
+    "freq_rank": 1419
   },
   {
     "word": "agcue",
@@ -273,7 +273,7 @@ const derivedDictionaryData = [
       "erroneous"
     ],
     "freq": 0,
-    "freq_rank": 1418
+    "freq_rank": 1420
   },
   {
     "word": "agmia",
@@ -287,7 +287,7 @@ const derivedDictionaryData = [
       "gluer"
     ],
     "freq": 0,
-    "freq_rank": 1420
+    "freq_rank": 1422
   },
   {
     "word": "agmie",
@@ -303,7 +303,7 @@ const derivedDictionaryData = [
       "gluey"
     ],
     "freq": 0,
-    "freq_rank": 1421
+    "freq_rank": 1423
   },
   {
     "word": "agsoe",
@@ -318,7 +318,7 @@ const derivedDictionaryData = [
       "resembling drought"
     ],
     "freq": 0,
-    "freq_rank": 1422
+    "freq_rank": 1424
   },
   {
     "word": "ahzei",
@@ -333,7 +333,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1424
+    "freq_rank": 1426
   },
   {
     "word": "aitei",
@@ -364,7 +364,7 @@ const derivedDictionaryData = [
       "stink"
     ],
     "freq": 0,
-    "freq_rank": 1426
+    "freq_rank": 1428
   },
   {
     "word": "ajogoe",
@@ -379,7 +379,7 @@ const derivedDictionaryData = [
       "resembling cart"
     ],
     "freq": 0,
-    "freq_rank": 1427
+    "freq_rank": 1429
   },
   {
     "word": "lavia",
@@ -393,7 +393,7 @@ const derivedDictionaryData = [
       "roaster"
     ],
     "freq": 0,
-    "freq_rank": 2298
+    "freq_rank": 2301
   },
   {
     "word": "akdia",
@@ -407,7 +407,7 @@ const derivedDictionaryData = [
       "shouter"
     ],
     "freq": 0,
-    "freq_rank": 1429
+    "freq_rank": 1431
   },
   {
     "word": "akdio",
@@ -423,7 +423,7 @@ const derivedDictionaryData = [
       "alarm device"
     ],
     "freq": 0,
-    "freq_rank": 1430
+    "freq_rank": 1432
   },
   {
     "word": "ambye",
@@ -439,7 +439,7 @@ const derivedDictionaryData = [
       "replacement"
     ],
     "freq": 0,
-    "freq_rank": 1432
+    "freq_rank": 1434
   },
   {
     "word": "amcei",
@@ -454,7 +454,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1433
+    "freq_rank": 1435
   },
   {
     "word": "amutei",
@@ -469,7 +469,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1434
+    "freq_rank": 1436
   },
   {
     "word": "anazei",
@@ -499,7 +499,7 @@ const derivedDictionaryData = [
       "basics"
     ],
     "freq": 0,
-    "freq_rank": 1436
+    "freq_rank": 1438
   },
   {
     "word": "hedei",
@@ -544,7 +544,7 @@ const derivedDictionaryData = [
       "fullness"
     ],
     "freq": 0,
-    "freq_rank": 1437
+    "freq_rank": 1439
   },
   {
     "word": "aplae",
@@ -559,7 +559,7 @@ const derivedDictionaryData = [
       "resembling apple"
     ],
     "freq": 0,
-    "freq_rank": 1438
+    "freq_rank": 1440
   },
   {
     "word": "kibei",
@@ -574,7 +574,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1118
+    "freq_rank": 1120
   },
   {
     "word": "kibeu",
@@ -589,7 +589,7 @@ const derivedDictionaryData = [
       "normalcy"
     ],
     "freq": 0,
-    "freq_rank": 2213
+    "freq_rank": 2216
   },
   {
     "word": "aqei",
@@ -619,7 +619,7 @@ const derivedDictionaryData = [
       "maleness"
     ],
     "freq": 0,
-    "freq_rank": 1439
+    "freq_rank": 1441
   },
   {
     "word": "arcipia",
@@ -633,7 +633,7 @@ const derivedDictionaryData = [
       "participant"
     ],
     "freq": 0,
-    "freq_rank": 1441
+    "freq_rank": 1443
   },
   {
     "word": "arifei",
@@ -648,7 +648,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1442
+    "freq_rank": 1444
   },
   {
     "word": "arkei",
@@ -677,7 +677,7 @@ const derivedDictionaryData = [
       "pregnancy"
     ],
     "freq": 0,
-    "freq_rank": 1444
+    "freq_rank": 1446
   },
   {
     "word": "arloe",
@@ -693,7 +693,7 @@ const derivedDictionaryData = [
       "electric-storm"
     ],
     "freq": 0,
-    "freq_rank": 1446
+    "freq_rank": 1448
   },
   {
     "word": "arsumpia",
@@ -707,7 +707,7 @@ const derivedDictionaryData = [
       "one that flows"
     ],
     "freq": 0,
-    "freq_rank": 1447
+    "freq_rank": 1449
   },
   {
     "word": "arsumpio",
@@ -723,7 +723,7 @@ const derivedDictionaryData = [
       "streaming movement"
     ],
     "freq": 0,
-    "freq_rank": 1448
+    "freq_rank": 1450
   },
   {
     "word": "zutae",
@@ -738,7 +738,7 @@ const derivedDictionaryData = [
       "resembling fruit"
     ],
     "freq": 0,
-    "freq_rank": 3303
+    "freq_rank": 3307
   },
   {
     "word": "artua",
@@ -767,7 +767,7 @@ const derivedDictionaryData = [
       "artistic"
     ],
     "freq": 0,
-    "freq_rank": 1450
+    "freq_rank": 1452
   },
   {
     "word": "asei",
@@ -797,7 +797,7 @@ const derivedDictionaryData = [
       "femaleness"
     ],
     "freq": 0,
-    "freq_rank": 1451
+    "freq_rank": 1453
   },
   {
     "word": "askue",
@@ -811,7 +811,7 @@ const derivedDictionaryData = [
       "rational"
     ],
     "freq": 0,
-    "freq_rank": 1452
+    "freq_rank": 1454
   },
   {
     "word": "sogcia",
@@ -825,7 +825,7 @@ const derivedDictionaryData = [
       "binder"
     ],
     "freq": 0,
-    "freq_rank": 2825
+    "freq_rank": 2828
   },
   {
     "word": "sogcio",
@@ -839,7 +839,7 @@ const derivedDictionaryData = [
       "knot"
     ],
     "freq": 0,
-    "freq_rank": 2826,
+    "freq_rank": 2829,
     "example": {
       "fiwo": "Daq sapid sogcio mety odcano.",
       "english": "He made a knot with the rope."
@@ -886,7 +886,7 @@ const derivedDictionaryData = [
       "believing"
     ],
     "freq": 0,
-    "freq_rank": 1454
+    "freq_rank": 1456
   },
   {
     "word": "atilui",
@@ -916,7 +916,7 @@ const derivedDictionaryData = [
       "field-related"
     ],
     "freq": 0,
-    "freq_rank": 1456
+    "freq_rank": 1458
   },
   {
     "word": "atripoe",
@@ -931,7 +931,7 @@ const derivedDictionaryData = [
       "resembling train"
     ],
     "freq": 0,
-    "freq_rank": 1457
+    "freq_rank": 1459
   },
   {
     "word": "avgei",
@@ -961,7 +961,7 @@ const derivedDictionaryData = [
       "rottenness"
     ],
     "freq": 0,
-    "freq_rank": 1460
+    "freq_rank": 1462
   },
   {
     "word": "avlye",
@@ -976,7 +976,7 @@ const derivedDictionaryData = [
       "alongside"
     ],
     "freq": 0,
-    "freq_rank": 1461
+    "freq_rank": 1463
   },
   {
     "word": "avmoe",
@@ -991,7 +991,7 @@ const derivedDictionaryData = [
       "resembling nail"
     ],
     "freq": 0,
-    "freq_rank": 1463
+    "freq_rank": 1465
   },
   {
     "word": "avmoi",
@@ -1006,7 +1006,7 @@ const derivedDictionaryData = [
       "fasten"
     ],
     "freq": 0,
-    "freq_rank": 1464
+    "freq_rank": 1466
   },
   {
     "word": "axritsoa",
@@ -1021,7 +1021,7 @@ const derivedDictionaryData = [
       "desert guide"
     ],
     "freq": 0,
-    "freq_rank": 1466
+    "freq_rank": 1468
   },
   {
     "word": "axritsoe",
@@ -1036,7 +1036,7 @@ const derivedDictionaryData = [
       "resembling dune"
     ],
     "freq": 0,
-    "freq_rank": 1467
+    "freq_rank": 1469
   },
   {
     "word": "axuklui",
@@ -1052,7 +1052,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1468
+    "freq_rank": 1470
   },
   {
     "word": "axvua",
@@ -1066,7 +1066,7 @@ const derivedDictionaryData = [
       "ally"
     ],
     "freq": 0,
-    "freq_rank": 1470
+    "freq_rank": 1472
   },
   {
     "word": "axvue",
@@ -1080,7 +1080,7 @@ const derivedDictionaryData = [
       "allied"
     ],
     "freq": 0,
-    "freq_rank": 1471
+    "freq_rank": 1473
   },
   {
     "word": "azikue",
@@ -1094,7 +1094,7 @@ const derivedDictionaryData = [
       "regulatory"
     ],
     "freq": 0,
-    "freq_rank": 1472
+    "freq_rank": 1474
   },
   {
     "word": "azmue",
@@ -1108,7 +1108,7 @@ const derivedDictionaryData = [
       "compassionate"
     ],
     "freq": 0,
-    "freq_rank": 1473
+    "freq_rank": 1475
   },
   {
     "word": "kodoe",
@@ -1123,7 +1123,7 @@ const derivedDictionaryData = [
       "resembling bowl"
     ],
     "freq": 0,
-    "freq_rank": 2234
+    "freq_rank": 2237
   },
   {
     "word": "lolei",
@@ -1168,7 +1168,7 @@ const derivedDictionaryData = [
       "ill-omened"
     ],
     "freq": 0,
-    "freq_rank": 1475
+    "freq_rank": 1477
   },
   {
     "word": "baharae",
@@ -1183,7 +1183,7 @@ const derivedDictionaryData = [
       "resembling palm"
     ],
     "freq": 0,
-    "freq_rank": 1478
+    "freq_rank": 1480
   },
   {
     "word": "futia",
@@ -1197,7 +1197,7 @@ const derivedDictionaryData = [
       "borrower"
     ],
     "freq": 0,
-    "freq_rank": 1892
+    "freq_rank": 1895
   },
   {
     "word": "lexia",
@@ -1211,7 +1211,7 @@ const derivedDictionaryData = [
       "trier"
     ],
     "freq": 0,
-    "freq_rank": 2314
+    "freq_rank": 2317
   },
   {
     "word": "bambodoe",
@@ -1226,7 +1226,7 @@ const derivedDictionaryData = [
       "resembling sponge"
     ],
     "freq": 0,
-    "freq_rank": 1479
+    "freq_rank": 1481
   },
   {
     "word": "banoskoe",
@@ -1241,7 +1241,7 @@ const derivedDictionaryData = [
       "resembling breeze"
     ],
     "freq": 0,
-    "freq_rank": 1480
+    "freq_rank": 1482
   },
   {
     "word": "baqia",
@@ -1255,7 +1255,7 @@ const derivedDictionaryData = [
       "caller"
     ],
     "freq": 0,
-    "freq_rank": 1481
+    "freq_rank": 1483
   },
   {
     "word": "batae",
@@ -1299,7 +1299,7 @@ const derivedDictionaryData = [
       "beauty"
     ],
     "freq": 0,
-    "freq_rank": 1483
+    "freq_rank": 1485
   },
   {
     "word": "baxye",
@@ -1315,7 +1315,7 @@ const derivedDictionaryData = [
       "back"
     ],
     "freq": 0,
-    "freq_rank": 1484
+    "freq_rank": 1486
   },
   {
     "word": "baxyo",
@@ -1344,7 +1344,7 @@ const derivedDictionaryData = [
       "closer"
     ],
     "freq": 0,
-    "freq_rank": 1485
+    "freq_rank": 1487
   },
   {
     "word": "bebiu",
@@ -1358,7 +1358,7 @@ const derivedDictionaryData = [
       "weaving"
     ],
     "freq": 0,
-    "freq_rank": 1487
+    "freq_rank": 1489
   },
   {
     "word": "beglonoe",
@@ -1374,7 +1374,7 @@ const derivedDictionaryData = [
       "sticky-sweet"
     ],
     "freq": 0,
-    "freq_rank": 1489
+    "freq_rank": 1491
   },
   {
     "word": "bejei",
@@ -1389,7 +1389,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1490
+    "freq_rank": 1492
   },
   {
     "word": "belae",
@@ -1404,7 +1404,7 @@ const derivedDictionaryData = [
       "resembling foot"
     ],
     "freq": 0,
-    "freq_rank": 1491
+    "freq_rank": 1493
   },
   {
     "word": "belimoe",
@@ -1419,7 +1419,7 @@ const derivedDictionaryData = [
       "resembling shoe"
     ],
     "freq": 0,
-    "freq_rank": 1492
+    "freq_rank": 1494
   },
   {
     "word": "beqye",
@@ -1434,7 +1434,7 @@ const derivedDictionaryData = [
       "ulterior"
     ],
     "freq": 0,
-    "freq_rank": 1493
+    "freq_rank": 1495
   },
   {
     "word": "beqyei",
@@ -1464,7 +1464,7 @@ const derivedDictionaryData = [
       "resembling air"
     ],
     "freq": 0,
-    "freq_rank": 1496
+    "freq_rank": 1498
   },
   {
     "word": "bibae",
@@ -1479,7 +1479,7 @@ const derivedDictionaryData = [
       "resembling baby"
     ],
     "freq": 0,
-    "freq_rank": 1497
+    "freq_rank": 1499
   },
   {
     "word": "bibau",
@@ -1494,7 +1494,7 @@ const derivedDictionaryData = [
       "babyhood"
     ],
     "freq": 0,
-    "freq_rank": 1498
+    "freq_rank": 1500
   },
   {
     "word": "bieroe",
@@ -1509,7 +1509,7 @@ const derivedDictionaryData = [
       "resembling beer"
     ],
     "freq": 0,
-    "freq_rank": 1500
+    "freq_rank": 1502
   },
   {
     "word": "dozmei",
@@ -1538,7 +1538,7 @@ const derivedDictionaryData = [
       "publisher"
     ],
     "freq": 0,
-    "freq_rank": 1502
+    "freq_rank": 1504
   },
   {
     "word": "bilyhoe",
@@ -1553,7 +1553,7 @@ const derivedDictionaryData = [
       "resembling potion"
     ],
     "freq": 0,
-    "freq_rank": 1504
+    "freq_rank": 1506
   },
   {
     "word": "bimedue",
@@ -1598,7 +1598,7 @@ const derivedDictionaryData = [
       "originally"
     ],
     "freq": 0,
-    "freq_rank": 1505
+    "freq_rank": 1507
   },
   {
     "word": "bipeo",
@@ -1614,7 +1614,7 @@ const derivedDictionaryData = [
       "prototype"
     ],
     "freq": 0,
-    "freq_rank": 1506
+    "freq_rank": 1508
   },
   {
     "word": "biwue",
@@ -1628,7 +1628,7 @@ const derivedDictionaryData = [
       "problematic"
     ],
     "freq": 0,
-    "freq_rank": 1507
+    "freq_rank": 1509
   },
   {
     "word": "biznua",
@@ -1643,7 +1643,7 @@ const derivedDictionaryData = [
       "entrepreneur"
     ],
     "freq": 0,
-    "freq_rank": 1508
+    "freq_rank": 1510
   },
   {
     "word": "biznue",
@@ -1657,7 +1657,7 @@ const derivedDictionaryData = [
       "corporate"
     ],
     "freq": 0,
-    "freq_rank": 1509
+    "freq_rank": 1511
   },
   {
     "word": "bizomoe",
@@ -1672,7 +1672,7 @@ const derivedDictionaryData = [
       "resembling ingot"
     ],
     "freq": 0,
-    "freq_rank": 1511
+    "freq_rank": 1513
   },
   {
     "word": "bloboe",
@@ -1687,7 +1687,7 @@ const derivedDictionaryData = [
       "resembling axe"
     ],
     "freq": 0,
-    "freq_rank": 1512
+    "freq_rank": 1514
   },
   {
     "word": "blunue",
@@ -1701,7 +1701,7 @@ const derivedDictionaryData = [
       "meaningful"
     ],
     "freq": 0,
-    "freq_rank": 1513
+    "freq_rank": 1515
   },
   {
     "word": "blunui",
@@ -1732,7 +1732,7 @@ const derivedDictionaryData = [
       "resembling wrist"
     ],
     "freq": 0,
-    "freq_rank": 1516
+    "freq_rank": 1518
   },
   {
     "word": "bogue",
@@ -1746,7 +1746,7 @@ const derivedDictionaryData = [
       "forceful"
     ],
     "freq": 0,
-    "freq_rank": 1517
+    "freq_rank": 1519
   },
   {
     "word": "bojae",
@@ -1760,7 +1760,7 @@ const derivedDictionaryData = [
       "bloody"
     ],
     "freq": 0,
-    "freq_rank": 1518
+    "freq_rank": 1520
   },
   {
     "word": "bojai",
@@ -1774,7 +1774,7 @@ const derivedDictionaryData = [
       "to bleed"
     ],
     "freq": 0,
-    "freq_rank": 1519
+    "freq_rank": 1521
   },
   {
     "word": "bokei",
@@ -1804,7 +1804,7 @@ const derivedDictionaryData = [
       "badness"
     ],
     "freq": 0,
-    "freq_rank": 1520
+    "freq_rank": 1522
   },
   {
     "word": "bomufua",
@@ -1819,7 +1819,7 @@ const derivedDictionaryData = [
       "retiree on a pension"
     ],
     "freq": 0,
-    "freq_rank": 1521
+    "freq_rank": 1523
   },
   {
     "word": "borpoe",
@@ -1835,7 +1835,7 @@ const derivedDictionaryData = [
       "pot-held"
     ],
     "freq": 0,
-    "freq_rank": 1523
+    "freq_rank": 1525
   },
   {
     "word": "boslia",
@@ -1849,7 +1849,7 @@ const derivedDictionaryData = [
       "hurrier"
     ],
     "freq": 0,
-    "freq_rank": 1524
+    "freq_rank": 1526
   },
   {
     "word": "boslie",
@@ -1864,7 +1864,7 @@ const derivedDictionaryData = [
       "hurried"
     ],
     "freq": 0,
-    "freq_rank": 1525
+    "freq_rank": 1527
   },
   {
     "word": "bosliu",
@@ -1910,7 +1910,7 @@ const derivedDictionaryData = [
       "foolishness"
     ],
     "freq": 0,
-    "freq_rank": 1526
+    "freq_rank": 1528
   },
   {
     "word": "botoe",
@@ -1925,7 +1925,7 @@ const derivedDictionaryData = [
       "resembling boat"
     ],
     "freq": 0,
-    "freq_rank": 1527
+    "freq_rank": 1529
   },
   {
     "word": "bracia",
@@ -1939,7 +1939,7 @@ const derivedDictionaryData = [
       "chewer"
     ],
     "freq": 0,
-    "freq_rank": 1531
+    "freq_rank": 1533
   },
   {
     "word": "brandae",
@@ -1954,7 +1954,7 @@ const derivedDictionaryData = [
       "resembling panda"
     ],
     "freq": 0,
-    "freq_rank": 1533
+    "freq_rank": 1535
   },
   {
     "word": "brekrae",
@@ -1969,7 +1969,7 @@ const derivedDictionaryData = [
       "resembling forehead"
     ],
     "freq": 0,
-    "freq_rank": 1535
+    "freq_rank": 1537
   },
   {
     "word": "rogae",
@@ -1984,7 +1984,7 @@ const derivedDictionaryData = [
       "resembling elbow"
     ],
     "freq": 0,
-    "freq_rank": 2731
+    "freq_rank": 2734
   },
   {
     "word": "brikue",
@@ -1998,7 +1998,7 @@ const derivedDictionaryData = [
       "regretful"
     ],
     "freq": 0,
-    "freq_rank": 1538
+    "freq_rank": 1540
   },
   {
     "word": "brikui",
@@ -2012,7 +2012,7 @@ const derivedDictionaryData = [
       "regret"
     ],
     "freq": 0,
-    "freq_rank": 1539
+    "freq_rank": 1541
   },
   {
     "word": "brirsoa",
@@ -2027,7 +2027,7 @@ const derivedDictionaryData = [
       "lake warden"
     ],
     "freq": 0,
-    "freq_rank": 1540
+    "freq_rank": 1542
   },
   {
     "word": "brirsoe",
@@ -2042,7 +2042,7 @@ const derivedDictionaryData = [
       "resembling lake"
     ],
     "freq": 0,
-    "freq_rank": 1541
+    "freq_rank": 1543
   },
   {
     "word": "brykloa",
@@ -2056,7 +2056,7 @@ const derivedDictionaryData = [
       "baker"
     ],
     "freq": 0,
-    "freq_rank": 1545
+    "freq_rank": 1547
   },
   {
     "word": "brykloe",
@@ -2071,7 +2071,7 @@ const derivedDictionaryData = [
       "resembling bread"
     ],
     "freq": 0,
-    "freq_rank": 1546
+    "freq_rank": 1548
   },
   {
     "word": "bucygoe",
@@ -2087,7 +2087,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1548
+    "freq_rank": 1550
   },
   {
     "word": "bufroe",
@@ -2103,7 +2103,7 @@ const derivedDictionaryData = [
       "copper-plated"
     ],
     "freq": 0,
-    "freq_rank": 1550
+    "freq_rank": 1552
   },
   {
     "word": "bumpia",
@@ -2117,7 +2117,7 @@ const derivedDictionaryData = [
       "complainer"
     ],
     "freq": 0,
-    "freq_rank": 1551
+    "freq_rank": 1553
   },
   {
     "word": "bumpie",
@@ -2132,7 +2132,7 @@ const derivedDictionaryData = [
       "complaining"
     ],
     "freq": 0,
-    "freq_rank": 1552
+    "freq_rank": 1554
   },
   {
     "word": "bunowoa",
@@ -2146,7 +2146,7 @@ const derivedDictionaryData = [
       "pharmacist"
     ],
     "freq": 0,
-    "freq_rank": 1553
+    "freq_rank": 1555
   },
   {
     "word": "busfia",
@@ -2160,7 +2160,7 @@ const derivedDictionaryData = [
       "discoverer"
     ],
     "freq": 0,
-    "freq_rank": 1554
+    "freq_rank": 1556
   },
   {
     "word": "busfiu",
@@ -2174,7 +2174,7 @@ const derivedDictionaryData = [
       "discovery"
     ],
     "freq": 0,
-    "freq_rank": 1555
+    "freq_rank": 1557
   },
   {
     "word": "buskoa",
@@ -2189,7 +2189,7 @@ const derivedDictionaryData = [
       "dressmaker"
     ],
     "freq": 0,
-    "freq_rank": 1556
+    "freq_rank": 1558
   },
   {
     "word": "buskoe",
@@ -2204,7 +2204,7 @@ const derivedDictionaryData = [
       "resembling clothes"
     ],
     "freq": 0,
-    "freq_rank": 1557
+    "freq_rank": 1559
   },
   {
     "word": "buskoi",
@@ -2221,7 +2221,7 @@ const derivedDictionaryData = [
     ],
     "usage_note": "The general 'to wear' is the native root hekri (2026-07-07); buskoi emphasizes putting clothing on.",
     "freq": 0,
-    "freq_rank": 1558
+    "freq_rank": 1560
   },
   {
     "word": "buskou",
@@ -2236,7 +2236,7 @@ const derivedDictionaryData = [
       "dress"
     ],
     "freq": 0,
-    "freq_rank": 1559
+    "freq_rank": 1561
   },
   {
     "word": "buvae",
@@ -2251,7 +2251,7 @@ const derivedDictionaryData = [
       "bovine"
     ],
     "freq": 0,
-    "freq_rank": 1560
+    "freq_rank": 1562
   },
   {
     "word": "buxei",
@@ -2295,7 +2295,7 @@ const derivedDictionaryData = [
       "resembling sky"
     ],
     "freq": 0,
-    "freq_rank": 1564
+    "freq_rank": 1566
   },
   {
     "word": "cacodue",
@@ -2309,7 +2309,7 @@ const derivedDictionaryData = [
       "diagnostic"
     ],
     "freq": 0,
-    "freq_rank": 1567
+    "freq_rank": 1569
   },
   {
     "word": "cadae",
@@ -2324,7 +2324,7 @@ const derivedDictionaryData = [
       "childish"
     ],
     "freq": 0,
-    "freq_rank": 1568
+    "freq_rank": 1571
   },
   {
     "word": "cadau",
@@ -2338,7 +2338,7 @@ const derivedDictionaryData = [
       "childhood"
     ],
     "freq": 0,
-    "freq_rank": 1569
+    "freq_rank": 1572
   },
   {
     "word": "caenoe",
@@ -2353,7 +2353,7 @@ const derivedDictionaryData = [
       "resembling street"
     ],
     "freq": 0,
-    "freq_rank": 1570
+    "freq_rank": 1573
   },
   {
     "word": "cafia",
@@ -2367,7 +2367,7 @@ const derivedDictionaryData = [
       "runner"
     ],
     "freq": 0,
-    "freq_rank": 1571
+    "freq_rank": 1574
   },
   {
     "word": "cafloe",
@@ -2382,7 +2382,7 @@ const derivedDictionaryData = [
       "resembling shadow"
     ],
     "freq": 0,
-    "freq_rank": 1572
+    "freq_rank": 1575
   },
   {
     "word": "canpue",
@@ -2396,7 +2396,7 @@ const derivedDictionaryData = [
       "communal"
     ],
     "freq": 0,
-    "freq_rank": 1573
+    "freq_rank": 1576
   },
   {
     "word": "capei",
@@ -2426,7 +2426,7 @@ const derivedDictionaryData = [
       "resembling boy"
     ],
     "freq": 0,
-    "freq_rank": 1575
+    "freq_rank": 1578
   },
   {
     "word": "caque",
@@ -2440,7 +2440,7 @@ const derivedDictionaryData = [
       "tactical"
     ],
     "freq": 0,
-    "freq_rank": 1574
+    "freq_rank": 1577
   },
   {
     "word": "caqui",
@@ -2472,7 +2472,7 @@ const derivedDictionaryData = [
       "resembling girl"
     ],
     "freq": 0,
-    "freq_rank": 1576
+    "freq_rank": 1579
   },
   {
     "word": "catsae",
@@ -2487,7 +2487,7 @@ const derivedDictionaryData = [
       "feline"
     ],
     "freq": 0,
-    "freq_rank": 1577
+    "freq_rank": 1580
   },
   {
     "word": "cavulkoe",
@@ -2502,7 +2502,7 @@ const derivedDictionaryData = [
       "resembling cobweb"
     ],
     "freq": 0,
-    "freq_rank": 1579
+    "freq_rank": 1582
   },
   {
     "word": "cazeblue",
@@ -2518,7 +2518,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1580
+    "freq_rank": 1583
   },
   {
     "word": "celei",
@@ -2547,7 +2547,7 @@ const derivedDictionaryData = [
       "privacy"
     ],
     "freq": 0,
-    "freq_rank": 1584
+    "freq_rank": 1587
   },
   {
     "word": "cenia",
@@ -2561,7 +2561,7 @@ const derivedDictionaryData = [
       "dweller"
     ],
     "freq": 0,
-    "freq_rank": 1585
+    "freq_rank": 1588
   },
   {
     "word": "ceniu",
@@ -2592,7 +2592,7 @@ const derivedDictionaryData = [
       "resembling wave"
     ],
     "freq": 0,
-    "freq_rank": 1588
+    "freq_rank": 1591
   },
   {
     "word": "cetofia",
@@ -2606,7 +2606,7 @@ const derivedDictionaryData = [
       "presenter"
     ],
     "freq": 0,
-    "freq_rank": 1589
+    "freq_rank": 1592
   },
   {
     "word": "cevoloe",
@@ -2621,7 +2621,7 @@ const derivedDictionaryData = [
       "resembling log"
     ],
     "freq": 0,
-    "freq_rank": 1590
+    "freq_rank": 1593
   },
   {
     "word": "ciafei",
@@ -2636,7 +2636,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1591
+    "freq_rank": 1594
   },
   {
     "word": "cifudrue",
@@ -2651,7 +2651,7 @@ const derivedDictionaryData = [
       "distinctive"
     ],
     "freq": 0,
-    "freq_rank": 1592
+    "freq_rank": 1595
   },
   {
     "word": "cigea",
@@ -2666,7 +2666,7 @@ const derivedDictionaryData = [
       "outsider"
     ],
     "freq": 0,
-    "freq_rank": 1594
+    "freq_rank": 1597
   },
   {
     "word": "cigei",
@@ -2695,7 +2695,7 @@ const derivedDictionaryData = [
       "foreignness"
     ],
     "freq": 0,
-    "freq_rank": 1595
+    "freq_rank": 1598
   },
   {
     "word": "cihue",
@@ -2709,7 +2709,7 @@ const derivedDictionaryData = [
       "morning"
     ],
     "freq": 0,
-    "freq_rank": 1596
+    "freq_rank": 1599
   },
   {
     "word": "cijoe",
@@ -2724,7 +2724,7 @@ const derivedDictionaryData = [
       "resembling weapon"
     ],
     "freq": 0,
-    "freq_rank": 1597
+    "freq_rank": 1600
   },
   {
     "word": "cilae",
@@ -2738,7 +2738,7 @@ const derivedDictionaryData = [
       "leafy"
     ],
     "freq": 0,
-    "freq_rank": 1598
+    "freq_rank": 1601
   },
   {
     "word": "cimia",
@@ -2752,7 +2752,7 @@ const derivedDictionaryData = [
       "initiator"
     ],
     "freq": 0,
-    "freq_rank": 1599
+    "freq_rank": 1602
   },
   {
     "word": "cimiu",
@@ -2782,7 +2782,7 @@ const derivedDictionaryData = [
       "tidal"
     ],
     "freq": 0,
-    "freq_rank": 1602
+    "freq_rank": 1605
   },
   {
     "word": "ciswoe",
@@ -2797,7 +2797,7 @@ const derivedDictionaryData = [
       "resembling barrel"
     ],
     "freq": 0,
-    "freq_rank": 1603
+    "freq_rank": 1606
   },
   {
     "word": "cizuzui",
@@ -2812,7 +2812,7 @@ const derivedDictionaryData = [
       "pay into an account"
     ],
     "freq": 0,
-    "freq_rank": 1604
+    "freq_rank": 1607
   },
   {
     "word": "tetwoe",
@@ -2827,7 +2827,7 @@ const derivedDictionaryData = [
       "resembling clock"
     ],
     "freq": 0,
-    "freq_rank": 2918
+    "freq_rank": 2922
   },
   {
     "word": "coboe",
@@ -2842,7 +2842,7 @@ const derivedDictionaryData = [
       "resembling fog"
     ],
     "freq": 0,
-    "freq_rank": 1605
+    "freq_rank": 1608
   },
   {
     "word": "cohei",
@@ -2887,7 +2887,7 @@ const derivedDictionaryData = [
       "commonness"
     ],
     "freq": 0,
-    "freq_rank": 1611
+    "freq_rank": 1614
   },
   {
     "word": "coqynia",
@@ -2901,7 +2901,7 @@ const derivedDictionaryData = [
       "deactivator"
     ],
     "freq": 0,
-    "freq_rank": 1612
+    "freq_rank": 1615
   },
   {
     "word": "corfae",
@@ -2916,7 +2916,7 @@ const derivedDictionaryData = [
       "simian"
     ],
     "freq": 0,
-    "freq_rank": 1614
+    "freq_rank": 1617
   },
   {
     "word": "cogjae",
@@ -2931,7 +2931,7 @@ const derivedDictionaryData = [
       "resembling skin"
     ],
     "freq": 0,
-    "freq_rank": 1607
+    "freq_rank": 1610
   },
   {
     "word": "cogjao",
@@ -2946,7 +2946,7 @@ const derivedDictionaryData = [
       "hide"
     ],
     "freq": 0,
-    "freq_rank": 1608
+    "freq_rank": 1611
   },
   {
     "word": "cotia",
@@ -2960,7 +2960,7 @@ const derivedDictionaryData = [
       "cutter"
     ],
     "freq": 0,
-    "freq_rank": 1615
+    "freq_rank": 1618
   },
   {
     "word": "cotie",
@@ -2976,7 +2976,7 @@ const derivedDictionaryData = [
       "hewn"
     ],
     "freq": 0,
-    "freq_rank": 1616
+    "freq_rank": 1619
   },
   {
     "word": "cotio",
@@ -2992,7 +2992,7 @@ const derivedDictionaryData = [
       "split"
     ],
     "freq": 0,
-    "freq_rank": 1617
+    "freq_rank": 1620
   },
   {
     "word": "cowabae",
@@ -3007,7 +3007,7 @@ const derivedDictionaryData = [
       "resembling donkey"
     ],
     "freq": 0,
-    "freq_rank": 1622
+    "freq_rank": 1625
   },
   {
     "word": "cuacae",
@@ -3022,7 +3022,7 @@ const derivedDictionaryData = [
       "resembling bear"
     ],
     "freq": 0,
-    "freq_rank": 1624
+    "freq_rank": 1627
   },
   {
     "word": "cubastoe",
@@ -3037,7 +3037,7 @@ const derivedDictionaryData = [
       "resembling sphere"
     ],
     "freq": 0,
-    "freq_rank": 1626
+    "freq_rank": 1629
   },
   {
     "word": "cudzae",
@@ -3052,7 +3052,7 @@ const derivedDictionaryData = [
       "lupine"
     ],
     "freq": 0,
-    "freq_rank": 1627
+    "freq_rank": 1630
   },
   {
     "word": "cufue",
@@ -3066,7 +3066,7 @@ const derivedDictionaryData = [
       "purposeful"
     ],
     "freq": 0,
-    "freq_rank": 1628
+    "freq_rank": 1631
   },
   {
     "word": "cugoe",
@@ -3081,7 +3081,7 @@ const derivedDictionaryData = [
       "resembling eraser"
     ],
     "freq": 0,
-    "freq_rank": 1630
+    "freq_rank": 1633
   },
   {
     "word": "cujei",
@@ -3096,7 +3096,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1631
+    "freq_rank": 1634
   },
   {
     "word": "cukia",
@@ -3110,7 +3110,7 @@ const derivedDictionaryData = [
       "fighter"
     ],
     "freq": 0,
-    "freq_rank": 1632
+    "freq_rank": 1635
   },
   {
     "word": "cukie",
@@ -3125,7 +3125,7 @@ const derivedDictionaryData = [
       "quarrelsome"
     ],
     "freq": 0,
-    "freq_rank": 1633
+    "freq_rank": 1636
   },
   {
     "word": "cukiu",
@@ -3141,7 +3141,7 @@ const derivedDictionaryData = [
       "fighting"
     ],
     "freq": 0,
-    "freq_rank": 1634
+    "freq_rank": 1637
   },
   {
     "word": "cumeswoe",
@@ -3156,7 +3156,7 @@ const derivedDictionaryData = [
       "resembling dew"
     ],
     "freq": 0,
-    "freq_rank": 1636
+    "freq_rank": 1639
   },
   {
     "word": "cuntei",
@@ -3187,7 +3187,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1638
+    "freq_rank": 1641
   },
   {
     "word": "cuspoe",
@@ -3202,7 +3202,7 @@ const derivedDictionaryData = [
       "resembling beacon"
     ],
     "freq": 0,
-    "freq_rank": 1639
+    "freq_rank": 1642
   },
   {
     "word": "cutwei",
@@ -3231,7 +3231,7 @@ const derivedDictionaryData = [
       "readiness"
     ],
     "freq": 0,
-    "freq_rank": 1640
+    "freq_rank": 1643
   },
   {
     "word": "cyria",
@@ -3245,7 +3245,7 @@ const derivedDictionaryData = [
       "flyer"
     ],
     "freq": 0,
-    "freq_rank": 1641
+    "freq_rank": 1644
   },
   {
     "word": "cysmoa",
@@ -3259,7 +3259,7 @@ const derivedDictionaryData = [
       "villager"
     ],
     "freq": 0,
-    "freq_rank": 1642
+    "freq_rank": 1645
   },
   {
     "word": "cysmoe",
@@ -3274,7 +3274,7 @@ const derivedDictionaryData = [
       "resembling village"
     ],
     "freq": 0,
-    "freq_rank": 1643
+    "freq_rank": 1646
   },
   {
     "word": "cyvae",
@@ -3289,7 +3289,7 @@ const derivedDictionaryData = [
       "resembling stranger"
     ],
     "freq": 0,
-    "freq_rank": 1645
+    "freq_rank": 1648
   },
   {
     "word": "cyxoe",
@@ -3304,7 +3304,7 @@ const derivedDictionaryData = [
       "resembling beach"
     ],
     "freq": 0,
-    "freq_rank": 1646
+    "freq_rank": 1649
   },
   {
     "word": "dadukrua",
@@ -3319,7 +3319,7 @@ const derivedDictionaryData = [
       "expert"
     ],
     "freq": 0,
-    "freq_rank": 1647
+    "freq_rank": 1650
   },
   {
     "word": "dafae",
@@ -3334,7 +3334,7 @@ const derivedDictionaryData = [
       "resembling stomach"
     ],
     "freq": 0,
-    "freq_rank": 1649
+    "freq_rank": 1652
   },
   {
     "word": "dagibia",
@@ -3348,7 +3348,7 @@ const derivedDictionaryData = [
       "presumer"
     ],
     "freq": 0,
-    "freq_rank": 1650
+    "freq_rank": 1653
   },
   {
     "word": "dahue",
@@ -3362,7 +3362,7 @@ const derivedDictionaryData = [
       "valuable"
     ],
     "freq": 0,
-    "freq_rank": 1651
+    "freq_rank": 1654
   },
   {
     "word": "dalei",
@@ -3377,7 +3377,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1652
+    "freq_rank": 1655
   },
   {
     "word": "dangua",
@@ -3391,7 +3391,7 @@ const derivedDictionaryData = [
       "a person on vacation"
     ],
     "freq": 0,
-    "freq_rank": 1654
+    "freq_rank": 1657
   },
   {
     "word": "dangue",
@@ -3405,7 +3405,7 @@ const derivedDictionaryData = [
       "relating to a vacation or holiday"
     ],
     "freq": 0,
-    "freq_rank": 1655
+    "freq_rank": 1658
   },
   {
     "word": "dangui",
@@ -3419,7 +3419,7 @@ const derivedDictionaryData = [
       "to take a vacation"
     ],
     "freq": 0,
-    "freq_rank": 1656
+    "freq_rank": 1659
   },
   {
     "word": "danguo",
@@ -3433,7 +3433,7 @@ const derivedDictionaryData = [
       "a vacation place"
     ],
     "freq": 0,
-    "freq_rank": 1657
+    "freq_rank": 1660
   },
   {
     "word": "daqei",
@@ -3448,7 +3448,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1658
+    "freq_rank": 1661
   },
   {
     "word": "dasei",
@@ -3463,7 +3463,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1659
+    "freq_rank": 1662
   },
   {
     "word": "davtiu",
@@ -3478,7 +3478,7 @@ const derivedDictionaryData = [
       "quarrel"
     ],
     "freq": 0,
-    "freq_rank": 1660
+    "freq_rank": 1663
   },
   {
     "word": "dawye",
@@ -3493,7 +3493,7 @@ const derivedDictionaryData = [
       "consequent"
     ],
     "freq": 0,
-    "freq_rank": 1661
+    "freq_rank": 1664
   },
   {
     "word": "daxokoe",
@@ -3509,7 +3509,7 @@ const derivedDictionaryData = [
       "icy-crusted"
     ],
     "freq": 0,
-    "freq_rank": 1662
+    "freq_rank": 1665
   },
   {
     "word": "decue",
@@ -3523,7 +3523,7 @@ const derivedDictionaryData = [
       "attitudinal"
     ],
     "freq": 0,
-    "freq_rank": 1663
+    "freq_rank": 1666
   },
   {
     "word": "tokae",
@@ -3538,7 +3538,7 @@ const derivedDictionaryData = [
       "resembling thumb"
     ],
     "freq": 0,
-    "freq_rank": 2943
+    "freq_rank": 2947
   },
   {
     "word": "degoe",
@@ -3553,7 +3553,7 @@ const derivedDictionaryData = [
       "resembling table"
     ],
     "freq": 0,
-    "freq_rank": 1664
+    "freq_rank": 1667
   },
   {
     "word": "dekye",
@@ -3582,7 +3582,7 @@ const derivedDictionaryData = [
       "interior"
     ],
     "freq": 0,
-    "freq_rank": 1665
+    "freq_rank": 1668
   },
   {
     "word": "deluflue",
@@ -3596,7 +3596,7 @@ const derivedDictionaryData = [
       "budgetary"
     ],
     "freq": 0,
-    "freq_rank": 1666
+    "freq_rank": 1669
   },
   {
     "word": "deluflui",
@@ -3611,7 +3611,7 @@ const derivedDictionaryData = [
       "plan spending"
     ],
     "freq": 0,
-    "freq_rank": 1667
+    "freq_rank": 1670
   },
   {
     "word": "denkia",
@@ -3625,7 +3625,7 @@ const derivedDictionaryData = [
       "setter"
     ],
     "freq": 0,
-    "freq_rank": 1669
+    "freq_rank": 1672
   },
   {
     "word": "deqazue",
@@ -3639,7 +3639,7 @@ const derivedDictionaryData = [
       "departmental"
     ],
     "freq": 0,
-    "freq_rank": 1671
+    "freq_rank": 1674
   },
   {
     "word": "detae",
@@ -3654,7 +3654,7 @@ const derivedDictionaryData = [
       "canine"
     ],
     "freq": 0,
-    "freq_rank": 1673
+    "freq_rank": 1676
   },
   {
     "word": "kagedue",
@@ -3668,7 +3668,7 @@ const derivedDictionaryData = [
       "tuesday"
     ],
     "freq": 0,
-    "freq_rank": 2192
+    "freq_rank": 2195
   },
   {
     "word": "kagei",
@@ -3683,7 +3683,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1112
+    "freq_rank": 1114
   },
   {
     "word": "dibroe",
@@ -3698,7 +3698,7 @@ const derivedDictionaryData = [
       "resembling block"
     ],
     "freq": 0,
-    "freq_rank": 1675
+    "freq_rank": 1678
   },
   {
     "word": "didei",
@@ -3728,7 +3728,7 @@ const derivedDictionaryData = [
       "resembling liquid"
     ],
     "freq": 0,
-    "freq_rank": 1677
+    "freq_rank": 1680
   },
   {
     "word": "difoi",
@@ -3758,7 +3758,7 @@ const derivedDictionaryData = [
       "resembling solid"
     ],
     "freq": 0,
-    "freq_rank": 2637
+    "freq_rank": 2640
   },
   {
     "word": "pjemoei",
@@ -3773,7 +3773,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Concrete Noun -> Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1222
+    "freq_rank": 1224
   },
   {
     "word": "dilujue",
@@ -3788,7 +3788,7 @@ const derivedDictionaryData = [
       "accounting"
     ],
     "freq": 0,
-    "freq_rank": 1679
+    "freq_rank": 1682
   },
   {
     "word": "dionue",
@@ -3802,7 +3802,7 @@ const derivedDictionaryData = [
       "temporal"
     ],
     "freq": 0,
-    "freq_rank": 1681
+    "freq_rank": 1684
   },
   {
     "word": "sozoe",
@@ -3817,7 +3817,7 @@ const derivedDictionaryData = [
       "resembling gas"
     ],
     "freq": 0,
-    "freq_rank": 2834
+    "freq_rank": 2837
   },
   {
     "word": "sozoei",
@@ -3832,7 +3832,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Concrete Noun -> Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1274
+    "freq_rank": 1276
   },
   {
     "word": "dixae",
@@ -3847,7 +3847,7 @@ const derivedDictionaryData = [
       "resembling shark"
     ],
     "freq": 0,
-    "freq_rank": 1683
+    "freq_rank": 1686
   },
   {
     "word": "dizabae",
@@ -3863,7 +3863,7 @@ const derivedDictionaryData = [
       "bone-frame"
     ],
     "freq": 0,
-    "freq_rank": 1685
+    "freq_rank": 1688
   },
   {
     "word": "dodue",
@@ -3877,7 +3877,7 @@ const derivedDictionaryData = [
       "universal"
     ],
     "freq": 0,
-    "freq_rank": 1686
+    "freq_rank": 1689
   },
   {
     "word": "dofemoe",
@@ -3892,7 +3892,7 @@ const derivedDictionaryData = [
       "resembling court"
     ],
     "freq": 0,
-    "freq_rank": 1687
+    "freq_rank": 1690
   },
   {
     "word": "zupia",
@@ -3906,7 +3906,7 @@ const derivedDictionaryData = [
       "enabler"
     ],
     "freq": 0,
-    "freq_rank": 3296
+    "freq_rank": 3300
   },
   {
     "word": "domloe",
@@ -3921,7 +3921,7 @@ const derivedDictionaryData = [
       "resembling rain"
     ],
     "freq": 0,
-    "freq_rank": 1688
+    "freq_rank": 1691
   },
   {
     "word": "domloei",
@@ -3980,7 +3980,7 @@ const derivedDictionaryData = [
       "resembling back (anatomy)"
     ],
     "freq": 0,
-    "freq_rank": 1689
+    "freq_rank": 1692
   },
   {
     "word": "dormia",
@@ -3994,7 +3994,7 @@ const derivedDictionaryData = [
       "swimmer"
     ],
     "freq": 0,
-    "freq_rank": 1690
+    "freq_rank": 1693
   },
   {
     "word": "dorsoe",
@@ -4041,7 +4041,7 @@ const derivedDictionaryData = [
       "irrigate"
     ],
     "freq": 0,
-    "freq_rank": 1691
+    "freq_rank": 1694
   },
   {
     "word": "dotei",
@@ -4070,7 +4070,7 @@ const derivedDictionaryData = [
       "strength"
     ],
     "freq": 0,
-    "freq_rank": 1692
+    "freq_rank": 1695
   },
   {
     "word": "dowoe",
@@ -4084,7 +4084,7 @@ const derivedDictionaryData = [
       "woolen"
     ],
     "freq": 0,
-    "freq_rank": 1693
+    "freq_rank": 1696
   },
   {
     "word": "drabei",
@@ -4099,7 +4099,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1694
+    "freq_rank": 1697
   },
   {
     "word": "drafoe",
@@ -4114,7 +4114,7 @@ const derivedDictionaryData = [
       "resembling wheel"
     ],
     "freq": 0,
-    "freq_rank": 1695
+    "freq_rank": 1698
   },
   {
     "word": "drekoa",
@@ -4129,7 +4129,7 @@ const derivedDictionaryData = [
       "mason"
     ],
     "freq": 0,
-    "freq_rank": 1696
+    "freq_rank": 1699
   },
   {
     "word": "drekoe",
@@ -4145,7 +4145,7 @@ const derivedDictionaryData = [
       "stone-built"
     ],
     "freq": 0,
-    "freq_rank": 1697
+    "freq_rank": 1700
   },
   {
     "word": "drijia",
@@ -4159,7 +4159,7 @@ const derivedDictionaryData = [
       "climber"
     ],
     "freq": 0,
-    "freq_rank": 1698
+    "freq_rank": 1701
   },
   {
     "word": "drulsia",
@@ -4173,7 +4173,7 @@ const derivedDictionaryData = [
       "switcher"
     ],
     "freq": 0,
-    "freq_rank": 1700
+    "freq_rank": 1703
   },
   {
     "word": "drulsio",
@@ -4189,7 +4189,7 @@ const derivedDictionaryData = [
       "control device"
     ],
     "freq": 0,
-    "freq_rank": 1701
+    "freq_rank": 1704
   },
   {
     "word": "dubizie",
@@ -4205,7 +4205,7 @@ const derivedDictionaryData = [
       "spawn-point"
     ],
     "freq": 0,
-    "freq_rank": 1702
+    "freq_rank": 1705
   },
   {
     "word": "ducoe",
@@ -4221,7 +4221,7 @@ const derivedDictionaryData = [
       "reflected"
     ],
     "freq": 0,
-    "freq_rank": 1703
+    "freq_rank": 1706
   },
   {
     "word": "due",
@@ -4236,7 +4236,7 @@ const derivedDictionaryData = [
       "daytime"
     ],
     "freq": 0,
-    "freq_rank": 1704
+    "freq_rank": 1707
   },
   {
     "word": "dugue",
@@ -4265,7 +4265,7 @@ const derivedDictionaryData = [
       "migrate to"
     ],
     "freq": 0,
-    "freq_rank": 1706
+    "freq_rank": 1709
   },
   {
     "word": "dupei",
@@ -4294,7 +4294,7 @@ const derivedDictionaryData = [
       "depth"
     ],
     "freq": 0,
-    "freq_rank": 1707
+    "freq_rank": 1710
   },
   {
     "word": "durye",
@@ -4309,7 +4309,7 @@ const derivedDictionaryData = [
       "concurrent"
     ],
     "freq": 0,
-    "freq_rank": 1708
+    "freq_rank": 1711
   },
   {
     "word": "duxilia",
@@ -4325,7 +4325,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1709
+    "freq_rank": 1712
   },
   {
     "word": "duxilio",
@@ -4341,7 +4341,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1710
+    "freq_rank": 1713
   },
   {
     "word": "dyrpoe",
@@ -4356,7 +4356,7 @@ const derivedDictionaryData = [
       "resembling plank"
     ],
     "freq": 0,
-    "freq_rank": 1718
+    "freq_rank": 1721
   },
   {
     "word": "dysae",
@@ -4371,7 +4371,7 @@ const derivedDictionaryData = [
       "resembling tongue"
     ],
     "freq": 0,
-    "freq_rank": 1720
+    "freq_rank": 1723
   },
   {
     "word": "dzefia",
@@ -4385,7 +4385,7 @@ const derivedDictionaryData = [
       "accepter"
     ],
     "freq": 0,
-    "freq_rank": 1724
+    "freq_rank": 1727
   },
   {
     "word": "dzocoa",
@@ -4399,7 +4399,7 @@ const derivedDictionaryData = [
       "potter"
     ],
     "freq": 0,
-    "freq_rank": 1725
+    "freq_rank": 1728
   },
   {
     "word": "dzocoe",
@@ -4414,7 +4414,7 @@ const derivedDictionaryData = [
       "resembling pottery"
     ],
     "freq": 0,
-    "freq_rank": 1726
+    "freq_rank": 1729
   },
   {
     "word": "dzupakae",
@@ -4429,7 +4429,7 @@ const derivedDictionaryData = [
       "regal"
     ],
     "freq": 0,
-    "freq_rank": 1729
+    "freq_rank": 1732
   },
   {
     "word": "dzupakai",
@@ -4445,7 +4445,7 @@ const derivedDictionaryData = [
       "govern"
     ],
     "freq": 0,
-    "freq_rank": 1730
+    "freq_rank": 1733
   },
   {
     "word": "dzupakau",
@@ -4461,7 +4461,7 @@ const derivedDictionaryData = [
       "sovereignty"
     ],
     "freq": 0,
-    "freq_rank": 1731
+    "freq_rank": 1734
   },
   {
     "word": "dzuvie",
@@ -4475,7 +4475,7 @@ const derivedDictionaryData = [
       "eroded"
     ],
     "freq": 0,
-    "freq_rank": 1733
+    "freq_rank": 1736
   },
   {
     "word": "dzyprae",
@@ -4490,7 +4490,7 @@ const derivedDictionaryData = [
       "resembling nut"
     ],
     "freq": 0,
-    "freq_rank": 1734
+    "freq_rank": 1737
   },
   {
     "word": "eavae",
@@ -4505,7 +4505,7 @@ const derivedDictionaryData = [
       "serpentine"
     ],
     "freq": 0,
-    "freq_rank": 1736
+    "freq_rank": 1739
   },
   {
     "word": "ebgae",
@@ -4520,7 +4520,7 @@ const derivedDictionaryData = [
       "resembling twig"
     ],
     "freq": 0,
-    "freq_rank": 1737
+    "freq_rank": 1740
   },
   {
     "word": "raria",
@@ -4534,7 +4534,7 @@ const derivedDictionaryData = [
       "rememberer"
     ],
     "freq": 0,
-    "freq_rank": 2689
+    "freq_rank": 2692
   },
   {
     "word": "ebnesia",
@@ -4548,7 +4548,7 @@ const derivedDictionaryData = [
       "forgetter"
     ],
     "freq": 0,
-    "freq_rank": 1738
+    "freq_rank": 1741
   },
   {
     "word": "ebnesie",
@@ -4563,7 +4563,7 @@ const derivedDictionaryData = [
       "absent-minded"
     ],
     "freq": 0,
-    "freq_rank": 1739
+    "freq_rank": 1742
   },
   {
     "word": "eboe",
@@ -4579,7 +4579,7 @@ const derivedDictionaryData = [
       "chain-like"
     ],
     "freq": 0,
-    "freq_rank": 1741
+    "freq_rank": 1744
   },
   {
     "word": "ebxei",
@@ -4608,7 +4608,7 @@ const derivedDictionaryData = [
       "cruelty"
     ],
     "freq": 0,
-    "freq_rank": 1743
+    "freq_rank": 1746
   },
   {
     "word": "dwepia",
@@ -4622,7 +4622,7 @@ const derivedDictionaryData = [
       "recognizer"
     ],
     "freq": 0,
-    "freq_rank": 1715
+    "freq_rank": 1718
   },
   {
     "word": "ecmei",
@@ -4652,7 +4652,7 @@ const derivedDictionaryData = [
       "modesty"
     ],
     "freq": 0,
-    "freq_rank": 1745
+    "freq_rank": 1748
   },
   {
     "word": "edajoe",
@@ -4666,7 +4666,7 @@ const derivedDictionaryData = [
       "lunar"
     ],
     "freq": 0,
-    "freq_rank": 1746
+    "freq_rank": 1749
   },
   {
     "word": "ednua",
@@ -4681,7 +4681,7 @@ const derivedDictionaryData = [
       "priest"
     ],
     "freq": 0,
-    "freq_rank": 1748
+    "freq_rank": 1751
   },
   {
     "word": "ednue",
@@ -4709,7 +4709,7 @@ const derivedDictionaryData = [
       "deep-frier"
     ],
     "freq": 0,
-    "freq_rank": 1750
+    "freq_rank": 1753
   },
   {
     "word": "efadei",
@@ -4739,7 +4739,7 @@ const derivedDictionaryData = [
       "industriousness"
     ],
     "freq": 0,
-    "freq_rank": 1751
+    "freq_rank": 1754
   },
   {
     "word": "efantue",
@@ -4753,7 +4753,7 @@ const derivedDictionaryData = [
       "strenuous"
     ],
     "freq": 0,
-    "freq_rank": 1753
+    "freq_rank": 1756
   },
   {
     "word": "efmia",
@@ -4769,7 +4769,7 @@ const derivedDictionaryData = [
       "burglar"
     ],
     "freq": 0,
-    "freq_rank": 1754
+    "freq_rank": 1757
   },
   {
     "word": "efzue",
@@ -4783,7 +4783,7 @@ const derivedDictionaryData = [
       "harmonious"
     ],
     "freq": 0,
-    "freq_rank": 1756
+    "freq_rank": 1759
   },
   {
     "word": "egdei",
@@ -4812,7 +4812,7 @@ const derivedDictionaryData = [
       "sobriety"
     ],
     "freq": 0,
-    "freq_rank": 1758
+    "freq_rank": 1761
   },
   {
     "word": "sidmoe",
@@ -4827,7 +4827,7 @@ const derivedDictionaryData = [
       "resembling engine"
     ],
     "freq": 0,
-    "freq_rank": 2775
+    "freq_rank": 2778
   },
   {
     "word": "egmabei",
@@ -4842,7 +4842,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1759
+    "freq_rank": 1762
   },
   {
     "word": "egpoe",
@@ -4858,7 +4858,7 @@ const derivedDictionaryData = [
       "piped"
     ],
     "freq": 0,
-    "freq_rank": 1761
+    "freq_rank": 1764
   },
   {
     "word": "eguvue",
@@ -4872,7 +4872,7 @@ const derivedDictionaryData = [
       "standard"
     ],
     "freq": 0,
-    "freq_rank": 1763
+    "freq_rank": 1766
   },
   {
     "word": "eipia",
@@ -4886,7 +4886,7 @@ const derivedDictionaryData = [
       "ripper"
     ],
     "freq": 0,
-    "freq_rank": 1765
+    "freq_rank": 1767
   },
   {
     "word": "eksaplia",
@@ -4900,7 +4900,7 @@ const derivedDictionaryData = [
       "explainer"
     ],
     "freq": 0,
-    "freq_rank": 1766
+    "freq_rank": 1768
   },
   {
     "word": "elgei",
@@ -4929,7 +4929,7 @@ const derivedDictionaryData = [
       "honesty"
     ],
     "freq": 1,
-    "freq_rank": 1024
+    "freq_rank": 1025
   },
   {
     "word": "elsae",
@@ -4945,7 +4945,7 @@ const derivedDictionaryData = [
       "apian"
     ],
     "freq": 0,
-    "freq_rank": 1768
+    "freq_rank": 1770
   },
   {
     "word": "emfei",
@@ -4974,7 +4974,7 @@ const derivedDictionaryData = [
       "freshness"
     ],
     "freq": 0,
-    "freq_rank": 1770
+    "freq_rank": 1772
   },
   {
     "word": "emitia",
@@ -4988,7 +4988,7 @@ const derivedDictionaryData = [
       "follower"
     ],
     "freq": 0,
-    "freq_rank": 1771
+    "freq_rank": 1773
   },
   {
     "word": "enconia",
@@ -5002,7 +5002,7 @@ const derivedDictionaryData = [
       "meeter"
     ],
     "freq": 0,
-    "freq_rank": 1772
+    "freq_rank": 1774
   },
   {
     "word": "enconiu",
@@ -5019,7 +5019,7 @@ const derivedDictionaryData = [
       "encounter"
     ],
     "freq": 0,
-    "freq_rank": 1773
+    "freq_rank": 1775
   },
   {
     "word": "relsei",
@@ -5034,7 +5034,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1245
+    "freq_rank": 1247
   },
   {
     "word": "relseu",
@@ -5048,7 +5048,7 @@ const derivedDictionaryData = [
       "lightness"
     ],
     "freq": 0,
-    "freq_rank": 2701
+    "freq_rank": 2704
   },
   {
     "word": "enria",
@@ -5062,7 +5062,7 @@ const derivedDictionaryData = [
       "entrant"
     ],
     "freq": 0,
-    "freq_rank": 1774
+    "freq_rank": 1776
   },
   {
     "word": "mipfue",
@@ -5076,7 +5076,7 @@ const derivedDictionaryData = [
       "active"
     ],
     "freq": 0,
-    "freq_rank": 2419
+    "freq_rank": 2422
   },
   {
     "word": "mipfui",
@@ -5106,7 +5106,7 @@ const derivedDictionaryData = [
       "resembling oven"
     ],
     "freq": 0,
-    "freq_rank": 1775
+    "freq_rank": 1777
   },
   {
     "word": "epufue",
@@ -5134,7 +5134,7 @@ const derivedDictionaryData = [
       "polisher"
     ],
     "freq": 0,
-    "freq_rank": 1778
+    "freq_rank": 1780
   },
   {
     "word": "epzie",
@@ -5150,7 +5150,7 @@ const derivedDictionaryData = [
       "shined"
     ],
     "freq": 0,
-    "freq_rank": 1779
+    "freq_rank": 1781
   },
   {
     "word": "eqsoe",
@@ -5165,7 +5165,7 @@ const derivedDictionaryData = [
       "resembling saliva"
     ],
     "freq": 0,
-    "freq_rank": 1781
+    "freq_rank": 1783
   },
   {
     "word": "eqsoi",
@@ -5179,7 +5179,7 @@ const derivedDictionaryData = [
       "spit"
     ],
     "freq": 0,
-    "freq_rank": 1782
+    "freq_rank": 1784
   },
   {
     "word": "ercoe",
@@ -5194,7 +5194,7 @@ const derivedDictionaryData = [
       "resembling thunder"
     ],
     "freq": 0,
-    "freq_rank": 1784
+    "freq_rank": 1786
   },
   {
     "word": "erfia",
@@ -5208,7 +5208,7 @@ const derivedDictionaryData = [
       "comprehender"
     ],
     "freq": 0,
-    "freq_rank": 1785
+    "freq_rank": 1787
   },
   {
     "word": "erua",
@@ -5238,7 +5238,7 @@ const derivedDictionaryData = [
       "warlike"
     ],
     "freq": 0,
-    "freq_rank": 1786
+    "freq_rank": 1788
   },
   {
     "word": "espei",
@@ -5253,7 +5253,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1027
+    "freq_rank": 1028
   },
   {
     "word": "espeu",
@@ -5267,7 +5267,7 @@ const derivedDictionaryData = [
       "specificity"
     ],
     "freq": 0,
-    "freq_rank": 1788
+    "freq_rank": 1790
   },
   {
     "word": "etypia",
@@ -5281,7 +5281,7 @@ const derivedDictionaryData = [
       "obtainer"
     ],
     "freq": 0,
-    "freq_rank": 1789
+    "freq_rank": 1791
   },
   {
     "word": "evlei",
@@ -5296,7 +5296,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1790
+    "freq_rank": 1792
   },
   {
     "word": "evmue",
@@ -5310,7 +5310,7 @@ const derivedDictionaryData = [
       "accidental"
     ],
     "freq": 0,
-    "freq_rank": 1792
+    "freq_rank": 1794
   },
   {
     "word": "exkei",
@@ -5325,7 +5325,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1793
+    "freq_rank": 1795
   },
   {
     "word": "exopue",
@@ -5339,7 +5339,7 @@ const derivedDictionaryData = [
       "rate-based"
     ],
     "freq": 0,
-    "freq_rank": 1795
+    "freq_rank": 1797
   },
   {
     "word": "extanue",
@@ -5353,7 +5353,7 @@ const derivedDictionaryData = [
       "instructional"
     ],
     "freq": 0,
-    "freq_rank": 1797
+    "freq_rank": 1799
   },
   {
     "word": "eziswiu",
@@ -5368,7 +5368,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1798
+    "freq_rank": 1800
   },
   {
     "word": "ezloe",
@@ -5383,7 +5383,7 @@ const derivedDictionaryData = [
       "resembling lid"
     ],
     "freq": 0,
-    "freq_rank": 1799
+    "freq_rank": 1801
   },
   {
     "word": "eztei",
@@ -5398,7 +5398,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1028
+    "freq_rank": 1029
   },
   {
     "word": "ezteu",
@@ -5413,7 +5413,7 @@ const derivedDictionaryData = [
       "courtesy"
     ],
     "freq": 0,
-    "freq_rank": 1801
+    "freq_rank": 1803
   },
   {
     "word": "fabia",
@@ -5427,7 +5427,7 @@ const derivedDictionaryData = [
       "desirer"
     ],
     "freq": 0,
-    "freq_rank": 1802
+    "freq_rank": 1804
   },
   {
     "word": "facue",
@@ -5441,7 +5441,7 @@ const derivedDictionaryData = [
       "lateral"
     ],
     "freq": 0,
-    "freq_rank": 1803
+    "freq_rank": 1805
   },
   {
     "word": "jorei",
@@ -5470,7 +5470,7 @@ const derivedDictionaryData = [
       "importance"
     ],
     "freq": 0,
-    "freq_rank": 2159
+    "freq_rank": 2162
   },
   {
     "word": "fagae",
@@ -5485,7 +5485,7 @@ const derivedDictionaryData = [
       "resembling cousin (gender-neutral)"
     ],
     "freq": 0,
-    "freq_rank": 1804
+    "freq_rank": 1806
   },
   {
     "word": "falazia",
@@ -5499,7 +5499,7 @@ const derivedDictionaryData = [
       "recorder"
     ],
     "freq": 0,
-    "freq_rank": 1805
+    "freq_rank": 1807
   },
   {
     "word": "falfosoe",
@@ -5514,7 +5514,7 @@ const derivedDictionaryData = [
       "resembling list"
     ],
     "freq": 0,
-    "freq_rank": 1806
+    "freq_rank": 1808
   },
   {
     "word": "falfosoi",
@@ -5529,7 +5529,7 @@ const derivedDictionaryData = [
       "enumerate"
     ],
     "freq": 0,
-    "freq_rank": 1807
+    "freq_rank": 1809
   },
   {
     "word": "falmia",
@@ -5543,7 +5543,7 @@ const derivedDictionaryData = [
       "reporter"
     ],
     "freq": 0,
-    "freq_rank": 1808
+    "freq_rank": 1810
   },
   {
     "word": "falmio",
@@ -5572,7 +5572,7 @@ const derivedDictionaryData = [
       "introducer"
     ],
     "freq": 0,
-    "freq_rank": 2358
+    "freq_rank": 2361
   },
   {
     "word": "farlopae",
@@ -5587,7 +5587,7 @@ const derivedDictionaryData = [
       "resembling doctor"
     ],
     "freq": 0,
-    "freq_rank": 1809
+    "freq_rank": 1811
   },
   {
     "word": "farlue",
@@ -5617,7 +5617,7 @@ const derivedDictionaryData = [
       "includer"
     ],
     "freq": 0,
-    "freq_rank": 1812
+    "freq_rank": 1814
   },
   {
     "word": "fasnoliu",
@@ -5633,7 +5633,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1813
+    "freq_rank": 1815
   },
   {
     "word": "fatlia",
@@ -5647,7 +5647,7 @@ const derivedDictionaryData = [
       "dependent"
     ],
     "freq": 0,
-    "freq_rank": 1815
+    "freq_rank": 1817
   },
   {
     "word": "fatoa",
@@ -5662,7 +5662,7 @@ const derivedDictionaryData = [
       "machinist"
     ],
     "freq": 0,
-    "freq_rank": 1816
+    "freq_rank": 1818
   },
   {
     "word": "fatoe",
@@ -5678,7 +5678,7 @@ const derivedDictionaryData = [
       "of a machine"
     ],
     "freq": 0,
-    "freq_rank": 1817
+    "freq_rank": 1819
   },
   {
     "word": "fawanue",
@@ -5692,7 +5692,7 @@ const derivedDictionaryData = [
       "technological"
     ],
     "freq": 0,
-    "freq_rank": 1818
+    "freq_rank": 1820
   },
   {
     "word": "fecyei",
@@ -5707,7 +5707,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Preposition -> Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1031
+    "freq_rank": 1032
   },
   {
     "word": "fefue",
@@ -5735,7 +5735,7 @@ const derivedDictionaryData = [
       "divorced person"
     ],
     "freq": 0,
-    "freq_rank": 1821
+    "freq_rank": 1823
   },
   {
     "word": "fehedie",
@@ -5749,7 +5749,7 @@ const derivedDictionaryData = [
       "divorced"
     ],
     "freq": 0,
-    "freq_rank": 1822
+    "freq_rank": 1824
   },
   {
     "word": "fehedio",
@@ -5763,7 +5763,7 @@ const derivedDictionaryData = [
       "divorce document"
     ],
     "freq": 0,
-    "freq_rank": 1823
+    "freq_rank": 1825
   },
   {
     "word": "fehediu",
@@ -5777,7 +5777,7 @@ const derivedDictionaryData = [
       "divorce (n)"
     ],
     "freq": 0,
-    "freq_rank": 1824
+    "freq_rank": 1826
   },
   {
     "word": "fei",
@@ -5792,7 +5792,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1825
+    "freq_rank": 1827
   },
   {
     "word": "felpei",
@@ -5839,7 +5839,7 @@ const derivedDictionaryData = [
       "crystalline"
     ],
     "freq": 0,
-    "freq_rank": 1827
+    "freq_rank": 1829
   },
   {
     "word": "fenutia",
@@ -5853,7 +5853,7 @@ const derivedDictionaryData = [
       "teller"
     ],
     "freq": 0,
-    "freq_rank": 1828
+    "freq_rank": 1830
   },
   {
     "word": "fevoe",
@@ -5868,7 +5868,7 @@ const derivedDictionaryData = [
       "resembling sun"
     ],
     "freq": 0,
-    "freq_rank": 1829
+    "freq_rank": 1831
   },
   {
     "word": "fewia",
@@ -5882,7 +5882,7 @@ const derivedDictionaryData = [
       "mixer"
     ],
     "freq": 0,
-    "freq_rank": 1830
+    "freq_rank": 1832
   },
   {
     "word": "fewio",
@@ -5897,7 +5897,7 @@ const derivedDictionaryData = [
       "blend"
     ],
     "freq": 0,
-    "freq_rank": 1831
+    "freq_rank": 1833
   },
   {
     "word": "fexrukua",
@@ -5913,7 +5913,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1832
+    "freq_rank": 1834
   },
   {
     "word": "figenkue",
@@ -5928,7 +5928,7 @@ const derivedDictionaryData = [
       "representative"
     ],
     "freq": 0,
-    "freq_rank": 1835
+    "freq_rank": 1837
   },
   {
     "word": "fihia",
@@ -5942,7 +5942,7 @@ const derivedDictionaryData = [
       "revealer"
     ],
     "freq": 0,
-    "freq_rank": 1837
+    "freq_rank": 1839
   },
   {
     "word": "fihie",
@@ -5958,7 +5958,7 @@ const derivedDictionaryData = [
       "laid bare"
     ],
     "freq": 0,
-    "freq_rank": 1838
+    "freq_rank": 1840
   },
   {
     "word": "fijae",
@@ -5973,7 +5973,7 @@ const derivedDictionaryData = [
       "resembling ear"
     ],
     "freq": 0,
-    "freq_rank": 1839
+    "freq_rank": 1841
   },
   {
     "word": "fijai",
@@ -6003,7 +6003,7 @@ const derivedDictionaryData = [
       "headphone"
     ],
     "freq": 0,
-    "freq_rank": 1840
+    "freq_rank": 1842
   },
   {
     "word": "tivwoe",
@@ -6018,7 +6018,7 @@ const derivedDictionaryData = [
       "resembling path"
     ],
     "freq": 0,
-    "freq_rank": 2927
+    "freq_rank": 2931
   },
   {
     "word": "finei",
@@ -6033,7 +6033,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1036
+    "freq_rank": 1037
   },
   {
     "word": "fineu",
@@ -6048,7 +6048,7 @@ const derivedDictionaryData = [
       "fineness"
     ],
     "freq": 0,
-    "freq_rank": 1842
+    "freq_rank": 1844
   },
   {
     "word": "fipue",
@@ -6062,7 +6062,7 @@ const derivedDictionaryData = [
       "software-related"
     ],
     "freq": 0,
-    "freq_rank": 1843
+    "freq_rank": 1845
   },
   {
     "word": "firfae",
@@ -6078,7 +6078,7 @@ const derivedDictionaryData = [
       "rose-like"
     ],
     "freq": 0,
-    "freq_rank": 1844
+    "freq_rank": 1846
   },
   {
     "word": "fiskei",
@@ -6093,7 +6093,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1845
+    "freq_rank": 1847
   },
   {
     "word": "fiturue",
@@ -6107,7 +6107,7 @@ const derivedDictionaryData = [
       "prospective"
     ],
     "freq": 0,
-    "freq_rank": 1846
+    "freq_rank": 1848
   },
   {
     "word": "fitydue",
@@ -6121,7 +6121,7 @@ const derivedDictionaryData = [
       "of tomorrow"
     ],
     "freq": 1,
-    "freq_rank": 1039
+    "freq_rank": 1040
   },
   {
     "word": "fiwoe",
@@ -6136,7 +6136,7 @@ const derivedDictionaryData = [
       "resembling language"
     ],
     "freq": 0,
-    "freq_rank": 1847
+    "freq_rank": 1849
   },
   {
     "word": "flaxadoi",
@@ -6151,7 +6151,7 @@ const derivedDictionaryData = [
       "dress a wound"
     ],
     "freq": 0,
-    "freq_rank": 1848
+    "freq_rank": 1850
   },
   {
     "word": "flestoe",
@@ -6167,7 +6167,7 @@ const derivedDictionaryData = [
       "sparkling"
     ],
     "freq": 0,
-    "freq_rank": 1850
+    "freq_rank": 1852
   },
   {
     "word": "flufue",
@@ -6182,7 +6182,7 @@ const derivedDictionaryData = [
       "sanitary"
     ],
     "freq": 0,
-    "freq_rank": 1854
+    "freq_rank": 1856
   },
   {
     "word": "fodia",
@@ -6196,7 +6196,7 @@ const derivedDictionaryData = [
       "processor"
     ],
     "freq": 0,
-    "freq_rank": 1856
+    "freq_rank": 1858
   },
   {
     "word": "fofuploa",
@@ -6211,7 +6211,7 @@ const derivedDictionaryData = [
       "bay worker"
     ],
     "freq": 0,
-    "freq_rank": 1857
+    "freq_rank": 1859
   },
   {
     "word": "fofuploe",
@@ -6226,7 +6226,7 @@ const derivedDictionaryData = [
       "resembling bay"
     ],
     "freq": 0,
-    "freq_rank": 1858
+    "freq_rank": 1860
   },
   {
     "word": "tsufei",
@@ -6241,7 +6241,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1299
+    "freq_rank": 1301
   },
   {
     "word": "tsufeu",
@@ -6255,7 +6255,7 @@ const derivedDictionaryData = [
       "comfort"
     ],
     "freq": 0,
-    "freq_rank": 2970
+    "freq_rank": 2974
   },
   {
     "word": "fohue",
@@ -6269,7 +6269,7 @@ const derivedDictionaryData = [
       "afternoon"
     ],
     "freq": 0,
-    "freq_rank": 1859
+    "freq_rank": 1861
   },
   {
     "word": "foisoe",
@@ -6284,7 +6284,7 @@ const derivedDictionaryData = [
       "resembling building"
     ],
     "freq": 0,
-    "freq_rank": 1860
+    "freq_rank": 1862
   },
   {
     "word": "foisoi",
@@ -6314,7 +6314,7 @@ const derivedDictionaryData = [
       "constructor"
     ],
     "freq": 0,
-    "freq_rank": 1861
+    "freq_rank": 1863
   },
   {
     "word": "foisou",
@@ -6329,7 +6329,7 @@ const derivedDictionaryData = [
       "construction"
     ],
     "freq": 0,
-    "freq_rank": 1862
+    "freq_rank": 1864
   },
   {
     "word": "folkunue",
@@ -6343,7 +6343,7 @@ const derivedDictionaryData = [
       "dignified"
     ],
     "freq": 0,
-    "freq_rank": 1863
+    "freq_rank": 1865
   },
   {
     "word": "folye",
@@ -6358,7 +6358,7 @@ const derivedDictionaryData = [
       "subsequent"
     ],
     "freq": 1,
-    "freq_rank": 1043
+    "freq_rank": 1044
   },
   {
     "word": "fomentua",
@@ -6373,7 +6373,7 @@ const derivedDictionaryData = [
       "manufacturer"
     ],
     "freq": 0,
-    "freq_rank": 1864
+    "freq_rank": 1866
   },
   {
     "word": "fomentui",
@@ -6389,7 +6389,7 @@ const derivedDictionaryData = [
       "mass-produce"
     ],
     "freq": 0,
-    "freq_rank": 1865
+    "freq_rank": 1867
   },
   {
     "word": "fosei",
@@ -6404,7 +6404,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1868
+    "freq_rank": 1870
   },
   {
     "word": "fotae",
@@ -6420,7 +6420,7 @@ const derivedDictionaryData = [
       "root-filled"
     ],
     "freq": 0,
-    "freq_rank": 1870
+    "freq_rank": 1872
   },
   {
     "word": "foxipria",
@@ -6434,7 +6434,7 @@ const derivedDictionaryData = [
       "fader"
     ],
     "freq": 0,
-    "freq_rank": 1872
+    "freq_rank": 1874
   },
   {
     "word": "foxiprio",
@@ -6450,7 +6450,7 @@ const derivedDictionaryData = [
       "color transition"
     ],
     "freq": 0,
-    "freq_rank": 1873
+    "freq_rank": 1875
   },
   {
     "word": "kjukei",
@@ -6481,7 +6481,7 @@ const derivedDictionaryData = [
       "independence"
     ],
     "freq": 0,
-    "freq_rank": 2232
+    "freq_rank": 2235
   },
   {
     "word": "frankae",
@@ -6496,7 +6496,7 @@ const derivedDictionaryData = [
       "resembling armadillo"
     ],
     "freq": 0,
-    "freq_rank": 1875
+    "freq_rank": 1877
   },
   {
     "word": "frelkae",
@@ -6512,7 +6512,7 @@ const derivedDictionaryData = [
       "swamp-grown"
     ],
     "freq": 0,
-    "freq_rank": 1877
+    "freq_rank": 1879
   },
   {
     "word": "tofvei",
@@ -6527,7 +6527,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2937
+    "freq_rank": 2941
   },
   {
     "word": "tofveu",
@@ -6541,7 +6541,7 @@ const derivedDictionaryData = [
       "deafness"
     ],
     "freq": 0,
-    "freq_rank": 2938
+    "freq_rank": 2942
   },
   {
     "word": "zacjae",
@@ -6556,7 +6556,7 @@ const derivedDictionaryData = [
       "resembling rabbit"
     ],
     "freq": 0,
-    "freq_rank": 3247
+    "freq_rank": 3251
   },
   {
     "word": "frismae",
@@ -6571,7 +6571,7 @@ const derivedDictionaryData = [
       "resembling rib"
     ],
     "freq": 0,
-    "freq_rank": 1880
+    "freq_rank": 1882
   },
   {
     "word": "fruvadue",
@@ -6586,7 +6586,7 @@ const derivedDictionaryData = [
       "let down"
     ],
     "freq": 0,
-    "freq_rank": 1883
+    "freq_rank": 1885
   },
   {
     "word": "fruvadui",
@@ -6600,7 +6600,7 @@ const derivedDictionaryData = [
       "disappoint"
     ],
     "freq": 0,
-    "freq_rank": 1884,
+    "freq_rank": 1886,
     "example": {
       "fiwo": "Sleziup fruvadui muk.",
       "english": "The question disappoints us."
@@ -6618,7 +6618,7 @@ const derivedDictionaryData = [
       "catcher"
     ],
     "freq": 0,
-    "freq_rank": 1885
+    "freq_rank": 1888
   },
   {
     "word": "fubae",
@@ -6632,7 +6632,7 @@ const derivedDictionaryData = [
       "fish-like"
     ],
     "freq": 0,
-    "freq_rank": 1886
+    "freq_rank": 1889
   },
   {
     "word": "fuegoa",
@@ -6646,7 +6646,7 @@ const derivedDictionaryData = [
       "firefighter"
     ],
     "freq": 0,
-    "freq_rank": 1887
+    "freq_rank": 1890
   },
   {
     "word": "fuegoe",
@@ -6662,7 +6662,7 @@ const derivedDictionaryData = [
       "of fire"
     ],
     "freq": 1,
-    "freq_rank": 1045
+    "freq_rank": 1046
   },
   {
     "word": "wusae",
@@ -6677,7 +6677,7 @@ const derivedDictionaryData = [
       "resembling hand"
     ],
     "freq": 0,
-    "freq_rank": 3153
+    "freq_rank": 3157
   },
   {
     "word": "fulue",
@@ -6691,7 +6691,7 @@ const derivedDictionaryData = [
       "informational"
     ],
     "freq": 0,
-    "freq_rank": 1888
+    "freq_rank": 1891
   },
   {
     "word": "fuluo",
@@ -6706,7 +6706,7 @@ const derivedDictionaryData = [
       "dataset"
     ],
     "freq": 1,
-    "freq_rank": 1046
+    "freq_rank": 1047
   },
   {
     "word": "fumoe",
@@ -6722,7 +6722,7 @@ const derivedDictionaryData = [
       "smoke-producing"
     ],
     "freq": 0,
-    "freq_rank": 1889
+    "freq_rank": 1892
   },
   {
     "word": "vocia",
@@ -6736,7 +6736,7 @@ const derivedDictionaryData = [
       "demander"
     ],
     "freq": 0,
-    "freq_rank": 3073
+    "freq_rank": 3077
   },
   {
     "word": "fuqei",
@@ -6751,7 +6751,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1047
+    "freq_rank": 1048
   },
   {
     "word": "furnae",
@@ -6766,7 +6766,7 @@ const derivedDictionaryData = [
       "resembling fur"
     ],
     "freq": 0,
-    "freq_rank": 1890
+    "freq_rank": 1893
   },
   {
     "word": "furnao",
@@ -6781,7 +6781,7 @@ const derivedDictionaryData = [
       "fur"
     ],
     "freq": 0,
-    "freq_rank": 1891
+    "freq_rank": 1894
   },
   {
     "word": "kuxia",
@@ -6795,7 +6795,7 @@ const derivedDictionaryData = [
       "supporter"
     ],
     "freq": 0,
-    "freq_rank": 2274
+    "freq_rank": 2277
   },
   {
     "word": "fycisia",
@@ -6809,7 +6809,7 @@ const derivedDictionaryData = [
       "yearner"
     ],
     "freq": 0,
-    "freq_rank": 1894
+    "freq_rank": 1897
   },
   {
     "word": "fyjebei",
@@ -6838,7 +6838,7 @@ const derivedDictionaryData = [
       "warmth"
     ],
     "freq": 1,
-    "freq_rank": 1050
+    "freq_rank": 1051
   },
   {
     "word": "gague",
@@ -6852,7 +6852,7 @@ const derivedDictionaryData = [
       "textured"
     ],
     "freq": 0,
-    "freq_rank": 1895
+    "freq_rank": 1898
   },
   {
     "word": "gahae",
@@ -6867,7 +6867,7 @@ const derivedDictionaryData = [
       "resembling cocoa"
     ],
     "freq": 0,
-    "freq_rank": 1897
+    "freq_rank": 1900
   },
   {
     "word": "gakijia",
@@ -6881,7 +6881,7 @@ const derivedDictionaryData = [
       "guesser"
     ],
     "freq": 0,
-    "freq_rank": 1899
+    "freq_rank": 1902
   },
   {
     "word": "nedcia",
@@ -6897,7 +6897,7 @@ const derivedDictionaryData = [
       "participant"
     ],
     "freq": 0,
-    "freq_rank": 2470
+    "freq_rank": 2473
   },
   {
     "word": "nedcio",
@@ -6913,7 +6913,7 @@ const derivedDictionaryData = [
       "game piece"
     ],
     "freq": 0,
-    "freq_rank": 2471
+    "freq_rank": 2474
   },
   {
     "word": "nedciu",
@@ -6928,7 +6928,7 @@ const derivedDictionaryData = [
       "recreation"
     ],
     "freq": 0,
-    "freq_rank": 2472
+    "freq_rank": 2475
   },
   {
     "word": "gasirfue",
@@ -6943,7 +6943,7 @@ const derivedDictionaryData = [
       "nauseated"
     ],
     "freq": 0,
-    "freq_rank": 1900
+    "freq_rank": 1903
   },
   {
     "word": "gavudziu",
@@ -6959,7 +6959,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1901
+    "freq_rank": 1904
   },
   {
     "word": "gawei",
@@ -6989,7 +6989,7 @@ const derivedDictionaryData = [
       "virtue"
     ],
     "freq": 0,
-    "freq_rank": 1902
+    "freq_rank": 1905
   },
   {
     "word": "fwapei",
@@ -7019,7 +7019,7 @@ const derivedDictionaryData = [
       "resembling space"
     ],
     "freq": 0,
-    "freq_rank": 1905
+    "freq_rank": 1908
   },
   {
     "word": "gefria",
@@ -7033,7 +7033,7 @@ const derivedDictionaryData = [
       "exiter"
     ],
     "freq": 0,
-    "freq_rank": 1906
+    "freq_rank": 1909
   },
   {
     "word": "gejedoa",
@@ -7047,7 +7047,7 @@ const derivedDictionaryData = [
       "electrician"
     ],
     "freq": 0,
-    "freq_rank": 1907
+    "freq_rank": 1910
   },
   {
     "word": "gejedoe",
@@ -7063,7 +7063,7 @@ const derivedDictionaryData = [
       "charged"
     ],
     "freq": 0,
-    "freq_rank": 1908
+    "freq_rank": 1911
   },
   {
     "word": "gekafae",
@@ -7078,7 +7078,7 @@ const derivedDictionaryData = [
       "resembling vine"
     ],
     "freq": 0,
-    "freq_rank": 1910
+    "freq_rank": 1913
   },
   {
     "word": "gendae",
@@ -7093,7 +7093,7 @@ const derivedDictionaryData = [
       "resembling camel"
     ],
     "freq": 0,
-    "freq_rank": 1913
+    "freq_rank": 1916
   },
   {
     "word": "gepei",
@@ -7108,7 +7108,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1055
+    "freq_rank": 1056
   },
   {
     "word": "gepeu",
@@ -7122,7 +7122,7 @@ const derivedDictionaryData = [
       "generality"
     ],
     "freq": 0,
-    "freq_rank": 1915
+    "freq_rank": 1918
   },
   {
     "word": "gerotei",
@@ -7137,7 +7137,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1056
+    "freq_rank": 1057
   },
   {
     "word": "geroteu",
@@ -7151,7 +7151,7 @@ const derivedDictionaryData = [
       "shallowness"
     ],
     "freq": 0,
-    "freq_rank": 1917
+    "freq_rank": 1920
   },
   {
     "word": "gesia",
@@ -7165,7 +7165,7 @@ const derivedDictionaryData = [
       "speaker"
     ],
     "freq": 0,
-    "freq_rank": 1918
+    "freq_rank": 1921
   },
   {
     "word": "gesie",
@@ -7180,7 +7180,7 @@ const derivedDictionaryData = [
       "chatty"
     ],
     "freq": 0,
-    "freq_rank": 1919
+    "freq_rank": 1922
   },
   {
     "word": "gesiu",
@@ -7210,7 +7210,7 @@ const derivedDictionaryData = [
       "energetic"
     ],
     "freq": 0,
-    "freq_rank": 1921
+    "freq_rank": 1924
   },
   {
     "word": "getsue",
@@ -7224,7 +7224,7 @@ const derivedDictionaryData = [
       "periodic"
     ],
     "freq": 0,
-    "freq_rank": 1922
+    "freq_rank": 1925
   },
   {
     "word": "gidafia",
@@ -7252,7 +7252,7 @@ const derivedDictionaryData = [
       "sale"
     ],
     "freq": 0,
-    "freq_rank": 1923
+    "freq_rank": 1926
   },
   {
     "word": "gidsia",
@@ -7269,7 +7269,7 @@ const derivedDictionaryData = [
       "purchaser"
     ],
     "freq": 0,
-    "freq_rank": 1924
+    "freq_rank": 1927
   },
   {
     "word": "gidue",
@@ -7283,7 +7283,7 @@ const derivedDictionaryData = [
       "monetary"
     ],
     "freq": 0,
-    "freq_rank": 1925
+    "freq_rank": 1928
   },
   {
     "word": "gihoflui",
@@ -7299,7 +7299,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1926
+    "freq_rank": 1929
   },
   {
     "word": "gikosoa",
@@ -7329,7 +7329,7 @@ const derivedDictionaryData = [
       "resembling coast"
     ],
     "freq": 0,
-    "freq_rank": 1927
+    "freq_rank": 1930
   },
   {
     "word": "gioxue",
@@ -7343,7 +7343,7 @@ const derivedDictionaryData = [
       "ai-based"
     ],
     "freq": 0,
-    "freq_rank": 1928
+    "freq_rank": 1931
   },
   {
     "word": "givia",
@@ -7357,7 +7357,7 @@ const derivedDictionaryData = [
       "digger"
     ],
     "freq": 0,
-    "freq_rank": 1930
+    "freq_rank": 1933
   },
   {
     "word": "gizei",
@@ -7386,7 +7386,7 @@ const derivedDictionaryData = [
       "fullness"
     ],
     "freq": 0,
-    "freq_rank": 1932
+    "freq_rank": 1935
   },
   {
     "word": "glakloe",
@@ -7401,7 +7401,7 @@ const derivedDictionaryData = [
       "resembling hoe"
     ],
     "freq": 0,
-    "freq_rank": 1934
+    "freq_rank": 1937
   },
   {
     "word": "glanue",
@@ -7415,7 +7415,7 @@ const derivedDictionaryData = [
       "gendered"
     ],
     "freq": 0,
-    "freq_rank": 1935
+    "freq_rank": 1938
   },
   {
     "word": "glapei",
@@ -7430,7 +7430,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1061
+    "freq_rank": 1062
   },
   {
     "word": "glecei",
@@ -7445,7 +7445,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1937
+    "freq_rank": 1940
   },
   {
     "word": "glimadae",
@@ -7460,7 +7460,7 @@ const derivedDictionaryData = [
       "resembling salmon"
     ],
     "freq": 0,
-    "freq_rank": 1939
+    "freq_rank": 1942
   },
   {
     "word": "glokedue",
@@ -7474,7 +7474,7 @@ const derivedDictionaryData = [
       "thursday"
     ],
     "freq": 0,
-    "freq_rank": 1940
+    "freq_rank": 1943
   },
   {
     "word": "glokei",
@@ -7489,7 +7489,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1941
+    "freq_rank": 1944
   },
   {
     "word": "glozitia",
@@ -7504,7 +7504,7 @@ const derivedDictionaryData = [
       "gunman"
     ],
     "freq": 0,
-    "freq_rank": 1942
+    "freq_rank": 1945
   },
   {
     "word": "glozitio",
@@ -7519,7 +7519,7 @@ const derivedDictionaryData = [
       "gunshot"
     ],
     "freq": 0,
-    "freq_rank": 1943
+    "freq_rank": 1946
   },
   {
     "word": "glujia",
@@ -7534,7 +7534,7 @@ const derivedDictionaryData = [
       "angler"
     ],
     "freq": 0,
-    "freq_rank": 1945
+    "freq_rank": 1948
   },
   {
     "word": "glujie",
@@ -7549,7 +7549,7 @@ const derivedDictionaryData = [
       "angling"
     ],
     "freq": 0,
-    "freq_rank": 1946
+    "freq_rank": 1949
   },
   {
     "word": "glyntoa",
@@ -7563,7 +7563,7 @@ const derivedDictionaryData = [
       "archer"
     ],
     "freq": 0,
-    "freq_rank": 1948
+    "freq_rank": 1951
   },
   {
     "word": "glyntoe",
@@ -7578,7 +7578,7 @@ const derivedDictionaryData = [
       "resembling bow"
     ],
     "freq": 0,
-    "freq_rank": 1949
+    "freq_rank": 1952
   },
   {
     "word": "glyntou",
@@ -7592,7 +7592,7 @@ const derivedDictionaryData = [
       "archery"
     ],
     "freq": 0,
-    "freq_rank": 1950
+    "freq_rank": 1953
   },
   {
     "word": "glyvia",
@@ -7606,7 +7606,7 @@ const derivedDictionaryData = [
       "defender"
     ],
     "freq": 0,
-    "freq_rank": 1951
+    "freq_rank": 1954
   },
   {
     "word": "godae",
@@ -7622,7 +7622,7 @@ const derivedDictionaryData = [
       "of the brain"
     ],
     "freq": 0,
-    "freq_rank": 1952
+    "freq_rank": 1955
   },
   {
     "word": "pjabue",
@@ -7636,7 +7636,7 @@ const derivedDictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 2635
+    "freq_rank": 2638
   },
   {
     "word": "goe",
@@ -7651,7 +7651,7 @@ const derivedDictionaryData = [
       "lexical"
     ],
     "freq": 0,
-    "freq_rank": 1953
+    "freq_rank": 1956
   },
   {
     "word": "gofoa",
@@ -7666,7 +7666,7 @@ const derivedDictionaryData = [
       "woodworker"
     ],
     "freq": 0,
-    "freq_rank": 1954
+    "freq_rank": 1957
   },
   {
     "word": "gofoe",
@@ -7680,7 +7680,7 @@ const derivedDictionaryData = [
       "wooden"
     ],
     "freq": 0,
-    "freq_rank": 1955
+    "freq_rank": 1958
   },
   {
     "word": "goilei",
@@ -7710,7 +7710,7 @@ const derivedDictionaryData = [
       "sorrow"
     ],
     "freq": 0,
-    "freq_rank": 1956
+    "freq_rank": 1959
   },
   {
     "word": "gojia",
@@ -7724,7 +7724,7 @@ const derivedDictionaryData = [
       "puller"
     ],
     "freq": 0,
-    "freq_rank": 1957
+    "freq_rank": 1960
   },
   {
     "word": "pitbia",
@@ -7738,7 +7738,7 @@ const derivedDictionaryData = [
       "reformer"
     ],
     "freq": 0,
-    "freq_rank": 2628
+    "freq_rank": 2631
   },
   {
     "word": "pitbie",
@@ -7754,7 +7754,7 @@ const derivedDictionaryData = [
       "tuned"
     ],
     "freq": 0,
-    "freq_rank": 2629
+    "freq_rank": 2632
   },
   {
     "word": "pitbiu",
@@ -7769,7 +7769,7 @@ const derivedDictionaryData = [
       "reform"
     ],
     "freq": 0,
-    "freq_rank": 2630
+    "freq_rank": 2633
   },
   {
     "word": "gomue",
@@ -7783,7 +7783,7 @@ const derivedDictionaryData = [
       "hourly"
     ],
     "freq": 0,
-    "freq_rank": 1958
+    "freq_rank": 1961
   },
   {
     "word": "goqei",
@@ -7798,7 +7798,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1065
+    "freq_rank": 1066
   },
   {
     "word": "goqeu",
@@ -7812,7 +7812,7 @@ const derivedDictionaryData = [
       "thickness"
     ],
     "freq": 0,
-    "freq_rank": 1959
+    "freq_rank": 1962
   },
   {
     "word": "govnue",
@@ -7826,7 +7826,7 @@ const derivedDictionaryData = [
       "governmental"
     ],
     "freq": 0,
-    "freq_rank": 1960
+    "freq_rank": 1963
   },
   {
     "word": "rimae",
@@ -7841,7 +7841,7 @@ const derivedDictionaryData = [
       "resembling grape"
     ],
     "freq": 0,
-    "freq_rank": 2716
+    "freq_rank": 2719
   },
   {
     "word": "grawia",
@@ -7855,7 +7855,7 @@ const derivedDictionaryData = [
       "grateful person"
     ],
     "freq": 0,
-    "freq_rank": 1961
+    "freq_rank": 1964
   },
   {
     "word": "grexoa",
@@ -7869,7 +7869,7 @@ const derivedDictionaryData = [
       "astronomer"
     ],
     "freq": 0,
-    "freq_rank": 1964
+    "freq_rank": 1967
   },
   {
     "word": "grexoe",
@@ -7884,7 +7884,7 @@ const derivedDictionaryData = [
       "resembling celestial object"
     ],
     "freq": 0,
-    "freq_rank": 1965
+    "freq_rank": 1968
   },
   {
     "word": "grexou",
@@ -7898,7 +7898,7 @@ const derivedDictionaryData = [
       "astronomy"
     ],
     "freq": 0,
-    "freq_rank": 1966
+    "freq_rank": 1969
   },
   {
     "word": "grunkia",
@@ -7912,7 +7912,7 @@ const derivedDictionaryData = [
       "hugger"
     ],
     "freq": 0,
-    "freq_rank": 1967
+    "freq_rank": 1970
   },
   {
     "word": "gruvesei",
@@ -7928,7 +7928,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1968
+    "freq_rank": 1971
   },
   {
     "word": "gruveseu",
@@ -7944,7 +7944,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1969
+    "freq_rank": 1972
   },
   {
     "word": "guamia",
@@ -7958,7 +7958,7 @@ const derivedDictionaryData = [
       "accountant"
     ],
     "freq": 0,
-    "freq_rank": 1970
+    "freq_rank": 1973
   },
   {
     "word": "guamio",
@@ -7972,7 +7972,7 @@ const derivedDictionaryData = [
       "calculator"
     ],
     "freq": 0,
-    "freq_rank": 1971
+    "freq_rank": 1974
   },
   {
     "word": "gufundoe",
@@ -7988,7 +7988,7 @@ const derivedDictionaryData = [
       "emeraldine"
     ],
     "freq": 0,
-    "freq_rank": 1973
+    "freq_rank": 1976
   },
   {
     "word": "gugia",
@@ -8002,7 +8002,7 @@ const derivedDictionaryData = [
       "stander"
     ],
     "freq": 0,
-    "freq_rank": 1974
+    "freq_rank": 1977
   },
   {
     "word": "gugie",
@@ -8018,7 +8018,7 @@ const derivedDictionaryData = [
       "vertical"
     ],
     "freq": 0,
-    "freq_rank": 1975
+    "freq_rank": 1978
   },
   {
     "word": "guipsue",
@@ -8032,7 +8032,7 @@ const derivedDictionaryData = [
       "prideful"
     ],
     "freq": 0,
-    "freq_rank": 1977
+    "freq_rank": 1980
   },
   {
     "word": "gulipia",
@@ -8046,7 +8046,7 @@ const derivedDictionaryData = [
       "downloader"
     ],
     "freq": 0,
-    "freq_rank": 1979
+    "freq_rank": 1982
   },
   {
     "word": "gunoloa",
@@ -8061,7 +8061,7 @@ const derivedDictionaryData = [
       "cliff guide"
     ],
     "freq": 0,
-    "freq_rank": 1980
+    "freq_rank": 1983
   },
   {
     "word": "gunoloe",
@@ -8076,7 +8076,7 @@ const derivedDictionaryData = [
       "resembling cliff"
     ],
     "freq": 0,
-    "freq_rank": 1981
+    "freq_rank": 1984
   },
   {
     "word": "gurei",
@@ -8091,7 +8091,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1069
+    "freq_rank": 1070
   },
   {
     "word": "gureu",
@@ -8106,7 +8106,7 @@ const derivedDictionaryData = [
       "idleness"
     ],
     "freq": 0,
-    "freq_rank": 1983
+    "freq_rank": 1986
   },
   {
     "word": "gutoe",
@@ -8121,7 +8121,7 @@ const derivedDictionaryData = [
       "resembling tool"
     ],
     "freq": 0,
-    "freq_rank": 1984
+    "freq_rank": 1987
   },
   {
     "word": "gutoia",
@@ -8151,7 +8151,7 @@ const derivedDictionaryData = [
       "resembling enemy"
     ],
     "freq": 0,
-    "freq_rank": 1985
+    "freq_rank": 1988
   },
   {
     "word": "guzau",
@@ -8166,7 +8166,7 @@ const derivedDictionaryData = [
       "hostility"
     ],
     "freq": 0,
-    "freq_rank": 1986
+    "freq_rank": 1989
   },
   {
     "word": "gydzae",
@@ -8181,7 +8181,7 @@ const derivedDictionaryData = [
       "vulpine"
     ],
     "freq": 0,
-    "freq_rank": 1993
+    "freq_rank": 1996
   },
   {
     "word": "gykei",
@@ -8211,7 +8211,7 @@ const derivedDictionaryData = [
       "weirdness"
     ],
     "freq": 0,
-    "freq_rank": 1994
+    "freq_rank": 1997
   },
   {
     "word": "gypue",
@@ -8225,7 +8225,7 @@ const derivedDictionaryData = [
       "online"
     ],
     "freq": 0,
-    "freq_rank": 1996
+    "freq_rank": 1999
   },
   {
     "word": "gypuo",
@@ -8241,7 +8241,7 @@ const derivedDictionaryData = [
       "web page"
     ],
     "freq": 0,
-    "freq_rank": 1997
+    "freq_rank": 2000
   },
   {
     "word": "hadia",
@@ -8255,7 +8255,7 @@ const derivedDictionaryData = [
       "respondent"
     ],
     "freq": 0,
-    "freq_rank": 1998
+    "freq_rank": 2001
   },
   {
     "word": "haibei",
@@ -8270,7 +8270,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1999
+    "freq_rank": 2002
   },
   {
     "word": "hakue",
@@ -8284,7 +8284,7 @@ const derivedDictionaryData = [
       "nostalgic"
     ],
     "freq": 0,
-    "freq_rank": 2001
+    "freq_rank": 2004
   },
   {
     "word": "hanoe",
@@ -8300,7 +8300,7 @@ const derivedDictionaryData = [
       "container-like"
     ],
     "freq": 0,
-    "freq_rank": 2002
+    "freq_rank": 2005
   },
   {
     "word": "harosoe",
@@ -8316,7 +8316,7 @@ const derivedDictionaryData = [
       "foaming"
     ],
     "freq": 0,
-    "freq_rank": 2004
+    "freq_rank": 2007
   },
   {
     "word": "lofnia",
@@ -8330,7 +8330,7 @@ const derivedDictionaryData = [
       "laugher"
     ],
     "freq": 0,
-    "freq_rank": 2344
+    "freq_rank": 2347
   },
   {
     "word": "lofnie",
@@ -8345,7 +8345,7 @@ const derivedDictionaryData = [
       "jolly"
     ],
     "freq": 0,
-    "freq_rank": 2345
+    "freq_rank": 2348
   },
   {
     "word": "hautua",
@@ -8359,7 +8359,7 @@ const derivedDictionaryData = [
       "musician"
     ],
     "freq": 0,
-    "freq_rank": 2005
+    "freq_rank": 2008
   },
   {
     "word": "hautue",
@@ -8375,7 +8375,7 @@ const derivedDictionaryData = [
       "melodic"
     ],
     "freq": 0,
-    "freq_rank": 2006
+    "freq_rank": 2009
   },
   {
     "word": "hazbae",
@@ -8390,7 +8390,7 @@ const derivedDictionaryData = [
       "resembling husband"
     ],
     "freq": 0,
-    "freq_rank": 2007
+    "freq_rank": 2010
   },
   {
     "word": "hedcue",
@@ -8404,7 +8404,7 @@ const derivedDictionaryData = [
       "partial"
     ],
     "freq": 0,
-    "freq_rank": 2008
+    "freq_rank": 2011
   },
   {
     "word": "hekria",
@@ -8418,7 +8418,7 @@ const derivedDictionaryData = [
       "a person who wears something"
     ],
     "freq": 0,
-    "freq_rank": 2011
+    "freq_rank": 2014
   },
   {
     "word": "hekrie",
@@ -8432,7 +8432,7 @@ const derivedDictionaryData = [
       "being worn"
     ],
     "freq": 0,
-    "freq_rank": 2012
+    "freq_rank": 2015
   },
   {
     "word": "hekrio",
@@ -8446,7 +8446,7 @@ const derivedDictionaryData = [
       "a worn item"
     ],
     "freq": 0,
-    "freq_rank": 2013
+    "freq_rank": 2016
   },
   {
     "word": "hekriu",
@@ -8460,7 +8460,7 @@ const derivedDictionaryData = [
       "the act or state of wearing"
     ],
     "freq": 0,
-    "freq_rank": 2014
+    "freq_rank": 2017
   },
   {
     "word": "hemye",
@@ -8508,7 +8508,7 @@ const derivedDictionaryData = [
       "near"
     ],
     "freq": 0,
-    "freq_rank": 2015
+    "freq_rank": 2018
   },
   {
     "word": "hemyu",
@@ -8523,7 +8523,7 @@ const derivedDictionaryData = [
       "vicinity"
     ],
     "freq": 0,
-    "freq_rank": 2016
+    "freq_rank": 2019
   },
   {
     "word": "hevia",
@@ -8537,7 +8537,7 @@ const derivedDictionaryData = [
       "forgiver"
     ],
     "freq": 0,
-    "freq_rank": 2017
+    "freq_rank": 2020
   },
   {
     "word": "hevie",
@@ -8552,7 +8552,7 @@ const derivedDictionaryData = [
       "lenient"
     ],
     "freq": 0,
-    "freq_rank": 2018
+    "freq_rank": 2021
   },
   {
     "word": "hezeskae",
@@ -8567,7 +8567,7 @@ const derivedDictionaryData = [
       "resembling parrot"
     ],
     "freq": 0,
-    "freq_rank": 2020
+    "freq_rank": 2023
   },
   {
     "word": "hezeskai",
@@ -8583,7 +8583,7 @@ const derivedDictionaryData = [
       "parrot"
     ],
     "freq": 0,
-    "freq_rank": 2021
+    "freq_rank": 2024
   },
   {
     "word": "hiarucei",
@@ -8598,7 +8598,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2022
+    "freq_rank": 2025
   },
   {
     "word": "hibomoe",
@@ -8613,7 +8613,7 @@ const derivedDictionaryData = [
       "resembling anvil"
     ],
     "freq": 0,
-    "freq_rank": 2024
+    "freq_rank": 2027
   },
   {
     "word": "hicia",
@@ -8627,7 +8627,7 @@ const derivedDictionaryData = [
       "walker"
     ],
     "freq": 0,
-    "freq_rank": 2025
+    "freq_rank": 2028
   },
   {
     "word": "hiqei",
@@ -8657,7 +8657,7 @@ const derivedDictionaryData = [
       "resembling hole"
     ],
     "freq": 0,
-    "freq_rank": 2027
+    "freq_rank": 2030
   },
   {
     "word": "hisue",
@@ -8671,7 +8671,7 @@ const derivedDictionaryData = [
       "nominal"
     ],
     "freq": 0,
-    "freq_rank": 2028
+    "freq_rank": 2031
   },
   {
     "word": "hobcadae",
@@ -8686,7 +8686,7 @@ const derivedDictionaryData = [
       "resembling grandchild"
     ],
     "freq": 0,
-    "freq_rank": 2029
+    "freq_rank": 2032
   },
   {
     "word": "hobei",
@@ -8716,7 +8716,7 @@ const derivedDictionaryData = [
       "youthfulness"
     ],
     "freq": 0,
-    "freq_rank": 2030
+    "freq_rank": 2033
   },
   {
     "word": "hoqypoe",
@@ -8731,7 +8731,7 @@ const derivedDictionaryData = [
       "resembling musical instrument"
     ],
     "freq": 0,
-    "freq_rank": 2032
+    "freq_rank": 2035
   },
   {
     "word": "horbae",
@@ -8747,7 +8747,7 @@ const derivedDictionaryData = [
       "antler-like"
     ],
     "freq": 0,
-    "freq_rank": 2034
+    "freq_rank": 2037
   },
   {
     "word": "horbao",
@@ -8761,7 +8761,7 @@ const derivedDictionaryData = [
       "horn"
     ],
     "freq": 0,
-    "freq_rank": 2035
+    "freq_rank": 2038
   },
   {
     "word": "horulfua",
@@ -8776,7 +8776,7 @@ const derivedDictionaryData = [
       "jury member"
     ],
     "freq": 0,
-    "freq_rank": 2036
+    "freq_rank": 2039
   },
   {
     "word": "hoswae",
@@ -8792,7 +8792,7 @@ const derivedDictionaryData = [
       "cane"
     ],
     "freq": 0,
-    "freq_rank": 2037
+    "freq_rank": 2040
   },
   {
     "word": "hoxoe",
@@ -8808,7 +8808,7 @@ const derivedDictionaryData = [
       "gateway-shaped"
     ],
     "freq": 0,
-    "freq_rank": 2038
+    "freq_rank": 2041
   },
   {
     "word": "hufribie",
@@ -8824,7 +8824,7 @@ const derivedDictionaryData = [
       "reversed"
     ],
     "freq": 0,
-    "freq_rank": 2039
+    "freq_rank": 2042
   },
   {
     "word": "huhei",
@@ -8839,7 +8839,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2040
+    "freq_rank": 2043
   },
   {
     "word": "hujia",
@@ -8853,7 +8853,7 @@ const derivedDictionaryData = [
       "hanger"
     ],
     "freq": 0,
-    "freq_rank": 2042
+    "freq_rank": 2045
   },
   {
     "word": "hujie",
@@ -8869,7 +8869,7 @@ const derivedDictionaryData = [
       "attached"
     ],
     "freq": 0,
-    "freq_rank": 2043
+    "freq_rank": 2046
   },
   {
     "word": "hulkae",
@@ -8884,7 +8884,7 @@ const derivedDictionaryData = [
       "resembling llama"
     ],
     "freq": 0,
-    "freq_rank": 2045
+    "freq_rank": 2048
   },
   {
     "word": "hupue",
@@ -8898,7 +8898,7 @@ const derivedDictionaryData = [
       "central"
     ],
     "freq": 0,
-    "freq_rank": 2047
+    "freq_rank": 2050
   },
   {
     "word": "huqae",
@@ -8913,7 +8913,7 @@ const derivedDictionaryData = [
       "resembling shoulder"
     ],
     "freq": 0,
-    "freq_rank": 2048
+    "freq_rank": 2051
   },
   {
     "word": "hutsei",
@@ -8928,7 +8928,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1076
+    "freq_rank": 1077
   },
   {
     "word": "hutseu",
@@ -8943,7 +8943,7 @@ const derivedDictionaryData = [
       "primacy"
     ],
     "freq": 0,
-    "freq_rank": 2050
+    "freq_rank": 2053
   },
   {
     "word": "hyhoe",
@@ -8958,7 +8958,7 @@ const derivedDictionaryData = [
       "resembling scissors"
     ],
     "freq": 0,
-    "freq_rank": 2052
+    "freq_rank": 2055
   },
   {
     "word": "hykuxue",
@@ -8972,7 +8972,7 @@ const derivedDictionaryData = [
       "test-related"
     ],
     "freq": 0,
-    "freq_rank": 2053
+    "freq_rank": 2056
   },
   {
     "word": "hylsae",
@@ -8987,7 +8987,7 @@ const derivedDictionaryData = [
       "resembling lip"
     ],
     "freq": 0,
-    "freq_rank": 2055
+    "freq_rank": 2058
   },
   {
     "word": "hymei",
@@ -9002,7 +9002,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2056
+    "freq_rank": 2059
   },
   {
     "word": "hymeu",
@@ -9018,7 +9018,7 @@ const derivedDictionaryData = [
       "routine"
     ],
     "freq": 0,
-    "freq_rank": 2057
+    "freq_rank": 2060
   },
   {
     "word": "hyque",
@@ -9034,7 +9034,7 @@ const derivedDictionaryData = [
       "prudent"
     ],
     "freq": 0,
-    "freq_rank": 2058
+    "freq_rank": 2061
   },
   {
     "word": "hytrei",
@@ -9049,7 +9049,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1079
+    "freq_rank": 1080
   },
   {
     "word": "hytreu",
@@ -9064,7 +9064,7 @@ const derivedDictionaryData = [
       "drowsiness"
     ],
     "freq": 0,
-    "freq_rank": 2060
+    "freq_rank": 2063
   },
   {
     "word": "gwacei",
@@ -9079,7 +9079,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1070
+    "freq_rank": 1071
   },
   {
     "word": "gwaceu",
@@ -9093,7 +9093,7 @@ const derivedDictionaryData = [
       "specialness"
     ],
     "freq": 0,
-    "freq_rank": 1988
+    "freq_rank": 1991
   },
   {
     "word": "kecia",
@@ -9107,7 +9107,7 @@ const derivedDictionaryData = [
       "learner"
     ],
     "freq": 0,
-    "freq_rank": 2198
+    "freq_rank": 2201
   },
   {
     "word": "ibalirae",
@@ -9122,7 +9122,7 @@ const derivedDictionaryData = [
       "resembling teacher"
     ],
     "freq": 0,
-    "freq_rank": 2061
+    "freq_rank": 2064
   },
   {
     "word": "ibalue",
@@ -9136,7 +9136,7 @@ const derivedDictionaryData = [
       "educational"
     ],
     "freq": 0,
-    "freq_rank": 2063
+    "freq_rank": 2066
   },
   {
     "word": "ibanei",
@@ -9151,7 +9151,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1080
+    "freq_rank": 1081
   },
   {
     "word": "ibaneu",
@@ -9165,7 +9165,7 @@ const derivedDictionaryData = [
       "significance"
     ],
     "freq": 0,
-    "freq_rank": 2065
+    "freq_rank": 2068
   },
   {
     "word": "ibazoe",
@@ -9180,7 +9180,7 @@ const derivedDictionaryData = [
       "resembling school"
     ],
     "freq": 1,
-    "freq_rank": 1081
+    "freq_rank": 1082
   },
   {
     "word": "ibitue",
@@ -9194,7 +9194,7 @@ const derivedDictionaryData = [
       "class-based"
     ],
     "freq": 0,
-    "freq_rank": 2066
+    "freq_rank": 2069
   },
   {
     "word": "ibvia",
@@ -9208,7 +9208,7 @@ const derivedDictionaryData = [
       "pourer"
     ],
     "freq": 0,
-    "freq_rank": 2068
+    "freq_rank": 2071
   },
   {
     "word": "icejenue",
@@ -9223,7 +9223,7 @@ const derivedDictionaryData = [
       "recurring"
     ],
     "freq": 0,
-    "freq_rank": 2069
+    "freq_rank": 2072
   },
   {
     "word": "icifoe",
@@ -9238,7 +9238,7 @@ const derivedDictionaryData = [
       "resembling plate"
     ],
     "freq": 0,
-    "freq_rank": 2070
+    "freq_rank": 2073
   },
   {
     "word": "idrei",
@@ -9253,7 +9253,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1084
+    "freq_rank": 1085
   },
   {
     "word": "idvue",
@@ -9267,7 +9267,7 @@ const derivedDictionaryData = [
       "mysterious"
     ],
     "freq": 0,
-    "freq_rank": 2071
+    "freq_rank": 2074
   },
   {
     "word": "iegae",
@@ -9282,7 +9282,7 @@ const derivedDictionaryData = [
       "leonine"
     ],
     "freq": 1,
-    "freq_rank": 1085
+    "freq_rank": 1086
   },
   {
     "word": "ifezia",
@@ -9296,7 +9296,7 @@ const derivedDictionaryData = [
       "decider"
     ],
     "freq": 0,
-    "freq_rank": 2072
+    "freq_rank": 2075
   },
   {
     "word": "ifeziu",
@@ -9327,7 +9327,7 @@ const derivedDictionaryData = [
       "resembling toothbrush"
     ],
     "freq": 0,
-    "freq_rank": 2074
+    "freq_rank": 2077
   },
   {
     "word": "ifgoi",
@@ -9341,7 +9341,7 @@ const derivedDictionaryData = [
       "brush teeth"
     ],
     "freq": 0,
-    "freq_rank": 2075
+    "freq_rank": 2078
   },
   {
     "word": "iflocoe",
@@ -9356,7 +9356,7 @@ const derivedDictionaryData = [
       "resembling saddle"
     ],
     "freq": 0,
-    "freq_rank": 2077
+    "freq_rank": 2080
   },
   {
     "word": "newoe",
@@ -9371,7 +9371,7 @@ const derivedDictionaryData = [
       "resembling card"
     ],
     "freq": 0,
-    "freq_rank": 2488
+    "freq_rank": 2491
   },
   {
     "word": "ijyrae",
@@ -9386,7 +9386,7 @@ const derivedDictionaryData = [
       "resembling tail"
     ],
     "freq": 0,
-    "freq_rank": 2079
+    "freq_rank": 2082
   },
   {
     "word": "ijyrai",
@@ -9400,7 +9400,7 @@ const derivedDictionaryData = [
       "to wag"
     ],
     "freq": 1,
-    "freq_rank": 1087
+    "freq_rank": 1088
   },
   {
     "word": "ikamoe",
@@ -9415,7 +9415,7 @@ const derivedDictionaryData = [
       "resembling shirt"
     ],
     "freq": 0,
-    "freq_rank": 2080
+    "freq_rank": 2083
   },
   {
     "word": "ikapia",
@@ -9429,7 +9429,7 @@ const derivedDictionaryData = [
       "influencer"
     ],
     "freq": 0,
-    "freq_rank": 2082
+    "freq_rank": 2085
   },
   {
     "word": "tifua",
@@ -9443,7 +9443,7 @@ const derivedDictionaryData = [
       "lawyer"
     ],
     "freq": 1,
-    "freq_rank": 1286
+    "freq_rank": 1288
   },
   {
     "word": "tifue",
@@ -9457,7 +9457,7 @@ const derivedDictionaryData = [
       "legal"
     ],
     "freq": 0,
-    "freq_rank": 2921
+    "freq_rank": 2925
   },
   {
     "word": "iladae",
@@ -9472,7 +9472,7 @@ const derivedDictionaryData = [
       "resembling reptile"
     ],
     "freq": 0,
-    "freq_rank": 2083
+    "freq_rank": 2086
   },
   {
     "word": "ilpia",
@@ -9486,7 +9486,7 @@ const derivedDictionaryData = [
       "kneeler"
     ],
     "freq": 0,
-    "freq_rank": 2084
+    "freq_rank": 2087
   },
   {
     "word": "imdoe",
@@ -9501,7 +9501,7 @@ const derivedDictionaryData = [
       "resembling flood"
     ],
     "freq": 0,
-    "freq_rank": 2086
+    "freq_rank": 2089
   },
   {
     "word": "imsue",
@@ -9515,7 +9515,7 @@ const derivedDictionaryData = [
       "standard"
     ],
     "freq": 0,
-    "freq_rank": 2088
+    "freq_rank": 2091
   },
   {
     "word": "ipkae",
@@ -9530,7 +9530,7 @@ const derivedDictionaryData = [
       "resembling spider"
     ],
     "freq": 0,
-    "freq_rank": 2089
+    "freq_rank": 2092
   },
   {
     "word": "wavcie",
@@ -9545,7 +9545,7 @@ const derivedDictionaryData = [
       "doubtful"
     ],
     "freq": 0,
-    "freq_rank": 3110
+    "freq_rank": 3114
   },
   {
     "word": "iqocue",
@@ -9559,7 +9559,7 @@ const derivedDictionaryData = [
       "effective"
     ],
     "freq": 0,
-    "freq_rank": 2091
+    "freq_rank": 2095
   },
   {
     "word": "rehia",
@@ -9573,7 +9573,7 @@ const derivedDictionaryData = [
       "weeper"
     ],
     "freq": 0,
-    "freq_rank": 2698
+    "freq_rank": 2701
   },
   {
     "word": "rehie",
@@ -9589,7 +9589,7 @@ const derivedDictionaryData = [
       "dripping"
     ],
     "freq": 0,
-    "freq_rank": 2699
+    "freq_rank": 2702
   },
   {
     "word": "iraksae",
@@ -9604,7 +9604,7 @@ const derivedDictionaryData = [
       "resembling tear"
     ],
     "freq": 0,
-    "freq_rank": 2093
+    "freq_rank": 2096
   },
   {
     "word": "irtae",
@@ -9619,7 +9619,7 @@ const derivedDictionaryData = [
       "resembling egg"
     ],
     "freq": 0,
-    "freq_rank": 2094
+    "freq_rank": 2097
   },
   {
     "word": "isamue",
@@ -9633,7 +9633,7 @@ const derivedDictionaryData = [
       "resultant"
     ],
     "freq": 0,
-    "freq_rank": 2095
+    "freq_rank": 2098
   },
   {
     "word": "isnei",
@@ -9648,7 +9648,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1092
+    "freq_rank": 1094
   },
   {
     "word": "isneu",
@@ -9663,7 +9663,7 @@ const derivedDictionaryData = [
       "bareness"
     ],
     "freq": 0,
-    "freq_rank": 2097
+    "freq_rank": 2100
   },
   {
     "word": "itolei",
@@ -9692,7 +9692,7 @@ const derivedDictionaryData = [
       "intelligence"
     ],
     "freq": 0,
-    "freq_rank": 2098
+    "freq_rank": 2101
   },
   {
     "word": "itsei",
@@ -9707,7 +9707,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1093
+    "freq_rank": 1095
   },
   {
     "word": "itseu",
@@ -9722,7 +9722,7 @@ const derivedDictionaryData = [
       "aloneness"
     ],
     "freq": 0,
-    "freq_rank": 2099
+    "freq_rank": 2102
   },
   {
     "word": "iubue",
@@ -9736,7 +9736,7 @@ const derivedDictionaryData = [
       "unsuccessful"
     ],
     "freq": 0,
-    "freq_rank": 2101
+    "freq_rank": 2104
   },
   {
     "word": "iubui",
@@ -9750,7 +9750,7 @@ const derivedDictionaryData = [
       "fail"
     ],
     "freq": 0,
-    "freq_rank": 2102
+    "freq_rank": 2105
   },
   {
     "word": "xasue",
@@ -9778,7 +9778,7 @@ const derivedDictionaryData = [
       "southern"
     ],
     "freq": 0,
-    "freq_rank": 2104
+    "freq_rank": 2107
   },
   {
     "word": "ivxoe",
@@ -9793,7 +9793,7 @@ const derivedDictionaryData = [
       "resembling hammer"
     ],
     "freq": 0,
-    "freq_rank": 2105
+    "freq_rank": 2108
   },
   {
     "word": "ivxoi",
@@ -9808,7 +9808,7 @@ const derivedDictionaryData = [
       "pound"
     ],
     "freq": 0,
-    "freq_rank": 2106
+    "freq_rank": 2109
   },
   {
     "word": "iwei",
@@ -9838,7 +9838,7 @@ const derivedDictionaryData = [
       "fatigue"
     ],
     "freq": 0,
-    "freq_rank": 2108
+    "freq_rank": 2111
   },
   {
     "word": "ixboe",
@@ -9854,7 +9854,7 @@ const derivedDictionaryData = [
       "bricked"
     ],
     "freq": 0,
-    "freq_rank": 2110
+    "freq_rank": 2113
   },
   {
     "word": "ixgei",
@@ -9869,7 +9869,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1094
+    "freq_rank": 1096
   },
   {
     "word": "ixgeu",
@@ -9883,7 +9883,7 @@ const derivedDictionaryData = [
       "slipperiness"
     ],
     "freq": 0,
-    "freq_rank": 2112
+    "freq_rank": 2115
   },
   {
     "word": "ixpae",
@@ -9899,7 +9899,7 @@ const derivedDictionaryData = [
       "of fungus"
     ],
     "freq": 0,
-    "freq_rank": 2114
+    "freq_rank": 2117
   },
   {
     "word": "izevufue",
@@ -9913,7 +9913,7 @@ const derivedDictionaryData = [
       "democratic"
     ],
     "freq": 0,
-    "freq_rank": 2115
+    "freq_rank": 2118
   },
   {
     "word": "izlia",
@@ -9929,7 +9929,7 @@ const derivedDictionaryData = [
     ],
     "usage_note": "The patient reading (the one invited). An agentive reading 'inviter / host' is possible but secondary.",
     "freq": 0,
-    "freq_rank": 2117
+    "freq_rank": 2120
   },
   {
     "word": "izlio",
@@ -9943,7 +9943,7 @@ const derivedDictionaryData = [
       "invitation"
     ],
     "freq": 0,
-    "freq_rank": 2118
+    "freq_rank": 2121
   },
   {
     "word": "jabei",
@@ -9988,7 +9988,7 @@ const derivedDictionaryData = [
       "alike"
     ],
     "freq": 0,
-    "freq_rank": 2119
+    "freq_rank": 2122
   },
   {
     "word": "jacifiu",
@@ -10004,7 +10004,7 @@ const derivedDictionaryData = [
       "likeness"
     ],
     "freq": 0,
-    "freq_rank": 2120
+    "freq_rank": 2123
   },
   {
     "word": "jacnie",
@@ -10018,7 +10018,7 @@ const derivedDictionaryData = [
       "sexual"
     ],
     "freq": 0,
-    "freq_rank": 2121
+    "freq_rank": 2124
   },
   {
     "word": "jacniu",
@@ -10033,7 +10033,7 @@ const derivedDictionaryData = [
       "intercourse"
     ],
     "freq": 0,
-    "freq_rank": 2122
+    "freq_rank": 2125
   },
   {
     "word": "vezoe",
@@ -10049,7 +10049,7 @@ const derivedDictionaryData = [
       "snow-filled"
     ],
     "freq": 0,
-    "freq_rank": 3056
+    "freq_rank": 3060
   },
   {
     "word": "jahizia",
@@ -10064,7 +10064,7 @@ const derivedDictionaryData = [
       "married person"
     ],
     "freq": 0,
-    "freq_rank": 2124
+    "freq_rank": 2127
   },
   {
     "word": "jahizie",
@@ -10078,7 +10078,7 @@ const derivedDictionaryData = [
       "married"
     ],
     "freq": 0,
-    "freq_rank": 2125
+    "freq_rank": 2128
   },
   {
     "word": "jahizio",
@@ -10092,7 +10092,7 @@ const derivedDictionaryData = [
       "marriage token"
     ],
     "freq": 0,
-    "freq_rank": 2126
+    "freq_rank": 2129
   },
   {
     "word": "jahiziu",
@@ -10106,7 +10106,7 @@ const derivedDictionaryData = [
       "marriage"
     ],
     "freq": 1,
-    "freq_rank": 1098
+    "freq_rank": 1100
   },
   {
     "word": "jamia",
@@ -10121,7 +10121,7 @@ const derivedDictionaryData = [
       "author"
     ],
     "freq": 0,
-    "freq_rank": 2127
+    "freq_rank": 2130
   },
   {
     "word": "jamio",
@@ -10153,7 +10153,7 @@ const derivedDictionaryData = [
       "counter-"
     ],
     "freq": 0,
-    "freq_rank": 2128
+    "freq_rank": 2131
   },
   {
     "word": "jarue",
@@ -10167,7 +10167,7 @@ const derivedDictionaryData = [
       "annual"
     ],
     "freq": 0,
-    "freq_rank": 2129
+    "freq_rank": 2132
   },
   {
     "word": "jatanoe",
@@ -10182,7 +10182,7 @@ const derivedDictionaryData = [
       "resembling pen"
     ],
     "freq": 0,
-    "freq_rank": 2130
+    "freq_rank": 2133
   },
   {
     "word": "javuque",
@@ -10196,7 +10196,7 @@ const derivedDictionaryData = [
       "infectious"
     ],
     "freq": 0,
-    "freq_rank": 2131
+    "freq_rank": 2134
   },
   {
     "word": "jawoe",
@@ -10210,7 +10210,7 @@ const derivedDictionaryData = [
       "icy"
     ],
     "freq": 0,
-    "freq_rank": 2132
+    "freq_rank": 2135
   },
   {
     "word": "jawoi",
@@ -10257,7 +10257,7 @@ const derivedDictionaryData = [
       "newness"
     ],
     "freq": 0,
-    "freq_rank": 2133
+    "freq_rank": 2136
   },
   {
     "word": "jediu",
@@ -10273,7 +10273,7 @@ const derivedDictionaryData = [
       "belongings"
     ],
     "freq": 0,
-    "freq_rank": 2134
+    "freq_rank": 2137
   },
   {
     "word": "jedlei",
@@ -10288,7 +10288,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2135
+    "freq_rank": 2138
   },
   {
     "word": "jeflue",
@@ -10302,7 +10302,7 @@ const derivedDictionaryData = [
       "developmental"
     ],
     "freq": 0,
-    "freq_rank": 2136
+    "freq_rank": 2139
   },
   {
     "word": "jeflui",
@@ -10319,7 +10319,7 @@ const derivedDictionaryData = [
       "to evolve"
     ],
     "freq": 0,
-    "freq_rank": 2137
+    "freq_rank": 2140
   },
   {
     "word": "jegetrue",
@@ -10333,7 +10333,7 @@ const derivedDictionaryData = [
       "cancerous"
     ],
     "freq": 0,
-    "freq_rank": 2138
+    "freq_rank": 2141
   },
   {
     "word": "jegsio",
@@ -10348,7 +10348,7 @@ const derivedDictionaryData = [
       "pee"
     ],
     "freq": 0,
-    "freq_rank": 2139
+    "freq_rank": 2142
   },
   {
     "word": "jegsiu",
@@ -10363,7 +10363,7 @@ const derivedDictionaryData = [
       "peeing"
     ],
     "freq": 0,
-    "freq_rank": 2140
+    "freq_rank": 2143
   },
   {
     "word": "jei",
@@ -10378,7 +10378,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2141
+    "freq_rank": 2144
   },
   {
     "word": "jejue",
@@ -10392,7 +10392,7 @@ const derivedDictionaryData = [
       "glorious"
     ],
     "freq": 0,
-    "freq_rank": 2142
+    "freq_rank": 2145
   },
   {
     "word": "mernei",
@@ -10407,7 +10407,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2408
+    "freq_rank": 2411
   },
   {
     "word": "jepae",
@@ -10422,7 +10422,7 @@ const derivedDictionaryData = [
       "resembling offspring"
     ],
     "freq": 0,
-    "freq_rank": 2143
+    "freq_rank": 2146
   },
   {
     "word": "jetei",
@@ -10458,7 +10458,7 @@ const derivedDictionaryData = [
       "debate"
     ],
     "freq": 0,
-    "freq_rank": 2144
+    "freq_rank": 2147
   },
   {
     "word": "jilfei",
@@ -10473,7 +10473,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1103
+    "freq_rank": 1105
   },
   {
     "word": "jilfeu",
@@ -10487,7 +10487,7 @@ const derivedDictionaryData = [
       "smoothness"
     ],
     "freq": 0,
-    "freq_rank": 2145
+    "freq_rank": 2148
   },
   {
     "word": "jipria",
@@ -10501,7 +10501,7 @@ const derivedDictionaryData = [
       "washer"
     ],
     "freq": 0,
-    "freq_rank": 2148
+    "freq_rank": 2151
   },
   {
     "word": "jiqae",
@@ -10516,7 +10516,7 @@ const derivedDictionaryData = [
       "resembling sibling's child"
     ],
     "freq": 0,
-    "freq_rank": 2149
+    "freq_rank": 2152
   },
   {
     "word": "jobue",
@@ -10530,7 +10530,7 @@ const derivedDictionaryData = [
       "occupational"
     ],
     "freq": 0,
-    "freq_rank": 2151
+    "freq_rank": 2154
   },
   {
     "word": "jofia",
@@ -10544,7 +10544,7 @@ const derivedDictionaryData = [
       "helper"
     ],
     "freq": 0,
-    "freq_rank": 2152
+    "freq_rank": 2155
   },
   {
     "word": "jofie",
@@ -10559,7 +10559,7 @@ const derivedDictionaryData = [
       "obliging"
     ],
     "freq": 0,
-    "freq_rank": 2153
+    "freq_rank": 2156
   },
   {
     "word": "jofiu",
@@ -10575,7 +10575,7 @@ const derivedDictionaryData = [
       "assistance"
     ],
     "freq": 1,
-    "freq_rank": 1104
+    "freq_rank": 1106
   },
   {
     "word": "jokuwue",
@@ -10589,7 +10589,7 @@ const derivedDictionaryData = [
       "electoral"
     ],
     "freq": 0,
-    "freq_rank": 2154
+    "freq_rank": 2157
   },
   {
     "word": "jokuwui",
@@ -10618,7 +10618,7 @@ const derivedDictionaryData = [
       "mean"
     ],
     "freq": 0,
-    "freq_rank": 2155
+    "freq_rank": 2158
   },
   {
     "word": "jomytia",
@@ -10632,7 +10632,7 @@ const derivedDictionaryData = [
       "investor"
     ],
     "freq": 0,
-    "freq_rank": 2156
+    "freq_rank": 2159
   },
   {
     "word": "jomytiu",
@@ -10646,7 +10646,7 @@ const derivedDictionaryData = [
       "investment"
     ],
     "freq": 0,
-    "freq_rank": 2157
+    "freq_rank": 2160
   },
   {
     "word": "jopxia",
@@ -10660,7 +10660,7 @@ const derivedDictionaryData = [
       "recipient"
     ],
     "freq": 0,
-    "freq_rank": 2158
+    "freq_rank": 2161
   },
   {
     "word": "jormue",
@@ -10674,7 +10674,7 @@ const derivedDictionaryData = [
       "situational"
     ],
     "freq": 0,
-    "freq_rank": 2160
+    "freq_rank": 2163
   },
   {
     "word": "josoe",
@@ -10689,7 +10689,7 @@ const derivedDictionaryData = [
       "of an entity"
     ],
     "freq": 0,
-    "freq_rank": 2162
+    "freq_rank": 2165
   },
   {
     "word": "jotsei",
@@ -10718,7 +10718,7 @@ const derivedDictionaryData = [
       "cleanliness"
     ],
     "freq": 0,
-    "freq_rank": 2163
+    "freq_rank": 2166
   },
   {
     "word": "dwimei",
@@ -10748,7 +10748,7 @@ const derivedDictionaryData = [
       "extent"
     ],
     "freq": 0,
-    "freq_rank": 1716
+    "freq_rank": 1719
   },
   {
     "word": "twavei",
@@ -10793,7 +10793,7 @@ const derivedDictionaryData = [
       "resembling pickaxe"
     ],
     "freq": 0,
-    "freq_rank": 2165
+    "freq_rank": 2168
   },
   {
     "word": "juhia",
@@ -10807,7 +10807,7 @@ const derivedDictionaryData = [
       "worrier"
     ],
     "freq": 0,
-    "freq_rank": 2167
+    "freq_rank": 2170
   },
   {
     "word": "jukue",
@@ -10821,7 +10821,7 @@ const derivedDictionaryData = [
       "structural"
     ],
     "freq": 0,
-    "freq_rank": 2168
+    "freq_rank": 2171
   },
   {
     "word": "jultie",
@@ -10835,7 +10835,7 @@ const derivedDictionaryData = [
       "drowning"
     ],
     "freq": 0,
-    "freq_rank": 2170
+    "freq_rank": 2173
   },
   {
     "word": "jumae",
@@ -10850,7 +10850,7 @@ const derivedDictionaryData = [
       "resembling rival"
     ],
     "freq": 0,
-    "freq_rank": 2172
+    "freq_rank": 2175
   },
   {
     "word": "razue",
@@ -10864,7 +10864,7 @@ const derivedDictionaryData = [
       "planned"
     ],
     "freq": 0,
-    "freq_rank": 2692
+    "freq_rank": 2695
   },
   {
     "word": "razui",
@@ -10878,7 +10878,7 @@ const derivedDictionaryData = [
       "plan"
     ],
     "freq": 0,
-    "freq_rank": 2693
+    "freq_rank": 2696
   },
   {
     "word": "juroe",
@@ -10893,7 +10893,7 @@ const derivedDictionaryData = [
       "resembling city"
     ],
     "freq": 0,
-    "freq_rank": 2173
+    "freq_rank": 2176
   },
   {
     "word": "juwei",
@@ -10908,7 +10908,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2174
+    "freq_rank": 2177
   },
   {
     "word": "jye",
@@ -10923,7 +10923,7 @@ const derivedDictionaryData = [
       "component"
     ],
     "freq": 0,
-    "freq_rank": 2175
+    "freq_rank": 2178
   },
   {
     "word": "jyfei",
@@ -10938,7 +10938,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1111
+    "freq_rank": 1113
   },
   {
     "word": "jyfeu",
@@ -10954,7 +10954,7 @@ const derivedDictionaryData = [
       "tolerance"
     ],
     "freq": 0,
-    "freq_rank": 2177
+    "freq_rank": 2180
   },
   {
     "word": "jyhue",
@@ -10968,7 +10968,7 @@ const derivedDictionaryData = [
       "fateful"
     ],
     "freq": 0,
-    "freq_rank": 2179
+    "freq_rank": 2182
   },
   {
     "word": "jyi",
@@ -10983,7 +10983,7 @@ const derivedDictionaryData = [
       "join into"
     ],
     "freq": 0,
-    "freq_rank": 2180
+    "freq_rank": 2183
   },
   {
     "word": "jyjoa",
@@ -10998,7 +10998,7 @@ const derivedDictionaryData = [
       "IT worker"
     ],
     "freq": 0,
-    "freq_rank": 2181
+    "freq_rank": 2184
   },
   {
     "word": "jyjoe",
@@ -11013,7 +11013,7 @@ const derivedDictionaryData = [
       "resembling computer"
     ],
     "freq": 0,
-    "freq_rank": 2182
+    "freq_rank": 2185
   },
   {
     "word": "jyjou",
@@ -11028,7 +11028,7 @@ const derivedDictionaryData = [
       "IT"
     ],
     "freq": 0,
-    "freq_rank": 2183
+    "freq_rank": 2186
   },
   {
     "word": "gaxoa",
@@ -11042,7 +11042,7 @@ const derivedDictionaryData = [
       "islander"
     ],
     "freq": 0,
-    "freq_rank": 1903
+    "freq_rank": 1906
   },
   {
     "word": "gaxoe",
@@ -11057,7 +11057,7 @@ const derivedDictionaryData = [
       "resembling island"
     ],
     "freq": 0,
-    "freq_rank": 1904
+    "freq_rank": 1907
   },
   {
     "word": "jyndoe",
@@ -11073,7 +11073,7 @@ const derivedDictionaryData = [
       "of a fence"
     ],
     "freq": 0,
-    "freq_rank": 2185
+    "freq_rank": 2188
   },
   {
     "word": "jyqia",
@@ -11087,7 +11087,7 @@ const derivedDictionaryData = [
       "rejecter"
     ],
     "freq": 0,
-    "freq_rank": 2186
+    "freq_rank": 2189
   },
   {
     "word": "kabae",
@@ -11102,7 +11102,7 @@ const derivedDictionaryData = [
       "equine"
     ],
     "freq": 0,
-    "freq_rank": 2187
+    "freq_rank": 2190
   },
   {
     "word": "kabcei",
@@ -11131,7 +11131,7 @@ const derivedDictionaryData = [
       "simplicity"
     ],
     "freq": 0,
-    "freq_rank": 2189
+    "freq_rank": 2192
   },
   {
     "word": "kagaxae",
@@ -11146,7 +11146,7 @@ const derivedDictionaryData = [
       "resembling axolotl"
     ],
     "freq": 0,
-    "freq_rank": 2191
+    "freq_rank": 2194
   },
   {
     "word": "kaloe",
@@ -11161,7 +11161,7 @@ const derivedDictionaryData = [
       "resembling cup"
     ],
     "freq": 0,
-    "freq_rank": 2193
+    "freq_rank": 2196
   },
   {
     "word": "sefei",
@@ -11190,7 +11190,7 @@ const derivedDictionaryData = [
       "saltiness"
     ],
     "freq": 0,
-    "freq_rank": 2767
+    "freq_rank": 2770
   },
   {
     "word": "kania",
@@ -11204,7 +11204,7 @@ const derivedDictionaryData = [
       "knower"
     ],
     "freq": 0,
-    "freq_rank": 2194
+    "freq_rank": 2197
   },
   {
     "word": "kaniu",
@@ -11234,7 +11234,7 @@ const derivedDictionaryData = [
       "discoverer"
     ],
     "freq": 0,
-    "freq_rank": 2195
+    "freq_rank": 2198
   },
   {
     "word": "denei",
@@ -11249,7 +11249,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1668
+    "freq_rank": 1671
   },
   {
     "word": "kazaroe",
@@ -11264,7 +11264,7 @@ const derivedDictionaryData = [
       "resembling trousers"
     ],
     "freq": 0,
-    "freq_rank": 2197
+    "freq_rank": 2200
   },
   {
     "word": "lutue",
@@ -11278,7 +11278,7 @@ const derivedDictionaryData = [
       "topical"
     ],
     "freq": 0,
-    "freq_rank": 2364
+    "freq_rank": 2367
   },
   {
     "word": "keanei",
@@ -11308,7 +11308,7 @@ const derivedDictionaryData = [
       "finance"
     ],
     "freq": 0,
-    "freq_rank": 2199
+    "freq_rank": 2202
   },
   {
     "word": "keglae",
@@ -11324,7 +11324,7 @@ const derivedDictionaryData = [
       "of grass"
     ],
     "freq": 0,
-    "freq_rank": 2201
+    "freq_rank": 2204
   },
   {
     "word": "kehulua",
@@ -11338,7 +11338,7 @@ const derivedDictionaryData = [
       "family member"
     ],
     "freq": 1,
-    "freq_rank": 1115
+    "freq_rank": 1117
   },
   {
     "word": "kehulue",
@@ -11353,7 +11353,7 @@ const derivedDictionaryData = [
       "family (adj)"
     ],
     "freq": 0,
-    "freq_rank": 2202
+    "freq_rank": 2205
   },
   {
     "word": "kehului",
@@ -11367,7 +11367,7 @@ const derivedDictionaryData = [
       "to be a family"
     ],
     "freq": 0,
-    "freq_rank": 2203
+    "freq_rank": 2206
   },
   {
     "word": "kehuluo",
@@ -11381,7 +11381,7 @@ const derivedDictionaryData = [
       "household"
     ],
     "freq": 0,
-    "freq_rank": 2204
+    "freq_rank": 2207
   },
   {
     "word": "kejaklue",
@@ -11395,7 +11395,7 @@ const derivedDictionaryData = [
       "lonely"
     ],
     "freq": 0,
-    "freq_rank": 2206
+    "freq_rank": 2209
   },
   {
     "word": "kekusnia",
@@ -11409,7 +11409,7 @@ const derivedDictionaryData = [
       "copier"
     ],
     "freq": 0,
-    "freq_rank": 2207
+    "freq_rank": 2210
   },
   {
     "word": "kekusnio",
@@ -11424,7 +11424,7 @@ const derivedDictionaryData = [
       "duplicate"
     ],
     "freq": 0,
-    "freq_rank": 2208
+    "freq_rank": 2211
   },
   {
     "word": "keqei",
@@ -11453,7 +11453,7 @@ const derivedDictionaryData = [
       "nativeness"
     ],
     "freq": 0,
-    "freq_rank": 2209
+    "freq_rank": 2212
   },
   {
     "word": "kewue",
@@ -11467,7 +11467,7 @@ const derivedDictionaryData = [
       "fortunate"
     ],
     "freq": 0,
-    "freq_rank": 2210
+    "freq_rank": 2213
   },
   {
     "word": "stosoe",
@@ -11481,7 +11481,7 @@ const derivedDictionaryData = [
       "oily"
     ],
     "freq": 0,
-    "freq_rank": 2860
+    "freq_rank": 2863
   },
   {
     "word": "stosoi",
@@ -11496,7 +11496,7 @@ const derivedDictionaryData = [
       "lubricate"
     ],
     "freq": 0,
-    "freq_rank": 2861
+    "freq_rank": 2864
   },
   {
     "word": "kiagia",
@@ -11510,7 +11510,7 @@ const derivedDictionaryData = [
       "keeper"
     ],
     "freq": 0,
-    "freq_rank": 2211
+    "freq_rank": 2214
   },
   {
     "word": "kicojoa",
@@ -11524,7 +11524,7 @@ const derivedDictionaryData = [
       "jeweler"
     ],
     "freq": 0,
-    "freq_rank": 2215
+    "freq_rank": 2218
   },
   {
     "word": "kicojoe",
@@ -11540,7 +11540,7 @@ const derivedDictionaryData = [
       "precious"
     ],
     "freq": 0,
-    "freq_rank": 2216
+    "freq_rank": 2219
   },
   {
     "word": "kicursue",
@@ -11554,7 +11554,7 @@ const derivedDictionaryData = [
       "dawn"
     ],
     "freq": 0,
-    "freq_rank": 2217
+    "freq_rank": 2220
   },
   {
     "word": "kifrae",
@@ -11570,7 +11570,7 @@ const derivedDictionaryData = [
       "of cherry"
     ],
     "freq": 0,
-    "freq_rank": 2220
+    "freq_rank": 2223
   },
   {
     "word": "kifybia",
@@ -11585,7 +11585,7 @@ const derivedDictionaryData = [
       "demonstrator"
     ],
     "freq": 0,
-    "freq_rank": 2221
+    "freq_rank": 2224
   },
   {
     "word": "kifybiu",
@@ -11600,7 +11600,7 @@ const derivedDictionaryData = [
       "demonstration"
     ],
     "freq": 0,
-    "freq_rank": 2222
+    "freq_rank": 2225
   },
   {
     "word": "kikae",
@@ -11615,7 +11615,7 @@ const derivedDictionaryData = [
       "resembling chicken"
     ],
     "freq": 0,
-    "freq_rank": 2225
+    "freq_rank": 2228
   },
   {
     "word": "kilia",
@@ -11629,7 +11629,7 @@ const derivedDictionaryData = [
       "toucher"
     ],
     "freq": 0,
-    "freq_rank": 2226
+    "freq_rank": 2229
   },
   {
     "word": "kimaria",
@@ -11643,7 +11643,7 @@ const derivedDictionaryData = [
       "killer"
     ],
     "freq": 0,
-    "freq_rank": 2227
+    "freq_rank": 2230
   },
   {
     "word": "spuvue",
@@ -11657,7 +11657,7 @@ const derivedDictionaryData = [
       "fatal"
     ],
     "freq": 0,
-    "freq_rank": 2847
+    "freq_rank": 2850
   },
   {
     "word": "kimugie",
@@ -11673,7 +11673,7 @@ const derivedDictionaryData = [
       "lifeless"
     ],
     "freq": 1,
-    "freq_rank": 1121
+    "freq_rank": 1123
   },
   {
     "word": "kinoe",
@@ -11688,7 +11688,7 @@ const derivedDictionaryData = [
       "resembling knife"
     ],
     "freq": 0,
-    "freq_rank": 2228
+    "freq_rank": 2231
   },
   {
     "word": "kipesloi",
@@ -11703,7 +11703,7 @@ const derivedDictionaryData = [
       "immunize"
     ],
     "freq": 0,
-    "freq_rank": 2229
+    "freq_rank": 2232
   },
   {
     "word": "kixilkui",
@@ -11719,7 +11719,7 @@ const derivedDictionaryData = [
       "vow"
     ],
     "freq": 1,
-    "freq_rank": 1124
+    "freq_rank": 1126
   },
   {
     "word": "kjelio",
@@ -11735,7 +11735,7 @@ const derivedDictionaryData = [
       "pay"
     ],
     "freq": 0,
-    "freq_rank": 2230
+    "freq_rank": 2233
   },
   {
     "word": "kjeliu",
@@ -11749,7 +11749,7 @@ const derivedDictionaryData = [
       "earning"
     ],
     "freq": 0,
-    "freq_rank": 2231
+    "freq_rank": 2234
   },
   {
     "word": "mipkoe",
@@ -11764,7 +11764,7 @@ const derivedDictionaryData = [
       "resembling cloud"
     ],
     "freq": 0,
-    "freq_rank": 2420
+    "freq_rank": 2423
   },
   {
     "word": "klegowoa",
@@ -11779,7 +11779,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2233
+    "freq_rank": 2236
   },
   {
     "word": "kluxei",
@@ -11825,7 +11825,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2235
+    "freq_rank": 2238
   },
   {
     "word": "kokidiu",
@@ -11841,7 +11841,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2236
+    "freq_rank": 2239
   },
   {
     "word": "kokloe",
@@ -11857,7 +11857,7 @@ const derivedDictionaryData = [
       "tile-covered"
     ],
     "freq": 1,
-    "freq_rank": 1126
+    "freq_rank": 1128
   },
   {
     "word": "kompua",
@@ -11872,7 +11872,7 @@ const derivedDictionaryData = [
       "competitor"
     ],
     "freq": 0,
-    "freq_rank": 2239
+    "freq_rank": 2242
   },
   {
     "word": "kompue",
@@ -11886,7 +11886,7 @@ const derivedDictionaryData = [
       "competitive"
     ],
     "freq": 0,
-    "freq_rank": 2240
+    "freq_rank": 2243
   },
   {
     "word": "kopia",
@@ -11900,7 +11900,7 @@ const derivedDictionaryData = [
       "commander"
     ],
     "freq": 0,
-    "freq_rank": 2241
+    "freq_rank": 2244
   },
   {
     "word": "kowetei",
@@ -11914,7 +11914,7 @@ const derivedDictionaryData = [
       "be cyan"
     ],
     "freq": 0,
-    "freq_rank": 2243
+    "freq_rank": 2246
   },
   {
     "word": "kowygoe",
@@ -11928,7 +11928,7 @@ const derivedDictionaryData = [
       "clayey"
     ],
     "freq": 0,
-    "freq_rank": 2245
+    "freq_rank": 2248
   },
   {
     "word": "koxei",
@@ -11957,7 +11957,7 @@ const derivedDictionaryData = [
       "bitterness"
     ],
     "freq": 0,
-    "freq_rank": 2247
+    "freq_rank": 2250
   },
   {
     "word": "krapoe",
@@ -11973,7 +11973,7 @@ const derivedDictionaryData = [
       "wall-like"
     ],
     "freq": 0,
-    "freq_rank": 2248
+    "freq_rank": 2251
   },
   {
     "word": "krekikie",
@@ -11989,7 +11989,7 @@ const derivedDictionaryData = [
       "fissured"
     ],
     "freq": 0,
-    "freq_rank": 2250
+    "freq_rank": 2253
   },
   {
     "word": "krembae",
@@ -12003,7 +12003,7 @@ const derivedDictionaryData = [
       "pet-like"
     ],
     "freq": 0,
-    "freq_rank": 2252
+    "freq_rank": 2255
   },
   {
     "word": "krembai",
@@ -12017,7 +12017,7 @@ const derivedDictionaryData = [
       "to keep as a pet"
     ],
     "freq": 0,
-    "freq_rank": 2253
+    "freq_rank": 2256
   },
   {
     "word": "krembao",
@@ -12031,7 +12031,7 @@ const derivedDictionaryData = [
       "a physical object for a pet"
     ],
     "freq": 0,
-    "freq_rank": 2254
+    "freq_rank": 2257
   },
   {
     "word": "krembau",
@@ -12045,7 +12045,7 @@ const derivedDictionaryData = [
       "the concept or state of keeping a pet"
     ],
     "freq": 0,
-    "freq_rank": 2255
+    "freq_rank": 2258
   },
   {
     "word": "krendia",
@@ -12059,7 +12059,7 @@ const derivedDictionaryData = [
       "sharer"
     ],
     "freq": 0,
-    "freq_rank": 2256
+    "freq_rank": 2259
   },
   {
     "word": "kritria",
@@ -12073,7 +12073,7 @@ const derivedDictionaryData = [
       "teacher"
     ],
     "freq": 0,
-    "freq_rank": 2257
+    "freq_rank": 2260
   },
   {
     "word": "kritriu",
@@ -12088,7 +12088,7 @@ const derivedDictionaryData = [
       "instruction"
     ],
     "freq": 1,
-    "freq_rank": 1127
+    "freq_rank": 1129
   },
   {
     "word": "kromei",
@@ -12103,7 +12103,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1129
+    "freq_rank": 1131
   },
   {
     "word": "kruloe",
@@ -12118,7 +12118,7 @@ const derivedDictionaryData = [
       "resembling room"
     ],
     "freq": 0,
-    "freq_rank": 2258
+    "freq_rank": 2261
   },
   {
     "word": "kryskae",
@@ -12133,7 +12133,7 @@ const derivedDictionaryData = [
       "resembling waist"
     ],
     "freq": 0,
-    "freq_rank": 2260
+    "freq_rank": 2263
   },
   {
     "word": "kuatei",
@@ -12148,7 +12148,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1130
+    "freq_rank": 1132
   },
   {
     "word": "kuateu",
@@ -12162,7 +12162,7 @@ const derivedDictionaryData = [
       "crookedness"
     ],
     "freq": 0,
-    "freq_rank": 2262
+    "freq_rank": 2265
   },
   {
     "word": "kufuglia",
@@ -12178,7 +12178,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2263
+    "freq_rank": 2266
   },
   {
     "word": "kufuglio",
@@ -12194,7 +12194,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2264
+    "freq_rank": 2267
   },
   {
     "word": "kujondia",
@@ -12208,7 +12208,7 @@ const derivedDictionaryData = [
       "resister"
     ],
     "freq": 0,
-    "freq_rank": 2265
+    "freq_rank": 2268
   },
   {
     "word": "kukylue",
@@ -12223,7 +12223,7 @@ const derivedDictionaryData = [
       "lucrative"
     ],
     "freq": 0,
-    "freq_rank": 2266
+    "freq_rank": 2269
   },
   {
     "word": "kukylui",
@@ -12238,7 +12238,7 @@ const derivedDictionaryData = [
       "make a profit"
     ],
     "freq": 0,
-    "freq_rank": 2267
+    "freq_rank": 2270
   },
   {
     "word": "kunawae",
@@ -12253,7 +12253,7 @@ const derivedDictionaryData = [
       "resembling orchid"
     ],
     "freq": 0,
-    "freq_rank": 2269
+    "freq_rank": 2272
   },
   {
     "word": "slezia",
@@ -12267,7 +12267,7 @@ const derivedDictionaryData = [
       "inquirer"
     ],
     "freq": 0,
-    "freq_rank": 2800
+    "freq_rank": 2803
   },
   {
     "word": "sleziu",
@@ -12299,7 +12299,7 @@ const derivedDictionaryData = [
       "attendant"
     ],
     "freq": 0,
-    "freq_rank": 1727
+    "freq_rank": 1730
   },
   {
     "word": "dzosiu",
@@ -12315,7 +12315,7 @@ const derivedDictionaryData = [
       "assistance"
     ],
     "freq": 0,
-    "freq_rank": 1728
+    "freq_rank": 1731
   },
   {
     "word": "kuqsoe",
@@ -12330,7 +12330,7 @@ const derivedDictionaryData = [
       "resembling bridge"
     ],
     "freq": 0,
-    "freq_rank": 2270
+    "freq_rank": 2273
   },
   {
     "word": "briwia",
@@ -12344,7 +12344,7 @@ const derivedDictionaryData = [
       "coward"
     ],
     "freq": 0,
-    "freq_rank": 1542
+    "freq_rank": 1544
   },
   {
     "word": "briwie",
@@ -12359,7 +12359,7 @@ const derivedDictionaryData = [
       "fearful"
     ],
     "freq": 0,
-    "freq_rank": 1543
+    "freq_rank": 1545
   },
   {
     "word": "briwiu",
@@ -12390,7 +12390,7 @@ const derivedDictionaryData = [
       "resembling cake"
     ],
     "freq": 0,
-    "freq_rank": 2272
+    "freq_rank": 2275
   },
   {
     "word": "kuvysua",
@@ -12422,7 +12422,7 @@ const derivedDictionaryData = [
       "enforce order"
     ],
     "freq": 0,
-    "freq_rank": 2273
+    "freq_rank": 2276
   },
   {
     "word": "kyfae",
@@ -12437,7 +12437,7 @@ const derivedDictionaryData = [
       "avian"
     ],
     "freq": 0,
-    "freq_rank": 2278
+    "freq_rank": 2281
   },
   {
     "word": "kynue",
@@ -12451,7 +12451,7 @@ const derivedDictionaryData = [
       "summery"
     ],
     "freq": 0,
-    "freq_rank": 2279
+    "freq_rank": 2282
   },
   {
     "word": "kypei",
@@ -12482,7 +12482,7 @@ const derivedDictionaryData = [
       "gladness"
     ],
     "freq": 1,
-    "freq_rank": 1134
+    "freq_rank": 1136
   },
   {
     "word": "kyranae",
@@ -12497,7 +12497,7 @@ const derivedDictionaryData = [
       "resembling feather"
     ],
     "freq": 0,
-    "freq_rank": 2280
+    "freq_rank": 2283
   },
   {
     "word": "kyranao",
@@ -12512,7 +12512,7 @@ const derivedDictionaryData = [
       "plume"
     ],
     "freq": 0,
-    "freq_rank": 2281
+    "freq_rank": 2284
   },
   {
     "word": "kytia",
@@ -12526,7 +12526,7 @@ const derivedDictionaryData = [
       "admirer"
     ],
     "freq": 0,
-    "freq_rank": 2282
+    "freq_rank": 2285
   },
   {
     "word": "labnei",
@@ -12555,7 +12555,7 @@ const derivedDictionaryData = [
       "conceptual"
     ],
     "freq": 0,
-    "freq_rank": 2283
+    "freq_rank": 2286
   },
   {
     "word": "laekia",
@@ -12569,7 +12569,7 @@ const derivedDictionaryData = [
       "selector"
     ],
     "freq": 0,
-    "freq_rank": 2284
+    "freq_rank": 2287
   },
   {
     "word": "laekiu",
@@ -12585,7 +12585,7 @@ const derivedDictionaryData = [
       "option"
     ],
     "freq": 0,
-    "freq_rank": 2285
+    "freq_rank": 2288
   },
   {
     "word": "lakiroa",
@@ -12599,7 +12599,7 @@ const derivedDictionaryData = [
       "photographer"
     ],
     "freq": 0,
-    "freq_rank": 2286
+    "freq_rank": 2289
   },
   {
     "word": "lakiroe",
@@ -12614,7 +12614,7 @@ const derivedDictionaryData = [
       "resembling picture"
     ],
     "freq": 0,
-    "freq_rank": 2287
+    "freq_rank": 2290
   },
   {
     "word": "lakiroi",
@@ -12628,7 +12628,7 @@ const derivedDictionaryData = [
       "photograph"
     ],
     "freq": 0,
-    "freq_rank": 2288
+    "freq_rank": 2291
   },
   {
     "word": "lamsoe",
@@ -12642,7 +12642,7 @@ const derivedDictionaryData = [
       "milky"
     ],
     "freq": 0,
-    "freq_rank": 2289
+    "freq_rank": 2292
   },
   {
     "word": "lamsoi",
@@ -12656,7 +12656,7 @@ const derivedDictionaryData = [
       "milk"
     ],
     "freq": 0,
-    "freq_rank": 2290
+    "freq_rank": 2293
   },
   {
     "word": "nifnei",
@@ -12685,7 +12685,7 @@ const derivedDictionaryData = [
       "adder"
     ],
     "freq": 0,
-    "freq_rank": 2291
+    "freq_rank": 2294
   },
   {
     "word": "lantiu",
@@ -12699,7 +12699,7 @@ const derivedDictionaryData = [
       "addition"
     ],
     "freq": 1,
-    "freq_rank": 1137
+    "freq_rank": 1139
   },
   {
     "word": "laswitia",
@@ -12714,7 +12714,7 @@ const derivedDictionaryData = [
       "delegate"
     ],
     "freq": 0,
-    "freq_rank": 2292
+    "freq_rank": 2295
   },
   {
     "word": "laswitiu",
@@ -12728,7 +12728,7 @@ const derivedDictionaryData = [
       "representation"
     ],
     "freq": 0,
-    "freq_rank": 2293
+    "freq_rank": 2296
   },
   {
     "word": "latei",
@@ -12743,7 +12743,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2294
+    "freq_rank": 2297
   },
   {
     "word": "lateu",
@@ -12775,7 +12775,7 @@ const derivedDictionaryData = [
       "resembling goat"
     ],
     "freq": 0,
-    "freq_rank": 2301
+    "freq_rank": 2304
   },
   {
     "word": "lebykoi",
@@ -12791,7 +12791,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2302
+    "freq_rank": 2305
   },
   {
     "word": "stobei",
@@ -12820,7 +12820,7 @@ const derivedDictionaryData = [
       "hardness"
     ],
     "freq": 0,
-    "freq_rank": 2857
+    "freq_rank": 2860
   },
   {
     "word": "legudroa",
@@ -12836,7 +12836,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2303
+    "freq_rank": 2306
   },
   {
     "word": "lehae",
@@ -12851,7 +12851,7 @@ const derivedDictionaryData = [
       "resembling fern"
     ],
     "freq": 0,
-    "freq_rank": 2304
+    "freq_rank": 2307
   },
   {
     "word": "lejoe",
@@ -12866,7 +12866,7 @@ const derivedDictionaryData = [
       "resembling stairs"
     ],
     "freq": 0,
-    "freq_rank": 2305
+    "freq_rank": 2308
   },
   {
     "word": "lemespiu",
@@ -12881,7 +12881,7 @@ const derivedDictionaryData = [
       "apprehension"
     ],
     "freq": 0,
-    "freq_rank": 2306
+    "freq_rank": 2309
   },
   {
     "word": "lenawae",
@@ -12896,7 +12896,7 @@ const derivedDictionaryData = [
       "resembling cactus"
     ],
     "freq": 0,
-    "freq_rank": 2308
+    "freq_rank": 2311
   },
   {
     "word": "leocia",
@@ -12910,7 +12910,7 @@ const derivedDictionaryData = [
       "activator"
     ],
     "freq": 0,
-    "freq_rank": 2309
+    "freq_rank": 2312
   },
   {
     "word": "leocie",
@@ -12926,7 +12926,7 @@ const derivedDictionaryData = [
       "power-on"
     ],
     "freq": 0,
-    "freq_rank": 2310
+    "freq_rank": 2313
   },
   {
     "word": "lerei",
@@ -12941,7 +12941,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2311
+    "freq_rank": 2314
   },
   {
     "word": "flovei",
@@ -12971,7 +12971,7 @@ const derivedDictionaryData = [
       "dirtiness"
     ],
     "freq": 0,
-    "freq_rank": 1853
+    "freq_rank": 1855
   },
   {
     "word": "leupei",
@@ -13001,7 +13001,7 @@ const derivedDictionaryData = [
       "cave explorer"
     ],
     "freq": 0,
-    "freq_rank": 2312
+    "freq_rank": 2315
   },
   {
     "word": "levidzoe",
@@ -13017,7 +13017,7 @@ const derivedDictionaryData = [
       "cavern-like"
     ],
     "freq": 0,
-    "freq_rank": 2313
+    "freq_rank": 2316
   },
   {
     "word": "lexoglae",
@@ -13032,7 +13032,7 @@ const derivedDictionaryData = [
       "resembling mule"
     ],
     "freq": 0,
-    "freq_rank": 2316
+    "freq_rank": 2319
   },
   {
     "word": "liamei",
@@ -13047,7 +13047,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1143
+    "freq_rank": 1145
   },
   {
     "word": "libosoe",
@@ -13063,7 +13063,7 @@ const derivedDictionaryData = [
       "sticky-viscous"
     ],
     "freq": 0,
-    "freq_rank": 2320
+    "freq_rank": 2323
   },
   {
     "word": "libywua",
@@ -13078,7 +13078,7 @@ const derivedDictionaryData = [
       "charitable person"
     ],
     "freq": 0,
-    "freq_rank": 2321
+    "freq_rank": 2324
   },
   {
     "word": "libywue",
@@ -13093,7 +13093,7 @@ const derivedDictionaryData = [
       "generous"
     ],
     "freq": 0,
-    "freq_rank": 2322
+    "freq_rank": 2325
   },
   {
     "word": "libywui",
@@ -13108,7 +13108,7 @@ const derivedDictionaryData = [
       "donate charitably"
     ],
     "freq": 0,
-    "freq_rank": 2323
+    "freq_rank": 2326
   },
   {
     "word": "licae",
@@ -13123,7 +13123,7 @@ const derivedDictionaryData = [
       "resembling colleague"
     ],
     "freq": 0,
-    "freq_rank": 2324
+    "freq_rank": 2327
   },
   {
     "word": "gwemei",
@@ -13138,7 +13138,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1989
+    "freq_rank": 1992
   },
   {
     "word": "gycwio",
@@ -13154,7 +13154,7 @@ const derivedDictionaryData = [
       "excrement"
     ],
     "freq": 0,
-    "freq_rank": 1990
+    "freq_rank": 1993
   },
   {
     "word": "gycwiu",
@@ -13168,7 +13168,7 @@ const derivedDictionaryData = [
       "defecation"
     ],
     "freq": 0,
-    "freq_rank": 1991
+    "freq_rank": 1994
   },
   {
     "word": "linia",
@@ -13182,7 +13182,7 @@ const derivedDictionaryData = [
       "causer"
     ],
     "freq": 0,
-    "freq_rank": 2331
+    "freq_rank": 2334
   },
   {
     "word": "lirue",
@@ -13196,7 +13196,7 @@ const derivedDictionaryData = [
       "directional"
     ],
     "freq": 0,
-    "freq_rank": 2332
+    "freq_rank": 2335
   },
   {
     "word": "lisibue",
@@ -13210,7 +13210,7 @@ const derivedDictionaryData = [
       "professional"
     ],
     "freq": 0,
-    "freq_rank": 2334
+    "freq_rank": 2337
   },
   {
     "word": "litoe",
@@ -13226,7 +13226,7 @@ const derivedDictionaryData = [
       "radiant"
     ],
     "freq": 0,
-    "freq_rank": 2335
+    "freq_rank": 2338
   },
   {
     "word": "litoi",
@@ -13270,7 +13270,7 @@ const derivedDictionaryData = [
       "wetness"
     ],
     "freq": 0,
-    "freq_rank": 2336
+    "freq_rank": 2339
   },
   {
     "word": "kivwei",
@@ -13300,7 +13300,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2341
+    "freq_rank": 2344
   },
   {
     "word": "localeu",
@@ -13314,7 +13314,7 @@ const derivedDictionaryData = [
       "locality"
     ],
     "freq": 0,
-    "freq_rank": 2342
+    "freq_rank": 2345
   },
   {
     "word": "locwei",
@@ -13344,7 +13344,7 @@ const derivedDictionaryData = [
       "resembling banner"
     ],
     "freq": 0,
-    "freq_rank": 2343
+    "freq_rank": 2346
   },
   {
     "word": "logegae",
@@ -13359,7 +13359,7 @@ const derivedDictionaryData = [
       "resembling throat"
     ],
     "freq": 0,
-    "freq_rank": 2347
+    "freq_rank": 2350
   },
   {
     "word": "lohoe",
@@ -13374,7 +13374,7 @@ const derivedDictionaryData = [
       "resembling armor"
     ],
     "freq": 0,
-    "freq_rank": 2349
+    "freq_rank": 2352
   },
   {
     "word": "lokia",
@@ -13388,7 +13388,7 @@ const derivedDictionaryData = [
       "reader"
     ],
     "freq": 0,
-    "freq_rank": 2351
+    "freq_rank": 2354
   },
   {
     "word": "lokie",
@@ -13404,7 +13404,7 @@ const derivedDictionaryData = [
       "lectern-style"
     ],
     "freq": 1,
-    "freq_rank": 1147
+    "freq_rank": 1149
   },
   {
     "word": "lokiu",
@@ -13418,7 +13418,7 @@ const derivedDictionaryData = [
       "reading"
     ],
     "freq": 1,
-    "freq_rank": 1148
+    "freq_rank": 1150
   },
   {
     "word": "cenlei",
@@ -13447,7 +13447,7 @@ const derivedDictionaryData = [
       "narrowness"
     ],
     "freq": 0,
-    "freq_rank": 1587
+    "freq_rank": 1590
   },
   {
     "word": "madmei",
@@ -13462,7 +13462,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1160
+    "freq_rank": 1162
   },
   {
     "word": "madmeu",
@@ -13477,7 +13477,7 @@ const derivedDictionaryData = [
       "dullness"
     ],
     "freq": 0,
-    "freq_rank": 2378
+    "freq_rank": 2381
   },
   {
     "word": "loskei",
@@ -13492,7 +13492,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1150
+    "freq_rank": 1152
   },
   {
     "word": "lozuxue",
@@ -13553,7 +13553,7 @@ const derivedDictionaryData = [
       "competence"
     ],
     "freq": 1,
-    "freq_rank": 1151
+    "freq_rank": 1153
   },
   {
     "word": "luhacia",
@@ -13567,7 +13567,7 @@ const derivedDictionaryData = [
       "healer"
     ],
     "freq": 0,
-    "freq_rank": 2352
+    "freq_rank": 2355
   },
   {
     "word": "luhaciu",
@@ -13583,7 +13583,7 @@ const derivedDictionaryData = [
       "care"
     ],
     "freq": 1,
-    "freq_rank": 1152
+    "freq_rank": 1154
   },
   {
     "word": "lumbei",
@@ -13598,7 +13598,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2354
+    "freq_rank": 2357
   },
   {
     "word": "luokei",
@@ -13613,7 +13613,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1153
+    "freq_rank": 1155
   },
   {
     "word": "luplelue",
@@ -13627,7 +13627,7 @@ const derivedDictionaryData = [
       "resonant"
     ],
     "freq": 0,
-    "freq_rank": 2356
+    "freq_rank": 2359
   },
   {
     "word": "lurubrai",
@@ -13642,7 +13642,7 @@ const derivedDictionaryData = [
       "testify to"
     ],
     "freq": 0,
-    "freq_rank": 2359
+    "freq_rank": 2362
   },
   {
     "word": "lusoe",
@@ -13657,7 +13657,7 @@ const derivedDictionaryData = [
       "resembling key"
     ],
     "freq": 0,
-    "freq_rank": 2362
+    "freq_rank": 2365
   },
   {
     "word": "lusoi",
@@ -13671,7 +13671,7 @@ const derivedDictionaryData = [
       "unlock"
     ],
     "freq": 0,
-    "freq_rank": 2363
+    "freq_rank": 2366
   },
   {
     "word": "lutufroe",
@@ -13686,7 +13686,7 @@ const derivedDictionaryData = [
       "resembling border"
     ],
     "freq": 0,
-    "freq_rank": 2365
+    "freq_rank": 2368
   },
   {
     "word": "luvismae",
@@ -13701,7 +13701,7 @@ const derivedDictionaryData = [
       "injured"
     ],
     "freq": 0,
-    "freq_rank": 2366
+    "freq_rank": 2369
   },
   {
     "word": "luvwitue",
@@ -13715,7 +13715,7 @@ const derivedDictionaryData = [
       "academic"
     ],
     "freq": 0,
-    "freq_rank": 2367
+    "freq_rank": 2370
   },
   {
     "word": "lyfroe",
@@ -13730,7 +13730,7 @@ const derivedDictionaryData = [
       "resembling wire"
     ],
     "freq": 0,
-    "freq_rank": 2368
+    "freq_rank": 2371
   },
   {
     "word": "lyltae",
@@ -13745,7 +13745,7 @@ const derivedDictionaryData = [
       "resembling lichen"
     ],
     "freq": 0,
-    "freq_rank": 2370
+    "freq_rank": 2373
   },
   {
     "word": "lympie",
@@ -13761,7 +13761,7 @@ const derivedDictionaryData = [
       "corroded"
     ],
     "freq": 0,
-    "freq_rank": 2371
+    "freq_rank": 2374
   },
   {
     "word": "lysei",
@@ -13776,7 +13776,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1159
+    "freq_rank": 1161
   },
   {
     "word": "lyseu",
@@ -13791,7 +13791,7 @@ const derivedDictionaryData = [
       "the right side"
     ],
     "freq": 0,
-    "freq_rank": 2373
+    "freq_rank": 2376
   },
   {
     "word": "macei",
@@ -13806,7 +13806,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2374
+    "freq_rank": 2377
   },
   {
     "word": "madakiu",
@@ -13821,7 +13821,7 @@ const derivedDictionaryData = [
       "upgrading"
     ],
     "freq": 0,
-    "freq_rank": 2376
+    "freq_rank": 2379
   },
   {
     "word": "mafehei",
@@ -13836,7 +13836,7 @@ const derivedDictionaryData = [
       "be flawless"
     ],
     "freq": 1,
-    "freq_rank": 1161
+    "freq_rank": 1163
   },
   {
     "word": "mafeheu",
@@ -13851,7 +13851,7 @@ const derivedDictionaryData = [
       "flawlessness"
     ],
     "freq": 0,
-    "freq_rank": 2380
+    "freq_rank": 2383
   },
   {
     "word": "magustua",
@@ -13867,7 +13867,7 @@ const derivedDictionaryData = [
       "mage"
     ],
     "freq": 0,
-    "freq_rank": 2381
+    "freq_rank": 2384
   },
   {
     "word": "magustue",
@@ -13883,7 +13883,7 @@ const derivedDictionaryData = [
       "arcane"
     ],
     "freq": 0,
-    "freq_rank": 2382
+    "freq_rank": 2385
   },
   {
     "word": "magustui",
@@ -13898,7 +13898,7 @@ const derivedDictionaryData = [
       "cast magic"
     ],
     "freq": 0,
-    "freq_rank": 2383
+    "freq_rank": 2386
   },
   {
     "word": "mibnia",
@@ -13912,7 +13912,7 @@ const derivedDictionaryData = [
       "dancer"
     ],
     "freq": 0,
-    "freq_rank": 2411
+    "freq_rank": 2414
   },
   {
     "word": "mibniu",
@@ -13927,7 +13927,7 @@ const derivedDictionaryData = [
       "dancing"
     ],
     "freq": 0,
-    "freq_rank": 2412
+    "freq_rank": 2415
   },
   {
     "word": "manae",
@@ -13942,7 +13942,7 @@ const derivedDictionaryData = [
       "resembling mother"
     ],
     "freq": 0,
-    "freq_rank": 2384
+    "freq_rank": 2387
   },
   {
     "word": "manau",
@@ -13956,7 +13956,7 @@ const derivedDictionaryData = [
       "motherhood"
     ],
     "freq": 0,
-    "freq_rank": 2385
+    "freq_rank": 2388
   },
   {
     "word": "mantue",
@@ -13970,7 +13970,7 @@ const derivedDictionaryData = [
       "quantitative"
     ],
     "freq": 0,
-    "freq_rank": 2386
+    "freq_rank": 2389
   },
   {
     "word": "maobae",
@@ -13985,7 +13985,7 @@ const derivedDictionaryData = [
       "resembling heart"
     ],
     "freq": 0,
-    "freq_rank": 2387
+    "freq_rank": 2390
   },
   {
     "word": "dwedue",
@@ -13999,7 +13999,7 @@ const derivedDictionaryData = [
       "heartfelt"
     ],
     "freq": 0,
-    "freq_rank": 1714
+    "freq_rank": 1717
   },
   {
     "word": "tukpae",
@@ -14014,7 +14014,7 @@ const derivedDictionaryData = [
       "resembling finger"
     ],
     "freq": 0,
-    "freq_rank": 2977
+    "freq_rank": 2981
   },
   {
     "word": "martei",
@@ -14029,7 +14029,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2388
+    "freq_rank": 2391
   },
   {
     "word": "mavahae",
@@ -14044,7 +14044,7 @@ const derivedDictionaryData = [
       "resembling wheat"
     ],
     "freq": 0,
-    "freq_rank": 2390
+    "freq_rank": 2393
   },
   {
     "word": "mazutsae",
@@ -14059,7 +14059,7 @@ const derivedDictionaryData = [
       "resembling monster"
     ],
     "freq": 0,
-    "freq_rank": 2394
+    "freq_rank": 2397
   },
   {
     "word": "mehefoe",
@@ -14075,7 +14075,7 @@ const derivedDictionaryData = [
       "magnetic"
     ],
     "freq": 0,
-    "freq_rank": 2396
+    "freq_rank": 2399
   },
   {
     "word": "mehefoi",
@@ -14089,7 +14089,7 @@ const derivedDictionaryData = [
       "navigate"
     ],
     "freq": 0,
-    "freq_rank": 2397
+    "freq_rank": 2400
   },
   {
     "word": "mehefou",
@@ -14104,7 +14104,7 @@ const derivedDictionaryData = [
       "wayfinding"
     ],
     "freq": 0,
-    "freq_rank": 2398
+    "freq_rank": 2401
   },
   {
     "word": "mekae",
@@ -14120,7 +14120,7 @@ const derivedDictionaryData = [
       "bone-white"
     ],
     "freq": 0,
-    "freq_rank": 2400
+    "freq_rank": 2403
   },
   {
     "word": "mekao",
@@ -14134,7 +14134,7 @@ const derivedDictionaryData = [
       "bone tool"
     ],
     "freq": 0,
-    "freq_rank": 2401
+    "freq_rank": 2404
   },
   {
     "word": "melfue",
@@ -14148,7 +14148,7 @@ const derivedDictionaryData = [
       "costly"
     ],
     "freq": 0,
-    "freq_rank": 2402
+    "freq_rank": 2405
   },
   {
     "word": "meokoe",
@@ -14163,7 +14163,7 @@ const derivedDictionaryData = [
       "resembling hat"
     ],
     "freq": 0,
-    "freq_rank": 2403
+    "freq_rank": 2406
   },
   {
     "word": "meotae",
@@ -14178,7 +14178,7 @@ const derivedDictionaryData = [
       "resembling head"
     ],
     "freq": 0,
-    "freq_rank": 2404
+    "freq_rank": 2407
   },
   {
     "word": "mepdia",
@@ -14192,7 +14192,7 @@ const derivedDictionaryData = [
       "mover"
     ],
     "freq": 0,
-    "freq_rank": 2405
+    "freq_rank": 2408
   },
   {
     "word": "mepdiu",
@@ -14208,7 +14208,7 @@ const derivedDictionaryData = [
       "removal"
     ],
     "freq": 0,
-    "freq_rank": 2406
+    "freq_rank": 2409
   },
   {
     "word": "merifue",
@@ -14222,7 +14222,7 @@ const derivedDictionaryData = [
       "memorable"
     ],
     "freq": 1,
-    "freq_rank": 1166
+    "freq_rank": 1168
   },
   {
     "word": "merifuo",
@@ -14238,7 +14238,7 @@ const derivedDictionaryData = [
       "keepsake"
     ],
     "freq": 0,
-    "freq_rank": 2407
+    "freq_rank": 2410
   },
   {
     "word": "mezunae",
@@ -14253,7 +14253,7 @@ const derivedDictionaryData = [
       "resembling shell"
     ],
     "freq": 0,
-    "freq_rank": 2410
+    "freq_rank": 2413
   },
   {
     "word": "midorae",
@@ -14269,7 +14269,7 @@ const derivedDictionaryData = [
       "watermelon-like"
     ],
     "freq": 0,
-    "freq_rank": 2414
+    "freq_rank": 2417
   },
   {
     "word": "latwae",
@@ -14285,7 +14285,7 @@ const derivedDictionaryData = [
       "beastly"
     ],
     "freq": 0,
-    "freq_rank": 2295
+    "freq_rank": 2298
   },
   {
     "word": "latwau",
@@ -14300,7 +14300,7 @@ const derivedDictionaryData = [
       "fauna"
     ],
     "freq": 0,
-    "freq_rank": 2296
+    "freq_rank": 2299
   },
   {
     "word": "mihoe",
@@ -14315,7 +14315,7 @@ const derivedDictionaryData = [
       "resembling shelf"
     ],
     "freq": 0,
-    "freq_rank": 2415
+    "freq_rank": 2418
   },
   {
     "word": "mijue",
@@ -14329,7 +14329,7 @@ const derivedDictionaryData = [
       "natural"
     ],
     "freq": 0,
-    "freq_rank": 2416
+    "freq_rank": 2419
   },
   {
     "word": "mikei",
@@ -14344,7 +14344,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2417
+    "freq_rank": 2420
   },
   {
     "word": "minzae",
@@ -14359,7 +14359,7 @@ const derivedDictionaryData = [
       "resembling nationality"
     ],
     "freq": 0,
-    "freq_rank": 2418
+    "freq_rank": 2421
   },
   {
     "word": "mitae",
@@ -14374,7 +14374,7 @@ const derivedDictionaryData = [
       "resembling meat"
     ],
     "freq": 0,
-    "freq_rank": 2421
+    "freq_rank": 2424
   },
   {
     "word": "miteroe",
@@ -14389,7 +14389,7 @@ const derivedDictionaryData = [
       "resembling meter"
     ],
     "freq": 0,
-    "freq_rank": 2422
+    "freq_rank": 2425
   },
   {
     "word": "mixuprue",
@@ -14403,7 +14403,7 @@ const derivedDictionaryData = [
       "symptomatic"
     ],
     "freq": 0,
-    "freq_rank": 2423
+    "freq_rank": 2426
   },
   {
     "word": "mobloa",
@@ -14417,7 +14417,7 @@ const derivedDictionaryData = [
       "driver"
     ],
     "freq": 0,
-    "freq_rank": 2424
+    "freq_rank": 2427
   },
   {
     "word": "mobloe",
@@ -14432,7 +14432,7 @@ const derivedDictionaryData = [
       "resembling vehicle"
     ],
     "freq": 0,
-    "freq_rank": 2425
+    "freq_rank": 2428
   },
   {
     "word": "mobloi",
@@ -14448,7 +14448,7 @@ const derivedDictionaryData = [
       "to ride"
     ],
     "freq": 0,
-    "freq_rank": 2426
+    "freq_rank": 2429
   },
   {
     "word": "jozae",
@@ -14463,7 +14463,7 @@ const derivedDictionaryData = [
       "resembling god"
     ],
     "freq": 0,
-    "freq_rank": 2164
+    "freq_rank": 2167
   },
   {
     "word": "mogowie",
@@ -14478,7 +14478,7 @@ const derivedDictionaryData = [
       "twisted"
     ],
     "freq": 0,
-    "freq_rank": 2428
+    "freq_rank": 2431
   },
   {
     "word": "montoa",
@@ -14493,7 +14493,7 @@ const derivedDictionaryData = [
       "mountain guide"
     ],
     "freq": 0,
-    "freq_rank": 2429
+    "freq_rank": 2432
   },
   {
     "word": "montoe",
@@ -14508,7 +14508,7 @@ const derivedDictionaryData = [
       "resembling mountain"
     ],
     "freq": 1,
-    "freq_rank": 1169
+    "freq_rank": 1171
   },
   {
     "word": "moria",
@@ -14522,7 +14522,7 @@ const derivedDictionaryData = [
       "grower"
     ],
     "freq": 0,
-    "freq_rank": 2430
+    "freq_rank": 2433
   },
   {
     "word": "moriu",
@@ -14536,7 +14536,7 @@ const derivedDictionaryData = [
       "growth"
     ],
     "freq": 1,
-    "freq_rank": 1170
+    "freq_rank": 1172
   },
   {
     "word": "mortsae",
@@ -14551,7 +14551,7 @@ const derivedDictionaryData = [
       "resembling forest"
     ],
     "freq": 0,
-    "freq_rank": 2431
+    "freq_rank": 2434
   },
   {
     "word": "mosae",
@@ -14581,7 +14581,7 @@ const derivedDictionaryData = [
       "timber"
     ],
     "freq": 0,
-    "freq_rank": 2432
+    "freq_rank": 2435
   },
   {
     "word": "moskufue",
@@ -14595,7 +14595,7 @@ const derivedDictionaryData = [
       "respectful"
     ],
     "freq": 0,
-    "freq_rank": 2434
+    "freq_rank": 2437
   },
   {
     "word": "moskufui",
@@ -14609,7 +14609,7 @@ const derivedDictionaryData = [
       "respect"
     ],
     "freq": 0,
-    "freq_rank": 2435
+    "freq_rank": 2438
   },
   {
     "word": "motuwue",
@@ -14623,7 +14623,7 @@ const derivedDictionaryData = [
       "mournful"
     ],
     "freq": 0,
-    "freq_rank": 2436
+    "freq_rank": 2439
   },
   {
     "word": "motuwui",
@@ -14638,7 +14638,7 @@ const derivedDictionaryData = [
       "mourn"
     ],
     "freq": 0,
-    "freq_rank": 2437
+    "freq_rank": 2440
   },
   {
     "word": "movei",
@@ -14653,7 +14653,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1171
+    "freq_rank": 1173
   },
   {
     "word": "moveu",
@@ -14668,7 +14668,7 @@ const derivedDictionaryData = [
       "fuzziness"
     ],
     "freq": 0,
-    "freq_rank": 2439
+    "freq_rank": 2442
   },
   {
     "word": "movimpiu",
@@ -14684,7 +14684,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2440
+    "freq_rank": 2443
   },
   {
     "word": "besua",
@@ -14700,7 +14700,7 @@ const derivedDictionaryData = [
       "phantom"
     ],
     "freq": 0,
-    "freq_rank": 1494
+    "freq_rank": 1496
   },
   {
     "word": "mudoe",
@@ -14716,7 +14716,7 @@ const derivedDictionaryData = [
       "mud-caked"
     ],
     "freq": 0,
-    "freq_rank": 2441
+    "freq_rank": 2444
   },
   {
     "word": "besue",
@@ -14732,7 +14732,7 @@ const derivedDictionaryData = [
       "soul-infused"
     ],
     "freq": 0,
-    "freq_rank": 1495
+    "freq_rank": 1497
   },
   {
     "word": "muilei",
@@ -14761,7 +14761,7 @@ const derivedDictionaryData = [
       "difficulty"
     ],
     "freq": 0,
-    "freq_rank": 2442
+    "freq_rank": 2445
   },
   {
     "word": "mukei",
@@ -14776,7 +14776,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2443
+    "freq_rank": 2446
   },
   {
     "word": "mulae",
@@ -14792,7 +14792,7 @@ const derivedDictionaryData = [
       "flower-patterned"
     ],
     "freq": 0,
-    "freq_rank": 2444
+    "freq_rank": 2447
   },
   {
     "word": "muwyzui",
@@ -14807,7 +14807,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2446
+    "freq_rank": 2449
   },
   {
     "word": "mydue",
@@ -14821,7 +14821,7 @@ const derivedDictionaryData = [
       "exemplary"
     ],
     "freq": 0,
-    "freq_rank": 2448
+    "freq_rank": 2451
   },
   {
     "word": "mygae",
@@ -14836,7 +14836,7 @@ const derivedDictionaryData = [
       "resembling leg"
     ],
     "freq": 0,
-    "freq_rank": 2449
+    "freq_rank": 2452
   },
   {
     "word": "myi",
@@ -14866,7 +14866,7 @@ const derivedDictionaryData = [
       "resembling fever"
     ],
     "freq": 0,
-    "freq_rank": 2451
+    "freq_rank": 2454
   },
   {
     "word": "myrafae",
@@ -14882,7 +14882,7 @@ const derivedDictionaryData = [
       "dragon-shaped"
     ],
     "freq": 0,
-    "freq_rank": 2452
+    "freq_rank": 2455
   },
   {
     "word": "nacia",
@@ -14898,7 +14898,7 @@ const derivedDictionaryData = [
       "employee"
     ],
     "freq": 1,
-    "freq_rank": 1176
+    "freq_rank": 1178
   },
   {
     "word": "nacie",
@@ -14915,7 +14915,7 @@ const derivedDictionaryData = [
       "industrious"
     ],
     "freq": 1,
-    "freq_rank": 1177
+    "freq_rank": 1179
   },
   {
     "word": "naciu",
@@ -14945,7 +14945,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2453
+    "freq_rank": 2456
   },
   {
     "word": "nafikeu",
@@ -14960,7 +14960,7 @@ const derivedDictionaryData = [
       "unity"
     ],
     "freq": 0,
-    "freq_rank": 2454
+    "freq_rank": 2457
   },
   {
     "word": "naglifie",
@@ -14976,7 +14976,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2455
+    "freq_rank": 2458
   },
   {
     "word": "naglifiu",
@@ -14991,7 +14991,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2456
+    "freq_rank": 2459
   },
   {
     "word": "curmei",
@@ -15021,7 +15021,7 @@ const derivedDictionaryData = [
       "easiness"
     ],
     "freq": 0,
-    "freq_rank": 1637
+    "freq_rank": 1640
   },
   {
     "word": "nakei",
@@ -15036,7 +15036,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2457
+    "freq_rank": 2460
   },
   {
     "word": "naralei",
@@ -15051,7 +15051,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1178
+    "freq_rank": 1180
   },
   {
     "word": "naraleu",
@@ -15065,7 +15065,7 @@ const derivedDictionaryData = [
       "naturalness"
     ],
     "freq": 0,
-    "freq_rank": 2459
+    "freq_rank": 2462
   },
   {
     "word": "nasae",
@@ -15080,7 +15080,7 @@ const derivedDictionaryData = [
       "resembling plant"
     ],
     "freq": 0,
-    "freq_rank": 2460
+    "freq_rank": 2463
   },
   {
     "word": "nasau",
@@ -15095,7 +15095,7 @@ const derivedDictionaryData = [
       "vegetation"
     ],
     "freq": 0,
-    "freq_rank": 2461
+    "freq_rank": 2464
   },
   {
     "word": "nasboa",
@@ -15109,7 +15109,7 @@ const derivedDictionaryData = [
       "pharmacist"
     ],
     "freq": 0,
-    "freq_rank": 2462
+    "freq_rank": 2465
   },
   {
     "word": "nasboe",
@@ -15124,7 +15124,7 @@ const derivedDictionaryData = [
       "resembling medicine"
     ],
     "freq": 0,
-    "freq_rank": 2463
+    "freq_rank": 2466
   },
   {
     "word": "nauxae",
@@ -15139,7 +15139,7 @@ const derivedDictionaryData = [
       "resembling friend"
     ],
     "freq": 0,
-    "freq_rank": 2464
+    "freq_rank": 2467
   },
   {
     "word": "nauxai",
@@ -15153,7 +15153,7 @@ const derivedDictionaryData = [
       "befriend"
     ],
     "freq": 0,
-    "freq_rank": 2465
+    "freq_rank": 2468
   },
   {
     "word": "nauxau",
@@ -15167,7 +15167,7 @@ const derivedDictionaryData = [
       "friendship"
     ],
     "freq": 0,
-    "freq_rank": 2466
+    "freq_rank": 2469
   },
   {
     "word": "naverei",
@@ -15182,7 +15182,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2467
+    "freq_rank": 2470
   },
   {
     "word": "naxue",
@@ -15196,7 +15196,7 @@ const derivedDictionaryData = [
       "collective"
     ],
     "freq": 0,
-    "freq_rank": 2468
+    "freq_rank": 2471
   },
   {
     "word": "necadroi",
@@ -15211,7 +15211,7 @@ const derivedDictionaryData = [
       "recharge"
     ],
     "freq": 0,
-    "freq_rank": 2469
+    "freq_rank": 2472
   },
   {
     "word": "negoxrei",
@@ -15225,7 +15225,7 @@ const derivedDictionaryData = [
       "be random"
     ],
     "freq": 1,
-    "freq_rank": 1182
+    "freq_rank": 1184
   },
   {
     "word": "negoxreu",
@@ -15239,7 +15239,7 @@ const derivedDictionaryData = [
       "randomness"
     ],
     "freq": 0,
-    "freq_rank": 2474
+    "freq_rank": 2477
   },
   {
     "word": "nejowoe",
@@ -15254,7 +15254,7 @@ const derivedDictionaryData = [
       "resembling ink"
     ],
     "freq": 0,
-    "freq_rank": 2476
+    "freq_rank": 2479
   },
   {
     "word": "nekia",
@@ -15268,7 +15268,7 @@ const derivedDictionaryData = [
       "sitter"
     ],
     "freq": 0,
-    "freq_rank": 2477
+    "freq_rank": 2480
   },
   {
     "word": "nembue",
@@ -15282,7 +15282,7 @@ const derivedDictionaryData = [
       "congratulatory"
     ],
     "freq": 0,
-    "freq_rank": 2478
+    "freq_rank": 2481
   },
   {
     "word": "nenojei",
@@ -15297,7 +15297,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1183
+    "freq_rank": 1185
   },
   {
     "word": "nenojeu",
@@ -15311,7 +15311,7 @@ const derivedDictionaryData = [
       "blindness"
     ],
     "freq": 0,
-    "freq_rank": 2482
+    "freq_rank": 2485
   },
   {
     "word": "nertoe",
@@ -15326,7 +15326,7 @@ const derivedDictionaryData = [
       "resembling carpet"
     ],
     "freq": 0,
-    "freq_rank": 2483
+    "freq_rank": 2486
   },
   {
     "word": "neswye",
@@ -15342,7 +15342,7 @@ const derivedDictionaryData = [
       "-less"
     ],
     "freq": 0,
-    "freq_rank": 2484
+    "freq_rank": 2487
   },
   {
     "word": "netawae",
@@ -15357,7 +15357,7 @@ const derivedDictionaryData = [
       "resembling cornflower"
     ],
     "freq": 0,
-    "freq_rank": 2486
+    "freq_rank": 2489
   },
   {
     "word": "covwue",
@@ -15372,7 +15372,7 @@ const derivedDictionaryData = [
       "repulsed"
     ],
     "freq": 0,
-    "freq_rank": 1619
+    "freq_rank": 1622
   },
   {
     "word": "covwui",
@@ -15386,7 +15386,7 @@ const derivedDictionaryData = [
       "disgust"
     ],
     "freq": 0,
-    "freq_rank": 1620,
+    "freq_rank": 1623,
     "example": {
       "fiwo": "Batap covwui mik.",
       "english": "The food disgusts me."
@@ -15405,7 +15405,7 @@ const derivedDictionaryData = [
       "resembling muscle"
     ],
     "freq": 0,
-    "freq_rank": 2965
+    "freq_rank": 2969
   },
   {
     "word": "nicue",
@@ -15419,7 +15419,7 @@ const derivedDictionaryData = [
       "indebted"
     ],
     "freq": 0,
-    "freq_rank": 2490
+    "freq_rank": 2493
   },
   {
     "word": "nicui",
@@ -15448,7 +15448,7 @@ const derivedDictionaryData = [
       "swallower"
     ],
     "freq": 0,
-    "freq_rank": 2896
+    "freq_rank": 2900
   },
   {
     "word": "nimpoe",
@@ -15463,7 +15463,7 @@ const derivedDictionaryData = [
       "resembling carrot"
     ],
     "freq": 0,
-    "freq_rank": 2492
+    "freq_rank": 2495
   },
   {
     "word": "ninaltui",
@@ -15478,7 +15478,7 @@ const derivedDictionaryData = [
       "levy"
     ],
     "freq": 0,
-    "freq_rank": 2493
+    "freq_rank": 2496
   },
   {
     "word": "niwia",
@@ -15492,7 +15492,7 @@ const derivedDictionaryData = [
       "scraper"
     ],
     "freq": 0,
-    "freq_rank": 2495
+    "freq_rank": 2498
   },
   {
     "word": "nizye",
@@ -15508,7 +15508,7 @@ const derivedDictionaryData = [
       "leading"
     ],
     "freq": 0,
-    "freq_rank": 2496
+    "freq_rank": 2499
   },
   {
     "word": "nizyo",
@@ -15523,7 +15523,7 @@ const derivedDictionaryData = [
       "face"
     ],
     "freq": 0,
-    "freq_rank": 2497
+    "freq_rank": 2500
   },
   {
     "word": "noajue",
@@ -15537,7 +15537,7 @@ const derivedDictionaryData = [
       "functional"
     ],
     "freq": 0,
-    "freq_rank": 2499
+    "freq_rank": 2502
   },
   {
     "word": "nodoglui",
@@ -15552,7 +15552,7 @@ const derivedDictionaryData = [
       "give a gratuity"
     ],
     "freq": 0,
-    "freq_rank": 2500
+    "freq_rank": 2503
   },
   {
     "word": "nofae",
@@ -15567,7 +15567,7 @@ const derivedDictionaryData = [
       "humane"
     ],
     "freq": 0,
-    "freq_rank": 2501
+    "freq_rank": 2504
   },
   {
     "word": "nofau",
@@ -15584,7 +15584,7 @@ const derivedDictionaryData = [
       "personhood"
     ],
     "freq": 1,
-    "freq_rank": 1188
+    "freq_rank": 1190
   },
   {
     "word": "tsejae",
@@ -15599,7 +15599,7 @@ const derivedDictionaryData = [
       "resembling eye"
     ],
     "freq": 0,
-    "freq_rank": 2960
+    "freq_rank": 2964
   },
   {
     "word": "tsejai",
@@ -15628,7 +15628,7 @@ const derivedDictionaryData = [
       "observer"
     ],
     "freq": 0,
-    "freq_rank": 2961
+    "freq_rank": 2965
   },
   {
     "word": "tsejapio",
@@ -15644,7 +15644,7 @@ const derivedDictionaryData = [
       "sensor eye"
     ],
     "freq": 0,
-    "freq_rank": 2962
+    "freq_rank": 2966
   },
   {
     "word": "nokye",
@@ -15660,7 +15660,7 @@ const derivedDictionaryData = [
       "down-facing"
     ],
     "freq": 0,
-    "freq_rank": 2502
+    "freq_rank": 2505
   },
   {
     "word": "nokyi",
@@ -15675,7 +15675,7 @@ const derivedDictionaryData = [
       "go down"
     ],
     "freq": 0,
-    "freq_rank": 2503
+    "freq_rank": 2506
   },
   {
     "word": "nokyo",
@@ -15690,7 +15690,7 @@ const derivedDictionaryData = [
       "base"
     ],
     "freq": 0,
-    "freq_rank": 2504
+    "freq_rank": 2507
   },
   {
     "word": "nokyu",
@@ -15706,7 +15706,7 @@ const derivedDictionaryData = [
       "base"
     ],
     "freq": 0,
-    "freq_rank": 2505
+    "freq_rank": 2508
   },
   {
     "word": "nolfenea",
@@ -15722,7 +15722,7 @@ const derivedDictionaryData = [
       "functionary"
     ],
     "freq": 1,
-    "freq_rank": 1190
+    "freq_rank": 1192
   },
   {
     "word": "nomia",
@@ -15736,7 +15736,7 @@ const derivedDictionaryData = [
       "consumer"
     ],
     "freq": 0,
-    "freq_rank": 2506
+    "freq_rank": 2509
   },
   {
     "word": "nomie",
@@ -15751,7 +15751,7 @@ const derivedDictionaryData = [
       "gluttonous"
     ],
     "freq": 0,
-    "freq_rank": 2507
+    "freq_rank": 2510
   },
   {
     "word": "nomiu",
@@ -15766,7 +15766,7 @@ const derivedDictionaryData = [
       "consumption"
     ],
     "freq": 0,
-    "freq_rank": 2508
+    "freq_rank": 2511
   },
   {
     "word": "noqsae",
@@ -15781,7 +15781,7 @@ const derivedDictionaryData = [
       "resembling man"
     ],
     "freq": 0,
-    "freq_rank": 2509
+    "freq_rank": 2512
   },
   {
     "word": "nosanae",
@@ -15796,7 +15796,7 @@ const derivedDictionaryData = [
       "resembling woman"
     ],
     "freq": 0,
-    "freq_rank": 2510
+    "freq_rank": 2513
   },
   {
     "word": "novue",
@@ -15810,7 +15810,7 @@ const derivedDictionaryData = [
       "conspiratorial"
     ],
     "freq": 0,
-    "freq_rank": 2512
+    "freq_rank": 2515
   },
   {
     "word": "nozei",
@@ -15825,7 +15825,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1192
+    "freq_rank": 1194
   },
   {
     "word": "nudue",
@@ -15839,7 +15839,7 @@ const derivedDictionaryData = [
       "current"
     ],
     "freq": 0,
-    "freq_rank": 2513
+    "freq_rank": 2516
   },
   {
     "word": "nufei",
@@ -15868,7 +15868,7 @@ const derivedDictionaryData = [
       "emptiness"
     ],
     "freq": 0,
-    "freq_rank": 2514
+    "freq_rank": 2517
   },
   {
     "word": "stisue",
@@ -15882,7 +15882,7 @@ const derivedDictionaryData = [
       "procedural"
     ],
     "freq": 0,
-    "freq_rank": 2856
+    "freq_rank": 2859
   },
   {
     "word": "nunulpia",
@@ -15897,7 +15897,7 @@ const derivedDictionaryData = [
       "partner"
     ],
     "freq": 0,
-    "freq_rank": 2515
+    "freq_rank": 2518
   },
   {
     "word": "nunulpiu",
@@ -15912,7 +15912,7 @@ const derivedDictionaryData = [
       "collaboration"
     ],
     "freq": 0,
-    "freq_rank": 2516
+    "freq_rank": 2519
   },
   {
     "word": "nupae",
@@ -15927,7 +15927,7 @@ const derivedDictionaryData = [
       "resembling parent"
     ],
     "freq": 0,
-    "freq_rank": 2517
+    "freq_rank": 2520
   },
   {
     "word": "nupai",
@@ -15942,7 +15942,7 @@ const derivedDictionaryData = [
       "raise"
     ],
     "freq": 0,
-    "freq_rank": 2518
+    "freq_rank": 2521
   },
   {
     "word": "nupau",
@@ -15956,7 +15956,7 @@ const derivedDictionaryData = [
       "parenthood"
     ],
     "freq": 0,
-    "freq_rank": 2519
+    "freq_rank": 2522
   },
   {
     "word": "nusogoe",
@@ -15971,7 +15971,7 @@ const derivedDictionaryData = [
       "resembling sword"
     ],
     "freq": 0,
-    "freq_rank": 2521
+    "freq_rank": 2524
   },
   {
     "word": "nuwykoe",
@@ -15987,7 +15987,7 @@ const derivedDictionaryData = [
       "amethyst-like"
     ],
     "freq": 0,
-    "freq_rank": 2523
+    "freq_rank": 2526
   },
   {
     "word": "nybue",
@@ -16001,7 +16001,7 @@ const derivedDictionaryData = [
       "substantive"
     ],
     "freq": 0,
-    "freq_rank": 2527
+    "freq_rank": 2530
   },
   {
     "word": "nyhogoe",
@@ -16016,7 +16016,7 @@ const derivedDictionaryData = [
       "resembling sentence"
     ],
     "freq": 0,
-    "freq_rank": 2528
+    "freq_rank": 2531
   },
   {
     "word": "nyrsia",
@@ -16030,7 +16030,7 @@ const derivedDictionaryData = [
       "carrier"
     ],
     "freq": 0,
-    "freq_rank": 2529
+    "freq_rank": 2532
   },
   {
     "word": "nytae",
@@ -16045,7 +16045,7 @@ const derivedDictionaryData = [
       "resembling nose"
     ],
     "freq": 0,
-    "freq_rank": 2531
+    "freq_rank": 2534
   },
   {
     "word": "nytai",
@@ -16061,7 +16061,7 @@ const derivedDictionaryData = [
       "to perceive odor"
     ],
     "freq": 1,
-    "freq_rank": 1194
+    "freq_rank": 1196
   },
   {
     "word": "nyvumue",
@@ -16075,7 +16075,7 @@ const derivedDictionaryData = [
       "sunrise"
     ],
     "freq": 0,
-    "freq_rank": 2532
+    "freq_rank": 2535
   },
   {
     "word": "nyxidia",
@@ -16090,7 +16090,7 @@ const derivedDictionaryData = [
       "renter"
     ],
     "freq": 0,
-    "freq_rank": 2533
+    "freq_rank": 2536
   },
   {
     "word": "nyxidiu",
@@ -16105,7 +16105,7 @@ const derivedDictionaryData = [
       "renting"
     ],
     "freq": 0,
-    "freq_rank": 2534
+    "freq_rank": 2537
   },
   {
     "word": "obtae",
@@ -16120,7 +16120,7 @@ const derivedDictionaryData = [
       "resembling ant"
     ],
     "freq": 0,
-    "freq_rank": 2535
+    "freq_rank": 2538
   },
   {
     "word": "ocadua",
@@ -16148,7 +16148,7 @@ const derivedDictionaryData = [
       "scientific"
     ],
     "freq": 0,
-    "freq_rank": 2536
+    "freq_rank": 2539
   },
   {
     "word": "ocfei",
@@ -16178,7 +16178,7 @@ const derivedDictionaryData = [
       "fakeness"
     ],
     "freq": 0,
-    "freq_rank": 2538
+    "freq_rank": 2541
   },
   {
     "word": "snarei",
@@ -16193,7 +16193,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1268
+    "freq_rank": 1270
   },
   {
     "word": "odcanoe",
@@ -16208,7 +16208,7 @@ const derivedDictionaryData = [
       "resembling rope"
     ],
     "freq": 0,
-    "freq_rank": 2539
+    "freq_rank": 2542
   },
   {
     "word": "oegei",
@@ -16223,7 +16223,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1197
+    "freq_rank": 1199
   },
   {
     "word": "oegeu",
@@ -16237,7 +16237,7 @@ const derivedDictionaryData = [
       "secrecy"
     ],
     "freq": 0,
-    "freq_rank": 2541
+    "freq_rank": 2544
   },
   {
     "word": "ofxue",
@@ -16252,7 +16252,7 @@ const derivedDictionaryData = [
       "embarrassed"
     ],
     "freq": 0,
-    "freq_rank": 2542
+    "freq_rank": 2545
   },
   {
     "word": "ogirue",
@@ -16266,7 +16266,7 @@ const derivedDictionaryData = [
       "experiential"
     ],
     "freq": 0,
-    "freq_rank": 2543
+    "freq_rank": 2546
   },
   {
     "word": "ogirui",
@@ -16281,7 +16281,7 @@ const derivedDictionaryData = [
       "undergo"
     ],
     "freq": 0,
-    "freq_rank": 2544
+    "freq_rank": 2547
   },
   {
     "word": "ogzoe",
@@ -16296,7 +16296,7 @@ const derivedDictionaryData = [
       "resembling towel"
     ],
     "freq": 0,
-    "freq_rank": 2545
+    "freq_rank": 2548
   },
   {
     "word": "ojesei",
@@ -16311,7 +16311,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1199
+    "freq_rank": 1201
   },
   {
     "word": "ojeseu",
@@ -16326,7 +16326,7 @@ const derivedDictionaryData = [
       "rareness"
     ],
     "freq": 0,
-    "freq_rank": 2547
+    "freq_rank": 2550
   },
   {
     "word": "okezue",
@@ -16340,7 +16340,7 @@ const derivedDictionaryData = [
       "deceitful"
     ],
     "freq": 0,
-    "freq_rank": 2548
+    "freq_rank": 2551
   },
   {
     "word": "oksei",
@@ -16369,7 +16369,7 @@ const derivedDictionaryData = [
       "wrongness"
     ],
     "freq": 0,
-    "freq_rank": 2549
+    "freq_rank": 2552
   },
   {
     "word": "olifua",
@@ -16383,7 +16383,7 @@ const derivedDictionaryData = [
       "researcher"
     ],
     "freq": 0,
-    "freq_rank": 2550
+    "freq_rank": 2553
   },
   {
     "word": "olifue",
@@ -16397,7 +16397,7 @@ const derivedDictionaryData = [
       "scholarly"
     ],
     "freq": 0,
-    "freq_rank": 2551
+    "freq_rank": 2554
   },
   {
     "word": "olkenkoe",
@@ -16412,7 +16412,7 @@ const derivedDictionaryData = [
       "resembling emblem"
     ],
     "freq": 0,
-    "freq_rank": 2553
+    "freq_rank": 2556
   },
   {
     "word": "ombia",
@@ -16426,7 +16426,7 @@ const derivedDictionaryData = [
       "sender"
     ],
     "freq": 0,
-    "freq_rank": 2554
+    "freq_rank": 2557
   },
   {
     "word": "onasia",
@@ -16442,7 +16442,7 @@ const derivedDictionaryData = [
       "cultivator"
     ],
     "freq": 0,
-    "freq_rank": 2555
+    "freq_rank": 2558
   },
   {
     "word": "onasie",
@@ -16458,7 +16458,7 @@ const derivedDictionaryData = [
       "tilled"
     ],
     "freq": 0,
-    "freq_rank": 2556
+    "freq_rank": 2559
   },
   {
     "word": "onexei",
@@ -16473,7 +16473,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2557
+    "freq_rank": 2560
   },
   {
     "word": "ongue",
@@ -16487,7 +16487,7 @@ const derivedDictionaryData = [
       "treacherous"
     ],
     "freq": 0,
-    "freq_rank": 2559
+    "freq_rank": 2562
   },
   {
     "word": "onlia",
@@ -16501,7 +16501,7 @@ const derivedDictionaryData = [
       "rubber"
     ],
     "freq": 0,
-    "freq_rank": 2561
+    "freq_rank": 2564
   },
   {
     "word": "opcoria",
@@ -16515,7 +16515,7 @@ const derivedDictionaryData = [
       "stirrer"
     ],
     "freq": 0,
-    "freq_rank": 2563
+    "freq_rank": 2566
   },
   {
     "word": "opdia",
@@ -16529,7 +16529,7 @@ const derivedDictionaryData = [
       "whisperer"
     ],
     "freq": 0,
-    "freq_rank": 2564
+    "freq_rank": 2567
   },
   {
     "word": "opowoe",
@@ -16544,7 +16544,7 @@ const derivedDictionaryData = [
       "resembling bulb"
     ],
     "freq": 0,
-    "freq_rank": 2566
+    "freq_rank": 2569
   },
   {
     "word": "oqawae",
@@ -16560,7 +16560,7 @@ const derivedDictionaryData = [
       "spore-like"
     ],
     "freq": 0,
-    "freq_rank": 2569
+    "freq_rank": 2572
   },
   {
     "word": "oqoe",
@@ -16575,7 +16575,7 @@ const derivedDictionaryData = [
       "resembling ticket"
     ],
     "freq": 0,
-    "freq_rank": 2570
+    "freq_rank": 2573
   },
   {
     "word": "fliria",
@@ -16589,7 +16589,7 @@ const derivedDictionaryData = [
       "stir-frier"
     ],
     "freq": 0,
-    "freq_rank": 1852
+    "freq_rank": 1854
   },
   {
     "word": "orkue",
@@ -16603,7 +16603,7 @@ const derivedDictionaryData = [
       "graded"
     ],
     "freq": 0,
-    "freq_rank": 2572
+    "freq_rank": 2575
   },
   {
     "word": "putpei",
@@ -16634,7 +16634,7 @@ const derivedDictionaryData = [
       "venom"
     ],
     "freq": 1,
-    "freq_rank": 1236
+    "freq_rank": 1238
   },
   {
     "word": "putpeu",
@@ -16649,7 +16649,7 @@ const derivedDictionaryData = [
       "poisonousness"
     ],
     "freq": 0,
-    "freq_rank": 2670
+    "freq_rank": 2673
   },
   {
     "word": "osajue",
@@ -16663,7 +16663,7 @@ const derivedDictionaryData = [
       "western"
     ],
     "freq": 0,
-    "freq_rank": 2574
+    "freq_rank": 2577
   },
   {
     "word": "ostue",
@@ -16677,7 +16677,7 @@ const derivedDictionaryData = [
       "eastern"
     ],
     "freq": 1,
-    "freq_rank": 1203
+    "freq_rank": 1205
   },
   {
     "word": "oswyploe",
@@ -16693,7 +16693,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2575
+    "freq_rank": 2578
   },
   {
     "word": "otania",
@@ -16707,7 +16707,7 @@ const derivedDictionaryData = [
       "cook"
     ],
     "freq": 0,
-    "freq_rank": 2576
+    "freq_rank": 2579
   },
   {
     "word": "otmae",
@@ -16752,7 +16752,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2577
+    "freq_rank": 2580
   },
   {
     "word": "otsinoe",
@@ -16768,7 +16768,7 @@ const derivedDictionaryData = [
       "threaded"
     ],
     "freq": 0,
-    "freq_rank": 2578
+    "freq_rank": 2581
   },
   {
     "word": "ouzue",
@@ -16782,7 +16782,7 @@ const derivedDictionaryData = [
       "merciful"
     ],
     "freq": 0,
-    "freq_rank": 2579
+    "freq_rank": 2582
   },
   {
     "word": "ovcei",
@@ -16797,7 +16797,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2580
+    "freq_rank": 2583
   },
   {
     "word": "ovpae",
@@ -16812,7 +16812,7 @@ const derivedDictionaryData = [
       "resembling neck"
     ],
     "freq": 0,
-    "freq_rank": 2582
+    "freq_rank": 2585
   },
   {
     "word": "ovroe",
@@ -16827,7 +16827,7 @@ const derivedDictionaryData = [
       "resembling fork"
     ],
     "freq": 0,
-    "freq_rank": 2583
+    "freq_rank": 2586
   },
   {
     "word": "owadia",
@@ -16841,7 +16841,7 @@ const derivedDictionaryData = [
       "spender"
     ],
     "freq": 0,
-    "freq_rank": 2584
+    "freq_rank": 2587
   },
   {
     "word": "snecue",
@@ -16855,7 +16855,7 @@ const derivedDictionaryData = [
       "project-based"
     ],
     "freq": 0,
-    "freq_rank": 2817
+    "freq_rank": 2820
   },
   {
     "word": "snefie",
@@ -16870,7 +16870,7 @@ const derivedDictionaryData = [
       "smiley"
     ],
     "freq": 0,
-    "freq_rank": 2818
+    "freq_rank": 2821
   },
   {
     "word": "snefiu",
@@ -16884,7 +16884,7 @@ const derivedDictionaryData = [
       "smile"
     ],
     "freq": 0,
-    "freq_rank": 2819
+    "freq_rank": 2822
   },
   {
     "word": "oxnoe",
@@ -16899,7 +16899,7 @@ const derivedDictionaryData = [
       "resembling wallet"
     ],
     "freq": 0,
-    "freq_rank": 2585
+    "freq_rank": 2588
   },
   {
     "word": "oxopia",
@@ -16913,7 +16913,7 @@ const derivedDictionaryData = [
       "organizer"
     ],
     "freq": 0,
-    "freq_rank": 2587
+    "freq_rank": 2590
   },
   {
     "word": "oxtia",
@@ -16945,7 +16945,7 @@ const derivedDictionaryData = [
       "guarded"
     ],
     "freq": 0,
-    "freq_rank": 2588
+    "freq_rank": 2591
   },
   {
     "word": "ozepia",
@@ -16959,7 +16959,7 @@ const derivedDictionaryData = [
       "wisher"
     ],
     "freq": 0,
-    "freq_rank": 2590
+    "freq_rank": 2593
   },
   {
     "word": "ozepiu",
@@ -16974,7 +16974,7 @@ const derivedDictionaryData = [
       "desire"
     ],
     "freq": 0,
-    "freq_rank": 2591
+    "freq_rank": 2594
   },
   {
     "word": "ozoxia",
@@ -16988,7 +16988,7 @@ const derivedDictionaryData = [
       "occupant"
     ],
     "freq": 0,
-    "freq_rank": 2593
+    "freq_rank": 2596
   },
   {
     "word": "pabicia",
@@ -17002,7 +17002,7 @@ const derivedDictionaryData = [
       "analyst"
     ],
     "freq": 0,
-    "freq_rank": 2594
+    "freq_rank": 2597
   },
   {
     "word": "pabiciu",
@@ -17016,7 +17016,7 @@ const derivedDictionaryData = [
       "analysis"
     ],
     "freq": 0,
-    "freq_rank": 2595
+    "freq_rank": 2598
   },
   {
     "word": "padhia",
@@ -17031,7 +17031,7 @@ const derivedDictionaryData = [
       "offender"
     ],
     "freq": 0,
-    "freq_rank": 2596
+    "freq_rank": 2599
   },
   {
     "word": "padhiu",
@@ -17046,7 +17046,7 @@ const derivedDictionaryData = [
       "breach"
     ],
     "freq": 0,
-    "freq_rank": 2597
+    "freq_rank": 2600
   },
   {
     "word": "paduproe",
@@ -17062,7 +17062,7 @@ const derivedDictionaryData = [
       "lava-filled"
     ],
     "freq": 0,
-    "freq_rank": 2599
+    "freq_rank": 2602
   },
   {
     "word": "paeloe",
@@ -17077,7 +17077,7 @@ const derivedDictionaryData = [
       "resembling paper"
     ],
     "freq": 0,
-    "freq_rank": 2600
+    "freq_rank": 2603
   },
   {
     "word": "pagaria",
@@ -17091,7 +17091,7 @@ const derivedDictionaryData = [
       "payer"
     ],
     "freq": 0,
-    "freq_rank": 2601
+    "freq_rank": 2604
   },
   {
     "word": "pagario",
@@ -17105,7 +17105,7 @@ const derivedDictionaryData = [
       "payment"
     ],
     "freq": 0,
-    "freq_rank": 2602
+    "freq_rank": 2605
   },
   {
     "word": "pajae",
@@ -17120,7 +17120,7 @@ const derivedDictionaryData = [
       "resembling uncle"
     ],
     "freq": 0,
-    "freq_rank": 2603
+    "freq_rank": 2606
   },
   {
     "word": "pampigiu",
@@ -17136,7 +17136,7 @@ const derivedDictionaryData = [
       "intent"
     ],
     "freq": 0,
-    "freq_rank": 2605
+    "freq_rank": 2608
   },
   {
     "word": "pamue",
@@ -17152,7 +17152,7 @@ const derivedDictionaryData = [
       "sore"
     ],
     "freq": 1,
-    "freq_rank": 1211
+    "freq_rank": 1213
   },
   {
     "word": "pamui",
@@ -17183,7 +17183,7 @@ const derivedDictionaryData = [
       "for books"
     ],
     "freq": 1,
-    "freq_rank": 1185
+    "freq_rank": 1187
   },
   {
     "word": "nibou",
@@ -17197,7 +17197,7 @@ const derivedDictionaryData = [
       "literature"
     ],
     "freq": 0,
-    "freq_rank": 2489
+    "freq_rank": 2492
   },
   {
     "word": "parawue",
@@ -17211,7 +17211,7 @@ const derivedDictionaryData = [
       "traditional"
     ],
     "freq": 0,
-    "freq_rank": 2606
+    "freq_rank": 2609
   },
   {
     "word": "parye",
@@ -17241,7 +17241,7 @@ const derivedDictionaryData = [
       "go before"
     ],
     "freq": 0,
-    "freq_rank": 2607
+    "freq_rank": 2610
   },
   {
     "word": "paswua",
@@ -17255,7 +17255,7 @@ const derivedDictionaryData = [
       "historian"
     ],
     "freq": 0,
-    "freq_rank": 2608
+    "freq_rank": 2611
   },
   {
     "word": "paswue",
@@ -17269,7 +17269,7 @@ const derivedDictionaryData = [
       "historical"
     ],
     "freq": 1,
-    "freq_rank": 1215
+    "freq_rank": 1217
   },
   {
     "word": "plebei",
@@ -17299,7 +17299,7 @@ const derivedDictionaryData = [
       "umami"
     ],
     "freq": 0,
-    "freq_rank": 2640
+    "freq_rank": 2643
   },
   {
     "word": "paulia",
@@ -17313,7 +17313,7 @@ const derivedDictionaryData = [
       "feeler"
     ],
     "freq": 0,
-    "freq_rank": 2609
+    "freq_rank": 2612
   },
   {
     "word": "lezue",
@@ -17327,7 +17327,7 @@ const derivedDictionaryData = [
       "pleasant"
     ],
     "freq": 0,
-    "freq_rank": 2317
+    "freq_rank": 2320
   },
   {
     "word": "lezui",
@@ -17341,7 +17341,7 @@ const derivedDictionaryData = [
       "enjoy"
     ],
     "freq": 0,
-    "freq_rank": 2318
+    "freq_rank": 2321
   },
   {
     "word": "pebae",
@@ -17356,7 +17356,7 @@ const derivedDictionaryData = [
       "resembling father"
     ],
     "freq": 0,
-    "freq_rank": 2611
+    "freq_rank": 2614
   },
   {
     "word": "pebau",
@@ -17370,7 +17370,7 @@ const derivedDictionaryData = [
       "fatherhood"
     ],
     "freq": 0,
-    "freq_rank": 2612
+    "freq_rank": 2615
   },
   {
     "word": "pedue",
@@ -17384,7 +17384,7 @@ const derivedDictionaryData = [
       "powerful"
     ],
     "freq": 0,
-    "freq_rank": 2613
+    "freq_rank": 2616
   },
   {
     "word": "pegia",
@@ -17398,7 +17398,7 @@ const derivedDictionaryData = [
       "folder"
     ],
     "freq": 0,
-    "freq_rank": 2615
+    "freq_rank": 2618
   },
   {
     "word": "sicwue",
@@ -17412,7 +17412,7 @@ const derivedDictionaryData = [
       "revolutionary"
     ],
     "freq": 0,
-    "freq_rank": 2773
+    "freq_rank": 2776
   },
   {
     "word": "skejue",
@@ -17426,7 +17426,7 @@ const derivedDictionaryData = [
       "sonic"
     ],
     "freq": 0,
-    "freq_rank": 2788
+    "freq_rank": 2791
   },
   {
     "word": "skejui",
@@ -17455,7 +17455,7 @@ const derivedDictionaryData = [
       "spender"
     ],
     "freq": 0,
-    "freq_rank": 2616
+    "freq_rank": 2619
   },
   {
     "word": "peteswiu",
@@ -17470,7 +17470,7 @@ const derivedDictionaryData = [
       "expenditure"
     ],
     "freq": 0,
-    "freq_rank": 2617
+    "freq_rank": 2620
   },
   {
     "word": "pezei",
@@ -17485,7 +17485,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2620
+    "freq_rank": 2623
   },
   {
     "word": "picaloe",
@@ -17500,7 +17500,7 @@ const derivedDictionaryData = [
       "resembling hospital"
     ],
     "freq": 0,
-    "freq_rank": 2621
+    "freq_rank": 2624
   },
   {
     "word": "pijia",
@@ -17514,7 +17514,7 @@ const derivedDictionaryData = [
       "warner"
     ],
     "freq": 0,
-    "freq_rank": 2622
+    "freq_rank": 2625
   },
   {
     "word": "pilkei",
@@ -17544,7 +17544,7 @@ const derivedDictionaryData = [
       "aliveness"
     ],
     "freq": 0,
-    "freq_rank": 2623
+    "freq_rank": 2626
   },
   {
     "word": "pimpefei",
@@ -17559,7 +17559,7 @@ const derivedDictionaryData = [
       "be accessible"
     ],
     "freq": 1,
-    "freq_rank": 1220
+    "freq_rank": 1222
   },
   {
     "word": "pimpefeu",
@@ -17573,7 +17573,7 @@ const derivedDictionaryData = [
       "availability"
     ],
     "freq": 0,
-    "freq_rank": 2625
+    "freq_rank": 2628
   },
   {
     "word": "pinye",
@@ -17588,7 +17588,7 @@ const derivedDictionaryData = [
       "alike"
     ],
     "freq": 0,
-    "freq_rank": 2626
+    "freq_rank": 2629
   },
   {
     "word": "pwefei",
@@ -17617,7 +17617,7 @@ const derivedDictionaryData = [
       "sourness"
     ],
     "freq": 0,
-    "freq_rank": 2674
+    "freq_rank": 2677
   },
   {
     "word": "pwosae",
@@ -17632,7 +17632,7 @@ const derivedDictionaryData = [
       "resembling tooth"
     ],
     "freq": 0,
-    "freq_rank": 2675
+    "freq_rank": 2678
   },
   {
     "word": "pwosai",
@@ -17648,7 +17648,7 @@ const derivedDictionaryData = [
       "to chomp"
     ],
     "freq": 1,
-    "freq_rank": 1239
+    "freq_rank": 1241
   },
   {
     "word": "pizue",
@@ -17663,7 +17663,7 @@ const derivedDictionaryData = [
       "culpable"
     ],
     "freq": 0,
-    "freq_rank": 2634
+    "freq_rank": 2637
   },
   {
     "word": "plahoe",
@@ -17678,7 +17678,7 @@ const derivedDictionaryData = [
       "resembling lock"
     ],
     "freq": 0,
-    "freq_rank": 2638
+    "freq_rank": 2641
   },
   {
     "word": "plahoi",
@@ -17707,7 +17707,7 @@ const derivedDictionaryData = [
       "arriver"
     ],
     "freq": 0,
-    "freq_rank": 1536
+    "freq_rank": 1538
   },
   {
     "word": "breniu",
@@ -17750,7 +17750,7 @@ const derivedDictionaryData = [
       "monetary"
     ],
     "freq": 0,
-    "freq_rank": 2642
+    "freq_rank": 2645
   },
   {
     "word": "plolsoi",
@@ -17778,7 +17778,7 @@ const derivedDictionaryData = [
       "the abstract concept of monetary value"
     ],
     "freq": 0,
-    "freq_rank": 2643
+    "freq_rank": 2646
   },
   {
     "word": "pluratae",
@@ -17793,7 +17793,7 @@ const derivedDictionaryData = [
       "resembling berry"
     ],
     "freq": 0,
-    "freq_rank": 2645
+    "freq_rank": 2648
   },
   {
     "word": "pobrei",
@@ -17808,7 +17808,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1224
+    "freq_rank": 1226
   },
   {
     "word": "pobreu",
@@ -17822,7 +17822,7 @@ const derivedDictionaryData = [
       "poverty"
     ],
     "freq": 0,
-    "freq_rank": 2646
+    "freq_rank": 2649
   },
   {
     "word": "pogafue",
@@ -17839,7 +17839,7 @@ const derivedDictionaryData = [
       "tranquil"
     ],
     "freq": 0,
-    "freq_rank": 2647
+    "freq_rank": 2650
   },
   {
     "word": "pogafui",
@@ -17854,7 +17854,7 @@ const derivedDictionaryData = [
       "to make peace"
     ],
     "freq": 1,
-    "freq_rank": 1225
+    "freq_rank": 1227
   },
   {
     "word": "xesae",
@@ -17869,7 +17869,7 @@ const derivedDictionaryData = [
       "resembling hair"
     ],
     "freq": 0,
-    "freq_rank": 3178
+    "freq_rank": 3182
   },
   {
     "word": "xesao",
@@ -17883,7 +17883,7 @@ const derivedDictionaryData = [
       "wig"
     ],
     "freq": 0,
-    "freq_rank": 3179
+    "freq_rank": 3183
   },
   {
     "word": "ponxae",
@@ -17898,7 +17898,7 @@ const derivedDictionaryData = [
       "resembling virus"
     ],
     "freq": 0,
-    "freq_rank": 2649
+    "freq_rank": 2652
   },
   {
     "word": "popepei",
@@ -17913,7 +17913,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2651
+    "freq_rank": 2654
   },
   {
     "word": "popepeu",
@@ -17927,7 +17927,7 @@ const derivedDictionaryData = [
       "coolness"
     ],
     "freq": 0,
-    "freq_rank": 2652
+    "freq_rank": 2655
   },
   {
     "word": "porcei",
@@ -17957,7 +17957,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2655
+    "freq_rank": 2658
   },
   {
     "word": "pozia",
@@ -17971,7 +17971,7 @@ const derivedDictionaryData = [
       "thinker"
     ],
     "freq": 0,
-    "freq_rank": 2657
+    "freq_rank": 2660
   },
   {
     "word": "poziu",
@@ -18002,7 +18002,7 @@ const derivedDictionaryData = [
       "dreamy"
     ],
     "freq": 0,
-    "freq_rank": 2659
+    "freq_rank": 2662
   },
   {
     "word": "pozmui",
@@ -18016,7 +18016,7 @@ const derivedDictionaryData = [
       "to dream"
     ],
     "freq": 1,
-    "freq_rank": 1229
+    "freq_rank": 1231
   },
   {
     "word": "prazae",
@@ -18032,7 +18032,7 @@ const derivedDictionaryData = [
       "kelp-like"
     ],
     "freq": 0,
-    "freq_rank": 2661
+    "freq_rank": 2664
   },
   {
     "word": "dzadoe",
@@ -18047,7 +18047,7 @@ const derivedDictionaryData = [
       "resembling beetroot"
     ],
     "freq": 0,
-    "freq_rank": 1723
+    "freq_rank": 1726
   },
   {
     "word": "pujypae",
@@ -18062,7 +18062,7 @@ const derivedDictionaryData = [
       "resembling heel"
     ],
     "freq": 0,
-    "freq_rank": 2666
+    "freq_rank": 2669
   },
   {
     "word": "punkokui",
@@ -18077,7 +18077,7 @@ const derivedDictionaryData = [
       "put on trial"
     ],
     "freq": 1,
-    "freq_rank": 1232
+    "freq_rank": 1234
   },
   {
     "word": "purue",
@@ -18092,7 +18092,7 @@ const derivedDictionaryData = [
       "inquisitive"
     ],
     "freq": 0,
-    "freq_rank": 2668
+    "freq_rank": 2671
   },
   {
     "word": "pusnapoi",
@@ -18106,7 +18106,7 @@ const derivedDictionaryData = [
       "print"
     ],
     "freq": 0,
-    "freq_rank": 2669
+    "freq_rank": 2672
   },
   {
     "word": "spocei",
@@ -18135,7 +18135,7 @@ const derivedDictionaryData = [
       "cheapness"
     ],
     "freq": 0,
-    "freq_rank": 2841
+    "freq_rank": 2844
   },
   {
     "word": "puxae",
@@ -18150,7 +18150,7 @@ const derivedDictionaryData = [
       "resembling pig"
     ],
     "freq": 0,
-    "freq_rank": 2672
+    "freq_rank": 2675
   },
   {
     "word": "pyboe",
@@ -18165,7 +18165,7 @@ const derivedDictionaryData = [
       "resembling candle"
     ],
     "freq": 0,
-    "freq_rank": 2676
+    "freq_rank": 2679
   },
   {
     "word": "pydrae",
@@ -18181,7 +18181,7 @@ const derivedDictionaryData = [
       "jungle-wood"
     ],
     "freq": 0,
-    "freq_rank": 2678
+    "freq_rank": 2681
   },
   {
     "word": "pyhae",
@@ -18196,7 +18196,7 @@ const derivedDictionaryData = [
       "resembling knee"
     ],
     "freq": 0,
-    "freq_rank": 2679
+    "freq_rank": 2682
   },
   {
     "word": "pyjue",
@@ -18210,7 +18210,7 @@ const derivedDictionaryData = [
       "chaotic"
     ],
     "freq": 0,
-    "freq_rank": 2680
+    "freq_rank": 2683
   },
   {
     "word": "pyqei",
@@ -18225,7 +18225,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1241
+    "freq_rank": 1243
   },
   {
     "word": "pyqeu",
@@ -18239,7 +18239,7 @@ const derivedDictionaryData = [
       "rudeness"
     ],
     "freq": 0,
-    "freq_rank": 2682
+    "freq_rank": 2685
   },
   {
     "word": "pytsoe",
@@ -18254,7 +18254,7 @@ const derivedDictionaryData = [
       "resembling rod"
     ],
     "freq": 0,
-    "freq_rank": 2684
+    "freq_rank": 2687
   },
   {
     "word": "pywia",
@@ -18268,7 +18268,7 @@ const derivedDictionaryData = [
       "listener"
     ],
     "freq": 1,
-    "freq_rank": 1242
+    "freq_rank": 1244
   },
   {
     "word": "ragoe",
@@ -18283,7 +18283,7 @@ const derivedDictionaryData = [
       "resembling roof"
     ],
     "freq": 0,
-    "freq_rank": 2685
+    "freq_rank": 2688
   },
   {
     "word": "rajedue",
@@ -18297,7 +18297,7 @@ const derivedDictionaryData = [
       "friday"
     ],
     "freq": 0,
-    "freq_rank": 2686
+    "freq_rank": 2689
   },
   {
     "word": "rajei",
@@ -18312,7 +18312,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2687
+    "freq_rank": 2690
   },
   {
     "word": "ramei",
@@ -18327,7 +18327,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2688
+    "freq_rank": 2691
   },
   {
     "word": "ratsei",
@@ -18374,7 +18374,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1243
+    "freq_rank": 1245
   },
   {
     "word": "raureu",
@@ -18388,7 +18388,7 @@ const derivedDictionaryData = [
       "ugliness"
     ],
     "freq": 0,
-    "freq_rank": 2691
+    "freq_rank": 2694
   },
   {
     "word": "kigue",
@@ -18402,7 +18402,7 @@ const derivedDictionaryData = [
       "cultural"
     ],
     "freq": 0,
-    "freq_rank": 2224
+    "freq_rank": 2227
   },
   {
     "word": "reakue",
@@ -18416,7 +18416,7 @@ const derivedDictionaryData = [
       "theoretical"
     ],
     "freq": 0,
-    "freq_rank": 2695
+    "freq_rank": 2698
   },
   {
     "word": "reduslue",
@@ -18431,7 +18431,7 @@ const derivedDictionaryData = [
       "stylistic"
     ],
     "freq": 0,
-    "freq_rank": 2696
+    "freq_rank": 2699
   },
   {
     "word": "refoe",
@@ -18446,7 +18446,7 @@ const derivedDictionaryData = [
       "resembling coffee"
     ],
     "freq": 0,
-    "freq_rank": 2697
+    "freq_rank": 2700
   },
   {
     "word": "relxue",
@@ -18460,7 +18460,7 @@ const derivedDictionaryData = [
       "relational"
     ],
     "freq": 0,
-    "freq_rank": 2702
+    "freq_rank": 2705
   },
   {
     "word": "reslihia",
@@ -18474,7 +18474,7 @@ const derivedDictionaryData = [
       "hater"
     ],
     "freq": 0,
-    "freq_rank": 2705
+    "freq_rank": 2708
   },
   {
     "word": "reslihie",
@@ -18489,7 +18489,7 @@ const derivedDictionaryData = [
       "hateful"
     ],
     "freq": 0,
-    "freq_rank": 2706
+    "freq_rank": 2709
   },
   {
     "word": "resnoe",
@@ -18505,7 +18505,7 @@ const derivedDictionaryData = [
       "fletched"
     ],
     "freq": 0,
-    "freq_rank": 2707
+    "freq_rank": 2710
   },
   {
     "word": "retadue",
@@ -18519,7 +18519,7 @@ const derivedDictionaryData = [
       "weekly"
     ],
     "freq": 0,
-    "freq_rank": 2708
+    "freq_rank": 2711
   },
   {
     "word": "pruredue",
@@ -18533,7 +18533,7 @@ const derivedDictionaryData = [
       "sunday"
     ],
     "freq": 0,
-    "freq_rank": 2662
+    "freq_rank": 2665
   },
   {
     "word": "prurei",
@@ -18548,7 +18548,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2663
+    "freq_rank": 2666
   },
   {
     "word": "retibiu",
@@ -18563,7 +18563,7 @@ const derivedDictionaryData = [
       "homecoming"
     ],
     "freq": 1,
-    "freq_rank": 1248
+    "freq_rank": 1250
   },
   {
     "word": "rewye",
@@ -18579,7 +18579,7 @@ const derivedDictionaryData = [
       "remote"
     ],
     "freq": 0,
-    "freq_rank": 2709
+    "freq_rank": 2712
   },
   {
     "word": "rewyei",
@@ -18594,7 +18594,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Preposition -> Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1249
+    "freq_rank": 1251
   },
   {
     "word": "rewyu",
@@ -18610,7 +18610,7 @@ const derivedDictionaryData = [
       "range"
     ],
     "freq": 0,
-    "freq_rank": 2710
+    "freq_rank": 2713
   },
   {
     "word": "rezae",
@@ -18625,7 +18625,7 @@ const derivedDictionaryData = [
       "resembling president"
     ],
     "freq": 0,
-    "freq_rank": 2711
+    "freq_rank": 2714
   },
   {
     "word": "ricodoa",
@@ -18639,7 +18639,7 @@ const derivedDictionaryData = [
       "miner"
     ],
     "freq": 0,
-    "freq_rank": 2713
+    "freq_rank": 2716
   },
   {
     "word": "ricodoe",
@@ -18654,7 +18654,7 @@ const derivedDictionaryData = [
       "resembling ore"
     ],
     "freq": 0,
-    "freq_rank": 2714
+    "freq_rank": 2717
   },
   {
     "word": "ricodou",
@@ -18668,7 +18668,7 @@ const derivedDictionaryData = [
       "mining"
     ],
     "freq": 0,
-    "freq_rank": 2715
+    "freq_rank": 2718
   },
   {
     "word": "rinkawae",
@@ -18684,7 +18684,7 @@ const derivedDictionaryData = [
       "of a skull"
     ],
     "freq": 0,
-    "freq_rank": 2718
+    "freq_rank": 2721
   },
   {
     "word": "rintei",
@@ -18713,7 +18713,7 @@ const derivedDictionaryData = [
       "richness"
     ],
     "freq": 0,
-    "freq_rank": 2720
+    "freq_rank": 2723
   },
   {
     "word": "dwasue",
@@ -18727,7 +18727,7 @@ const derivedDictionaryData = [
       "wealthy"
     ],
     "freq": 0,
-    "freq_rank": 1712
+    "freq_rank": 1715
   },
   {
     "word": "ripei",
@@ -18772,7 +18772,7 @@ const derivedDictionaryData = [
       "resembling keyboard"
     ],
     "freq": 0,
-    "freq_rank": 2722
+    "freq_rank": 2725
   },
   {
     "word": "riqoi",
@@ -18786,7 +18786,7 @@ const derivedDictionaryData = [
       "type"
     ],
     "freq": 0,
-    "freq_rank": 2723
+    "freq_rank": 2726
   },
   {
     "word": "rivahei",
@@ -18801,7 +18801,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2724
+    "freq_rank": 2727
   },
   {
     "word": "riwifrei",
@@ -18816,7 +18816,7 @@ const derivedDictionaryData = [
       "become insolvent"
     ],
     "freq": 1,
-    "freq_rank": 1250
+    "freq_rank": 1252
   },
   {
     "word": "riwifreu",
@@ -18831,7 +18831,7 @@ const derivedDictionaryData = [
       "insolvency"
     ],
     "freq": 0,
-    "freq_rank": 2726
+    "freq_rank": 2729
   },
   {
     "word": "rizia",
@@ -18845,7 +18845,7 @@ const derivedDictionaryData = [
       "riser"
     ],
     "freq": 0,
-    "freq_rank": 2727
+    "freq_rank": 2730
   },
   {
     "word": "fwikei",
@@ -18874,7 +18874,7 @@ const derivedDictionaryData = [
       "slowness"
     ],
     "freq": 1,
-    "freq_rank": 1049
+    "freq_rank": 1050
   },
   {
     "word": "rodipei",
@@ -18903,7 +18903,7 @@ const derivedDictionaryData = [
       "thirst"
     ],
     "freq": 0,
-    "freq_rank": 2729
+    "freq_rank": 2732
   },
   {
     "word": "trivei",
@@ -18949,7 +18949,7 @@ const derivedDictionaryData = [
       "inject"
     ],
     "freq": 0,
-    "freq_rank": 2732
+    "freq_rank": 2735
   },
   {
     "word": "rokue",
@@ -18977,7 +18977,7 @@ const derivedDictionaryData = [
       "drinker"
     ],
     "freq": 0,
-    "freq_rank": 2733
+    "freq_rank": 2736
   },
   {
     "word": "romvei",
@@ -18992,7 +18992,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2734
+    "freq_rank": 2737
   },
   {
     "word": "roqtei",
@@ -19007,7 +19007,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1251
+    "freq_rank": 1253
   },
   {
     "word": "roqteu",
@@ -19022,7 +19022,7 @@ const derivedDictionaryData = [
       "gravity"
     ],
     "freq": 0,
-    "freq_rank": 2736
+    "freq_rank": 2739
   },
   {
     "word": "rowei",
@@ -19067,7 +19067,7 @@ const derivedDictionaryData = [
       "resembling dandelion"
     ],
     "freq": 0,
-    "freq_rank": 2739
+    "freq_rank": 2742
   },
   {
     "word": "rubidroi",
@@ -19082,7 +19082,7 @@ const derivedDictionaryData = [
       "connect"
     ],
     "freq": 0,
-    "freq_rank": 2740
+    "freq_rank": 2743
   },
   {
     "word": "tabwia",
@@ -19096,7 +19096,7 @@ const derivedDictionaryData = [
       "leader"
     ],
     "freq": 0,
-    "freq_rank": 2894
+    "freq_rank": 2898
   },
   {
     "word": "pughei",
@@ -19111,7 +19111,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1231
+    "freq_rank": 1233
   },
   {
     "word": "pugheu",
@@ -19125,7 +19125,7 @@ const derivedDictionaryData = [
       "roughness"
     ],
     "freq": 0,
-    "freq_rank": 2664
+    "freq_rank": 2667
   },
   {
     "word": "rufocoe",
@@ -19140,7 +19140,7 @@ const derivedDictionaryData = [
       "resembling anchor"
     ],
     "freq": 0,
-    "freq_rank": 2742
+    "freq_rank": 2745
   },
   {
     "word": "rufocoi",
@@ -19155,7 +19155,7 @@ const derivedDictionaryData = [
       "moor"
     ],
     "freq": 0,
-    "freq_rank": 2743
+    "freq_rank": 2746
   },
   {
     "word": "rugoxue",
@@ -19169,7 +19169,7 @@ const derivedDictionaryData = [
       "monthly"
     ],
     "freq": 0,
-    "freq_rank": 2744
+    "freq_rank": 2747
   },
   {
     "word": "rukojoe",
@@ -19184,7 +19184,7 @@ const derivedDictionaryData = [
       "resembling vein"
     ],
     "freq": 0,
-    "freq_rank": 2746
+    "freq_rank": 2749
   },
   {
     "word": "rumatrui",
@@ -19199,7 +19199,7 @@ const derivedDictionaryData = [
       "give testimony"
     ],
     "freq": 1,
-    "freq_rank": 1253
+    "freq_rank": 1255
   },
   {
     "word": "runefrei",
@@ -19214,7 +19214,7 @@ const derivedDictionaryData = [
       "be inactive"
     ],
     "freq": 1,
-    "freq_rank": 1254
+    "freq_rank": 1256
   },
   {
     "word": "pivmei",
@@ -19243,7 +19243,7 @@ const derivedDictionaryData = [
       "sharpness"
     ],
     "freq": 0,
-    "freq_rank": 2631
+    "freq_rank": 2634
   },
   {
     "word": "ruwia",
@@ -19257,7 +19257,7 @@ const derivedDictionaryData = [
       "roller"
     ],
     "freq": 0,
-    "freq_rank": 2749
+    "freq_rank": 2752
   },
   {
     "word": "ruxigiu",
@@ -19272,7 +19272,7 @@ const derivedDictionaryData = [
       "sign"
     ],
     "freq": 0,
-    "freq_rank": 2750
+    "freq_rank": 2753
   },
   {
     "word": "ruzei",
@@ -19304,7 +19304,7 @@ const derivedDictionaryData = [
       "pace"
     ],
     "freq": 0,
-    "freq_rank": 2751
+    "freq_rank": 2754
   },
   {
     "word": "ryjie",
@@ -19319,7 +19319,7 @@ const derivedDictionaryData = [
       "absorbent"
     ],
     "freq": 0,
-    "freq_rank": 2753
+    "freq_rank": 2756
   },
   {
     "word": "ryjiu",
@@ -19333,7 +19333,7 @@ const derivedDictionaryData = [
       "absorption"
     ],
     "freq": 0,
-    "freq_rank": 2754
+    "freq_rank": 2757
   },
   {
     "word": "ryroboe",
@@ -19348,7 +19348,7 @@ const derivedDictionaryData = [
       "resembling stem"
     ],
     "freq": 0,
-    "freq_rank": 2756
+    "freq_rank": 2759
   },
   {
     "word": "ryzusue",
@@ -19363,7 +19363,7 @@ const derivedDictionaryData = [
       "reduced-price"
     ],
     "freq": 0,
-    "freq_rank": 2757
+    "freq_rank": 2760
   },
   {
     "word": "ryzusui",
@@ -19378,7 +19378,7 @@ const derivedDictionaryData = [
       "reduce the price"
     ],
     "freq": 0,
-    "freq_rank": 2758
+    "freq_rank": 2761
   },
   {
     "word": "sacye",
@@ -19394,7 +19394,7 @@ const derivedDictionaryData = [
       "external"
     ],
     "freq": 1,
-    "freq_rank": 1256
+    "freq_rank": 1258
   },
   {
     "word": "sacyo",
@@ -19409,7 +19409,7 @@ const derivedDictionaryData = [
       "outside"
     ],
     "freq": 1,
-    "freq_rank": 1257
+    "freq_rank": 1259
   },
   {
     "word": "safunue",
@@ -19425,7 +19425,7 @@ const derivedDictionaryData = [
       "stylish"
     ],
     "freq": 0,
-    "freq_rank": 2759
+    "freq_rank": 2762
   },
   {
     "word": "sanpoe",
@@ -19441,7 +19441,7 @@ const derivedDictionaryData = [
       "powdery"
     ],
     "freq": 1,
-    "freq_rank": 1259
+    "freq_rank": 1261
   },
   {
     "word": "sapia",
@@ -19455,7 +19455,7 @@ const derivedDictionaryData = [
       "creator"
     ],
     "freq": 0,
-    "freq_rank": 2760
+    "freq_rank": 2763
   },
   {
     "word": "lilwia",
@@ -19469,7 +19469,7 @@ const derivedDictionaryData = [
       "inventor"
     ],
     "freq": 0,
-    "freq_rank": 2329
+    "freq_rank": 2332
   },
   {
     "word": "lilwio",
@@ -19483,7 +19483,7 @@ const derivedDictionaryData = [
       "invention"
     ],
     "freq": 0,
-    "freq_rank": 2330
+    "freq_rank": 2333
   },
   {
     "word": "browae",
@@ -19498,7 +19498,7 @@ const derivedDictionaryData = [
       "resembling sibling"
     ],
     "freq": 0,
-    "freq_rank": 1544
+    "freq_rank": 1546
   },
   {
     "word": "cackia",
@@ -19512,7 +19512,7 @@ const derivedDictionaryData = [
       "taster"
     ],
     "freq": 0,
-    "freq_rank": 1566
+    "freq_rank": 1568
   },
   {
     "word": "satsia",
@@ -19526,7 +19526,7 @@ const derivedDictionaryData = [
       "striker"
     ],
     "freq": 0,
-    "freq_rank": 2761
+    "freq_rank": 2764
   },
   {
     "word": "satsiu",
@@ -19541,7 +19541,7 @@ const derivedDictionaryData = [
       "impact"
     ],
     "freq": 0,
-    "freq_rank": 2762
+    "freq_rank": 2765
   },
   {
     "word": "savodoe",
@@ -19557,7 +19557,7 @@ const derivedDictionaryData = [
       "coal-fired"
     ],
     "freq": 0,
-    "freq_rank": 2763
+    "freq_rank": 2766
   },
   {
     "word": "sazae",
@@ -19572,7 +19572,7 @@ const derivedDictionaryData = [
       "resembling sister"
     ],
     "freq": 0,
-    "freq_rank": 2764
+    "freq_rank": 2767
   },
   {
     "word": "sazau",
@@ -19586,7 +19586,7 @@ const derivedDictionaryData = [
       "sisterhood"
     ],
     "freq": 0,
-    "freq_rank": 2765
+    "freq_rank": 2768
   },
   {
     "word": "segroe",
@@ -19601,7 +19601,7 @@ const derivedDictionaryData = [
       "resembling blade"
     ],
     "freq": 0,
-    "freq_rank": 2769
+    "freq_rank": 2772
   },
   {
     "word": "sejia",
@@ -19615,7 +19615,7 @@ const derivedDictionaryData = [
       "stopper"
     ],
     "freq": 0,
-    "freq_rank": 2770
+    "freq_rank": 2773
   },
   {
     "word": "sejiu",
@@ -19646,7 +19646,7 @@ const derivedDictionaryData = [
       "resembling pillar"
     ],
     "freq": 0,
-    "freq_rank": 2777
+    "freq_rank": 2780
   },
   {
     "word": "sifae",
@@ -19661,7 +19661,7 @@ const derivedDictionaryData = [
       "resembling wife"
     ],
     "freq": 0,
-    "freq_rank": 2778
+    "freq_rank": 2781
   },
   {
     "word": "sigia",
@@ -19675,7 +19675,7 @@ const derivedDictionaryData = [
       "holder"
     ],
     "freq": 0,
-    "freq_rank": 2779
+    "freq_rank": 2782
   },
   {
     "word": "silei",
@@ -19690,7 +19690,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2780
+    "freq_rank": 2783
   },
   {
     "word": "sioxia",
@@ -19704,7 +19704,7 @@ const derivedDictionaryData = [
       "host"
     ],
     "freq": 0,
-    "freq_rank": 2781
+    "freq_rank": 2784
   },
   {
     "word": "sismorui",
@@ -19720,7 +19720,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2782
+    "freq_rank": 2785
   },
   {
     "word": "siswasoe",
@@ -19735,7 +19735,7 @@ const derivedDictionaryData = [
       "resembling stripe"
     ],
     "freq": 0,
-    "freq_rank": 2784
+    "freq_rank": 2787
   },
   {
     "word": "skagia",
@@ -19749,7 +19749,7 @@ const derivedDictionaryData = [
       "breaker"
     ],
     "freq": 0,
-    "freq_rank": 2785
+    "freq_rank": 2788
   },
   {
     "word": "skaxebia",
@@ -19763,7 +19763,7 @@ const derivedDictionaryData = [
       "suspecter"
     ],
     "freq": 0,
-    "freq_rank": 2787
+    "freq_rank": 2790
   },
   {
     "word": "pivrae",
@@ -19778,7 +19778,7 @@ const derivedDictionaryData = [
       "resembling pufferfish"
     ],
     "freq": 0,
-    "freq_rank": 2633
+    "freq_rank": 2636
   },
   {
     "word": "skiwia",
@@ -19792,7 +19792,7 @@ const derivedDictionaryData = [
       "controller"
     ],
     "freq": 0,
-    "freq_rank": 2789
+    "freq_rank": 2792
   },
   {
     "word": "skiwiu",
@@ -19807,7 +19807,7 @@ const derivedDictionaryData = [
       "command"
     ],
     "freq": 1,
-    "freq_rank": 1264
+    "freq_rank": 1266
   },
   {
     "word": "skorue",
@@ -19821,7 +19821,7 @@ const derivedDictionaryData = [
       "commercial"
     ],
     "freq": 0,
-    "freq_rank": 2790
+    "freq_rank": 2793
   },
   {
     "word": "skrehei",
@@ -19836,7 +19836,7 @@ const derivedDictionaryData = [
       "be active"
     ],
     "freq": 1,
-    "freq_rank": 1265
+    "freq_rank": 1267
   },
   {
     "word": "skroqoe",
@@ -19851,7 +19851,7 @@ const derivedDictionaryData = [
       "resembling cheese"
     ],
     "freq": 0,
-    "freq_rank": 2793
+    "freq_rank": 2796
   },
   {
     "word": "skumkia",
@@ -19865,7 +19865,7 @@ const derivedDictionaryData = [
       "destroyer"
     ],
     "freq": 0,
-    "freq_rank": 2795
+    "freq_rank": 2798
   },
   {
     "word": "slafei",
@@ -19880,7 +19880,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2797
+    "freq_rank": 2800
   },
   {
     "word": "slewofoe",
@@ -19896,7 +19896,7 @@ const derivedDictionaryData = [
       "wax-coated"
     ],
     "freq": 0,
-    "freq_rank": 2799
+    "freq_rank": 2802
   },
   {
     "word": "slojoe",
@@ -19912,7 +19912,7 @@ const derivedDictionaryData = [
       "fanned"
     ],
     "freq": 0,
-    "freq_rank": 2802
+    "freq_rank": 2805
   },
   {
     "word": "sluqedue",
@@ -19926,7 +19926,7 @@ const derivedDictionaryData = [
       "saturday"
     ],
     "freq": 0,
-    "freq_rank": 2803
+    "freq_rank": 2806
   },
   {
     "word": "sluqei",
@@ -19941,7 +19941,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2804
+    "freq_rank": 2807
   },
   {
     "word": "smezei",
@@ -19956,7 +19956,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2806
+    "freq_rank": 2809
   },
   {
     "word": "smezeu",
@@ -19970,7 +19970,7 @@ const derivedDictionaryData = [
       "rawness"
     ],
     "freq": 0,
-    "freq_rank": 2807
+    "freq_rank": 2810
   },
   {
     "word": "smibrae",
@@ -19985,7 +19985,7 @@ const derivedDictionaryData = [
       "resembling bat"
     ],
     "freq": 0,
-    "freq_rank": 2809
+    "freq_rank": 2812
   },
   {
     "word": "smimia",
@@ -19999,7 +19999,7 @@ const derivedDictionaryData = [
       "kisser"
     ],
     "freq": 0,
-    "freq_rank": 2811
+    "freq_rank": 2814
   },
   {
     "word": "smotifia",
@@ -20013,7 +20013,7 @@ const derivedDictionaryData = [
       "restorer"
     ],
     "freq": 0,
-    "freq_rank": 2812
+    "freq_rank": 2815
   },
   {
     "word": "lusbae",
@@ -20028,7 +20028,7 @@ const derivedDictionaryData = [
       "resembling deer"
     ],
     "freq": 0,
-    "freq_rank": 2361
+    "freq_rank": 2364
   },
   {
     "word": "snasumui",
@@ -20043,7 +20043,7 @@ const derivedDictionaryData = [
       "return money"
     ],
     "freq": 0,
-    "freq_rank": 2814
+    "freq_rank": 2817
   },
   {
     "word": "snibexei",
@@ -20057,7 +20057,7 @@ const derivedDictionaryData = [
       "be humid"
     ],
     "freq": 0,
-    "freq_rank": 2820
+    "freq_rank": 2823
   },
   {
     "word": "snibexeu",
@@ -20071,7 +20071,7 @@ const derivedDictionaryData = [
       "humidity"
     ],
     "freq": 0,
-    "freq_rank": 2821
+    "freq_rank": 2824
   },
   {
     "word": "snugipio",
@@ -20087,7 +20087,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2822
+    "freq_rank": 2825
   },
   {
     "word": "socue",
@@ -20101,7 +20101,7 @@ const derivedDictionaryData = [
       "social"
     ],
     "freq": 0,
-    "freq_rank": 2824
+    "freq_rank": 2827
   },
   {
     "word": "spikoe",
@@ -20116,7 +20116,7 @@ const derivedDictionaryData = [
       "resembling sock"
     ],
     "freq": 0,
-    "freq_rank": 2839
+    "freq_rank": 2842
   },
   {
     "word": "solfia",
@@ -20130,7 +20130,7 @@ const derivedDictionaryData = [
       "solver"
     ],
     "freq": 0,
-    "freq_rank": 2827
+    "freq_rank": 2830
   },
   {
     "word": "solfiu",
@@ -20145,7 +20145,7 @@ const derivedDictionaryData = [
       "resolution"
     ],
     "freq": 1,
-    "freq_rank": 1272
+    "freq_rank": 1274
   },
   {
     "word": "somadae",
@@ -20160,7 +20160,7 @@ const derivedDictionaryData = [
       "resembling dolphin"
     ],
     "freq": 0,
-    "freq_rank": 2829
+    "freq_rank": 2832
   },
   {
     "word": "sonei",
@@ -20175,7 +20175,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1273
+    "freq_rank": 1275
   },
   {
     "word": "soneu",
@@ -20190,7 +20190,7 @@ const derivedDictionaryData = [
       "pungency"
     ],
     "freq": 0,
-    "freq_rank": 2831
+    "freq_rank": 2834
   },
   {
     "word": "soxae",
@@ -20205,7 +20205,7 @@ const derivedDictionaryData = [
       "resembling body"
     ],
     "freq": 0,
-    "freq_rank": 2832
+    "freq_rank": 2835
   },
   {
     "word": "spelue",
@@ -20219,7 +20219,7 @@ const derivedDictionaryData = [
       "recreational"
     ],
     "freq": 0,
-    "freq_rank": 2835
+    "freq_rank": 2838
   },
   {
     "word": "spicupue",
@@ -20233,7 +20233,7 @@ const derivedDictionaryData = [
       "loyal"
     ],
     "freq": 0,
-    "freq_rank": 2837
+    "freq_rank": 2840
   },
   {
     "word": "boxrae",
@@ -20248,7 +20248,7 @@ const derivedDictionaryData = [
       "resembling cheek"
     ],
     "freq": 0,
-    "freq_rank": 1529
+    "freq_rank": 1531
   },
   {
     "word": "splyxia",
@@ -20262,7 +20262,7 @@ const derivedDictionaryData = [
       "chopper"
     ],
     "freq": 0,
-    "freq_rank": 2840
+    "freq_rank": 2843
   },
   {
     "word": "spogubue",
@@ -20276,7 +20276,7 @@ const derivedDictionaryData = [
       "allergic"
     ],
     "freq": 0,
-    "freq_rank": 2842
+    "freq_rank": 2845
   },
   {
     "word": "spujubae",
@@ -20291,7 +20291,7 @@ const derivedDictionaryData = [
       "resembling squid"
     ],
     "freq": 0,
-    "freq_rank": 2846
+    "freq_rank": 2849
   },
   {
     "word": "staloe",
@@ -20306,7 +20306,7 @@ const derivedDictionaryData = [
       "resembling star"
     ],
     "freq": 0,
-    "freq_rank": 2850
+    "freq_rank": 2853
   },
   {
     "word": "staxiu",
@@ -20320,7 +20320,7 @@ const derivedDictionaryData = [
       "filling"
     ],
     "freq": 0,
-    "freq_rank": 2852
+    "freq_rank": 2855
   },
   {
     "word": "stelia",
@@ -20334,7 +20334,7 @@ const derivedDictionaryData = [
       "taker"
     ],
     "freq": 0,
-    "freq_rank": 2853
+    "freq_rank": 2856
   },
   {
     "word": "stepue",
@@ -20348,7 +20348,7 @@ const derivedDictionaryData = [
       "narrative"
     ],
     "freq": 0,
-    "freq_rank": 2854
+    "freq_rank": 2857
   },
   {
     "word": "stibuxui",
@@ -20362,7 +20362,7 @@ const derivedDictionaryData = [
       "prescribe"
     ],
     "freq": 0,
-    "freq_rank": 2855
+    "freq_rank": 2858
   },
   {
     "word": "hekoe",
@@ -20377,7 +20377,7 @@ const derivedDictionaryData = [
       "resembling line"
     ],
     "freq": 0,
-    "freq_rank": 2009
+    "freq_rank": 2012
   },
   {
     "word": "hekoi",
@@ -20392,7 +20392,7 @@ const derivedDictionaryData = [
       "line up"
     ],
     "freq": 0,
-    "freq_rank": 2010
+    "freq_rank": 2013
   },
   {
     "word": "stomia",
@@ -20406,7 +20406,7 @@ const derivedDictionaryData = [
       "donor"
     ],
     "freq": 0,
-    "freq_rank": 2858
+    "freq_rank": 2861
   },
   {
     "word": "stomio",
@@ -20422,7 +20422,7 @@ const derivedDictionaryData = [
       "donation"
     ],
     "freq": 0,
-    "freq_rank": 2859
+    "freq_rank": 2862
   },
   {
     "word": "stomiu",
@@ -20453,7 +20453,7 @@ const derivedDictionaryData = [
       "resembling slab"
     ],
     "freq": 0,
-    "freq_rank": 2844
+    "freq_rank": 2847
   },
   {
     "word": "stramue",
@@ -20467,7 +20467,7 @@ const derivedDictionaryData = [
       "collaborative"
     ],
     "freq": 0,
-    "freq_rank": 2862
+    "freq_rank": 2865
   },
   {
     "word": "strenei",
@@ -20482,7 +20482,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2863
+    "freq_rank": 2866
   },
   {
     "word": "stricia",
@@ -20496,7 +20496,7 @@ const derivedDictionaryData = [
       "translator"
     ],
     "freq": 0,
-    "freq_rank": 2865
+    "freq_rank": 2868
   },
   {
     "word": "stricio",
@@ -20510,7 +20510,7 @@ const derivedDictionaryData = [
       "translation"
     ],
     "freq": 0,
-    "freq_rank": 2866
+    "freq_rank": 2869
   },
   {
     "word": "stuzygie",
@@ -20525,7 +20525,7 @@ const derivedDictionaryData = [
       "reversed"
     ],
     "freq": 0,
-    "freq_rank": 2868
+    "freq_rank": 2871
   },
   {
     "word": "stuzygiu",
@@ -20540,7 +20540,7 @@ const derivedDictionaryData = [
       "undoing"
     ],
     "freq": 0,
-    "freq_rank": 2869
+    "freq_rank": 2872
   },
   {
     "word": "nemei",
@@ -20555,7 +20555,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2480
+    "freq_rank": 2483
   },
   {
     "word": "sudia",
@@ -20569,7 +20569,7 @@ const derivedDictionaryData = [
       "pusher"
     ],
     "freq": 0,
-    "freq_rank": 2870
+    "freq_rank": 2873
   },
   {
     "word": "sudie",
@@ -20585,7 +20585,7 @@ const derivedDictionaryData = [
       "pressure-sensitive"
     ],
     "freq": 0,
-    "freq_rank": 2871
+    "freq_rank": 2874
   },
   {
     "word": "sudiu",
@@ -20600,7 +20600,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Verb -> Noun (abstract)",
     "freq": 0,
-    "freq_rank": 2872,
+    "freq_rank": 2875,
     "example": {
       "fiwo": "Sudiu my dorso zave.",
       "english": "The water's pressure is high."
@@ -20618,7 +20618,7 @@ const derivedDictionaryData = [
       "turner"
     ],
     "freq": 0,
-    "freq_rank": 2667
+    "freq_rank": 2670
   },
   {
     "word": "suglasae",
@@ -20633,7 +20633,7 @@ const derivedDictionaryData = [
       "resembling zombie"
     ],
     "freq": 0,
-    "freq_rank": 2874
+    "freq_rank": 2877
   },
   {
     "word": "sukei",
@@ -20648,7 +20648,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2876
+    "freq_rank": 2879
   },
   {
     "word": "sulpoe",
@@ -20663,7 +20663,7 @@ const derivedDictionaryData = [
       "resembling dye"
     ],
     "freq": 0,
-    "freq_rank": 2877
+    "freq_rank": 2880
   },
   {
     "word": "sulpoi",
@@ -20678,7 +20678,7 @@ const derivedDictionaryData = [
       "color"
     ],
     "freq": 0,
-    "freq_rank": 2878
+    "freq_rank": 2881
   },
   {
     "word": "susnoe",
@@ -20693,7 +20693,7 @@ const derivedDictionaryData = [
       "resembling screen"
     ],
     "freq": 0,
-    "freq_rank": 2879
+    "freq_rank": 2882
   },
   {
     "word": "swamia",
@@ -20707,7 +20707,7 @@ const derivedDictionaryData = [
       "placer"
     ],
     "freq": 0,
-    "freq_rank": 2881
+    "freq_rank": 2884
   },
   {
     "word": "swesoe",
@@ -20722,7 +20722,7 @@ const derivedDictionaryData = [
       "resembling sweat"
     ],
     "freq": 0,
-    "freq_rank": 2883
+    "freq_rank": 2886
   },
   {
     "word": "swesoi",
@@ -20737,7 +20737,7 @@ const derivedDictionaryData = [
       "perspire"
     ],
     "freq": 0,
-    "freq_rank": 2884
+    "freq_rank": 2887
   },
   {
     "word": "swucue",
@@ -20751,7 +20751,7 @@ const derivedDictionaryData = [
       "relieved"
     ],
     "freq": 0,
-    "freq_rank": 2887
+    "freq_rank": 2890
   },
   {
     "word": "swucui",
@@ -20765,7 +20765,7 @@ const derivedDictionaryData = [
       "relieve"
     ],
     "freq": 0,
-    "freq_rank": 2888,
+    "freq_rank": 2891,
     "example": {
       "fiwo": "Das swucui mik.",
       "english": "She relieves me."
@@ -20784,7 +20784,7 @@ const derivedDictionaryData = [
       "resembling seed"
     ],
     "freq": 0,
-    "freq_rank": 2889
+    "freq_rank": 2892
   },
   {
     "word": "sydoa",
@@ -20800,7 +20800,7 @@ const derivedDictionaryData = [
       "householder"
     ],
     "freq": 1,
-    "freq_rank": 1282
+    "freq_rank": 1284
   },
   {
     "word": "sydoe",
@@ -20816,7 +20816,7 @@ const derivedDictionaryData = [
       "domestic"
     ],
     "freq": 0,
-    "freq_rank": 2890
+    "freq_rank": 2893
   },
   {
     "word": "sydoi",
@@ -20831,7 +20831,7 @@ const derivedDictionaryData = [
       "to shelter"
     ],
     "freq": 0,
-    "freq_rank": 2891
+    "freq_rank": 2894
   },
   {
     "word": "synarue",
@@ -20845,7 +20845,7 @@ const derivedDictionaryData = [
       "conditional"
     ],
     "freq": 0,
-    "freq_rank": 2892
+    "freq_rank": 2896
   },
   {
     "word": "sysue",
@@ -20891,7 +20891,7 @@ const derivedDictionaryData = [
       "wednesday"
     ],
     "freq": 0,
-    "freq_rank": 2897
+    "freq_rank": 2901
   },
   {
     "word": "tafei",
@@ -20906,7 +20906,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2898
+    "freq_rank": 2902
   },
   {
     "word": "taicue",
@@ -20920,7 +20920,7 @@ const derivedDictionaryData = [
       "festive"
     ],
     "freq": 0,
-    "freq_rank": 2900
+    "freq_rank": 2904
   },
   {
     "word": "taicui",
@@ -20936,7 +20936,7 @@ const derivedDictionaryData = [
       "to revel"
     ],
     "freq": 1,
-    "freq_rank": 1283
+    "freq_rank": 1285
   },
   {
     "word": "tajue",
@@ -20950,7 +20950,7 @@ const derivedDictionaryData = [
       "jealous"
     ],
     "freq": 0,
-    "freq_rank": 2902
+    "freq_rank": 2906
   },
   {
     "word": "tajui",
@@ -20964,7 +20964,7 @@ const derivedDictionaryData = [
       "envy"
     ],
     "freq": 0,
-    "freq_rank": 2903
+    "freq_rank": 2907
   },
   {
     "word": "tandei",
@@ -20995,7 +20995,7 @@ const derivedDictionaryData = [
       "magnitude"
     ],
     "freq": 0,
-    "freq_rank": 2904
+    "freq_rank": 2908
   },
   {
     "word": "tubsoa",
@@ -21011,7 +21011,7 @@ const derivedDictionaryData = [
       "sailor"
     ],
     "freq": 0,
-    "freq_rank": 2972
+    "freq_rank": 2976
   },
   {
     "word": "tubsoe",
@@ -21027,7 +21027,7 @@ const derivedDictionaryData = [
       "oceanic"
     ],
     "freq": 0,
-    "freq_rank": 2973
+    "freq_rank": 2977
   },
   {
     "word": "tankoe",
@@ -21041,7 +21041,7 @@ const derivedDictionaryData = [
       "sugary"
     ],
     "freq": 0,
-    "freq_rank": 2905
+    "freq_rank": 2909
   },
   {
     "word": "taqae",
@@ -21070,7 +21070,7 @@ const derivedDictionaryData = [
       "brotherhood"
     ],
     "freq": 0,
-    "freq_rank": 2906
+    "freq_rank": 2910
   },
   {
     "word": "tatesmiu",
@@ -21084,7 +21084,7 @@ const derivedDictionaryData = [
       "recovery"
     ],
     "freq": 0,
-    "freq_rank": 2907
+    "freq_rank": 2911
   },
   {
     "word": "tazia",
@@ -21098,7 +21098,7 @@ const derivedDictionaryData = [
       "lover"
     ],
     "freq": 0,
-    "freq_rank": 2908
+    "freq_rank": 2912
   },
   {
     "word": "tazie",
@@ -21113,7 +21113,7 @@ const derivedDictionaryData = [
       "loving"
     ],
     "freq": 0,
-    "freq_rank": 2909
+    "freq_rank": 2913
   },
   {
     "word": "tebei",
@@ -21128,7 +21128,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2911
+    "freq_rank": 2915
   },
   {
     "word": "tefamae",
@@ -21143,7 +21143,7 @@ const derivedDictionaryData = [
       "resembling hip"
     ],
     "freq": 0,
-    "freq_rank": 2913
+    "freq_rank": 2917
   },
   {
     "word": "tehidia",
@@ -21157,7 +21157,7 @@ const derivedDictionaryData = [
       "student"
     ],
     "freq": 0,
-    "freq_rank": 2914
+    "freq_rank": 2918
   },
   {
     "word": "telfoe",
@@ -21172,7 +21172,7 @@ const derivedDictionaryData = [
       "resembling telephone"
     ],
     "freq": 0,
-    "freq_rank": 2915
+    "freq_rank": 2919
   },
   {
     "word": "teque",
@@ -21186,7 +21186,7 @@ const derivedDictionaryData = [
       "momentary"
     ],
     "freq": 0,
-    "freq_rank": 2916
+    "freq_rank": 2920
   },
   {
     "word": "tesoe",
@@ -21201,7 +21201,7 @@ const derivedDictionaryData = [
       "resembling tea"
     ],
     "freq": 0,
-    "freq_rank": 2917
+    "freq_rank": 2921
   },
   {
     "word": "tifavae",
@@ -21216,7 +21216,7 @@ const derivedDictionaryData = [
       "resembling bush"
     ],
     "freq": 0,
-    "freq_rank": 2920
+    "freq_rank": 2924
   },
   {
     "word": "timufue",
@@ -21230,7 +21230,7 @@ const derivedDictionaryData = [
       "dusk"
     ],
     "freq": 0,
-    "freq_rank": 2922
+    "freq_rank": 2926
   },
   {
     "word": "timyboe",
@@ -21246,7 +21246,7 @@ const derivedDictionaryData = [
       "pumpkin-flavored"
     ],
     "freq": 0,
-    "freq_rank": 2924
+    "freq_rank": 2928
   },
   {
     "word": "tisosloe",
@@ -21261,7 +21261,7 @@ const derivedDictionaryData = [
       "resembling horizon"
     ],
     "freq": 0,
-    "freq_rank": 2926
+    "freq_rank": 2930
   },
   {
     "word": "tocei",
@@ -21291,7 +21291,7 @@ const derivedDictionaryData = [
       "remorse"
     ],
     "freq": 0,
-    "freq_rank": 2928
+    "freq_rank": 2932
   },
   {
     "word": "todye",
@@ -21306,7 +21306,7 @@ const derivedDictionaryData = [
       "over"
     ],
     "freq": 0,
-    "freq_rank": 2929
+    "freq_rank": 2933
   },
   {
     "word": "todyo",
@@ -21321,7 +21321,7 @@ const derivedDictionaryData = [
       "summit"
     ],
     "freq": 0,
-    "freq_rank": 2930
+    "freq_rank": 2934
   },
   {
     "word": "todyria",
@@ -21335,7 +21335,7 @@ const derivedDictionaryData = [
       "lifter"
     ],
     "freq": 0,
-    "freq_rank": 2931
+    "freq_rank": 2935
   },
   {
     "word": "todyu",
@@ -21351,7 +21351,7 @@ const derivedDictionaryData = [
       "summit"
     ],
     "freq": 0,
-    "freq_rank": 2932
+    "freq_rank": 2936
   },
   {
     "word": "tofakroe",
@@ -21366,7 +21366,7 @@ const derivedDictionaryData = [
       "resembling field"
     ],
     "freq": 0,
-    "freq_rank": 2933
+    "freq_rank": 2937
   },
   {
     "word": "tofrae",
@@ -21381,7 +21381,7 @@ const derivedDictionaryData = [
       "resembling aunt"
     ],
     "freq": 0,
-    "freq_rank": 2935
+    "freq_rank": 2939
   },
   {
     "word": "toilia",
@@ -21395,7 +21395,7 @@ const derivedDictionaryData = [
       "lender"
     ],
     "freq": 0,
-    "freq_rank": 2940
+    "freq_rank": 2944
   },
   {
     "word": "toiliu",
@@ -21410,7 +21410,7 @@ const derivedDictionaryData = [
       "lending"
     ],
     "freq": 0,
-    "freq_rank": 2941
+    "freq_rank": 2945
   },
   {
     "word": "tolkywoe",
@@ -21425,7 +21425,7 @@ const derivedDictionaryData = [
       "resembling cross"
     ],
     "freq": 0,
-    "freq_rank": 2945
+    "freq_rank": 2949
   },
   {
     "word": "topzae",
@@ -21440,7 +21440,7 @@ const derivedDictionaryData = [
       "resembling chest"
     ],
     "freq": 0,
-    "freq_rank": 2946
+    "freq_rank": 2950
   },
   {
     "word": "tovnia",
@@ -21454,7 +21454,7 @@ const derivedDictionaryData = [
       "founder"
     ],
     "freq": 0,
-    "freq_rank": 2948
+    "freq_rank": 2952
   },
   {
     "word": "toxua",
@@ -21468,7 +21468,7 @@ const derivedDictionaryData = [
       "psychologist"
     ],
     "freq": 0,
-    "freq_rank": 2950
+    "freq_rank": 2954
   },
   {
     "word": "toxue",
@@ -21482,7 +21482,7 @@ const derivedDictionaryData = [
       "psychological"
     ],
     "freq": 0,
-    "freq_rank": 2951
+    "freq_rank": 2955
   },
   {
     "word": "traxae",
@@ -21497,7 +21497,7 @@ const derivedDictionaryData = [
       "resembling kidney"
     ],
     "freq": 0,
-    "freq_rank": 2953
+    "freq_rank": 2957
   },
   {
     "word": "triruzue",
@@ -21511,7 +21511,7 @@ const derivedDictionaryData = [
       "frustrated"
     ],
     "freq": 1,
-    "freq_rank": 1294
+    "freq_rank": 1296
   },
   {
     "word": "triruzui",
@@ -21525,7 +21525,7 @@ const derivedDictionaryData = [
       "frustrate"
     ],
     "freq": 0,
-    "freq_rank": 2955
+    "freq_rank": 2959
   },
   {
     "word": "truhue",
@@ -21540,7 +21540,7 @@ const derivedDictionaryData = [
       "in awe"
     ],
     "freq": 0,
-    "freq_rank": 2956
+    "freq_rank": 2960
   },
   {
     "word": "truhui",
@@ -21554,7 +21554,7 @@ const derivedDictionaryData = [
       "awe"
     ],
     "freq": 1,
-    "freq_rank": 1296,
+    "freq_rank": 1298,
     "example": {
       "fiwo": "Nibop truhui nofap je.",
       "english": "The book awes the people."
@@ -21573,7 +21573,7 @@ const derivedDictionaryData = [
       "resembling ankle"
     ],
     "freq": 0,
-    "freq_rank": 2958
+    "freq_rank": 2962
   },
   {
     "word": "tsakei",
@@ -21602,7 +21602,7 @@ const derivedDictionaryData = [
       "anger"
     ],
     "freq": 0,
-    "freq_rank": 2959
+    "freq_rank": 2963
   },
   {
     "word": "tsengei",
@@ -21617,7 +21617,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2963
+    "freq_rank": 2967
   },
   {
     "word": "fwimia",
@@ -21631,7 +21631,7 @@ const derivedDictionaryData = [
       "leaver"
     ],
     "freq": 0,
-    "freq_rank": 1893
+    "freq_rank": 1896
   },
   {
     "word": "fwimiu",
@@ -21660,7 +21660,7 @@ const derivedDictionaryData = [
       "silvery"
     ],
     "freq": 0,
-    "freq_rank": 2967
+    "freq_rank": 2971
   },
   {
     "word": "tsotue",
@@ -21674,7 +21674,7 @@ const derivedDictionaryData = [
       "content"
     ],
     "freq": 0,
-    "freq_rank": 2969
+    "freq_rank": 2973
   },
   {
     "word": "tsytia",
@@ -21688,7 +21688,7 @@ const derivedDictionaryData = [
       "seeker"
     ],
     "freq": 0,
-    "freq_rank": 2971
+    "freq_rank": 2975
   },
   {
     "word": "tudarie",
@@ -21703,7 +21703,7 @@ const derivedDictionaryData = [
       "decorative"
     ],
     "freq": 0,
-    "freq_rank": 2975
+    "freq_rank": 2979
   },
   {
     "word": "tujyrui",
@@ -21718,7 +21718,7 @@ const derivedDictionaryData = [
       "pay off"
     ],
     "freq": 0,
-    "freq_rank": 2976
+    "freq_rank": 2980
   },
   {
     "word": "tuloe",
@@ -21733,7 +21733,7 @@ const derivedDictionaryData = [
       "resembling bottle"
     ],
     "freq": 0,
-    "freq_rank": 2978
+    "freq_rank": 2982
   },
   {
     "word": "tuloi",
@@ -21747,7 +21747,7 @@ const derivedDictionaryData = [
       "bottle"
     ],
     "freq": 0,
-    "freq_rank": 2979
+    "freq_rank": 2983
   },
   {
     "word": "tusue",
@@ -21761,7 +21761,7 @@ const derivedDictionaryData = [
       "wintry"
     ],
     "freq": 0,
-    "freq_rank": 2981
+    "freq_rank": 2985
   },
   {
     "word": "zuzkei",
@@ -21792,7 +21792,7 @@ const derivedDictionaryData = [
       "confection"
     ],
     "freq": 0,
-    "freq_rank": 3305
+    "freq_rank": 3309
   },
   {
     "word": "zuzkeu",
@@ -21806,7 +21806,7 @@ const derivedDictionaryData = [
       "sweetness"
     ],
     "freq": 0,
-    "freq_rank": 3306
+    "freq_rank": 3310
   },
   {
     "word": "tuxuntoi",
@@ -21822,7 +21822,7 @@ const derivedDictionaryData = [
       "charge"
     ],
     "freq": 0,
-    "freq_rank": 2982
+    "freq_rank": 2986
   },
   {
     "word": "tykoe",
@@ -21837,7 +21837,7 @@ const derivedDictionaryData = [
       "resembling material"
     ],
     "freq": 0,
-    "freq_rank": 2983
+    "freq_rank": 2987
   },
   {
     "word": "ubmei",
@@ -21852,7 +21852,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1304
+    "freq_rank": 1306
   },
   {
     "word": "ubmeu",
@@ -21867,7 +21867,7 @@ const derivedDictionaryData = [
       "publicness"
     ],
     "freq": 0,
-    "freq_rank": 2986
+    "freq_rank": 2990
   },
   {
     "word": "ucdei",
@@ -21882,7 +21882,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1305
+    "freq_rank": 1307
   },
   {
     "word": "ucdeu",
@@ -21896,7 +21896,7 @@ const derivedDictionaryData = [
       "pride"
     ],
     "freq": 0,
-    "freq_rank": 2988
+    "freq_rank": 2992
   },
   {
     "word": "uckae",
@@ -21911,7 +21911,7 @@ const derivedDictionaryData = [
       "resembling seedling"
     ],
     "freq": 0,
-    "freq_rank": 2990
+    "freq_rank": 2994
   },
   {
     "word": "uctoe",
@@ -21926,7 +21926,7 @@ const derivedDictionaryData = [
       "resembling spoon"
     ],
     "freq": 0,
-    "freq_rank": 2992
+    "freq_rank": 2996
   },
   {
     "word": "udboe",
@@ -21941,7 +21941,7 @@ const derivedDictionaryData = [
       "resembling button"
     ],
     "freq": 0,
-    "freq_rank": 2993
+    "freq_rank": 2997
   },
   {
     "word": "udcei",
@@ -21956,7 +21956,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1307
+    "freq_rank": 1309
   },
   {
     "word": "udceu",
@@ -21970,7 +21970,7 @@ const derivedDictionaryData = [
       "tightness"
     ],
     "freq": 0,
-    "freq_rank": 2995
+    "freq_rank": 2999
   },
   {
     "word": "udzidue",
@@ -21984,7 +21984,7 @@ const derivedDictionaryData = [
       "apparent"
     ],
     "freq": 0,
-    "freq_rank": 2997
+    "freq_rank": 3001
   },
   {
     "word": "udzidui",
@@ -22000,7 +22000,7 @@ const derivedDictionaryData = [
       "to seem"
     ],
     "freq": 0,
-    "freq_rank": 2998
+    "freq_rank": 3002
   },
   {
     "word": "ufaxoe",
@@ -22015,7 +22015,7 @@ const derivedDictionaryData = [
       "resembling message"
     ],
     "freq": 0,
-    "freq_rank": 2999
+    "freq_rank": 3003
   },
   {
     "word": "ufaxoi",
@@ -22030,7 +22030,7 @@ const derivedDictionaryData = [
       "text"
     ],
     "freq": 0,
-    "freq_rank": 3000
+    "freq_rank": 3004
   },
   {
     "word": "ufdia",
@@ -22044,7 +22044,7 @@ const derivedDictionaryData = [
       "shaker"
     ],
     "freq": 0,
-    "freq_rank": 3001
+    "freq_rank": 3005
   },
   {
     "word": "ufnue",
@@ -22058,7 +22058,7 @@ const derivedDictionaryData = [
       "contentious"
     ],
     "freq": 0,
-    "freq_rank": 3003
+    "freq_rank": 3007
   },
   {
     "word": "ugtei",
@@ -22073,7 +22073,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 3006
+    "freq_rank": 3010
   },
   {
     "word": "ugvue",
@@ -22087,7 +22087,7 @@ const derivedDictionaryData = [
       "ambitious"
     ],
     "freq": 0,
-    "freq_rank": 3008
+    "freq_rank": 3012
   },
   {
     "word": "uhoe",
@@ -22102,7 +22102,7 @@ const derivedDictionaryData = [
       "resembling flag"
     ],
     "freq": 0,
-    "freq_rank": 3009
+    "freq_rank": 3013
   },
   {
     "word": "uibue",
@@ -22116,7 +22116,7 @@ const derivedDictionaryData = [
       "risky"
     ],
     "freq": 0,
-    "freq_rank": 3010
+    "freq_rank": 3014
   },
   {
     "word": "uibui",
@@ -22131,7 +22131,7 @@ const derivedDictionaryData = [
       "venture"
     ],
     "freq": 0,
-    "freq_rank": 3011
+    "freq_rank": 3015
   },
   {
     "word": "ukwia",
@@ -22159,7 +22159,7 @@ const derivedDictionaryData = [
       "embarrassed"
     ],
     "freq": 0,
-    "freq_rank": 2326
+    "freq_rank": 2329
   },
   {
     "word": "ligpui",
@@ -22173,7 +22173,7 @@ const derivedDictionaryData = [
       "embarrass"
     ],
     "freq": 0,
-    "freq_rank": 2327,
+    "freq_rank": 2330,
     "example": {
       "fiwo": "Daq ligpui das.",
       "english": "He embarrasses her."
@@ -22192,7 +22192,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1308
+    "freq_rank": 1310
   },
   {
     "word": "ultue",
@@ -22206,7 +22206,7 @@ const derivedDictionaryData = [
       "contextual"
     ],
     "freq": 0,
-    "freq_rank": 3013
+    "freq_rank": 3017
   },
   {
     "word": "umetia",
@@ -22220,7 +22220,7 @@ const derivedDictionaryData = [
       "proposer"
     ],
     "freq": 0,
-    "freq_rank": 3015
+    "freq_rank": 3019
   },
   {
     "word": "umetiu",
@@ -22236,7 +22236,7 @@ const derivedDictionaryData = [
       "recommendation"
     ],
     "freq": 1,
-    "freq_rank": 1309
+    "freq_rank": 1311
   },
   {
     "word": "umzia",
@@ -22250,7 +22250,7 @@ const derivedDictionaryData = [
       "greeter"
     ],
     "freq": 0,
-    "freq_rank": 3016
+    "freq_rank": 3020
   },
   {
     "word": "untexoe",
@@ -22265,7 +22265,7 @@ const derivedDictionaryData = [
       "resembling app"
     ],
     "freq": 0,
-    "freq_rank": 3018
+    "freq_rank": 3022
   },
   {
     "word": "unyhae",
@@ -22281,7 +22281,7 @@ const derivedDictionaryData = [
       "made of moss"
     ],
     "freq": 0,
-    "freq_rank": 3020
+    "freq_rank": 3024
   },
   {
     "word": "uovoe",
@@ -22296,7 +22296,7 @@ const derivedDictionaryData = [
       "resembling pillow"
     ],
     "freq": 0,
-    "freq_rank": 3021
+    "freq_rank": 3025
   },
   {
     "word": "upfei",
@@ -22311,7 +22311,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1311
+    "freq_rank": 1313
   },
   {
     "word": "upfeu",
@@ -22325,7 +22325,7 @@ const derivedDictionaryData = [
       "inequality"
     ],
     "freq": 0,
-    "freq_rank": 3023
+    "freq_rank": 3027
   },
   {
     "word": "uptae",
@@ -22340,7 +22340,7 @@ const derivedDictionaryData = [
       "resembling eagle"
     ],
     "freq": 0,
-    "freq_rank": 3025
+    "freq_rank": 3029
   },
   {
     "word": "upvia",
@@ -22354,7 +22354,7 @@ const derivedDictionaryData = [
       "stretcher"
     ],
     "freq": 0,
-    "freq_rank": 3027
+    "freq_rank": 3031
   },
   {
     "word": "upycia",
@@ -22368,7 +22368,7 @@ const derivedDictionaryData = [
       "viewer"
     ],
     "freq": 0,
-    "freq_rank": 3028
+    "freq_rank": 3032
   },
   {
     "word": "uquo",
@@ -22384,7 +22384,7 @@ const derivedDictionaryData = [
       "notice board"
     ],
     "freq": 0,
-    "freq_rank": 3029
+    "freq_rank": 3033
   },
   {
     "word": "uropia",
@@ -22414,7 +22414,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1312
+    "freq_rank": 1314
   },
   {
     "word": "usateu",
@@ -22428,7 +22428,7 @@ const derivedDictionaryData = [
       "straightness"
     ],
     "freq": 0,
-    "freq_rank": 3031
+    "freq_rank": 3035
   },
   {
     "word": "usia",
@@ -22442,7 +22442,7 @@ const derivedDictionaryData = [
       "sleeper"
     ],
     "freq": 0,
-    "freq_rank": 3032
+    "freq_rank": 3036
   },
   {
     "word": "usiu",
@@ -22472,7 +22472,7 @@ const derivedDictionaryData = [
       "ranked"
     ],
     "freq": 0,
-    "freq_rank": 3033
+    "freq_rank": 3037
   },
   {
     "word": "uvgae",
@@ -22487,7 +22487,7 @@ const derivedDictionaryData = [
       "resembling toe"
     ],
     "freq": 0,
-    "freq_rank": 3035
+    "freq_rank": 3039
   },
   {
     "word": "uwae",
@@ -22502,7 +22502,7 @@ const derivedDictionaryData = [
       "resembling onion"
     ],
     "freq": 0,
-    "freq_rank": 3037
+    "freq_rank": 3041
   },
   {
     "word": "uxbei",
@@ -22517,7 +22517,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1313
+    "freq_rank": 1315
   },
   {
     "word": "uxbeu",
@@ -22531,7 +22531,7 @@ const derivedDictionaryData = [
       "looseness"
     ],
     "freq": 0,
-    "freq_rank": 3039
+    "freq_rank": 3043
   },
   {
     "word": "uxkue",
@@ -22545,7 +22545,7 @@ const derivedDictionaryData = [
       "successful"
     ],
     "freq": 0,
-    "freq_rank": 3040
+    "freq_rank": 3044
   },
   {
     "word": "uxkui",
@@ -22559,7 +22559,7 @@ const derivedDictionaryData = [
       "succeed"
     ],
     "freq": 1,
-    "freq_rank": 1314,
+    "freq_rank": 1316,
     "example": {
       "fiwo": "Razup nake uxkuis.",
       "english": "Our plan will succeed."
@@ -22577,7 +22577,7 @@ const derivedDictionaryData = [
       "hunter"
     ],
     "freq": 1,
-    "freq_rank": 1315
+    "freq_rank": 1317
   },
   {
     "word": "uzumei",
@@ -22607,7 +22607,7 @@ const derivedDictionaryData = [
       "of the library"
     ],
     "freq": 0,
-    "freq_rank": 3042
+    "freq_rank": 3046
   },
   {
     "word": "vahimia",
@@ -22621,7 +22621,7 @@ const derivedDictionaryData = [
       "handler"
     ],
     "freq": 0,
-    "freq_rank": 3043
+    "freq_rank": 3047
   },
   {
     "word": "value",
@@ -22636,7 +22636,7 @@ const derivedDictionaryData = [
       "timely"
     ],
     "freq": 0,
-    "freq_rank": 3045
+    "freq_rank": 3049
   },
   {
     "word": "vamursue",
@@ -22650,7 +22650,7 @@ const derivedDictionaryData = [
       "eclipse-related"
     ],
     "freq": 0,
-    "freq_rank": 3047
+    "freq_rank": 3051
   },
   {
     "word": "vefae",
@@ -22665,7 +22665,7 @@ const derivedDictionaryData = [
       "resembling lung"
     ],
     "freq": 0,
-    "freq_rank": 3050
+    "freq_rank": 3054
   },
   {
     "word": "vekei",
@@ -22680,7 +22680,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1318
+    "freq_rank": 1320
   },
   {
     "word": "vekeu",
@@ -22695,7 +22695,7 @@ const derivedDictionaryData = [
       "shortness"
     ],
     "freq": 0,
-    "freq_rank": 3051
+    "freq_rank": 3055
   },
   {
     "word": "vengoe",
@@ -22710,7 +22710,7 @@ const derivedDictionaryData = [
       "resembling flint"
     ],
     "freq": 0,
-    "freq_rank": 3053
+    "freq_rank": 3057
   },
   {
     "word": "veponkue",
@@ -22724,7 +22724,7 @@ const derivedDictionaryData = [
       "surprised"
     ],
     "freq": 1,
-    "freq_rank": 1320
+    "freq_rank": 1322
   },
   {
     "word": "veponkui",
@@ -22757,7 +22757,7 @@ const derivedDictionaryData = [
       "resembling liver"
     ],
     "freq": 0,
-    "freq_rank": 3055
+    "freq_rank": 3059
   },
   {
     "word": "vexue",
@@ -22786,7 +22786,7 @@ const derivedDictionaryData = [
       "daredevil"
     ],
     "freq": 0,
-    "freq_rank": 3057
+    "freq_rank": 3061
   },
   {
     "word": "viancie",
@@ -22801,7 +22801,7 @@ const derivedDictionaryData = [
       "bold"
     ],
     "freq": 0,
-    "freq_rank": 3058
+    "freq_rank": 3062
   },
   {
     "word": "vicea",
@@ -22817,7 +22817,7 @@ const derivedDictionaryData = [
       "champion"
     ],
     "freq": 0,
-    "freq_rank": 3059
+    "freq_rank": 3063
   },
   {
     "word": "vicei",
@@ -22832,7 +22832,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1322
+    "freq_rank": 1324
   },
   {
     "word": "viceu",
@@ -22848,7 +22848,7 @@ const derivedDictionaryData = [
       "valor"
     ],
     "freq": 1,
-    "freq_rank": 1323
+    "freq_rank": 1325
   },
   {
     "word": "vifia",
@@ -22862,7 +22862,7 @@ const derivedDictionaryData = [
       "boiler"
     ],
     "freq": 0,
-    "freq_rank": 3060
+    "freq_rank": 3064
   },
   {
     "word": "viketsoe",
@@ -22878,7 +22878,7 @@ const derivedDictionaryData = [
       "glowing like a torch"
     ],
     "freq": 0,
-    "freq_rank": 3061
+    "freq_rank": 3065
   },
   {
     "word": "vildei",
@@ -22893,7 +22893,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1325
+    "freq_rank": 1327
   },
   {
     "word": "vildeu",
@@ -22907,7 +22907,7 @@ const derivedDictionaryData = [
       "directness"
     ],
     "freq": 0,
-    "freq_rank": 3063
+    "freq_rank": 3067
   },
   {
     "word": "virae",
@@ -22922,7 +22922,7 @@ const derivedDictionaryData = [
       "resembling elephant"
     ],
     "freq": 0,
-    "freq_rank": 3065
+    "freq_rank": 3069
   },
   {
     "word": "vispoa",
@@ -22937,7 +22937,7 @@ const derivedDictionaryData = [
       "mail carrier"
     ],
     "freq": 0,
-    "freq_rank": 3067
+    "freq_rank": 3071
   },
   {
     "word": "vispoe",
@@ -22952,7 +22952,7 @@ const derivedDictionaryData = [
       "resembling letter"
     ],
     "freq": 0,
-    "freq_rank": 3068
+    "freq_rank": 3072
   },
   {
     "word": "vivue",
@@ -22966,7 +22966,7 @@ const derivedDictionaryData = [
       "evening"
     ],
     "freq": 0,
-    "freq_rank": 3069
+    "freq_rank": 3073
   },
   {
     "word": "vixoe",
@@ -22981,7 +22981,7 @@ const derivedDictionaryData = [
       "resembling bucket"
     ],
     "freq": 0,
-    "freq_rank": 3071
+    "freq_rank": 3075
   },
   {
     "word": "vofue",
@@ -22995,7 +22995,7 @@ const derivedDictionaryData = [
       "vernal"
     ],
     "freq": 0,
-    "freq_rank": 3074
+    "freq_rank": 3078
   },
   {
     "word": "vohae",
@@ -23010,7 +23010,7 @@ const derivedDictionaryData = [
       "resembling mouse"
     ],
     "freq": 0,
-    "freq_rank": 3075
+    "freq_rank": 3079
   },
   {
     "word": "vojoe",
@@ -23026,7 +23026,7 @@ const derivedDictionaryData = [
       "loose-grained"
     ],
     "freq": 0,
-    "freq_rank": 3077
+    "freq_rank": 3081
   },
   {
     "word": "vokrei",
@@ -23041,7 +23041,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1326
+    "freq_rank": 1328
   },
   {
     "word": "vokreu",
@@ -23055,7 +23055,7 @@ const derivedDictionaryData = [
       "greed"
     ],
     "freq": 0,
-    "freq_rank": 3079
+    "freq_rank": 3083
   },
   {
     "word": "vomei",
@@ -23086,7 +23086,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 3080
+    "freq_rank": 3084
   },
   {
     "word": "lazoe",
@@ -23101,7 +23101,7 @@ const derivedDictionaryData = [
       "resembling stick"
     ],
     "freq": 0,
-    "freq_rank": 2300
+    "freq_rank": 2303
   },
   {
     "word": "vucilfue",
@@ -23116,7 +23116,7 @@ const derivedDictionaryData = [
       "obligatory"
     ],
     "freq": 0,
-    "freq_rank": 3081
+    "freq_rank": 3085
   },
   {
     "word": "vudipie",
@@ -23132,7 +23132,7 @@ const derivedDictionaryData = [
       "enameled"
     ],
     "freq": 0,
-    "freq_rank": 3083
+    "freq_rank": 3087
   },
   {
     "word": "vugloe",
@@ -23147,7 +23147,7 @@ const derivedDictionaryData = [
       "resembling template"
     ],
     "freq": 0,
-    "freq_rank": 3085
+    "freq_rank": 3089
   },
   {
     "word": "vulfie",
@@ -23161,7 +23161,7 @@ const derivedDictionaryData = [
       "trapped"
     ],
     "freq": 0,
-    "freq_rank": 3087
+    "freq_rank": 3091
   },
   {
     "word": "vuperpue",
@@ -23175,7 +23175,7 @@ const derivedDictionaryData = [
       "tribal"
     ],
     "freq": 0,
-    "freq_rank": 3088
+    "freq_rank": 3092
   },
   {
     "word": "vuwoe",
@@ -23190,7 +23190,7 @@ const derivedDictionaryData = [
       "resembling bell"
     ],
     "freq": 0,
-    "freq_rank": 3089
+    "freq_rank": 3093
   },
   {
     "word": "vyflae",
@@ -23205,7 +23205,7 @@ const derivedDictionaryData = [
       "resembling rice"
     ],
     "freq": 0,
-    "freq_rank": 3090
+    "freq_rank": 3094
   },
   {
     "word": "vyhei",
@@ -23220,7 +23220,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1332
+    "freq_rank": 1334
   },
   {
     "word": "vyheu",
@@ -23235,7 +23235,7 @@ const derivedDictionaryData = [
       "blandness"
     ],
     "freq": 0,
-    "freq_rank": 3091
+    "freq_rank": 3095
   },
   {
     "word": "vymae",
@@ -23251,7 +23251,7 @@ const derivedDictionaryData = [
       "frog-laid"
     ],
     "freq": 0,
-    "freq_rank": 3093
+    "freq_rank": 3097
   },
   {
     "word": "vynoe",
@@ -23266,7 +23266,7 @@ const derivedDictionaryData = [
       "resembling desk"
     ],
     "freq": 0,
-    "freq_rank": 3095
+    "freq_rank": 3099
   },
   {
     "word": "vywue",
@@ -23280,7 +23280,7 @@ const derivedDictionaryData = [
       "rhythmic"
     ],
     "freq": 0,
-    "freq_rank": 3097
+    "freq_rank": 3101
   },
   {
     "word": "vyzia",
@@ -23294,7 +23294,7 @@ const derivedDictionaryData = [
       "escapee"
     ],
     "freq": 0,
-    "freq_rank": 3098
+    "freq_rank": 3102
   },
   {
     "word": "vyziu",
@@ -23309,7 +23309,7 @@ const derivedDictionaryData = [
       "getaway"
     ],
     "freq": 1,
-    "freq_rank": 1333
+    "freq_rank": 1335
   },
   {
     "word": "derwei",
@@ -23324,7 +23324,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1672
+    "freq_rank": 1675
   },
   {
     "word": "wafria",
@@ -23338,7 +23338,7 @@ const derivedDictionaryData = [
       "loser"
     ],
     "freq": 0,
-    "freq_rank": 3099
+    "freq_rank": 3103
   },
   {
     "word": "resei",
@@ -23367,7 +23367,7 @@ const derivedDictionaryData = [
       "softness"
     ],
     "freq": 0,
-    "freq_rank": 2704
+    "freq_rank": 2707
   },
   {
     "word": "poxmei",
@@ -23382,7 +23382,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1227
+    "freq_rank": 1229
   },
   {
     "word": "poxmeu",
@@ -23398,7 +23398,7 @@ const derivedDictionaryData = [
       "left side"
     ],
     "freq": 1,
-    "freq_rank": 1228
+    "freq_rank": 1230
   },
   {
     "word": "snavoe",
@@ -23413,7 +23413,7 @@ const derivedDictionaryData = [
       "resembling environment"
     ],
     "freq": 0,
-    "freq_rank": 2816
+    "freq_rank": 2819
   },
   {
     "word": "wapsei",
@@ -23428,7 +23428,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1334
+    "freq_rank": 1336
   },
   {
     "word": "wapseu",
@@ -23442,7 +23442,7 @@ const derivedDictionaryData = [
       "flatness"
     ],
     "freq": 0,
-    "freq_rank": 3100
+    "freq_rank": 3104
   },
   {
     "word": "waskea",
@@ -23457,7 +23457,7 @@ const derivedDictionaryData = [
       "old person"
     ],
     "freq": 0,
-    "freq_rank": 3101
+    "freq_rank": 3105
   },
   {
     "word": "waskei",
@@ -23487,7 +23487,7 @@ const derivedDictionaryData = [
       "oldness"
     ],
     "freq": 0,
-    "freq_rank": 3102
+    "freq_rank": 3106
   },
   {
     "word": "wasmanae",
@@ -23502,7 +23502,7 @@ const derivedDictionaryData = [
       "resembling grandmother"
     ],
     "freq": 0,
-    "freq_rank": 3104
+    "freq_rank": 3108
   },
   {
     "word": "wasnupae",
@@ -23517,7 +23517,7 @@ const derivedDictionaryData = [
       "resembling grandparent"
     ],
     "freq": 0,
-    "freq_rank": 3105
+    "freq_rank": 3109
   },
   {
     "word": "waspebae",
@@ -23532,7 +23532,7 @@ const derivedDictionaryData = [
       "resembling grandfather"
     ],
     "freq": 0,
-    "freq_rank": 3107
+    "freq_rank": 3111
   },
   {
     "word": "wastia",
@@ -23546,7 +23546,7 @@ const derivedDictionaryData = [
       "waiter"
     ],
     "freq": 0,
-    "freq_rank": 3108
+    "freq_rank": 3112
   },
   {
     "word": "watosmoe",
@@ -23561,7 +23561,7 @@ const derivedDictionaryData = [
       "resembling rainbow"
     ],
     "freq": 0,
-    "freq_rank": 3109
+    "freq_rank": 3113
   },
   {
     "word": "waxia",
@@ -23575,7 +23575,7 @@ const derivedDictionaryData = [
       "exerciser"
     ],
     "freq": 0,
-    "freq_rank": 3112
+    "freq_rank": 3116
   },
   {
     "word": "waxiu",
@@ -23590,7 +23590,7 @@ const derivedDictionaryData = [
       "workout"
     ],
     "freq": 0,
-    "freq_rank": 3113
+    "freq_rank": 3117
   },
   {
     "word": "paxei",
@@ -23619,7 +23619,7 @@ const derivedDictionaryData = [
       "weakness"
     ],
     "freq": 0,
-    "freq_rank": 2610
+    "freq_rank": 2613
   },
   {
     "word": "webutue",
@@ -23634,7 +23634,7 @@ const derivedDictionaryData = [
       "martial"
     ],
     "freq": 0,
-    "freq_rank": 3114
+    "freq_rank": 3118
   },
   {
     "word": "wecdue",
@@ -23648,7 +23648,7 @@ const derivedDictionaryData = [
       "yesterday's"
     ],
     "freq": 1,
-    "freq_rank": 1337
+    "freq_rank": 1339
   },
   {
     "word": "wecei",
@@ -23677,7 +23677,7 @@ const derivedDictionaryData = [
       "wellness"
     ],
     "freq": 0,
-    "freq_rank": 3115
+    "freq_rank": 3119
   },
   {
     "word": "wedacue",
@@ -23691,7 +23691,7 @@ const derivedDictionaryData = [
       "bygone"
     ],
     "freq": 0,
-    "freq_rank": 3116
+    "freq_rank": 3120
   },
   {
     "word": "wefuhue",
@@ -23705,7 +23705,7 @@ const derivedDictionaryData = [
       "climatic"
     ],
     "freq": 0,
-    "freq_rank": 3118
+    "freq_rank": 3122
   },
   {
     "word": "wegue",
@@ -23719,7 +23719,7 @@ const derivedDictionaryData = [
       "angular"
     ],
     "freq": 0,
-    "freq_rank": 3120
+    "freq_rank": 3124
   },
   {
     "word": "welia",
@@ -23733,7 +23733,7 @@ const derivedDictionaryData = [
       "interrupter"
     ],
     "freq": 0,
-    "freq_rank": 3121
+    "freq_rank": 3125
   },
   {
     "word": "wembizia",
@@ -23747,7 +23747,7 @@ const derivedDictionaryData = [
       "donor"
     ],
     "freq": 0,
-    "freq_rank": 3122
+    "freq_rank": 3126
   },
   {
     "word": "wembiziu",
@@ -23761,7 +23761,7 @@ const derivedDictionaryData = [
       "donation"
     ],
     "freq": 0,
-    "freq_rank": 3123
+    "freq_rank": 3127
   },
   {
     "word": "wentoe",
@@ -23776,7 +23776,7 @@ const derivedDictionaryData = [
       "resembling ladder"
     ],
     "freq": 0,
-    "freq_rank": 3125
+    "freq_rank": 3129
   },
   {
     "word": "weokei",
@@ -23791,7 +23791,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1340
+    "freq_rank": 1342
   },
   {
     "word": "weokeo",
@@ -23807,7 +23807,7 @@ const derivedDictionaryData = [
       "round object"
     ],
     "freq": 0,
-    "freq_rank": 3126
+    "freq_rank": 3130
   },
   {
     "word": "weokeu",
@@ -23821,7 +23821,7 @@ const derivedDictionaryData = [
       "roundness"
     ],
     "freq": 0,
-    "freq_rank": 3127
+    "freq_rank": 3131
   },
   {
     "word": "weoroe",
@@ -23836,7 +23836,7 @@ const derivedDictionaryData = [
       "resembling ball"
     ],
     "freq": 0,
-    "freq_rank": 3128
+    "freq_rank": 3132
   },
   {
     "word": "wiblei",
@@ -23851,7 +23851,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 3129
+    "freq_rank": 3133
   },
   {
     "word": "wigakrue",
@@ -23865,7 +23865,7 @@ const derivedDictionaryData = [
       "trustworthy"
     ],
     "freq": 0,
-    "freq_rank": 3131
+    "freq_rank": 3135
   },
   {
     "word": "wigakrui",
@@ -23879,7 +23879,7 @@ const derivedDictionaryData = [
       "trust"
     ],
     "freq": 0,
-    "freq_rank": 3132
+    "freq_rank": 3136
   },
   {
     "word": "wikia",
@@ -23893,7 +23893,7 @@ const derivedDictionaryData = [
       "squeezer"
     ],
     "freq": 0,
-    "freq_rank": 3134
+    "freq_rank": 3138
   },
   {
     "word": "wiloe",
@@ -23908,7 +23908,7 @@ const derivedDictionaryData = [
       "resembling window"
     ],
     "freq": 0,
-    "freq_rank": 3135
+    "freq_rank": 3139
   },
   {
     "word": "winroe",
@@ -23923,7 +23923,7 @@ const derivedDictionaryData = [
       "resembling wine"
     ],
     "freq": 0,
-    "freq_rank": 3136
+    "freq_rank": 3140
   },
   {
     "word": "wiranoe",
@@ -23937,7 +23937,7 @@ const derivedDictionaryData = [
       "glassy"
     ],
     "freq": 0,
-    "freq_rank": 3137
+    "freq_rank": 3141
   },
   {
     "word": "witue",
@@ -23951,7 +23951,7 @@ const derivedDictionaryData = [
       "colorful"
     ],
     "freq": 0,
-    "freq_rank": 3138
+    "freq_rank": 3142
   },
   {
     "word": "wizae",
@@ -23966,7 +23966,7 @@ const derivedDictionaryData = [
       "resembling wing"
     ],
     "freq": 0,
-    "freq_rank": 3139
+    "freq_rank": 3143
   },
   {
     "word": "wodoboe",
@@ -23981,7 +23981,7 @@ const derivedDictionaryData = [
       "resembling potato"
     ],
     "freq": 0,
-    "freq_rank": 3141
+    "freq_rank": 3145
   },
   {
     "word": "wogia",
@@ -23995,7 +23995,7 @@ const derivedDictionaryData = [
       "hoper"
     ],
     "freq": 0,
-    "freq_rank": 3142
+    "freq_rank": 3146
   },
   {
     "word": "wogiu",
@@ -24010,7 +24010,7 @@ const derivedDictionaryData = [
       "aspiration"
     ],
     "freq": 1,
-    "freq_rank": 1344
+    "freq_rank": 1346
   },
   {
     "word": "womae",
@@ -24024,7 +24024,7 @@ const derivedDictionaryData = [
       "worm-like"
     ],
     "freq": 0,
-    "freq_rank": 3143
+    "freq_rank": 3147
   },
   {
     "word": "worue",
@@ -24038,7 +24038,7 @@ const derivedDictionaryData = [
       "regional"
     ],
     "freq": 0,
-    "freq_rank": 3144
+    "freq_rank": 3148
   },
   {
     "word": "stusei",
@@ -24053,7 +24053,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1280
+    "freq_rank": 1282
   },
   {
     "word": "stuseu",
@@ -24067,7 +24067,7 @@ const derivedDictionaryData = [
       "shortness"
     ],
     "freq": 0,
-    "freq_rank": 2867
+    "freq_rank": 2870
   },
   {
     "word": "wotipia",
@@ -24081,7 +24081,7 @@ const derivedDictionaryData = [
       "deleter"
     ],
     "freq": 0,
-    "freq_rank": 3145
+    "freq_rank": 3149
   },
   {
     "word": "wozuproe",
@@ -24096,7 +24096,7 @@ const derivedDictionaryData = [
       "resembling spear"
     ],
     "freq": 0,
-    "freq_rank": 3147
+    "freq_rank": 3151
   },
   {
     "word": "wubia",
@@ -24110,7 +24110,7 @@ const derivedDictionaryData = [
       "bender"
     ],
     "freq": 0,
-    "freq_rank": 3148
+    "freq_rank": 3152
   },
   {
     "word": "wujoa",
@@ -24125,7 +24125,7 @@ const derivedDictionaryData = [
       "mapmaker"
     ],
     "freq": 0,
-    "freq_rank": 3150
+    "freq_rank": 3154
   },
   {
     "word": "wujoe",
@@ -24141,7 +24141,7 @@ const derivedDictionaryData = [
       "map-related"
     ],
     "freq": 0,
-    "freq_rank": 3151
+    "freq_rank": 3155
   },
   {
     "word": "wujoi",
@@ -24156,7 +24156,7 @@ const derivedDictionaryData = [
       "chart"
     ],
     "freq": 0,
-    "freq_rank": 3152
+    "freq_rank": 3156
   },
   {
     "word": "feznei",
@@ -24185,7 +24185,7 @@ const derivedDictionaryData = [
       "dryness"
     ],
     "freq": 0,
-    "freq_rank": 1833
+    "freq_rank": 1835
   },
   {
     "word": "wuswoe",
@@ -24200,7 +24200,7 @@ const derivedDictionaryData = [
       "resembling nest"
     ],
     "freq": 0,
-    "freq_rank": 3155
+    "freq_rank": 3159
   },
   {
     "word": "wutroe",
@@ -24216,7 +24216,7 @@ const derivedDictionaryData = [
       "cast"
     ],
     "freq": 1,
-    "freq_rank": 1349
+    "freq_rank": 1351
   },
   {
     "word": "wydei",
@@ -24247,7 +24247,7 @@ const derivedDictionaryData = [
       "protection"
     ],
     "freq": 0,
-    "freq_rank": 3158
+    "freq_rank": 3162
   },
   {
     "word": "wyqoe",
@@ -24262,7 +24262,7 @@ const derivedDictionaryData = [
       "resembling soap"
     ],
     "freq": 0,
-    "freq_rank": 3160
+    "freq_rank": 3164
   },
   {
     "word": "xabesoe",
@@ -24277,7 +24277,7 @@ const derivedDictionaryData = [
       "resembling wind"
     ],
     "freq": 0,
-    "freq_rank": 3161
+    "freq_rank": 3165
   },
   {
     "word": "xadoroa",
@@ -24292,7 +24292,7 @@ const derivedDictionaryData = [
       "river warden"
     ],
     "freq": 0,
-    "freq_rank": 3162
+    "freq_rank": 3166
   },
   {
     "word": "xadoroe",
@@ -24307,7 +24307,7 @@ const derivedDictionaryData = [
       "resembling river"
     ],
     "freq": 1,
-    "freq_rank": 1350
+    "freq_rank": 1352
   },
   {
     "word": "xakoe",
@@ -24322,7 +24322,7 @@ const derivedDictionaryData = [
       "resembling hail"
     ],
     "freq": 0,
-    "freq_rank": 3164
+    "freq_rank": 3168
   },
   {
     "word": "xalia",
@@ -24337,7 +24337,7 @@ const derivedDictionaryData = [
       "traveller"
     ],
     "freq": 0,
-    "freq_rank": 3165
+    "freq_rank": 3169
   },
   {
     "word": "xalie",
@@ -24353,7 +24353,7 @@ const derivedDictionaryData = [
       "mobile"
     ],
     "freq": 0,
-    "freq_rank": 3166
+    "freq_rank": 3170
   },
   {
     "word": "xapo",
@@ -24369,7 +24369,7 @@ const derivedDictionaryData = [
       "illustration"
     ],
     "freq": 0,
-    "freq_rank": 3167
+    "freq_rank": 3171
   },
   {
     "word": "xaqboe",
@@ -24385,7 +24385,7 @@ const derivedDictionaryData = [
       "gilded"
     ],
     "freq": 0,
-    "freq_rank": 3169
+    "freq_rank": 3173
   },
   {
     "word": "xarei",
@@ -24415,7 +24415,7 @@ const derivedDictionaryData = [
       "clearness"
     ],
     "freq": 0,
-    "freq_rank": 3170
+    "freq_rank": 3174
   },
   {
     "word": "xedoa",
@@ -24431,7 +24431,7 @@ const derivedDictionaryData = [
       "blacksmith"
     ],
     "freq": 0,
-    "freq_rank": 3171
+    "freq_rank": 3175
   },
   {
     "word": "xedoe",
@@ -24445,7 +24445,7 @@ const derivedDictionaryData = [
       "metallic"
     ],
     "freq": 1,
-    "freq_rank": 1352
+    "freq_rank": 1354
   },
   {
     "word": "xedoei",
@@ -24460,7 +24460,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Concrete Noun -> Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1353
+    "freq_rank": 1355
   },
   {
     "word": "xekua",
@@ -24475,7 +24475,7 @@ const derivedDictionaryData = [
       "national"
     ],
     "freq": 0,
-    "freq_rank": 3172
+    "freq_rank": 3176
   },
   {
     "word": "xekue",
@@ -24489,7 +24489,7 @@ const derivedDictionaryData = [
       "national"
     ],
     "freq": 0,
-    "freq_rank": 3173
+    "freq_rank": 3177
   },
   {
     "word": "xempia",
@@ -24503,7 +24503,7 @@ const derivedDictionaryData = [
       "practitioner"
     ],
     "freq": 0,
-    "freq_rank": 3174
+    "freq_rank": 3178
   },
   {
     "word": "xempiu",
@@ -24519,7 +24519,7 @@ const derivedDictionaryData = [
       "rehearsal"
     ],
     "freq": 1,
-    "freq_rank": 1354
+    "freq_rank": 1356
   },
   {
     "word": "xepytue",
@@ -24533,7 +24533,7 @@ const derivedDictionaryData = [
       "rightful"
     ],
     "freq": 0,
-    "freq_rank": 3175
+    "freq_rank": 3179
   },
   {
     "word": "xeria",
@@ -24547,7 +24547,7 @@ const derivedDictionaryData = [
       "thrower"
     ],
     "freq": 0,
-    "freq_rank": 3176
+    "freq_rank": 3180
   },
   {
     "word": "xeskia",
@@ -24561,7 +24561,7 @@ const derivedDictionaryData = [
       "winner"
     ],
     "freq": 0,
-    "freq_rank": 3180
+    "freq_rank": 3184
   },
   {
     "word": "xeskio",
@@ -24578,7 +24578,7 @@ const derivedDictionaryData = [
       "reward"
     ],
     "freq": 0,
-    "freq_rank": 3181
+    "freq_rank": 3185
   },
   {
     "word": "xibia",
@@ -24592,7 +24592,7 @@ const derivedDictionaryData = [
       "promiser"
     ],
     "freq": 0,
-    "freq_rank": 3183
+    "freq_rank": 3187
   },
   {
     "word": "xibiu",
@@ -24607,7 +24607,7 @@ const derivedDictionaryData = [
       "pledge"
     ],
     "freq": 0,
-    "freq_rank": 3184
+    "freq_rank": 3188
   },
   {
     "word": "xicoe",
@@ -24621,7 +24621,7 @@ const derivedDictionaryData = [
       "treasure-"
     ],
     "freq": 0,
-    "freq_rank": 3186
+    "freq_rank": 3190
   },
   {
     "word": "xiglehei",
@@ -24635,7 +24635,7 @@ const derivedDictionaryData = [
       "be magenta"
     ],
     "freq": 0,
-    "freq_rank": 3188
+    "freq_rank": 3192
   },
   {
     "word": "xildoe",
@@ -24650,7 +24650,7 @@ const derivedDictionaryData = [
       "resembling shield"
     ],
     "freq": 0,
-    "freq_rank": 3189
+    "freq_rank": 3193
   },
   {
     "word": "xildoi",
@@ -24665,7 +24665,7 @@ const derivedDictionaryData = [
       "protect"
     ],
     "freq": 0,
-    "freq_rank": 3190
+    "freq_rank": 3194
   },
   {
     "word": "xioloe",
@@ -24680,7 +24680,7 @@ const derivedDictionaryData = [
       "resembling chair"
     ],
     "freq": 0,
-    "freq_rank": 3191
+    "freq_rank": 3195
   },
   {
     "word": "xirfie",
@@ -24694,7 +24694,7 @@ const derivedDictionaryData = [
       "fermented"
     ],
     "freq": 0,
-    "freq_rank": 3193
+    "freq_rank": 3197
   },
   {
     "word": "xiseslui",
@@ -24710,7 +24710,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 3194
+    "freq_rank": 3198
   },
   {
     "word": "xitrikia",
@@ -24724,7 +24724,7 @@ const derivedDictionaryData = [
       "teleporter"
     ],
     "freq": 0,
-    "freq_rank": 3198
+    "freq_rank": 3202
   },
   {
     "word": "xivei",
@@ -24754,7 +24754,7 @@ const derivedDictionaryData = [
       "costliness"
     ],
     "freq": 0,
-    "freq_rank": 3199
+    "freq_rank": 3203
   },
   {
     "word": "xixua",
@@ -24768,7 +24768,7 @@ const derivedDictionaryData = [
       "comedian"
     ],
     "freq": 0,
-    "freq_rank": 3201
+    "freq_rank": 3205
   },
   {
     "word": "xixue",
@@ -24784,7 +24784,7 @@ const derivedDictionaryData = [
       "amusing"
     ],
     "freq": 0,
-    "freq_rank": 3202
+    "freq_rank": 3206
   },
   {
     "word": "xixui",
@@ -24814,7 +24814,7 @@ const derivedDictionaryData = [
       "resembling television"
     ],
     "freq": 0,
-    "freq_rank": 3204
+    "freq_rank": 3208
   },
   {
     "word": "xogria",
@@ -24828,7 +24828,7 @@ const derivedDictionaryData = [
       "visitor"
     ],
     "freq": 0,
-    "freq_rank": 3205
+    "freq_rank": 3209
   },
   {
     "word": "xonkae",
@@ -24843,7 +24843,7 @@ const derivedDictionaryData = [
       "resembling chin"
     ],
     "freq": 0,
-    "freq_rank": 3207
+    "freq_rank": 3211
   },
   {
     "word": "xopae",
@@ -24858,7 +24858,7 @@ const derivedDictionaryData = [
       "resembling sheep"
     ],
     "freq": 0,
-    "freq_rank": 3209
+    "freq_rank": 3213
   },
   {
     "word": "xosia",
@@ -24872,7 +24872,7 @@ const derivedDictionaryData = [
       "opener"
     ],
     "freq": 0,
-    "freq_rank": 3210
+    "freq_rank": 3214
   },
   {
     "word": "xoweroe",
@@ -24887,7 +24887,7 @@ const derivedDictionaryData = [
       "resembling market"
     ],
     "freq": 0,
-    "freq_rank": 3211
+    "freq_rank": 3215
   },
   {
     "word": "xowua",
@@ -24902,7 +24902,7 @@ const derivedDictionaryData = [
       "actor"
     ],
     "freq": 0,
-    "freq_rank": 3212
+    "freq_rank": 3216
   },
   {
     "word": "xowue",
@@ -24916,7 +24916,7 @@ const derivedDictionaryData = [
       "theatrical"
     ],
     "freq": 0,
-    "freq_rank": 3213
+    "freq_rank": 3217
   },
   {
     "word": "xucue",
@@ -24930,7 +24930,7 @@ const derivedDictionaryData = [
       "vocal"
     ],
     "freq": 0,
-    "freq_rank": 3216
+    "freq_rank": 3220
   },
   {
     "word": "xufae",
@@ -24945,7 +24945,7 @@ const derivedDictionaryData = [
       "resembling arm"
     ],
     "freq": 0,
-    "freq_rank": 3217
+    "freq_rank": 3221
   },
   {
     "word": "grawiue",
@@ -24959,7 +24959,7 @@ const derivedDictionaryData = [
       "thankful"
     ],
     "freq": 0,
-    "freq_rank": 1963
+    "freq_rank": 1966
   },
   {
     "word": "xujiliu",
@@ -24973,7 +24973,7 @@ const derivedDictionaryData = [
       "upload"
     ],
     "freq": 0,
-    "freq_rank": 3218
+    "freq_rank": 3222
   },
   {
     "word": "xulazae",
@@ -24988,7 +24988,7 @@ const derivedDictionaryData = [
       "resembling cod"
     ],
     "freq": 0,
-    "freq_rank": 3220
+    "freq_rank": 3224
   },
   {
     "word": "xunia",
@@ -25002,7 +25002,7 @@ const derivedDictionaryData = [
       "burner"
     ],
     "freq": 0,
-    "freq_rank": 3221
+    "freq_rank": 3225
   },
   {
     "word": "xwewia",
@@ -25016,7 +25016,7 @@ const derivedDictionaryData = [
       "pardoner"
     ],
     "freq": 0,
-    "freq_rank": 3222
+    "freq_rank": 3226
   },
   {
     "word": "xyfia",
@@ -25030,7 +25030,7 @@ const derivedDictionaryData = [
       "doer"
     ],
     "freq": 0,
-    "freq_rank": 3224
+    "freq_rank": 3228
   },
   {
     "word": "xygei",
@@ -25059,7 +25059,7 @@ const derivedDictionaryData = [
       "thinness"
     ],
     "freq": 0,
-    "freq_rank": 3225
+    "freq_rank": 3229
   },
   {
     "word": "xyntae",
@@ -25074,7 +25074,7 @@ const derivedDictionaryData = [
       "resembling turtle"
     ],
     "freq": 0,
-    "freq_rank": 3227
+    "freq_rank": 3231
   },
   {
     "word": "xyploe",
@@ -25090,7 +25090,7 @@ const derivedDictionaryData = [
       "ferrous"
     ],
     "freq": 1,
-    "freq_rank": 1364
+    "freq_rank": 1366
   },
   {
     "word": "xyroa",
@@ -25105,7 +25105,7 @@ const derivedDictionaryData = [
       "vendor"
     ],
     "freq": 0,
-    "freq_rank": 3229
+    "freq_rank": 3233
   },
   {
     "word": "xyroe",
@@ -25135,7 +25135,7 @@ const derivedDictionaryData = [
       "go shopping"
     ],
     "freq": 0,
-    "freq_rank": 3230
+    "freq_rank": 3234
   },
   {
     "word": "xyswae",
@@ -25150,7 +25150,7 @@ const derivedDictionaryData = [
       "resembling duck"
     ],
     "freq": 0,
-    "freq_rank": 3232
+    "freq_rank": 3236
   },
   {
     "word": "ybawae",
@@ -25165,7 +25165,7 @@ const derivedDictionaryData = [
       "resembling bark"
     ],
     "freq": 0,
-    "freq_rank": 3233
+    "freq_rank": 3237
   },
   {
     "word": "ycubae",
@@ -25180,7 +25180,7 @@ const derivedDictionaryData = [
       "resembling mosquito"
     ],
     "freq": 0,
-    "freq_rank": 3235
+    "freq_rank": 3239
   },
   {
     "word": "yfukei",
@@ -25195,7 +25195,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 3237
+    "freq_rank": 3241
   },
   {
     "word": "ylxae",
@@ -25210,7 +25210,7 @@ const derivedDictionaryData = [
       "resembling mouth"
     ],
     "freq": 0,
-    "freq_rank": 3238
+    "freq_rank": 3242
   },
   {
     "word": "ynafei",
@@ -25240,7 +25240,7 @@ const derivedDictionaryData = [
       "tastiness"
     ],
     "freq": 0,
-    "freq_rank": 3240
+    "freq_rank": 3244
   },
   {
     "word": "ynsei",
@@ -25255,7 +25255,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 3242
+    "freq_rank": 3246
   },
   {
     "word": "ywurdua",
@@ -25270,7 +25270,7 @@ const derivedDictionaryData = [
       "offender"
     ],
     "freq": 0,
-    "freq_rank": 3243
+    "freq_rank": 3247
   },
   {
     "word": "ywurdue",
@@ -25284,7 +25284,7 @@ const derivedDictionaryData = [
       "criminal"
     ],
     "freq": 0,
-    "freq_rank": 3244
+    "freq_rank": 3248
   },
   {
     "word": "zabatoe",
@@ -25299,7 +25299,7 @@ const derivedDictionaryData = [
       "resembling bag"
     ],
     "freq": 0,
-    "freq_rank": 3245
+    "freq_rank": 3249
   },
   {
     "word": "zafoiroe",
@@ -25314,7 +25314,7 @@ const derivedDictionaryData = [
       "resembling floor"
     ],
     "freq": 0,
-    "freq_rank": 3248
+    "freq_rank": 3252
   },
   {
     "word": "zalae",
@@ -25330,7 +25330,7 @@ const derivedDictionaryData = [
       "verminous"
     ],
     "freq": 0,
-    "freq_rank": 3252
+    "freq_rank": 3256
   },
   {
     "word": "zafrua",
@@ -25344,7 +25344,7 @@ const derivedDictionaryData = [
       "politician"
     ],
     "freq": 0,
-    "freq_rank": 3250
+    "freq_rank": 3254
   },
   {
     "word": "zafrue",
@@ -25358,7 +25358,7 @@ const derivedDictionaryData = [
       "political"
     ],
     "freq": 0,
-    "freq_rank": 3251
+    "freq_rank": 3255
   },
   {
     "word": "zankia",
@@ -25372,7 +25372,7 @@ const derivedDictionaryData = [
       "hider"
     ],
     "freq": 0,
-    "freq_rank": 3253
+    "freq_rank": 3257
   },
   {
     "word": "zapue",
@@ -25386,7 +25386,7 @@ const derivedDictionaryData = [
       "systematic"
     ],
     "freq": 0,
-    "freq_rank": 3254
+    "freq_rank": 3258
   },
   {
     "word": "cekgoe",
@@ -25400,7 +25400,7 @@ const derivedDictionaryData = [
       "salty"
     ],
     "freq": 0,
-    "freq_rank": 1581
+    "freq_rank": 1584
   },
   {
     "word": "cekgoi",
@@ -25415,7 +25415,7 @@ const derivedDictionaryData = [
       "season"
     ],
     "freq": 0,
-    "freq_rank": 1582
+    "freq_rank": 1585
   },
   {
     "word": "zasoe",
@@ -25431,7 +25431,7 @@ const derivedDictionaryData = [
       "dirt-made"
     ],
     "freq": 0,
-    "freq_rank": 3255
+    "freq_rank": 3259
   },
   {
     "word": "zatertei",
@@ -25445,7 +25445,7 @@ const derivedDictionaryData = [
       "be lime-green"
     ],
     "freq": 0,
-    "freq_rank": 3257
+    "freq_rank": 3261
   },
   {
     "word": "zavei",
@@ -25476,7 +25476,7 @@ const derivedDictionaryData = [
       "tallness"
     ],
     "freq": 0,
-    "freq_rank": 3258
+    "freq_rank": 3262
   },
   {
     "word": "zawiu",
@@ -25490,7 +25490,7 @@ const derivedDictionaryData = [
       "admiration"
     ],
     "freq": 0,
-    "freq_rank": 3260
+    "freq_rank": 3264
   },
   {
     "word": "zelbie",
@@ -25504,7 +25504,7 @@ const derivedDictionaryData = [
       "imaginative"
     ],
     "freq": 0,
-    "freq_rank": 3261
+    "freq_rank": 3265
   },
   {
     "word": "zelbiu",
@@ -25518,7 +25518,7 @@ const derivedDictionaryData = [
       "imagination"
     ],
     "freq": 0,
-    "freq_rank": 3262
+    "freq_rank": 3266
   },
   {
     "word": "xubfoe",
@@ -25532,7 +25532,7 @@ const derivedDictionaryData = [
       "buttery"
     ],
     "freq": 0,
-    "freq_rank": 3215
+    "freq_rank": 3219
   },
   {
     "word": "zemia",
@@ -25546,7 +25546,7 @@ const derivedDictionaryData = [
       "coverer"
     ],
     "freq": 0,
-    "freq_rank": 3263
+    "freq_rank": 3267
   },
   {
     "word": "zemio",
@@ -25561,7 +25561,7 @@ const derivedDictionaryData = [
       "lid"
     ],
     "freq": 1,
-    "freq_rank": 1368
+    "freq_rank": 1370
   },
   {
     "word": "zenue",
@@ -25575,7 +25575,7 @@ const derivedDictionaryData = [
       "caring"
     ],
     "freq": 0,
-    "freq_rank": 3265
+    "freq_rank": 3269
   },
   {
     "word": "zenui",
@@ -25604,7 +25604,7 @@ const derivedDictionaryData = [
       "sunset"
     ],
     "freq": 0,
-    "freq_rank": 3267
+    "freq_rank": 3271
   },
   {
     "word": "zetye",
@@ -25619,7 +25619,7 @@ const derivedDictionaryData = [
       "pertinent"
     ],
     "freq": 0,
-    "freq_rank": 3268
+    "freq_rank": 3272
   },
   {
     "word": "zetyu",
@@ -25636,7 +25636,7 @@ const derivedDictionaryData = [
       "matter"
     ],
     "freq": 1,
-    "freq_rank": 1369
+    "freq_rank": 1371
   },
   {
     "word": "zewei",
@@ -25651,7 +25651,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 3269
+    "freq_rank": 3273
   },
   {
     "word": "zezurue",
@@ -25665,7 +25665,7 @@ const derivedDictionaryData = [
       "version-based"
     ],
     "freq": 0,
-    "freq_rank": 3271
+    "freq_rank": 3275
   },
   {
     "word": "zidzopoe",
@@ -25680,7 +25680,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 3272
+    "freq_rank": 3276
   },
   {
     "word": "zihei",
@@ -25695,7 +25695,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1371
+    "freq_rank": 1373
   },
   {
     "word": "ziheu",
@@ -25709,7 +25709,7 @@ const derivedDictionaryData = [
       "fame"
     ],
     "freq": 0,
-    "freq_rank": 3274
+    "freq_rank": 3278
   },
   {
     "word": "zikuzoa",
@@ -25723,7 +25723,7 @@ const derivedDictionaryData = [
       "banker"
     ],
     "freq": 0,
-    "freq_rank": 3275
+    "freq_rank": 3279
   },
   {
     "word": "zikuzoe",
@@ -25738,7 +25738,7 @@ const derivedDictionaryData = [
       "resembling bank"
     ],
     "freq": 0,
-    "freq_rank": 3276
+    "freq_rank": 3280
   },
   {
     "word": "zikuzou",
@@ -25753,7 +25753,7 @@ const derivedDictionaryData = [
       "finance"
     ],
     "freq": 0,
-    "freq_rank": 3277
+    "freq_rank": 3281
   },
   {
     "word": "nuzcoe",
@@ -25769,7 +25769,7 @@ const derivedDictionaryData = [
       "embellished"
     ],
     "freq": 0,
-    "freq_rank": 2525
+    "freq_rank": 2528
   },
   {
     "word": "zimempoe",
@@ -25785,7 +25785,7 @@ const derivedDictionaryData = [
       "pearl-like"
     ],
     "freq": 0,
-    "freq_rank": 3279
+    "freq_rank": 3283
   },
   {
     "word": "zimowoe",
@@ -25800,7 +25800,7 @@ const derivedDictionaryData = [
       "resembling framework"
     ],
     "freq": 0,
-    "freq_rank": 3281
+    "freq_rank": 3285
   },
   {
     "word": "zipae",
@@ -25815,7 +25815,7 @@ const derivedDictionaryData = [
       "resembling face"
     ],
     "freq": 0,
-    "freq_rank": 3282
+    "freq_rank": 3286
   },
   {
     "word": "zitsugua",
@@ -25830,7 +25830,7 @@ const derivedDictionaryData = [
       "council member"
     ],
     "freq": 0,
-    "freq_rank": 3283
+    "freq_rank": 3287
   },
   {
     "word": "zixefrae",
@@ -25846,7 +25846,7 @@ const derivedDictionaryData = [
       "coralline"
     ],
     "freq": 0,
-    "freq_rank": 3285
+    "freq_rank": 3289
   },
   {
     "word": "zobae",
@@ -25861,7 +25861,7 @@ const derivedDictionaryData = [
       "resembling vegetable"
     ],
     "freq": 0,
-    "freq_rank": 3286
+    "freq_rank": 3290
   },
   {
     "word": "zodei",
@@ -25891,7 +25891,7 @@ const derivedDictionaryData = [
       "noisiness"
     ],
     "freq": 0,
-    "freq_rank": 3287
+    "freq_rank": 3291
   },
   {
     "word": "zonitia",
@@ -25905,7 +25905,7 @@ const derivedDictionaryData = [
       "peeler"
     ],
     "freq": 0,
-    "freq_rank": 3289
+    "freq_rank": 3293
   },
   {
     "word": "zonitie",
@@ -25921,7 +25921,7 @@ const derivedDictionaryData = [
       "bark-removed"
     ],
     "freq": 0,
-    "freq_rank": 3290
+    "freq_rank": 3294
   },
   {
     "word": "bucia",
@@ -25935,7 +25935,7 @@ const derivedDictionaryData = [
       "jumper"
     ],
     "freq": 0,
-    "freq_rank": 1547
+    "freq_rank": 1549
   },
   {
     "word": "zorye",
@@ -25964,7 +25964,7 @@ const derivedDictionaryData = [
       "autumnal"
     ],
     "freq": 0,
-    "freq_rank": 3291
+    "freq_rank": 3295
   },
   {
     "word": "zowumpue",
@@ -25978,7 +25978,7 @@ const derivedDictionaryData = [
       "inflationary"
     ],
     "freq": 0,
-    "freq_rank": 3292
+    "freq_rank": 3296
   },
   {
     "word": "zufoe",
@@ -25993,7 +25993,7 @@ const derivedDictionaryData = [
       "resembling bed"
     ],
     "freq": 0,
-    "freq_rank": 3293
+    "freq_rank": 3297
   },
   {
     "word": "zulxie",
@@ -26007,7 +26007,7 @@ const derivedDictionaryData = [
       "awake"
     ],
     "freq": 0,
-    "freq_rank": 3294
+    "freq_rank": 3298
   },
   {
     "word": "zulxiu",
@@ -26022,7 +26022,7 @@ const derivedDictionaryData = [
       "awakening"
     ],
     "freq": 0,
-    "freq_rank": 3295
+    "freq_rank": 3299
   },
   {
     "word": "zurkoe",
@@ -26037,7 +26037,7 @@ const derivedDictionaryData = [
       "resembling shovel"
     ],
     "freq": 0,
-    "freq_rank": 3298
+    "freq_rank": 3302
   },
   {
     "word": "zusabrua",
@@ -26051,7 +26051,7 @@ const derivedDictionaryData = [
       "surgeon"
     ],
     "freq": 0,
-    "freq_rank": 3299
+    "freq_rank": 3303
   },
   {
     "word": "zusabrue",
@@ -26065,7 +26065,7 @@ const derivedDictionaryData = [
       "surgical"
     ],
     "freq": 0,
-    "freq_rank": 3300
+    "freq_rank": 3304
   },
   {
     "word": "zusabrui",
@@ -26080,7 +26080,7 @@ const derivedDictionaryData = [
       "perform surgery"
     ],
     "freq": 0,
-    "freq_rank": 3301
+    "freq_rank": 3305
   },
   {
     "word": "zuslefue",
@@ -26094,7 +26094,7 @@ const derivedDictionaryData = [
       "algorithmic"
     ],
     "freq": 0,
-    "freq_rank": 3302
+    "freq_rank": 3306
   },
   {
     "word": "zuwue",
@@ -26108,7 +26108,7 @@ const derivedDictionaryData = [
       "methodical"
     ],
     "freq": 0,
-    "freq_rank": 3304
+    "freq_rank": 3308
   },
   {
     "word": "zye",
@@ -26141,7 +26141,7 @@ const derivedDictionaryData = [
       "resembling shade"
     ],
     "freq": 0,
-    "freq_rank": 3307
+    "freq_rank": 3311
   },
   {
     "word": "zylia",
@@ -26155,7 +26155,7 @@ const derivedDictionaryData = [
       "user"
     ],
     "freq": 0,
-    "freq_rank": 3308
+    "freq_rank": 3312
   },
   {
     "word": "kwotui",
@@ -26171,7 +26171,7 @@ const derivedDictionaryData = [
       "to make a big deal of"
     ],
     "freq": 1,
-    "freq_rank": 1133
+    "freq_rank": 1135
   },
   {
     "word": "kwotue",
@@ -26186,7 +26186,7 @@ const derivedDictionaryData = [
       "overblown"
     ],
     "freq": 0,
-    "freq_rank": 2276
+    "freq_rank": 2279
   },
   {
     "word": "kwotuia",
@@ -26201,7 +26201,7 @@ const derivedDictionaryData = [
       "drama-maker"
     ],
     "freq": 0,
-    "freq_rank": 2277
+    "freq_rank": 2280
   },
   {
     "word": "lizjui",
@@ -26232,7 +26232,7 @@ const derivedDictionaryData = [
       "understated"
     ],
     "freq": 0,
-    "freq_rank": 2338
+    "freq_rank": 2341
   },
   {
     "word": "lizjuia",
@@ -26247,6 +26247,6 @@ const derivedDictionaryData = [
       "someone who downplays"
     ],
     "freq": 0,
-    "freq_rank": 2339
+    "freq_rank": 2342
   }
 ];

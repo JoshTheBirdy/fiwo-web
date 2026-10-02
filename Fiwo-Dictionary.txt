@@ -1,4 +1,4 @@
-# Fiwo Root Dictionary — 1536 entries
+# Fiwo Root Dictionary — 1540 entries
 # GENERATED from Canon/lexicon.json by Tools/build.py — do not edit by hand
 #
 # One entry per line, pipe-delimited, grouped by part of speech:
@@ -151,7 +151,7 @@ zofy | tier 0 · grammar core | Through | Indicates a spatial bridge where the s
 zory | tier 0 · grammar core | Between | Indicates a spatial or logical bridge placing the subject directly in the interval that separates two distinct entities.
 zy | tier 0 · grammar core | to | Used for direction toward a destination or outcome.
 
-=== Biological Noun — 196 entries ===
+=== Biological Noun — 198 entries ===
 acina | tier 3 · long tail | Claw | This word identifies a sharp, curved, horny nail situated on the digit of an animal's foot, used for gripping or tearing.
 apla | tier 2 · extended | Apple | The fleshy, round fruit of a specific widely cultivated tree, typically possessing a red or green skin and a crisp interior.
 bahara | tier 3 · long tail | Palm. | The inner, flat surface of the hand, between the wrist and the fingers.
@@ -201,6 +201,7 @@ fota | tier 3 · long tail | Root. | This identifies the part of a plant that at
 franka | tier 3 · long tail | Armadillo. | A burrowing mammal covered in bony armored plates, able to curl into a ball for defense.
 frelka | tier 3 · long tail | Mangrove. | A tree or shrub that grows in coastal saltwater swamps, supported by tangled above-ground roots.
 frisma | tier 3 · long tail | Rib. | One of the curved bones forming the cage that protects the chest cavity.
+fryra | tier 3 · long tail | Tiger | A large, carnivorous feline mammal with an orange coat and black stripes. (Usage: Lion is iega.)
 fuba | tier 1 · core | Fish | This identifies a cold-blooded vertebrate animal with gills and fins that lives strictly and entirely in water.
 furna | tier 3 · long tail | Fur | This word describes the dense coat of short, fine, soft hair on certain mammals, explicitly functioning as biological insulation. (Usage: Distinct from xesa, the broader word for hair.)
 gaha | tier 3 · long tail | Cocoa | The tropical tree seed from which chocolate is made; also the ground brown powder of that seed.
@@ -220,11 +221,11 @@ hulka | tier 3 · long tail | Llama. | A domesticated pack animal related to the
 huqa | tier 3 · long tail | Shoulder | The joint connecting the arm or forelimb with the torso.
 hylsa | tier 3 · long tail | Lip. | One of the two soft fleshy edges forming the opening of the mouth (ylxa); used in speech and eating.
 ibalira | tier 1 · core | Teacher / Educator | This refers to a person who gives systematic instruction and provides knowledge.
-iega | tier 3 · long tail | Lion / Tiger | A large, carnivorous feline mammal.
+iega | tier 3 · long tail | Lion | A large, carnivorous feline mammal with a tawny coat; the male has a mane. (Usage: Tiger is fryra.)
 ijyra | tier 3 · long tail | Tail | This word refers to the distinct, flexible appendage extending from the rear end of an animal's body.
 ilada | tier 3 · long tail | Reptile | This identifies a cold-blooded, typically land-dwelling biological class characterized by scales and, often, a lack of limbs.
 ipka | tier 2 · extended | Spider | An eight-legged predatory arachnid that spins webs to catch prey.
-iraksa | tier 3 · long tail | Tear / Teardrop | The physical, saline liquid produced and shed by the eyes.
+iraksa | tier 3 · long tail | Tear (from the eye) / Teardrop | The physical, saline liquid produced and shed by the eyes. (Usage: The liquid from the eye. To tear or rip something is eipi.)
 irta | tier 1 · core | Egg | This word identifies the round or oval biological reproductive body laid by the females of many animals, containing the developing embryo.
 ixpa | tier 3 · long tail | Fungus / Mushroom | An organism (such as a mushroom or mold) that feeds on organic matter and lacks chlorophyll.
 jepa | tier 3 · long tail | Offspring | This refers to the immediate descendant produced by the reproduction of a living organism.
@@ -303,6 +304,7 @@ soxa | tier 1 · core | Body. | This refers to the physical structure of a perso
 spujuba | tier 3 · long tail | Squid | A soft-bodied marine animal with eight arms and two long tentacles, able to squirt ink.
 suglasa | tier 3 · long tail | Zombie | A dead body reanimated into mindless motion; the walking dead of folklore.
 syca | tier 3 · long tail | Seed. | This refers to the unit of reproduction of a flowering plant capable of developing into another such plant.
+sygpa | tier 3 · long tail | Garlic | A pungent bulb made of small cloves, used to flavour food. (Usage: Onion is uwa.)
 taqa | tier 1 · core | Brother | This refers to a male sibling who shares one or both parents with another individual.
 tefama | tier 3 · long tail | Hip. | The joint and surrounding area where the leg meets the torso, at the side of the pelvis.
 tifava | tier 3 · long tail | Bush / Shrub | A woody plant smaller than a tree (mosa), with many stems branching from near the ground.
@@ -319,7 +321,7 @@ ucka | tier 3 · long tail | Seedling / Sprout / Sapling | A young plant, especi
 unyha | tier 3 · long tail | Moss | A soft, low, dense green plant that carpets damp surfaces.
 upta | tier 3 · long tail | Eagle / Hawk | A large bird of prey with a curved beak and long, broad wings.
 uvga | tier 3 · long tail | Toe | Any of the five terminal digits of the foot.
-uwa | tier 3 · long tail | Onion / Garlic | A bulbous vegetable with a pungent smell and taste, used in cooking.
+uwa | tier 3 · long tail | Onion | A bulbous vegetable of layered flesh with a pungent smell and taste, used in cooking. (Usage: Garlic is sygpa.)
 vefa | tier 3 · long tail | Lung | The primary organ of respiration in humans and many other animals, used for gas exchange.
 vesma | tier 3 · long tail | Liver. | The internal organ that filters the blood and processes nutrients and toxins.
 vira | tier 3 · long tail | Elephant | A very large herbivorous mammal characterized by a long trunk, tusks, and large ears.
@@ -657,10 +659,10 @@ zufo | tier 1 · core | Bed. | This refers to a piece of furniture or a prepared
 zurko | tier 3 · long tail | Shovel. | A tool with a broad blade and handle, used for digging and moving loose material.
 zygloro | tier 2 · extended | Shade | An area sheltered from direct light.
 
-=== Abstract Noun — 323 entries ===
+=== Abstract Noun — 324 entries ===
 absu | tier 3 · long tail | Sense | An abstract faculty of perception, logic, or structural meaning. (Usage: The faculty itself, distinct from the physical sense organ.)
 adrebu | tier 2 · extended | Degree | Extent, Used when referring to the how much of an abstract concept (e.g., The extent of the problem).
-afymu | tier 3 · long tail | Economy / Industry | The abstract conceptual system governing the production, distribution, and consumption of societal resources.
+afymu | tier 3 · long tail | Economy / Industry | The abstract conceptual system governing the production, distribution, and consumption of societal resources. (Usage: The economy as a whole, with its industries. The market — buying, selling, prices — is skoru.)
 agcu | tier 2 · extended | Mistake / Error | An action, decision, or judgment that is incorrect, misguided, or wrong.
 anuwu | tier 2 · extended | Vital finishing touch | The one small final addition that brings the whole to life; the opposite of lynku (ruin by overdoing). Logical equivalent: Lantiup nifne fefue keanei cemup late. (The small final addition completes everything.)
 artu | tier 2 · extended | Art | The conceptual expression or abstract application of human creative skill and imagination.
@@ -697,7 +699,7 @@ cytu | tier 3 · long tail | Preposition. | The grammatical word class marking a
 dadukru | tier 2 · extended | Specialty / Expertise | The particular area a person specializes in; their expertise. (Usage: What a particular person is expert in. The field of study itself is atobu.)
 dahu | tier 3 · long tail | Value. | This refers to the relative worth, merit, or importance of a thing; or a numerical quantity assigned to a symbol or variable.
 dangu | tier 3 · long tail | vacation / holiday | A period of rest and leisure away from work, study, or routine; a holiday or vacation.
-decu | tier 3 · long tail | Attitude / Demeanor / Opinion | An abstract psychological stance, settled way of thinking, or behavioral disposition toward a specific entity or situation.
+decu | tier 3 · long tail | Attitude / Demeanor | An abstract psychological stance, settled way of thinking, or behavioral disposition toward a specific entity or situation. (Usage: A stance or manner toward something. An opinion — your judgement of it — is ipsgu.)
 deluflu | tier 2 · extended | Budget | A plan of how available money will be spent.
 deqazu | tier 3 · long tail | Department / Faculty / Branch | An abstract conceptual division, academic faculty, or specialized branch within a larger institutional or corporate system.
 diluju | tier 3 · long tail | Account | A registered identity within a system, holding a user's access, data, and history.
@@ -713,7 +715,7 @@ dzubu | tier 3 · long tail | Verb. | The grammatical word class denoting action
 ednu | tier 2 · extended | Faith / Religion | Strong belief, trust, or conviction in a doctrine, system, or divine creator.
 efantu | tier 3 · long tail | Effort | The abstract conceptual measurement of physical or mental exertion required to achieve a goal.
 efzu | tier 3 · long tail | Harmony | The state of agreement, concord, peaceful cooperation, or pleasing musical notes sounded together.
-eguvu | tier 3 · long tail | Level / Standard / Rank | An abstract conceptual measurement of achievement, quality, or relative position on a vertical or hierarchical scale.
+eguvu | tier 3 · long tail | Level / Rank | An abstract conceptual measurement of achievement, quality, or relative position on a vertical or hierarchical scale. (Usage: A position on a scale. A standard or criterion something is judged by is imsu.)
 epufu | tier 3 · long tail | Justice | The abstract principle of moral rightness, equity, fairness, and the administration of law.
 eru | tier 2 · extended | War | A state of abstract or political conflict, competition, or severe hostility between different groups or nations.
 evmu | tier 3 · long tail | Accident | An event that happens unexpectedly and unintentionally, typically resulting in damage or injury.
@@ -743,7 +745,7 @@ gagu | tier 2 · extended | Texture / Surface Quality. | Noun (Abstract). Defini
 gasirfu | tier 3 · long tail | Nausea | The sick feeling of being about to vomit.
 geluku | tier 3 · long tail | Borrowed authority | Being feared or obeyed only through a patron's power. Logical equivalent: Nofa je briwi daq dawy rezap. (People fear him because of the leader.)
 getiku | tier 2 · extended | Energy | The abstract mathematical or conceptual capacity for doing work or initiating physical activity.
-getsu | tier 3 · long tail | eriod of time / Phase | A specific, bounded segment or duration of time with a clear beginning and end. (This is how you isolate a period from the absolute, universal variable of Time [dionu]).
+getsu | tier 3 · long tail | Period of time / Phase | A specific, bounded segment or duration of time with a clear beginning and end. (This is how you isolate a period from the absolute, universal variable of Time [dionu]).
 gewysmu | tier 3 · long tail | Dose | A measured amount of medicine taken at one time.
 gicuhu | tier 2 · extended | Percent | A proportion or rate expressed as a number of parts per hundred.
 gidu | tier 1 · core | Money. | This refers to a current medium of exchange in the form of coins and banknotes.
@@ -775,7 +777,8 @@ ibitu | tier 2 · extended | Class | An abstract system of ordering society or c
 icejenu | tier 2 · extended | Period | A stretch of time with a beginning and an end.
 idvu | tier 2 · extended | Mystery / Secret | Something that is difficult or impossible to understand, explain, or uncover.
 ifuxu | tier 2 · extended | Trapped mid-risk | A risk easier to start than to stop; being astride it. Logical equivalent: Cimiu curmei. Sejiu muilei. (Starting is easy. Stopping is difficult.)
-imsu | tier 3 · long tail | Standard / Criterion | A level of quality or attainment, or a rule/principle by which something is judged.
+imsu | tier 3 · long tail | Standard / Criterion | A level of quality or attainment, or a rule/principle by which something is judged. (Usage: The bar something is judged against. A level or rank on a scale is eguvu.)
+ipsgu | tier 3 · long tail | Opinion / View | A cognitive judgement someone holds about something: what they think of it, whether good or bad, true or false. (Usage: The judgement itself. A general attitude or manner toward something is decu.)
 iqocu | tier 3 · long tail | Effect | The abstract conceptual change which is a direct mathematical result or consequence of a prior cause.
 isamu | tier 2 · extended | Result | The abstract consequence, logical effect, or final mathematical outcome of a specific action or event.
 iubu | tier 3 · long tail | Failure | The state or condition of not meeting a desirable goal or standard; the lack of success.
@@ -896,7 +899,7 @@ sicwu | tier 3 · long tail | Revolution | A massive, abstract conceptual paradi
 sismoru | tier 2 · extended | Access | The right or ability to enter, use, or reach something.
 sitastu | tier 2 · extended | Source / Origin | The place or thing from which something comes or begins.
 skeju | tier 2 · extended | Sound. | This refers to vibrations that travel through the air or another medium and can be heard when they reach a person's or animal's ear.
-skoru | tier 1 · core | Market (the economy) | The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange. (Usage: Buying and selling as a system. The place you go to shop is xowero.)
+skoru | tier 1 · core | Market (the economy) | The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange. (Usage: Buying and selling as a system. The place you go to shop is xowero. The economy as a whole, with its industries, is afymu.)
 sluqedu | tier 1 · core | Saturday | Saturday; the sixth day of the week. Derived by compounding sluqe (six) and du (day).
 smusu | tier 3 · long tail | Horse-to-water futility | The situation of enabling someone who cannot be compelled: you can give the means, but not the will. Logical equivalent: Suk nyrsi luge kabap zy dorsop bul suk nes lini luge tep kabap roli. (You can carry the horse to the water but you cannot make the horse drink.)
 snasumu | tier 3 · long tail | Refund | Money returned because goods or services failed.
@@ -982,7 +985,7 @@ zusabru | tier 2 · extended | Surgery | A medical operation that cuts into the 
 zuslefu | tier 3 · long tail | Algorithm | A precise step-by-step procedure for solving a problem.
 zuwu | tier 2 · extended | Way / Manner. | This refers to a method, style, or custom of doing something.
 
-=== Modifier — 256 entries ===
+=== Modifier — 257 entries ===
 acle | tier 3 · long tail | Generous | Showing a readiness to give more of something (like time, care, or wealth) than is expected.
 adriswe | tier 3 · long tail | Diagonal | Running at a slant, joining opposite corners rather than following the vertical or horizontal.
 ahze | tier 3 · long tail | Almost / Nearly. | This word indicates that something is very close to a specific state, quantity, or degree, but is not completely there yet.
@@ -1003,13 +1006,14 @@ boke | tier 1 · core | Bad. | Regarded as subjectively negative or unfavorable.
 botaxe | tier 3 · long tail | Stupid / Foolish | This describes an entity possessing a low mental capacity, or lacking logic, reasoning, and good judgment.
 buxe | tier 3 · long tail | Impatient | Showing a tendency to be quickly irritated or provoked by delays, obstacles, or opposition.
 byceve | tier 2 · extended | Each | Every one of a group considered individually, one by one.
+cacte | tier 3 · long tail | Popular | Liked, enjoyed, or sought out by many people. (Usage: Common (found often) is compe; famous (widely known) is zihe.)
 cape | tier 1 · core | Black. | This word describes the very darkest color, resulting from the absence or complete absorption of light. (Usage: The colour. For darkness (the absence of light), use roku.)
 cele | tier 3 · long tail | Private / Personal | Belonging to or for the use of one particular person or group only; not public.
 cenle | tier 3 · long tail | Narrow. | This word describes something of small width in relation to length.
 ciafe | tier 2 · extended | Already | This describes an action or state that has been fully completed or achieved prior to a specific point in time.
 cige | tier 3 · long tail | Foreign | Belonging to, coming from, or characteristic of another country, language, or society.
 cohe | tier 1 · core | Few / Little. | This word describes a small number or amount of something. (Usage: Amount — few people, a little water. For size (a little house) use nifne; for degree (a little tired) use beje.)
-compe | tier 3 · long tail | Common / Popular | This word describes something occurring, found, or done frequently; highly prevalent in the environment.
+compe | tier 3 · long tail | Common | This word describes something occurring, found, or done frequently; highly prevalent in the environment. (Usage: Frequent, found often. Popular (liked by many) is cacte; famous (widely known) is zihe.)
 cuje | tier 1 · core | Some / An indefinite amount | Describes an indefinite, non-zero quantity or subset of an entity. Mathematically, it asserts that a quantity exists (strictly greater than zero) but explicitly leaves the exact number undefined, stripping away any subjective judgment of whether it is few or many.
 cunte | tier 2 · extended | Current | This word describes a state or object belonging strictly to the present timeframe; happening or being actively used right now.
 curme | tier 1 · core | Easy | This word describes an action or concept achieved without great effort; presenting zero or very few obstacles.
@@ -1117,7 +1121,7 @@ lumbe | tier 3 · long tail | Rarely. | With low frequency; more than amce (neve
 luoke | tier 3 · long tail | Purple / Violet | Exhibiting a dark hue blending red and blue, often associated with twilight skies or certain flowers.
 lyse | tier 2 · extended | Right. | This refers to the direction or side towards the east when facing north; opposite to left. (Usage: The side or direction only. For 'correct' use hiqe; for 'a right' (entitlement) use xepytu.)
 mace | tier 1 · core | (Possible / Might / Maybe) | Possible, but not logically or physically guaranteed.
-madme | tier 3 · long tail | Blunt / Dull. | This word describes something lacking a sharp edge or point.
+madme | tier 3 · long tail | Blunt / Dull (of an edge) | This word describes something lacking a sharp edge or point. (Usage: Of an edge or point only. Dull in the sense of boring is not madme.)
 mafehe | tier 2 · extended | Perfect / Flawless | Complete and without any defect or flaw.
 marte | tier 1 · core | Eight | This refers to the cardinal number equivalent to the product of two and four.
 merne | tier 1 · core | Most. | The greatest quantity/quality compared to something else.
@@ -1292,7 +1296,7 @@ dzuvi | tier 3 · long tail | Erode | To wear away gradually by the action of wi
 ebnesi | tier 1 · core | Forget | To lose access to stored mental data; the systemic inability to retrieve a past event or learned concept.
 edorari | tier 3 · long tail | To deep fry | To cook a physical object by completely submerging it in boiling fat or oil.
 efmi | tier 2 · extended | Steal | To take another person's property without permission or legal right.
-eipi | tier 3 · long tail | Tear / Rip | To pull apart or into pieces by force.
+eipi | tier 3 · long tail | Tear (rip) / Rip | To pull apart or into pieces by force. (Usage: To tear something apart. A teardrop is iraksa.)
 eksapli | tier 2 · extended | Explain / Describe | To structurally clarify data, logic, or meaning to make it perfectly comprehensible to another mind.
 emiti | tier 2 · extended | Follow | To physically move or conceptually travel sequentially behind a target.
 enconi | tier 1 · core | Meet | To intentionally or accidentally come into the physical presence of someone.
@@ -1303,7 +1307,7 @@ erpilsi | tier 3 · long tail | Vomit | To expel the stomach's contents through 
 etypi | tier 1 · core | To get / To obtain | To actively and successfully acquire, gain possession of, or secure a physical object or abstract concept. (Implies active effort or successful acquisition).
 eziswi | tier 2 · extended | Implement | To put a plan, decision, or system into effect; to carry out.
 fabi | tier 1 · core | Want. | This verb means to have a desire to possess or do something.
-falazi | tier 3 · long tail | To journal / To record | To actively write down, log, or systematically record events, thoughts, or experiences that have taken place, typically for personal reflection or historical preservation.
+falazi | tier 3 · long tail | To journal / To record | To actively write down, log, or systematically record events, thoughts, or experiences that have taken place, typically for personal reflection or historical preservation. (Usage: Writing something down. Recording sound or your voice is not falazi.)
 falmi | tier 3 · long tail | To report / To recount | To officially retell, record, or communicate the factual details of events that have already taken place. (Usage: Distinct from nari (to tell), which is general communication; falmi implies an objective recounting of history or data.)
 fasidi | tier 3 · long tail | Include / Involve | To contain an entity as a subordinate part or member of a larger whole or system.
 fasnoli | tier 3 · long tail | Disseminate | To spread or publicize information widely; to propagandize.
@@ -1427,7 +1431,7 @@ nyxidi | tier 2 · extended | Rent | To pay for the temporary use of something o
 ombi | tier 1 · core | Send / Deliver | To cause a physical object or abstract message to be conveyed to a separate destination.
 onasi | tier 2 · extended | To plant / To cultivate | To actively grow, tend to, or farm biological crops or plants.
 onli | tier 3 · long tail | Rub | To apply friction or pressure to a surface by moving something back and forth over it.
-opcori | tier 3 · long tail | Stir / Mix (mechanically) | To move a spoon or other implement around in a liquid or other substance in order to mix it thoroughly.
+opcori | tier 3 · long tail | Stir | To move a spoon or other implement around in a liquid or other substance in order to mix it thoroughly. (Usage: Stirring with a spoon or implement. To mix or blend substances is fewi.)
 opdi | tier 3 · long tail | Whisper | To speak very softly using one's breath rather than vocal cords to prevent others from hearing.
 otani | tier 1 · core | Cook | To chemically or physically alter food matter for consumption by systematically applying thermal energy.
 owadi | tier 3 · long tail | Spend | To mathematically exhaust, exchange, or use up a measurable resource, such as time or money.
@@ -1444,7 +1448,7 @@ pegi | tier 3 · long tail | Fold | To bend something flexible over on itself so
 peteswi | tier 2 · extended | Spend | To pay out money in exchange for goods or services.
 petni | tier 3 · long tail | Excrete | This verb means to separate and expel waste matter from the body.
 piji | tier 3 · long tail | Warn | To inform someone in advance of an impending danger, threat, or problem.
-pitbi | tier 3 · long tail | Reform /  Improve | To actively make changes to an abstract system, institution, or practice in order to improve it.
+pitbi | tier 3 · long tail | Improve / Reform | To make something better: a skill, a thing, a situation. Reforming a system, institution or practice is one use of it. (Usage: The general word for improve, e.g. improving your Fiwo or a recipe, not only an institution.)
 pozi | tier 1 · core | Think / Consider | This verb means to direct one's mind toward someone or something or to form ideas.
 purki | tier 1 · core | Turn. | This verb means to rotate or change the direction of movement.
 pywi | tier 1 · core | Listen | To make a conscious effort to hear; to pay attention to sound. (Usage: The active effort, distinct from passive hearing.)
@@ -1518,14 +1522,14 @@ vansi | tier 2 · extended | Advance / Progress | To advance, move forward logic
 vepi | tier 1 · core | Need. | This verb means to require something because it is essential or very important.
 vianci | tier 3 · long tail | To dare | To have the courage to execute an action despite fear or risk.
 vifi | tier 2 · extended | Boil | To heat a liquid until it reaches its boiling point and turns into vapor.
-voci | tier 3 · long tail | To demand / To require | To actively ask for something with strict necessity or authoritative expectation.
+voci | tier 3 · long tail | To demand / To insist on | To actively ask for something with strict necessity or authoritative expectation. (Usage: Demanding something from someone. To require in the sense of needing is vepi.)
 vudipi | tier 3 · long tail | Glaze | To coat a surface with a thin glassy layer that hardens smooth and shiny, as on pottery (dzoco) or food.
 vulfi | tier 3 · long tail | Trap | To catch and hold by means of a concealed device, so that escape is prevented.
 vyzi | tier 2 · extended | Escape | To break free from confinement, danger, or control.
 wafri | tier 1 · core | To lose. | To cease to have or possess something (an object, a contest, or an opportunity); to be deprived of, or to be defeated. (Usage: Distinct from ebnesi (to forget).)
 wasti | tier 1 · core | Wait | To remain in a state of paused action in strict anticipation of a specific future event or time.
 wavci | tier 3 · long tail | Doubt | To feel uncertain about something, or to lack conviction in a truth. (Usage: Leans away from a claim's truth. For a weak positive lean on partial evidence (classically something bad or hidden), use skaxebi (to suspect).)
-waxi | tier 3 · long tail | To exercise / To move actively | To actively move one's biological body to exert energy, maintain health, or engage in physical recreation.
+waxi | tier 3 · long tail | To exercise / To work out | To actively move one's biological body to exert energy, maintain health, or engage in physical recreation. (Usage: Physical exercise. Plain going or moving is xali; moving something is mepdi.)
 weli | tier 3 · long tail | Interrupt | To stop someone in the middle of an action, speech, or process.
 wembizi | tier 3 · long tail | Donate | To give money or goods freely to a person or cause.
 wiki | tier 3 · long tail | Squeeze | To firmly press or compress something, typically to extract liquid or change its shape.

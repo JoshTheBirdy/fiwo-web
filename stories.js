@@ -8243,7 +8243,7 @@ const storyData = [
         "english": "They laughed a lot."
       },
       {
-        "fiwo": "Malka gesid huc Nak nes vepi gioxup.",
+        "fiwo": "Malka gesid huc Muk nes vepi gioxup.",
         "english": "\"We don't need an AI,\" said Malka."
       },
       {
@@ -8339,7 +8339,7 @@ const storyData = [
         "english": "Kiro and Nila came into the kitchen."
       },
       {
-        "fiwo": "Kiro slezid huc Kup nak nomis dury wiq?",
+        "fiwo": "Kiro slezid huc Kup muk nomis dury wiq?",
         "english": "\"When are we eating?\" Kiro asked."
       },
       {
@@ -8619,7 +8619,7 @@ const storyData = [
         "english": "\"Machines do not die, so machines are safe,\" Zimi answered."
       },
       {
-        "fiwo": "Kiro opdid zy Nila huc Nak fwimis sydop dugu.",
+        "fiwo": "Kiro opdid zy Nila huc Muk fwimis sydop dugu.",
         "english": "\"We leave the house tonight,\" Kiro whispered to Nila."
       },
       {
@@ -8719,7 +8719,7 @@ const storyData = [
         "english": "\"The country is one big island,\" said Nila."
       },
       {
-        "fiwo": "Talvo gesid huc Nak hicis zy juro.",
+        "fiwo": "Talvo gesid huc Muk hicis zy juro.",
         "english": "\"We will walk to the city,\" said Talvo."
       },
       {
@@ -9235,7 +9235,7 @@ const storyData = [
         "english": "Malka smiled a little."
       },
       {
-        "fiwo": "Kiro slezid huc Kup nak nomis dury wiq?",
+        "fiwo": "Kiro slezid huc Kup muk nomis dury wiq?",
         "english": "\"When are we eating?\" Kiro asked."
       },
       {
@@ -9243,11 +9243,11 @@ const storyData = [
         "english": "Nobody laughed."
       },
       {
-        "fiwo": "Malka hadid huc Nak nes jedi batar.",
+        "fiwo": "Malka hadid huc Muk nes jedi batar.",
         "english": "\"We have no food,\" Malka answered."
       },
       {
-        "fiwo": "Nila gesid huc Nak tsytis batar dugu.",
+        "fiwo": "Nila gesid huc Muk tsytis batar dugu.",
         "english": "\"We will look for food tonight,\" said Nila."
       },
       {
@@ -9411,7 +9411,7 @@ const storyData = [
         "english": "\"You are a little Zimi,\" she said."
       },
       {
-        "fiwo": "Kiro gesid huc Nak skumkis ram nu.",
+        "fiwo": "Kiro gesid huc Muk skumkis ram nu.",
         "english": "\"We'll destroy it now,\" said Kiro."
       },
       {
@@ -9431,11 +9431,11 @@ const storyData = [
         "english": "\"It's brand new,\" Nila answered. \"It doesn't know anything.\""
       },
       {
-        "fiwo": "Kiro slezid huc Kup nak xyfis wy ram wat?",
+        "fiwo": "Kiro slezid huc Kup muk xyfis wy ram wat?",
         "english": "\"What will we do with it?\" Kiro asked."
       },
       {
-        "fiwo": "Nila hadid huc Nak kritris ram.",
+        "fiwo": "Nila hadid huc Muk kritris ram.",
         "english": "\"We will teach it,\" Nila answered."
       },
       {
@@ -9603,7 +9603,7 @@ const storyData = [
         "english": "\"I am very hungry,\" it said."
       },
       {
-        "fiwo": "Farlopap gesid huc Ram vepi gejedop. Nak nes jedi gejedop.",
+        "fiwo": "Farlopap gesid huc Ram vepi gejedop. Muk nes jedi gejedop.",
         "english": "\"It needs electricity,\" said the doctor. \"We have no electricity.\""
       },
       {
@@ -9739,7 +9739,7 @@ const storyData = [
         "english": "Malka thought."
       },
       {
-        "fiwo": "Das ifezid huc Nak xalis zy jurop.",
+        "fiwo": "Das ifezid huc Muk xalis zy jurop.",
         "english": "\"We will go to the city,\" she decided."
       },
       {

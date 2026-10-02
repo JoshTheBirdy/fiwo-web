@@ -4,7 +4,7 @@ This is a COMPLETE, SELF-CONTAINED pack. Do not ask for, or assume the
 existence of, any other Fiwo file. It carries the full grammar (all 39
 rules) but only CORE vocabulary — tier 0 (closed class: pronouns, mood
 tags, prepositions, particles, suffixes) and tier 1 (the beginner core).
-1,204 further roots exist and are NOT in this pack. That is the
+1,208 further roots exist and are NOT in this pack. That is the
 subset the VOCABULARY INTEGRITY section below is talking about: when a word
 is missing here, it is missing from the pack, not from the language. Say
 "that is outside the core vocabulary in this pack" — never "that word
@@ -842,7 +842,7 @@ pruredu = Sunday : Sunday; the seventh day of the week. Derived by compounding p
 rajedu = Friday : Friday; the fifth day of the week. Derived by compounding raje (five) and du (day).  [tier 1 · core]
 retadu = Week : This refers to a continuous time period consisting of seven days.  [tier 1 · core]
 rugoxu = Month : This refers to a period of time historically corresponding to a lunar cycle or a standard calendar division.  [tier 1 · core]
-skoru = Market (the economy) : The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange. (Usage: Buying and selling as a system. The place you go to shop is xowero.)  [tier 1 · core]
+skoru = Market (the economy) : The abstract conceptual arena or mathematical system of commercial dealings, trade, and economic exchange. (Usage: Buying and selling as a system. The place you go to shop is xowero. The economy as a whole, with its industries, is afymu.)  [tier 1 · core]
 sluqedu = Saturday : Saturday; the sixth day of the week. Derived by compounding sluqe (six) and du (day).  [tier 1 · core]
 suju = Interest : The abstract conceptual feeling of wanting to know/learn about something, or an intangible advantage/benefit.  [tier 1 · core]
 sysu = Boredom : The state of feeling weary, restless, or uninterested due to lack of activity or stimulation.  [tier 1 · core]
