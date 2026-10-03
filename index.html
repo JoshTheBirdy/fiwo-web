@@ -563,10 +563,10 @@
 
         </section>
         <section id="rules" class="page">
-            <h2>Rule Book (All 40 Rules)</h2>
+            <h2>Rule Book (All 41 Rules)</h2>
 <p>This is the comprehensive, official rulebook of the <strong>Fiwo</strong> constructed language. It contains the complete set of phonological, morphological, syntactical, and logical rules that define how the language is written, spoken, and parsed.</p>
 <p>The rules are organized into <strong>9 Parts</strong> in a logical, pedagogical progression, beginning with core phonetic foundations and building up to complex clausal mechanics, conversational register, ellipsis &amp; deixis, and spoken repair.</p>
-<p><strong>Rule book v1.13 · 2026-10-02 · 40 rules across 9 Parts.</strong></p>
+<p><strong>Rule book v1.14 · 2026-10-03 · 41 rules across 9 Parts.</strong></p>
 <hr>
 <h2>Part I: Phonology, Orthography &amp; Foundations</h2>
 <h3>Rule 1: Phonemic Orthography &amp; Stress</h3>
@@ -887,6 +887,7 @@
 <li><strong>latwar ruze</strong> (Animal-some + fast. Meaning: <em>A fast animal.</em>)</li>
 </ul>
 </li>
+<li><strong>The Bare Noun (Specificity Unstated):</strong> A noun with neither suffix leaves specificity <em>unstated</em> — <em>food</em>, not <em>the food</em> or <em>some food</em>. It is always legal, and it is the right choice whenever which one does not matter: <strong>Mik naci ky juro.</strong> (<em>I work in a city.</em>) <strong>Mik nomid bata.</strong> (<em>I ate food.</em>) Leaving <code>-p</code>/<code>-r</code> off never creates a second parse, with one exception: a <strong>time word</strong> (the temporal lexicon — <code>dugu</code>, <code>cihu</code>, <code>rajedu</code> …) left bare at the end of a clause is read as Slot 4 <em>when</em>, not as the object (Rule 10.1). A time word used as a thing keeps its suffix: <strong>Mik ebnesid dugup.</strong> (<em>I forgot the night.</em>) vs <strong>Mik ebnesid dugu.</strong> (<em>I forgot, at night.</em>)</li>
 </ol>
 <hr>
 <h3>Rule 8: Possessive Pronouns &amp; Modifiers</h3>
@@ -1462,6 +1463,11 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><strong>Daq nomi hyme batap.</strong> (Meaning: <em>He habitually eats the food.</em> Placing <code>hyme</code> after the object would incorrectly modify the food, meaning &quot;habitual food&quot;.)</li>
 </ul>
 </li>
+</ul>
+</li>
+<li><strong>Tense from a Tense-Fixing Time Word:</strong> The bare verb means present / timeless (§1), so a tense suffix may be dropped <strong>only</strong> when Slot 4 holds a time word that fixes the tense by itself: <code>wecdu</code> (yesterday) and <code>wedacu</code> (the past) → past; <code>fitydu</code> (tomorrow) and <code>fituru</code> (the future) → future. The bare verb then takes that tense: <strong>Mik nomi batap wecdu.</strong> = <strong>Mik nomid batap wecdu.</strong> (<em>I ate the food yesterday.</em>) The full form is never wrong, and is required in the precise registers (Rule 41.4).<ul>
+<li><em>Only these four.</em> A time word that does not fix a tense — <code>cihu</code> (morning), <code>rajedu</code> (Friday), <code>dugu</code> (night), <code>nudu</code> (today) — leaves the bare verb present / habitual: <strong>Mik nomi batap cihu.</strong> = <em>I eat the food in the morning.</em> Use the suffix to say <em>I ate this morning</em>.</li>
+<li><em>One clause only.</em> A time word fixes the tense of its own clause and nothing else — never the next clause or the next sentence. A story told in the past keeps <code>-d</code> on every verb outside such a clause. (Where a carried-over frame would end is exactly where a second reading would start.)</li>
 </ul>
 </li>
 </ol>
@@ -2557,6 +2563,21 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 </li>
 <li><strong>Register.</strong> These are the norms for careful speech, teaching audio and synthesized voices. Fast casual speech may shorten or lose the short pauses — by §1 nothing is lost when it does. The long pause between utterances is kept in every register, because Rule 37 fragments and Rule 12.4 answers bind to the <em>previous</em> utterance and the listener needs to hear where it ended.</li>
 </ol>
+<h3>Rule 41: Casual Register</h3>
+<p>What a speaker may leave out in relaxed speech. <strong>Fiwo has one grammar, not a casual mode</strong>: a marker may be dropped only where it is formally redundant — where the sentence keeps exactly one reading without it. Casual Fiwo is shorter, never ambiguous. This is the same guarantee Rule 37 gives answer fragments and Rule 40 gives prosody.</p>
+<ol>
+<li><strong>The Test.</strong> A marker is droppable if and only if the sentence without it has the same single parse and the same meaning. Anything that fails this test is not casual, it is a different sentence.</li>
+<li><strong>What May Be Dropped:</strong><ul>
+<li><strong>Mood tags, except <code>Kup</code></strong> — already optional (Rule 11.2); tone of voice carries the mood instead.</li>
+<li><strong>A sentence-final <code>tel</code></strong> — the full stop closes the bracket (Rule 30).</li>
+<li><strong>Everything but the answer</strong> — a noun phrase, modifier or prepositional phrase can be the whole reply (Rule 37).</li>
+<li><strong>Specificity <code>-p</code>/<code>-r</code></strong> — when which one does not matter; the bare noun leaves it unstated (Rule 7.4). Not on a time word used as a thing.</li>
+<li><strong>Tense, beside a tense-fixing time word</strong> — <code>wecdu</code>, <code>wedacu</code>, <code>fitydu</code>, <code>fituru</code>, in the same clause only (Rule 14.5).</li>
+</ul>
+</li>
+<li><strong>What May Never Be Dropped:</strong> <code>Kup</code> before a question variable (Rule 12.1); the walls and <code>tep</code>/<code>huc</code> (they make the structure); a non-final <code>tel</code>; the passive flag <code>fap</code>; <code>nes</code>; and every suffix not listed above. Dropping any of these produces a different sentence or a crash.</li>
+<li><strong>Registers That Do Not Relax.</strong> Instructions, legal text and mathematics keep every marker, including the ones §2 allows to drop — as with repair (Rule 39.7) and fragments (Rule 37.5), precision registers are edited, not shortened.</li>
+</ol>
 
 </section>
         <section id="dictionary" class="page">
@@ -2719,7 +2740,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
         <!-- data-src: the course is fetched by workbook-page.js the first time
              this page opens, not on every visit. Bump its ?v= when workbook.js
              is regenerated, like the other cache-busters. -->
-        <section id="workbook" class="page" data-src="workbook.js?v=6c24c946">
+        <section id="workbook" class="page" data-src="workbook.js?v=6b0e5c7c">
             <p class="page-crumb"><a href="#how-to-learn">&larr; How to Learn Fiwo</a></p>
             <h2>Workbook</h2>
             <p class="section-lede">Thirty-eight lessons and seven reviews, strictly vocabulary-gated &mdash;
@@ -2827,8 +2848,8 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
     <!-- Layer 3: the backup file. After the store, because it registers itself
          with it; harmless on a browser with no File System Access at all. -->
     <script src="fiwo-backup.js?v=def66fe1"></script>
-    <script src="dictionary.js?v=0763427d"></script>
-    <script src="DerivedDictionary.js?v=96d2bd14"></script>
+    <script src="dictionary.js?v=56f4a511"></script>
+    <script src="DerivedDictionary.js?v=dc905a08"></script>
     <script src="stories.js?v=b948768d"></script>
     <script src="fiwo-parser.js?v=b784ffc0"></script>
     <!-- The trained neural voice is the WEBSITE'S, not fiwo-pronounce.js's:

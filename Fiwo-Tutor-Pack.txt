@@ -1,7 +1,7 @@
 FIWO TUTOR PACK — conversation practice edition
 ============================================================
 This is a COMPLETE, SELF-CONTAINED pack. Do not ask for, or assume the
-existence of, any other Fiwo file. It carries the full grammar (all 40
+existence of, any other Fiwo file. It carries the full grammar (all 41
 rules) but only CORE vocabulary — tier 0 (closed class: pronouns, mood
 tags, prepositions, particles, suffixes) and tier 1 (the beginner core).
 1,208 further roots exist and are NOT in this pack. That is the
@@ -162,6 +162,8 @@ Most remaining errors come from importing machinery Fiwo simply lacks. It has **
     - **Orthography:** Words are spelled exactly as pronounced, with one letter per sound. Letters use standard keyboard characters.
     - **Stress:** Stress has no grammatical function; it always falls naturally on the final functional vowel of a word, stretching forward to include any trailing consonant suffixes.
     - **Prosody (Rule 40):** prosody reinforces, never creates — a flat reading keeps the same parse. Short pause before a clausal wall, before `tep`/`huc`, after `tel`, before `gix`; none inside a preposition bridge or after the mood tag. Statements fall, every `Kup` question rises, `Kop` falls. Do not write commas into Fiwo text to mark these pauses — the voice layer adds them.
+    - **Spelling aloud (Phonetics, *Spelling Aloud*):** consonant + `-a` (`pa ba ta da ka ga ma na fa sa xa ha ca za va la ra wa ja`), `q` = `aq`, vowels say themselves. *Josh* = `ja o sa ha`. If a letter is misheard, follow it with any Fiwo word that begins with it (`ba — bata`). Spelling is metalanguage, never a sentence.
+    - **Casual register (Rule 41):** one grammar, no casual mode — a marker drops only if the sentence keeps exactly one reading. Droppable: mood tags but `Kup`, final `tel`, everything but the answer (Rule 37), `-p`/`-r` (bare noun = specificity unstated, Rule 7.4 — not on a time word used as a thing), tense beside `wecdu`/`wedacu`/`fitydu`/`fituru` in the same clause (Rule 14.5). When generating text, write the full forms unless asked for casual speech; never drop markers in instructions, legal or maths.
     
     **Consonants (Letter = IPA : English/Common Example):**
     
