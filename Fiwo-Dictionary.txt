@@ -88,14 +88,14 @@ tox | tier 0 · grammar core | cheers | Phatic toast exchanged when drinking tog
 vax | tier 0 · grammar core | However / On the other hand | A structural particle used to introduce a statement that contrasts with or seems to contradict something that has been said previously.
 vel | tier 0 · grammar core | While / Whereas | Introduces a completely new, independent clause that occurs simultaneously alongside the previous clause, or presents a direct contextual contrast (whereas).
 wal | tier 0 · grammar core | why | Interrogative clause variable for a reason or cause.
-wat | tier 0 · grammar core | what | Interrogative variable for a thing or matter.
+wat | tier 0 · grammar core | what | Interrogative variable for a thing or matter, as the object or a preposition's target (with what). (Usage: A missing thing as the subject is won; a missing person in any slot is wun.)
 wer | tier 0 · grammar core | where | Interrogative variable for a location.
 wiq | tier 0 · grammar core | when | Interrogative variable for time.
 wis | tier 0 · grammar core | how | Interrogative variable for the manner, method, or degree of an action or state.
 won | tier 0 · grammar core | what (subject) / what thing / what event | Interrogative subject variable for a non-agent — a thing or event filling SVO Slot 1 (e.g. What happened? What fell?). The inanimate counterpart of wun (who).
 wox | tier 0 · grammar core | Wow / Awe | An exclamation of positive surprise, wonder, or amazement.
 wug | tier 0 · grammar core | How many / How much? (Interrogative) | An interrogative variable specifically holding the place of an unknown numerical quantity or mathematical amount. It sits directly in the SVO slot where the numerical answer is expected.
-wun | tier 0 · grammar core | who | Interrogative variable for a person or agent.
+wun | tier 0 · grammar core | who / whom | Interrogative variable for a person or agent, in any noun slot: the subject (who), the object (whom), or a preposition's target (with whom). (Usage: A missing thing is won as the subject and wat as the object.)
 xap | tier 0 · grammar core | For example | A pragmatic mood tag placed at the absolute start of a sentence to introduce an example or illustration.
 xex | tier 0 · grammar core | haha / laughter | Phatic laughter token conveying amusement; 'haha.' Standalone on the Null Track (Rule 33).
 xom | tier 0 · grammar core | In other words / That is to say | A structural particle used to introduce an explanation, clarification, or rephrasing of a previous statement.

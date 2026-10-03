@@ -115,8 +115,81 @@ export function ipaSymbols(text) {
   return out;
 }
 
-/** Phoneme ids for a Fiwo utterance, ready for the model's input tensor. */
-export function phonemeIds(text, config) {
+/* ── Prosody (Rule book Rule 40) ─────────────────────────────────────────────
+ *
+ * Fiwo text has no commas, so a whole sentence used to go to the model in one
+ * breath. Rule 40 says where a speaker pauses: briefly before a clausal wall,
+ * before an opening `tep`/`huc`, after a closing `tel`, before `gix`; longer
+ * between utterances; never inside a chunk.
+ *
+ * The pauses are made HERE, as real silence between separately synthesised
+ * chunks — not by inserting commas. The voice was trained on 645 clips with no
+ * comma in any of them (Fiwo-Study/dataset/metadata.csv), so `,` is an id the
+ * model has never learned; it might pause, or it might make noise. Silence we
+ * write ourselves cannot go wrong.
+ *
+ * What the model DID learn is a sentence-final `.` or `?`: the training
+ * phonemiser (piper_phonemize + espeak-fiwo) appends them as their own tokens
+ * — 316 `.` and 14 `?` in the dataset. So the last chunk of a sentence carries
+ * its `.`/`?` exactly as in training, which is also what gives a `Kup` question
+ * the ending the model heard Josh use. `!` was never in training and is read
+ * as `.`. Prosody only reinforces (Rule 40.1): a chunk boundary never changes
+ * a phoneme.
+ */
+const WALLS = new Set(['bef', 'bul', 'rot', 'kad', 'vel', 'zol', 'can', 'pen', 'vax', 'pov', 'kof', 'xom', 'din']);
+const PAUSE_BEFORE = new Set([...WALLS, 'tep', 'huc', 'gix']);
+const PAUSE_AFTER = new Set(['tel']);
+// Tuned to THIS voice, measured 2026-10-03: it already leaves 120–280 ms
+// between ordinary words, so a Rule 40 short pause must be longer than that
+// to be heard as a pause at all.
+export const PAUSE_MS = { short: 350, long: 700 };
+
+/* Each chunk comes back from the model wrapped in its own lead-in and
+ * trailing silence (measured up to ~460 ms). Left in, every join would be that
+ * plus PAUSE_MS, and different each time. So the edges where two chunks meet
+ * are trimmed to the speech, keeping a few ms so no consonant is clipped; the
+ * outer edges of the whole utterance are left as the model made them. */
+const EDGE_THRESHOLD = 0.01;  // amplitude below this counts as silence
+const EDGE_KEEP_MS = 25;
+export function trimEdges(pcm, rate, { start = true, end = true } = {}) {
+  const keep = Math.round(rate * EDGE_KEEP_MS / 1000);
+  let a = 0;
+  let b = pcm.length;
+  if (start) { while (a < b && Math.abs(pcm[a]) < EDGE_THRESHOLD) a++; a = Math.max(0, a - keep); }
+  if (end) { while (b > a && Math.abs(pcm[b - 1]) < EDGE_THRESHOLD) b--; b = Math.min(pcm.length, b + keep); }
+  return pcm.subarray(a, b);
+}
+
+/**
+ * Split text into the chunks Rule 40 says to breathe between.
+ * Returns [{ text, end, pause }] — `end` is '.', '?' or '' (the trained
+ * sentence-final token, if this chunk ends a sentence) and `pause` is the
+ * silence to leave after it: 'short', 'long', or null for the last chunk.
+ */
+export function prosodyChunks(text) {
+  const chunks = [];
+  let words = [];
+  const close = (end, pause) => {
+    if (words.length) chunks.push({ text: words.join(' '), end, pause });
+    words = [];
+  };
+  for (const raw of String(text).trim().split(/\s+/)) {
+    const bare = raw.replace(/[^A-Za-z'-]/g, '').toLowerCase();
+    if (!bare) continue;
+    if (PAUSE_BEFORE.has(bare)) close('', 'short');
+    words.push(raw.replace(/[.?!]+$/, ''));
+    const final = raw.match(/[.?!]+$/);
+    if (final) close(final[0].includes('?') ? '?' : '.', 'long');
+    else if (PAUSE_AFTER.has(bare)) close('', 'short');
+  }
+  close('', null);
+  if (chunks.length) chunks[chunks.length - 1].pause = null;
+  return chunks;
+}
+
+/** Phoneme ids for a Fiwo utterance, ready for the model's input tensor.
+ *  `end` ('.' or '?') appends the sentence-final token the way training did. */
+export function phonemeIds(text, config, { end = '' } = {}) {
   const map = config.phonemeIdMap;
   const ids = [];
   const push = (sym) => {
@@ -129,7 +202,9 @@ export function phonemeIds(text, config) {
   push(BOS);
   push(PAD);
   const missing = new Set();
-  for (const sym of ipaSymbols(text)) {
+  const symbols = ipaSymbols(text);
+  if (end && symbols.length) symbols.push(end);
+  for (const sym of symbols) {
     if (!push(sym)) missing.add(sym);
     push(PAD);
   }
@@ -250,7 +325,10 @@ export async function warm(voice) {
  * @param voice  { config, bytes? } — mutated to cache its session.
  */
 export async function speak(text, voice) {
-  const { ids, missing } = phonemeIds(text, voice.config);
+  // Every chunk is checked before anything is synthesised, so a bad symbol
+  // fails the whole utterance up front rather than half-way through it.
+  const parts = prosodyChunks(text).map((c) => ({ ...c, ...phonemeIds(c.text, voice.config, { end: c.end }) }));
+  const missing = [...new Set(parts.flatMap((p) => p.missing))];
   if (missing.length) {
     // A symbol the model has never seen means the runtime and training
     // phonemisers have diverged. Speaking anyway would produce confident
@@ -262,18 +340,29 @@ export async function speak(text, voice) {
   const ort = await loadOrt();
   const session = await getSession(voice);
   const inference = voice.config.raw?.inference || {};
-  const results = await session.run({
-    input: new ort.Tensor('int64', BigInt64Array.from(ids.map(BigInt)), [1, ids.length]),
-    input_lengths: new ort.Tensor('int64', BigInt64Array.from([BigInt(ids.length)]), [1]),
-    scales: new ort.Tensor('float32', Float32Array.from([
-      inference.noise_scale ?? 0.667, inference.length_scale ?? 1, inference.noise_w ?? 0.8,
-    ]), [3]),
-  });
-  const pcm = results.output.data;
+  const rate = voice.config.sampleRate;
+  // Synthesise every chunk first and play the joined result once, so the
+  // pauses are exactly PAUSE_MS long and not stretched by inference time, and
+  // stop() still has a single source to cut.
+  const pieces = [];
+  for (const [i, { ids, pause }] of parts.entries()) {
+    const results = await session.run({
+      input: new ort.Tensor('int64', BigInt64Array.from(ids.map(BigInt)), [1, ids.length]),
+      input_lengths: new ort.Tensor('int64', BigInt64Array.from([BigInt(ids.length)]), [1]),
+      scales: new ort.Tensor('float32', Float32Array.from([
+        inference.noise_scale ?? 0.667, inference.length_scale ?? 1, inference.noise_w ?? 0.8,
+      ]), [3]),
+    });
+    pieces.push(trimEdges(results.output.data, rate, { start: i > 0, end: i < parts.length - 1 }));
+    if (pause) pieces.push(new Float32Array(Math.round(rate * PAUSE_MS[pause] / 1000)));
+  }
+  const pcm = new Float32Array(pieces.reduce((n, p) => n + p.length, 0));
+  let at = 0;
+  for (const p of pieces) { pcm.set(p, at); at += p.length; }
 
   const ctx = getAudioCtx();
-  const buffer = ctx.createBuffer(1, pcm.length, voice.config.sampleRate);
-  buffer.copyToChannel(Float32Array.from(pcm), 0);
+  const buffer = ctx.createBuffer(1, pcm.length, rate);
+  buffer.copyToChannel(pcm, 0);
 
   stop();
   const src = ctx.createBufferSource();

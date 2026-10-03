@@ -10778,7 +10778,7 @@ const derivedDictionaryData = [
       "heaviness"
     ],
     "freq": 23,
-    "freq_rank": 232
+    "freq_rank": 233
   },
   {
     "word": "jufysoe",
@@ -11794,7 +11794,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 23,
-    "freq_rank": 225
+    "freq_rank": 226
   },
   {
     "word": "kluxeu",
@@ -18742,7 +18742,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 23,
-    "freq_rank": 231
+    "freq_rank": 232
   },
   {
     "word": "ripeu",

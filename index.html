@@ -264,7 +264,7 @@
         <section id="phonetics" class="page">
             <h2>Phonetics</h2>
 <p>Phonetics were chosen on their prevalence in the world languages and their distinctness from each other.</p>
-<p>Stress has no grammatical or semantic function in Fiwo. Words follow a predictable stress pattern: the stress falls at the end of a word, creating a slight pause that helps separate words in continuous speech.</p>
+<p>Stress has no grammatical or semantic function in Fiwo. Words follow a predictable stress pattern: the stress falls at the end of a word, creating a slight pause that helps separate words in continuous speech. Pauses and pitch across a whole sentence — where to breathe, which way the voice moves — are in the Rule book, <strong>Rule 40 (Spoken Prosody)</strong>; like stress, they never carry grammar of their own.</p>
 <p>Letters are standard keyboard characters, to make typing easier. Each letter maps to exactly one phoneme, aiding readability and pronounceability.</p>
 <p><strong>No diphthongs.</strong> Every vowel is pronounced separately, exactly as written — letter by letter. Fiwo has no glided vowel pairs: adjacent vowels are spoken in hiatus, each as its own syllable (<code>bojai</code> = <code>bo-ja-i</code>, three syllables). This is what lets pronunciation, syllable count, and the stress unit be computed straight from the spelling.</p>
 
@@ -563,10 +563,10 @@
 
         </section>
         <section id="rules" class="page">
-            <h2>Rule Book (All 39 Rules)</h2>
+            <h2>Rule Book (All 40 Rules)</h2>
 <p>This is the comprehensive, official rulebook of the <strong>Fiwo</strong> constructed language. It contains the complete set of phonological, morphological, syntactical, and logical rules that define how the language is written, spoken, and parsed.</p>
 <p>The rules are organized into <strong>9 Parts</strong> in a logical, pedagogical progression, beginning with core phonetic foundations and building up to complex clausal mechanics, conversational register, ellipsis &amp; deixis, and spoken repair.</p>
-<p><strong>Rule book v1.11 · 2026-10-02 · 39 rules across 9 Parts.</strong></p>
+<p><strong>Rule book v1.13 · 2026-10-02 · 40 rules across 9 Parts.</strong></p>
 <hr>
 <h2>Part I: Phonology, Orthography &amp; Foundations</h2>
 <h3>Rule 1: Phonemic Orthography &amp; Stress</h3>
@@ -1200,9 +1200,9 @@ While the core mood tags above encode <em>intent</em> and <em>tone</em>, Fiwo al
 </thead>
 <tbody><tr>
 <td align="left"><strong><code>wun</code></strong></td>
-<td align="left">Subject variable (animate)</td>
-<td align="left">SVO Slot 1</td>
-<td align="left">A missing person or agent (&quot;who&quot;)</td>
+<td align="left">Person variable (animate)</td>
+<td align="left">SVO Slot 1, SVO Slot 3, or after a preposition</td>
+<td align="left">A missing person (&quot;who&quot; / &quot;whom&quot;)</td>
 </tr>
 <tr>
 <td align="left"><strong><code>won</code></strong></td>
@@ -1212,8 +1212,8 @@ While the core mood tags above encode <em>intent</em> and <em>tone</em>, Fiwo al
 </tr>
 <tr>
 <td align="left"><strong><code>wat</code></strong></td>
-<td align="left">Object variable</td>
-<td align="left">SVO Slot 3</td>
+<td align="left">Object variable (inanimate)</td>
+<td align="left">SVO Slot 3, or after a preposition</td>
 <td align="left">A missing thing</td>
 </tr>
 <tr>
@@ -1256,6 +1256,14 @@ While the core mood tags above encode <em>intent</em> and <em>tone</em>, Fiwo al
 <li><em>Asking for a Subject (Slot 1 Variable):</em><ul>
 <li><strong>Kup wun skagid hoxop?</strong> ([Question] + who [Subject] + break-[past] [Verb] + door + the [Object]? Meaning: <em>Who broke the door?</em>)</li>
 <li><strong>Kup won linucid?</strong> ([Question] + what [inanimate Subject] + happen-[past]? Meaning: <em>What happened?</em> Use <code>won</code>, not <code>wun</code>, when the missing subject is a thing or event rather than a person. <code>won</code> fills Slot 1 exactly like <code>wun</code>; the animacy split mirrors the pronouns <code>dal</code> [animate] vs <code>ram</code> [inanimate].)</li>
+</ul>
+</li>
+<li><em>Asking for a Person in Any Slot (v1.12):</em> the animate/inanimate split holds everywhere. A person is always <code>wun</code>; a thing is <code>won</code> as the subject and <code>wat</code> as the object or a preposition&#39;s target. Each still sits in situ, where the answer goes.<ul>
+<li><strong>Kup suk enconid wun?</strong> ([Question] + you [Subject] + meet-[past] [Verb] + who [Object]? Meaning: <em>Who(m) did you meet?</em> The answer replaces <code>wun</code>: <em>Mik enconid nauxap</em> — I met the friend.)</li>
+<li><strong>Kup wun enconid wun?</strong> (Meaning: <em>Who met whom?</em>)</li>
+<li><strong>Kup suk gesid wy wun?</strong> ([Question] + you + talk-[past] + with [Preposition] + who [Target]? Meaning: <em>Who did you talk with?</em>)</li>
+<li><strong>Kup nibop ty wat?</strong> (Meaning: <em>What is the book on?</em>)</li>
+<li>Fronting stays illegal: ✗ <strong>Kup wun suk enconid?</strong> crashes — two nouns before the verb close the clause (Rule 10.5).</li>
 </ul>
 </li>
 <li><em>Asking for a Prepositional Target (Bridged Variable):</em><ul>
@@ -2519,6 +2527,36 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><strong>Prosody.</strong> <code>gix</code> is set off from the preceding word by a brief separation, marking it as a repair rather than as a further word in the clause. It is never run together with the word it erases.</li>
 <li><strong>Register.</strong> <code>gix</code> is a feature of speech and of transcribed speech, and is legal in every register as such. Precise written registers (instructions, legal, mathematical) are edited rather than repaired, as with Answer Fragments (Rule 37.5). Repair particles do not appear in the teaching corpus.</li>
 </ol>
+<h3>Rule 40: Spoken Prosody</h3>
+<p>How Fiwo sounds when spoken: where the stress falls, where to pause, and which way the pitch moves. Rule 30.9 established that nothing <em>written-only</em> may carry grammar — a capital letter cannot be heard. This rule is the mirror image: <strong>nothing <em>spoken-only</em> may carry grammar either.</strong></p>
+<ol>
+<li><strong>The Principle — prosody reinforces, it never creates.</strong> Every pause and pitch movement below marks structure that the words already carry. A sentence read in a flat monotone, with no pauses at all, keeps exactly the same meaning and the same single parse. The parser ignores prosody, and the written language does not change. The one thing tone may carry alone is <em>mood</em>: when an optional mood tag is dropped in casual speech, the voice may carry the attitude instead (Rule 11.2). That is pragmatics, never syntax — tone can make a sentence sound sarcastic, but it can never close a bracket, end a clause, or move a word into a different slot.</li>
+<li><strong>Word Stress.</strong> Stress falls on the <strong>last syllable</strong> of a word (Phonetics). The last syllable is where the functional vowel lives, so stress puts the word&#39;s category — <code>-o</code> thing, <code>-i</code> action, <code>-e</code> description — in the loudest position of the word. Suffixed forms stress the same syllable: <code>nomid</code> → no-<strong>MID</strong>, <code>nofap</code> → no-<strong>FAP</strong>.</li>
+<li><strong>Pauses — three strengths.</strong> In the examples, <code>/</code> marks a short pause.<ul>
+<li><strong>Long — between utterances.</strong> After every sentence and every answer fragment (Rule 37).</li>
+<li><strong>Short — at a chunk boundary:</strong><ul>
+<li><strong>before a clausal wall</strong> (<code>bef</code>, <code>kad</code>, <code>bul</code>, <code>rot</code>, <code>vel</code>, <code>zol</code>, <code>can</code>, <code>pen</code>, <code>vax</code>, <code>pov</code>, <code>kof</code>, <code>xom</code>, <code>din</code> — Rule 28): the wall begins the new chunk. <code>Mik nomid batap / bef mik usid.</code> <!-- fiwo:skip --></li>
+<li><strong>before an opening <code>tep</code> or <code>huc</code></strong>, and <strong>after a closing <code>tel</code></strong>: the bracket is heard as one unit. <code>Das pozid / tep mik nomid batap / tel / bef das usid.</code> <!-- fiwo:skip --></li>
+<li><strong>before <code>gix</code></strong> (Rule 39.6).</li>
+</ul>
+</li>
+<li><strong>None — inside a chunk.</strong> Never pause:<ul>
+<li>between a preposition and its target — the bridge is one unit (Rule 13): <code>Mik xalid zy sydop wy nauxap.</code> has no pause inside <code>zy sydop</code> or <code>wy nauxap</code>;</li>
+<li>between a noun and its modifiers, or a verb and its manner modifier — they are one block (Rule 18);</li>
+<li>after the opening mood tag — <code>Kup</code>, <code>Kop</code> and the rest run straight into the sentence they mark.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Pitch at the end of the sentence.</strong><ul>
+<li><strong>Statements fall.</strong> <code>Mik nomid batap.</code> ↘</li>
+<li><strong><code>Kup</code> questions rise — every one,</strong> polar and content alike: <code>Kup suk nomid batap?</code> ↗ · <code>Kup suk nomid wat?</code> ↗. <code>Kup</code> has already told the listener it is a question; the rise is a second, redundant signal, so one tune is enough.</li>
+<li><strong><code>Kop</code> commands fall firmly.</strong> <code>Kop suk nomi batap.</code> ↘</li>
+<li><strong>Every other mood tag has no fixed tune.</strong> The tag word itself carries the mood; speak the rest as a statement.</li>
+</ul>
+</li>
+<li><strong>Register.</strong> These are the norms for careful speech, teaching audio and synthesized voices. Fast casual speech may shorten or lose the short pauses — by §1 nothing is lost when it does. The long pause between utterances is kept in every register, because Rule 37 fragments and Rule 12.4 answers bind to the <em>previous</em> utterance and the listener needs to hear where it ended.</li>
+</ol>
 
 </section>
         <section id="dictionary" class="page">
@@ -2681,7 +2719,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
         <!-- data-src: the course is fetched by workbook-page.js the first time
              this page opens, not on every visit. Bump its ?v= when workbook.js
              is regenerated, like the other cache-busters. -->
-        <section id="workbook" class="page" data-src="workbook.js?v=9988fd61">
+        <section id="workbook" class="page" data-src="workbook.js?v=6c24c946">
             <p class="page-crumb"><a href="#how-to-learn">&larr; How to Learn Fiwo</a></p>
             <h2>Workbook</h2>
             <p class="section-lede">Thirty-eight lessons and seven reviews, strictly vocabulary-gated &mdash;
@@ -2789,10 +2827,10 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
     <!-- Layer 3: the backup file. After the store, because it registers itself
          with it; harmless on a browser with no File System Access at all. -->
     <script src="fiwo-backup.js?v=def66fe1"></script>
-    <script src="dictionary.js?v=4c6c1b79"></script>
-    <script src="DerivedDictionary.js?v=be6290db"></script>
+    <script src="dictionary.js?v=0763427d"></script>
+    <script src="DerivedDictionary.js?v=96d2bd14"></script>
     <script src="stories.js?v=b948768d"></script>
-    <script src="fiwo-parser.js?v=b101e160"></script>
+    <script src="fiwo-parser.js?v=b784ffc0"></script>
     <!-- The trained neural voice is the WEBSITE'S, not fiwo-pronounce.js's:
          that file is also vendored into the Android app, which has its own
          Piper path and no fiwo-voice.js to find. Declaring the module here

@@ -30,6 +30,8 @@
     const SUBJECT_VARS = new Set(['wun', 'won']);  // wun animate/who, won inanimate/what (Rule 12)
     const VARIABLES = new Set(['wun', 'won', 'wat', 'wer', 'wiq', 'wis', 'wug', 'wal']);
     const PREP_TARGET_VARS = new Set(['wer', 'wiq']);
+    // Rule 12 (v1.12): the noun variables may also be a preposition's target (wy wun, ky wat).
+    const PREP_NOUN_VARS = new Set(['wun', 'wat']);
     // Must stay in step with Tools/validate_sentence.py — the spec, the Python
     // reference parser and this JS port are one rule in three places.
     // 2026-09-11 retirement batch: dewe -> kage, rete -> prure, dumu -> mepu,
@@ -414,9 +416,9 @@
             // resolve pending preposition target
             if (pendingPrep) {
                 const isNum = cat === 'modifier' && NUMBER_WORDS.has(t.root.replace(/t$/, ''));
-                if (cat === 'noun' || cat === 'proper_noun' || isNum || (cat === 'variable' && PREP_TARGET_VARS.has(t.root))) {
+                if (cat === 'noun' || cat === 'proper_noun' || isNum || (cat === 'variable' && (PREP_TARGET_VARS.has(t.root) || PREP_NOUN_VARS.has(t.root)))) {
                     t.slot = 'PrepTarget';
-                    if (PREP_TARGET_VARS.has(t.root) && !c.question)
+                    if ((PREP_TARGET_VARS.has(t.root) || PREP_NOUN_VARS.has(t.root)) && !c.question)
                         fail(t, `interrogative variable '${t.root}' requires the sentence to open with Kup (Rule 12.1)`);
                     pendingPrep = null; pendingNeg = null;
                     if (cat === 'noun' || cat === 'proper_noun') lastRoot = t;
@@ -592,6 +594,9 @@
                 if (!c.question) fail(t, `interrogative variable '${t.root}' requires the sentence/clause to open with Kup (Rule 12.1)`);
                 if (SUBJECT_VARS.has(t.root)) {
                     if (c.state === 'fresh') { t.slot = 'Subject'; c.state = 'await_verb'; lastRoot = t; }
+                    // Rule 12 (v1.12): wun is the person variable in any noun slot.
+                    else if (t.root === 'wun' && c.state === 'await_object') { t.slot = 'Object'; c.state = 'await_time'; lastRoot = t; }
+                    else if (t.root === 'wun') fail(t, "'wun' sits in situ — Slot 1 (who) or Slot 3 (whom), never moved (no wh-movement, Rule 12)");
                     else fail(t, `'${t.root}' is a Subject variable — it must sit in Slot 1 (no wh-movement, Rule 12)`);
                 } else if (t.root === 'wat') {
                     if (c.state === 'await_object') { t.slot = 'Object'; c.state = 'await_time'; lastRoot = t; }

@@ -2936,7 +2936,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 105,
     "freq": 43,
-    "freq_rank": 127,
+    "freq_rank": 128,
     "example": {
       "fiwo": "Cyvap cenidyq deky sydop.",
       "english": "The stranger was living in the house."
@@ -3495,7 +3495,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 161,
     "freq": 23,
-    "freq_rank": 223,
+    "freq_rank": 224,
     "example": {
       "fiwo": "Domlop sowid nudu.",
       "english": "The rain fell today."
@@ -4662,7 +4662,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 431,
     "freq": 23,
-    "freq_rank": 224,
+    "freq_rank": 225,
     "example": {
       "fiwo": "Sydop jedi facu late.",
       "english": "The house has all sides."
@@ -4902,7 +4902,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 54,
-    "freq_rank": 109,
+    "freq_rank": 110,
     "example": {
       "fiwo": "Daq ruzei fe.",
       "english": "He is very fast."
@@ -5238,7 +5238,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 121,
     "freq": 43,
-    "freq_rank": 128,
+    "freq_rank": 129,
     "example": {
       "fiwo": "Nak gesiq fiwop.",
       "english": "We are speaking the language."
@@ -5960,7 +5960,7 @@ const dictionaryData = [
     "rank": 39,
     "usage_note": "Electric power. Power over people or events is pedu.",
     "freq": 22,
-    "freq_rank": 234,
+    "freq_rank": 235,
     "example": {
       "fiwo": "Gejedop doteid.",
       "english": "The electricity was powerful."
@@ -6057,7 +6057,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 29,
     "usage_note": "To tell someone something is fenuti. To discuss (talk with others about a topic, exchanging views) is jifni.",
-    "freq": 805,
+    "freq": 806,
     "freq_rank": 5,
     "example": {
       "fiwo": "Daq gesid gor.",
@@ -6138,7 +6138,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 85,
     "freq": 22,
-    "freq_rank": 235,
+    "freq_rank": 236,
     "example": {
       "fiwo": "Das gidsid ikamop.",
       "english": "She bought the shirt."
@@ -8573,7 +8573,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 244,
     "freq": 43,
-    "freq_rank": 129,
+    "freq_rank": 130,
     "example": {
       "fiwo": "Nofar jedle brenid.",
       "english": "Many people arrived."
@@ -8829,8 +8829,8 @@ const dictionaryData = [
     "domains": [
       "social_interaction"
     ],
-    "freq": 43,
-    "freq_rank": 130,
+    "freq": 44,
+    "freq_rank": 125,
     "example": {
       "fiwo": "Licap jofid mik.",
       "english": "The colleague helped me."
@@ -9918,7 +9918,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 153,
     "freq": 22,
-    "freq_rank": 236,
+    "freq_rank": 237,
     "example": {
       "fiwo": "Krapop stobeid.",
       "english": "The wall was hard."
@@ -10104,7 +10104,7 @@ const dictionaryData = [
     "definition": "An explicit inquiry or request for information.",
     "tier": 0,
     "rank": 43,
-    "freq": 289,
+    "freq": 291,
     "freq_rank": 15,
     "example": {
       "fiwo": "Kup suk nomid batap?",
@@ -10194,7 +10194,7 @@ const dictionaryData = [
     "rank": 41,
     "usage_note": "Distinct from tumi (change), which just means to alter; kutgi implies a finalized transformation. To succeed is uxkui.",
     "freq": 23,
-    "freq_rank": 226
+    "freq_rank": 227
   },
   {
     "word": "kuvysu",
@@ -10613,7 +10613,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 144,
     "freq": 22,
-    "freq_rank": 237,
+    "freq_rank": 238,
     "example": {
       "fiwo": "Mosar lere morid.",
       "english": "Ten trees grew."
@@ -10857,7 +10857,7 @@ const dictionaryData = [
       "technology"
     ],
     "freq": 23,
-    "freq_rank": 227
+    "freq_rank": 228
   },
   {
     "word": "kivwe",
@@ -11444,7 +11444,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 171,
     "freq": 23,
-    "freq_rank": 228,
+    "freq_rank": 229,
     "example": {
       "fiwo": "Mosar marte morid.",
       "english": "Eight trees grew."
@@ -11906,7 +11906,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 77,
     "freq": 22,
-    "freq_rank": 238,
+    "freq_rank": 239,
     "example": {
       "fiwo": "Nasap morid nudu.",
       "english": "The plant grew today."
@@ -11934,7 +11934,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 132,
     "freq": 44,
-    "freq_rank": 125,
+    "freq_rank": 126,
     "example": {
       "fiwo": "Latwap ceni deky mosap.",
       "english": "The animal lives inside the tree."
@@ -12767,7 +12767,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 5,
     "freq": 44,
-    "freq_rank": 126,
+    "freq_rank": 127,
     "example": {
       "fiwo": "Nak tsejapid xowup.",
       "english": "We watched the show."
@@ -12849,7 +12849,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 141,
     "freq": 23,
-    "freq_rank": 229,
+    "freq_rank": 230,
     "example": {
       "fiwo": "Nosanap jamid nibop.",
       "english": "The woman wrote the book."
@@ -13889,7 +13889,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 125,
     "freq": 23,
-    "freq_rank": 230,
+    "freq_rank": 231,
     "example": {
       "fiwo": "Mik pagarid melfup.",
       "english": "I paid the price."
@@ -15643,7 +15643,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 22,
-    "freq_rank": 239,
+    "freq_rank": 240,
     "example": {
       "fiwo": "Detap suke ruzei.",
       "english": "Your dog is fast."
@@ -16956,7 +16956,7 @@ const dictionaryData = [
     "definition": "Second-person singular; strictly the listener.",
     "tier": 0,
     "rank": 3,
-    "freq": 343,
+    "freq": 345,
     "freq_rank": 12,
     "example": {
       "fiwo": "Suk jofiq mik nudu.",
@@ -19567,9 +19567,10 @@ const dictionaryData = [
     "word": "wat",
     "english_equiv": "what",
     "part_of_speech": "Grammar",
-    "definition": "Interrogative variable for a thing or matter.",
+    "definition": "Interrogative variable for a thing or matter, as the object or a preposition's target (with what).",
     "tier": 0,
     "rank": 24,
+    "usage_note": "A missing thing as the subject is won; a missing person in any slot is wun.",
     "freq": 37,
     "freq_rank": 150,
     "example": {
@@ -20182,13 +20183,14 @@ const dictionaryData = [
   },
   {
     "word": "wun",
-    "english_equiv": "who",
+    "english_equiv": "who / whom",
     "part_of_speech": "Grammar",
-    "definition": "Interrogative variable for a person or agent.",
+    "definition": "Interrogative variable for a person or agent, in any noun slot: the subject (who), the object (whom), or a preposition's target (with whom).",
     "tier": 0,
     "rank": 25,
-    "freq": 22,
-    "freq_rank": 240,
+    "usage_note": "A missing thing is won as the subject and wat as the object.",
+    "freq": 24,
+    "freq_rank": 222,
     "example": {
       "fiwo": "Kup wun jamid nibop?",
       "english": "Who wrote the book?"
@@ -20246,8 +20248,8 @@ const dictionaryData = [
     "domains": [
       "grammar"
     ],
-    "freq": 54,
-    "freq_rank": 110,
+    "freq": 55,
+    "freq_rank": 109,
     "example": {
       "fiwo": "Mik xalis zy jurop wy nauxap mike.",
       "english": "I will go to the city with my friend."
@@ -21263,7 +21265,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 30,
     "freq": 24,
-    "freq_rank": 222,
+    "freq_rank": 223,
     "example": {
       "fiwo": "Zasop fezneid.",
       "english": "The ground was dry."
@@ -21594,7 +21596,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 187,
     "freq": 23,
-    "freq_rank": 233
+    "freq_rank": 234
   },
   {
     "word": "zixefra",

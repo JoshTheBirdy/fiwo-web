@@ -1,7 +1,7 @@
 FIWO TUTOR PACK — conversation practice edition
 ============================================================
 This is a COMPLETE, SELF-CONTAINED pack. Do not ask for, or assume the
-existence of, any other Fiwo file. It carries the full grammar (all 39
+existence of, any other Fiwo file. It carries the full grammar (all 40
 rules) but only CORE vocabulary — tier 0 (closed class: pronouns, mood
 tags, prepositions, particles, suffixes) and tier 1 (the beginner core).
 1,208 further roots exist and are NOT in this pack. That is the
@@ -161,6 +161,7 @@ Most remaining errors come from importing machinery Fiwo simply lacks. It has **
     
     - **Orthography:** Words are spelled exactly as pronounced, with one letter per sound. Letters use standard keyboard characters.
     - **Stress:** Stress has no grammatical function; it always falls naturally on the final functional vowel of a word, stretching forward to include any trailing consonant suffixes.
+    - **Prosody (Rule 40):** prosody reinforces, never creates — a flat reading keeps the same parse. Short pause before a clausal wall, before `tep`/`huc`, after `tel`, before `gix`; none inside a preposition bridge or after the mood tag. Statements fall, every `Kup` question rises, `Kop` falls. Do not write commas into Fiwo text to mark these pauses — the voice layer adds them.
     
     **Consonants (Letter = IPA : English/Common Example):**
     
@@ -248,7 +249,7 @@ Most remaining errors come from importing machinery Fiwo simply lacks. It has **
     **Rule 12: Interrogatives & In-Situ Variables**
     - Wh-in-situ: question words stay in SVO slot where answer belongs.
     - Pairing: Question variables must pair with starting `Kup` tag.
-    - Variables: `wun` (Subject — animate: a missing person), `won` (Subject — inanimate: a missing thing or event), `wat` (Object), `wer` (Location bridge target), `wiq` (Time bridge target), `wis` (Manner, after verb), `wal` (Reason, after `kad`), `wug` (Quantity, after noun).
+    - Variables: `wun` (any noun slot — animate: a missing person, who/whom; also after a preposition), `won` (Subject — inanimate: a missing thing or event), `wat` (Object, or after a preposition — inanimate), `wer` (Location bridge target), `wiq` (Time bridge target), `wis` (Manner, after verb), `wal` (Reason, after `kad`), `wug` (Quantity, after noun).
     - **Subject animacy (`wun` vs `won`):** both fill Slot 1, and the split mirrors the pronouns `dal` (animate) / `ram` (inanimate). Use `wun` only when the missing subject is a person or agent ("who broke the door?" = `Kup wun skagid hoxop?`); use `won` when it is a thing or an event ("what happened?" = `Kup won linucid?`). Picking the wrong one produces a **parser-valid but wrong** sentence, so no tool will catch it for you.
     - Polar Questions: `Kup` + complete SVO with no variables (expects `jas` or `nes` response). **`jas`/`nes` answer the fact, not the speaker:** after a negative question or statement (`Kup suk nes nomid batap?`), `Jas` = the positive is true (I did eat), `Nes` = the negative is true (I didn't). "You're right" = the fragment `Trive.` A `ron` list keeps it a yes/no question; to ask *which one*, end the list with `glecef`: `Kup suk fabi teso ron refo glecef?` → `Teso.`
     - Elliptical `wal` (12.6): standalone `Kup wal?` / `Wal?` = "Why?", binding to the previous utterance (only case where a variable needs no `Kup`).
@@ -641,14 +642,14 @@ tox = cheers : Phatic toast exchanged when drinking together; 'cheers.' Standalo
 vax = However / On the other hand : A structural particle used to introduce a statement that contrasts with or seems to contradict something that has been said previously.  [tier 0 · grammar core]
 vel = While / Whereas : Introduces a completely new, independent clause that occurs simultaneously alongside the previous clause, or presents a direct contextual contrast (whereas).  [tier 0 · grammar core]
 wal = why : Interrogative clause variable for a reason or cause.  [tier 0 · grammar core]
-wat = what : Interrogative variable for a thing or matter.  [tier 0 · grammar core]
+wat = what : Interrogative variable for a thing or matter, as the object or a preposition's target (with what). (Usage: A missing thing as the subject is won; a missing person in any slot is wun.)  [tier 0 · grammar core]
 wer = where : Interrogative variable for a location.  [tier 0 · grammar core]
 wiq = when : Interrogative variable for time.  [tier 0 · grammar core]
 wis = how : Interrogative variable for the manner, method, or degree of an action or state.  [tier 0 · grammar core]
 won = what (subject) / what thing / what event : Interrogative subject variable for a non-agent — a thing or event filling SVO Slot 1 (e.g. What happened? What fell?). The inanimate counterpart of wun (who).  [tier 0 · grammar core]
 wox = Wow / Awe : An exclamation of positive surprise, wonder, or amazement.  [tier 0 · grammar core]
 wug = How many / How much? (Interrogative) : An interrogative variable specifically holding the place of an unknown numerical quantity or mathematical amount. It sits directly in the SVO slot where the numerical answer is expected.  [tier 0 · grammar core]
-wun = who : Interrogative variable for a person or agent.  [tier 0 · grammar core]
+wun = who / whom : Interrogative variable for a person or agent, in any noun slot: the subject (who), the object (whom), or a preposition's target (with whom). (Usage: A missing thing is won as the subject and wat as the object.)  [tier 0 · grammar core]
 xap = For example : A pragmatic mood tag placed at the absolute start of a sentence to introduce an example or illustration.  [tier 0 · grammar core]
 xex = haha / laughter : Phatic laughter token conveying amusement; 'haha.' Standalone on the Null Track (Rule 33).  [tier 0 · grammar core]
 xom = In other words / That is to say : A structural particle used to introduce an explanation, clarification, or rephrasing of a previous statement.  [tier 0 · grammar core]
