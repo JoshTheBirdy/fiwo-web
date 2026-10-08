@@ -284,13 +284,13 @@
 
     function parseSentence(sentence) {
         const errors = [];
-        const rawTokens = sentence.match(/[A-Za-z][\w'-]*|[.,!?;]/g) || [];
+        const rawTokens = sentence.match(/[A-Za-z][\w'-]*|[.,!?;:]/g) || [];
         const tokens = [];
         let isFirst = true;
         rawTokens.forEach(t => {
-            if ('.,!?;'.includes(t)) {
+            if ('.,!?;:'.includes(t)) {
                 tokens.push({ raw: t, kind: 'punct' });
-                if ('.!?'.includes(t)) isFirst = true;
+                if ('.!?:'.includes(t)) isFirst = true;   // Rule 37.6: a colon opens a fresh utterance
             } else {
                 const tok = morph(t, isFirst);
                 if (tok.cat === 'error') errors.push(`[${t}] ${tok.error}`);
@@ -360,7 +360,8 @@
             const t = tokens[i];
             const c = ctx();
             if (t.kind === 'punct') {
-                if ('.!?'.includes(t.raw)) { stack.length > 1 ? endInnerUtterance(t) : endSentence(t); }
+                // Rule 37.6 (v1.15): a colon is an utterance boundary like . ! ?
+                if ('.!?:'.includes(t.raw)) { stack.length > 1 ? endInnerUtterance(t) : endSentence(t); }
                 i++; continue;
             }
             const cat = t.cat;

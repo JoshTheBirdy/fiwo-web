@@ -1,4 +1,4 @@
-# Fiwo Derived Dictionary — 1772 entries
+# Fiwo Derived Dictionary — 1811 entries
 # GENERATED from Canon/derived_lexicon.json by Tools/build.py — do not edit by hand
 #
 # One entry per line, pipe-delimited, grouped by part of speech:
@@ -10,7 +10,7 @@
 # Read the definition before using a word. If no definition covers the concept you
 # want, say so and build a Rule 36 compound; never stretch a key to fit.
 
-=== Biological Noun — 305 entries ===
+=== Biological Noun — 306 entries ===
 acumulia | acumuli i→a | Trader | A person who trades; a trader. [Verb -> Biological Noun (doer)] Senses: 1) trader
 afbia | afbi i→a | Crawler | A person who crawls; a crawler. [Verb -> Biological Noun (doer)] Senses: 1) crawler
 agmia | agmi i→a | Gluer | A person who glues; a gluer. [Verb -> Biological Noun (doer)] Senses: 1) gluer
@@ -67,6 +67,7 @@ edoraria | edorari i→a | Deep-frier | A person who deep fries; a deep-frier. [
 efmia | efmi i→a | Thief | One who steals. [Verb -> Biological Agent] Senses: 1) thief; 2) robber; 3) burglar
 eipia | eipi i→a | Ripper | A person who tears; a ripper. [Verb -> Biological Noun (doer)] Senses: 1) ripper
 eksaplia | eksapli i→a | Explainer | A person who explains; an explainer. [Verb -> Biological Noun (doer)] Senses: 1) explainer
+emamoa | emamo o→a | Garden worker | A person who works with, operates, or handles a garden. [Concrete Noun -> Biological Noun (handler)]
 emitia | emiti i→a | Follower | A person who follows; a follower. [Verb -> Biological Noun (doer)] Senses: 1) follower
 enconia | enconi i→a | Meeter | A person who meets; a meeter. [Verb -> Biological Noun (doer)] Senses: 1) meeter
 enria | enri i→a | Entrant | A person who go insides; an entrant. [Verb -> Biological Noun (doer)] Senses: 1) entrant
@@ -376,10 +377,11 @@ xeskio | xeski i→o | Prize / Trophy | The object won; a reward for winning. [V
 zemio | zemi i→o | Cover / Lid | The thing that covers something; a cover or lid. [Verb -> Concrete Noun (instrument/result)] Senses: 1) cover; 2) lid
 zuzkeo | zuzke e→o | Candy / Sweet | A small sweet treat; a candy, sweet, confection. [Modifier -> Concrete Noun (exemplar)] Senses: 1) candy; 2) sweet; 3) confection
 
-=== Abstract Noun — 264 entries ===
+=== Abstract Noun — 269 entries ===
 acleu | acle e→u | Generosity | The quality or state of being generous; generosity. [Modifier -> Abstract Noun (quality)] Senses: 1) generosity
 adrisweu | adriswe e→u | Diagonality | The quality or state of being diagonal; diagonality. [Modifier -> Abstract Noun (quality)] Senses: 1) diagonality; 2) slant
 aiteu | aite e→u | Stench | The quality or state of being smelly; stench. [Modifier -> Abstract Noun (quality)] Senses: 1) stench; 2) smelliness; 3) stink
+amogiu | amogi i→u | Simulation | The act or result of simulating; a model of how something behaves. [Verb -> Abstract Noun (act/process)] Senses: 1) simulation
 anazeu | anaze e→u | Fundamentality | The quality or state of being basic; fundamentality. [Modifier -> Abstract Noun (quality)] Senses: 1) fundamentality; 2) basics
 aofeu | aofe e→u | Satiety | The quality or state of being satiated; satiety. [Modifier -> Abstract Noun (quality)] Senses: 1) satiety; 2) fullness
 aqeu | aqe e→u | Masculinity | The quality or state of being male; masculinity. [Modifier -> Abstract Noun (quality)] Senses: 1) masculinity; 2) maleness
@@ -407,6 +409,7 @@ compeu | compe e→u | Popularity | The quality or state of being common; popula
 cukiu | cuki i→u | Combat | The act of fighting; combat or battle. [Verb -> Abstract Noun (act/process)] Senses: 1) combat; 2) battle; 3) fighting
 curmeu | curme e→u | Ease | The quality or state of being easy; ease. [Modifier -> Abstract Noun (quality)] Senses: 1) ease; 2) easiness
 cutweu | cutwe e→u | Readiness | The quality or state of being ready; readiness. [Modifier -> Abstract Noun (quality)] Senses: 1) readiness
+cymgiu | cymgi i→u | Act of request | The act, process, or concept of 'request'. [Verb -> Abstract Noun (act/process)]
 davtiu | davti i→u | Argument | The act of arguing; an argument or quarrel. [Verb -> Abstract Noun (act/process)] Senses: 1) argument; 2) quarrel
 domlou | domlo o→u | Rainfall | Rainfall as a phenomenon; rainy weather. [Concrete Noun -> Abstract Noun (domain)] Senses: 1) rainfall; 2) rainy weather
 doteu | dote e→u | Strength | The quality or state of being strong; strength. [Modifier -> Abstract Noun (quality)] Senses: 1) strength
@@ -486,6 +489,7 @@ kifybiu | kifybi i→u | Protest | A public expression of strong objection. [Ver
 kjeliu | kjeli i→u | Earning | The act of earning. [Verb -> Abstract Noun (act/process)] Senses: 1) earning
 kjukeu | kjuke e→u | Freedom / Liberty | The state of being free. [Modifier -> Abstract Noun (state)] Senses: 1) freedom; 2) liberty; 3) independence
 kluxeu | kluxe e→u | Silence | The quality or state of being quiet; silence. [Modifier -> Abstract Noun (quality)] Senses: 1) silence; 2) quietness
+kogwiu | kogwi i→u | Act of debug | The act, process, or concept of 'debug'. [Verb -> Abstract Noun (act/process)]
 kokidiu | kokidi i→u | Examination | The act of examining; a close inspection or study. [Verb -> Abstract Noun (act/process)] Senses: 1) examination; 2) inspection
 koxeu | koxe e→u | Bitterness | The quality or state of being bitter; bitterness. [Modifier -> Abstract Noun (quality)] Senses: 1) bitterness
 krembau | kremba a→u | the concept or state of keeping a pet | The concept or state of keeping a pet; pet ownership. [Biological Noun -> Abstract Noun (role/state)] Senses: 1) the concept or state of keeping a pet
@@ -541,6 +545,7 @@ ozepiu | ozepi i→u | Wish | A desire or hope for something; a wish. [Verb -> A
 pabiciu | pabici i→u | Analysis | A detailed examination of something's parts. [Verb -> Abstract Noun (act/process)] Senses: 1) analysis
 padhiu | padhi i→u | Violation | The act of breaking a law or rule; a violation. [Verb -> Abstract Noun (act/process)] Senses: 1) violation; 2) breach
 pampigiu | pampigi i→u | Intention | A plan or aim to do something; an intention, purpose. [Verb -> Abstract Noun (act/process)] Senses: 1) intention; 2) purpose; 3) intent
+papjiu | papji i→u | Act of twitch | The act, process, or concept of 'twitch'. [Verb -> Abstract Noun (act/process)]
 paxeu | paxe e→u | Weakness | The quality or state of being weak; weakness. [Modifier -> Abstract Noun (quality)] Senses: 1) weakness
 pebau | peba a→u | Fatherhood | The state of being a father; fatherhood. [Biological Noun -> Abstract Noun (role/state)] Senses: 1) fatherhood
 peteswiu | peteswi i→u | Spending / Expenditure | The act of paying out money. [Verb -> Abstract Noun (act/process)] Senses: 1) spending; 2) expenditure
@@ -585,6 +590,7 @@ snefiu | snefi i→u | Smile (a smile) | The act or expression of smiling; a smi
 snibexeu | snibexe e→u | Humidity | The quality or state of being humid; humidity. [Modifier -> Abstract Noun (quality)] Senses: 1) humidity
 solfiu | solfi i→u | Solution | The answer to or resolution of a problem; a solution. [Verb -> Abstract Noun (act/process)] Senses: 1) solution; 2) resolution
 soneu | sone e→u | Spiciness | The quality or state of being spicy; spiciness. [Modifier -> Abstract Noun (quality)] Senses: 1) spiciness; 2) pungency
+spediu | spedi i→u | Act of sync | The act, process, or concept of 'sync'. [Verb -> Abstract Noun (act/process)]
 spoceu | spoce e→u | Cheapness | The quality or state of being cheap; cheapness. [Modifier -> Abstract Noun (quality)] Senses: 1) cheapness
 staxiu | staxi i→u | Filling | The act or process of filling. [Verb -> Abstract Noun (act/process)] Senses: 1) filling
 stobeu | stobe e→u | Hardness | The quality or state of being hard; hardness. [Modifier -> Abstract Noun (quality)] Senses: 1) hardness
@@ -642,7 +648,7 @@ zodeu | zode e→u | Loudness | The quality or state of being loud; loudness. [M
 zulxiu | zulxi i→u | Waking | The act of waking up; awakening. [Verb -> Abstract Noun (act/process)] Senses: 1) waking; 2) awakening
 zuzkeu | zuzke e→u | Sweetness | The quality or state of being sweet; sweetness. [Modifier -> Abstract Noun (quality)] Senses: 1) sweetness
 
-=== Modifier — 767 entries ===
+=== Modifier — 797 entries ===
 absue | absu u→e | Sensible | Characterized by or relating to sense; sensible. [Abstract Noun -> Modifier (characterized by)] Senses: 1) sensible
 acinae | acina a→e | Claw-like | Made of, resembling, or relating to claw. [Biological Noun -> Modifier (like)] Senses: 1) claw-like; 2) resembling claw
 acrye | acry y→e | Transverse | Lying or oriented across something; transverse. [Preposition -> Modifier (positioned)] Senses: 1) transverse; 2) crosswise
@@ -655,6 +661,7 @@ agmie | agmi i→e | Sticky | Tending toward, or involving, the action 'glue'. [
 agsoe | agso o→e | Drought-like | Made of, resembling, or relating to drought. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) drought-like; 2) resembling drought
 ajogoe | ajogo o→e | Cart-like | Made of, resembling, or relating to cart. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) cart-like; 2) resembling cart
 ambye | amby y→e | Substitute | Standing in place of another; substitute, stand-in. [Preposition -> Modifier (positioned)] Senses: 1) substitute; 2) stand-in; 3) replacement
+amogie | amogi i→e | Prone to simulate | Tending toward, or involving, the action 'simulate'. [Verb -> Modifier (prone to)]
 aplae | apla a→e | Apple-like | Made of, resembling, or relating to apple. [Biological Noun -> Modifier (like)] Senses: 1) apple-like; 2) resembling apple
 arloe | arlo o→e | Of lightning | Made of, resembling, or relating to lightning. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) of lightning; 2) lightning-struck; 3) electric-storm
 artue | artu u→e | Artistic | Characterized by or relating to art; artistic. [Abstract Noun -> Modifier (characterized by)] Senses: 1) artistic
@@ -714,6 +721,7 @@ cacodue | cacodu u→e | Diagnostic | Characterized by or relating to diagnosis;
 cadae | cada a→e | Childlike, childish | Made of, resembling, or relating to child; childlike, childish. [Biological Noun -> Modifier (like)] Senses: 1) childlike; 2) childish
 caenoe | caeno o→e | Street-like | Made of, resembling, or relating to street. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) street-like; 2) resembling street
 cafloe | caflo o→e | Shadow-like | Made of, resembling, or relating to shadow. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) shadow-like; 2) resembling shadow
+cameroe | camero o→e | Camera-like | Made of, resembling, or relating to camera. [Concrete Noun -> Modifier (material/resemblance)]
 canpue | canpu u→e | Communal | Characterized by or relating to community; communal. [Abstract Noun -> Modifier (characterized by)] Senses: 1) communal
 caque | caqu u→e | Tactical | Characterized by or relating to tactic; tactical. [Abstract Noun -> Modifier (characterized by)] Senses: 1) tactical
 caqwae | caqwa a→e | Boy-like | Made of, resembling, or relating to boy. [Biological Noun -> Modifier (like)] Senses: 1) boy-like; 2) resembling boy
@@ -745,9 +753,11 @@ cukie | cuki i→e | Combative | Inclined to fight or argue; combative, quarrels
 cumeswoe | cumeswo o→e | Dew-like | Made of, resembling, or relating to dew. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) dew-like; 2) resembling dew
 cuskamae | cuskama a→e | Devilish | Resembling or characteristic of a devil; wicked. [Biological Noun -> Modifier (like)] Senses: 1) devilish; 2) diabolical
 cuspoe | cuspo o→e | Beacon-like | Made of, resembling, or relating to beacon. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) beacon-like; 2) resembling beacon
+cymgie | cymgi i→e | Prone to request | Tending toward, or involving, the action 'request'. [Verb -> Modifier (prone to)]
 cysmoe | cysmo o→e | Village-like | Made of, resembling, or relating to village. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) village-like; 2) resembling village
 cyvae | cyva a→e | Stranger-like | Made of, resembling, or relating to stranger. [Biological Noun -> Modifier (like)] Senses: 1) stranger-like; 2) resembling stranger
 cyxoe | cyxo o→e | Beach-like | Made of, resembling, or relating to beach. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) beach-like; 2) resembling beach
+dacwoe | dacwo o→e | Resin-like | Made of, resembling, or relating to resin. [Concrete Noun -> Modifier (material/resemblance)]
 dafae | dafa a→e | Stomach-like | Made of, resembling, or relating to stomach. [Biological Noun -> Modifier (like)] Senses: 1) stomach-like; 2) resembling stomach
 dahue | dahu u→e | Valuable | Characterized by or relating to value; valuable. [Abstract Noun -> Modifier (characterized by)] Senses: 1) valuable
 dangue | dangu u→e | relating to a vacation or holiday | Relating to a vacation or holiday; leisure-related. [Abstract Noun -> Modifier (characterized by)] Senses: 1) relating to a vacation or holiday
@@ -783,6 +793,7 @@ dwedue | dwedu u→e | Heartfelt | Characterized by or relating to emotional cor
 dyrpoe | dyrpo o→e | Plank-like | Made of, resembling, or relating to plank. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) plank-like; 2) resembling plank
 dysae | dysa a→e | Tongue-like | Made of, resembling, or relating to tongue. [Biological Noun -> Modifier (like)] Senses: 1) tongue-like; 2) resembling tongue
 dzadoe | dzado o→e | Beetroot-like | Made of, resembling, or relating to beetroot. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) beetroot-like; 2) resembling beetroot
+dzehoe | dzeho o→e | Pyramid-like | Made of, resembling, or relating to pyramid. [Concrete Noun -> Modifier (material/resemblance)]
 dzocoe | dzoco o→e | Pottery-like | Made of, resembling, or relating to pottery. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) pottery-like; 2) resembling pottery
 dzupakae | dzupaka a→e | Royal / Regal | Of or befitting a ruler. [Biological Noun -> Modifier (like)] Senses: 1) royal; 2) regal
 dzuvie | dzuvi i→e | Eroded | Tending toward, or involving, the action 'erode'. [Verb -> Modifier (prone to)] Senses: 1) eroded
@@ -798,6 +809,7 @@ efzue | efzu u→e | Harmonious | Characterized by or relating to harmony; harmo
 egpoe | egpo o→e | Tube-shaped | Made of, resembling, or relating to tube. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) tube-shaped; 2) tubular; 3) piped
 eguvue | eguvu u→e | Standard | Characterized by or relating to level; standard. [Abstract Noun -> Modifier (characterized by)] Senses: 1) standard
 elsae | elsa a→e | Of a bee | Of, like, or befitting a bee. [Biological Noun -> Modifier (like)] Senses: 1) of a bee; 2) bee's; 3) apian
+emamoe | emamo o→e | Garden-like | Made of, resembling, or relating to garden. [Concrete Noun -> Modifier (material/resemblance)]
 epmoe | epmo o→e | Oven-like | Made of, resembling, or relating to oven. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) oven-like; 2) resembling oven
 epufue | epufu u→e | Just | Characterized by or relating to justice; just. [Abstract Noun -> Modifier (characterized by)] Senses: 1) just
 epzie | epzi i→e | Polished | Tending toward, or involving, the action 'polish'. [Verb -> Modifier (prone to)] Senses: 1) polished; 2) smoothed; 3) shined
@@ -829,6 +841,8 @@ fitydue | fitydu u→e | Tomorrow | Relating to or occurring tomorrow. [Abstract
 fiwoe | fiwo o→e | Language-like | Made of, resembling, or relating to language. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) language-like; 2) resembling language
 flestoe | flesto o→e | Made of diamond | Made of, resembling, or relating to diamond. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) made of diamond; 2) diamond-hard; 3) sparkling
 flufue | flufu u→e | Hygienic / Sanitary | Clean and conducive to health. [Abstract Noun -> Modifier (characterized by)] Senses: 1) hygienic; 2) sanitary
+flygue | flygu u→e | Marked by program | Characterized by or marked by program. [Abstract Noun -> Modifier (characterized by)]
+fobxoe | fobxo o→e | Rectangle-like | Made of, resembling, or relating to rectangle. [Concrete Noun -> Modifier (material/resemblance)]
 fofuploe | fofuplo o→e | Bay-like | Made of, resembling, or relating to bay. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) bay-like; 2) resembling bay
 fohue | fohu u→e | Afternoon | Characterized by or relating to afternoon; afternoon. [Abstract Noun -> Modifier (characterized by)] Senses: 1) afternoon
 foisoe | foiso o→e | Building-like | Made of, resembling, or relating to building. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) building-like; 2) resembling building
@@ -845,6 +859,7 @@ fuegoe | fuego o→e | Fiery | Made of, resembling, or relating to fire. [Concre
 fulue | fulu u→e | Informational | Characterized by or relating to data; informational. [Abstract Noun -> Modifier (characterized by)] Senses: 1) informational
 fumoe | fumo o→e | Smoky | Made of, resembling, or relating to smoke. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) smoky; 2) smoking; 3) smoke-producing
 furnae | furna a→e | Fur-like | Made of, resembling, or relating to fur. [Biological Noun -> Modifier (like)] Senses: 1) fur-like; 2) resembling fur
+gabkoe | gabko o→e | Port-like | Made of, resembling, or relating to port. [Concrete Noun -> Modifier (material/resemblance)]
 gague | gagu u→e | Textured | Characterized by or relating to texture; textured. [Abstract Noun -> Modifier (characterized by)] Senses: 1) textured
 gahae | gaha a→e | Cocoa-like | Made of, resembling, or relating to cocoa. [Biological Noun -> Modifier (like)] Senses: 1) cocoa-like; 2) resembling cocoa
 gasirfue | gasirfu u→e | Nauseous / Nauseated | Feeling the urge to vomit. [Abstract Noun -> Modifier (characterized by)] Senses: 1) nauseous; 2) nauseated
@@ -972,6 +987,7 @@ kazaroe | kazaro o→e | Trousers-like | Made of, resembling, or relating to tro
 keglae | kegla a→e | Grassy | Of, like, or befitting a grass. [Biological Noun -> Modifier (like)] Senses: 1) grassy; 2) grass-covered; 3) of grass
 kehulue | kehulu u→e | familial / family (adj) | Familial; relating to, belonging to, or characteristic of a family. [Abstract Noun -> Modifier (characterized by)] Senses: 1) familial; 2) family (adj)
 kejaklue | kejaklu u→e | Lonely | Characterized by or relating to loneliness; lonely. [Abstract Noun -> Modifier (characterized by)] Senses: 1) lonely
+kemjoe | kemjo o→e | Oval-like | Made of, resembling, or relating to oval. [Concrete Noun -> Modifier (material/resemblance)]
 kewue | kewu u→e | Fortunate | Characterized by or relating to luck; fortunate. [Abstract Noun -> Modifier (characterized by)] Senses: 1) fortunate
 kicojoe | kicojo o→e | Jeweled | Made of, resembling, or relating to gem. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) jeweled; 2) gem-cut; 3) precious
 kicursue | kicursu u→e | Dawn | Characterized by or relating to dawn; dawn. [Abstract Noun -> Modifier (characterized by)] Senses: 1) dawn
@@ -980,7 +996,9 @@ kigue | kigu u→e | Cultural | Characterized by or relating to culture; cultura
 kikae | kika a→e | Chicken-like | Made of, resembling, or relating to chicken. [Biological Noun -> Modifier (like)] Senses: 1) chicken-like; 2) resembling chicken
 kimugie | kimugi i→e | Dead | Having undergone dying; no longer alive. [Verb -> Modifier (resultant state)] Senses: 1) dead; 2) deceased; 3) lifeless
 kinoe | kino o→e | Knife-like | Made of, resembling, or relating to knife. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) knife-like; 2) resembling knife
+kocjydoe | kocjydo o→e | Monument-like | Made of, resembling, or relating to monument. [Concrete Noun -> Modifier (material/resemblance)]
 kodoe | kodo o→e | Bowl-like | Made of, resembling, or relating to bowl. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) bowl-like; 2) resembling bowl
+kogwie | kogwi i→e | Prone to debug | Tending toward, or involving, the action 'debug'. [Verb -> Modifier (prone to)]
 kokloe | koklo o→e | Tiled | Made of, resembling, or relating to tile. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) tiled; 2) made of tiles; 3) tile-covered
 kompue | kompu u→e | Competitive | Characterized by or relating to match; competitive. [Abstract Noun -> Modifier (characterized by)] Senses: 1) competitive
 kowygoe | kowygo o→e | Clayey | Made of, resembling, or relating to clay; clayey. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) clayey
@@ -997,6 +1015,7 @@ kwotue | kwotu u→e | Exaggerated | Made out to be bigger or more than it reall
 kyfae | kyfa a→e | Bird-like, avian | Made of, resembling, or relating to bird; bird-like, avian. [Biological Noun -> Modifier (like)] Senses: 1) bird-like; 2) avian
 kynue | kynu u→e | Summery | Characterized by or relating to summer; summery. [Abstract Noun -> Modifier (characterized by)] Senses: 1) summery
 kyranae | kyrana a→e | Feather-like | Made of, resembling, or relating to feather. [Biological Noun -> Modifier (like)] Senses: 1) feather-like; 2) resembling feather
+kyzkoe | kyzko o→e | Statue-like | Made of, resembling, or relating to statue. [Concrete Noun -> Modifier (material/resemblance)]
 ladue | ladu u→e | Conceptual | Characterized by or relating to idea; conceptual. [Abstract Noun -> Modifier (characterized by)] Senses: 1) conceptual
 lakiroe | lakiro o→e | Picture-like | Made of, resembling, or relating to picture. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) picture-like; 2) resembling picture
 lamsoe | lamso o→e | Milky | Made of, resembling, or relating to milk; milky. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) milky
@@ -1083,6 +1102,7 @@ netawae | netawa a→e | Cornflower-like | Made of, resembling, or relating to c
 newoe | newo o→e | Card-like | Made of, resembling, or relating to card. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) card-like; 2) resembling card
 niboe | nibo o→e | Of books | Made of, resembling, or relating to book. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) of books; 2) book-related; 3) for books
 nicue | nicu u→e | Indebted | Characterized by or relating to debt; indebted. [Abstract Noun -> Modifier (characterized by)] Senses: 1) indebted
+nilfoe | nilfo o→e | Cursor-like | Made of, resembling, or relating to cursor. [Concrete Noun -> Modifier (material/resemblance)]
 nimpoe | nimpo o→e | Carrot-like | Made of, resembling, or relating to carrot. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) carrot-like; 2) resembling carrot
 nizye | nizy y→e | Front | Positioned in front; front, fore. [Preposition -> Modifier (positioned)] Senses: 1) front; 2) fore; 3) leading
 noajue | noaju u→e | Functional | Characterized by or relating to role; functional. [Abstract Noun -> Modifier (characterized by)] Senses: 1) functional
@@ -1130,17 +1150,20 @@ paduproe | padupro o→e | Of lava | Made of, resembling, or relating to lava. [
 paeloe | paelo o→e | Paper-like | Made of, resembling, or relating to paper. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) paper-like; 2) resembling paper
 pajae | paja a→e | Uncle-like | Made of, resembling, or relating to uncle. [Biological Noun -> Modifier (like)] Senses: 1) uncle-like; 2) resembling uncle
 pamue | pamu u→e | In pain / Hurting | Feeling pain; hurting, sore. [Abstract Noun -> Modifier (characterized by)] Senses: 1) in pain; 2) hurting; 3) sore
+papjie | papji i→e | Prone to twitch | Tending toward, or involving, the action 'twitch'. [Verb -> Modifier (prone to)]
 parawue | parawu u→e | Traditional | Characterized by or relating to tradition; traditional. [Abstract Noun -> Modifier (characterized by)] Senses: 1) traditional
 parye | pary y→e | Previous | Coming before; previous, prior, pre-. [Preposition -> Modifier (positioned)] Senses: 1) previous; 2) prior
 paswue | paswu u→e | Historical | Characterized by or relating to history; historical. [Abstract Noun -> Modifier (characterized by)] Senses: 1) historical
 pebae | peba a→e | Father-like | Made of, resembling, or relating to father. [Biological Noun -> Modifier (like)] Senses: 1) father-like; 2) resembling father
 pedue | pedu u→e | Powerful | Characterized by or relating to power; powerful. [Abstract Noun -> Modifier (characterized by)] Senses: 1) powerful
+pevhoe | pevho o→e | Cube-like | Made of, resembling, or relating to cube. [Concrete Noun -> Modifier (material/resemblance)]
 picaloe | picalo o→e | Hospital-like | Made of, resembling, or relating to hospital. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) hospital-like; 2) resembling hospital
 pinye | piny y→e | Similar | Like another in kind; similar, alike. [Preposition -> Modifier (positioned)] Senses: 1) similar; 2) alike
 pitbie | pitbi i→e | Calibrated | Tending toward, or involving, the action 'reform'. [Verb -> Modifier (prone to)] Senses: 1) calibrated; 2) adjusted; 3) tuned
 pivrae | pivra a→e | Pufferfish-like | Made of, resembling, or relating to pufferfish. [Biological Noun -> Modifier (like)] Senses: 1) pufferfish-like; 2) resembling pufferfish
 pizue | pizu u→e | Guilty | Feeling or bearing guilt. [Abstract Noun -> Modifier (having the quality of)] Senses: 1) guilty; 2) culpable
 pjabue | pjabu u→e | Mental | Characterized by or relating to mind; mental. [Abstract Noun -> Modifier (characterized by)] Senses: 1) mental
+pjalktoe | pjalkto o→e | Ruins-like | Made of, resembling, or relating to ruins. [Concrete Noun -> Modifier (material/resemblance)]
 pjemoe | pjemo o→e | Solid-like | Made of, resembling, or relating to solid. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) solid-like; 2) resembling solid
 plahoe | plaho o→e | Lock-like | Made of, resembling, or relating to lock. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) lock-like; 2) resembling lock
 plolsoe | plolso o→e | monetary | Monetary; relating to money or currency; financial. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) monetary
@@ -1153,6 +1176,7 @@ pruredue | pruredu u→e | Sunday | Characterized by or relating to sunday; sund
 pujypae | pujypa a→e | Heel-like | Made of, resembling, or relating to heel. [Biological Noun -> Modifier (like)] Senses: 1) heel-like; 2) resembling heel
 purue | puru u→e | Curious | Characterized by curiosity; eager to know. [Abstract Noun -> Modifier (having the quality of)] Senses: 1) curious; 2) inquisitive
 puxae | puxa a→e | Pig-like | Made of, resembling, or relating to pig. [Biological Noun -> Modifier (like)] Senses: 1) pig-like; 2) resembling pig
+pwokoe | pwoko o→e | Cylinder-like | Made of, resembling, or relating to cylinder. [Concrete Noun -> Modifier (material/resemblance)]
 pwosae | pwosa a→e | Tooth-like | Made of, resembling, or relating to tooth. [Biological Noun -> Modifier (like)] Senses: 1) tooth-like; 2) resembling tooth
 pyboe | pybo o→e | Candle-like | Made of, resembling, or relating to candle. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) candle-like; 2) resembling candle
 pydrae | pydra a→e | Jungle | Of, like, or befitting a jungle tree. [Biological Noun -> Modifier (like)] Senses: 1) jungle; 2) of the jungle; 3) jungle-wood
@@ -1161,6 +1185,7 @@ pyjue | pyju u→e | Chaotic | Characterized by or relating to chaos; chaotic. [
 pytsoe | pytso o→e | Rod-like | Made of, resembling, or relating to rod. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) rod-like; 2) resembling rod
 ragoe | rago o→e | Roof-like | Made of, resembling, or relating to roof. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) roof-like; 2) resembling roof
 rajedue | rajedu u→e | Friday | Characterized by or relating to friday; friday. [Abstract Noun -> Modifier (characterized by)] Senses: 1) friday
+ratvoe | ratvo o→e | Cone-like | Made of, resembling, or relating to cone. [Concrete Noun -> Modifier (material/resemblance)]
 razue | razu u→e | Planned | Characterized by or relating to plan; planned. [Abstract Noun -> Modifier (characterized by)] Senses: 1) planned
 reakue | reaku u→e | Theoretical | Characterized by or relating to theory; theoretical. [Abstract Noun -> Modifier (characterized by)] Senses: 1) theoretical
 reduslue | reduslu u→e | Stylish / Stylistic | Having or relating to style. [Abstract Noun -> Modifier (characterized by)] Senses: 1) stylish; 2) stylistic
@@ -1182,6 +1207,7 @@ ruavae | ruava a→e | Dandelion-like | Made of, resembling, or relating to dand
 rufocoe | rufoco o→e | Anchor-like | Made of, resembling, or relating to anchor. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) anchor-like; 2) resembling anchor
 rugoxue | rugoxu u→e | Monthly | Characterized by or relating to month; monthly. [Abstract Noun -> Modifier (characterized by)] Senses: 1) monthly
 rukojoe | rukojo o→e | Vein-like | Made of, resembling, or relating to vein. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) vein-like; 2) resembling vein
+rurjoe | rurjo o→e | Sulfur-like | Made of, resembling, or relating to sulfur. [Concrete Noun -> Modifier (material/resemblance)]
 ryjie | ryji i→e | Absorbed | Tending toward, or involving, the action 'absorb'. [Verb -> Modifier (prone to)] Senses: 1) absorbed; 2) absorbent
 ryroboe | ryrobo o→e | Stem-like | Made of, resembling, or relating to stem. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) stem-like; 2) resembling stem
 ryzusue | ryzusu u→e | Discounted | Offered at a reduced price. [Abstract Noun -> Modifier (characterized by)] Senses: 1) discounted; 2) reduced-price
@@ -1197,6 +1223,7 @@ sidohoe | sidoho o→e | Pillar-like | Made of, resembling, or relating to pilla
 sifae | sifa a→e | Wife-like | Made of, resembling, or relating to wife. [Biological Noun -> Modifier (like)] Senses: 1) wife-like; 2) resembling wife
 siswasoe | siswaso o→e | Stripe-like | Made of, resembling, or relating to stripe. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) stripe-like; 2) resembling stripe
 skejue | skeju u→e | Sonic | Characterized by or relating to sound; sonic. [Abstract Noun -> Modifier (characterized by)] Senses: 1) sonic
+skemoe | skemo o→e | Menu-like | Made of, resembling, or relating to menu. [Concrete Noun -> Modifier (material/resemblance)]
 skorue | skoru u→e | Commercial | Characterized by or relating to market; commercial. [Abstract Noun -> Modifier (characterized by)] Senses: 1) commercial
 skroqoe | skroqo o→e | Cheese-like | Made of, resembling, or relating to cheese. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) cheese-like; 2) resembling cheese
 slewofoe | slewofo o→e | Waxen | Made of, resembling, or relating to wax. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) waxen; 2) made of wax; 3) wax-coated
@@ -1210,6 +1237,7 @@ socue | socu u→e | Social | Characterized by or relating to society; social. [
 somadae | somada a→e | Dolphin-like | Made of, resembling, or relating to dolphin. [Biological Noun -> Modifier (like)] Senses: 1) dolphin-like; 2) resembling dolphin
 soxae | soxa a→e | Body-like | Made of, resembling, or relating to body. [Biological Noun -> Modifier (like)] Senses: 1) body-like; 2) resembling body
 sozoe | sozo o→e | Gas-like | Made of, resembling, or relating to gas. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) gas-like; 2) resembling gas
+spedie | spedi i→e | Prone to sync | Tending toward, or involving, the action 'sync'. [Verb -> Modifier (prone to)]
 spelue | spelu u→e | Recreational | Characterized by or relating to game; recreational. [Abstract Noun -> Modifier (characterized by)] Senses: 1) recreational
 spicupue | spicupu u→e | Loyal | Characterized by or relating to loyalty; loyal. [Abstract Noun -> Modifier (characterized by)] Senses: 1) loyal
 spikoe | spiko o→e | Sock-like | Made of, resembling, or relating to sock. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) sock-like; 2) resembling sock
@@ -1268,9 +1296,12 @@ tsorfoe | tsorfo o→e | Silvery | Made of, resembling, or relating to silver; s
 tsotue | tsotu u→e | Content | Characterized by or relating to contentment; content. [Abstract Noun -> Modifier (characterized by)] Senses: 1) content
 tubsoe | tubso o→e | Of the sea | Made of, resembling, or relating to ocean. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) of the sea; 2) marine; 3) oceanic
 tudarie | tudari i→e | Decorated | Tending toward, or involving, the action 'decorate'. [Verb -> Modifier (prone to)] Senses: 1) decorated; 2) decorative
+tugdoe | tugdo o→e | Of a computer mouse | Relating to or done with a computer mouse. [Concrete Noun -> Modifier (material/resemblance)]
 tukpae | tukpa a→e | Finger-like | Made of, resembling, or relating to finger. [Biological Noun -> Modifier (like)] Senses: 1) finger-like; 2) resembling finger
 tuloe | tulo o→e | Bottle-like | Made of, resembling, or relating to bottle. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) bottle-like; 2) resembling bottle
 tusue | tusu u→e | Wintry | Characterized by or relating to winter; wintry. [Abstract Noun -> Modifier (characterized by)] Senses: 1) wintry
+tycfue | tycfu u→e | Marked by backend | Characterized by or marked by backend. [Abstract Noun -> Modifier (characterized by)]
+tyfmoe | tyfmo o→e | Camp-like | Made of, resembling, or relating to camp. [Concrete Noun -> Modifier (material/resemblance)]
 tykoe | tyko o→e | Material-like | Made of, resembling, or relating to material. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) material-like; 2) resembling material
 uckae | ucka a→e | Seedling-like | Made of, resembling, or relating to seedling. [Biological Noun -> Modifier (like)] Senses: 1) seedling-like; 2) resembling seedling
 uctoe | ucto o→e | Spoon-like | Made of, resembling, or relating to spoon. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) spoon-like; 2) resembling spoon
@@ -1287,6 +1318,7 @@ unyhae | unyha a→e | Moss-like | Of, like, or befitting a moss. [Biological No
 uovoe | uovo o→e | Pillow-like | Made of, resembling, or relating to pillow. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) pillow-like; 2) resembling pillow
 uptae | upta a→e | Eagle-like | Made of, resembling, or relating to eagle. [Biological Noun -> Modifier (like)] Senses: 1) eagle-like; 2) resembling eagle
 usye | usy y→e | Sequential | Following a sequence or rank; sequential, ordinal. [Preposition -> Modifier (positioned)] Senses: 1) sequential; 2) ordinal; 3) ranked
+utsrudoe | utsrudo o→e | Temple-like | Made of, resembling, or relating to temple. [Concrete Noun -> Modifier (material/resemblance)]
 uvgae | uvga a→e | Toe-like | Made of, resembling, or relating to toe. [Biological Noun -> Modifier (like)] Senses: 1) toe-like; 2) resembling toe
 uwae | uwa a→e | Onion-like | Made of, resembling, or relating to onion. [Biological Noun -> Modifier (like)] Senses: 1) onion-like; 2) resembling onion
 uxkue | uxku u→e | Successful | Characterized by or relating to success; successful. [Abstract Noun -> Modifier (characterized by)] Senses: 1) successful
@@ -1316,6 +1348,7 @@ vulfie | vulfi i→e | Trapped | Tending toward, or involving, the action 'trap'
 vuperpue | vuperpu u→e | Tribal | Of or relating to a tribe. [Abstract Noun -> Modifier (characterized by)] Senses: 1) tribal
 vuwoe | vuwo o→e | Bell-like | Made of, resembling, or relating to bell. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) bell-like; 2) resembling bell
 vyflae | vyfla a→e | Rice-like | Made of, resembling, or relating to rice. [Biological Noun -> Modifier (like)] Senses: 1) rice-like; 2) resembling rice
+vykzoe | vykzo o→e | Token-like | Made of, resembling, or relating to token. [Concrete Noun -> Modifier (material/resemblance)]
 vymae | vyma a→e | Of a frog | Of, like, or befitting a frog. [Biological Noun -> Modifier (like)] Senses: 1) of a frog; 2) froggy; 3) frog-laid
 vynoe | vyno o→e | Desk-like | Made of, resembling, or relating to desk. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) desk-like; 2) resembling desk
 vywue | vywu u→e | Rhythmic | Characterized by or relating to rhythm; rhythmic. [Abstract Noun -> Modifier (characterized by)] Senses: 1) rhythmic
@@ -1357,6 +1390,7 @@ xekue | xeku u→e | National | Characterized by or relating to country; nationa
 xepytue | xepytu u→e | Rightful | Characterized by or relating to right; rightful. [Abstract Noun -> Modifier (characterized by)] Senses: 1) rightful
 xesae | xesa a→e | Hair-like | Made of, resembling, or relating to hair. [Biological Noun -> Modifier (like)] Senses: 1) hair-like; 2) resembling hair
 xicoe | xico o→e | Treasure- | Made of, resembling, or relating to treasure. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) treasure-
+xigfoe | xigfo o→e | Square-like | Made of, resembling, or relating to square. [Concrete Noun -> Modifier (material/resemblance)]
 xildoe | xildo o→e | Shield-like | Made of, resembling, or relating to shield. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) shield-like; 2) resembling shield
 xioloe | xiolo o→e | Chair-like | Made of, resembling, or relating to chair. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) chair-like; 2) resembling chair
 xirfie | xirfi i→e | Fermented | Tending toward, or involving, the action 'ferment'. [Verb -> Modifier (prone to)] Senses: 1) fermented
@@ -1370,6 +1404,7 @@ xubfoe | xubfo o→e | Buttery | Made of, resembling, or relating to butter; but
 xucue | xucu u→e | Vocal | Characterized by or relating to voice; vocal. [Abstract Noun -> Modifier (characterized by)] Senses: 1) vocal
 xufae | xufa a→e | Arm-like | Made of, resembling, or relating to arm. [Biological Noun -> Modifier (like)] Senses: 1) arm-like; 2) resembling arm
 xulazae | xulaza a→e | Cod-like | Made of, resembling, or relating to cod. [Biological Noun -> Modifier (like)] Senses: 1) cod-like; 2) resembling cod
+xwafoe | xwafo o→e | Harness-like | Made of, resembling, or relating to harness. [Concrete Noun -> Modifier (material/resemblance)]
 xyntae | xynta a→e | Turtle-like | Made of, resembling, or relating to turtle. [Biological Noun -> Modifier (like)] Senses: 1) turtle-like; 2) resembling turtle
 xyploe | xyplo o→e | Made of iron | Made of, resembling, or relating to iron. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) made of iron; 2) iron-gray; 3) ferrous
 xyroe | xyro o→e | Store-like | Made of, resembling, or relating to store. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) store-like; 2) resembling store
@@ -1397,6 +1432,7 @@ zimowoe | zimowo o→e | Framework-like | Made of, resembling, or relating to fr
 zipae | zipa a→e | Face-like | Made of, resembling, or relating to face. [Biological Noun -> Modifier (like)] Senses: 1) face-like; 2) resembling face
 zixefrae | zixefra a→e | Made of coral | Of, like, or befitting a coral. [Biological Noun -> Modifier (like)] Senses: 1) made of coral; 2) coral-built; 3) coralline
 zobae | zoba a→e | Vegetable-like | Made of, resembling, or relating to vegetable. [Biological Noun -> Modifier (like)] Senses: 1) vegetable-like; 2) resembling vegetable
+zocloe | zoclo o→e | Triangle-like | Made of, resembling, or relating to triangle. [Concrete Noun -> Modifier (material/resemblance)]
 zonitie | zoniti i→e | Prone to strip | Tending toward, or involving, the action 'strip'. [Verb -> Modifier (prone to)] Senses: 1) stripped; 2) peeled; 3) bark-removed
 zorye | zory y→e | Intermediate | Positioned between; intermediate, inter-. [Preposition -> Modifier (positioned)] Senses: 1) intermediate; 2) in-between
 zosue | zosu u→e | Autumnal | Characterized by or relating to autumn; autumnal. [Abstract Noun -> Modifier (characterized by)] Senses: 1) autumnal
@@ -1411,7 +1447,7 @@ zuwue | zuwu u→e | Methodical | Characterized by or relating to way; methodica
 zye | zy y→e | Forward | Directed toward; forward, onward. [Preposition -> Modifier (positioned)] Senses: 1) forward; 2) toward; 3) towards; 4) onward
 zygloroe | zygloro o→e | Shade-like | Made of, resembling, or relating to shade. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) shade-like; 2) resembling shade
 
-=== Verb — 379 entries ===
+=== Verb — 382 entries ===
 aclei | acle e→i | To be generous | Stative: to be or become generous. [Modifier -> Verb (stative)] Senses: 1) to be generous; 2) to become generous
 acryi | acry y→i | To cross | To move across; to cross, traverse. [Preposition -> Verb (relational motion)] Senses: 1) cross; 2) traverse
 adriswei | adriswe e→i | To be diagonal | To be positioned diagonally. [Modifier -> Verb (stative)] Senses: 1) be diagonal
@@ -1497,6 +1533,7 @@ finei | fine e→i | To be fine | Stative: to be or become fine. [Modifier -> Ve
 fiskei | fiske e→i | To be recently | Stative: to be or become recently. [Modifier -> Verb (stative)] Senses: 1) to be recently; 2) to become recently
 flaxadoi | flaxado o→i | Bandage / To bandage | To wrap a wound with a bandage. [Concrete Noun -> Verb (use/apply)] Senses: 1) bandage; 2) dress a wound
 flovei | flove e→i | To be dirty | Stative: to be or become dirty. [Modifier -> Verb (stative)] Senses: 1) to be dirty; 2) to become dirty
+flygui | flygu u→i | To program | To write the instructions that tell a computer what to do. [Abstract Noun -> Verb (feel/enact)] Senses: 1) to program; 2) to code
 foisoi | foiso o→i | To build | To build or construct a structure. [Concrete Noun -> Verb (use/apply)] Senses: 1) to build; 2) to construct
 fomentui | fomentu u→i | To produce / To manufacture | To make goods at scale. [Abstract Noun -> Verb (feel/enact)] Senses: 1) produce; 2) manufacture; 3) mass-produce
 fosei | fose e→i | To be that | Stative: to be or become that. [Modifier -> Verb (stative)] Senses: 1) to be that; 2) to become that
@@ -1743,6 +1780,7 @@ tujyrui | tujyru u→i | Bribe / To bribe | To pay someone secretly to corrupt t
 tuloi | tulo o→i | To bottle | To put into bottles; to bottle. [Concrete Noun -> Verb (use/apply)] Senses: 1) bottle
 tuxuntoi | tuxunto o→i | To bill / To invoice | To present a statement of money owed. [Concrete Noun -> Verb (use/apply)] Senses: 1) bill; 2) invoice; 3) charge
 twavei | twave e→i | To be heavy | Stative: to be or become heavy. [Modifier -> Verb (stative)] Senses: 1) to be heavy; 2) to become heavy
+tyfmoi | tyfmo o→i | To use a camp | To use, operate, or apply a camp. [Concrete Noun -> Verb (use/apply)]
 ubmei | ubme e→i | To be public | Stative: to be or become public. [Modifier -> Verb (stative)] Senses: 1) to be public; 2) to become public
 ucdei | ucde e→i | To be proud | Stative: to be or become proud. [Modifier -> Verb (stative)] Senses: 1) to be proud; 2) to become proud
 udcei | udce e→i | To be tight | Stative: to be or become tight. [Modifier -> Verb (stative)] Senses: 1) to be tight; 2) to become tight
@@ -1778,6 +1816,7 @@ xildoi | xildo o→i | To shield | To protect with or as with a shield. [Concret
 xiseslui | xiseslu u→i | To race | To compete in a race; to contest for speed. [Abstract Noun -> Verb (feel/enact)] Senses: 1) to race; 2) to compete for speed
 xivei | xive e→i | To be expensive | Stative: to be or become expensive. [Modifier -> Verb (stative)] Senses: 1) to be expensive; 2) to become expensive
 xixui | xixu u→i | To amuse | To express or cause humor; to amuse or joke. [Abstract Noun -> Verb (feel/enact)] Senses: 1) to amuse; 2) to joke
+xwafoi | xwafo o→i | To use a harness | To use, operate, or apply a harness. [Concrete Noun -> Verb (use/apply)]
 xygei | xyge e→i | To be thin | Stative: to be or become thin. [Modifier -> Verb (stative)] Senses: 1) to be thin; 2) to become thin
 xyroi | xyro o→i | To shop | To visit shops to browse or buy; to go shopping. [Concrete Noun -> Verb (use/apply)] Senses: 1) shop; 2) go shopping
 yfukei | yfuke e→i | To be of course | Stative: to be or become of course. [Modifier -> Verb (stative)] Senses: 1) to be of course; 2) to become of course

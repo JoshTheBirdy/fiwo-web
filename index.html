@@ -566,7 +566,7 @@
             <h2>Rule Book (All 41 Rules)</h2>
 <p>This is the comprehensive, official rulebook of the <strong>Fiwo</strong> constructed language. It contains the complete set of phonological, morphological, syntactical, and logical rules that define how the language is written, spoken, and parsed.</p>
 <p>The rules are organized into <strong>9 Parts</strong> in a logical, pedagogical progression, beginning with core phonetic foundations and building up to complex clausal mechanics, conversational register, ellipsis &amp; deixis, and spoken repair.</p>
-<p><strong>Rule book v1.14 · 2026-10-03 · 41 rules across 9 Parts.</strong></p>
+<p><strong>Rule book v1.15 · 2026-10-07 · 41 rules across 9 Parts.</strong></p>
 <hr>
 <h2>Part I: Phonology, Orthography &amp; Foundations</h2>
 <h3>Rule 1: Phonemic Orthography &amp; Stress</h3>
@@ -2486,6 +2486,12 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 </li>
 <li><strong>The Bare Noun-Phrase Question (see Rule 12.7):</strong> Placing the <code>Kup</code> tag in front of a noun-phrase fragment turns it into a content question requesting that phrase&#39;s value — <strong>Kup hisup suke?</strong> = &quot;What is your name?&quot;. This is the same fragment mechanism reading forward (asking) instead of backward (answering).</li>
 <li><strong>Registers:</strong> Fragments are the natural register for texting and quick speech. In precise registers (instructions, legal, mathematical) prefer full SVO clauses, since a fragment&#39;s meaning depends on the surrounding utterance rather than being self-contained.</li>
+<li><strong>The Colon Boundary (v1.15):</strong> A colon <code>:</code> ends the current utterance exactly as <code>.</code> does. Whatever follows is a fresh utterance — usually a fragment naming the value the first part announced (a label and its value, a heading and its list), but a full clause or a new mood tag is equally legal. <em>(Minecraft 26.3 review §4.3: on-screen text uses <code>label: value</code> constantly.)</em><ul>
+<li><strong>Suk jopxid cymgiu je nauxae: Gu tafe.</strong> (You received friend requests: three.) — clause, then a noun-phrase fragment.</li>
+<li><strong>Pijiu: Kop nes zyli sil.</strong> (Warning: do not use it.) — fragment, then a fresh imperative.</li>
+<li><strong>A colon is a full boundary, so nothing reaches across it.</strong> A preposition before the colon is left without a target: ✗ <em>Mik ombid ufaxo cagy: Gu tafe.</em> Give the bridge its noun first — ✓ <strong>Mik ombid ufaxo cagy cemu je sile: Gu tafe.</strong></li>
+</ul>
+</li>
 </ol>
 <hr>
 <h3>Rule 38: Deictic Pronouns (<code>sil</code> / <code>fos</code>)</h3>
@@ -2714,7 +2720,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
                 </a>
                 <a class="learn-path-card" href="#flashcards">
                     <h3>Flashcards</h3>
-                    <p class="learn-path-stat">3,312 words &middot; 8,391 cards &middot; on your device</p>
+                    <p class="learn-path-stat">3,386 words &middot; 8,586 cards &middot; on your device</p>
                     <p>The same deck as the Fiwo app, running the same scheduler: it shows you a word just before you
                     would have forgotten it, both directions, and nothing leaves your browser. Swipe to grade, or
                     <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>.</p>
@@ -2848,10 +2854,10 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
     <!-- Layer 3: the backup file. After the store, because it registers itself
          with it; harmless on a browser with no File System Access at all. -->
     <script src="fiwo-backup.js?v=def66fe1"></script>
-    <script src="dictionary.js?v=56f4a511"></script>
-    <script src="DerivedDictionary.js?v=dc905a08"></script>
+    <script src="dictionary.js?v=9587a8ff"></script>
+    <script src="DerivedDictionary.js?v=cab43935"></script>
     <script src="stories.js?v=b948768d"></script>
-    <script src="fiwo-parser.js?v=b784ffc0"></script>
+    <script src="fiwo-parser.js?v=83494cf4"></script>
     <!-- The trained neural voice is the WEBSITE'S, not fiwo-pronounce.js's:
          that file is also vendored into the Android app, which has its own
          Piper path and no fiwo-voice.js to find. Declaring the module here
