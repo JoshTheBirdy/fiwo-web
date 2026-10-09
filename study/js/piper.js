@@ -133,8 +133,8 @@ export function ipaSymbols(text) {
  * — 316 `.` and 14 `?` in the dataset. So the last chunk of a sentence carries
  * its `.`/`?` exactly as in training, which is also what gives a `Kup` question
  * the ending the model heard Josh use. `!` was never in training and is read
- * as `.`. Prosody only reinforces (Rule 40.1): a chunk boundary never changes
- * a phoneme.
+ * as `.`, and so is a colon, which ends an utterance (Rule 37.6). Prosody
+ * only reinforces (Rule 40.1): a chunk boundary never changes a phoneme.
  */
 const WALLS = new Set(['bef', 'bul', 'rot', 'kad', 'vel', 'zol', 'can', 'pen', 'vax', 'pov', 'kof', 'xom', 'din']);
 const PAUSE_BEFORE = new Set([...WALLS, 'tep', 'huc', 'gix']);
@@ -177,8 +177,11 @@ export function prosodyChunks(text) {
     const bare = raw.replace(/[^A-Za-z'-]/g, '').toLowerCase();
     if (!bare) continue;
     if (PAUSE_BEFORE.has(bare)) close('', 'short');
-    words.push(raw.replace(/[.?!]+$/, ''));
-    const final = raw.match(/[.?!]+$/);
+    // A colon ends the utterance exactly as a full stop does (Rule 37.6), so
+    // it gets the long pause too. The model never heard a `:` token, so the
+    // chunk before it ends on the trained `.`.
+    words.push(raw.replace(/[.?!:]+$/, ''));
+    const final = raw.match(/[.?!:]+$/);
     if (final) close(final[0].includes('?') ? '?' : '.', 'long');
     else if (PAUSE_AFTER.has(bare)) close('', 'short');
   }

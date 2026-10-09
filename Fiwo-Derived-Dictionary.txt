@@ -1,4 +1,4 @@
-# Fiwo Derived Dictionary — 1811 entries
+# Fiwo Derived Dictionary — 1819 entries
 # GENERATED from Canon/derived_lexicon.json by Tools/build.py — do not edit by hand
 #
 # One entry per line, pipe-delimited, grouped by part of speech:
@@ -318,7 +318,7 @@ zupia | zupi i→a | Enabler | A person who lets; an enabler. [Verb -> Biologica
 zusabrua | zusabru u→a | Surgeon | A doctor who performs surgery. [Abstract Noun -> Biological Noun (practitioner)] Senses: 1) surgeon
 zylia | zyli i→a | User | A person who uses; an user. [Verb -> Biological Noun (doer)] Senses: 1) user
 
-=== Concrete Noun — 57 entries ===
+=== Concrete Noun — 59 entries ===
 akdio | akdi i→o | Shrieker | An instrument for, or physical result of, 'shout'. [Verb -> Concrete Noun (instrument/result)] Senses: 1) shrieker; 2) siren; 3) alarm device
 arsumpio | arsumpi i→o | A flow | An instrument for, or physical result of, 'flow'. [Verb -> Concrete Noun (instrument/result)] Senses: 1) a flow; 2) swirl; 3) streaming movement
 baxyo | baxy y→o | Back (part) | The rear part of something; the back. [Preposition -> Concrete Noun (relation object)] Senses: 1) back; 2) rear
@@ -329,10 +329,12 @@ danguo | dangu u→o | a vacation place | A vacation place; a resort or holiday 
 dekyo | deky y→o | Interior | The inner part or interior of something. [Preposition -> Concrete Noun (relation object)] Senses: 1) interior
 drulsio | drulsi i→o | Lever | An instrument for, or physical result of, 'switch'. [Verb -> Concrete Noun (instrument/result)] Senses: 1) lever; 2) switch handle; 3) control device
 duxilio | duxili i→o | An attack | An act of attacking; an assault or offensive. [Verb -> Concrete Noun (instrument/result)] Senses: 1) an attack; 2) an assault
+falazo | falazi i→o | A note / A written record | Something written down to keep a record; a note. [Verb -> Concrete Noun (instrument/result)] Senses: 1) note; 2) record
 falmio | falmi i→o | Report | A written or spoken account; a report. [Verb -> Concrete Noun (instrument/result)] Senses: 1) report; 2) account
 fehedio | fehedi i→o | divorce document | A concrete object or document of divorce, such as divorce papers. [Verb -> Concrete Noun (instrument/result)] Senses: 1) divorce document
 fewio | fewi i→o | Mixture | The result of mixing; a mixture, blend. [Verb -> Concrete Noun (instrument/result)] Senses: 1) mixture; 2) blend
 fijao | fija a→o | Earring / Headphone | An object worn on the ear; an earring or headphone. [Biological Noun -> Concrete Noun (artifact)] Senses: 1) earring; 2) headphone
+fomentuo | fomentu u→o | Product | A thing that has been produced or manufactured. [Abstract Noun -> Concrete Noun (embodiment)] Senses: 1) product
 foxiprio | foxipri i→o | A fade | An instrument for, or physical result of, 'fade'. [Verb -> Concrete Noun (instrument/result)] Senses: 1) a fade; 2) gradient; 3) color transition
 fuluo | fulu u→o | File | A tangible record or file of data. [Abstract Noun -> Concrete Noun (embodiment)] Senses: 1) file; 2) dataset
 furnao | furna a→o | Pelt | An animal's fur used as material; a pelt, fur. [Biological Noun -> Concrete Noun (artifact)] Senses: 1) pelt; 2) fur
@@ -377,7 +379,7 @@ xeskio | xeski i→o | Prize / Trophy | The object won; a reward for winning. [V
 zemio | zemi i→o | Cover / Lid | The thing that covers something; a cover or lid. [Verb -> Concrete Noun (instrument/result)] Senses: 1) cover; 2) lid
 zuzkeo | zuzke e→o | Candy / Sweet | A small sweet treat; a candy, sweet, confection. [Modifier -> Concrete Noun (exemplar)] Senses: 1) candy; 2) sweet; 3) confection
 
-=== Abstract Noun — 269 entries ===
+=== Abstract Noun — 274 entries ===
 acleu | acle e→u | Generosity | The quality or state of being generous; generosity. [Modifier -> Abstract Noun (quality)] Senses: 1) generosity
 adrisweu | adriswe e→u | Diagonality | The quality or state of being diagonal; diagonality. [Modifier -> Abstract Noun (quality)] Senses: 1) diagonality; 2) slant
 aiteu | aite e→u | Stench | The quality or state of being smelly; stench. [Modifier -> Abstract Noun (quality)] Senses: 1) stench; 2) smelliness; 3) stink
@@ -486,6 +488,7 @@ kaniu | kani i→u | Knowledge | The state or body of what is known. [Verb -> Ab
 keqeu | keqe e→u | Nativeness | The quality or state of being native; nativeness. [Modifier -> Abstract Noun (quality)] Senses: 1) nativeness
 kibeu | kibe e→u | Normality | The quality or state of being normal; normality. [Modifier -> Abstract Noun (quality)] Senses: 1) normality; 2) normalcy
 kifybiu | kifybi i→u | Protest | A public expression of strong objection. [Verb -> Abstract Noun (act/process)] Senses: 1) protest; 2) demonstration
+kiliu | kili i→u | Touch (the sensation) | The sense or sensation of touch; feeling something with the body. [Verb -> Abstract Noun (act/process)] Senses: 1) touch; 2) sense of touch
 kjeliu | kjeli i→u | Earning | The act of earning. [Verb -> Abstract Noun (act/process)] Senses: 1) earning
 kjukeu | kjuke e→u | Freedom / Liberty | The state of being free. [Modifier -> Abstract Noun (state)] Senses: 1) freedom; 2) liberty; 3) independence
 kluxeu | kluxe e→u | Silence | The quality or state of being quiet; silence. [Modifier -> Abstract Noun (quality)] Senses: 1) silence; 2) quietness
@@ -502,6 +505,7 @@ laswitiu | laswiti i→u | Representation | The act of representing or standing 
 lateu | late e→u | Total / Sum / Totality | The whole amount; the sum or total of all parts. [Modifier -> Abstract Noun (quality)] Senses: 1) total; 2) sum; 3) totality; 4) the whole
 latwau | latwa a→u | Wildlife | Animals collectively; wildlife, fauna. [Biological Noun -> Abstract Noun (role/state)] Senses: 1) wildlife; 2) fauna
 lemespiu | lemespi i→u | Arrest | The act of seizing and holding a person by legal authority. [Verb -> Abstract Noun (act/process)] Senses: 1) arrest; 2) apprehension
+linuciu | linuci i→u | Event / Happening | Something that happens or takes place; an event, an occurrence. [Verb -> Abstract Noun (act/process)] Senses: 1) event; 2) happening; 3) occurrence
 lixeu | lixe e→u | Wetness | The quality or state of being wet; wetness. [Modifier -> Abstract Noun (quality)] Senses: 1) wetness
 localeu | locale e→u | Locality | The quality or state of being local; locality. [Modifier -> Abstract Noun (quality)] Senses: 1) locality
 lokiu | loki i→u | Reading | The act or activity of reading. [Verb -> Abstract Noun (act/process)] Senses: 1) reading
@@ -546,6 +550,7 @@ pabiciu | pabici i→u | Analysis | A detailed examination of something's parts.
 padhiu | padhi i→u | Violation | The act of breaking a law or rule; a violation. [Verb -> Abstract Noun (act/process)] Senses: 1) violation; 2) breach
 pampigiu | pampigi i→u | Intention | A plan or aim to do something; an intention, purpose. [Verb -> Abstract Noun (act/process)] Senses: 1) intention; 2) purpose; 3) intent
 papjiu | papji i→u | Act of twitch | The act, process, or concept of 'twitch'. [Verb -> Abstract Noun (act/process)]
+pauliu | pauli i→u | Feeling | An emotion or inner sensation; something felt inwardly. [Verb -> Abstract Noun (act/process)] Senses: 1) feeling; 2) emotion
 paxeu | paxe e→u | Weakness | The quality or state of being weak; weakness. [Modifier -> Abstract Noun (quality)] Senses: 1) weakness
 pebau | peba a→u | Fatherhood | The state of being a father; fatherhood. [Biological Noun -> Abstract Noun (role/state)] Senses: 1) fatherhood
 peteswiu | peteswi i→u | Spending / Expenditure | The act of paying out money. [Verb -> Abstract Noun (act/process)] Senses: 1) spending; 2) expenditure
@@ -617,12 +622,14 @@ upfeu | upfe e→u | Inequality | The quality or state of being unequal; inequal
 usateu | usate e→u | Straightness | The quality or state of being straight; straightness. [Modifier -> Abstract Noun (quality)] Senses: 1) straightness
 usiu | usi i→u | Slumber | The state or act of sleeping; slumber. [Verb -> Abstract Noun (act/process)] Senses: 1) slumber
 uxbeu | uxbe e→u | Looseness | The quality or state of being loose; looseness. [Modifier -> Abstract Noun (quality)] Senses: 1) looseness
+vahimiu | vahimi i→u | Management / Administration | The act of managing, handling or administering something. [Verb -> Abstract Noun (act/process)] Senses: 1) management; 2) administration
 vekeu | veke e→u | Lowness | The quality or state of being low; lowness. [Modifier -> Abstract Noun (quality)] Senses: 1) lowness; 2) shortness
 viceu | vice e→u | Courage / Bravery | The quality of being brave. [Modifier -> Abstract Noun (quality)] Senses: 1) courage; 2) bravery; 3) valor
 vildeu | vilde e→u | Directness | The quality or state of being direct; directness. [Modifier -> Abstract Noun (quality)] Senses: 1) directness
 vokreu | vokre e→u | Greed | The quality or state of being greedy; greed. [Modifier -> Abstract Noun (quality)] Senses: 1) greed
 vyheu | vyhe e→u | Mildness | The quality or state of being mild; mildness. [Modifier -> Abstract Noun (quality)] Senses: 1) mildness; 2) blandness
 vyziu | vyzi i→u | Escape | The act of escaping; an escape. [Verb -> Abstract Noun (act/process)] Senses: 1) escape; 2) getaway
+wafriu | wafri i→u | Loss | The act or fact of losing something. [Verb -> Abstract Noun (act/process)] Senses: 1) loss
 wapseu | wapse e→u | Flatness | The quality or state of being flat; flatness. [Modifier -> Abstract Noun (quality)] Senses: 1) flatness
 waskeu | waske e→u | Age | The quality or state of being old; age. [Modifier -> Abstract Noun (quality)] Senses: 1) age; 2) oldness
 waxiu | waxi i→u | Exercise | Physical activity done to stay fit; exercise. [Verb -> Abstract Noun (act/process)] Senses: 1) exercise; 2) workout
@@ -648,7 +655,7 @@ zodeu | zode e→u | Loudness | The quality or state of being loud; loudness. [M
 zulxiu | zulxi i→u | Waking | The act of waking up; awakening. [Verb -> Abstract Noun (act/process)] Senses: 1) waking; 2) awakening
 zuzkeu | zuzke e→u | Sweetness | The quality or state of being sweet; sweetness. [Modifier -> Abstract Noun (quality)] Senses: 1) sweetness
 
-=== Modifier — 797 entries ===
+=== Modifier — 798 entries ===
 absue | absu u→e | Sensible | Characterized by or relating to sense; sensible. [Abstract Noun -> Modifier (characterized by)] Senses: 1) sensible
 acinae | acina a→e | Claw-like | Made of, resembling, or relating to claw. [Biological Noun -> Modifier (like)] Senses: 1) claw-like; 2) resembling claw
 acrye | acry y→e | Transverse | Lying or oriented across something; transverse. [Preposition -> Modifier (positioned)] Senses: 1) transverse; 2) crosswise
@@ -827,10 +834,10 @@ farlopae | farlopa a→e | Doctor-like | Made of, resembling, or relating to doc
 farlue | farlu u→e | Healthy | Possessing or relating to health. [Abstract Noun -> Modifier (having the quality of)] Senses: 1) healthy; 2) well; 3) fit
 fatoe | fato o→e | Mechanical | Made of, resembling, or relating to machine. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) mechanical; 2) machine-driven; 3) of a machine
 fawanue | fawanu u→e | Technological | Characterized by or relating to technology; technological. [Abstract Noun -> Modifier (characterized by)] Senses: 1) technological
-fefue | fefu u→e | Final | Characterized by or relating to end; final. [Abstract Noun -> Modifier (characterized by)] Senses: 1) final
+fefue | fefu u→e | Final / Last (in a sequence) | Characterized by or relating to end; final. [Abstract Noun -> Modifier (characterized by)] Senses: 1) final; 2) last (Usage: Last as in the last one in a row. Last as in most recent (last week) is parye or rivahe (previous).)
 fehedie | fehedi i→e | divorced | Divorced; relating to or characterized by the dissolution of a marriage. [Verb -> Modifier (prone to)] Senses: 1) divorced
 femporoe | femporo o→e | Made of quartz | Made of, resembling, or relating to quartz. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) made of quartz; 2) quartz-cut; 3) crystalline
-fevoe | fevo o→e | Sun-like | Made of, resembling, or relating to sun. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) sun-like; 2) resembling sun
+fevoe | fevo o→e | Solar / Sun-like | Made of, resembling, or relating to sun. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) solar; 2) sun-like; 3) resembling sun
 figenkue | figenku u→e | Typical | Representative of a type or kind. [Abstract Noun -> Modifier (characterized by)] Senses: 1) typical; 2) representative
 fihie | fihi i→e | Prone to expose | Tending toward, or involving, the action 'expose'. [Verb -> Modifier (prone to)] Senses: 1) exposed; 2) uncovered; 3) laid bare
 fijae | fija a→e | Ear-like | Made of, resembling, or relating to ear. [Biological Noun -> Modifier (like)] Senses: 1) ear-like; 2) resembling ear
@@ -974,7 +981,7 @@ jufysoe | jufyso o→e | Pickaxe-like | Made of, resembling, or relating to pick
 jukue | juku u→e | Structural | Characterized by or relating to shape; structural. [Abstract Noun -> Modifier (characterized by)] Senses: 1) structural
 jultie | julti i→e | Drowning | Tending toward, or involving, the action 'drown'. [Verb -> Modifier (prone to)] Senses: 1) drowning
 jumae | juma a→e | Rival-like | Made of, resembling, or relating to rival. [Biological Noun -> Modifier (like)] Senses: 1) rival-like; 2) resembling rival
-juroe | juro o→e | City-like | Made of, resembling, or relating to city. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) city-like; 2) resembling city
+juroe | juro o→e | Urban / City-like | Made of, resembling, or relating to city. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) urban; 2) city-like; 3) resembling city
 jye | jy y→e | Partial | Being part of a whole; partial, component. [Preposition -> Modifier (positioned)] Senses: 1) partial; 2) component
 jyhue | jyhu u→e | Fateful | Characterized by or relating to destiny; fateful. [Abstract Noun -> Modifier (characterized by)] Senses: 1) fateful
 jyjoe | jyjo o→e | Computer-like | Made of, resembling, or relating to computer. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) computer-like; 2) resembling computer
@@ -984,6 +991,7 @@ kagaxae | kagaxa a→e | Axolotl-like | Made of, resembling, or relating to axol
 kagedue | kagedu u→e | Tuesday | Characterized by or relating to tuesday; tuesday. [Abstract Noun -> Modifier (characterized by)] Senses: 1) tuesday
 kaloe | kalo o→e | Cup-like | Made of, resembling, or relating to cup. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) cup-like; 2) resembling cup
 kazaroe | kazaro o→e | Trousers-like | Made of, resembling, or relating to trousers. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) trousers-like; 2) resembling trousers
+kedovoe | kedovo o→e | Financial | Relating to funds or money matters. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) financial
 keglae | kegla a→e | Grassy | Of, like, or befitting a grass. [Biological Noun -> Modifier (like)] Senses: 1) grassy; 2) grass-covered; 3) of grass
 kehulue | kehulu u→e | familial / family (adj) | Familial; relating to, belonging to, or characteristic of a family. [Abstract Noun -> Modifier (characterized by)] Senses: 1) familial; 2) family (adj)
 kejaklue | kejaklu u→e | Lonely | Characterized by or relating to loneliness; lonely. [Abstract Noun -> Modifier (characterized by)] Senses: 1) lonely
@@ -1054,7 +1062,7 @@ lyfroe | lyfro o→e | Wire-like | Made of, resembling, or relating to wire. [Co
 lyltae | lylta a→e | Lichen-like | Made of, resembling, or relating to lichen. [Biological Noun -> Modifier (like)] Senses: 1) lichen-like; 2) resembling lichen
 lympie | lympi i→e | Prone to rust | Tending toward, or involving, the action 'rust'. [Verb -> Modifier (prone to)] Senses: 1) rusted; 2) oxidized; 3) corroded
 magustue | magustu u→e | Magical | Characterized by or marked by magic. [Abstract Noun -> Modifier (characterized by)] Senses: 1) magical; 2) enchanted; 3) arcane
-manae | mana a→e | Mother-like | Made of, resembling, or relating to mother. [Biological Noun -> Modifier (like)] Senses: 1) mother-like; 2) resembling mother
+manae | mana a→e | Motherly / Maternal / Mother-like | Made of, resembling, or relating to mother. [Biological Noun -> Modifier (like)] Senses: 1) motherly; 2) maternal; 3) mother-like; 4) resembling mother
 mantue | mantu u→e | Quantitative | Characterized by or relating to amount; quantitative. [Abstract Noun -> Modifier (characterized by)] Senses: 1) quantitative
 maobae | maoba a→e | Heart-like | Made of, resembling, or relating to heart. [Biological Noun -> Modifier (like)] Senses: 1) heart-like; 2) resembling heart
 mavahae | mavaha a→e | Wheat-like | Made of, resembling, or relating to wheat. [Biological Noun -> Modifier (like)] Senses: 1) wheat-like; 2) resembling wheat
@@ -1092,7 +1100,7 @@ nacie | naci i→e | Work-related / Industrious | Relating to or inclined to wor
 naglifie | naglifi i→e | Insistent | Given to insisting; persistent and demanding. [Verb -> Modifier (prone to)] Senses: 1) insistent; 2) persistent
 nasae | nasa a→e | Plant-like | Made of, resembling, or relating to plant. [Biological Noun -> Modifier (like)] Senses: 1) plant-like; 2) resembling plant
 nasboe | nasbo o→e | Medicine-like | Made of, resembling, or relating to medicine. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) medicine-like; 2) resembling medicine
-nauxae | nauxa a→e | Friend-like | Made of, resembling, or relating to friend. [Biological Noun -> Modifier (like)] Senses: 1) friend-like; 2) resembling friend
+nauxae | nauxa a→e | Friendly / Friend-like | Made of, resembling, or relating to friend. [Biological Noun -> Modifier (like)] Senses: 1) friendly; 2) friend-like; 3) resembling friend
 naxue | naxu u→e | Collective | Characterized by or relating to group; collective. [Abstract Noun -> Modifier (characterized by)] Senses: 1) collective
 nejowoe | nejowo o→e | Ink-like | Made of, resembling, or relating to ink. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) ink-like; 2) resembling ink
 nembue | nembu u→e | Congratulatory | Characterized by or relating to congratulations; congratulatory. [Abstract Noun -> Modifier (characterized by)] Senses: 1) congratulatory
@@ -1139,7 +1147,7 @@ orkue | orku u→e | Graded | Characterized by or relating to score; graded. [Ab
 osajue | osaju u→e | Western | Characterized by or relating to west; western. [Abstract Noun -> Modifier (characterized by)] Senses: 1) western
 ostue | ostu u→e | Eastern | Characterized by or relating to east; eastern. [Abstract Noun -> Modifier (characterized by)] Senses: 1) eastern
 oswyploe | oswyplo o→e | Hellish | Resembling or characteristic of hell; tormenting. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) hellish; 2) infernal
-otmae | otma a→e | Disease-like | Made of, resembling, or relating to disease. [Biological Noun -> Modifier (like)] Senses: 1) disease-like; 2) resembling disease
+otmae | otma a→e | Sick / Ill / Disease-like | Made of, resembling, or relating to disease. [Biological Noun -> Modifier (like)] Senses: 1) sick; 2) ill; 3) disease-like; 4) resembling disease
 otsinoe | otsino o→e | Of thread | Made of, resembling, or relating to thread. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) of thread; 2) for weaving; 3) threaded
 ouzue | ouzu u→e | Merciful | Characterized by or relating to mercy; merciful. [Abstract Noun -> Modifier (characterized by)] Senses: 1) merciful
 ovpae | ovpa a→e | Neck-like | Made of, resembling, or relating to neck. [Biological Noun -> Modifier (like)] Senses: 1) neck-like; 2) resembling neck
@@ -1152,9 +1160,9 @@ pajae | paja a→e | Uncle-like | Made of, resembling, or relating to uncle. [Bi
 pamue | pamu u→e | In pain / Hurting | Feeling pain; hurting, sore. [Abstract Noun -> Modifier (characterized by)] Senses: 1) in pain; 2) hurting; 3) sore
 papjie | papji i→e | Prone to twitch | Tending toward, or involving, the action 'twitch'. [Verb -> Modifier (prone to)]
 parawue | parawu u→e | Traditional | Characterized by or relating to tradition; traditional. [Abstract Noun -> Modifier (characterized by)] Senses: 1) traditional
-parye | pary y→e | Previous | Coming before; previous, prior, pre-. [Preposition -> Modifier (positioned)] Senses: 1) previous; 2) prior
+parye | pary y→e | Former / Previous | Coming before; previous, prior, pre-. [Preposition -> Modifier (positioned)] Senses: 1) former; 2) previous; 3) prior
 paswue | paswu u→e | Historical | Characterized by or relating to history; historical. [Abstract Noun -> Modifier (characterized by)] Senses: 1) historical
-pebae | peba a→e | Father-like | Made of, resembling, or relating to father. [Biological Noun -> Modifier (like)] Senses: 1) father-like; 2) resembling father
+pebae | peba a→e | Fatherly / Paternal / Father-like | Made of, resembling, or relating to father. [Biological Noun -> Modifier (like)] Senses: 1) fatherly; 2) paternal; 3) father-like; 4) resembling father
 pedue | pedu u→e | Powerful | Characterized by or relating to power; powerful. [Abstract Noun -> Modifier (characterized by)] Senses: 1) powerful
 pevhoe | pevho o→e | Cube-like | Made of, resembling, or relating to cube. [Concrete Noun -> Modifier (material/resemblance)]
 picaloe | picalo o→e | Hospital-like | Made of, resembling, or relating to hospital. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) hospital-like; 2) resembling hospital
@@ -1375,7 +1383,7 @@ womae | woma a→e | Worm-like | Made of, resembling, or relating to worm; worm-
 worue | woru u→e | Regional | Characterized by or relating to area; regional. [Abstract Noun -> Modifier (characterized by)] Senses: 1) regional
 wozuproe | wozupro o→e | Spear-like | Made of, resembling, or relating to spear. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) spear-like; 2) resembling spear
 wujoe | wujo o→e | Cartographic | Made of, resembling, or relating to map. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) cartographic; 2) chart-like; 3) map-related
-wusae | wusa a→e | Hand-like | Made of, resembling, or relating to hand. [Biological Noun -> Modifier (like)] Senses: 1) hand-like; 2) resembling hand
+wusae | wusa a→e | Manual (by hand) / Hand-like | Made of, resembling, or relating to hand. [Biological Noun -> Modifier (like)] Senses: 1) manual; 2) by hand; 3) hand-like; 4) resembling hand
 wuswoe | wuswo o→e | Nest-like | Made of, resembling, or relating to nest. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) nest-like; 2) resembling nest
 wutroe | wutro o→e | Made of concrete | Made of, resembling, or relating to concrete. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) made of concrete; 2) concrete-built; 3) cast
 wyqoe | wyqo o→e | Soap-like | Made of, resembling, or relating to soap. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) soap-like; 2) resembling soap
@@ -1444,7 +1452,7 @@ zusabrue | zusabru u→e | Surgical | Relating to or done by surgery. [Abstract 
 zuslefue | zuslefu u→e | Algorithmic | Following a step-by-step computational procedure. [Abstract Noun -> Modifier (characterized by)] Senses: 1) algorithmic
 zutae | zuta a→e | Fruit-like | Made of, resembling, or relating to fruit. [Biological Noun -> Modifier (like)] Senses: 1) fruit-like; 2) resembling fruit
 zuwue | zuwu u→e | Methodical | Characterized by or relating to way; methodical. [Abstract Noun -> Modifier (characterized by)] Senses: 1) methodical
-zye | zy y→e | Forward | Directed toward; forward, onward. [Preposition -> Modifier (positioned)] Senses: 1) forward; 2) toward; 3) towards; 4) onward
+zye | zy y→e | Forward / Toward(s) | Directed toward; forward, onward. [Preposition -> Modifier (positioned)] Senses: 1) forward; 2) toward; 3) towards; 4) onward; 5) toward; 6) towards
 zygloroe | zygloro o→e | Shade-like | Made of, resembling, or relating to shade. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) shade-like; 2) resembling shade
 
 === Verb — 382 entries ===

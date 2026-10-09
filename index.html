@@ -241,7 +241,7 @@
                     
                     <div class="directory-card">
                         <h3><a href="#rules" onclick="document.querySelector('.side-nav a[href=\'#rules\']').click(); return false;">The Rulebook</a></h3>
-                        <p>The core engine of the language. A comprehensive, technical breakdown of all 39 deterministic rules that govern Fiwo.</p>
+                        <p>The core engine of the language. A comprehensive, technical breakdown of every deterministic rule that governs Fiwo.</p>
                     </div>
                     
                     <div class="directory-card">
@@ -259,6 +259,12 @@
                         <p>Put your knowledge to the test. Practice your comprehension by reading stories, fables, and dialogues fully translated into Fiwo.</p>
                     </div>
                 </div>
+            </div>
+
+            <div class="content-block" id="contact">
+                <h2>Get in Touch</h2>
+                <p>Fiwo is young and still changing, so feedback shapes it. Grammar critique, things that were hard to learn, sentences that broke, thoughts on the voice, or a "this is wrong and here's why" — all of it is very welcome.</p>
+                <p>Write to <a class="fiwo-email" data-user="fiwolang" data-domain="gmail.com">fiwolang (at) gmail.com</a>.</p>
             </div>
         </section>
         <section id="phonetics" class="page">
@@ -566,7 +572,7 @@
             <h2>Rule Book (All 41 Rules)</h2>
 <p>This is the comprehensive, official rulebook of the <strong>Fiwo</strong> constructed language. It contains the complete set of phonological, morphological, syntactical, and logical rules that define how the language is written, spoken, and parsed.</p>
 <p>The rules are organized into <strong>9 Parts</strong> in a logical, pedagogical progression, beginning with core phonetic foundations and building up to complex clausal mechanics, conversational register, ellipsis &amp; deixis, and spoken repair.</p>
-<p><strong>Rule book v1.15 · 2026-10-07 · 41 rules across 9 Parts.</strong></p>
+<p><strong>Rule book v1.16 · 2026-10-09 · 41 rules across 9 Parts.</strong></p>
 <hr>
 <h2>Part I: Phonology, Orthography &amp; Foundations</h2>
 <h3>Rule 1: Phonemic Orthography &amp; Stress</h3>
@@ -2545,7 +2551,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><strong>The Principle — prosody reinforces, it never creates.</strong> Every pause and pitch movement below marks structure that the words already carry. A sentence read in a flat monotone, with no pauses at all, keeps exactly the same meaning and the same single parse. The parser ignores prosody, and the written language does not change. The one thing tone may carry alone is <em>mood</em>: when an optional mood tag is dropped in casual speech, the voice may carry the attitude instead (Rule 11.2). That is pragmatics, never syntax — tone can make a sentence sound sarcastic, but it can never close a bracket, end a clause, or move a word into a different slot.</li>
 <li><strong>Word Stress.</strong> Stress falls on the <strong>last syllable</strong> of a word (Phonetics). The last syllable is where the functional vowel lives, so stress puts the word&#39;s category — <code>-o</code> thing, <code>-i</code> action, <code>-e</code> description — in the loudest position of the word. Suffixed forms stress the same syllable: <code>nomid</code> → no-<strong>MID</strong>, <code>nofap</code> → no-<strong>FAP</strong>.</li>
 <li><strong>Pauses — three strengths.</strong> In the examples, <code>/</code> marks a short pause.<ul>
-<li><strong>Long — between utterances.</strong> After every sentence and every answer fragment (Rule 37).</li>
+<li><strong>Long — between utterances.</strong> After every sentence and every answer fragment (Rule 37), and at a colon, which ends an utterance just as a full stop does (Rule 37.6).</li>
 <li><strong>Short — at a chunk boundary:</strong><ul>
 <li><strong>before a clausal wall</strong> (<code>bef</code>, <code>kad</code>, <code>bul</code>, <code>rot</code>, <code>vel</code>, <code>zol</code>, <code>can</code>, <code>pen</code>, <code>vax</code>, <code>pov</code>, <code>kof</code>, <code>xom</code>, <code>din</code> — Rule 28): the wall begins the new chunk. <code>Mik nomid batap / bef mik usid.</code> <!-- fiwo:skip --></li>
 <li><strong>before an opening <code>tep</code> or <code>huc</code></strong>, and <strong>after a closing <code>tel</code></strong>: the bracket is heard as one unit. <code>Das pozid / tep mik nomid batap / tel / bef das usid.</code> <!-- fiwo:skip --></li>
@@ -2720,7 +2726,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
                 </a>
                 <a class="learn-path-card" href="#flashcards">
                     <h3>Flashcards</h3>
-                    <p class="learn-path-stat">3,386 words &middot; 8,586 cards &middot; on your device</p>
+                    <p class="learn-path-stat">3,398 words &middot; 8,610 cards &middot; on your device</p>
                     <p>The same deck as the Fiwo app, running the same scheduler: it shows you a word just before you
                     would have forgotten it, both directions, and nothing leaves your browser. Swipe to grade, or
                     <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>.</p>
@@ -2849,13 +2855,14 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
     </div>
     <footer>
         <p>&copy; 2026 Joshua Leon Arkema Barends. The Fiwo Language documentation is licensed under CC BY 4.0.</p>
+        <p>Questions or feedback: <a class="fiwo-email" data-user="fiwolang" data-domain="gmail.com">fiwolang (at) gmail.com</a></p>
     </footer>
     <script src="fiwo-store.js?v=284bf6cf"></script>
     <!-- Layer 3: the backup file. After the store, because it registers itself
          with it; harmless on a browser with no File System Access at all. -->
     <script src="fiwo-backup.js?v=def66fe1"></script>
-    <script src="dictionary.js?v=9587a8ff"></script>
-    <script src="DerivedDictionary.js?v=cab43935"></script>
+    <script src="dictionary.js?v=b87a56e8"></script>
+    <script src="DerivedDictionary.js?v=db6fdd41"></script>
     <script src="stories.js?v=b948768d"></script>
     <script src="fiwo-parser.js?v=83494cf4"></script>
     <!-- The trained neural voice is the WEBSITE'S, not fiwo-pronounce.js's:
@@ -2872,7 +2879,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
     <script src="fiwo-pronounce.js?v=43ba84b6"></script>
     <!-- Dictionary ranking, shared with the Android app (build_app.mjs copies it). -->
     <script src="fiwo-search.js?v=53135847"></script>
-    <script src="script.js?v=1ae52f63"></script>
+    <script src="script.js?v=60e39370"></script>
     <!-- The page that answers the course. The course itself (workbook.js,
          258 KB) is loaded by it on first open — see data-src on #workbook. -->
     <script src="workbook-page.js?v=bf05dd23"></script>

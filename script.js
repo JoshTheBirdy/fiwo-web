@@ -2546,3 +2546,16 @@ if ('serviceWorker' in navigator) {
         });
     });
 }
+
+/* Contact address (Todo 8, 2026-10-09). The page holds it in two halves and
+ * joins them here, so the plain HTML a spam harvester scrapes never contains
+ * a full address. Without JavaScript the "fiwolang (at) gmail.com" fallback
+ * text still tells a person how to write. */
+function initContactEmail() {
+    document.querySelectorAll('.fiwo-email').forEach((a) => {
+        const addr = `${a.dataset.user}@${a.dataset.domain}`;
+        a.href = `mailto:${addr}?subject=Fiwo`;
+        a.textContent = addr;
+    });
+}
+document.addEventListener('DOMContentLoaded', initContactEmail);
