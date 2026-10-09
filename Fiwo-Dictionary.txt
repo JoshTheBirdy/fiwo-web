@@ -1,4 +1,4 @@
-# Fiwo Root Dictionary — 1579 entries
+# Fiwo Root Dictionary — 1578 entries
 # GENERATED from Canon/lexicon.json by Tools/build.py — do not edit by hand
 #
 # One entry per line, pipe-delimited, grouped by part of speech:
@@ -370,6 +370,7 @@ biero | tier 3 · long tail | Beer | A fermented, carbonated physical liquid bev
 bilyho | tier 3 · long tail | Potion | A brewed magical liquid prepared in small quantities and drunk to produce a specific effect on the body or mind.
 bizomo | tier 3 · long tail | Ingot. | A block of cast metal, typically shaped for storage or working.
 blobo | tier 3 · long tail | Axe. | A tool or weapon with a heavy bladed head on a handle, used for chopping.
+blyfo | tier 1 · core | Car | A wheeled motor vehicle for carrying a few passengers.
 borpo | tier 3 · long tail | Pot / Pan (cookware) | A deep metal cooking vessel used over heat; the basic kitchen container for boiling and stewing.
 boto | tier 2 · extended | Boat / Raft | A physically constructed vessel designed to float and travel on the surface of water.
 brirso | tier 2 · extended | Lake. | A large body of water surrounded by land. Follows xadoro (river) and tubso (ocean) as a specific water-body type.
@@ -529,12 +530,11 @@ nejowo | tier 3 · long tail | Ink | A colored liquid used for writing, drawing,
 nerto | tier 3 · long tail | Carpet / Rug. | A thick woven fabric covering used on a floor.
 nevono | tier 2 · extended | Park | A public area of land kept for recreation and nature.
 newo | tier 3 · long tail | Card | A small, flat, stiff piece of paper or plastic used as a physical token for identification, finance, or data storage.
-nibilko | tier 1 · core | Car | A wheeled motor vehicle for carrying a few passengers.
 nibo | tier 1 · core | Book. | This refers to a written or printed work consisting of pages bound together, or a digital equivalent, used to store information.
 nilfo | tier 3 · long tail | Cursor | The small movable mark on a computer or phone screen that shows where the mouse is pointing or where text will appear.
 nimpo | tier 3 · long tail | Carrot | A tapering orange root vegetable eaten raw or cooked.
 nusogo | tier 3 · long tail | Sword. | A weapon with a long metal blade and a hilt, used for cutting or thrusting.
-nuvwo | tier 3 · long tail | Bus | A large road vehicle that carries many passengers along a fixed route. (Usage: A car is nibilko, a train atripo. Not every public vehicle is a bus.)
+nuvwo | tier 3 · long tail | Bus | A large road vehicle that carries many passengers along a fixed route. (Usage: A car is blyfo, a train atripo. Not every public vehicle is a bus.)
 nuwyko | tier 3 · long tail | Amethyst. | A purple variety of quartz, valued as a gemstone. Follows xaqbo (gold) as a specific mineral/gem type.
 nuzco | tier 3 · long tail | Trim. | A decorative edge or border added to an object for ornamentation.
 nyhogo | tier 3 · long tail | Sentence. | A complete grammatical sequence of words expressing a full statement, question, or command. Follows go (word) as the next unit up in Fiwo's own linguistic vocabulary.
@@ -685,7 +685,7 @@ zufo | tier 1 · core | Bed. | This refers to a piece of furniture or a prepared
 zurko | tier 3 · long tail | Shovel. | A tool with a broad blade and handle, used for digging and moving loose material.
 zygloro | tier 2 · extended | Shade | An area sheltered from direct light.
 
-=== Abstract Noun — 326 entries ===
+=== Abstract Noun — 331 entries ===
 absu | tier 3 · long tail | Sense | An abstract faculty of perception, logic, or structural meaning. (Usage: The faculty itself, distinct from the physical sense organ.)
 adrebu | tier 2 · extended | Degree | Extent, Used when referring to the how much of an abstract concept (e.g., The extent of the problem).
 afymu | tier 3 · long tail | Economy / Industry | The abstract conceptual system governing the production, distribution, and consumption of societal resources. (Usage: The economy as a whole, with its industries. The market — buying, selling, prices — is skoru.)
@@ -710,6 +710,7 @@ blunu | tier 3 · long tail | Meaning | This refers to the semantic intent, logi
 bogu | tier 2 · extended | Force. | This refers to strength or energy as an attribute of physical action or movement, or an influence that can change the motion of an object.
 bomufu | tier 3 · long tail | Pension | Regular money paid to a person after they stop working.
 briku | tier 3 · long tail | Regret | A feeling of sadness, repentance, or disappointment over something that has happened or been done.
+buxu | tier 3 · long tail | Impatience | The restless inability to wait calmly for something. (Usage: Impatient = buxue; to be impatient = buxuei; to make impatient = buxui.)
 cacodu | tier 3 · long tail | Diagnosis | The identification of the nature of an illness or other problem by examination of the symptoms.
 canpu | tier 2 · extended | Community | The abstract social structure, shared identity, or conceptual bond uniting a group of individuals.
 caqu | tier 2 · extended | Tactic / Strategic Move / Trick | An abstract conceptual step, planned maneuver, or clever method executed to gain an advantage or achieve a specific goal within a system or game.
@@ -786,10 +787,11 @@ govnu | tier 2 · extended | Government | The abstract structural system, group 
 grawiu | tier 3 · long tail | Gratitude / Thankfulness | The abstract feeling of being thankful and showing appreciation.
 grijysu | tier 2 · extended | Quality | The standard or degree of excellence of something.
 gu | tier 1 · core | Number. | This refers to an arithmetical value, expressed by a word, symbol, or figure, representing a particular quantity.
-guipsu | tier 3 · long tail | Pride | A feeling of deep pleasure or satisfaction derived from one's own achievements, qualities, or possessions.
+guipsu | tier 2 · extended | Pride | A feeling of deep pleasure or satisfaction derived from one's own achievements, qualities, or possessions. (Usage: The one word for pride (ucde retired 2026-10-09). Proud = guipsue; to be proud = guipsuei; to make proud = guipsui.)
 gylfu | tier 3 · long tail | Noun. | The grammatical word class denoting a person, place, thing, or concept, spanning the Biological (-a), Concrete (-o), and Abstract (-u) categories. A category-classification concept, following aziku (rule).
 gypu | tier 2 · extended | Internet. | This refers to the global system of interconnected computer networks; a virtual location or network structure.
 haku | tier 3 · long tail | Nostalgia / Homesickness | A sentimental longing or wistful affection for a period or place in the past. (Usage: Past- and place-directed. For longing toward a present but absent person or place, use fycisi (to miss).)
+hamlu | tier 3 · long tail | Worry | The uneasy feeling of fearing that something bad may happen. (Usage: Worried = hamlue; I worry / am worried = Mik hamluei; to worry someone (cause worry) = hamlui.)
 hautu | tier 2 · extended | Music. | This refers to the art of combining vocal or instrumental sounds to produce beauty of form, harmony, and expression of emotion.
 hedcu | tier 2 · extended | Part / Member / Piece / Shard / Sherd | This refers to a piece, segment, or component of a whole object or system.
 hisu | tier 1 · core | Name. | This identifies a word or set of words by which a person, animal, place, or thing is known.
@@ -799,6 +801,7 @@ hunku | tier 3 · long tail | Gravity | The force drawing bodies of mass toward 
 hupu | tier 3 · long tail | Center / Middle. | This refers to the point that is equally distant from every part of the circumference or ends of something.
 hykuxu | tier 2 · extended | Exam / Test | A formal assessment of a person's knowledge, proficiency, or skills in a particular subject.
 hyqu | tier 3 · long tail | Wisdom | The quality of having experience, knowledge, good judgment, and deep understanding of life.
+hytru | tier 3 · long tail | Sleepiness | The heavy, drowsy state of needing sleep. (Usage: Sleepy = hytrue; to be sleepy = hytruei; to make sleepy = hytrui.)
 ibalu | tier 2 · extended | Education | The abstract conceptual process of receiving or giving systematic instruction and acquiring knowledge.
 ibitu | tier 2 · extended | Class | An abstract system of ordering society or categorizing items based on shared conceptual characteristics.
 icejenu | tier 2 · extended | Period | A stretch of time with a beginning and an end.
@@ -815,6 +818,7 @@ jaru | tier 1 · core | Year. | The time it takes for a planet to complete one f
 javuqu | tier 3 · long tail | Infection / Contagion | The process of infecting or the state of being infected by a disease-causing organism.
 jeflu | tier 2 · extended | Development | The abstract process of conceptual growth, systemic progression, or evolution over time.
 jegetru | tier 2 · extended | Cancer | A disease of uncontrolled, harmful cell growth.
+jegxu | tier 3 · long tail | Admiration | Warm approval and respect for someone or something. (Usage: An experiencer-subject root (Rule 5.1): to admire = jegxui — the admirer is the subject, like tajui (envy).)
 jeju | tier 3 · long tail | Glory | High renown, honor, or praise won by notable achievements or majestic beauty.
 jinu | tier 3 · long tail | Consciousness / Awareness | The abstract state of being awake, perceiving reality, and having a subjective, self-aware experience.
 jobu | tier 1 · core | Job | An abstract conceptual role, task, or agreed-upon piece of work, especially one that is compensated.
@@ -918,6 +922,7 @@ reduslu | tier 2 · extended | Style | A distinctive manner of doing, making, or
 relxu | tier 2 · extended | Relation / Relationship / Ties | The abstract conceptual connection, tie, or ongoing association between two or more entities, concepts, or people.
 retadu | tier 1 · core | Week | This refers to a continuous time period consisting of seven days.
 roku | tier 2 · extended | Dark. | This defines the absence of light or the state of being without illumination.
+roqtu | tier 2 · extended | Seriousness | The quality or state of being serious — grave, earnest, not joking. (Usage: Serious = roqtue; to be serious = roqtuei.)
 rugoxu | tier 1 · core | Month | This refers to a period of time historically corresponding to a lunar cycle or a standard calendar division.
 rumatru | tier 3 · long tail | Testimony | A witness's formal account of what they saw.
 ryzusu | tier 2 · extended | Discount | A reduction from the normal price.
@@ -1013,7 +1018,7 @@ zusabru | tier 2 · extended | Surgery | A medical operation that cuts into the 
 zuslefu | tier 3 · long tail | Algorithm | A precise step-by-step procedure for solving a problem.
 zuwu | tier 2 · extended | Way / Manner. | This refers to a method, style, or custom of doing something.
 
-=== Modifier — 262 entries ===
+=== Modifier — 258 entries ===
 acle | tier 3 · long tail | Generous | Showing a readiness to give more of something (like time, care, or wealth) than is expected.
 adriswe | tier 3 · long tail | Diagonal | Running at a slant, joining opposite corners rather than following the vertical or horizontal.
 afre | tier 3 · long tail | Off | Switched off; not active (of a device, setting or function). (Usage: The act of turning something off is coqyni. Opposite: fyre.)
@@ -1033,7 +1038,6 @@ beje | tier 3 · long tail | Slightly / A little | A relative degree modifier in
 bime | tier 1 · core | One | This refers to the lowest cardinal number, representing a single unit or entity.
 boke | tier 1 · core | Bad. | Regarded as subjectively negative or unfavorable.
 botaxe | tier 3 · long tail | Stupid / Foolish | This describes an entity possessing a low mental capacity, or lacking logic, reasoning, and good judgment.
-buxe | tier 3 · long tail | Impatient | Showing a tendency to be quickly irritated or provoked by delays, obstacles, or opposition.
 byceve | tier 2 · extended | Each | Every one of a group considered individually, one by one.
 cacte | tier 3 · long tail | Popular | Liked, enjoyed, or sought out by many people. (Usage: Common (found often) is compe; famous (widely known) is zihe.)
 cape | tier 1 · core | Black. | This word describes the very darkest color, resulting from the absence or complete absorption of light. (Usage: The colour. For darkness (the absence of light), use roku.)
@@ -1104,7 +1108,6 @@ hobe | tier 1 · core | Young. | This word describes something that has existed 
 huhe | tier 2 · extended | Extremely / Utterly | A relative degree modifier indicating the highest subjective amount of a trait, state, or action; remarkably intense.
 hutse | tier 2 · extended | Main / Primary / Central | Describes an entity or concept that acts as the focal point or most fundamental component of a group or system.
 hyme | tier 1 · core | habitually / regularly / customarily / used to / usually | Describes an action, state, or behavior that occurs repeatedly and characteristically over a period of time, forming an established routine or habit rather than a singular event.
-hytre | tier 3 · long tail | Sleepy | Feeling tired, fatigued, and ready to fall asleep.
 ibane | tier 3 · long tail | Significant | Having a major, measurable effect or noticeable physical/logical impact.
 idre | tier 2 · extended | Quarter | Describes a quantity representing exactly one of four equal parts of a whole (25%).
 isne | tier 3 · long tail | Naked / Bare | Without clothing, foliage, or natural covering.
@@ -1207,7 +1210,6 @@ rivahe | tier 2 · extended | Previous. | Coming immediately before the current 
 riwifre | tier 3 · long tail | Bankrupt | Unable to pay one's debts; financially ruined.
 rodipe | tier 1 · core | Thirsty | This describes a biological state of discomfort caused by a lack of fluids, coupled with a strong desire to drink a liquid.
 romve | tier 1 · core | Again / Repeatedly | This describes an action or state being repeated or occurring another time.
-roqte | tier 2 · extended | Serious | This word describes a state demanding careful consideration or strict application; not joking or trifling.
 rowe | tier 2 · extended | Wide / Broad. | This word describes something having a great or specified extent from side to side.
 runefre | tier 2 · extended | Off / Inactive | Of a device or system: switched off and not operating.
 ruze | tier 2 · extended | Fast / Quick. | This word describes something moving or capable of moving at high speed.
@@ -1242,7 +1244,6 @@ twave | tier 1 · core | Heavy. | This word describes something of great weight 
 twope | tier 3 · long tail | Micro | Very small in scale; at the level of tiny details or parts. (Usage: Ordinary small is nifne. Scale series: twope (micro) · trose (meso) · kjode (macro).)
 tyxe | tier 3 · long tail | Tropical | Belonging to or characteristic of the hot, humid regions near the equator.
 ubme | tier 2 · extended | Public | Done, perceived, or existing in open view; open to the community.
-ucde | tier 2 · extended | Proud | Feeling deep pleasure or satisfaction as a result of achievements, qualities, or possessions.
 udce | tier 3 · long tail | Tight | Fitting closely; held or closed firmly in place.
 ugte | tier 3 · long tail | Barely / Scarcely | A relative degree modifier indicating the lowest perceptible amount of a trait, state, or action; almost not at all.
 ulime | tier 1 · core | Half | This describes a quantity representing exactly one of two equal parts of a whole (50%). (Usage: Distinct from mide (middle), which refers to a spatial or temporal center.)
@@ -1277,7 +1278,7 @@ zihe | tier 2 · extended | Famous | Known about by many people; widely celebrat
 zode | tier 3 · long tail | Loud / Noisy | This describes an entity or environment producing a high volume of auditory energy or intense sound.
 zuzke | tier 1 · core | Sweet. | This describes the taste sensation characteristic of sugars. (Usage: Distinct from the other basic tastes: sour, salty, or bitter.)
 
-=== Verb — 324 entries ===
+=== Verb — 322 entries ===
 acumuli | tier 3 · long tail | Trade / Exchange | To give one thing and receive another in return; to exchange goods or services with another party.
 aefi | tier 3 · long tail | Slip / Slide | To slide accidentally or lose one's footing on a slippery surface.
 afbi | tier 3 · long tail | Crawl | To move forward close to the ground, typically on hands and knees.
@@ -1303,7 +1304,7 @@ bumpi | tier 3 · long tail | To complain. | To express dissatisfaction, annoyan
 busfi | tier 2 · extended | Discover | To come across something new or previously unknown, especially by chance. (Usage: For finding something you were looking for, use karxi.)
 cacki | tier 1 · core | Taste | To perceive the flavor of food or liquid in the mouth.
 cafi | tier 1 · core | Run | To move swiftly on foot at a pace significantly faster than a walk.
-ceni | tier 1 · core | Live. | This verb means to remain alive or have life.
+ceni | tier 1 · core | Live / Be alive / Reside | To be alive, or to live somewhere: to have life, or to have one's home in a place. (Usage: Mik ceni. = I am alive / I live. Mik ceni ky juro. = I live in a city.)
 cetofi | tier 2 · extended | Show (to show) / Display | To intentionally make a physical object, concept, or data visually or intellectually apparent to another entity. (Usage: The verb: to show something. A show you watch is xowu.)
 cimi | tier 1 · core | Start / Begin | This verb means to begin an action or event.
 cirpiwi | tier 3 · long tail | Chirp / Squeak | To produce short, high-pitched sounds, as small birds and small animals do.
@@ -1408,7 +1409,6 @@ jobori | tier 1 · core | To arrive / To reach | To actively reach a destination
 jofi | tier 1 · core | Help / Assist. | To make it easier for someone to do something by offering one's services or resources.
 jomyti | tier 2 · extended | Invest | To commit money to something expecting future gain.
 jopxi | tier 2 · extended | Receive | To passively or actively accept delivery and take possession of something offered or sent. (Usage: The 'take delivery' sense: accepting something offered or sent. Distinct from ixovi (to undergo something imposed by an outside force).)
-juhi | tier 3 · long tail | Worry | To feel anxious, uneasy, or troubled about potential problems.
 julti | tier 3 · long tail | Drown | To die from being unable to breathe while submerged in a liquid.
 jyqi | tier 3 · long tail | Refuse / Reject | To show or state unwillingness to accept, do, or grant something.
 kani | tier 1 · core | Know. | This verb means to possess knowledge, facts, or skills.
@@ -1592,7 +1592,6 @@ xwewi | tier 1 · core | Excuse / Pardon | To excuse, forgive, or pardon someone
 xyfi | tier 1 · core | Do. | To perform, execute, or carry out a general action.
 xygaji | tier 2 · extended | Continue | To persist in an ongoing activity or state without breaking the SVO track.
 zanki | tier 2 · extended | Hide / Conceal | To place an entity out of sight or prevent it from being found.
-zawi | tier 3 · long tail | Admire | To regard something with pleasure and wonder.
 zelbi | tier 2 · extended | Imagine | To form a picture or idea of something in the mind while awake. (Usage: Imagining while awake. The dream you have while asleep is pozmu (to dream: pozmui).)
 zemi | tier 2 · extended | Cover. | This verb means to put something on top of or in front of something else to protect or conceal it.
 zindi | tier 2 · extended | To ring / To chime | To actively produce a ringing or chiming sound, as a phone or bell.

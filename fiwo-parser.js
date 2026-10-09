@@ -31,7 +31,7 @@
     const VARIABLES = new Set(['wun', 'won', 'wat', 'wer', 'wiq', 'wis', 'wug', 'wal']);
     const PREP_TARGET_VARS = new Set(['wer', 'wiq']);
     // Rule 12 (v1.12): the noun variables may also be a preposition's target (wy wun, ky wat).
-    const PREP_NOUN_VARS = new Set(['wun', 'wat']);
+    const PREP_NOUN_VARS = new Set(['wun', 'wat', 'wug']);  // v1.17: `usy wug` = what time?
     // Must stay in step with Tools/validate_sentence.py — the spec, the Python
     // reference parser and this JS port are one rule in three places.
     // 2026-09-11 retirement batch: dewe -> kage, rete -> prure, dumu -> mepu,
@@ -132,6 +132,8 @@
                 const base = stem.slice(0, -peel);
                 if (![...appended].every(ch => VOWELS.has(ch))) continue;
                 if (appended.includes('y')) continue;                 // Rule 5.3 preposition ban
+                const chain = base.slice(-1) + appended;               // Rule 5: each step appends a NEW vowel
+                if ([...chain].some((ch, k) => k > 0 && ch === chain[k - 1])) continue;  // `briwii`: no shift
                 if (!lex.has(base)) continue;
                 if (!VOWELS.has(base[base.length - 1])) continue;     // only open-class roots derive
                 let trailing = 0;
@@ -361,7 +363,12 @@
             const c = ctx();
             if (t.kind === 'punct') {
                 // Rule 37.6 (v1.15): a colon is an utterance boundary like . ! ?
-                if ('.!?:'.includes(t.raw)) { stack.length > 1 ? endInnerUtterance(t) : endSentence(t); }
+                if ('.!?:'.includes(t.raw)) {
+                    // Rule 30.9 (v1.17): the boundary closes every open `tep`;
+                    // only a `huc` quote runs on across it until its `tel`.
+                    while (stack.length > 1 && !ctx().quote) closeBracket(t);
+                    stack.length > 1 ? endInnerUtterance(t) : endSentence(t);
+                }
                 i++; continue;
             }
             const cat = t.cat;
@@ -550,7 +557,7 @@
                 else if (c.state === 'fresh' && !lastRoot) openedAs = 'subject';  // Rule 30.8 clause-as-subject
                 else { openedAs = 'relative'; fail(t, "'tep' must follow a noun (relative clause), a verb awaiting its object (complement clause), or open a clause (subject clause, Rule 30.8)"); }
                 t.slot = t.root === 'huc' ? '[ quote' : openedAs === 'complement' ? '[ object clause' : (openedAs === 'subject' ? '[ subject clause' : '[ relative clause');
-                stack.push(newCtx({ question: c.question, ghost, openedAs }));
+                stack.push(newCtx({ question: c.question, ghost, openedAs, quote: t.root === 'huc' }));
                 lastRoot = null;
                 i++; continue;
             }
@@ -589,7 +596,7 @@
             if (cat === 'variable') {
                 // Rule 12.6: elliptical 'wal' ("Why?") stands alone at the start of an
                 // utterance (with or without Kup), binding to the previous utterance.
-                if (t.root === 'wal' && c.state === 'fresh' && !c.lastWall && stack.length === 1) {
+                if (t.root === 'wal' && c.state === 'fresh' && !c.lastWall && (stack.length === 1 || c.quote)) {  // also inside a huc quote
                     t.slot = 'Reason (elliptical "Why?")'; c.state = 'closed'; i++; continue;
                 }
                 if (!c.question) fail(t, `interrogative variable '${t.root}' requires the sentence/clause to open with Kup (Rule 12.1)`);

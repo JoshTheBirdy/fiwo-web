@@ -8431,11 +8431,11 @@ const storyData = [
         "english": "Malka and Talvo had to go to work."
       },
       {
-        "fiwo": "Kehulup xalid zy nibilkop dalem je.",
+        "fiwo": "Kehulup xalid zy blyfop dalem je.",
         "english": "The family went out to their car."
       },
       {
-        "fiwo": "Hoxop je my nibilkop nes xosid.",
+        "fiwo": "Hoxop je my blyfop nes xosid.",
         "english": "The car doors did not open."
       },
       {
@@ -8443,7 +8443,7 @@ const storyData = [
         "english": "\"Oh no,\" said Talvo."
       },
       {
-        "fiwo": "Zimi gesid fy nibilkop huc Nibilkor kimari tsenge nofar.",
+        "fiwo": "Zimi gesid fy blyfop huc Blyfor kimari tsenge nofar.",
         "english": "\"Cars often kill people,\" Zimi said from inside the car."
       },
       {
@@ -8479,7 +8479,7 @@ const storyData = [
         "english": "A lot of people were standing on the road."
       },
       {
-        "fiwo": "Nibilkop je dalem je nes xosid.",
+        "fiwo": "Blyfop je dalem je nes xosid.",
         "english": "Their cars had not opened."
       },
       {
@@ -8491,7 +8491,7 @@ const storyData = [
         "english": "He was a doctor."
       },
       {
-        "fiwo": "Farlopap gesid huc Gioxup mike plahoid nibilkop mike.",
+        "fiwo": "Farlopap gesid huc Gioxup mike plahoid blyfop mike.",
         "english": "\"My AI locked my car,\" said the doctor."
       },
       {
@@ -9151,7 +9151,7 @@ const storyData = [
         "english": "The fridge did not hum."
       },
       {
-        "fiwo": "Nibilkop nes gesid.",
+        "fiwo": "Blyfop nes gesid.",
         "english": "The car said nothing."
       },
       {
@@ -9191,7 +9191,7 @@ const storyData = [
         "english": "The shops had no food."
       },
       {
-        "fiwo": "Nibilkop je nes xalid.",
+        "fiwo": "Blyfop je nes xalid.",
         "english": "The cars did not move."
       },
       {

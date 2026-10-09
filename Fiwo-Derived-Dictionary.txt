@@ -1,4 +1,4 @@
-# Fiwo Derived Dictionary — 1819 entries
+# Fiwo Derived Dictionary — 1816 entries
 # GENERATED from Canon/derived_lexicon.json by Tools/build.py — do not edit by hand
 #
 # One entry per line, pipe-delimited, grouped by part of speech:
@@ -10,7 +10,7 @@
 # Read the definition before using a word. If no definition covers the concept you
 # want, say so and build a Rule 36 compound; never stretch a key to fit.
 
-=== Biological Noun — 306 entries ===
+=== Biological Noun — 305 entries ===
 acumulia | acumuli i→a | Trader | A person who trades; a trader. [Verb -> Biological Noun (doer)] Senses: 1) trader
 afbia | afbi i→a | Crawler | A person who crawls; a crawler. [Verb -> Biological Noun (doer)] Senses: 1) crawler
 agmia | agmi i→a | Gluer | A person who glues; a gluer. [Verb -> Biological Noun (doer)] Senses: 1) gluer
@@ -139,7 +139,6 @@ jipria | jipri i→a | Washer | A person who washes; a washer. [Verb -> Biologic
 jofia | jofi i→a | Helper | A person who helps; a helper. [Verb -> Biological Noun (doer)] Senses: 1) helper
 jomytia | jomyti i→a | Investor | A person who commits money expecting future gain. [Verb -> Biological Noun (doer)] Senses: 1) investor
 jopxia | jopxi i→a | Recipient | A person who receives; a recipient. [Verb -> Biological Noun (doer)] Senses: 1) recipient
-juhia | juhi i→a | Worrier | A person who worries; a worrier. [Verb -> Biological Noun (doer)] Senses: 1) worrier
 jyjoa | jyjo o→a | Programmer | A person who works with computers; a programmer, IT worker. [Concrete Noun -> Biological Noun (handler)] Senses: 1) programmer; 2) IT worker
 jyqia | jyqi i→a | Rejecter | A person who refuses; a rejecter. [Verb -> Biological Noun (doer)] Senses: 1) rejecter
 kania | kani i→a | Knower | A person who knows; a knower. [Verb -> Biological Noun (doer)] Senses: 1) knower
@@ -379,7 +378,7 @@ xeskio | xeski i→o | Prize / Trophy | The object won; a reward for winning. [V
 zemio | zemi i→o | Cover / Lid | The thing that covers something; a cover or lid. [Verb -> Concrete Noun (instrument/result)] Senses: 1) cover; 2) lid
 zuzkeo | zuzke e→o | Candy / Sweet | A small sweet treat; a candy, sweet, confection. [Modifier -> Concrete Noun (exemplar)] Senses: 1) candy; 2) sweet; 3) confection
 
-=== Abstract Noun — 274 entries ===
+=== Abstract Noun — 269 entries ===
 acleu | acle e→u | Generosity | The quality or state of being generous; generosity. [Modifier -> Abstract Noun (quality)] Senses: 1) generosity
 adrisweu | adriswe e→u | Diagonality | The quality or state of being diagonal; diagonality. [Modifier -> Abstract Noun (quality)] Senses: 1) diagonality; 2) slant
 aiteu | aite e→u | Stench | The quality or state of being smelly; stench. [Modifier -> Abstract Noun (quality)] Senses: 1) stench; 2) smelliness; 3) stink
@@ -400,7 +399,6 @@ breniu | breni i→u | Arrival | The act of coming or arriving. [Verb -> Abstrac
 briwiu | briwi i→u | Fear | The experience of being afraid; fear, fright. [Verb -> Abstract Noun (act/process)] Senses: 1) fear; 2) fright; 3) dread
 busfiu | busfi i→u | Discovery | The act of discovering; a discovery. [Verb -> Abstract Noun (act/process)] Senses: 1) discovery
 buskou | busko o→u | Fashion | The domain of clothing and dress; fashion. [Concrete Noun -> Abstract Noun (domain)] Senses: 1) fashion; 2) dress
-buxeu | buxe e→u | Impatience | The quality of being impatient; impatience. [Modifier -> Abstract Noun (quality)] Senses: 1) impatience
 cadau | cada a→u | Childhood | The state or period of being a child; childhood. [Biological Noun -> Abstract Noun (role/state)] Senses: 1) childhood
 celeu | cele e→u | Privacy | The quality or state of being private; privacy. [Modifier -> Abstract Noun (quality)] Senses: 1) privacy
 ceniu | ceni i→u | Life | The abstract state, process, or condition of living. [Verb -> Abstract Noun (act/state)] Senses: 1) life; 2) living; 3) existence
@@ -460,7 +458,6 @@ hemyu | hemy y→u | Proximity | The state of being near; proximity, the surroun
 hobeu | hobe e→u | Youth | The quality or state of being young; youth. [Modifier -> Abstract Noun (quality)] Senses: 1) youth; 2) youthfulness
 hutseu | hutse e→u | Centrality | The quality or state of being main; centrality. [Modifier -> Abstract Noun (quality)] Senses: 1) centrality; 2) primacy
 hymeu | hyme e→u | Habit / Custom | The state of doing something habitually; a customary practice. [Modifier -> Abstract Noun (state)] Senses: 1) habit; 2) custom; 3) routine
-hytreu | hytre e→u | Sleepiness | The quality or state of being sleepy; sleepiness. [Modifier -> Abstract Noun (quality)] Senses: 1) sleepiness; 2) drowsiness
 ibaneu | ibane e→u | Significance | The quality or state of being significant; significance. [Modifier -> Abstract Noun (quality)] Senses: 1) significance
 ifeziu | ifezi i→u | Decision | The act or result of deciding. [Verb -> Abstract Noun (act/result)] Senses: 1) decision; 2) resolution; 3) verdict
 isneu | isne e→u | Nakedness | The quality or state of being naked; nakedness. [Modifier -> Abstract Noun (quality)] Senses: 1) nakedness; 2) bareness
@@ -579,7 +576,6 @@ rinteu | rinte e→u | Richness | The quality or state of being rich; richness. 
 ripeu | ripe e→u | Heat | The quality or state of being hot; heat. [Modifier -> Abstract Noun (quality)] Senses: 1) heat; 2) hotness
 riwifreu | riwifre e→u | Bankruptcy | The state of being unable to pay one's debts. [Modifier -> Abstract Noun (quality)] Senses: 1) bankruptcy; 2) insolvency
 rodipeu | rodipe e→u | Thirst | The quality or state of being thirsty; thirst. [Modifier -> Abstract Noun (quality)] Senses: 1) thirst
-roqteu | roqte e→u | Seriousness | The quality or state of being serious; seriousness. [Modifier -> Abstract Noun (quality)] Senses: 1) seriousness; 2) gravity
 roweu | rowe e→u | Width / Breadth | The measure of being wide. [Modifier -> Abstract Noun (measure)] Senses: 1) width; 2) breadth
 ruxigiu | ruxigi i→u | Indication | A sign that points something out. [Verb -> Abstract Noun (act/process)] Senses: 1) indication; 2) sign
 ruzeu | ruze e→u | Speed | The quality or degree of being fast. [Modifier -> Abstract Noun (quality)] Senses: 1) speed; 2) quickness; 3) velocity; 4) pace
@@ -615,7 +611,6 @@ tsakeu | tsake e→u | Anger | The quality or state of being angry; anger. [Modi
 tsufeu | tsufe e→u | Comfort | The quality or state of being comfortable; comfort. [Modifier -> Abstract Noun (quality)] Senses: 1) comfort
 twaveu | twave e→u | Weight | The quality or state of being heavy; weight. [Modifier -> Abstract Noun (quality)] Senses: 1) weight; 2) heaviness
 ubmeu | ubme e→u | Publicity | The quality or state of being public; publicity. [Modifier -> Abstract Noun (quality)] Senses: 1) publicity; 2) publicness
-ucdeu | ucde e→u | Pride | The quality or state of being proud; pride. [Modifier -> Abstract Noun (quality)] Senses: 1) pride
 udceu | udce e→u | Tightness | The quality or state of being tight; tightness. [Modifier -> Abstract Noun (quality)] Senses: 1) tightness
 umetiu | umeti i→u | Advice / Suggestion | The act of suggesting, or the suggestion offered. [Verb -> Abstract Noun (act/result)] Senses: 1) advice; 2) suggestion; 3) recommendation
 upfeu | upfe e→u | Inequality | The quality or state of being unequal; inequality. [Modifier -> Abstract Noun (quality)] Senses: 1) inequality
@@ -646,7 +641,6 @@ xujiliu | xujili i→u | Upload | The act of sending data to a remote system. [V
 xygeu | xyge e→u | Thinness | The quality or state of being thin; thinness. [Modifier -> Abstract Noun (quality)] Senses: 1) thinness
 ynafeu | ynafe e→u | Deliciousness | The quality or state of being tasty; deliciousness. [Modifier -> Abstract Noun (quality)] Senses: 1) deliciousness; 2) tastiness
 zaveu | zave e→u | Height | The measure or quality of being high or tall. [Modifier -> Abstract Noun (measure)] Senses: 1) height; 2) altitude; 3) tallness
-zawiu | zawi i→u | Admiration | The act or state of admiring. [Verb -> Abstract Noun (act/state)] Senses: 1) admiration
 zelbiu | zelbi i→u | Imagination | The act or power of imagining; imagination. [Verb -> Abstract Noun (act/process)] Senses: 1) imagination
 zetyu | zety y→u | Topic | The matter under discussion; a topic, subject. [Preposition -> Abstract Noun (relation)] Senses: 1) topic; 2) subject; 3) matter
 ziheu | zihe e→u | Fame | The quality or state of being famous; fame. [Modifier -> Abstract Noun (quality)] Senses: 1) fame
@@ -655,7 +649,7 @@ zodeu | zode e→u | Loudness | The quality or state of being loud; loudness. [M
 zulxiu | zulxi i→u | Waking | The act of waking up; awakening. [Verb -> Abstract Noun (act/process)] Senses: 1) waking; 2) awakening
 zuzkeu | zuzke e→u | Sweetness | The quality or state of being sweet; sweetness. [Modifier -> Abstract Noun (quality)] Senses: 1) sweetness
 
-=== Modifier — 798 entries ===
+=== Modifier — 802 entries ===
 absue | absu u→e | Sensible | Characterized by or relating to sense; sensible. [Abstract Noun -> Modifier (characterized by)] Senses: 1) sensible
 acinae | acina a→e | Claw-like | Made of, resembling, or relating to claw. [Biological Noun -> Modifier (like)] Senses: 1) claw-like; 2) resembling claw
 acrye | acry y→e | Transverse | Lying or oriented across something; transverse. [Preposition -> Modifier (positioned)] Senses: 1) transverse; 2) crosswise
@@ -723,6 +717,7 @@ bufroe | bufro o→e | Made of copper | Made of, resembling, or relating to copp
 bumpie | bumpi i→e | Whiny | Inclined to complain; whiny, complaining. [Verb -> Modifier (prone to)] Senses: 1) whiny; 2) complaining
 buskoe | busko o→e | Clothes-like | Made of, resembling, or relating to clothes. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) clothes-like; 2) resembling clothes
 buvae | buva a→e | Cow-like, bovine | Made of, resembling, or relating to cow; cow-like, bovine. [Biological Noun -> Modifier (like)] Senses: 1) cow-like; 2) bovine
+buxue | buxu u→e | Impatient | Feeling impatient; unable to wait calmly. [Abstract Noun -> Modifier (characterized by)] Senses: 1) impatient
 bysoe | byso o→e | Sky-like | Made of, resembling, or relating to sky. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) sky-like; 2) resembling sky
 cacodue | cacodu u→e | Diagnostic | Characterized by or relating to diagnosis; diagnostic. [Abstract Noun -> Modifier (characterized by)] Senses: 1) diagnostic
 cadae | cada a→e | Childlike, childish | Made of, resembling, or relating to child; childlike, childish. [Biological Noun -> Modifier (like)] Senses: 1) childlike; 2) childish
@@ -896,13 +891,14 @@ grawiue | grawiu u→e | Thankful | Characterized by or relating to gratitude; t
 grexoe | grexo o→e | Celestial object-like | Made of, resembling, or relating to celestial object. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) celestial object-like; 2) resembling celestial object
 gufundoe | gufundo o→e | Made of emerald | Made of, resembling, or relating to emerald. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) made of emerald; 2) emerald-green; 3) emeraldine
 gugie | gugi i→e | Standing | Tending toward, or involving, the action 'stand'. [Verb -> Modifier (prone to)] Senses: 1) standing; 2) upright; 3) vertical
-guipsue | guipsu u→e | Prideful | Characterized by or relating to pride; prideful. [Abstract Noun -> Modifier (characterized by)] Senses: 1) prideful
+guipsue | guipsu u→e | Proud / Prideful | Characterized by or relating to pride; prideful. [Abstract Noun -> Modifier (characterized by)] Senses: 1) proud; 2) prideful
 gunoloe | gunolo o→e | Cliff-like | Made of, resembling, or relating to cliff. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) cliff-like; 2) resembling cliff
 gutoe | guto o→e | Tool-like | Made of, resembling, or relating to tool. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) tool-like; 2) resembling tool
 guzae | guza a→e | Enemy-like | Made of, resembling, or relating to enemy. [Biological Noun -> Modifier (like)] Senses: 1) enemy-like; 2) resembling enemy
 gydzae | gydza a→e | Fox-like, vulpine | Made of, resembling, or relating to fox; fox-like, vulpine. [Biological Noun -> Modifier (like)] Senses: 1) fox-like; 2) vulpine
 gypue | gypu u→e | Online | Characterized by or relating to internet; online. [Abstract Noun -> Modifier (characterized by)] Senses: 1) online
 hakue | haku u→e | Nostalgic | Characterized by or relating to nostalgia; nostalgic. [Abstract Noun -> Modifier (characterized by)] Senses: 1) nostalgic
+hamlue | hamlu u→e | Worried | Feeling worry; anxious. [Abstract Noun -> Modifier (characterized by)] Senses: 1) worried; 2) anxious
 hanoe | hano o→e | Boxed | Made of, resembling, or relating to container. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) boxed; 2) encased; 3) container-like
 harosoe | haroso o→e | Bubbly | Made of, resembling, or relating to bubble. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) bubbly; 2) bubble-shaped; 3) foaming
 hautue | hautu u→e | Musical | Characterized by or marked by music. [Abstract Noun -> Modifier (characterized by)] Senses: 1) musical; 2) of music; 3) melodic
@@ -930,6 +926,7 @@ hyhoe | hyho o→e | Scissors-like | Made of, resembling, or relating to scissor
 hykuxue | hykuxu u→e | Test-related | Characterized by or relating to exam; test-related. [Abstract Noun -> Modifier (characterized by)] Senses: 1) test-related
 hylsae | hylsa a→e | Lip-like | Made of, resembling, or relating to lip. [Biological Noun -> Modifier (like)] Senses: 1) lip-like; 2) resembling lip
 hyque | hyqu u→e | Wise | Possessing wisdom. [Abstract Noun -> Modifier (having the quality of)] Senses: 1) wise; 2) sage; 3) prudent
+hytrue | hytru u→e | Sleepy | Feeling sleepy; drowsy. [Abstract Noun -> Modifier (characterized by)] Senses: 1) sleepy; 2) drowsy
 ibalirae | ibalira a→e | Teacher-like | Made of, resembling, or relating to teacher. [Biological Noun -> Modifier (like)] Senses: 1) teacher-like; 2) resembling teacher
 ibalue | ibalu u→e | Educational | Characterized by or relating to education; educational. [Abstract Noun -> Modifier (characterized by)] Senses: 1) educational
 ibazoe | ibazo o→e | School-like | Made of, resembling, or relating to school. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) school-like; 2) resembling school
@@ -1211,6 +1208,7 @@ rinkawae | rinkawa a→e | Skull-shaped | Of, like, or befitting a skull. [Biolo
 riqoe | riqo o→e | Keyboard-like | Made of, resembling, or relating to keyboard. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) keyboard-like; 2) resembling keyboard
 rogae | roga a→e | Elbow-like | Made of, resembling, or relating to elbow. [Biological Noun -> Modifier (like)] Senses: 1) elbow-like; 2) resembling elbow
 rokue | roku u→e | Shadowy | Characterized by or relating to dark; shadowy. [Abstract Noun -> Modifier (characterized by)] Senses: 1) shadowy
+roqtue | roqtu u→e | Serious | Grave and earnest; not joking. [Abstract Noun -> Modifier (characterized by)] Senses: 1) serious
 ruavae | ruava a→e | Dandelion-like | Made of, resembling, or relating to dandelion. [Biological Noun -> Modifier (like)] Senses: 1) dandelion-like; 2) resembling dandelion
 rufocoe | rufoco o→e | Anchor-like | Made of, resembling, or relating to anchor. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) anchor-like; 2) resembling anchor
 rugoxue | rugoxu u→e | Monthly | Characterized by or relating to month; monthly. [Abstract Noun -> Modifier (characterized by)] Senses: 1) monthly
@@ -1455,7 +1453,7 @@ zuwue | zuwu u→e | Methodical | Characterized by or relating to way; methodica
 zye | zy y→e | Forward / Toward(s) | Directed toward; forward, onward. [Preposition -> Modifier (positioned)] Senses: 1) forward; 2) toward; 3) towards; 4) onward; 5) toward; 6) towards
 zygloroe | zygloro o→e | Shade-like | Made of, resembling, or relating to shade. [Concrete Noun -> Modifier (material/resemblance)] Senses: 1) shade-like; 2) resembling shade
 
-=== Verb — 382 entries ===
+=== Verb — 381 entries ===
 aclei | acle e→i | To be generous | Stative: to be or become generous. [Modifier -> Verb (stative)] Senses: 1) to be generous; 2) to become generous
 acryi | acry y→i | To cross | To move across; to cross, traverse. [Preposition -> Verb (relational motion)] Senses: 1) cross; 2) traverse
 adriswei | adriswe e→i | To be diagonal | To be positioned diagonally. [Modifier -> Verb (stative)] Senses: 1) be diagonal
@@ -1483,7 +1481,6 @@ bokei | boke e→i | To be bad | Stative: to be or become bad. [Modifier -> Verb
 botaxei | botaxe e→i | To be stupid | Stative: to be or become stupid. [Modifier -> Verb (stative)] Senses: 1) to be stupid; 2) to become stupid
 brikui | briku u→i | To regret | To feel regret about; to regret. [Abstract Noun -> Verb (feel/enact)] Senses: 1) regret
 buskoi | busko o→i | To dress / To clothe | To put clothing on oneself or another. [Concrete Noun -> Verb (apply)] Senses: 1) to dress; 2) to clothe; 3) to put on clothes (Usage: The general 'to wear' is the native root hekri (2026-07-07); buskoi emphasizes putting clothing on.)
-buxei | buxe e→i | To be impatient | Stative: to be or become impatient. [Modifier -> Verb (stative)] Senses: 1) to be impatient; 2) to become impatient
 capei | cape e→i | To be black | Stative: to be or become black. [Modifier -> Verb (stative)] Senses: 1) to be black; 2) to become black
 caqui | caqu u→i | To trick / To cheat | To deceive or outmaneuver using a tactic or trick. [Abstract Noun -> Verb (enact)] Senses: 1) to trick; 2) to cheat; 3) to deceive; 4) to outsmart
 cekgoi | cekgo o→i | To salt | To season with salt. [Concrete Noun -> Verb (use/apply)] Senses: 1) salt; 2) season
@@ -1533,6 +1530,7 @@ exkei | exke e→i | To be several | Stative: to be or become several. [Modifier
 eztei | ezte e→i | To be polite | Stative: to be or become polite. [Modifier -> Verb (stative)] Senses: 1) to be polite; 2) to become polite
 falfosoi | falfoso o→i | To list | To set out items as a list; to enumerate. [Concrete Noun -> Verb (use/apply)] Senses: 1) list; 2) enumerate
 fecyei | fecy y→e→i | To be bounded / lasting until a limit | Stative: to be or become bounded. [Preposition -> Modifier -> Verb (stative)] Senses: 1) to be bounded; 2) to become bounded
+fefui | fefu u→i | To end / To finish | To come to an end; to reach its final part. [Abstract Noun -> Verb (feel/enact)] Senses: 1) to end; 2) to finish; 3) the end
 fei | fe e→i | To be very | Stative: to be or become very. [Modifier -> Verb (stative)] Senses: 1) to be very; 2) to become very
 felpei | felpe e→i | To be different | Stative: to be or become different. [Modifier -> Verb (stative)] Senses: 1) to be different; 2) to become different
 feznei | fezne e→i | To be dry | Stative: to be or become dry. [Modifier -> Verb (stative)] Senses: 1) to be dry; 2) to become dry
@@ -1566,6 +1564,7 @@ gwacei | gwace e→i | To be special | Stative: to be or become special. [Modifi
 gwemei | gweme e→i | To be even | Stative: to be or become even. [Modifier -> Verb (stative)] Senses: 1) to be even; 2) to become even
 gykei | gyke e→i | To be weird | Stative: to be or become weird. [Modifier -> Verb (stative)] Senses: 1) to be weird; 2) to become weird
 haibei | haibe e→i | To be still | Stative: to be or become still. [Modifier -> Verb (stative)] Senses: 1) to be still; 2) to become still
+hamlui | hamlu u→i | To worry (someone) | To cause worry in someone (Rule 5.1 source). [Abstract Noun -> Verb (feel/enact)] Senses: 1) to worry someone
 hedei | hede e→i | To be late | Stative: to be or become late. [Modifier -> Verb (stative)] Senses: 1) to be late; 2) to become late
 hekoi | heko o→i | To queue | To form or join a line; to line up, to queue. [Concrete Noun -> Verb (use/apply)] Senses: 1) queue; 2) line up
 hemyei | hemy y→e→i | To be near / close | Stative: to be or become near. [Preposition -> Modifier -> Verb (stative)] Senses: 1) to be near; 2) to become near
@@ -1577,7 +1576,6 @@ hobei | hobe e→i | To be young | Stative: to be or become young. [Modifier -> 
 huhei | huhe e→i | To be extremely | Stative: to be or become extremely. [Modifier -> Verb (stative)] Senses: 1) to be extremely; 2) to become extremely
 hutsei | hutse e→i | To be main | Stative: to be or become main. [Modifier -> Verb (stative)] Senses: 1) to be main; 2) to become main
 hymei | hyme e→i | To be habitually | Stative: to be or become habitually. [Modifier -> Verb (stative)] Senses: 1) to be habitually; 2) to become habitually
-hytrei | hytre e→i | To be sleepy | Stative: to be or become sleepy. [Modifier -> Verb (stative)] Senses: 1) to be sleepy; 2) to become sleepy
 ibanei | ibane e→i | To be significant | Stative: to be or become significant. [Modifier -> Verb (stative)] Senses: 1) to be significant; 2) to become significant
 idrei | idre e→i | To be quarter | Stative: to be or become quarter. [Modifier -> Verb (stative)] Senses: 1) to be quarter; 2) to become quarter
 ifgoi | ifgo o→i | To brush teeth | To clean the teeth with a toothbrush. [Concrete Noun -> Verb (use/apply)] Senses: 1) brush teeth
@@ -1594,6 +1592,7 @@ jawoi | jawo o→i | To freeze | To turn to ice; to freeze — intransitive/stat
 jaxkei | jaxke e→i | To be new | Stative: to be or become new. [Modifier -> Verb (stative)] Senses: 1) to be new; 2) to become new
 jedlei | jedle e→i | To be many | Stative: to be or become many. [Modifier -> Verb (stative)] Senses: 1) to be many; 2) to become many
 jeflui | jeflu u→i | To develop | To bring about or undergo development. [Abstract Noun -> Verb (enact)] Senses: 1) to develop; 2) to grow; 3) to advance; 4) to evolve
+jegxui | jegxu u→i | To admire | To feel admiration for someone or something (experiencer subject). [Abstract Noun -> Verb (feel/enact)] Senses: 1) to admire
 jei | je e→i | To be plural marker | Stative: to be or become plural marker. [Modifier -> Verb (stative)] Senses: 1) to be plural marker; 2) to become plural marker
 jetei | jete e→i | To increase | To increase; to make or become greater in amount, number, or degree (transitive or stative). [Modifier -> Verb] Senses: 1) to increase; 2) to raise; 3) to make more; 4) to become more
 jilfei | jilfe e→i | To be smooth | Stative: to be or become smooth. [Modifier -> Verb (stative)] Senses: 1) to be smooth; 2) to become smooth
@@ -1690,7 +1689,7 @@ ogirui | ogiru u→i | To experience | To live through; to experience. [Abstract
 ojesei | ojese e→i | To be rare | Stative: to be or become rare. [Modifier -> Verb (stative)] Senses: 1) to be rare; 2) to become rare
 oksei | okse e→i | To be wrong | Stative: to be or become wrong. [Modifier -> Verb (stative)] Senses: 1) to be wrong; 2) to become wrong
 onexei | onexe e→i | To be approximately | Stative: to be or become approximately. [Modifier -> Verb (stative)] Senses: 1) to be approximately; 2) to become approximately
-otmai | otma a→i | To sicken | To become or make diseased; to sicken. [Biological Noun -> Verb (act as)] Senses: 1) to sicken; 2) to fall ill
+otmai | otma a→i | To fall ill / To sicken | To become or make diseased; to sicken. [Biological Noun -> Verb (act as)] Senses: 1) to sicken; 2) to fall ill (Usage: Usually without an object: Mik otmaid. = I fell ill. To make someone ill, use the causative recipe: lini tep … otmai.)
 otrei | otre e→i | To be other | Stative: to be or become other. [Modifier -> Verb (stative)] Senses: 1) to be other; 2) to become other
 ovcei | ovce e→i | To be always | Stative: to be or become always. [Modifier -> Verb (stative)] Senses: 1) to be always; 2) to become always
 pamui | pamu u→i | To hurt | To feel or cause pain; to hurt or ache. [Abstract Noun -> Verb (feel/enact)] Senses: 1) to hurt; 2) to ache
@@ -1735,7 +1734,6 @@ riwifrei | riwifre e→i | To go bankrupt | To become unable to pay one's debts.
 rodipei | rodipe e→i | To be thirsty | Stative: to be or become thirsty. [Modifier -> Verb (stative)] Senses: 1) to be thirsty; 2) to become thirsty
 rohelsoi | rohelso o→i | Inject | To deliver medicine into the body with a needle. [Concrete Noun -> Verb (use/apply)] Senses: 1) inject
 romvei | romve e→i | To be again | Stative: to be or become again. [Modifier -> Verb (stative)] Senses: 1) to be again; 2) to become again
-roqtei | roqte e→i | To be serious | Stative: to be or become serious. [Modifier -> Verb (stative)] Senses: 1) to be serious; 2) to become serious
 rowei | rowe e→i | To be wide | Stative: to be or become wide. [Modifier -> Verb (stative)] Senses: 1) to be wide; 2) to become wide
 rubidroi | rubidro o→i | Plug in | To connect a device by inserting a plug. [Concrete Noun -> Verb (use/apply)] Senses: 1) plug in; 2) connect
 rufocoi | rufoco o→i | To anchor | To hold fast with an anchor; to anchor. [Concrete Noun -> Verb (use/apply)] Senses: 1) anchor; 2) moor
@@ -1790,7 +1788,6 @@ tuxuntoi | tuxunto o→i | To bill / To invoice | To present a statement of mone
 twavei | twave e→i | To be heavy | Stative: to be or become heavy. [Modifier -> Verb (stative)] Senses: 1) to be heavy; 2) to become heavy
 tyfmoi | tyfmo o→i | To use a camp | To use, operate, or apply a camp. [Concrete Noun -> Verb (use/apply)]
 ubmei | ubme e→i | To be public | Stative: to be or become public. [Modifier -> Verb (stative)] Senses: 1) to be public; 2) to become public
-ucdei | ucde e→i | To be proud | Stative: to be or become proud. [Modifier -> Verb (stative)] Senses: 1) to be proud; 2) to become proud
 udcei | udce e→i | To be tight | Stative: to be or become tight. [Modifier -> Verb (stative)] Senses: 1) to be tight; 2) to become tight
 udzidui | udzidu u→i | To appear / To seem | To come into view or give an appearance. [Abstract Noun -> Verb (enact)] Senses: 1) to appear; 2) to become visible; 3) to seem
 ufaxoi | ufaxo o→i | To message | To send someone a message; to message. [Concrete Noun -> Verb (use/apply)] Senses: 1) message; 2) text

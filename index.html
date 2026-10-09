@@ -572,7 +572,7 @@
             <h2>Rule Book (All 41 Rules)</h2>
 <p>This is the comprehensive, official rulebook of the <strong>Fiwo</strong> constructed language. It contains the complete set of phonological, morphological, syntactical, and logical rules that define how the language is written, spoken, and parsed.</p>
 <p>The rules are organized into <strong>9 Parts</strong> in a logical, pedagogical progression, beginning with core phonetic foundations and building up to complex clausal mechanics, conversational register, ellipsis &amp; deixis, and spoken repair.</p>
-<p><strong>Rule book v1.16 · 2026-10-09 · 41 rules across 9 Parts.</strong></p>
+<p><strong>Rule book v1.17 · 2026-10-09 · 41 rules across 9 Parts.</strong></p>
 <hr>
 <h2>Part I: Phonology, Orthography &amp; Foundations</h2>
 <h3>Rule 1: Phonemic Orthography &amp; Stress</h3>
@@ -694,7 +694,7 @@
 <h3>Rule 5: Derivation &amp; Category Shifting</h3>
 <p>Words in Fiwo can smoothly shift their grammatical category by appending a new functional vowel to the end of the root word. This mathematical approach allows the parser to understand complex concepts without requiring entirely new dictionary roots.</p>
 <ol>
-<li><strong>The Preservation Rule:</strong> The original functional vowel is never removed. Each derivation simply appends the new functional vowel to the end of the word, permanently preserving the word&#39;s etymological history.</li>
+<li><strong>The Preservation Rule:</strong> The original functional vowel is never removed. Each derivation simply appends the new functional vowel to the end of the word, permanently preserving the word&#39;s etymological history. The appended vowel must be a <strong>different</strong> vowel from the one before it — repeating it (<code>nomii</code>, <code>speluue</code>) shifts nothing, so it is not a derivation and does not parse. <!-- fiwo:skip --></li>
 <li><strong>The Derivation Limit:</strong> A word can be derived a maximum of two times. This means a fully derived word can have a maximum of three consecutive vowels at the end.</li>
 <li><strong>The Preposition Ban:</strong> Words may not be derived to form prepositions (<code>-y</code>).<ul>
 <li><em>The Base Preposition Exception:</em> The ban on deriving prepositions (<code>-y</code>) applies strictly to category shifting (derivation). It does not apply to the initial Tier 2 creation of a word. When borrowing an English structural word (like &quot;through&quot; or &quot;regarding&quot;), assigning it the initial base vowel <code>-y</code> (<code>through-y</code>) is a legal <strong>Base Assignment</strong>. However, once a Fiwonized word is assigned a noun, verb, or modifier base (e.g., <code>computer-o</code>), it cannot be <em>derived</em> into a preposition (<code>computer-oy</code> is strictly illegal).</li>
@@ -719,7 +719,7 @@
 <li><strong>Emotion &amp; felt-state roots — the experiencer/source split.</strong> For an abstract root naming an emotion or felt internal state, &quot;having the qualities of&quot; is ambiguous in English between the one who <em>feels</em> it and the one who <em>causes</em> it (<em>bored</em> vs <em>boring</em>). Fiwo resolves this by slot, with no exceptions:<ul>
 <li><strong><code>-e</code> modifier = the EXPERIENCER&#39;s state</strong> — always the participant who feels it. <em>sysu</em> (Boredom) ➔ <em>sysue</em> (<strong>Bored</strong>); <em>veponku</em> (Surprise) ➔ <em>veponkue</em> (<strong>Surprised</strong>); <em>pamu</em> (Pain) ➔ <em>pamue</em> (<strong>In pain</strong>).</li>
 <li><strong><code>-i</code> verb = the SOURCE</strong> — the ordinary Noun-to-Verb reading above (&quot;producing the noun&quot;), applied unchanged: the subject is whoever the emotion originates <em>from</em>. <em>sysui</em> (<strong>to bore</strong>), <em>veponkui</em> (<strong>to surprise</strong>), <em>pamui</em> (<strong>to hurt</strong>).</li>
-<li>The source is not arbitrary — ask <em>where does this emotion come from?</em> Grief comes from the griever, so <em>motuwui</em> is <strong>to grieve</strong>; boredom comes from the boring thing, so <em>sysui</em> is <strong>to bore</strong>. Experiencer-subject roots (<em>moskufui</em> to respect, <em>tajui</em> to envy, <em>brikui</em> to regret, <em>atilui</em> to believe, <em>zenui</em> to care) pass the same test unchanged.</li>
+<li>The source is not arbitrary — ask <em>where does this emotion come from?</em> Grief comes from the griever, so <em>motuwui</em> is <strong>to grieve</strong>; boredom comes from the boring thing, so <em>sysui</em> is <strong>to bore</strong>. Experiencer-subject roots (<em>moskufui</em> to respect, <em>tajui</em> to envy, <em>brikui</em> to regret, <em>jegxui</em> to admire, <em>atilui</em> to believe, <em>zenui</em> to care) pass the same test unchanged.</li>
 <li>To predicate the experiencer state, derive the stative per Rule 10.3: <strong>Mik sysuei.</strong> (I am bored.) versus <strong>Nibop sysui.</strong> (The book bores / is boring.)</li>
 <li><em>(Scope: emotion and felt-state roots only — plain relational modifiers such as</em> hautue <em>(musical),</em> erue <em>(warlike) and</em> javuque <em>(infectious) are unaffected.)</em></li>
 </ul>
@@ -893,7 +893,7 @@
 <li><strong>latwar ruze</strong> (Animal-some + fast. Meaning: <em>A fast animal.</em>)</li>
 </ul>
 </li>
-<li><strong>The Bare Noun (Specificity Unstated):</strong> A noun with neither suffix leaves specificity <em>unstated</em> — <em>food</em>, not <em>the food</em> or <em>some food</em>. It is always legal, and it is the right choice whenever which one does not matter: <strong>Mik naci ky juro.</strong> (<em>I work in a city.</em>) <strong>Mik nomid bata.</strong> (<em>I ate food.</em>) Leaving <code>-p</code>/<code>-r</code> off never creates a second parse, with one exception: a <strong>time word</strong> (the temporal lexicon — <code>dugu</code>, <code>cihu</code>, <code>rajedu</code> …) left bare at the end of a clause is read as Slot 4 <em>when</em>, not as the object (Rule 10.1). A time word used as a thing keeps its suffix: <strong>Mik ebnesid dugup.</strong> (<em>I forgot the night.</em>) vs <strong>Mik ebnesid dugu.</strong> (<em>I forgot, at night.</em>)</li>
+<li><strong>The Bare Noun (Specificity and Number Unstated):</strong> A noun with neither suffix leaves specificity <em>unstated</em> — <em>food</em>, not <em>the food</em> or <em>some food</em>. It is always legal, and it is the right choice whenever which one does not matter: <strong>Mik naci ky juro.</strong> (<em>I work in a city.</em>) <strong>Mik nomid bata.</strong> (<em>I ate food.</em>) Leaving <code>-p</code>/<code>-r</code> off never creates a second parse, with one exception: a <strong>time word</strong> (the temporal lexicon — <code>dugu</code>, <code>cihu</code>, <code>rajedu</code> …) left bare at the end of a clause is read as Slot 4 <em>when</em>, not as the object (Rule 10.1). A time word used as a thing keeps its suffix: <strong>Mik ebnesid dugup.</strong> (<em>I forgot the night.</em>) vs <strong>Mik ebnesid dugu.</strong> (<em>I forgot, at night.</em>) A bare noun also leaves <em>number</em> unstated — <code>fryra</code> is <em>a tiger</em> or <em>tigers</em>. Listeners usually infer one from context, but nothing in the word says so; to make number explicit, add <code>je</code> (plural, Rule 18) or a number.</li>
 </ol>
 <hr>
 <h3>Rule 8: Possessive Pronouns &amp; Modifiers</h3>
@@ -1244,8 +1244,8 @@ While the core mood tags above encode <em>intent</em> and <em>tone</em>, Fiwo al
 <tr>
 <td align="left"><strong><code>wug</code></strong></td>
 <td align="left">Modifier variable</td>
-<td align="left">After the noun it modifies</td>
-<td align="left">A missing number or quantity</td>
+<td align="left">After the noun it modifies, or after a preposition</td>
+<td align="left">A missing number or quantity — <code>usy wug</code> asks <em>which hour</em></td>
 </tr>
 <tr>
 <td align="left"><strong><code>wal</code></strong></td>
@@ -1270,6 +1270,7 @@ While the core mood tags above encode <em>intent</em> and <em>tone</em>, Fiwo al
 <li><strong>Kup wun enconid wun?</strong> (Meaning: <em>Who met whom?</em>)</li>
 <li><strong>Kup suk gesid wy wun?</strong> ([Question] + you + talk-[past] + with [Preposition] + who [Target]? Meaning: <em>Who did you talk with?</em>)</li>
 <li><strong>Kup nibop ty wat?</strong> (Meaning: <em>What is the book on?</em>)</li>
+<li><strong>Kup nu gomu usy wug?</strong> (Now + hour + at-sequence + what-number? Meaning: <em>What time is it?</em> — <code>wug</code> after a preposition, v1.17.)</li>
 <li>Fronting stays illegal: ✗ <strong>Kup wun suk enconid?</strong> crashes — two nouns before the verb close the clause (Rule 10.5).</li>
 </ul>
 </li>
@@ -1340,7 +1341,7 @@ While the core mood tags above encode <em>intent</em> and <em>tone</em>, Fiwo al
 </ul>
 </li>
 <li><em>Directional Flow (Verb to Noun):</em><ul>
-<li><strong>Dal xalid fy juro zy sydo.</strong> (He + move-[past] + from + city + to + house. Meaning: <em>He traveled from the city to the house.</em>)</li>
+<li><strong>Dal xalid fy juro zy sydo.</strong> (He + move-[past] + from + city + to + house. <code>fy</code> anchors to the verb <code>xalid</code>; <code>zy</code> anchors to the nearest root on its left, <code>juro</code> — a path chain: from the city, and from the city on to the house. Meaning: <em>He traveled from the city to the house.</em>)</li>
 </ul>
 </li>
 <li><em>Root Transparency (Skipping a Modifier):</em><ul>
@@ -2161,7 +2162,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><strong>Quotes inside quotes</strong> use <code>huc</code> again and count toward the depth limit (§6): <strong>Bo hadid huc Daq gesid huc Kop suk xali tel.</strong> (Bo answered: &quot;He said: &#39;Go.&#39;&quot;)</li>
 <li><strong>Mentioning a single word:</strong> <strong>Mik gesid huc nes.</strong> (I said &quot;no&quot;.) To <em>name</em> a word after a noun — <em>the word &quot;not&quot;</em> — keep the ordinary relative bracket: <code>gop tep nes tel</code>.</li>
 <li><strong>The quoted utterance is capitalized like a sentence.</strong> The first word after <code>huc</code> (and after each internal utterance boundary, below) is <strong>utterance-initial</strong> — a leading capital marks a quoted sentence-start, not a proper noun. So <code>daq slezid huc Mace, mik tsejapid ram tel</code> reads <code>Mace</code> as the modifier <em>maybe</em>, not a name. This is a spelling convention only; it carries no meaning.</li>
-<li><strong>Internal sentence punctuation is an utterance boundary <em>inside</em> the bracket — it never closes the bracket or ends the outer sentence.</strong> A <code>.</code>, <code>?</code>, or <code>!</code> between <code>huc</code> (or <code>tep</code>) and its <code>tel</code> resets the inner clause and opens the next quoted utterance (mood tags legal again, because it is utterance-initial). The quote is closed by <code>tel</code> — or by the true end of the sentence, which flushes any still-open bracket (§7), so a quote running to the end of the sentence needs no <code>tel</code> at all. This makes multi-sentence quotes deterministic with zero new machinery — <strong>bracket depth alone</strong> decides whether punctuation resets the sentence or just the inner utterance, so parsing stays single-pass. <em>(This convention applies to every open bracket uniformly, not only quotes — internal punctuation inside any <code>tep … tel</code> is a within-bracket boundary. Punctuation is never load-bearing for the outer parse.)</em><ul>
+<li><strong>Internal sentence punctuation is an utterance boundary <em>inside</em> a <code>huc</code> quote — it never closes the quote or ends the outer sentence.</strong> A <code>.</code>, <code>?</code>, <code>!</code> or <code>:</code> between <code>huc</code> and its <code>tel</code> resets the inner clause and opens the next quoted utterance (utterance-initial, so a new mood tag is legal). <strong>A <code>tep</code> bracket is different: the utterance boundary closes it</strong> (v1.17, Josh&#39;s ruling) — <code>Das pozid tep mik nomid batap. Mik usid.</code> is <em>She thought that I ate the food. I slept.</em>, not a two-sentence thought. Only a direct quote runs on across sentences.<ul>
 <li><em>Single-utterance quote:</em> <strong>Daq slezid huc Kup suk tsejapid gutop mike?</strong> (He asked [Did you see my tool?]. The internal <code>?</code> is the quoted question&#39;s own; the end of the sentence closes the bracket, so no <code>tel</code> is written — see §7.)</li>
 <li><em>Multi-utterance quote:</em> <strong>Nibop slezid huc Kup wun xosis hoxop. Kup suk xyfis wis ram?</strong> (The book asked [What opens the door? How do you find it?]. The internal <code>.</code> ends the first quoted question and the second <code>Kup</code> is legal because it is utterance-initial inside the quote.)</li>
 <li><em>The same quote mid-sentence, where <code>tel</code> becomes mandatory:</em> <strong>Daq slezid huc Kup suk tsejapid gutop mike? tel bef daq xalid.</strong> (He asked [Did you see my tool?] and he moved on.) Without <code>tel</code>, the wall <code>bef</code> and everything after it would be read as the next utterance <em>inside</em> the quotation.</li>
@@ -2238,7 +2239,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 </li>
 </ul>
 </li>
-<li><p><strong>The Topic Marker (<code>zet</code>):</strong> To front a <strong>topic</strong> — announcing what a sentence is about before the sentence itself (&quot;As for the book, …&quot; / &quot;Regarding the weather, …&quot;) — Fiwo uses the correlative structure <code>zet [Topic] can [Main Clause]</code>.</p>
+<li><p><strong>Rule 32.5 — The Topic Marker (<code>zet</code>):</strong> To front a <strong>topic</strong> — announcing what a sentence is about before the sentence itself (&quot;As for the book, …&quot; / &quot;Regarding the weather, …&quot;) — Fiwo uses the correlative structure <code>zet [Topic] can [Main Clause]</code>.</p>
 <ul>
 <li><strong>Why a dedicated particle:</strong> The preposition <code>zety</code> (&quot;about&quot;) cannot do this — as a bridge it must anchor to a root on its <em>left</em> (Rule 13), and at a sentence&#39;s start there is nothing there. The topic marker <code>zet</code> is <strong>not</strong> a preposition; it is a clause-initial flag (like <code>syn</code>) that opens a topic phrase and hands off to the main clause at the wall. <code>zety</code> remains the mid-sentence &quot;about&quot; preposition; <code>zet</code> is only the sentence-opening topic marker. The two never overlap.</li>
 <li><strong>Placement &amp; Closure:</strong> <code>zet</code> sits at the absolute start of the sentence. The topic phrase (a noun phrase) runs until the wall <code>can</code> (or <code>pen</code>), which closes the topic and opens the main SVO clause. The closing wall is <strong>mandatory</strong> — omitting it is a fatal error (the parser cannot tell where the topic ends).<ul>
@@ -2726,7 +2727,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
                 </a>
                 <a class="learn-path-card" href="#flashcards">
                     <h3>Flashcards</h3>
-                    <p class="learn-path-stat">3,398 words &middot; 8,610 cards &middot; on your device</p>
+                    <p class="learn-path-stat">3,394 words &middot; 8,616 cards &middot; on your device</p>
                     <p>The same deck as the Fiwo app, running the same scheduler: it shows you a word just before you
                     would have forgotten it, both directions, and nothing leaves your browser. Swipe to grade, or
                     <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>.</p>
@@ -2752,7 +2753,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
         <!-- data-src: the course is fetched by workbook-page.js the first time
              this page opens, not on every visit. Bump its ?v= when workbook.js
              is regenerated, like the other cache-busters. -->
-        <section id="workbook" class="page" data-src="workbook.js?v=6b0e5c7c">
+        <section id="workbook" class="page" data-src="workbook.js?v=635b343a">
             <p class="page-crumb"><a href="#how-to-learn">&larr; How to Learn Fiwo</a></p>
             <h2>Workbook</h2>
             <p class="section-lede">Thirty-eight lessons and seven reviews, strictly vocabulary-gated &mdash;
@@ -2861,10 +2862,10 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
     <!-- Layer 3: the backup file. After the store, because it registers itself
          with it; harmless on a browser with no File System Access at all. -->
     <script src="fiwo-backup.js?v=def66fe1"></script>
-    <script src="dictionary.js?v=b87a56e8"></script>
-    <script src="DerivedDictionary.js?v=db6fdd41"></script>
-    <script src="stories.js?v=b948768d"></script>
-    <script src="fiwo-parser.js?v=83494cf4"></script>
+    <script src="dictionary.js?v=4e096c96"></script>
+    <script src="DerivedDictionary.js?v=c1cfb5ef"></script>
+    <script src="stories.js?v=b0ac4153"></script>
+    <script src="fiwo-parser.js?v=b18803b1"></script>
     <!-- The trained neural voice is the WEBSITE'S, not fiwo-pronounce.js's:
          that file is also vendored into the Android app, which has its own
          Piper path and no fiwo-voice.js to find. Declaring the module here

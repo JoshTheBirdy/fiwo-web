@@ -4,7 +4,7 @@ This is a COMPLETE, SELF-CONTAINED pack. Do not ask for, or assume the
 existence of, any other Fiwo file. It carries the full grammar (all 41
 rules) but only CORE vocabulary — tier 0 (closed class: pronouns, mood
 tags, prepositions, particles, suffixes) and tier 1 (the beginner core).
-1,247 further roots exist and are NOT in this pack. That is the
+1,246 further roots exist and are NOT in this pack. That is the
 subset the VOCABULARY INTEGRITY section below is talking about: when a word
 is missing here, it is missing from the pack, not from the language. Say
 "that is outside the core vocabulary in this pack" — never "that word
@@ -763,6 +763,7 @@ zuta = Fruit : This identifies the fleshy, edible product of a tree or plant tha
 [Concrete Nouns (-o)] — 55 entries
 atripo = Train : A connected series of physical railway carriages or wagons structurally linked and moved by a locomotive engine along tracks.  [tier 1 · core]
 belimo = Shoe : A physical covering for the foot, typically made of leather or synthetic materials, featuring a sturdy protective sole.  [tier 1 · core]
+blyfo = Car : A wheeled motor vehicle for carrying a few passengers.  [tier 1 · core]
 bryklo = Bread. : A staple food made by baking a dough of ground grain, water, and typically a leavening agent.  [tier 1 · core]
 bucygo = Earth : The planet on which we live, taken as a proper name; the third planet from the sun.  [tier 1 · core]
 busko = Clothes / Clothing. : This refers to items worn to cover the body, typically made of fabric or textile materials.  [tier 1 · core]
@@ -794,7 +795,6 @@ meoko = Hat : A shaped physical covering for the head worn for environmental pro
 mipko = Cloud : This refers to a visible, physical mass of condensed atmospheric water vapor floating high in the sky.  [tier 1 · core]
 monto = Mountain : This refers to a massive, natural solid elevation of the earth's surface, rising abruptly to a peak from the surrounding ground.  [tier 1 · core]
 nasbo = Medicine / Drug : This identifies a physical compound, preparation, or substance strictly used for the treatment, cure, or prevention of biological disease.  [tier 1 · core]
-nibilko = Car : A wheeled motor vehicle for carrying a few passengers.  [tier 1 · core]
 nibo = Book. : This refers to a written or printed work consisting of pages bound together, or a digital equivalent, used to store information.  [tier 1 · core]
 paelo = Paper : A thin, flat physical material manufactured from processed pulp, used primarily for writing, printing, or structural packaging.  [tier 1 · core]
 picalo = Hospital : This refers to a highly specialized physical building or institution providing medical and surgical treatment for sick or injured people.  [tier 1 · core]
@@ -973,7 +973,7 @@ breni = Come. : This verb means to move toward a specific location or the speake
 briwi = Fear / Afraid : This verb means to be afraid of someone or something.  [tier 1 · core]
 cacki = Taste : To perceive the flavor of food or liquid in the mouth.  [tier 1 · core]
 cafi = Run : To move swiftly on foot at a pace significantly faster than a walk.  [tier 1 · core]
-ceni = Live. : This verb means to remain alive or have life.  [tier 1 · core]
+ceni = Live / Be alive / Reside : To be alive, or to live somewhere: to have life, or to have one's home in a place. (Usage: Mik ceni. = I am alive / I live. Mik ceni ky juro. = I live in a city.)  [tier 1 · core]
 cimi = Start / Begin : This verb means to begin an action or event.  [tier 1 · core]
 dwagi = Stay : To remain in the exact same physical location or conceptual state for an extended duration.  [tier 1 · core]
 ebnesi = Forget : To lose access to stored mental data; the systemic inability to retrieve a past event or learned concept.  [tier 1 · core]
