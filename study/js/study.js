@@ -24,9 +24,11 @@ let session = null;
  * @param progress current progress object
  * @param onSave   (progress) => Promise — persists after every grade
  * @param onDone   (progress, stats) => void — session finished or exited
+ * @param opts     { listenOnly } — sentence cards hide their Fiwo until the flip
  */
-export function startSession(queue, progress, onSave, onDone) {
+export function startSession(queue, progress, onSave, onDone, opts = {}) {
   session = {
+    listenOnly: Boolean(opts.listenOnly),
     queue: [...queue],
     i: 0,
     progress,
@@ -84,7 +86,11 @@ function render() {
         <span class="tag tag-dim">${labelFor(card)}</span>
       </div>
 
-      <div class="study-face ${card.frontIsFiwo ? 'fiwo' : ''}">${esc(card.front)}</div>
+      ${hideFront(card)
+        ? '<button class="study-listen" aria-label="Play the sentence">🔊<span>Listen</span></button>'
+        : `<div class="study-face ${card.frontIsFiwo ? 'fiwo' : ''}">${frontHtml(card)}</div>`}
+      ${hideFront(card) && session.flipped
+        ? `<div class="study-face fiwo">${frontHtml(card)}</div>` : ''}
 
       ${session.flipped ? `
         <hr class="study-rule">
@@ -116,6 +122,10 @@ function render() {
   // speaker icon that does nothing is a bug report waiting to happen, and on
   // the website audio is switched off for the whole build.
   el.querySelector('.study-say')?.addEventListener('click', () => say(card));
+  el.querySelector('.study-listen')?.addEventListener('click', (e) => {
+    e.stopPropagation();   // a replay, not a flip
+    say(card);
+  });
   for (const b of el.querySelectorAll('.grade')) {
     b.addEventListener('click', () => grade(Number(b.dataset.rating)));
   }
@@ -131,6 +141,23 @@ function render() {
  * shortcut that gets used and one nobody discovers. */
 function hasKeyboard() {
   return window.matchMedia?.('(pointer: fine)').matches === true;
+}
+
+/* Listen-only applies to sentence cards alone: a word card's front IS the
+ * thing being tested, and hiding it would leave nothing to answer. */
+const hideFront = (card) => session.listenOnly && card.type === 'sentence';
+
+/* A sentence card marks the word it was written for, so you can see which
+ * word the card is about once you are reading it. Matched on the word's own
+ * stem, which also catches its inflected forms (`nedcid`, `sydop`). */
+function frontHtml(card) {
+  if (card.type !== 'sentence' || !card.headword) return esc(card.front);
+  const head = card.headword.toLowerCase();
+  return card.front.split(/(\s+)/).map(tok => {
+    const bare = tok.toLowerCase().replace(/[^a-z]/g, '');
+    const hit = bare.startsWith(head) && /^[aeiouy]?[prdsqktmfy]{0,3}$/.test(bare.slice(head.length));
+    return hit && !/^\s+$/.test(tok) ? `<mark class="headword">${esc(tok)}</mark>` : esc(tok);
+  }).join('');
 }
 
 function labelFor(card) {
@@ -161,7 +188,8 @@ function autoplay(card) {
   const token = `${card.id}:${side}`;
   if (session.spokenFor === token) return;
   session.spokenFor = token;
-  if (tts.shouldAutoplay(card, side)) say(card);
+  // Listen-only has nothing else on the front, so it always speaks.
+  if ((side === 'front' && hideFront(card)) || tts.shouldAutoplay(card, side)) say(card);
 }
 
 /* ── Swipe grading ────────────────────────────────────────────────────────── */

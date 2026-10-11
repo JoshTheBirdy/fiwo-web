@@ -33,7 +33,27 @@ export const DEFAULT_STUDY_SETTINGS = {
   newCardsPerDay: 30,
   production: true,        // English → Fiwo. Q11: on, with a real off switch
   sentences: false,        // Q12: included but not uninvited
+  // The Sentences track (2026-10-11). Its own daily budget, because a sentence
+  // is slower than a word and should not eat the word deck's allowance.
+  sentencesPerDay: 15,
+  sentencesMetOnly: true,  // a sentence becomes new only once its word has been met
+  listenOnly: false,       // hide the Fiwo until the flip: an ear drill, not a reading one
 };
+
+/* The headword a sentence was written for: the `word` of its first
+ * `(word - gloss)` note. Every dictionary word has one (validate_corpus.py
+ * gates it), so this links each word to its own sentence. Construction tags
+ * from Complex sentences.md (`bracket - relative`) match no word and stay
+ * unlinked. */
+export function sentenceHeadword(sentence, wordsByText) {
+  for (const note of sentence.notes || []) {
+    const head = note.split(' - ')[0].trim().toLowerCase();
+    if (wordsByText.has(head)) return wordsByText.get(head);
+  }
+  return null;
+}
+
+export const isSentenceId = (id) => id.startsWith('sent_');
 
 /**
  * Flatten the bundle into study cards.
@@ -94,14 +114,26 @@ export function buildCards(content) {
     });
   }
 
+  const wordsByText = new Map(content.words.map(w => [w.word.toLowerCase(), w]));
   for (const s of content.sentences) {
+    const head = sentenceHeadword(s, wordsByText);
     cards.push({
       id: s.id, type: CARD_TYPES.SENTENCE,
-      front: s.fiwo, back: s.english, note: (s.notes || [])[0] || null,
+      front: s.fiwo, back: s.english,
+      note: head ? `${head.word} — ${head.english}` : (s.notes || [])[0] || null,
       speak: s.fiwo, frontIsFiwo: true,
-      pos: null, tier: null, rank: null, set: 'sentences',
-      // Last, behind every word: a sentence is only useful once its words are.
-      band: 3, order: 1,
+      // A sentence inherits its headword's place in the course, so the
+      // Sentences track meets them in the same order as the words — and the
+      // word filters mean something for it. Unlinked ones go last.
+      pos: head?.pos ?? null, tier: head?.tier ?? null, rank: head?.rank ?? null,
+      wordSet: head?.deck ?? null,
+      set: 'sentences',
+      // Bands 3+ keep them behind every word when mixed into the flashcards
+      // (a sentence is only useful once its words are); within the Sentences
+      // track only their order relative to each other matters.
+      band: 3 + (head ? (BAND[head.tier] ?? 3) : 4),
+      order: head && head.rank != null && tierMax[head.tier] ? head.rank / tierMax[head.tier] : 1,
+      headword: head?.word ?? null, headId: head?.id ?? null,
       audioId: s.id, audioText: s.fiwo,
     });
   }
@@ -111,6 +143,14 @@ export function buildCards(content) {
 
 /** Does this card pass the picker's filters and the type toggles? */
 export function inScope(card, filters, settings) {
+  // The Sentences track: sentence cards only, filtered through their headword.
+  if (settings.only === CARD_TYPES.SENTENCE) {
+    if (card.type !== CARD_TYPES.SENTENCE) return false;
+    if (filters.pos?.length && !filters.pos.includes(card.pos)) return false;
+    if (filters.tiers?.length && !filters.tiers.includes(card.tier)) return false;
+    if (filters.set && filters.set !== 'all' && card.wordSet !== filters.set) return false;
+    return true;
+  }
   if (card.type === CARD_TYPES.SENTENCE) {
     // Sentences have no tier or part of speech, so the content filters cannot
     // apply to them. They are in or out purely by their own toggle.
@@ -168,15 +208,27 @@ export function buildQueue(cards, progress, filters, settings, now = new Date(),
   const fresh = [];
   const today = dayKey(now);
   let introducedToday = 0;
+  // The Sentences track keeps its own budget, so only sentence ids count
+  // against it — and only word ids against the word deck's.
+  const sentenceTrack = settings.only === CARD_TYPES.SENTENCE;
 
-  for (const entry of Object.values(progress.cards)) {
-    if (entry.firstSeen === today) introducedToday++;
+  for (const [id, entry] of Object.entries(progress.cards)) {
+    if (entry.firstSeen !== today) continue;
+    const counts = sentenceTrack ? isSentenceId(id) : (settings.sentences || !isSentenceId(id));
+    if (counts) introducedToday++;
   }
 
   for (const card of cards) {
     if (!inScope(card, filters, settings)) continue;
     const entry = progress.cards[card.id];
-    if (!entry || !entry.fsrs) { fresh.push(card); continue; }
+    if (!entry || !entry.fsrs) {
+      // A sentence is only worth hearing once its word is known: new sentence
+      // cards wait until the headword's recognition card has been studied.
+      if (sentenceTrack && settings.sentencesMetOnly &&
+          !progress.cards[card.headId]?.fsrs) continue;
+      fresh.push(card);
+      continue;
+    }
     if (entry.orphaned) continue;
     const dueAt = new Date(entry.fsrs.due);
     // An unparseable due date compares false against everything, which would
@@ -195,7 +247,8 @@ export function buildQueue(cards, progress, filters, settings, now = new Date(),
     (a.rank ?? 1e9) - (b.rank ?? 1e9) ||
     a.front.localeCompare(b.front));
 
-  const allowance = Math.max(0, (settings.newCardsPerDay ?? 0) - introducedToday);
+  const perDay = sentenceTrack ? settings.sentencesPerDay : settings.newCardsPerDay;
+  const allowance = Math.max(0, (perDay ?? 0) - introducedToday);
   const selected = [...due.map(d => d.card), ...fresh.slice(0, allowance)];
 
   return {
