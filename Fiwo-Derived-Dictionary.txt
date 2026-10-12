@@ -1498,8 +1498,8 @@ curmei | curme e→i | To be easy | Stative: to be or become easy. [Modifier -> 
 cutwei | cutwe e→i | To be ready | Stative: to be or become ready. [Modifier -> Verb (stative)] Senses: 1) to be ready; 2) to become ready
 dalei | dale e→i | To be his | Stative: to be or become his. [Modifier -> Verb (stative)] Senses: 1) to be his; 2) to become his
 dangui | dangu u→i | to take a vacation | To take a vacation; to spend time on holiday. [Abstract Noun -> Verb (feel/enact)] Senses: 1) to take a vacation
-daqei | daqe e→i | To be his (male | Stative: to be or become his (male. [Modifier -> Verb (stative)] Senses: 1) to be his (male; 2) to become his (male
-dasei | dase e→i | To be hers (female | Stative: to be or become hers (female. [Modifier -> Verb (stative)] Senses: 1) to be hers (female; 2) to become hers (female
+daqei | daqe e→i | To be his (male) | Stative: to be or become his (male. [Modifier -> Verb (stative)] Senses: 1) to be his (male; 2) to become his (male
+dasei | dase e→i | To be hers (female) | Stative: to be or become hers (female. [Modifier -> Verb (stative)] Senses: 1) to be hers (female; 2) to become hers (female
 deluflui | deluflu u→i | Budget / To budget | To plan how available money will be spent. [Abstract Noun -> Verb (feel/enact)] Senses: 1) budget; 2) plan spending
 denei | dene e→i | To be any | Stative: to be or become any. [Modifier -> Verb (stative)] Senses: 1) to be any; 2) to become any
 derwei | derwe e→i | To be mutual | Stative: to be or become mutual. [Modifier -> Verb (stative)] Senses: 1) to be mutual; 2) to become mutual
@@ -1554,7 +1554,7 @@ gerotei | gerote e→i | To be shallow | Stative: to be or become shallow. [Modi
 gihoflui | gihoflu u→i | To limit | To set a limit on; to restrict. [Abstract Noun -> Verb (feel/enact)] Senses: 1) to limit; 2) to restrict
 gizei | gize e→i | To be full | Stative: to be or become full. [Modifier -> Verb (stative)] Senses: 1) to be full; 2) to become full
 glapei | glape e→i | To be gray | Stative: to be or become gray. [Modifier -> Verb (stative)] Senses: 1) to be gray; 2) to become gray
-glecei | glece e→i | To be which (interrogative | Stative: to be or become which (interrogative. [Modifier -> Verb (stative)] Senses: 1) to be which (interrogative; 2) to become which (interrogative
+glecei | glece e→i | To be which (interrogative) | Stative: to be or become which (interrogative. [Modifier -> Verb (stative)] Senses: 1) to be which (interrogative; 2) to become which (interrogative
 glokei | gloke e→i | To be four | Stative: to be or become four. [Modifier -> Verb (stative)] Senses: 1) to be four; 2) to become four
 goilei | goile e→i | To be sad | Stative: to be or become sad. [Modifier -> Verb (stative)] Senses: 1) to be sad; 2) to become sad
 goqei | goqe e→i | To be thick | Stative: to be or become thick. [Modifier -> Verb (stative)] Senses: 1) to be thick; 2) to become thick
@@ -1719,11 +1719,11 @@ pwefei | pwefe e→i | To be sour | Stative: to be or become sour. [Modifier -> 
 pwosai | pwosa a→i | To bite | To cut or grip with the teeth. [Biological Noun (organ) -> Verb (use the organ)] Senses: 1) to bite; 2) to gnaw; 3) to chomp
 pyqei | pyqe e→i | To be rude | Stative: to be or become rude. [Modifier -> Verb (stative)] Senses: 1) to be rude; 2) to become rude
 rajei | raje e→i | To be five | Stative: to be or become five. [Modifier -> Verb (stative)] Senses: 1) to be five; 2) to become five
-ramei | rame e→i | To be its (inanimate | Stative: to be or become its (inanimate. [Modifier -> Verb (stative)] Senses: 1) to be its (inanimate; 2) to become its (inanimate
+ramei | rame e→i | To be its (inanimate) | Stative: to be or become its (inanimate. [Modifier -> Verb (stative)] Senses: 1) to be its (inanimate; 2) to become its (inanimate
 ratsei | ratse e→i | To be dangerous | Stative: to be or become dangerous. [Modifier -> Verb (stative)] Senses: 1) to be dangerous; 2) to become dangerous
 raurei | raure e→i | To be ugly | Stative: to be or become ugly. [Modifier -> Verb (stative)] Senses: 1) to be ugly; 2) to become ugly
 razui | razu u→i | To plan | To make a plan; to plan. [Abstract Noun -> Verb (feel/enact)] Senses: 1) plan
-relsei | relse e→i | To be light (weight | Stative: to be or become light (weight. [Modifier -> Verb (stative)] Senses: 1) to be light (weight; 2) to become light (weight
+relsei | relse e→i | To be light (weight) | Stative: to be or become light (weight. [Modifier -> Verb (stative)] Senses: 1) to be light (weight; 2) to become light (weight
 resei | rese e→i | To be soft | Stative: to be or become soft. [Modifier -> Verb (stative)] Senses: 1) to be soft; 2) to become soft
 rewyei | rewy y→e→i | To be far / distant | Stative: to be or become far. [Preposition -> Modifier -> Verb (stative)] Senses: 1) to be far; 2) to become far
 rintei | rinte e→i | To be rich | Stative: to be or become rich. [Modifier -> Verb (stative)] Senses: 1) to be rich; 2) to become rich
@@ -1808,7 +1808,7 @@ vomei | vome e→i | To be less | Stative: to be or become less. [Modifier -> Ve
 vyhei | vyhe e→i | To be mild | Stative: to be or become mild. [Modifier -> Verb (stative)] Senses: 1) to be mild; 2) to become mild
 wapsei | wapse e→i | To be flat | Stative: to be or become flat. [Modifier -> Verb (stative)] Senses: 1) to be flat; 2) to become flat
 waskei | waske e→i | To be old | Stative: to be or become old. [Modifier -> Verb (stative)] Senses: 1) to be old; 2) to become old
-wecei | wece e→i | To be well (satisfactory | Stative: to be or become well (satisfactory. [Modifier -> Verb (stative)] Senses: 1) to be well (satisfactory; 2) to become well (satisfactory
+wecei | wece e→i | To be well (satisfactory) | Stative: to be or become well (satisfactory. [Modifier -> Verb (stative)] Senses: 1) to be well (satisfactory; 2) to become well (satisfactory
 weokei | weoke e→i | To be round | Stative: to be or become round. [Modifier -> Verb (stative)] Senses: 1) to be round; 2) to become round
 wiblei | wible e→i | To be self | Stative: to be or become self. [Modifier -> Verb (stative)] Senses: 1) to be self; 2) to become self
 wigakrui | wigakru u→i | To trust | To place trust in; to trust. [Abstract Noun -> Verb (feel/enact)] Senses: 1) trust

@@ -1246,7 +1246,7 @@ tyxe | tier 3 · long tail | Tropical | Belonging to or characteristic of the ho
 ubme | tier 2 · extended | Public | Done, perceived, or existing in open view; open to the community.
 udce | tier 3 · long tail | Tight | Fitting closely; held or closed firmly in place.
 ugte | tier 3 · long tail | Barely / Scarcely | A relative degree modifier indicating the lowest perceptible amount of a trait, state, or action; almost not at all.
-ulime | tier 1 · core | Half | This describes a quantity representing exactly one of two equal parts of a whole (50%). (Usage: Distinct from mide (middle), which refers to a spatial or temporal center.)
+ulime | tier 1 · core | Half | This describes a quantity representing exactly one of two equal parts of a whole (50%). (Usage: Distinct from hupu (center / middle), which refers to a spatial or temporal center.)
 upfe | tier 3 · long tail | Unequal | Not the same in quantity, size, degree, value, or status.
 usate | tier 2 · extended | Straight | This describes an entity moving continuously in one direction without curving, bending, or deviating structurally.
 uxbe | tier 3 · long tail | Loose | Not firmly or tightly fixed in place; relaxed or detached.
@@ -1344,7 +1344,7 @@ etypi | tier 1 · core | To get / To obtain | To actively and successfully acqui
 eziswi | tier 2 · extended | Implement | To put a plan, decision, or system into effect; to carry out.
 fabi | tier 1 · core | Want. | This verb means to have a desire to possess or do something.
 falazi | tier 3 · long tail | To journal / To record | To actively write down, log, or systematically record events, thoughts, or experiences that have taken place, typically for personal reflection or historical preservation. (Usage: Writing something down. Recording sound or your voice is not falazi.)
-falmi | tier 3 · long tail | To report / To recount | To officially retell, record, or communicate the factual details of events that have already taken place. (Usage: Distinct from nari (to tell), which is general communication; falmi implies an objective recounting of history or data.)
+falmi | tier 3 · long tail | To report / To recount | To officially retell, record, or communicate the factual details of events that have already taken place. (Usage: Distinct from fenuti (to tell), which is general communication; falmi implies an objective recounting of history or data.)
 fasidi | tier 3 · long tail | Include / Involve | To contain an entity as a subordinate part or member of a larger whole or system.
 fasnoli | tier 3 · long tail | Disseminate | To spread or publicize information widely; to propagandize.
 fatli | tier 3 · long tail | To depend on / To rely on | To require the support, action, or existence of another entity in order to function, survive, or succeed.

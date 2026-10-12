@@ -258,6 +258,11 @@
                         <h3><a href="#lets-read" onclick="document.querySelector('.side-nav a[href=\'#lets-read\']').click(); return false;">Let's Read</a></h3>
                         <p>Put your knowledge to the test. Practice your comprehension by reading stories, fables, and dialogues fully translated into Fiwo.</p>
                     </div>
+
+                    <div class="directory-card">
+                        <h3><a href="https://modrinth.com/resourcepack/fiwo" target="_blank" rel="noopener">Play Minecraft in Fiwo</a></h3>
+                        <p>The Fiwo Language Pack for Minecraft Java: nearly every menu, item and message in the game translated. Free on Modrinth.</p>
+                    </div>
                 </div>
             </div>
 
@@ -2743,10 +2748,10 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
                     <a href="Fiwo-AI-instructions.txt" download="Fiwo-AI-instructions.txt" class="download-btn">Download AI Instructions</a>
                 </div>
                 <p class="download-note"><strong>Practising with an AI?</strong> Upload the <strong>Tutor Pack</strong> on its own. It is
-                self-contained &mdash; all 38 rules plus the 462-word core vocabulary, every entry with its full definition.
+                self-contained &mdash; every rule plus the core vocabulary, every entry with its full definition.
                 Adding the dictionaries alongside it makes the model <em>worse</em>, not better: together they are ~8&times; the
                 size of the pack, and burying the grammar under vocabulary is what causes a model to miss common words and
-                invent roots. Take <strong>AI Instructions</strong> (the full 1,493-root vocabulary) instead when you want
+                invent roots. Take <strong>AI Instructions</strong> (the full root vocabulary) instead when you want
                 translation rather than practice, and the dictionaries when you want to look something up yourself.</p>
             </div>
         </section>
@@ -2862,8 +2867,8 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
     <!-- Layer 3: the backup file. After the store, because it registers itself
          with it; harmless on a browser with no File System Access at all. -->
     <script src="fiwo-backup.js?v=def66fe1"></script>
-    <script src="dictionary.js?v=9d29fe60"></script>
-    <script src="DerivedDictionary.js?v=b50565a2"></script>
+    <script src="dictionary.js?v=938343df"></script>
+    <script src="DerivedDictionary.js?v=ef073873"></script>
     <script src="stories.js?v=b0ac4153"></script>
     <script src="fiwo-parser.js?v=b18803b1"></script>
     <!-- The trained neural voice is the WEBSITE'S, not fiwo-pronounce.js's:

@@ -12,7 +12,7 @@ const derivedDictionaryData = [
       "pilot"
     ],
     "freq": 0,
-    "freq_rank": 2007,
+    "freq_rank": 2009,
     "example": {
       "fiwo": "Foroap cyrid forop zy jurop.",
       "english": "The pilot flew the plane to the city."
@@ -31,7 +31,7 @@ const derivedDictionaryData = [
       "resembling plane"
     ],
     "freq": 0,
-    "freq_rank": 2008,
+    "freq_rank": 2010,
     "example": {
       "fiwo": "Kyfap tande foroe cyrid tody sydop.",
       "english": "A big, plane-like bird flew over the house."
@@ -68,7 +68,7 @@ const derivedDictionaryData = [
       "sensible"
     ],
     "freq": 0,
-    "freq_rank": 1550,
+    "freq_rank": 1554,
     "example": {
       "fiwo": "Daq nofar absue.",
       "english": "He is a sensible person."
@@ -87,7 +87,7 @@ const derivedDictionaryData = [
       "resembling claw"
     ],
     "freq": 0,
-    "freq_rank": 1552,
+    "freq_rank": 1556,
     "example": {
       "fiwo": "Ipkap jedi xufa acinae.",
       "english": "The spider has claw-like arms."
@@ -124,7 +124,7 @@ const derivedDictionaryData = [
       "generosity"
     ],
     "freq": 0,
-    "freq_rank": 1554,
+    "freq_rank": 1558,
     "example": {
       "fiwo": "Mik grawi acleup suke.",
       "english": "I thank you for your generosity."
@@ -143,7 +143,7 @@ const derivedDictionaryData = [
       "crosswise"
     ],
     "freq": 0,
-    "freq_rank": 1555,
+    "freq_rank": 1559,
     "example": {
       "fiwo": "Caenop acrye gizei.",
       "english": "The cross street is full."
@@ -162,7 +162,7 @@ const derivedDictionaryData = [
       "traverse"
     ],
     "freq": 0,
-    "freq_rank": 1556,
+    "freq_rank": 1560,
     "example": {
       "fiwo": "Muk acryis xadorop.",
       "english": "We will cross the river."
@@ -180,7 +180,7 @@ const derivedDictionaryData = [
       "trader"
     ],
     "freq": 0,
-    "freq_rank": 1558,
+    "freq_rank": 1562,
     "example": {
       "fiwo": "Acumuliap gidafid busko.",
       "english": "The trader sold clothes."
@@ -198,7 +198,7 @@ const derivedDictionaryData = [
       "conscious"
     ],
     "freq": 0,
-    "freq_rank": 2272,
+    "freq_rank": 2273,
     "example": {
       "fiwo": "Latwap jinuei haibe.",
       "english": "The animal is still conscious."
@@ -216,7 +216,7 @@ const derivedDictionaryData = [
       "gradual"
     ],
     "freq": 0,
-    "freq_rank": 1559,
+    "freq_rank": 1563,
     "example": {
       "fiwo": "Tumiup adrebue linuciq.",
       "english": "A gradual change is happening."
@@ -234,7 +234,7 @@ const derivedDictionaryData = [
       "be diagonal"
     ],
     "freq": 0,
-    "freq_rank": 1561,
+    "freq_rank": 1565,
     "example": {
       "fiwo": "Lazop adriswei.",
       "english": "The stick is diagonal."
@@ -253,7 +253,7 @@ const derivedDictionaryData = [
       "slant"
     ],
     "freq": 0,
-    "freq_rank": 1562,
+    "freq_rank": 1566,
     "example": {
       "fiwo": "Mik upycid adrisweup zy hekop.",
       "english": "I looked at the diagonal of the line."
@@ -272,7 +272,7 @@ const derivedDictionaryData = [
       "resembling umbrella"
     ],
     "freq": 0,
-    "freq_rank": 1564,
+    "freq_rank": 1568,
     "example": {
       "fiwo": "Nasap jedi cila adyvoe.",
       "english": "The plant has umbrella-like leaves."
@@ -290,7 +290,7 @@ const derivedDictionaryData = [
       "crawler"
     ],
     "freq": 0,
-    "freq_rank": 1567,
+    "freq_rank": 1571,
     "example": {
       "fiwo": "Afbiap nifne cimid cafit.",
       "english": "The little crawler started to run."
@@ -309,7 +309,7 @@ const derivedDictionaryData = [
       "resembling ash"
     ],
     "freq": 0,
-    "freq_rank": 1569,
+    "freq_rank": 1573,
     "example": {
       "fiwo": "Bysop afxoei.",
       "english": "The sky is ash-like."
@@ -327,7 +327,7 @@ const derivedDictionaryData = [
       "economic"
     ],
     "freq": 0,
-    "freq_rank": 1571,
+    "freq_rank": 1575,
     "example": {
       "fiwo": "Xekup jedi biwur afymue.",
       "english": "The country has an economic problem."
@@ -345,7 +345,7 @@ const derivedDictionaryData = [
       "erroneous"
     ],
     "freq": 0,
-    "freq_rank": 1572,
+    "freq_rank": 1576,
     "example": {
       "fiwo": "Fulup agcuei.",
       "english": "The data is wrong."
@@ -363,7 +363,7 @@ const derivedDictionaryData = [
       "gluer"
     ],
     "freq": 0,
-    "freq_rank": 1573,
+    "freq_rank": 1577,
     "example": {
       "fiwo": "Agmiap agmid paelop ty krapop.",
       "english": "The gluer glued the paper on the wall."
@@ -383,7 +383,7 @@ const derivedDictionaryData = [
       "gluey"
     ],
     "freq": 0,
-    "freq_rank": 1574,
+    "freq_rank": 1578,
     "example": {
       "fiwo": "Degop agmiei.",
       "english": "The table is sticky."
@@ -402,7 +402,7 @@ const derivedDictionaryData = [
       "resembling drought"
     ],
     "freq": 0,
-    "freq_rank": 1575,
+    "freq_rank": 1579,
     "example": {
       "fiwo": "Vexup agsoe kimarid nasa je.",
       "english": "The drought-like weather killed the plants."
@@ -421,7 +421,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1577,
+    "freq_rank": 1581,
     "example": {
       "fiwo": "Taicup ahzei.",
       "english": "The party is almost here."
@@ -460,7 +460,7 @@ const derivedDictionaryData = [
       "stink"
     ],
     "freq": 0,
-    "freq_rank": 1579,
+    "freq_rank": 1583,
     "example": {
       "fiwo": "Aiteup zy fubap gizeid krulop.",
       "english": "The stench of the fish filled the room."
@@ -479,7 +479,7 @@ const derivedDictionaryData = [
       "resembling cart"
     ],
     "freq": 0,
-    "freq_rank": 1580,
+    "freq_rank": 1584,
     "example": {
       "fiwo": "Moblop ajogoe waskei.",
       "english": "The cart-like vehicle is old."
@@ -497,7 +497,7 @@ const derivedDictionaryData = [
       "roaster"
     ],
     "freq": 0,
-    "freq_rank": 2418,
+    "freq_rank": 2419,
     "example": {
       "fiwo": "Laviap lavid bryklor.",
       "english": "The baker roasted bread."
@@ -515,7 +515,7 @@ const derivedDictionaryData = [
       "shouter"
     ],
     "freq": 0,
-    "freq_rank": 1582,
+    "freq_rank": 1586,
     "example": {
       "fiwo": "Akdiap akdid ky caenop.",
       "english": "The shouter shouted in the street."
@@ -535,7 +535,7 @@ const derivedDictionaryData = [
       "alarm device"
     ],
     "freq": 0,
-    "freq_rank": 1583,
+    "freq_rank": 1587,
     "example": {
       "fiwo": "Akdiop skejuid huhe.",
       "english": "The shrieker made a very loud sound."
@@ -555,7 +555,7 @@ const derivedDictionaryData = [
       "replacement"
     ],
     "freq": 0,
-    "freq_rank": 1585,
+    "freq_rank": 1589,
     "example": {
       "fiwo": "Ibalirap ambye kritrid ibitup.",
       "english": "The substitute teacher taught the class."
@@ -574,7 +574,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1586,
+    "freq_rank": 1590,
     "example": {
       "fiwo": "Dionup zy ram amcei.",
       "english": "The time for it never comes."
@@ -593,7 +593,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1589,
+    "freq_rank": 1593,
     "example": {
       "fiwo": "Mik amuteid nudu.",
       "english": "I was early today."
@@ -631,7 +631,7 @@ const derivedDictionaryData = [
       "basics"
     ],
     "freq": 0,
-    "freq_rank": 1591,
+    "freq_rank": 1595,
     "example": {
       "fiwo": "Anazeup zy fiwo curmei.",
       "english": "The basics of Fiwo are easy."
@@ -688,7 +688,7 @@ const derivedDictionaryData = [
       "fullness"
     ],
     "freq": 0,
-    "freq_rank": 1592,
+    "freq_rank": 1596,
     "example": {
       "fiwo": "Aofeup lini usiu.",
       "english": "Fullness causes sleep."
@@ -707,7 +707,7 @@ const derivedDictionaryData = [
       "resembling apple"
     ],
     "freq": 0,
-    "freq_rank": 1593,
+    "freq_rank": 1597,
     "example": {
       "fiwo": "Mik nomid zutar aplae.",
       "english": "I ate an apple-like fruit."
@@ -745,7 +745,7 @@ const derivedDictionaryData = [
       "normalcy"
     ],
     "freq": 0,
-    "freq_rank": 2335,
+    "freq_rank": 2336,
     "example": {
       "fiwo": "Mik ozepi kibeu.",
       "english": "I wish for normality."
@@ -783,7 +783,7 @@ const derivedDictionaryData = [
       "maleness"
     ],
     "freq": 0,
-    "freq_rank": 1594,
+    "freq_rank": 1598,
     "example": {
       "fiwo": "Daq gesid zety aqeu.",
       "english": "He talked about masculinity."
@@ -801,7 +801,7 @@ const derivedDictionaryData = [
       "participant"
     ],
     "freq": 0,
-    "freq_rank": 1596,
+    "freq_rank": 1600,
     "example": {
       "fiwo": "Arcipiap byceve jopxid uhor.",
       "english": "Each participant received a flag."
@@ -820,7 +820,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1597,
+    "freq_rank": 1601,
     "example": {
       "fiwo": "Ram arifei.",
       "english": "It is recommended."
@@ -857,7 +857,7 @@ const derivedDictionaryData = [
       "pregnancy"
     ],
     "freq": 0,
-    "freq_rank": 1599,
+    "freq_rank": 1603,
     "example": {
       "fiwo": "Arkeup dase curmeid.",
       "english": "Her pregnancy was easy."
@@ -877,7 +877,7 @@ const derivedDictionaryData = [
       "electric-storm"
     ],
     "freq": 0,
-    "freq_rank": 1601,
+    "freq_rank": 1605,
     "example": {
       "fiwo": "Lito arloe tumid bysop.",
       "english": "A light like lightning changed the sky."
@@ -895,7 +895,7 @@ const derivedDictionaryData = [
       "one that flows"
     ],
     "freq": 0,
-    "freq_rank": 1602,
+    "freq_rank": 1606,
     "example": {
       "fiwo": "Xadorop arsumpiar ruze.",
       "english": "The river is a fast flowing thing."
@@ -915,7 +915,7 @@ const derivedDictionaryData = [
       "streaming movement"
     ],
     "freq": 0,
-    "freq_rank": 1603,
+    "freq_rank": 1607,
     "example": {
       "fiwo": "Arsumpiop zy dorsop dotei.",
       "english": "The flow of the water is strong."
@@ -971,7 +971,7 @@ const derivedDictionaryData = [
       "artistic"
     ],
     "freq": 0,
-    "freq_rank": 1605,
+    "freq_rank": 1609,
     "example": {
       "fiwo": "Das cadar artue.",
       "english": "She is an artistic child."
@@ -1009,7 +1009,7 @@ const derivedDictionaryData = [
       "femaleness"
     ],
     "freq": 0,
-    "freq_rank": 1606,
+    "freq_rank": 1610,
     "example": {
       "fiwo": "Das gesid zety aseu.",
       "english": "She talked about femininity."
@@ -1027,7 +1027,7 @@ const derivedDictionaryData = [
       "rational"
     ],
     "freq": 0,
-    "freq_rank": 1607,
+    "freq_rank": 1611,
     "example": {
       "fiwo": "Ladup suke askuei.",
       "english": "Your idea is rational."
@@ -1118,7 +1118,7 @@ const derivedDictionaryData = [
       "believing"
     ],
     "freq": 0,
-    "freq_rank": 1609,
+    "freq_rank": 1613,
     "example": {
       "fiwo": "Daq nofar atilue.",
       "english": "He is a believing person."
@@ -1156,7 +1156,7 @@ const derivedDictionaryData = [
       "field-related"
     ],
     "freq": 0,
-    "freq_rank": 1611,
+    "freq_rank": 1615,
     "example": {
       "fiwo": "Ram biwur atobue.",
       "english": "It is a field-related problem."
@@ -1175,7 +1175,7 @@ const derivedDictionaryData = [
       "resembling train"
     ],
     "freq": 0,
-    "freq_rank": 1612,
+    "freq_rank": 1616,
     "example": {
       "fiwo": "Moblop atripoe dwimei.",
       "english": "The train-like vehicle is long."
@@ -1213,7 +1213,7 @@ const derivedDictionaryData = [
       "rottenness"
     ],
     "freq": 0,
-    "freq_rank": 1615,
+    "freq_rank": 1619,
     "example": {
       "fiwo": "Avgeup zy gofop linid tep ram skagid.",
       "english": "The decay of the wood made it break."
@@ -1232,7 +1232,7 @@ const derivedDictionaryData = [
       "alongside"
     ],
     "freq": 0,
-    "freq_rank": 1616,
+    "freq_rank": 1620,
     "example": {
       "fiwo": "Hekop kage avlyei.",
       "english": "The two lines are parallel."
@@ -1251,7 +1251,7 @@ const derivedDictionaryData = [
       "resembling nail"
     ],
     "freq": 0,
-    "freq_rank": 1617,
+    "freq_rank": 1621,
     "example": {
       "fiwo": "Pwosap dalem je avmoei.",
       "english": "Their teeth are nail-like."
@@ -1270,7 +1270,7 @@ const derivedDictionaryData = [
       "fasten"
     ],
     "freq": 0,
-    "freq_rank": 1618,
+    "freq_rank": 1622,
     "example": {
       "fiwo": "Mik avmoid paelop ty krapop.",
       "english": "I nailed the paper to the wall."
@@ -1289,7 +1289,7 @@ const derivedDictionaryData = [
       "desert guide"
     ],
     "freq": 0,
-    "freq_rank": 1620,
+    "freq_rank": 1624,
     "example": {
       "fiwo": "Axritsoap tabwid nak.",
       "english": "The dune guide led us."
@@ -1308,7 +1308,7 @@ const derivedDictionaryData = [
       "resembling dune"
     ],
     "freq": 0,
-    "freq_rank": 1621,
+    "freq_rank": 1625,
     "example": {
       "fiwo": "Zasop axritsoe feznei.",
       "english": "The dune-like ground is dry."
@@ -1328,7 +1328,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1622,
+    "freq_rank": 1626,
     "example": {
       "fiwo": "Jyjop je axuklui.",
       "english": "The computers network together."
@@ -1346,7 +1346,7 @@ const derivedDictionaryData = [
       "ally"
     ],
     "freq": 0,
-    "freq_rank": 1624,
+    "freq_rank": 1628,
     "example": {
       "fiwo": "Xekup sile axvuap nake.",
       "english": "This country is our ally."
@@ -1364,7 +1364,7 @@ const derivedDictionaryData = [
       "allied"
     ],
     "freq": 0,
-    "freq_rank": 1625,
+    "freq_rank": 1629,
     "example": {
       "fiwo": "Webutup axvue brenid.",
       "english": "The allied army came."
@@ -1382,7 +1382,7 @@ const derivedDictionaryData = [
       "regulatory"
     ],
     "freq": 0,
-    "freq_rank": 1626,
+    "freq_rank": 1630,
     "example": {
       "fiwo": "Govnup sapid stisur azikue.",
       "english": "The government made a regulatory policy."
@@ -1400,7 +1400,7 @@ const derivedDictionaryData = [
       "compassionate"
     ],
     "freq": 0,
-    "freq_rank": 1627,
+    "freq_rank": 1631,
     "example": {
       "fiwo": "Ibalirap mike azmuei.",
       "english": "My teacher is compassionate."
@@ -1419,7 +1419,7 @@ const derivedDictionaryData = [
       "resembling bowl"
     ],
     "freq": 0,
-    "freq_rank": 2354,
+    "freq_rank": 2355,
     "example": {
       "fiwo": "Kalop kodoe tandei.",
       "english": "The bowl-like cup is big."
@@ -1476,7 +1476,7 @@ const derivedDictionaryData = [
       "ill-omened"
     ],
     "freq": 0,
-    "freq_rank": 1629,
+    "freq_rank": 1633,
     "example": {
       "fiwo": "Mik tsejaid kyfar badujue.",
       "english": "I saw a bird that was an omen."
@@ -1495,7 +1495,7 @@ const derivedDictionaryData = [
       "resembling palm"
     ],
     "freq": 0,
-    "freq_rank": 1632,
+    "freq_rank": 1636,
     "example": {
       "fiwo": "Cilap baharaei.",
       "english": "The leaf is palm-like."
@@ -1513,7 +1513,7 @@ const derivedDictionaryData = [
       "borrower"
     ],
     "freq": 0,
-    "freq_rank": 2033,
+    "freq_rank": 2035,
     "example": {
       "fiwo": "Futiap retibid gidup.",
       "english": "The borrower returned the money."
@@ -1531,7 +1531,7 @@ const derivedDictionaryData = [
       "trier"
     ],
     "freq": 0,
-    "freq_rank": 2433,
+    "freq_rank": 2434,
     "example": {
       "fiwo": "Lexiap lexid romve.",
       "english": "The trier tried again."
@@ -1550,7 +1550,7 @@ const derivedDictionaryData = [
       "resembling sponge"
     ],
     "freq": 0,
-    "freq_rank": 1633,
+    "freq_rank": 1637,
     "example": {
       "fiwo": "Batap rese bambodoei.",
       "english": "The soft food is sponge-like."
@@ -1569,7 +1569,7 @@ const derivedDictionaryData = [
       "resembling breeze"
     ],
     "freq": 0,
-    "freq_rank": 1634,
+    "freq_rank": 1638,
     "example": {
       "fiwo": "Xabesop banoskoe gaweid.",
       "english": "The breeze-like wind was nice."
@@ -1587,7 +1587,7 @@ const derivedDictionaryData = [
       "caller"
     ],
     "freq": 0,
-    "freq_rank": 1635,
+    "freq_rank": 1639,
     "example": {
       "fiwo": "Baqiap gesid ruze.",
       "english": "The caller spoke fast."
@@ -1643,7 +1643,7 @@ const derivedDictionaryData = [
       "beauty"
     ],
     "freq": 0,
-    "freq_rank": 1637,
+    "freq_rank": 1641,
     "example": {
       "fiwo": "Baudeup zy montop lini truhu.",
       "english": "The beauty of the mountain causes awe."
@@ -1663,7 +1663,7 @@ const derivedDictionaryData = [
       "back"
     ],
     "freq": 0,
-    "freq_rank": 1638,
+    "freq_rank": 1642,
     "example": {
       "fiwo": "Hoxop baxye xosiq.",
       "english": "The back door is open."
@@ -1682,7 +1682,11 @@ const derivedDictionaryData = [
       "rear"
     ],
     "freq": 5,
-    "freq_rank": 660
+    "freq_rank": 660,
+    "example": {
+      "fiwo": "Baxyop zy sydop jotsei.",
+      "english": "The back of the house is clean."
+    }
   },
   {
     "word": "beatia",
@@ -1696,7 +1700,7 @@ const derivedDictionaryData = [
       "closer"
     ],
     "freq": 0,
-    "freq_rank": 1639,
+    "freq_rank": 1643,
     "example": {
       "fiwo": "Beatiap beatid hoxop.",
       "english": "The closer closed the door."
@@ -1714,7 +1718,7 @@ const derivedDictionaryData = [
       "weaving"
     ],
     "freq": 0,
-    "freq_rank": 1641,
+    "freq_rank": 1645,
     "example": {
       "fiwo": "Das keci bebiu.",
       "english": "She learns weaving."
@@ -1734,7 +1738,7 @@ const derivedDictionaryData = [
       "sticky-sweet"
     ],
     "freq": 0,
-    "freq_rank": 1643,
+    "freq_rank": 1647,
     "example": {
       "fiwo": "Mik kyti teso beglonoe.",
       "english": "I like honey tea."
@@ -1753,7 +1757,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1644,
+    "freq_rank": 1648,
     "example": {
       "fiwo": "Tumiup bejei.",
       "english": "The change is slight."
@@ -1772,7 +1776,7 @@ const derivedDictionaryData = [
       "resembling foot"
     ],
     "freq": 0,
-    "freq_rank": 1645,
+    "freq_rank": 1649,
     "example": {
       "fiwo": "Latwap jedi myga belae.",
       "english": "The animal has foot-like legs."
@@ -1791,7 +1795,7 @@ const derivedDictionaryData = [
       "resembling shoe"
     ],
     "freq": 0,
-    "freq_rank": 1646,
+    "freq_rank": 1650,
     "example": {
       "fiwo": "Batap belimoe nes gawei.",
       "english": "Shoe-like food is not nice."
@@ -1810,7 +1814,7 @@ const derivedDictionaryData = [
       "ulterior"
     ],
     "freq": 0,
-    "freq_rank": 1647,
+    "freq_rank": 1651,
     "example": {
       "fiwo": "Ram ceni ky facup beqye.",
       "english": "It lives on the far side."
@@ -1848,7 +1852,7 @@ const derivedDictionaryData = [
       "resembling air"
     ],
     "freq": 0,
-    "freq_rank": 1650,
+    "freq_rank": 1654,
     "example": {
       "fiwo": "Bryklop rese bexoei.",
       "english": "The soft bread is airy."
@@ -1867,7 +1871,7 @@ const derivedDictionaryData = [
       "resembling baby"
     ],
     "freq": 0,
-    "freq_rank": 1651,
+    "freq_rank": 1655,
     "example": {
       "fiwo": "Daq jedi zipar bibae.",
       "english": "He has a baby-like face."
@@ -1886,7 +1890,7 @@ const derivedDictionaryData = [
       "babyhood"
     ],
     "freq": 0,
-    "freq_rank": 1652,
+    "freq_rank": 1656,
     "example": {
       "fiwo": "Mik rari bibaup mike ugte.",
       "english": "I barely remember my infancy."
@@ -1905,7 +1909,7 @@ const derivedDictionaryData = [
       "resembling beer"
     ],
     "freq": 0,
-    "freq_rank": 1654,
+    "freq_rank": 1658,
     "example": {
       "fiwo": "Roliop sile bieroei.",
       "english": "This drink is beer-like."
@@ -1942,7 +1946,7 @@ const derivedDictionaryData = [
       "publisher"
     ],
     "freq": 0,
-    "freq_rank": 1655,
+    "freq_rank": 1659,
     "example": {
       "fiwo": "Bikliap biklid nibop suke.",
       "english": "The publisher published your book."
@@ -1961,7 +1965,7 @@ const derivedDictionaryData = [
       "resembling potion"
     ],
     "freq": 0,
-    "freq_rank": 1657,
+    "freq_rank": 1661,
     "example": {
       "fiwo": "Difop bilyhoe kivwei.",
       "english": "The potion-like liquid is blue."
@@ -2018,7 +2022,7 @@ const derivedDictionaryData = [
       "originally"
     ],
     "freq": 0,
-    "freq_rank": 1658,
+    "freq_rank": 1662,
     "example": {
       "fiwo": "Ram sydop bipe.",
       "english": "It is the original house."
@@ -2038,7 +2042,7 @@ const derivedDictionaryData = [
       "prototype"
     ],
     "freq": 0,
-    "freq_rank": 1659,
+    "freq_rank": 1663,
     "example": {
       "fiwo": "Mik kyti bipeop.",
       "english": "I like the original."
@@ -2056,7 +2060,7 @@ const derivedDictionaryData = [
       "problematic"
     ],
     "freq": 0,
-    "freq_rank": 1660,
+    "freq_rank": 1664,
     "example": {
       "fiwo": "Jormup biwuei.",
       "english": "The situation is problematic."
@@ -2075,7 +2079,7 @@ const derivedDictionaryData = [
       "entrepreneur"
     ],
     "freq": 0,
-    "freq_rank": 1661,
+    "freq_rank": 1665,
     "example": {
       "fiwo": "Biznuap gidsid foisop.",
       "english": "The businessperson bought the building."
@@ -2093,7 +2097,7 @@ const derivedDictionaryData = [
       "corporate"
     ],
     "freq": 0,
-    "freq_rank": 1662,
+    "freq_rank": 1666,
     "example": {
       "fiwo": "Daq naci deky foisor biznue.",
       "english": "He works in a corporate building."
@@ -2112,7 +2116,7 @@ const derivedDictionaryData = [
       "resembling ingot"
     ],
     "freq": 0,
-    "freq_rank": 1664,
+    "freq_rank": 1668,
     "example": {
       "fiwo": "Drekop bizomoei.",
       "english": "The rock is ingot-like."
@@ -2131,7 +2135,7 @@ const derivedDictionaryData = [
       "resembling axe"
     ],
     "freq": 0,
-    "freq_rank": 1665,
+    "freq_rank": 1669,
     "example": {
       "fiwo": "Daq jedi gutor bloboe.",
       "english": "He has an axe-like tool."
@@ -2149,7 +2153,7 @@ const derivedDictionaryData = [
       "meaningful"
     ],
     "freq": 0,
-    "freq_rank": 1666,
+    "freq_rank": 1670,
     "example": {
       "fiwo": "Gop sile blunuei.",
       "english": "This word is meaningful."
@@ -2188,7 +2192,7 @@ const derivedDictionaryData = [
       "resembling wrist"
     ],
     "freq": 0,
-    "freq_rank": 1669,
+    "freq_rank": 1673,
     "example": {
       "fiwo": "Lazop nifne bofamaei.",
       "english": "The small stick is wrist-like."
@@ -2206,7 +2210,7 @@ const derivedDictionaryData = [
       "forceful"
     ],
     "freq": 0,
-    "freq_rank": 1670,
+    "freq_rank": 1674,
     "example": {
       "fiwo": "Xabesop boguei.",
       "english": "The wind is forceful."
@@ -2224,7 +2228,7 @@ const derivedDictionaryData = [
       "bloody"
     ],
     "freq": 0,
-    "freq_rank": 1671,
+    "freq_rank": 1675,
     "example": {
       "fiwo": "Busko mike bojaei.",
       "english": "My clothes are bloody."
@@ -2280,7 +2284,7 @@ const derivedDictionaryData = [
       "badness"
     ],
     "freq": 0,
-    "freq_rank": 1672,
+    "freq_rank": 1676,
     "example": {
       "fiwo": "Bokeu zovi deky dodup.",
       "english": "Evil exists in the world."
@@ -2299,7 +2303,7 @@ const derivedDictionaryData = [
       "retiree on a pension"
     ],
     "freq": 0,
-    "freq_rank": 1673,
+    "freq_rank": 1677,
     "example": {
       "fiwo": "Bomufuap ceni deky cysmop.",
       "english": "The pensioner lives in the village."
@@ -2319,7 +2323,7 @@ const derivedDictionaryData = [
       "pot-held"
     ],
     "freq": 0,
-    "freq_rank": 1675,
+    "freq_rank": 1679,
     "example": {
       "fiwo": "Mik gidsid nasar borpoe.",
       "english": "I bought a potted plant."
@@ -2337,7 +2341,7 @@ const derivedDictionaryData = [
       "hurrier"
     ],
     "freq": 0,
-    "freq_rank": 1676,
+    "freq_rank": 1680,
     "example": {
       "fiwo": "Boslia karxi biwu jedle.",
       "english": "A hurrier finds many problems."
@@ -2356,7 +2360,7 @@ const derivedDictionaryData = [
       "hurried"
     ],
     "freq": 0,
-    "freq_rank": 1677,
+    "freq_rank": 1681,
     "example": {
       "fiwo": "Agcup boslie linid biwur.",
       "english": "A hasty mistake caused a problem."
@@ -2414,7 +2418,7 @@ const derivedDictionaryData = [
       "foolishness"
     ],
     "freq": 0,
-    "freq_rank": 1678,
+    "freq_rank": 1682,
     "example": {
       "fiwo": "Botaxeup dale linid biwur.",
       "english": "His stupidity caused a problem."
@@ -2433,7 +2437,7 @@ const derivedDictionaryData = [
       "resembling boat"
     ],
     "freq": 0,
-    "freq_rank": 1679,
+    "freq_rank": 1683,
     "example": {
       "fiwo": "Foisop botoe ty xadorop.",
       "english": "The boat-like building is on the river."
@@ -2451,7 +2455,7 @@ const derivedDictionaryData = [
       "chewer"
     ],
     "freq": 0,
-    "freq_rank": 1683,
+    "freq_rank": 1687,
     "example": {
       "fiwo": "Kabap braciar ruze.",
       "english": "The horse is a fast chewer."
@@ -2470,7 +2474,7 @@ const derivedDictionaryData = [
       "resembling panda"
     ],
     "freq": 0,
-    "freq_rank": 1685,
+    "freq_rank": 1689,
     "example": {
       "fiwo": "Latwap nifne brandaei.",
       "english": "The little animal is panda-like."
@@ -2489,7 +2493,7 @@ const derivedDictionaryData = [
       "resembling forehead"
     ],
     "freq": 0,
-    "freq_rank": 1687,
+    "freq_rank": 1691,
     "example": {
       "fiwo": "Drekop brekrae weokei.",
       "english": "The forehead-like rock is round."
@@ -2526,7 +2530,7 @@ const derivedDictionaryData = [
       "regretful"
     ],
     "freq": 0,
-    "freq_rank": 1690,
+    "freq_rank": 1694,
     "example": {
       "fiwo": "Daq brikuei.",
       "english": "He is regretful."
@@ -2544,7 +2548,7 @@ const derivedDictionaryData = [
       "regret"
     ],
     "freq": 0,
-    "freq_rank": 1691,
+    "freq_rank": 1695,
     "example": {
       "fiwo": "Mik brikui gesit gop sile.",
       "english": "I regret saying this word."
@@ -2563,7 +2567,7 @@ const derivedDictionaryData = [
       "lake warden"
     ],
     "freq": 0,
-    "freq_rank": 1692,
+    "freq_rank": 1696,
     "example": {
       "fiwo": "Brirsoap oxti brirsop.",
       "english": "The lakekeeper protects the lake."
@@ -2582,7 +2586,7 @@ const derivedDictionaryData = [
       "resembling lake"
     ],
     "freq": 0,
-    "freq_rank": 1693,
+    "freq_rank": 1697,
     "example": {
       "fiwo": "Mik ceni ky woru brirsoe.",
       "english": "I live in a lake-like area."
@@ -2600,7 +2604,7 @@ const derivedDictionaryData = [
       "baker"
     ],
     "freq": 0,
-    "freq_rank": 1697,
+    "freq_rank": 1701,
     "example": {
       "fiwo": "Brykloap sapi bryklo cihu.",
       "english": "The baker makes bread in the morning."
@@ -2619,7 +2623,7 @@ const derivedDictionaryData = [
       "resembling bread"
     ],
     "freq": 0,
-    "freq_rank": 1698,
+    "freq_rank": 1702,
     "example": {
       "fiwo": "Zutap sile brykloei.",
       "english": "This fruit is bread-like."
@@ -2639,7 +2643,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1700,
+    "freq_rank": 1704,
     "example": {
       "fiwo": "Ram grexor bucygoe.",
       "english": "It is an earthly planet."
@@ -2659,7 +2663,7 @@ const derivedDictionaryData = [
       "copper-plated"
     ],
     "freq": 0,
-    "freq_rank": 1702,
+    "freq_rank": 1706,
     "example": {
       "fiwo": "Kalop bufroe waskei.",
       "english": "The copper cup is old."
@@ -2677,7 +2681,7 @@ const derivedDictionaryData = [
       "complainer"
     ],
     "freq": 0,
-    "freq_rank": 1703,
+    "freq_rank": 1707,
     "example": {
       "fiwo": "Bumpiap bumpid romve.",
       "english": "The complainer complained again."
@@ -2696,7 +2700,7 @@ const derivedDictionaryData = [
       "complaining"
     ],
     "freq": 0,
-    "freq_rank": 1704,
+    "freq_rank": 1708,
     "example": {
       "fiwo": "Cadap bumpiei nudu.",
       "english": "The child is whiny today."
@@ -2714,7 +2718,7 @@ const derivedDictionaryData = [
       "pharmacist"
     ],
     "freq": 0,
-    "freq_rank": 1705,
+    "freq_rank": 1709,
     "example": {
       "fiwo": "Bunowoap stomid nasbop zy mik.",
       "english": "The pharmacist gave the medicine to me."
@@ -2732,7 +2736,7 @@ const derivedDictionaryData = [
       "discoverer"
     ],
     "freq": 0,
-    "freq_rank": 1706,
+    "freq_rank": 1710,
     "example": {
       "fiwo": "Busfiap busfid gaxor jaxke.",
       "english": "The discoverer discovered a new island."
@@ -2750,7 +2754,7 @@ const derivedDictionaryData = [
       "discovery"
     ],
     "freq": 0,
-    "freq_rank": 1707,
+    "freq_rank": 1711,
     "example": {
       "fiwo": "Busfiup dale jorei.",
       "english": "His discovery is important."
@@ -2769,7 +2773,7 @@ const derivedDictionaryData = [
       "dressmaker"
     ],
     "freq": 0,
-    "freq_rank": 1708,
+    "freq_rank": 1712,
     "example": {
       "fiwo": "Buskoap sapid ikamor zy mik.",
       "english": "The tailor made a shirt for me."
@@ -2788,7 +2792,7 @@ const derivedDictionaryData = [
       "resembling clothes"
     ],
     "freq": 0,
-    "freq_rank": 1709,
+    "freq_rank": 1713,
     "example": {
       "fiwo": "Paelop buskoei.",
       "english": "The paper is cloth-like."
@@ -2809,7 +2813,7 @@ const derivedDictionaryData = [
     ],
     "usage_note": "The general 'to wear' is the native root hekri (2026-07-07); buskoi emphasizes putting clothing on.",
     "freq": 0,
-    "freq_rank": 1710,
+    "freq_rank": 1714,
     "example": {
       "fiwo": "Manap buskoid bibap.",
       "english": "The mother dressed the baby."
@@ -2828,7 +2832,7 @@ const derivedDictionaryData = [
       "dress"
     ],
     "freq": 0,
-    "freq_rank": 1711,
+    "freq_rank": 1715,
     "example": {
       "fiwo": "Das sujuei zety buskou.",
       "english": "She is interested in fashion."
@@ -2847,7 +2851,7 @@ const derivedDictionaryData = [
       "bovine"
     ],
     "freq": 0,
-    "freq_rank": 1712,
+    "freq_rank": 1716,
     "example": {
       "fiwo": "Latwap tande buvaei.",
       "english": "The big animal is cow-like."
@@ -2866,7 +2870,7 @@ const derivedDictionaryData = [
       "resembling sky"
     ],
     "freq": 0,
-    "freq_rank": 1715,
+    "freq_rank": 1719,
     "example": {
       "fiwo": "Witup bysoe kivwei.",
       "english": "The sky-like colour is blue."
@@ -2884,7 +2888,7 @@ const derivedDictionaryData = [
       "diagnostic"
     ],
     "freq": 0,
-    "freq_rank": 1717,
+    "freq_rank": 1721,
     "example": {
       "fiwo": "Farlopap xyfid hykuxur cacodue.",
       "english": "The doctor did a diagnostic test."
@@ -2903,7 +2907,7 @@ const derivedDictionaryData = [
       "childish"
     ],
     "freq": 0,
-    "freq_rank": 1719,
+    "freq_rank": 1723,
     "example": {
       "fiwo": "Daq gesid zuwu cadae.",
       "english": "He spoke in a childish way."
@@ -2921,7 +2925,7 @@ const derivedDictionaryData = [
       "childhood"
     ],
     "freq": 0,
-    "freq_rank": 1720,
+    "freq_rank": 1724,
     "example": {
       "fiwo": "Cadaup mike kypeid.",
       "english": "My childhood was happy."
@@ -2940,7 +2944,7 @@ const derivedDictionaryData = [
       "resembling street"
     ],
     "freq": 0,
-    "freq_rank": 1721,
+    "freq_rank": 1725,
     "example": {
       "fiwo": "Tivwop sile caenoei.",
       "english": "This path is street-like."
@@ -2958,7 +2962,7 @@ const derivedDictionaryData = [
       "runner"
     ],
     "freq": 0,
-    "freq_rank": 1722,
+    "freq_rank": 1726,
     "example": {
       "fiwo": "Cafiap xeskid xiseslup.",
       "english": "The runner won the race."
@@ -2977,7 +2981,7 @@ const derivedDictionaryData = [
       "resembling shadow"
     ],
     "freq": 0,
-    "freq_rank": 1723,
+    "freq_rank": 1727,
     "example": {
       "fiwo": "Latwar cafloe xalid deky mortsap.",
       "english": "A shadow-like animal moved in the forest."
@@ -2995,7 +2999,7 @@ const derivedDictionaryData = [
       "communal"
     ],
     "freq": 0,
-    "freq_rank": 1725,
+    "freq_rank": 1729,
     "example": {
       "fiwo": "Muk jedi nevonor canpue.",
       "english": "We have a communal park."
@@ -3033,7 +3037,7 @@ const derivedDictionaryData = [
       "resembling boy"
     ],
     "freq": 0,
-    "freq_rank": 1727,
+    "freq_rank": 1731,
     "example": {
       "fiwo": "Daq gesi zuwu caqwae.",
       "english": "He speaks in a boyish way."
@@ -3051,7 +3055,7 @@ const derivedDictionaryData = [
       "tactical"
     ],
     "freq": 0,
-    "freq_rank": 1726,
+    "freq_rank": 1730,
     "example": {
       "fiwo": "Ram mipfur caque.",
       "english": "It is a tactical action."
@@ -3091,7 +3095,7 @@ const derivedDictionaryData = [
       "resembling girl"
     ],
     "freq": 0,
-    "freq_rank": 1728,
+    "freq_rank": 1732,
     "example": {
       "fiwo": "Das jedi xucur caslae.",
       "english": "She has a girlish voice."
@@ -3110,7 +3114,7 @@ const derivedDictionaryData = [
       "feline"
     ],
     "freq": 0,
-    "freq_rank": 1729,
+    "freq_rank": 1733,
     "example": {
       "fiwo": "Das hicid zuwu catsae.",
       "english": "She walked in a cat-like way."
@@ -3129,7 +3133,7 @@ const derivedDictionaryData = [
       "resembling cobweb"
     ],
     "freq": 0,
-    "freq_rank": 1731,
+    "freq_rank": 1735,
     "example": {
       "fiwo": "Xesap dase cavulkoei.",
       "english": "Her hair is like a cobweb."
@@ -3149,7 +3153,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1732,
+    "freq_rank": 1736,
     "example": {
       "fiwo": "Ram cazeblue biwur.",
       "english": "It is a potential problem."
@@ -3186,7 +3190,7 @@ const derivedDictionaryData = [
       "privacy"
     ],
     "freq": 0,
-    "freq_rank": 1736,
+    "freq_rank": 1740,
     "example": {
       "fiwo": "Kop moskufui celeup mike.",
       "english": "Respect my privacy."
@@ -3204,7 +3208,7 @@ const derivedDictionaryData = [
       "dweller"
     ],
     "freq": 0,
-    "freq_rank": 1737,
+    "freq_rank": 1741,
     "example": {
       "fiwo": "Ceniap zy cysmop kypei.",
       "english": "The dwellers of the village are happy."
@@ -3243,7 +3247,7 @@ const derivedDictionaryData = [
       "resembling wave"
     ],
     "freq": 0,
-    "freq_rank": 1740,
+    "freq_rank": 1744,
     "example": {
       "fiwo": "Zasop cerojoe xalid.",
       "english": "The wave-like ground moved."
@@ -3261,7 +3265,7 @@ const derivedDictionaryData = [
       "presenter"
     ],
     "freq": 0,
-    "freq_rank": 1741,
+    "freq_rank": 1745,
     "example": {
       "fiwo": "Cetofiap cetofid lakirop.",
       "english": "The presenter showed the picture."
@@ -3280,7 +3284,7 @@ const derivedDictionaryData = [
       "resembling log"
     ],
     "freq": 0,
-    "freq_rank": 1742,
+    "freq_rank": 1746,
     "example": {
       "fiwo": "Drekop cevoloe dwimei.",
       "english": "The log-like rock is long."
@@ -3299,7 +3303,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1743,
+    "freq_rank": 1747,
     "example": {
       "fiwo": "Ram ciafei.",
       "english": "It is already so."
@@ -3318,7 +3322,7 @@ const derivedDictionaryData = [
       "distinctive"
     ],
     "freq": 0,
-    "freq_rank": 1744,
+    "freq_rank": 1748,
     "example": {
       "fiwo": "Ram zuwup cifudrue zy dal.",
       "english": "It is his characteristic way."
@@ -3337,7 +3341,7 @@ const derivedDictionaryData = [
       "outsider"
     ],
     "freq": 0,
-    "freq_rank": 1746,
+    "freq_rank": 1750,
     "example": {
       "fiwo": "Cigeap gesid fiwo.",
       "english": "The foreigner spoke Fiwo."
@@ -3374,7 +3378,7 @@ const derivedDictionaryData = [
       "foreignness"
     ],
     "freq": 0,
-    "freq_rank": 1747,
+    "freq_rank": 1751,
     "example": {
       "fiwo": "Cigeup zy fiwop sujui nofa jedle.",
       "english": "The foreignness of Fiwo interests many people."
@@ -3411,7 +3415,7 @@ const derivedDictionaryData = [
       "resembling weapon"
     ],
     "freq": 0,
-    "freq_rank": 1748,
+    "freq_rank": 1752,
     "example": {
       "fiwo": "Daq sigid lazor cijoe.",
       "english": "He held a weapon-like stick."
@@ -3429,7 +3433,7 @@ const derivedDictionaryData = [
       "leafy"
     ],
     "freq": 0,
-    "freq_rank": 1749,
+    "freq_rank": 1753,
     "example": {
       "fiwo": "Mortsap cilaei.",
       "english": "The forest is leafy."
@@ -3447,7 +3451,7 @@ const derivedDictionaryData = [
       "initiator"
     ],
     "freq": 0,
-    "freq_rank": 1750,
+    "freq_rank": 1754,
     "example": {
       "fiwo": "Cimiap cimid taicup.",
       "english": "The initiator started the party."
@@ -3467,7 +3471,7 @@ const derivedDictionaryData = [
       "onset"
     ],
     "freq": 7,
-    "freq_rank": 562,
+    "freq_rank": 563,
     "example": {
       "fiwo": "Cimiup zy stepup gaweid.",
       "english": "The beginning of the story was good."
@@ -3485,7 +3489,7 @@ const derivedDictionaryData = [
       "tidal"
     ],
     "freq": 0,
-    "freq_rank": 1753,
+    "freq_rank": 1757,
     "example": {
       "fiwo": "Dorsop cisuplue brenid.",
       "english": "The tidal water came."
@@ -3504,7 +3508,7 @@ const derivedDictionaryData = [
       "resembling barrel"
     ],
     "freq": 0,
-    "freq_rank": 1754,
+    "freq_rank": 1758,
     "example": {
       "fiwo": "Hanop ciswoe twavei.",
       "english": "The barrel-like box is heavy."
@@ -3523,7 +3527,7 @@ const derivedDictionaryData = [
       "pay into an account"
     ],
     "freq": 0,
-    "freq_rank": 1755,
+    "freq_rank": 1759,
     "example": {
       "fiwo": "Mik cizuzuid gidu ky zikuzop.",
       "english": "I deposited money at the bank."
@@ -3561,7 +3565,7 @@ const derivedDictionaryData = [
       "resembling fog"
     ],
     "freq": 0,
-    "freq_rank": 1756,
+    "freq_rank": 1760,
     "example": {
       "fiwo": "Bexop coboei nudu.",
       "english": "The air is foggy today."
@@ -3618,7 +3622,7 @@ const derivedDictionaryData = [
       "commonness"
     ],
     "freq": 0,
-    "freq_rank": 1761,
+    "freq_rank": 1765,
     "example": {
       "fiwo": "Compeup zy ram tandei.",
       "english": "Its popularity is big."
@@ -3636,7 +3640,7 @@ const derivedDictionaryData = [
       "deactivator"
     ],
     "freq": 0,
-    "freq_rank": 1762,
+    "freq_rank": 1766,
     "example": {
       "fiwo": "Coqyniap coqynid lito je.",
       "english": "The deactivator turned off the lights."
@@ -3655,7 +3659,7 @@ const derivedDictionaryData = [
       "simian"
     ],
     "freq": 0,
-    "freq_rank": 1764,
+    "freq_rank": 1768,
     "example": {
       "fiwo": "Cadap drijid zuwu corfae.",
       "english": "The child climbed in a monkey-like way."
@@ -3674,7 +3678,7 @@ const derivedDictionaryData = [
       "resembling skin"
     ],
     "freq": 0,
-    "freq_rank": 1757,
+    "freq_rank": 1761,
     "example": {
       "fiwo": "Paelop cogjaei.",
       "english": "The paper is skin-like."
@@ -3693,7 +3697,7 @@ const derivedDictionaryData = [
       "hide"
     ],
     "freq": 0,
-    "freq_rank": 1758,
+    "freq_rank": 1762,
     "example": {
       "fiwo": "Belimop mike vy cogjao.",
       "english": "My shoes are made of leather."
@@ -3711,7 +3715,7 @@ const derivedDictionaryData = [
       "cutter"
     ],
     "freq": 0,
-    "freq_rank": 1765,
+    "freq_rank": 1769,
     "example": {
       "fiwo": "Cotiap cotid mitap.",
       "english": "The cutter cut the meat."
@@ -3731,7 +3735,7 @@ const derivedDictionaryData = [
       "hewn"
     ],
     "freq": 0,
-    "freq_rank": 1766,
+    "freq_rank": 1770,
     "example": {
       "fiwo": "Daq sapid kyzkor cotie.",
       "english": "He made a carved statue."
@@ -3751,7 +3755,7 @@ const derivedDictionaryData = [
       "split"
     ],
     "freq": 0,
-    "freq_rank": 1767,
+    "freq_rank": 1771,
     "example": {
       "fiwo": "Cotiop ty xufap mike bojaid.",
       "english": "The cut on my arm bled."
@@ -3770,7 +3774,7 @@ const derivedDictionaryData = [
       "resembling donkey"
     ],
     "freq": 0,
-    "freq_rank": 1772,
+    "freq_rank": 1776,
     "example": {
       "fiwo": "Kabap cowabaei.",
       "english": "The horse is donkey-like."
@@ -3789,7 +3793,7 @@ const derivedDictionaryData = [
       "resembling bear"
     ],
     "freq": 0,
-    "freq_rank": 1774,
+    "freq_rank": 1778,
     "example": {
       "fiwo": "Daq nofar tande cuacae.",
       "english": "He is a big bear-like person."
@@ -3808,7 +3812,7 @@ const derivedDictionaryData = [
       "resembling sphere"
     ],
     "freq": 0,
-    "freq_rank": 1776,
+    "freq_rank": 1780,
     "example": {
       "fiwo": "Weorop cubastoei.",
       "english": "The ball is sphere-like."
@@ -3827,7 +3831,7 @@ const derivedDictionaryData = [
       "lupine"
     ],
     "freq": 0,
-    "freq_rank": 1777,
+    "freq_rank": 1781,
     "example": {
       "fiwo": "Detap cudzaei.",
       "english": "The dog is wolf-like."
@@ -3845,7 +3849,7 @@ const derivedDictionaryData = [
       "purposeful"
     ],
     "freq": 0,
-    "freq_rank": 1778,
+    "freq_rank": 1782,
     "example": {
       "fiwo": "Daq nacid zuwu cufue.",
       "english": "He worked in a purposeful way."
@@ -3864,7 +3868,7 @@ const derivedDictionaryData = [
       "resembling eraser"
     ],
     "freq": 0,
-    "freq_rank": 1780,
+    "freq_rank": 1784,
     "example": {
       "fiwo": "Cemup nifne cugoei.",
       "english": "The little thing is eraser-like."
@@ -3883,7 +3887,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1781,
+    "freq_rank": 1785,
     "example": {
       "fiwo": "Batap cujei haibe.",
       "english": "Some food is still left."
@@ -3901,7 +3905,7 @@ const derivedDictionaryData = [
       "fighter"
     ],
     "freq": 0,
-    "freq_rank": 1782,
+    "freq_rank": 1786,
     "example": {
       "fiwo": "Cukiap cukid ruze.",
       "english": "The fighter fought fast."
@@ -3920,7 +3924,7 @@ const derivedDictionaryData = [
       "quarrelsome"
     ],
     "freq": 0,
-    "freq_rank": 1783,
+    "freq_rank": 1787,
     "example": {
       "fiwo": "Detap cukiei.",
       "english": "The dog is combative."
@@ -3940,7 +3944,7 @@ const derivedDictionaryData = [
       "fighting"
     ],
     "freq": 0,
-    "freq_rank": 1784,
+    "freq_rank": 1788,
     "example": {
       "fiwo": "Cukiup fefuid.",
       "english": "The combat ended."
@@ -3959,7 +3963,7 @@ const derivedDictionaryData = [
       "resembling dew"
     ],
     "freq": 0,
-    "freq_rank": 1786,
+    "freq_rank": 1790,
     "example": {
       "fiwo": "Keglap cumeswoei cihu.",
       "english": "The grass is dewy in the morning."
@@ -3998,7 +4002,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1788,
+    "freq_rank": 1792,
     "example": {
       "fiwo": "Daq jedi zipar cuskamae.",
       "english": "He has a devilish face."
@@ -4017,7 +4021,7 @@ const derivedDictionaryData = [
       "resembling beacon"
     ],
     "freq": 0,
-    "freq_rank": 1789,
+    "freq_rank": 1793,
     "example": {
       "fiwo": "Litop cuspoe tandei.",
       "english": "The beacon-like light is big."
@@ -4054,7 +4058,7 @@ const derivedDictionaryData = [
       "readiness"
     ],
     "freq": 0,
-    "freq_rank": 1790,
+    "freq_rank": 1794,
     "example": {
       "fiwo": "Cutweup dale gaweid.",
       "english": "His readiness was good."
@@ -4072,7 +4076,7 @@ const derivedDictionaryData = [
       "flyer"
     ],
     "freq": 0,
-    "freq_rank": 1793,
+    "freq_rank": 1797,
     "example": {
       "fiwo": "Kyfap cyriar ruze.",
       "english": "The bird is a fast flyer."
@@ -4090,7 +4094,7 @@ const derivedDictionaryData = [
       "villager"
     ],
     "freq": 0,
-    "freq_rank": 1794,
+    "freq_rank": 1798,
     "example": {
       "fiwo": "Cysmoap je umzid nak.",
       "english": "The villagers welcomed us."
@@ -4109,7 +4113,7 @@ const derivedDictionaryData = [
       "resembling village"
     ],
     "freq": 0,
-    "freq_rank": 1795,
+    "freq_rank": 1799,
     "example": {
       "fiwo": "Jurop sile cysmoei.",
       "english": "This town is village-like."
@@ -4128,7 +4132,7 @@ const derivedDictionaryData = [
       "resembling stranger"
     ],
     "freq": 0,
-    "freq_rank": 1797,
+    "freq_rank": 1801,
     "example": {
       "fiwo": "Daq nofar cyvae.",
       "english": "He is a strange person."
@@ -4147,7 +4151,7 @@ const derivedDictionaryData = [
       "resembling beach"
     ],
     "freq": 0,
-    "freq_rank": 1798,
+    "freq_rank": 1802,
     "example": {
       "fiwo": "Zasop cyxoe resei.",
       "english": "The beach-like ground is soft."
@@ -4166,7 +4170,7 @@ const derivedDictionaryData = [
       "expert"
     ],
     "freq": 0,
-    "freq_rank": 1800,
+    "freq_rank": 1804,
     "example": {
       "fiwo": "Dadukruap jofid nak.",
       "english": "The expert helped us."
@@ -4185,7 +4189,7 @@ const derivedDictionaryData = [
       "resembling stomach"
     ],
     "freq": 0,
-    "freq_rank": 1802,
+    "freq_rank": 1806,
     "example": {
       "fiwo": "Hanop dafae resei.",
       "english": "The stomach-like bag is soft."
@@ -4203,7 +4207,7 @@ const derivedDictionaryData = [
       "presumer"
     ],
     "freq": 0,
-    "freq_rank": 1803,
+    "freq_rank": 1807,
     "example": {
       "fiwo": "Dagibiap okseid.",
       "english": "The presumer was wrong."
@@ -4221,7 +4225,7 @@ const derivedDictionaryData = [
       "valuable"
     ],
     "freq": 0,
-    "freq_rank": 1804,
+    "freq_rank": 1808,
     "example": {
       "fiwo": "Ram nibor dahue.",
       "english": "It is a valuable book."
@@ -4240,7 +4244,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1805,
+    "freq_rank": 1809,
     "example": {
       "fiwo": "Nibop dalei.",
       "english": "The book is his."
@@ -4258,7 +4262,7 @@ const derivedDictionaryData = [
       "a person on vacation"
     ],
     "freq": 0,
-    "freq_rank": 1807,
+    "freq_rank": 1811,
     "example": {
       "fiwo": "Danguap tsejaid montop.",
       "english": "The holidaymaker saw the mountain."
@@ -4276,7 +4280,7 @@ const derivedDictionaryData = [
       "relating to a vacation or holiday"
     ],
     "freq": 0,
-    "freq_rank": 1808,
+    "freq_rank": 1812,
     "example": {
       "fiwo": "Mik kyti dionu dangue.",
       "english": "I like holiday time."
@@ -4294,7 +4298,7 @@ const derivedDictionaryData = [
       "to take a vacation"
     ],
     "freq": 0,
-    "freq_rank": 1809,
+    "freq_rank": 1813,
     "example": {
       "fiwo": "Muk danguis ky kynu.",
       "english": "We will take a vacation in summer."
@@ -4312,7 +4316,7 @@ const derivedDictionaryData = [
       "a vacation place"
     ],
     "freq": 0,
-    "freq_rank": 1810,
+    "freq_rank": 1814,
     "example": {
       "fiwo": "Danguop baudei.",
       "english": "The vacation place is beautiful."
@@ -4320,7 +4324,7 @@ const derivedDictionaryData = [
   },
   {
     "word": "daqei",
-    "english_equiv": "To be his (male",
+    "english_equiv": "To be his (male)",
     "part_of_speech": "Verb",
     "definition": "Stative: to be or become his (male.",
     "root": "daqe",
@@ -4330,8 +4334,8 @@ const derivedDictionaryData = [
       "to become his (male"
     ],
     "path_gloss": "Modifier -> Verb (stative)",
-    "freq": 0,
-    "freq_rank": 1811,
+    "freq": 1,
+    "freq_rank": 1107,
     "example": {
       "fiwo": "Busko daqei.",
       "english": "The clothes are his."
@@ -4339,7 +4343,7 @@ const derivedDictionaryData = [
   },
   {
     "word": "dasei",
-    "english_equiv": "To be hers (female",
+    "english_equiv": "To be hers (female)",
     "part_of_speech": "Verb",
     "definition": "Stative: to be or become hers (female.",
     "root": "dase",
@@ -4349,8 +4353,8 @@ const derivedDictionaryData = [
       "to become hers (female"
     ],
     "path_gloss": "Modifier -> Verb (stative)",
-    "freq": 0,
-    "freq_rank": 1812,
+    "freq": 1,
+    "freq_rank": 1108,
     "example": {
       "fiwo": "Telfop dasei.",
       "english": "The phone is hers."
@@ -4369,7 +4373,7 @@ const derivedDictionaryData = [
       "quarrel"
     ],
     "freq": 0,
-    "freq_rank": 1813,
+    "freq_rank": 1815,
     "example": {
       "fiwo": "Davtiup fefuid.",
       "english": "The argument ended."
@@ -4388,7 +4392,7 @@ const derivedDictionaryData = [
       "consequent"
     ],
     "freq": 0,
-    "freq_rank": 1814,
+    "freq_rank": 1816,
     "example": {
       "fiwo": "Pyjup dawye tandei.",
       "english": "The resulting mess is big."
@@ -4408,7 +4412,7 @@ const derivedDictionaryData = [
       "icy-crusted"
     ],
     "freq": 0,
-    "freq_rank": 1815,
+    "freq_rank": 1817,
     "example": {
       "fiwo": "Wilop daxokoei.",
       "english": "The window is frosty."
@@ -4426,7 +4430,7 @@ const derivedDictionaryData = [
       "attitudinal"
     ],
     "freq": 0,
-    "freq_rank": 1816,
+    "freq_rank": 1818,
     "example": {
       "fiwo": "Ram biwur decue.",
       "english": "It is an attitude problem."
@@ -4464,7 +4468,7 @@ const derivedDictionaryData = [
       "resembling table"
     ],
     "freq": 0,
-    "freq_rank": 1817,
+    "freq_rank": 1819,
     "example": {
       "fiwo": "Drekop degoe wapsei.",
       "english": "The table-like rock is flat."
@@ -4501,7 +4505,7 @@ const derivedDictionaryData = [
       "interior"
     ],
     "freq": 0,
-    "freq_rank": 1818,
+    "freq_rank": 1820,
     "example": {
       "fiwo": "Dekyop zy sydop fyjebei.",
       "english": "The inside of the house is warm."
@@ -4519,7 +4523,7 @@ const derivedDictionaryData = [
       "budgetary"
     ],
     "freq": 0,
-    "freq_rank": 1819,
+    "freq_rank": 1821,
     "example": {
       "fiwo": "Ram biwur deluflue.",
       "english": "It is a budget problem."
@@ -4538,7 +4542,7 @@ const derivedDictionaryData = [
       "plan spending"
     ],
     "freq": 0,
-    "freq_rank": 1820,
+    "freq_rank": 1822,
     "example": {
       "fiwo": "Nak delufluid gidup nake.",
       "english": "We budgeted our money."
@@ -4556,7 +4560,7 @@ const derivedDictionaryData = [
       "setter"
     ],
     "freq": 0,
-    "freq_rank": 1822,
+    "freq_rank": 1824,
     "example": {
       "fiwo": "Denkiap denkid degop.",
       "english": "The setter set the table."
@@ -4574,7 +4578,7 @@ const derivedDictionaryData = [
       "departmental"
     ],
     "freq": 0,
-    "freq_rank": 1824,
+    "freq_rank": 1826,
     "example": {
       "fiwo": "Xinadzup deqazue cimis.",
       "english": "The departmental meeting will start."
@@ -4593,7 +4597,7 @@ const derivedDictionaryData = [
       "canine"
     ],
     "freq": 0,
-    "freq_rank": 1826,
+    "freq_rank": 1828,
     "example": {
       "fiwo": "Daq nofar detae.",
       "english": "He is a dog-like person."
@@ -4611,7 +4615,7 @@ const derivedDictionaryData = [
       "tuesday"
     ],
     "freq": 0,
-    "freq_rank": 2314,
+    "freq_rank": 2315,
     "example": {
       "fiwo": "Ibitup kagedue fefuid.",
       "english": "The Tuesday class ended."
@@ -4630,7 +4634,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1239,
+    "freq_rank": 1242,
     "example": {
       "fiwo": "Catsap je kagei.",
       "english": "The cats are two."
@@ -4649,7 +4653,7 @@ const derivedDictionaryData = [
       "resembling block"
     ],
     "freq": 0,
-    "freq_rank": 1828,
+    "freq_rank": 1830,
     "example": {
       "fiwo": "Foisop dibroei.",
       "english": "The building is block-like."
@@ -4687,7 +4691,7 @@ const derivedDictionaryData = [
       "resembling liquid"
     ],
     "freq": 0,
-    "freq_rank": 1830,
+    "freq_rank": 1832,
     "example": {
       "fiwo": "Batap difoei.",
       "english": "The food is runny."
@@ -4706,7 +4710,7 @@ const derivedDictionaryData = [
       "to liquefy"
     ],
     "freq": 1,
-    "freq_rank": 1109,
+    "freq_rank": 1111,
     "example": {
       "fiwo": "Jawop difoid.",
       "english": "The ice melted."
@@ -4725,7 +4729,7 @@ const derivedDictionaryData = [
       "resembling solid"
     ],
     "freq": 0,
-    "freq_rank": 2739,
+    "freq_rank": 2740,
     "example": {
       "fiwo": "Difop pjemoei.",
       "english": "The liquid is solid-like."
@@ -4744,7 +4748,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Concrete Noun -> Modifier -> Verb (stative)",
     "freq": 2,
-    "freq_rank": 992,
+    "freq_rank": 991,
     "example": {
       "fiwo": "Jawop pjemoei.",
       "english": "The ice is solid."
@@ -4763,7 +4767,7 @@ const derivedDictionaryData = [
       "accounting"
     ],
     "freq": 0,
-    "freq_rank": 1832,
+    "freq_rank": 1834,
     "example": {
       "fiwo": "Ram biwur dilujue.",
       "english": "It is an account-related problem."
@@ -4781,7 +4785,7 @@ const derivedDictionaryData = [
       "temporal"
     ],
     "freq": 0,
-    "freq_rank": 1834,
+    "freq_rank": 1836,
     "example": {
       "fiwo": "Ram biwur dionue.",
       "english": "It is a timing problem."
@@ -4838,7 +4842,7 @@ const derivedDictionaryData = [
       "resembling shark"
     ],
     "freq": 0,
-    "freq_rank": 1836,
+    "freq_rank": 1838,
     "example": {
       "fiwo": "Fubap tande dixaei.",
       "english": "The big fish is shark-like."
@@ -4858,7 +4862,7 @@ const derivedDictionaryData = [
       "bone-frame"
     ],
     "freq": 0,
-    "freq_rank": 1838,
+    "freq_rank": 1840,
     "example": {
       "fiwo": "Daq hekrid buskor dizabae.",
       "english": "He wore skeleton clothes."
@@ -4876,7 +4880,7 @@ const derivedDictionaryData = [
       "universal"
     ],
     "freq": 0,
-    "freq_rank": 1839,
+    "freq_rank": 1841,
     "example": {
       "fiwo": "Azikup sile doduei.",
       "english": "This rule is universal."
@@ -4895,7 +4899,7 @@ const derivedDictionaryData = [
       "resembling court"
     ],
     "freq": 0,
-    "freq_rank": 1840,
+    "freq_rank": 1842,
     "example": {
       "fiwo": "Krulop dofemoei.",
       "english": "The room is court-like."
@@ -4932,7 +4936,7 @@ const derivedDictionaryData = [
       "resembling rain"
     ],
     "freq": 0,
-    "freq_rank": 1841,
+    "freq_rank": 1843,
     "example": {
       "fiwo": "Xabesop domloei.",
       "english": "The wind is rain-like."
@@ -5007,7 +5011,11 @@ const derivedDictionaryData = [
       "resembling back (anatomy)"
     ],
     "freq": 1,
-    "freq_rank": 1111
+    "freq_rank": 1113,
+    "example": {
+      "fiwo": "Drekop doralaei.",
+      "english": "The rock is shaped like a back."
+    }
   },
   {
     "word": "dormia",
@@ -5021,7 +5029,7 @@ const derivedDictionaryData = [
       "swimmer"
     ],
     "freq": 0,
-    "freq_rank": 1842,
+    "freq_rank": 1844,
     "example": {
       "fiwo": "Dormiap dormid ruze.",
       "english": "The swimmer swam fast."
@@ -5080,7 +5088,7 @@ const derivedDictionaryData = [
       "irrigate"
     ],
     "freq": 0,
-    "freq_rank": 1843,
+    "freq_rank": 1845,
     "example": {
       "fiwo": "Mik dorsoi nasa je cihu.",
       "english": "I water the plants in the morning."
@@ -5117,7 +5125,7 @@ const derivedDictionaryData = [
       "strength"
     ],
     "freq": 0,
-    "freq_rank": 1844,
+    "freq_rank": 1846,
     "example": {
       "fiwo": "Doteup dase tandei.",
       "english": "Her strength is big."
@@ -5135,7 +5143,7 @@ const derivedDictionaryData = [
       "woolen"
     ],
     "freq": 0,
-    "freq_rank": 1845,
+    "freq_rank": 1847,
     "example": {
       "fiwo": "Mik hekri ikamor dowoe.",
       "english": "I wear a woolen shirt."
@@ -5154,7 +5162,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1846,
+    "freq_rank": 1848,
     "example": {
       "fiwo": "Nofap je drabei.",
       "english": "The people are one hundred."
@@ -5173,7 +5181,7 @@ const derivedDictionaryData = [
       "resembling wheel"
     ],
     "freq": 0,
-    "freq_rank": 1847,
+    "freq_rank": 1849,
     "example": {
       "fiwo": "Cemup drafoe weokei.",
       "english": "The wheel-like thing is round."
@@ -5192,7 +5200,7 @@ const derivedDictionaryData = [
       "mason"
     ],
     "freq": 0,
-    "freq_rank": 1848,
+    "freq_rank": 1850,
     "example": {
       "fiwo": "Drekoap sapid kyzkop.",
       "english": "The stonemason made the statue."
@@ -5212,7 +5220,7 @@ const derivedDictionaryData = [
       "stone-built"
     ],
     "freq": 0,
-    "freq_rank": 1849,
+    "freq_rank": 1851,
     "example": {
       "fiwo": "Sydop drekoei.",
       "english": "The house is made of stone."
@@ -5230,7 +5238,7 @@ const derivedDictionaryData = [
       "climber"
     ],
     "freq": 0,
-    "freq_rank": 1850,
+    "freq_rank": 1852,
     "example": {
       "fiwo": "Drijiap drijid montop.",
       "english": "The climber climbed the mountain."
@@ -5248,7 +5256,7 @@ const derivedDictionaryData = [
       "switcher"
     ],
     "freq": 0,
-    "freq_rank": 1852,
+    "freq_rank": 1854,
     "example": {
       "fiwo": "Drulsiap leocid litop.",
       "english": "The switcher turned on the light."
@@ -5268,7 +5276,7 @@ const derivedDictionaryData = [
       "control device"
     ],
     "freq": 0,
-    "freq_rank": 1853,
+    "freq_rank": 1855,
     "example": {
       "fiwo": "Kop sudi drulsiop.",
       "english": "Push the lever."
@@ -5288,7 +5296,7 @@ const derivedDictionaryData = [
       "spawn-point"
     ],
     "freq": 0,
-    "freq_rank": 1854,
+    "freq_rank": 1856,
     "example": {
       "fiwo": "Latwap dubizie nifnei.",
       "english": "The newborn animal is small."
@@ -5308,7 +5316,7 @@ const derivedDictionaryData = [
       "reflected"
     ],
     "freq": 0,
-    "freq_rank": 1855,
+    "freq_rank": 1857,
     "example": {
       "fiwo": "Wilop ducoei.",
       "english": "The window is mirrored."
@@ -5327,7 +5335,7 @@ const derivedDictionaryData = [
       "daytime"
     ],
     "freq": 0,
-    "freq_rank": 1856,
+    "freq_rank": 1858,
     "example": {
       "fiwo": "Mik loki fuhytu due.",
       "english": "I read the daily news."
@@ -5364,7 +5372,7 @@ const derivedDictionaryData = [
       "migrate to"
     ],
     "freq": 0,
-    "freq_rank": 1858,
+    "freq_rank": 1860,
     "example": {
       "fiwo": "Daq duluxraid zy xekup sile.",
       "english": "He immigrated to this country."
@@ -5401,7 +5409,7 @@ const derivedDictionaryData = [
       "depth"
     ],
     "freq": 0,
-    "freq_rank": 1859,
+    "freq_rank": 1861,
     "example": {
       "fiwo": "Dupeup zy tubsop tandei.",
       "english": "The depth of the ocean is big."
@@ -5420,7 +5428,7 @@ const derivedDictionaryData = [
       "concurrent"
     ],
     "freq": 0,
-    "freq_rank": 1860,
+    "freq_rank": 1862,
     "example": {
       "fiwo": "Mipfup durye linucid.",
       "english": "Simultaneous actions happened."
@@ -5440,7 +5448,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1861,
+    "freq_rank": 1863,
     "example": {
       "fiwo": "Duxiliap fwimid ruze.",
       "english": "The attacker left quickly."
@@ -5460,7 +5468,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1862,
+    "freq_rank": 1864,
     "example": {
       "fiwo": "Duxiliop cimid dugu.",
       "english": "The attack started at night."
@@ -5479,7 +5487,7 @@ const derivedDictionaryData = [
       "resembling plank"
     ],
     "freq": 0,
-    "freq_rank": 1870,
+    "freq_rank": 1872,
     "example": {
       "fiwo": "Cemup dyrpoe wapsei.",
       "english": "The plank-like thing is flat."
@@ -5498,7 +5506,7 @@ const derivedDictionaryData = [
       "resembling tongue"
     ],
     "freq": 0,
-    "freq_rank": 1872,
+    "freq_rank": 1874,
     "example": {
       "fiwo": "Cilap dysaei.",
       "english": "The leaf is tongue-like."
@@ -5516,7 +5524,7 @@ const derivedDictionaryData = [
       "accepter"
     ],
     "freq": 0,
-    "freq_rank": 1876,
+    "freq_rank": 1878,
     "example": {
       "fiwo": "Dzefiap dzefid ladup.",
       "english": "The accepter accepted the idea."
@@ -5534,7 +5542,7 @@ const derivedDictionaryData = [
       "potter"
     ],
     "freq": 0,
-    "freq_rank": 1878,
+    "freq_rank": 1880,
     "example": {
       "fiwo": "Dzocoap sapid kodor.",
       "english": "The potter made a bowl."
@@ -5553,7 +5561,7 @@ const derivedDictionaryData = [
       "resembling pottery"
     ],
     "freq": 0,
-    "freq_rank": 1879,
+    "freq_rank": 1881,
     "example": {
       "fiwo": "Kalop dzocoei.",
       "english": "The cup is pottery-like."
@@ -5572,7 +5580,7 @@ const derivedDictionaryData = [
       "regal"
     ],
     "freq": 0,
-    "freq_rank": 1881,
+    "freq_rank": 1883,
     "example": {
       "fiwo": "Sydop dzupakae tandei.",
       "english": "The royal house is big."
@@ -5592,7 +5600,7 @@ const derivedDictionaryData = [
       "govern"
     ],
     "freq": 0,
-    "freq_rank": 1882,
+    "freq_rank": 1884,
     "example": {
       "fiwo": "Daq dzupakaid dury jaru jedle.",
       "english": "He ruled for many years."
@@ -5612,7 +5620,7 @@ const derivedDictionaryData = [
       "sovereignty"
     ],
     "freq": 0,
-    "freq_rank": 1883,
+    "freq_rank": 1885,
     "example": {
       "fiwo": "Dzupakaup dale dwimeid.",
       "english": "His reign was long."
@@ -5630,7 +5638,7 @@ const derivedDictionaryData = [
       "eroded"
     ],
     "freq": 0,
-    "freq_rank": 1885,
+    "freq_rank": 1887,
     "example": {
       "fiwo": "Gunolop dzuvie waskei.",
       "english": "The eroded cliff is old."
@@ -5649,7 +5657,7 @@ const derivedDictionaryData = [
       "resembling nut"
     ],
     "freq": 0,
-    "freq_rank": 1886,
+    "freq_rank": 1888,
     "example": {
       "fiwo": "Zutap nifne dzypraei.",
       "english": "The small fruit is nut-like."
@@ -5668,7 +5676,7 @@ const derivedDictionaryData = [
       "serpentine"
     ],
     "freq": 0,
-    "freq_rank": 1888,
+    "freq_rank": 1890,
     "example": {
       "fiwo": "Tivwop eavae xalid deky montop.",
       "english": "The snake-like path went through the mountain."
@@ -5687,7 +5695,7 @@ const derivedDictionaryData = [
       "resembling twig"
     ],
     "freq": 0,
-    "freq_rank": 1889,
+    "freq_rank": 1891,
     "example": {
       "fiwo": "Daq jedi xufa ebgae.",
       "english": "He has twig-like arms."
@@ -5723,7 +5731,7 @@ const derivedDictionaryData = [
       "forgetter"
     ],
     "freq": 0,
-    "freq_rank": 1890,
+    "freq_rank": 1892,
     "example": {
       "fiwo": "Mik ebnesiar.",
       "english": "I am a forgetter."
@@ -5742,7 +5750,7 @@ const derivedDictionaryData = [
       "absent-minded"
     ],
     "freq": 0,
-    "freq_rank": 1891,
+    "freq_rank": 1893,
     "example": {
       "fiwo": "Wasnupap mike ebnesiei.",
       "english": "My grandparent is forgetful."
@@ -5762,7 +5770,7 @@ const derivedDictionaryData = [
       "chain-like"
     ],
     "freq": 0,
-    "freq_rank": 1893,
+    "freq_rank": 1895,
     "example": {
       "fiwo": "Hoxop eboei.",
       "english": "The door is chained."
@@ -5781,7 +5789,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1122,
+    "freq_rank": 1124,
     "example": {
       "fiwo": "Guzap ebxeid.",
       "english": "The enemy was cruel."
@@ -5799,7 +5807,7 @@ const derivedDictionaryData = [
       "cruelty"
     ],
     "freq": 0,
-    "freq_rank": 1895,
+    "freq_rank": 1897,
     "example": {
       "fiwo": "Ebxeup dale linid pamur.",
       "english": "His cruelty caused pain."
@@ -5817,7 +5825,7 @@ const derivedDictionaryData = [
       "recognizer"
     ],
     "freq": 0,
-    "freq_rank": 1867,
+    "freq_rank": 1869,
     "example": {
       "fiwo": "Dwepiap dwepid mik.",
       "english": "The recognizer recognized me."
@@ -5855,7 +5863,7 @@ const derivedDictionaryData = [
       "modesty"
     ],
     "freq": 0,
-    "freq_rank": 1897,
+    "freq_rank": 1899,
     "example": {
       "fiwo": "Ecmeup dase gawei.",
       "english": "Her humility is good."
@@ -5873,7 +5881,7 @@ const derivedDictionaryData = [
       "lunar"
     ],
     "freq": 0,
-    "freq_rank": 1898,
+    "freq_rank": 1900,
     "example": {
       "fiwo": "Litop edajoe locwei.",
       "english": "The moonlight is white."
@@ -5892,7 +5900,7 @@ const derivedDictionaryData = [
       "priest"
     ],
     "freq": 0,
-    "freq_rank": 1900,
+    "freq_rank": 1902,
     "example": {
       "fiwo": "Ednuap gesid zety joza.",
       "english": "The priest spoke about God."
@@ -5910,7 +5918,7 @@ const derivedDictionaryData = [
       "religious"
     ],
     "freq": 1,
-    "freq_rank": 1123,
+    "freq_rank": 1125,
     "example": {
       "fiwo": "Kehulup dale ednuei.",
       "english": "His family is religious."
@@ -5928,7 +5936,7 @@ const derivedDictionaryData = [
       "deep-frier"
     ],
     "freq": 0,
-    "freq_rank": 1901,
+    "freq_rank": 1903,
     "example": {
       "fiwo": "Edorariap edorarid fubap.",
       "english": "The deep-frier deep-fried the fish."
@@ -5947,7 +5955,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1125,
+    "freq_rank": 1127,
     "example": {
       "fiwo": "Nacia je efadei.",
       "english": "The workers are hardworking."
@@ -5966,7 +5974,7 @@ const derivedDictionaryData = [
       "industriousness"
     ],
     "freq": 0,
-    "freq_rank": 1902,
+    "freq_rank": 1904,
     "example": {
       "fiwo": "Efadeup suke lini uxku.",
       "english": "Your diligence causes success."
@@ -5984,7 +5992,7 @@ const derivedDictionaryData = [
       "strenuous"
     ],
     "freq": 0,
-    "freq_rank": 1904,
+    "freq_rank": 1906,
     "example": {
       "fiwo": "Ram naciur efantue.",
       "english": "It is strenuous work."
@@ -6022,7 +6030,7 @@ const derivedDictionaryData = [
       "harmonious"
     ],
     "freq": 0,
-    "freq_rank": 1906,
+    "freq_rank": 1908,
     "example": {
       "fiwo": "Hautup sile efzuei.",
       "english": "This music is harmonious."
@@ -6041,7 +6049,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1126,
+    "freq_rank": 1128,
     "example": {
       "fiwo": "Daq egdei nudu.",
       "english": "He is sober today."
@@ -6059,7 +6067,7 @@ const derivedDictionaryData = [
       "sobriety"
     ],
     "freq": 0,
-    "freq_rank": 1908,
+    "freq_rank": 1910,
     "example": {
       "fiwo": "Egdeu jorei.",
       "english": "Sobriety is important."
@@ -6097,7 +6105,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1909,
+    "freq_rank": 1911,
     "example": {
       "fiwo": "Kyfap je egmabei.",
       "english": "The birds are one thousand."
@@ -6117,7 +6125,7 @@ const derivedDictionaryData = [
       "piped"
     ],
     "freq": 0,
-    "freq_rank": 1910,
+    "freq_rank": 1912,
     "example": {
       "fiwo": "Cemup egpoe dwimei.",
       "english": "The tube-shaped thing is long."
@@ -6135,7 +6143,7 @@ const derivedDictionaryData = [
       "standard"
     ],
     "freq": 0,
-    "freq_rank": 1912,
+    "freq_rank": 1914,
     "example": {
       "fiwo": "Ram melfur eguvue.",
       "english": "It is a standard price."
@@ -6153,7 +6161,7 @@ const derivedDictionaryData = [
       "ripper"
     ],
     "freq": 0,
-    "freq_rank": 1913,
+    "freq_rank": 1915,
     "example": {
       "fiwo": "Eipiap eipid paelop.",
       "english": "The ripper ripped the paper."
@@ -6171,7 +6179,7 @@ const derivedDictionaryData = [
       "explainer"
     ],
     "freq": 0,
-    "freq_rank": 1914,
+    "freq_rank": 1916,
     "example": {
       "fiwo": "Eksapliap eksaplid azikup.",
       "english": "The explainer explained the rule."
@@ -6208,7 +6216,7 @@ const derivedDictionaryData = [
       "honesty"
     ],
     "freq": 1,
-    "freq_rank": 1128,
+    "freq_rank": 1130,
     "example": {
       "fiwo": "Elgeu jorei.",
       "english": "Honesty is important."
@@ -6228,7 +6236,7 @@ const derivedDictionaryData = [
       "apian"
     ],
     "freq": 0,
-    "freq_rank": 1916,
+    "freq_rank": 1918,
     "example": {
       "fiwo": "Mik tsejaid hiror elsae.",
       "english": "I saw a bee's hole."
@@ -6265,7 +6273,7 @@ const derivedDictionaryData = [
       "freshness"
     ],
     "freq": 0,
-    "freq_rank": 1920,
+    "freq_rank": 1922,
     "example": {
       "fiwo": "Emfeup zy zobap gawei.",
       "english": "The freshness of the vegetables is good."
@@ -6283,7 +6291,7 @@ const derivedDictionaryData = [
       "follower"
     ],
     "freq": 0,
-    "freq_rank": 1921,
+    "freq_rank": 1923,
     "example": {
       "fiwo": "Emitiap emitid rezap.",
       "english": "The follower followed the leader."
@@ -6301,7 +6309,7 @@ const derivedDictionaryData = [
       "meeter"
     ],
     "freq": 0,
-    "freq_rank": 1922,
+    "freq_rank": 1924,
     "example": {
       "fiwo": "Enconiap brenid hede.",
       "english": "The person meeting us came late."
@@ -6322,7 +6330,7 @@ const derivedDictionaryData = [
       "encounter"
     ],
     "freq": 1,
-    "freq_rank": 1131,
+    "freq_rank": 1133,
     "example": {
       "fiwo": "Mik jedi enconiur fitydu.",
       "english": "I have a meeting tomorrow."
@@ -6330,7 +6338,7 @@ const derivedDictionaryData = [
   },
   {
     "word": "relsei",
-    "english_equiv": "To be light (weight",
+    "english_equiv": "To be light (weight)",
     "part_of_speech": "Verb",
     "definition": "Stative: to be or become light (weight.",
     "root": "relse",
@@ -6340,8 +6348,8 @@ const derivedDictionaryData = [
       "to become light (weight"
     ],
     "path_gloss": "Modifier -> Verb (stative)",
-    "freq": 1,
-    "freq_rank": 1393,
+    "freq": 2,
+    "freq_rank": 1004,
     "example": {
       "fiwo": "Zabatop relsei.",
       "english": "The bag is light."
@@ -6377,7 +6385,7 @@ const derivedDictionaryData = [
       "entrant"
     ],
     "freq": 0,
-    "freq_rank": 1923,
+    "freq_rank": 1925,
     "example": {
       "fiwo": "Enriap enrid krulop.",
       "english": "The entrant entered the room."
@@ -6395,7 +6403,7 @@ const derivedDictionaryData = [
       "active"
     ],
     "freq": 0,
-    "freq_rank": 2533,
+    "freq_rank": 2534,
     "example": {
       "fiwo": "Cadap mipfuei.",
       "english": "The child is active."
@@ -6433,7 +6441,7 @@ const derivedDictionaryData = [
       "resembling oven"
     ],
     "freq": 0,
-    "freq_rank": 1924,
+    "freq_rank": 1926,
     "example": {
       "fiwo": "Krulop epmoei.",
       "english": "The room is oven-like."
@@ -6469,7 +6477,7 @@ const derivedDictionaryData = [
       "polisher"
     ],
     "freq": 0,
-    "freq_rank": 1926,
+    "freq_rank": 1928,
     "example": {
       "fiwo": "Epziap epzid belimop.",
       "english": "The polisher polished the shoes."
@@ -6489,7 +6497,7 @@ const derivedDictionaryData = [
       "shined"
     ],
     "freq": 0,
-    "freq_rank": 1927,
+    "freq_rank": 1929,
     "example": {
       "fiwo": "Degop epziei.",
       "english": "The table is polished."
@@ -6508,7 +6516,7 @@ const derivedDictionaryData = [
       "resembling saliva"
     ],
     "freq": 0,
-    "freq_rank": 1929,
+    "freq_rank": 1931,
     "example": {
       "fiwo": "Difop eqsoei.",
       "english": "The liquid is saliva-like."
@@ -6526,7 +6534,7 @@ const derivedDictionaryData = [
       "spit"
     ],
     "freq": 0,
-    "freq_rank": 1930,
+    "freq_rank": 1932,
     "example": {
       "fiwo": "Kop nes eqsoi ty zafoirop.",
       "english": "Do not spit on the floor."
@@ -6545,7 +6553,7 @@ const derivedDictionaryData = [
       "resembling thunder"
     ],
     "freq": 0,
-    "freq_rank": 1932,
+    "freq_rank": 1934,
     "example": {
       "fiwo": "Mik pywid skejur ercoe.",
       "english": "I heard a thunder-like sound."
@@ -6563,7 +6571,7 @@ const derivedDictionaryData = [
       "comprehender"
     ],
     "freq": 0,
-    "freq_rank": 1933,
+    "freq_rank": 1935,
     "example": {
       "fiwo": "Erfiap erfid stepup.",
       "english": "The comprehender understood the story."
@@ -6601,7 +6609,7 @@ const derivedDictionaryData = [
       "warlike"
     ],
     "freq": 0,
-    "freq_rank": 1934,
+    "freq_rank": 1936,
     "example": {
       "fiwo": "Xekup erue duxilid nak.",
       "english": "The warlike country attacked us."
@@ -6620,7 +6628,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1134,
+    "freq_rank": 1136,
     "example": {
       "fiwo": "Kop espei.",
       "english": "Be specific."
@@ -6638,7 +6646,7 @@ const derivedDictionaryData = [
       "specificity"
     ],
     "freq": 0,
-    "freq_rank": 1936,
+    "freq_rank": 1938,
     "example": {
       "fiwo": "Espeup zy fulup jorei.",
       "english": "The specificity of the data is important."
@@ -6656,7 +6664,7 @@ const derivedDictionaryData = [
       "obtainer"
     ],
     "freq": 0,
-    "freq_rank": 1937,
+    "freq_rank": 1939,
     "example": {
       "fiwo": "Etypiap etypid weorop.",
       "english": "The obtainer got the ball."
@@ -6675,7 +6683,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1938,
+    "freq_rank": 1940,
     "example": {
       "fiwo": "Domloup evlei.",
       "english": "The rain is occasional."
@@ -6693,7 +6701,7 @@ const derivedDictionaryData = [
       "accidental"
     ],
     "freq": 0,
-    "freq_rank": 1940,
+    "freq_rank": 1942,
     "example": {
       "fiwo": "Ram biwur evmue.",
       "english": "It is an accidental problem."
@@ -6712,7 +6720,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1941,
+    "freq_rank": 1943,
     "example": {
       "fiwo": "Nauxap je mike exkei.",
       "english": "My friends are several."
@@ -6730,7 +6738,7 @@ const derivedDictionaryData = [
       "rate-based"
     ],
     "freq": 0,
-    "freq_rank": 1943,
+    "freq_rank": 1945,
     "example": {
       "fiwo": "Ram melfur exopue.",
       "english": "It is a rate-based price."
@@ -6748,7 +6756,7 @@ const derivedDictionaryData = [
       "instructional"
     ],
     "freq": 0,
-    "freq_rank": 1945,
+    "freq_rank": 1947,
     "example": {
       "fiwo": "Mik tsejapid vakykor extanue.",
       "english": "I watched an instructional movie."
@@ -6767,7 +6775,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1946,
+    "freq_rank": 1948,
     "example": {
       "fiwo": "Eziswiup zy razup curmeid.",
       "english": "The implementation of the plan was easy."
@@ -6786,7 +6794,7 @@ const derivedDictionaryData = [
       "resembling lid"
     ],
     "freq": 0,
-    "freq_rank": 1947,
+    "freq_rank": 1949,
     "example": {
       "fiwo": "Cemup ezloe weokei.",
       "english": "The lid-like thing is round."
@@ -6805,7 +6813,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1135,
+    "freq_rank": 1137,
     "example": {
       "fiwo": "Cadap eztei.",
       "english": "The child is polite."
@@ -6824,7 +6832,7 @@ const derivedDictionaryData = [
       "courtesy"
     ],
     "freq": 0,
-    "freq_rank": 1949,
+    "freq_rank": 1951,
     "example": {
       "fiwo": "Ezteu jorei zy kigu nake.",
       "english": "Politeness is important in our culture."
@@ -6842,7 +6850,7 @@ const derivedDictionaryData = [
       "desirer"
     ],
     "freq": 0,
-    "freq_rank": 1950,
+    "freq_rank": 1952,
     "example": {
       "fiwo": "Fabiap fabid batap.",
       "english": "The desirer wanted the food."
@@ -6860,7 +6868,7 @@ const derivedDictionaryData = [
       "lateral"
     ],
     "freq": 0,
-    "freq_rank": 1951,
+    "freq_rank": 1953,
     "example": {
       "fiwo": "Hoxop facue xosiq.",
       "english": "The side door is open."
@@ -6897,7 +6905,7 @@ const derivedDictionaryData = [
       "importance"
     ],
     "freq": 0,
-    "freq_rank": 2284,
+    "freq_rank": 2285,
     "example": {
       "fiwo": "Joreup zy farlup tandei.",
       "english": "The importance of health is great."
@@ -6916,7 +6924,11 @@ const derivedDictionaryData = [
       "resembling cousin (gender-neutral)"
     ],
     "freq": 1,
-    "freq_rank": 1136
+    "freq_rank": 1138,
+    "example": {
+      "fiwo": "Daq nofar fagae zy mik.",
+      "english": "He is like a cousin to me."
+    }
   },
   {
     "word": "falazia",
@@ -6930,7 +6942,7 @@ const derivedDictionaryData = [
       "recorder"
     ],
     "freq": 0,
-    "freq_rank": 1952,
+    "freq_rank": 1954,
     "example": {
       "fiwo": "Falaziap falazid gesiup.",
       "english": "The recorder recorded the speech."
@@ -6949,7 +6961,7 @@ const derivedDictionaryData = [
       "resembling list"
     ],
     "freq": 0,
-    "freq_rank": 1954,
+    "freq_rank": 1956,
     "example": {
       "fiwo": "Jamiop falfosoei.",
       "english": "The document is list-like."
@@ -6968,7 +6980,7 @@ const derivedDictionaryData = [
       "enumerate"
     ],
     "freq": 0,
-    "freq_rank": 1955,
+    "freq_rank": 1957,
     "example": {
       "fiwo": "Mik falfosoid cemup je.",
       "english": "I listed the things."
@@ -6986,7 +6998,7 @@ const derivedDictionaryData = [
       "reporter"
     ],
     "freq": 0,
-    "freq_rank": 1956,
+    "freq_rank": 1958,
     "example": {
       "fiwo": "Falmiap gesid zety eru.",
       "english": "The reporter talked about the war."
@@ -7023,7 +7035,7 @@ const derivedDictionaryData = [
       "introducer"
     ],
     "freq": 0,
-    "freq_rank": 2476,
+    "freq_rank": 2477,
     "example": {
       "fiwo": "Luriap lurid mik zy dal.",
       "english": "The introducer introduced me to him."
@@ -7042,7 +7054,7 @@ const derivedDictionaryData = [
       "resembling doctor"
     ],
     "freq": 0,
-    "freq_rank": 1957,
+    "freq_rank": 1959,
     "example": {
       "fiwo": "Daq gesi zuwu farlopae.",
       "english": "He speaks in a doctor-like way."
@@ -7062,7 +7074,7 @@ const derivedDictionaryData = [
       "fit"
     ],
     "freq": 7,
-    "freq_rank": 565,
+    "freq_rank": 566,
     "example": {
       "fiwo": "Batap sile farluei.",
       "english": "This food is healthy."
@@ -7080,7 +7092,7 @@ const derivedDictionaryData = [
       "includer"
     ],
     "freq": 0,
-    "freq_rank": 1958,
+    "freq_rank": 1960,
     "example": {
       "fiwo": "Fasidiap fasidid nak.",
       "english": "The includer included us."
@@ -7100,7 +7112,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1959,
+    "freq_rank": 1961,
     "example": {
       "fiwo": "Govnup sapid fasnoliur.",
       "english": "The government made propaganda."
@@ -7118,7 +7130,7 @@ const derivedDictionaryData = [
       "dependent"
     ],
     "freq": 0,
-    "freq_rank": 1960,
+    "freq_rank": 1962,
     "example": {
       "fiwo": "Fatliap fatli kehulup dale.",
       "english": "The dependent relies on his family."
@@ -7137,7 +7149,7 @@ const derivedDictionaryData = [
       "machinist"
     ],
     "freq": 0,
-    "freq_rank": 1961,
+    "freq_rank": 1963,
     "example": {
       "fiwo": "Fatoap jofid fatop.",
       "english": "The mechanic fixed the machine."
@@ -7157,7 +7169,7 @@ const derivedDictionaryData = [
       "of a machine"
     ],
     "freq": 0,
-    "freq_rank": 1962,
+    "freq_rank": 1964,
     "example": {
       "fiwo": "Ram biwur fatoe.",
       "english": "It is a mechanical problem."
@@ -7175,7 +7187,7 @@ const derivedDictionaryData = [
       "technological"
     ],
     "freq": 0,
-    "freq_rank": 1963,
+    "freq_rank": 1965,
     "example": {
       "fiwo": "Ram uxkur fawanue.",
       "english": "It is a technological success."
@@ -7194,7 +7206,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Preposition -> Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1141,
+    "freq_rank": 1143,
     "example": {
       "fiwo": "Taicup fecyei dugu.",
       "english": "The party lasts until night."
@@ -7214,7 +7226,11 @@ const derivedDictionaryData = [
     ],
     "usage_note": "Last as in the last one in a row. Last as in most recent (last week) is parye or rivahe (previous).",
     "freq": 3,
-    "freq_rank": 799
+    "freq_rank": 799,
+    "example": {
+      "fiwo": "Ram nibop fefue.",
+      "english": "It is the final book."
+    }
   },
   {
     "word": "fehedia",
@@ -7228,7 +7244,7 @@ const derivedDictionaryData = [
       "divorced person"
     ],
     "freq": 0,
-    "freq_rank": 1966,
+    "freq_rank": 1968,
     "example": {
       "fiwo": "Fehediap ceni itse.",
       "english": "The divorced person lives alone."
@@ -7246,7 +7262,7 @@ const derivedDictionaryData = [
       "divorced"
     ],
     "freq": 0,
-    "freq_rank": 1967,
+    "freq_rank": 1969,
     "example": {
       "fiwo": "Nupap dase fehediei.",
       "english": "Her parents are divorced."
@@ -7264,7 +7280,7 @@ const derivedDictionaryData = [
       "divorce document"
     ],
     "freq": 0,
-    "freq_rank": 1968,
+    "freq_rank": 1970,
     "example": {
       "fiwo": "Daq jamid fehediop.",
       "english": "He wrote the divorce document."
@@ -7282,7 +7298,11 @@ const derivedDictionaryData = [
       "divorce (n)"
     ],
     "freq": 1,
-    "freq_rank": 1142
+    "freq_rank": 1144,
+    "example": {
+      "fiwo": "Fehediup muileid.",
+      "english": "The divorce was difficult."
+    }
   },
   {
     "word": "fei",
@@ -7297,7 +7317,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1969,
+    "freq_rank": 1971,
     "example": {
       "fiwo": "Ram fei.",
       "english": "It is very much so."
@@ -7356,7 +7376,7 @@ const derivedDictionaryData = [
       "crystalline"
     ],
     "freq": 0,
-    "freq_rank": 1971,
+    "freq_rank": 1973,
     "example": {
       "fiwo": "Mik jedi drekor femporoe.",
       "english": "I have a quartz stone."
@@ -7374,7 +7394,7 @@ const derivedDictionaryData = [
       "teller"
     ],
     "freq": 0,
-    "freq_rank": 1972,
+    "freq_rank": 1974,
     "example": {
       "fiwo": "Fenutiap fenutid stepur.",
       "english": "The teller told a story."
@@ -7394,7 +7414,7 @@ const derivedDictionaryData = [
       "resembling sun"
     ],
     "freq": 0,
-    "freq_rank": 1973,
+    "freq_rank": 1975,
     "example": {
       "fiwo": "Litop fevoe ripei.",
       "english": "The sunlight is hot."
@@ -7412,7 +7432,7 @@ const derivedDictionaryData = [
       "mixer"
     ],
     "freq": 0,
-    "freq_rank": 1974,
+    "freq_rank": 1976,
     "example": {
       "fiwo": "Fewiap fewid batap.",
       "english": "The mixer mixed the food."
@@ -7431,7 +7451,7 @@ const derivedDictionaryData = [
       "blend"
     ],
     "freq": 0,
-    "freq_rank": 1975,
+    "freq_rank": 1977,
     "example": {
       "fiwo": "Fewiop zuzkei.",
       "english": "The mixture is sweet."
@@ -7451,7 +7471,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 1976,
+    "freq_rank": 1978,
     "example": {
       "fiwo": "Fexrukuap jofid mik.",
       "english": "The staff member helped me."
@@ -7470,7 +7490,7 @@ const derivedDictionaryData = [
       "representative"
     ],
     "freq": 0,
-    "freq_rank": 1979,
+    "freq_rank": 1981,
     "example": {
       "fiwo": "Ram du figenkue.",
       "english": "It is a typical day."
@@ -7488,7 +7508,7 @@ const derivedDictionaryData = [
       "revealer"
     ],
     "freq": 0,
-    "freq_rank": 1980,
+    "freq_rank": 1982,
     "example": {
       "fiwo": "Fihiap fihid idvup.",
       "english": "The revealer revealed the secret."
@@ -7508,7 +7528,7 @@ const derivedDictionaryData = [
       "laid bare"
     ],
     "freq": 0,
-    "freq_rank": 1981,
+    "freq_rank": 1983,
     "example": {
       "fiwo": "Daq nofar fihie.",
       "english": "He is a person prone to exposing things."
@@ -7527,7 +7547,7 @@ const derivedDictionaryData = [
       "resembling ear"
     ],
     "freq": 0,
-    "freq_rank": 1982,
+    "freq_rank": 1984,
     "example": {
       "fiwo": "Cilap fijaei.",
       "english": "The leaf is ear-like."
@@ -7603,7 +7623,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1147,
+    "freq_rank": 1149,
     "example": {
       "fiwo": "Otsinop finei.",
       "english": "The thread is fine."
@@ -7622,7 +7642,7 @@ const derivedDictionaryData = [
       "fineness"
     ],
     "freq": 0,
-    "freq_rank": 1984,
+    "freq_rank": 1986,
     "example": {
       "fiwo": "Fineup zy cilap baudei.",
       "english": "The delicacy of the leaf is beautiful."
@@ -7640,7 +7660,7 @@ const derivedDictionaryData = [
       "software-related"
     ],
     "freq": 0,
-    "freq_rank": 1985,
+    "freq_rank": 1987,
     "example": {
       "fiwo": "Ram biwur fipue.",
       "english": "It is a software problem."
@@ -7660,7 +7680,7 @@ const derivedDictionaryData = [
       "rose-like"
     ],
     "freq": 0,
-    "freq_rank": 1986,
+    "freq_rank": 1988,
     "example": {
       "fiwo": "Mulap firfaei.",
       "english": "The flower is rose-like."
@@ -7679,7 +7699,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1987,
+    "freq_rank": 1989,
     "example": {
       "fiwo": "Fuhytup fiskei.",
       "english": "The news is recent."
@@ -7697,7 +7717,7 @@ const derivedDictionaryData = [
       "prospective"
     ],
     "freq": 0,
-    "freq_rank": 1988,
+    "freq_rank": 1990,
     "example": {
       "fiwo": "Ram jobur fiturue.",
       "english": "It is a prospective job."
@@ -7715,7 +7735,7 @@ const derivedDictionaryData = [
       "of tomorrow"
     ],
     "freq": 1,
-    "freq_rank": 1150,
+    "freq_rank": 1152,
     "example": {
       "fiwo": "Muk tsejapis xowup fitydue.",
       "english": "We will watch tomorrow's show."
@@ -7734,7 +7754,7 @@ const derivedDictionaryData = [
       "resembling language"
     ],
     "freq": 0,
-    "freq_rank": 1989,
+    "freq_rank": 1991,
     "example": {
       "fiwo": "Skejup fiwoei.",
       "english": "The sound is language-like."
@@ -7753,7 +7773,7 @@ const derivedDictionaryData = [
       "dress a wound"
     ],
     "freq": 0,
-    "freq_rank": 1990,
+    "freq_rank": 1992,
     "example": {
       "fiwo": "Farlopap flaxadoid xufap mike.",
       "english": "The doctor bandaged my arm."
@@ -7773,7 +7793,7 @@ const derivedDictionaryData = [
       "sparkling"
     ],
     "freq": 0,
-    "freq_rank": 1992,
+    "freq_rank": 1994,
     "example": {
       "fiwo": "Das jedi fijaor flestoe.",
       "english": "She has a diamond earring."
@@ -7792,7 +7812,7 @@ const derivedDictionaryData = [
       "sanitary"
     ],
     "freq": 0,
-    "freq_rank": 1995,
+    "freq_rank": 1997,
     "example": {
       "fiwo": "Krulop flufuei.",
       "english": "The room is sanitary."
@@ -7810,7 +7830,7 @@ const derivedDictionaryData = [
       "processor"
     ],
     "freq": 0,
-    "freq_rank": 1997,
+    "freq_rank": 1999,
     "example": {
       "fiwo": "Fodiap deky jyjop ruzei.",
       "english": "The processor in the computer is fast."
@@ -7829,7 +7849,7 @@ const derivedDictionaryData = [
       "bay worker"
     ],
     "freq": 0,
-    "freq_rank": 1998,
+    "freq_rank": 2000,
     "example": {
       "fiwo": "Fofuploap jofid botop.",
       "english": "The harbor hand helped the boat."
@@ -7848,7 +7868,7 @@ const derivedDictionaryData = [
       "resembling bay"
     ],
     "freq": 0,
-    "freq_rank": 1999,
+    "freq_rank": 2001,
     "example": {
       "fiwo": "Brirsop fofuploei.",
       "english": "The lake is bay-like."
@@ -7867,7 +7887,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1449,
+    "freq_rank": 1453,
     "example": {
       "fiwo": "Zufop tsufei.",
       "english": "The bed is comfortable."
@@ -7903,7 +7923,7 @@ const derivedDictionaryData = [
       "afternoon"
     ],
     "freq": 1,
-    "freq_rank": 1158,
+    "freq_rank": 1160,
     "example": {
       "fiwo": "Mik lokid fuhytup fohue.",
       "english": "I read the afternoon news."
@@ -7922,7 +7942,7 @@ const derivedDictionaryData = [
       "resembling building"
     ],
     "freq": 0,
-    "freq_rank": 2000,
+    "freq_rank": 2002,
     "example": {
       "fiwo": "Drekop foisoe tandei.",
       "english": "The building-like rock is big."
@@ -7960,7 +7980,7 @@ const derivedDictionaryData = [
       "constructor"
     ],
     "freq": 0,
-    "freq_rank": 2001,
+    "freq_rank": 2003,
     "example": {
       "fiwo": "Foisoiap foisoid foisop.",
       "english": "The builder built the building."
@@ -7979,7 +7999,7 @@ const derivedDictionaryData = [
       "construction"
     ],
     "freq": 0,
-    "freq_rank": 2002,
+    "freq_rank": 2004,
     "example": {
       "fiwo": "Das keci foisou.",
       "english": "She studies architecture."
@@ -7997,7 +8017,7 @@ const derivedDictionaryData = [
       "dignified"
     ],
     "freq": 0,
-    "freq_rank": 2003,
+    "freq_rank": 2005,
     "example": {
       "fiwo": "Wasmanap mike folkunuei.",
       "english": "My grandmother is dignified."
@@ -8016,7 +8036,7 @@ const derivedDictionaryData = [
       "subsequent"
     ],
     "freq": 1,
-    "freq_rank": 1159,
+    "freq_rank": 1161,
     "example": {
       "fiwo": "Mik xalis ky dionu folye.",
       "english": "I will go at a later time."
@@ -8035,7 +8055,7 @@ const derivedDictionaryData = [
       "manufacturer"
     ],
     "freq": 0,
-    "freq_rank": 2004,
+    "freq_rank": 2006,
     "example": {
       "fiwo": "Fomentuap sapi blyfo.",
       "english": "The manufacturer makes cars."
@@ -8055,7 +8075,7 @@ const derivedDictionaryData = [
       "mass-produce"
     ],
     "freq": 0,
-    "freq_rank": 2005,
+    "freq_rank": 2007,
     "example": {
       "fiwo": "Biznup fomentui belimo.",
       "english": "The company manufactures shoes."
@@ -8074,7 +8094,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2009,
+    "freq_rank": 2011,
     "example": {
       "fiwo": "Nibop fosei.",
       "english": "The book is that one."
@@ -8094,7 +8114,7 @@ const derivedDictionaryData = [
       "root-filled"
     ],
     "freq": 0,
-    "freq_rank": 2011,
+    "freq_rank": 2013,
     "example": {
       "fiwo": "Mosap fotaei.",
       "english": "The tree is rooted."
@@ -8112,7 +8132,7 @@ const derivedDictionaryData = [
       "fader"
     ],
     "freq": 0,
-    "freq_rank": 2012,
+    "freq_rank": 2014,
     "example": {
       "fiwo": "Foxipriap foxiprid.",
       "english": "The fader faded."
@@ -8132,7 +8152,7 @@ const derivedDictionaryData = [
       "color transition"
     ],
     "freq": 0,
-    "freq_rank": 2013,
+    "freq_rank": 2015,
     "example": {
       "fiwo": "Foxipriop zy litop gaweid.",
       "english": "The fade of the light was nice."
@@ -8171,7 +8191,7 @@ const derivedDictionaryData = [
       "independence"
     ],
     "freq": 0,
-    "freq_rank": 2351,
+    "freq_rank": 2352,
     "example": {
       "fiwo": "Kjukeu jorei.",
       "english": "Freedom is important."
@@ -8190,7 +8210,7 @@ const derivedDictionaryData = [
       "resembling armadillo"
     ],
     "freq": 0,
-    "freq_rank": 2015,
+    "freq_rank": 2017,
     "example": {
       "fiwo": "Latwap frankaei.",
       "english": "The animal is armadillo-like."
@@ -8210,7 +8230,7 @@ const derivedDictionaryData = [
       "swamp-grown"
     ],
     "freq": 0,
-    "freq_rank": 2017,
+    "freq_rank": 2019,
     "example": {
       "fiwo": "Woru frelkae dorsoei.",
       "english": "The mangrove area is wet."
@@ -8285,7 +8305,7 @@ const derivedDictionaryData = [
       "resembling rib"
     ],
     "freq": 0,
-    "freq_rank": 2020,
+    "freq_rank": 2022,
     "example": {
       "fiwo": "Gofop frismaei.",
       "english": "The wood is rib-like."
@@ -8304,7 +8324,7 @@ const derivedDictionaryData = [
       "let down"
     ],
     "freq": 0,
-    "freq_rank": 2023,
+    "freq_rank": 2025,
     "example": {
       "fiwo": "Mik fruvaduei.",
       "english": "I am disappointed."
@@ -8322,7 +8342,7 @@ const derivedDictionaryData = [
       "disappoint"
     ],
     "freq": 0,
-    "freq_rank": 2024,
+    "freq_rank": 2026,
     "example": {
       "fiwo": "Sleziup fruvadui muk.",
       "english": "The question disappoints us."
@@ -8340,7 +8360,7 @@ const derivedDictionaryData = [
       "catcher"
     ],
     "freq": 0,
-    "freq_rank": 2026,
+    "freq_rank": 2028,
     "example": {
       "fiwo": "Fualiap fualid weorop.",
       "english": "The catcher caught the ball."
@@ -8358,7 +8378,7 @@ const derivedDictionaryData = [
       "fish-like"
     ],
     "freq": 0,
-    "freq_rank": 2027,
+    "freq_rank": 2029,
     "example": {
       "fiwo": "Batap fubaei.",
       "english": "The food is fishy."
@@ -8376,7 +8396,7 @@ const derivedDictionaryData = [
       "firefighter"
     ],
     "freq": 0,
-    "freq_rank": 2028,
+    "freq_rank": 2030,
     "example": {
       "fiwo": "Fuegoap seji fuegop.",
       "english": "The firefighter stopped the fire."
@@ -8396,7 +8416,7 @@ const derivedDictionaryData = [
       "of fire"
     ],
     "freq": 1,
-    "freq_rank": 1162,
+    "freq_rank": 1164,
     "example": {
       "fiwo": "Bysop fuegoei.",
       "english": "The sky is fiery."
@@ -8417,7 +8437,11 @@ const derivedDictionaryData = [
       "resembling hand"
     ],
     "freq": 1,
-    "freq_rank": 1502
+    "freq_rank": 1506,
+    "example": {
+      "fiwo": "Ram naciur wusae.",
+      "english": "It is manual work."
+    }
   },
   {
     "word": "fulue",
@@ -8431,7 +8455,7 @@ const derivedDictionaryData = [
       "informational"
     ],
     "freq": 0,
-    "freq_rank": 2029,
+    "freq_rank": 2031,
     "example": {
       "fiwo": "Ram nibor fulue.",
       "english": "It is an informational book."
@@ -8470,7 +8494,7 @@ const derivedDictionaryData = [
       "smoke-producing"
     ],
     "freq": 0,
-    "freq_rank": 2030,
+    "freq_rank": 2032,
     "example": {
       "fiwo": "Bexop fumoei.",
       "english": "The air is smoky."
@@ -8507,7 +8531,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1163,
+    "freq_rank": 1165,
     "example": {
       "fiwo": "Ram fuqei.",
       "english": "It is necessary."
@@ -8526,7 +8550,7 @@ const derivedDictionaryData = [
       "resembling fur"
     ],
     "freq": 0,
-    "freq_rank": 2031,
+    "freq_rank": 2033,
     "example": {
       "fiwo": "Ikamop furnaei.",
       "english": "The shirt is fur-like."
@@ -8545,7 +8569,7 @@ const derivedDictionaryData = [
       "fur"
     ],
     "freq": 0,
-    "freq_rank": 2032,
+    "freq_rank": 2034,
     "example": {
       "fiwo": "Daq gidafid furnaop.",
       "english": "He sold the pelt."
@@ -8563,7 +8587,7 @@ const derivedDictionaryData = [
       "supporter"
     ],
     "freq": 0,
-    "freq_rank": 2395,
+    "freq_rank": 2396,
     "example": {
       "fiwo": "Kuxiap je kuxid rezap.",
       "english": "The supporters supported the leader."
@@ -8581,7 +8605,7 @@ const derivedDictionaryData = [
       "yearner"
     ],
     "freq": 0,
-    "freq_rank": 2035,
+    "freq_rank": 2037,
     "example": {
       "fiwo": "Fycisiap fycisid kehulup dale.",
       "english": "The yearner missed his family."
@@ -8600,7 +8624,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 7,
-    "freq_rank": 571,
+    "freq_rank": 572,
     "example": {
       "fiwo": "Teso fyjebei.",
       "english": "The tea is warm."
@@ -8618,7 +8642,7 @@ const derivedDictionaryData = [
       "warmth"
     ],
     "freq": 1,
-    "freq_rank": 1166,
+    "freq_rank": 1168,
     "example": {
       "fiwo": "Mik kyti fyjebeup zy fevop.",
       "english": "I like the warmth of the sun."
@@ -8636,7 +8660,7 @@ const derivedDictionaryData = [
       "textured"
     ],
     "freq": 0,
-    "freq_rank": 2037,
+    "freq_rank": 2039,
     "example": {
       "fiwo": "Krapop gaguei.",
       "english": "The wall is textured."
@@ -8655,7 +8679,7 @@ const derivedDictionaryData = [
       "resembling cocoa"
     ],
     "freq": 0,
-    "freq_rank": 2039,
+    "freq_rank": 2041,
     "example": {
       "fiwo": "Lamsop gahaei.",
       "english": "The milk is cocoa-like."
@@ -8673,7 +8697,7 @@ const derivedDictionaryData = [
       "guesser"
     ],
     "freq": 0,
-    "freq_rank": 2040,
+    "freq_rank": 2042,
     "example": {
       "fiwo": "Gakijiap gakijid hiqe.",
       "english": "The guesser guessed correctly."
@@ -8693,7 +8717,7 @@ const derivedDictionaryData = [
       "participant"
     ],
     "freq": 1,
-    "freq_rank": 1320,
+    "freq_rank": 1323,
     "example": {
       "fiwo": "Nedciap xeskid spelup.",
       "english": "The player won the game."
@@ -8713,7 +8737,7 @@ const derivedDictionaryData = [
       "game piece"
     ],
     "freq": 0,
-    "freq_rank": 2581,
+    "freq_rank": 2582,
     "example": {
       "fiwo": "Cadap jedi nedcio jedle.",
       "english": "The child has many toys."
@@ -8732,7 +8756,7 @@ const derivedDictionaryData = [
       "recreation"
     ],
     "freq": 0,
-    "freq_rank": 2582,
+    "freq_rank": 2583,
     "example": {
       "fiwo": "Nedciu jorei zy cada je.",
       "english": "Recreation is important for children."
@@ -8751,7 +8775,7 @@ const derivedDictionaryData = [
       "nauseated"
     ],
     "freq": 0,
-    "freq_rank": 2041,
+    "freq_rank": 2043,
     "example": {
       "fiwo": "Mik gasirfuei.",
       "english": "I feel nauseous."
@@ -8771,7 +8795,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2042,
+    "freq_rank": 2044,
     "example": {
       "fiwo": "Daq gesid wy gavudziu.",
       "english": "He spoke with emphasis."
@@ -8809,7 +8833,7 @@ const derivedDictionaryData = [
       "virtue"
     ],
     "freq": 0,
-    "freq_rank": 2043,
+    "freq_rank": 2045,
     "example": {
       "fiwo": "Gaweup zy nofa je tandei.",
       "english": "The goodness of people is great."
@@ -8847,7 +8871,7 @@ const derivedDictionaryData = [
       "resembling space"
     ],
     "freq": 0,
-    "freq_rank": 2046,
+    "freq_rank": 2048,
     "example": {
       "fiwo": "Bysop gecoei dugu.",
       "english": "The sky is space-like at night."
@@ -8865,7 +8889,7 @@ const derivedDictionaryData = [
       "exiter"
     ],
     "freq": 0,
-    "freq_rank": 2047,
+    "freq_rank": 2049,
     "example": {
       "fiwo": "Gefriap gefrid ruze.",
       "english": "The person leaving went out fast."
@@ -8883,7 +8907,7 @@ const derivedDictionaryData = [
       "electrician"
     ],
     "freq": 0,
-    "freq_rank": 2048,
+    "freq_rank": 2050,
     "example": {
       "fiwo": "Gejedoap jofid litop.",
       "english": "The electrician helped with the light."
@@ -8903,7 +8927,7 @@ const derivedDictionaryData = [
       "charged"
     ],
     "freq": 0,
-    "freq_rank": 2049,
+    "freq_rank": 2051,
     "example": {
       "fiwo": "Krapop gejedoei.",
       "english": "The wall is electrified."
@@ -8922,7 +8946,7 @@ const derivedDictionaryData = [
       "resembling vine"
     ],
     "freq": 0,
-    "freq_rank": 2051,
+    "freq_rank": 2053,
     "example": {
       "fiwo": "Nasap gekafaei.",
       "english": "The plant is vine-like."
@@ -8941,7 +8965,7 @@ const derivedDictionaryData = [
       "resembling camel"
     ],
     "freq": 0,
-    "freq_rank": 2054,
+    "freq_rank": 2056,
     "example": {
       "fiwo": "Latwap gendaei.",
       "english": "The animal is camel-like."
@@ -8960,7 +8984,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1174,
+    "freq_rank": 1176,
     "example": {
       "fiwo": "Ladup suke gepei.",
       "english": "Your idea is general."
@@ -8978,7 +9002,7 @@ const derivedDictionaryData = [
       "generality"
     ],
     "freq": 0,
-    "freq_rank": 2056,
+    "freq_rank": 2058,
     "example": {
       "fiwo": "Gepeup zy ladup gaweid.",
       "english": "The generality of the idea was good."
@@ -8997,7 +9021,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1175,
+    "freq_rank": 1177,
     "example": {
       "fiwo": "Brirsop gerotei.",
       "english": "The lake is shallow."
@@ -9015,7 +9039,7 @@ const derivedDictionaryData = [
       "shallowness"
     ],
     "freq": 0,
-    "freq_rank": 2058,
+    "freq_rank": 2060,
     "example": {
       "fiwo": "Geroteup zy dorsop zupi tep cada je dormi.",
       "english": "The shallowness of the water lets children swim."
@@ -9033,7 +9057,7 @@ const derivedDictionaryData = [
       "speaker"
     ],
     "freq": 1,
-    "freq_rank": 1176,
+    "freq_rank": 1178,
     "example": {
       "fiwo": "Gesiap gesid dwime.",
       "english": "The speaker spoke for a long time."
@@ -9052,7 +9076,7 @@ const derivedDictionaryData = [
       "chatty"
     ],
     "freq": 0,
-    "freq_rank": 2059,
+    "freq_rank": 2061,
     "example": {
       "fiwo": "Nauxap mike gesiei.",
       "english": "My friend is talkative."
@@ -9090,7 +9114,7 @@ const derivedDictionaryData = [
       "energetic"
     ],
     "freq": 0,
-    "freq_rank": 2061,
+    "freq_rank": 2063,
     "example": {
       "fiwo": "Cadap getikuei.",
       "english": "The child is energetic."
@@ -9108,7 +9132,7 @@ const derivedDictionaryData = [
       "periodic"
     ],
     "freq": 0,
-    "freq_rank": 2062,
+    "freq_rank": 2064,
     "example": {
       "fiwo": "Ram mipfur getsue.",
       "english": "It is a periodic activity."
@@ -9144,7 +9168,7 @@ const derivedDictionaryData = [
       "sale"
     ],
     "freq": 0,
-    "freq_rank": 2063,
+    "freq_rank": 2065,
     "example": {
       "fiwo": "Gidafiop gize jurop.",
       "english": "The sale fills the city."
@@ -9165,7 +9189,7 @@ const derivedDictionaryData = [
       "purchaser"
     ],
     "freq": 0,
-    "freq_rank": 2064,
+    "freq_rank": 2066,
     "example": {
       "fiwo": "Gidsiap gidsid bryklop.",
       "english": "The customer bought the bread."
@@ -9183,7 +9207,7 @@ const derivedDictionaryData = [
       "monetary"
     ],
     "freq": 0,
-    "freq_rank": 2065,
+    "freq_rank": 2067,
     "example": {
       "fiwo": "Ram biwur gidue.",
       "english": "It is a monetary problem."
@@ -9203,7 +9227,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2066,
+    "freq_rank": 2068,
     "example": {
       "fiwo": "Mik gihofluid peteswiup mike.",
       "english": "I limited my spending."
@@ -9241,7 +9265,7 @@ const derivedDictionaryData = [
       "resembling coast"
     ],
     "freq": 0,
-    "freq_rank": 2067,
+    "freq_rank": 2069,
     "example": {
       "fiwo": "Worup gikosoe baudei.",
       "english": "The coastal area is beautiful."
@@ -9259,7 +9283,7 @@ const derivedDictionaryData = [
       "ai-based"
     ],
     "freq": 0,
-    "freq_rank": 2068,
+    "freq_rank": 2070,
     "example": {
       "fiwo": "Ram flygur gioxue.",
       "english": "It is an AI-based program."
@@ -9277,7 +9301,7 @@ const derivedDictionaryData = [
       "digger"
     ],
     "freq": 0,
-    "freq_rank": 2069,
+    "freq_rank": 2071,
     "example": {
       "fiwo": "Giviap givid hiror.",
       "english": "The digger dug a hole."
@@ -9314,7 +9338,7 @@ const derivedDictionaryData = [
       "fullness"
     ],
     "freq": 0,
-    "freq_rank": 2070,
+    "freq_rank": 2072,
     "example": {
       "fiwo": "Gizeup zy kalop linid tep ram sowid.",
       "english": "The fullness of the cup made it fall."
@@ -9333,7 +9357,7 @@ const derivedDictionaryData = [
       "resembling hoe"
     ],
     "freq": 0,
-    "freq_rank": 2072,
+    "freq_rank": 2074,
     "example": {
       "fiwo": "Gutop glakloei.",
       "english": "The tool is hoe-like."
@@ -9351,7 +9375,7 @@ const derivedDictionaryData = [
       "gendered"
     ],
     "freq": 0,
-    "freq_rank": 2073,
+    "freq_rank": 2075,
     "example": {
       "fiwo": "Fiwo nes glanuei.",
       "english": "Fiwo is not gendered."
@@ -9370,7 +9394,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1183,
+    "freq_rank": 1185,
     "example": {
       "fiwo": "Bysop glapei.",
       "english": "The sky is gray."
@@ -9378,7 +9402,7 @@ const derivedDictionaryData = [
   },
   {
     "word": "glecei",
-    "english_equiv": "To be which (interrogative",
+    "english_equiv": "To be which (interrogative)",
     "part_of_speech": "Verb",
     "definition": "Stative: to be or become which (interrogative.",
     "root": "glece",
@@ -9388,8 +9412,8 @@ const derivedDictionaryData = [
       "to become which (interrogative"
     ],
     "path_gloss": "Modifier -> Verb (stative)",
-    "freq": 0,
-    "freq_rank": 2075,
+    "freq": 1,
+    "freq_rank": 1186,
     "example": {
       "fiwo": "Kup glecei?",
       "english": "Which one is it?"
@@ -9408,7 +9432,7 @@ const derivedDictionaryData = [
       "resembling salmon"
     ],
     "freq": 0,
-    "freq_rank": 2077,
+    "freq_rank": 2078,
     "example": {
       "fiwo": "Fubap glimadaei.",
       "english": "The fish is salmon-like."
@@ -9426,7 +9450,7 @@ const derivedDictionaryData = [
       "thursday"
     ],
     "freq": 0,
-    "freq_rank": 2078,
+    "freq_rank": 2079,
     "example": {
       "fiwo": "Xinadzup glokedue cimis.",
       "english": "The Thursday meeting will start."
@@ -9445,7 +9469,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2079,
+    "freq_rank": 2080,
     "example": {
       "fiwo": "Nauxap je mike glokei.",
       "english": "My friends are four."
@@ -9464,7 +9488,7 @@ const derivedDictionaryData = [
       "gunman"
     ],
     "freq": 0,
-    "freq_rank": 2080,
+    "freq_rank": 2081,
     "example": {
       "fiwo": "Glozitiap fwimid.",
       "english": "The shooter left."
@@ -9483,7 +9507,7 @@ const derivedDictionaryData = [
       "gunshot"
     ],
     "freq": 0,
-    "freq_rank": 2081,
+    "freq_rank": 2082,
     "example": {
       "fiwo": "Mik pywid glozitior.",
       "english": "I heard a shot."
@@ -9502,7 +9526,7 @@ const derivedDictionaryData = [
       "angler"
     ],
     "freq": 0,
-    "freq_rank": 2082,
+    "freq_rank": 2083,
     "example": {
       "fiwo": "Glujiap glujid fuba jedle.",
       "english": "The fisher caught many fish."
@@ -9521,7 +9545,7 @@ const derivedDictionaryData = [
       "angling"
     ],
     "freq": 0,
-    "freq_rank": 2083,
+    "freq_rank": 2084,
     "example": {
       "fiwo": "Daq jedi botor glujie.",
       "english": "He has a fishing boat."
@@ -9539,7 +9563,7 @@ const derivedDictionaryData = [
       "archer"
     ],
     "freq": 0,
-    "freq_rank": 2085,
+    "freq_rank": 2086,
     "example": {
       "fiwo": "Glyntoap glozitid kyfar.",
       "english": "The archer shot a bird."
@@ -9558,7 +9582,7 @@ const derivedDictionaryData = [
       "resembling bow"
     ],
     "freq": 0,
-    "freq_rank": 2086,
+    "freq_rank": 2087,
     "example": {
       "fiwo": "Lazop glyntoei.",
       "english": "The stick is bow-like."
@@ -9576,7 +9600,7 @@ const derivedDictionaryData = [
       "archery"
     ],
     "freq": 0,
-    "freq_rank": 2087,
+    "freq_rank": 2088,
     "example": {
       "fiwo": "Das keci glyntou.",
       "english": "She learns archery."
@@ -9594,7 +9618,7 @@ const derivedDictionaryData = [
       "defender"
     ],
     "freq": 0,
-    "freq_rank": 2088,
+    "freq_rank": 2089,
     "example": {
       "fiwo": "Glyviap glyvid hoxop.",
       "english": "The defender defended the door."
@@ -9614,7 +9638,7 @@ const derivedDictionaryData = [
       "of the brain"
     ],
     "freq": 0,
-    "freq_rank": 2089,
+    "freq_rank": 2090,
     "example": {
       "fiwo": "Drekop godaei.",
       "english": "The rock is brain-shaped."
@@ -9632,7 +9656,7 @@ const derivedDictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 2737,
+    "freq_rank": 2738,
     "example": {
       "fiwo": "Ram biwur pjabue.",
       "english": "It is a mental problem."
@@ -9651,7 +9675,7 @@ const derivedDictionaryData = [
       "lexical"
     ],
     "freq": 0,
-    "freq_rank": 2090,
+    "freq_rank": 2091,
     "example": {
       "fiwo": "Ram xibiur goe.",
       "english": "It is a verbal promise."
@@ -9670,7 +9694,7 @@ const derivedDictionaryData = [
       "woodworker"
     ],
     "freq": 0,
-    "freq_rank": 2091,
+    "freq_rank": 2092,
     "example": {
       "fiwo": "Gofoap sapid degor.",
       "english": "The carpenter made a table."
@@ -9688,7 +9712,7 @@ const derivedDictionaryData = [
       "wooden"
     ],
     "freq": 0,
-    "freq_rank": 2092,
+    "freq_rank": 2093,
     "example": {
       "fiwo": "Xiolop gofoei.",
       "english": "The chair is wooden."
@@ -9726,7 +9750,7 @@ const derivedDictionaryData = [
       "sorrow"
     ],
     "freq": 0,
-    "freq_rank": 2093,
+    "freq_rank": 2094,
     "example": {
       "fiwo": "Goileup dale dwimeid.",
       "english": "His sadness was long."
@@ -9744,7 +9768,7 @@ const derivedDictionaryData = [
       "puller"
     ],
     "freq": 0,
-    "freq_rank": 2094,
+    "freq_rank": 2095,
     "example": {
       "fiwo": "Gojiap gojid odcanop.",
       "english": "The puller pulled the rope."
@@ -9762,7 +9786,7 @@ const derivedDictionaryData = [
       "reformer"
     ],
     "freq": 0,
-    "freq_rank": 2730,
+    "freq_rank": 2731,
     "example": {
       "fiwo": "Pitbiap pitbid zapup.",
       "english": "The reformer reformed the system."
@@ -9782,7 +9806,7 @@ const derivedDictionaryData = [
       "tuned"
     ],
     "freq": 0,
-    "freq_rank": 2731,
+    "freq_rank": 2732,
     "example": {
       "fiwo": "Fatop pitbiei.",
       "english": "The machine is calibrated."
@@ -9801,7 +9825,7 @@ const derivedDictionaryData = [
       "reform"
     ],
     "freq": 0,
-    "freq_rank": 2732,
+    "freq_rank": 2733,
     "example": {
       "fiwo": "Pitbiup zy batap tandei.",
       "english": "The improvement of the food is big."
@@ -9819,7 +9843,7 @@ const derivedDictionaryData = [
       "hourly"
     ],
     "freq": 0,
-    "freq_rank": 2095,
+    "freq_rank": 2096,
     "example": {
       "fiwo": "Nuvwop gomue brenid.",
       "english": "The hourly bus came."
@@ -9838,7 +9862,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1186,
+    "freq_rank": 1189,
     "example": {
       "fiwo": "Gofop goqei.",
       "english": "The wood is thick."
@@ -9856,7 +9880,7 @@ const derivedDictionaryData = [
       "thickness"
     ],
     "freq": 0,
-    "freq_rank": 2096,
+    "freq_rank": 2097,
     "example": {
       "fiwo": "Goqeup zy krapop dotei.",
       "english": "The thickness of the wall is strong."
@@ -9874,7 +9898,7 @@ const derivedDictionaryData = [
       "governmental"
     ],
     "freq": 0,
-    "freq_rank": 2097,
+    "freq_rank": 2098,
     "example": {
       "fiwo": "Ram foisor govnue.",
       "english": "It is a government building."
@@ -9911,7 +9935,7 @@ const derivedDictionaryData = [
       "grateful person"
     ],
     "freq": 0,
-    "freq_rank": 2098,
+    "freq_rank": 2099,
     "example": {
       "fiwo": "Grawiap grawid mik.",
       "english": "The grateful person thanked me."
@@ -9929,7 +9953,7 @@ const derivedDictionaryData = [
       "astronomer"
     ],
     "freq": 0,
-    "freq_rank": 2101,
+    "freq_rank": 2102,
     "example": {
       "fiwo": "Grexoap tsejapid stalop je.",
       "english": "The astronomer watched the stars."
@@ -9948,7 +9972,7 @@ const derivedDictionaryData = [
       "resembling celestial object"
     ],
     "freq": 0,
-    "freq_rank": 2102,
+    "freq_rank": 2103,
     "example": {
       "fiwo": "Mik tsejaid cemur grexoe.",
       "english": "I saw a planet-like thing."
@@ -9966,7 +9990,7 @@ const derivedDictionaryData = [
       "astronomy"
     ],
     "freq": 0,
-    "freq_rank": 2103,
+    "freq_rank": 2104,
     "example": {
       "fiwo": "Das keci grexou.",
       "english": "She studies astronomy."
@@ -9984,7 +10008,7 @@ const derivedDictionaryData = [
       "hugger"
     ],
     "freq": 0,
-    "freq_rank": 2104,
+    "freq_rank": 2105,
     "example": {
       "fiwo": "Grunkiap grunkid mik.",
       "english": "The hugger hugged me."
@@ -10004,7 +10028,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2105,
+    "freq_rank": 2106,
     "example": {
       "fiwo": "Jurop gruvesei.",
       "english": "The city is modernizing."
@@ -10024,7 +10048,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2106,
+    "freq_rank": 2107,
     "example": {
       "fiwo": "Gruveseup zy jurop tandei.",
       "english": "The modernity of the city is great."
@@ -10042,7 +10066,7 @@ const derivedDictionaryData = [
       "accountant"
     ],
     "freq": 0,
-    "freq_rank": 2107,
+    "freq_rank": 2108,
     "example": {
       "fiwo": "Guamiap guamid gidup.",
       "english": "The accountant counted the money."
@@ -10060,7 +10084,7 @@ const derivedDictionaryData = [
       "calculator"
     ],
     "freq": 0,
-    "freq_rank": 2108,
+    "freq_rank": 2109,
     "example": {
       "fiwo": "Kop zyli guamiop.",
       "english": "Use the calculator."
@@ -10080,7 +10104,7 @@ const derivedDictionaryData = [
       "emeraldine"
     ],
     "freq": 0,
-    "freq_rank": 2110,
+    "freq_rank": 2111,
     "example": {
       "fiwo": "Das hekri fijaor gufundoe.",
       "english": "She wears an emerald earring."
@@ -10098,7 +10122,7 @@ const derivedDictionaryData = [
       "stander"
     ],
     "freq": 0,
-    "freq_rank": 2111,
+    "freq_rank": 2112,
     "example": {
       "fiwo": "Gugiap je wastid.",
       "english": "The standing people waited."
@@ -10118,7 +10142,7 @@ const derivedDictionaryData = [
       "vertical"
     ],
     "freq": 0,
-    "freq_rank": 2112,
+    "freq_rank": 2113,
     "example": {
       "fiwo": "Ram kyzkor gugie.",
       "english": "It is a standing statue."
@@ -10137,7 +10161,7 @@ const derivedDictionaryData = [
       "prideful"
     ],
     "freq": 0,
-    "freq_rank": 2114,
+    "freq_rank": 2115,
     "example": {
       "fiwo": "Manap mike guipsueid.",
       "english": "My mother was proud."
@@ -10155,7 +10179,7 @@ const derivedDictionaryData = [
       "downloader"
     ],
     "freq": 0,
-    "freq_rank": 2115,
+    "freq_rank": 2116,
     "example": {
       "fiwo": "Gulipiap gulipid widirpop.",
       "english": "The downloader downloaded the video."
@@ -10174,7 +10198,7 @@ const derivedDictionaryData = [
       "cliff guide"
     ],
     "freq": 0,
-    "freq_rank": 2116,
+    "freq_rank": 2117,
     "example": {
       "fiwo": "Gunoloap drijid gunolop.",
       "english": "The cliff climber climbed the cliff."
@@ -10193,7 +10217,7 @@ const derivedDictionaryData = [
       "resembling cliff"
     ],
     "freq": 0,
-    "freq_rank": 2117,
+    "freq_rank": 2118,
     "example": {
       "fiwo": "Gikosop gunoloei.",
       "english": "The coast is cliff-like."
@@ -10212,7 +10236,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1190,
+    "freq_rank": 1193,
     "example": {
       "fiwo": "Cadap gurei nudu.",
       "english": "The child is lazy today."
@@ -10231,7 +10255,7 @@ const derivedDictionaryData = [
       "idleness"
     ],
     "freq": 0,
-    "freq_rank": 2119,
+    "freq_rank": 2120,
     "example": {
       "fiwo": "Gureup dale linid biwur.",
       "english": "His laziness caused a problem."
@@ -10250,7 +10274,7 @@ const derivedDictionaryData = [
       "resembling tool"
     ],
     "freq": 0,
-    "freq_rank": 2120,
+    "freq_rank": 2121,
     "example": {
       "fiwo": "Lazop gutoei.",
       "english": "The stick is tool-like."
@@ -10288,7 +10312,7 @@ const derivedDictionaryData = [
       "resembling enemy"
     ],
     "freq": 0,
-    "freq_rank": 2121,
+    "freq_rank": 2122,
     "example": {
       "fiwo": "Daq gesid zuwu guzae.",
       "english": "He spoke in an enemy-like way."
@@ -10307,7 +10331,7 @@ const derivedDictionaryData = [
       "hostility"
     ],
     "freq": 0,
-    "freq_rank": 2122,
+    "freq_rank": 2123,
     "example": {
       "fiwo": "Guzaup zy xekup kage dwimei.",
       "english": "The enmity between the two countries is long."
@@ -10326,7 +10350,7 @@ const derivedDictionaryData = [
       "vulpine"
     ],
     "freq": 0,
-    "freq_rank": 2129,
+    "freq_rank": 2130,
     "example": {
       "fiwo": "Latwap gydzaei.",
       "english": "The animal is fox-like."
@@ -10345,7 +10369,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 7,
-    "freq_rank": 574,
+    "freq_rank": 575,
     "example": {
       "fiwo": "Ram gykei.",
       "english": "It is weird."
@@ -10364,7 +10388,7 @@ const derivedDictionaryData = [
       "weirdness"
     ],
     "freq": 0,
-    "freq_rank": 2130,
+    "freq_rank": 2131,
     "example": {
       "fiwo": "Gykeup zy stepup sujui mik.",
       "english": "The strangeness of the story interests me."
@@ -10382,7 +10406,7 @@ const derivedDictionaryData = [
       "online"
     ],
     "freq": 0,
-    "freq_rank": 2132,
+    "freq_rank": 2133,
     "example": {
       "fiwo": "Mik gidsid ram mety xyror gypue.",
       "english": "I bought it through an online shop."
@@ -10402,7 +10426,7 @@ const derivedDictionaryData = [
       "web page"
     ],
     "freq": 1,
-    "freq_rank": 1192,
+    "freq_rank": 1195,
     "example": {
       "fiwo": "Mik sapid gypuor.",
       "english": "I made a website."
@@ -10420,7 +10444,7 @@ const derivedDictionaryData = [
       "respondent"
     ],
     "freq": 0,
-    "freq_rank": 2133,
+    "freq_rank": 2134,
     "example": {
       "fiwo": "Hadiap hadid ruze.",
       "english": "The respondent answered quickly."
@@ -10439,7 +10463,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2134,
+    "freq_rank": 2135,
     "example": {
       "fiwo": "Ram haibei.",
       "english": "It is still so."
@@ -10457,7 +10481,7 @@ const derivedDictionaryData = [
       "nostalgic"
     ],
     "freq": 0,
-    "freq_rank": 2136,
+    "freq_rank": 2137,
     "example": {
       "fiwo": "Mik hakuei.",
       "english": "I feel nostalgic."
@@ -10477,7 +10501,7 @@ const derivedDictionaryData = [
       "container-like"
     ],
     "freq": 0,
-    "freq_rank": 2138,
+    "freq_rank": 2139,
     "example": {
       "fiwo": "Batap hanoei.",
       "english": "The food is boxed."
@@ -10497,7 +10521,7 @@ const derivedDictionaryData = [
       "foaming"
     ],
     "freq": 0,
-    "freq_rank": 2140,
+    "freq_rank": 2141,
     "example": {
       "fiwo": "Roliop harosoei.",
       "english": "The drink is bubbly."
@@ -10515,7 +10539,7 @@ const derivedDictionaryData = [
       "laugher"
     ],
     "freq": 0,
-    "freq_rank": 2463,
+    "freq_rank": 2464,
     "example": {
       "fiwo": "Lofniap lofnid huhe.",
       "english": "The laugher laughed a lot."
@@ -10534,7 +10558,7 @@ const derivedDictionaryData = [
       "jolly"
     ],
     "freq": 0,
-    "freq_rank": 2464,
+    "freq_rank": 2465,
     "example": {
       "fiwo": "Das nofar lofnie.",
       "english": "She is a cheerful person."
@@ -10552,7 +10576,7 @@ const derivedDictionaryData = [
       "musician"
     ],
     "freq": 1,
-    "freq_rank": 1196,
+    "freq_rank": 1199,
     "example": {
       "fiwo": "Hautuap uropid lozuxur.",
       "english": "The musician sang a song."
@@ -10572,7 +10596,7 @@ const derivedDictionaryData = [
       "melodic"
     ],
     "freq": 0,
-    "freq_rank": 2141,
+    "freq_rank": 2142,
     "example": {
       "fiwo": "Das cadar hautue.",
       "english": "She is a musical child."
@@ -10591,7 +10615,7 @@ const derivedDictionaryData = [
       "resembling husband"
     ],
     "freq": 0,
-    "freq_rank": 2142,
+    "freq_rank": 2143,
     "example": {
       "fiwo": "Daq nauxar hazbae.",
       "english": "He is a husband-like friend."
@@ -10609,7 +10633,7 @@ const derivedDictionaryData = [
       "partial"
     ],
     "freq": 0,
-    "freq_rank": 2143,
+    "freq_rank": 2144,
     "example": {
       "fiwo": "Uxkup hedcuei.",
       "english": "The success is partial."
@@ -10627,7 +10651,7 @@ const derivedDictionaryData = [
       "a person who wears something"
     ],
     "freq": 0,
-    "freq_rank": 2146,
+    "freq_rank": 2147,
     "example": {
       "fiwo": "Hekriap zy ikamop kypei.",
       "english": "The person wearing the shirt is happy."
@@ -10645,7 +10669,7 @@ const derivedDictionaryData = [
       "being worn"
     ],
     "freq": 0,
-    "freq_rank": 2147,
+    "freq_rank": 2148,
     "example": {
       "fiwo": "Ikamop hekriei.",
       "english": "The shirt is worn."
@@ -10663,7 +10687,7 @@ const derivedDictionaryData = [
       "a worn item"
     ],
     "freq": 0,
-    "freq_rank": 2148,
+    "freq_rank": 2149,
     "example": {
       "fiwo": "Hekriop dase baudei.",
       "english": "Her worn item is beautiful."
@@ -10681,7 +10705,7 @@ const derivedDictionaryData = [
       "the act or state of wearing"
     ],
     "freq": 0,
-    "freq_rank": 2149,
+    "freq_rank": 2150,
     "example": {
       "fiwo": "Hekriup zy meokop jorei.",
       "english": "Wearing the hat is important."
@@ -10741,7 +10765,7 @@ const derivedDictionaryData = [
       "near"
     ],
     "freq": 0,
-    "freq_rank": 2150,
+    "freq_rank": 2151,
     "example": {
       "fiwo": "Kyfap hemyid sydop.",
       "english": "The bird approached the house."
@@ -10760,7 +10784,7 @@ const derivedDictionaryData = [
       "vicinity"
     ],
     "freq": 0,
-    "freq_rank": 2151,
+    "freq_rank": 2152,
     "example": {
       "fiwo": "Hemyup zy tubsop gawei.",
       "english": "The nearness of the ocean is nice."
@@ -10778,7 +10802,7 @@ const derivedDictionaryData = [
       "forgiver"
     ],
     "freq": 0,
-    "freq_rank": 2152,
+    "freq_rank": 2153,
     "example": {
       "fiwo": "Heviap hevid mik.",
       "english": "The forgiver forgave me."
@@ -10797,7 +10821,7 @@ const derivedDictionaryData = [
       "lenient"
     ],
     "freq": 0,
-    "freq_rank": 2153,
+    "freq_rank": 2154,
     "example": {
       "fiwo": "Manap mike heviei.",
       "english": "My mother is forgiving."
@@ -10816,7 +10840,7 @@ const derivedDictionaryData = [
       "resembling parrot"
     ],
     "freq": 0,
-    "freq_rank": 2155,
+    "freq_rank": 2156,
     "example": {
       "fiwo": "Xucup dale hezeskaei.",
       "english": "His voice is parrot-like."
@@ -10836,7 +10860,7 @@ const derivedDictionaryData = [
       "parrot"
     ],
     "freq": 0,
-    "freq_rank": 2156,
+    "freq_rank": 2157,
     "example": {
       "fiwo": "Cadap hezeskaid gop je mike.",
       "english": "The child mimicked my words."
@@ -10855,7 +10879,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2157,
+    "freq_rank": 2158,
     "example": {
       "fiwo": "Nofap je hiarucei.",
       "english": "The people are one million."
@@ -10874,7 +10898,7 @@ const derivedDictionaryData = [
       "resembling anvil"
     ],
     "freq": 0,
-    "freq_rank": 2159,
+    "freq_rank": 2160,
     "example": {
       "fiwo": "Drekop hibomoei.",
       "english": "The rock is anvil-like."
@@ -10892,7 +10916,7 @@ const derivedDictionaryData = [
       "walker"
     ],
     "freq": 0,
-    "freq_rank": 2160,
+    "freq_rank": 2161,
     "example": {
       "fiwo": "Hiciap hicid dwime.",
       "english": "The walker walked for a long time."
@@ -10930,7 +10954,7 @@ const derivedDictionaryData = [
       "resembling hole"
     ],
     "freq": 0,
-    "freq_rank": 2162,
+    "freq_rank": 2163,
     "example": {
       "fiwo": "Zasop hiroei.",
       "english": "The ground is full of holes."
@@ -10948,7 +10972,7 @@ const derivedDictionaryData = [
       "nominal"
     ],
     "freq": 0,
-    "freq_rank": 2163,
+    "freq_rank": 2164,
     "example": {
       "fiwo": "Ram melfur hisue.",
       "english": "It is a nominal price."
@@ -10967,7 +10991,7 @@ const derivedDictionaryData = [
       "resembling grandchild"
     ],
     "freq": 0,
-    "freq_rank": 2164,
+    "freq_rank": 2165,
     "example": {
       "fiwo": "Daq gawei zy mik zuwu hobcadae.",
       "english": "He is good to me like a grandchild."
@@ -11005,7 +11029,7 @@ const derivedDictionaryData = [
       "youthfulness"
     ],
     "freq": 0,
-    "freq_rank": 2165,
+    "freq_rank": 2166,
     "example": {
       "fiwo": "Hobeup mike kypeid.",
       "english": "My youth was happy."
@@ -11024,7 +11048,7 @@ const derivedDictionaryData = [
       "resembling musical instrument"
     ],
     "freq": 0,
-    "freq_rank": 2167,
+    "freq_rank": 2168,
     "example": {
       "fiwo": "Fatop hoqypoe skejui.",
       "english": "The instrument-like machine makes sound."
@@ -11044,7 +11068,7 @@ const derivedDictionaryData = [
       "antler-like"
     ],
     "freq": 0,
-    "freq_rank": 2169,
+    "freq_rank": 2170,
     "example": {
       "fiwo": "Drekop horbaei.",
       "english": "The rock is horn-shaped."
@@ -11062,7 +11086,11 @@ const derivedDictionaryData = [
       "horn"
     ],
     "freq": 1,
-    "freq_rank": 1198
+    "freq_rank": 1201,
+    "example": {
+      "fiwo": "Daq skejuid horbaop.",
+      "english": "He sounded the horn."
+    }
   },
   {
     "word": "horulfua",
@@ -11077,7 +11105,7 @@ const derivedDictionaryData = [
       "jury member"
     ],
     "freq": 0,
-    "freq_rank": 2170,
+    "freq_rank": 2171,
     "example": {
       "fiwo": "Horulfuap hadid.",
       "english": "The juror answered."
@@ -11097,7 +11125,7 @@ const derivedDictionaryData = [
       "cane"
     ],
     "freq": 0,
-    "freq_rank": 2171,
+    "freq_rank": 2172,
     "example": {
       "fiwo": "Xiolop hoswaei.",
       "english": "The chair is made of bamboo."
@@ -11117,7 +11145,7 @@ const derivedDictionaryData = [
       "gateway-shaped"
     ],
     "freq": 0,
-    "freq_rank": 2172,
+    "freq_rank": 2173,
     "example": {
       "fiwo": "Krapop hoxoei.",
       "english": "The wall is door-like."
@@ -11137,7 +11165,7 @@ const derivedDictionaryData = [
       "reversed"
     ],
     "freq": 0,
-    "freq_rank": 2173,
+    "freq_rank": 2174,
     "example": {
       "fiwo": "Degop hufribiei.",
       "english": "The table is flipped."
@@ -11156,7 +11184,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2174,
+    "freq_rank": 2175,
     "example": {
       "fiwo": "Ripeup huhei.",
       "english": "The heat is extreme."
@@ -11174,7 +11202,7 @@ const derivedDictionaryData = [
       "hanger"
     ],
     "freq": 0,
-    "freq_rank": 2175,
+    "freq_rank": 2176,
     "example": {
       "fiwo": "Hujiap hujid lakirop.",
       "english": "The hanger hung the picture."
@@ -11194,7 +11222,7 @@ const derivedDictionaryData = [
       "attached"
     ],
     "freq": 0,
-    "freq_rank": 2176,
+    "freq_rank": 2177,
     "example": {
       "fiwo": "Lakirop hujie baudei.",
       "english": "The hanging picture is beautiful."
@@ -11213,7 +11241,7 @@ const derivedDictionaryData = [
       "resembling llama"
     ],
     "freq": 0,
-    "freq_rank": 2178,
+    "freq_rank": 2179,
     "example": {
       "fiwo": "Latwap hulkaei.",
       "english": "The animal is llama-like."
@@ -11231,7 +11259,7 @@ const derivedDictionaryData = [
       "central"
     ],
     "freq": 0,
-    "freq_rank": 2180,
+    "freq_rank": 2181,
     "example": {
       "fiwo": "Ram rerpor hupue.",
       "english": "It is a central place."
@@ -11250,7 +11278,7 @@ const derivedDictionaryData = [
       "resembling shoulder"
     ],
     "freq": 0,
-    "freq_rank": 2181,
+    "freq_rank": 2182,
     "example": {
       "fiwo": "Drekop huqaei.",
       "english": "The rock is shoulder-like."
@@ -11269,7 +11297,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1203,
+    "freq_rank": 1206,
     "example": {
       "fiwo": "Biwup sile hutsei.",
       "english": "This problem is the main one."
@@ -11288,7 +11316,7 @@ const derivedDictionaryData = [
       "primacy"
     ],
     "freq": 0,
-    "freq_rank": 2182,
+    "freq_rank": 2183,
     "example": {
       "fiwo": "Hutseup zy jurop jorei.",
       "english": "The centrality of the city is important."
@@ -11307,7 +11335,7 @@ const derivedDictionaryData = [
       "resembling scissors"
     ],
     "freq": 0,
-    "freq_rank": 2184,
+    "freq_rank": 2185,
     "example": {
       "fiwo": "Gutop hyhoei.",
       "english": "The tool is scissors-like."
@@ -11325,7 +11353,7 @@ const derivedDictionaryData = [
       "test-related"
     ],
     "freq": 0,
-    "freq_rank": 2185,
+    "freq_rank": 2186,
     "example": {
       "fiwo": "Ram biwur hykuxue.",
       "english": "It is a test-related problem."
@@ -11344,7 +11372,7 @@ const derivedDictionaryData = [
       "resembling lip"
     ],
     "freq": 0,
-    "freq_rank": 2187,
+    "freq_rank": 2188,
     "example": {
       "fiwo": "Cilap hylsaei.",
       "english": "The leaf is lip-like."
@@ -11363,7 +11391,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2188,
+    "freq_rank": 2189,
     "example": {
       "fiwo": "Ram hymei.",
       "english": "It is habitual."
@@ -11383,7 +11411,7 @@ const derivedDictionaryData = [
       "routine"
     ],
     "freq": 0,
-    "freq_rank": 2189,
+    "freq_rank": 2190,
     "example": {
       "fiwo": "Hymeup mike gawei.",
       "english": "My habit is good."
@@ -11403,7 +11431,7 @@ const derivedDictionaryData = [
       "prudent"
     ],
     "freq": 0,
-    "freq_rank": 2190,
+    "freq_rank": 2191,
     "example": {
       "fiwo": "Wasnupap mike hyquei.",
       "english": "My grandparent is wise."
@@ -11440,7 +11468,7 @@ const derivedDictionaryData = [
       "specialness"
     ],
     "freq": 0,
-    "freq_rank": 2124,
+    "freq_rank": 2125,
     "example": {
       "fiwo": "Gwaceup zy stepup sujui mik.",
       "english": "The specialness of the story interests me."
@@ -11458,7 +11486,7 @@ const derivedDictionaryData = [
       "learner"
     ],
     "freq": 1,
-    "freq_rank": 1240,
+    "freq_rank": 1243,
     "example": {
       "fiwo": "Keciap keci fiwo.",
       "english": "The learner learns Fiwo."
@@ -11477,7 +11505,7 @@ const derivedDictionaryData = [
       "resembling teacher"
     ],
     "freq": 0,
-    "freq_rank": 2192,
+    "freq_rank": 2193,
     "example": {
       "fiwo": "Daq gesi zuwu ibalirae.",
       "english": "He speaks in a teacher-like way."
@@ -11495,7 +11523,7 @@ const derivedDictionaryData = [
       "educational"
     ],
     "freq": 0,
-    "freq_rank": 2194,
+    "freq_rank": 2195,
     "example": {
       "fiwo": "Muk tsejapid vakykor ibalue.",
       "english": "We watched an educational movie."
@@ -11514,7 +11542,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1206,
+    "freq_rank": 1209,
     "example": {
       "fiwo": "Uxkup sile ibanei.",
       "english": "This success is significant."
@@ -11532,7 +11560,7 @@ const derivedDictionaryData = [
       "significance"
     ],
     "freq": 0,
-    "freq_rank": 2196,
+    "freq_rank": 2197,
     "example": {
       "fiwo": "Ibaneup zy ladup tandei.",
       "english": "The significance of the idea is great."
@@ -11551,7 +11579,7 @@ const derivedDictionaryData = [
       "resembling school"
     ],
     "freq": 1,
-    "freq_rank": 1207,
+    "freq_rank": 1210,
     "example": {
       "fiwo": "Foisop ibazoei.",
       "english": "The building is school-like."
@@ -11569,7 +11597,7 @@ const derivedDictionaryData = [
       "class-based"
     ],
     "freq": 0,
-    "freq_rank": 2197,
+    "freq_rank": 2198,
     "example": {
       "fiwo": "Ram snecur ibitue.",
       "english": "It is a class-based project."
@@ -11587,7 +11615,7 @@ const derivedDictionaryData = [
       "pourer"
     ],
     "freq": 0,
-    "freq_rank": 2198,
+    "freq_rank": 2199,
     "example": {
       "fiwo": "Ibviap ibvid tesop.",
       "english": "The pourer poured the tea."
@@ -11606,7 +11634,7 @@ const derivedDictionaryData = [
       "recurring"
     ],
     "freq": 0,
-    "freq_rank": 2199,
+    "freq_rank": 2200,
     "example": {
       "fiwo": "Ram mipfur icejenue.",
       "english": "It is a periodic activity."
@@ -11625,7 +11653,7 @@ const derivedDictionaryData = [
       "resembling plate"
     ],
     "freq": 0,
-    "freq_rank": 2200,
+    "freq_rank": 2201,
     "example": {
       "fiwo": "Drekop wapse icifoei.",
       "english": "The flat rock is plate-like."
@@ -11644,7 +11672,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1209,
+    "freq_rank": 1212,
     "example": {
       "fiwo": "Ram idrei.",
       "english": "It is a quarter."
@@ -11662,7 +11690,7 @@ const derivedDictionaryData = [
       "mysterious"
     ],
     "freq": 0,
-    "freq_rank": 2201,
+    "freq_rank": 2202,
     "example": {
       "fiwo": "Daq nofar idvue.",
       "english": "He is a mysterious person."
@@ -11681,7 +11709,7 @@ const derivedDictionaryData = [
       "leonine"
     ],
     "freq": 1,
-    "freq_rank": 1210,
+    "freq_rank": 1213,
     "example": {
       "fiwo": "Catsap tande iegaei.",
       "english": "The big cat is lion-like."
@@ -11699,7 +11727,7 @@ const derivedDictionaryData = [
       "decider"
     ],
     "freq": 0,
-    "freq_rank": 2202,
+    "freq_rank": 2203,
     "example": {
       "fiwo": "Ifeziap ifezid ruze.",
       "english": "The decider decided quickly."
@@ -11738,7 +11766,7 @@ const derivedDictionaryData = [
       "resembling toothbrush"
     ],
     "freq": 0,
-    "freq_rank": 2204,
+    "freq_rank": 2205,
     "example": {
       "fiwo": "Cemup ifgoei.",
       "english": "The thing is toothbrush-like."
@@ -11756,7 +11784,7 @@ const derivedDictionaryData = [
       "brush teeth"
     ],
     "freq": 0,
-    "freq_rank": 2205,
+    "freq_rank": 2206,
     "example": {
       "fiwo": "Kop ifgoi pary usiu.",
       "english": "Brush your teeth before sleep."
@@ -11775,7 +11803,7 @@ const derivedDictionaryData = [
       "resembling saddle"
     ],
     "freq": 0,
-    "freq_rank": 2207,
+    "freq_rank": 2208,
     "example": {
       "fiwo": "Drekop iflocoei.",
       "english": "The rock is saddle-like."
@@ -11794,7 +11822,7 @@ const derivedDictionaryData = [
       "resembling card"
     ],
     "freq": 0,
-    "freq_rank": 2598,
+    "freq_rank": 2599,
     "example": {
       "fiwo": "Paelop newoei.",
       "english": "The paper is card-like."
@@ -11813,7 +11841,7 @@ const derivedDictionaryData = [
       "resembling tail"
     ],
     "freq": 0,
-    "freq_rank": 2209,
+    "freq_rank": 2210,
     "example": {
       "fiwo": "Nasap jedi cila ijyrae.",
       "english": "The plant has tail-like leaves."
@@ -11831,7 +11859,7 @@ const derivedDictionaryData = [
       "to wag"
     ],
     "freq": 1,
-    "freq_rank": 1212,
+    "freq_rank": 1215,
     "example": {
       "fiwo": "Detap ijyraiq.",
       "english": "The dog is wagging."
@@ -11850,7 +11878,7 @@ const derivedDictionaryData = [
       "resembling shirt"
     ],
     "freq": 0,
-    "freq_rank": 2210,
+    "freq_rank": 2211,
     "example": {
       "fiwo": "Buskop ikamoei.",
       "english": "The clothing is shirt-like."
@@ -11868,7 +11896,7 @@ const derivedDictionaryData = [
       "influencer"
     ],
     "freq": 0,
-    "freq_rank": 2211,
+    "freq_rank": 2212,
     "example": {
       "fiwo": "Ikapiap ikapid nofa jedle.",
       "english": "The influencer influenced many people."
@@ -11886,7 +11914,7 @@ const derivedDictionaryData = [
       "lawyer"
     ],
     "freq": 1,
-    "freq_rank": 1435,
+    "freq_rank": 1439,
     "example": {
       "fiwo": "Tifuap jofid mik ky dofemop.",
       "english": "The lawyer helped me at the court."
@@ -11923,7 +11951,7 @@ const derivedDictionaryData = [
       "resembling reptile"
     ],
     "freq": 0,
-    "freq_rank": 2212,
+    "freq_rank": 2213,
     "example": {
       "fiwo": "Latwap iladaei.",
       "english": "The animal is reptile-like."
@@ -11941,7 +11969,7 @@ const derivedDictionaryData = [
       "kneeler"
     ],
     "freq": 0,
-    "freq_rank": 2213,
+    "freq_rank": 2214,
     "example": {
       "fiwo": "Ilpiap ilpid ty zasop.",
       "english": "The kneeler knelt on the ground."
@@ -11960,7 +11988,7 @@ const derivedDictionaryData = [
       "resembling flood"
     ],
     "freq": 0,
-    "freq_rank": 2215,
+    "freq_rank": 2216,
     "example": {
       "fiwo": "Domlop imdoe brenid.",
       "english": "A flood-like rain came."
@@ -11978,7 +12006,7 @@ const derivedDictionaryData = [
       "standard"
     ],
     "freq": 0,
-    "freq_rank": 2217,
+    "freq_rank": 2218,
     "example": {
       "fiwo": "Ram melfur imsue.",
       "english": "It is a standard price."
@@ -11997,7 +12025,7 @@ const derivedDictionaryData = [
       "resembling spider"
     ],
     "freq": 0,
-    "freq_rank": 2218,
+    "freq_rank": 2219,
     "example": {
       "fiwo": "Daq jedi myga dwime ipkae.",
       "english": "He has long spider-like legs."
@@ -12034,7 +12062,7 @@ const derivedDictionaryData = [
       "effective"
     ],
     "freq": 0,
-    "freq_rank": 2221,
+    "freq_rank": 2222,
     "example": {
       "fiwo": "Nasbop sile iqocuei.",
       "english": "This medicine is effective."
@@ -12091,7 +12119,7 @@ const derivedDictionaryData = [
       "resembling tear"
     ],
     "freq": 0,
-    "freq_rank": 2222,
+    "freq_rank": 2223,
     "example": {
       "fiwo": "Domlop iraksaei.",
       "english": "The rain is tear-like."
@@ -12110,7 +12138,7 @@ const derivedDictionaryData = [
       "resembling egg"
     ],
     "freq": 0,
-    "freq_rank": 2223,
+    "freq_rank": 2224,
     "example": {
       "fiwo": "Drekop irtaei.",
       "english": "The rock is egg-like."
@@ -12128,7 +12156,7 @@ const derivedDictionaryData = [
       "resultant"
     ],
     "freq": 0,
-    "freq_rank": 2224,
+    "freq_rank": 2225,
     "example": {
       "fiwo": "Cemup isamue gaweid.",
       "english": "The resulting thing was good."
@@ -12147,7 +12175,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1217,
+    "freq_rank": 1220,
     "example": {
       "fiwo": "Bibap isnei.",
       "english": "The baby is naked."
@@ -12166,7 +12194,7 @@ const derivedDictionaryData = [
       "bareness"
     ],
     "freq": 0,
-    "freq_rank": 2226,
+    "freq_rank": 2227,
     "example": {
       "fiwo": "Isneu nes dozmei ky caeno.",
       "english": "Nakedness is not allowed on the street."
@@ -12203,7 +12231,7 @@ const derivedDictionaryData = [
       "intelligence"
     ],
     "freq": 0,
-    "freq_rank": 2227,
+    "freq_rank": 2228,
     "example": {
       "fiwo": "Itoleup dase tandei.",
       "english": "Her intelligence is great."
@@ -12222,7 +12250,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1218,
+    "freq_rank": 1221,
     "example": {
       "fiwo": "Mik itsei.",
       "english": "I am single."
@@ -12241,7 +12269,7 @@ const derivedDictionaryData = [
       "aloneness"
     ],
     "freq": 0,
-    "freq_rank": 2228,
+    "freq_rank": 2229,
     "example": {
       "fiwo": "Mik kyti itseu.",
       "english": "I like solitude."
@@ -12259,7 +12287,7 @@ const derivedDictionaryData = [
       "unsuccessful"
     ],
     "freq": 0,
-    "freq_rank": 2230,
+    "freq_rank": 2231,
     "example": {
       "fiwo": "Ram razur iubue.",
       "english": "It is an unsuccessful plan."
@@ -12277,7 +12305,7 @@ const derivedDictionaryData = [
       "fail"
     ],
     "freq": 0,
-    "freq_rank": 2231,
+    "freq_rank": 2232,
     "example": {
       "fiwo": "Razup iubuid.",
       "english": "The plan failed."
@@ -12313,9 +12341,9 @@ const derivedDictionaryData = [
       "southern"
     ],
     "freq": 0,
-    "freq_rank": 2233,
+    "freq_rank": 2234,
     "example": {
-      "fiwo": "Ivortue jurop ripei.",
+      "fiwo": "Jurop ivortue ripei.",
       "english": "The southern city is hot."
     }
   },
@@ -12332,7 +12360,7 @@ const derivedDictionaryData = [
       "resembling hammer"
     ],
     "freq": 0,
-    "freq_rank": 2234,
+    "freq_rank": 2235,
     "example": {
       "fiwo": "Gutop ivxoei.",
       "english": "The tool is hammer-like."
@@ -12351,7 +12379,7 @@ const derivedDictionaryData = [
       "pound"
     ],
     "freq": 0,
-    "freq_rank": 2235,
+    "freq_rank": 2236,
     "example": {
       "fiwo": "Daq ivxoid avmop.",
       "english": "He hammered the nail."
@@ -12389,7 +12417,7 @@ const derivedDictionaryData = [
       "fatigue"
     ],
     "freq": 0,
-    "freq_rank": 2237,
+    "freq_rank": 2238,
     "example": {
       "fiwo": "Iweup mike dwimeid.",
       "english": "My tiredness lasted long."
@@ -12409,7 +12437,7 @@ const derivedDictionaryData = [
       "bricked"
     ],
     "freq": 0,
-    "freq_rank": 2239,
+    "freq_rank": 2240,
     "example": {
       "fiwo": "Sydop ixboei.",
       "english": "The house is made of brick."
@@ -12428,7 +12456,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1219,
+    "freq_rank": 1222,
     "example": {
       "fiwo": "Zasop ixgei.",
       "english": "The ground is slippery."
@@ -12446,7 +12474,7 @@ const derivedDictionaryData = [
       "slipperiness"
     ],
     "freq": 0,
-    "freq_rank": 2241,
+    "freq_rank": 2242,
     "example": {
       "fiwo": "Ixgeup zy jawop linid tep mik sowid.",
       "english": "The slipperiness of the ice made me fall."
@@ -12466,7 +12494,7 @@ const derivedDictionaryData = [
       "of fungus"
     ],
     "freq": 0,
-    "freq_rank": 2243,
+    "freq_rank": 2244,
     "example": {
       "fiwo": "Ram otmar ixpae.",
       "english": "It is a fungal disease."
@@ -12484,7 +12512,7 @@ const derivedDictionaryData = [
       "democratic"
     ],
     "freq": 0,
-    "freq_rank": 2244,
+    "freq_rank": 2245,
     "example": {
       "fiwo": "Xekup izevufuei.",
       "english": "The country is democratic."
@@ -12504,7 +12532,7 @@ const derivedDictionaryData = [
     ],
     "usage_note": "The patient reading (the one invited). An agentive reading 'inviter / host' is possible but secondary.",
     "freq": 1,
-    "freq_rank": 1221,
+    "freq_rank": 1224,
     "example": {
       "fiwo": "Izliap brenid.",
       "english": "The guest came."
@@ -12522,7 +12550,7 @@ const derivedDictionaryData = [
       "invitation"
     ],
     "freq": 0,
-    "freq_rank": 2246,
+    "freq_rank": 2247,
     "example": {
       "fiwo": "Mik jopxid izlior.",
       "english": "I received an invitation."
@@ -12560,7 +12588,7 @@ const derivedDictionaryData = [
       "chill"
     ],
     "freq": 7,
-    "freq_rank": 575,
+    "freq_rank": 576,
     "example": {
       "fiwo": "Jabeup zy tusup dotei.",
       "english": "The coldness of winter is strong."
@@ -12579,7 +12607,7 @@ const derivedDictionaryData = [
       "alike"
     ],
     "freq": 0,
-    "freq_rank": 2247,
+    "freq_rank": 2248,
     "example": {
       "fiwo": "Cadap kage jacifiei.",
       "english": "The two children are alike."
@@ -12599,7 +12627,7 @@ const derivedDictionaryData = [
       "likeness"
     ],
     "freq": 0,
-    "freq_rank": 2248,
+    "freq_rank": 2249,
     "example": {
       "fiwo": "Jacifiup zy dal tandei.",
       "english": "The similarity between them is big."
@@ -12617,7 +12645,7 @@ const derivedDictionaryData = [
       "sexual"
     ],
     "freq": 0,
-    "freq_rank": 2249,
+    "freq_rank": 2250,
     "example": {
       "fiwo": "Ram lutur jacnie.",
       "english": "It is a sexual topic."
@@ -12636,7 +12664,11 @@ const derivedDictionaryData = [
       "intercourse"
     ],
     "freq": 1,
-    "freq_rank": 1224
+    "freq_rank": 1227,
+    "example": {
+      "fiwo": "Jacniu hedcur zy ceniu.",
+      "english": "Sex is a part of life."
+    }
   },
   {
     "word": "vezoe",
@@ -12652,7 +12684,7 @@ const derivedDictionaryData = [
       "snow-filled"
     ],
     "freq": 1,
-    "freq_rank": 1474,
+    "freq_rank": 1478,
     "example": {
       "fiwo": "Montop vezoei.",
       "english": "The mountain is snowy."
@@ -12671,7 +12703,7 @@ const derivedDictionaryData = [
       "married person"
     ],
     "freq": 0,
-    "freq_rank": 2251,
+    "freq_rank": 2252,
     "example": {
       "fiwo": "Jahiziap mike kypei.",
       "english": "My spouse is happy."
@@ -12689,7 +12721,7 @@ const derivedDictionaryData = [
       "married"
     ],
     "freq": 0,
-    "freq_rank": 2252,
+    "freq_rank": 2253,
     "example": {
       "fiwo": "Nupap mike jahiziei.",
       "english": "My parents are married."
@@ -12707,7 +12739,7 @@ const derivedDictionaryData = [
       "marriage token"
     ],
     "freq": 0,
-    "freq_rank": 2253,
+    "freq_rank": 2254,
     "example": {
       "fiwo": "Das hekri jahizio.",
       "english": "She wears a marriage token."
@@ -12725,7 +12757,7 @@ const derivedDictionaryData = [
       "marriage"
     ],
     "freq": 1,
-    "freq_rank": 1225,
+    "freq_rank": 1228,
     "example": {
       "fiwo": "Jahiziup dale dwimei.",
       "english": "Their marriage is long."
@@ -12744,7 +12776,7 @@ const derivedDictionaryData = [
       "author"
     ],
     "freq": 0,
-    "freq_rank": 2254,
+    "freq_rank": 2255,
     "example": {
       "fiwo": "Jamiap jamid nibor jaxke.",
       "english": "The writer wrote a new book."
@@ -12784,7 +12816,7 @@ const derivedDictionaryData = [
       "counter-"
     ],
     "freq": 0,
-    "freq_rank": 2255,
+    "freq_rank": 2256,
     "example": {
       "fiwo": "Xekup janye duxilid.",
       "english": "The opposing country attacked."
@@ -12802,7 +12834,7 @@ const derivedDictionaryData = [
       "annual"
     ],
     "freq": 0,
-    "freq_rank": 2256,
+    "freq_rank": 2257,
     "example": {
       "fiwo": "Ram taicur jarue.",
       "english": "It is an annual festival."
@@ -12821,7 +12853,7 @@ const derivedDictionaryData = [
       "resembling pen"
     ],
     "freq": 0,
-    "freq_rank": 2257,
+    "freq_rank": 2258,
     "example": {
       "fiwo": "Lazop jatanoei.",
       "english": "The stick is pen-like."
@@ -12839,7 +12871,7 @@ const derivedDictionaryData = [
       "infectious"
     ],
     "freq": 0,
-    "freq_rank": 2258,
+    "freq_rank": 2259,
     "example": {
       "fiwo": "Otmap sile javuquei.",
       "english": "This disease is infectious."
@@ -12857,7 +12889,7 @@ const derivedDictionaryData = [
       "icy"
     ],
     "freq": 0,
-    "freq_rank": 2259,
+    "freq_rank": 2260,
     "example": {
       "fiwo": "Caenop jawoei.",
       "english": "The street is icy."
@@ -12916,7 +12948,7 @@ const derivedDictionaryData = [
       "newness"
     ],
     "freq": 0,
-    "freq_rank": 2260,
+    "freq_rank": 2261,
     "example": {
       "fiwo": "Jaxkeup zy spelup sujui mik.",
       "english": "The novelty of the game interests me."
@@ -12936,7 +12968,7 @@ const derivedDictionaryData = [
       "belongings"
     ],
     "freq": 1,
-    "freq_rank": 1227,
+    "freq_rank": 1230,
     "example": {
       "fiwo": "Sydop jediup mike.",
       "english": "The house is my property."
@@ -12955,7 +12987,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2261,
+    "freq_rank": 2262,
     "example": {
       "fiwo": "Kyfap je jedlei.",
       "english": "The birds are many."
@@ -12973,7 +13005,7 @@ const derivedDictionaryData = [
       "developmental"
     ],
     "freq": 0,
-    "freq_rank": 2262,
+    "freq_rank": 2263,
     "example": {
       "fiwo": "Ram icejenur jeflue.",
       "english": "It is a developmental period."
@@ -12994,7 +13026,7 @@ const derivedDictionaryData = [
       "to evolve"
     ],
     "freq": 0,
-    "freq_rank": 2263,
+    "freq_rank": 2264,
     "example": {
       "fiwo": "Xekup jeflui ruze.",
       "english": "The country develops fast."
@@ -13012,7 +13044,7 @@ const derivedDictionaryData = [
       "cancerous"
     ],
     "freq": 0,
-    "freq_rank": 2264,
+    "freq_rank": 2265,
     "example": {
       "fiwo": "Ram otmar jegetrue.",
       "english": "It is a cancerous disease."
@@ -13031,7 +13063,7 @@ const derivedDictionaryData = [
       "pee"
     ],
     "freq": 0,
-    "freq_rank": 2265,
+    "freq_rank": 2266,
     "example": {
       "fiwo": "Jegsiop zy catsap aitei.",
       "english": "The cat's urine is smelly."
@@ -13050,7 +13082,7 @@ const derivedDictionaryData = [
       "peeing"
     ],
     "freq": 0,
-    "freq_rank": 2266,
+    "freq_rank": 2267,
     "example": {
       "fiwo": "Jegsiu kibei.",
       "english": "Urination is normal."
@@ -13069,7 +13101,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2268,
+    "freq_rank": 2269,
     "example": {
       "fiwo": "Ram jei.",
       "english": "It is plural."
@@ -13087,7 +13119,7 @@ const derivedDictionaryData = [
       "glorious"
     ],
     "freq": 0,
-    "freq_rank": 2269,
+    "freq_rank": 2270,
     "example": {
       "fiwo": "Ram du jejue.",
       "english": "It is a glorious day."
@@ -13106,7 +13138,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2522,
+    "freq_rank": 2523,
     "example": {
       "fiwo": "Ram mernei.",
       "english": "It is the most."
@@ -13125,7 +13157,7 @@ const derivedDictionaryData = [
       "resembling offspring"
     ],
     "freq": 0,
-    "freq_rank": 2270,
+    "freq_rank": 2271,
     "example": {
       "fiwo": "Daq nofar hobe jepae.",
       "english": "He is a young, offspring-like person."
@@ -13184,7 +13216,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1232,
+    "freq_rank": 1235,
     "example": {
       "fiwo": "Drekop jilfei.",
       "english": "The rock is smooth."
@@ -13202,7 +13234,7 @@ const derivedDictionaryData = [
       "smoothness"
     ],
     "freq": 0,
-    "freq_rank": 2271,
+    "freq_rank": 2272,
     "example": {
       "fiwo": "Jilfeup zy cogjap dase gawei.",
       "english": "The smoothness of her skin is nice."
@@ -13220,7 +13252,7 @@ const derivedDictionaryData = [
       "washer"
     ],
     "freq": 0,
-    "freq_rank": 2274,
+    "freq_rank": 2275,
     "example": {
       "fiwo": "Jipriap jiprid buskop.",
       "english": "The washer washed the clothes."
@@ -13239,7 +13271,7 @@ const derivedDictionaryData = [
       "resembling sibling's child"
     ],
     "freq": 0,
-    "freq_rank": 2275,
+    "freq_rank": 2276,
     "example": {
       "fiwo": "Daq gawei zy mik zuwu jiqae.",
       "english": "He is good to me like a nephew."
@@ -13257,7 +13289,7 @@ const derivedDictionaryData = [
       "occupational"
     ],
     "freq": 0,
-    "freq_rank": 2277,
+    "freq_rank": 2278,
     "example": {
       "fiwo": "Ram biwur jobue.",
       "english": "It is an occupational problem."
@@ -13275,7 +13307,7 @@ const derivedDictionaryData = [
       "helper"
     ],
     "freq": 0,
-    "freq_rank": 2278,
+    "freq_rank": 2279,
     "example": {
       "fiwo": "Jofiap jofid mik.",
       "english": "The helper helped me."
@@ -13294,7 +13326,7 @@ const derivedDictionaryData = [
       "obliging"
     ],
     "freq": 0,
-    "freq_rank": 2279,
+    "freq_rank": 2280,
     "example": {
       "fiwo": "Nauxap mike jofiei.",
       "english": "My friend is helpful."
@@ -13332,7 +13364,7 @@ const derivedDictionaryData = [
       "electoral"
     ],
     "freq": 0,
-    "freq_rank": 2280,
+    "freq_rank": 2281,
     "example": {
       "fiwo": "Ram aziku jokuwue.",
       "english": "It is an electoral rule."
@@ -13369,7 +13401,11 @@ const derivedDictionaryData = [
       "mean"
     ],
     "freq": 1,
-    "freq_rank": 1234
+    "freq_rank": 1237,
+    "example": {
+      "fiwo": "Daq nofar jolkodue.",
+      "english": "He is an average person."
+    }
   },
   {
     "word": "jomytia",
@@ -13383,7 +13419,7 @@ const derivedDictionaryData = [
       "investor"
     ],
     "freq": 0,
-    "freq_rank": 2281,
+    "freq_rank": 2282,
     "example": {
       "fiwo": "Jomytiap stomid gidur.",
       "english": "The investor gave money."
@@ -13401,7 +13437,7 @@ const derivedDictionaryData = [
       "investment"
     ],
     "freq": 0,
-    "freq_rank": 2282,
+    "freq_rank": 2283,
     "example": {
       "fiwo": "Jomytiup mike gaweid.",
       "english": "My investment was good."
@@ -13419,7 +13455,7 @@ const derivedDictionaryData = [
       "recipient"
     ],
     "freq": 0,
-    "freq_rank": 2283,
+    "freq_rank": 2284,
     "example": {
       "fiwo": "Jopxiap jopxid ufaxop.",
       "english": "The recipient received the letter."
@@ -13437,7 +13473,7 @@ const derivedDictionaryData = [
       "situational"
     ],
     "freq": 0,
-    "freq_rank": 2285,
+    "freq_rank": 2286,
     "example": {
       "fiwo": "Ram biwur jormue.",
       "english": "It is a situational problem."
@@ -13456,7 +13492,7 @@ const derivedDictionaryData = [
       "of an entity"
     ],
     "freq": 0,
-    "freq_rank": 2287,
+    "freq_rank": 2288,
     "example": {
       "fiwo": "Ram cemur josoe.",
       "english": "It is an entity-like thing."
@@ -13475,7 +13511,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 7,
-    "freq_rank": 576,
+    "freq_rank": 577,
     "example": {
       "fiwo": "Krulop jotsei.",
       "english": "The room is clean."
@@ -13493,7 +13529,7 @@ const derivedDictionaryData = [
       "cleanliness"
     ],
     "freq": 0,
-    "freq_rank": 2288,
+    "freq_rank": 2289,
     "example": {
       "fiwo": "Jotseu jorei.",
       "english": "Cleanliness is important."
@@ -13531,7 +13567,7 @@ const derivedDictionaryData = [
       "extent"
     ],
     "freq": 0,
-    "freq_rank": 1868,
+    "freq_rank": 1870,
     "example": {
       "fiwo": "Dwimeup zy xadorop tandei.",
       "english": "The length of the river is great."
@@ -13588,7 +13624,7 @@ const derivedDictionaryData = [
       "resembling pickaxe"
     ],
     "freq": 0,
-    "freq_rank": 2290,
+    "freq_rank": 2291,
     "example": {
       "fiwo": "Gutop jufysoei.",
       "english": "The tool is pickaxe-like."
@@ -13606,7 +13642,7 @@ const derivedDictionaryData = [
       "structural"
     ],
     "freq": 0,
-    "freq_rank": 2291,
+    "freq_rank": 2292,
     "example": {
       "fiwo": "Ram biwur jukue.",
       "english": "It is a structural problem."
@@ -13624,7 +13660,7 @@ const derivedDictionaryData = [
       "drowning"
     ],
     "freq": 0,
-    "freq_rank": 2293,
+    "freq_rank": 2294,
     "example": {
       "fiwo": "Nofap jultie jopxid jofiur.",
       "english": "The drowning person received help."
@@ -13643,7 +13679,7 @@ const derivedDictionaryData = [
       "resembling rival"
     ],
     "freq": 0,
-    "freq_rank": 2295,
+    "freq_rank": 2296,
     "example": {
       "fiwo": "Daq nauxar jumae.",
       "english": "He is a rival-like friend."
@@ -13699,7 +13735,7 @@ const derivedDictionaryData = [
       "resembling city"
     ],
     "freq": 0,
-    "freq_rank": 2296,
+    "freq_rank": 2297,
     "example": {
       "fiwo": "Mik kyti ceniu juroe.",
       "english": "I like urban life."
@@ -13718,7 +13754,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2297,
+    "freq_rank": 2298,
     "example": {
       "fiwo": "Ram juwei.",
       "english": "It is only that."
@@ -13737,7 +13773,7 @@ const derivedDictionaryData = [
       "component"
     ],
     "freq": 0,
-    "freq_rank": 2298,
+    "freq_rank": 2299,
     "example": {
       "fiwo": "Ram uxkur jye.",
       "english": "It is a partial success."
@@ -13776,7 +13812,7 @@ const derivedDictionaryData = [
       "tolerance"
     ],
     "freq": 0,
-    "freq_rank": 2300,
+    "freq_rank": 2301,
     "example": {
       "fiwo": "Jyfeu jorei.",
       "english": "Patience is important."
@@ -13794,7 +13830,7 @@ const derivedDictionaryData = [
       "fateful"
     ],
     "freq": 0,
-    "freq_rank": 2302,
+    "freq_rank": 2303,
     "example": {
       "fiwo": "Ram du jyhue.",
       "english": "It is a fateful day."
@@ -13813,7 +13849,7 @@ const derivedDictionaryData = [
       "join into"
     ],
     "freq": 0,
-    "freq_rank": 2303,
+    "freq_rank": 2304,
     "example": {
       "fiwo": "Daq jyid stramup.",
       "english": "He joined the team."
@@ -13851,7 +13887,7 @@ const derivedDictionaryData = [
       "resembling computer"
     ],
     "freq": 0,
-    "freq_rank": 2304,
+    "freq_rank": 2305,
     "example": {
       "fiwo": "Fatop jyjoei.",
       "english": "The machine is computer-like."
@@ -13870,7 +13906,7 @@ const derivedDictionaryData = [
       "IT"
     ],
     "freq": 0,
-    "freq_rank": 2305,
+    "freq_rank": 2306,
     "example": {
       "fiwo": "Das keci jyjou.",
       "english": "She studies computing."
@@ -13888,7 +13924,7 @@ const derivedDictionaryData = [
       "islander"
     ],
     "freq": 0,
-    "freq_rank": 2044,
+    "freq_rank": 2046,
     "example": {
       "fiwo": "Gaxoap je umzid nak.",
       "english": "The islanders welcomed us."
@@ -13907,7 +13943,7 @@ const derivedDictionaryData = [
       "resembling island"
     ],
     "freq": 0,
-    "freq_rank": 2045,
+    "freq_rank": 2047,
     "example": {
       "fiwo": "Woru gaxoe dorsoei.",
       "english": "The island-like area is wet."
@@ -13927,7 +13963,7 @@ const derivedDictionaryData = [
       "of a fence"
     ],
     "freq": 0,
-    "freq_rank": 2307,
+    "freq_rank": 2308,
     "example": {
       "fiwo": "Mosap je jyndoei.",
       "english": "The trees are fence-like."
@@ -13945,7 +13981,7 @@ const derivedDictionaryData = [
       "rejecter"
     ],
     "freq": 0,
-    "freq_rank": 2308,
+    "freq_rank": 2309,
     "example": {
       "fiwo": "Jyqiap jyqid ladup.",
       "english": "The rejecter rejected the idea."
@@ -13964,7 +14000,7 @@ const derivedDictionaryData = [
       "equine"
     ],
     "freq": 0,
-    "freq_rank": 2309,
+    "freq_rank": 2310,
     "example": {
       "fiwo": "Latwap kabaei.",
       "english": "The animal is horse-like."
@@ -14001,7 +14037,7 @@ const derivedDictionaryData = [
       "simplicity"
     ],
     "freq": 0,
-    "freq_rank": 2311,
+    "freq_rank": 2312,
     "example": {
       "fiwo": "Kabceup zy fiwo gawei.",
       "english": "The simplicity of Fiwo is good."
@@ -14020,7 +14056,7 @@ const derivedDictionaryData = [
       "resembling axolotl"
     ],
     "freq": 0,
-    "freq_rank": 2313,
+    "freq_rank": 2314,
     "example": {
       "fiwo": "Fubap kagaxaei.",
       "english": "The fish is axolotl-like."
@@ -14039,7 +14075,7 @@ const derivedDictionaryData = [
       "resembling cup"
     ],
     "freq": 0,
-    "freq_rank": 2315,
+    "freq_rank": 2316,
     "example": {
       "fiwo": "Hanop kaloei.",
       "english": "The container is cup-like."
@@ -14094,7 +14130,7 @@ const derivedDictionaryData = [
       "knower"
     ],
     "freq": 0,
-    "freq_rank": 2316,
+    "freq_rank": 2317,
     "example": {
       "fiwo": "Kaniap fenutid mik.",
       "english": "The knower told me."
@@ -14114,7 +14150,7 @@ const derivedDictionaryData = [
       "awareness"
     ],
     "freq": 7,
-    "freq_rank": 577,
+    "freq_rank": 578,
     "example": {
       "fiwo": "Kaniu pedur.",
       "english": "Knowledge is power."
@@ -14132,7 +14168,7 @@ const derivedDictionaryData = [
       "discoverer"
     ],
     "freq": 0,
-    "freq_rank": 2317,
+    "freq_rank": 2318,
     "example": {
       "fiwo": "Karxiap karxid lusop.",
       "english": "The finder found the key."
@@ -14151,7 +14187,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1821,
+    "freq_rank": 1823,
     "example": {
       "fiwo": "Ram denei.",
       "english": "It is any of them."
@@ -14170,7 +14206,7 @@ const derivedDictionaryData = [
       "resembling trousers"
     ],
     "freq": 0,
-    "freq_rank": 2319,
+    "freq_rank": 2320,
     "example": {
       "fiwo": "Buskop kazaroei.",
       "english": "The clothing is trousers-like."
@@ -14188,7 +14224,7 @@ const derivedDictionaryData = [
       "topical"
     ],
     "freq": 0,
-    "freq_rank": 2481,
+    "freq_rank": 2482,
     "example": {
       "fiwo": "Ram fuhytur lutue.",
       "english": "It is topical news."
@@ -14226,7 +14262,7 @@ const derivedDictionaryData = [
       "finance"
     ],
     "freq": 0,
-    "freq_rank": 2321,
+    "freq_rank": 2322,
     "example": {
       "fiwo": "Govnup kedovoid ibazop.",
       "english": "The government funded the school."
@@ -14246,7 +14282,7 @@ const derivedDictionaryData = [
       "of grass"
     ],
     "freq": 0,
-    "freq_rank": 2323,
+    "freq_rank": 2324,
     "example": {
       "fiwo": "Tofakrop keglaei.",
       "english": "The field is grassy."
@@ -14264,7 +14300,7 @@ const derivedDictionaryData = [
       "family member"
     ],
     "freq": 1,
-    "freq_rank": 1243,
+    "freq_rank": 1246,
     "example": {
       "fiwo": "Kehuluap mike brenid.",
       "english": "My family member came."
@@ -14283,7 +14319,11 @@ const derivedDictionaryData = [
       "family (adj)"
     ],
     "freq": 1,
-    "freq_rank": 1244
+    "freq_rank": 1247,
+    "example": {
+      "fiwo": "Ram taicur kehulue.",
+      "english": "It is a family party."
+    }
   },
   {
     "word": "kehului",
@@ -14297,7 +14337,7 @@ const derivedDictionaryData = [
       "to be a family"
     ],
     "freq": 0,
-    "freq_rank": 2324,
+    "freq_rank": 2325,
     "example": {
       "fiwo": "Muk kehului.",
       "english": "We are a family."
@@ -14315,7 +14355,7 @@ const derivedDictionaryData = [
       "household"
     ],
     "freq": 0,
-    "freq_rank": 2325,
+    "freq_rank": 2326,
     "example": {
       "fiwo": "Kehuluop nake tandei.",
       "english": "Our household is big."
@@ -14333,7 +14373,7 @@ const derivedDictionaryData = [
       "lonely"
     ],
     "freq": 0,
-    "freq_rank": 2327,
+    "freq_rank": 2328,
     "example": {
       "fiwo": "Daq kejakluei.",
       "english": "He is lonely."
@@ -14351,7 +14391,7 @@ const derivedDictionaryData = [
       "copier"
     ],
     "freq": 0,
-    "freq_rank": 2328,
+    "freq_rank": 2329,
     "example": {
       "fiwo": "Kekusniap kekusnid nibop.",
       "english": "The copier copied the book."
@@ -14370,7 +14410,7 @@ const derivedDictionaryData = [
       "duplicate"
     ],
     "freq": 0,
-    "freq_rank": 2329,
+    "freq_rank": 2330,
     "example": {
       "fiwo": "Mik jedi kekusnior zy jamiop.",
       "english": "I have a copy of the document."
@@ -14407,7 +14447,7 @@ const derivedDictionaryData = [
       "nativeness"
     ],
     "freq": 0,
-    "freq_rank": 2331,
+    "freq_rank": 2332,
     "example": {
       "fiwo": "Keqeup zy fiwop jorei.",
       "english": "The nativeness of the language is important."
@@ -14425,7 +14465,7 @@ const derivedDictionaryData = [
       "fortunate"
     ],
     "freq": 0,
-    "freq_rank": 2332,
+    "freq_rank": 2333,
     "example": {
       "fiwo": "Mik kewuei.",
       "english": "I am fortunate."
@@ -14480,7 +14520,7 @@ const derivedDictionaryData = [
       "keeper"
     ],
     "freq": 0,
-    "freq_rank": 2333,
+    "freq_rank": 2334,
     "example": {
       "fiwo": "Kiagiap kiagid gidup.",
       "english": "The keeper kept the money."
@@ -14498,7 +14538,7 @@ const derivedDictionaryData = [
       "jeweler"
     ],
     "freq": 0,
-    "freq_rank": 2336,
+    "freq_rank": 2337,
     "example": {
       "fiwo": "Kicojoap gidafid kicojor.",
       "english": "The jeweler sold a gem."
@@ -14518,7 +14558,7 @@ const derivedDictionaryData = [
       "precious"
     ],
     "freq": 0,
-    "freq_rank": 2337,
+    "freq_rank": 2338,
     "example": {
       "fiwo": "Meokop kicojoei.",
       "english": "The hat is jeweled."
@@ -14536,7 +14576,7 @@ const derivedDictionaryData = [
       "dawn"
     ],
     "freq": 0,
-    "freq_rank": 2338,
+    "freq_rank": 2339,
     "example": {
       "fiwo": "Litop kicursue baudei.",
       "english": "The dawn light is beautiful."
@@ -14556,7 +14596,7 @@ const derivedDictionaryData = [
       "of cherry"
     ],
     "freq": 0,
-    "freq_rank": 2341,
+    "freq_rank": 2342,
     "example": {
       "fiwo": "Mik nomid zutar kifrae.",
       "english": "I ate a cherry."
@@ -14575,7 +14615,7 @@ const derivedDictionaryData = [
       "demonstrator"
     ],
     "freq": 0,
-    "freq_rank": 2342,
+    "freq_rank": 2343,
     "example": {
       "fiwo": "Kifybiap je kifybid ky caenop.",
       "english": "The protesters protested in the street."
@@ -14594,7 +14634,7 @@ const derivedDictionaryData = [
       "demonstration"
     ],
     "freq": 1,
-    "freq_rank": 1248,
+    "freq_rank": 1251,
     "example": {
       "fiwo": "Kifybiup cimid nudu.",
       "english": "The protest started today."
@@ -14613,7 +14653,7 @@ const derivedDictionaryData = [
       "resembling chicken"
     ],
     "freq": 0,
-    "freq_rank": 2344,
+    "freq_rank": 2345,
     "example": {
       "fiwo": "Kyfap kikaei.",
       "english": "The bird is chicken-like."
@@ -14631,7 +14671,7 @@ const derivedDictionaryData = [
       "toucher"
     ],
     "freq": 0,
-    "freq_rank": 2345,
+    "freq_rank": 2346,
     "example": {
       "fiwo": "Kiliap kilid mulap.",
       "english": "The toucher touched the flower."
@@ -14649,7 +14689,7 @@ const derivedDictionaryData = [
       "killer"
     ],
     "freq": 0,
-    "freq_rank": 2346,
+    "freq_rank": 2347,
     "example": {
       "fiwo": "Kuvysup lemespid kimariap.",
       "english": "The police arrested the killer."
@@ -14687,7 +14727,7 @@ const derivedDictionaryData = [
       "lifeless"
     ],
     "freq": 1,
-    "freq_rank": 1252,
+    "freq_rank": 1255,
     "example": {
       "fiwo": "Mik karxid kyfar kimugie.",
       "english": "I found a dead bird."
@@ -14706,7 +14746,7 @@ const derivedDictionaryData = [
       "resembling knife"
     ],
     "freq": 0,
-    "freq_rank": 2347,
+    "freq_rank": 2348,
     "example": {
       "fiwo": "Cilap kinoei.",
       "english": "The leaf is knife-like."
@@ -14725,7 +14765,7 @@ const derivedDictionaryData = [
       "immunize"
     ],
     "freq": 0,
-    "freq_rank": 2348,
+    "freq_rank": 2349,
     "example": {
       "fiwo": "Farlopap kipesloid cadap.",
       "english": "The doctor vaccinated the child."
@@ -14745,7 +14785,7 @@ const derivedDictionaryData = [
       "vow"
     ],
     "freq": 1,
-    "freq_rank": 1255,
+    "freq_rank": 1258,
     "example": {
       "fiwo": "Daq kixilkuid zy xekup.",
       "english": "He swore an oath to the country."
@@ -14765,7 +14805,7 @@ const derivedDictionaryData = [
       "pay"
     ],
     "freq": 0,
-    "freq_rank": 2349,
+    "freq_rank": 2350,
     "example": {
       "fiwo": "Kjeliop mike tandeid.",
       "english": "My earnings were big."
@@ -14783,7 +14823,7 @@ const derivedDictionaryData = [
       "earning"
     ],
     "freq": 0,
-    "freq_rank": 2350,
+    "freq_rank": 2351,
     "example": {
       "fiwo": "Kjeliu jorei zy kehulu.",
       "english": "Earning is important for the family."
@@ -14802,7 +14842,7 @@ const derivedDictionaryData = [
       "resembling cloud"
     ],
     "freq": 0,
-    "freq_rank": 2534,
+    "freq_rank": 2535,
     "example": {
       "fiwo": "Bysop mipkoei.",
       "english": "The sky is cloudy."
@@ -14821,7 +14861,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2352,
+    "freq_rank": 2353,
     "example": {
       "fiwo": "Klegowoap jamid klegowor.",
       "english": "The novelist wrote a novel."
@@ -14879,7 +14919,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2357,
+    "freq_rank": 2358,
     "example": {
       "fiwo": "Kokidiap kokidid sydop.",
       "english": "The examiner examined the house."
@@ -14899,7 +14939,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2358,
+    "freq_rank": 2359,
     "example": {
       "fiwo": "Kokidiup fefuid.",
       "english": "The examination ended."
@@ -14919,7 +14959,7 @@ const derivedDictionaryData = [
       "tile-covered"
     ],
     "freq": 1,
-    "freq_rank": 1258,
+    "freq_rank": 1261,
     "example": {
       "fiwo": "Zafoirop kokloei.",
       "english": "The floor is tiled."
@@ -14938,7 +14978,7 @@ const derivedDictionaryData = [
       "competitor"
     ],
     "freq": 0,
-    "freq_rank": 2361,
+    "freq_rank": 2362,
     "example": {
       "fiwo": "Kompuap xeskid.",
       "english": "The athlete won."
@@ -14956,7 +14996,7 @@ const derivedDictionaryData = [
       "competitive"
     ],
     "freq": 0,
-    "freq_rank": 2362,
+    "freq_rank": 2363,
     "example": {
       "fiwo": "Ram spelur kompue.",
       "english": "It is a competitive game."
@@ -14974,7 +15014,7 @@ const derivedDictionaryData = [
       "commander"
     ],
     "freq": 0,
-    "freq_rank": 2363,
+    "freq_rank": 2364,
     "example": {
       "fiwo": "Kopiap kopid webutup.",
       "english": "The commander commanded the army."
@@ -14992,7 +15032,7 @@ const derivedDictionaryData = [
       "be cyan"
     ],
     "freq": 0,
-    "freq_rank": 2365,
+    "freq_rank": 2366,
     "example": {
       "fiwo": "Dorsop kowetei.",
       "english": "The water is cyan."
@@ -15010,7 +15050,7 @@ const derivedDictionaryData = [
       "clayey"
     ],
     "freq": 0,
-    "freq_rank": 2367,
+    "freq_rank": 2368,
     "example": {
       "fiwo": "Zasop kowygoei.",
       "english": "The ground is clayey."
@@ -15047,7 +15087,7 @@ const derivedDictionaryData = [
       "bitterness"
     ],
     "freq": 0,
-    "freq_rank": 2369,
+    "freq_rank": 2370,
     "example": {
       "fiwo": "Koxeup zy refop gawei.",
       "english": "The bitterness of the coffee is nice."
@@ -15067,7 +15107,7 @@ const derivedDictionaryData = [
       "wall-like"
     ],
     "freq": 0,
-    "freq_rank": 2370,
+    "freq_rank": 2371,
     "example": {
       "fiwo": "Telfop krapoe skejui.",
       "english": "The wall phone makes a sound."
@@ -15087,7 +15127,7 @@ const derivedDictionaryData = [
       "fissured"
     ],
     "freq": 0,
-    "freq_rank": 2372,
+    "freq_rank": 2373,
     "example": {
       "fiwo": "Wilop krekikiei.",
       "english": "The window is cracked."
@@ -15105,7 +15145,7 @@ const derivedDictionaryData = [
       "pet-like"
     ],
     "freq": 0,
-    "freq_rank": 2374,
+    "freq_rank": 2375,
     "example": {
       "fiwo": "Latwap krembaei.",
       "english": "The animal is pet-like."
@@ -15123,7 +15163,7 @@ const derivedDictionaryData = [
       "to keep as a pet"
     ],
     "freq": 0,
-    "freq_rank": 2375,
+    "freq_rank": 2376,
     "example": {
       "fiwo": "Das krembai catsar.",
       "english": "She keeps a cat as a pet."
@@ -15141,7 +15181,7 @@ const derivedDictionaryData = [
       "a physical object for a pet"
     ],
     "freq": 0,
-    "freq_rank": 2376,
+    "freq_rank": 2377,
     "example": {
       "fiwo": "Mik gidsid krembaor zy detap.",
       "english": "I bought a pet item for the dog."
@@ -15159,7 +15199,7 @@ const derivedDictionaryData = [
       "the concept or state of keeping a pet"
     ],
     "freq": 0,
-    "freq_rank": 2377,
+    "freq_rank": 2378,
     "example": {
       "fiwo": "Krembau jofi cada je.",
       "english": "Keeping a pet helps children."
@@ -15177,7 +15217,7 @@ const derivedDictionaryData = [
       "sharer"
     ],
     "freq": 0,
-    "freq_rank": 2378,
+    "freq_rank": 2379,
     "example": {
       "fiwo": "Krendiap krendid batap.",
       "english": "The sharer shared the food."
@@ -15195,7 +15235,7 @@ const derivedDictionaryData = [
       "teacher"
     ],
     "freq": 0,
-    "freq_rank": 2379,
+    "freq_rank": 2380,
     "example": {
       "fiwo": "Kritriap kritrid fiwo.",
       "english": "The teacher taught Fiwo."
@@ -15214,7 +15254,7 @@ const derivedDictionaryData = [
       "instruction"
     ],
     "freq": 1,
-    "freq_rank": 1259,
+    "freq_rank": 1262,
     "example": {
       "fiwo": "Kritriup dale gawei.",
       "english": "His teaching is good."
@@ -15233,7 +15273,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1261,
+    "freq_rank": 1264,
     "example": {
       "fiwo": "Gofop kromei.",
       "english": "The wood is brown."
@@ -15252,7 +15292,7 @@ const derivedDictionaryData = [
       "resembling room"
     ],
     "freq": 0,
-    "freq_rank": 2380,
+    "freq_rank": 2381,
     "example": {
       "fiwo": "Hanop tande kruloei.",
       "english": "The big box is room-like."
@@ -15271,7 +15311,7 @@ const derivedDictionaryData = [
       "resembling waist"
     ],
     "freq": 0,
-    "freq_rank": 2382,
+    "freq_rank": 2383,
     "example": {
       "fiwo": "Lazop kryskaei.",
       "english": "The stick is waist-like."
@@ -15290,7 +15330,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1263,
+    "freq_rank": 1266,
     "example": {
       "fiwo": "Lazop kuatei.",
       "english": "The stick is crooked."
@@ -15308,7 +15348,7 @@ const derivedDictionaryData = [
       "crookedness"
     ],
     "freq": 0,
-    "freq_rank": 2384,
+    "freq_rank": 2385,
     "example": {
       "fiwo": "Kuateup zy mosap gykei.",
       "english": "The crookedness of the tree is strange."
@@ -15328,7 +15368,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2385,
+    "freq_rank": 2386,
     "example": {
       "fiwo": "Kufugliap xogrid jurop.",
       "english": "The traveler visited the city."
@@ -15348,7 +15388,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2386,
+    "freq_rank": 2387,
     "example": {
       "fiwo": "Kufugliop dwimeid.",
       "english": "The journey was long."
@@ -15366,7 +15406,7 @@ const derivedDictionaryData = [
       "resister"
     ],
     "freq": 0,
-    "freq_rank": 2387,
+    "freq_rank": 2388,
     "example": {
       "fiwo": "Kujondiap kujondid webutup.",
       "english": "The resister resisted the army."
@@ -15385,7 +15425,7 @@ const derivedDictionaryData = [
       "lucrative"
     ],
     "freq": 0,
-    "freq_rank": 2388,
+    "freq_rank": 2389,
     "example": {
       "fiwo": "Biznup kukyluei.",
       "english": "The business is profitable."
@@ -15404,7 +15444,7 @@ const derivedDictionaryData = [
       "make a profit"
     ],
     "freq": 0,
-    "freq_rank": 2389,
+    "freq_rank": 2390,
     "example": {
       "fiwo": "Nak kukyluid fy spelup.",
       "english": "We profited from the game."
@@ -15423,7 +15463,7 @@ const derivedDictionaryData = [
       "resembling orchid"
     ],
     "freq": 0,
-    "freq_rank": 2391,
+    "freq_rank": 2392,
     "example": {
       "fiwo": "Mulap kunawaei.",
       "english": "The flower is orchid-like."
@@ -15501,7 +15541,7 @@ const derivedDictionaryData = [
       "assistance"
     ],
     "freq": 0,
-    "freq_rank": 1880,
+    "freq_rank": 1882,
     "example": {
       "fiwo": "Dzosiup gaweid.",
       "english": "The service was good."
@@ -15520,7 +15560,7 @@ const derivedDictionaryData = [
       "resembling bridge"
     ],
     "freq": 0,
-    "freq_rank": 2392,
+    "freq_rank": 2393,
     "example": {
       "fiwo": "Foisop kuqsoei.",
       "english": "The building is bridge-like."
@@ -15538,7 +15578,7 @@ const derivedDictionaryData = [
       "coward"
     ],
     "freq": 0,
-    "freq_rank": 1694,
+    "freq_rank": 1698,
     "example": {
       "fiwo": "Daq briwiar.",
       "english": "He is a coward."
@@ -15557,7 +15597,7 @@ const derivedDictionaryData = [
       "fearful"
     ],
     "freq": 0,
-    "freq_rank": 1695,
+    "freq_rank": 1699,
     "example": {
       "fiwo": "Catsap briwiei.",
       "english": "The cat is timid."
@@ -15596,7 +15636,7 @@ const derivedDictionaryData = [
       "resembling cake"
     ],
     "freq": 0,
-    "freq_rank": 2393,
+    "freq_rank": 2394,
     "example": {
       "fiwo": "Bryklop kusulsoei.",
       "english": "The bread is cake-like."
@@ -15616,7 +15656,7 @@ const derivedDictionaryData = [
       "cop"
     ],
     "freq": 7,
-    "freq_rank": 581,
+    "freq_rank": 582,
     "example": {
       "fiwo": "Kuvysuap jofid mik.",
       "english": "The police officer helped me."
@@ -15636,7 +15676,7 @@ const derivedDictionaryData = [
       "enforce order"
     ],
     "freq": 0,
-    "freq_rank": 2394,
+    "freq_rank": 2395,
     "example": {
       "fiwo": "Kuvysuap kuvysui caenop.",
       "english": "The police officer patrols the street."
@@ -15655,7 +15695,7 @@ const derivedDictionaryData = [
       "avian"
     ],
     "freq": 0,
-    "freq_rank": 2399,
+    "freq_rank": 2400,
     "example": {
       "fiwo": "Daq jedi ylxar kyfae.",
       "english": "He has a bird-like mouth."
@@ -15673,7 +15713,7 @@ const derivedDictionaryData = [
       "summery"
     ],
     "freq": 0,
-    "freq_rank": 2400,
+    "freq_rank": 2401,
     "example": {
       "fiwo": "Vexup kynuei nudu.",
       "english": "The weather is summery today."
@@ -15731,7 +15771,7 @@ const derivedDictionaryData = [
       "resembling feather"
     ],
     "freq": 0,
-    "freq_rank": 2401,
+    "freq_rank": 2402,
     "example": {
       "fiwo": "Xesap dase kyranaei.",
       "english": "Her hair is feather-like."
@@ -15750,7 +15790,7 @@ const derivedDictionaryData = [
       "plume"
     ],
     "freq": 0,
-    "freq_rank": 2402,
+    "freq_rank": 2403,
     "example": {
       "fiwo": "Daq jamid wy kyranaor.",
       "english": "He wrote with a quill."
@@ -15768,7 +15808,7 @@ const derivedDictionaryData = [
       "admirer"
     ],
     "freq": 0,
-    "freq_rank": 2403,
+    "freq_rank": 2404,
     "example": {
       "fiwo": "Kytiap kytid lakirop mike.",
       "english": "The admirer liked my picture."
@@ -15805,7 +15845,7 @@ const derivedDictionaryData = [
       "conceptual"
     ],
     "freq": 0,
-    "freq_rank": 2405,
+    "freq_rank": 2406,
     "example": {
       "fiwo": "Ram biwur ladue.",
       "english": "It is a conceptual problem."
@@ -15823,7 +15863,7 @@ const derivedDictionaryData = [
       "selector"
     ],
     "freq": 0,
-    "freq_rank": 2406,
+    "freq_rank": 2407,
     "example": {
       "fiwo": "Laekiap laekid gawe.",
       "english": "The selector chose well."
@@ -15843,7 +15883,7 @@ const derivedDictionaryData = [
       "option"
     ],
     "freq": 0,
-    "freq_rank": 2407,
+    "freq_rank": 2408,
     "example": {
       "fiwo": "Laekiup suke gawei.",
       "english": "Your choice is good."
@@ -15861,7 +15901,7 @@ const derivedDictionaryData = [
       "photographer"
     ],
     "freq": 0,
-    "freq_rank": 2408,
+    "freq_rank": 2409,
     "example": {
       "fiwo": "Lakiroap lakiroid nak.",
       "english": "The photographer photographed us."
@@ -15880,7 +15920,7 @@ const derivedDictionaryData = [
       "resembling picture"
     ],
     "freq": 0,
-    "freq_rank": 2409,
+    "freq_rank": 2410,
     "example": {
       "fiwo": "Montop lakiroei.",
       "english": "The mountain is picture-like."
@@ -15898,7 +15938,7 @@ const derivedDictionaryData = [
       "photograph"
     ],
     "freq": 1,
-    "freq_rank": 1267,
+    "freq_rank": 1270,
     "example": {
       "fiwo": "Mik lakiroid mulap.",
       "english": "I photographed the flower."
@@ -15916,7 +15956,7 @@ const derivedDictionaryData = [
       "milky"
     ],
     "freq": 0,
-    "freq_rank": 2410,
+    "freq_rank": 2411,
     "example": {
       "fiwo": "Difop lamsoei.",
       "english": "The liquid is milky."
@@ -15934,7 +15974,7 @@ const derivedDictionaryData = [
       "milk"
     ],
     "freq": 0,
-    "freq_rank": 2411,
+    "freq_rank": 2412,
     "example": {
       "fiwo": "Daq lamsoid buvap.",
       "english": "He milked the cow."
@@ -15971,7 +16011,7 @@ const derivedDictionaryData = [
       "adder"
     ],
     "freq": 0,
-    "freq_rank": 2412,
+    "freq_rank": 2413,
     "example": {
       "fiwo": "Lantiap lantid gu je.",
       "english": "The adder added the numbers."
@@ -15989,7 +16029,7 @@ const derivedDictionaryData = [
       "addition"
     ],
     "freq": 1,
-    "freq_rank": 1268,
+    "freq_rank": 1271,
     "example": {
       "fiwo": "Lantiu curmei.",
       "english": "Addition is easy."
@@ -16008,7 +16048,7 @@ const derivedDictionaryData = [
       "delegate"
     ],
     "freq": 0,
-    "freq_rank": 2413,
+    "freq_rank": 2414,
     "example": {
       "fiwo": "Laswitiap gesid zy nak.",
       "english": "The representative spoke for us."
@@ -16026,7 +16066,7 @@ const derivedDictionaryData = [
       "representation"
     ],
     "freq": 0,
-    "freq_rank": 2414,
+    "freq_rank": 2415,
     "example": {
       "fiwo": "Laswitiup zy nak gawei.",
       "english": "Our representation is good."
@@ -16045,7 +16085,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2415,
+    "freq_rank": 2416,
     "example": {
       "fiwo": "Ram latei.",
       "english": "It is all of it."
@@ -16085,7 +16125,7 @@ const derivedDictionaryData = [
       "resembling goat"
     ],
     "freq": 0,
-    "freq_rank": 2420,
+    "freq_rank": 2421,
     "example": {
       "fiwo": "Latwap leblaei.",
       "english": "The animal is goat-like."
@@ -16105,7 +16145,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2421,
+    "freq_rank": 2422,
     "example": {
       "fiwo": "Das lebykoid nibop dase.",
       "english": "She titled her book."
@@ -16162,7 +16202,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2422,
+    "freq_rank": 2423,
     "example": {
       "fiwo": "Legudroap xeskid.",
       "english": "The soccer player won."
@@ -16181,7 +16221,7 @@ const derivedDictionaryData = [
       "resembling fern"
     ],
     "freq": 0,
-    "freq_rank": 2423,
+    "freq_rank": 2424,
     "example": {
       "fiwo": "Nasap lehaei.",
       "english": "The plant is fern-like."
@@ -16200,7 +16240,7 @@ const derivedDictionaryData = [
       "resembling stairs"
     ],
     "freq": 0,
-    "freq_rank": 2424,
+    "freq_rank": 2425,
     "example": {
       "fiwo": "Montop lejoei.",
       "english": "The mountain is stair-like."
@@ -16219,7 +16259,7 @@ const derivedDictionaryData = [
       "apprehension"
     ],
     "freq": 0,
-    "freq_rank": 2425,
+    "freq_rank": 2426,
     "example": {
       "fiwo": "Lemespiup linucid wecdu.",
       "english": "The arrest happened yesterday."
@@ -16238,7 +16278,7 @@ const derivedDictionaryData = [
       "resembling cactus"
     ],
     "freq": 0,
-    "freq_rank": 2427,
+    "freq_rank": 2428,
     "example": {
       "fiwo": "Nasap lenawaei.",
       "english": "The plant is cactus-like."
@@ -16256,7 +16296,7 @@ const derivedDictionaryData = [
       "activator"
     ],
     "freq": 0,
-    "freq_rank": 2428,
+    "freq_rank": 2429,
     "example": {
       "fiwo": "Leociap leocid fatop.",
       "english": "The activator turned on the machine."
@@ -16276,7 +16316,7 @@ const derivedDictionaryData = [
       "power-on"
     ],
     "freq": 0,
-    "freq_rank": 2429,
+    "freq_rank": 2430,
     "example": {
       "fiwo": "Ram udbor leocie.",
       "english": "It is an activating button."
@@ -16295,7 +16335,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2430,
+    "freq_rank": 2431,
     "example": {
       "fiwo": "Cadap je lerei.",
       "english": "The children are ten."
@@ -16333,7 +16373,7 @@ const derivedDictionaryData = [
       "dirtiness"
     ],
     "freq": 0,
-    "freq_rank": 1994,
+    "freq_rank": 1996,
     "example": {
       "fiwo": "Floveup zy caenop tandei.",
       "english": "The filth of the street is great."
@@ -16371,7 +16411,7 @@ const derivedDictionaryData = [
       "cave explorer"
     ],
     "freq": 0,
-    "freq_rank": 2431,
+    "freq_rank": 2432,
     "example": {
       "fiwo": "Levidzoap tabwid nak deky levidzop.",
       "english": "The caver led us inside the cave."
@@ -16391,7 +16431,7 @@ const derivedDictionaryData = [
       "cavern-like"
     ],
     "freq": 0,
-    "freq_rank": 2432,
+    "freq_rank": 2433,
     "example": {
       "fiwo": "Latwap levidzoe ceni deky levidzop.",
       "english": "The cave-dwelling animal lives inside the cave."
@@ -16410,7 +16450,7 @@ const derivedDictionaryData = [
       "resembling mule"
     ],
     "freq": 0,
-    "freq_rank": 2435,
+    "freq_rank": 2436,
     "example": {
       "fiwo": "Latwap lexoglaei.",
       "english": "The animal is mule-like."
@@ -16429,7 +16469,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1275,
+    "freq_rank": 1278,
     "example": {
       "fiwo": "Mulap liamei.",
       "english": "The flower is pink."
@@ -16449,7 +16489,7 @@ const derivedDictionaryData = [
       "sticky-viscous"
     ],
     "freq": 0,
-    "freq_rank": 2439,
+    "freq_rank": 2440,
     "example": {
       "fiwo": "Difop libosoei.",
       "english": "The liquid is slimy."
@@ -16468,7 +16508,7 @@ const derivedDictionaryData = [
       "charitable person"
     ],
     "freq": 0,
-    "freq_rank": 2440,
+    "freq_rank": 2441,
     "example": {
       "fiwo": "Libywuap stomid gidur zy ibazop.",
       "english": "The philanthropist gave money to the school."
@@ -16487,7 +16527,7 @@ const derivedDictionaryData = [
       "generous"
     ],
     "freq": 0,
-    "freq_rank": 2441,
+    "freq_rank": 2442,
     "example": {
       "fiwo": "Das nofar libywue.",
       "english": "She is a charitable person."
@@ -16506,7 +16546,7 @@ const derivedDictionaryData = [
       "donate charitably"
     ],
     "freq": 0,
-    "freq_rank": 2442,
+    "freq_rank": 2443,
     "example": {
       "fiwo": "Nak libywui rugoxu byceve.",
       "english": "We give to charity every month."
@@ -16525,7 +16565,7 @@ const derivedDictionaryData = [
       "resembling colleague"
     ],
     "freq": 0,
-    "freq_rank": 2443,
+    "freq_rank": 2444,
     "example": {
       "fiwo": "Daq nauxar licae.",
       "english": "He is a colleague-like friend."
@@ -16544,7 +16584,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2125,
+    "freq_rank": 2126,
     "example": {
       "fiwo": "Ram gwemei.",
       "english": "It is even so."
@@ -16564,7 +16604,7 @@ const derivedDictionaryData = [
       "excrement"
     ],
     "freq": 0,
-    "freq_rank": 2126,
+    "freq_rank": 2127,
     "example": {
       "fiwo": "Gycwiop zy detap aitei.",
       "english": "The dog's poo is smelly."
@@ -16582,7 +16622,7 @@ const derivedDictionaryData = [
       "defecation"
     ],
     "freq": 0,
-    "freq_rank": 2127,
+    "freq_rank": 2128,
     "example": {
       "fiwo": "Gycwiu kibei.",
       "english": "Defecation is normal."
@@ -16600,7 +16640,7 @@ const derivedDictionaryData = [
       "causer"
     ],
     "freq": 0,
-    "freq_rank": 2449,
+    "freq_rank": 2450,
     "example": {
       "fiwo": "Liniap zy biwup okseid.",
       "english": "The one who caused the problem was wrong."
@@ -16618,7 +16658,7 @@ const derivedDictionaryData = [
       "directional"
     ],
     "freq": 0,
-    "freq_rank": 2451,
+    "freq_rank": 2452,
     "example": {
       "fiwo": "Ram uqur lirue.",
       "english": "It is a directional sign."
@@ -16636,7 +16676,7 @@ const derivedDictionaryData = [
       "professional"
     ],
     "freq": 0,
-    "freq_rank": 2453,
+    "freq_rank": 2454,
     "example": {
       "fiwo": "Daq nacia lisibue.",
       "english": "He is a professional worker."
@@ -16656,7 +16696,7 @@ const derivedDictionaryData = [
       "radiant"
     ],
     "freq": 0,
-    "freq_rank": 2454,
+    "freq_rank": 2455,
     "example": {
       "fiwo": "Krulop litoei.",
       "english": "The room is bright."
@@ -16712,7 +16752,7 @@ const derivedDictionaryData = [
       "wetness"
     ],
     "freq": 0,
-    "freq_rank": 2455,
+    "freq_rank": 2456,
     "example": {
       "fiwo": "Lixeup zy zasop linid tep mik sowid.",
       "english": "The wetness of the ground made me fall."
@@ -16750,7 +16790,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2460,
+    "freq_rank": 2461,
     "example": {
       "fiwo": "Batap sile localei.",
       "english": "This food is local."
@@ -16768,7 +16808,7 @@ const derivedDictionaryData = [
       "locality"
     ],
     "freq": 0,
-    "freq_rank": 2461,
+    "freq_rank": 2462,
     "example": {
       "fiwo": "Localeup zy batap jorei.",
       "english": "The locality of the food is important."
@@ -16806,7 +16846,7 @@ const derivedDictionaryData = [
       "resembling banner"
     ],
     "freq": 0,
-    "freq_rank": 2462,
+    "freq_rank": 2463,
     "example": {
       "fiwo": "Paelop lodroei.",
       "english": "The paper is banner-like."
@@ -16825,7 +16865,7 @@ const derivedDictionaryData = [
       "resembling throat"
     ],
     "freq": 0,
-    "freq_rank": 2466,
+    "freq_rank": 2467,
     "example": {
       "fiwo": "Egpop logegaei.",
       "english": "The tube is throat-like."
@@ -16844,7 +16884,7 @@ const derivedDictionaryData = [
       "resembling armor"
     ],
     "freq": 0,
-    "freq_rank": 2468,
+    "freq_rank": 2469,
     "example": {
       "fiwo": "Ikamop lohoei.",
       "english": "The shirt is armor-like."
@@ -16862,7 +16902,7 @@ const derivedDictionaryData = [
       "reader"
     ],
     "freq": 0,
-    "freq_rank": 2470,
+    "freq_rank": 2471,
     "example": {
       "fiwo": "Lokiap lokid nibop.",
       "english": "The reader read the book."
@@ -16882,7 +16922,7 @@ const derivedDictionaryData = [
       "lectern-style"
     ],
     "freq": 1,
-    "freq_rank": 1280,
+    "freq_rank": 1283,
     "example": {
       "fiwo": "Ram nibor lokie.",
       "english": "It is a book for reading."
@@ -16900,7 +16940,7 @@ const derivedDictionaryData = [
       "reading"
     ],
     "freq": 1,
-    "freq_rank": 1281,
+    "freq_rank": 1284,
     "example": {
       "fiwo": "Lokiu jofi keciu.",
       "english": "Reading helps learning."
@@ -16937,7 +16977,7 @@ const derivedDictionaryData = [
       "narrowness"
     ],
     "freq": 0,
-    "freq_rank": 1739,
+    "freq_rank": 1743,
     "example": {
       "fiwo": "Cenleup zy caenop linid biwur.",
       "english": "The narrowness of the street caused a problem."
@@ -16956,7 +16996,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1295,
+    "freq_rank": 1298,
     "example": {
       "fiwo": "Kinop madmei.",
       "english": "The knife is blunt."
@@ -16975,7 +17015,7 @@ const derivedDictionaryData = [
       "dullness"
     ],
     "freq": 0,
-    "freq_rank": 2495,
+    "freq_rank": 2496,
     "example": {
       "fiwo": "Madmeup zy kinop linid biwur.",
       "english": "The bluntness of the knife caused a problem."
@@ -16994,7 +17034,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1283,
+    "freq_rank": 1286,
     "example": {
       "fiwo": "Zutap loskei.",
       "english": "The fruit is yellow."
@@ -17012,7 +17052,7 @@ const derivedDictionaryData = [
       "melodic"
     ],
     "freq": 7,
-    "freq_rank": 583,
+    "freq_rank": 584,
     "example": {
       "fiwo": "Xucup dase lozuxuei.",
       "english": "Her voice is melodic."
@@ -17071,7 +17111,7 @@ const derivedDictionaryData = [
       "competence"
     ],
     "freq": 1,
-    "freq_rank": 1284,
+    "freq_rank": 1287,
     "example": {
       "fiwo": "Lugeup dase tandei.",
       "english": "Her skill is great."
@@ -17089,7 +17129,7 @@ const derivedDictionaryData = [
       "healer"
     ],
     "freq": 0,
-    "freq_rank": 2471,
+    "freq_rank": 2472,
     "example": {
       "fiwo": "Luhaciap luhacid cadap.",
       "english": "The healer healed the child."
@@ -17109,7 +17149,7 @@ const derivedDictionaryData = [
       "care"
     ],
     "freq": 1,
-    "freq_rank": 1285,
+    "freq_rank": 1288,
     "example": {
       "fiwo": "Luhaciup gaweid.",
       "english": "The treatment was good."
@@ -17128,7 +17168,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2473,
+    "freq_rank": 2474,
     "example": {
       "fiwo": "Domlop lumbei tapo.",
       "english": "Rain is rare here."
@@ -17147,7 +17187,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1286,
+    "freq_rank": 1289,
     "example": {
       "fiwo": "Mulap luokei.",
       "english": "The flower is purple."
@@ -17165,7 +17205,7 @@ const derivedDictionaryData = [
       "resonant"
     ],
     "freq": 0,
-    "freq_rank": 2475,
+    "freq_rank": 2476,
     "example": {
       "fiwo": "Levidzop luplelue skejui.",
       "english": "The resonant cave makes sounds."
@@ -17184,7 +17224,7 @@ const derivedDictionaryData = [
       "testify to"
     ],
     "freq": 0,
-    "freq_rank": 2477,
+    "freq_rank": 2478,
     "example": {
       "fiwo": "Mik lurubraid ywurdup.",
       "english": "I witnessed the crime."
@@ -17203,7 +17243,7 @@ const derivedDictionaryData = [
       "resembling key"
     ],
     "freq": 0,
-    "freq_rank": 2479,
+    "freq_rank": 2480,
     "example": {
       "fiwo": "Cemup lusoei.",
       "english": "The thing is key-like."
@@ -17221,7 +17261,7 @@ const derivedDictionaryData = [
       "unlock"
     ],
     "freq": 0,
-    "freq_rank": 2480,
+    "freq_rank": 2481,
     "example": {
       "fiwo": "Kop lusoi hoxop.",
       "english": "Unlock the door."
@@ -17240,7 +17280,7 @@ const derivedDictionaryData = [
       "resembling border"
     ],
     "freq": 0,
-    "freq_rank": 2482,
+    "freq_rank": 2483,
     "example": {
       "fiwo": "Tivwop lutufroei.",
       "english": "The path is border-like."
@@ -17259,7 +17299,7 @@ const derivedDictionaryData = [
       "injured"
     ],
     "freq": 0,
-    "freq_rank": 2483,
+    "freq_rank": 2484,
     "example": {
       "fiwo": "Nofap je luvismae jopxid jofiur.",
       "english": "The injured people received help."
@@ -17277,7 +17317,7 @@ const derivedDictionaryData = [
       "academic"
     ],
     "freq": 0,
-    "freq_rank": 2484,
+    "freq_rank": 2485,
     "example": {
       "fiwo": "Ram nibor luvwitue.",
       "english": "It is an academic book."
@@ -17296,7 +17336,7 @@ const derivedDictionaryData = [
       "resembling wire"
     ],
     "freq": 0,
-    "freq_rank": 2485,
+    "freq_rank": 2486,
     "example": {
       "fiwo": "Xesap dase lyfroei.",
       "english": "Her hair is wire-like."
@@ -17315,7 +17355,7 @@ const derivedDictionaryData = [
       "resembling lichen"
     ],
     "freq": 0,
-    "freq_rank": 2487,
+    "freq_rank": 2488,
     "example": {
       "fiwo": "Drekop lyltaei.",
       "english": "The rock is lichen-like."
@@ -17335,7 +17375,7 @@ const derivedDictionaryData = [
       "corroded"
     ],
     "freq": 0,
-    "freq_rank": 2488,
+    "freq_rank": 2489,
     "example": {
       "fiwo": "Xedop lympiei.",
       "english": "The metal is prone to rust."
@@ -17354,7 +17394,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1294,
+    "freq_rank": 1297,
     "example": {
       "fiwo": "Wusap mike lysei.",
       "english": "My hand is the right one."
@@ -17373,7 +17413,7 @@ const derivedDictionaryData = [
       "the right side"
     ],
     "freq": 0,
-    "freq_rank": 2490,
+    "freq_rank": 2491,
     "example": {
       "fiwo": "Lyseup zy ladup suke xarei.",
       "english": "The rightness of your idea is clear."
@@ -17392,7 +17432,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2491,
+    "freq_rank": 2492,
     "example": {
       "fiwo": "Ram macei.",
       "english": "It is possible."
@@ -17411,7 +17451,7 @@ const derivedDictionaryData = [
       "upgrading"
     ],
     "freq": 0,
-    "freq_rank": 2493,
+    "freq_rank": 2494,
     "example": {
       "fiwo": "Jyjop jopxid madakiur.",
       "english": "The computer received an upgrade."
@@ -17449,7 +17489,7 @@ const derivedDictionaryData = [
       "flawlessness"
     ],
     "freq": 0,
-    "freq_rank": 2497,
+    "freq_rank": 2498,
     "example": {
       "fiwo": "Mafeheu nes zovi.",
       "english": "Perfection does not exist."
@@ -17469,7 +17509,7 @@ const derivedDictionaryData = [
       "mage"
     ],
     "freq": 0,
-    "freq_rank": 2498,
+    "freq_rank": 2499,
     "example": {
       "fiwo": "Magustuap magustuid mosap.",
       "english": "The wizard enchanted the tree."
@@ -17489,7 +17529,7 @@ const derivedDictionaryData = [
       "arcane"
     ],
     "freq": 0,
-    "freq_rank": 2499,
+    "freq_rank": 2500,
     "example": {
       "fiwo": "Ram stepur magustue.",
       "english": "It is a magical story."
@@ -17508,7 +17548,7 @@ const derivedDictionaryData = [
       "cast magic"
     ],
     "freq": 1,
-    "freq_rank": 1296,
+    "freq_rank": 1299,
     "example": {
       "fiwo": "Das magustuid weorop.",
       "english": "She enchanted the ball."
@@ -17526,7 +17566,7 @@ const derivedDictionaryData = [
       "dancer"
     ],
     "freq": 0,
-    "freq_rank": 2525,
+    "freq_rank": 2526,
     "example": {
       "fiwo": "Mibniap mibnid ruze.",
       "english": "The dancer danced fast."
@@ -17545,7 +17585,7 @@ const derivedDictionaryData = [
       "dancing"
     ],
     "freq": 0,
-    "freq_rank": 2526,
+    "freq_rank": 2527,
     "example": {
       "fiwo": "Mibniup baudeid.",
       "english": "The dance was beautiful."
@@ -17566,7 +17606,7 @@ const derivedDictionaryData = [
       "resembling mother"
     ],
     "freq": 0,
-    "freq_rank": 2500,
+    "freq_rank": 2501,
     "example": {
       "fiwo": "Das gesi zuwu manae.",
       "english": "She speaks in a motherly way."
@@ -17584,7 +17624,7 @@ const derivedDictionaryData = [
       "motherhood"
     ],
     "freq": 0,
-    "freq_rank": 2501,
+    "freq_rank": 2502,
     "example": {
       "fiwo": "Manau muilei.",
       "english": "Motherhood is difficult."
@@ -17602,7 +17642,7 @@ const derivedDictionaryData = [
       "quantitative"
     ],
     "freq": 0,
-    "freq_rank": 2502,
+    "freq_rank": 2503,
     "example": {
       "fiwo": "Ram biwur mantue.",
       "english": "It is a quantitative problem."
@@ -17621,7 +17661,7 @@ const derivedDictionaryData = [
       "resembling heart"
     ],
     "freq": 0,
-    "freq_rank": 2503,
+    "freq_rank": 2504,
     "example": {
       "fiwo": "Cilap maobaei.",
       "english": "The leaf is heart-shaped."
@@ -17639,7 +17679,7 @@ const derivedDictionaryData = [
       "heartfelt"
     ],
     "freq": 0,
-    "freq_rank": 1866,
+    "freq_rank": 1868,
     "example": {
       "fiwo": "Daq gesid gop dwedue.",
       "english": "He spoke heartfelt words."
@@ -17677,7 +17717,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2504,
+    "freq_rank": 2505,
     "example": {
       "fiwo": "Nauxap je mike martei.",
       "english": "My friends are eight."
@@ -17696,7 +17736,7 @@ const derivedDictionaryData = [
       "resembling wheat"
     ],
     "freq": 0,
-    "freq_rank": 2506,
+    "freq_rank": 2507,
     "example": {
       "fiwo": "Keglap mavahaei.",
       "english": "The grass is wheat-like."
@@ -17715,7 +17755,7 @@ const derivedDictionaryData = [
       "resembling monster"
     ],
     "freq": 0,
-    "freq_rank": 2510,
+    "freq_rank": 2511,
     "example": {
       "fiwo": "Latwap mazutsaei.",
       "english": "The animal is monster-like."
@@ -17735,7 +17775,7 @@ const derivedDictionaryData = [
       "magnetic"
     ],
     "freq": 0,
-    "freq_rank": 2512,
+    "freq_rank": 2513,
     "example": {
       "fiwo": "Cemup mehefoei.",
       "english": "The thing is compass-like."
@@ -17753,7 +17793,7 @@ const derivedDictionaryData = [
       "navigate"
     ],
     "freq": 0,
-    "freq_rank": 2513,
+    "freq_rank": 2514,
     "example": {
       "fiwo": "Daq mehefoid botop.",
       "english": "He navigated the boat."
@@ -17772,7 +17812,7 @@ const derivedDictionaryData = [
       "wayfinding"
     ],
     "freq": 0,
-    "freq_rank": 2514,
+    "freq_rank": 2515,
     "example": {
       "fiwo": "Mehefou muilei ky tubso.",
       "english": "Navigation is difficult at sea."
@@ -17792,7 +17832,7 @@ const derivedDictionaryData = [
       "bone-white"
     ],
     "freq": 0,
-    "freq_rank": 2516,
+    "freq_rank": 2517,
     "example": {
       "fiwo": "Daq jedi kinor mekae.",
       "english": "He has a bone knife."
@@ -17810,7 +17850,11 @@ const derivedDictionaryData = [
       "bone tool"
     ],
     "freq": 1,
-    "freq_rank": 1301
+    "freq_rank": 1304,
+    "example": {
+      "fiwo": "Kyzkop vy mekao.",
+      "english": "The statue is made of bone."
+    }
   },
   {
     "word": "melfue",
@@ -17824,7 +17868,7 @@ const derivedDictionaryData = [
       "costly"
     ],
     "freq": 0,
-    "freq_rank": 2517,
+    "freq_rank": 2518,
     "example": {
       "fiwo": "Ram blyfor melfue.",
       "english": "It is a costly car."
@@ -17843,7 +17887,7 @@ const derivedDictionaryData = [
       "resembling hat"
     ],
     "freq": 0,
-    "freq_rank": 2518,
+    "freq_rank": 2519,
     "example": {
       "fiwo": "Mulap meokoei.",
       "english": "The flower is hat-like."
@@ -17862,7 +17906,7 @@ const derivedDictionaryData = [
       "resembling head"
     ],
     "freq": 0,
-    "freq_rank": 2519,
+    "freq_rank": 2520,
     "example": {
       "fiwo": "Drekop meotaei.",
       "english": "The rock is head-like."
@@ -17880,7 +17924,7 @@ const derivedDictionaryData = [
       "mover"
     ],
     "freq": 0,
-    "freq_rank": 2520,
+    "freq_rank": 2521,
     "example": {
       "fiwo": "Mepdiap mepdid degop.",
       "english": "The mover moved the table."
@@ -17900,7 +17944,11 @@ const derivedDictionaryData = [
       "removal"
     ],
     "freq": 1,
-    "freq_rank": 1302
+    "freq_rank": 1305,
+    "example": {
+      "fiwo": "Mepdiup zy sydop muileid.",
+      "english": "The move of the house was difficult."
+    }
   },
   {
     "word": "merifue",
@@ -17914,7 +17962,7 @@ const derivedDictionaryData = [
       "memorable"
     ],
     "freq": 1,
-    "freq_rank": 1303,
+    "freq_rank": 1306,
     "example": {
       "fiwo": "Ram du merifue.",
       "english": "It is a memorable day."
@@ -17934,7 +17982,7 @@ const derivedDictionaryData = [
       "keepsake"
     ],
     "freq": 0,
-    "freq_rank": 2521,
+    "freq_rank": 2522,
     "example": {
       "fiwo": "Mik gidsid merifuor.",
       "english": "I bought a souvenir."
@@ -17953,7 +18001,7 @@ const derivedDictionaryData = [
       "resembling shell"
     ],
     "freq": 0,
-    "freq_rank": 2524,
+    "freq_rank": 2525,
     "example": {
       "fiwo": "Drekop mezunaei.",
       "english": "The rock is shell-like."
@@ -17973,7 +18021,7 @@ const derivedDictionaryData = [
       "watermelon-like"
     ],
     "freq": 0,
-    "freq_rank": 2528,
+    "freq_rank": 2529,
     "example": {
       "fiwo": "Mik nomid zutar midorae.",
       "english": "I ate a melon."
@@ -17993,7 +18041,7 @@ const derivedDictionaryData = [
       "beastly"
     ],
     "freq": 0,
-    "freq_rank": 2416,
+    "freq_rank": 2417,
     "example": {
       "fiwo": "Ram batar latwae.",
       "english": "It is animal food."
@@ -18012,7 +18060,7 @@ const derivedDictionaryData = [
       "fauna"
     ],
     "freq": 0,
-    "freq_rank": 2417,
+    "freq_rank": 2418,
     "example": {
       "fiwo": "Latwaup zy mortsap baudei.",
       "english": "The wildlife of the forest is beautiful."
@@ -18031,7 +18079,7 @@ const derivedDictionaryData = [
       "resembling shelf"
     ],
     "freq": 0,
-    "freq_rank": 2529,
+    "freq_rank": 2530,
     "example": {
       "fiwo": "Drekop mihoei.",
       "english": "The rock is shelf-like."
@@ -18049,7 +18097,7 @@ const derivedDictionaryData = [
       "natural"
     ],
     "freq": 0,
-    "freq_rank": 2530,
+    "freq_rank": 2531,
     "example": {
       "fiwo": "Ram witur mijue.",
       "english": "It is a natural colour."
@@ -18068,7 +18116,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2531,
+    "freq_rank": 2532,
     "example": {
       "fiwo": "Nibop mikei.",
       "english": "The book is mine."
@@ -18087,7 +18135,7 @@ const derivedDictionaryData = [
       "resembling nationality"
     ],
     "freq": 0,
-    "freq_rank": 2532,
+    "freq_rank": 2533,
     "example": {
       "fiwo": "Ram parawur minzae.",
       "english": "It is a national tradition."
@@ -18106,7 +18154,7 @@ const derivedDictionaryData = [
       "resembling meat"
     ],
     "freq": 0,
-    "freq_rank": 2535,
+    "freq_rank": 2536,
     "example": {
       "fiwo": "Zobap mitaei.",
       "english": "The vegetable is meat-like."
@@ -18125,7 +18173,7 @@ const derivedDictionaryData = [
       "resembling meter"
     ],
     "freq": 0,
-    "freq_rank": 2536,
+    "freq_rank": 2537,
     "example": {
       "fiwo": "Lazop miteroei.",
       "english": "The stick is meter-like."
@@ -18143,7 +18191,7 @@ const derivedDictionaryData = [
       "symptomatic"
     ],
     "freq": 0,
-    "freq_rank": 2537,
+    "freq_rank": 2538,
     "example": {
       "fiwo": "Daq mixupruei.",
       "english": "He is symptomatic."
@@ -18161,7 +18209,7 @@ const derivedDictionaryData = [
       "driver"
     ],
     "freq": 0,
-    "freq_rank": 2538,
+    "freq_rank": 2539,
     "example": {
       "fiwo": "Mobloap mobloid ruze.",
       "english": "The driver drove fast."
@@ -18180,7 +18228,7 @@ const derivedDictionaryData = [
       "resembling vehicle"
     ],
     "freq": 0,
-    "freq_rank": 2539,
+    "freq_rank": 2540,
     "example": {
       "fiwo": "Fatop mobloei.",
       "english": "The machine is vehicle-like."
@@ -18200,7 +18248,7 @@ const derivedDictionaryData = [
       "to ride"
     ],
     "freq": 1,
-    "freq_rank": 1306,
+    "freq_rank": 1309,
     "example": {
       "fiwo": "Mik mobloi zy jurop.",
       "english": "I drive to the city."
@@ -18219,7 +18267,7 @@ const derivedDictionaryData = [
       "resembling god"
     ],
     "freq": 0,
-    "freq_rank": 2289,
+    "freq_rank": 2290,
     "example": {
       "fiwo": "Pedup dale jozaei.",
       "english": "His power is god-like."
@@ -18238,7 +18286,7 @@ const derivedDictionaryData = [
       "twisted"
     ],
     "freq": 0,
-    "freq_rank": 2541,
+    "freq_rank": 2542,
     "example": {
       "fiwo": "Lazop mogowiei.",
       "english": "The stick is twisting."
@@ -18257,7 +18305,7 @@ const derivedDictionaryData = [
       "mountain guide"
     ],
     "freq": 0,
-    "freq_rank": 2542,
+    "freq_rank": 2543,
     "example": {
       "fiwo": "Montoap drijid montop.",
       "english": "The mountaineer climbed the mountain."
@@ -18276,7 +18324,7 @@ const derivedDictionaryData = [
       "resembling mountain"
     ],
     "freq": 1,
-    "freq_rank": 1307,
+    "freq_rank": 1310,
     "example": {
       "fiwo": "Woru montoe jabei.",
       "english": "The mountainous area is cold."
@@ -18294,7 +18342,7 @@ const derivedDictionaryData = [
       "grower"
     ],
     "freq": 0,
-    "freq_rank": 2543,
+    "freq_rank": 2544,
     "example": {
       "fiwo": "Moriap onasid zoba je.",
       "english": "The grower planted vegetables."
@@ -18312,7 +18360,7 @@ const derivedDictionaryData = [
       "growth"
     ],
     "freq": 1,
-    "freq_rank": 1308,
+    "freq_rank": 1311,
     "example": {
       "fiwo": "Moriup zy nasap ruzei.",
       "english": "The growth of the plant is fast."
@@ -18331,7 +18379,7 @@ const derivedDictionaryData = [
       "resembling forest"
     ],
     "freq": 0,
-    "freq_rank": 2544,
+    "freq_rank": 2545,
     "example": {
       "fiwo": "Latwa jedle ceni ky woru mortsae.",
       "english": "Many animals live in the forested area."
@@ -18369,7 +18417,7 @@ const derivedDictionaryData = [
       "timber"
     ],
     "freq": 0,
-    "freq_rank": 2545,
+    "freq_rank": 2546,
     "example": {
       "fiwo": "Daq gidsid mosao.",
       "english": "He bought lumber."
@@ -18387,7 +18435,7 @@ const derivedDictionaryData = [
       "respectful"
     ],
     "freq": 0,
-    "freq_rank": 2546,
+    "freq_rank": 2547,
     "example": {
       "fiwo": "Cadap moskufuei.",
       "english": "The child is respectful."
@@ -18405,7 +18453,7 @@ const derivedDictionaryData = [
       "respect"
     ],
     "freq": 1,
-    "freq_rank": 1310,
+    "freq_rank": 1313,
     "example": {
       "fiwo": "Mik moskufui wasnupap mike.",
       "english": "I respect my grandparent."
@@ -18423,7 +18471,7 @@ const derivedDictionaryData = [
       "mournful"
     ],
     "freq": 0,
-    "freq_rank": 2547,
+    "freq_rank": 2548,
     "example": {
       "fiwo": "Das motuwuei.",
       "english": "She is mournful."
@@ -18442,7 +18490,7 @@ const derivedDictionaryData = [
       "mourn"
     ],
     "freq": 0,
-    "freq_rank": 2548,
+    "freq_rank": 2549,
     "example": {
       "fiwo": "Kehulup motuwuid.",
       "english": "The family grieved."
@@ -18461,7 +18509,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1311,
+    "freq_rank": 1314,
     "example": {
       "fiwo": "Hadiup dale movei.",
       "english": "His answer is vague."
@@ -18480,7 +18528,7 @@ const derivedDictionaryData = [
       "fuzziness"
     ],
     "freq": 0,
-    "freq_rank": 2550,
+    "freq_rank": 2551,
     "example": {
       "fiwo": "Moveup zy razup linid biwur.",
       "english": "The vagueness of the plan caused a problem."
@@ -18500,7 +18548,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2551,
+    "freq_rank": 2552,
     "example": {
       "fiwo": "Movimpiup dase dotei.",
       "english": "Her focus is strong."
@@ -18520,7 +18568,7 @@ const derivedDictionaryData = [
       "phantom"
     ],
     "freq": 0,
-    "freq_rank": 1648,
+    "freq_rank": 1652,
     "example": {
       "fiwo": "Besuar ceni deky sydop.",
       "english": "A ghost lives in the house."
@@ -18540,7 +18588,7 @@ const derivedDictionaryData = [
       "mud-caked"
     ],
     "freq": 0,
-    "freq_rank": 2552,
+    "freq_rank": 2553,
     "example": {
       "fiwo": "Belimop mike mudoei.",
       "english": "My shoes are muddy."
@@ -18560,7 +18608,7 @@ const derivedDictionaryData = [
       "soul-infused"
     ],
     "freq": 0,
-    "freq_rank": 1649,
+    "freq_rank": 1653,
     "example": {
       "fiwo": "Ram pozmur besue.",
       "english": "It is a dream of the soul."
@@ -18597,7 +18645,7 @@ const derivedDictionaryData = [
       "difficulty"
     ],
     "freq": 0,
-    "freq_rank": 2553,
+    "freq_rank": 2554,
     "example": {
       "fiwo": "Muileup zy hykuxup tandei.",
       "english": "The difficulty of the exam is great."
@@ -18616,7 +18664,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2554,
+    "freq_rank": 2555,
     "example": {
       "fiwo": "Sydop mukei.",
       "english": "The house is ours."
@@ -18636,7 +18684,7 @@ const derivedDictionaryData = [
       "flower-patterned"
     ],
     "freq": 0,
-    "freq_rank": 2555,
+    "freq_rank": 2556,
     "example": {
       "fiwo": "Ram witur mulae.",
       "english": "It is a floral colour."
@@ -18655,7 +18703,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2557,
+    "freq_rank": 2558,
     "example": {
       "fiwo": "Daq muwyzuid zy jokuwu.",
       "english": "He campaigned for the election."
@@ -18673,7 +18721,7 @@ const derivedDictionaryData = [
       "exemplary"
     ],
     "freq": 0,
-    "freq_rank": 2559,
+    "freq_rank": 2560,
     "example": {
       "fiwo": "Daq keciar mydue.",
       "english": "He is an exemplary learner."
@@ -18692,7 +18740,7 @@ const derivedDictionaryData = [
       "resembling leg"
     ],
     "freq": 0,
-    "freq_rank": 2560,
+    "freq_rank": 2561,
     "example": {
       "fiwo": "Lazop mygaei.",
       "english": "The stick is leg-like."
@@ -18730,7 +18778,7 @@ const derivedDictionaryData = [
       "resembling fever"
     ],
     "freq": 0,
-    "freq_rank": 2562,
+    "freq_rank": 2563,
     "example": {
       "fiwo": "Mik mykosoei.",
       "english": "I feel feverish."
@@ -18750,7 +18798,7 @@ const derivedDictionaryData = [
       "dragon-shaped"
     ],
     "freq": 0,
-    "freq_rank": 2563,
+    "freq_rank": 2564,
     "example": {
       "fiwo": "Mik tsejaid irtar myrafae.",
       "english": "I saw a dragon's egg."
@@ -18829,7 +18877,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2564,
+    "freq_rank": 2565,
     "example": {
       "fiwo": "Muk nafikei.",
       "english": "We are together."
@@ -18848,7 +18896,7 @@ const derivedDictionaryData = [
       "unity"
     ],
     "freq": 0,
-    "freq_rank": 2565,
+    "freq_rank": 2566,
     "example": {
       "fiwo": "Nafikeup zy kehulup gawei.",
       "english": "The togetherness of the family is nice."
@@ -18868,7 +18916,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2566,
+    "freq_rank": 2567,
     "example": {
       "fiwo": "Cadap naglifiei.",
       "english": "The child is insistent."
@@ -18887,7 +18935,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2567,
+    "freq_rank": 2568,
     "example": {
       "fiwo": "Naglifiup dale linid biwur.",
       "english": "His insistence caused a problem."
@@ -18925,7 +18973,7 @@ const derivedDictionaryData = [
       "easiness"
     ],
     "freq": 0,
-    "freq_rank": 1787,
+    "freq_rank": 1791,
     "example": {
       "fiwo": "Curmeup zy fiwop gawei.",
       "english": "The ease of Fiwo is nice."
@@ -18944,7 +18992,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2568,
+    "freq_rank": 2569,
     "example": {
       "fiwo": "Sydop nakei.",
       "english": "The house is ours (not yours)."
@@ -18963,7 +19011,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1316,
+    "freq_rank": 1319,
     "example": {
       "fiwo": "Ram naralei.",
       "english": "It is natural."
@@ -18981,7 +19029,7 @@ const derivedDictionaryData = [
       "naturalness"
     ],
     "freq": 0,
-    "freq_rank": 2570,
+    "freq_rank": 2571,
     "example": {
       "fiwo": "Naraleup zy xucup dase gawei.",
       "english": "The naturalness of her voice is nice."
@@ -19000,7 +19048,7 @@ const derivedDictionaryData = [
       "resembling plant"
     ],
     "freq": 0,
-    "freq_rank": 2571,
+    "freq_rank": 2572,
     "example": {
       "fiwo": "Cemup nasaei.",
       "english": "The thing is plant-like."
@@ -19019,7 +19067,7 @@ const derivedDictionaryData = [
       "vegetation"
     ],
     "freq": 0,
-    "freq_rank": 2572,
+    "freq_rank": 2573,
     "example": {
       "fiwo": "Nasaup zy gaxop baudei.",
       "english": "The flora of the island is beautiful."
@@ -19037,7 +19085,7 @@ const derivedDictionaryData = [
       "pharmacist"
     ],
     "freq": 0,
-    "freq_rank": 2573,
+    "freq_rank": 2574,
     "example": {
       "fiwo": "Nasboap stomid nasbop zy mik.",
       "english": "The pharmacist gave the medicine to me."
@@ -19056,7 +19104,7 @@ const derivedDictionaryData = [
       "resembling medicine"
     ],
     "freq": 0,
-    "freq_rank": 2574,
+    "freq_rank": 2575,
     "example": {
       "fiwo": "Roliop nasboei.",
       "english": "The drink is medicine-like."
@@ -19076,7 +19124,7 @@ const derivedDictionaryData = [
       "resembling friend"
     ],
     "freq": 0,
-    "freq_rank": 2575,
+    "freq_rank": 2576,
     "example": {
       "fiwo": "Detap nauxaei.",
       "english": "The dog is friendly."
@@ -19094,7 +19142,7 @@ const derivedDictionaryData = [
       "befriend"
     ],
     "freq": 0,
-    "freq_rank": 2576,
+    "freq_rank": 2577,
     "example": {
       "fiwo": "Mik nauxaid dal.",
       "english": "I befriended him."
@@ -19112,7 +19160,7 @@ const derivedDictionaryData = [
       "friendship"
     ],
     "freq": 0,
-    "freq_rank": 2577,
+    "freq_rank": 2578,
     "example": {
       "fiwo": "Nauxaup nake dwimei.",
       "english": "Our friendship is long."
@@ -19131,7 +19179,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2578,
+    "freq_rank": 2579,
     "example": {
       "fiwo": "Ram naverei.",
       "english": "It is next."
@@ -19149,7 +19197,7 @@ const derivedDictionaryData = [
       "collective"
     ],
     "freq": 0,
-    "freq_rank": 2579,
+    "freq_rank": 2580,
     "example": {
       "fiwo": "Ram ifeziur naxue.",
       "english": "It is a collective decision."
@@ -19168,7 +19216,7 @@ const derivedDictionaryData = [
       "recharge"
     ],
     "freq": 0,
-    "freq_rank": 2580,
+    "freq_rank": 2581,
     "example": {
       "fiwo": "Mik necadroid telfop mike.",
       "english": "I charged my phone."
@@ -19186,7 +19234,7 @@ const derivedDictionaryData = [
       "be random"
     ],
     "freq": 1,
-    "freq_rank": 1321,
+    "freq_rank": 1324,
     "example": {
       "fiwo": "Gup negoxrei.",
       "english": "The number is random."
@@ -19204,7 +19252,7 @@ const derivedDictionaryData = [
       "randomness"
     ],
     "freq": 0,
-    "freq_rank": 2584,
+    "freq_rank": 2585,
     "example": {
       "fiwo": "Negoxreu zovi deky spelup.",
       "english": "Randomness exists in the game."
@@ -19223,7 +19271,7 @@ const derivedDictionaryData = [
       "resembling ink"
     ],
     "freq": 0,
-    "freq_rank": 2586,
+    "freq_rank": 2587,
     "example": {
       "fiwo": "Difop nejowoei.",
       "english": "The liquid is ink-like."
@@ -19241,7 +19289,7 @@ const derivedDictionaryData = [
       "sitter"
     ],
     "freq": 0,
-    "freq_rank": 2587,
+    "freq_rank": 2588,
     "example": {
       "fiwo": "Nekiap nekid ty xiolop.",
       "english": "The sitter sat on the chair."
@@ -19259,7 +19307,7 @@ const derivedDictionaryData = [
       "congratulatory"
     ],
     "freq": 0,
-    "freq_rank": 2588,
+    "freq_rank": 2589,
     "example": {
       "fiwo": "Mik ombid ufaxor nembue.",
       "english": "I sent a congratulatory letter."
@@ -19278,7 +19326,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1322,
+    "freq_rank": 1325,
     "example": {
       "fiwo": "Wasnupap mike nenojei.",
       "english": "My grandparent is blind."
@@ -19296,7 +19344,7 @@ const derivedDictionaryData = [
       "blindness"
     ],
     "freq": 0,
-    "freq_rank": 2592,
+    "freq_rank": 2593,
     "example": {
       "fiwo": "Nenojeup dale muilei.",
       "english": "His blindness is difficult."
@@ -19315,7 +19363,7 @@ const derivedDictionaryData = [
       "resembling carpet"
     ],
     "freq": 0,
-    "freq_rank": 2593,
+    "freq_rank": 2594,
     "example": {
       "fiwo": "Keglap nertoei.",
       "english": "The grass is carpet-like."
@@ -19335,7 +19383,7 @@ const derivedDictionaryData = [
       "-less"
     ],
     "freq": 0,
-    "freq_rank": 2594,
+    "freq_rank": 2595,
     "example": {
       "fiwo": "Ram jobur neswye gidu.",
       "english": "It is a job lacking money."
@@ -19354,7 +19402,7 @@ const derivedDictionaryData = [
       "resembling cornflower"
     ],
     "freq": 0,
-    "freq_rank": 2596,
+    "freq_rank": 2597,
     "example": {
       "fiwo": "Mulap netawaei.",
       "english": "The flower is cornflower-like."
@@ -19373,7 +19421,7 @@ const derivedDictionaryData = [
       "repulsed"
     ],
     "freq": 0,
-    "freq_rank": 1769,
+    "freq_rank": 1773,
     "example": {
       "fiwo": "Mik covwuei.",
       "english": "I am disgusted."
@@ -19391,7 +19439,7 @@ const derivedDictionaryData = [
       "disgust"
     ],
     "freq": 0,
-    "freq_rank": 1770,
+    "freq_rank": 1774,
     "example": {
       "fiwo": "Batap covwui mik.",
       "english": "The food disgusts me."
@@ -19428,7 +19476,7 @@ const derivedDictionaryData = [
       "indebted"
     ],
     "freq": 0,
-    "freq_rank": 2600,
+    "freq_rank": 2601,
     "example": {
       "fiwo": "Daq nicuei.",
       "english": "He is in debt."
@@ -19484,7 +19532,7 @@ const derivedDictionaryData = [
       "resembling carrot"
     ],
     "freq": 0,
-    "freq_rank": 2603,
+    "freq_rank": 2604,
     "example": {
       "fiwo": "Zobap nimpoei.",
       "english": "The vegetable is carrot-like."
@@ -19503,7 +19551,7 @@ const derivedDictionaryData = [
       "levy"
     ],
     "freq": 0,
-    "freq_rank": 2604,
+    "freq_rank": 2605,
     "example": {
       "fiwo": "Govnup ninaltui hokeltu.",
       "english": "The government taxes income."
@@ -19521,7 +19569,7 @@ const derivedDictionaryData = [
       "scraper"
     ],
     "freq": 0,
-    "freq_rank": 2605,
+    "freq_rank": 2606,
     "example": {
       "fiwo": "Niwiap niwid zafoirop.",
       "english": "The scraper scraped the floor."
@@ -19541,7 +19589,7 @@ const derivedDictionaryData = [
       "leading"
     ],
     "freq": 0,
-    "freq_rank": 2606,
+    "freq_rank": 2607,
     "example": {
       "fiwo": "Hoxop nizye xosiq.",
       "english": "The front door is open."
@@ -19560,7 +19608,11 @@ const derivedDictionaryData = [
       "face"
     ],
     "freq": 1,
-    "freq_rank": 1327
+    "freq_rank": 1330,
+    "example": {
+      "fiwo": "Nizyop zy sydop baudei.",
+      "english": "The front of the house is beautiful."
+    }
   },
   {
     "word": "noajue",
@@ -19574,7 +19626,7 @@ const derivedDictionaryData = [
       "functional"
     ],
     "freq": 0,
-    "freq_rank": 2608,
+    "freq_rank": 2609,
     "example": {
       "fiwo": "Ram razur noajue.",
       "english": "It is a functional plan."
@@ -19593,7 +19645,7 @@ const derivedDictionaryData = [
       "give a gratuity"
     ],
     "freq": 0,
-    "freq_rank": 2609,
+    "freq_rank": 2610,
     "example": {
       "fiwo": "Mik nodogluid dzosiap.",
       "english": "I tipped the waiter."
@@ -19612,7 +19664,7 @@ const derivedDictionaryData = [
       "humane"
     ],
     "freq": 0,
-    "freq_rank": 2610,
+    "freq_rank": 2611,
     "example": {
       "fiwo": "Ram azikur nofae.",
       "english": "It is a humane rule."
@@ -19633,7 +19685,7 @@ const derivedDictionaryData = [
       "personhood"
     ],
     "freq": 1,
-    "freq_rank": 1329,
+    "freq_rank": 1332,
     "example": {
       "fiwo": "Nofau jedi biwu jedle.",
       "english": "Humanity has many problems."
@@ -19729,7 +19781,7 @@ const derivedDictionaryData = [
       "down-facing"
     ],
     "freq": 0,
-    "freq_rank": 2611,
+    "freq_rank": 2612,
     "example": {
       "fiwo": "Kyfap cyrid nokye.",
       "english": "The bird flew downward."
@@ -19748,7 +19800,7 @@ const derivedDictionaryData = [
       "go down"
     ],
     "freq": 0,
-    "freq_rank": 2612,
+    "freq_rank": 2613,
     "example": {
       "fiwo": "Kyfap nokyid.",
       "english": "The bird descended."
@@ -19767,7 +19819,7 @@ const derivedDictionaryData = [
       "base"
     ],
     "freq": 0,
-    "freq_rank": 2613,
+    "freq_rank": 2614,
     "example": {
       "fiwo": "Nokyop zy hanop feznei.",
       "english": "The bottom of the box is dry."
@@ -19787,7 +19839,7 @@ const derivedDictionaryData = [
       "base"
     ],
     "freq": 0,
-    "freq_rank": 2614,
+    "freq_rank": 2615,
     "example": {
       "fiwo": "Nokyup zy tubsop dupei.",
       "english": "The bottom of the sea is deep."
@@ -19807,7 +19859,11 @@ const derivedDictionaryData = [
       "functionary"
     ],
     "freq": 2,
-    "freq_rank": 977
+    "freq_rank": 977,
+    "example": {
+      "fiwo": "Nolfeneap umzid nak.",
+      "english": "The official welcomed us."
+    }
   },
   {
     "word": "nomia",
@@ -19821,7 +19877,7 @@ const derivedDictionaryData = [
       "consumer"
     ],
     "freq": 0,
-    "freq_rank": 2615,
+    "freq_rank": 2616,
     "example": {
       "fiwo": "Nomiap je kyti batap sile.",
       "english": "The consumers like this food."
@@ -19840,7 +19896,7 @@ const derivedDictionaryData = [
       "gluttonous"
     ],
     "freq": 0,
-    "freq_rank": 2616,
+    "freq_rank": 2617,
     "example": {
       "fiwo": "Detap nomiei.",
       "english": "The dog is voracious."
@@ -19859,7 +19915,7 @@ const derivedDictionaryData = [
       "consumption"
     ],
     "freq": 0,
-    "freq_rank": 2617,
+    "freq_rank": 2618,
     "example": {
       "fiwo": "Nomiu jorei zy farlu.",
       "english": "Eating is important for health."
@@ -19878,7 +19934,7 @@ const derivedDictionaryData = [
       "resembling man"
     ],
     "freq": 0,
-    "freq_rank": 2618,
+    "freq_rank": 2619,
     "example": {
       "fiwo": "Xucup dase noqsaei.",
       "english": "Her voice is man-like."
@@ -19897,7 +19953,7 @@ const derivedDictionaryData = [
       "resembling woman"
     ],
     "freq": 0,
-    "freq_rank": 2619,
+    "freq_rank": 2620,
     "example": {
       "fiwo": "Xucup dale nosanaei.",
       "english": "His voice is woman-like."
@@ -19915,7 +19971,7 @@ const derivedDictionaryData = [
       "conspiratorial"
     ],
     "freq": 0,
-    "freq_rank": 2621,
+    "freq_rank": 2622,
     "example": {
       "fiwo": "Ram ladur novue.",
       "english": "It is a conspiratorial idea."
@@ -19934,7 +19990,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1332,
+    "freq_rank": 1335,
     "example": {
       "fiwo": "Gidup mike nozei.",
       "english": "My money is zero."
@@ -19952,7 +20008,7 @@ const derivedDictionaryData = [
       "current"
     ],
     "freq": 1,
-    "freq_rank": 1333,
+    "freq_rank": 1336,
     "example": {
       "fiwo": "Ram jormur nudue.",
       "english": "It is the current situation."
@@ -19989,7 +20045,7 @@ const derivedDictionaryData = [
       "emptiness"
     ],
     "freq": 0,
-    "freq_rank": 2622,
+    "freq_rank": 2623,
     "example": {
       "fiwo": "Nufeup zy sydop goilei.",
       "english": "The emptiness of the house is sad."
@@ -20026,7 +20082,7 @@ const derivedDictionaryData = [
       "partner"
     ],
     "freq": 0,
-    "freq_rank": 2623,
+    "freq_rank": 2624,
     "example": {
       "fiwo": "Nunulpiap mike jofid mik.",
       "english": "My partner helped me."
@@ -20045,7 +20101,7 @@ const derivedDictionaryData = [
       "collaboration"
     ],
     "freq": 0,
-    "freq_rank": 2624,
+    "freq_rank": 2625,
     "example": {
       "fiwo": "Nunulpiu jorei deky stramu.",
       "english": "Cooperation is important in a team."
@@ -20064,7 +20120,7 @@ const derivedDictionaryData = [
       "resembling parent"
     ],
     "freq": 0,
-    "freq_rank": 2625,
+    "freq_rank": 2626,
     "example": {
       "fiwo": "Das gesi zuwu nupae.",
       "english": "She speaks in a parent-like way."
@@ -20083,7 +20139,7 @@ const derivedDictionaryData = [
       "raise"
     ],
     "freq": 0,
-    "freq_rank": 2626,
+    "freq_rank": 2627,
     "example": {
       "fiwo": "Nak nupai cadap kage.",
       "english": "We parent two children."
@@ -20101,7 +20157,7 @@ const derivedDictionaryData = [
       "parenthood"
     ],
     "freq": 0,
-    "freq_rank": 2627,
+    "freq_rank": 2628,
     "example": {
       "fiwo": "Nupau muilei.",
       "english": "Parenthood is difficult."
@@ -20120,7 +20176,7 @@ const derivedDictionaryData = [
       "resembling sword"
     ],
     "freq": 0,
-    "freq_rank": 2629,
+    "freq_rank": 2630,
     "example": {
       "fiwo": "Cilap nusogoei.",
       "english": "The leaf is sword-like."
@@ -20140,7 +20196,7 @@ const derivedDictionaryData = [
       "amethyst-like"
     ],
     "freq": 0,
-    "freq_rank": 2631,
+    "freq_rank": 2632,
     "example": {
       "fiwo": "Das jedi drekor nuwykoe.",
       "english": "She has an amethyst stone."
@@ -20158,7 +20214,7 @@ const derivedDictionaryData = [
       "substantive"
     ],
     "freq": 0,
-    "freq_rank": 2635,
+    "freq_rank": 2636,
     "example": {
       "fiwo": "Ram jifniur nybue.",
       "english": "It is a substantive discussion."
@@ -20177,7 +20233,7 @@ const derivedDictionaryData = [
       "resembling sentence"
     ],
     "freq": 0,
-    "freq_rank": 2636,
+    "freq_rank": 2637,
     "example": {
       "fiwo": "Gop je nyhogoei.",
       "english": "The words are sentence-like."
@@ -20195,7 +20251,7 @@ const derivedDictionaryData = [
       "carrier"
     ],
     "freq": 0,
-    "freq_rank": 2637,
+    "freq_rank": 2638,
     "example": {
       "fiwo": "Nyrsiap nyrsid zabatop.",
       "english": "The carrier carried the bag."
@@ -20214,7 +20270,7 @@ const derivedDictionaryData = [
       "resembling nose"
     ],
     "freq": 0,
-    "freq_rank": 2639,
+    "freq_rank": 2640,
     "example": {
       "fiwo": "Drekop nytaei.",
       "english": "The rock is nose-like."
@@ -20234,7 +20290,7 @@ const derivedDictionaryData = [
       "to perceive odor"
     ],
     "freq": 1,
-    "freq_rank": 1335,
+    "freq_rank": 1338,
     "example": {
       "fiwo": "Mik nytaid batap.",
       "english": "I smelled the food."
@@ -20252,7 +20308,7 @@ const derivedDictionaryData = [
       "sunrise"
     ],
     "freq": 0,
-    "freq_rank": 2640,
+    "freq_rank": 2641,
     "example": {
       "fiwo": "Litop nyvumue baudei.",
       "english": "The sunrise light is beautiful."
@@ -20271,7 +20327,7 @@ const derivedDictionaryData = [
       "renter"
     ],
     "freq": 0,
-    "freq_rank": 2641,
+    "freq_rank": 2642,
     "example": {
       "fiwo": "Nyxidiap pagarid gidup.",
       "english": "The tenant paid the money."
@@ -20290,7 +20346,7 @@ const derivedDictionaryData = [
       "renting"
     ],
     "freq": 0,
-    "freq_rank": 2642,
+    "freq_rank": 2643,
     "example": {
       "fiwo": "Nyxidiup zy sydop xivei.",
       "english": "The rent of the house is expensive."
@@ -20309,7 +20365,7 @@ const derivedDictionaryData = [
       "resembling ant"
     ],
     "freq": 0,
-    "freq_rank": 2643,
+    "freq_rank": 2644,
     "example": {
       "fiwo": "Zalap obtaei.",
       "english": "The insect is ant-like."
@@ -20345,7 +20401,7 @@ const derivedDictionaryData = [
       "scientific"
     ],
     "freq": 0,
-    "freq_rank": 2644,
+    "freq_rank": 2645,
     "example": {
       "fiwo": "Ram mipfur ocadue.",
       "english": "It is a scientific activity."
@@ -20383,7 +20439,7 @@ const derivedDictionaryData = [
       "fakeness"
     ],
     "freq": 0,
-    "freq_rank": 2646,
+    "freq_rank": 2647,
     "example": {
       "fiwo": "Ocfeup zy fulup linid biwur.",
       "english": "The falseness of the data caused a problem."
@@ -20402,7 +20458,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1415,
+    "freq_rank": 1419,
     "example": {
       "fiwo": "Domlop snareid.",
       "english": "The rain was sudden."
@@ -20421,7 +20477,7 @@ const derivedDictionaryData = [
       "resembling rope"
     ],
     "freq": 0,
-    "freq_rank": 2647,
+    "freq_rank": 2648,
     "example": {
       "fiwo": "Otsinop odcanoei.",
       "english": "The thread is rope-like."
@@ -20440,7 +20496,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1338,
+    "freq_rank": 1341,
     "example": {
       "fiwo": "Fulup sile oegei.",
       "english": "This information is secret."
@@ -20458,7 +20514,7 @@ const derivedDictionaryData = [
       "secrecy"
     ],
     "freq": 0,
-    "freq_rank": 2649,
+    "freq_rank": 2650,
     "example": {
       "fiwo": "Oegeu jorei zy dal.",
       "english": "Secrecy is important to him."
@@ -20477,7 +20533,7 @@ const derivedDictionaryData = [
       "embarrassed"
     ],
     "freq": 0,
-    "freq_rank": 2650,
+    "freq_rank": 2651,
     "example": {
       "fiwo": "Daq ofxuei.",
       "english": "He is ashamed."
@@ -20495,7 +20551,7 @@ const derivedDictionaryData = [
       "experiential"
     ],
     "freq": 0,
-    "freq_rank": 2651,
+    "freq_rank": 2652,
     "example": {
       "fiwo": "Ram keciu ogirue.",
       "english": "It is experiential learning."
@@ -20514,7 +20570,7 @@ const derivedDictionaryData = [
       "undergo"
     ],
     "freq": 0,
-    "freq_rank": 2652,
+    "freq_rank": 2653,
     "example": {
       "fiwo": "Mik ogiruid pamur.",
       "english": "I experienced pain."
@@ -20533,7 +20589,7 @@ const derivedDictionaryData = [
       "resembling towel"
     ],
     "freq": 0,
-    "freq_rank": 2653,
+    "freq_rank": 2654,
     "example": {
       "fiwo": "Busko ogzoei.",
       "english": "The clothes are towel-like."
@@ -20552,7 +20608,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1340,
+    "freq_rank": 1343,
     "example": {
       "fiwo": "Kyfap sile ojesei.",
       "english": "This bird is rare."
@@ -20571,7 +20627,7 @@ const derivedDictionaryData = [
       "rareness"
     ],
     "freq": 0,
-    "freq_rank": 2655,
+    "freq_rank": 2656,
     "example": {
       "fiwo": "Ojeseup zy drekop lini melfu zave.",
       "english": "The rarity of the stone causes a high price."
@@ -20589,7 +20645,7 @@ const derivedDictionaryData = [
       "deceitful"
     ],
     "freq": 0,
-    "freq_rank": 2656,
+    "freq_rank": 2657,
     "example": {
       "fiwo": "Daq nofar okezue.",
       "english": "He is a deceitful person."
@@ -20626,7 +20682,7 @@ const derivedDictionaryData = [
       "wrongness"
     ],
     "freq": 0,
-    "freq_rank": 2657,
+    "freq_rank": 2658,
     "example": {
       "fiwo": "Okseup zy ladup xarei.",
       "english": "The wrongness of the idea is clear."
@@ -20644,7 +20700,7 @@ const derivedDictionaryData = [
       "researcher"
     ],
     "freq": 0,
-    "freq_rank": 2658,
+    "freq_rank": 2659,
     "example": {
       "fiwo": "Olifuap jamid nibor.",
       "english": "The researcher wrote a book."
@@ -20662,7 +20718,7 @@ const derivedDictionaryData = [
       "scholarly"
     ],
     "freq": 0,
-    "freq_rank": 2659,
+    "freq_rank": 2660,
     "example": {
       "fiwo": "Ram nibor olifue.",
       "english": "It is a scholarly book."
@@ -20681,7 +20737,7 @@ const derivedDictionaryData = [
       "resembling emblem"
     ],
     "freq": 0,
-    "freq_rank": 2661,
+    "freq_rank": 2662,
     "example": {
       "fiwo": "Cemup olkenkoei.",
       "english": "The thing is badge-like."
@@ -20699,7 +20755,7 @@ const derivedDictionaryData = [
       "sender"
     ],
     "freq": 0,
-    "freq_rank": 2662,
+    "freq_rank": 2663,
     "example": {
       "fiwo": "Ombiap ombid ufaxop.",
       "english": "The sender sent the letter."
@@ -20719,7 +20775,7 @@ const derivedDictionaryData = [
       "cultivator"
     ],
     "freq": 0,
-    "freq_rank": 2663,
+    "freq_rank": 2664,
     "example": {
       "fiwo": "Onasiap onasid vyfla.",
       "english": "The farmer planted rice."
@@ -20739,7 +20795,7 @@ const derivedDictionaryData = [
       "tilled"
     ],
     "freq": 0,
-    "freq_rank": 2664,
+    "freq_rank": 2665,
     "example": {
       "fiwo": "Ram tofakror onasie.",
       "english": "It is a cultivated field."
@@ -20758,7 +20814,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2665,
+    "freq_rank": 2666,
     "example": {
       "fiwo": "Melfup onexei.",
       "english": "The price is approximate."
@@ -20776,7 +20832,7 @@ const derivedDictionaryData = [
       "treacherous"
     ],
     "freq": 0,
-    "freq_rank": 2667,
+    "freq_rank": 2668,
     "example": {
       "fiwo": "Daq nauxar ongue.",
       "english": "He is a treacherous friend."
@@ -20794,7 +20850,7 @@ const derivedDictionaryData = [
       "rubber"
     ],
     "freq": 0,
-    "freq_rank": 2668,
+    "freq_rank": 2669,
     "example": {
       "fiwo": "Onliap onlid degop.",
       "english": "The rubber rubbed the table."
@@ -20812,7 +20868,7 @@ const derivedDictionaryData = [
       "stirrer"
     ],
     "freq": 0,
-    "freq_rank": 2670,
+    "freq_rank": 2671,
     "example": {
       "fiwo": "Opcoriap opcorid tesop.",
       "english": "The stirrer stirred the tea."
@@ -20830,7 +20886,7 @@ const derivedDictionaryData = [
       "whisperer"
     ],
     "freq": 0,
-    "freq_rank": 2671,
+    "freq_rank": 2672,
     "example": {
       "fiwo": "Opdiap opdid zy mik.",
       "english": "The whisperer whispered to me."
@@ -20849,7 +20905,7 @@ const derivedDictionaryData = [
       "resembling bulb"
     ],
     "freq": 0,
-    "freq_rank": 2672,
+    "freq_rank": 2673,
     "example": {
       "fiwo": "Zobap opowoei.",
       "english": "The vegetable is bulb-like."
@@ -20869,7 +20925,7 @@ const derivedDictionaryData = [
       "spore-like"
     ],
     "freq": 0,
-    "freq_rank": 2675,
+    "freq_rank": 2676,
     "example": {
       "fiwo": "Fumop oqawaei.",
       "english": "The smoke is spore-like."
@@ -20888,7 +20944,7 @@ const derivedDictionaryData = [
       "resembling ticket"
     ],
     "freq": 0,
-    "freq_rank": 2676,
+    "freq_rank": 2677,
     "example": {
       "fiwo": "Paelop oqoei.",
       "english": "The paper is ticket-like."
@@ -20906,7 +20962,7 @@ const derivedDictionaryData = [
       "stir-frier"
     ],
     "freq": 0,
-    "freq_rank": 1993,
+    "freq_rank": 1995,
     "example": {
       "fiwo": "Fliriap flirid mitap.",
       "english": "The stir-frier stir-fried the meat."
@@ -20924,7 +20980,7 @@ const derivedDictionaryData = [
       "graded"
     ],
     "freq": 0,
-    "freq_rank": 2677,
+    "freq_rank": 2678,
     "example": {
       "fiwo": "Ram hykuxur orkue.",
       "english": "It is a graded test."
@@ -20943,7 +20999,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 2,
-    "freq_rank": 1001,
+    "freq_rank": 1000,
     "example": {
       "fiwo": "Nasap sile putpei.",
       "english": "This plant is poisonous."
@@ -20963,7 +21019,7 @@ const derivedDictionaryData = [
       "venom"
     ],
     "freq": 1,
-    "freq_rank": 1384,
+    "freq_rank": 1388,
     "example": {
       "fiwo": "Daq stomid putpeor zy guzap.",
       "english": "He gave poison to the enemy."
@@ -20982,7 +21038,7 @@ const derivedDictionaryData = [
       "poisonousness"
     ],
     "freq": 0,
-    "freq_rank": 2771,
+    "freq_rank": 2772,
     "example": {
       "fiwo": "Putpeup zy difop tandei.",
       "english": "The toxicity of the liquid is great."
@@ -21000,7 +21056,7 @@ const derivedDictionaryData = [
       "western"
     ],
     "freq": 0,
-    "freq_rank": 2679,
+    "freq_rank": 2680,
     "example": {
       "fiwo": "Mik ceni ky woru osajue.",
       "english": "I live in the western area."
@@ -21018,7 +21074,7 @@ const derivedDictionaryData = [
       "eastern"
     ],
     "freq": 1,
-    "freq_rank": 1344,
+    "freq_rank": 1348,
     "example": {
       "fiwo": "Jurop ostue tandei.",
       "english": "The eastern city is big."
@@ -21038,7 +21094,7 @@ const derivedDictionaryData = [
     ],
     "reviewed": "curated",
     "freq": 0,
-    "freq_rank": 2680,
+    "freq_rank": 2681,
     "example": {
       "fiwo": "Vexup oswyploei.",
       "english": "The weather is hellish."
@@ -21056,7 +21112,7 @@ const derivedDictionaryData = [
       "cook"
     ],
     "freq": 0,
-    "freq_rank": 2681,
+    "freq_rank": 2682,
     "example": {
       "fiwo": "Otaniap otanid batap.",
       "english": "The cook cooked the food."
@@ -21116,7 +21172,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2682,
+    "freq_rank": 2683,
     "example": {
       "fiwo": "Ram otrei.",
       "english": "It is different."
@@ -21136,7 +21192,7 @@ const derivedDictionaryData = [
       "threaded"
     ],
     "freq": 0,
-    "freq_rank": 2683,
+    "freq_rank": 2684,
     "example": {
       "fiwo": "Ram ikamor otsinoe.",
       "english": "It is a shirt of thread."
@@ -21154,7 +21210,7 @@ const derivedDictionaryData = [
       "merciful"
     ],
     "freq": 0,
-    "freq_rank": 2684,
+    "freq_rank": 2685,
     "example": {
       "fiwo": "Ukwiap ouzuei.",
       "english": "The judge is merciful."
@@ -21173,7 +21229,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2685,
+    "freq_rank": 2686,
     "example": {
       "fiwo": "Ram ovcei.",
       "english": "It is always so."
@@ -21192,7 +21248,7 @@ const derivedDictionaryData = [
       "resembling neck"
     ],
     "freq": 0,
-    "freq_rank": 2687,
+    "freq_rank": 2688,
     "example": {
       "fiwo": "Lazop ovpaei.",
       "english": "The stick is neck-like."
@@ -21211,7 +21267,7 @@ const derivedDictionaryData = [
       "resembling fork"
     ],
     "freq": 0,
-    "freq_rank": 2688,
+    "freq_rank": 2689,
     "example": {
       "fiwo": "Gutop ovroei.",
       "english": "The tool is fork-like."
@@ -21229,7 +21285,7 @@ const derivedDictionaryData = [
       "spender"
     ],
     "freq": 0,
-    "freq_rank": 2689,
+    "freq_rank": 2690,
     "example": {
       "fiwo": "Owadiap peteswid gidu jedle.",
       "english": "The spender spent a lot of money."
@@ -21284,7 +21340,11 @@ const derivedDictionaryData = [
       "smile"
     ],
     "freq": 1,
-    "freq_rank": 1417
+    "freq_rank": 1421,
+    "example": {
+      "fiwo": "Snefiup dase baudei.",
+      "english": "Her smile is beautiful."
+    }
   },
   {
     "word": "oxnoe",
@@ -21299,7 +21359,7 @@ const derivedDictionaryData = [
       "resembling wallet"
     ],
     "freq": 0,
-    "freq_rank": 2690,
+    "freq_rank": 2691,
     "example": {
       "fiwo": "Zabatop oxnoei.",
       "english": "The bag is wallet-like."
@@ -21317,7 +21377,7 @@ const derivedDictionaryData = [
       "organizer"
     ],
     "freq": 0,
-    "freq_rank": 2691,
+    "freq_rank": 2692,
     "example": {
       "fiwo": "Oxopiap oxopid taicup.",
       "english": "The organizer organized the party."
@@ -21337,7 +21397,7 @@ const derivedDictionaryData = [
       "defender"
     ],
     "freq": 2,
-    "freq_rank": 987,
+    "freq_rank": 986,
     "example": {
       "fiwo": "Oxtiap oxtid hoxop.",
       "english": "The guard protected the gate."
@@ -21357,7 +21417,7 @@ const derivedDictionaryData = [
       "guarded"
     ],
     "freq": 0,
-    "freq_rank": 2692,
+    "freq_rank": 2693,
     "example": {
       "fiwo": "Woru sile oxtiei.",
       "english": "This area is protected."
@@ -21375,7 +21435,7 @@ const derivedDictionaryData = [
       "wisher"
     ],
     "freq": 0,
-    "freq_rank": 2693,
+    "freq_rank": 2694,
     "example": {
       "fiwo": "Ozepiap ozepid gidu.",
       "english": "The wisher wished for money."
@@ -21394,7 +21454,7 @@ const derivedDictionaryData = [
       "desire"
     ],
     "freq": 0,
-    "freq_rank": 2694,
+    "freq_rank": 2695,
     "example": {
       "fiwo": "Ozepiup mike trivei.",
       "english": "My wish is true."
@@ -21412,7 +21472,7 @@ const derivedDictionaryData = [
       "occupant"
     ],
     "freq": 0,
-    "freq_rank": 2696,
+    "freq_rank": 2697,
     "example": {
       "fiwo": "Ozoxiap zy sydop brenid.",
       "english": "The occupant of the house came."
@@ -21430,7 +21490,7 @@ const derivedDictionaryData = [
       "analyst"
     ],
     "freq": 0,
-    "freq_rank": 2697,
+    "freq_rank": 2698,
     "example": {
       "fiwo": "Pabiciap pabicid fulup.",
       "english": "The analyst analyzed the data."
@@ -21448,7 +21508,7 @@ const derivedDictionaryData = [
       "analysis"
     ],
     "freq": 0,
-    "freq_rank": 2698,
+    "freq_rank": 2699,
     "example": {
       "fiwo": "Pabiciup dwimeid.",
       "english": "The analysis was long."
@@ -21467,7 +21527,7 @@ const derivedDictionaryData = [
       "offender"
     ],
     "freq": 0,
-    "freq_rank": 2699,
+    "freq_rank": 2700,
     "example": {
       "fiwo": "Kuvysup lemespid padhiap.",
       "english": "The police arrested the offender."
@@ -21486,7 +21546,7 @@ const derivedDictionaryData = [
       "breach"
     ],
     "freq": 0,
-    "freq_rank": 2700,
+    "freq_rank": 2701,
     "example": {
       "fiwo": "Padhiup zy tifup linid biwur.",
       "english": "The violation of the law caused a problem."
@@ -21506,7 +21566,7 @@ const derivedDictionaryData = [
       "lava-filled"
     ],
     "freq": 0,
-    "freq_rank": 2701,
+    "freq_rank": 2702,
     "example": {
       "fiwo": "Drekop paduproe ripei.",
       "english": "The lava rock is hot."
@@ -21525,7 +21585,7 @@ const derivedDictionaryData = [
       "resembling paper"
     ],
     "freq": 0,
-    "freq_rank": 2702,
+    "freq_rank": 2703,
     "example": {
       "fiwo": "Cilap paeloei.",
       "english": "The leaf is paper-like."
@@ -21543,7 +21603,7 @@ const derivedDictionaryData = [
       "payer"
     ],
     "freq": 0,
-    "freq_rank": 2703,
+    "freq_rank": 2704,
     "example": {
       "fiwo": "Pagariap pagarid tuxuntop.",
       "english": "The payer paid the bill."
@@ -21561,7 +21621,7 @@ const derivedDictionaryData = [
       "payment"
     ],
     "freq": 1,
-    "freq_rank": 1352,
+    "freq_rank": 1356,
     "example": {
       "fiwo": "Mik jopxid pagarior.",
       "english": "I received a payment."
@@ -21580,7 +21640,7 @@ const derivedDictionaryData = [
       "resembling uncle"
     ],
     "freq": 0,
-    "freq_rank": 2704,
+    "freq_rank": 2705,
     "example": {
       "fiwo": "Daq gesi zuwu pajae.",
       "english": "He speaks in an uncle-like way."
@@ -21600,7 +21660,7 @@ const derivedDictionaryData = [
       "intent"
     ],
     "freq": 0,
-    "freq_rank": 2706,
+    "freq_rank": 2707,
     "example": {
       "fiwo": "Pampigiup suke gawei.",
       "english": "Your intention is good."
@@ -21620,7 +21680,7 @@ const derivedDictionaryData = [
       "sore"
     ],
     "freq": 1,
-    "freq_rank": 1355,
+    "freq_rank": 1359,
     "example": {
       "fiwo": "Mik pamuei.",
       "english": "I am in pain."
@@ -21659,7 +21719,7 @@ const derivedDictionaryData = [
       "for books"
     ],
     "freq": 1,
-    "freq_rank": 1324,
+    "freq_rank": 1327,
     "example": {
       "fiwo": "Ram foisor niboe.",
       "english": "It is a building of books."
@@ -21677,7 +21737,7 @@ const derivedDictionaryData = [
       "literature"
     ],
     "freq": 0,
-    "freq_rank": 2599,
+    "freq_rank": 2600,
     "example": {
       "fiwo": "Das keci nibou.",
       "english": "She studies literature."
@@ -21695,7 +21755,7 @@ const derivedDictionaryData = [
       "traditional"
     ],
     "freq": 0,
-    "freq_rank": 2709,
+    "freq_rank": 2710,
     "example": {
       "fiwo": "Ram bata parawue.",
       "english": "It is traditional food."
@@ -21715,7 +21775,7 @@ const derivedDictionaryData = [
       "prior"
     ],
     "freq": 2,
-    "freq_rank": 989,
+    "freq_rank": 988,
     "example": {
       "fiwo": "Rezap parye brenid.",
       "english": "The former leader came."
@@ -21734,7 +21794,7 @@ const derivedDictionaryData = [
       "go before"
     ],
     "freq": 0,
-    "freq_rank": 2710,
+    "freq_rank": 2711,
     "example": {
       "fiwo": "Cihu paryi fohu.",
       "english": "Morning precedes afternoon."
@@ -21752,7 +21812,7 @@ const derivedDictionaryData = [
       "historian"
     ],
     "freq": 0,
-    "freq_rank": 2711,
+    "freq_rank": 2712,
     "example": {
       "fiwo": "Paswuap gesid zety eru.",
       "english": "The historian spoke about the war."
@@ -21770,7 +21830,7 @@ const derivedDictionaryData = [
       "historical"
     ],
     "freq": 1,
-    "freq_rank": 1359,
+    "freq_rank": 1363,
     "example": {
       "fiwo": "Ram foisor paswue.",
       "english": "It is a historical building."
@@ -21789,7 +21849,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 2,
-    "freq_rank": 994,
+    "freq_rank": 993,
     "example": {
       "fiwo": "Batap plebei.",
       "english": "The food is savory."
@@ -21808,7 +21868,7 @@ const derivedDictionaryData = [
       "umami"
     ],
     "freq": 0,
-    "freq_rank": 2742,
+    "freq_rank": 2743,
     "example": {
       "fiwo": "Plebeup zy batap gawei.",
       "english": "The savoriness of the food is nice."
@@ -21826,7 +21886,7 @@ const derivedDictionaryData = [
       "feeler"
     ],
     "freq": 0,
-    "freq_rank": 2712,
+    "freq_rank": 2713,
     "example": {
       "fiwo": "Pauliap paulid pamup.",
       "english": "The feeler felt the pain."
@@ -21844,7 +21904,7 @@ const derivedDictionaryData = [
       "pleasant"
     ],
     "freq": 0,
-    "freq_rank": 2436,
+    "freq_rank": 2437,
     "example": {
       "fiwo": "Ram du lezue.",
       "english": "It is a pleasant day."
@@ -21862,7 +21922,7 @@ const derivedDictionaryData = [
       "enjoy"
     ],
     "freq": 0,
-    "freq_rank": 2437,
+    "freq_rank": 2438,
     "example": {
       "fiwo": "Mik lezui hautup.",
       "english": "I enjoy the music."
@@ -21883,7 +21943,7 @@ const derivedDictionaryData = [
       "resembling father"
     ],
     "freq": 0,
-    "freq_rank": 2715,
+    "freq_rank": 2716,
     "example": {
       "fiwo": "Daq gesi zuwu pebae.",
       "english": "He speaks in a fatherly way."
@@ -21901,7 +21961,7 @@ const derivedDictionaryData = [
       "fatherhood"
     ],
     "freq": 0,
-    "freq_rank": 2716,
+    "freq_rank": 2717,
     "example": {
       "fiwo": "Pebau jorei zy daq.",
       "english": "Fatherhood is important to him."
@@ -21919,7 +21979,7 @@ const derivedDictionaryData = [
       "powerful"
     ],
     "freq": 0,
-    "freq_rank": 2717,
+    "freq_rank": 2718,
     "example": {
       "fiwo": "Daq nofar pedue.",
       "english": "He is a powerful person."
@@ -21937,7 +21997,7 @@ const derivedDictionaryData = [
       "folder"
     ],
     "freq": 0,
-    "freq_rank": 2718,
+    "freq_rank": 2719,
     "example": {
       "fiwo": "Pegiap pegid paelop.",
       "english": "The folder folded the paper."
@@ -22010,7 +22070,7 @@ const derivedDictionaryData = [
       "spender"
     ],
     "freq": 0,
-    "freq_rank": 2719,
+    "freq_rank": 2720,
     "example": {
       "fiwo": "Peteswiap peteswid gidup.",
       "english": "The spender spent the money."
@@ -22029,7 +22089,7 @@ const derivedDictionaryData = [
       "expenditure"
     ],
     "freq": 1,
-    "freq_rank": 1364,
+    "freq_rank": 1368,
     "example": {
       "fiwo": "Peteswiup mike tandeid.",
       "english": "My spending was big."
@@ -22048,7 +22108,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2723,
+    "freq_rank": 2724,
     "example": {
       "fiwo": "Ram pezei.",
       "english": "It is later."
@@ -22067,7 +22127,7 @@ const derivedDictionaryData = [
       "resembling hospital"
     ],
     "freq": 0,
-    "freq_rank": 2724,
+    "freq_rank": 2725,
     "example": {
       "fiwo": "Krulop picaloei.",
       "english": "The room is hospital-like."
@@ -22085,7 +22145,7 @@ const derivedDictionaryData = [
       "warner"
     ],
     "freq": 0,
-    "freq_rank": 2725,
+    "freq_rank": 2726,
     "example": {
       "fiwo": "Pijiap pijid nak.",
       "english": "The warner warned us."
@@ -22123,7 +22183,7 @@ const derivedDictionaryData = [
       "aliveness"
     ],
     "freq": 0,
-    "freq_rank": 2726,
+    "freq_rank": 2727,
     "example": {
       "fiwo": "Pilkeup dase tandei.",
       "english": "Her vitality is great."
@@ -22142,7 +22202,7 @@ const derivedDictionaryData = [
       "be accessible"
     ],
     "freq": 2,
-    "freq_rank": 991,
+    "freq_rank": 990,
     "example": {
       "fiwo": "Mik pimpefei fitydu.",
       "english": "I am available tomorrow."
@@ -22160,7 +22220,7 @@ const derivedDictionaryData = [
       "availability"
     ],
     "freq": 0,
-    "freq_rank": 2728,
+    "freq_rank": 2729,
     "example": {
       "fiwo": "Pimpefeup zy batap gawei.",
       "english": "The availability of food is good."
@@ -22179,7 +22239,7 @@ const derivedDictionaryData = [
       "alike"
     ],
     "freq": 0,
-    "freq_rank": 2729,
+    "freq_rank": 2730,
     "example": {
       "fiwo": "Ladup pinye gawei.",
       "english": "The similar idea is good."
@@ -22198,7 +22258,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 2,
-    "freq_rank": 1002,
+    "freq_rank": 1001,
     "example": {
       "fiwo": "Zutap pwefei.",
       "english": "The fruit is sour."
@@ -22216,7 +22276,7 @@ const derivedDictionaryData = [
       "sourness"
     ],
     "freq": 0,
-    "freq_rank": 2775,
+    "freq_rank": 2776,
     "example": {
       "fiwo": "Pwefeup zy zutap tandei.",
       "english": "The sourness of the fruit is strong."
@@ -22235,7 +22295,7 @@ const derivedDictionaryData = [
       "resembling tooth"
     ],
     "freq": 0,
-    "freq_rank": 2777,
+    "freq_rank": 2778,
     "example": {
       "fiwo": "Drekop pwosaei.",
       "english": "The rock is tooth-like."
@@ -22255,7 +22315,7 @@ const derivedDictionaryData = [
       "to chomp"
     ],
     "freq": 1,
-    "freq_rank": 1386,
+    "freq_rank": 1390,
     "example": {
       "fiwo": "Detap pwosaid mik.",
       "english": "The dog bit me."
@@ -22274,7 +22334,7 @@ const derivedDictionaryData = [
       "culpable"
     ],
     "freq": 0,
-    "freq_rank": 2736,
+    "freq_rank": 2737,
     "example": {
       "fiwo": "Daq pizuei.",
       "english": "He is guilty."
@@ -22293,7 +22353,7 @@ const derivedDictionaryData = [
       "resembling lock"
     ],
     "freq": 0,
-    "freq_rank": 2740,
+    "freq_rank": 2741,
     "example": {
       "fiwo": "Cemup plahoei.",
       "english": "The thing is lock-like."
@@ -22330,7 +22390,7 @@ const derivedDictionaryData = [
       "arriver"
     ],
     "freq": 0,
-    "freq_rank": 1688,
+    "freq_rank": 1692,
     "example": {
       "fiwo": "Breniap brenid hede.",
       "english": "The arriver came late."
@@ -22367,7 +22427,7 @@ const derivedDictionaryData = [
       "a person who handles money"
     ],
     "freq": 2,
-    "freq_rank": 995,
+    "freq_rank": 994,
     "example": {
       "fiwo": "Plolsoap guamid gidup.",
       "english": "The money handler counted the money."
@@ -22385,7 +22445,7 @@ const derivedDictionaryData = [
       "monetary"
     ],
     "freq": 0,
-    "freq_rank": 2744,
+    "freq_rank": 2745,
     "example": {
       "fiwo": "Ram biwur plolsoe.",
       "english": "It is a monetary problem."
@@ -22403,7 +22463,7 @@ const derivedDictionaryData = [
       "to render in money"
     ],
     "freq": 2,
-    "freq_rank": 996,
+    "freq_rank": 995,
     "example": {
       "fiwo": "Daq plolsoid melfup.",
       "english": "He rendered the cost in money."
@@ -22421,7 +22481,7 @@ const derivedDictionaryData = [
       "the abstract concept of monetary value"
     ],
     "freq": 0,
-    "freq_rank": 2745,
+    "freq_rank": 2746,
     "example": {
       "fiwo": "Plolsou tumi ruze.",
       "english": "Monetary value changes fast."
@@ -22440,7 +22500,7 @@ const derivedDictionaryData = [
       "resembling berry"
     ],
     "freq": 0,
-    "freq_rank": 2747,
+    "freq_rank": 2748,
     "example": {
       "fiwo": "Zutap pluratae zuzkei.",
       "english": "The berry-like fruit is sweet."
@@ -22459,7 +22519,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1371,
+    "freq_rank": 1375,
     "example": {
       "fiwo": "Kehulup dale pobrei.",
       "english": "His family is poor."
@@ -22477,7 +22537,7 @@ const derivedDictionaryData = [
       "poverty"
     ],
     "freq": 0,
-    "freq_rank": 2748,
+    "freq_rank": 2749,
     "example": {
       "fiwo": "Pobreu linid biwu jedle.",
       "english": "Poverty caused many problems."
@@ -22498,7 +22558,7 @@ const derivedDictionaryData = [
       "tranquil"
     ],
     "freq": 0,
-    "freq_rank": 2749,
+    "freq_rank": 2750,
     "example": {
       "fiwo": "Mortsap pogafuei.",
       "english": "The forest is peaceful."
@@ -22517,7 +22577,7 @@ const derivedDictionaryData = [
       "to make peace"
     ],
     "freq": 1,
-    "freq_rank": 1372,
+    "freq_rank": 1376,
     "example": {
       "fiwo": "Rezap pogafuid xekup.",
       "english": "The leader pacified the country."
@@ -22573,7 +22633,7 @@ const derivedDictionaryData = [
       "resembling virus"
     ],
     "freq": 0,
-    "freq_rank": 2751,
+    "freq_rank": 2752,
     "example": {
       "fiwo": "Otmap ponxaei.",
       "english": "The disease is virus-like."
@@ -22592,7 +22652,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2753,
+    "freq_rank": 2754,
     "example": {
       "fiwo": "Vexup popepei.",
       "english": "The weather is cool."
@@ -22610,7 +22670,7 @@ const derivedDictionaryData = [
       "coolness"
     ],
     "freq": 0,
-    "freq_rank": 2754,
+    "freq_rank": 2755,
     "example": {
       "fiwo": "Popepeup zy dugup gawei.",
       "english": "The coolness of the night is nice."
@@ -22629,7 +22689,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 2,
-    "freq_rank": 997,
+    "freq_rank": 996,
     "example": {
       "fiwo": "Zutap porcei.",
       "english": "The fruit is orange."
@@ -22648,7 +22708,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2757,
+    "freq_rank": 2758,
     "example": {
       "fiwo": "Nofap je potsucei.",
       "english": "The people are one billion."
@@ -22666,7 +22726,7 @@ const derivedDictionaryData = [
       "thinker"
     ],
     "freq": 0,
-    "freq_rank": 2759,
+    "freq_rank": 2760,
     "example": {
       "fiwo": "Poziap pozid dwime.",
       "english": "The thinker thought for a long time."
@@ -22687,7 +22747,7 @@ const derivedDictionaryData = [
       "opinion"
     ],
     "freq": 2,
-    "freq_rank": 999,
+    "freq_rank": 998,
     "example": {
       "fiwo": "Poziup suke gawei.",
       "english": "Your thought is good."
@@ -22705,7 +22765,7 @@ const derivedDictionaryData = [
       "dreamy"
     ],
     "freq": 0,
-    "freq_rank": 2760,
+    "freq_rank": 2761,
     "example": {
       "fiwo": "Hautup pozmuei.",
       "english": "The music is dreamy."
@@ -22723,7 +22783,7 @@ const derivedDictionaryData = [
       "to dream"
     ],
     "freq": 1,
-    "freq_rank": 1377,
+    "freq_rank": 1381,
     "example": {
       "fiwo": "Mik pozmuid zety suk.",
       "english": "I dreamed about you."
@@ -22743,7 +22803,7 @@ const derivedDictionaryData = [
       "kelp-like"
     ],
     "freq": 0,
-    "freq_rank": 2762,
+    "freq_rank": 2763,
     "example": {
       "fiwo": "Nasap prazaei.",
       "english": "The plant is kelp-like."
@@ -22762,7 +22822,7 @@ const derivedDictionaryData = [
       "resembling beetroot"
     ],
     "freq": 0,
-    "freq_rank": 1875,
+    "freq_rank": 1877,
     "example": {
       "fiwo": "Zobap dzadoei.",
       "english": "The vegetable is beetroot-like."
@@ -22781,7 +22841,7 @@ const derivedDictionaryData = [
       "resembling heel"
     ],
     "freq": 0,
-    "freq_rank": 2767,
+    "freq_rank": 2768,
     "example": {
       "fiwo": "Drekop pujypaei.",
       "english": "The rock is heel-like."
@@ -22800,7 +22860,7 @@ const derivedDictionaryData = [
       "put on trial"
     ],
     "freq": 1,
-    "freq_rank": 1380,
+    "freq_rank": 1384,
     "example": {
       "fiwo": "Dofemop punkokuid efmiap.",
       "english": "The court put the thief on trial."
@@ -22819,7 +22879,7 @@ const derivedDictionaryData = [
       "inquisitive"
     ],
     "freq": 0,
-    "freq_rank": 2769,
+    "freq_rank": 2770,
     "example": {
       "fiwo": "Cadap puruei.",
       "english": "The child is curious."
@@ -22837,7 +22897,7 @@ const derivedDictionaryData = [
       "print"
     ],
     "freq": 0,
-    "freq_rank": 2770,
+    "freq_rank": 2771,
     "example": {
       "fiwo": "Mik pusnapoid jamiop.",
       "english": "I printed the document."
@@ -22893,7 +22953,7 @@ const derivedDictionaryData = [
       "resembling pig"
     ],
     "freq": 0,
-    "freq_rank": 2773,
+    "freq_rank": 2774,
     "example": {
       "fiwo": "Latwap puxaei.",
       "english": "The animal is pig-like."
@@ -22912,7 +22972,7 @@ const derivedDictionaryData = [
       "resembling candle"
     ],
     "freq": 0,
-    "freq_rank": 2778,
+    "freq_rank": 2779,
     "example": {
       "fiwo": "Lazop pyboei.",
       "english": "The stick is candle-like."
@@ -22932,7 +22992,7 @@ const derivedDictionaryData = [
       "jungle-wood"
     ],
     "freq": 0,
-    "freq_rank": 2780,
+    "freq_rank": 2781,
     "example": {
       "fiwo": "Woru pydrae ripei.",
       "english": "The jungle area is hot."
@@ -22951,7 +23011,7 @@ const derivedDictionaryData = [
       "resembling knee"
     ],
     "freq": 0,
-    "freq_rank": 2781,
+    "freq_rank": 2782,
     "example": {
       "fiwo": "Drekop pyhaei.",
       "english": "The rock is knee-like."
@@ -22969,7 +23029,7 @@ const derivedDictionaryData = [
       "chaotic"
     ],
     "freq": 0,
-    "freq_rank": 2782,
+    "freq_rank": 2783,
     "example": {
       "fiwo": "Krulop pyjuei.",
       "english": "The room is chaotic."
@@ -22988,7 +23048,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1388,
+    "freq_rank": 1392,
     "example": {
       "fiwo": "Daq pyqeid.",
       "english": "He was rude."
@@ -23006,7 +23066,7 @@ const derivedDictionaryData = [
       "rudeness"
     ],
     "freq": 0,
-    "freq_rank": 2784,
+    "freq_rank": 2785,
     "example": {
       "fiwo": "Pyqeup dale linid biwur.",
       "english": "His rudeness caused a problem."
@@ -23025,7 +23085,7 @@ const derivedDictionaryData = [
       "resembling rod"
     ],
     "freq": 0,
-    "freq_rank": 2786,
+    "freq_rank": 2787,
     "example": {
       "fiwo": "Lazop pytsoei.",
       "english": "The stick is rod-like."
@@ -23043,7 +23103,7 @@ const derivedDictionaryData = [
       "listener"
     ],
     "freq": 1,
-    "freq_rank": 1389,
+    "freq_rank": 1393,
     "example": {
       "fiwo": "Pywiap pywid stepup.",
       "english": "The listener listened to the story."
@@ -23062,7 +23122,7 @@ const derivedDictionaryData = [
       "resembling roof"
     ],
     "freq": 0,
-    "freq_rank": 2787,
+    "freq_rank": 2788,
     "example": {
       "fiwo": "Cemup ragoei.",
       "english": "The thing is roof-like."
@@ -23080,7 +23140,7 @@ const derivedDictionaryData = [
       "friday"
     ],
     "freq": 0,
-    "freq_rank": 2788,
+    "freq_rank": 2789,
     "example": {
       "fiwo": "Mik kyti taicu rajedue.",
       "english": "I like Friday parties."
@@ -23099,7 +23159,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2789,
+    "freq_rank": 2790,
     "example": {
       "fiwo": "Cadap je rajei.",
       "english": "The children are five."
@@ -23107,7 +23167,7 @@ const derivedDictionaryData = [
   },
   {
     "word": "ramei",
-    "english_equiv": "To be its (inanimate",
+    "english_equiv": "To be its (inanimate)",
     "part_of_speech": "Verb",
     "definition": "Stative: to be or become its (inanimate.",
     "root": "rame",
@@ -23117,8 +23177,8 @@ const derivedDictionaryData = [
       "to become its (inanimate"
     ],
     "path_gloss": "Modifier -> Verb (stative)",
-    "freq": 0,
-    "freq_rank": 2790,
+    "freq": 1,
+    "freq_rank": 1394,
     "example": {
       "fiwo": "Facup ramei.",
       "english": "The side is its."
@@ -23177,7 +23237,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1391,
+    "freq_rank": 1396,
     "example": {
       "fiwo": "Sydop raurei.",
       "english": "The house is ugly."
@@ -23213,7 +23273,7 @@ const derivedDictionaryData = [
       "cultural"
     ],
     "freq": 0,
-    "freq_rank": 2343,
+    "freq_rank": 2344,
     "example": {
       "fiwo": "Ram taicur kigue.",
       "english": "It is a cultural festival."
@@ -23380,7 +23440,7 @@ const derivedDictionaryData = [
       "sunday"
     ],
     "freq": 0,
-    "freq_rank": 2763,
+    "freq_rank": 2764,
     "example": {
       "fiwo": "Muk xogris taicup pruredue.",
       "english": "We will visit the Sunday party."
@@ -23399,7 +23459,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2764,
+    "freq_rank": 2765,
     "example": {
       "fiwo": "Kehulup nake prurei.",
       "english": "Our family is seven."
@@ -23418,7 +23478,7 @@ const derivedDictionaryData = [
       "homecoming"
     ],
     "freq": 1,
-    "freq_rank": 1396,
+    "freq_rank": 1400,
     "example": {
       "fiwo": "Retibiup dale linid tep mik kypeid.",
       "english": "His return made me happy."
@@ -23457,7 +23517,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Preposition -> Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1397,
+    "freq_rank": 1401,
     "example": {
       "fiwo": "Tubsop rewyei.",
       "english": "The sea is far."
@@ -23626,7 +23686,7 @@ const derivedDictionaryData = [
       "wealthy"
     ],
     "freq": 0,
-    "freq_rank": 1864,
+    "freq_rank": 1866,
     "example": {
       "fiwo": "Kehulup dase dwasuei.",
       "english": "Her family is wealthy."
@@ -23813,7 +23873,7 @@ const derivedDictionaryData = [
       "slowness"
     ],
     "freq": 1,
-    "freq_rank": 1165,
+    "freq_rank": 1167,
     "example": {
       "fiwo": "Fwikeup zy nuvwop linid biwur.",
       "english": "The slowness of the bus caused a problem."
@@ -23832,7 +23892,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 7,
-    "freq_rank": 594,
+    "freq_rank": 595,
     "example": {
       "fiwo": "Mik rodipei.",
       "english": "I am thirsty."
@@ -24076,7 +24136,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1379,
+    "freq_rank": 1383,
     "example": {
       "fiwo": "Drekop pughei.",
       "english": "The rock is rough."
@@ -24094,7 +24154,7 @@ const derivedDictionaryData = [
       "roughness"
     ],
     "freq": 0,
-    "freq_rank": 2765,
+    "freq_rank": 2766,
     "example": {
       "fiwo": "Pugheup zy gofop tandei.",
       "english": "The roughness of the wood is great."
@@ -24188,7 +24248,7 @@ const derivedDictionaryData = [
       "give testimony"
     ],
     "freq": 1,
-    "freq_rank": 1399,
+    "freq_rank": 1403,
     "example": {
       "fiwo": "Lurubrap rumatruid ky dofemop.",
       "english": "The witness testified at the court."
@@ -24244,7 +24304,7 @@ const derivedDictionaryData = [
       "sharpness"
     ],
     "freq": 0,
-    "freq_rank": 2733,
+    "freq_rank": 2734,
     "example": {
       "fiwo": "Pivmeup zy kinop ratsei.",
       "english": "The sharpness of the knife is dangerous."
@@ -24435,7 +24495,7 @@ const derivedDictionaryData = [
       "external"
     ],
     "freq": 1,
-    "freq_rank": 1402,
+    "freq_rank": 1406,
     "example": {
       "fiwo": "Krapop sacye stobei.",
       "english": "The outer wall is hard."
@@ -24454,7 +24514,7 @@ const derivedDictionaryData = [
       "outside"
     ],
     "freq": 1,
-    "freq_rank": 1403,
+    "freq_rank": 1407,
     "example": {
       "fiwo": "Sacyop zy sydop jotsei.",
       "english": "The exterior of the house is clean."
@@ -24494,7 +24554,7 @@ const derivedDictionaryData = [
       "powdery"
     ],
     "freq": 1,
-    "freq_rank": 1405,
+    "freq_rank": 1409,
     "example": {
       "fiwo": "Zasop sanpoei.",
       "english": "The ground is sandy."
@@ -24530,7 +24590,7 @@ const derivedDictionaryData = [
       "inventor"
     ],
     "freq": 0,
-    "freq_rank": 2447,
+    "freq_rank": 2448,
     "example": {
       "fiwo": "Lilwiap lilwid fator jaxke.",
       "english": "The inventor invented a new machine."
@@ -24548,7 +24608,7 @@ const derivedDictionaryData = [
       "invention"
     ],
     "freq": 0,
-    "freq_rank": 2448,
+    "freq_rank": 2449,
     "example": {
       "fiwo": "Lilwiop dale jorei.",
       "english": "His invention is important."
@@ -24567,7 +24627,7 @@ const derivedDictionaryData = [
       "resembling sibling"
     ],
     "freq": 0,
-    "freq_rank": 1696,
+    "freq_rank": 1700,
     "example": {
       "fiwo": "Daq nauxar browae.",
       "english": "He is a sibling-like friend."
@@ -24585,7 +24645,7 @@ const derivedDictionaryData = [
       "taster"
     ],
     "freq": 0,
-    "freq_rank": 1716,
+    "freq_rank": 1720,
     "example": {
       "fiwo": "Cackiap cackid batap.",
       "english": "The taster tasted the food."
@@ -24923,7 +24983,7 @@ const derivedDictionaryData = [
       "resembling pufferfish"
     ],
     "freq": 0,
-    "freq_rank": 2735,
+    "freq_rank": 2736,
     "example": {
       "fiwo": "Fubap pivraei.",
       "english": "The fish is pufferfish-like."
@@ -24960,7 +25020,7 @@ const derivedDictionaryData = [
       "command"
     ],
     "freq": 1,
-    "freq_rank": 1411,
+    "freq_rank": 1415,
     "example": {
       "fiwo": "Skiwiup zy blyfop gawei.",
       "english": "The control of the car is good."
@@ -25241,7 +25301,7 @@ const derivedDictionaryData = [
       "resembling deer"
     ],
     "freq": 0,
-    "freq_rank": 2478,
+    "freq_rank": 2479,
     "example": {
       "fiwo": "Latwap lusbaei.",
       "english": "The animal is deer-like."
@@ -25390,7 +25450,7 @@ const derivedDictionaryData = [
       "resolution"
     ],
     "freq": 1,
-    "freq_rank": 1420,
+    "freq_rank": 1424,
     "example": {
       "fiwo": "Solfiup curmei.",
       "english": "The solution is easy."
@@ -25428,7 +25488,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1421,
+    "freq_rank": 1425,
     "example": {
       "fiwo": "Batap sonei.",
       "english": "The food is spicy."
@@ -25484,7 +25544,7 @@ const derivedDictionaryData = [
       "recreational"
     ],
     "freq": 1,
-    "freq_rank": 1423,
+    "freq_rank": 1427,
     "example": {
       "fiwo": "Ram mipfur spelue.",
       "english": "It is a recreational activity."
@@ -25521,7 +25581,7 @@ const derivedDictionaryData = [
       "resembling cheek"
     ],
     "freq": 0,
-    "freq_rank": 1681,
+    "freq_rank": 1685,
     "example": {
       "fiwo": "Zutap boxraei.",
       "english": "The fruit is cheek-like."
@@ -25686,7 +25746,7 @@ const derivedDictionaryData = [
       "resembling line"
     ],
     "freq": 0,
-    "freq_rank": 2144,
+    "freq_rank": 2145,
     "example": {
       "fiwo": "Nofap je hekoei.",
       "english": "The people are in a line."
@@ -25705,7 +25765,7 @@ const derivedDictionaryData = [
       "line up"
     ],
     "freq": 0,
-    "freq_rank": 2145,
+    "freq_rank": 2146,
     "example": {
       "fiwo": "Nak hekoid ky xyrop.",
       "english": "We queued at the shop."
@@ -25912,7 +25972,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 2590,
+    "freq_rank": 2591,
     "example": {
       "fiwo": "Domlou nemei.",
       "english": "Rain is likely."
@@ -25987,7 +26047,7 @@ const derivedDictionaryData = [
       "turner"
     ],
     "freq": 0,
-    "freq_rank": 2768,
+    "freq_rank": 2769,
     "example": {
       "fiwo": "Purkiap purkid drafop.",
       "english": "The turner turned the wheel."
@@ -26213,7 +26273,7 @@ const derivedDictionaryData = [
       "householder"
     ],
     "freq": 1,
-    "freq_rank": 1431,
+    "freq_rank": 1435,
     "example": {
       "fiwo": "Sydoap umzid nak.",
       "english": "The resident welcomed us."
@@ -26381,7 +26441,7 @@ const derivedDictionaryData = [
       "to revel"
     ],
     "freq": 1,
-    "freq_rank": 1432,
+    "freq_rank": 1436,
     "example": {
       "fiwo": "Nak taicuid uxkup.",
       "english": "We celebrated the success."
@@ -26681,7 +26741,7 @@ const derivedDictionaryData = [
       "resembling telephone"
     ],
     "freq": 1,
-    "freq_rank": 1433,
+    "freq_rank": 1437,
     "example": {
       "fiwo": "Fatop telfoei.",
       "english": "The machine is phone-like."
@@ -27112,7 +27172,7 @@ const derivedDictionaryData = [
       "frustrated"
     ],
     "freq": 1,
-    "freq_rank": 1444,
+    "freq_rank": 1448,
     "example": {
       "fiwo": "Mik triruzuei.",
       "english": "I am frustrated."
@@ -27167,7 +27227,7 @@ const derivedDictionaryData = [
       "awe"
     ],
     "freq": 1,
-    "freq_rank": 1446,
+    "freq_rank": 1450,
     "example": {
       "fiwo": "Nibop truhui nofap je.",
       "english": "The book awes the people."
@@ -27260,7 +27320,7 @@ const derivedDictionaryData = [
       "leaver"
     ],
     "freq": 0,
-    "freq_rank": 2034,
+    "freq_rank": 2036,
     "example": {
       "fiwo": "Fwimiap fwimid hede.",
       "english": "The leaver left late."
@@ -27541,7 +27601,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1455,
+    "freq_rank": 1459,
     "example": {
       "fiwo": "Fulup ubmei.",
       "english": "The information is public."
@@ -27636,7 +27696,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1456,
+    "freq_rank": 1460,
     "example": {
       "fiwo": "Belimop udcei.",
       "english": "The shoes are tight."
@@ -27895,7 +27955,7 @@ const derivedDictionaryData = [
       "embarrassed"
     ],
     "freq": 0,
-    "freq_rank": 2445,
+    "freq_rank": 2446,
     "example": {
       "fiwo": "Mik ligpuei.",
       "english": "I am embarrassed."
@@ -27913,7 +27973,7 @@ const derivedDictionaryData = [
       "embarrass"
     ],
     "freq": 0,
-    "freq_rank": 2446,
+    "freq_rank": 2447,
     "example": {
       "fiwo": "Daq ligpui das.",
       "english": "He embarrasses her."
@@ -27932,7 +27992,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1458,
+    "freq_rank": 1462,
     "example": {
       "fiwo": "Kalop ulimei.",
       "english": "The cup is half."
@@ -27988,7 +28048,7 @@ const derivedDictionaryData = [
       "recommendation"
     ],
     "freq": 1,
-    "freq_rank": 1460,
+    "freq_rank": 1464,
     "example": {
       "fiwo": "Umetiup suke gawei.",
       "english": "Your advice is good."
@@ -28083,7 +28143,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1463,
+    "freq_rank": 1467,
     "example": {
       "fiwo": "Gup kage upfei.",
       "english": "The two numbers are unequal."
@@ -28214,7 +28274,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1465,
+    "freq_rank": 1469,
     "example": {
       "fiwo": "Hekop usatei.",
       "english": "The line is straight."
@@ -28345,7 +28405,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1467,
+    "freq_rank": 1471,
     "example": {
       "fiwo": "Busko mike uxbei.",
       "english": "My clothes are loose."
@@ -28399,7 +28459,7 @@ const derivedDictionaryData = [
       "succeed"
     ],
     "freq": 1,
-    "freq_rank": 1468,
+    "freq_rank": 1472,
     "example": {
       "fiwo": "Razup nake uxkuis.",
       "english": "Our plan will succeed."
@@ -28417,7 +28477,7 @@ const derivedDictionaryData = [
       "hunter"
     ],
     "freq": 1,
-    "freq_rank": 1469,
+    "freq_rank": 1473,
     "example": {
       "fiwo": "Uzkiap uzkid lusbar.",
       "english": "The hunter hunted a deer."
@@ -28548,7 +28608,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1471,
+    "freq_rank": 1475,
     "example": {
       "fiwo": "Krapop vekei.",
       "english": "The wall is low."
@@ -28604,7 +28664,7 @@ const derivedDictionaryData = [
       "surprised"
     ],
     "freq": 1,
-    "freq_rank": 1473,
+    "freq_rank": 1477,
     "example": {
       "fiwo": "Mik veponkuei.",
       "english": "I am surprised."
@@ -28736,7 +28796,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1476,
+    "freq_rank": 1480,
     "example": {
       "fiwo": "Das vicei.",
       "english": "She is brave."
@@ -28756,7 +28816,7 @@ const derivedDictionaryData = [
       "valor"
     ],
     "freq": 1,
-    "freq_rank": 1477,
+    "freq_rank": 1481,
     "example": {
       "fiwo": "Viceup dale tandeid.",
       "english": "His courage was great."
@@ -28813,7 +28873,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1478,
+    "freq_rank": 1482,
     "example": {
       "fiwo": "Gesiup dase vildei.",
       "english": "Her speech is direct."
@@ -29001,7 +29061,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1480,
+    "freq_rank": 1484,
     "example": {
       "fiwo": "Daq vokrei.",
       "english": "He is greedy."
@@ -29077,7 +29137,7 @@ const derivedDictionaryData = [
       "resembling stick"
     ],
     "freq": 0,
-    "freq_rank": 2419,
+    "freq_rank": 2420,
     "example": {
       "fiwo": "Xufap dale lazoei.",
       "english": "His arm is stick-like."
@@ -29228,7 +29288,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1485,
+    "freq_rank": 1489,
     "example": {
       "fiwo": "Batap vyhei.",
       "english": "The food is bland."
@@ -29341,7 +29401,7 @@ const derivedDictionaryData = [
       "getaway"
     ],
     "freq": 1,
-    "freq_rank": 1487,
+    "freq_rank": 1491,
     "example": {
       "fiwo": "Vyziup dale ruzeid.",
       "english": "His escape was fast."
@@ -29360,7 +29420,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 0,
-    "freq_rank": 1825,
+    "freq_rank": 1827,
     "example": {
       "fiwo": "Moskufup nake derwei.",
       "english": "Our respect is mutual."
@@ -29434,7 +29494,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1374,
+    "freq_rank": 1378,
     "example": {
       "fiwo": "Wusap sile poxmei.",
       "english": "This hand is the left one."
@@ -29454,7 +29514,7 @@ const derivedDictionaryData = [
       "left side"
     ],
     "freq": 1,
-    "freq_rank": 1375,
+    "freq_rank": 1379,
     "example": {
       "fiwo": "Kop xali zy poxmeu.",
       "english": "Go to the left."
@@ -29735,7 +29795,7 @@ const derivedDictionaryData = [
       "weakness"
     ],
     "freq": 0,
-    "freq_rank": 2714,
+    "freq_rank": 2715,
     "example": {
       "fiwo": "Paxeup dale linid tep daq wafrid.",
       "english": "His weakness made him lose."
@@ -29754,7 +29814,11 @@ const derivedDictionaryData = [
       "martial"
     ],
     "freq": 1,
-    "freq_rank": 1491
+    "freq_rank": 1495,
+    "example": {
+      "fiwo": "Ram foisor webutue.",
+      "english": "It is a military building."
+    }
   },
   {
     "word": "wecdue",
@@ -29768,7 +29832,7 @@ const derivedDictionaryData = [
       "yesterday's"
     ],
     "freq": 1,
-    "freq_rank": 1492,
+    "freq_rank": 1496,
     "example": {
       "fiwo": "Mik lokid fuhytup wecdue.",
       "english": "I read yesterday's news."
@@ -29776,7 +29840,7 @@ const derivedDictionaryData = [
   },
   {
     "word": "wecei",
-    "english_equiv": "To be well (satisfactory",
+    "english_equiv": "To be well (satisfactory)",
     "part_of_speech": "Verb",
     "definition": "Stative: to be or become well (satisfactory.",
     "root": "wece",
@@ -29786,8 +29850,8 @@ const derivedDictionaryData = [
       "to become well (satisfactory"
     ],
     "path_gloss": "Modifier -> Verb (stative)",
-    "freq": 7,
-    "freq_rank": 601,
+    "freq": 8,
+    "freq_rank": 552,
     "example": {
       "fiwo": "Mik wecei.",
       "english": "I am well."
@@ -29971,7 +30035,7 @@ const derivedDictionaryData = [
       "round object"
     ],
     "freq": 1,
-    "freq_rank": 1494,
+    "freq_rank": 1498,
     "example": {
       "fiwo": "Cadap sapid weokeor.",
       "english": "The child made a circle."
@@ -30230,7 +30294,7 @@ const derivedDictionaryData = [
       "aspiration"
     ],
     "freq": 1,
-    "freq_rank": 1497,
+    "freq_rank": 1501,
     "example": {
       "fiwo": "Wogiup dase dotei.",
       "english": "Her hopefulness is strong."
@@ -30285,7 +30349,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1429,
+    "freq_rank": 1433,
     "example": {
       "fiwo": "Tivwop stusei.",
       "english": "The path is short."
@@ -30453,7 +30517,7 @@ const derivedDictionaryData = [
       "dryness"
     ],
     "freq": 0,
-    "freq_rank": 1977,
+    "freq_rank": 1979,
     "example": {
       "fiwo": "Fezneup zy zasop linid tep nasa je kimugid.",
       "english": "The dryness of the ground made the plants die."
@@ -30492,7 +30556,7 @@ const derivedDictionaryData = [
       "cast"
     ],
     "freq": 1,
-    "freq_rank": 1503,
+    "freq_rank": 1507,
     "example": {
       "fiwo": "Ram foisor wutroe.",
       "english": "It is a concrete building."
@@ -30607,7 +30671,7 @@ const derivedDictionaryData = [
       "resembling river"
     ],
     "freq": 1,
-    "freq_rank": 1504,
+    "freq_rank": 1508,
     "example": {
       "fiwo": "Tivwop xadoroei.",
       "english": "The path is river-like."
@@ -30705,7 +30769,7 @@ const derivedDictionaryData = [
       "gilded"
     ],
     "freq": 1,
-    "freq_rank": 1506,
+    "freq_rank": 1510,
     "example": {
       "fiwo": "Das hekri fijaor xaqboe.",
       "english": "She wears a gold earring."
@@ -30781,7 +30845,7 @@ const derivedDictionaryData = [
       "metallic"
     ],
     "freq": 1,
-    "freq_rank": 1507,
+    "freq_rank": 1511,
     "example": {
       "fiwo": "Skejup xedoei.",
       "english": "The sound is metallic."
@@ -30875,7 +30939,7 @@ const derivedDictionaryData = [
       "rehearsal"
     ],
     "freq": 1,
-    "freq_rank": 1508,
+    "freq_rank": 1512,
     "example": {
       "fiwo": "Xempiu jofi keciu.",
       "english": "Practice helps learning."
@@ -30950,7 +31014,7 @@ const derivedDictionaryData = [
       "reward"
     ],
     "freq": 1,
-    "freq_rank": 1509,
+    "freq_rank": 1513,
     "example": {
       "fiwo": "Xeskiop xaqboei.",
       "english": "The trophy is golden."
@@ -31155,7 +31219,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 8,
-    "freq_rank": 554,
+    "freq_rank": 555,
     "example": {
       "fiwo": "Blyfop xivei.",
       "english": "The car is expensive."
@@ -31435,7 +31499,7 @@ const derivedDictionaryData = [
       "thankful"
     ],
     "freq": 0,
-    "freq_rank": 2100,
+    "freq_rank": 2101,
     "example": {
       "fiwo": "Daq nofar grawiue.",
       "english": "He is a thankful person."
@@ -31602,7 +31666,7 @@ const derivedDictionaryData = [
       "ferrous"
     ],
     "freq": 1,
-    "freq_rank": 1516,
+    "freq_rank": 1520,
     "example": {
       "fiwo": "Hoxop xyploei.",
       "english": "The gate is made of iron."
@@ -31996,7 +32060,7 @@ const derivedDictionaryData = [
       "salty"
     ],
     "freq": 0,
-    "freq_rank": 1733,
+    "freq_rank": 1737,
     "example": {
       "fiwo": "Dorsop cekgoei.",
       "english": "The water is salty."
@@ -32015,7 +32079,7 @@ const derivedDictionaryData = [
       "season"
     ],
     "freq": 0,
-    "freq_rank": 1734,
+    "freq_rank": 1738,
     "example": {
       "fiwo": "Das cekgoid batap.",
       "english": "She salted the food."
@@ -32183,7 +32247,7 @@ const derivedDictionaryData = [
       "lid"
     ],
     "freq": 1,
-    "freq_rank": 1519,
+    "freq_rank": 1523,
     "example": {
       "fiwo": "Kop swami zemiop ty hanop.",
       "english": "Put the cover on the box."
@@ -32278,7 +32342,7 @@ const derivedDictionaryData = [
       "matter"
     ],
     "freq": 1,
-    "freq_rank": 1520,
+    "freq_rank": 1524,
     "example": {
       "fiwo": "Zetyup zy jifniup jorei.",
       "english": "The topic of the discussion is important."
@@ -32353,7 +32417,7 @@ const derivedDictionaryData = [
     ],
     "path_gloss": "Modifier -> Verb (stative)",
     "freq": 1,
-    "freq_rank": 1522,
+    "freq_rank": 1526,
     "example": {
       "fiwo": "Hautuap zihei.",
       "english": "The musician is famous."
@@ -32447,7 +32511,7 @@ const derivedDictionaryData = [
       "embellished"
     ],
     "freq": 0,
-    "freq_rank": 2633,
+    "freq_rank": 2634,
     "example": {
       "fiwo": "Krulop nuzcoei.",
       "english": "The room is trimmed."
@@ -32657,7 +32721,7 @@ const derivedDictionaryData = [
       "jumper"
     ],
     "freq": 0,
-    "freq_rank": 1699,
+    "freq_rank": 1703,
     "example": {
       "fiwo": "Buciap bucid zave.",
       "english": "The jumper jumped high."
@@ -32842,7 +32906,7 @@ const derivedDictionaryData = [
       "perform surgery"
     ],
     "freq": 1,
-    "freq_rank": 1528,
+    "freq_rank": 1532,
     "example": {
       "fiwo": "Farlopap zusabruis fitydu.",
       "english": "The doctor will operate tomorrow."
@@ -32902,7 +32966,11 @@ const derivedDictionaryData = [
       "towards"
     ],
     "freq": 5,
-    "freq_rank": 709
+    "freq_rank": 709,
+    "example": {
+      "fiwo": "Kop xali zye.",
+      "english": "Go forward."
+    }
   },
   {
     "word": "zygloroe",
@@ -32955,7 +33023,7 @@ const derivedDictionaryData = [
       "to make a big deal of"
     ],
     "freq": 1,
-    "freq_rank": 1265,
+    "freq_rank": 1268,
     "example": {
       "fiwo": "Daq kwotuid stepup.",
       "english": "He exaggerated the story."
@@ -32974,7 +33042,7 @@ const derivedDictionaryData = [
       "overblown"
     ],
     "freq": 0,
-    "freq_rank": 2397,
+    "freq_rank": 2398,
     "example": {
       "fiwo": "Stepup kwotuei.",
       "english": "The story is exaggerated."
@@ -32993,7 +33061,7 @@ const derivedDictionaryData = [
       "drama-maker"
     ],
     "freq": 0,
-    "freq_rank": 2398,
+    "freq_rank": 2399,
     "example": {
       "fiwo": "Daq kwotuiar.",
       "english": "He is an exaggerator."
@@ -33032,7 +33100,7 @@ const derivedDictionaryData = [
       "understated"
     ],
     "freq": 0,
-    "freq_rank": 2457,
+    "freq_rank": 2458,
     "example": {
       "fiwo": "Biwup lizjuei.",
       "english": "The problem is downplayed."
@@ -33051,7 +33119,7 @@ const derivedDictionaryData = [
       "someone who downplays"
     ],
     "freq": 0,
-    "freq_rank": 2458,
+    "freq_rank": 2459,
     "example": {
       "fiwo": "Daq lizjuiar.",
       "english": "He is a belittler."
@@ -33066,7 +33134,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 1799,
+    "freq_rank": 1803,
     "example": {
       "fiwo": "Difop dacwoei.",
       "english": "The liquid is resin-like."
@@ -33081,7 +33149,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→a",
     "path_gloss": "Concrete Noun -> Biological Noun (handler)",
     "freq": 0,
-    "freq_rank": 1917,
+    "freq_rank": 1919,
     "example": {
       "fiwo": "Emamoap onasid mula je.",
       "english": "The garden worker planted flowers."
@@ -33096,7 +33164,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 1918,
+    "freq_rank": 1920,
     "example": {
       "fiwo": "Worup emamoe baudei.",
       "english": "The garden-like area is beautiful."
@@ -33111,7 +33179,7 @@ const derivedDictionaryData = [
     "derivation_path": "i→e",
     "path_gloss": "Verb -> Modifier (prone to)",
     "freq": 0,
-    "freq_rank": 2707,
+    "freq_rank": 2708,
     "example": {
       "fiwo": "Cadap papjiei.",
       "english": "The child is prone to twitching."
@@ -33126,7 +33194,7 @@ const derivedDictionaryData = [
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)",
     "freq": 0,
-    "freq_rank": 2708,
+    "freq_rank": 2709,
     "example": {
       "fiwo": "Papjiup zy wusap dale linid biwur.",
       "english": "The twitch of his hand caused a problem."
@@ -33216,7 +33284,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 2404,
+    "freq_rank": 2405,
     "example": {
       "fiwo": "Daq gugi zuwu kyzkoe.",
       "english": "He stands like a statue."
@@ -33231,7 +33299,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 1877,
+    "freq_rank": 1879,
     "example": {
       "fiwo": "Montop dzehoei.",
       "english": "The mountain is pyramid-like."
@@ -33246,7 +33314,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 1,
-    "freq_rank": 1157,
+    "freq_rank": 1159,
     "example": {
       "fiwo": "Paelop fobxoei.",
       "english": "The paper is rectangular."
@@ -33261,7 +33329,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 2330,
+    "freq_rank": 2331,
     "example": {
       "fiwo": "Zipap dase kemjoei.",
       "english": "Her face is oval."
@@ -33276,7 +33344,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 2353,
+    "freq_rank": 2354,
     "example": {
       "fiwo": "Foisop kocjydoei.",
       "english": "The building is monument-like."
@@ -33291,7 +33359,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 2722,
+    "freq_rank": 2723,
     "example": {
       "fiwo": "Hanop pevhoei.",
       "english": "The box is cube-like."
@@ -33306,7 +33374,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 2738,
+    "freq_rank": 2739,
     "example": {
       "fiwo": "Sydop pjalktoei.",
       "english": "The house is like ruins."
@@ -33321,7 +33389,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 2776,
+    "freq_rank": 2777,
     "example": {
       "fiwo": "Tulop pwokoei.",
       "english": "The bottle is cylindrical."
@@ -33396,7 +33464,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 1724,
+    "freq_rank": 1728,
     "example": {
       "fiwo": "Telfop cameroei.",
       "english": "The phone is camera-like."
@@ -33411,7 +33479,7 @@ const derivedDictionaryData = [
     "derivation_path": "i→e",
     "path_gloss": "Verb -> Modifier (prone to)",
     "freq": 0,
-    "freq_rank": 1791,
+    "freq_rank": 1795,
     "example": {
       "fiwo": "Cadap cymgiei.",
       "english": "The child is prone to requesting."
@@ -33426,7 +33494,7 @@ const derivedDictionaryData = [
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)",
     "freq": 0,
-    "freq_rank": 1792,
+    "freq_rank": 1796,
     "example": {
       "fiwo": "Cymgiup suke gawei.",
       "english": "Your request is good."
@@ -33441,7 +33509,7 @@ const derivedDictionaryData = [
     "derivation_path": "i→e",
     "path_gloss": "Verb -> Modifier (prone to)",
     "freq": 0,
-    "freq_rank": 2355,
+    "freq_rank": 2356,
     "example": {
       "fiwo": "Jyjoap kogwiei.",
       "english": "The programmer is prone to debugging."
@@ -33456,7 +33524,7 @@ const derivedDictionaryData = [
     "derivation_path": "i→u",
     "path_gloss": "Verb -> Abstract Noun (act/process)",
     "freq": 0,
-    "freq_rank": 2356,
+    "freq_rank": 2357,
     "example": {
       "fiwo": "Kogwiup zy flygup dwimeid.",
       "english": "The debugging of the program was long."
@@ -33471,7 +33539,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 2601,
+    "freq_rank": 2602,
     "example": {
       "fiwo": "Uqup nilfoei.",
       "english": "The symbol is cursor-like."
@@ -33486,7 +33554,7 @@ const derivedDictionaryData = [
     "derivation_path": "u→e",
     "path_gloss": "Abstract Noun -> Modifier (characterized by)",
     "freq": 1,
-    "freq_rank": 1155,
+    "freq_rank": 1157,
     "example": {
       "fiwo": "Ram biwur flygue.",
       "english": "It is a program problem."
@@ -33505,7 +33573,7 @@ const derivedDictionaryData = [
       "to code"
     ],
     "freq": 1,
-    "freq_rank": 1156,
+    "freq_rank": 1158,
     "example": {
       "fiwo": "Mik flyguid jyjop.",
       "english": "I programmed the computer."
@@ -33520,7 +33588,7 @@ const derivedDictionaryData = [
     "derivation_path": "o→e",
     "path_gloss": "Concrete Noun -> Modifier (material/resemblance)",
     "freq": 0,
-    "freq_rank": 2036,
+    "freq_rank": 2038,
     "example": {
       "fiwo": "Ram fulur gabkoe.",
       "english": "It is port-related information."
@@ -33610,7 +33678,7 @@ const derivedDictionaryData = [
     "derivation_path": "i→e",
     "path_gloss": "Verb -> Modifier (prone to)",
     "freq": 0,
-    "freq_rank": 1587,
+    "freq_rank": 1591,
     "example": {
       "fiwo": "Flygup amogiei.",
       "english": "The program is prone to simulating."
@@ -33628,7 +33696,7 @@ const derivedDictionaryData = [
       "simulation"
     ],
     "freq": 0,
-    "freq_rank": 1588,
+    "freq_rank": 1592,
     "example": {
       "fiwo": "Amogiup zy vexup gaweid.",
       "english": "The simulation of the weather was good."
@@ -33663,7 +33731,7 @@ const derivedDictionaryData = [
       "occurrence"
     ],
     "freq": 0,
-    "freq_rank": 2450,
+    "freq_rank": 2451,
     "example": {
       "fiwo": "Linuciup gwacei.",
       "english": "The event is special."
@@ -33682,7 +33750,7 @@ const derivedDictionaryData = [
       "emotion"
     ],
     "freq": 0,
-    "freq_rank": 2713,
+    "freq_rank": 2714,
     "example": {
       "fiwo": "Pauliup mike gawei.",
       "english": "My feeling is good."
@@ -33701,7 +33769,11 @@ const derivedDictionaryData = [
       "sense of touch"
     ],
     "freq": 1,
-    "freq_rank": 1251
+    "freq_rank": 1254,
+    "example": {
+      "fiwo": "Kiliup zy wusap dase resei.",
+      "english": "The touch of her hand is soft."
+    }
   },
   {
     "word": "vahimiu",
@@ -33753,7 +33825,7 @@ const derivedDictionaryData = [
       "record"
     ],
     "freq": 0,
-    "freq_rank": 1953,
+    "freq_rank": 1955,
     "example": {
       "fiwo": "Mik jamid falazor.",
       "english": "I wrote a note."
@@ -33771,7 +33843,7 @@ const derivedDictionaryData = [
       "product"
     ],
     "freq": 0,
-    "freq_rank": 2006,
+    "freq_rank": 2008,
     "example": {
       "fiwo": "Fomentuop zy biznup gawei.",
       "english": "The company's product is good."
@@ -33789,7 +33861,7 @@ const derivedDictionaryData = [
       "financial"
     ],
     "freq": 0,
-    "freq_rank": 2320,
+    "freq_rank": 2321,
     "example": {
       "fiwo": "Ram biwur kedovoe.",
       "english": "It is a financial problem."
@@ -33809,7 +33881,7 @@ const derivedDictionaryData = [
       "the end"
     ],
     "freq": 7,
-    "freq_rank": 566,
+    "freq_rank": 567,
     "example": {
       "fiwo": "Stepup fefui.",
       "english": "The story ends."
@@ -33846,7 +33918,7 @@ const derivedDictionaryData = [
       "drowsy"
     ],
     "freq": 1,
-    "freq_rank": 1205,
+    "freq_rank": 1208,
     "example": {
       "fiwo": "Mik hytruei.",
       "english": "I am sleepy."
@@ -33864,7 +33936,7 @@ const derivedDictionaryData = [
       "serious"
     ],
     "freq": 1,
-    "freq_rank": 1398,
+    "freq_rank": 1402,
     "example": {
       "fiwo": "Daq roqtuei.",
       "english": "He is serious."
@@ -33883,7 +33955,7 @@ const derivedDictionaryData = [
       "anxious"
     ],
     "freq": 1,
-    "freq_rank": 1194,
+    "freq_rank": 1197,
     "example": {
       "fiwo": "Das hamluei.",
       "english": "She is worried."
@@ -33901,7 +33973,11 @@ const derivedDictionaryData = [
       "to worry someone"
     ],
     "freq": 1,
-    "freq_rank": 1195
+    "freq_rank": 1198,
+    "example": {
+      "fiwo": "Fuhytup hamlui mik.",
+      "english": "The news worries me."
+    }
   },
   {
     "word": "jegxui",
@@ -33915,7 +33991,7 @@ const derivedDictionaryData = [
       "to admire"
     ],
     "freq": 1,
-    "freq_rank": 1230,
+    "freq_rank": 1233,
     "example": {
       "fiwo": "Mik jegxui suk.",
       "english": "I admire you."
