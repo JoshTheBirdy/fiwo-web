@@ -1457,6 +1457,7 @@ zygloroe | zygloro o→e | Shade-like | Made of, resembling, or relating to shad
 aclei | acle e→i | To be generous | Stative: to be or become generous. [Modifier -> Verb (stative)] Senses: 1) to be generous; 2) to become generous
 acryi | acry y→i | To cross | To move across; to cross, traverse. [Preposition -> Verb (relational motion)] Senses: 1) cross; 2) traverse
 adriswei | adriswe e→i | To be diagonal | To be positioned diagonally. [Modifier -> Verb (stative)] Senses: 1) be diagonal
+afrei | afre e→i | To be off | Stative: to be switched off / inactive. [Modifier -> Verb (stative)] Senses: 1) be off; 2) be inactive
 ahzei | ahze e→i | To be almost | Stative: to be or become almost. [Modifier -> Verb (stative)] Senses: 1) to be almost; 2) to become almost
 aitei | aite e→i | To be smelly | Stative: to be or become smelly. [Modifier -> Verb (stative)] Senses: 1) to be smelly; 2) to become smelly
 amcei | amce e→i | To be never | Stative: to be or become never. [Modifier -> Verb (stative)] Senses: 1) to be never; 2) to become never
@@ -1548,6 +1549,7 @@ fuqei | fuqe e→i | To be must | Stative: to be or become must. [Modifier -> Ve
 fwapei | fwape e→i | To be actually | Stative: to be or become actually. [Modifier -> Verb (stative)] Senses: 1) to be actually; 2) to become actually
 fwikei | fwike e→i | To be slow | Stative: to be or become slow. [Modifier -> Verb (stative)] Senses: 1) to be slow; 2) to become slow
 fyjebei | fyjebe e→i | To be warm | Stative: to be or become warm. [Modifier -> Verb (stative)] Senses: 1) to be warm; 2) to become warm
+fyrei | fyre e→i | To be on | Stative: to be switched on / active. [Modifier -> Verb (stative)] Senses: 1) be on; 2) be active
 gawei | gawe e→i | To be good | Stative: to be or become good. [Modifier -> Verb (stative)] Senses: 1) to be good; 2) to become good
 gepei | gepe e→i | To be general | Stative: to be or become general. [Modifier -> Verb (stative)] Senses: 1) to be general; 2) to become general
 gerotei | gerote e→i | To be shallow | Stative: to be or become shallow. [Modifier -> Verb (stative)] Senses: 1) to be shallow; 2) to become shallow
@@ -1738,14 +1740,12 @@ rowei | rowe e→i | To be wide | Stative: to be or become wide. [Modifier -> Ve
 rubidroi | rubidro o→i | Plug in | To connect a device by inserting a plug. [Concrete Noun -> Verb (use/apply)] Senses: 1) plug in; 2) connect
 rufocoi | rufoco o→i | To anchor | To hold fast with an anchor; to anchor. [Concrete Noun -> Verb (use/apply)] Senses: 1) anchor; 2) moor
 rumatrui | rumatru u→i | Testify | To give a formal account as a witness. [Abstract Noun -> Verb (feel/enact)] Senses: 1) testify; 2) give testimony
-runefrei | runefre e→i | To be off | Stative: to be switched off / inactive. [Modifier -> Verb (stative)] Senses: 1) be off; 2) be inactive
 ruzei | ruze e→i | To be fast | Stative: to be or become fast. [Modifier -> Verb (stative)] Senses: 1) to be fast; 2) to become fast
 ryzusui | ryzusu u→i | Discount / To discount | To reduce the price of something. [Abstract Noun -> Verb (feel/enact)] Senses: 1) discount; 2) reduce the price
 sefei | sefe e→i | To be salty | Stative: to be or become salty. [Modifier -> Verb (stative)] Senses: 1) to be salty; 2) to become salty
 silei | sile e→i | To be this | Stative: to be or become this. [Modifier -> Verb (stative)] Senses: 1) to be this; 2) to become this
 sismorui | sismoru u→i | To access | To gain entry to or the use of something. [Abstract Noun -> Verb (feel/enact)] Senses: 1) to access; 2) to gain entry to
 skejui | skeju u→i | To sound | To produce or emit a sound. [Abstract Noun -> Verb (feel/enact)] Senses: 1) to sound; 2) to make a sound
-skrehei | skrehe e→i | To be on | Stative: to be switched on / active. [Modifier -> Verb (stative)] Senses: 1) be on; 2) be active
 slafei | slafe e→i | To be too | Stative: to be or become too. [Modifier -> Verb (stative)] Senses: 1) to be too; 2) to become too
 sluqei | sluqe e→i | To be six | Stative: to be or become six. [Modifier -> Verb (stative)] Senses: 1) to be six; 2) to become six
 smezei | smeze e→i | To be raw | Stative: to be or become raw. [Modifier -> Verb (stative)] Senses: 1) to be raw; 2) to become raw

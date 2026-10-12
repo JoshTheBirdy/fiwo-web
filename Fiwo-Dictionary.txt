@@ -1,4 +1,4 @@
-# Fiwo Root Dictionary — 1578 entries
+# Fiwo Root Dictionary — 1576 entries
 # GENERATED from Canon/lexicon.json by Tools/build.py — do not edit by hand
 #
 # One entry per line, pipe-delimited, grouped by part of speech:
@@ -1018,10 +1018,10 @@ zusabru | tier 2 · extended | Surgery | A medical operation that cuts into the 
 zuslefu | tier 3 · long tail | Algorithm | A precise step-by-step procedure for solving a problem.
 zuwu | tier 2 · extended | Way / Manner. | This refers to a method, style, or custom of doing something.
 
-=== Modifier — 258 entries ===
+=== Modifier — 256 entries ===
 acle | tier 3 · long tail | Generous | Showing a readiness to give more of something (like time, care, or wealth) than is expected.
 adriswe | tier 3 · long tail | Diagonal | Running at a slant, joining opposite corners rather than following the vertical or horizontal.
-afre | tier 3 · long tail | Off | Switched off; not active (of a device, setting or function). (Usage: The act of turning something off is coqyni. Opposite: fyre.)
+afre | tier 2 · extended | Off / Inactive | Of a device, setting or system: switched off; not active or operating. (Usage: The act of turning something off is coqyni. Opposite: fyre.)
 ahze | tier 3 · long tail | Almost / Nearly. | This word indicates that something is very close to a specific state, quantity, or degree, but is not completely there yet.
 aite | tier 3 · long tail | Smelly / Stinky | Emitting a strong, unpleasant, or foul odor.
 amce | tier 1 · core | Never | At no time; not ever.
@@ -1084,7 +1084,7 @@ fuqe | tier 1 · core | Must / Necessary | Strictly required, necessary, or obli
 fwape | tier 1 · core | Actually / In reality / Real | Describes a state or fact that is objectively real and true, often used to contrast with an expectation, assumption, or falsehood (okseu). (Usage: Contrasts what is real with what was expected. For plainly true, use trive.)
 fwike | tier 2 · extended | Slow. | Moving, operating, or occurring at a low speed.
 fyjebe | tier 1 · core | Warm. | Comfortably heated; a middle temperature between jabe (cold) and ripe (hot).
-fyre | tier 3 · long tail | On | Switched on; in its active state (of a device, setting or function). (Usage: The act of turning something on is leoci. Opposite: afre.)
+fyre | tier 1 · core | On / Active / Powered | Of a device, setting or system: switched on; active and operating. (Usage: The act of turning something on is leoci. Opposite: afre.)
 gawe | tier 1 · core | Good / Nice | This word describes something regarded as positive or favorable based on individual opinion.
 gepe | tier 2 · extended | General | This word describes something that affects or concerns all or most things in a group; broad and not restricted to a specific target.
 gerote | tier 3 · long tail | Shallow | This describes an entity having very little distance from the top surface to the bottom; lacking depth.
@@ -1211,11 +1211,9 @@ riwifre | tier 3 · long tail | Bankrupt | Unable to pay one's debts; financiall
 rodipe | tier 1 · core | Thirsty | This describes a biological state of discomfort caused by a lack of fluids, coupled with a strong desire to drink a liquid.
 romve | tier 1 · core | Again / Repeatedly | This describes an action or state being repeated or occurring another time.
 rowe | tier 2 · extended | Wide / Broad. | This word describes something having a great or specified extent from side to side.
-runefre | tier 2 · extended | Off / Inactive | Of a device or system: switched off and not operating.
 ruze | tier 2 · extended | Fast / Quick. | This word describes something moving or capable of moving at high speed.
 sefe | tier 3 · long tail | Salty. | This describes the taste sensation characteristic of sodium chloride (salt).
 sile | tier 1 · core | This / These (Proximal Modifier) | This word identifies a specific physical or conceptual noun that is physically close to the speaker, or currently present in the immediate environment. It must follow the noun it modifies.
-skrehe | tier 1 · core | On / Active / Powered | Of a device or system: switched on and operating.
 slafe | tier 1 · core | Too / Excessively | This describes a quantity, degree, or state that goes beyond what is mathematically necessary, normal, or desirable. (This acts as the strict quantitative counterpart to uzume [enough] and fe [very], explicitly indicating an excess).
 sluqe | tier 1 · core | Six. | This refers to the cardinal number equivalent to the product of two and three.
 smeze | tier 3 · long tail | Raw / Uncooked. | Not yet cooked or processed; in its natural, unaltered state. Pairs with food (otanie, cooked) and unprocessed ore/materials.

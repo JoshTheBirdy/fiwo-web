@@ -1565,10 +1565,10 @@ zusabru = Surgery : A medical operation that cuts into the body to repair it.  [
 zuslefu = Algorithm : A precise step-by-step procedure for solving a problem.  [tier 3 · long tail]
 zuwu = Way / Manner. : This refers to a method, style, or custom of doing something.  [tier 2 · extended]
 
-[Modifiers (-e)] — 258 entries
+[Modifiers (-e)] — 256 entries
 acle = Generous : Showing a readiness to give more of something (like time, care, or wealth) than is expected.  [tier 3 · long tail]
 adriswe = Diagonal : Running at a slant, joining opposite corners rather than following the vertical or horizontal.  [tier 3 · long tail]
-afre = Off : Switched off; not active (of a device, setting or function). (Usage: The act of turning something off is coqyni. Opposite: fyre.)  [tier 3 · long tail]
+afre = Off / Inactive : Of a device, setting or system: switched off; not active or operating. (Usage: The act of turning something off is coqyni. Opposite: fyre.)  [tier 2 · extended]
 ahze = Almost / Nearly. : This word indicates that something is very close to a specific state, quantity, or degree, but is not completely there yet.  [tier 3 · long tail]
 aite = Smelly / Stinky : Emitting a strong, unpleasant, or foul odor.  [tier 3 · long tail]
 amce = Never : At no time; not ever.  [tier 1 · core]
@@ -1631,7 +1631,7 @@ fuqe = Must / Necessary : Strictly required, necessary, or obligatory.  [tier 1 
 fwape = Actually / In reality / Real : Describes a state or fact that is objectively real and true, often used to contrast with an expectation, assumption, or falsehood (okseu). (Usage: Contrasts what is real with what was expected. For plainly true, use trive.)  [tier 1 · core]
 fwike = Slow. : Moving, operating, or occurring at a low speed.  [tier 2 · extended]
 fyjebe = Warm. : Comfortably heated; a middle temperature between jabe (cold) and ripe (hot).  [tier 1 · core]
-fyre = On : Switched on; in its active state (of a device, setting or function). (Usage: The act of turning something on is leoci. Opposite: afre.)  [tier 3 · long tail]
+fyre = On / Active / Powered : Of a device, setting or system: switched on; active and operating. (Usage: The act of turning something on is leoci. Opposite: afre.)  [tier 1 · core]
 gawe = Good / Nice : This word describes something regarded as positive or favorable based on individual opinion.  [tier 1 · core]
 gepe = General : This word describes something that affects or concerns all or most things in a group; broad and not restricted to a specific target.  [tier 2 · extended]
 gerote = Shallow : This describes an entity having very little distance from the top surface to the bottom; lacking depth.  [tier 3 · long tail]
@@ -1758,11 +1758,9 @@ riwifre = Bankrupt : Unable to pay one's debts; financially ruined.  [tier 3 · 
 rodipe = Thirsty : This describes a biological state of discomfort caused by a lack of fluids, coupled with a strong desire to drink a liquid.  [tier 1 · core]
 romve = Again / Repeatedly : This describes an action or state being repeated or occurring another time.  [tier 1 · core]
 rowe = Wide / Broad. : This word describes something having a great or specified extent from side to side.  [tier 2 · extended]
-runefre = Off / Inactive : Of a device or system: switched off and not operating.  [tier 2 · extended]
 ruze = Fast / Quick. : This word describes something moving or capable of moving at high speed.  [tier 2 · extended]
 sefe = Salty. : This describes the taste sensation characteristic of sodium chloride (salt).  [tier 3 · long tail]
 sile = This / These (Proximal Modifier) : This word identifies a specific physical or conceptual noun that is physically close to the speaker, or currently present in the immediate environment. It must follow the noun it modifies.  [tier 1 · core]
-skrehe = On / Active / Powered : Of a device or system: switched on and operating.  [tier 1 · core]
 slafe = Too / Excessively : This describes a quantity, degree, or state that goes beyond what is mathematically necessary, normal, or desirable. (This acts as the strict quantitative counterpart to uzume [enough] and fe [very], explicitly indicating an excess).  [tier 1 · core]
 sluqe = Six. : This refers to the cardinal number equivalent to the product of two and three.  [tier 1 · core]
 smeze = Raw / Uncooked. : Not yet cooked or processed; in its natural, unaltered state. Pairs with food (otanie, cooked) and unprocessed ore/materials.  [tier 3 · long tail]

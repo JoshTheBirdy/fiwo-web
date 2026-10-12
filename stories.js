@@ -9091,7 +9091,7 @@ const storyData = [
         "english": "\"Is Zimi dead?\" Nila whispered."
       },
       {
-        "fiwo": "Kiro hadid huc Nes. Zimi hi runefre.",
+        "fiwo": "Kiro hadid huc Nes. Zimi hi afre.",
         "english": "\"No,\" Kiro answered. \"Zimi is off.\""
       },
       {
@@ -9759,7 +9759,7 @@ const storyData = [
         "english": "The government building was dark and silent."
       },
       {
-        "fiwo": "Rehustop tande hid runefre.",
+        "fiwo": "Rehustop tande hid afre.",
         "english": "The big server was off."
       },
       {
