@@ -1,4 +1,4 @@
-# Fiwo Derived Dictionary — 1816 entries
+# Fiwo Derived Dictionary — 1819 entries
 # GENERATED from Canon/derived_lexicon.json by Tools/build.py — do not edit by hand
 #
 # One entry per line, pipe-delimited, grouped by part of speech:
@@ -378,7 +378,7 @@ xeskio | xeski i→o | Prize / Trophy | The object won; a reward for winning. [V
 zemio | zemi i→o | Cover / Lid | The thing that covers something; a cover or lid. [Verb -> Concrete Noun (instrument/result)] Senses: 1) cover; 2) lid
 zuzkeo | zuzke e→o | Candy / Sweet | A small sweet treat; a candy, sweet, confection. [Modifier -> Concrete Noun (exemplar)] Senses: 1) candy; 2) sweet; 3) confection
 
-=== Abstract Noun — 269 entries ===
+=== Abstract Noun — 272 entries ===
 acleu | acle e→u | Generosity | The quality or state of being generous; generosity. [Modifier -> Abstract Noun (quality)] Senses: 1) generosity
 adrisweu | adriswe e→u | Diagonality | The quality or state of being diagonal; diagonality. [Modifier -> Abstract Noun (quality)] Senses: 1) diagonality; 2) slant
 aiteu | aite e→u | Stench | The quality or state of being smelly; stench. [Modifier -> Abstract Noun (quality)] Senses: 1) stench; 2) smelliness; 3) stink
@@ -432,6 +432,7 @@ fehediu | fehedi i→u | divorce (n) | Divorce; the state or act of marital diss
 felpeu | felpe e→u | Difference | The state or degree of being different. [Modifier -> Abstract Noun (quality)] Senses: 1) difference; 2) distinction; 3) disparity
 fezneu | fezne e→u | Dryness | The quality or state of being dry; dryness. [Modifier -> Abstract Noun (quality)] Senses: 1) dryness
 fineu | fine e→u | Delicacy | The quality or state of being fine; delicacy. [Modifier -> Abstract Noun (quality)] Senses: 1) delicacy; 2) fineness
+fiskeu | fiske e→u | Recently / The recent past | A time shortly before now. Bare at the end of a clause it is Slot 4 time: Daq brenid fiskeu (He came recently). [Modifier -> Abstract Noun (quality)] Senses: 1) recently; 2) the recent past; 3) lately
 floveu | flove e→u | Filth | The quality or state of being dirty; filth. [Modifier -> Abstract Noun (quality)] Senses: 1) filth; 2) dirtiness
 foisou | foiso o→u | Architecture | The domain of buildings and their design and construction; architecture. [Concrete Noun -> Abstract Noun (domain)] Senses: 1) architecture; 2) construction
 fwikeu | fwike e→u | Slowness | The quality or state of being slow; slowness. [Modifier -> Abstract Noun (quality)] Senses: 1) slowness
@@ -551,6 +552,7 @@ pauliu | pauli i→u | Feeling | An emotion or inner sensation; something felt i
 paxeu | paxe e→u | Weakness | The quality or state of being weak; weakness. [Modifier -> Abstract Noun (quality)] Senses: 1) weakness
 pebau | peba a→u | Fatherhood | The state of being a father; fatherhood. [Biological Noun -> Abstract Noun (role/state)] Senses: 1) fatherhood
 peteswiu | peteswi i→u | Spending / Expenditure | The act of paying out money. [Verb -> Abstract Noun (act/process)] Senses: 1) spending; 2) expenditure
+pezeu | peze e→u | Later on / A later time | A time after the one being talked about. Bare at the end of a clause it is Slot 4 time: Das xygajid pezeu (She carried on later). [Modifier -> Abstract Noun (quality)] Senses: 1) later on; 2) a later time; 3) afterwards
 pilkeu | pilke e→u | Vitality | The quality or state of being alive; vitality. [Modifier -> Abstract Noun (quality)] Senses: 1) vitality; 2) aliveness
 pimpefeu | pimpefe e→u | Availability | The state of being available. [Modifier -> Abstract Noun (quality)] Senses: 1) availability
 pitbiu | pitbi i→u | Improvement | The act or result of making something better; improvement, reform. [Verb -> Abstract Noun (act/process)] Senses: 1) improvement; 2) reform
@@ -596,6 +598,7 @@ spoceu | spoce e→u | Cheapness | The quality or state of being cheap; cheapnes
 staxiu | staxi i→u | Filling | The act or process of filling. [Verb -> Abstract Noun (act/process)] Senses: 1) filling
 stobeu | stobe e→u | Hardness | The quality or state of being hard; hardness. [Modifier -> Abstract Noun (quality)] Senses: 1) hardness
 stomiu | stomi i→u | Giving | The act of giving; provision, donation. [Verb -> Abstract Noun (act/process)] Senses: 1) giving; 2) provision; 3) donation
+streneu | strene e→u | Soon / The near future | A time shortly after now. Bare at the end of a clause it is Slot 4 time: Mik fwimis streneu (I will leave soon). [Modifier -> Abstract Noun (quality)] Senses: 1) soon; 2) the near future; 3) shortly
 stuseu | stuse e→u | Shortness | The quality or state of being short; shortness. [Modifier -> Abstract Noun (quality)] Senses: 1) shortness
 stuzygiu | stuzygi i→u | Reversal / Undoing | The act or result of reversing an action; a reversal. [Verb -> Abstract Noun (act/process)] Senses: 1) reversal; 2) undoing
 sudiu | sudi i→u | Pressure | Pressure; the force applied to a surface, or the state of being pressed (physical or figurative). [Verb -> Noun (abstract)] Senses: 1) pressure; 2) the force of pressing

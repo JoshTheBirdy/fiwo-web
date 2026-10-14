@@ -42,7 +42,9 @@
     const NUMBER_WORDS = new Set(['noze', 'bime', 'kage', 'tafe', 'gloke', 'raje', 'sluqe', 'prure', 'marte', 'zewe', 'lere']);
     const TEMPORAL_ROOTS = new Set(['nudu', 'fitydu', 'wecdu', 'nu', 'du', 'dugu', 'dionu', 'bafu', 'mepu', 'gomu',
         'cihu', 'fohu', 'vivu', 'retadu', 'rugoxu', 'jaru', 'tequ', 'getsu', 'fituru', 'wedacu',
-        'bimedu', 'kagedu', 'tafedu', 'glokedu', 'rajedu', 'sluqedu', 'pruredu']);
+        'bimedu', 'kagedu', 'tafedu', 'glokedu', 'rajedu', 'sluqedu', 'pruredu',
+        // Time adverbs as Slot-4 nouns (Rule 10.9, 2026-10-14): `Das xygajid pezeu.`
+        'pezeu', 'streneu', 'fiskeu']);
 
     const NOUN_SUFFIXES = new Set(['p', 'r']);
     const VERB_SUFFIXES = new Set(['d', 's', 'q', 'k', 't', 'dyq', 'dyk', 'syq', 'syk']);
@@ -573,7 +575,7 @@
                 }
                 if (!lastRoot && c.state === 'fresh') {
                     if (NUMBER_WORDS.has(t.root.replace(/t$/, ''))) { t.slot = 'Number'; lastRoot = t; }
-                    else if (!c.lastWall && (stack.length === 1 || c.openedAs === 'complement')) { t.slot = 'Answer Fragment'; lastRoot = t; }  // Rule 37 / 30.9 quote-initial
+                    else if (!c.lastWall && (stack.length === 1 || c.openedAs === 'complement')) { t.slot = 'Answer Fragment'; t.fragment = true; lastRoot = t; }  // Rule 37 / 30.9 quote-initial
                     else fail(t, 'modifier at clause start has nothing to its left to modify (Rule 18)');
                     i++; continue;
                 }
@@ -625,6 +627,12 @@
             }
             if (cat === 'proper_noun' && lastRoot && lastRoot.cat === 'proper_noun' && tokens[i - 1] === lastRoot) {
                 t.slot = lastRoot.slot; lastRoot = t; i++; continue;   // Rule 4.5 grouping
+            }
+            // A modifier Answer Fragment is the whole utterance (Rule 37); a noun or
+            // verb after it means the modifier opened a clause (Rule 18.4, 2026-10-14).
+            if ((cat === 'noun' || cat === 'proper_noun' || cat === 'verb') && lastRoot && lastRoot.fragment) {
+                fail(lastRoot, 'a modifier cannot open a clause — it has nothing to its left (Rule 18.4). A time adverb goes last as a time noun: `peze` -> `... pezeu` (Rule 10.9)');
+                lastRoot.fragment = false;
             }
             if (cat === 'noun' || cat === 'proper_noun') {
                 if (c.state === 'fresh') { t.slot = 'Subject'; c.state = 'await_verb'; }

@@ -8,7 +8,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 130,
     "freq": 0,
-    "freq_rank": 1534,
+    "freq_rank": 1537,
     "example": {
       "fiwo": "Sydoap ceni deky sydop.",
       "english": "The resident lives in the house."
@@ -22,7 +22,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 123,
     "freq": 0,
-    "freq_rank": 1535,
+    "freq_rank": 1538,
     "example": {
       "fiwo": "Daq nacid wecdu.",
       "english": "He worked yesterday."
@@ -36,7 +36,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 117,
     "freq": 0,
-    "freq_rank": 1536,
+    "freq_rank": 1539,
     "example": {
       "fiwo": "Daq nacidyk pary tequp tep mik brenid.",
       "english": "He had already worked before I arrived."
@@ -50,7 +50,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 121,
     "freq": 0,
-    "freq_rank": 1537,
+    "freq_rank": 1540,
     "example": {
       "fiwo": "Daq nacidyq wecdu.",
       "english": "He was working yesterday."
@@ -64,7 +64,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 132,
     "freq": 0,
-    "freq_rank": 1538,
+    "freq_rank": 1541,
     "example": {
       "fiwo": "Sydop mike dorsoei.",
       "english": "My house is wet."
@@ -78,7 +78,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 134,
     "freq": 0,
-    "freq_rank": 1539,
+    "freq_rank": 1542,
     "example": {
       "fiwo": "Mik karxid mosa lan nasa luaref.",
       "english": "I found a green tree and a green plant."
@@ -92,7 +92,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 124,
     "freq": 0,
-    "freq_rank": 1540,
+    "freq_rank": 1543,
     "example": {
       "fiwo": "Mik foisoid sydop.",
       "english": "I built the house."
@@ -106,7 +106,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 118,
     "freq": 0,
-    "freq_rank": 1541,
+    "freq_rank": 1544,
     "example": {
       "fiwo": "Daq nacik.",
       "english": "He has finished working."
@@ -120,7 +120,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 131,
     "freq": 0,
-    "freq_rank": 1542,
+    "freq_rank": 1545,
     "example": {
       "fiwo": "Mik karxid sydop dalem je.",
       "english": "I found their house."
@@ -134,7 +134,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 129,
     "freq": 0,
-    "freq_rank": 1543,
+    "freq_rank": 1546,
     "example": {
       "fiwo": "Mik stelidyq jamiop.",
       "english": "I was holding the document."
@@ -148,7 +148,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 126,
     "freq": 0,
-    "freq_rank": 1544,
+    "freq_rank": 1547,
     "example": {
       "fiwo": "Mik karxid detap.",
       "english": "I found the specific dog."
@@ -162,7 +162,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 120,
     "freq": 0,
-    "freq_rank": 1545,
+    "freq_rank": 1548,
     "example": {
       "fiwo": "Daq naciq nu.",
       "english": "He is working right now."
@@ -176,7 +176,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 125,
     "freq": 0,
-    "freq_rank": 1546,
+    "freq_rank": 1549,
     "example": {
       "fiwo": "Mik karxid detar.",
       "english": "I found a dog."
@@ -190,7 +190,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 122,
     "freq": 0,
-    "freq_rank": 1547,
+    "freq_rank": 1550,
     "example": {
       "fiwo": "Daq nacis fitydu.",
       "english": "He will work tomorrow."
@@ -204,7 +204,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 116,
     "freq": 0,
-    "freq_rank": 1548,
+    "freq_rank": 1551,
     "example": {
       "fiwo": "Daq nacisyk pary dugu.",
       "english": "He will have worked before nightfall."
@@ -218,7 +218,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 119,
     "freq": 0,
-    "freq_rank": 1549,
+    "freq_rank": 1552,
     "example": {
       "fiwo": "Daq nacisyq ky mepu kage.",
       "english": "He will be working in two minutes."
@@ -232,7 +232,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 133,
     "freq": 0,
-    "freq_rank": 1550,
+    "freq_rank": 1553,
     "example": {
       "fiwo": "Mik fabi nomit batap.",
       "english": "I want to eat the food."
@@ -246,7 +246,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 128,
     "freq": 0,
-    "freq_rank": 1551,
+    "freq_rank": 1554,
     "example": {
       "fiwo": "Kypeup suke jofid mik.",
       "english": "Your happiness helped me."
@@ -260,7 +260,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 416,
     "freq": 7,
-    "freq_rank": 570,
+    "freq_rank": 571,
     "example": {
       "fiwo": "Forop cyridyq zave.",
       "english": "The plane was flying high."
@@ -275,7 +275,7 @@ const dictionaryData = [
     "rank": 9,
     "usage_note": "'So' meaning to that degree (so big, so fast). 'So' meaning therefore is pen.",
     "freq": 2,
-    "freq_rank": 1028,
+    "freq_rank": 1030,
     "example": {
       "fiwo": "Daq ruzeid tire.",
       "english": "He was so fast."
@@ -290,7 +290,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 187,
     "freq": 0,
-    "freq_rank": 1552,
+    "freq_rank": 1555,
     "example": {
       "fiwo": "Absup ry mik paulidyq.",
       "english": "My sense was feeling."
@@ -304,7 +304,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 558,
     "freq": 0,
-    "freq_rank": 1554,
+    "freq_rank": 1557,
     "example": {
       "fiwo": "Catsap jedi acinar pivme je.",
       "english": "The cat has sharp claws."
@@ -318,7 +318,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 493,
     "freq": 0,
-    "freq_rank": 1556,
+    "freq_rank": 1559,
     "example": {
       "fiwo": "Licap acleid.",
       "english": "The colleague was generous."
@@ -332,7 +332,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 70,
     "freq": 9,
-    "freq_rank": 494,
+    "freq_rank": 497,
     "example": {
       "fiwo": "Catsap cafid acry caenop.",
       "english": "The cat ran across the street."
@@ -346,7 +346,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 210,
     "freq": 0,
-    "freq_rank": 1560,
+    "freq_rank": 1563,
     "example": {
       "fiwo": "Nak acumulid batap.",
       "english": "We traded the food."
@@ -360,7 +360,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 444,
     "freq": 2,
-    "freq_rank": 949,
+    "freq_rank": 951,
     "example": {
       "fiwo": "Jinup ry mik moriq.",
       "english": "My awareness is growing."
@@ -374,7 +374,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 242,
     "freq": 1,
-    "freq_rank": 1061,
+    "freq_rank": 1063,
     "example": {
       "fiwo": "Adrebup ry mik zaveid.",
       "english": "My degree was high."
@@ -392,7 +392,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 1563,
+    "freq_rank": 1566,
     "example": {
       "fiwo": "Tivwop adriswe.",
       "english": "The path is diagonal."
@@ -406,7 +406,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 548,
     "freq": 0,
-    "freq_rank": 1566,
+    "freq_rank": 1569,
     "example": {
       "fiwo": "Adyvop ry mik.",
       "english": "The umbrella is mine."
@@ -420,7 +420,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 474,
     "freq": 0,
-    "freq_rank": 1568,
+    "freq_rank": 1571,
     "example": {
       "fiwo": "Daq aefid ty jawop.",
       "english": "He slipped on the ice."
@@ -434,7 +434,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 550,
     "freq": 0,
-    "freq_rank": 1569,
+    "freq_rank": 1572,
     "example": {
       "fiwo": "Womap afbis ty zafoirop.",
       "english": "The worm will crawl on the floor."
@@ -448,7 +448,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 497,
     "freq": 0,
-    "freq_rank": 1571,
+    "freq_rank": 1574,
     "example": {
       "fiwo": "Afxop locweid.",
       "english": "The ash was white."
@@ -463,7 +463,7 @@ const dictionaryData = [
     "rank": 181,
     "usage_note": "The economy as a whole, with its industries. The market — buying, selling, prices — is skoru.",
     "freq": 0,
-    "freq_rank": 1573,
+    "freq_rank": 1576,
     "example": {
       "fiwo": "Afymup ry nak bokeid.",
       "english": "Our economy was bad."
@@ -480,7 +480,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 21,
-    "freq_rank": 286,
+    "freq_rank": 287,
     "example": {
       "fiwo": "Agcup ry mik bokeid.",
       "english": "My mistake was bad."
@@ -494,7 +494,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 538,
     "freq": 1,
-    "freq_rank": 1062,
+    "freq_rank": 1064,
     "example": {
       "fiwo": "Mik agmid lakirop ty krapop.",
       "english": "I glued the picture to the wall."
@@ -508,7 +508,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 540,
     "freq": 4,
-    "freq_rank": 710,
+    "freq_rank": 712,
     "example": {
       "fiwo": "Agsop skumkid nasap je.",
       "english": "The drought destroyed the plants."
@@ -522,7 +522,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 86,
     "freq": 0,
-    "freq_rank": 1579,
+    "freq_rank": 1582,
     "example": {
       "fiwo": "Mik usid ahze.",
       "english": "I almost slept."
@@ -536,7 +536,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 560,
     "freq": 0,
-    "freq_rank": 1581,
+    "freq_rank": 1584,
     "example": {
       "fiwo": "Mitap suve aitei.",
       "english": "Your meat is smelly."
@@ -550,7 +550,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 530,
     "freq": 1,
-    "freq_rank": 1063,
+    "freq_rank": 1065,
     "example": {
       "fiwo": "Ajogop twave.",
       "english": "The cart is heavy."
@@ -564,7 +564,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 85,
     "freq": 0,
-    "freq_rank": 1584,
+    "freq_rank": 1587,
     "example": {
       "fiwo": "Ak! Ram satsid mygap mike.",
       "english": "Ouch! It hit my leg."
@@ -578,7 +578,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 536,
     "freq": 1,
-    "freq_rank": 1271,
+    "freq_rank": 1274,
     "example": {
       "fiwo": "Das lavis kikap.",
       "english": "She will roast the chicken."
@@ -592,7 +592,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 519,
     "freq": 12,
-    "freq_rank": 426,
+    "freq_rank": 427,
     "example": {
       "fiwo": "Detap akdid.",
       "english": "The dog barked/shouted."
@@ -609,7 +609,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 0,
-    "freq_rank": 1587,
+    "freq_rank": 1590,
     "example": {
       "fiwo": "Mik rolid refor amby tesor.",
       "english": "I drank coffee instead of tea."
@@ -637,7 +637,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 138,
     "freq": 7,
-    "freq_rank": 557,
+    "freq_rank": 558,
     "example": {
       "fiwo": "Daq brenid amute.",
       "english": "He arrived early."
@@ -651,7 +651,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 302,
     "freq": 0,
-    "freq_rank": 1593,
+    "freq_rank": 1596,
     "example": {
       "fiwo": "Azikup anazei.",
       "english": "The rule is basic."
@@ -665,7 +665,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 136,
     "freq": 5,
-    "freq_rank": 675,
+    "freq_rank": 676,
     "example": {
       "fiwo": "Mik brenid hede.",
       "english": "I arrived late."
@@ -679,7 +679,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 403,
     "freq": 2,
-    "freq_rank": 885,
+    "freq_rank": 888,
     "example": {
       "fiwo": "Jormup sile anuwur.",
       "english": "This situation is the vital finishing touch."
@@ -693,7 +693,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 32,
     "freq": 1,
-    "freq_rank": 1065,
+    "freq_rank": 1067,
     "example": {
       "fiwo": "Catsap aofeid.",
       "english": "The cat was full."
@@ -707,7 +707,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 52,
     "freq": 7,
-    "freq_rank": 558,
+    "freq_rank": 559,
     "example": {
       "fiwo": "Sluqe ap kage labnei tafe.",
       "english": "Six divided by two equals three."
@@ -724,7 +724,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 10,
-    "freq_rank": 466,
+    "freq_rank": 468,
     "example": {
       "fiwo": "Muk xyfid ram apawy azikup.",
       "english": "We did it according to the rule."
@@ -737,8 +737,8 @@ const dictionaryData = [
     "definition": "The fleshy, round fruit of a specific widely cultivated tree, typically possessing a red or green skin and a crisp interior.",
     "tier": 2,
     "rank": 135,
-    "freq": 12,
-    "freq_rank": 427,
+    "freq": 14,
+    "freq_rank": 389,
     "example": {
       "fiwo": "Aplap zuzkei.",
       "english": "The apple is sweet."
@@ -755,7 +755,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 2334,
+    "freq_rank": 2337,
     "example": {
       "fiwo": "Isamup kibeid.",
       "english": "The result was typical."
@@ -773,7 +773,7 @@ const dictionaryData = [
       "body"
     ],
     "freq": 7,
-    "freq_rank": 559,
+    "freq_rank": 560,
     "example": {
       "fiwo": "Hobcadap aqe ry mik nedcidyq.",
       "english": "My grandson was playing."
@@ -787,7 +787,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 265,
     "freq": 0,
-    "freq_rank": 1598,
+    "freq_rank": 1601,
     "example": {
       "fiwo": "Nak arcipis ky spelup.",
       "english": "We will participate in the game."
@@ -818,7 +818,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 405,
     "freq": 0,
-    "freq_rank": 1601,
+    "freq_rank": 1604,
     "example": {
       "fiwo": "Nosanap arkeid.",
       "english": "The woman was pregnant."
@@ -832,7 +832,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 481,
     "freq": 0,
-    "freq_rank": 1603,
+    "freq_rank": 1606,
     "example": {
       "fiwo": "Arlop satsid mosap.",
       "english": "The lightning hit the tree."
@@ -846,7 +846,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 438,
     "freq": 2,
-    "freq_rank": 888,
+    "freq_rank": 891,
     "example": {
       "fiwo": "Dorsop arsumpiq.",
       "english": "The water is flowing."
@@ -860,7 +860,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 272,
     "freq": 27,
-    "freq_rank": 235,
+    "freq_rank": 236,
     "example": {
       "fiwo": "Mik nomidyq zutar.",
       "english": "I was eating a fruit."
@@ -874,7 +874,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 82,
     "freq": 0,
-    "freq_rank": 1607,
+    "freq_rank": 1610,
     "example": {
       "fiwo": "Artup ry London baudeid.",
       "english": "The art of London was beautiful."
@@ -906,7 +906,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 291,
     "freq": 2,
-    "freq_rank": 889,
+    "freq_rank": 892,
     "example": {
       "fiwo": "Askup ry mik gawei.",
       "english": "My reason is good."
@@ -920,7 +920,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 271,
     "freq": 8,
-    "freq_rank": 544,
+    "freq_rank": 547,
     "example": {
       "fiwo": "Mik sogcis odcanop.",
       "english": "I will tie the rope."
@@ -934,7 +934,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 174,
     "freq": 0,
-    "freq_rank": 2973,
+    "freq_rank": 2976,
     "example": {
       "fiwo": "Sujup mike moriq.",
       "english": "My interest is growing."
@@ -949,7 +949,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 263,
     "freq": 0,
-    "freq_rank": 1611,
+    "freq_rank": 1614,
     "example": {
       "fiwo": "Atilup ry mik dotei.",
       "english": "My belief is strong."
@@ -964,7 +964,7 @@ const dictionaryData = [
     "rank": 141,
     "usage_note": "The subject area itself. A person's own specialty is dadukru; a field of grass is tofakro.",
     "freq": 0,
-    "freq_rank": 1613,
+    "freq_rank": 1616,
     "example": {
       "fiwo": "Atobup ry ocadup tandei.",
       "english": "The field of science is big."
@@ -978,7 +978,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 241,
     "freq": 8,
-    "freq_rank": 520,
+    "freq_rank": 523,
     "example": {
       "fiwo": "Atripop brenid.",
       "english": "The train arrived."
@@ -992,7 +992,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 483,
     "freq": 0,
-    "freq_rank": 1616,
+    "freq_rank": 1619,
     "example": {
       "fiwo": "Drekor auvis deky dorsor.",
       "english": "Rock will sink in water."
@@ -1006,7 +1006,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 542,
     "freq": 0,
-    "freq_rank": 1617,
+    "freq_rank": 1620,
     "example": {
       "fiwo": "Aplap avgeid.",
       "english": "The apple was rotten."
@@ -1020,7 +1020,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 82,
     "freq": 2,
-    "freq_rank": 890,
+    "freq_rank": 893,
     "example": {
       "fiwo": "Mik hicid avly caenop.",
       "english": "I walked along the street."
@@ -1034,7 +1034,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 479,
     "freq": 1,
-    "freq_rank": 1070,
+    "freq_rank": 1072,
     "example": {
       "fiwo": "Avmop deky gofop.",
       "english": "The nail is inside the wood."
@@ -1049,7 +1049,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 194,
     "freq": 2,
-    "freq_rank": 891,
+    "freq_rank": 894,
     "example": {
       "fiwo": "Aplap avowis fy mosap.",
       "english": "The apple will drop from the tree."
@@ -1063,7 +1063,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 557,
     "freq": 0,
-    "freq_rank": 1622,
+    "freq_rank": 1625,
     "example": {
       "fiwo": "Mik tsejaid axritsop.",
       "english": "I saw the dune."
@@ -1091,7 +1091,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 439,
     "freq": 0,
-    "freq_rank": 1626,
+    "freq_rank": 1629,
     "example": {
       "fiwo": "Axvup ry xeku late doteid.",
       "english": "The alliance of all countries was strong."
@@ -1123,7 +1123,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 326,
     "freq": 3,
-    "freq_rank": 778,
+    "freq_rank": 781,
     "example": {
       "fiwo": "Azmup ry mana mike tandei.",
       "english": "My mother's sympathy is great."
@@ -1137,7 +1137,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 387,
     "freq": 3,
-    "freq_rank": 835,
+    "freq_rank": 838,
     "example": {
       "fiwo": "Kodop myi batap.",
       "english": "The bowl contains the food."
@@ -1151,7 +1151,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 285,
     "freq": 2,
-    "freq_rank": 966,
+    "freq_rank": 968,
     "example": {
       "fiwo": "Mik loleidyq.",
       "english": "I was getting hungry."
@@ -1168,7 +1168,7 @@ const dictionaryData = [
       "religion_spirit"
     ],
     "freq": 0,
-    "freq_rank": 1631,
+    "freq_rank": 1634,
     "example": {
       "fiwo": "Fumop badujur.",
       "english": "The smoke is an omen."
@@ -1182,7 +1182,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 469,
     "freq": 0,
-    "freq_rank": 1633,
+    "freq_rank": 1636,
     "example": {
       "fiwo": "Bafup ruzeid.",
       "english": "The second was fast."
@@ -1196,7 +1196,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 470,
     "freq": 0,
-    "freq_rank": 1634,
+    "freq_rank": 1637,
     "example": {
       "fiwo": "Bahara mike nifne.",
       "english": "My palm is small."
@@ -1213,7 +1213,7 @@ const dictionaryData = [
       "trade_money"
     ],
     "freq": 7,
-    "freq_rank": 571,
+    "freq_rank": 572,
     "example": {
       "fiwo": "Mik futis jatanop suke.",
       "english": "I will borrow your pen."
@@ -1229,8 +1229,8 @@ const dictionaryData = [
     "domains": [
       "mental"
     ],
-    "freq": 7,
-    "freq_rank": 583,
+    "freq": 8,
+    "freq_rank": 533,
     "example": {
       "fiwo": "Mik lexid foisoit sydor.",
       "english": "I tried to build a house."
@@ -1244,7 +1244,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 551,
     "freq": 1,
-    "freq_rank": 1071,
+    "freq_rank": 1073,
     "example": {
       "fiwo": "Bambodop nifne.",
       "english": "The sponge is small."
@@ -1258,7 +1258,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 73,
     "freq": 1,
-    "freq_rank": 1072,
+    "freq_rank": 1074,
     "example": {
       "fiwo": "Mik pauli banoskop.",
       "english": "I feel the breeze."
@@ -1289,7 +1289,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 1639,
+    "freq_rank": 1642,
     "example": {
       "fiwo": "Jormup sile barusur.",
       "english": "This situation is carelessness."
@@ -1321,7 +1321,7 @@ const dictionaryData = [
       "art_music"
     ],
     "freq": 9,
-    "freq_rank": 495,
+    "freq_rank": 498,
     "example": {
       "fiwo": "Mulap baudei.",
       "english": "The flower is beautiful."
@@ -1335,7 +1335,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 71,
     "freq": 4,
-    "freq_rank": 712,
+    "freq_rank": 714,
     "example": {
       "fiwo": "Detap suke ceni baxy hoxop.",
       "english": "Your dog is behind the door."
@@ -1349,7 +1349,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 204,
     "freq": 22,
-    "freq_rank": 270,
+    "freq_rank": 272,
     "example": {
       "fiwo": "Daq beatid hoxop.",
       "english": "He closed the door."
@@ -1363,7 +1363,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 571,
     "freq": 0,
-    "freq_rank": 1643,
+    "freq_rank": 1646,
     "example": {
       "fiwo": "Nosana bebid busko.",
       "english": "The woman wove the cloth."
@@ -1391,7 +1391,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 445,
     "freq": 0,
-    "freq_rank": 1645,
+    "freq_rank": 1648,
     "example": {
       "fiwo": "Beglonop zuzke.",
       "english": "The honey is sweet."
@@ -1406,7 +1406,7 @@ const dictionaryData = [
     "rank": 18,
     "usage_note": "Degree — a little tired, slightly cold. For size use nifne; for amount use cohe.",
     "freq": 7,
-    "freq_rank": 560,
+    "freq_rank": 561,
     "example": {
       "fiwo": "Mik iwei beje nudu.",
       "english": "I am a little tired today."
@@ -1420,7 +1420,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 227,
     "freq": 3,
-    "freq_rank": 780,
+    "freq_rank": 783,
     "example": {
       "fiwo": "Belap mike dorsoei.",
       "english": "My foot is wet."
@@ -1434,7 +1434,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 247,
     "freq": 14,
-    "freq_rank": 389,
+    "freq_rank": 390,
     "example": {
       "fiwo": "Belimop floveid.",
       "english": "The shoe was dirty."
@@ -1448,7 +1448,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 104,
     "freq": 2,
-    "freq_rank": 892,
+    "freq_rank": 895,
     "example": {
       "fiwo": "Mortsap ceni beqy montop.",
       "english": "The forest is beyond the mountain."
@@ -1466,7 +1466,7 @@ const dictionaryData = [
       "nature_weather"
     ],
     "freq": 9,
-    "freq_rank": 496,
+    "freq_rank": 499,
     "example": {
       "fiwo": "Bexop jabeid nudu.",
       "english": "The air was cold today."
@@ -1480,7 +1480,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 186,
     "freq": 9,
-    "freq_rank": 497,
+    "freq_rank": 500,
     "example": {
       "fiwo": "Bibap rehid dury dugu.",
       "english": "The baby cried during the night."
@@ -1494,7 +1494,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 357,
     "freq": 0,
-    "freq_rank": 1656,
+    "freq_rank": 1659,
     "example": {
       "fiwo": "Bierop jabeid.",
       "english": "The beer was cold."
@@ -1512,7 +1512,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 9,
-    "freq_rank": 498,
+    "freq_rank": 501,
     "example": {
       "fiwo": "Mik dozmeis cenit tapo.",
       "english": "I am allowed to live here."
@@ -1526,7 +1526,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 137,
     "freq": 1,
-    "freq_rank": 1074,
+    "freq_rank": 1076,
     "example": {
       "fiwo": "Licap mike biklis nibop.",
       "english": "My colleague will publish the book."
@@ -1540,7 +1540,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 552,
     "freq": 0,
-    "freq_rank": 1659,
+    "freq_rank": 1662,
     "example": {
       "fiwo": "Mik rolid bilyhop.",
       "english": "I drank the potion."
@@ -1568,7 +1568,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 134,
     "freq": 13,
-    "freq_rank": 407,
+    "freq_rank": 408,
     "example": {
       "fiwo": "Bimedup cimidyq.",
       "english": "Monday was starting."
@@ -1625,7 +1625,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 562,
     "freq": 0,
-    "freq_rank": 1666,
+    "freq_rank": 1669,
     "example": {
       "fiwo": "Bizomop mik tande.",
       "english": "My ingot is big."
@@ -1653,7 +1653,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 262,
     "freq": 1,
-    "freq_rank": 1077,
+    "freq_rank": 1079,
     "example": {
       "fiwo": "Blogacar nifne linid otmap.",
       "english": "A tiny germ caused the disease."
@@ -1681,7 +1681,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 513,
     "freq": 0,
-    "freq_rank": 1671,
+    "freq_rank": 1674,
     "example": {
       "fiwo": "Bofama mike tandeid.",
       "english": "My wrist was big."
@@ -1698,7 +1698,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 2,
-    "freq_rank": 894,
+    "freq_rank": 897,
     "example": {
       "fiwo": "Daq stomidyq bogup.",
       "english": "He was giving the force."
@@ -1712,7 +1712,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 145,
     "freq": 7,
-    "freq_rank": 561,
+    "freq_rank": 562,
     "example": {
       "fiwo": "Bojap leupeid.",
       "english": "The blood was red."
@@ -1729,7 +1729,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 13,
-    "freq_rank": 408,
+    "freq_rank": 409,
     "example": {
       "fiwo": "Jormup sile bokei.",
       "english": "This situation is bad."
@@ -1743,7 +1743,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 240,
     "freq": 1,
-    "freq_rank": 1079,
+    "freq_rank": 1081,
     "example": {
       "fiwo": "Farlopap bolytrid otmap mike.",
       "english": "The doctor diagnosed my illness."
@@ -1757,7 +1757,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 60,
     "freq": 1,
-    "freq_rank": 1080,
+    "freq_rank": 1082,
     "example": {
       "fiwo": "Wasnupap mike jopxi bomufur.",
       "english": "My grandparent receives a pension."
@@ -1771,7 +1771,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 434,
     "freq": 0,
-    "freq_rank": 1677,
+    "freq_rank": 1680,
     "example": {
       "fiwo": "Borpop ripe.",
       "english": "The pot is hot."
@@ -1785,7 +1785,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 455,
     "freq": 1,
-    "freq_rank": 1081,
+    "freq_rank": 1083,
     "example": {
       "fiwo": "Nofar bosli.",
       "english": "The person hurries."
@@ -1799,7 +1799,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 268,
     "freq": 2,
-    "freq_rank": 896,
+    "freq_rank": 899,
     "example": {
       "fiwo": "Daq botaxei.",
       "english": "He is foolish."
@@ -1813,7 +1813,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 225,
     "freq": 43,
-    "freq_rank": 143,
+    "freq_rank": 144,
     "example": {
       "fiwo": "Botop utmiq.",
       "english": "The boat is floating."
@@ -1827,7 +1827,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 545,
     "freq": 0,
-    "freq_rank": 1685,
+    "freq_rank": 1688,
     "example": {
       "fiwo": "Daq bracid batap.",
       "english": "He chewed the food."
@@ -1841,7 +1841,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 546,
     "freq": 0,
-    "freq_rank": 1687,
+    "freq_rank": 1690,
     "example": {
       "fiwo": "Brandap nomi hoswap.",
       "english": "The panda eats bamboo."
@@ -1858,7 +1858,7 @@ const dictionaryData = [
       "body"
     ],
     "freq": 0,
-    "freq_rank": 1689,
+    "freq_rank": 1692,
     "example": {
       "fiwo": "Brekrap daq zave.",
       "english": "His forehead is tall."
@@ -1872,7 +1872,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 534,
     "freq": 0,
-    "freq_rank": 2831,
+    "freq_rank": 2834,
     "example": {
       "fiwo": "Rogap mik pughe.",
       "english": "My elbow is rough."
@@ -1886,7 +1886,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 437,
     "freq": 0,
-    "freq_rank": 1692,
+    "freq_rank": 1695,
     "example": {
       "fiwo": "Mik pauli brikup.",
       "english": "I feel regret."
@@ -1914,7 +1914,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 313,
     "freq": 38,
-    "freq_rank": 164,
+    "freq_rank": 165,
     "example": {
       "fiwo": "Manap krendid bryklop.",
       "english": "The mother shared the bread."
@@ -1928,7 +1928,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 209,
     "freq": 4,
-    "freq_rank": 715,
+    "freq_rank": 717,
     "example": {
       "fiwo": "Bucygo tande.",
       "english": "Earth is big."
@@ -1942,7 +1942,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 454,
     "freq": 0,
-    "freq_rank": 1704,
+    "freq_rank": 1707,
     "example": {
       "fiwo": "Bufrop pughe.",
       "english": "The copper is rough."
@@ -1970,7 +1970,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 128,
     "freq": 3,
-    "freq_rank": 781,
+    "freq_rank": 784,
     "example": {
       "fiwo": "Cadap bumpid zety batap.",
       "english": "The child complained about the food."
@@ -1984,7 +1984,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 396,
     "freq": 2,
-    "freq_rank": 897,
+    "freq_rank": 900,
     "example": {
       "fiwo": "Mik gidsid nasbor ky bunowop.",
       "english": "I bought medicine at the pharmacy."
@@ -1999,7 +1999,7 @@ const dictionaryData = [
     "rank": 473,
     "usage_note": "For finding something you were looking for, use karxi.",
     "freq": 2,
-    "freq_rank": 898,
+    "freq_rank": 901,
     "example": {
       "fiwo": "Nofap busfid gaxor jaxke.",
       "english": "The person discovered a new island."
@@ -2027,7 +2027,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 89,
     "freq": 3,
-    "freq_rank": 782,
+    "freq_rank": 785,
     "example": {
       "fiwo": "Buvap ceni ty zasop.",
       "english": "The cow sits on the ground."
@@ -2045,7 +2045,7 @@ const dictionaryData = [
     ],
     "usage_note": "Impatient = buxue; to be impatient = buxuei; to make impatient = buxui.",
     "freq": 1,
-    "freq_rank": 1085,
+    "freq_rank": 1087,
     "example": {
       "fiwo": "Daq buxueid.",
       "english": "He was impatient."
@@ -2059,7 +2059,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 167,
     "freq": 1,
-    "freq_rank": 1084,
+    "freq_rank": 1086,
     "example": {
       "fiwo": "Buxondop guamid ripeup.",
       "english": "The sensor measured the heat."
@@ -2073,7 +2073,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 498,
     "freq": 7,
-    "freq_rank": 564,
+    "freq_rank": 565,
     "example": {
       "fiwo": "Elsap dzarid.",
       "english": "The bee buzzed."
@@ -2090,7 +2090,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 0,
-    "freq_rank": 1717,
+    "freq_rank": 1720,
     "example": {
       "fiwo": "Jamiop by David.",
       "english": "The document is by David."
@@ -2107,8 +2107,8 @@ const dictionaryData = [
       "grammar",
       "number_quantity"
     ],
-    "freq": 35,
-    "freq_rank": 176,
+    "freq": 38,
+    "freq_rank": 166,
     "example": {
       "fiwo": "Cadap byceve jedid nibor.",
       "english": "Each child had a book."
@@ -2142,7 +2142,7 @@ const dictionaryData = [
       "medical"
     ],
     "freq": 1,
-    "freq_rank": 1088,
+    "freq_rank": 1090,
     "example": {
       "fiwo": "Farlopap sapis cacodup.",
       "english": "The doctor will make a diagnosis."
@@ -2156,7 +2156,7 @@ const dictionaryData = [
     "usage_note": "Distinct from jepa (offspring), which maps the relational link to a parent.",
     "tier": 1,
     "rank": 97,
-    "freq": 128,
+    "freq": 130,
     "freq_rank": 48,
     "example": {
       "fiwo": "Cadap usiq.",
@@ -2171,7 +2171,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 120,
     "freq": 39,
-    "freq_rank": 156,
+    "freq_rank": 157,
     "example": {
       "fiwo": "Caenop dwimeid.",
       "english": "The street was long."
@@ -2185,7 +2185,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 51,
     "freq": 40,
-    "freq_rank": 154,
+    "freq_rank": 155,
     "example": {
       "fiwo": "Detap cafid zy sydop.",
       "english": "The dog ran to the house."
@@ -2199,7 +2199,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 423,
     "freq": 3,
-    "freq_rank": 783,
+    "freq_rank": 786,
     "example": {
       "fiwo": "Caflop dwimeid.",
       "english": "The shadow was long."
@@ -2226,8 +2226,8 @@ const dictionaryData = [
     "definition": "Clausal wall introducing a subsequent chronological action; resolves a conditional premise.",
     "tier": 0,
     "rank": 15,
-    "freq": 172,
-    "freq_rank": 30,
+    "freq": 194,
+    "freq_rank": 26,
     "example": {
       "fiwo": "Syn suk nomis batap can mik kypeis.",
       "english": "If you eat the food, then I will be happy."
@@ -2245,7 +2245,7 @@ const dictionaryData = [
       "family_people"
     ],
     "freq": 3,
-    "freq_rank": 784,
+    "freq_rank": 787,
     "example": {
       "fiwo": "Canpup ry nak kypei.",
       "english": "Our community is happy."
@@ -2274,7 +2274,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 154,
     "freq": 7,
-    "freq_rank": 562,
+    "freq_rank": 563,
     "example": {
       "fiwo": "Caqwap nedcidyq wy detap.",
       "english": "The boy was playing with the dog."
@@ -2288,7 +2288,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 260,
     "freq": 1,
-    "freq_rank": 1090,
+    "freq_rank": 1092,
     "example": {
       "fiwo": "Caqup ry daq gaweid.",
       "english": "His tactic was good."
@@ -2302,7 +2302,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 114,
     "freq": 11,
-    "freq_rank": 450,
+    "freq_rank": 451,
     "example": {
       "fiwo": "Caslap lokidyq nibop.",
       "english": "The girl was reading the book."
@@ -2330,7 +2330,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 329,
     "freq": 0,
-    "freq_rank": 1733,
+    "freq_rank": 1736,
     "example": {
       "fiwo": "Cavulkop deky levidzop.",
       "english": "The cobweb is in the cave."
@@ -2344,7 +2344,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 213,
     "freq": 1,
-    "freq_rank": 1092,
+    "freq_rank": 1094,
     "example": {
       "fiwo": "Cada jedi cazeblup.",
       "english": "The child has potential."
@@ -2358,7 +2358,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 72,
     "freq": 14,
-    "freq_rank": 390,
+    "freq_rank": 391,
     "example": {
       "fiwo": "Cef. Kop stomi batap zy mik.",
       "english": "Please give the food to me."
@@ -2372,7 +2372,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 133,
     "freq": 0,
-    "freq_rank": 1738,
+    "freq_rank": 1741,
     "example": {
       "fiwo": "Krulop celeid.",
       "english": "The room was private."
@@ -2447,7 +2447,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 76,
     "freq": 3,
-    "freq_rank": 786,
+    "freq_rank": 789,
     "example": {
       "fiwo": "Cevolop twaveid.",
       "english": "The log was heavy."
@@ -2461,7 +2461,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 467,
     "freq": 3,
-    "freq_rank": 787,
+    "freq_rank": 790,
     "example": {
       "fiwo": "Daq brenid ciafe.",
       "english": "He already arrived."
@@ -2476,7 +2476,7 @@ const dictionaryData = [
     "rank": 250,
     "usage_note": "A person's character. The nature of a thing is miju.",
     "freq": 2,
-    "freq_rank": 899,
+    "freq_rank": 902,
     "example": {
       "fiwo": "Cifudrup dale gawei.",
       "english": "His character is good."
@@ -2490,7 +2490,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 196,
     "freq": 0,
-    "freq_rank": 1748,
+    "freq_rank": 1751,
     "example": {
       "fiwo": "Minzap cigeid.",
       "english": "The nationality was foreign."
@@ -2518,7 +2518,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 412,
     "freq": 4,
-    "freq_rank": 716,
+    "freq_rank": 718,
     "example": {
       "fiwo": "Cijop ratseid.",
       "english": "The weapon was dangerous."
@@ -2548,8 +2548,8 @@ const dictionaryData = [
     "domains": [
       "time"
     ],
-    "freq": 53,
-    "freq_rank": 125,
+    "freq": 55,
+    "freq_rank": 123,
     "example": {
       "fiwo": "Spelup cimid.",
       "english": "The game started."
@@ -2563,7 +2563,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 555,
     "freq": 0,
-    "freq_rank": 1754,
+    "freq_rank": 1757,
     "example": {
       "fiwo": "Vohap cirpiwid.",
       "english": "The mouse squeaked."
@@ -2577,7 +2577,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 494,
     "freq": 0,
-    "freq_rank": 1755,
+    "freq_rank": 1758,
     "example": {
       "fiwo": "Mik tsejaid cisuplup.",
       "english": "I saw the tide."
@@ -2605,7 +2605,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 48,
     "freq": 1,
-    "freq_rank": 1095,
+    "freq_rank": 1097,
     "example": {
       "fiwo": "Mik stomid cizuzur zy zikuzop.",
       "english": "I gave a deposit to the bank."
@@ -2619,7 +2619,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 55,
     "freq": 3,
-    "freq_rank": 863,
+    "freq_rank": 867,
     "example": {
       "fiwo": "Tetwop sejid.",
       "english": "The clock stopped."
@@ -2633,7 +2633,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 523,
     "freq": 3,
-    "freq_rank": 789,
+    "freq_rank": 792,
     "example": {
       "fiwo": "Mik tsejaid cobop nudu.",
       "english": "I saw the fog today."
@@ -2648,7 +2648,7 @@ const dictionaryData = [
     "rank": 100,
     "usage_note": "Amount — few people, a little water. For size (a little house) use nifne; for degree (a little tired) use beje.",
     "freq": 14,
-    "freq_rank": 391,
+    "freq_rank": 392,
     "example": {
       "fiwo": "Gidup cohei.",
       "english": "The money is little."
@@ -2666,7 +2666,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 0,
-    "freq_rank": 1762,
+    "freq_rank": 1765,
     "example": {
       "fiwo": "Fatop coluprid.",
       "english": "The machine exploded."
@@ -2684,7 +2684,7 @@ const dictionaryData = [
     ],
     "usage_note": "Frequent, found often. Popular (liked by many) is cacte; famous (widely known) is zihe.",
     "freq": 0,
-    "freq_rank": 1763,
+    "freq_rank": 1766,
     "example": {
       "fiwo": "Cijop compei.",
       "english": "The weapon is common."
@@ -2712,7 +2712,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 526,
     "freq": 0,
-    "freq_rank": 1766,
+    "freq_rank": 1769,
     "example": {
       "fiwo": "Corfap bucid ty mosap.",
       "english": "The monkey jumped on the tree."
@@ -2726,7 +2726,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 303,
     "freq": 2,
-    "freq_rank": 900,
+    "freq_rank": 903,
     "example": {
       "fiwo": "Cogjap ry dal je dorsoei.",
       "english": "Their skin is wet."
@@ -2740,7 +2740,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 256,
     "freq": 10,
-    "freq_rank": 468,
+    "freq_rank": 470,
     "example": {
       "fiwo": "Daq cotid otsinop.",
       "english": "He cut the thread."
@@ -2754,7 +2754,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 544,
     "freq": 0,
-    "freq_rank": 1774,
+    "freq_rank": 1777,
     "example": {
       "fiwo": "Cowabap nifne.",
       "english": "The donkey is small."
@@ -2768,7 +2768,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 386,
     "freq": 0,
-    "freq_rank": 1776,
+    "freq_rank": 1779,
     "example": {
       "fiwo": "Cuacap cenidyq deky mortsap.",
       "english": "The bear was living in the forest."
@@ -2782,7 +2782,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 449,
     "freq": 0,
-    "freq_rank": 1778,
+    "freq_rank": 1781,
     "example": {
       "fiwo": "Cubastop jilfe.",
       "english": "The sphere is smooth."
@@ -2796,7 +2796,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 283,
     "freq": 2,
-    "freq_rank": 901,
+    "freq_rank": 904,
     "example": {
       "fiwo": "Cudzap tande.",
       "english": "The wolf is big."
@@ -2810,7 +2810,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 110,
     "freq": 3,
-    "freq_rank": 790,
+    "freq_rank": 793,
     "example": {
       "fiwo": "Cufup ry mik zaveid.",
       "english": "My goal was high."
@@ -2824,7 +2824,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 553,
     "freq": 0,
-    "freq_rank": 1782,
+    "freq_rank": 1785,
     "example": {
       "fiwo": "Cugop xygeid.",
       "english": "The eraser was thin."
@@ -2838,7 +2838,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 264,
     "freq": 10,
-    "freq_rank": 469,
+    "freq_rank": 471,
     "example": {
       "fiwo": "Mik gidsid zobar cuje.",
       "english": "I bought some vegetables."
@@ -2853,7 +2853,7 @@ const dictionaryData = [
     "rank": 45,
     "usage_note": "Physical fighting. Arguing with words is davti; calm discussion is jifni.",
     "freq": 10,
-    "freq_rank": 470,
+    "freq_rank": 472,
     "example": {
       "fiwo": "Detar kage cukidyq.",
       "english": "Two dogs were fighting."
@@ -2867,7 +2867,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 549,
     "freq": 0,
-    "freq_rank": 1788,
+    "freq_rank": 1791,
     "example": {
       "fiwo": "Mik tsejaid cumeswop.",
       "english": "I saw the dew."
@@ -2881,7 +2881,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 245,
     "freq": 2,
-    "freq_rank": 902,
+    "freq_rank": 905,
     "example": {
       "fiwo": "Skorup cuntei.",
       "english": "The market is current."
@@ -2895,7 +2895,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 390,
     "freq": 11,
-    "freq_rank": 453,
+    "freq_rank": 454,
     "example": {
       "fiwo": "Mik tsejaid cuskamap.",
       "english": "I saw the devil."
@@ -2909,7 +2909,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 535,
     "freq": 1,
-    "freq_rank": 1099,
+    "freq_rank": 1101,
     "example": {
       "fiwo": "Cuspop deky montop.",
       "english": "The beacon is on the mountain."
@@ -2926,7 +2926,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 1,
-    "freq_rank": 1100,
+    "freq_rank": 1102,
     "example": {
       "fiwo": "Nak cutwei.",
       "english": "We are ready."
@@ -2940,7 +2940,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 155,
     "freq": 21,
-    "freq_rank": 287,
+    "freq_rank": 288,
     "example": {
       "fiwo": "Kyfap cyrid tody montop.",
       "english": "The bird flew above the mountain."
@@ -2954,7 +2954,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 375,
     "freq": 48,
-    "freq_rank": 136,
+    "freq_rank": 137,
     "example": {
       "fiwo": "Cysmop nifne.",
       "english": "The village is small."
@@ -2968,7 +2968,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 556,
     "freq": 0,
-    "freq_rank": 1799,
+    "freq_rank": 1802,
     "example": {
       "fiwo": "Cytup jore.",
       "english": "The preposition is important."
@@ -2982,7 +2982,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 105,
     "freq": 43,
-    "freq_rank": 144,
+    "freq_rank": 145,
     "example": {
       "fiwo": "Cyvap cenidyq deky sydop.",
       "english": "The stranger was living in the house."
@@ -2996,7 +2996,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 249,
     "freq": 10,
-    "freq_rank": 471,
+    "freq_rank": 473,
     "example": {
       "fiwo": "Cyxop dwimeid.",
       "english": "The beach was long."
@@ -3011,7 +3011,7 @@ const dictionaryData = [
     "rank": 199,
     "usage_note": "What a particular person is expert in. The field of study itself is atobu.",
     "freq": 1,
-    "freq_rank": 1103,
+    "freq_rank": 1105,
     "example": {
       "fiwo": "Dadukrup dase fawanu.",
       "english": "Her specialty is technology."
@@ -3025,7 +3025,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 314,
     "freq": 0,
-    "freq_rank": 1804,
+    "freq_rank": 1807,
     "example": {
       "fiwo": "Mitap ceni deky dafap.",
       "english": "The meat is inside the stomach."
@@ -3039,7 +3039,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 372,
     "freq": 1,
-    "freq_rank": 1104,
+    "freq_rank": 1106,
     "example": {
       "fiwo": "Mik dagibi ram.",
       "english": "I assume it."
@@ -3053,7 +3053,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 145,
     "freq": 1,
-    "freq_rank": 1105,
+    "freq_rank": 1107,
     "example": {
       "fiwo": "Melfup jedis dahup.",
       "english": "The price will have the value."
@@ -3067,7 +3067,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 18,
     "freq": 184,
-    "freq_rank": 28,
+    "freq_rank": 29,
     "example": {
       "fiwo": "Dal cafiq deky mortsap.",
       "english": "He is running in the forest."
@@ -3095,7 +3095,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 348,
     "freq": 0,
-    "freq_rank": 1809,
+    "freq_rank": 1812,
     "example": {
       "fiwo": "Nak xalis dury dangu.",
       "english": "We will go on vacation."
@@ -3108,7 +3108,7 @@ const dictionaryData = [
     "definition": "Third-person singular animate male; a male entity with intent or agency.",
     "tier": 0,
     "rank": 6,
-    "freq": 868,
+    "freq": 871,
     "freq_rank": 3,
     "example": {
       "fiwo": "Daq gidsid moblop.",
@@ -3136,7 +3136,7 @@ const dictionaryData = [
     "definition": "Third-person singular animate female; a female entity with intent or agency.",
     "tier": 0,
     "rank": 14,
-    "freq": 821,
+    "freq": 824,
     "freq_rank": 7,
     "example": {
       "fiwo": "Das jamid ufaxop.",
@@ -3166,7 +3166,7 @@ const dictionaryData = [
     "rank": 477,
     "usage_note": "Arguing with words. Physical fighting is cuki; calm discussion is jifni.",
     "freq": 13,
-    "freq_rank": 409,
+    "freq_rank": 410,
     "example": {
       "fiwo": "Dal je davtid zety sydop.",
       "english": "They argued about the house."
@@ -3180,7 +3180,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 38,
     "freq": 4,
-    "freq_rank": 717,
+    "freq_rank": 719,
     "example": {
       "fiwo": "Zasop dorsoei dawy domloup.",
       "english": "The ground is wet due to the rain."
@@ -3194,7 +3194,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 505,
     "freq": 2,
-    "freq_rank": 904,
+    "freq_rank": 907,
     "example": {
       "fiwo": "Daxokop zovi ty keglap.",
       "english": "The frost is on the grass."
@@ -3212,7 +3212,7 @@ const dictionaryData = [
     ],
     "usage_note": "A stance or manner toward something. An opinion — your judgement of it — is ipsgu.",
     "freq": 1,
-    "freq_rank": 1108,
+    "freq_rank": 1110,
     "example": {
       "fiwo": "Decup ry daq gaweid.",
       "english": "His attitude was good."
@@ -3226,7 +3226,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 492,
     "freq": 0,
-    "freq_rank": 3039,
+    "freq_rank": 3042,
     "example": {
       "fiwo": "Tokap daq nifne.",
       "english": "His thumb is small."
@@ -3240,7 +3240,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 142,
     "freq": 41,
-    "freq_rank": 151,
+    "freq_rank": 152,
     "example": {
       "fiwo": "Degop myi batap.",
       "english": "The table holds the food."
@@ -3271,7 +3271,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 329,
     "freq": 1,
-    "freq_rank": 1109,
+    "freq_rank": 1111,
     "example": {
       "fiwo": "Kehulup nake sapid deluflur.",
       "english": "Our family made a budget."
@@ -3289,7 +3289,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 2,
-    "freq_rank": 905,
+    "freq_rank": 908,
     "example": {
       "fiwo": "Das denkid tetwop.",
       "english": "She set the clock."
@@ -3303,7 +3303,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 99,
     "freq": 0,
-    "freq_rank": 1824,
+    "freq_rank": 1827,
     "example": {
       "fiwo": "Deqazup ry mik nacis.",
       "english": "My department will work."
@@ -3330,7 +3330,7 @@ const dictionaryData = [
     "definition": "This refers to the cardinal number that is the sum of one and one.",
     "tier": 1,
     "rank": 22,
-    "freq": 172,
+    "freq": 174,
     "freq_rank": 31,
     "example": {
       "fiwo": "Mosar kage morid.",
@@ -3345,7 +3345,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 253,
     "freq": 8,
-    "freq_rank": 529,
+    "freq_rank": 531,
     "example": {
       "fiwo": "Kagedup jaxkeid.",
       "english": "Tuesday was new."
@@ -3359,7 +3359,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 76,
     "freq": 2,
-    "freq_rank": 906,
+    "freq_rank": 909,
     "example": {
       "fiwo": "Dez. Kup suk gawei?",
       "english": "Good morning. How are you?"
@@ -3373,7 +3373,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 266,
     "freq": 0,
-    "freq_rank": 1828,
+    "freq_rank": 1831,
     "example": {
       "fiwo": "Dibrop stobeid.",
       "english": "The block was hard."
@@ -3390,7 +3390,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 1830,
+    "freq_rank": 1833,
     "example": {
       "fiwo": "Daq foisois dide sydop.",
       "english": "He will definitely build the house."
@@ -3404,7 +3404,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 230,
     "freq": 14,
-    "freq_rank": 392,
+    "freq_rank": 393,
     "example": {
       "fiwo": "Difor sowid ty zafoirop.",
       "english": "Some liquid fell on the floor."
@@ -3418,7 +3418,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 311,
     "freq": 1,
-    "freq_rank": 1372,
+    "freq_rank": 1375,
     "example": {
       "fiwo": "Jawop pjemoei.",
       "english": "Ice is solid."
@@ -3432,7 +3432,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 103,
     "freq": 0,
-    "freq_rank": 1832,
+    "freq_rank": 1835,
     "example": {
       "fiwo": "Mik jedi dilujur.",
       "english": "I have an account."
@@ -3460,7 +3460,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 398,
     "freq": 0,
-    "freq_rank": 1836,
+    "freq_rank": 1839,
     "example": {
       "fiwo": "Ram dipuwur.",
       "english": "That is a mutual responsibility."
@@ -3474,7 +3474,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 206,
     "freq": 0,
-    "freq_rank": 2931,
+    "freq_rank": 2934,
     "example": {
       "fiwo": "Bexop sozoei.",
       "english": "Air is gaseous."
@@ -3488,7 +3488,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 173,
     "freq": 1,
-    "freq_rank": 1111,
+    "freq_rank": 1113,
     "example": {
       "fiwo": "Dixap dormidyq deky tubsop.",
       "english": "The shark was swimming in the sea."
@@ -3502,7 +3502,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 527,
     "freq": 0,
-    "freq_rank": 1838,
+    "freq_rank": 1841,
     "example": {
       "fiwo": "Dizabap locwe.",
       "english": "The skeleton is white."
@@ -3519,7 +3519,7 @@ const dictionaryData = [
       "nature_land"
     ],
     "freq": 10,
-    "freq_rank": 472,
+    "freq_rank": 474,
     "example": {
       "fiwo": "Dodup tandei.",
       "english": "The universe is big."
@@ -3533,7 +3533,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 34,
     "freq": 13,
-    "freq_rank": 410,
+    "freq_rank": 411,
     "example": {
       "fiwo": "Dofemop jore.",
       "english": "The court is important."
@@ -3551,7 +3551,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 11,
-    "freq_rank": 465,
+    "freq_rank": 467,
     "example": {
       "fiwo": "Manap mike zupid tep mik nedcid.",
       "english": "My mother let me play."
@@ -3579,7 +3579,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 140,
     "freq": 8,
-    "freq_rank": 523,
+    "freq_rank": 525,
     "example": {
       "fiwo": "Donavap fwimid xekup dase.",
       "english": "The refugee left her country."
@@ -3593,7 +3593,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 260,
     "freq": 3,
-    "freq_rank": 792,
+    "freq_rank": 795,
     "example": {
       "fiwo": "Doralap ry mik pamuid.",
       "english": "My back was hurting."
@@ -3621,7 +3621,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 50,
     "freq": 127,
-    "freq_rank": 49,
+    "freq_rank": 51,
     "example": {
       "fiwo": "Mik rolid dorsop.",
       "english": "I drank the water."
@@ -3638,7 +3638,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 1,
-    "freq_rank": 1113,
+    "freq_rank": 1115,
     "example": {
       "fiwo": "Mik jamid dosertop.",
       "english": "I wrote the article."
@@ -3666,7 +3666,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 512,
     "freq": 2,
-    "freq_rank": 909,
+    "freq_rank": 912,
     "example": {
       "fiwo": "Dowop locwe.",
       "english": "The wool is white."
@@ -3736,7 +3736,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 352,
     "freq": 0,
-    "freq_rank": 1852,
+    "freq_rank": 1855,
     "example": {
       "fiwo": "Mik drulsid viketsop.",
       "english": "I toggled the lamp."
@@ -3764,7 +3764,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 157,
     "freq": 1,
-    "freq_rank": 1114,
+    "freq_rank": 1116,
     "example": {
       "fiwo": "Latwap dubizid deky mortsap.",
       "english": "The animal spawned in the forest."
@@ -3778,7 +3778,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 33,
     "freq": 1,
-    "freq_rank": 1115,
+    "freq_rank": 1117,
     "example": {
       "fiwo": "Ducop skagid.",
       "english": "The mirror broke."
@@ -3807,7 +3807,7 @@ const dictionaryData = [
     "rank": 570,
     "usage_note": "A plant part. Distinct from acina (claw), which is an animal's.",
     "freq": 0,
-    "freq_rank": 1858,
+    "freq_rank": 1861,
     "example": {
       "fiwo": "Firfap jedi duja je.",
       "english": "The rose has thorns."
@@ -3821,7 +3821,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 119,
     "freq": 1,
-    "freq_rank": 1116,
+    "freq_rank": 1118,
     "example": {
       "fiwo": "Duluxrap ceni deky jurop.",
       "english": "The immigrant lives in the city."
@@ -3877,7 +3877,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 171,
     "freq": 3,
-    "freq_rank": 796,
+    "freq_rank": 799,
     "example": {
       "fiwo": "Daq duxilid nofap.",
       "english": "He attacked the person."
@@ -3891,7 +3891,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 166,
     "freq": 0,
-    "freq_rank": 1870,
+    "freq_rank": 1873,
     "example": {
       "fiwo": "Dyrpop das nifne.",
       "english": "Her plank is small."
@@ -3905,7 +3905,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 416,
     "freq": 0,
-    "freq_rank": 1872,
+    "freq_rank": 1875,
     "example": {
       "fiwo": "Mik tsejaid dysap.",
       "english": "I saw the tongue."
@@ -3920,7 +3920,7 @@ const dictionaryData = [
     "rank": 590,
     "usage_note": "The configured state, not the act of choosing — that is laekiu, from laeki (to choose).",
     "freq": 0,
-    "freq_rank": 1874,
+    "freq_rank": 1877,
     "example": {
       "fiwo": "Mik tumid dyzu je spelue.",
       "english": "I changed the game settings."
@@ -3938,7 +3938,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 42,
-    "freq_rank": 147,
+    "freq_rank": 148,
     "example": {
       "fiwo": "Mik dzefid wy razup dale.",
       "english": "I agreed with his plan."
@@ -3952,7 +3952,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 272,
     "freq": 1,
-    "freq_rank": 1118,
+    "freq_rank": 1120,
     "example": {
       "fiwo": "Dzocop mik tande.",
       "english": "My pottery is big."
@@ -3966,7 +3966,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 532,
     "freq": 1,
-    "freq_rank": 1119,
+    "freq_rank": 1121,
     "example": {
       "fiwo": "Ibalirap kritrid dzubup.",
       "english": "The teacher taught the verb."
@@ -3980,7 +3980,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 146,
     "freq": 1,
-    "freq_rank": 1120,
+    "freq_rank": 1122,
     "example": {
       "fiwo": "Dzupakap aqe tabwid xekup.",
       "english": "The king led the country."
@@ -3994,7 +3994,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 162,
     "freq": 4,
-    "freq_rank": 719,
+    "freq_rank": 721,
     "example": {
       "fiwo": "Daq dzuripi goile.",
       "english": "He seems sad."
@@ -4008,7 +4008,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 580,
     "freq": 0,
-    "freq_rank": 1885,
+    "freq_rank": 1888,
     "example": {
       "fiwo": "Dorso dzuvid dreko dury dionu late.",
       "english": "The water eroded the rock over all time."
@@ -4022,7 +4022,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 2,
     "freq": 1,
-    "freq_rank": 1121,
+    "freq_rank": 1123,
     "example": {
       "fiwo": "Cadap nomi dzyprap.",
       "english": "The child eats nuts."
@@ -4036,7 +4036,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 442,
     "freq": 0,
-    "freq_rank": 1888,
+    "freq_rank": 1891,
     "example": {
       "fiwo": "Eavap sowid fy mosap.",
       "english": "The snake fell from the tree."
@@ -4050,7 +4050,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 322,
     "freq": 1,
-    "freq_rank": 1122,
+    "freq_rank": 1124,
     "example": {
       "fiwo": "Ebgap skagid.",
       "english": "The twig broke."
@@ -4064,7 +4064,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 96,
     "freq": 36,
-    "freq_rank": 174,
+    "freq_rank": 177,
     "example": {
       "fiwo": "Mik raris hisup suke.",
       "english": "I will remember your name."
@@ -4092,7 +4092,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 335,
     "freq": 0,
-    "freq_rank": 1893,
+    "freq_rank": 1896,
     "example": {
       "fiwo": "Ebop xedoeid.",
       "english": "The chain was metallic."
@@ -4106,7 +4106,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 465,
     "freq": 0,
-    "freq_rank": 1895,
+    "freq_rank": 1898,
     "example": {
       "fiwo": "Rezap ebxeid.",
       "english": "The leader was cruel."
@@ -4134,7 +4134,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 466,
     "freq": 0,
-    "freq_rank": 1897,
+    "freq_rank": 1900,
     "example": {
       "fiwo": "Rezap ecmeid.",
       "english": "The president was humble."
@@ -4149,7 +4149,7 @@ const dictionaryData = [
     "rank": 476,
     "usage_note": "The Sun is fevo, a star is stalo, and other planets are grexo.",
     "freq": 2,
-    "freq_rank": 913,
+    "freq_rank": 916,
     "example": {
       "fiwo": "Edajop cyriq.",
       "english": "The moon is hovering."
@@ -4163,7 +4163,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 159,
     "freq": 0,
-    "freq_rank": 1900,
+    "freq_rank": 1903,
     "example": {
       "fiwo": "Ednup ry mik doteid.",
       "english": "My faith was strong."
@@ -4177,7 +4177,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 508,
     "freq": 1,
-    "freq_rank": 1125,
+    "freq_rank": 1127,
     "example": {
       "fiwo": "Das edoraris mitap.",
       "english": "She will deep fry the meat."
@@ -4191,7 +4191,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 22,
     "freq": 2,
-    "freq_rank": 914,
+    "freq_rank": 917,
     "example": {
       "fiwo": "Licap efadeid.",
       "english": "The colleague was hardworking."
@@ -4208,7 +4208,7 @@ const dictionaryData = [
       "work_education"
     ],
     "freq": 0,
-    "freq_rank": 1904,
+    "freq_rank": 1907,
     "example": {
       "fiwo": "Efantup mike tandeid.",
       "english": "My effort was great."
@@ -4240,7 +4240,7 @@ const dictionaryData = [
       "society_law"
     ],
     "freq": 0,
-    "freq_rank": 1906,
+    "freq_rank": 1909,
     "example": {
       "fiwo": "Efzup ry canpup baudeid.",
       "english": "The harmony of the community was beautiful."
@@ -4254,7 +4254,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 496,
     "freq": 0,
-    "freq_rank": 1908,
+    "freq_rank": 1911,
     "example": {
       "fiwo": "Noqsap egdeid.",
       "english": "The man was sober."
@@ -4268,7 +4268,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 261,
     "freq": 0,
-    "freq_rank": 2875,
+    "freq_rank": 2878,
     "example": {
       "fiwo": "Sidmop doteid.",
       "english": "The engine was strong."
@@ -4282,7 +4282,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 322,
     "freq": 14,
-    "freq_rank": 393,
+    "freq_rank": 394,
     "example": {
       "fiwo": "Nofar egmabe brenid.",
       "english": "One thousand people came."
@@ -4296,7 +4296,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 410,
     "freq": 1,
-    "freq_rank": 1128,
+    "freq_rank": 1130,
     "example": {
       "fiwo": "Egpop dwimeid.",
       "english": "The tube was long."
@@ -4315,7 +4315,7 @@ const dictionaryData = [
     ],
     "usage_note": "A position on a scale. A standard or criterion something is judged by is imsu.",
     "freq": 0,
-    "freq_rank": 1912,
+    "freq_rank": 1915,
     "example": {
       "fiwo": "Eguvup ry mik zaveid.",
       "english": "My level was high."
@@ -4330,7 +4330,7 @@ const dictionaryData = [
     "rank": 413,
     "usage_note": "To tear something apart. A teardrop is iraksa.",
     "freq": 2,
-    "freq_rank": 915,
+    "freq_rank": 918,
     "example": {
       "fiwo": "Das eipid paelop.",
       "english": "She tore the paper."
@@ -4362,7 +4362,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 1916,
+    "freq_rank": 1919,
     "example": {
       "fiwo": "Licap elgeid.",
       "english": "The colleague was honest."
@@ -4376,7 +4376,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 172,
     "freq": 1,
-    "freq_rank": 1130,
+    "freq_rank": 1132,
     "example": {
       "fiwo": "Elsap foisoiq sydor.",
       "english": "The bee is building a house."
@@ -4390,7 +4390,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 260,
     "freq": 0,
-    "freq_rank": 1920,
+    "freq_rank": 1923,
     "example": {
       "fiwo": "Mitap emfei.",
       "english": "The meat is fresh."
@@ -4404,7 +4404,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 91,
     "freq": 11,
-    "freq_rank": 454,
+    "freq_rank": 455,
     "example": {
       "fiwo": "Detap emitid mik.",
       "english": "The dog followed me."
@@ -4422,7 +4422,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 9,
-    "freq_rank": 499,
+    "freq_rank": 502,
     "example": {
       "fiwo": "Mik enconid rezap.",
       "english": "I met the president."
@@ -4436,7 +4436,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 284,
     "freq": 0,
-    "freq_rank": 2802,
+    "freq_rank": 2805,
     "example": {
       "fiwo": "Zabatop relsei.",
       "english": "The bag is light."
@@ -4450,7 +4450,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 79,
     "freq": 32,
-    "freq_rank": 195,
+    "freq_rank": 196,
     "example": {
       "fiwo": "Daq enris deky sydop.",
       "english": "He will enter the house."
@@ -4467,7 +4467,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 23,
-    "freq_rank": 265,
+    "freq_rank": 267,
     "example": {
       "fiwo": "Mipfup ry daq gaweid.",
       "english": "His action was good."
@@ -4481,7 +4481,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 472,
     "freq": 2,
-    "freq_rank": 918,
+    "freq_rank": 921,
     "example": {
       "fiwo": "Epmop ripeid.",
       "english": "The oven was hot."
@@ -4495,7 +4495,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 290,
     "freq": 0,
-    "freq_rank": 1926,
+    "freq_rank": 1929,
     "example": {
       "fiwo": "Epufup ry xekup gawei.",
       "english": "The justice of the country is good."
@@ -4509,7 +4509,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 428,
     "freq": 1,
-    "freq_rank": 1133,
+    "freq_rank": 1135,
     "example": {
       "fiwo": "Daq epzis belimop.",
       "english": "He will polish the shoe."
@@ -4523,7 +4523,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 507,
     "freq": 0,
-    "freq_rank": 1929,
+    "freq_rank": 1932,
     "example": {
       "fiwo": "Eqsop sowid fy ylxap.",
       "english": "Saliva fell from the mouth."
@@ -4537,7 +4537,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 452,
     "freq": 0,
-    "freq_rank": 1932,
+    "freq_rank": 1935,
     "example": {
       "fiwo": "Nak paulid ercop.",
       "english": "We felt the thunder."
@@ -4565,7 +4565,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 224,
     "freq": 1,
-    "freq_rank": 1134,
+    "freq_rank": 1136,
     "example": {
       "fiwo": "Cadap otmae erpilsid dugu.",
       "english": "The sick child vomited at night."
@@ -4596,7 +4596,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 1936,
+    "freq_rank": 1939,
     "example": {
       "fiwo": "Biwup espei.",
       "english": "The problem is specific."
@@ -4627,7 +4627,7 @@ const dictionaryData = [
       "time"
     ],
     "freq": 2,
-    "freq_rank": 919,
+    "freq_rank": 922,
     "example": {
       "fiwo": "Dugup domloi evle.",
       "english": "It sometimes rains at night."
@@ -4641,7 +4641,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 297,
     "freq": 0,
-    "freq_rank": 1940,
+    "freq_rank": 1943,
     "example": {
       "fiwo": "Evmup linucid.",
       "english": "The accident happened."
@@ -4655,7 +4655,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 3,
     "freq": 7,
-    "freq_rank": 565,
+    "freq_rank": 566,
     "example": {
       "fiwo": "Mik karxid aplar exke.",
       "english": "I found several apples."
@@ -4669,7 +4669,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 108,
     "freq": 0,
-    "freq_rank": 1943,
+    "freq_rank": 1946,
     "example": {
       "fiwo": "Exopup ry jeflup ruzei.",
       "english": "The rate of development is fast."
@@ -4683,7 +4683,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 377,
     "freq": 0,
-    "freq_rank": 1945,
+    "freq_rank": 1948,
     "example": {
       "fiwo": "Ibalirap stomi extanup.",
       "english": "The teacher gives the lesson."
@@ -4697,7 +4697,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 421,
     "freq": 2,
-    "freq_rank": 920,
+    "freq_rank": 923,
     "example": {
       "fiwo": "Muk eziswid azikup.",
       "english": "We implemented the rule."
@@ -4711,7 +4711,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 510,
     "freq": 2,
-    "freq_rank": 921,
+    "freq_rank": 924,
     "example": {
       "fiwo": "Ezlop skagid.",
       "english": "The lid broke."
@@ -4728,7 +4728,7 @@ const dictionaryData = [
       "social_interaction"
     ],
     "freq": 0,
-    "freq_rank": 1949,
+    "freq_rank": 1952,
     "example": {
       "fiwo": "Cadap ezteid.",
       "english": "The child was polite."
@@ -4774,7 +4774,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 14,
     "freq": 4,
-    "freq_rank": 737,
+    "freq_rank": 739,
     "example": {
       "fiwo": "Latwap jorei cagy nak.",
       "english": "The animal is important to us."
@@ -4788,7 +4788,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 266,
     "freq": 2,
-    "freq_rank": 922,
+    "freq_rank": 925,
     "example": {
       "fiwo": "Fagap ry mik cafid.",
       "english": "My cousin ran."
@@ -4803,7 +4803,7 @@ const dictionaryData = [
     "rank": 69,
     "usage_note": "Writing something down. Recording sound or your voice is not falazi.",
     "freq": 4,
-    "freq_rank": 722,
+    "freq_rank": 724,
     "example": {
       "fiwo": "Das falazid ogirup.",
       "english": "She recorded the experience."
@@ -4820,7 +4820,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 1,
-    "freq_rank": 1138,
+    "freq_rank": 1140,
     "example": {
       "fiwo": "Mik jamid falfosop.",
       "english": "I wrote the list."
@@ -4835,7 +4835,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 20,
     "freq": 3,
-    "freq_rank": 798,
+    "freq_rank": 801,
     "example": {
       "fiwo": "Daq falmis isamup.",
       "english": "He will report the result."
@@ -4849,7 +4849,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 81,
     "freq": 1,
-    "freq_rank": 1290,
+    "freq_rank": 1293,
     "example": {
       "fiwo": "Mik lurid nauxap mike.",
       "english": "I introduced my friend."
@@ -4863,7 +4863,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 99,
     "freq": 38,
-    "freq_rank": 165,
+    "freq_rank": 167,
     "example": {
       "fiwo": "Fap batap nomid catsap.",
       "english": "The food was eaten by the cat."
@@ -4891,7 +4891,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 192,
     "freq": 4,
-    "freq_rank": 723,
+    "freq_rank": 725,
     "example": {
       "fiwo": "Farlup ry mik gawei.",
       "english": "My health is good."
@@ -4908,7 +4908,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 1,
-    "freq_rank": 1139,
+    "freq_rank": 1141,
     "example": {
       "fiwo": "Batap mike fasidid zobar.",
       "english": "My food included vegetables."
@@ -4925,7 +4925,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 1,
-    "freq_rank": 1140,
+    "freq_rank": 1142,
     "example": {
       "fiwo": "Govnu fasnolid fuhytup.",
       "english": "The government disseminated the news."
@@ -4942,7 +4942,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 1,
-    "freq_rank": 1141,
+    "freq_rank": 1143,
     "example": {
       "fiwo": "Isamup fatlis olifur.",
       "english": "The result depends on research."
@@ -4970,7 +4970,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 253,
     "freq": 3,
-    "freq_rank": 799,
+    "freq_rank": 802,
     "example": {
       "fiwo": "Fawanup ry jyjop ruzeiq.",
       "english": "The technology of the computer is advancing."
@@ -4987,7 +4987,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 0,
-    "freq_rank": 1965,
+    "freq_rank": 1968,
     "example": {
       "fiwo": "Daq ceni fazy latwar.",
       "english": "He lives like an animal."
@@ -5004,7 +5004,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 54,
-    "freq_rank": 123,
+    "freq_rank": 124,
     "example": {
       "fiwo": "Daq ruzei fe.",
       "english": "He is very fast."
@@ -5018,7 +5018,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 50,
     "freq": 9,
-    "freq_rank": 500,
+    "freq_rank": 503,
     "example": {
       "fiwo": "Mik wastid fecy cihup.",
       "english": "I waited until the morning."
@@ -5049,7 +5049,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 71,
     "freq": 0,
-    "freq_rank": 1966,
+    "freq_rank": 1969,
     "example": {
       "fiwo": "Das fehedid hazbap.",
       "english": "She divorced the husband."
@@ -5080,7 +5080,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 521,
     "freq": 0,
-    "freq_rank": 1971,
+    "freq_rank": 1974,
     "example": {
       "fiwo": "Femporop locwe.",
       "english": "The quartz is white."
@@ -5108,7 +5108,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 90,
     "freq": 11,
-    "freq_rank": 455,
+    "freq_rank": 456,
     "example": {
       "fiwo": "Pebap fenutis stepup.",
       "english": "Father will tell the story."
@@ -5139,7 +5139,7 @@ const dictionaryData = [
       "materials"
     ],
     "freq": 2,
-    "freq_rank": 923,
+    "freq_rank": 926,
     "example": {
       "fiwo": "Mik fewid tankor deky tesop.",
       "english": "I mixed sugar in the tea."
@@ -5153,7 +5153,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 392,
     "freq": 1,
-    "freq_rank": 1144,
+    "freq_rank": 1146,
     "example": {
       "fiwo": "Fexresap jofid kuvysup.",
       "english": "The victim helped the police."
@@ -5167,7 +5167,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 176,
     "freq": 1,
-    "freq_rank": 1145,
+    "freq_rank": 1147,
     "example": {
       "fiwo": "Fexruku efade.",
       "english": "The staff is hardworking."
@@ -5181,7 +5181,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 93,
     "freq": 0,
-    "freq_rank": 1979,
+    "freq_rank": 1982,
     "example": {
       "fiwo": "Kop rari ficudur.",
       "english": "Remember quitting-midway."
@@ -5199,7 +5199,7 @@ const dictionaryData = [
     ],
     "usage_note": "Absorbed xu, retired 2026-09-23 as a duplicate.",
     "freq": 1,
-    "freq_rank": 1146,
+    "freq_rank": 1148,
     "example": {
       "fiwo": "Ram figenkur ry batap.",
       "english": "It is a type of food."
@@ -5216,7 +5216,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 1,
-    "freq_rank": 1147,
+    "freq_rank": 1149,
     "example": {
       "fiwo": "Mik fihid drekop.",
       "english": "I exposed the rock."
@@ -5230,7 +5230,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 202,
     "freq": 3,
-    "freq_rank": 804,
+    "freq_rank": 807,
     "example": {
       "fiwo": "Daq kilidyq fijap.",
       "english": "He was touching the ear."
@@ -5262,7 +5262,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 1984,
+    "freq_rank": 1987,
     "example": {
       "fiwo": "Otsinop finei.",
       "english": "The thread is delicate."
@@ -5277,7 +5277,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 267,
     "freq": 3,
-    "freq_rank": 805,
+    "freq_rank": 808,
     "example": {
       "fiwo": "Mik zyli fipup.",
       "english": "I use the software."
@@ -5291,7 +5291,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 236,
     "freq": 1,
-    "freq_rank": 1149,
+    "freq_rank": 1151,
     "example": {
       "fiwo": "Mik stomid firfar zy manap.",
       "english": "I gave a rose to the mother."
@@ -5306,7 +5306,7 @@ const dictionaryData = [
     "rank": 53,
     "usage_note": "'Just' in the sense of a moment ago (I just arrived). For 'just' meaning only, use juwe.",
     "freq": 1,
-    "freq_rank": 1150,
+    "freq_rank": 1152,
     "example": {
       "fiwo": "Daq brenid fiske.",
       "english": "He recently arrived."
@@ -5320,7 +5320,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 59,
     "freq": 7,
-    "freq_rank": 568,
+    "freq_rank": 569,
     "example": {
       "fiwo": "Fiturup ry nak gawei.",
       "english": "Our future is good."
@@ -5334,7 +5334,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 135,
     "freq": 21,
-    "freq_rank": 288,
+    "freq_rank": 289,
     "example": {
       "fiwo": "Fitydup jabeis.",
       "english": "Tomorrow will be cold."
@@ -5348,7 +5348,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 121,
     "freq": 53,
-    "freq_rank": 126,
+    "freq_rank": 127,
     "example": {
       "fiwo": "Nak gesiq fiwop.",
       "english": "We are speaking the language."
@@ -5362,7 +5362,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 591,
     "freq": 1,
-    "freq_rank": 1152,
+    "freq_rank": 1155,
     "example": {
       "fiwo": "Mana mike kritrid zy mik flajup.",
       "english": "My mother taught me that actions speak louder than words."
@@ -5376,7 +5376,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 237,
     "freq": 1,
-    "freq_rank": 1153,
+    "freq_rank": 1156,
     "example": {
       "fiwo": "Farlopap swamid flaxador ty xufap mike.",
       "english": "The doctor put a bandage on my arm."
@@ -5393,7 +5393,7 @@ const dictionaryData = [
       "materials"
     ],
     "freq": 0,
-    "freq_rank": 1992,
+    "freq_rank": 1995,
     "example": {
       "fiwo": "Flestop tande.",
       "english": "The diamond is big."
@@ -5407,7 +5407,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 186,
     "freq": 1,
-    "freq_rank": 1155,
+    "freq_rank": 1158,
     "example": {
       "fiwo": "Flufu jorei zy farlu.",
       "english": "Hygiene is important for health."
@@ -5425,7 +5425,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 1997,
+    "freq_rank": 2000,
     "example": {
       "fiwo": "Fatop fodiq fulup.",
       "english": "The machine is processing the data."
@@ -5439,7 +5439,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 276,
     "freq": 10,
-    "freq_rank": 473,
+    "freq_rank": 476,
     "example": {
       "fiwo": "Mik tsejaid fofuplop.",
       "english": "I saw the bay."
@@ -5453,7 +5453,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 300,
     "freq": 1,
-    "freq_rank": 1451,
+    "freq_rank": 1454,
     "example": {
       "fiwo": "Zufop tsufeid.",
       "english": "The bed was comfortable."
@@ -5467,7 +5467,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 214,
     "freq": 7,
-    "freq_rank": 569,
+    "freq_rank": 570,
     "example": {
       "fiwo": "Fohup jabeis.",
       "english": "The afternoon will be cold."
@@ -5495,7 +5495,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 46,
     "freq": 3,
-    "freq_rank": 807,
+    "freq_rank": 810,
     "example": {
       "fiwo": "Folkunu ry daq tandeid.",
       "english": "His dignity was great."
@@ -5530,7 +5530,7 @@ const dictionaryData = [
       "trade_money"
     ],
     "freq": 1,
-    "freq_rank": 1161,
+    "freq_rank": 1164,
     "example": {
       "fiwo": "Fomentup zy blyfo je sapid gidu jedle.",
       "english": "The production of cars made a lot of money."
@@ -5575,7 +5575,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 383,
     "freq": 0,
-    "freq_rank": 2011,
+    "freq_rank": 2014,
     "example": {
       "fiwo": "Nasap jedis fotar je.",
       "english": "The plant will have roots."
@@ -5589,7 +5589,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 491,
     "freq": 1,
-    "freq_rank": 1162,
+    "freq_rank": 1165,
     "example": {
       "fiwo": "Witup foxiprid.",
       "english": "The color faded."
@@ -5603,7 +5603,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 76,
     "freq": 2,
-    "freq_rank": 954,
+    "freq_rank": 956,
     "example": {
       "fiwo": "Nak kjukei.",
       "english": "We are free."
@@ -5620,7 +5620,7 @@ const dictionaryData = [
       "animals"
     ],
     "freq": 0,
-    "freq_rank": 2015,
+    "freq_rank": 2018,
     "example": {
       "fiwo": "Frankap nifne.",
       "english": "The armadillo is small."
@@ -5634,7 +5634,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 541,
     "freq": 0,
-    "freq_rank": 2017,
+    "freq_rank": 2020,
     "example": {
       "fiwo": "Frelkap deky dorsop.",
       "english": "The mangrove is in the water."
@@ -5648,7 +5648,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 234,
     "freq": 0,
-    "freq_rank": 2019,
+    "freq_rank": 2022,
     "example": {
       "fiwo": "Mik frengid udbop.",
       "english": "I clicked the button."
@@ -5662,7 +5662,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 469,
     "freq": 0,
-    "freq_rank": 3034,
+    "freq_rank": 3037,
     "example": {
       "fiwo": "Nofap tofve.",
       "english": "The person is deaf."
@@ -5676,7 +5676,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 455,
     "freq": 0,
-    "freq_rank": 3332,
+    "freq_rank": 3335,
     "example": {
       "fiwo": "Zacjap cafid acry caenop.",
       "english": "The rabbit ran across the street."
@@ -5690,7 +5690,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 522,
     "freq": 0,
-    "freq_rank": 2020,
+    "freq_rank": 2023,
     "example": {
       "fiwo": "Frismap mik tande.",
       "english": "My rib is big."
@@ -5704,7 +5704,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 537,
     "freq": 0,
-    "freq_rank": 2022,
+    "freq_rank": 2025,
     "example": {
       "fiwo": "Frorsup nifne.",
       "english": "The modifier is small."
@@ -5718,7 +5718,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 460,
     "freq": 0,
-    "freq_rank": 2023,
+    "freq_rank": 2026,
     "example": {
       "fiwo": "Mik pauli fruvadup zety hykuxup.",
       "english": "I feel disappointment about the exam."
@@ -5777,7 +5777,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 14,
-    "freq_rank": 394,
+    "freq_rank": 395,
     "example": {
       "fiwo": "Mik lokid fuhytup nudu.",
       "english": "I read the news today."
@@ -5791,7 +5791,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 196,
     "freq": 39,
-    "freq_rank": 162,
+    "freq_rank": 163,
     "example": {
       "fiwo": "Mik kilid wusap.",
       "english": "I felt the hand."
@@ -5819,7 +5819,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 426,
     "freq": 3,
-    "freq_rank": 808,
+    "freq_rank": 811,
     "example": {
       "fiwo": "Fumop rizidyq fy foisop.",
       "english": "Smoke was rising from the building."
@@ -5836,7 +5836,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 46,
-    "freq_rank": 139,
+    "freq_rank": 140,
     "example": {
       "fiwo": "Suk seji fuqe cukit.",
       "english": "You must stop fighting."
@@ -5851,7 +5851,7 @@ const dictionaryData = [
     "rank": 222,
     "usage_note": "Demanding something from someone. To require in the sense of needing is vepi.",
     "freq": 1,
-    "freq_rank": 1482,
+    "freq_rank": 1485,
     "example": {
       "fiwo": "Govnup vocis gidur.",
       "english": "The government will demand money."
@@ -5866,7 +5866,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 191,
     "freq": 1,
-    "freq_rank": 1165,
+    "freq_rank": 1168,
     "example": {
       "fiwo": "Latwap jedis furnar.",
       "english": "The animal will have fur."
@@ -5880,7 +5880,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 130,
     "freq": 2,
-    "freq_rank": 960,
+    "freq_rank": 962,
     "example": {
       "fiwo": "Nauxap mike kuxis mik.",
       "english": "My friend will support me."
@@ -5912,7 +5912,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 362,
     "freq": 4,
-    "freq_rank": 728,
+    "freq_rank": 730,
     "example": {
       "fiwo": "Mik fycisi nauxap mike.",
       "english": "I miss my friend."
@@ -5940,7 +5940,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 364,
     "freq": 1,
-    "freq_rank": 1170,
+    "freq_rank": 1173,
     "example": {
       "fiwo": "Gagup ry degop reseid.",
       "english": "The texture of the table was soft."
@@ -5954,7 +5954,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 517,
     "freq": 0,
-    "freq_rank": 2039,
+    "freq_rank": 2042,
     "example": {
       "fiwo": "Gahap krome.",
       "english": "The cocoa is brown."
@@ -5968,7 +5968,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 66,
     "freq": 1,
-    "freq_rank": 1171,
+    "freq_rank": 1174,
     "example": {
       "fiwo": "Mik gakiji ram.",
       "english": "I guess it."
@@ -5996,7 +5996,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 219,
     "freq": 1,
-    "freq_rank": 1172,
+    "freq_rank": 1175,
     "example": {
       "fiwo": "Gasirfup linid tep das nes nomid.",
       "english": "The nausea made her not eat."
@@ -6024,7 +6024,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 87,
     "freq": 1,
-    "freq_rank": 1173,
+    "freq_rank": 1176,
     "example": {
       "fiwo": "Ibalira gavudzid azikup.",
       "english": "The teacher emphasized the rule."
@@ -6041,7 +6041,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 26,
-    "freq_rank": 236,
+    "freq_rank": 237,
     "example": {
       "fiwo": "Jobup gawei.",
       "english": "The job is good."
@@ -6059,7 +6059,7 @@ const dictionaryData = [
     ],
     "usage_note": "Contrasts what is real with what was expected. For plainly true, use trive.",
     "freq": 4,
-    "freq_rank": 725,
+    "freq_rank": 727,
     "example": {
       "fiwo": "Daq nacid fwape.",
       "english": "He actually worked."
@@ -6073,7 +6073,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 249,
     "freq": 1,
-    "freq_rank": 1174,
+    "freq_rank": 1177,
     "example": {
       "fiwo": "Gecop nufeid.",
       "english": "The space was empty."
@@ -6102,7 +6102,7 @@ const dictionaryData = [
     "rank": 39,
     "usage_note": "Electric power. Power over people or events is pedu.",
     "freq": 23,
-    "freq_rank": 260,
+    "freq_rank": 261,
     "example": {
       "fiwo": "Gejedop doteid.",
       "english": "The electricity was powerful."
@@ -6116,7 +6116,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 502,
     "freq": 0,
-    "freq_rank": 2051,
+    "freq_rank": 2054,
     "example": {
       "fiwo": "Gekafap mori ty krapop.",
       "english": "The vine grows on the wall."
@@ -6130,7 +6130,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 9,
     "freq": 7,
-    "freq_rank": 573,
+    "freq_rank": 574,
     "example": {
       "fiwo": "Gekiprop cyri tody bucygop.",
       "english": "The satellite flies above the Earth."
@@ -6144,7 +6144,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 36,
     "freq": 0,
-    "freq_rank": 2053,
+    "freq_rank": 2056,
     "example": {
       "fiwo": "Ram gelukur.",
       "english": "That is borrowed authority."
@@ -6158,7 +6158,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 516,
     "freq": 0,
-    "freq_rank": 2054,
+    "freq_rank": 2057,
     "example": {
       "fiwo": "Gendap deky woru fezne.",
       "english": "The camel is in the desert."
@@ -6175,7 +6175,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 2056,
+    "freq_rank": 2059,
     "example": {
       "fiwo": "Azikup gepei.",
       "english": "The rule is general."
@@ -6189,7 +6189,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 450,
     "freq": 0,
-    "freq_rank": 2058,
+    "freq_rank": 2061,
     "example": {
       "fiwo": "Dorsop gerotei.",
       "english": "The water is shallow."
@@ -6203,7 +6203,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 29,
     "usage_note": "To tell someone something is fenuti. To discuss (talk with others about a topic, exchanging views) is jifni.",
-    "freq": 840,
+    "freq": 841,
     "freq_rank": 4,
     "example": {
       "fiwo": "Daq gesid gor.",
@@ -6218,7 +6218,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 131,
     "freq": 0,
-    "freq_rank": 2061,
+    "freq_rank": 2064,
     "example": {
       "fiwo": "Getikup ry fatop nufeid.",
       "english": "The energy of the machine was empty."
@@ -6232,7 +6232,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 294,
     "freq": 11,
-    "freq_rank": 456,
+    "freq_rank": 457,
     "example": {
       "fiwo": "Getsup ry erup dwimeid.",
       "english": "The period of war was long."
@@ -6246,7 +6246,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 51,
     "freq": 1,
-    "freq_rank": 1178,
+    "freq_rank": 1181,
     "example": {
       "fiwo": "Farlopap stomid gewysmur nifne.",
       "english": "The doctor gave a small dose."
@@ -6260,7 +6260,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 186,
     "freq": 1,
-    "freq_rank": 1179,
+    "freq_rank": 1182,
     "example": {
       "fiwo": "Gicuhu zave.",
       "english": "The percentage is high."
@@ -6274,7 +6274,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 179,
     "freq": 13,
-    "freq_rank": 411,
+    "freq_rank": 412,
     "example": {
       "fiwo": "Licap mike gidafis sydop.",
       "english": "My colleague will sell the house."
@@ -6301,7 +6301,7 @@ const dictionaryData = [
     "definition": "This refers to a current medium of exchange in the form of coins and banknotes.",
     "tier": 1,
     "rank": 42,
-    "freq": 97,
+    "freq": 98,
     "freq_rank": 71,
     "example": {
       "fiwo": "Mik jedid gidur.",
@@ -6319,7 +6319,7 @@ const dictionaryData = [
       "number_quantity"
     ],
     "freq": 1,
-    "freq_rank": 1180,
+    "freq_rank": 1183,
     "example": {
       "fiwo": "Ram jedi gihoflup.",
       "english": "It has a limit."
@@ -6333,7 +6333,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 109,
     "freq": 10,
-    "freq_rank": 474,
+    "freq_rank": 477,
     "example": {
       "fiwo": "Nak cenid ky gikoso.",
       "english": "We lived on the coast."
@@ -6347,7 +6347,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 107,
     "freq": 9,
-    "freq_rank": 502,
+    "freq_rank": 505,
     "example": {
       "fiwo": "Gioxup jofiq mik.",
       "english": "The AI is helping me."
@@ -6361,7 +6361,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 411,
     "freq": 1,
-    "freq_rank": 1181,
+    "freq_rank": 1184,
     "example": {
       "fiwo": "Daq givis hiror.",
       "english": "He will dig a hole."
@@ -6389,7 +6389,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 166,
     "freq": 1,
-    "freq_rank": 1182,
+    "freq_rank": 1185,
     "example": {
       "fiwo": "Tulop gizei.",
       "english": "The bottle is full."
@@ -6403,7 +6403,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 531,
     "freq": 0,
-    "freq_rank": 2072,
+    "freq_rank": 2075,
     "example": {
       "fiwo": "Glaklop nifne.",
       "english": "The hoe is small."
@@ -6421,7 +6421,7 @@ const dictionaryData = [
       "body"
     ],
     "freq": 1,
-    "freq_rank": 1183,
+    "freq_rank": 1186,
     "example": {
       "fiwo": "Glanup ry bibap aqei.",
       "english": "The gender of the baby is male."
@@ -6435,7 +6435,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 342,
     "freq": 0,
-    "freq_rank": 2075,
+    "freq_rank": 2078,
     "example": {
       "fiwo": "Mipkop glapeid.",
       "english": "The cloud was gray."
@@ -6449,7 +6449,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 332,
     "freq": 4,
-    "freq_rank": 730,
+    "freq_rank": 732,
     "example": {
       "fiwo": "Kup suk kytid batar glece?",
       "english": "Which food did you like?"
@@ -6463,7 +6463,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 255,
     "freq": 1,
-    "freq_rank": 1363,
+    "freq_rank": 1366,
     "example": {
       "fiwo": "Pavop deky jyjop skagid.",
       "english": "The microchip inside the computer broke."
@@ -6477,7 +6477,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 456,
     "freq": 0,
-    "freq_rank": 2076,
+    "freq_rank": 2079,
     "example": {
       "fiwo": "Mik nomid glimadap.",
       "english": "I ate the salmon."
@@ -6505,7 +6505,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 323,
     "freq": 14,
-    "freq_rank": 396,
+    "freq_rank": 397,
     "example": {
       "fiwo": "Glokedup fohup.",
       "english": "Thursday is afternoon."
@@ -6522,7 +6522,7 @@ const dictionaryData = [
       "society_law"
     ],
     "freq": 2,
-    "freq_rank": 928,
+    "freq_rank": 931,
     "example": {
       "fiwo": "Xekup kage dzefid glotunur.",
       "english": "The two countries agreed to a treaty."
@@ -6536,7 +6536,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 338,
     "freq": 2,
-    "freq_rank": 929,
+    "freq_rank": 932,
     "example": {
       "fiwo": "Guzap glozitid jany nak.",
       "english": "The enemy shot at us."
@@ -6551,7 +6551,7 @@ const dictionaryData = [
     "rank": 587,
     "usage_note": "Distinct from fuali (to catch anything in motion).",
     "freq": 1,
-    "freq_rank": 1186,
+    "freq_rank": 1189,
     "example": {
       "fiwo": "Daq glujid ty brirso.",
       "english": "He fished at the lake."
@@ -6569,7 +6569,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 2,
-    "freq_rank": 930,
+    "freq_rank": 933,
     "example": {
       "fiwo": "Ram muilei gluleje.",
       "english": "It is quite difficult."
@@ -6583,7 +6583,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 398,
     "freq": 0,
-    "freq_rank": 2084,
+    "freq_rank": 2087,
     "example": {
       "fiwo": "Glyntop daq tande.",
       "english": "His bow is big."
@@ -6597,7 +6597,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 344,
     "freq": 2,
-    "freq_rank": 931,
+    "freq_rank": 934,
     "example": {
       "fiwo": "Daq glyvis sydop dale.",
       "english": "He will defend his house."
@@ -6626,7 +6626,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 175,
     "freq": 2,
-    "freq_rank": 932,
+    "freq_rank": 935,
     "example": {
       "fiwo": "Godap ry nofar tandei.",
       "english": "A person's brain is large."
@@ -6640,7 +6640,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 425,
     "freq": 8,
-    "freq_rank": 537,
+    "freq_rank": 540,
     "example": {
       "fiwo": "Pjabup ry mik pozmuiq.",
       "english": "My mind is dreaming."
@@ -6668,7 +6668,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 150,
     "freq": 1,
-    "freq_rank": 1187,
+    "freq_rank": 1190,
     "example": {
       "fiwo": "Cadap goileid.",
       "english": "The child was sad."
@@ -6682,7 +6682,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 218,
     "freq": 7,
-    "freq_rank": 574,
+    "freq_rank": 575,
     "example": {
       "fiwo": "Daq gojid odcanop.",
       "english": "He pulled the rope."
@@ -6697,7 +6697,7 @@ const dictionaryData = [
     "rank": 226,
     "usage_note": "The general word for improve, e.g. improving your Fiwo or a recipe, not only an institution.",
     "freq": 1,
-    "freq_rank": 1369,
+    "freq_rank": 1372,
     "example": {
       "fiwo": "Muk pitbis canpup.",
       "english": "We will reform the community."
@@ -6711,7 +6711,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 106,
     "freq": 36,
-    "freq_rank": 173,
+    "freq_rank": 175,
     "example": {
       "fiwo": "Gomup xalid ruze.",
       "english": "The hour went fast."
@@ -6725,7 +6725,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 347,
     "freq": 2,
-    "freq_rank": 933,
+    "freq_rank": 936,
     "example": {
       "fiwo": "Krapop goqei.",
       "english": "The wall is thick."
@@ -6739,7 +6739,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 11,
     "freq": 33,
-    "freq_rank": 191,
+    "freq_rank": 192,
     "example": {
       "fiwo": "Govnup ry xekup dotei.",
       "english": "The government of the country is strong."
@@ -6753,7 +6753,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 195,
     "freq": 3,
-    "freq_rank": 857,
+    "freq_rank": 860,
     "example": {
       "fiwo": "Rimap pwefei.",
       "english": "The grape is sour."
@@ -6803,7 +6803,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 1,
-    "freq_rank": 1189,
+    "freq_rank": 1192,
     "example": {
       "fiwo": "Grijysup zy batap sile gawei.",
       "english": "The quality of this food is good."
@@ -6817,7 +6817,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 495,
     "freq": 2,
-    "freq_rank": 934,
+    "freq_rank": 937,
     "example": {
       "fiwo": "Detap grorowid.",
       "english": "The dog growled."
@@ -6852,7 +6852,7 @@ const dictionaryData = [
       "time"
     ],
     "freq": 1,
-    "freq_rank": 1190,
+    "freq_rank": 1193,
     "example": {
       "fiwo": "Juro gruvese.",
       "english": "The city is modern."
@@ -6880,7 +6880,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 254,
     "freq": 54,
-    "freq_rank": 124,
+    "freq_rank": 125,
     "example": {
       "fiwo": "Gioxup guamis gup late.",
       "english": "The AI will calculate all numbers."
@@ -6894,7 +6894,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 511,
     "freq": 0,
-    "freq_rank": 2109,
+    "freq_rank": 2112,
     "example": {
       "fiwo": "Gufundop luare.",
       "english": "The emerald is green."
@@ -6912,7 +6912,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 42,
-    "freq_rank": 148,
+    "freq_rank": 149,
     "example": {
       "fiwo": "Latwap gugidyq ty zafoirop.",
       "english": "The animal was standing on the floor."
@@ -6927,7 +6927,7 @@ const dictionaryData = [
     "rank": 468,
     "usage_note": "The one word for pride (ucde retired 2026-10-09). Proud = guipsue; to be proud = guipsuei; to make proud = guipsui.",
     "freq": 0,
-    "freq_rank": 2113,
+    "freq_rank": 2116,
     "example": {
       "fiwo": "Daq pauli guipsup.",
       "english": "He feels pride."
@@ -6941,7 +6941,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 275,
     "freq": 1,
-    "freq_rank": 1191,
+    "freq_rank": 1194,
     "example": {
       "fiwo": "Mik gulipid fuluop.",
       "english": "I downloaded the file."
@@ -6955,7 +6955,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 443,
     "freq": 4,
-    "freq_rank": 731,
+    "freq_rank": 733,
     "example": {
       "fiwo": "Mik tsejaid gunolop.",
       "english": "I saw the cliff."
@@ -6969,7 +6969,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 400,
     "freq": 0,
-    "freq_rank": 2118,
+    "freq_rank": 2121,
     "example": {
       "fiwo": "Latwap gureid.",
       "english": "The animal was lazy."
@@ -6997,7 +6997,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 281,
     "freq": 8,
-    "freq_rank": 527,
+    "freq_rank": 529,
     "example": {
       "fiwo": "Guzap ry mik cukidyq.",
       "english": "My enemy was fighting."
@@ -7011,7 +7011,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 278,
     "freq": 0,
-    "freq_rank": 2128,
+    "freq_rank": 2131,
     "example": {
       "fiwo": "Gydzap itole.",
       "english": "The fox is clever."
@@ -7042,7 +7042,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 504,
     "freq": 0,
-    "freq_rank": 2131,
+    "freq_rank": 2134,
     "example": {
       "fiwo": "Ibalirap kritrid gylfup.",
       "english": "The teacher taught the noun."
@@ -7056,7 +7056,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 175,
     "freq": 5,
-    "freq_rank": 674,
+    "freq_rank": 675,
     "example": {
       "fiwo": "Gypup dotei.",
       "english": "The internet is powerful."
@@ -7070,7 +7070,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 102,
     "freq": 1,
-    "freq_rank": 1195,
+    "freq_rank": 1198,
     "example": {
       "fiwo": "Ha, mik erfi nu.",
       "english": "Oh, I understand now."
@@ -7083,8 +7083,8 @@ const dictionaryData = [
     "definition": "This verb means to say or write something to deal with or as a reaction to a question.",
     "tier": 1,
     "rank": 117,
-    "freq": 189,
-    "freq_rank": 26,
+    "freq": 190,
+    "freq_rank": 27,
     "example": {
       "fiwo": "Daq hadid sleziup.",
       "english": "He answered the question."
@@ -7101,7 +7101,7 @@ const dictionaryData = [
       "time"
     ],
     "freq": 23,
-    "freq_rank": 261,
+    "freq_rank": 262,
     "example": {
       "fiwo": "Daq nacid haibe.",
       "english": "He was still working."
@@ -7116,7 +7116,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 501,
     "freq": 0,
-    "freq_rank": 2135,
+    "freq_rank": 2138,
     "example": {
       "fiwo": "Hakup ry mik tandeid.",
       "english": "My nostalgia was great."
@@ -7144,7 +7144,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 77,
     "freq": 13,
-    "freq_rank": 412,
+    "freq_rank": 413,
     "example": {
       "fiwo": "Hap mik kyti nauxap mike!",
       "english": "I love my friend so much!"
@@ -7158,7 +7158,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 420,
     "freq": 0,
-    "freq_rank": 2139,
+    "freq_rank": 2142,
     "example": {
       "fiwo": "Harosop utmi.",
       "english": "The bubble floats."
@@ -7187,7 +7187,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 85,
     "freq": 9,
-    "freq_rank": 503,
+    "freq_rank": 506,
     "example": {
       "fiwo": "Mik kytid hautup.",
       "english": "I liked the music."
@@ -7206,7 +7206,7 @@ const dictionaryData = [
     ],
     "usage_note": "Reaching out — stretching the body toward something. Arriving somewhere is jobori.",
     "freq": 4,
-    "freq_rank": 732,
+    "freq_rank": 734,
     "example": {
       "fiwo": "Hoxop haxanid zafoirop.",
       "english": "The door reached the floor."
@@ -7220,7 +7220,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 272,
     "freq": 2,
-    "freq_rank": 938,
+    "freq_rank": 940,
     "example": {
       "fiwo": "Hazbap ry das nacid.",
       "english": "Her husband worked."
@@ -7237,7 +7237,7 @@ const dictionaryData = [
       "number_quantity"
     ],
     "freq": 43,
-    "freq_rank": 145,
+    "freq_rank": 146,
     "example": {
       "fiwo": "Ram hedcur jy sydop.",
       "english": "It is a part of the house."
@@ -7251,7 +7251,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 113,
     "freq": 1,
-    "freq_rank": 1199,
+    "freq_rank": 1202,
     "example": {
       "fiwo": "Hegorkop cyrid tody sydop.",
       "english": "The drone flew over the house."
@@ -7296,7 +7296,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 397,
     "freq": 5,
-    "freq_rank": 676,
+    "freq_rank": 677,
     "example": {
       "fiwo": "Manap mike hevis mik.",
       "english": "My mother will forgive me."
@@ -7310,7 +7310,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 514,
     "freq": 0,
-    "freq_rank": 2154,
+    "freq_rank": 2157,
     "example": {
       "fiwo": "Hezeskap gesi.",
       "english": "The parrot speaks."
@@ -7325,7 +7325,7 @@ const dictionaryData = [
     "rank": 13,
     "usage_note": "Linking only — 'he is a teacher'. For 'to exist / there is', use zovi.",
     "freq": 83,
-    "freq_rank": 85,
+    "freq_rank": 86,
     "example": {
       "fiwo": "Mik hid kype wecdu.",
       "english": "I was happy yesterday."
@@ -7339,7 +7339,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 441,
     "freq": 3,
-    "freq_rank": 814,
+    "freq_rank": 817,
     "example": {
       "fiwo": "Nofar hiaruce brenid.",
       "english": "One million people came."
@@ -7353,7 +7353,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 524,
     "freq": 0,
-    "freq_rank": 2158,
+    "freq_rank": 2161,
     "example": {
       "fiwo": "Hibomop twave.",
       "english": "The anvil is heavy."
@@ -7381,7 +7381,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 585,
     "freq": 0,
-    "freq_rank": 2161,
+    "freq_rank": 2164,
     "example": {
       "fiwo": "Hina oxti tseja.",
       "english": "The membrane protects the eye."
@@ -7396,7 +7396,7 @@ const dictionaryData = [
     "rank": 251,
     "usage_note": "Distinct from the subjective senses 'well' or 'good'. English 'right' is three Fiwo words: hiqe (correct), lyse (the right side), xepytu (a right, an entitlement).",
     "freq": 17,
-    "freq_rank": 345,
+    "freq_rank": 344,
     "example": {
       "fiwo": "Isamup hiqei.",
       "english": "The result is correct."
@@ -7438,7 +7438,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 129,
     "freq": 4,
-    "freq_rank": 733,
+    "freq_rank": 735,
     "example": {
       "fiwo": "Hobcadap ry mik hobeid.",
       "english": "My grandchild was young."
@@ -7452,7 +7452,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 72,
     "freq": 10,
-    "freq_rank": 477,
+    "freq_rank": 480,
     "example": {
       "fiwo": "Detap hobei.",
       "english": "The dog is young."
@@ -7466,7 +7466,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 276,
     "freq": 5,
-    "freq_rank": 677,
+    "freq_rank": 678,
     "example": {
       "fiwo": "Hokeltup mike vomeid wedacu.",
       "english": "My income was lower in the past."
@@ -7480,7 +7480,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 107,
     "freq": 3,
-    "freq_rank": 815,
+    "freq_rank": 818,
     "example": {
       "fiwo": "Hop suk itolei.",
       "english": "Oh, you're a genius, aren't you."
@@ -7494,7 +7494,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 391,
     "freq": 0,
-    "freq_rank": 2166,
+    "freq_rank": 2169,
     "example": {
       "fiwo": "Caqwap zyli hoqypop.",
       "english": "The boy uses the musical instrument."
@@ -7508,7 +7508,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 421,
     "freq": 0,
-    "freq_rank": 2168,
+    "freq_rank": 2171,
     "example": {
       "fiwo": "Kabap jedid horbar je.",
       "english": "The horse had horns."
@@ -7522,7 +7522,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 406,
     "freq": 2,
-    "freq_rank": 940,
+    "freq_rank": 942,
     "example": {
       "fiwo": "Horulfup ukwid tep daq okseid.",
       "english": "The jury judged that he was wrong."
@@ -7536,7 +7536,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 269,
     "freq": 1,
-    "freq_rank": 1201,
+    "freq_rank": 1204,
     "example": {
       "fiwo": "Hoswap ruze.",
       "english": "The bamboo is fast(-growing)."
@@ -7564,7 +7564,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 453,
     "freq": 3,
-    "freq_rank": 816,
+    "freq_rank": 819,
     "example": {
       "fiwo": "Daq hudywiq.",
       "english": "He is coughing."
@@ -7578,7 +7578,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 402,
     "freq": 1,
-    "freq_rank": 1202,
+    "freq_rank": 1205,
     "example": {
       "fiwo": "Mik hufribid lakirop.",
       "english": "I flipped the picture."
@@ -7609,7 +7609,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 1,
-    "freq_rank": 1203,
+    "freq_rank": 1206,
     "example": {
       "fiwo": "Das hujis lakirop ty krapop.",
       "english": "She will hang the picture on the wall."
@@ -7623,7 +7623,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 525,
     "freq": 0,
-    "freq_rank": 2177,
+    "freq_rank": 2180,
     "example": {
       "fiwo": "Hulkap tande.",
       "english": "The llama is big."
@@ -7637,7 +7637,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 579,
     "freq": 0,
-    "freq_rank": 2179,
+    "freq_rank": 2182,
     "example": {
       "fiwo": "Hunku sudi mik zy zaso.",
       "english": "Gravity pulls me to the ground."
@@ -7668,7 +7668,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 316,
     "freq": 3,
-    "freq_rank": 817,
+    "freq_rank": 820,
     "example": {
       "fiwo": "Huqap ry mik tandeid.",
       "english": "My shoulder was large."
@@ -7682,7 +7682,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 466,
     "freq": 1,
-    "freq_rank": 1204,
+    "freq_rank": 1207,
     "example": {
       "fiwo": "Biwup hutsei.",
       "english": "The problem is primary."
@@ -7696,7 +7696,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 500,
     "freq": 0,
-    "freq_rank": 2183,
+    "freq_rank": 2186,
     "example": {
       "fiwo": "Hyhop pivmeid.",
       "english": "The scissors were sharp."
@@ -7710,7 +7710,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 261,
     "freq": 4,
-    "freq_rank": 734,
+    "freq_rank": 736,
     "example": {
       "fiwo": "Cada xyfi hykuxup.",
       "english": "The child does the exam."
@@ -7724,7 +7724,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 422,
     "freq": 0,
-    "freq_rank": 2186,
+    "freq_rank": 2189,
     "example": {
       "fiwo": "Hylsap das nifne.",
       "english": "Her lip is small."
@@ -7766,7 +7766,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 376,
     "freq": 1,
-    "freq_rank": 1206,
+    "freq_rank": 1209,
     "example": {
       "fiwo": "Hyqup ry daq tandei.",
       "english": "His wisdom is great."
@@ -7784,7 +7784,7 @@ const dictionaryData = [
       "emotion"
     ],
     "freq": 0,
-    "freq_rank": 2191,
+    "freq_rank": 2194,
     "example": {
       "fiwo": "Mik hytrueid.",
       "english": "I was sleepy."
@@ -7801,7 +7801,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 2123,
+    "freq_rank": 2126,
     "example": {
       "fiwo": "Jarup gwaceid.",
       "english": "The year was special."
@@ -7815,7 +7815,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 127,
     "freq": 35,
-    "freq_rank": 177,
+    "freq_rank": 179,
     "example": {
       "fiwo": "Cadap kecid fiwop.",
       "english": "The child learned the language."
@@ -7846,7 +7846,7 @@ const dictionaryData = [
       "work_education"
     ],
     "freq": 0,
-    "freq_rank": 2193,
+    "freq_rank": 2196,
     "example": {
       "fiwo": "Ibalup jorei.",
       "english": "Education is important."
@@ -7863,7 +7863,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 2195,
+    "freq_rank": 2198,
     "example": {
       "fiwo": "Jeflup ibanei.",
       "english": "Development is significant."
@@ -7877,7 +7877,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 148,
     "freq": 13,
-    "freq_rank": 413,
+    "freq_rank": 414,
     "example": {
       "fiwo": "Ibazop tandeid.",
       "english": "The school was big."
@@ -7894,7 +7894,7 @@ const dictionaryData = [
       "society_law"
     ],
     "freq": 5,
-    "freq_rank": 678,
+    "freq_rank": 679,
     "example": {
       "fiwo": "Ibitup mike cimidyq.",
       "english": "My class was starting."
@@ -7908,7 +7908,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 424,
     "freq": 1,
-    "freq_rank": 1210,
+    "freq_rank": 1213,
     "example": {
       "fiwo": "Kop ibvi winrop zy kalop!",
       "english": "Pour the wine into the cup!"
@@ -7922,7 +7922,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 194,
     "freq": 2,
-    "freq_rank": 941,
+    "freq_rank": 943,
     "example": {
       "fiwo": "Icejenup sile dwimei.",
       "english": "This period is long."
@@ -7936,7 +7936,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 282,
     "freq": 3,
-    "freq_rank": 818,
+    "freq_rank": 821,
     "example": {
       "fiwo": "Icifop floveid.",
       "english": "The plate was dirty."
@@ -7968,7 +7968,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 151,
     "freq": 2,
-    "freq_rank": 942,
+    "freq_rank": 944,
     "example": {
       "fiwo": "Aplap idrei.",
       "english": "The apple is a quarter."
@@ -7982,7 +7982,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 221,
     "freq": 3,
-    "freq_rank": 819,
+    "freq_rank": 822,
     "example": {
       "fiwo": "Idvup ry daq tandeid.",
       "english": "His secret was big."
@@ -8014,7 +8014,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 124,
     "freq": 10,
-    "freq_rank": 478,
+    "freq_rank": 481,
     "example": {
       "fiwo": "Rezap ifezis nudu.",
       "english": "The president will decide today."
@@ -8028,7 +8028,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 503,
     "freq": 0,
-    "freq_rank": 2203,
+    "freq_rank": 2206,
     "example": {
       "fiwo": "Ifgop ry mik floveid.",
       "english": "My toothbrush was dirty."
@@ -8042,7 +8042,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 480,
     "freq": 0,
-    "freq_rank": 2206,
+    "freq_rank": 2209,
     "example": {
       "fiwo": "Iflocop ty kabap.",
       "english": "The saddle is on the horse."
@@ -8059,7 +8059,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 1,
-    "freq_rank": 1213,
+    "freq_rank": 1216,
     "example": {
       "fiwo": "Ram ifuxur.",
       "english": "That is a mid-risk trap."
@@ -8073,7 +8073,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 90,
     "freq": 0,
-    "freq_rank": 2597,
+    "freq_rank": 2600,
     "example": {
       "fiwo": "Nak nedcidyq wy newop je.",
       "english": "We were playing with the cards."
@@ -8101,7 +8101,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 358,
     "freq": 0,
-    "freq_rank": 2208,
+    "freq_rank": 2211,
     "example": {
       "fiwo": "Detap ijyraidyq ijyrap.",
       "english": "The dog was wagging its tail."
@@ -8115,7 +8115,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 223,
     "freq": 17,
-    "freq_rank": 346,
+    "freq_rank": 345,
     "example": {
       "fiwo": "Ikamop locweid.",
       "english": "The shirt was white."
@@ -8133,7 +8133,7 @@ const dictionaryData = [
       "society_law"
     ],
     "freq": 1,
-    "freq_rank": 1215,
+    "freq_rank": 1218,
     "example": {
       "fiwo": "Ocadup ikapis fiturup.",
       "english": "Science will influence the future."
@@ -8161,7 +8161,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 506,
     "freq": 1,
-    "freq_rank": 1216,
+    "freq_rank": 1219,
     "example": {
       "fiwo": "Iladap sowid deky dorsop.",
       "english": "The reptile fell into the water."
@@ -8179,7 +8179,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 2,
-    "freq_rank": 943,
+    "freq_rank": 945,
     "example": {
       "fiwo": "Daq ilpid ky hoxop.",
       "english": "He kneeled at the door."
@@ -8193,7 +8193,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 353,
     "freq": 0,
-    "freq_rank": 2214,
+    "freq_rank": 2217,
     "example": {
       "fiwo": "Imdop zemiq caenop.",
       "english": "The flood is covering the street."
@@ -8212,7 +8212,7 @@ const dictionaryData = [
     ],
     "usage_note": "The bar something is judged against. A level or rank on a scale is eguvu.",
     "freq": 0,
-    "freq_rank": 2216,
+    "freq_rank": 2219,
     "example": {
       "fiwo": "Imsup ry ibazop stobeid.",
       "english": "The standard of the school was hard."
@@ -8226,7 +8226,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 324,
     "freq": 3,
-    "freq_rank": 820,
+    "freq_rank": 823,
     "example": {
       "fiwo": "Ipkap foisoidyq cilar.",
       "english": "The spider was building a leaf."
@@ -8240,7 +8240,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 461,
     "freq": 1,
-    "freq_rank": 1217,
+    "freq_rank": 1220,
     "example": {
       "fiwo": "Daq iptid lamsop.",
       "english": "He spilled the milk."
@@ -8255,7 +8255,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 153,
     "freq": 2,
-    "freq_rank": 1044,
+    "freq_rank": 1046,
     "example": {
       "fiwo": "Daq wavcis Gop suke.",
       "english": "He doubts your word."
@@ -8272,7 +8272,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 2220,
+    "freq_rank": 2223,
     "example": {
       "fiwo": "Iqocup ry olifup tandeid.",
       "english": "The effect of the research was great."
@@ -8301,7 +8301,7 @@ const dictionaryData = [
     "rank": 468,
     "usage_note": "The liquid from the eye. To tear or rip something is eipi.",
     "freq": 1,
-    "freq_rank": 1218,
+    "freq_rank": 1221,
     "example": {
       "fiwo": "Iraksap sowid fy zipap.",
       "english": "The tear fell from the face."
@@ -8315,7 +8315,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 309,
     "freq": 3,
-    "freq_rank": 821,
+    "freq_rank": 824,
     "example": {
       "fiwo": "Mik karxid irtap.",
       "english": "I found the egg."
@@ -8350,7 +8350,7 @@ const dictionaryData = [
       "clothing"
     ],
     "freq": 0,
-    "freq_rank": 2225,
+    "freq_rank": 2228,
     "example": {
       "fiwo": "Nofap isneid.",
       "english": "The person was naked."
@@ -8364,7 +8364,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 312,
     "freq": 3,
-    "freq_rank": 822,
+    "freq_rank": 825,
     "example": {
       "fiwo": "Cadap itolei.",
       "english": "The child is smart."
@@ -8381,7 +8381,7 @@ const dictionaryData = [
       "number_quantity"
     ],
     "freq": 11,
-    "freq_rank": 457,
+    "freq_rank": 458,
     "example": {
       "fiwo": "Mik jedi ikamor itse.",
       "english": "I have a single shirt."
@@ -8398,7 +8398,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 2229,
+    "freq_rank": 2232,
     "example": {
       "fiwo": "Iubup ry daq bokeid.",
       "english": "His failure was bad."
@@ -8426,7 +8426,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 432,
     "freq": 1,
-    "freq_rank": 1193,
+    "freq_rank": 1196,
     "example": {
       "fiwo": "Farlopap gwekis soxap.",
       "english": "The doctor will weigh the body."
@@ -8440,7 +8440,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 265,
     "freq": 0,
-    "freq_rank": 2232,
+    "freq_rank": 2235,
     "example": {
       "fiwo": "Ivortup ripeid.",
       "english": "The south was warm."
@@ -8454,7 +8454,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 132,
     "freq": 2,
-    "freq_rank": 944,
+    "freq_rank": 946,
     "example": {
       "fiwo": "Ivxop twaveid.",
       "english": "The hammer was heavy."
@@ -8468,7 +8468,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 216,
     "freq": 0,
-    "freq_rank": 2236,
+    "freq_rank": 2239,
     "example": {
       "fiwo": "Nofap iweiq.",
       "english": "The person is getting tired."
@@ -8482,7 +8482,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 367,
     "freq": 0,
-    "freq_rank": 2238,
+    "freq_rank": 2241,
     "example": {
       "fiwo": "Ixbop stobeid.",
       "english": "The brick was hard."
@@ -8496,7 +8496,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 486,
     "freq": 0,
-    "freq_rank": 2240,
+    "freq_rank": 2243,
     "example": {
       "fiwo": "Zafoirop ixgeid.",
       "english": "The floor was slippery."
@@ -8511,7 +8511,7 @@ const dictionaryData = [
     "rank": 203,
     "usage_note": "Undergoing something imposed from outside. To receive something sent or offered is jopxi; to endure or withstand is kujondi.",
     "freq": 4,
-    "freq_rank": 735,
+    "freq_rank": 737,
     "example": {
       "fiwo": "Daq ixovis pamup.",
       "english": "He will endure the pain."
@@ -8525,7 +8525,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 484,
     "freq": 0,
-    "freq_rank": 2242,
+    "freq_rank": 2245,
     "example": {
       "fiwo": "Ixpap moridyq deky mortsap.",
       "english": "The fungus was growing in the forest."
@@ -8539,7 +8539,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 397,
     "freq": 1,
-    "freq_rank": 1222,
+    "freq_rank": 1225,
     "example": {
       "fiwo": "Izevufu stomi pedu zy nofa.",
       "english": "Democracy gives power to the people."
@@ -8557,7 +8557,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 0,
-    "freq_rank": 2245,
+    "freq_rank": 2248,
     "example": {
       "fiwo": "Das izlis nauxap dale.",
       "english": "She will invite her friend."
@@ -8588,7 +8588,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 1,
-    "freq_rank": 1224,
+    "freq_rank": 1227,
     "example": {
       "fiwo": "Cadap jacifi pebap dale.",
       "english": "The child resembles his father."
@@ -8602,7 +8602,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 472,
     "freq": 1,
-    "freq_rank": 1225,
+    "freq_rank": 1228,
     "example": {
       "fiwo": "Dal je jacnid.",
       "english": "They had sex."
@@ -8616,7 +8616,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 301,
     "freq": 9,
-    "freq_rank": 515,
+    "freq_rank": 518,
     "example": {
       "fiwo": "Vezop sowiq.",
       "english": "The snow is falling."
@@ -8630,7 +8630,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 47,
     "freq": 0,
-    "freq_rank": 2250,
+    "freq_rank": 2253,
     "example": {
       "fiwo": "Daq jahizid sifap.",
       "english": "He married the wife."
@@ -8658,7 +8658,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 321,
     "freq": 3,
-    "freq_rank": 824,
+    "freq_rank": 827,
     "example": {
       "fiwo": "Mik xalid zy janongop wecdu.",
       "english": "I went to the clinic yesterday."
@@ -8714,7 +8714,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 448,
     "freq": 2,
-    "freq_rank": 945,
+    "freq_rank": 947,
     "example": {
       "fiwo": "Jatanop ry mik.",
       "english": "The pen is mine."
@@ -8728,7 +8728,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 346,
     "freq": 1,
-    "freq_rank": 1228,
+    "freq_rank": 1231,
     "example": {
       "fiwo": "Javuqup ratse.",
       "english": "The infection is dangerous."
@@ -8742,7 +8742,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 69,
     "freq": 14,
-    "freq_rank": 397,
+    "freq_rank": 398,
     "example": {
       "fiwo": "Jawop difoidyq.",
       "english": "The ice was melting."
@@ -8756,7 +8756,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 48,
     "freq": 47,
-    "freq_rank": 138,
+    "freq_rank": 139,
     "example": {
       "fiwo": "Jyjop jaxkei.",
       "english": "The computer is new."
@@ -8818,7 +8818,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 67,
     "freq": 3,
-    "freq_rank": 825,
+    "freq_rank": 828,
     "example": {
       "fiwo": "Jeflup ry fawanup ruzeiq.",
       "english": "The development of technology is speeding up."
@@ -8832,7 +8832,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 284,
     "freq": 1,
-    "freq_rank": 1230,
+    "freq_rank": 1233,
     "example": {
       "fiwo": "Farlopap luhacid jegetrup dale.",
       "english": "The doctor treated his cancer."
@@ -8846,7 +8846,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 470,
     "freq": 1,
-    "freq_rank": 1231,
+    "freq_rank": 1234,
     "example": {
       "fiwo": "Cadap jegsid.",
       "english": "The child peed."
@@ -8860,7 +8860,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 339,
     "freq": 2,
-    "freq_rank": 947,
+    "freq_rank": 949,
     "example": {
       "fiwo": "Jejup ry xekup tandeid.",
       "english": "The glory of the country was great."
@@ -8888,7 +8888,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 54,
     "freq": 8,
-    "freq_rank": 528,
+    "freq_rank": 530,
     "example": {
       "fiwo": "Catsap jofiq jepap.",
       "english": "The cat is helping its offspring."
@@ -8934,7 +8934,7 @@ const dictionaryData = [
     "rank": 474,
     "usage_note": "Plain saying, speaking or talking is gesi.",
     "freq": 1,
-    "freq_rank": 1233,
+    "freq_rank": 1236,
     "example": {
       "fiwo": "Nak jifnid razup.",
       "english": "We discussed the plan."
@@ -8949,7 +8949,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 344,
     "freq": 3,
-    "freq_rank": 827,
+    "freq_rank": 830,
     "example": {
       "fiwo": "Tykop jilfe.",
       "english": "The material is smooth."
@@ -8967,7 +8967,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 0,
-    "freq_rank": 2273,
+    "freq_rank": 2276,
     "example": {
       "fiwo": "Mik lokid jipop.",
       "english": "I read the link."
@@ -8981,7 +8981,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 308,
     "freq": 13,
-    "freq_rank": 414,
+    "freq_rank": 415,
     "example": {
       "fiwo": "Kop jipri belimop!",
       "english": "Wash the shoe!"
@@ -8995,7 +8995,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 354,
     "freq": 4,
-    "freq_rank": 736,
+    "freq_rank": 738,
     "example": {
       "fiwo": "Jiqap suke caqwar.",
       "english": "Your nephew is a boy."
@@ -9009,7 +9009,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 487,
     "freq": 0,
-    "freq_rank": 2276,
+    "freq_rank": 2279,
     "example": {
       "fiwo": "Dorsop jisidyq.",
       "english": "Water was dripping."
@@ -9097,7 +9097,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 181,
     "freq": 1,
-    "freq_rank": 1235,
+    "freq_rank": 1238,
     "example": {
       "fiwo": "Jolkodup zy orkup nake gaweid.",
       "english": "The average of our scores was good."
@@ -9111,7 +9111,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 463,
     "freq": 1,
-    "freq_rank": 1237,
+    "freq_rank": 1240,
     "example": {
       "fiwo": "Das jomytid gidur ky biznur.",
       "english": "She invested money in a company."
@@ -9128,8 +9128,8 @@ const dictionaryData = [
     "domains": [
       "trade_money"
     ],
-    "freq": 22,
-    "freq_rank": 273,
+    "freq": 24,
+    "freq_rank": 251,
     "example": {
       "fiwo": "Das jopxis ufaxop.",
       "english": "She will receive the message."
@@ -9160,7 +9160,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 563,
     "freq": 0,
-    "freq_rank": 2286,
+    "freq_rank": 2289,
     "example": {
       "fiwo": "Mik tsejaid josop deky dodup.",
       "english": "I saw the entity in the world."
@@ -9174,7 +9174,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 193,
     "freq": 1,
-    "freq_rank": 1238,
+    "freq_rank": 1241,
     "example": {
       "fiwo": "Krulop jotsei.",
       "english": "The room is clean."
@@ -9188,7 +9188,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 46,
     "freq": 39,
-    "freq_rank": 157,
+    "freq_rank": 158,
     "example": {
       "fiwo": "Caenop dwimei.",
       "english": "The street is long."
@@ -9216,7 +9216,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 518,
     "freq": 1,
-    "freq_rank": 1239,
+    "freq_rank": 1242,
     "example": {
       "fiwo": "Jufysop mik tande.",
       "english": "My pickaxe is big."
@@ -9234,7 +9234,7 @@ const dictionaryData = [
       "tools_objects"
     ],
     "freq": 1,
-    "freq_rank": 1240,
+    "freq_rank": 1243,
     "example": {
       "fiwo": "Kop swami rubidrop deky juglikop.",
       "english": "Put the plug into the socket."
@@ -9252,7 +9252,7 @@ const dictionaryData = [
       "emotion"
     ],
     "freq": 0,
-    "freq_rank": 2137,
+    "freq_rank": 2140,
     "example": {
       "fiwo": "Manap mike hamlueis.",
       "english": "My mother will worry (be worried)."
@@ -9269,7 +9269,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 5,
-    "freq_rank": 680,
+    "freq_rank": 681,
     "example": {
       "fiwo": "Degop jedi jukur weoke.",
       "english": "The table has a round shape."
@@ -9283,7 +9283,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 575,
     "freq": 0,
-    "freq_rank": 2292,
+    "freq_rank": 2295,
     "example": {
       "fiwo": "Daq jultid deky brirso.",
       "english": "He drowned in the lake."
@@ -9297,7 +9297,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 385,
     "freq": 0,
-    "freq_rank": 2294,
+    "freq_rank": 2297,
     "example": {
       "fiwo": "Jumap ry mik xeskid erup.",
       "english": "My rival won the war."
@@ -9340,7 +9340,7 @@ const dictionaryData = [
     "rank": 237,
     "usage_note": "'Just' in the sense of only (just one). For 'just' meaning a moment ago, use fiske.",
     "freq": 50,
-    "freq_rank": 132,
+    "freq_rank": 133,
     "example": {
       "fiwo": "Mik nacid juwe.",
       "english": "I only worked."
@@ -9368,7 +9368,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 189,
     "freq": 0,
-    "freq_rank": 2299,
+    "freq_rank": 2302,
     "example": {
       "fiwo": "Manap mike jyfeid.",
       "english": "My mother was patient."
@@ -9382,7 +9382,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 355,
     "freq": 0,
-    "freq_rank": 2301,
+    "freq_rank": 2304,
     "example": {
       "fiwo": "Fap jyhup ry mik ifezid.",
       "english": "My destiny was decided."
@@ -9410,7 +9410,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 184,
     "freq": 9,
-    "freq_rank": 501,
+    "freq_rank": 504,
     "example": {
       "fiwo": "Gaxop nifne.",
       "english": "The island is small."
@@ -9427,7 +9427,7 @@ const dictionaryData = [
       "building_place"
     ],
     "freq": 0,
-    "freq_rank": 2306,
+    "freq_rank": 2309,
     "example": {
       "fiwo": "Jyndop dwimeid.",
       "english": "The fence was long."
@@ -9441,7 +9441,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 324,
     "freq": 17,
-    "freq_rank": 347,
+    "freq_rank": 346,
     "example": {
       "fiwo": "Daq jyqis cukit.",
       "english": "He refuses to fight."
@@ -9455,7 +9455,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 205,
     "freq": 10,
-    "freq_rank": 480,
+    "freq_rank": 483,
     "example": {
       "fiwo": "Kabap cafid avly caenop.",
       "english": "The horse ran along the street."
@@ -9472,7 +9472,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 2310,
+    "freq_rank": 2313,
     "example": {
       "fiwo": "Fiwo kabcei.",
       "english": "Fiwo is simple."
@@ -9503,7 +9503,7 @@ const dictionaryData = [
       "animals"
     ],
     "freq": 0,
-    "freq_rank": 2312,
+    "freq_rank": 2315,
     "example": {
       "fiwo": "Kagaxap deky brirsop.",
       "english": "The axolotl is in the lake."
@@ -9531,7 +9531,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 239,
     "freq": 0,
-    "freq_rank": 2867,
+    "freq_rank": 2870,
     "example": {
       "fiwo": "Batap sefei.",
       "english": "The food is salty."
@@ -9545,7 +9545,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 6,
     "freq": 189,
-    "freq_rank": 27,
+    "freq_rank": 28,
     "example": {
       "fiwo": "Mik kanid rezap.",
       "english": "I knew the president."
@@ -9588,7 +9588,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 287,
     "freq": 0,
-    "freq_rank": 2318,
+    "freq_rank": 2321,
     "example": {
       "fiwo": "Kazarop floveid.",
       "english": "The trousers were dirty."
@@ -9602,7 +9602,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 379,
     "freq": 5,
-    "freq_rank": 688,
+    "freq_rank": 689,
     "example": {
       "fiwo": "Lutup ry ibitup jorei.",
       "english": "The topic of the class is important."
@@ -9617,7 +9617,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 86,
     "freq": 38,
-    "freq_rank": 166,
+    "freq_rank": 168,
     "example": {
       "fiwo": "Daq lokid nibop keane.",
       "english": "He read the whole book."
@@ -9631,7 +9631,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 309,
     "freq": 1,
-    "freq_rank": 1243,
+    "freq_rank": 1246,
     "example": {
       "fiwo": "Canpup sapid kedovor zy ibazop.",
       "english": "The community made a fund for the school."
@@ -9648,7 +9648,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 2322,
+    "freq_rank": 2325,
     "example": {
       "fiwo": "Ram kefujur.",
       "english": "That is taking-for-granted."
@@ -9662,7 +9662,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 278,
     "freq": 14,
-    "freq_rank": 398,
+    "freq_rank": 399,
     "example": {
       "fiwo": "Keglap luare.",
       "english": "The grass is green."
@@ -9676,7 +9676,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 178,
     "freq": 1,
-    "freq_rank": 1244,
+    "freq_rank": 1247,
     "example": {
       "fiwo": "Lakirop jedi kehogo jedle.",
       "english": "The picture has many pixels."
@@ -9691,7 +9691,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 122,
     "freq": 34,
-    "freq_rank": 184,
+    "freq_rank": 185,
     "example": {
       "fiwo": "Kehulup jore.",
       "english": "The family is important."
@@ -9705,7 +9705,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 467,
     "freq": 0,
-    "freq_rank": 2326,
+    "freq_rank": 2329,
     "example": {
       "fiwo": "Mik pauli kejaklup.",
       "english": "I feel loneliness."
@@ -9722,7 +9722,7 @@ const dictionaryData = [
       "technology"
     ],
     "freq": 2,
-    "freq_rank": 951,
+    "freq_rank": 953,
     "example": {
       "fiwo": "Das kekusnid ufaxop.",
       "english": "She copied the message."
@@ -9736,7 +9736,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 79,
     "freq": 26,
-    "freq_rank": 237,
+    "freq_rank": 238,
     "example": {
       "fiwo": "Kep kyfa cyri.",
       "english": "Birds fly."
@@ -9750,7 +9750,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 275,
     "freq": 3,
-    "freq_rank": 832,
+    "freq_rank": 835,
     "example": {
       "fiwo": "Fiwo keqei.",
       "english": "The language is native."
@@ -9768,7 +9768,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 1,
-    "freq_rank": 1248,
+    "freq_rank": 1251,
     "example": {
       "fiwo": "Kewup ry mik gaweid.",
       "english": "My luck was good."
@@ -9782,7 +9782,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 21,
     "freq": 3,
-    "freq_rank": 862,
+    "freq_rank": 865,
     "example": {
       "fiwo": "Stosop sowid.",
       "english": "The oil spilled."
@@ -9813,7 +9813,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 440,
     "freq": 1,
-    "freq_rank": 1249,
+    "freq_rank": 1252,
     "example": {
       "fiwo": "Kicojop nifne.",
       "english": "The gem is small."
@@ -9827,7 +9827,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 239,
     "freq": 7,
-    "freq_rank": 579,
+    "freq_rank": 580,
     "example": {
       "fiwo": "Mik tsejaid kicursup.",
       "english": "I saw the dawn."
@@ -9841,7 +9841,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 378,
     "freq": 0,
-    "freq_rank": 2340,
+    "freq_rank": 2343,
     "example": {
       "fiwo": "Kifrap zave.",
       "english": "The cherry tree is tall."
@@ -9855,7 +9855,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 414,
     "freq": 2,
-    "freq_rank": 953,
+    "freq_rank": 955,
     "example": {
       "fiwo": "Nofap je kifybid jany govnup.",
       "english": "The people protested against the government."
@@ -9869,7 +9869,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 430,
     "freq": 1,
-    "freq_rank": 1252,
+    "freq_rank": 1255,
     "example": {
       "fiwo": "Kikap cenidyq ky sydop.",
       "english": "The chicken was living at the house."
@@ -9884,7 +9884,7 @@ const dictionaryData = [
     "rank": 95,
     "usage_note": "Physical feeling — touching something, or feeling it with the skin (the cloth feels soft). For feeling an emotion or an inner sensation, use pauli.",
     "freq": 11,
-    "freq_rank": 458,
+    "freq_rank": 459,
     "example": {
       "fiwo": "Mik kilid krapop.",
       "english": "I touched the wall."
@@ -9898,7 +9898,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 27,
     "freq": 5,
-    "freq_rank": 681,
+    "freq_rank": 682,
     "example": {
       "fiwo": "Dixap kimaris fubap.",
       "english": "The shark will kill the fish."
@@ -9916,7 +9916,7 @@ const dictionaryData = [
       "body"
     ],
     "freq": 2,
-    "freq_rank": 1023,
+    "freq_rank": 1025,
     "example": {
       "fiwo": "Spuvup cimidyq.",
       "english": "Death was starting."
@@ -9934,7 +9934,7 @@ const dictionaryData = [
       "body"
     ],
     "freq": 34,
-    "freq_rank": 185,
+    "freq_rank": 186,
     "example": {
       "fiwo": "Latwap waske kimugis nudu.",
       "english": "The old animal will die today."
@@ -9962,7 +9962,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 100,
     "freq": 1,
-    "freq_rank": 1255,
+    "freq_rank": 1258,
     "example": {
       "fiwo": "Farlopap stomid kipeslor zy cadap.",
       "english": "The doctor gave a vaccine to the child."
@@ -9976,7 +9976,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 110,
     "freq": 1,
-    "freq_rank": 1256,
+    "freq_rank": 1259,
     "example": {
       "fiwo": "Daq xibid kixilkur zy xekup.",
       "english": "He swore an oath to the country."
@@ -9990,7 +9990,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 475,
     "freq": 7,
-    "freq_rank": 581,
+    "freq_rank": 582,
     "example": {
       "fiwo": "Das kjelid gidu.",
       "english": "She earned money."
@@ -10004,7 +10004,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 271,
     "freq": 5,
-    "freq_rank": 689,
+    "freq_rank": 690,
     "example": {
       "fiwo": "Mipkop locweid.",
       "english": "The cloud was white."
@@ -10018,7 +10018,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 289,
     "freq": 2,
-    "freq_rank": 955,
+    "freq_rank": 957,
     "example": {
       "fiwo": "Das lokid klegowop.",
       "english": "She read the novel."
@@ -10032,7 +10032,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 220,
     "freq": 10,
-    "freq_rank": 481,
+    "freq_rank": 484,
     "example": {
       "fiwo": "Krulop kluxeid.",
       "english": "The room was quiet."
@@ -10049,7 +10049,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 41,
-    "freq_rank": 153,
+    "freq_rank": 154,
     "example": {
       "fiwo": "Mik vepid gidur.",
       "english": "I needed money."
@@ -10077,7 +10077,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 391,
     "freq": 5,
-    "freq_rank": 683,
+    "freq_rank": 684,
     "example": {
       "fiwo": "Mik kokidid nibop.",
       "english": "I examined the book."
@@ -10091,7 +10091,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 459,
     "freq": 0,
-    "freq_rank": 2359,
+    "freq_rank": 2362,
     "example": {
       "fiwo": "Zafoirop kokloe.",
       "english": "The floor is tiled."
@@ -10105,7 +10105,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 8,
     "freq": 0,
-    "freq_rank": 2360,
+    "freq_rank": 2363,
     "example": {
       "fiwo": "Kompup ry spelup cimidyq.",
       "english": "The match of the game was starting."
@@ -10137,7 +10137,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 9,
-    "freq_rank": 504,
+    "freq_rank": 507,
     "example": {
       "fiwo": "Rezap kopis noqsap.",
       "english": "The president will command the man."
@@ -10151,7 +10151,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 499,
     "freq": 0,
-    "freq_rank": 2364,
+    "freq_rank": 2367,
     "example": {
       "fiwo": "Tubsop kowete.",
       "english": "The ocean is cyan."
@@ -10165,7 +10165,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 340,
     "freq": 0,
-    "freq_rank": 2366,
+    "freq_rank": 2369,
     "example": {
       "fiwo": "Kowygop mik nifne.",
       "english": "My clay is small."
@@ -10179,7 +10179,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 104,
     "freq": 0,
-    "freq_rank": 2368,
+    "freq_rank": 2371,
     "example": {
       "fiwo": "Refop koxei.",
       "english": "The coffee is bitter."
@@ -10207,7 +10207,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 300,
     "freq": 0,
-    "freq_rank": 2371,
+    "freq_rank": 2374,
     "example": {
       "fiwo": "Lejop krekikid.",
       "english": "The stairs creaked."
@@ -10221,7 +10221,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 286,
     "freq": 0,
-    "freq_rank": 2373,
+    "freq_rank": 2376,
     "example": {
       "fiwo": "Kremba mike kypei.",
       "english": "My pet is happy."
@@ -10239,7 +10239,7 @@ const dictionaryData = [
       "trade_money"
     ],
     "freq": 4,
-    "freq_rank": 739,
+    "freq_rank": 741,
     "example": {
       "fiwo": "Das krendid batap.",
       "english": "She shared the food."
@@ -10254,7 +10254,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 215,
     "freq": 34,
-    "freq_rank": 186,
+    "freq_rank": 187,
     "example": {
       "fiwo": "Ibalirap kritrid casla je.",
       "english": "The teacher taught the girls."
@@ -10268,7 +10268,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 305,
     "freq": 1,
-    "freq_rank": 1262,
+    "freq_rank": 1265,
     "example": {
       "fiwo": "Ybawap kromeid.",
       "english": "The bark was brown."
@@ -10296,7 +10296,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 425,
     "freq": 0,
-    "freq_rank": 2381,
+    "freq_rank": 2384,
     "example": {
       "fiwo": "Kryskap das nifne.",
       "english": "Her waist is small."
@@ -10310,7 +10310,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 409,
     "freq": 0,
-    "freq_rank": 2383,
+    "freq_rank": 2386,
     "example": {
       "fiwo": "Ebgap kuateid.",
       "english": "The twig was bent."
@@ -10342,7 +10342,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 2,
-    "freq_rank": 958,
+    "freq_rank": 960,
     "example": {
       "fiwo": "Xildop kujondid resnop.",
       "english": "The shield resisted the arrow."
@@ -10356,7 +10356,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 201,
     "freq": 2,
-    "freq_rank": 959,
+    "freq_rank": 961,
     "example": {
       "fiwo": "Biznup jedid kukylur tande.",
       "english": "The company had a big profit."
@@ -10370,7 +10370,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 485,
     "freq": 0,
-    "freq_rank": 2390,
+    "freq_rank": 2393,
     "example": {
       "fiwo": "Kunawap liame.",
       "english": "The orchid is pink."
@@ -10383,7 +10383,7 @@ const dictionaryData = [
     "definition": "An explicit inquiry or request for information.",
     "tier": 0,
     "rank": 43,
-    "freq": 322,
+    "freq": 328,
     "freq_rank": 14,
     "example": {
       "fiwo": "Kup suk nomid batap?",
@@ -10416,7 +10416,7 @@ const dictionaryData = [
       "work_education"
     ],
     "freq": 2,
-    "freq_rank": 910,
+    "freq_rank": 913,
     "example": {
       "fiwo": "Licap mike dzosid mik.",
       "english": "My colleague served me."
@@ -10430,7 +10430,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 163,
     "freq": 9,
-    "freq_rank": 505,
+    "freq_rank": 508,
     "example": {
       "fiwo": "Kuqsop tandei.",
       "english": "The bridge is big."
@@ -10458,7 +10458,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 257,
     "freq": 1,
-    "freq_rank": 1266,
+    "freq_rank": 1269,
     "example": {
       "fiwo": "Kusulsop zuzke.",
       "english": "The cake is sweet."
@@ -10473,7 +10473,7 @@ const dictionaryData = [
     "rank": 41,
     "usage_note": "Distinct from tumi (change), which just means to alter; kutgi implies a finalized transformation. To succeed is uxkui.",
     "freq": 24,
-    "freq_rank": 251,
+    "freq_rank": 252,
     "example": {
       "fiwo": "Domlop kutgid vezor.",
       "english": "The rain turned into snow."
@@ -10504,7 +10504,7 @@ const dictionaryData = [
       "space_position"
     ],
     "freq": 176,
-    "freq_rank": 29,
+    "freq_rank": 30,
     "example": {
       "fiwo": "Mik ceni ky London.",
       "english": "I live in London."
@@ -10518,7 +10518,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 200,
     "freq": 33,
-    "freq_rank": 192,
+    "freq_rank": 193,
     "example": {
       "fiwo": "Kyfap cyriq.",
       "english": "The bird is flying."
@@ -10546,7 +10546,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 67,
     "freq": 3,
-    "freq_rank": 836,
+    "freq_rank": 839,
     "example": {
       "fiwo": "Manap mike kypei.",
       "english": "My mother is happy."
@@ -10560,7 +10560,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 248,
     "freq": 2,
-    "freq_rank": 962,
+    "freq_rank": 964,
     "example": {
       "fiwo": "Kyranap sowid.",
       "english": "The feather fell."
@@ -10577,7 +10577,7 @@ const dictionaryData = [
       "emotion"
     ],
     "freq": 24,
-    "freq_rank": 252,
+    "freq_rank": 253,
     "example": {
       "fiwo": "Mik kytid spelup.",
       "english": "I liked the game."
@@ -10608,7 +10608,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 407,
     "freq": 1,
-    "freq_rank": 1268,
+    "freq_rank": 1271,
     "example": {
       "fiwo": "Jormup sile labukur.",
       "english": "This situation is a no-retreat commitment."
@@ -10623,7 +10623,7 @@ const dictionaryData = [
     "rank": 572,
     "usage_note": "Distinct from kicojo (a cut gem) and femporo (quartz specifically).",
     "freq": 0,
-    "freq_rank": 1716,
+    "freq_rank": 1719,
     "example": {
       "fiwo": "Mik karxid buzo deky levidzo.",
       "english": "I found a crystal in the cave."
@@ -10651,7 +10651,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 212,
     "freq": 5,
-    "freq_rank": 684,
+    "freq_rank": 685,
     "example": {
       "fiwo": "Das laekis ikamop.",
       "english": "She will choose the shirt."
@@ -10679,7 +10679,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 210,
     "freq": 4,
-    "freq_rank": 740,
+    "freq_rank": 742,
     "example": {
       "fiwo": "Lalupup cetofid tep daq hiqeid.",
       "english": "The evidence showed that he was right."
@@ -10693,7 +10693,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 234,
     "freq": 13,
-    "freq_rank": 415,
+    "freq_rank": 416,
     "example": {
       "fiwo": "Lamsop zuzkeid.",
       "english": "The milk was sweet."
@@ -10707,7 +10707,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 10,
     "freq": 83,
-    "freq_rank": 86,
+    "freq_rank": 87,
     "example": {
       "fiwo": "Mik karxid catsar lan detar.",
       "english": "I found a cat and a dog."
@@ -10739,7 +10739,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 100,
     "freq": 10,
-    "freq_rank": 482,
+    "freq_rank": 485,
     "example": {
       "fiwo": "Mik lantid tankor zy tesop.",
       "english": "I added sugar to the tea."
@@ -10753,7 +10753,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 209,
     "freq": 2,
-    "freq_rank": 963,
+    "freq_rank": 965,
     "example": {
       "fiwo": "Daq laswiti juro nake.",
       "english": "He represents our town."
@@ -10781,7 +10781,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 403,
     "freq": 3,
-    "freq_rank": 837,
+    "freq_rank": 840,
     "example": {
       "fiwo": "Leblap nomiq keglap.",
       "english": "The goat is eating the grass."
@@ -10795,7 +10795,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 146,
     "freq": 1,
-    "freq_rank": 1272,
+    "freq_rank": 1275,
     "example": {
       "fiwo": "Mik loki lebykop.",
       "english": "I read the title."
@@ -10809,7 +10809,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 77,
     "freq": 1,
-    "freq_rank": 1429,
+    "freq_rank": 1432,
     "example": {
       "fiwo": "Drekop stobei.",
       "english": "The rock is hard."
@@ -10827,7 +10827,7 @@ const dictionaryData = [
       "social_interaction"
     ],
     "freq": 1,
-    "freq_rank": 1273,
+    "freq_rank": 1276,
     "example": {
       "fiwo": "Cada nedci legudrop.",
       "english": "The child plays soccer."
@@ -10841,7 +10841,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 288,
     "freq": 1,
-    "freq_rank": 1274,
+    "freq_rank": 1277,
     "example": {
       "fiwo": "Lehap moriq deky zasop.",
       "english": "The fern is growing in the ground."
@@ -10855,7 +10855,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 370,
     "freq": 2,
-    "freq_rank": 964,
+    "freq_rank": 966,
     "example": {
       "fiwo": "Lejop zaveid.",
       "english": "The stairs were high."
@@ -10869,7 +10869,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 248,
     "freq": 5,
-    "freq_rank": 685,
+    "freq_rank": 686,
     "example": {
       "fiwo": "Kuvysup lemespid efmiap.",
       "english": "The police arrested the thief."
@@ -10883,7 +10883,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 478,
     "freq": 0,
-    "freq_rank": 2426,
+    "freq_rank": 2429,
     "example": {
       "fiwo": "Lenawap deky woru fezne.",
       "english": "The cactus is in the desert."
@@ -10898,7 +10898,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 44,
     "freq": 13,
-    "freq_rank": 416,
+    "freq_rank": 417,
     "example": {
       "fiwo": "Kop leoci litop!",
       "english": "Turn on the light!"
@@ -10911,8 +10911,8 @@ const dictionaryData = [
     "definition": "This refers to the cardinal number equivalent to the product of five and two, or one more than nine.",
     "tier": 1,
     "rank": 144,
-    "freq": 22,
-    "freq_rank": 274,
+    "freq": 23,
+    "freq_rank": 264,
     "example": {
       "fiwo": "Mosar lere morid.",
       "english": "Ten trees grew."
@@ -10926,7 +10926,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 208,
     "freq": 3,
-    "freq_rank": 806,
+    "freq_rank": 809,
     "example": {
       "fiwo": "Belimop flovei.",
       "english": "The shoe is dirty."
@@ -10968,7 +10968,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 476,
     "freq": 0,
-    "freq_rank": 2434,
+    "freq_rank": 2437,
     "example": {
       "fiwo": "Lexoglap nyrsi zabatop.",
       "english": "The mule carries the bag."
@@ -10982,7 +10982,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 462,
     "freq": 1,
-    "freq_rank": 1276,
+    "freq_rank": 1279,
     "example": {
       "fiwo": "Zipap liamei.",
       "english": "The face is pink."
@@ -10996,7 +10996,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 475,
     "freq": 0,
-    "freq_rank": 2438,
+    "freq_rank": 2441,
     "example": {
       "fiwo": "Mik tsejaid libosor deky levidzop.",
       "english": "I saw slime in the cave."
@@ -11010,7 +11010,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 267,
     "freq": 3,
-    "freq_rank": 838,
+    "freq_rank": 841,
     "example": {
       "fiwo": "Das stomi gidu zy libywu.",
       "english": "She gives money to charity."
@@ -11024,7 +11024,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 323,
     "freq": 14,
-    "freq_rank": 399,
+    "freq_rank": 400,
     "example": {
       "fiwo": "Licap ry mik jofid mik.",
       "english": "My colleague helped me."
@@ -11040,8 +11040,8 @@ const dictionaryData = [
     "domains": [
       "grammar"
     ],
-    "freq": 2,
-    "freq_rank": 936,
+    "freq": 5,
+    "freq_rank": 674,
     "example": {
       "fiwo": "Catsap gweme cafid.",
       "english": "Even the cat ran."
@@ -11055,7 +11055,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 471,
     "freq": 2,
-    "freq_rank": 937,
+    "freq_rank": 939,
     "example": {
       "fiwo": "Detap gycwid deky sydop.",
       "english": "The dog pooed in the house."
@@ -11103,7 +11103,7 @@ const dictionaryData = [
       "space_position"
     ],
     "freq": 1,
-    "freq_rank": 1279,
+    "freq_rank": 1282,
     "example": {
       "fiwo": "Lirup zy ostup.",
       "english": "The direction is to the east."
@@ -11118,7 +11118,7 @@ const dictionaryData = [
     "rank": 373,
     "usage_note": "Distinct from jobu, a standard day-to-day job.",
     "freq": 0,
-    "freq_rank": 2452,
+    "freq_rank": 2455,
     "example": {
       "fiwo": "Lisibup ry daq gaweid.",
       "english": "His career was good."
@@ -11146,7 +11146,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 303,
     "freq": 1,
-    "freq_rank": 1280,
+    "freq_rank": 1283,
     "example": {
       "fiwo": "Ogzop lixei.",
       "english": "The towel is wet."
@@ -11164,7 +11164,7 @@ const dictionaryData = [
       "technology"
     ],
     "freq": 23,
-    "freq_rank": 263,
+    "freq_rank": 265,
     "example": {
       "fiwo": "Forop nyrsid lizogor twave.",
       "english": "The plane carried heavy cargo."
@@ -11178,7 +11178,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 157,
     "freq": 7,
-    "freq_rank": 580,
+    "freq_rank": 581,
     "example": {
       "fiwo": "Bysop kivwei.",
       "english": "The sky is blue."
@@ -11195,7 +11195,7 @@ const dictionaryData = [
       "space_position"
     ],
     "freq": 0,
-    "freq_rank": 2459,
+    "freq_rank": 2462,
     "example": {
       "fiwo": "Xyrop locale xosid.",
       "english": "The local shop opened."
@@ -11225,7 +11225,7 @@ const dictionaryData = [
     "rank": 440,
     "usage_note": "A flag is uho.",
     "freq": 1,
-    "freq_rank": 1281,
+    "freq_rank": 1284,
     "example": {
       "fiwo": "Lodrop leupe.",
       "english": "The banner is red."
@@ -11239,7 +11239,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 328,
     "freq": 0,
-    "freq_rank": 2465,
+    "freq_rank": 2468,
     "example": {
       "fiwo": "Mitap sowid deky logegap.",
       "english": "The meat fell down the throat."
@@ -11253,7 +11253,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 408,
     "freq": 0,
-    "freq_rank": 2467,
+    "freq_rank": 2470,
     "example": {
       "fiwo": "Lohop das nifne.",
       "english": "Her armor is small."
@@ -11271,7 +11271,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 2469,
+    "freq_rank": 2472,
     "example": {
       "fiwo": "Fato sile jedi loju tande.",
       "english": "This machine has great efficiency."
@@ -11299,7 +11299,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 296,
     "freq": 0,
-    "freq_rank": 1741,
+    "freq_rank": 1744,
     "example": {
       "fiwo": "Tivwop cenlei.",
       "english": "The path is narrow."
@@ -11314,7 +11314,7 @@ const dictionaryData = [
     "rank": 418,
     "usage_note": "Of an edge or point only. Dull in the sense of boring is not madme.",
     "freq": 0,
-    "freq_rank": 2494,
+    "freq_rank": 2497,
     "example": {
       "fiwo": "Kinop madmei.",
       "english": "The knife is blunt."
@@ -11328,7 +11328,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 266,
     "freq": 1,
-    "freq_rank": 1284,
+    "freq_rank": 1287,
     "example": {
       "fiwo": "Meokop loskei.",
       "english": "The hat is yellow."
@@ -11342,7 +11342,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 393,
     "freq": 39,
-    "freq_rank": 158,
+    "freq_rank": 159,
     "example": {
       "fiwo": "Ibalirap kyti lozuxup.",
       "english": "The teacher likes the song."
@@ -11356,7 +11356,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 111,
     "freq": 5,
-    "freq_rank": 687,
+    "freq_rank": 688,
     "example": {
       "fiwo": "Cilap luarei.",
       "english": "The leaf is green."
@@ -11384,7 +11384,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 180,
     "freq": 8,
-    "freq_rank": 531,
+    "freq_rank": 534,
     "example": {
       "fiwo": "Farlopap luhaciq cadap.",
       "english": "The doctor is treating the child."
@@ -11398,7 +11398,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 283,
     "freq": 0,
-    "freq_rank": 2472,
+    "freq_rank": 2475,
     "example": {
       "fiwo": "Daq bumpid lumbe.",
       "english": "He complains rarely."
@@ -11412,7 +11412,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 318,
     "freq": 0,
-    "freq_rank": 2474,
+    "freq_rank": 2477,
     "example": {
       "fiwo": "Mulap luokei.",
       "english": "The flower is purple."
@@ -11429,7 +11429,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 1,
-    "freq_rank": 1289,
+    "freq_rank": 1292,
     "example": {
       "fiwo": "Mik fijaid luplelup.",
       "english": "I heard the echo."
@@ -11443,7 +11443,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 385,
     "freq": 4,
-    "freq_rank": 742,
+    "freq_rank": 744,
     "example": {
       "fiwo": "Lurubrap tsejaid ywurdup.",
       "english": "The witness saw the crime."
@@ -11475,7 +11475,7 @@ const dictionaryData = [
       "society_law"
     ],
     "freq": 2,
-    "freq_rank": 968,
+    "freq_rank": 970,
     "example": {
       "fiwo": "Nak hicid zy lutufrop.",
       "english": "We walked to the border."
@@ -11489,7 +11489,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 6,
     "freq": 1,
-    "freq_rank": 1292,
+    "freq_rank": 1295,
     "example": {
       "fiwo": "Luvismap mike bojaid.",
       "english": "My wound bled."
@@ -11507,7 +11507,7 @@ const dictionaryData = [
       "building_place"
     ],
     "freq": 1,
-    "freq_rank": 1293,
+    "freq_rank": 1296,
     "example": {
       "fiwo": "Luvwitup ry London tandei.",
       "english": "The university of London is big."
@@ -11521,7 +11521,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 279,
     "freq": 8,
-    "freq_rank": 532,
+    "freq_rank": 535,
     "example": {
       "fiwo": "Lyfrop nyrsi gejedor.",
       "english": "The wire carries the electricity."
@@ -11535,7 +11535,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 489,
     "freq": 0,
-    "freq_rank": 2486,
+    "freq_rank": 2489,
     "example": {
       "fiwo": "Lyltap morid ty mosap.",
       "english": "The lichen grew on the tree."
@@ -11552,7 +11552,7 @@ const dictionaryData = [
       "materials"
     ],
     "freq": 1,
-    "freq_rank": 1294,
+    "freq_rank": 1297,
     "example": {
       "fiwo": "Xedop lympiq.",
       "english": "The metal is rusting."
@@ -11569,7 +11569,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 2489,
+    "freq_rank": 2492,
     "example": {
       "fiwo": "Ram lynkur.",
       "english": "That is ruin-by-overdoing."
@@ -11584,7 +11584,7 @@ const dictionaryData = [
     "rank": 288,
     "usage_note": "The side or direction only. For 'correct' use hiqe; for 'a right' (entitlement) use xepytu.",
     "freq": 1,
-    "freq_rank": 1295,
+    "freq_rank": 1298,
     "example": {
       "fiwo": "Isamup lysei.",
       "english": "The result is right."
@@ -11601,7 +11601,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 10,
-    "freq_rank": 483,
+    "freq_rank": 486,
     "example": {
       "fiwo": "Daq breniq mace nudu.",
       "english": "He might come today."
@@ -11615,7 +11615,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 564,
     "freq": 0,
-    "freq_rank": 2492,
+    "freq_rank": 2495,
     "example": {
       "fiwo": "Daq madakid jufysop dale.",
       "english": "He upgraded his pickaxe."
@@ -11632,7 +11632,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 2496,
+    "freq_rank": 2499,
     "example": {
       "fiwo": "Stepup suke mafehei.",
       "english": "Your story is perfect."
@@ -11646,7 +11646,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 154,
     "freq": 2,
-    "freq_rank": 970,
+    "freq_rank": 972,
     "example": {
       "fiwo": "Daq kanid magustup.",
       "english": "He knew magic."
@@ -11677,7 +11677,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 111,
     "freq": 1,
-    "freq_rank": 1299,
+    "freq_rank": 1302,
     "example": {
       "fiwo": "Malfytop sapi gejedo.",
       "english": "The generator makes electricity."
@@ -11691,7 +11691,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 74,
     "freq": 3,
-    "freq_rank": 840,
+    "freq_rank": 843,
     "example": {
       "fiwo": "Nak mibnis ky taicup.",
       "english": "We will dance at the party."
@@ -11719,7 +11719,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 265,
     "freq": 1,
-    "freq_rank": 1300,
+    "freq_rank": 1303,
     "example": {
       "fiwo": "Mantup ry dorsor coheid.",
       "english": "The quantity of water was small."
@@ -11733,7 +11733,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 258,
     "freq": 1,
-    "freq_rank": 1301,
+    "freq_rank": 1304,
     "example": {
       "fiwo": "Maobap ry mik kypei.",
       "english": "My heart is happy."
@@ -11747,7 +11747,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 198,
     "freq": 0,
-    "freq_rank": 1866,
+    "freq_rank": 1869,
     "example": {
       "fiwo": "Dwedup ry mik kypei.",
       "english": "My emotional core is happy."
@@ -11761,7 +11761,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 302,
     "freq": 4,
-    "freq_rank": 757,
+    "freq_rank": 759,
     "example": {
       "fiwo": "Mik kilid tukpap.",
       "english": "I touched the finger."
@@ -11775,7 +11775,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 171,
     "freq": 23,
-    "freq_rank": 264,
+    "freq_rank": 266,
     "example": {
       "fiwo": "Mosar marte morid.",
       "english": "Eight trees grew."
@@ -11789,7 +11789,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 394,
     "freq": 0,
-    "freq_rank": 2505,
+    "freq_rank": 2508,
     "example": {
       "fiwo": "Buvap nomi mavahap.",
       "english": "The cow eats the wheat."
@@ -11803,7 +11803,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 240,
     "freq": 0,
-    "freq_rank": 2507,
+    "freq_rank": 2510,
     "example": {
       "fiwo": "Jormup sile mavurur.",
       "english": "This situation is a double gain."
@@ -11817,7 +11817,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 577,
     "freq": 0,
-    "freq_rank": 2508,
+    "freq_rank": 2511,
     "example": {
       "fiwo": "Mawu hiq ty sydo waske.",
       "english": "A curse is on the old house."
@@ -11831,7 +11831,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 246,
     "freq": 0,
-    "freq_rank": 2509,
+    "freq_rank": 2512,
     "example": {
       "fiwo": "Mazutsap tande.",
       "english": "The monster is big."
@@ -11845,7 +11845,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 98,
     "freq": 1,
-    "freq_rank": 1302,
+    "freq_rank": 1305,
     "example": {
       "fiwo": "Kop rari mecubur.",
       "english": "Remember the narrow worldview."
@@ -11859,7 +11859,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 436,
     "freq": 0,
-    "freq_rank": 2511,
+    "freq_rank": 2514,
     "example": {
       "fiwo": "Mik jedi mehefor.",
       "english": "I have a compass."
@@ -11873,7 +11873,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 254,
     "freq": 0,
-    "freq_rank": 2515,
+    "freq_rank": 2518,
     "example": {
       "fiwo": "Mekap skagid.",
       "english": "The bone broke."
@@ -11887,7 +11887,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 109,
     "freq": 39,
-    "freq_rank": 159,
+    "freq_rank": 160,
     "example": {
       "fiwo": "Melfup zaveid.",
       "english": "The price was high."
@@ -11944,7 +11944,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 131,
     "freq": 8,
-    "freq_rank": 533,
+    "freq_rank": 536,
     "example": {
       "fiwo": "Merifup ry mik gawei.",
       "english": "My memory is good."
@@ -11972,7 +11972,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 142,
     "freq": 0,
-    "freq_rank": 2339,
+    "freq_rank": 2342,
     "example": {
       "fiwo": "Nosanap kifcid bibar.",
       "english": "The woman gave birth to a baby."
@@ -11986,7 +11986,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 280,
     "freq": 0,
-    "freq_rank": 2523,
+    "freq_rank": 2526,
     "example": {
       "fiwo": "Mezunap stobeid.",
       "english": "The shell was hard."
@@ -12000,7 +12000,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 463,
     "freq": 0,
-    "freq_rank": 2527,
+    "freq_rank": 2530,
     "example": {
       "fiwo": "Midorap tandei.",
       "english": "The watermelon is big."
@@ -12028,7 +12028,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 389,
     "freq": 8,
-    "freq_rank": 534,
+    "freq_rank": 537,
     "example": {
       "fiwo": "Mihop vy xedo.",
       "english": "The shelf is made of metal."
@@ -12046,7 +12046,7 @@ const dictionaryData = [
     ],
     "usage_note": "The nature of a thing or situation. A person's character is cifudru.",
     "freq": 1,
-    "freq_rank": 1306,
+    "freq_rank": 1309,
     "example": {
       "fiwo": "Mijup ry mortsap baudei.",
       "english": "The nature of the forest is beautiful."
@@ -12059,7 +12059,7 @@ const dictionaryData = [
     "definition": "First-person singular; the speaker's body and mind.",
     "tier": 0,
     "rank": 1,
-    "freq": 1415,
+    "freq": 1423,
     "freq_rank": 1,
     "example": {
       "fiwo": "Mik ceni deky jurop.",
@@ -12091,7 +12091,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 129,
     "freq": 1,
-    "freq_rank": 1307,
+    "freq_rank": 1310,
     "example": {
       "fiwo": "Mik cimid miluvur jaxke.",
       "english": "I started a new course."
@@ -12105,7 +12105,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 349,
     "freq": 3,
-    "freq_rank": 841,
+    "freq_rank": 844,
     "example": {
       "fiwo": "Minzap ry nak tazid pogafur.",
       "english": "Our nation loved peace."
@@ -12119,7 +12119,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 98,
     "freq": 5,
-    "freq_rank": 690,
+    "freq_rank": 691,
     "example": {
       "fiwo": "Raje mis kage labnei tafe.",
       "english": "Five minus two equals three."
@@ -12133,7 +12133,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 146,
     "freq": 3,
-    "freq_rank": 842,
+    "freq_rank": 845,
     "example": {
       "fiwo": "Mik jamid gu rajem mise.",
       "english": "I wrote the number negative five."
@@ -12164,7 +12164,7 @@ const dictionaryData = [
       "number_quantity"
     ],
     "freq": 5,
-    "freq_rank": 691,
+    "freq_rank": 692,
     "example": {
       "fiwo": "Miterop kage.",
       "english": "Two meters."
@@ -12178,7 +12178,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 439,
     "freq": 3,
-    "freq_rank": 843,
+    "freq_rank": 846,
     "example": {
       "fiwo": "Mixuprup hutse jabeu.",
       "english": "The main symptom is a cold."
@@ -12206,7 +12206,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 18,
     "freq": 3,
-    "freq_rank": 829,
+    "freq_rank": 832,
     "example": {
       "fiwo": "Mik tazidyq jozap.",
       "english": "I was loving God."
@@ -12221,7 +12221,7 @@ const dictionaryData = [
     "rank": 569,
     "usage_note": "Distinct from ruwi (roll), which turns about an axis without deforming the object.",
     "freq": 0,
-    "freq_rank": 2540,
+    "freq_rank": 2543,
     "example": {
       "fiwo": "Xabesop mogowi mosap.",
       "english": "The wind twists the tree."
@@ -12277,7 +12277,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 132,
     "freq": 52,
-    "freq_rank": 127,
+    "freq_rank": 128,
     "example": {
       "fiwo": "Latwap ceni deky mosap.",
       "english": "The animal lives inside the tree."
@@ -12291,7 +12291,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 163,
     "freq": 1,
-    "freq_rank": 1311,
+    "freq_rank": 1314,
     "example": {
       "fiwo": "Mik pauli moskufup zety ibalirap.",
       "english": "I feel respect for the teacher."
@@ -12305,7 +12305,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 366,
     "freq": 2,
-    "freq_rank": 973,
+    "freq_rank": 975,
     "example": {
       "fiwo": "Motuwup ry daq tandeid.",
       "english": "His grief was great."
@@ -12323,7 +12323,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 0,
-    "freq_rank": 2549,
+    "freq_rank": 2552,
     "example": {
       "fiwo": "Ladup moveid.",
       "english": "The idea was vague."
@@ -12340,7 +12340,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 1,
-    "freq_rank": 1314,
+    "freq_rank": 1317,
     "example": {
       "fiwo": "Mik movimpid ty jobu.",
       "english": "I focused on the work."
@@ -12354,7 +12354,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 103,
     "freq": 2,
-    "freq_rank": 974,
+    "freq_rank": 976,
     "example": {
       "fiwo": "Mik karxid aplap moxy rimap je.",
       "english": "I found the apple among the grapes."
@@ -12368,7 +12368,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 132,
     "freq": 2,
-    "freq_rank": 893,
+    "freq_rank": 896,
     "example": {
       "fiwo": "Besup ry mik kypei.",
       "english": "My soul is happy."
@@ -12382,7 +12382,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 46,
     "freq": 2,
-    "freq_rank": 975,
+    "freq_rank": 977,
     "example": {
       "fiwo": "Mudop dorsoeid.",
       "english": "The mud was wet."
@@ -12396,7 +12396,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 159,
     "freq": 1,
-    "freq_rank": 1315,
+    "freq_rank": 1318,
     "example": {
       "fiwo": "Olifup muilei.",
       "english": "Research is difficult."
@@ -12427,7 +12427,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 13,
-    "freq_rank": 418,
+    "freq_rank": 419,
     "example": {
       "fiwo": "Xekup muke tandei.",
       "english": "Our country is big."
@@ -12441,7 +12441,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 236,
     "freq": 22,
-    "freq_rank": 278,
+    "freq_rank": 279,
     "example": {
       "fiwo": "Mulap baudei.",
       "english": "The flower is beautiful."
@@ -12458,7 +12458,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 2556,
+    "freq_rank": 2559,
     "example": {
       "fiwo": "Ram musmur.",
       "english": "That is a disguised blessing."
@@ -12476,7 +12476,7 @@ const dictionaryData = [
       "work_education"
     ],
     "freq": 1,
-    "freq_rank": 1316,
+    "freq_rank": 1319,
     "example": {
       "fiwo": "Reza cimid muwyzup.",
       "english": "The leader started the campaign."
@@ -12490,7 +12490,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 59,
     "freq": 1,
-    "freq_rank": 1317,
+    "freq_rank": 1320,
     "example": {
       "fiwo": "Tafe mux kage labnei sluqe.",
       "english": "Three times two equals six."
@@ -12518,7 +12518,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 437,
     "freq": 0,
-    "freq_rank": 2558,
+    "freq_rank": 2561,
     "example": {
       "fiwo": "Mydup ry jyjop gawei.",
       "english": "The model of the computer is good."
@@ -12532,7 +12532,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 269,
     "freq": 5,
-    "freq_rank": 692,
+    "freq_rank": 693,
     "example": {
       "fiwo": "Mygap mike pamuid.",
       "english": "My leg was hurting."
@@ -12546,7 +12546,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 327,
     "freq": 0,
-    "freq_rank": 2561,
+    "freq_rank": 2564,
     "example": {
       "fiwo": "Das jedi mykosop.",
       "english": "She has a fever."
@@ -12564,7 +12564,7 @@ const dictionaryData = [
       "animals"
     ],
     "freq": 10,
-    "freq_rank": 484,
+    "freq_rank": 487,
     "example": {
       "fiwo": "Myrafap xerid fuegop.",
       "english": "The dragon threw fire."
@@ -12595,7 +12595,7 @@ const dictionaryData = [
       "number_quantity"
     ],
     "freq": 13,
-    "freq_rank": 419,
+    "freq_rank": 420,
     "example": {
       "fiwo": "Nak nacid nafike.",
       "english": "We worked together."
@@ -12612,7 +12612,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 4,
-    "freq_rank": 743,
+    "freq_rank": 745,
     "example": {
       "fiwo": "Mik naglifi.",
       "english": "I insist."
@@ -12626,7 +12626,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 165,
     "freq": 1,
-    "freq_rank": 1098,
+    "freq_rank": 1100,
     "example": {
       "fiwo": "Jobup curmei.",
       "english": "The job is easy."
@@ -12639,7 +12639,7 @@ const dictionaryData = [
     "definition": "First-person plural exclusive; the speaker and others, explicitly excluding the listener.",
     "tier": 0,
     "rank": 17,
-    "freq": 127,
+    "freq": 128,
     "freq_rank": 50,
     "example": {
       "fiwo": "Nak ceni tapo bul suk nes ceni tapo.",
@@ -12656,8 +12656,8 @@ const dictionaryData = [
     "domains": [
       "grammar"
     ],
-    "freq": 18,
-    "freq_rank": 337,
+    "freq": 17,
+    "freq_rank": 348,
     "example": {
       "fiwo": "Xekup nake tandei.",
       "english": "Our country is big."
@@ -12671,7 +12671,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 444,
     "freq": 0,
-    "freq_rank": 2569,
+    "freq_rank": 2572,
     "example": {
       "fiwo": "Mijup naralei.",
       "english": "Nature is natural."
@@ -12716,7 +12716,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 1,
-    "freq_rank": 1319,
+    "freq_rank": 1322,
     "example": {
       "fiwo": "Natafrop sile muilei.",
       "english": "This term is difficult."
@@ -12730,7 +12730,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 165,
     "freq": 1,
-    "freq_rank": 1320,
+    "freq_rank": 1323,
     "example": {
       "fiwo": "Mik kytid natypop.",
       "english": "I liked the album."
@@ -12744,7 +12744,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 79,
     "freq": 48,
-    "freq_rank": 137,
+    "freq_rank": 138,
     "example": {
       "fiwo": "Nauxap mike kypei.",
       "english": "My friend is happy."
@@ -12772,7 +12772,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 62,
     "freq": 2,
-    "freq_rank": 977,
+    "freq_rank": 979,
     "example": {
       "fiwo": "Farlopap kilid navindop mike.",
       "english": "The doctor felt my pulse."
@@ -12800,7 +12800,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 176,
     "freq": 1,
-    "freq_rank": 1321,
+    "freq_rank": 1324,
     "example": {
       "fiwo": "Necadrop telfoe skagid.",
       "english": "The phone charger broke."
@@ -12814,7 +12814,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 202,
     "freq": 0,
-    "freq_rank": 2583,
+    "freq_rank": 2586,
     "example": {
       "fiwo": "Spelup negoxre.",
       "english": "The game is random."
@@ -12828,7 +12828,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 365,
     "freq": 0,
-    "freq_rank": 2585,
+    "freq_rank": 2588,
     "example": {
       "fiwo": "Nejowop cape.",
       "english": "The ink is black."
@@ -12856,7 +12856,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 83,
     "freq": 2,
-    "freq_rank": 978,
+    "freq_rank": 980,
     "example": {
       "fiwo": "Nel. Ram biwu noze.",
       "english": "You're welcome. It's no problem."
@@ -12874,7 +12874,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 3,
-    "freq_rank": 845,
+    "freq_rank": 848,
     "example": {
       "fiwo": "Mik stomi nembup.",
       "english": "I give congratulations."
@@ -12888,7 +12888,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 221,
     "freq": 0,
-    "freq_rank": 2591,
+    "freq_rank": 2594,
     "example": {
       "fiwo": "Latwap nenojeid.",
       "english": "The animal was blind."
@@ -12902,7 +12902,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 334,
     "freq": 1,
-    "freq_rank": 1325,
+    "freq_rank": 1328,
     "example": {
       "fiwo": "Nertop das tande.",
       "english": "Her carpet is big."
@@ -12916,7 +12916,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 7,
     "freq": 835,
-    "freq_rank": 5,
+    "freq_rank": 6,
     "example": {
       "fiwo": "Nes, mik nes kyti batap.",
       "english": "No, I do not like the food."
@@ -12944,7 +12944,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 482,
     "freq": 0,
-    "freq_rank": 2595,
+    "freq_rank": 2598,
     "example": {
       "fiwo": "Netawap kivwe.",
       "english": "The cornflower is blue."
@@ -12958,7 +12958,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 443,
     "freq": 0,
-    "freq_rank": 1771,
+    "freq_rank": 1774,
     "example": {
       "fiwo": "Mik pauli covwup.",
       "english": "I feel disgust."
@@ -12976,7 +12976,7 @@ const dictionaryData = [
       "nature_plants"
     ],
     "freq": 9,
-    "freq_rank": 506,
+    "freq_rank": 509,
     "example": {
       "fiwo": "Cadap je nedci ky nevonop.",
       "english": "The children play in the park."
@@ -12990,7 +12990,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 247,
     "freq": 0,
-    "freq_rank": 3060,
+    "freq_rank": 3063,
     "example": {
       "fiwo": "Daq jedis tsigar dote je.",
       "english": "He will have strong muscles."
@@ -13004,7 +13004,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 182,
     "freq": 22,
-    "freq_rank": 271,
+    "freq_rank": 273,
     "example": {
       "fiwo": "Pebap mike gidsid blyfor jaxke.",
       "english": "My father bought a new car."
@@ -13032,7 +13032,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 406,
     "freq": 0,
-    "freq_rank": 2994,
+    "freq_rank": 2997,
     "example": {
       "fiwo": "Cadap tadgid batap.",
       "english": "The child swallowed the food."
@@ -13046,7 +13046,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 438,
     "freq": 0,
-    "freq_rank": 2602,
+    "freq_rank": 2605,
     "example": {
       "fiwo": "Mik nomid nimpop.",
       "english": "I ate the carrot."
@@ -13060,7 +13060,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 197,
     "freq": 1,
-    "freq_rank": 1327,
+    "freq_rank": 1330,
     "example": {
       "fiwo": "Nak pagari ninaltu ky rugoxu byceve.",
       "english": "We pay tax every month."
@@ -13074,7 +13074,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 451,
     "freq": 1,
-    "freq_rank": 1328,
+    "freq_rank": 1331,
     "example": {
       "fiwo": "Latwap niwis krapop.",
       "english": "The animal will scrape the wall."
@@ -13088,7 +13088,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 74,
     "freq": 18,
-    "freq_rank": 339,
+    "freq_rank": 338,
     "example": {
       "fiwo": "Moblop ceni nizy sydop.",
       "english": "The car is in front of the house."
@@ -13102,7 +13102,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 408,
     "freq": 0,
-    "freq_rank": 2607,
+    "freq_rank": 2610,
     "example": {
       "fiwo": "Noajup ry rezap jorei.",
       "english": "The role of the president is important."
@@ -13116,7 +13116,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 368,
     "freq": 1,
-    "freq_rank": 1330,
+    "freq_rank": 1333,
     "example": {
       "fiwo": "Mik stomid nodoglur zy dzosiap.",
       "english": "I gave a tip to the waiter."
@@ -13129,7 +13129,7 @@ const dictionaryData = [
     "definition": "This refers to a human being, individual, or member of the human species.",
     "tier": 1,
     "rank": 3,
-    "freq": 578,
+    "freq": 579,
     "freq_rank": 10,
     "example": {
       "fiwo": "Nofap ceni ky sydop.",
@@ -13144,7 +13144,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 112,
     "freq": 18,
-    "freq_rank": 341,
+    "freq_rank": 340,
     "example": {
       "fiwo": "Tsejap mike je kypei.",
       "english": "My eyes are happy."
@@ -13158,7 +13158,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 5,
     "freq": 51,
-    "freq_rank": 131,
+    "freq_rank": 132,
     "example": {
       "fiwo": "Nak tsejapid xowup.",
       "english": "We watched the show."
@@ -13192,7 +13192,7 @@ const dictionaryData = [
       "society_law"
     ],
     "freq": 1,
-    "freq_rank": 1332,
+    "freq_rank": 1335,
     "example": {
       "fiwo": "Ram fulup nolfene.",
       "english": "It is official information."
@@ -13220,7 +13220,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 112,
     "freq": 11,
-    "freq_rank": 459,
+    "freq_rank": 460,
     "example": {
       "fiwo": "Nop daq fwimik.",
       "english": "He has left (I infer it)."
@@ -13248,7 +13248,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 141,
     "freq": 24,
-    "freq_rank": 254,
+    "freq_rank": 255,
     "example": {
       "fiwo": "Nosanap jamid nibop.",
       "english": "The woman wrote the book."
@@ -13262,7 +13262,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 301,
     "freq": 0,
-    "freq_rank": 2620,
+    "freq_rank": 2623,
     "example": {
       "fiwo": "Novup ry rezap bokeid.",
       "english": "The conspiracy of the president was bad."
@@ -13276,7 +13276,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 418,
     "freq": 1,
-    "freq_rank": 1333,
+    "freq_rank": 1336,
     "example": {
       "fiwo": "Xekup jedi nowuru jedle.",
       "english": "The country has many resources."
@@ -13346,7 +13346,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 401,
     "freq": 22,
-    "freq_rank": 281,
+    "freq_rank": 282,
     "example": {
       "fiwo": "Stisup ry zikuzop gawei.",
       "english": "The policy of the bank is good."
@@ -13360,7 +13360,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 143,
     "freq": 1,
-    "freq_rank": 1336,
+    "freq_rank": 1339,
     "example": {
       "fiwo": "Stramup nunulpid ruze.",
       "english": "The team cooperated quickly."
@@ -13374,7 +13374,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 200,
     "freq": 9,
-    "freq_rank": 507,
+    "freq_rank": 510,
     "example": {
       "fiwo": "Nupap jofis cadap.",
       "english": "The parent will help the child."
@@ -13388,7 +13388,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 274,
     "freq": 0,
-    "freq_rank": 2628,
+    "freq_rank": 2631,
     "example": {
       "fiwo": "Nusogop pivme.",
       "english": "The sword is sharp."
@@ -13402,7 +13402,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 462,
     "freq": 0,
-    "freq_rank": 2630,
+    "freq_rank": 2633,
     "example": {
       "fiwo": "Nuwykop tande.",
       "english": "The amethyst is big."
@@ -13416,7 +13416,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 16,
     "freq": 0,
-    "freq_rank": 2634,
+    "freq_rank": 2637,
     "example": {
       "fiwo": "Nybup ry nibop gaweid.",
       "english": "The content of the book was good."
@@ -13444,7 +13444,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 314,
     "freq": 2,
-    "freq_rank": 981,
+    "freq_rank": 983,
     "example": {
       "fiwo": "Nyltulup sapid tifur jaxke.",
       "english": "The parliament made a new law."
@@ -13458,7 +13458,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 91,
     "freq": 49,
-    "freq_rank": 134,
+    "freq_rank": 135,
     "example": {
       "fiwo": "Daq nyrsis zabatop.",
       "english": "He will carry the bag."
@@ -13472,7 +13472,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 300,
     "freq": 0,
-    "freq_rank": 2638,
+    "freq_rank": 2641,
     "example": {
       "fiwo": "Nytap dalem je tandei.",
       "english": "Their nose is big."
@@ -13486,7 +13486,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 14,
     "freq": 1,
-    "freq_rank": 1338,
+    "freq_rank": 1341,
     "example": {
       "fiwo": "Mik xalid dury nyvumu.",
       "english": "I went at sunrise."
@@ -13500,7 +13500,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 356,
     "freq": 1,
-    "freq_rank": 1339,
+    "freq_rank": 1342,
     "example": {
       "fiwo": "Nak nyxidi sydor deky jurop.",
       "english": "We rent a house in the city."
@@ -13532,7 +13532,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 2,
-    "freq_rank": 982,
+    "freq_rank": 984,
     "example": {
       "fiwo": "Ocadup jofiq nofaup.",
       "english": "Science is helping humanity."
@@ -13550,7 +13550,7 @@ const dictionaryData = [
     ],
     "usage_note": "An imitation, not the real thing. Something untrue is nes trive; a lie is okezu.",
     "freq": 0,
-    "freq_rank": 2645,
+    "freq_rank": 2648,
     "example": {
       "fiwo": "Oqop ocfeid.",
       "english": "The ticket was fake."
@@ -13568,7 +13568,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 1,
-    "freq_rank": 1417,
+    "freq_rank": 1420,
     "example": {
       "fiwo": "Domlop snareid.",
       "english": "The rain was sudden."
@@ -13582,7 +13582,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 320,
     "freq": 22,
-    "freq_rank": 279,
+    "freq_rank": 280,
     "example": {
       "fiwo": "Odcanop doteid.",
       "english": "The rope was strong."
@@ -13600,7 +13600,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 2648,
+    "freq_rank": 2651,
     "example": {
       "fiwo": "Ufaxop oegeid.",
       "english": "The message was secret."
@@ -13632,7 +13632,7 @@ const dictionaryData = [
       "work_education"
     ],
     "freq": 1,
-    "freq_rank": 1341,
+    "freq_rank": 1344,
     "example": {
       "fiwo": "Ogirup ry mik tandeid.",
       "english": "My experience was great."
@@ -13646,7 +13646,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 97,
     "freq": 2,
-    "freq_rank": 984,
+    "freq_rank": 986,
     "example": {
       "fiwo": "Ogzop dorsoeid.",
       "english": "The towel was wet."
@@ -13660,7 +13660,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 109,
     "freq": 0,
-    "freq_rank": 2654,
+    "freq_rank": 2657,
     "example": {
       "fiwo": "Latwap ojesei.",
       "english": "The animal is rare."
@@ -13709,7 +13709,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 89,
     "freq": 4,
-    "freq_rank": 744,
+    "freq_rank": 746,
     "example": {
       "fiwo": "Olifup ry mik cimidyq.",
       "english": "My research was starting."
@@ -13723,7 +13723,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 363,
     "freq": 0,
-    "freq_rank": 2660,
+    "freq_rank": 2663,
     "example": {
       "fiwo": "Olkenkop ty lodrop.",
       "english": "The emblem is on the banner."
@@ -13751,7 +13751,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 334,
     "freq": 5,
-    "freq_rank": 694,
+    "freq_rank": 695,
     "example": {
       "fiwo": "Pebap onasis sycar.",
       "english": "Father will plant seeds."
@@ -13765,7 +13765,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 244,
     "freq": 1,
-    "freq_rank": 1343,
+    "freq_rank": 1346,
     "example": {
       "fiwo": "Nofar lerem onexe brenid.",
       "english": "Approximately ten people came."
@@ -13779,7 +13779,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 427,
     "freq": 0,
-    "freq_rank": 2666,
+    "freq_rank": 2669,
     "example": {
       "fiwo": "Ongup ry daq bokeid.",
       "english": "His betrayal was bad."
@@ -13797,7 +13797,7 @@ const dictionaryData = [
       "body"
     ],
     "freq": 1,
-    "freq_rank": 1344,
+    "freq_rank": 1347,
     "example": {
       "fiwo": "Mik onlis belap.",
       "english": "I will rub the foot."
@@ -13811,7 +13811,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 116,
     "freq": 0,
-    "freq_rank": 2669,
+    "freq_rank": 2672,
     "example": {
       "fiwo": "Kop rari onyfur.",
       "english": "Remember the inexplicable."
@@ -13826,7 +13826,7 @@ const dictionaryData = [
     "rank": 136,
     "usage_note": "Stirring with a spoon or implement. To mix or blend substances is fewi.",
     "freq": 1,
-    "freq_rank": 1345,
+    "freq_rank": 1348,
     "example": {
       "fiwo": "Mik opcoriq dorsop.",
       "english": "I am stirring the water."
@@ -13840,7 +13840,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 414,
     "freq": 9,
-    "freq_rank": 508,
+    "freq_rank": 511,
     "example": {
       "fiwo": "Nak opdid ufaxop.",
       "english": "We whispered the message."
@@ -13854,7 +13854,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 426,
     "freq": 2,
-    "freq_rank": 985,
+    "freq_rank": 987,
     "example": {
       "fiwo": "Opowop nifne.",
       "english": "The bulb is small."
@@ -13868,7 +13868,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 28,
     "freq": 0,
-    "freq_rank": 2673,
+    "freq_rank": 2676,
     "example": {
       "fiwo": "Kop rari opubur.",
       "english": "Remember cruelty-to-the-fallen."
@@ -13885,7 +13885,7 @@ const dictionaryData = [
       "nature_plants"
     ],
     "freq": 0,
-    "freq_rank": 2674,
+    "freq_rank": 2677,
     "example": {
       "fiwo": "Lehap lini oqawa je.",
       "english": "The fern makes spores."
@@ -13899,7 +13899,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 348,
     "freq": 2,
-    "freq_rank": 986,
+    "freq_rank": 988,
     "example": {
       "fiwo": "Oqop xiveid.",
       "english": "The ticket was expensive."
@@ -13913,7 +13913,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 429,
     "freq": 1,
-    "freq_rank": 1154,
+    "freq_rank": 1157,
     "example": {
       "fiwo": "Das fliris zobap je.",
       "english": "She will sauté the vegetables."
@@ -13927,7 +13927,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 366,
     "freq": 1,
-    "freq_rank": 1346,
+    "freq_rank": 1349,
     "example": {
       "fiwo": "Orkup ry mik zaveid.",
       "english": "My score was high."
@@ -13941,7 +13941,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 294,
     "freq": 1,
-    "freq_rank": 1386,
+    "freq_rank": 1389,
     "example": {
       "fiwo": "Zobap putpei.",
       "english": "The vegetable is poisonous."
@@ -13955,7 +13955,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 347,
     "freq": 0,
-    "freq_rank": 2678,
+    "freq_rank": 2681,
     "example": {
       "fiwo": "Osajup capeis.",
       "english": "The west will be dark."
@@ -13969,7 +13969,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 259,
     "freq": 2,
-    "freq_rank": 987,
+    "freq_rank": 989,
     "example": {
       "fiwo": "Ostup locweid.",
       "english": "The east was bright."
@@ -13983,7 +13983,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 140,
     "freq": 1,
-    "freq_rank": 1348,
+    "freq_rank": 1351,
     "example": {
       "fiwo": "Oswyplo cape.",
       "english": "Hell is dark."
@@ -14000,7 +14000,7 @@ const dictionaryData = [
       "emotion"
     ],
     "freq": 1,
-    "freq_rank": 1349,
+    "freq_rank": 1352,
     "example": {
       "fiwo": "Kop rari osybur.",
       "english": "Remember helpless resignation."
@@ -14028,7 +14028,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 97,
     "freq": 18,
-    "freq_rank": 340,
+    "freq_rank": 339,
     "example": {
       "fiwo": "Otmap cimidyq.",
       "english": "The sickness was starting."
@@ -14045,7 +14045,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 51,
-    "freq_rank": 130,
+    "freq_rank": 131,
     "example": {
       "fiwo": "Nak foisois sydor otre.",
       "english": "We will build another house."
@@ -14059,7 +14059,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 315,
     "freq": 5,
-    "freq_rank": 695,
+    "freq_rank": 696,
     "example": {
       "fiwo": "Otsinop skagid.",
       "english": "The thread broke."
@@ -14073,7 +14073,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 285,
     "freq": 1,
-    "freq_rank": 1350,
+    "freq_rank": 1353,
     "example": {
       "fiwo": "Ouzup ry rezap tandeid.",
       "english": "The mercy of the president was great."
@@ -14087,7 +14087,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 110,
     "freq": 3,
-    "freq_rank": 847,
+    "freq_rank": 850,
     "example": {
       "fiwo": "Ov. Detap suke kimugid.",
       "english": "Oh no. Your dog died."
@@ -14101,7 +14101,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 232,
     "freq": 5,
-    "freq_rank": 696,
+    "freq_rank": 697,
     "example": {
       "fiwo": "Dugup jabei ovce.",
       "english": "The night is always cold."
@@ -14115,7 +14115,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 294,
     "freq": 0,
-    "freq_rank": 2686,
+    "freq_rank": 2689,
     "example": {
       "fiwo": "Ovpap ry daq dwimeid.",
       "english": "His neck was long."
@@ -14129,7 +14129,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 351,
     "freq": 1,
-    "freq_rank": 1351,
+    "freq_rank": 1354,
     "example": {
       "fiwo": "Ovrop pivmeid.",
       "english": "The fork was sharp."
@@ -14143,7 +14143,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 12,
     "freq": 2,
-    "freq_rank": 988,
+    "freq_rank": 990,
     "example": {
       "fiwo": "Daq owadid gidu late.",
       "english": "He spent all the money."
@@ -14157,7 +14157,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 367,
     "freq": 3,
-    "freq_rank": 861,
+    "freq_rank": 864,
     "example": {
       "fiwo": "Snecup ry mik cimidyq.",
       "english": "My project was starting."
@@ -14172,7 +14172,7 @@ const dictionaryData = [
     "rank": 329,
     "usage_note": "Silent. Laughing aloud is lofni.",
     "freq": 27,
-    "freq_rank": 234,
+    "freq_rank": 235,
     "example": {
       "fiwo": "Das snefid zy mik.",
       "english": "She smiled at me."
@@ -14186,7 +14186,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 317,
     "freq": 1,
-    "freq_rank": 1352,
+    "freq_rank": 1355,
     "example": {
       "fiwo": "Oxnop myi gidur.",
       "english": "The wallet contains money."
@@ -14203,7 +14203,7 @@ const dictionaryData = [
       "work_education"
     ],
     "freq": 1,
-    "freq_rank": 1353,
+    "freq_rank": 1356,
     "example": {
       "fiwo": "Das oxopis taicup.",
       "english": "She will organize the party."
@@ -14235,7 +14235,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 381,
     "freq": 2,
-    "freq_rank": 990,
+    "freq_rank": 992,
     "example": {
       "fiwo": "Mik ozepis wece.",
       "english": "I wish well."
@@ -14249,7 +14249,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 262,
     "freq": 0,
-    "freq_rank": 2695,
+    "freq_rank": 2698,
     "example": {
       "fiwo": "Sydop ozoxis krulo late.",
       "english": "The house occupies all rooms."
@@ -14263,7 +14263,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 127,
     "freq": 3,
-    "freq_rank": 848,
+    "freq_rank": 851,
     "example": {
       "fiwo": "Ocaduap pabicid fulup.",
       "english": "The scientist analyzed the data."
@@ -14292,7 +14292,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 407,
     "freq": 1,
-    "freq_rank": 1354,
+    "freq_rank": 1357,
     "example": {
       "fiwo": "Paduprop ripe.",
       "english": "The lava is hot."
@@ -14306,7 +14306,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 168,
     "freq": 44,
-    "freq_rank": 142,
+    "freq_rank": 143,
     "example": {
       "fiwo": "Mik jamid ty paelop.",
       "english": "I wrote on the paper."
@@ -14319,8 +14319,8 @@ const dictionaryData = [
     "definition": "To transfer money or abstract value in exchange for goods or services.",
     "tier": 1,
     "rank": 125,
-    "freq": 26,
-    "freq_rank": 239,
+    "freq": 27,
+    "freq_rank": 233,
     "example": {
       "fiwo": "Mik pagarid melfup.",
       "english": "I paid the price."
@@ -14337,7 +14337,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 1,
-    "freq_rank": 1356,
+    "freq_rank": 1359,
     "example": {
       "fiwo": "Kop rari pagukur.",
       "english": "Remember letting-things-unfold."
@@ -14351,7 +14351,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 387,
     "freq": 1,
-    "freq_rank": 1357,
+    "freq_rank": 1360,
     "example": {
       "fiwo": "Pajap ry mik stomidyq nibop.",
       "english": "My uncle was giving the book."
@@ -14365,7 +14365,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 293,
     "freq": 0,
-    "freq_rank": 2705,
+    "freq_rank": 2708,
     "example": {
       "fiwo": "Mik pampigid nomit batap.",
       "english": "I intended to eat the food."
@@ -14380,7 +14380,7 @@ const dictionaryData = [
     "rank": 63,
     "usage_note": "The feeling. A wound or injury is luvisma; the exclamation 'ouch' is ak.",
     "freq": 8,
-    "freq_rank": 535,
+    "freq_rank": 538,
     "example": {
       "fiwo": "Mik paulid pamup.",
       "english": "I felt the pain."
@@ -14408,7 +14408,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 301,
     "freq": 3,
-    "freq_rank": 849,
+    "freq_rank": 852,
     "example": {
       "fiwo": "Parawup ry nak waskeid.",
       "english": "Our tradition was old."
@@ -14422,7 +14422,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 168,
     "freq": 1,
-    "freq_rank": 1360,
+    "freq_rank": 1363,
     "example": {
       "fiwo": "Kup parkucup nudue?",
       "english": "What is today's date?"
@@ -14453,7 +14453,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 48,
     "freq": 1,
-    "freq_rank": 1361,
+    "freq_rank": 1364,
     "example": {
       "fiwo": "Paswup ry nak dwimeid.",
       "english": "Our history was long."
@@ -14467,7 +14467,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 95,
     "freq": 0,
-    "freq_rank": 2741,
+    "freq_rank": 2744,
     "example": {
       "fiwo": "Mitap suve plebei.",
       "english": "Your meat is savory."
@@ -14499,7 +14499,7 @@ const dictionaryData = [
       "emotion"
     ],
     "freq": 1,
-    "freq_rank": 1275,
+    "freq_rank": 1278,
     "example": {
       "fiwo": "Lezup ry mik tandeid.",
       "english": "My pleasure was great."
@@ -14513,7 +14513,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 199,
     "freq": 37,
-    "freq_rank": 171,
+    "freq_rank": 172,
     "example": {
       "fiwo": "Pebap mike nacid.",
       "english": "My father worked."
@@ -14531,7 +14531,7 @@ const dictionaryData = [
     ],
     "usage_note": "Power over people or events. Electric power is gejedo.",
     "freq": 11,
-    "freq_rank": 461,
+    "freq_rank": 462,
     "example": {
       "fiwo": "Rezap jedi pedup.",
       "english": "The president has the power."
@@ -14548,7 +14548,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 1,
-    "freq_rank": 1365,
+    "freq_rank": 1368,
     "example": {
       "fiwo": "Kop pegi paelop!",
       "english": "Fold the paper!"
@@ -14562,7 +14562,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 148,
     "freq": 1,
-    "freq_rank": 1366,
+    "freq_rank": 1369,
     "example": {
       "fiwo": "Gesiap gesid deky pemolkop.",
       "english": "The speaker spoke into the microphone."
@@ -14577,7 +14577,7 @@ const dictionaryData = [
     "rank": 11,
     "usage_note": "'So' meaning therefore, joining two clauses. 'So' meaning to that degree (so big) is tire.",
     "freq": 34,
-    "freq_rank": 187,
+    "freq_rank": 188,
     "example": {
       "fiwo": "Daq nacid du late pen daq iweid.",
       "english": "He worked all day, so he was tired."
@@ -14591,7 +14591,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 180,
     "freq": 0,
-    "freq_rank": 2873,
+    "freq_rank": 2876,
     "example": {
       "fiwo": "Sicwup ry xekup cimidyq.",
       "english": "The revolution of the country was starting."
@@ -14605,7 +14605,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 61,
     "freq": 35,
-    "freq_rank": 179,
+    "freq_rank": 180,
     "example": {
       "fiwo": "Mik paulidyq skejur.",
       "english": "I was hearing a sound."
@@ -14619,7 +14619,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 258,
     "freq": 3,
-    "freq_rank": 851,
+    "freq_rank": 854,
     "example": {
       "fiwo": "Mik peteswid gidu jedle wecdu.",
       "english": "I spent a lot of money yesterday."
@@ -14633,7 +14633,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 458,
     "freq": 0,
-    "freq_rank": 2720,
+    "freq_rank": 2723,
     "example": {
       "fiwo": "Latwap petnid.",
       "english": "The animal excreted."
@@ -14650,7 +14650,7 @@ const dictionaryData = [
       "tools_objects"
     ],
     "freq": 0,
-    "freq_rank": 2721,
+    "freq_rank": 2724,
     "example": {
       "fiwo": "Petop jedi lakirop.",
       "english": "The frame holds a picture."
@@ -14663,8 +14663,8 @@ const dictionaryData = [
     "definition": "This describes an event or action occurring at a subsequent time relative to the current baseline.",
     "tier": 1,
     "rank": 240,
-    "freq": 38,
-    "freq_rank": 167,
+    "freq": 5,
+    "freq_rank": 698,
     "example": {
       "fiwo": "Mik brenis peze.",
       "english": "I will arrive later."
@@ -14695,7 +14695,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 4,
-    "freq_rank": 746,
+    "freq_rank": 748,
     "example": {
       "fiwo": "Farlopap pijid Rezap.",
       "english": "The doctor warned the President."
@@ -14713,7 +14713,7 @@ const dictionaryData = [
       "medical"
     ],
     "freq": 2,
-    "freq_rank": 992,
+    "freq_rank": 994,
     "example": {
       "fiwo": "Nasap pilkei.",
       "english": "The plant is alive."
@@ -14730,7 +14730,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 2727,
+    "freq_rank": 2730,
     "example": {
       "fiwo": "Kup rezap pimpefei?",
       "english": "Is the boss available?"
@@ -14761,7 +14761,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 203,
     "freq": 0,
-    "freq_rank": 2774,
+    "freq_rank": 2777,
     "example": {
       "fiwo": "Aplap pwefei.",
       "english": "The apple is sour."
@@ -14775,7 +14775,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 311,
     "freq": 2,
-    "freq_rank": 1006,
+    "freq_rank": 1008,
     "example": {
       "fiwo": "Pwosap mike ripei.",
       "english": "My tooth is hot."
@@ -14789,7 +14789,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 314,
     "freq": 1,
-    "freq_rank": 1370,
+    "freq_rank": 1373,
     "example": {
       "fiwo": "Pizup ry daq tandeid.",
       "english": "His guilt was great."
@@ -14803,7 +14803,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 458,
     "freq": 2,
-    "freq_rank": 995,
+    "freq_rank": 997,
     "example": {
       "fiwo": "Plahop stobeid.",
       "english": "The lock was hard."
@@ -14816,7 +14816,7 @@ const dictionaryData = [
     "definition": "This verb means to move toward a specific location or the speaker.",
     "tier": 1,
     "rank": 26,
-    "freq": 148,
+    "freq": 151,
     "freq_rank": 39,
     "example": {
       "fiwo": "Nauxap mike brenid.",
@@ -14831,7 +14831,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 233,
     "freq": 0,
-    "freq_rank": 2743,
+    "freq_rank": 2746,
     "example": {
       "fiwo": "Mik jedi plolso lere.",
       "english": "I have ten monetary units."
@@ -14845,7 +14845,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 356,
     "freq": 0,
-    "freq_rank": 2746,
+    "freq_rank": 2749,
     "example": {
       "fiwo": "Mik nomid pluratap.",
       "english": "I ate the berry."
@@ -14859,7 +14859,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 137,
     "freq": 1,
-    "freq_rank": 1373,
+    "freq_rank": 1376,
     "example": {
       "fiwo": "Naxup pobrei.",
       "english": "The group is poor."
@@ -14876,7 +14876,7 @@ const dictionaryData = [
       "space_position"
     ],
     "freq": 8,
-    "freq_rank": 538,
+    "freq_rank": 541,
     "example": {
       "fiwo": "Mik xalid poco.",
       "english": "I went there."
@@ -14890,7 +14890,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 119,
     "freq": 3,
-    "freq_rank": 852,
+    "freq_rank": 855,
     "example": {
       "fiwo": "Pogafup ry xekup gawei.",
       "english": "The peace of the country is good."
@@ -14904,7 +14904,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 273,
     "freq": 4,
-    "freq_rank": 769,
+    "freq_rank": 772,
     "example": {
       "fiwo": "Daq cotidyq xesap.",
       "english": "He was cutting the hair."
@@ -14918,7 +14918,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 216,
     "freq": 0,
-    "freq_rank": 2750,
+    "freq_rank": 2753,
     "example": {
       "fiwo": "Ponxap neswy sydor.",
       "english": "The virus is without a home."
@@ -14932,7 +14932,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 380,
     "freq": 0,
-    "freq_rank": 2752,
+    "freq_rank": 2755,
     "example": {
       "fiwo": "Xabesop popepe.",
       "english": "The wind is cool."
@@ -14946,7 +14946,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 149,
     "freq": 0,
-    "freq_rank": 2755,
+    "freq_rank": 2758,
     "example": {
       "fiwo": "Zutap porcei.",
       "english": "The fruit is orange."
@@ -14960,7 +14960,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 108,
     "freq": 2,
-    "freq_rank": 1000,
+    "freq_rank": 1002,
     "example": {
       "fiwo": "Tafet pot bimet gloket labnei tafet pot bimet gloket.",
       "english": "3.14 equals 3.14."
@@ -14974,7 +14974,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 82,
     "freq": 0,
-    "freq_rank": 2756,
+    "freq_rank": 2759,
     "example": {
       "fiwo": "Nofar potsuce brenid.",
       "english": "One billion people came."
@@ -14988,7 +14988,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 282,
     "freq": 0,
-    "freq_rank": 2758,
+    "freq_rank": 2761,
     "example": {
       "fiwo": "Potup leupeid.",
       "english": "The dot was red."
@@ -15002,7 +15002,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 93,
     "freq": 1,
-    "freq_rank": 1376,
+    "freq_rank": 1379,
     "example": {
       "fiwo": "Pov, daq iwei.",
       "english": "Meanwhile, he is tired."
@@ -15016,7 +15016,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 28,
     "freq": 52,
-    "freq_rank": 128,
+    "freq_rank": 129,
     "example": {
       "fiwo": "Mik pozid zety fiturup.",
       "english": "I thought about the future."
@@ -15031,7 +15031,7 @@ const dictionaryData = [
     "rank": 325,
     "usage_note": "The dream you have while asleep. Imagining while awake is zelbi.",
     "freq": 1,
-    "freq_rank": 1379,
+    "freq_rank": 1382,
     "example": {
       "fiwo": "Pozmup mike baudeid.",
       "english": "My dream was beautiful."
@@ -15048,7 +15048,7 @@ const dictionaryData = [
       "nature_plants"
     ],
     "freq": 0,
-    "freq_rank": 2761,
+    "freq_rank": 2764,
     "example": {
       "fiwo": "Prazap moriq deky dorsop.",
       "english": "The kelp is growing in the water."
@@ -15062,7 +15062,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 372,
     "freq": 1,
-    "freq_rank": 1388,
+    "freq_rank": 1391,
     "example": {
       "fiwo": "Pwesup nifnei.",
       "english": "The fee is small."
@@ -15076,7 +15076,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 447,
     "freq": 0,
-    "freq_rank": 1875,
+    "freq_rank": 1878,
     "example": {
       "fiwo": "Dzadop leupe.",
       "english": "The beetroot is red."
@@ -15090,7 +15090,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 433,
     "freq": 1,
-    "freq_rank": 1381,
+    "freq_rank": 1384,
     "example": {
       "fiwo": "Profolup jedi fulu jedle.",
       "english": "The database has a lot of data."
@@ -15104,7 +15104,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 94,
     "freq": 10,
-    "freq_rank": 485,
+    "freq_rank": 488,
     "example": {
       "fiwo": "Mik ceni tapo pudy dup usy bime.",
       "english": "I have lived here since day one."
@@ -15118,7 +15118,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 384,
     "freq": 0,
-    "freq_rank": 2766,
+    "freq_rank": 2769,
     "example": {
       "fiwo": "Pujypap das pughe.",
       "english": "Her heel is rough."
@@ -15132,7 +15132,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 278,
     "freq": 2,
-    "freq_rank": 1002,
+    "freq_rank": 1004,
     "example": {
       "fiwo": "Punkokup cimis fitydu.",
       "english": "The trial will start tomorrow."
@@ -15146,7 +15146,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 434,
     "freq": 1,
-    "freq_rank": 1384,
+    "freq_rank": 1387,
     "example": {
       "fiwo": "Purup ry cadap tandei.",
       "english": "The curiosity of the child is great."
@@ -15160,7 +15160,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 91,
     "freq": 1,
-    "freq_rank": 1385,
+    "freq_rank": 1388,
     "example": {
       "fiwo": "Pusnapop sapid gasublo tafe.",
       "english": "The printer made three pages."
@@ -15174,7 +15174,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 290,
     "freq": 1,
-    "freq_rank": 1427,
+    "freq_rank": 1430,
     "example": {
       "fiwo": "Batap spocei.",
       "english": "The food is cheap."
@@ -15188,7 +15188,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 298,
     "freq": 0,
-    "freq_rank": 2772,
+    "freq_rank": 2775,
     "example": {
       "fiwo": "Puxap nomiq batap.",
       "english": "The pig is eating the food."
@@ -15202,7 +15202,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 371,
     "freq": 3,
-    "freq_rank": 854,
+    "freq_rank": 857,
     "example": {
       "fiwo": "Pybop litoidyq.",
       "english": "The candle was shining."
@@ -15216,7 +15216,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 308,
     "freq": 0,
-    "freq_rank": 2779,
+    "freq_rank": 2782,
     "example": {
       "fiwo": "Pydrap zave.",
       "english": "The jungle tree is tall."
@@ -15230,7 +15230,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 235,
     "freq": 1,
-    "freq_rank": 1390,
+    "freq_rank": 1393,
     "example": {
       "fiwo": "Pyhap ry daq stobeid.",
       "english": "His knee was stiff."
@@ -15247,7 +15247,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 3,
-    "freq_rank": 855,
+    "freq_rank": 858,
     "example": {
       "fiwo": "Pyjup cimidyq.",
       "english": "Chaos was starting."
@@ -15264,7 +15264,7 @@ const dictionaryData = [
       "social_interaction"
     ],
     "freq": 0,
-    "freq_rank": 2783,
+    "freq_rank": 2786,
     "example": {
       "fiwo": "Nofap pyqeid.",
       "english": "The person was rude."
@@ -15278,7 +15278,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 293,
     "freq": 0,
-    "freq_rank": 2785,
+    "freq_rank": 2788,
     "example": {
       "fiwo": "Pytsop dwimeid.",
       "english": "The rod was long."
@@ -15293,7 +15293,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 194,
     "freq": 40,
-    "freq_rank": 155,
+    "freq_rank": 156,
     "example": {
       "fiwo": "Kop pywi hautup!",
       "english": "Listen to the music!"
@@ -15307,7 +15307,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 442,
     "freq": 10,
-    "freq_rank": 486,
+    "freq_rank": 489,
     "example": {
       "fiwo": "Ragop zaveid.",
       "english": "The ceiling was high."
@@ -15348,7 +15348,7 @@ const dictionaryData = [
     "definition": "Third-person singular inanimate; strictly an object, concept, plant, machine, or entity lacking agency.",
     "tier": 0,
     "rank": 5,
-    "freq": 726,
+    "freq": 730,
     "freq_rank": 8,
     "example": {
       "fiwo": "Ram sowid fy degop.",
@@ -15377,7 +15377,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 102,
     "freq": 3,
-    "freq_rank": 856,
+    "freq_rank": 859,
     "example": {
       "fiwo": "Cijop ratsei.",
       "english": "The weapon is dangerous."
@@ -15394,7 +15394,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 2792,
+    "freq_rank": 2795,
     "example": {
       "fiwo": "Latwap raurei.",
       "english": "The animal is ugly."
@@ -15408,7 +15408,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 424,
     "freq": 1,
-    "freq_rank": 1251,
+    "freq_rank": 1254,
     "example": {
       "fiwo": "Kigup ry xekup waskeid.",
       "english": "The culture of the country was old."
@@ -15422,7 +15422,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 15,
     "freq": 0,
-    "freq_rank": 2796,
+    "freq_rank": 2799,
     "example": {
       "fiwo": "Reakup ry daq doteid.",
       "english": "His theory was strong."
@@ -15440,7 +15440,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 1,
-    "freq_rank": 1396,
+    "freq_rank": 1399,
     "example": {
       "fiwo": "Mik kyti reduslup suke.",
       "english": "I like your style."
@@ -15468,7 +15468,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 384,
     "freq": 22,
-    "freq_rank": 280,
+    "freq_rank": 281,
     "example": {
       "fiwo": "Rehustop sejid nacit.",
       "english": "The server stopped working."
@@ -15482,7 +15482,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 369,
     "freq": 1,
-    "freq_rank": 1397,
+    "freq_rank": 1400,
     "example": {
       "fiwo": "Relxup ry nak doteid.",
       "english": "Our relationship was strong."
@@ -15496,7 +15496,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 242,
     "freq": 37,
-    "freq_rank": 168,
+    "freq_rank": 169,
     "example": {
       "fiwo": "Nak dwagis ky sydop.",
       "english": "We will stay at the house."
@@ -15527,7 +15527,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 261,
     "freq": 4,
-    "freq_rank": 748,
+    "freq_rank": 750,
     "example": {
       "fiwo": "Mik reslihi guzap.",
       "english": "I hate the enemy."
@@ -15541,7 +15541,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 123,
     "freq": 1,
-    "freq_rank": 1398,
+    "freq_rank": 1401,
     "example": {
       "fiwo": "Resnop pivme.",
       "english": "The arrow is sharp."
@@ -15569,7 +15569,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 191,
     "freq": 39,
-    "freq_rank": 160,
+    "freq_rank": 161,
     "example": {
       "fiwo": "Mular prure morid.",
       "english": "Seven flowers grew."
@@ -15597,7 +15597,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 116,
     "freq": 41,
-    "freq_rank": 152,
+    "freq_rank": 153,
     "example": {
       "fiwo": "Daq retibis zy sydop dale.",
       "english": "He returned to his house."
@@ -15614,7 +15614,7 @@ const dictionaryData = [
       "space_position"
     ],
     "freq": 8,
-    "freq_rank": 540,
+    "freq_rank": 543,
     "example": {
       "fiwo": "Jurop ceni rewy sydop.",
       "english": "The city is far from the house."
@@ -15628,7 +15628,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 10,
     "freq": 33,
-    "freq_rank": 193,
+    "freq_rank": 194,
     "example": {
       "fiwo": "Rezap ceni deky jurop.",
       "english": "The president lives in the city."
@@ -15642,7 +15642,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 304,
     "freq": 0,
-    "freq_rank": 2813,
+    "freq_rank": 2816,
     "example": {
       "fiwo": "Ricodop mik tande.",
       "english": "My ore is big."
@@ -15656,7 +15656,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 307,
     "freq": 0,
-    "freq_rank": 2818,
+    "freq_rank": 2821,
     "example": {
       "fiwo": "Rinkawap locwe.",
       "english": "The skull is white."
@@ -15670,7 +15670,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 188,
     "freq": 0,
-    "freq_rank": 2820,
+    "freq_rank": 2823,
     "example": {
       "fiwo": "Nofap rintei.",
       "english": "The person is rich."
@@ -15684,7 +15684,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 169,
     "freq": 0,
-    "freq_rank": 1864,
+    "freq_rank": 1867,
     "example": {
       "fiwo": "Dwasup ry daq tandeid.",
       "english": "His wealth was great."
@@ -15712,7 +15712,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 299,
     "freq": 0,
-    "freq_rank": 2822,
+    "freq_rank": 2825,
     "example": {
       "fiwo": "Riqop floveid.",
       "english": "The keyboard was dirty."
@@ -15726,7 +15726,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 436,
     "freq": 27,
-    "freq_rank": 233,
+    "freq_rank": 234,
     "example": {
       "fiwo": "Retadup rivahe.",
       "english": "The week is previous."
@@ -15740,7 +15740,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 138,
     "freq": 0,
-    "freq_rank": 2826,
+    "freq_rank": 2829,
     "example": {
       "fiwo": "Biznup riwifreid.",
       "english": "The company was bankrupt."
@@ -15787,7 +15787,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 312,
     "freq": 0,
-    "freq_rank": 2829,
+    "freq_rank": 2832,
     "example": {
       "fiwo": "Daq rodipeidyq.",
       "english": "He was getting thirsty."
@@ -15803,8 +15803,8 @@ const dictionaryData = [
     "domains": [
       "mental"
     ],
-    "freq": 8,
-    "freq_rank": 548,
+    "freq": 12,
+    "freq_rank": 442,
     "example": {
       "fiwo": "Gop suke trivei.",
       "english": "Your word is true."
@@ -15818,7 +15818,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 64,
     "freq": 2,
-    "freq_rank": 1011,
+    "freq_rank": 1013,
     "example": {
       "fiwo": "Rohelsop pamuid beje.",
       "english": "The injection hurt a little."
@@ -15888,7 +15888,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 92,
     "freq": 83,
-    "freq_rank": 87,
+    "freq_rank": 88,
     "example": {
       "fiwo": "Rop dal brenis fitydu.",
       "english": "He will come tomorrow, I was told."
@@ -15907,7 +15907,7 @@ const dictionaryData = [
     ],
     "usage_note": "Serious = roqtue; to be serious = roqtuei.",
     "freq": 0,
-    "freq_rank": 2836,
+    "freq_rank": 2839,
     "example": {
       "fiwo": "Biwup roqtuei.",
       "english": "The problem is serious."
@@ -15921,7 +15921,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 36,
     "freq": 8,
-    "freq_rank": 541,
+    "freq_rank": 544,
     "example": {
       "fiwo": "Suk nacis nudu rot suk usis nudu.",
       "english": "You will work today, or you will sleep."
@@ -15935,7 +15935,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 449,
     "freq": 0,
-    "freq_rank": 2837,
+    "freq_rank": 2840,
     "example": {
       "fiwo": "Caenop rowei.",
       "english": "The street is wide."
@@ -15949,7 +15949,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 430,
     "freq": 0,
-    "freq_rank": 2838,
+    "freq_rank": 2841,
     "example": {
       "fiwo": "Ruavap loske.",
       "english": "The dandelion is yellow."
@@ -15967,7 +15967,7 @@ const dictionaryData = [
       "tools_objects"
     ],
     "freq": 2,
-    "freq_rank": 1013,
+    "freq_rank": 1015,
     "example": {
       "fiwo": "Kop sudi rubidrop.",
       "english": "Push the plug in."
@@ -15985,7 +15985,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 8,
-    "freq_rank": 546,
+    "freq_rank": 549,
     "example": {
       "fiwo": "Rezap tabwid minzap.",
       "english": "The president led the nation."
@@ -15999,7 +15999,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 299,
     "freq": 3,
-    "freq_rank": 853,
+    "freq_rank": 856,
     "example": {
       "fiwo": "Gagup pughei.",
       "english": "The texture is rough."
@@ -16013,7 +16013,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 323,
     "freq": 0,
-    "freq_rank": 2841,
+    "freq_rank": 2844,
     "example": {
       "fiwo": "Botop vepi rufocor.",
       "english": "The boat needs an anchor."
@@ -16041,7 +16041,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 381,
     "freq": 0,
-    "freq_rank": 2845,
+    "freq_rank": 2848,
     "example": {
       "fiwo": "Bojap arsumpi mety rukojop.",
       "english": "Blood flows through the vein."
@@ -16059,7 +16059,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 2,
-    "freq_rank": 1014,
+    "freq_rank": 1016,
     "example": {
       "fiwo": "Rumatrup zy lurubrap trivei.",
       "english": "The testimony of the witness is true."
@@ -16073,7 +16073,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 581,
     "freq": 0,
-    "freq_rank": 2847,
+    "freq_rank": 2850,
     "example": {
       "fiwo": "Ikamo hiq ty rupo.",
       "english": "The shirt is on the hook."
@@ -16087,7 +16087,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 208,
     "freq": 8,
-    "freq_rank": 536,
+    "freq_rank": 539,
     "example": {
       "fiwo": "Kinop pivmei.",
       "english": "The knife is sharp."
@@ -16102,7 +16102,7 @@ const dictionaryData = [
     "rank": 251,
     "usage_note": "Rolling preserves the object's shape; to deform it by turning, use mogowi (twist).",
     "freq": 2,
-    "freq_rank": 1015,
+    "freq_rank": 1017,
     "example": {
       "fiwo": "Daq ruwid drafop.",
       "english": "He rolled the wheel."
@@ -16119,7 +16119,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 8,
-    "freq_rank": 542,
+    "freq_rank": 545,
     "example": {
       "fiwo": "Das ruxigid stalop.",
       "english": "She pointed at the star."
@@ -16137,7 +16137,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 45,
-    "freq_rank": 141,
+    "freq_rank": 142,
     "example": {
       "fiwo": "Detap suke ruzei.",
       "english": "Your dog is fast."
@@ -16172,7 +16172,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 2852,
+    "freq_rank": 2855,
     "example": {
       "fiwo": "Bambodo ryji dorso.",
       "english": "The sponge absorbs the water."
@@ -16186,7 +16186,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 227,
     "freq": 0,
-    "freq_rank": 2855,
+    "freq_rank": 2858,
     "example": {
       "fiwo": "Ryrobop luare.",
       "english": "The stem is green."
@@ -16200,7 +16200,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 410,
     "freq": 1,
-    "freq_rank": 1404,
+    "freq_rank": 1407,
     "example": {
       "fiwo": "Xyrop stomid ryzusur zy mik.",
       "english": "The shop gave me a discount."
@@ -16231,7 +16231,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 285,
     "freq": 1,
-    "freq_rank": 1407,
+    "freq_rank": 1410,
     "example": {
       "fiwo": "Safunup tumi ruze.",
       "english": "Fashion changes fast."
@@ -16294,7 +16294,7 @@ const dictionaryData = [
       "technology"
     ],
     "freq": 1,
-    "freq_rank": 1278,
+    "freq_rank": 1281,
     "example": {
       "fiwo": "Artuap lilwid fator jaxke.",
       "english": "The artist invented a new machine."
@@ -16311,7 +16311,7 @@ const dictionaryData = [
       "family_people"
     ],
     "freq": 4,
-    "freq_rank": 714,
+    "freq_rank": 716,
     "example": {
       "fiwo": "Browap ry mik ceni tapo.",
       "english": "My sibling lives here."
@@ -16325,7 +16325,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 288,
     "freq": 1,
-    "freq_rank": 1087,
+    "freq_rank": 1089,
     "example": {
       "fiwo": "Mik cackis mitap.",
       "english": "I will taste the meat."
@@ -16357,7 +16357,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 164,
     "freq": 1,
-    "freq_rank": 1409,
+    "freq_rank": 1412,
     "example": {
       "fiwo": "Savodop cape.",
       "english": "The coal is black."
@@ -16371,7 +16371,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 279,
     "freq": 11,
-    "freq_rank": 462,
+    "freq_rank": 463,
     "example": {
       "fiwo": "Sazap suke breniq nudu.",
       "english": "Your sister is coming today."
@@ -16385,7 +16385,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 270,
     "freq": 0,
-    "freq_rank": 2869,
+    "freq_rank": 2872,
     "example": {
       "fiwo": "Segrop pivme.",
       "english": "The blade is sharp."
@@ -16432,7 +16432,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 90,
     "freq": 1,
-    "freq_rank": 1410,
+    "freq_rank": 1413,
     "example": {
       "fiwo": "Sep, muk kypei.",
       "english": "In conclusion, we are happy."
@@ -16449,7 +16449,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 0,
-    "freq_rank": 2872,
+    "freq_rank": 2875,
     "example": {
       "fiwo": "Nak xalid zy jurop sesny xabesop.",
       "english": "We went to the city despite the wind."
@@ -16463,7 +16463,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 83,
     "freq": 0,
-    "freq_rank": 2896,
+    "freq_rank": 2899,
     "example": {
       "fiwo": "Das skuvid ufaxop.",
       "english": "She updated the message."
@@ -16477,7 +16477,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 215,
     "freq": 0,
-    "freq_rank": 2877,
+    "freq_rank": 2880,
     "example": {
       "fiwo": "Sidohop kuxi sydop.",
       "english": "The pillar supports the house."
@@ -16522,8 +16522,8 @@ const dictionaryData = [
     "definition": "Proximal deictic; the current or immediately preceding clause or concept.",
     "tier": 0,
     "rank": 20,
-    "freq": 35,
-    "freq_rank": 178,
+    "freq": 37,
+    "freq_rank": 173,
     "example": {
       "fiwo": "Mik kyti sil.",
       "english": "I like this."
@@ -16539,8 +16539,8 @@ const dictionaryData = [
     "domains": [
       "grammar"
     ],
-    "freq": 96,
-    "freq_rank": 75,
+    "freq": 94,
+    "freq_rank": 76,
     "example": {
       "fiwo": "Sydop sile tandei.",
       "english": "This house is big."
@@ -16572,7 +16572,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 147,
     "freq": 1,
-    "freq_rank": 1411,
+    "freq_rank": 1414,
     "example": {
       "fiwo": "Mik fabi sismorup.",
       "english": "I want access."
@@ -16586,7 +16586,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 453,
     "freq": 0,
-    "freq_rank": 2884,
+    "freq_rank": 2887,
     "example": {
       "fiwo": "Siswasop leupe.",
       "english": "The stripe is red."
@@ -16604,7 +16604,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 2,
-    "freq_rank": 1018,
+    "freq_rank": 1020,
     "example": {
       "fiwo": "Montop sitastup zy xadorop.",
       "english": "The mountain is the source of the river."
@@ -16623,7 +16623,7 @@ const dictionaryData = [
     ],
     "usage_note": "Breaking an object. Breaking a law or rule is padhi.",
     "freq": 42,
-    "freq_rank": 150,
+    "freq_rank": 151,
     "example": {
       "fiwo": "Daq skagid ducop.",
       "english": "He broke the mirror."
@@ -16637,7 +16637,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 151,
     "freq": 1,
-    "freq_rank": 1412,
+    "freq_rank": 1415,
     "example": {
       "fiwo": "Mik skaxebi guzap.",
       "english": "I suspect the enemy."
@@ -16651,7 +16651,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 431,
     "freq": 0,
-    "freq_rank": 2734,
+    "freq_rank": 2737,
     "example": {
       "fiwo": "Pivrap weoke.",
       "english": "The pufferfish is round."
@@ -16684,7 +16684,7 @@ const dictionaryData = [
     "rank": 214,
     "usage_note": "Buying and selling as a system. The place you go to shop is xowero. The economy as a whole, with its industries, is afymu.",
     "freq": 3,
-    "freq_rank": 859,
+    "freq_rank": 862,
     "example": {
       "fiwo": "Skorup cunte tandei.",
       "english": "The current market is big."
@@ -16698,7 +16698,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 125,
     "freq": 0,
-    "freq_rank": 2892,
+    "freq_rank": 2895,
     "example": {
       "fiwo": "Daq gidsid skroqop.",
       "english": "He bought cheese."
@@ -16712,7 +16712,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 412,
     "freq": 0,
-    "freq_rank": 2894,
+    "freq_rank": 2897,
     "example": {
       "fiwo": "Mik skrybid.",
       "english": "I sneezed."
@@ -16729,7 +16729,7 @@ const dictionaryData = [
       "war_conflict"
     ],
     "freq": 11,
-    "freq_rank": 463,
+    "freq_rank": 464,
     "example": {
       "fiwo": "Fuegop skumkis sydop.",
       "english": "Fire will destroy the house."
@@ -16743,7 +16743,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 121,
     "freq": 1,
-    "freq_rank": 1415,
+    "freq_rank": 1418,
     "example": {
       "fiwo": "Skutodop ty ragop.",
       "english": "The antenna is on the roof."
@@ -16757,7 +16757,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 80,
     "freq": 10,
-    "freq_rank": 487,
+    "freq_rank": 490,
     "example": {
       "fiwo": "Batap ripeid slafe.",
       "english": "The food was too hot."
@@ -16771,7 +16771,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 336,
     "freq": 0,
-    "freq_rank": 2898,
+    "freq_rank": 2901,
     "example": {
       "fiwo": "Slewofop jilfe.",
       "english": "The wax is smooth."
@@ -16785,7 +16785,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 446,
     "freq": 0,
-    "freq_rank": 2901,
+    "freq_rank": 2904,
     "example": {
       "fiwo": "Mik jedi slojor.",
       "english": "I have a fan."
@@ -16813,7 +16813,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 228,
     "freq": 5,
-    "freq_rank": 698,
+    "freq_rank": 700,
     "example": {
       "fiwo": "Sluqedup hid spelup.",
       "english": "Saturday was game day."
@@ -16841,7 +16841,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 144,
     "freq": 0,
-    "freq_rank": 2905,
+    "freq_rank": 2908,
     "example": {
       "fiwo": "Mita smeze.",
       "english": "The meat is raw."
@@ -16858,7 +16858,7 @@ const dictionaryData = [
       "animals"
     ],
     "freq": 0,
-    "freq_rank": 2908,
+    "freq_rank": 2911,
     "example": {
       "fiwo": "Smibrap deky mortsap.",
       "english": "The bat is in the forest."
@@ -16876,7 +16876,7 @@ const dictionaryData = [
       "body"
     ],
     "freq": 1,
-    "freq_rank": 1416,
+    "freq_rank": 1419,
     "example": {
       "fiwo": "Manap smimid cadap.",
       "english": "The mother kissed the child."
@@ -16890,7 +16890,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 258,
     "freq": 3,
-    "freq_rank": 860,
+    "freq_rank": 863,
     "example": {
       "fiwo": "Mik smotifid jyjop.",
       "english": "I restored the computer."
@@ -16904,7 +16904,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 80,
     "freq": 0,
-    "freq_rank": 2912,
+    "freq_rank": 2915,
     "example": {
       "fiwo": "Jormup sile smusur.",
       "english": "This situation is horse-to-water futility."
@@ -16918,7 +16918,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 277,
     "freq": 1,
-    "freq_rank": 1291,
+    "freq_rank": 1294,
     "example": {
       "fiwo": "Lusbap ruze.",
       "english": "The deer is fast."
@@ -16932,7 +16932,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 72,
     "freq": 1,
-    "freq_rank": 1419,
+    "freq_rank": 1422,
     "example": {
       "fiwo": "Xyrop stomid snasumur zy mik.",
       "english": "The shop gave me a refund."
@@ -16946,7 +16946,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 427,
     "freq": 2,
-    "freq_rank": 1019,
+    "freq_rank": 1021,
     "example": {
       "fiwo": "Vexup snibexe.",
       "english": "The weather is humid."
@@ -16963,7 +16963,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 4,
-    "freq_rank": 749,
+    "freq_rank": 751,
     "example": {
       "fiwo": "Daq snugipid detap.",
       "english": "He released the dog."
@@ -16977,7 +16977,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 341,
     "freq": 0,
-    "freq_rank": 2921,
+    "freq_rank": 2924,
     "example": {
       "fiwo": "Socup ry nak gawei.",
       "english": "Our society is good."
@@ -16991,7 +16991,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 157,
     "freq": 1,
-    "freq_rank": 1421,
+    "freq_rank": 1424,
     "example": {
       "fiwo": "Soduju tande.",
       "english": "The population is big."
@@ -17005,7 +17005,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 280,
     "freq": 1,
-    "freq_rank": 1422,
+    "freq_rank": 1425,
     "example": {
       "fiwo": "Jyjo sogeswe.",
       "english": "The computer is electronic."
@@ -17019,7 +17019,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 388,
     "freq": 0,
-    "freq_rank": 2937,
+    "freq_rank": 2940,
     "example": {
       "fiwo": "Spikop floveid.",
       "english": "The sock was dirty."
@@ -17033,7 +17033,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 226,
     "freq": 4,
-    "freq_rank": 750,
+    "freq_rank": 752,
     "example": {
       "fiwo": "Nak solfis biwup.",
       "english": "We will solve the problem."
@@ -17047,7 +17047,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 380,
     "freq": 0,
-    "freq_rank": 2926,
+    "freq_rank": 2929,
     "example": {
       "fiwo": "Somadap ruze.",
       "english": "The dolphin is fast."
@@ -17061,7 +17061,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 354,
     "freq": 0,
-    "freq_rank": 2928,
+    "freq_rank": 2931,
     "example": {
       "fiwo": "Batap sonei.",
       "english": "The food is spicy."
@@ -17075,7 +17075,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 80,
     "freq": 14,
-    "freq_rank": 401,
+    "freq_rank": 402,
     "example": {
       "fiwo": "Sop domloi.",
       "english": "It is raining, I can see it."
@@ -17090,7 +17090,7 @@ const dictionaryData = [
     "rank": 49,
     "usage_note": "To fall down. The season (fall, autumn) is zosu.",
     "freq": 43,
-    "freq_rank": 146,
+    "freq_rank": 147,
     "example": {
       "fiwo": "Kyranap sowid.",
       "english": "The feather fell."
@@ -17132,7 +17132,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 277,
     "freq": 0,
-    "freq_rank": 2935,
+    "freq_rank": 2938,
     "example": {
       "fiwo": "Spicupu ry das tandeid.",
       "english": "Her loyalty was great."
@@ -17146,7 +17146,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 321,
     "freq": 0,
-    "freq_rank": 1683,
+    "freq_rank": 1686,
     "example": {
       "fiwo": "Boxrap mik nifne.",
       "english": "My cheek is small."
@@ -17160,7 +17160,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 360,
     "freq": 2,
-    "freq_rank": 1021,
+    "freq_rank": 1023,
     "example": {
       "fiwo": "Daq splyxid batap.",
       "english": "He chopped the food."
@@ -17174,7 +17174,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 156,
     "freq": 1,
-    "freq_rank": 1428,
+    "freq_rank": 1431,
     "example": {
       "fiwo": "Mik jedi spogubur zy kegla.",
       "english": "I have an allergy to grass."
@@ -17188,7 +17188,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 399,
     "freq": 0,
-    "freq_rank": 2944,
+    "freq_rank": 2947,
     "example": {
       "fiwo": "Spujubap deky tubsop.",
       "english": "The squid is in the ocean."
@@ -17202,7 +17202,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 341,
     "freq": 0,
-    "freq_rank": 2947,
+    "freq_rank": 2950,
     "example": {
       "fiwo": "Fubap spuxizid.",
       "english": "The fish splashed."
@@ -17219,7 +17219,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 2948,
+    "freq_rank": 2951,
     "example": {
       "fiwo": "Jormup sile spyfur.",
       "english": "This situation is passive luck-waiting."
@@ -17233,7 +17233,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 249,
     "freq": 13,
-    "freq_rank": 421,
+    "freq_rank": 422,
     "example": {
       "fiwo": "Stalop lixeid.",
       "english": "The star was bright."
@@ -17247,7 +17247,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 567,
     "freq": 0,
-    "freq_rank": 2950,
+    "freq_rank": 2953,
     "example": {
       "fiwo": "Das staxid weorop mety dorsop.",
       "english": "She filled the ball with water."
@@ -17265,7 +17265,7 @@ const dictionaryData = [
       "trade_money"
     ],
     "freq": 46,
-    "freq_rank": 140,
+    "freq_rank": 141,
     "example": {
       "fiwo": "Das stelid gidup mike.",
       "english": "She took my money."
@@ -17293,7 +17293,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 358,
     "freq": 4,
-    "freq_rank": 751,
+    "freq_rank": 753,
     "example": {
       "fiwo": "Farlopap jamid stibuxur.",
       "english": "The doctor wrote a prescription."
@@ -17311,7 +17311,7 @@ const dictionaryData = [
       "number_quantity"
     ],
     "freq": 10,
-    "freq_rank": 475,
+    "freq_rank": 478,
     "example": {
       "fiwo": "Hekop dwimeid.",
       "english": "The line was long."
@@ -17329,7 +17329,7 @@ const dictionaryData = [
       "social_interaction"
     ],
     "freq": 127,
-    "freq_rank": 51,
+    "freq_rank": 52,
     "example": {
       "fiwo": "Manap mike stomid batap zy mik.",
       "english": "My mother gave the food to me."
@@ -17343,7 +17343,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 395,
     "freq": 0,
-    "freq_rank": 2942,
+    "freq_rank": 2945,
     "example": {
       "fiwo": "Sporop wapse.",
       "english": "The slab is flat."
@@ -17357,7 +17357,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 139,
     "freq": 14,
-    "freq_rank": 403,
+    "freq_rank": 404,
     "example": {
       "fiwo": "Stramup ry nak xeskid.",
       "english": "Our team won."
@@ -17371,7 +17371,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 239,
     "freq": 10,
-    "freq_rank": 488,
+    "freq_rank": 491,
     "example": {
       "fiwo": "Nak xogri manap mike strene.",
       "english": "We will visit my mother soon."
@@ -17385,7 +17385,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 325,
     "freq": 1,
-    "freq_rank": 1430,
+    "freq_rank": 1433,
     "example": {
       "fiwo": "Das strici nibop fy fiwo.",
       "english": "She translates the book from Fiwo."
@@ -17403,7 +17403,7 @@ const dictionaryData = [
       "body"
     ],
     "freq": 1,
-    "freq_rank": 1431,
+    "freq_rank": 1434,
     "example": {
       "fiwo": "Nosanap stryvid kad ripeu.",
       "english": "The woman fainted because of the heat."
@@ -17420,7 +17420,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 4,
-    "freq_rank": 752,
+    "freq_rank": 754,
     "example": {
       "fiwo": "Kop stuzygi ram.",
       "english": "Undo it."
@@ -17437,7 +17437,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 2589,
+    "freq_rank": 2592,
     "example": {
       "fiwo": "Domlop sowiq neme.",
       "english": "Rain is likely falling."
@@ -17451,7 +17451,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 252,
     "freq": 5,
-    "freq_rank": 699,
+    "freq_rank": 701,
     "example": {
       "fiwo": "Daq sudid moblop.",
       "english": "He pushed the car."
@@ -17465,7 +17465,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 238,
     "freq": 9,
-    "freq_rank": 510,
+    "freq_rank": 513,
     "example": {
       "fiwo": "Moblop purkid zy poxmeup.",
       "english": "The car turned to the left."
@@ -17479,7 +17479,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 320,
     "freq": 0,
-    "freq_rank": 2971,
+    "freq_rank": 2974,
     "example": {
       "fiwo": "Suglasap hicid zy cysmop.",
       "english": "The zombie walked to the village."
@@ -17492,7 +17492,7 @@ const dictionaryData = [
     "definition": "Second-person singular; strictly the listener.",
     "tier": 0,
     "rank": 3,
-    "freq": 373,
+    "freq": 375,
     "freq_rank": 13,
     "example": {
       "fiwo": "Suk jofiq mik nudu.",
@@ -17524,7 +17524,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 209,
     "freq": 1,
-    "freq_rank": 1433,
+    "freq_rank": 1436,
     "example": {
       "fiwo": "Sulpop kivwe.",
       "english": "The dye is blue."
@@ -17538,7 +17538,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 112,
     "freq": 10,
-    "freq_rank": 489,
+    "freq_rank": 492,
     "example": {
       "fiwo": "Susnop capeid.",
       "english": "The screen was dark."
@@ -17583,7 +17583,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 584,
     "freq": 0,
-    "freq_rank": 2978,
+    "freq_rank": 2981,
     "example": {
       "fiwo": "Mik lantid suxo zy refo.",
       "english": "I added cream to the coffee."
@@ -17597,7 +17597,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 89,
     "freq": 24,
-    "freq_rank": 257,
+    "freq_rank": 258,
     "example": {
       "fiwo": "Mik swamid kalop ty degop.",
       "english": "I put the cup on the table."
@@ -17611,7 +17611,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 252,
     "freq": 0,
-    "freq_rank": 2980,
+    "freq_rank": 2983,
     "example": {
       "fiwo": "Swesop sowid.",
       "english": "Sweat fell."
@@ -17628,7 +17628,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 0,
-    "freq_rank": 2983,
+    "freq_rank": 2986,
     "example": {
       "fiwo": "Nofa late brenid swozy David.",
       "english": "Everyone came except David."
@@ -17642,7 +17642,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 112,
     "freq": 0,
-    "freq_rank": 2984,
+    "freq_rank": 2987,
     "example": {
       "fiwo": "Nak pauli swucup.",
       "english": "We feel relief."
@@ -17656,7 +17656,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 31,
     "freq": 4,
-    "freq_rank": 754,
+    "freq_rank": 756,
     "example": {
       "fiwo": "Mik onasid sycar.",
       "english": "I planted a seed."
@@ -17669,7 +17669,7 @@ const dictionaryData = [
     "definition": "This refers to a structure or place serving as a dwelling, providing protection from the elements and a living space for habitation.",
     "tier": 1,
     "rank": 19,
-    "freq": 231,
+    "freq": 232,
     "freq_rank": 19,
     "example": {
       "fiwo": "Sydop ry mik.",
@@ -17683,8 +17683,8 @@ const dictionaryData = [
     "definition": "Marks a theoretical premise or conditional clause (if/when/whenever).",
     "tier": 0,
     "rank": 97,
-    "freq": 126,
-    "freq_rank": 52,
+    "freq": 129,
+    "freq_rank": 49,
     "example": {
       "fiwo": "Syn suk jofis mik can mik stomis gidup suke zy suk.",
       "english": "If you help me, then I will give you your money."
@@ -17701,7 +17701,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 2,
-    "freq_rank": 1026,
+    "freq_rank": 1028,
     "example": {
       "fiwo": "Synarup ry ibazop stobeid.",
       "english": "The prerequisite of the school was hard."
@@ -17715,7 +17715,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 328,
     "freq": 0,
-    "freq_rank": 2992,
+    "freq_rank": 2995,
     "example": {
       "fiwo": "Sysup ry mik bokeid.",
       "english": "My boredom was bad."
@@ -17757,7 +17757,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 117,
     "freq": 0,
-    "freq_rank": 2998,
+    "freq_rank": 3001,
     "example": {
       "fiwo": "Ram tagudur.",
       "english": "That is a bad bargain."
@@ -17785,7 +17785,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 338,
     "freq": 0,
-    "freq_rank": 3000,
+    "freq_rank": 3003,
     "example": {
       "fiwo": "Tajup ry daq bokeid.",
       "english": "His envy was bad."
@@ -17799,7 +17799,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 26,
     "freq": 33,
-    "freq_rank": 194,
+    "freq_rank": 195,
     "example": {
       "fiwo": "Detap mike tandei jete taly catsap suke.",
       "english": "My dog is bigger than your cat."
@@ -17831,7 +17831,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 169,
     "freq": 24,
-    "freq_rank": 259,
+    "freq_rank": 260,
     "example": {
       "fiwo": "Tubsop tandei.",
       "english": "The ocean is vast."
@@ -17845,7 +17845,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 245,
     "freq": 8,
-    "freq_rank": 547,
+    "freq_rank": 550,
     "example": {
       "fiwo": "Tankop zuzkei.",
       "english": "Sugar is sweet."
@@ -17876,7 +17876,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 255,
     "freq": 13,
-    "freq_rank": 422,
+    "freq_rank": 423,
     "example": {
       "fiwo": "Taqap mike kypeid.",
       "english": "My brother was happy."
@@ -17890,7 +17890,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 269,
     "freq": 4,
-    "freq_rank": 755,
+    "freq_rank": 757,
     "example": {
       "fiwo": "Mik tatesmid fy otmap.",
       "english": "I recovered from the sickness."
@@ -17921,7 +17921,7 @@ const dictionaryData = [
       "grammar"
     ],
     "freq": 0,
-    "freq_rank": 3009,
+    "freq_rank": 3012,
     "example": {
       "fiwo": "Spelup gaweid tebe.",
       "english": "The game was especially good."
@@ -17935,7 +17935,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 147,
     "freq": 0,
-    "freq_rank": 3011,
+    "freq_rank": 3014,
     "example": {
       "fiwo": "Tefamap daq tande.",
       "english": "His hip is big."
@@ -17949,7 +17949,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 164,
     "freq": 2,
-    "freq_rank": 1027,
+    "freq_rank": 1029,
     "example": {
       "fiwo": "Caqwap tehidi fiwop.",
       "english": "The boy studies the language."
@@ -18019,7 +18019,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 233,
     "freq": 13,
-    "freq_rank": 423,
+    "freq_rank": 424,
     "example": {
       "fiwo": "Tesop ripeid.",
       "english": "The tea was hot."
@@ -18033,7 +18033,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 96,
     "freq": 1,
-    "freq_rank": 1437,
+    "freq_rank": 1440,
     "example": {
       "fiwo": "Tex, mik xalis nu.",
       "english": "Goodbye, I am leaving now."
@@ -18047,7 +18047,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 134,
     "freq": 0,
-    "freq_rank": 3017,
+    "freq_rank": 3020,
     "example": {
       "fiwo": "Tifavap nifne.",
       "english": "The bush is small."
@@ -18061,7 +18061,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 75,
     "freq": 1,
-    "freq_rank": 1439,
+    "freq_rank": 1442,
     "example": {
       "fiwo": "Uxkup nake tiherkid ubliup nake.",
       "english": "Our success exceeded our expectation."
@@ -18075,7 +18075,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 50,
     "freq": 1,
-    "freq_rank": 1440,
+    "freq_rank": 1443,
     "example": {
       "fiwo": "Nak xalid dury timufu.",
       "english": "We left at dusk."
@@ -18089,7 +18089,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 337,
     "freq": 0,
-    "freq_rank": 3021,
+    "freq_rank": 3024,
     "example": {
       "fiwo": "Timybop tande.",
       "english": "The pumpkin is big."
@@ -18106,7 +18106,7 @@ const dictionaryData = [
       "society_law"
     ],
     "freq": 1,
-    "freq_rank": 1441,
+    "freq_rank": 1444,
     "example": {
       "fiwo": "Kup suk jedi tindobor?",
       "english": "Do you have a license?"
@@ -18120,7 +18120,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 298,
     "freq": 5,
-    "freq_rank": 701,
+    "freq_rank": 703,
     "example": {
       "fiwo": "Mik tsejaid tisoslop.",
       "english": "I saw the horizon."
@@ -18135,7 +18135,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 126,
     "freq": 1,
-    "freq_rank": 1442,
+    "freq_rank": 1445,
     "example": {
       "fiwo": "Mik tocei cagy suk.",
       "english": "I am sorry to you."
@@ -18166,7 +18166,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 229,
     "freq": 3,
-    "freq_rank": 864,
+    "freq_rank": 868,
     "example": {
       "fiwo": "Daq todyrid meokop.",
       "english": "He raised the hat."
@@ -18181,7 +18181,7 @@ const dictionaryData = [
     "rank": 306,
     "usage_note": "Open grassland. A field of study is atobu.",
     "freq": 3,
-    "freq_rank": 865,
+    "freq_rank": 869,
     "example": {
       "fiwo": "Buvap deky tofakrop.",
       "english": "The cow is in the field."
@@ -18195,7 +18195,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 363,
     "freq": 0,
-    "freq_rank": 3032,
+    "freq_rank": 3035,
     "example": {
       "fiwo": "Tofrap ry mik brenid.",
       "english": "My aunt came."
@@ -18212,7 +18212,7 @@ const dictionaryData = [
       "trade_money"
     ],
     "freq": 1,
-    "freq_rank": 1443,
+    "freq_rank": 1446,
     "example": {
       "fiwo": "Das toilis gidur zy mik.",
       "english": "She will lend money to me."
@@ -18226,7 +18226,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 388,
     "freq": 0,
-    "freq_rank": 3041,
+    "freq_rank": 3044,
     "example": {
       "fiwo": "Mik jamid tolkywop.",
       "english": "I drew a cross."
@@ -18240,7 +18240,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 117,
     "freq": 2,
-    "freq_rank": 1029,
+    "freq_rank": 1031,
     "example": {
       "fiwo": "Topzap ry daq tandeid.",
       "english": "His chest was large."
@@ -18254,7 +18254,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 39,
     "freq": 1,
-    "freq_rank": 1444,
+    "freq_rank": 1447,
     "example": {
       "fiwo": "Ram tosurur.",
       "english": "That is hardship endurance."
@@ -18268,7 +18268,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 237,
     "freq": 1,
-    "freq_rank": 1445,
+    "freq_rank": 1448,
     "example": {
       "fiwo": "Govnup nake tovnis tifup.",
       "english": "Our government will establish the law."
@@ -18282,7 +18282,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 105,
     "freq": 2,
-    "freq_rank": 1030,
+    "freq_rank": 1032,
     "example": {
       "fiwo": "Tox. Kop muk roli.",
       "english": "Cheers. Let's drink."
@@ -18296,7 +18296,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 274,
     "freq": 0,
-    "freq_rank": 3045,
+    "freq_rank": 3048,
     "example": {
       "fiwo": "Toxup ry daq gaweid.",
       "english": "His mentality was good."
@@ -18310,7 +18310,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 529,
     "freq": 0,
-    "freq_rank": 3048,
+    "freq_rank": 3051,
     "example": {
       "fiwo": "Traxap ry nofa late.",
       "english": "The kidney of everyone."
@@ -18324,7 +18324,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 337,
     "freq": 1,
-    "freq_rank": 1446,
+    "freq_rank": 1449,
     "example": {
       "fiwo": "Mik nes triduli blyfor.",
       "english": "I cannot afford a car."
@@ -18341,7 +18341,7 @@ const dictionaryData = [
       "emotion"
     ],
     "freq": 0,
-    "freq_rank": 3050,
+    "freq_rank": 3053,
     "example": {
       "fiwo": "Triruzup ry mik bokeid.",
       "english": "My frustration was bad."
@@ -18355,7 +18355,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 415,
     "freq": 2,
-    "freq_rank": 1031,
+    "freq_rank": 1033,
     "example": {
       "fiwo": "Nak pauli truhup.",
       "english": "We feel awe."
@@ -18369,7 +18369,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 292,
     "freq": 0,
-    "freq_rank": 3053,
+    "freq_rank": 3056,
     "example": {
       "fiwo": "Trynda mike pamuid.",
       "english": "My ankle hurt."
@@ -18383,7 +18383,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 287,
     "freq": 1,
-    "freq_rank": 1450,
+    "freq_rank": 1453,
     "example": {
       "fiwo": "Rezap tsakeid.",
       "english": "The leader was angry."
@@ -18397,7 +18397,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 229,
     "freq": 3,
-    "freq_rank": 866,
+    "freq_rank": 870,
     "example": {
       "fiwo": "Mik xogrid manap mike tsenge.",
       "english": "I visit my mother often."
@@ -18410,8 +18410,8 @@ const dictionaryData = [
     "definition": "This verb means to go away from a place, person, or thing; to depart.",
     "tier": 1,
     "rank": 64,
-    "freq": 82,
-    "freq_rank": 89,
+    "freq": 86,
+    "freq_rank": 85,
     "example": {
       "fiwo": "Daq fwimid wecdu.",
       "english": "He left yesterday."
@@ -18425,7 +18425,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 464,
     "freq": 0,
-    "freq_rank": 3062,
+    "freq_rank": 3065,
     "example": {
       "fiwo": "Tsorfop das nifne.",
       "english": "Her silver is small."
@@ -18442,7 +18442,7 @@ const dictionaryData = [
       "emotion"
     ],
     "freq": 0,
-    "freq_rank": 3064,
+    "freq_rank": 3067,
     "example": {
       "fiwo": "Tsotup mike tandei.",
       "english": "My contentment is great."
@@ -18478,7 +18478,7 @@ const dictionaryData = [
       "art_music"
     ],
     "freq": 0,
-    "freq_rank": 3070,
+    "freq_rank": 3073,
     "example": {
       "fiwo": "Muk tudarid krulop suke.",
       "english": "We decorated your room."
@@ -18492,7 +18492,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 190,
     "freq": 3,
-    "freq_rank": 867,
+    "freq_rank": 871,
     "example": {
       "fiwo": "Hoxop tudihid.",
       "english": "The door banged."
@@ -18510,7 +18510,7 @@ const dictionaryData = [
       "trade_money"
     ],
     "freq": 1,
-    "freq_rank": 1453,
+    "freq_rank": 1456,
     "example": {
       "fiwo": "Daq stomid tujyrur zy ukwiap.",
       "english": "He gave a bribe to the judge."
@@ -18524,7 +18524,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 270,
     "freq": 5,
-    "freq_rank": 702,
+    "freq_rank": 704,
     "example": {
       "fiwo": "Tulop myi lamsor.",
       "english": "The bottle contains milk."
@@ -18541,7 +18541,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 34,
-    "freq_rank": 188,
+    "freq_rank": 189,
     "example": {
       "fiwo": "Fiturup tumid nak.",
       "english": "The future changed us."
@@ -18556,7 +18556,7 @@ const dictionaryData = [
     "rank": 588,
     "usage_note": "A specific tooth; the general word is pwosa.",
     "freq": 0,
-    "freq_rank": 3077,
+    "freq_rank": 3080,
     "example": {
       "fiwo": "Iega jedi tura je pivme.",
       "english": "The lion has sharp fangs."
@@ -18585,7 +18585,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 184,
     "freq": 3,
-    "freq_rank": 883,
+    "freq_rank": 886,
     "example": {
       "fiwo": "Tankop zuzkei.",
       "english": "Sugar is sweet."
@@ -18599,7 +18599,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 169,
     "freq": 2,
-    "freq_rank": 1033,
+    "freq_rank": 1035,
     "example": {
       "fiwo": "Tuxuntop xivei.",
       "english": "The bill is expensive."
@@ -18630,7 +18630,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 311,
     "freq": 1,
-    "freq_rank": 1456,
+    "freq_rank": 1459,
     "example": {
       "fiwo": "Tykop ry buskop mike reseid.",
       "english": "The material of my clothes was soft."
@@ -18644,7 +18644,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 247,
     "freq": 1,
-    "freq_rank": 1457,
+    "freq_rank": 1460,
     "example": {
       "fiwo": "Mik gidsid tytuju tafe.",
       "english": "I bought three units."
@@ -18658,7 +18658,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 586,
     "freq": 0,
-    "freq_rank": 3084,
+    "freq_rank": 3087,
     "example": {
       "fiwo": "Fuba tyxe ceni ky tubso.",
       "english": "The tropical fish lives in the ocean."
@@ -18673,7 +18673,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 383,
     "freq": 5,
-    "freq_rank": 703,
+    "freq_rank": 705,
     "example": {
       "fiwo": "Mik ublis uxkur.",
       "english": "I expect success."
@@ -18690,7 +18690,7 @@ const dictionaryData = [
       "society_law"
     ],
     "freq": 0,
-    "freq_rank": 3085,
+    "freq_rank": 3088,
     "example": {
       "fiwo": "Picalop ubmei.",
       "english": "The hospital is public."
@@ -18704,7 +18704,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 392,
     "freq": 0,
-    "freq_rank": 3087,
+    "freq_rank": 3090,
     "example": {
       "fiwo": "Uckap gefridyq fy zasop.",
       "english": "The seedling was coming out from the ground."
@@ -18718,7 +18718,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 315,
     "freq": 0,
-    "freq_rank": 3089,
+    "freq_rank": 3092,
     "example": {
       "fiwo": "Uctop ty icifop.",
       "english": "The spoon is on the plate."
@@ -18736,7 +18736,7 @@ const dictionaryData = [
       "tools_objects"
     ],
     "freq": 5,
-    "freq_rank": 704,
+    "freq_rank": 706,
     "example": {
       "fiwo": "Udbop nifneid.",
       "english": "The button was small."
@@ -18753,7 +18753,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 3092,
+    "freq_rank": 3095,
     "example": {
       "fiwo": "Belimop udceid.",
       "english": "The shoe was tight."
@@ -18770,7 +18770,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 3094,
+    "freq_rank": 3097,
     "example": {
       "fiwo": "Udzidup ry sydop baudeid.",
       "english": "The appearance of the house was beautiful."
@@ -18817,7 +18817,7 @@ const dictionaryData = [
       "society_law"
     ],
     "freq": 0,
-    "freq_rank": 3100,
+    "freq_rank": 3103,
     "example": {
       "fiwo": "Ufnup cimidyq.",
       "english": "The conflict was starting."
@@ -18835,7 +18835,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 3102,
+    "freq_rank": 3105,
     "example": {
       "fiwo": "Tulop ugnis.",
       "english": "The bottle will leak."
@@ -18849,7 +18849,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 433,
     "freq": 1,
-    "freq_rank": 1460,
+    "freq_rank": 1463,
     "example": {
       "fiwo": "Teso ripei ugte.",
       "english": "The tea is barely hot."
@@ -18863,7 +18863,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 303,
     "freq": 0,
-    "freq_rank": 3104,
+    "freq_rank": 3107,
     "example": {
       "fiwo": "Ugvup ry daq tandeid.",
       "english": "His ambition was great."
@@ -18878,7 +18878,7 @@ const dictionaryData = [
     "rank": 417,
     "usage_note": "A banner (a long cloth hung or carried for display) is lodro.",
     "freq": 8,
-    "freq_rank": 549,
+    "freq_rank": 551,
     "example": {
       "fiwo": "Uhop kivweid.",
       "english": "The flag was blue."
@@ -18895,7 +18895,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 4,
-    "freq_rank": 758,
+    "freq_rank": 760,
     "example": {
       "fiwo": "Uibup ry moblop zaveid.",
       "english": "The risk of the vehicle was high."
@@ -18909,7 +18909,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 103,
     "freq": 9,
-    "freq_rank": 512,
+    "freq_rank": 515,
     "example": {
       "fiwo": "Daq ukwi jormup.",
       "english": "He judges the case."
@@ -18923,7 +18923,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 465,
     "freq": 0,
-    "freq_rank": 2444,
+    "freq_rank": 2447,
     "example": {
       "fiwo": "Das pauli ligpup.",
       "english": "She feels embarrassment."
@@ -18938,7 +18938,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 124,
     "freq": 9,
-    "freq_rank": 513,
+    "freq_rank": 516,
     "example": {
       "fiwo": "Aplap ulimei.",
       "english": "The apple is half."
@@ -18952,7 +18952,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 58,
     "freq": 0,
-    "freq_rank": 3109,
+    "freq_rank": 3112,
     "example": {
       "fiwo": "Ultup ry gop jorei.",
       "english": "The context of the word is important."
@@ -18966,7 +18966,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 141,
     "freq": 1,
-    "freq_rank": 1462,
+    "freq_rank": 1465,
     "example": {
       "fiwo": "Licap mike umetid razur otre.",
       "english": "My colleague suggested another plan."
@@ -18980,7 +18980,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 262,
     "freq": 10,
-    "freq_rank": 491,
+    "freq_rank": 494,
     "example": {
       "fiwo": "Rezap umzis cyvap.",
       "english": "The president welcomes the stranger."
@@ -18994,7 +18994,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 432,
     "freq": 1,
-    "freq_rank": 1464,
+    "freq_rank": 1467,
     "example": {
       "fiwo": "Untexop gaweid.",
       "english": "The app was good."
@@ -19008,7 +19008,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 306,
     "freq": 0,
-    "freq_rank": 3114,
+    "freq_rank": 3117,
     "example": {
       "fiwo": "Unyhap zovi ty drekop.",
       "english": "The moss is on the rock."
@@ -19022,7 +19022,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 170,
     "freq": 1,
-    "freq_rank": 1465,
+    "freq_rank": 1468,
     "example": {
       "fiwo": "Uovop reseid.",
       "english": "The pillow was soft."
@@ -19036,7 +19036,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 375,
     "freq": 0,
-    "freq_rank": 3117,
+    "freq_rank": 3120,
     "example": {
       "fiwo": "Melfup upfeid.",
       "english": "The price was unequal."
@@ -19050,7 +19050,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 230,
     "freq": 0,
-    "freq_rank": 3119,
+    "freq_rank": 3122,
     "example": {
       "fiwo": "Uptap cyridyq tody montop.",
       "english": "The eagle was flying above the mountain."
@@ -19068,7 +19068,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 1,
-    "freq_rank": 1467,
+    "freq_rank": 1470,
     "example": {
       "fiwo": "Kyfap upvid wizap je.",
       "english": "The bird stretched its wings."
@@ -19087,7 +19087,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 95,
-    "freq_rank": 76,
+    "freq_rank": 75,
     "example": {
       "fiwo": "Kop upyci zipap mike!",
       "english": "Look at my face!"
@@ -19115,7 +19115,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 57,
     "freq": 8,
-    "freq_rank": 550,
+    "freq_rank": 552,
     "example": {
       "fiwo": "Urfup locweid.",
       "english": "The signal was bright."
@@ -19129,7 +19129,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 233,
     "freq": 34,
-    "freq_rank": 189,
+    "freq_rank": 190,
     "example": {
       "fiwo": "Caslap uropi hautup.",
       "english": "The girl sings the music."
@@ -19143,7 +19143,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 357,
     "freq": 0,
-    "freq_rank": 3124,
+    "freq_rank": 3127,
     "example": {
       "fiwo": "Tivwop usatei.",
       "english": "The path is straight."
@@ -19193,7 +19193,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 63,
     "freq": 3,
-    "freq_rank": 868,
+    "freq_rank": 872,
     "example": {
       "fiwo": "Gofor utmis ty dorsop.",
       "english": "Wood will float on the water."
@@ -19207,7 +19207,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 242,
     "freq": 0,
-    "freq_rank": 3129,
+    "freq_rank": 3132,
     "example": {
       "fiwo": "Uvgap ry belap mike.",
       "english": "The toe of my foot."
@@ -19222,7 +19222,7 @@ const dictionaryData = [
     "rank": 289,
     "usage_note": "Garlic is sygpa.",
     "freq": 0,
-    "freq_rank": 3131,
+    "freq_rank": 3134,
     "example": {
       "fiwo": "Uwap zuzkeid.",
       "english": "The onion was sweet."
@@ -19239,7 +19239,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 0,
-    "freq_rank": 3133,
+    "freq_rank": 3136,
     "example": {
       "fiwo": "Plahop uxbeid.",
       "english": "The lock was loose."
@@ -19253,7 +19253,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 71,
     "freq": 12,
-    "freq_rank": 443,
+    "freq_rank": 444,
     "example": {
       "fiwo": "Uxkup ry daq tandeid.",
       "english": "His success was great."
@@ -19267,7 +19267,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 101,
     "freq": 3,
-    "freq_rank": 869,
+    "freq_rank": 873,
     "example": {
       "fiwo": "Noqsap uzkis latwap.",
       "english": "The man will hunt the animal."
@@ -19281,7 +19281,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 227,
     "freq": 2,
-    "freq_rank": 1035,
+    "freq_rank": 1037,
     "example": {
       "fiwo": "Batap uzumei.",
       "english": "The food is enough."
@@ -19295,7 +19295,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 589,
     "freq": 0,
-    "freq_rank": 3136,
+    "freq_rank": 3139,
     "example": {
       "fiwo": "Mik lokid nibo deky vado.",
       "english": "I read a book in the library."
@@ -19309,7 +19309,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 450,
     "freq": 1,
-    "freq_rank": 1473,
+    "freq_rank": 1476,
     "example": {
       "fiwo": "Vagaflop leupei.",
       "english": "The laser is red."
@@ -19323,7 +19323,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 56,
     "freq": 4,
-    "freq_rank": 760,
+    "freq_rank": 762,
     "example": {
       "fiwo": "Daq vahimis biwup.",
       "english": "He will handle the problem."
@@ -19340,7 +19340,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 3140,
+    "freq_rank": 3143,
     "example": {
       "fiwo": "Kop rari vajuzur.",
       "english": "Remember counterproductive haste."
@@ -19353,8 +19353,8 @@ const dictionaryData = [
     "definition": "A cinematic work that tells a story through moving images.",
     "tier": 2,
     "rank": 156,
-    "freq": 3,
-    "freq_rank": 870,
+    "freq": 4,
+    "freq_rank": 763,
     "example": {
       "fiwo": "Muk tsejapis vakykor dugu.",
       "english": "We will watch a movie at night."
@@ -19368,7 +19368,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 62,
     "freq": 2,
-    "freq_rank": 1036,
+    "freq_rank": 1038,
     "example": {
       "fiwo": "Valup ry mik brenid.",
       "english": "My opportunity arrived."
@@ -19382,7 +19382,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 310,
     "freq": 0,
-    "freq_rank": 3142,
+    "freq_rank": 3145,
     "example": {
       "fiwo": "Mik tsejaid vamursup.",
       "english": "I saw the eclipse."
@@ -19396,7 +19396,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 452,
     "freq": 0,
-    "freq_rank": 3144,
+    "freq_rank": 3147,
     "example": {
       "fiwo": "Minzap vansis zye.",
       "english": "The nation will progress forward."
@@ -19424,7 +19424,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 228,
     "freq": 0,
-    "freq_rank": 3145,
+    "freq_rank": 3148,
     "example": {
       "fiwo": "Vefap ry latwar tandei.",
       "english": "The lung of an animal is big."
@@ -19452,7 +19452,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 37,
     "freq": 8,
-    "freq_rank": 551,
+    "freq_rank": 553,
     "example": {
       "fiwo": "Mik nacid vel suk usid.",
       "english": "I worked while you slept."
@@ -19466,7 +19466,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 319,
     "freq": 0,
-    "freq_rank": 3148,
+    "freq_rank": 3151,
     "example": {
       "fiwo": "Vengop stobeid.",
       "english": "The flint was hard."
@@ -19483,7 +19483,7 @@ const dictionaryData = [
       "emotion"
     ],
     "freq": 1,
-    "freq_rank": 1475,
+    "freq_rank": 1478,
     "example": {
       "fiwo": "Veponkup ry das tandeid.",
       "english": "Her surprise was great."
@@ -19497,7 +19497,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 204,
     "freq": 0,
-    "freq_rank": 3150,
+    "freq_rank": 3153,
     "example": {
       "fiwo": "Vesmap daq farlue.",
       "english": "His liver is healthy."
@@ -19525,7 +19525,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 159,
     "freq": 1,
-    "freq_rank": 1478,
+    "freq_rank": 1481,
     "example": {
       "fiwo": "Daq viancis bucit.",
       "english": "He dares to jump."
@@ -19539,7 +19539,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 155,
     "freq": 2,
-    "freq_rank": 1039,
+    "freq_rank": 1041,
     "example": {
       "fiwo": "Nosanap viceid.",
       "english": "The woman was brave."
@@ -19553,7 +19553,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 454,
     "freq": 2,
-    "freq_rank": 1040,
+    "freq_rank": 1042,
     "example": {
       "fiwo": "Mik vifis dorsop.",
       "english": "I will boil the water."
@@ -19581,7 +19581,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 389,
     "freq": 0,
-    "freq_rank": 3157,
+    "freq_rank": 3160,
     "example": {
       "fiwo": "Lirup vildei.",
       "english": "The direction is direct."
@@ -19595,7 +19595,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 229,
     "freq": 0,
-    "freq_rank": 3159,
+    "freq_rank": 3162,
     "example": {
       "fiwo": "Virap twaveid.",
       "english": "The elephant was heavy."
@@ -19610,7 +19610,7 @@ const dictionaryData = [
     "rank": 377,
     "usage_note": "One symbol of the alphabet. A letter you send is ufaxo.",
     "freq": 0,
-    "freq_rank": 3161,
+    "freq_rank": 3164,
     "example": {
       "fiwo": "Vispop nifne.",
       "english": "The letter is small."
@@ -19624,7 +19624,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 190,
     "freq": 12,
-    "freq_rank": 444,
+    "freq_rank": 445,
     "example": {
       "fiwo": "Vivup jabeid.",
       "english": "The evening was cold."
@@ -19638,7 +19638,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 231,
     "freq": 0,
-    "freq_rank": 3164,
+    "freq_rank": 3167,
     "example": {
       "fiwo": "Vixop myi dorsor.",
       "english": "The bucket contains water."
@@ -19652,7 +19652,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 313,
     "freq": 4,
-    "freq_rank": 761,
+    "freq_rank": 764,
     "example": {
       "fiwo": "Vofup baudeid.",
       "english": "Spring was beautiful."
@@ -19666,7 +19666,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 405,
     "freq": 12,
-    "freq_rank": 445,
+    "freq_rank": 446,
     "example": {
       "fiwo": "Vohap cenidyq deky degop.",
       "english": "The mouse was living inside the table."
@@ -19680,7 +19680,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 177,
     "freq": 0,
-    "freq_rank": 3169,
+    "freq_rank": 3172,
     "example": {
       "fiwo": "Vojop locwe.",
       "english": "The powder is white."
@@ -19694,7 +19694,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 312,
     "freq": 0,
-    "freq_rank": 3171,
+    "freq_rank": 3174,
     "example": {
       "fiwo": "Nofap vokreid.",
       "english": "The person was greedy."
@@ -19711,7 +19711,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 1670,
+    "freq_rank": 1673,
     "example": {
       "fiwo": "Nak bodsis jofit.",
       "english": "We are willing to help."
@@ -19725,7 +19725,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 219,
     "freq": 1,
-    "freq_rank": 1484,
+    "freq_rank": 1487,
     "example": {
       "fiwo": "Gidup vomei.",
       "english": "The money is less."
@@ -19739,7 +19739,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 205,
     "freq": 2,
-    "freq_rank": 1042,
+    "freq_rank": 1044,
     "example": {
       "fiwo": "Nofa fabi vorosmop.",
       "english": "People want heaven."
@@ -19781,7 +19781,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 359,
     "freq": 0,
-    "freq_rank": 3175,
+    "freq_rank": 3178,
     "example": {
       "fiwo": "Das vudipid dzocop.",
       "english": "She glazed the pottery."
@@ -19799,7 +19799,7 @@ const dictionaryData = [
       "work_education"
     ],
     "freq": 0,
-    "freq_rank": 3177,
+    "freq_rank": 3180,
     "example": {
       "fiwo": "Vuglop daq tande.",
       "english": "His template is big."
@@ -19813,7 +19813,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 576,
     "freq": 0,
-    "freq_rank": 3179,
+    "freq_rank": 3182,
     "example": {
       "fiwo": "Nofa vulfid latwa deky woru.",
       "english": "The person trapped the animal in the forest."
@@ -19831,7 +19831,7 @@ const dictionaryData = [
       "family_people"
     ],
     "freq": 1,
-    "freq_rank": 1485,
+    "freq_rank": 1488,
     "example": {
       "fiwo": "Vuperpup ceni deky mortsap.",
       "english": "The tribe lives in the forest."
@@ -19845,7 +19845,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 134,
     "freq": 1,
-    "freq_rank": 1486,
+    "freq_rank": 1489,
     "example": {
       "fiwo": "Mik tsejai vutytop.",
       "english": "I see the figure."
@@ -19859,7 +19859,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 44,
     "freq": 2,
-    "freq_rank": 1043,
+    "freq_rank": 1045,
     "example": {
       "fiwo": "Vuwop zindidyq.",
       "english": "The bell was ringing."
@@ -19901,7 +19901,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 214,
     "freq": 1,
-    "freq_rank": 1487,
+    "freq_rank": 1490,
     "example": {
       "fiwo": "Mitap suve vyhei.",
       "english": "Your meat is mild."
@@ -19915,7 +19915,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 281,
     "freq": 0,
-    "freq_rank": 3186,
+    "freq_rank": 3189,
     "example": {
       "fiwo": "Vymap bucid ky xadorop.",
       "english": "The frog jumped at the river."
@@ -19929,7 +19929,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 102,
     "freq": 0,
-    "freq_rank": 3188,
+    "freq_rank": 3191,
     "example": {
       "fiwo": "Vynop ry mik.",
       "english": "The desk is mine."
@@ -19943,7 +19943,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 351,
     "freq": 0,
-    "freq_rank": 3190,
+    "freq_rank": 3193,
     "example": {
       "fiwo": "Vywup ry hautup gaweid.",
       "english": "The rhythm of the music was good."
@@ -19960,7 +19960,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 3,
-    "freq_rank": 871,
+    "freq_rank": 874,
     "example": {
       "fiwo": "Vohap vyzid fy sydop.",
       "english": "The mouse escaped from the house."
@@ -19995,7 +19995,7 @@ const dictionaryData = [
       "trade_money"
     ],
     "freq": 12,
-    "freq_rank": 446,
+    "freq_rank": 447,
     "example": {
       "fiwo": "Mik wafrid oqop mike.",
       "english": "I lost my ticket."
@@ -20009,7 +20009,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 224,
     "freq": 2,
-    "freq_rank": 1008,
+    "freq_rank": 1010,
     "example": {
       "fiwo": "Uovop resei.",
       "english": "The pillow is soft."
@@ -20037,7 +20037,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 189,
     "freq": 5,
-    "freq_rank": 697,
+    "freq_rank": 699,
     "example": {
       "fiwo": "Wusap poxmei.",
       "english": "The hand is the left."
@@ -20055,7 +20055,7 @@ const dictionaryData = [
       "nature_land"
     ],
     "freq": 0,
-    "freq_rank": 2914,
+    "freq_rank": 2917,
     "example": {
       "fiwo": "Snavop baudeid.",
       "english": "The environment was beautiful."
@@ -20069,7 +20069,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 365,
     "freq": 4,
-    "freq_rank": 763,
+    "freq_rank": 766,
     "example": {
       "fiwo": "Degop wapsei.",
       "english": "The table is flat."
@@ -20097,7 +20097,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 361,
     "freq": 1,
-    "freq_rank": 1491,
+    "freq_rank": 1494,
     "example": {
       "fiwo": "Wasmanap ry mik otmaid.",
       "english": "My grandmother was sick."
@@ -20125,7 +20125,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 335,
     "freq": 0,
-    "freq_rank": 3200,
+    "freq_rank": 3203,
     "example": {
       "fiwo": "Waspebap ry mik jofidyq mik.",
       "english": "My grandfather was helping me."
@@ -20154,7 +20154,7 @@ const dictionaryData = [
     "rank": 24,
     "usage_note": "A missing thing as the subject is won; a missing person in any slot is wun.",
     "freq": 39,
-    "freq_rank": 161,
+    "freq_rank": 162,
     "example": {
       "fiwo": "Kup suk steliq wat?",
       "english": "What are you holding?"
@@ -20183,7 +20183,7 @@ const dictionaryData = [
     "rank": 7,
     "usage_note": "Physical exercise. Plain going or moving is xali; moving something is mepdi.",
     "freq": 1,
-    "freq_rank": 1492,
+    "freq_rank": 1495,
     "example": {
       "fiwo": "Nosanap waxis nudu.",
       "english": "The woman will exercise today."
@@ -20197,7 +20197,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 225,
     "freq": 1,
-    "freq_rank": 1364,
+    "freq_rank": 1367,
     "example": {
       "fiwo": "Soxap mike paxei.",
       "english": "My body is weak."
@@ -20211,7 +20211,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 360,
     "freq": 1,
-    "freq_rank": 1493,
+    "freq_rank": 1496,
     "example": {
       "fiwo": "Webodzop deky fatop skagid.",
       "english": "The circuit inside the machine broke."
@@ -20256,7 +20256,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 5,
-    "freq_rank": 705,
+    "freq_rank": 707,
     "example": {
       "fiwo": "Isamup wecei.",
       "english": "The result is satisfactory."
@@ -20270,7 +20270,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 72,
     "freq": 5,
-    "freq_rank": 706,
+    "freq_rank": 708,
     "example": {
       "fiwo": "Wedacup ry nak bokeid.",
       "english": "Our past was bad."
@@ -20284,7 +20284,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 460,
     "freq": 0,
-    "freq_rank": 3209,
+    "freq_rank": 3212,
     "example": {
       "fiwo": "Wefuhup gawei.",
       "english": "The climate is good."
@@ -20298,7 +20298,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 122,
     "freq": 0,
-    "freq_rank": 3211,
+    "freq_rank": 3214,
     "example": {
       "fiwo": "Wegup weceid.",
       "english": "The angle was right."
@@ -20315,7 +20315,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 2,
-    "freq_rank": 1045,
+    "freq_rank": 1047,
     "example": {
       "fiwo": "Suk welid mik.",
       "english": "You interrupted me."
@@ -20329,7 +20329,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 25,
     "freq": 1,
-    "freq_rank": 1496,
+    "freq_rank": 1499,
     "example": {
       "fiwo": "Mik wembizid busko zy libywu.",
       "english": "I donated clothes to charity."
@@ -20343,7 +20343,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 528,
     "freq": 0,
-    "freq_rank": 3216,
+    "freq_rank": 3219,
     "example": {
       "fiwo": "Wentop doteid.",
       "english": "The ladder was strong."
@@ -20357,7 +20357,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 95,
     "freq": 2,
-    "freq_rank": 1046,
+    "freq_rank": 1048,
     "example": {
       "fiwo": "Weorop weokei.",
       "english": "The ball is round."
@@ -20371,7 +20371,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 138,
     "freq": 14,
-    "freq_rank": 404,
+    "freq_rank": 405,
     "example": {
       "fiwo": "Daq xerid weorop.",
       "english": "He threw the ball."
@@ -20385,7 +20385,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 41,
     "freq": 14,
-    "freq_rank": 405,
+    "freq_rank": 406,
     "example": {
       "fiwo": "Kup dal ceni ky wer?",
       "english": "Where does he/she live?"
@@ -20420,7 +20420,7 @@ const dictionaryData = [
       "art_music"
     ],
     "freq": 4,
-    "freq_rank": 765,
+    "freq_rank": 768,
     "example": {
       "fiwo": "Das sapid widirpor.",
       "english": "She made a video."
@@ -20434,7 +20434,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 307,
     "freq": 0,
-    "freq_rank": 3221,
+    "freq_rank": 3224,
     "example": {
       "fiwo": "Wigakru ry mik tandeid.",
       "english": "My trust was great."
@@ -20448,7 +20448,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 263,
     "freq": 1,
-    "freq_rank": 1498,
+    "freq_rank": 1501,
     "example": {
       "fiwo": "Das wikis zutap.",
       "english": "She will squeeze the fruit."
@@ -20462,7 +20462,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 254,
     "freq": 37,
-    "freq_rank": 172,
+    "freq_rank": 174,
     "example": {
       "fiwo": "Wilop xosidyq.",
       "english": "The window was opening."
@@ -20476,7 +20476,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 345,
     "freq": 3,
-    "freq_rank": 873,
+    "freq_rank": 876,
     "example": {
       "fiwo": "Winrop ripeid.",
       "english": "The wine was warm."
@@ -20490,7 +20490,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 28,
     "freq": 9,
-    "freq_rank": 516,
+    "freq_rank": 519,
     "example": {
       "fiwo": "Kup suk brenid ky wiq?",
       "english": "When did you arrive?"
@@ -20504,7 +20504,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 395,
     "freq": 12,
-    "freq_rank": 447,
+    "freq_rank": 448,
     "example": {
       "fiwo": "Wiranop skagid.",
       "english": "The glass broke."
@@ -20518,7 +20518,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 42,
     "freq": 8,
-    "freq_rank": 553,
+    "freq_rank": 555,
     "example": {
       "fiwo": "Kup daq xyfid wis ram?",
       "english": "How did he do it?"
@@ -20546,7 +20546,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 402,
     "freq": 1,
-    "freq_rank": 1499,
+    "freq_rank": 1502,
     "example": {
       "fiwo": "Kyfap jedi wiza kage.",
       "english": "The bird has two wings."
@@ -20560,7 +20560,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 208,
     "freq": 0,
-    "freq_rank": 3230,
+    "freq_rank": 3233,
     "example": {
       "fiwo": "Wodobop das nifne.",
       "english": "Her potato is small."
@@ -20588,7 +20588,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 52,
     "freq": 1,
-    "freq_rank": 1501,
+    "freq_rank": 1504,
     "example": {
       "fiwo": "Jormup sile wokutur.",
       "english": "This situation is relational fate."
@@ -20602,7 +20602,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 207,
     "freq": 1,
-    "freq_rank": 1502,
+    "freq_rank": 1505,
     "example": {
       "fiwo": "Womap cenidyq deky mudop.",
       "english": "The worm was living in the mud."
@@ -20616,7 +20616,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 35,
     "freq": 12,
-    "freq_rank": 448,
+    "freq_rank": 449,
     "example": {
       "fiwo": "Kup won linid skejup?",
       "english": "What caused the sound?"
@@ -20630,7 +20630,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 246,
     "freq": 3,
-    "freq_rank": 874,
+    "freq_rank": 877,
     "example": {
       "fiwo": "Juro jedi wopyvop.",
       "english": "The city has facilities."
@@ -20663,7 +20663,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 257,
     "freq": 2,
-    "freq_rank": 1025,
+    "freq_rank": 1027,
     "example": {
       "fiwo": "Caenop stusei.",
       "english": "The street is short."
@@ -20680,7 +20680,7 @@ const dictionaryData = [
       "technology"
     ],
     "freq": 5,
-    "freq_rank": 707,
+    "freq_rank": 709,
     "example": {
       "fiwo": "Mik wotipid ufaxop.",
       "english": "I deleted the message."
@@ -20694,7 +20694,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 73,
     "freq": 3,
-    "freq_rank": 875,
+    "freq_rank": 878,
     "example": {
       "fiwo": "Wox, sydop suke baudei!",
       "english": "Wow, your house is beautiful!"
@@ -20708,7 +20708,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 309,
     "freq": 0,
-    "freq_rank": 3236,
+    "freq_rank": 3239,
     "example": {
       "fiwo": "Wozuprop pivme.",
       "english": "The spear is sharp."
@@ -20722,7 +20722,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 199,
     "freq": 2,
-    "freq_rank": 1047,
+    "freq_rank": 1049,
     "example": {
       "fiwo": "Daq wubid odcanop.",
       "english": "He bent the rope."
@@ -20739,7 +20739,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 1,
-    "freq_rank": 1503,
+    "freq_rank": 1506,
     "example": {
       "fiwo": "Kop rari wuflur.",
       "english": "Remember self-deception."
@@ -20753,7 +20753,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 33,
     "freq": 22,
-    "freq_rank": 282,
+    "freq_rank": 283,
     "example": {
       "fiwo": "Kup suk karxid deta wug?",
       "english": "How many dogs did you find?"
@@ -20767,7 +20767,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 277,
     "freq": 1,
-    "freq_rank": 1504,
+    "freq_rank": 1507,
     "example": {
       "fiwo": "Wujop tandeid.",
       "english": "The map was large."
@@ -20781,7 +20781,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 149,
     "freq": 3,
-    "freq_rank": 803,
+    "freq_rank": 806,
     "example": {
       "fiwo": "Zasop feznei.",
       "english": "The ground is dry."
@@ -20810,7 +20810,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 211,
     "freq": 0,
-    "freq_rank": 3242,
+    "freq_rank": 3245,
     "example": {
       "fiwo": "Wuswop deky mosap.",
       "english": "The nest is in the tree."
@@ -20824,7 +20824,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 84,
     "freq": 0,
-    "freq_rank": 3244,
+    "freq_rank": 3247,
     "example": {
       "fiwo": "Krapop wutroe.",
       "english": "The wall is made of concrete."
@@ -20838,7 +20838,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 68,
     "freq": 0,
-    "freq_rank": 3245,
+    "freq_rank": 3248,
     "example": {
       "fiwo": "Xabesop wuxiwid.",
       "english": "The wind whooshed."
@@ -20872,7 +20872,7 @@ const dictionaryData = [
       "property_quality"
     ],
     "freq": 4,
-    "freq_rank": 766,
+    "freq_rank": 769,
     "example": {
       "fiwo": "Rerpop wydei.",
       "english": "The place is safe."
@@ -20886,7 +20886,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 184,
     "freq": 0,
-    "freq_rank": 3247,
+    "freq_rank": 3250,
     "example": {
       "fiwo": "Wyqop myi dorsor.",
       "english": "The soap contains water."
@@ -20900,7 +20900,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 243,
     "freq": 3,
-    "freq_rank": 876,
+    "freq_rank": 879,
     "example": {
       "fiwo": "Nofa gugi ty wyrofo.",
       "english": "The person stands on the platform."
@@ -20914,7 +20914,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 203,
     "freq": 23,
-    "freq_rank": 267,
+    "freq_rank": 269,
     "example": {
       "fiwo": "Xabesop doteid.",
       "english": "The wind was strong."
@@ -20942,7 +20942,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 219,
     "freq": 2,
-    "freq_rank": 1048,
+    "freq_rank": 1050,
     "example": {
       "fiwo": "Nofa nes hi xageje.",
       "english": "People do not exist forever."
@@ -20956,7 +20956,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 259,
     "freq": 0,
-    "freq_rank": 3251,
+    "freq_rank": 3254,
     "example": {
       "fiwo": "Xakop satsiq ragop.",
       "english": "The hail is hitting the roof."
@@ -20970,7 +20970,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 330,
     "freq": 8,
-    "freq_rank": 554,
+    "freq_rank": 556,
     "example": {
       "fiwo": "Atripop xalatis juro late.",
       "english": "The train will pass all cities."
@@ -20984,7 +20984,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 8,
     "usage_note": "Never takes an object. To move something else, use mepdi — or a more specific verb: swami (put), nyrsi (carry), sudi (push), goji (pull), todyri (lift). Contrast breni (come).",
-    "freq": 152,
+    "freq": 154,
     "freq_rank": 38,
     "example": {
       "fiwo": "Mik xalis zy jurop.",
@@ -20999,7 +20999,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 65,
     "freq": 1,
-    "freq_rank": 1508,
+    "freq_rank": 1511,
     "example": {
       "fiwo": "Xap mik kyti detar.",
       "english": "For example, I like dogs."
@@ -21013,7 +21013,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 290,
     "freq": 0,
-    "freq_rank": 3256,
+    "freq_rank": 3259,
     "example": {
       "fiwo": "Xaqbop xiveid.",
       "english": "The gold was expensive."
@@ -21027,7 +21027,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 92,
     "freq": 2,
-    "freq_rank": 1049,
+    "freq_rank": 1051,
     "example": {
       "fiwo": "Litop xarei.",
       "english": "The light is clear."
@@ -21041,7 +21041,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 81,
     "freq": 10,
-    "freq_rank": 492,
+    "freq_rank": 495,
     "example": {
       "fiwo": "Kinop vy xedo.",
       "english": "The knife is made of metal."
@@ -21055,7 +21055,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 4,
     "freq": 50,
-    "freq_rank": 133,
+    "freq_rank": 134,
     "example": {
       "fiwo": "Xekup mike tandei.",
       "english": "My country is big."
@@ -21070,7 +21070,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 78,
     "freq": 3,
-    "freq_rank": 877,
+    "freq_rank": 880,
     "example": {
       "fiwo": "Mik xempid fiwo dionu late.",
       "english": "I practiced Fiwo every day."
@@ -21085,7 +21085,7 @@ const dictionaryData = [
     "rank": 158,
     "usage_note": "An entitlement. For 'correct' use hiqe; for the right side use lyse.",
     "freq": 4,
-    "freq_rank": 768,
+    "freq_rank": 771,
     "example": {
       "fiwo": "Daq jedi xepytup.",
       "english": "He has the right."
@@ -21117,7 +21117,7 @@ const dictionaryData = [
       "social_interaction"
     ],
     "freq": 13,
-    "freq_rank": 424,
+    "freq_rank": 425,
     "example": {
       "fiwo": "Stramup nake xeskis spelup.",
       "english": "Our team will win the game."
@@ -21131,7 +21131,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 113,
     "freq": 0,
-    "freq_rank": 3267,
+    "freq_rank": 3270,
     "example": {
       "fiwo": "Xex. Ram xixui fe.",
       "english": "Haha. That's very funny."
@@ -21145,7 +21145,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 228,
     "freq": 4,
-    "freq_rank": 770,
+    "freq_rank": 773,
     "example": {
       "fiwo": "Mik xibis brenit fitydu.",
       "english": "I promise to come tomorrow."
@@ -21159,7 +21159,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 578,
     "freq": 0,
-    "freq_rank": 3269,
+    "freq_rank": 3272,
     "example": {
       "fiwo": "Muk karxid xico ky sanpo.",
       "english": "We found treasure in the sand."
@@ -21173,7 +21173,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 349,
     "freq": 0,
-    "freq_rank": 3272,
+    "freq_rank": 3275,
     "example": {
       "fiwo": "Sulpop xiglehe.",
       "english": "The dye is magenta."
@@ -21187,7 +21187,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 43,
     "freq": 1,
-    "freq_rank": 1513,
+    "freq_rank": 1516,
     "example": {
       "fiwo": "Xildop doteid.",
       "english": "The shield was strong."
@@ -21205,7 +21205,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 4,
-    "freq_rank": 771,
+    "freq_rank": 774,
     "example": {
       "fiwo": "Mik xalis zy xinadzu.",
       "english": "I will go to the conference."
@@ -21219,7 +21219,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 217,
     "freq": 22,
-    "freq_rank": 283,
+    "freq_rank": 284,
     "example": {
       "fiwo": "Xiolop ry mik.",
       "english": "The chair is mine."
@@ -21233,7 +21233,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 583,
     "freq": 0,
-    "freq_rank": 3277,
+    "freq_rank": 3280,
     "example": {
       "fiwo": "Nofa xirfid rima je cagy winro.",
       "english": "The person fermented the grapes for wine."
@@ -21250,7 +21250,7 @@ const dictionaryData = [
       "movement"
     ],
     "freq": 2,
-    "freq_rank": 1053,
+    "freq_rank": 1055,
     "example": {
       "fiwo": "Mik tsejaid xiseslup.",
       "english": "I watched the race."
@@ -21267,7 +21267,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 0,
-    "freq_rank": 3280,
+    "freq_rank": 3283,
     "example": {
       "fiwo": "Jormup sile xistur.",
       "english": "This situation is a contradiction."
@@ -21281,7 +21281,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 345,
     "freq": 0,
-    "freq_rank": 3281,
+    "freq_rank": 3284,
     "example": {
       "fiwo": "Catsap xisyzid.",
       "english": "The cat hissed."
@@ -21295,7 +21295,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 350,
     "freq": 0,
-    "freq_rank": 3282,
+    "freq_rank": 3285,
     "example": {
       "fiwo": "Daq xitrikid zy jurop.",
       "english": "He teleported to the city."
@@ -21309,7 +21309,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 213,
     "freq": 1,
-    "freq_rank": 1514,
+    "freq_rank": 1517,
     "example": {
       "fiwo": "Moblop xivei.",
       "english": "The car is expensive."
@@ -21327,7 +21327,7 @@ const dictionaryData = [
       "communication"
     ],
     "freq": 0,
-    "freq_rank": 3285,
+    "freq_rank": 3288,
     "example": {
       "fiwo": "Xixup ry stepup gaweid.",
       "english": "The humor of the story was good."
@@ -21341,7 +21341,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 279,
     "freq": 0,
-    "freq_rank": 3288,
+    "freq_rank": 3291,
     "example": {
       "fiwo": "Susnop ry xocewop.",
       "english": "The television screen."
@@ -21356,7 +21356,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 207,
     "freq": 9,
-    "freq_rank": 517,
+    "freq_rank": 520,
     "example": {
       "fiwo": "Nak xogrid manap mike.",
       "english": "We visited my mother."
@@ -21370,7 +21370,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 81,
     "freq": 1,
-    "freq_rank": 1515,
+    "freq_rank": 1518,
     "example": {
       "fiwo": "Xom, ram je tandeid.",
       "english": "In other words, they were big."
@@ -21384,7 +21384,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 223,
     "freq": 0,
-    "freq_rank": 3291,
+    "freq_rank": 3294,
     "example": {
       "fiwo": "Xonkap daq tande.",
       "english": "His chin is big."
@@ -21398,7 +21398,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 171,
     "freq": 0,
-    "freq_rank": 3293,
+    "freq_rank": 3296,
     "example": {
       "fiwo": "Xopap jedi furnar locwe.",
       "english": "The sheep has white wool."
@@ -21446,7 +21446,7 @@ const dictionaryData = [
     "rank": 128,
     "usage_note": "The event. To show something is cetofi.",
     "freq": 4,
-    "freq_rank": 772,
+    "freq_rank": 775,
     "example": {
       "fiwo": "Xowup cimidyq.",
       "english": "The show was starting."
@@ -21474,7 +21474,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 276,
     "freq": 9,
-    "freq_rank": 518,
+    "freq_rank": 521,
     "example": {
       "fiwo": "Daq mepdidyq xufap.",
       "english": "He was moving his arm."
@@ -21488,7 +21488,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 241,
     "freq": 0,
-    "freq_rank": 2099,
+    "freq_rank": 2102,
     "example": {
       "fiwo": "Mik jedi grawiup.",
       "english": "I have gratitude."
@@ -21502,7 +21502,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 41,
     "freq": 1,
-    "freq_rank": 1516,
+    "freq_rank": 1519,
     "example": {
       "fiwo": "Mik xujilid widirpop zy gypu.",
       "english": "I uploaded the video to the internet."
@@ -21516,7 +21516,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 256,
     "freq": 0,
-    "freq_rank": 3304,
+    "freq_rank": 3307,
     "example": {
       "fiwo": "Das nomid xulazap.",
       "english": "She ate the cod."
@@ -21550,7 +21550,7 @@ const dictionaryData = [
       "social_interaction"
     ],
     "freq": 2,
-    "freq_rank": 1055,
+    "freq_rank": 1057,
     "example": {
       "fiwo": "Kop xwewi mik.",
       "english": "Excuse me."
@@ -21564,7 +21564,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 114,
     "freq": 3,
-    "freq_rank": 879,
+    "freq_rank": 882,
     "example": {
       "fiwo": "Mosap xy sydor.",
       "english": "The tree is shaped like a house."
@@ -21594,8 +21594,8 @@ const dictionaryData = [
     "domains": [
       "time"
     ],
-    "freq": 8,
-    "freq_rank": 556,
+    "freq": 11,
+    "freq_rank": 466,
     "example": {
       "fiwo": "Daq xygajid nacit.",
       "english": "He continued to work."
@@ -21609,7 +21609,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 451,
     "freq": 1,
-    "freq_rank": 1518,
+    "freq_rank": 1521,
     "example": {
       "fiwo": "Otsinop xygei.",
       "english": "The thread is thin."
@@ -21623,7 +21623,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 243,
     "freq": 0,
-    "freq_rank": 3312,
+    "freq_rank": 3315,
     "example": {
       "fiwo": "Xyntap nifne.",
       "english": "The turtle is small."
@@ -21637,7 +21637,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 420,
     "freq": 0,
-    "freq_rank": 3314,
+    "freq_rank": 3317,
     "example": {
       "fiwo": "Xyplop stobeid.",
       "english": "The iron was hard."
@@ -21651,7 +21651,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 158,
     "freq": 49,
-    "freq_rank": 135,
+    "freq_rank": 136,
     "example": {
       "fiwo": "Xyrop xosidyq.",
       "english": "The shop was opening."
@@ -21665,7 +21665,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 150,
     "freq": 0,
-    "freq_rank": 3317,
+    "freq_rank": 3320,
     "example": {
       "fiwo": "Xyswap dormidyq deky brirsop.",
       "english": "The duck was swimming in the lake."
@@ -21679,7 +21679,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 547,
     "freq": 1,
-    "freq_rank": 1520,
+    "freq_rank": 1523,
     "example": {
       "fiwo": "Ybawap ry mosap capeid.",
       "english": "The bark of the tree was dark."
@@ -21693,7 +21693,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 554,
     "freq": 0,
-    "freq_rank": 3320,
+    "freq_rank": 3323,
     "example": {
       "fiwo": "Ycubap pwosaidyq mik.",
       "english": "The mosquito was biting me."
@@ -21707,7 +21707,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 211,
     "freq": 0,
-    "freq_rank": 3322,
+    "freq_rank": 3325,
     "example": {
       "fiwo": "Daq brenis yfuke.",
       "english": "Of course he will come."
@@ -21735,7 +21735,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 106,
     "freq": 0,
-    "freq_rank": 3325,
+    "freq_rank": 3328,
     "example": {
       "fiwo": "Batap ynafei.",
       "english": "The food is delicious."
@@ -21749,7 +21749,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 419,
     "freq": 0,
-    "freq_rank": 3327,
+    "freq_rank": 3330,
     "example": {
       "fiwo": "Mik kypei ynse.",
       "english": "I am somewhat happy."
@@ -21777,7 +21777,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 212,
     "freq": 22,
-    "freq_rank": 284,
+    "freq_rank": 285,
     "example": {
       "fiwo": "Zabatop twaveid.",
       "english": "The bag was heavy."
@@ -21805,7 +21805,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 289,
     "freq": 3,
-    "freq_rank": 881,
+    "freq_rank": 884,
     "example": {
       "fiwo": "Zalap ceni ty cilap.",
       "english": "The bug is on the leaf."
@@ -21819,7 +21819,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 374,
     "freq": 0,
-    "freq_rank": 3335,
+    "freq_rank": 3338,
     "example": {
       "fiwo": "Zafrup ry xekup bokeid.",
       "english": "The politics of the country was bad."
@@ -21837,7 +21837,7 @@ const dictionaryData = [
       "mental"
     ],
     "freq": 14,
-    "freq_rank": 406,
+    "freq_rank": 407,
     "example": {
       "fiwo": "Ipkap zankis baxy cilar.",
       "english": "The spider will hide behind a leaf."
@@ -21855,7 +21855,7 @@ const dictionaryData = [
       "technology"
     ],
     "freq": 3,
-    "freq_rank": 882,
+    "freq_rank": 885,
     "example": {
       "fiwo": "Zapup ry govnup dotei.",
       "english": "The system of the government is strong."
@@ -21869,7 +21869,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 226,
     "freq": 11,
-    "freq_rank": 451,
+    "freq_rank": 452,
     "example": {
       "fiwo": "Cekgop sefeid.",
       "english": "The salt was salty."
@@ -21883,7 +21883,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 30,
     "freq": 39,
-    "freq_rank": 163,
+    "freq_rank": 164,
     "example": {
       "fiwo": "Zasop fezneid.",
       "english": "The ground was dry."
@@ -21897,7 +21897,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 292,
     "freq": 0,
-    "freq_rank": 3342,
+    "freq_rank": 3345,
     "example": {
       "fiwo": "Cilap zaterte.",
       "english": "The leaf is lime green."
@@ -21911,7 +21911,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 61,
     "freq": 18,
-    "freq_rank": 343,
+    "freq_rank": 342,
     "example": {
       "fiwo": "Montop zavei.",
       "english": "The mountain is high."
@@ -21929,7 +21929,7 @@ const dictionaryData = [
     ],
     "usage_note": "An experiencer-subject root (Rule 5.1): to admire = jegxui — the admirer is the subject, like tajui (envy).",
     "freq": 0,
-    "freq_rank": 2267,
+    "freq_rank": 2270,
     "example": {
       "fiwo": "Cada jegxuid lakiro.",
       "english": "The child admired the picture."
@@ -21944,7 +21944,7 @@ const dictionaryData = [
     "rank": 478,
     "usage_note": "Imagining while awake. The dream you have while asleep is pozmu (to dream: pozmui).",
     "freq": 1,
-    "freq_rank": 1521,
+    "freq_rank": 1524,
     "example": {
       "fiwo": "Mik zelbid gaxor jaxke.",
       "english": "I imagined a new island."
@@ -21958,7 +21958,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 77,
     "freq": 0,
-    "freq_rank": 3299,
+    "freq_rank": 3302,
     "example": {
       "fiwo": "Xubfop jilfe.",
       "english": "The butter is smooth."
@@ -21990,7 +21990,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 181,
     "freq": 0,
-    "freq_rank": 3348,
+    "freq_rank": 3351,
     "example": {
       "fiwo": "Zenup ry mana mike gawei.",
       "english": "My mother's care is good."
@@ -22004,7 +22004,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 201,
     "freq": 0,
-    "freq_rank": 3350,
+    "freq_rank": 3353,
     "example": {
       "fiwo": "Nak tsejaid zepuklup.",
       "english": "We saw the sunset."
@@ -22018,8 +22018,8 @@ const dictionaryData = [
     "usage_note": "Distinct from the preposition zety ('about'), which bridges mid-sentence.",
     "tier": 0,
     "rank": 9,
-    "freq": 35,
-    "freq_rank": 180,
+    "freq": 54,
+    "freq_rank": 126,
     "example": {
       "fiwo": "Zet nibop can John lokid ram.",
       "english": "As for the book, John read it."
@@ -22068,7 +22068,7 @@ const dictionaryData = [
       "number_quantity"
     ],
     "freq": 0,
-    "freq_rank": 3354,
+    "freq_rank": 3357,
     "example": {
       "fiwo": "Mik kanid zezurup.",
       "english": "I knew the version."
@@ -22082,7 +22082,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 84,
     "freq": 1,
-    "freq_rank": 1524,
+    "freq_rank": 1527,
     "example": {
       "fiwo": "Zib. Mik fwimi fuqe.",
       "english": "Good evening. I have to leave."
@@ -22099,7 +22099,7 @@ const dictionaryData = [
       "nature_land"
     ],
     "freq": 2,
-    "freq_rank": 1057,
+    "freq_rank": 1059,
     "example": {
       "fiwo": "Zidzopo tande.",
       "english": "The continent is big."
@@ -22113,7 +22113,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 376,
     "freq": 0,
-    "freq_rank": 3357,
+    "freq_rank": 3360,
     "example": {
       "fiwo": "Farlopap ziheid.",
       "english": "The doctor was famous."
@@ -22145,7 +22145,7 @@ const dictionaryData = [
       "clothing"
     ],
     "freq": 0,
-    "freq_rank": 2632,
+    "freq_rank": 2635,
     "example": {
       "fiwo": "Nuzcop das nifne.",
       "english": "Her trim is small."
@@ -22159,7 +22159,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 165,
     "freq": 0,
-    "freq_rank": 3362,
+    "freq_rank": 3365,
     "example": {
       "fiwo": "Zimempop locwe.",
       "english": "The pearl is white."
@@ -22177,7 +22177,7 @@ const dictionaryData = [
       "tools_objects"
     ],
     "freq": 0,
-    "freq_rank": 3364,
+    "freq_rank": 3367,
     "example": {
       "fiwo": "Nacia je hicid ty zimowop.",
       "english": "The workers walked on the scaffolding."
@@ -22191,7 +22191,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 273,
     "freq": 5,
-    "freq_rank": 708,
+    "freq_rank": 710,
     "example": {
       "fiwo": "Telfop zindiq.",
       "english": "The phone is ringing."
@@ -22205,7 +22205,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 130,
     "freq": 34,
-    "freq_rank": 190,
+    "freq_rank": 191,
     "example": {
       "fiwo": "Zipap dase baudei.",
       "english": "Her face is beautiful."
@@ -22219,7 +22219,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 187,
     "freq": 23,
-    "freq_rank": 268,
+    "freq_rank": 270,
     "example": {
       "fiwo": "Zitsugup ifezid tep nak foisois nevonor jaxke.",
       "english": "The council decided that we will build a new park."
@@ -22233,7 +22233,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 245,
     "freq": 0,
-    "freq_rank": 3368,
+    "freq_rank": 3371,
     "example": {
       "fiwo": "Zixefrap deky tubsop.",
       "english": "The coral is in the ocean."
@@ -22247,7 +22247,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 263,
     "freq": 23,
-    "freq_rank": 269,
+    "freq_rank": 271,
     "example": {
       "fiwo": "Das gidsid zobar.",
       "english": "She bought some vegetables."
@@ -22261,7 +22261,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 17,
     "freq": 4,
-    "freq_rank": 774,
+    "freq_rank": 777,
     "example": {
       "fiwo": "Skejup zodeid.",
       "english": "The sound was loud."
@@ -22289,7 +22289,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 45,
     "freq": 9,
-    "freq_rank": 519,
+    "freq_rank": 522,
     "example": {
       "fiwo": "Daq nacid zol daq iweid.",
       "english": "He worked although he was tired."
@@ -22303,7 +22303,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 85,
     "freq": 1,
-    "freq_rank": 1527,
+    "freq_rank": 1530,
     "example": {
       "fiwo": "Daq zonitid cevolop.",
       "english": "He stripped the log."
@@ -22346,7 +22346,7 @@ const dictionaryData = [
     "rank": 287,
     "usage_note": "The season. To fall down is sowi.",
     "freq": 1,
-    "freq_rank": 1528,
+    "freq_rank": 1531,
     "example": {
       "fiwo": "Zosup jabeis.",
       "english": "Autumn will be cold."
@@ -22375,7 +22375,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 456,
     "freq": 1,
-    "freq_rank": 1529,
+    "freq_rank": 1532,
     "example": {
       "fiwo": "Zowumpu lini tep melfu je zavei.",
       "english": "Inflation makes prices high."
@@ -22389,7 +22389,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 172,
     "freq": 13,
-    "freq_rank": 425,
+    "freq_rank": 426,
     "example": {
       "fiwo": "Mik sowid ty zufop.",
       "english": "I fell on the bed."
@@ -22404,7 +22404,7 @@ const dictionaryData = [
     "rank": 331,
     "usage_note": "Waking only — you can wake without getting up. Getting out of bed is rizi.",
     "freq": 10,
-    "freq_rank": 493,
+    "freq_rank": 496,
     "example": {
       "fiwo": "Mik zulxid amute.",
       "english": "I woke up early."
@@ -22418,7 +22418,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 142,
     "freq": 2,
-    "freq_rank": 1059,
+    "freq_rank": 1061,
     "example": {
       "fiwo": "Biznu jedi zupokrup.",
       "english": "The company has capital."
@@ -22432,7 +22432,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 305,
     "freq": 0,
-    "freq_rank": 3382,
+    "freq_rank": 3385,
     "example": {
       "fiwo": "Zurkop das nifne.",
       "english": "Her shovel is small."
@@ -22446,7 +22446,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 317,
     "freq": 1,
-    "freq_rank": 1530,
+    "freq_rank": 1533,
     "example": {
       "fiwo": "Daq jopxid zusabrur wecdu.",
       "english": "He had surgery yesterday."
@@ -22460,7 +22460,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 26,
     "freq": 1,
-    "freq_rank": 1532,
+    "freq_rank": 1535,
     "example": {
       "fiwo": "Zuslefup sile guami ruze.",
       "english": "This algorithm counts fast."
@@ -22510,7 +22510,7 @@ const dictionaryData = [
     "tier": 2,
     "rank": 346,
     "freq": 1,
-    "freq_rank": 1533,
+    "freq_rank": 1536,
     "example": {
       "fiwo": "Deta usi ky zygloro.",
       "english": "The dog sleeps in the shade."
@@ -22524,7 +22524,7 @@ const dictionaryData = [
     "tier": 1,
     "rank": 39,
     "freq": 18,
-    "freq_rank": 344,
+    "freq_rank": 343,
     "example": {
       "fiwo": "Mik zylid jatanop.",
       "english": "I used the pen."
@@ -22539,7 +22539,7 @@ const dictionaryData = [
     "tier": 0,
     "rank": 136,
     "freq": 0,
-    "freq_rank": 1834,
+    "freq_rank": 1837,
     "example": {
       "fiwo": "Syn teso cutwe can mik nomis ram din mik nomis refo.",
       "english": "If the tea is ready, I will drink it, otherwise I will drink coffee."
@@ -22552,8 +22552,8 @@ const dictionaryData = [
     "definition": "Direct-quote bracket (Rule 30.9). Opens a verbatim quotation — the quoted person's own pronouns, mood tags, tense and deixis — closed by 'tel' (optional at the sentence end, Rule 30.7). Legal only where a complement is: after a verb awaiting its object, usually a verb of speech or thought. Contrast 'tep', which after such a verb is reported speech from the narrator's perspective: 'Daq gesid huc mik ripei' = He said, \"I am hot\"; 'Daq gesid tep mik ripei' = He said that I am hot.",
     "tier": 0,
     "rank": 137,
-    "freq": 834,
-    "freq_rank": 6,
+    "freq": 835,
+    "freq_rank": 5,
     "example": {
       "fiwo": "Das gesid huc mik kypei.",
       "english": "She said, \"I am happy.\""
@@ -22567,7 +22567,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 592,
     "freq": 0,
-    "freq_rank": 2396,
+    "freq_rank": 2399,
     "example": {
       "fiwo": "Das gesid huc Suk kwotui ram bul biwup nifnei.",
       "english": "She said, \"You are exaggerating it, but the problem is small.\""
@@ -22581,7 +22581,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 593,
     "freq": 0,
-    "freq_rank": 2456,
+    "freq_rank": 2459,
     "example": {
       "fiwo": "Syn suk lizjuis ram can nofa je nes jofis suk.",
       "english": "If you downplay it, then people will not help you."
@@ -22599,7 +22599,7 @@ const dictionaryData = [
     ],
     "usage_note": "The judgement itself. A general attitude or manner toward something is decu.",
     "freq": 0,
-    "freq_rank": 2219,
+    "freq_rank": 2222,
     "example": {
       "fiwo": "Kup ipsgup suke zety nibop?",
       "english": "What is your opinion of the book?"
@@ -22617,7 +22617,7 @@ const dictionaryData = [
     ],
     "usage_note": "Common (found often) is compe; famous (widely known) is zihe.",
     "freq": 0,
-    "freq_rank": 1721,
+    "freq_rank": 1724,
     "example": {
       "fiwo": "Hautup sile cactei.",
       "english": "This music is popular."
@@ -22635,7 +22635,7 @@ const dictionaryData = [
     ],
     "usage_note": "Onion is uwa.",
     "freq": 0,
-    "freq_rank": 2990,
+    "freq_rank": 2993,
     "example": {
       "fiwo": "Mik lanti sygpa zy batap.",
       "english": "I add garlic to the food."
@@ -22653,7 +22653,7 @@ const dictionaryData = [
     ],
     "usage_note": "Lion is iega.",
     "freq": 0,
-    "freq_rank": 2026,
+    "freq_rank": 2029,
     "example": {
       "fiwo": "Fryrap cafi ruze.",
       "english": "The tiger runs fast."
@@ -22667,7 +22667,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 598,
     "freq": 1,
-    "freq_rank": 1403,
+    "freq_rank": 1406,
     "example": {
       "fiwo": "Daq karxid rurjo hemy padupro.",
       "english": "He found sulfur near the lava."
@@ -22682,7 +22682,7 @@ const dictionaryData = [
     "rank": 599,
     "usage_note": "A saddle is ifloco; a plain rope is odcano.",
     "freq": 1,
-    "freq_rank": 1517,
+    "freq_rank": 1520,
     "example": {
       "fiwo": "Mik swamid xwafo ty kaba.",
       "english": "I put a harness on the horse."
@@ -22697,7 +22697,7 @@ const dictionaryData = [
     "rank": 600,
     "usage_note": "Small and involuntary. A deliberate or larger shaking is ufdi.",
     "freq": 1,
-    "freq_rank": 1359,
+    "freq_rank": 1362,
     "example": {
       "fiwo": "Detap papjid dury usiu.",
       "english": "The dog twitched in its sleep."
@@ -22711,7 +22711,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 601,
     "freq": 1,
-    "freq_rank": 1455,
+    "freq_rank": 1458,
     "example": {
       "fiwo": "Nak sapid tyfmo hemy xadoro.",
       "english": "We made a camp near the river."
@@ -22726,7 +22726,7 @@ const dictionaryData = [
     "rank": 602,
     "usage_note": "Glue made by people is agmi.",
     "freq": 1,
-    "freq_rank": 1102,
+    "freq_rank": 1104,
     "example": {
       "fiwo": "Mik kilid dacwo ty cevolo.",
       "english": "I touched resin on the log."
@@ -22741,7 +22741,7 @@ const dictionaryData = [
     "rank": 603,
     "usage_note": "A public park is nevono.",
     "freq": 1,
-    "freq_rank": 1131,
+    "freq_rank": 1133,
     "example": {
       "fiwo": "Mana mike onasid mula je deky emamo.",
       "english": "My mother planted flowers in the garden."
@@ -22770,7 +22770,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 605,
     "freq": 3,
-    "freq_rank": 878,
+    "freq_rank": 881,
     "example": {
       "fiwo": "Xigfop jedi facu gloke.",
       "english": "A square has four sides."
@@ -22785,7 +22785,7 @@ const dictionaryData = [
     "rank": 606,
     "usage_note": "A square (all sides equal) is xigfo.",
     "freq": 2,
-    "freq_rank": 924,
+    "freq_rank": 927,
     "example": {
       "fiwo": "Degop fobxoei.",
       "english": "The table is rectangular."
@@ -22799,7 +22799,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 607,
     "freq": 1,
-    "freq_rank": 1526,
+    "freq_rank": 1529,
     "example": {
       "fiwo": "Cadap sapid zoclor ty paelop.",
       "english": "The child made a triangle on the paper."
@@ -22814,7 +22814,7 @@ const dictionaryData = [
     "rank": 608,
     "usage_note": "The flat face of a cube is xigfo (square).",
     "freq": 1,
-    "freq_rank": 1368,
+    "freq_rank": 1371,
     "example": {
       "fiwo": "Pevhop jedi facu sluqe.",
       "english": "A cube has six sides."
@@ -22828,7 +22828,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 609,
     "freq": 1,
-    "freq_rank": 1117,
+    "freq_rank": 1119,
     "example": {
       "fiwo": "Dzehop waske zavei.",
       "english": "The old pyramid is tall."
@@ -22842,7 +22842,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 610,
     "freq": 1,
-    "freq_rank": 1394,
+    "freq_rank": 1397,
     "example": {
       "fiwo": "Meokop xy ratvo.",
       "english": "The hat is shaped like a cone."
@@ -22856,7 +22856,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 611,
     "freq": 2,
-    "freq_rank": 1005,
+    "freq_rank": 1007,
     "example": {
       "fiwo": "Tulop xy pwoko.",
       "english": "The bottle is shaped like a cylinder."
@@ -22871,7 +22871,7 @@ const dictionaryData = [
     "rank": 612,
     "usage_note": "A true circle is weokeo.",
     "freq": 1,
-    "freq_rank": 1247,
+    "freq_rank": 1250,
     "example": {
       "fiwo": "Irtap xy kemjo.",
       "english": "The egg is shaped like an oval."
@@ -22885,7 +22885,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 613,
     "freq": 1,
-    "freq_rank": 1469,
+    "freq_rank": 1472,
     "example": {
       "fiwo": "Nofa je xogri utsrudop.",
       "english": "People visit the temple."
@@ -22899,7 +22899,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 614,
     "freq": 1,
-    "freq_rank": 1371,
+    "freq_rank": 1374,
     "example": {
       "fiwo": "Nak xogrid pjalktop waske.",
       "english": "We visited the old ruins."
@@ -22914,7 +22914,7 @@ const dictionaryData = [
     "rank": 615,
     "usage_note": "A statue on its own is kyzko.",
     "freq": 1,
-    "freq_rank": 1259,
+    "freq_rank": 1262,
     "example": {
       "fiwo": "Kocjydop gugi hemy sydop mike.",
       "english": "The monument stands near my house."
@@ -22929,7 +22929,7 @@ const dictionaryData = [
     "rank": 616,
     "usage_note": "A firm demand that expects to be met is voci.",
     "freq": 1,
-    "freq_rank": 1101,
+    "freq_rank": 1103,
     "example": {
       "fiwo": "Daq cymgid gidu fy mana dale.",
       "english": "He asked his mother for money."
@@ -22943,7 +22943,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 617,
     "freq": 2,
-    "freq_rank": 979,
+    "freq_rank": 981,
     "example": {
       "fiwo": "Nilfo xalid ty susno.",
       "english": "The cursor moved on the screen."
@@ -22957,7 +22957,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 618,
     "freq": 2,
-    "freq_rank": 956,
+    "freq_rank": 958,
     "example": {
       "fiwo": "Jyjoa kogwid kopiu je.",
       "english": "The programmer debugged the commands."
@@ -22971,7 +22971,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 619,
     "freq": 1,
-    "freq_rank": 1089,
+    "freq_rank": 1091,
     "example": {
       "fiwo": "Mik sapid lakiro mety camero.",
       "english": "I took a photo with the camera."
@@ -22986,7 +22986,7 @@ const dictionaryData = [
     "rank": 620,
     "usage_note": "A plain list is falfoso.",
     "freq": 1,
-    "freq_rank": 1413,
+    "freq_rank": 1416,
     "example": {
       "fiwo": "Kop laeki bata fy skemop.",
       "english": "Choose food from the menu."
@@ -23001,7 +23001,7 @@ const dictionaryData = [
     "rank": 621,
     "usage_note": "A ticket for travel or entry is oqo.",
     "freq": 1,
-    "freq_rank": 1489,
+    "freq_rank": 1492,
     "example": {
       "fiwo": "Kop stomi vykzop zy mik.",
       "english": "Give the token to me."
@@ -23030,7 +23030,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 623,
     "freq": 1,
-    "freq_rank": 1169,
+    "freq_rank": 1172,
     "example": {
       "fiwo": "Rehustop zyli gabko bime.",
       "english": "The server uses one port."
@@ -23044,7 +23044,7 @@ const dictionaryData = [
     "tier": 3,
     "rank": 624,
     "freq": 2,
-    "freq_rank": 1034,
+    "freq_rank": 1036,
     "example": {
       "fiwo": "Tycfup flygue muilei.",
       "english": "The backend of the program is difficult."
@@ -23059,7 +23059,7 @@ const dictionaryData = [
     "rank": 625,
     "usage_note": "Something that merely happens at the same time is durye.",
     "freq": 1,
-    "freq_rank": 1425,
+    "freq_rank": 1428,
     "example": {
       "fiwo": "Mik spedid telfop lan jyjop.",
       "english": "I synced the phone and the computer."
@@ -23074,7 +23074,7 @@ const dictionaryData = [
     "rank": 626,
     "usage_note": "Ordinary small is nifne. Scale series: twope (micro) · trose (meso) · kjode (macro).",
     "freq": 1,
-    "freq_rank": 1454,
+    "freq_rank": 1457,
     "example": {
       "fiwo": "Mik upycid cemu je twope.",
       "english": "I looked at the tiny things."
@@ -23089,7 +23089,7 @@ const dictionaryData = [
     "rank": 627,
     "usage_note": "Scale series: twope (micro) · trose (meso) · kjode (macro).",
     "freq": 1,
-    "freq_rank": 1448,
+    "freq_rank": 1451,
     "example": {
       "fiwo": "Biwup sile trosei.",
       "english": "This problem is at the middle scale."
@@ -23104,7 +23104,7 @@ const dictionaryData = [
     "rank": 628,
     "usage_note": "Ordinary big is tande. Scale series: twope (micro) · trose (meso) · kjode (macro). A command template in a game is vuglo kopiue.",
     "freq": 1,
-    "freq_rank": 1258,
+    "freq_rank": 1261,
     "example": {
       "fiwo": "Kop upyci biwup kjode.",
       "english": "Look at the problem at the large scale."
@@ -23119,7 +23119,7 @@ const dictionaryData = [
     "rank": 137,
     "usage_note": "The act of turning something on is leoci. Opposite: afre.",
     "freq": 1,
-    "freq_rank": 1168,
+    "freq_rank": 1171,
     "example": {
       "fiwo": "Opowo fyre.",
       "english": "The lamp is on."
@@ -23134,7 +23134,7 @@ const dictionaryData = [
     "rank": 83,
     "usage_note": "The act of turning something off is coqyni. Opposite: fyre.",
     "freq": 3,
-    "freq_rank": 776,
+    "freq_rank": 779,
     "example": {
       "fiwo": "Jyjo afre.",
       "english": "The computer is off."
@@ -23149,7 +23149,7 @@ const dictionaryData = [
     "rank": 631,
     "usage_note": "The animal is voha; the arrow on the screen is nilfo.",
     "freq": 2,
-    "freq_rank": 1032,
+    "freq_rank": 1034,
     "example": {
       "fiwo": "Kup tugdo suke afre?",
       "english": "Is your mouse off?"
@@ -23164,7 +23164,7 @@ const dictionaryData = [
     "rank": 632,
     "usage_note": "To pretend or imagine is zelbi.",
     "freq": 1,
-    "freq_rank": 1064,
+    "freq_rank": 1066,
     "example": {
       "fiwo": "Jyjop amogid vexup.",
       "english": "The computer simulated the weather."
@@ -23182,7 +23182,7 @@ const dictionaryData = [
     ],
     "usage_note": "A car is blyfo, a train atripo. Not every public vehicle is a bus.",
     "freq": 5,
-    "freq_rank": 693,
+    "freq_rank": 694,
     "example": {
       "fiwo": "Mik xali mety nuvwor zy ibazop.",
       "english": "I go to school by bus."
@@ -23200,7 +23200,7 @@ const dictionaryData = [
     ],
     "usage_note": "The insect. To fly is cyri. A firefly is kruda fuegoe.",
     "freq": 1,
-    "freq_rank": 1264,
+    "freq_rank": 1267,
     "example": {
       "fiwo": "Krudar cyriq deky krulop.",
       "english": "A fly is flying in the room."
@@ -23218,7 +23218,7 @@ const dictionaryData = [
     ],
     "usage_note": "Between two things is the preposition zory; a border or edge is lutufro.",
     "freq": 0,
-    "freq_rank": 2859,
+    "freq_rank": 2862,
     "example": {
       "fiwo": "Xiolop ky sadfop.",
       "english": "The chair is in the corner."
@@ -23236,7 +23236,7 @@ const dictionaryData = [
     ],
     "usage_note": "Sleeping is usi; a vacation is dangu. The noun rest / relaxation is zozhiu.",
     "freq": 0,
-    "freq_rank": 3377,
+    "freq_rank": 3380,
     "example": {
       "fiwo": "Kop zozhi nu.",
       "english": "Relax now."

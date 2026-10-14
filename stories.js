@@ -1229,12 +1229,12 @@ const storyData = [
   },
   {
     "title": "Janongop",
-    "wordCount": 893,
+    "wordCount": 895,
     "grade": {
       "band": "starter",
       "coverage": 90,
       "density": 0.7,
-      "roots": 233,
+      "roots": 234,
       "newRoots": 58
     },
     "lines": [
@@ -1547,7 +1547,7 @@ const storyData = [
         "english": "She waited again."
       },
       {
-        "fiwo": "Peze das gesid huc Jo Vesku. Mik nes slezi tep suv sejis nacit.",
+        "fiwo": "Zet pezeu can das gesid huc Jo Vesku. Mik nes slezi tep suv sejis nacit.",
         "english": "Then she said: \"Vesku. I am not asking you to stop working.\""
       },
       {
@@ -2631,12 +2631,12 @@ const storyData = [
   },
   {
     "title": "Lizogop",
-    "wordCount": 2215,
+    "wordCount": 2219,
     "grade": {
       "band": "starter",
       "coverage": 89,
       "density": 0.66,
-      "roots": 201,
+      "roots": 203,
       "newRoots": 52
     },
     "lines": [
@@ -3057,7 +3057,7 @@ const storyData = [
         "english": "I thought about that for a long night."
       },
       {
-        "fiwo": "Peze mik nekid.",
+        "fiwo": "Mik nekid pezeu.",
         "english": "Then I sat down."
       },
       {
@@ -3133,7 +3133,7 @@ const storyData = [
         "english": "He read my report and did not speak."
       },
       {
-        "fiwo": "Peze daq gesid huc Suk jamid gop okse.",
+        "fiwo": "Zet pezeu can daq gesid huc Suk jamid gop okse.",
         "english": "Then he said: \"You wrote a wrong word.\""
       },
       {
@@ -3177,7 +3177,7 @@ const storyData = [
         "english": "I looked at him for a long time."
       },
       {
-        "fiwo": "Peze mik dzefid.",
+        "fiwo": "Mik dzefid pezeu.",
         "english": "Then I agreed."
       },
       {
@@ -3309,7 +3309,7 @@ const storyData = [
         "english": "I wrote the report before daylight."
       },
       {
-        "fiwo": "Peze mik stelid paelor felpe.",
+        "fiwo": "Mik stelid paelor felpe pezeu.",
         "english": "Then I took a different piece of paper."
       },
       {
@@ -3441,7 +3441,7 @@ const storyData = [
         "english": "She did not speak for a time."
       },
       {
-        "fiwo": "Peze das slezid huc Kup fos falmiop trive?",
+        "fiwo": "Zet pezeu can das slezid huc Kup fos falmiop trive?",
         "english": "Then she asked: \"Is that a true report?\""
       },
       {
@@ -3589,7 +3589,7 @@ const storyData = [
         "english": "I read it three times."
       },
       {
-        "fiwo": "Peze mik stelid zy hanop ram.",
+        "fiwo": "Mik stelid zy hanop ram pezeu.",
         "english": "Then I put it into the box."
       },
       {
@@ -4017,7 +4017,7 @@ const storyData = [
         "english": "I counted the cargo and then wrote the weight."
       },
       {
-        "fiwo": "Peze mik guamid nofa je bef mik jamid hisu je ty baxyop.",
+        "fiwo": "Mik guamid nofa je pezeu bef mik jamid hisu je ty baxyop.",
         "english": "Then I counted the people and wrote the names on the back."
       },
       {
@@ -4036,7 +4036,7 @@ const storyData = [
   },
   {
     "title": "Nicup",
-    "wordCount": 2469,
+    "wordCount": 2489,
     "grade": {
       "band": "starter",
       "coverage": 92,
@@ -4350,7 +4350,7 @@ const storyData = [
         "english": "He did not speak for a moment."
       },
       {
-        "fiwo": "Peze daq slezid tep nofar gidsis xyrop.",
+        "fiwo": "Zet pezeu can daq slezid tep nofar gidsis xyrop.",
         "english": "Later he asked whether anyone would buy the shop."
       },
       {
@@ -4382,7 +4382,7 @@ const storyData = [
         "english": "The four people did not speak for a long time."
       },
       {
-        "fiwo": "Peze Gawin gesid tep dal je gesi zy daq gup.",
+        "fiwo": "Zet pezeu can Gawin gesid tep dal je gesi zy daq gup.",
         "english": "Then Gawin said that they should tell him a number."
       },
       {
@@ -4518,7 +4518,7 @@ const storyData = [
         "english": "Gawin read it quietly for a while."
       },
       {
-        "fiwo": "Peze daq gesid tep nicup nes bimei.",
+        "fiwo": "Zet pezeu can daq gesid tep nicup nes bimei.",
         "english": "Then he said that the debt is not one."
       },
       {
@@ -4606,7 +4606,7 @@ const storyData = [
         "english": "Ilka stayed, but she did not speak."
       },
       {
-        "fiwo": "Peze Pesla gesid tep das wible stelid gidup fy pebap dase dury jarup fose.",
+        "fiwo": "Zet pezeu can Pesla gesid tep das wible stelid gidup fy pebap dase dury jarup fose.",
         "english": "Then Pesla said that she had taken money from her father that year."
       },
       {
@@ -4670,7 +4670,7 @@ const storyData = [
         "english": "Ilka did not move."
       },
       {
-        "fiwo": "Peze Pesla gesid tep Hyp syn das kanidyk fos can das nes stelidyk gidup.",
+        "fiwo": "Zet pezeu can Pesla gesid tep Hyp syn das kanidyk fos can das nes stelidyk gidup.",
         "english": "Then Pesla said that if she had known it, she would not have taken the money."
       },
       {
@@ -4718,7 +4718,7 @@ const storyData = [
         "english": "Rumo did not accept it."
       },
       {
-        "fiwo": "Peze daq slezid tep Gawin gesi kaniup daqe.",
+        "fiwo": "Zet pezeu can daq slezid tep Gawin gesi kaniup daqe.",
         "english": "Then he asked Gawin to say what he knew."
       },
       {
@@ -4770,7 +4770,7 @@ const storyData = [
         "english": "She looked at her hands."
       },
       {
-        "fiwo": "Peze das gesid tep das wible dzefid tep das zanki idvup.",
+        "fiwo": "Zet pezeu can das gesid tep das wible dzefid tep das zanki idvup.",
         "english": "Later she said that she had agreed to hide a secret."
       },
       {
@@ -4814,7 +4814,7 @@ const storyData = [
         "english": "She went quiet."
       },
       {
-        "fiwo": "Peze das gesid tep folkunup dase nes vepid zankiup.",
+        "fiwo": "Zet pezeu can das gesid tep folkunup dase nes vepid zankiup.",
         "english": "Later she said that her dignity had not needed concealment."
       },
       {
@@ -5034,7 +5034,7 @@ const storyData = [
         "english": "Rumo did not speak for a while."
       },
       {
-        "fiwo": "Peze daq gesid tep das nacid dury jaru kaget kaget neswy hokeltur.",
+        "fiwo": "Zet pezeu can daq gesid tep das nacid dury jaru kaget kaget neswy hokeltur.",
         "english": "Later he said that she had worked twenty-two years without an income."
       },
       {
@@ -5202,7 +5202,7 @@ const storyData = [
         "english": "Rumo looked at her for a moment."
       },
       {
-        "fiwo": "Peze daq gesid tep daq wible fwimis nu.",
+        "fiwo": "Zet pezeu can daq gesid tep daq wible fwimis nu.",
         "english": "Then he said that he himself would leave now."
       },
       {
@@ -5250,7 +5250,7 @@ const storyData = [
         "english": "He waited in the street, and Pesla left."
       },
       {
-        "fiwo": "Peze daq retibid zy xyrop.",
+        "fiwo": "Daq retibid zy xyrop pezeu.",
         "english": "Then he came back to the shop."
       },
       {
@@ -5330,7 +5330,7 @@ const storyData = [
         "english": "Gawin looked at him for a long moment."
       },
       {
-        "fiwo": "Peze daq stelid gidup fy Rumo.",
+        "fiwo": "Daq stelid gidup fy Rumo pezeu.",
         "english": "Then he took the money from Rumo."
       },
       {
@@ -10793,12 +10793,12 @@ const storyData = [
   },
   {
     "title": "II. Lozuxup jedid hiror (The Song With a Hole In It)",
-    "wordCount": 896,
+    "wordCount": 898,
     "grade": {
       "band": "fluent",
       "coverage": 82,
       "density": 1.36,
-      "roots": 271,
+      "roots": 272,
       "newRoots": 89
     },
     "lines": [
@@ -10867,7 +10867,7 @@ const storyData = [
         "english": "She found a place where he had fallen and got up."
       },
       {
-        "fiwo": "Peze das karxid uqup my wusa daqe deky daxokop waske.",
+        "fiwo": "Das karxid uqup my wusa daqe deky daxokop waske pezeu.",
         "english": "Further on she found the print of his hand in old frost."
       },
       {
@@ -10915,7 +10915,7 @@ const storyData = [
         "english": "She had not cried on the white road."
       },
       {
-        "fiwo": "Peze das xygajid.",
+        "fiwo": "Das xygajid pezeu.",
         "english": "Then she went on."
       },
       {
@@ -11011,7 +11011,7 @@ const storyData = [
         "english": "Dromu had taught her brother in exactly that way."
       },
       {
-        "fiwo": "Peze das joborid hirop.",
+        "fiwo": "Das joborid hirop pezeu.",
         "english": "Then she came to the hole."
       },
       {
@@ -11119,7 +11119,7 @@ const storyData = [
         "english": "She does not know how."
       },
       {
-        "fiwo": "Peze syn nofa je slezid das can das nes hadid wece.",
+        "fiwo": "Zet pezeu can syn nofa je slezid das can das nes hadid wece.",
         "english": "Afterwards, when people asked her, she never answered well."
       },
       {
@@ -11255,7 +11255,7 @@ const storyData = [
         "english": "The silence went on so long that she began to shake."
       },
       {
-        "fiwo": "Peze rokup gesid bokem fe fwikem fe.",
+        "fiwo": "Rokup gesid bokem fe fwikem fe pezeu.",
         "english": "Then the dark spoke, badly and slowly."
       },
       {
@@ -11783,12 +11783,12 @@ const storyData = [
   },
   {
     "title": "III. Kluxeup (The Silence)",
-    "wordCount": 1109,
+    "wordCount": 1117,
     "grade": {
       "band": "fluent",
       "coverage": 83,
       "density": 1.35,
-      "roots": 288,
+      "roots": 290,
       "newRoots": 93
     },
     "lines": [
@@ -11889,7 +11889,7 @@ const storyData = [
         "english": "But the purpose had never been there."
       },
       {
-        "fiwo": "Daq kluxeid dury tequr. Peze daq gesid huc Kluxeu je.",
+        "fiwo": "Daq kluxeid dury tequr. Zet pezeu can daq gesid huc Kluxeu je.",
         "english": "He was quiet a while. Then he said: \"The pauses.\""
       },
       {
@@ -11901,7 +11901,7 @@ const storyData = [
         "english": "He said: \"I counted them. For twenty years I counted them.\""
       },
       {
-        "fiwo": "Peze daq rehid.",
+        "fiwo": "Daq rehid pezeu.",
         "english": "Then he cried."
       },
       {
@@ -11921,7 +11921,7 @@ const storyData = [
         "english": "Firstly they stayed because Talvo could not walk."
       },
       {
-        "fiwo": "Peze nofa kage dwagid kad cemur linucid deky kluxeu je.",
+        "fiwo": "Nofa kage dwagid pezeu kad cemur linucid deky kluxeu je.",
         "english": "Then they stayed because of what happened in the pauses."
       },
       {
@@ -12005,7 +12005,7 @@ const storyData = [
         "english": "She thought it was a small thing."
       },
       {
-        "fiwo": "Peze das paulid ofxup zety poziup dase.",
+        "fiwo": "Das paulid ofxup zety poziup dase pezeu.",
         "english": "Later she felt shame about that thought."
       },
       {
@@ -12121,7 +12121,7 @@ const storyData = [
         "english": "He looked at Talvo for a long time."
       },
       {
-        "fiwo": "Peze daq gesid kluxem fe huc Ram hadid suk.",
+        "fiwo": "Zet pezeu can daq gesid kluxem fe huc Ram hadid suk.",
         "english": "Then he said, quietly: \"It answered you.\""
       },
       {
@@ -12197,7 +12197,7 @@ const storyData = [
         "english": "That was the whole of the thing Sevla had never allowed."
       },
       {
-        "fiwo": "Peze das fenutid nofa je cemu je otre.",
+        "fiwo": "Zet pezeu can das fenutid nofa je cemu je otre.",
         "english": "Then she told them the rest."
       },
       {
@@ -12245,7 +12245,7 @@ const storyData = [
         "english": "He sat in the dark and said the name they had agreed on."
       },
       {
-        "fiwo": "Peze daq nes gesid dury gomu je sluqe bef daq pywid.",
+        "fiwo": "Daq nes gesid dury gomu je sluqe pezeu bef daq pywid.",
         "english": "Then he said nothing for six hours, and he listened."
       },
       {
@@ -12265,7 +12265,7 @@ const storyData = [
         "english": "You climb the mountain. You say the name."
       },
       {
-        "fiwo": "Peze suk kluxei fecy dionup tep suk kujondi luge.",
+        "fiwo": "Zet pezeu can suk kluxei fecy dionup tep suk kujondi luge.",
         "english": "Then you stay quiet for as long as you can bear."
       },
       {
@@ -12324,7 +12324,7 @@ const storyData = [
   },
   {
     "title": "Jokuwup",
-    "wordCount": 2787,
+    "wordCount": 2788,
     "grade": {
       "band": "fluent",
       "coverage": 82,
@@ -12838,7 +12838,7 @@ const storyData = [
         "english": "That person replied, \"It means the same thing.\""
       },
       {
-        "fiwo": "Vesla nes dzefid bul das nes kanid tep glece gop okseid.",
+        "fiwo": "Vesla nes dzefid bul das nes kanid tep Kup gop glece okseid.",
         "english": "Vesla did not agree, and she could not tell which word was wrong."
       },
       {

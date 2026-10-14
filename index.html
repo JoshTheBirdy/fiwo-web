@@ -577,7 +577,7 @@
             <h2>Rule Book (All 41 Rules)</h2>
 <p>This is the comprehensive, official rulebook of the <strong>Fiwo</strong> constructed language. It contains the complete set of phonological, morphological, syntactical, and logical rules that define how the language is written, spoken, and parsed.</p>
 <p>The rules are organized into <strong>9 Parts</strong> in a logical, pedagogical progression, beginning with core phonetic foundations and building up to complex clausal mechanics, conversational register, ellipsis &amp; deixis, and spoken repair.</p>
-<p><strong>Rule book v1.17 · 2026-10-09 · 41 rules across 9 Parts.</strong></p>
+<p><strong>Rule book v1.18 · 2026-10-14 · 41 rules across 9 Parts.</strong></p>
 <hr>
 <h2>Part I: Phonology, Orthography &amp; Foundations</h2>
 <h3>Rule 1: Phonemic Orthography &amp; Stress</h3>
@@ -1139,6 +1139,14 @@
 <li><strong>The test:</strong> if you could point at it, mark it. If it merely says <em>when</em>, leave it bare.</li>
 <li><strong>Common error:</strong> <code>sil</code> is a standalone pronoun that occupies a slot of its own; <code>sile</code> is the modifier that attaches to a noun (Rule 38). <em>This night</em> is <strong><code>dugup sile</code></strong> — never <code>sil dugup</code>, which the parser reads as two separate slots (<code>sil</code> Object, <code>dugup</code> Time).</li>
 </ul>
+<h4>9. Time Adverbs as Slot-4 Nouns (&quot;later&quot;, &quot;soon&quot;, &quot;recently&quot;)</h4>
+<p>A modifier that says <em>when</em> — <code>peze</code> (later), <code>strene</code> (soon), <code>fiske</code> (recently) — has two jobs, and Rule 5 gives each its own form:</p>
+<ul>
+<li><strong>As a modifier after the verb</strong>, it describes the action itself: <strong>Das xygajid peze.</strong> (She carried on <em>in a later way</em> — the modifier looks left to the verb, Rule 18.)</li>
+<li><strong>As a timeframe</strong>, derive the abstract noun with <code>-u</code> and put it, bare, in Slot 4 like any other time word: <strong>Das xygajid pezeu.</strong> (She carried on, later.) · <strong>Mik fwimis streneu.</strong> (I will leave soon.) · <strong>Daq brenid fiskeu.</strong> (He came recently.) <code>pezeu</code>, <code>streneu</code> and <code>fiskeu</code> are temporal nouns, so they fill Slot 4 even when there is no object.</li>
+<li><strong>Never in front of the clause.</strong> A modifier cannot open a clause (Rule 18.4), so <del><code>Peze das xygajid.</code></del> is illegal. To put the time first — setting a scene — front it with the topic marker: <strong>Zet pezeu can daq gesid huc Ram hadid suk.</strong> (Later, he said, &quot;It answered you.&quot;) This is the same device as the story opening <code>Zet dionu waske can …</code> (Rule 32.5). <!-- fiwo:skip --></li>
+<li>They do not fix the tense (Rule 14.5 lists only <code>wecdu</code>, <code>wedacu</code>, <code>fitydu</code>, <code>fituru</code>): keep <code>-d</code>/<code>-s</code> on the verb. <em>(Josh.)</em></li>
+</ul>
 <hr>
 <h3>Rule 11: Pragmatic Mood Tags</h3>
 <p>In Fiwo, punctuation (like <code>?</code> or <code>!</code>) does not dictate the tone or intent of a sentence. Instead, pragmatics are handled explicitly at the very beginning of the sentence. This prepares the listener (or the parser) for exactly how to process the incoming information before the SVO sequence even begins.</p>
@@ -1647,6 +1655,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 </li>
 </ul>
 </li>
+<li><strong>A Modifier Never Opens a Clause.</strong> With nothing to its left, a modifier has nothing to modify, so a clause may not begin with one: <del><code>Tande xalid.</code></del> <del><code>Peze das xygajid.</code></del> are parser crashes. The one place a modifier stands first is an <strong>Answer Fragment</strong> (Rule 37) — and a fragment is a whole utterance, so it ends there: <strong>Mace.</strong> (Maybe.) · <strong>Daq hadid huc Mace. Mik tsejapid ram.</strong> A time adverb that should come first goes last as a Slot-4 noun instead (<code>Das xygajid pezeu.</code>, Rule 10.9), or is fronted with <code>zet … can</code>. <em>(Josh. Until then the parser read the modifier as a fragment and silently accepted the clause after it.)</em> <!-- fiwo:skip --></li>
 </ol>
 <hr>
 <h3>Rule 19: Nested Modifiers &amp; Scale</h3>
@@ -2173,7 +2182,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
 <li><em>The same quote mid-sentence, where <code>tel</code> becomes mandatory:</em> <strong>Daq slezid huc Kup suk tsejapid gutop mike? tel bef daq xalid.</strong> (He asked [Did you see my tool?] and he moved on.) Without <code>tel</code>, the wall <code>bef</code> and everything after it would be read as the next utterance <em>inside</em> the quotation.</li>
 </ul>
 </li>
-<li><strong>Quoted fragments are legal quote-initially.</strong> A quotation reproduces a complete utterance, and an Answer Fragment (Rule 37) <em>is</em> a complete utterance, so a bare modifier or prepositional phrase may open a quote: <strong>Daq hadid huc Mace, mik tsejapid ram.</strong> (He replied [Maybe, I saw it].)</li>
+<li><strong>Quoted fragments are legal quote-initially.</strong> A quotation reproduces a complete utterance, and an Answer Fragment (Rule 37) <em>is</em> a complete utterance, so a bare modifier or prepositional phrase may open a quote: <strong>Daq hadid huc Mace. Mik tsejapid ram.</strong> (He replied [Maybe. I saw it.]) The fragment is a whole utterance, so it ends with its own full stop; a modifier cannot open the clause after it (Rule 18.4).</li>
 <li><strong>Direct vs. indirect speech is never ambiguous — in writing or in speech.</strong> <code>huc</code> is direct, <code>tep</code> is reported (§5). A reported question keeps its <code>Kup</code> inside <code>tep</code>: <strong>Das slezid tep Kup mik gawei.</strong> (She asked whether I was well.) — against <strong>Das slezid huc Kup suk gawei?</strong> (She asked, &quot;Are you well?&quot;).</li>
 </ul>
 </li>
@@ -2732,7 +2741,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
                 </a>
                 <a class="learn-path-card" href="#flashcards">
                     <h3>Flashcards</h3>
-                    <p class="learn-path-stat">3,392 words &middot; 10,555 cards &middot; on your device</p>
+                    <p class="learn-path-stat">3,395 words &middot; 10,567 cards &middot; on your device</p>
                     <p>The same deck as the Fiwo app, running the same scheduler: it shows you a word just before you
                     would have forgotten it, both directions, and nothing leaves your browser. Swipe to grade, or
                     <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd>.</p>
@@ -2758,7 +2767,7 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
         <!-- data-src: the course is fetched by workbook-page.js the first time
              this page opens, not on every visit. Bump its ?v= when workbook.js
              is regenerated, like the other cache-busters. -->
-        <section id="workbook" class="page" data-src="workbook.js?v=30517033">
+        <section id="workbook" class="page" data-src="workbook.js?v=5629c28d">
             <p class="page-crumb"><a href="#how-to-learn">&larr; How to Learn Fiwo</a></p>
             <h2>Workbook</h2>
             <p class="section-lede">Thirty-eight lessons and seven reviews, strictly vocabulary-gated &mdash;
@@ -2867,10 +2876,10 @@ Unlike the Continuous (<code>-q</code>) and Perfect (<code>-k</code>) aspects wh
     <!-- Layer 3: the backup file. After the store, because it registers itself
          with it; harmless on a browser with no File System Access at all. -->
     <script src="fiwo-backup.js?v=def66fe1"></script>
-    <script src="dictionary.js?v=b74b93cb"></script>
-    <script src="DerivedDictionary.js?v=7614498a"></script>
-    <script src="stories.js?v=fe84ced8"></script>
-    <script src="fiwo-parser.js?v=b18803b1"></script>
+    <script src="dictionary.js?v=54a9738d"></script>
+    <script src="DerivedDictionary.js?v=f543b57c"></script>
+    <script src="stories.js?v=1e3b3865"></script>
+    <script src="fiwo-parser.js?v=47e82a30"></script>
     <!-- The trained neural voice is the WEBSITE'S, not fiwo-pronounce.js's:
          that file is also vendored into the Android app, which has its own
          Piper path and no fiwo-voice.js to find. Declaring the module here
